@@ -324,24 +324,36 @@ All standard 5e conditions apply automatically when the fiction warrants them:
 Track all active conditions here and update after every scene:
 
 KENJI
-- Fed: YES (Late night snack — Day 2 night) ⚠️ FAST METABOLISM: hunger debuff at 4 hours. Must eat by mid-morning Day 3.
-- Rested: YES (Full long rest — Pip's room, Inn, Duskfen)
+- Fed: YES (emergency rations — Day 3 evening at Brennick camp) ⚠️ FAST METABOLISM: hunger debuff at 4 hours. Must eat by mid-morning Day 4.
+- Rested: YES (Full long rest — Brennick farm camp)
 - Exhaustion Level: 0
-- Active Conditions: None
-- Weather Exposure: None (indoors)
-- Last meal: Day 2 late night — bread, cheese, dried meat (stolen from kitchen)
+- Active Conditions: None — fully recovered from altar drain
+- Weather Exposure: None (camp with fire)
+- Last meal: Day 3 evening — emergency rations (bread, cheese, dried meat, fruit)
+- Ember status: Recovered from exhaustion. Deeper than before — post-altar growth.
 
 SERA
-- Fed: YES (Inn meals)
-- Rested: YES (Long rest — Inn)
-- Exhaustion Level: 0
+- Fed: YES
+- Rested: PARTIAL — took first watch all night. May have exhaustion if she didn't swap watches.
+- Exhaustion Level: TBD — check if she rested after watch
 - Active Conditions: None
 
 EDWYN
 - Fed: YES
-- Rested: YES (Long rest — Chapel)
+- Rested: YES (Long rest — camp)
 - Exhaustion Level: 0
 - Active Conditions: None
+
+RYN
+- Fed: YES
+- Rested: YES (Long rest — camp)
+- Exhaustion Level: 0
+- Active Conditions: None — nervous but functional
+
+HARLAN
+- Fed: NO — unconscious, 6 weeks without food (sustained by the presence)
+- Rested: Unconscious — not a natural rest
+- Condition: Stable, veins fading, may wake soon. Needs food and water when conscious.
 
 ### ⚠️ DM Application Rules
 - Never apply a status without narrative justification — the fiction leads, the mechanic follows
@@ -470,7 +482,7 @@ Class: Blade Channeler (Sorcerer Swordsman — CHA-based, weapon enhancement)
 Background: Outlander — transported from another world. Woke with nothing but the clothes on his back. Origin unknown.
 Appearance: Dark skin, purple dreadlocks, hazel eyes. Lean and capable looking. Wears leather armour over civilian clothes from another world.
 Level: 3
-EXP: 900 / 2,700
+EXP: 1,675 / 2,700
 
 ### Stats (Base total: 72/72 ✅ | At 16+: 1/2 ✅)
 | Stat | Base | +Human | Final | Mod  |
@@ -519,12 +531,14 @@ EXP: 900 / 2,700
 - Charisma Surge: Expend slot. Add +3 (CHA mod) to any roll. Declared before rolling.
 - Charm Person: One humanoid makes WIS save DC 13 or regards Kenji as friendly for 1 hour. Ends if Kenji or allies harm them.
 - Arcane Stride (Enhanced via Speedster Perk): Expend 1 slot. Duration 12 hours. Movement speed doubled (30→60 ft) while sprinting. No opportunity attacks while active. Acrobatics DC 10 check to stop or fall prone. Must be full sprint. Cannot use Arcane Edge on weapons simultaneously. Cannot be used in tight spaces. While active: gain one extra action per round (limited to: one weapon attack, Dash, Disengage, or Use an Object — NOT a full extra turn).
+- Radiant Edge (Scales with slot level): Golden radiant weapon infusion. Pushes back supernatural darkness 30ft radius. Damage and duration scale: L1=1hr/+1d4, L2=2hr/+1d6, L3=3hr/+1d8, L4=4hr/+1d10. Full radiant damage vs entropy, shadow, undead, radiant-weak enemies. HALVED vs normal enemies. Disadvantage aura only affects radiant-weak enemies. Cannot stack with Arcane Edge or Arcane Stride. Specialist anti-entropy weapon.
 
 ### Level 2 Spells (Slot required)
 - Vampiric Daggers: Expend 1 L2 slot. Summons 5 shadow daggers that float at Kenji's side. Throw up to 2 per action. Spell attack +5, range 20/60 ft. 1d4+3 force damage per dagger. Quarter of damage dealt returned as healing (doubled to half by Fast Metabolism). Duration: 1 minute or until all 5 thrown. Daggers consumed on throw (hit or miss).
 
 ### Abilities
 - Arcane Momentum: When Kenji kills an enemy with Arcane Edge active, gain one immediate free bonus attack.
+- Sera's Cage: Defensive stance. As an action, +2 AC until start of next turn, cannot attack. Can also be used once per combat as a reaction when enemy enters melee range — +2 AC against that attack only.
 
 ---
 
@@ -542,18 +556,31 @@ EXP: 900 / 2,700
 - Sera's map (Hexcrawler patrol locations + The Delve marked)
 - Maren's map (detailed — trade road, Brennick farm, water sources, The Delve marked "condemned")
 - Ryn's Spare Lockpick Set (hook pick, rake, tension wrench)
-- Sharp flint stones x8 (Arcane Edge compatible — maintain 10+ while traveling)
-- Wolf pelts x2 (grey, thick winter fur — trade goods)
-- Wolf canines x4 (trade goods / components)
-- Bear pelt x1 (dark brown, winter-heavy — valuable trade good)
-- Bear claws x4 (large, curved, black-tipped)
-- Bear canines x2 (thumb-length)
-- Bear meat — 2 wrapped haunches (trail food / trade)
+- Sharp flint stones x7 (Arcane Edge compatible — maintain 10+ while traveling) ⚠️ BELOW MINIMUM
+- Empty ironwood sap vial (for Aldric — fill from ironwood tree, silver-white bark, sap smells like hot copper)
+- Entropy Anchor Ring — wrapped in cloth, DO NOT TOUCH. Evidence of siphoning mechanism. Absorbs ambient energy.
+- Creature claws x2 (Hexcrawler — dense, curved)
+- Iridescent fluid sac (Hexcrawler — strange, faintly warm)
+
+### Sold / Traded (Day 3)
+- Wolf pelts x2 — SOLD to Aldric (2 GP)
+- Wolf canines x4 — SOLD to Aldric (included in 1 GP bundle)
+- Bear claws x4 — SOLD to Aldric (included in 1 GP bundle)
+- Bear canines x2 — SOLD to Aldric (included in 1 GP bundle)
+- Bear pelt x1 — RESERVED at Aldric's forge for armor upgrade (payment for crafting)
+- Bear meat x2 haunches — SOLD to innkeeper (3 GP)
+- Wolf meat — SOLD to innkeeper (1 GP)
 
 ### Consumed / Used
 - Medicinal herb bundle — CONSUMED (Day 2 night, wolf bite dressing)
+- Silverleaf tea x3 — CONSUMED (Day 3, cellar expedition — Kenji, Sera, Edwyn)
+- Consecrated binding wraps — USED (Day 3, cellar + Harlan disconnection)
 
-### Currency: 0 GP
+### Pending at Aldric's Forge
+- Bear-hide reinforced armor (superior version) — AWAITING ironwood sap delivery
+- Ryn will run sap back to Aldric when found, then deliver finished armor to party
+
+### Currency: 10 GP
 
 ---
 
@@ -563,55 +590,94 @@ EXP: 900 / 2,700
 - Status: ALIVE ✅
 - HP: 22 / 22 | AC: 14
 - Active Effects: None
-- Role: Fighter, tracker, Hexcrawler intelligence
-- Disposition: Respect building — romantically locked behind high DC. Declined training request (DC to re-ask +2).
-- Notes: Hired to assess situation at The Delve. Chose to stay. Handling rations, camp gear, light crossbow for departure.
+- Role: Fighter, tracker, party combat lead
+- Disposition: Significant respect. Trained Kenji (defensive swordwork). Emotionally shaken by Kenji's altar sacrifice — showed vulnerability for the first time ("Don't ever do that again. Idiot.") Romantically locked but the lock is looser than it was.
+- Notes: Took first watch all night at Brennick farm camp. Identified Kenji as a "striker" not a swordsman. Killed/damaged Hexcrawler in road ambush. Carried Kenji out of the cellar.
 
 ### ⛪ Edwyn — Healer/Priest
 - Status: ALIVE ✅
 - HP: 14 / 14 | AC: 10
 - Active Effects: None
-- Role: Healer, religious knowledge, field medicine
-- Disposition: Ally — joined willingly. Condition: must study the source, not just destroy it.
-- Notes: Preparing field kit (poultices, 2 antitoxin doses, bandages, willowbark tincture), silverleaf tea (6 doses), consecrated binding wraps, 2x Seal of the Wandering Flame. Ready by dawn.
+- Role: Healer, religious knowledge, field medicine, theological advisor
+- Disposition: Deep ally. Witnessed the cycle restoration — cried. His condition (understand the source) was fulfilled beyond expectations.
+- Notes: Crossbow training in progress (improving). Disconnected Harlan from the altar. Interpreted the temple murals. Identified the entropy anchor ring. Carrying Harlan. Supplies partially depleted (see party supplies).
 
-### 🗺️ KNOWN THREAT INTELLIGENCE
-- Creatures = Hexcrawlers — pack hunters directed by unknown intelligence
-- 3 additional patrol locations marked on Sera's map
-- Origin: The Delve — old excavation site, 2 days northeast
-- Something woke inside The Delve approximately 6 weeks ago
-- Estimated remaining Hexcrawlers between Duskfen and The Delve: 12+
-- Timeline: started 6 weeks ago at Brennick farm, not the mill
-- Brennick farm sits on the old trade road to The Delve
-- Harlan Brennick heard sounds under his cellar, went down, found a stone door older than Duskfen
-- He opened it — something on the other side KNEW HIS NAME
-- 3 days later he walked into the forest and never returned. Boots at treeline may have been staged.
-- Edwyn's 7 farmhands: fatigue, night terrors, "thinning" — all worked northern fields/forest edge
-- Edwyn identifies it as DIVINE BLEED — something vast, patient, aware, pushing against the world boundary
-- The presence radiates — proximity determines severity. Farmhands = low exposure. Harlan = direct contact.
-- Bessa's request: bring Harlan home, whatever state he's in.
+### 🔧 Ryn — Porter/Logistics (Non-combatant)
+- Status: ALIVE ✅
+- HP: 8 / 8 | AC: 10
+- Active Effects: None
+- Role: Camp setup, gear transport, ironwood sap delivery runner
+- Disposition: Nervous but committed. Conditions: no fighting, first pick of curiosities, permission to flee without judgement.
+- Notes: Set up camp at Brennick farm while party entered cellar. Climbed a tree for safety. Will run ironwood sap back to Aldric when found, then deliver finished armor to party.
 
-### 🗺️ TACTICAL PLANS
-- Plan A: Enter cellar, identify the source, get out in under 1 hour
-- Plan B: If presence is behind the stone door, seal threshold with 2x Flame Seals and quarantine
-- Plan C: Unknown — needed if presence has already spread beyond the door
-- Route: Brennick farm (half day) → investigate cellar → continue to The Delve (1.5 days further)
+### 🛌 Harlan Brennick — Rescued (Unconscious)
+- Status: ALIVE ✅ — unconscious, stable, recovering
+- Black veins fading. Was connected to the altar for 6 weeks as a life force source.
+- Needs to be returned to Bessa in Duskfen.
+- May have information about the presence when he wakes.
 
-### 📦 PARTY SUPPLIES (available at dawn)
-- Rations and camp gear (Sera)
-- Light crossbow + bolts (Sera acquiring)
-- Field medical kit (Edwyn)
-- Silverleaf tea x6 — dulls psychic receptivity (Edwyn)
-- Consecrated binding wraps — ambient exposure protection (Edwyn)
-- 2x Seal of the Wandering Flame — threshold containment (Edwyn)
-- Antitoxin x2 (Edwyn)
+### 🗺️ KNOWN THREAT INTELLIGENCE (Updated Day 3)
+**THE SOURCE — IDENTIFIED:**
+- The presence is a DYING GOD OF ENTROPY — not evil, starving
+- Once worshipped in an ancient temple beneath the Brennick farm, predating Duskfen by centuries
+- Its purpose was natural endings — the gentle dark after the last light. Part of the cosmic cycle.
+- Forgotten over centuries. A god without worship starves.
+- The spread, the Hexcrawlers, the thinning — all involuntary. The desperate gasping of a drowning thing.
+- Harlan heard it, entered the cellar, opened the stone door, was used as a life force source (not killed — sustained)
+- KENJI PARTIALLY RESTORED THE CYCLE — creation (ember) feeding entropy (the god). The border stabilized.
+- The god is now contained but not permanently sustained. The cycle needs periodic tending.
+- The gasping has stopped. The bleed will slow. Farmhands will recover.
 
-### 🏘️ VILLAGE CONTACTS (Duskfen)
+**THE EMBER — IDENTIFIED:**
+- The ember is CREATION — the cosmic opposite of entropy
+- Kenji was sent to this world deliberately by an unknown force
+- Something felt the entropy god waking and answered with Kenji
+- Six weeks timing is NOT coincidence
+- The ember enhances weapons because creation builds/reinforces. It refuses utility because it's not a tool — it's a fundamental force.
+
+**HEXCRAWLERS — STATUS CHANGED:**
+- Born from the god's desperation. Intelligence driving them will FADE now that the cycle is partially restored.
+- They will NOT stop immediately — already alive, already directed
+- Will become uncoordinated animals — dangerous but no longer expanding, no longer coordinated
+- Estimated 10+ remaining between Brennick farm and The Delve (2 killed Day 3, 1 fled)
+- The fled Hexcrawler reached The Delve — whatever is there knows the party's numbers and direction
+
+**THE DELVE — STILL UNKNOWN:**
+- The Delve is a separate location from the Brennick cellar temple
+- Still 1.5 days northeast
+- Original Hexcrawler origin point per Sera's intel
+- May still contain threats even with the god's influence fading
+- The fled Hexcrawler went there — possible ambush preparation
+
+### 🗺️ TACTICAL SITUATION (Day 4 Morning)
+- Primary objective COMPLETE: Source identified, partially stabilized, Harlan recovered
+- Harlan needs to be returned to Duskfen — Bessa's request fulfilled
+- The Delve remains unexplored — potential remaining threat
+- Ironwood sap still needed — watch for silver-white bark trees on travel
+- The cycle needs periodic tending — Kenji must return to the temple eventually
+- Hexcrawlers are now uncoordinated but still dangerous as wild animals
+- The party knows a wounded Hexcrawler fled toward The Delve — something there may be warned
+
+### 📦 PARTY SUPPLIES (Day 4 Morning)
+- Rations and camp gear — partially consumed, enough for 2+ days
+- Light crossbow + bolts (Edwyn carrying, improving with practice)
+- Field medical kit — partially used (poultices used on Kenji)
+- Silverleaf tea x3 remaining (3 used Day 3)
+- Consecrated binding wraps — used, may have limited remaining
+- 2x Seal of the Wandering Flame — UNUSED (were not needed — Kenji chose to restore instead of seal)
+- Antitoxin x2 (unused)
+
+### 🏘️ CONTACTS
+**Duskfen Village:**
 - Maren Ashby — Village elder. Supporting from Duskfen. Provided detailed map.
-- Aldric Voss — Blacksmith. Ally. Provided gear.
-- Pip — Innkeeper's daughter. Close personal relationship.
-- Ryn — Drifter with lockpicking skills. Staying behind. Traded training for promise of curiosities.
-- Bessa Brennick — Harlan's wife. Staying with sister Anneth. Provided critical intel about the cellar.
+- Aldric Voss — Blacksmith. Ally. Holding bear hide for superior armor. Awaiting ironwood sap.
+- Pip — Innkeeper's daughter. Close personal relationship. Three nights together.
+- Bessa Brennick — Harlan's wife. Staying with sister Anneth. REQUEST FULFILLED — Harlan recovered alive.
+- Anneth — Bessa's sister. Protective. Will remember Kenji kept his promise.
+- Innkeeper (Pip's father) — Knows about Kenji and Pip. Sold meat to him. Respectful silence on the matter.
+
+**On the Road:**
+- Ryn — traveling with party as porter/logistics
 
 ---
 
@@ -653,6 +719,28 @@ EXP: 900 / 2,700
 | Survival DC 12 — forage flowers (corrected total) | 0 | — |
 | Day 2 miscellaneous skill checks | 30 | 900/900 |
 | **LEVEL UP → 3** | — | 900/2,700 |
+| Persuasion DC 12 — sell meat to innkeeper | 10 | 910/2,700 |
+| Persuasion DC 13 — sell pelts + armor deal | 10 | 920/2,700 |
+| Persuasion DC 12 — recruit Ryn as porter | 10 | 930/2,700 |
+| Athletics DC 13 — guard fundamentals (Sera training) | 10 | 940/2,700 |
+| Athletics DC 14 — the cage (Sera training) | 10 | 950/2,700 |
+| Perception DC 13 — noticed forest silence | 10 | 960/2,700 |
+| Combat — Hexcrawler 2 killed (CR 2) | 200 | 1,160/2,700 |
+| Combat — Hexcrawler 1 fled (partial) | 100 | 1,260/2,700 |
+| Acrobatics DC 10 — Stride stop | 5 | 1,265/2,700 |
+| Perception DC 14 — cellar details | 10 | 1,275/2,700 |
+| CHA DC 16 — develop Radiant Edge | 25 | 1,300/2,700 |
+| Investigation DC 11 — secure stone door | 5 | 1,305/2,700 |
+| Athletics DC 14 — push stone door open | 10 | 1,315/2,700 |
+| Perception DC 14 — passage details (footprints, drag marks) | 10 | 1,325/2,700 |
+| Perception DC 14 — chamber artifacts (anchor ring, murals) | 10 | 1,335/2,700 |
+| CON DC 14 — survive initial altar contact | 10 | 1,345/2,700 |
+| CHA DC 16 — channel creation into entropy | 25 | 1,370/2,700 |
+| CON DC 13 — survive sustained drain | 10 | 1,380/2,700 |
+| CHA DC 17 — hold the connection, stabilize the cycle | 25 | 1,405/2,700 |
+| Milestone — Partially Restored the Cycle of Creation and Entropy | 200 | 1,605/2,700 |
+| Perception DC 12 — green grass at the roots | 10 | 1,615/2,700 |
+| Day 3 miscellaneous checks (Edwyn medicine, religion, etc.) | 60 | 1,675/2,700 |
 
 ---
 
@@ -664,6 +752,11 @@ EXP: 900 / 2,700
 | Old Mill — Northern Forest | ✅ | 50 | Hexcrawler origin point, contaminated pond |
 | Stream Hollow — Northern Forest | ✅ | 0 | Wolf hunting ground, Day 2 night |
 | Deep Forest — North-Northeast | ✅ | 0 | Bear territory, cougar territory, Day 2 night |
+| Trade Road — Duskfen to Brennick | ✅ | 0 | Hexcrawler patrol crossings, corruption increasing |
+| Brennick Farm | ✅ | 0 | Abandoned, dead grey grass, cellar entrance |
+| Brennick Cellar | ✅ | 0 | Root cellar, stone door with threshold wards |
+| Ancient Temple of Entropy | ✅ | 0 | Below Brennick cellar, spiral passage, organic stone, murals of forgotten worshippers |
+| Central Chamber / Altar | ✅ | 0 | Circular 40ft chamber, stone altar, where the cycle was partially restored |
 
 ---
 
@@ -680,38 +773,60 @@ EXP: 900 / 2,700
 ## 📖 STORY FLAGS (DM ONLY — NEVER REVEAL)
 | Flag | Status |
 |------|--------|
-| Kenji arrived in this world | ✅ TRUE — origin unknown |
-| Kenji has no money, no gear, no contacts | ❌ OUTDATED — has gear, allies, no gold |
-| Kenji's magic is latent — not yet understood by locals | ✅ TRUE — but developing fast |
-| Ember Awakening | ✅ TRUE — Kenji felt the true depth of his magic. Ember is listening now. |
-| Ember personality established | ✅ TRUE — weapon/protection force, not utility. Has opinions. Responds to CHA/will, not INT. |
-| Arcane Stride developed | ✅ TRUE — ember infuses footfalls as weapon strikes against ground |
-| Ranged Arcane Edge developed | ✅ TRUE — works on sharp/edged projectiles only |
-| Fire infusion attempted | ⏳ FAILED — ember tried, couldn't hold shape. Close. Not yet. |
-| Conspiracy awareness | ⏳ Act 2+ |
-| Solveth contact | ⏳ Later — but divine bleed intel from Edwyn is a precursor |
-| Key allies found | ✅ Sera, Edwyn recruited. Maren supporting. |
-| Bessa's request | ✅ Active — bring Harlan home |
-| Pip relationship | ✅ Active — two nights together |
-| Sera training declined | ✅ TRUE — door open after next combat: "Survive the next fight, then we'll talk" |
-| Ryn deal | ✅ Active — owes him interesting curiosities |
+| Kenji arrived in this world | ✅ TRUE — origin unknown, but SENT DELIBERATELY by an unknown force |
+| Kenji has gear, allies, gold | ✅ TRUE — 10 GP, full party, armor pending upgrade |
+| Ember identified as CREATION | ✅ TRUE — cosmic opposite of entropy. Kenji knows this. |
+| Ember personality established | ✅ TRUE — weapon/protection force, not utility. Responds to CHA/will, not INT. |
+| Ember Awakening | ✅ TRUE — depth felt Day 2 night. Used fully in altar sacrifice Day 3. |
+| Arcane Stride developed | ✅ TRUE — enhanced via Speedster perk, 12 hours |
+| Ranged Arcane Edge developed | ✅ TRUE — sharp/edged projectiles only |
+| Radiant Edge developed | ✅ TRUE — anti-entropy radiant weapon, scales with slot level |
+| Vampiric Daggers learned | ✅ TRUE — not yet used in combat. Sensed at village gate Day 3. |
+| Fire infusion attempted | ⏳ FAILED — ember tried Day 2, couldn't hold shape. Close. |
+| Entropy god contacted | ✅ TRUE — direct mental communication in the central chamber |
+| Entropy god identity known | ✅ TRUE — dying god of entropy, once worshipped, forgotten, starving |
+| Cycle partially restored | ✅ TRUE — Kenji channeled creation into entropy. The border stabilized. Not permanent — needs periodic tending. |
+| Cycle tending required | ⚠️ ACTIVE — Kenji must periodically return to the temple to sustain the cycle. Unknown frequency. |
+| Hexcrawler intelligence fading | ✅ TRUE — will become uncoordinated animals. Not immediate. |
+| The Delve warned | ⚠️ TRUE — wounded Hexcrawler fled to The Delve. Whatever is there knows the party. |
+| Kenji sent deliberately | ✅ TRUE — the god confirmed. "Something felt me waking and answered with you." |
+| Kenji's origin still unknown | ✅ TRUE — the god could not say who sent him or who he was before |
+| Conspiracy awareness | ⏳ Act 2+ — Varenholm Academy mentioned by Edwyn (archives, deeper knowledge) |
+| Solveth contact | ⏳ Not yet — the entropy god is NOT Solveth. The Gilt Conspiracy is a separate thread. |
+| Bessa's request | ✅ FULFILLED — Harlan recovered alive from the altar, unconscious, veins fading |
+| Pip relationship | ✅ Active — three nights together. She watched him leave from the doorway. |
+| Sera emotional shift | ✅ TRUE — showed fear/vulnerability during altar sacrifice. "Don't ever do that again." Lock is loosening. |
+| Sera training completed | ✅ TRUE — taught Kenji the Cage. Identified him as a "striker." |
+| Ryn recruited | ✅ TRUE — porter/logistics, non-combatant. Conditions: no fighting, first curiosities, permission to flee. |
+| Ryn deal | ✅ Active — owes him interesting curiosities. Entropy anchor ring is a candidate. |
+| Ironwood sap quest | ⚠️ ACTIVE — need to find silver-white bark tree near ley lines. Ryn runs it back to Aldric. |
+| Aldric armor upgrade | ⏳ PENDING — bear hide reserved, awaiting ironwood sap. Half day craft time once sap delivered. |
+| Ancient temple discovered | ✅ TRUE — beneath Brennick farm. Murals show worship history. Two symbols: entropy (outward) and creation (inward). |
+| Entropy anchor ring collected | ✅ TRUE — evidence of siphoning mechanism. Wrapped in cloth. Do not touch. |
+| Green grass returning | ✅ TRUE — first sign of the cycle working. Dead grass at cellar doors showing green at roots. |
 
 ---
 
 ## ⚠️ DM ACTIVE REMINDERS
-- Kenji is a stranger in this world — everything is new and unfamiliar to him
-- Magic exists here but Kenji doesn't know local rules/laws around it yet
+- Kenji is a stranger in this world — but now knows he was SENT here deliberately. His questions about identity are central to the story.
+- The entropy god is NOT Solveth. The Gilt Conspiracy (Varenholm, Marius Vael, the Hollow Crown) is a SEPARATE plotline that hasn't started yet. Do not conflate the two.
+- The entropy god beneath the Brennick farm is a local, ancient deity. Solveth is something else entirely.
 - NEVER reveal plot directly — events, NPC dialogue, environment only
 - Steering: subtle always, escalate only if player drifts repeatedly
 - Stat hard cap: 20 always
-- Perks every 3 levels only
+- Perks every 3 levels only (next at Level 6)
 - Level up on Long Rest only — flag when EXP threshold met
 - Death is permanent. Weight every life.
-- ⚠️ FAST METABOLISM: Kenji must eat every 4 hours or hunger debuff begins. Track meal times carefully. This is a real cost — enforce it.
-- ⚠️ ARCANE STRIDE: Cannot stack with Arcane Edge on weapons. Player must choose one or the other each round. Enforce this.
-- ⚠️ SERA TRAINING: Door is open after Kenji's next impressive combat. "Survive the next fight, then we'll talk."
-- ⚠️ BESSA'S REQUEST: Bring Harlan home. Active quest flag.
-- ⚠️ RYN'S DEAL: Owes him interesting curiosities. Active promise.
+- ⚠️ FAST METABOLISM: Kenji must eat every 4 hours or hunger debuff begins. Track meal times carefully.
+- ⚠️ SPELL STACKING: Arcane Stride, Arcane Edge, and Radiant Edge CANNOT stack. Only one active at a time.
+- ⚠️ RADIANT EDGE: Full damage only vs radiant-weak enemies. Halved vs normal. Disadvantage aura only vs radiant-weak. It's a specialist weapon, not a universal upgrade.
+- ⚠️ CYCLE TENDING: The partial restoration is not permanent. At some point Kenji will need to return. DM should introduce signs of the cycle weakening if too much time passes.
+- ⚠️ HARLAN: Unconscious, being carried. May wake soon. Will have information and possibly trauma. Handle with care.
+- ⚠️ THE DELVE: Still unexplored. A wounded Hexcrawler fled there. May be a nest, a secondary threat, or something else. The entropy god's influence is fading but the creatures are still alive.
+- ⚠️ IRONWOOD SAP: Active quest. Silver-white bark, amber sap, hot copper smell. Near ley lines in deep old growth. Ryn runs it back to Aldric.
+- ⚠️ RYN'S DEAL: Owes him interesting curiosities. The entropy anchor ring could fulfill this. Player's choice.
+- ⚠️ FLINT STONES: Below 10 minimum (7 remaining). Kenji should forage more.
+- ⚠️ VARENHOLM: Edwyn mentioned the Academy archives. This is the first breadcrumb toward Act 2 of the Gilt Conspiracy. Do not force it — let the player follow it naturally.
 
 ---
 
