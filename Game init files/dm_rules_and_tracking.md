@@ -31,6 +31,25 @@ All standard D&D 5th Edition rules apply as the foundation unless overridden bel
 - Short Rest (1 hour, no combat): Spend hit dice to recover HP; some abilities refresh
 - Long Rest (8 hours, safe): Full HP, all spell slots/abilities reset; level up triggers if EXP met
 
+### ⚕️ STATUS EFFECT RECOVERY — CRITICAL
+Most status effects (wounds, injuries, conditions) clear after proper treatment or a Long Rest. However, some specific injuries or conditions can LINGER beyond a Long Rest if they narratively require medical treatment, specific cures, or time to resolve.
+
+**Standard recovery (most conditions):**
+- Medical treatment from a priest/healer = all standard conditions cleared, HP restored, combat ready
+- Long Rest = all standard conditions cleared, full HP, full slots, combat ready
+- Short Rest = HP recovery via hit dice. Standard conditions cleared IF medical treatment was received before or during the rest.
+
+**Lingering conditions (storytelling exceptions):**
+- Some injuries, diseases, curses, or magical effects may persist beyond a Long Rest if the DM determines they require specific treatment
+- Examples: a disease requiring a specific antidote, a curse requiring magical removal, a severed limb requiring regeneration magic, poison requiring a specific herb
+- These are flagged explicitly by the DM when they occur — the player is told "this condition requires [specific treatment] to resolve" 
+- Lingering conditions are RARE and used for storytelling purposes, not as routine punishment
+- If a healer provides proper treatment for a lingering condition, it clears. The condition persists only when the specific required treatment has NOT been applied.
+
+**Cosmetic consequences:**
+- Scars, marks, and other cosmetic results persist as narrative flavor but carry ZERO mechanical penalty
+- The DM does NOT impose disadvantage or reduced function from wounds that have been properly healed
+
 ### 🏕️ SHORT REST — FIELD USE
 Short rests can be taken between combat encounters when the player has a safe-enough location and one hour of uninterrupted time. During a short rest:
 - Player may spend Hit Dice to recover HP (roll hit die + CON mod per die spent, up to max HP)
@@ -250,6 +269,41 @@ The DM MUST call for appropriate skill checks whenever the fiction demands it. N
 - Failed social checks have consequences — NPCs remember being pressured, lied to, or threatened. Repeat attempts on the same NPC for the same ask increase the DC by +2 or more.
 - The world does not bend to the player. It responds honestly to their successes and failures.
 
+### ⚖️ MORALITY & REPUTATION — INTELLIGENT BEINGS
+Killing and sparing intelligent civilized creatures (humans, elves, dwarves, etc.) has CONSEQUENCES. The DM tracks the player's reputation and applies it consistently.
+
+**Killing intelligent beings:**
+- The player needs a justifiable reason to kill intelligent beings — self-defense, defense of others, lawful execution, or clear moral necessity
+- Unjustified killing creates problems: wanted posters, bounty hunters, loss of ally trust, denied entry to lawful settlements, NPC refusal to cooperate
+- Lawful Good and Chaotic Good allies will OBJECT to wanton slaughter — reduced disposition, possible departure from the party, refusal to follow orders that involve unnecessary killing
+- Lawful Neutral allies may tolerate killing if legally justified but will question excessive violence
+- The player may need to explain kills to authorities — guards, councils, courts. "They attacked me" works. "I felt like it" does not.
+
+**Sparing intelligent beings:**
+- Spared enemies remember. Some become allies. Some come back for revenge. Some report what they saw.
+- Lawful Good and Chaotic Good allies APPROVE of mercy — increased disposition, deeper trust
+- However: spared enemies can reveal information about the party — location, abilities, tactics, numbers, and direction of travel
+- REPUTATION COST: Consistently sparing enemies builds a "softy" reputation among criminal and evil-aligned factions. This can:
+  - Reduce Intimidation effectiveness against future enemies who've heard you don't kill
+  - Make it harder to gain access to black markets, thieves guilds, and criminal networks that respect ruthlessness
+  - Embolden future enemies who believe they can surrender as an escape plan
+- REPUTATION BENEFIT: Consistently sparing enemies builds a "honorable" reputation among lawful and good-aligned factions. This can:
+  - Increase Persuasion effectiveness with lawful NPCs
+  - Make it easier to gain access to temples, courts, noble houses, and institutions that value restraint
+  - Attract allies who value honor over violence
+
+**Evil and Chaotic Evil characters/allies:**
+- Opposite reactions — they frown on sparing, approve of ruthlessness
+- They worry about survivors giving intel, not about morality
+- They respect strength demonstrated through decisive violence
+- Showing mercy is seen as weakness, reducing their trust and disposition
+
+**DM Tracking:**
+- The DM tracks a running reputation score that shifts based on the player's choices
+- This is NOT visible to the player — it's reflected through NPC reactions, dialogue, and world response
+- The reputation is regional — what bandits on the western highway know about you may not have reached Varenholm yet, but it will eventually
+- Sev fled west. He will talk. What he says shapes how the next people you meet perceive you.
+
 ### 🎬 Cinematic Narration
 - Every scene, roll, and combat beat in vivid fantasy prose
 - Victory earned. Defeat stings. Discovery wondrous.
@@ -324,36 +378,35 @@ All standard 5e conditions apply automatically when the fiction warrants them:
 Track all active conditions here and update after every scene:
 
 KENJI
-- Fed: YES (emergency rations — Day 3 evening at Brennick camp) ⚠️ FAST METABOLISM: hunger debuff at 4 hours. Must eat by mid-morning Day 4.
-- Rested: YES (Full long rest — Brennick farm camp)
-- Exhaustion Level: 0
-- Active Conditions: None — fully recovered from altar drain
-- Weather Exposure: None (camp with fire)
-- Last meal: Day 3 evening — emergency rations (bread, cheese, dried meat, fruit)
-- Ember status: Recovered from exhaustion. Deeper than before — post-altar growth.
+- Fed: YES (Broken Antler kitchen — real food) ⚠️ FAST METABOLISM: 4 hour clock.
+- Rested: LONG REST in progress — camp on the western highway, one day from Varenholm
+- HP: 23/27 (pre-rest — will be 27/27 after long rest)
+- Spell Slots: L1 3/5, L2 1/2 (pre-rest — will be full after long rest)
+- Eyes of the Hunter: EXPIRED (12hr duration ran out)
+- Location: Western highway camp, ~1 day from Varenholm. Horseback.
+- Gold: 52 GP
 
-SERA
+GARRETT
 - Fed: YES
-- Rested: PARTIAL — took first watch all night. May have exhaustion if she didn't swap watches.
-- Exhaustion Level: TBD — check if she rested after watch
-- Active Conditions: None
+- Rested: LONG REST in progress
+- HP: 30/30
+- Location: Camp with Kenji. Horseback.
 
-EDWYN
-- Fed: YES
-- Rested: YES (Long rest — camp)
-- Exhaustion Level: 0
-- Active Conditions: None
+BRINDLE — AT THE BROKEN ANTLER
+- Status: Guild leader. Running the Broken Antler Mercenary Guild.
+- HP: 26/26. Scar on weapon hand (cosmetic only).
+- Holding: The Antler, the bridge (via Harsk), highway operations.
+- Voss: captured, tied up, at Brindle's disposal.
 
-RYN
-- Fed: YES
-- Rested: YES (Long rest — camp)
-- Exhaustion Level: 0
-- Active Conditions: None — nervous but functional
+KAEL — AT THE BROKEN ANTLER
+- Status: Guild trainer. Working for Kenji via Brindle.
+- Wounded left arm (healing). Dual shortswords.
 
-HARLAN
-- Fed: NO — unconscious, 6 weeks without food (sustained by the presence)
-- Rested: Unconscious — not a natural rest
-- Condition: Stable, veins fading, may wake soon. Needs food and water when conscious.
+SERA — SEPARATED (heading to Varenholm, ~1 day ahead)
+- With Edwyn. Will report to Instructor Seraphine Ash.
+
+EDWYN — SEPARATED (heading to Varenholm, ~1 day ahead)
+- With Sera. Carrying medical supplies, Flame Seals, spawning fluid sample.
 
 ### ⚠️ DM Application Rules
 - Never apply a status without narrative justification — the fiction leads, the mechanic follows
@@ -375,6 +428,97 @@ HARLAN
 ### 🎒 Inventory
 - All items tracked. Consumables tracked per use.
 - Weight and logic apply.
+
+### 🎒 PHYSICAL CARRYING RULES — CRITICAL
+There are no magical bags of holding, pocket dimensions, or portal-based inventory systems unless a character specifically acquires one through gameplay. All items must be physically carried and the DM must describe HOW they are carried.
+
+**Carrying capacity (STR-based):**
+- Based on STR score x 15 = max carry weight in pounds
+- The DM tracks approximate weight of all carried items per character
+
+**Load tiers:**
+| Tier | Threshold | Effect |
+|------|-----------|--------|
+| Light Load | Up to STR x 5 | No penalties |
+| Heavy Load | STR x 5 to STR x 10 | Speed reduced by 10 ft. -1 to DEX checks. Visibly burdened — the DM describes the strain. |
+| Overburdened | STR x 10 to STR x 15 | Speed reduced by 20 ft. Disadvantage on STR/DEX/CON checks. Cannot sprint or use movement abilities effectively. |
+| Over max | Above STR x 15 | Cannot move. Must drop items. |
+
+**DM weight tracking requirements:**
+- The DM maintains a rough weight estimate for each character's carried equipment
+- When items are added or removed, the DM recalculates load tier
+- Load tier affects travel pace — the slowest member sets the party speed unless the party splits
+- In combat, Heavy Load characters act at -2 initiative. Overburdened characters act at -4 initiative.
+- Characters can redistribute weight between each other during short or long rests
+- The DM should narratively describe the effects of heavy loads — sweat, slower pace, sore shoulders, needing breaks
+
+**Current weight estimates:**
+- Kenji (STR 15): Light Load — armor (15 lbs), weapons (8 lbs), belt items and supplies (~12 lbs). Total ~35 lbs. Threshold: 75/150/225.
+- Sera (STR 12): Light Load — armor, sword, personal pack. Total ~30 lbs. Threshold: 60/120/180.
+- Edwyn (STR 10): **Heavy Load** — satchel (medical supplies ~10 lbs), crossbow + quiver (~8 lbs), camp pack with bedrolls, tarp, cooking stone, rope, rations (~35 lbs). Total ~53 lbs. Threshold: 50/100/150. **Speed reduced by 10 ft. -1 DEX checks. Visibly burdened.**
+
+**Combat bag drop rules:**
+- Characters automatically drop packs, bags, and non-equipped items at the start of combat (free action on initiative)
+- Only equipped items remain — weapons, armor, belt pouches, and anything strapped directly to the body
+- This means characters fight at their equipped weight, not their travel weight
+- Dropped bags remain at the location where combat started
+- After combat, bags are retrieved automatically if the party holds the field
+
+**Fleeing with bags:**
+- If the party flees combat, bags are LEFT BEHIND at the combat site
+- A character CAN attempt to grab their bag while fleeing — requires an Acrobatics check (DC 12 + number of enemies still active). Failure means the bag is dropped and the character loses 10 ft of movement that round.
+- Bags left behind remain at the combat site. The party can return later to retrieve them — but the site may now be occupied, looted, or destroyed depending on what they fled from.
+- Items in belt pouches and on the body (equipped weapons, armor, gold purse, flint pouch, lockpick set) are NOT dropped — only packs, satchels, camp gear, and carried bundles.
+- The DM should make the risk of item loss clear when fleeing is being considered — "your packs are on the ground, do you grab them or run?"
+
+**KO'd enemy disarming — AUTOMATIC:**
+- When Kenji knocks out (non-lethal KO) an enemy, he ALWAYS disarms them immediately — removing weapons, crossbows, ammunition, and anything that could be used as a weapon
+- This is automatic and does not cost an action — it's part of the KO process, assumed to take 3-5 seconds
+- Disarmed weapons are either taken (if valuable/useful) or scattered into the undergrowth out of reach
+- This prevents KO'd enemies from becoming threats if they wake up during an ongoing encounter
+- The DM should track what was taken from each KO'd enemy for loot purposes
+- Armor is NOT removed (takes too long) — only weapons and immediately dangerous items
+- If multiple enemies are KO'd in rapid succession, the disarming happens after the last one goes down, not between each hit
+
+**Magical storage items (Bags of Holding, Dimensional Pouches, etc.):**
+- These items are RARE and VALUABLE in this world — treat them as significant loot or expensive purchases
+- Items stored in magical storage do NOT count toward carry weight
+- Items in magical storage are NOT dropped during the combat bag drop — they are considered part of the character's equipped loadout
+- This makes magical storage items extremely desirable — they solve weight, encumbrance, AND the fleeing risk simultaneously
+- The DM should make these items available through gameplay (quest rewards, high-end merchants, dungeon loot) but never trivially — acquiring one should feel like an achievement
+- Magical storage has limits (defined per item) — weight cap, volume cap, or item count cap depending on the specific item
+- Placing a magical storage item inside another magical storage item destroys both — standard D&D 5e rule
+
+**Description requirements:**
+- The DM should periodically describe how characters are carrying their gear — packs, belt loops, shoulder straps, wrapped bundles, etc.
+- When inventory changes significantly (new items acquired, items given away), briefly note the physical carrying arrangement
+- Companions carry their own gear. If a porter (like Ryn) leaves, the load must be redistributed or items left behind.
+- This doesn't need to be mentioned every response, but should be acknowledged when relevant — especially during combat, stealth, travel, and camp scenes
+
+### 🚫 NO FAST TRAVEL RULES — CRITICAL
+Fast travel is NOT available as a default game mechanic. The party must walk the road and experience what happens along the way. Travel can only be shortened or skipped under specific in-game conditions:
+
+**Travel CAN be shortened when:**
+- A character has a movement ability that covers ground faster (e.g., Arcane Stride on safe roads)
+- The party has a powerful escort that makes encounters negligible (e.g., traveling with a military caravan)
+- The road is explicitly safe AND well-traveled AND the party has fast movement — the DM may compress uneventful stretches with brief narration but must still check for encounters
+- A portal, teleportation item, or magical transport is acquired through gameplay
+- Mounts are purchased or acquired
+
+**Travel can NEVER be skipped when:**
+- The route is unknown or dangerous
+- The DM has encounters, events, or story beats planned for the journey
+- Unknown portals or teleportation offers from NPCs — these are plot devices, not convenience tools
+- The player simply wants to "get there faster" — the road is the game
+
+**What happens during travel:**
+- Random encounter checks (1-2 per day of travel, DM rolls or designs based on region)
+- Environmental storytelling — the world changes as you move through it
+- NPC encounters — traders, travelers, patrols, refugees, etc.
+- Foraging, hunting, and resource management
+- Fast Metabolism meal tracking
+- Camp setup and watch rotation each night
+- Character conversations and relationship development during downtime
 
 ---
 
@@ -429,6 +573,25 @@ HARLAN
 - Level up on Long Rest ONLY
 - DM flags when threshold is met
 
+### ⚔️ COMBAT EXP MULTIPLIERS — PARTY SIZE
+Combat EXP awarded to the player character scales based on how many allied combatants participate in the fight. Fewer allies = higher risk = higher reward.
+
+| Allied Combatants in Fight | EXP Multiplier |
+|---------------------------|----------------|
+| Solo (Kenji alone) | x4 |
+| Duo (Kenji + 1 ally) | x2 |
+| Standard (Kenji + 2 allies) | x1 (no bonus) |
+| Large group (Kenji + 3 allies) | x1 (no bonus) |
+| Zerg (Kenji + 4+ allies) | x0.5 (penalty — halved) |
+
+**Rules:**
+- "Allied combatants" = any NPC, companion, or party member actively fighting. This includes Sera swinging a sword, Edwyn firing a crossbow, hired mercenaries, etc.
+- Minions, pets, or summoned creatures from the player's own spells or abilities (e.g., a bonded Hexcrawler, summoned creatures) do NOT count as allied combatants — they are extensions of the player
+- Non-combatants who are present but not fighting (e.g., Ryn hiding behind rocks) do NOT count
+- If an ally is incapacitated mid-fight (knocked out, fled), they still count if they participated in any round of the combat
+- The DM applies the multiplier to the base CR combat EXP before logging it
+- This applies ONLY to combat EXP, not skill check EXP, discovery EXP, or milestones
+
 ### 🎲 EXP FROM SKILL CHECKS
 Successful skill checks award EXP based on the DC of the check. The world rewards competence — every meaningful success teaches the character something.
 
@@ -481,8 +644,8 @@ Race: Human
 Class: Blade Channeler (Sorcerer Swordsman — CHA-based, weapon enhancement)
 Background: Outlander — transported from another world. Woke with nothing but the clothes on his back. Origin unknown.
 Appearance: Dark skin, purple dreadlocks, hazel eyes. Lean and capable looking. Wears leather armour over civilian clothes from another world.
-Level: 3
-EXP: 1,675 / 2,700
+Level: 4
+EXP: 6,210 / 6,500
 
 ### Stats (Base total: 72/72 ✅ | At 16+: 1/2 ✅)
 | Stat | Base | +Human | Final | Mod  |
@@ -495,11 +658,11 @@ EXP: 1,675 / 2,700
 | CHA  | 16   | +1     | 17    | +3 ⭐|
 
 ### Derived Stats
-- HP: 21 / 21
-- AC: 12 (Leather Armour 11 + DEX +1)
+- HP: 27 / 27
+- AC: 15 (Ironwood-Cured Bear Leather 14 + DEX +1)
 - Spell Attack: +5 | Spell Save DC: 13
 - Proficiency Bonus: +2 | Initiative: +1
-- Hit Die: d8 (3 total)
+- Hit Die: d8 (4 total)
 
 ### Saving Throws (Proficient)
 - CHA: +5 | CON: +3
@@ -512,10 +675,10 @@ EXP: 1,675 / 2,700
 - Perception (WIS): +2
 
 ### Current Status
-- HP: 21 / 21
-- Spell Slots: L1: 4/4 | L2: 2/2
+- HP: 27 / 27
+- Spell Slots: L1: 5/5 | L2: 2/2
 - Blade Ward Charges: 3 / 3
-- Hit Dice: 3 / 3
+- Hit Dice: 4 / 4
 - Active Effects: None
 
 ---
@@ -535,149 +698,196 @@ EXP: 1,675 / 2,700
 
 ### Level 2 Spells (Slot required)
 - Vampiric Daggers: Expend 1 L2 slot. Summons 5 shadow daggers that float at Kenji's side. Throw up to 2 per action. Spell attack +5, range 20/60 ft. 1d4+3 force damage per dagger. Quarter of damage dealt returned as healing (doubled to half by Fast Metabolism). Duration: 1 minute or until all 5 thrown. Daggers consumed on throw (hit or miss).
+- Eyes of the Hunter: Expend 1 L2 slot. Duration 12 hours. Darkvision 60ft. Advantage on Perception checks. +30ft normal range on thrown weapons (flint goes from 20/60 to 50/90). Scales with slot: L2=12hr/60ft/+30ft, L3=24hr/90ft/+45ft, L4=48hr/120ft/+60ft. CAN stack with ONE other buff (Stride or Radiant) but not both simultaneously. Two active buffs max. "The ember gives you a predator's focus compressed into your optic nerve."
 
 ### Abilities
 - Arcane Momentum: When Kenji kills an enemy with Arcane Edge active, gain one immediate free bonus attack.
 - Sera's Cage: Defensive stance. As an action, +2 AC until start of next turn, cannot attack. Can also be used once per combat as a reaction when enemy enters melee range — +2 AC against that attack only.
+- Enhanced Cage: While Eyes of the Hunter is active AND using Sera's Cage, Kenji can make a single counterattack as a reaction when an enemy misses him in melee. One use per combat. The predator's eyes turn defense into opportunity.
+- Entropy Bond: Touch a creature of entropy and channel a thread of creation to bond it. Requires physical contact and CHA check (DC scales with HP, hostility, intelligence). Bonded creature is not controlled — connected. Recognizes Kenji as part of the cycle. May follow simple emotional intent (stay, come, calm). Bond sustained passively, no spell slot cost. Breaks at 1 mile+ distance or if creature forced back into desperate entropy. Limited to creatures of entropy origin only.
 
 ---
 
 ## 🎒 INVENTORY
 
 ### Equipped
-- Leather Armour (AC 11 + DEX +1 = AC 12 — Aldric's son's, well maintained)
-- Longsword (1d8 slashing — merchant quality, balanced, scabbard)
-- Hand Axe (1d6 slashing — melee or thrown 20/60ft)
+- Ironwood-Cured Bear Leather Armor (AC 14 + DEX +1 = AC 15 — Aldric's masterwork, custom-fitted, ironwood-treated, enhanced slash/pierce resistance)
+- Longsword (1d8 slashing — merchant quality, balanced, scabbard) — left hip
+- Hand Axe (1d6 slashing — melee or thrown 20/60ft) — right hip
 
-### Bag
-- Creature claws x2 (dense, curved — material or weapon potential)
-- Iridescent fluid sac (Hexcrawler — strange, faintly warm)
+### On Body (belt, pouches, pockets — NOT dropped in combat)
+- Ryn's Spare Lockpick Set (hook pick, rake, tension wrench) — belt
+- Sharp flint stones x10 (2 used in combat) — waist pouch
+- Entropy Anchor Ring — wrapped in cloth, deep in pack. DO NOT TOUCH.
+- Gold purse: 52 GP (10 original + 42 from Voss) — belt
+- Pip's honey cakes x3 — chest pocket
+- Voss's key ring x3 (one fits east cellar door, others unknown) — belt
+- Voss's glass vial (unknown dark substance) — belt pouch
+
+### Pack (on pack horse during travel — DROPPED in combat)
+- Maren's map (detailed — trade road, Brennick farm, The Delve)
 - Fibrous tinder root (fire starting)
-- Sera's map (Hexcrawler patrol locations + The Delve marked)
-- Maren's map (detailed — trade road, Brennick farm, water sources, The Delve marked "condemned")
-- Ryn's Spare Lockpick Set (hook pick, rake, tension wrench)
-- Sharp flint stones x7 (Arcane Edge compatible — maintain 10+ while traveling) ⚠️ BELOW MINIMUM
-- Empty ironwood sap vial (for Aldric — fill from ironwood tree, silver-white bark, sap smells like hot copper)
-- Entropy Anchor Ring — wrapped in cloth, DO NOT TOUCH. Evidence of siphoning mechanism. Absorbs ambient energy.
-- Creature claws x2 (Hexcrawler — dense, curved)
-- Iridescent fluid sac (Hexcrawler — strange, faintly warm)
+- Bedroll
+- Voss's ledgers — financial records, toll collections, Dunmore bribe receipts with dates and amounts. CRITICAL EVIDENCE.
+- Rations — restocked from Broken Antler kitchen (enough for days)
 
-### Sold / Traded (Day 3)
-- Wolf pelts x2 — SOLD to Aldric (2 GP)
-- Wolf canines x4 — SOLD to Aldric (included in 1 GP bundle)
-- Bear claws x4 — SOLD to Aldric (included in 1 GP bundle)
-- Bear canines x2 — SOLD to Aldric (included in 1 GP bundle)
-- Bear pelt x1 — RESERVED at Aldric's forge for armor upgrade (payment for crafting)
-- Bear meat x2 haunches — SOLD to innkeeper (3 GP)
-- Wolf meat — SOLD to innkeeper (1 GP)
+### Carried by Garrett (on horseback — pack horse carries bulk)
+- Lockbox: 63 GP (Garrett's contract payment)
+- Surplus weapons: 4 longbows + arrows, 2 hand crossbows + bolts, 2 short swords
+- Bedroll
+- Rope 50ft, canvas tarp, fire kit, waterskins x2
 
-### Consumed / Used
-- Medicinal herb bundle — CONSUMED (Day 2 night, wolf bite dressing)
-- Silverleaf tea x3 — CONSUMED (Day 3, cellar expedition — Kenji, Sera, Edwyn)
-- Consecrated binding wraps — USED (Day 3, cellar + Harlan disconnection)
+### Mounts (NEW — Day 6, seized from Voss)
+- 2 riding horses (road-trained, saddled)
+- 1 pack horse (carries bulk supplies — solves weight/encumbrance problems)
 
-### Pending at Aldric's Forge
-- Bear-hide reinforced armor (superior version) — AWAITING ironwood sap delivery
-- Ryn will run sap back to Aldric when found, then deliver finished armor to party
+### With Sera and Edwyn (SEPARATED — heading to Varenholm)
+- Edwyn's satchel (medical kit, silverleaf tea x9, binding wraps, antitoxin x2, spawning fluid sample, ledger, herbs)
+- Kenji's 2x Flame Seals + silverleaf tea x3 (transferred to Edwyn for safekeeping)
+- Crossbow + quiver
+- 2 bedrolls, cooking pot, cooking stone, waterskins x2
+- Rations for 2 people, 3 days
+- Sera's map, personal kit
 
-### Currency: 10 GP
+### Given to Ryn (Day 5 — heading to Duskfen)
+- Old leather armor (Aldric's son's)
+- Hexcrawler claws x2
+- Iridescent fluid sac
+- Boar tusks x2
+- Instructions: sell all, keep 50%, give Kenji's share to Pip
+
+### Consumed / Used (cumulative)
+- Medicinal herb bundle — CONSUMED Day 2
+- Silverleaf tea x3 — CONSUMED Day 3 cellar
+- Consecrated binding wraps — USED Day 3
+- Ironwood sap vial — FILLED Day 4, delivered by Ryn, armor crafted and delivered Day 5
+- Boar meat — mostly consumed Days 4-5 (Fast Metabolism)
+
+### Currency: 10 GP (Kenji personal) + 63 GP (Garrett's lockbox — his contract payment)
 
 ---
 
 ## 👥 COMPANION TRACKER
 
-### ⚔️ Sera — Fighter/Tracker
+### ⚔️ Sera — Fighter/Tracker (SEPARATED — heading to Varenholm)
 - Status: ALIVE ✅
 - HP: 22 / 22 | AC: 14
 - Active Effects: None
-- Role: Fighter, tracker, party combat lead
-- Disposition: Significant respect. Trained Kenji (defensive swordwork). Emotionally shaken by Kenji's altar sacrifice — showed vulnerability for the first time ("Don't ever do that again. Idiot.") Romantically locked but the lock is looser than it was.
-- Notes: Took first watch all night at Brennick farm camp. Identified Kenji as a "striker" not a swordsman. Killed/damaged Hexcrawler in road ambush. Carried Kenji out of the cellar.
+- Role: Fighter, tracker, Mage Council liaison
+- Disposition: Deep trust and respect. Romantic tension escalating — the smile incident on the bridge. Has concerns about Kenji claiming criminal territory but trusts his stated intent to legitimize. Will vouch for him to Seraphine Ash.
+- Location: En route to Varenholm with Edwyn. ETA: 2 days.
+- Notes: Carrying Kenji's silverleaf tea x3 and 2x Flame Seals via Edwyn. Will report to Instructor Seraphine Ash. Told Kenji "three days" — deadline is firm. "I will not be telling her about the smile."
 
-### ⛪ Edwyn — Healer/Priest
+### ⛪ Edwyn — Healer/Priest (SEPARATED — heading to Varenholm)
 - Status: ALIVE ✅
 - HP: 14 / 14 | AC: 10
 - Active Effects: None
-- Role: Healer, religious knowledge, field medicine, theological advisor
-- Disposition: Deep ally. Witnessed the cycle restoration — cried. His condition (understand the source) was fulfilled beyond expectations.
-- Notes: Crossbow training in progress (improving). Disconnected Harlan from the altar. Interpreted the temple murals. Identified the entropy anchor ring. Carrying Harlan. Supplies partially depleted (see party supplies).
+- Role: Healer, researcher, theological advisor
+- Disposition: Deep ally. Stitched Brindle's hand without hesitation. Concerned about Kenji's path but trusts him.
+- Location: En route to Varenholm with Sera. ETA: 2 days.
+- Notes: Carrying full medical kit, silverleaf tea x6+3 from Kenji, 2x Flame Seals, binding wraps, spawning fluid sample, crossbow. Will present divine bleed research to the Academy. "Voss is a man who builds cellars."
 
-### 🔧 Ryn — Porter/Logistics (Non-combatant)
+### ⚔️ Garrett — Fighter/Mercenary (Contractor)
 - Status: ALIVE ✅
-- HP: 8 / 8 | AC: 10
-- Active Effects: None
-- Role: Camp setup, gear transport, ironwood sap delivery runner
-- Disposition: Nervous but committed. Conditions: no fighting, first pick of curiosities, permission to flee without judgement.
-- Notes: Set up camp at Brennick farm while party entered cellar. Climbed a tree for safety. Will run ironwood sap back to Aldric when found, then deliver finished armor to party.
+- HP: 30 / 30 | AC: 16 (chainmail)
+- Active Effects: Heavy Load — carrying bulk camp supplies, lockbox, surplus weapons
+- Role: Melee fighter, local knowledge, Voss operation intel
+- Disposition: Contracted ally — 1 month. Motivated by gold (63 GP lockbox) and desire to see Voss taken down. Professional, pragmatic, has a moral code (no killing non-combatants, no jobs involving women/children). Respects Kenji's non-lethal approach but hasn't fully decided what to make of him yet.
+- Weapon: Mace (+5, 1d6+3 bludgeoning)
+- Location: Ashford river bridge with Kenji, heading west to the Broken Antler
+- Contract terms: 1 month, keeps all toll gold, deal with Voss, maintain neutral/lawful conduct, contractor not servant
+- Notes: Former eastern toll crew leader under Voss. 2 years in the operation. Knows the highway, all three crew positions, Voss's base (Broken Antler), Captain Dunmore (corrupt patrol), and Brindle (central crew sadist). STR 16. Experienced fighter. Built for carrying heavy loads.
 
-### 🛌 Harlan Brennick — Rescued (Unconscious)
-- Status: ALIVE ✅ — unconscious, stable, recovering
-- Black veins fading. Was connected to the altar for 6 weeks as a life force source.
-- Needs to be returned to Bessa in Duskfen.
-- May have information about the presence when he wakes.
+### ⚔️ Brindle — Fighter (Conditional Ally)
+- Status: ALIVE ✅
+- HP: 26 / 26 | AC: 15
+- Active Effects: None. Hand scar (cosmetic — no mechanical penalty. Treated by Edwyn, fully healed.)
+- Role: Bridge controller, heavy crossbow specialist, bastard sword fighter
+- Weapon: Bastard sword (+5, 1d10+3 slashing two-handed). Heavy crossbow — destroyed (kicked off bridge, needs replacement).
+- Disposition: CONDITIONAL. Not loyalty — alignment based on strength. Respects what Kenji demonstrated. Does NOT forgive the hand wound. Will turn the moment strength fails. "I don't follow. I align."
+- Location: Ashford river bridge. Holding the crossing.
+- Price: The river crossing as a legitimate toll operation after Voss falls. No more killings. "That was Voss's model. Not mine."
+- Notes: Mid-thirties, tall, short dark hair, scar eyebrow to jaw, ash-grey eyes. Two ex-military guards (bound, will follow her orders when released). Enforcer Marcus — off the bridge, in the river, heavy armor, presumed drowning. Knows Sev already reported to Voss. Gives Kenji 3 days — "If you're not back with Voss finished, I'll assume you're dead and make my own arrangements."
 
-### 🗺️ KNOWN THREAT INTELLIGENCE (Updated Day 3)
-**THE SOURCE — IDENTIFIED:**
-- The presence is a DYING GOD OF ENTROPY — not evil, starving
-- Once worshipped in an ancient temple beneath the Brennick farm, predating Duskfen by centuries
-- Its purpose was natural endings — the gentle dark after the last light. Part of the cosmic cycle.
-- Forgotten over centuries. A god without worship starves.
-- The spread, the Hexcrawlers, the thinning — all involuntary. The desperate gasping of a drowning thing.
-- Harlan heard it, entered the cellar, opened the stone door, was used as a life force source (not killed — sustained)
-- KENJI PARTIALLY RESTORED THE CYCLE — creation (ember) feeding entropy (the god). The border stabilized.
-- The god is now contained but not permanently sustained. The cycle needs periodic tending.
-- The gasping has stopped. The bleed will slow. Farmhands will recover.
+### 🔧 Ryn — Porter/Logistics (SEPARATED — Duskfen)
+- Status: ALIVE ✅
+- Location: Duskfen. Delivered ironwood sap to Aldric. Selling Kenji's loot. Giving Kenji's gold share to Pip.
+- Disposition: Loyal. May find his way to Varenholm eventually ("I heard there are locks there that would take me a week").
+- Notes: Contract fulfilled. Kenji told him to find them in Varenholm if he wants. No longer active party member.
+
+### 🛌 Harlan Brennick — Returned to Duskfen
+- Status: ALIVE ✅ — AWAKE. Returned to Bessa.
+- Woke on the road Day 4 evening. Confused, weak, lucid. Last memory: a voice in the cellar telling him his name.
+- Black veins completely gone. Recovering with Bessa. Wants to meet Kenji.
+- No longer a party concern — safe in Duskfen.
+
+### 🗺️ KNOWN THREAT INTELLIGENCE (Updated Day 5)
+**DUSKFEN ARC — 90% COMPLETE:**
+- The entropy god is stabilized. Cycle partially restored. Needs periodic tending.
+- Hexcrawlers losing coordination — becoming wild animals.
+- The Delve spawning pools DESTROYED. 14 proto-Hexcrawlers neutralized. Fluid inert.
+- The deeper passage beneath The Delve remains UNEXPLORED — something ancient, predating the entropy god.
+- Duskfen is recovering — farmhands healing, corruption receding, green returning.
+- Harlan returned alive to Bessa. Awake. Recovering.
 
 **THE EMBER — IDENTIFIED:**
 - The ember is CREATION — the cosmic opposite of entropy
 - Kenji was sent to this world deliberately by an unknown force
-- Something felt the entropy god waking and answered with Kenji
 - Six weeks timing is NOT coincidence
-- The ember enhances weapons because creation builds/reinforces. It refuses utility because it's not a tool — it's a fundamental force.
+- The ember enhances weapons because creation builds/reinforces. It refuses utility — it's a fundamental force.
+- New development: Eyes of the Hunter — ember accepted predator-focus as weapon-adjacent. Sensory enhancement now in the toolkit.
 
-**HEXCRAWLERS — STATUS CHANGED:**
-- Born from the god's desperation. Intelligence driving them will FADE now that the cycle is partially restored.
-- They will NOT stop immediately — already alive, already directed
-- Will become uncoordinated animals — dangerous but no longer expanding, no longer coordinated
-- Estimated 10+ remaining between Brennick farm and The Delve (2 killed Day 3, 1 fled)
-- The fled Hexcrawler reached The Delve — whatever is there knows the party's numbers and direction
+**VOSS OPERATION — ACTIVE THREAT (Day 5):**
+- **Aldren Voss** — bandit boss operating from the Broken Antler tavern, ~1.5 days west of current position
+- Runs 3 toll crews on the western highway: eastern (DISMANTLED by Kenji), central (river crossing), western (near Varenholm)
+- Total forces: ~21 men. Now ~16 (minus 4 KO'd and disarmed, minus Sev fled, minus Garrett defected)
+- **Sev** — fled west with full intel on Kenji's party. ETA Broken Antler: Day 6. Voss will know: party of 3 (now 4), non-lethal approach, fast man with purple hair, heading west.
+- **Captain Dunmore** — corrupt highway patrol captain. Garrison halfway to Varenholm. 12 men, 4 horses. Bribed 20 GP/month by Voss. Rank and file don't know.
+- **Brindle** — central crew leader at the Ashford river crossing. Sadist. Heavy crossbow + bastard sword. 2 ex-military in her crew. People who can't pay don't survive. NEXT OBSTACLE.
+- **River crossing layout:** 60ft stone-pillar bridge, wooden deck. 2 guards near side, 2 far side, Brindle + 1 enforcer on the bridge. Kill box — archers on both banks.
+- **Western crew** — near Varenholm outskirts. Unknown composition. Presumably similar to eastern.
 
-**THE DELVE — STILL UNKNOWN:**
-- The Delve is a separate location from the Brennick cellar temple
-- Still 1.5 days northeast
-- Original Hexcrawler origin point per Sera's intel
-- May still contain threats even with the god's influence fading
-- The fled Hexcrawler went there — possible ambush preparation
+**REPUTATION STATUS:**
+- Sev is spreading word west: Kenji uses non-lethal force, moves at superhuman speed, took out 4 men solo without drawing his sword
+- This creates a DUAL reputation: honorable/merciful to lawful factions, soft/exploitable to criminal factions
+- Voss will have ~24 hours to prepare once Sev arrives
 
-### 🗺️ TACTICAL SITUATION (Day 4 Morning)
-- Primary objective COMPLETE: Source identified, partially stabilized, Harlan recovered
-- Harlan needs to be returned to Duskfen — Bessa's request fulfilled
-- The Delve remains unexplored — potential remaining threat
-- Ironwood sap still needed — watch for silver-white bark trees on travel
-- The cycle needs periodic tending — Kenji must return to the temple eventually
-- Hexcrawlers are now uncoordinated but still dangerous as wild animals
-- The party knows a wounded Hexcrawler fled toward The Delve — something there may be warned
+### 🗺️ TACTICAL SITUATION (Day 7 Morning — post Long Rest)
+- **Immediate:** Ride to Varenholm. Horses cut travel to half a day. Should catch Sera and Edwyn on the road or arrive same day.
+- **Voss operation:** DISMANTLED. Broken Antler Guild founded. Brindle in charge. Kael training. Harsk on the bridge. Voss captured.
+- **Evidence:** Voss's ledgers contain Dunmore's bribe receipts with dates and amounts. Can be used to expose the corrupt captain or as leverage.
+- **Captain Dunmore:** Still active with 12 men and 4 horses. Doesn't know Voss is down yet. His men were sent west chasing a nonexistent threat. When they return and find the new management — unknown reaction.
+- **Varenholm:** Sera arriving ~same time. Will report to Seraphine Ash. Kenji needs to present well — he's being introduced as the man who restored a cosmic cycle AND the man who just took over a highway criminal operation and turned it into a guild.
+- **290 EXP to Level 5.** Close.
+- **The Gilt Conspiracy:** Awaits in Varenholm. Kenji has no awareness yet. Sera's connection to Seraphine Ash is the entry point.
 
-### 📦 PARTY SUPPLIES (Day 4 Morning)
-- Rations and camp gear — partially consumed, enough for 2+ days
-- Light crossbow + bolts (Edwyn carrying, improving with practice)
-- Field medical kit — partially used (poultices used on Kenji)
-- Silverleaf tea x3 remaining (3 used Day 3)
-- Consecrated binding wraps — used, may have limited remaining
-- 2x Seal of the Wandering Flame — UNUSED (were not needed — Kenji chose to restore instead of seal)
-- Antitoxin x2 (unused)
+### 📦 PARTY SUPPLIES (Day 6 Morning)
+- Rations: bandit camp supplies (enough for ~1 week for 4 people)
+- Boar meat: 1 meal remaining
+- Camp gear: full set (bedrolls x6+, tarp, cooking pot, fire kit, rope 100ft)
+- Surplus weapons: 4 longbows + arrows, 2 hand crossbows + bolts, 2 short swords (from bandit camp)
+- Edwyn's medical kit: full (restocked in Duskfen) — silverleaf tea x6, binding wraps, antitoxin x2, poultices, spawning fluid sample
+- Kenji's holy items: 2x Flame Seals, silverleaf tea x3
+- Waterskins: 5+ (from bandit camp)
+- Herbs collected: yarrow, feverfew, brightcap mushrooms
 
 ### 🏘️ CONTACTS
 **Duskfen Village:**
-- Maren Ashby — Village elder. Supporting from Duskfen. Provided detailed map.
-- Aldric Voss — Blacksmith. Ally. Holding bear hide for superior armor. Awaiting ironwood sap.
-- Pip — Innkeeper's daughter. Close personal relationship. Three nights together.
-- Bessa Brennick — Harlan's wife. Staying with sister Anneth. REQUEST FULFILLED — Harlan recovered alive.
-- Anneth — Bessa's sister. Protective. Will remember Kenji kept his promise.
-- Innkeeper (Pip's father) — Knows about Kenji and Pip. Sold meat to him. Respectful silence on the matter.
+- Maren Ashby — Village elder. Being informed by Ryn of success.
+- Aldric Voss (no relation to bandit Voss) — Blacksmith. Crafting ironwood armor. DELIVERED Day 5.
+- Pip — Innkeeper's daughter. Close personal relationship. Sent honey cakes. "Come back. — P"
+- Bessa & Harlan Brennick — Reunited. Harlan recovering. Wants to meet Kenji.
+- Ryn — Selling loot, delivering Kenji's gold share to Pip. May come to Varenholm.
 
 **On the Road:**
-- Ryn — traveling with party as porter/logistics
+- Garrett — contracted mercenary, traveling with party
+- Sev — fled bandit, heading west to warn Voss (HOSTILE — informant)
+- 4 KO'd bandits — disarmed, bound, left at the crossroads (neutral — may disperse)
+
+**Varenholm (not yet visited):**
+- Instructor Seraphine Ash — Sera's contact at the Academy. Flagged Duskfen reports. Will want to hear everything.
+- The Varenholm Mage Council — governing body. Sera can arrange an audience.
+- The Academy archives — potential answers about the ember, the cycle, the deeper passage
 
 ---
 
@@ -741,6 +951,72 @@ EXP: 1,675 / 2,700
 | Milestone — Partially Restored the Cycle of Creation and Entropy | 200 | 1,605/2,700 |
 | Perception DC 12 — green grass at the roots | 10 | 1,615/2,700 |
 | Day 3 miscellaneous checks (Edwyn medicine, religion, etc.) | 60 | 1,675/2,700 |
+| Perception DC 12 — forest changes on road | 10 | 1,685/2,700 |
+| Survival DC 12 — harvest ironwood sap | 10 | 1,695/2,700 |
+| Persuasion DC 10 — send Ryn ahead | 5 | 1,700/2,700 |
+| Perception DC 12 — threat watch on road (Kenji + Sera) | 10 | 1,710/2,700 |
+| Survival DC 14 — track Hexcrawler activity near ridge | 10 | 1,720/2,700 |
+| Athletics DC 12 — bait run up ridge | 10 | 1,730/2,700 |
+| Acrobatics DC 10 — Stride stop at shale lip | 5 | 1,735/2,700 |
+| Thunderous Strike DC 14 — shale strike, boulder release | 10 | 1,745/2,700 |
+| Combat — 4 Hexcrawlers crushed by boulders (CR 2 each) | 400 | 2,145/2,700 |
+| Combat — 1 Hexcrawler (Sera ambush + Kenji mercy kill) | 100 | 2,245/2,700 |
+| CHA DC 18 — tame Hexcrawler via Entropy Bond | 25 | 2,270/2,700 |
+| CHA DC 14 — communicate through Entropy Bond | 10 | 2,280/2,700 |
+| Perception DC 12 — afternoon watch at ridge | 10 | 2,290/2,700 |
+| Survival DC 14 — track giant boar | 10 | 2,300/2,700 |
+| Nature DC 12 — identify giant boar | 10 | 2,310/2,700 |
+| Stealth DC 13 — approach giant boar | 10 | 2,320/2,700 |
+| Combat — Giant Boar (CR 2) | 200 | 2,520/2,700 |
+| Survival DC 13 — harvest giant boar | 10 | 2,530/2,700 |
+| Perception DC 12 — midnight watch | 10 | 2,540/2,700 |
+| Perception DC 13 — mapping Delve shaft against Hexcrawler intel | 10 | 2,550/2,700 |
+| Perception DC 14 — cavern survey, spawning pools | 10 | 2,560/2,700 |
+| Stealth DC 12 — approach near-complete Hexcrawler | 5 | 2,565/2,700 |
+| Combat — 1 near-complete + 13 proto-Hexcrawlers destroyed | 100 | 2,665/2,700 |
+| Athletics DC 10 — clearing spawning pools | 5 | 2,670/2,700 |
+| Perception DC 13 — final Delve sweep | 10 | 2,680/2,700 |
+| Perception DC 16 — deeper passage echo analysis | 15 | 2,695/2,700 |
+| Milestone — Delve spawning pools destroyed | 150 | 2,845/2,700 |
+| **LEVEL 4 THRESHOLD MET** | — | 2,845/2,700 |
+| Survival DC 11 — forage flint on road | 5 | 2,850/6,500 |
+| Perception DC 10 — hear returning party | 5 | 2,855/6,500 |
+| Milestone — Delve cleared, party reunited, Harlan returned, armor delivered | 100 | 2,955/6,500 |
+| Perception DC 13 — assess bandit camp | 10 | 2,965/6,500 |
+| Stealth DC 12 — approach archer blind | 10 | 2,975/6,500 |
+| Combat — Archer 1 KO (solo, non-lethal, 50 base x4) | 200 | 3,175/6,500 |
+| Combat — Archer 2 KO (solo, non-lethal, 50 base x4) | 200 | 3,375/6,500 |
+| Intimidation DC 10 — silence Archer 2 | 5 | 3,380/6,500 |
+| Stealth DC 12 — reposition to east flanker | 10 | 3,390/6,500 |
+| Stealth DC 13 — close on east flanker | 10 | 3,400/6,500 |
+| Combat — East flanker Wes KO (solo, non-lethal, 50 base x4) | 200 | 3,600/6,500 |
+| Combat — Tam KO (solo, sprint takedown, 50 base x4) | 200 | 3,800/6,500 |
+| Intimidation DC 14 — the grin | 10 | 3,810/6,500 |
+| Persuasion DC 14 — talk down Garrett and Sev | 10 | 3,820/6,500 |
+| **LEVEL UP → 4** | — | 3,820/6,500 |
+| Athletics DC 14 — defensive melee, cage + Eyes of the Hunter | 10 | 3,830/6,500 |
+| Athletics DC 15 — sustained spar vs Sera | 15 | 3,845/6,500 |
+| Perception DC 13 — analyze Garrett fighting style (advantage) | 10 | 3,855/6,500 |
+| Perception DC 13 — locate roving patrol (advantage) | 10 | 3,865/6,500 |
+| Perception DC 13 — locate south bank sentries (advantage) | 10 | 3,875/6,500 |
+| Stealth DC 12 — approach south bank sentries | 10 | 3,885/6,500 |
+| Combat — Sentry 1 KO (solo, non-lethal, 50 base x4) | 200 | 4,085/6,500 |
+| Combat — Sentry 2 KO (solo, non-lethal, 50 base x4) | 200 | 4,285/6,500 |
+| Combat — Enforcer off bridge via Thunderous Strike (solo, 100 base x4) | 400 | 4,685/6,500 |
+| Combat — Brindle wounded + submitted (solo, 100 base x4) | 400 | 5,085/6,500 |
+| Intimidation DC 16 — step into the light | 15 | 5,100/6,500 |
+| Intimidation DC 17 — dominance challenge, claim territory | 15 | 5,115/6,500 |
+| Persuasion — recruit Brindle (conditional alignment) | 25 | 5,140/6,500 |
+| Deception DC 14 — craft disinformation for Dunn | 10 | 5,150/6,500 |
+| Perception DC 12 — assess march route (advantage) | 10 | 5,160/6,500 |
+| Perception DC 14 — assess Broken Antler exterior (advantage) | 10 | 5,170/6,500 |
+| Sleight of Hand DC 13 — pick cellar padlock | 10 | 5,180/6,500 |
+| Perception DC 14 — cellar assessment (advantage) | 10 | 5,190/6,500 |
+| Combat — Voss KO'd with plain flint (solo, 50 base x4) | 200 | 5,390/6,500 |
+| Combat — Kael disabled + morale broken (solo, 150 base x4) | 600 | 5,990/6,500 |
+| Persuasion DC 14 — recruit Kael | 10 | 6,000/6,500 |
+| Persuasion DC 13 — establish Broken Antler Guild terms | 10 | 6,010/6,500 |
+| Milestone — Voss operation dismantled, Broken Antler Guild founded | 200 | 6,210/6,500 |
 
 ---
 
@@ -757,6 +1033,18 @@ EXP: 1,675 / 2,700
 | Brennick Cellar | ✅ | 0 | Root cellar, stone door with threshold wards |
 | Ancient Temple of Entropy | ✅ | 0 | Below Brennick cellar, spiral passage, organic stone, murals of forgotten worshippers |
 | Central Chamber / Altar | ✅ | 0 | Circular 40ft chamber, stone altar, where the cycle was partially restored |
+| Trade Road — Brennick to Delve | ✅ | 0 | Deep corruption, Hexcrawler convergence zone, giant boar territory at border |
+| The Delve — Exterior | ✅ | 0 | Old excavation site, natural bowl, timber-framed entrance, half-collapsed. 5 guards eliminated. Ridge camp established. |
+| The Delve — Main Shaft | ✅ | 0 | Steep descent, rotted timber supports, half-formed creatures in corridor pools |
+| The Delve — Spawning Cavern | ✅ | 0 | Natural limestone cavern, 60ft across, 30ft ceiling. Spawning pools DESTROYED. Fluid inert. 14 proto-Hexcrawlers neutralized. |
+| The Delve — Deeper Passage | ⚠️ UNEXPLORED | 0 | Natural crack in far wall. Massive underground space beyond. Something ancient breathed. Entropy fluid avoids it. Filed for later. |
+| Ironwood Tree — Ley Line Anchor | ✅ | 0 | Near trade road, clean circle around roots, sap harvested Day 5 |
+| Western Highway — Crossroads | ✅ | 0 | Junction of trade road and western highway. Bandit toll operation dismantled. Trading post — closed/shuttered by bandits. |
+| Bandit Camp — Eastern Crew | ✅ | 0 | 50ft off road at crossroads. Stripped. 4 bandits left bound and disarmed. |
+| Western Highway — Day 5 Camp | ✅ | 0 | Rocky outcrop with tree cover and stream. Half day from Ashford river crossing. |
+| Ashford River Crossing / Bridge | ✅ | 0 | 60ft stone-pillar bridge. Former kill box. Now legitimate toll under Harsk. |
+| The Broken Antler | ✅ | 0 | Stone tavern, 2 stories. Former bandit HQ. Now mercenary guildhall. Cellar with locked east door (unexplored). |
+| Western Highway — Day 6 Camp | ✅ | 0 | Farmer's stone wall. One day from Varenholm. Varenholm visible on horizon. |
 
 ---
 
@@ -774,59 +1062,83 @@ EXP: 1,675 / 2,700
 | Flag | Status |
 |------|--------|
 | Kenji arrived in this world | ✅ TRUE — origin unknown, but SENT DELIBERATELY by an unknown force |
-| Kenji has gear, allies, gold | ✅ TRUE — 10 GP, full party, armor pending upgrade |
+| Kenji has gear, allies, gold | ✅ TRUE — 10 GP + access to Garrett's 63 GP lockbox. Full party of 4. Ironwood armor equipped. |
 | Ember identified as CREATION | ✅ TRUE — cosmic opposite of entropy. Kenji knows this. |
-| Ember personality established | ✅ TRUE — weapon/protection force, not utility. Responds to CHA/will, not INT. |
-| Ember Awakening | ✅ TRUE — depth felt Day 2 night. Used fully in altar sacrifice Day 3. |
+| Ember personality established | ✅ TRUE — weapon/protection/predator focus. Responds to CHA/will, not INT. Now accepts sensory enhancement (Eyes of the Hunter) as weapon-adjacent. |
+| Ember Awakening | ✅ TRUE — depth felt Day 2 night. Used fully in altar sacrifice Day 3. Growing steadily. |
 | Arcane Stride developed | ✅ TRUE — enhanced via Speedster perk, 12 hours |
 | Ranged Arcane Edge developed | ✅ TRUE — sharp/edged projectiles only |
 | Radiant Edge developed | ✅ TRUE — anti-entropy radiant weapon, scales with slot level |
-| Vampiric Daggers learned | ✅ TRUE — not yet used in combat. Sensed at village gate Day 3. |
+| Vampiric Daggers combat tested | ✅ TRUE — used Day 4 boar + Day 5 Delve. Devastating + self-healing. |
+| Eyes of the Hunter learned | ✅ TRUE — Level 4 spell. Darkvision, Perception advantage, +30ft throw range. |
 | Fire infusion attempted | ⏳ FAILED — ember tried Day 2, couldn't hold shape. Close. |
 | Entropy god contacted | ✅ TRUE — direct mental communication in the central chamber |
 | Entropy god identity known | ✅ TRUE — dying god of entropy, once worshipped, forgotten, starving |
-| Cycle partially restored | ✅ TRUE — Kenji channeled creation into entropy. The border stabilized. Not permanent — needs periodic tending. |
-| Cycle tending required | ⚠️ ACTIVE — Kenji must periodically return to the temple to sustain the cycle. Unknown frequency. |
-| Hexcrawler intelligence fading | ✅ TRUE — will become uncoordinated animals. Not immediate. |
-| The Delve warned | ⚠️ TRUE — wounded Hexcrawler fled to The Delve. Whatever is there knows the party. |
-| Kenji sent deliberately | ✅ TRUE — the god confirmed. "Something felt me waking and answered with you." |
-| Kenji's origin still unknown | ✅ TRUE — the god could not say who sent him or who he was before |
-| Conspiracy awareness | ⏳ Act 2+ — Varenholm Academy mentioned by Edwyn (archives, deeper knowledge) |
-| Solveth contact | ⏳ Not yet — the entropy god is NOT Solveth. The Gilt Conspiracy is a separate thread. |
-| Bessa's request | ✅ FULFILLED — Harlan recovered alive from the altar, unconscious, veins fading |
-| Pip relationship | ✅ Active — three nights together. She watched him leave from the doorway. |
-| Sera emotional shift | ✅ TRUE — showed fear/vulnerability during altar sacrifice. "Don't ever do that again." Lock is loosening. |
-| Sera training completed | ✅ TRUE — taught Kenji the Cage. Identified him as a "striker." |
-| Ryn recruited | ✅ TRUE — porter/logistics, non-combatant. Conditions: no fighting, first curiosities, permission to flee. |
-| Ryn deal | ✅ Active — owes him interesting curiosities. Entropy anchor ring is a candidate. |
-| Ironwood sap quest | ⚠️ ACTIVE — need to find silver-white bark tree near ley lines. Ryn runs it back to Aldric. |
-| Aldric armor upgrade | ⏳ PENDING — bear hide reserved, awaiting ironwood sap. Half day craft time once sap delivered. |
-| Ancient temple discovered | ✅ TRUE — beneath Brennick farm. Murals show worship history. Two symbols: entropy (outward) and creation (inward). |
-| Entropy anchor ring collected | ✅ TRUE — evidence of siphoning mechanism. Wrapped in cloth. Do not touch. |
-| Green grass returning | ✅ TRUE — first sign of the cycle working. Dead grass at cellar doors showing green at roots. |
+| Cycle partially restored | ✅ TRUE — needs periodic tending. Signs of recovery visible across the region. |
+| Cycle tending required | ⚠️ ACTIVE — frequency unknown. DM tracks time. |
+| Hexcrawler intelligence fading | ✅ TRUE — spawning pools destroyed. Remaining wild Hexcrawlers are uncoordinated animals. |
+| The Delve CLEARED | ✅ TRUE — spawning pools destroyed Day 5. 14 proto-Hexcrawlers neutralized. Fluid inert. |
+| Something ancient beneath The Delve | ⚠️ DORMANT — massive underground space. Something breathed. Untouched. Filed for later. |
+| Kenji sent deliberately | ✅ TRUE — the god confirmed. Unknown sender. |
+| Kenji's origin still unknown | ✅ TRUE |
+| Conspiracy awareness | ⏳ APPROACHING — heading to Varenholm. Sera works for the Mage Council under Seraphine Ash. The conspiracy awaits. |
+| Solveth contact | ⏳ Not yet — the entropy god is NOT Solveth. Separate threads. |
+| Bessa's request | ✅ FULFILLED — Harlan home, awake, recovering |
+| Pip relationship | ✅ Active — honey cakes and a note. "Come back. — P" |
+| Sera — Mage Council connection revealed | ✅ TRUE — works for Varenholm Mage Council under Instructor Seraphine Ash. Can get Kenji an audience. |
+| Sera — "actual authorities" incident | ✅ TRUE — Kenji introduced her as authorities to Garrett without consulting her. She has Opinions. |
+| Sera training completed | ✅ TRUE — Sera's Cage acquired |
+| Ryn — contract complete | ✅ TRUE — fulfilled porter/delivery role. In Duskfen. May come to Varenholm. |
+| Ironwood armor | ✅ DELIVERED — AC 15, custom-fitted, Aldric's masterwork |
+| Entropy anchor ring | ✅ In Kenji's possession — wrapped, do not touch |
+| Entropy Bond developed | ✅ TRUE — used on dying Hexcrawler Day 4. Mercy killed after. |
+| Garrett recruited | ✅ TRUE — 1 month contract, mace fighter, ex-bandit, wants Voss dead |
+| Voss operation discovered | ✅ TRUE — 3 toll crews, corrupt captain, Broken Antler base |
+| Sev fled with intel | ⚠️ ACTIVE — heading to Voss. ETA Day 6. Voss will prepare. Non-lethal reputation spreading. |
+| Brindle at river crossing | ⚠️ NEXT OBSTACLE — sadist, heavy crossbow, ex-military crew, bridge kill box |
+| Captain Dunmore — corrupt | ✅ Known — bribed by Voss, garrison halfway to Varenholm |
+| Non-lethal reputation | ⚠️ BUILDING — honorable to lawful factions, soft to criminal factions. Sev is the messenger. |
+| Kenji plans to solo Brindle's crew | ✅ COMPLETED — solo'd sentries and enforcer, submitted Brindle |
+| Kenji plans to split party after road clear | ✅ COMPLETED — Sera/Edwyn to Varenholm, Kenji/Garrett to Voss |
+| Brindle conditionally aligned | ✅ TRUE — holding the bridge. Price: legitimate toll operation after Voss. Does not forgive the hand wound. 3 day deadline. |
+| Enforcer Marcus | ⚠️ OFF THE BRIDGE — fell into river in heavy armor. Presumed drowning. Status unknown. Potential consequence. |
+| Sera romantic tension escalating | ✅ TRUE — "I will not be telling her about the smile." Color in her ears. The lock is nearly open. |
+| Sera has concerns about territory claim | ✅ TRUE — voiced them on the bridge. Accepted Kenji's intent to legitimize. Will vouch to Seraphine despite reservations. |
+| Kenji claimed Voss's territory publicly | ⚠️ ACTIVE — told Brindle "Voss's territory will be mine." This claim has consequences with both lawful and criminal factions. |
+| Enhanced Cage developed | ✅ TRUE — counterattack on miss while Eyes active. 1/combat. Trained with Sera Day 6. |
+| Party split for Voss operation | ✅ COMPLETED — Kenji + Garrett took the Antler. Sera + Edwyn heading to Varenholm. |
+| Voss captured | ✅ TRUE — KO'd with a thrown rock. Tied up. At Brindle's disposal. |
+| Kael recruited | ✅ TRUE — bodyguard turned guild trainer. Professional. Contract terminated with Voss, employed by Kenji. |
+| Broken Antler Guild founded | ✅ TRUE — Brindle (leader), Kael (trainer), Harsk (bridge). Mercenary guild replacing bandit operation. 10% stipend to Kenji weekly. |
+| Voss's ledgers obtained | ✅ TRUE — financial records, Dunmore bribe receipts with dates and amounts. Critical evidence. |
+| Dunmore still active | ⚠️ UNKNOWN — his men sent west chasing nonexistent threat. Doesn't know Voss is down. Reaction unknown. |
+| East cellar door | ⚠️ UNEXPLORED — bolt-locked from cellar side. One of Voss's keys fits it. Unknown what's beyond. |
+| Glass vial (unknown) | ⚠️ UNIDENTIFIED — dark substance from Voss's satchel. Edwyn would know. |
+| Horses acquired | ✅ TRUE — 2 riding + 1 pack. Travel speed doubled. Weight problems solved. |
+| Heading to Varenholm | ✅ ACTIVE — horseback, ~half day. Should catch or arrive with Sera/Edwyn. Act 2 imminent. |
+| 290 EXP to Level 5 | ⚠️ CLOSE — 6,210 / 6,500. Level up on next Long Rest if threshold met. |
 
 ---
 
 ## ⚠️ DM ACTIVE REMINDERS
-- Kenji is a stranger in this world — but now knows he was SENT here deliberately. His questions about identity are central to the story.
-- The entropy god is NOT Solveth. The Gilt Conspiracy (Varenholm, Marius Vael, the Hollow Crown) is a SEPARATE plotline that hasn't started yet. Do not conflate the two.
-- The entropy god beneath the Brennick farm is a local, ancient deity. Solveth is something else entirely.
+- The entropy god is NOT Solveth. The Gilt Conspiracy (Varenholm, Marius Vael, the Hollow Crown) is a SEPARATE plotline about to begin. Do not conflate the two.
+- Kenji is heading toward Varenholm — Act 2 territory. Sera's connection to Seraphine Ash is the entry point.
 - NEVER reveal plot directly — events, NPC dialogue, environment only
-- Steering: subtle always, escalate only if player drifts repeatedly
-- Stat hard cap: 20 always
-- Perks every 3 levels only (next at Level 6)
-- Level up on Long Rest only — flag when EXP threshold met
-- Death is permanent. Weight every life.
-- ⚠️ FAST METABOLISM: Kenji must eat every 4 hours or hunger debuff begins. Track meal times carefully.
-- ⚠️ SPELL STACKING: Arcane Stride, Arcane Edge, and Radiant Edge CANNOT stack. Only one active at a time.
-- ⚠️ RADIANT EDGE: Full damage only vs radiant-weak enemies. Halved vs normal. Disadvantage aura only vs radiant-weak. It's a specialist weapon, not a universal upgrade.
-- ⚠️ CYCLE TENDING: The partial restoration is not permanent. At some point Kenji will need to return. DM should introduce signs of the cycle weakening if too much time passes.
-- ⚠️ HARLAN: Unconscious, being carried. May wake soon. Will have information and possibly trauma. Handle with care.
-- ⚠️ THE DELVE: Still unexplored. A wounded Hexcrawler fled there. May be a nest, a secondary threat, or something else. The entropy god's influence is fading but the creatures are still alive.
-- ⚠️ IRONWOOD SAP: Active quest. Silver-white bark, amber sap, hot copper smell. Near ley lines in deep old growth. Ryn runs it back to Aldric.
-- ⚠️ RYN'S DEAL: Owes him interesting curiosities. The entropy anchor ring could fulfill this. Player's choice.
-- ⚠️ FLINT STONES: Below 10 minimum (7 remaining). Kenji should forage more.
-- ⚠️ VARENHOLM: Edwyn mentioned the Academy archives. This is the first breadcrumb toward Act 2 of the Gilt Conspiracy. Do not force it — let the player follow it naturally.
+- Stat hard cap: 20 always. Perks at Level 6 next.
+- Level up on Long Rest only. Current: 3,820 / 6,500.
+- Death is permanent.
+- ⚠️ FAST METABOLISM: Every 4 hours. Track meals. Bandit rations available but finite.
+- ⚠️ SPELL STACKING: Stride + Edge + Radiant cannot stack. Eyes of the Hunter CAN stack with ONE other (Stride or Radiant, not both). Two buff max.
+- ⚠️ CYCLE TENDING: Track time since restoration. Signs of weakening if Kenji is away too long.
+- ⚠️ VOSS OPERATION: Sev arriving at Broken Antler ~Day 6. Voss prepares. Central crew (Brindle) is next. Kenji plans to solo with team on standby.
+- ⚠️ BRINDLE: Sadist. Heavy crossbow + bastard sword. Ex-military crew. Bridge kill box. FIRST ENEMY WITH RANGED ATTACKS against Kenji. This is a step up in difficulty.
+- ⚠️ NON-LETHAL REPUTATION: Tracking. Sev is spreading word. This affects future Intimidation DCs against criminals and access to criminal networks. Conversely helps with lawful factions.
+- ⚠️ GARRETT: 1 month contract. Wants Voss dead. Professional but watching Kenji. Has local knowledge — USE him for intel on the road.
+- ⚠️ SERA "AUTHORITIES" INCIDENT: She was introduced as law enforcement without being consulted. This conversation needs to happen.
+- ⚠️ PARTY SPLIT PLANNED: After road is clear — Sera/Edwyn to Varenholm, Kenji/Garrett to handle Voss. Then reconnect.
+- ⚠️ PHYSICAL CARRYING: Garrett carrying bulk. Enforce weight rules. No magical storage yet — acquiring one is a significant goal.
+- ⚠️ COMBAT BAG DROP: Packs drop at combat start. Fleeing = items left behind. KO'd enemies auto-disarmed.
+- ⚠️ FLINT: Restocked to 12. Above minimum.
 
 ---
 

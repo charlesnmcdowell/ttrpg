@@ -2493,3 +2493,1783 @@ Iridescent fluid sac — Hexcrawler, faintly warm
 Gold: ten
 
 End of Chapter Three.
+
+# KENJI
+
+## *Day Four — The Things That Wait*
+
+---
+
+The ember is different.
+
+I feel it before I open my eyes — deeper, wider, settled into spaces it didn't occupy yesterday. The altar took something from me and the long rest gave it back with interest. Not more power. More *foundation*. Like a house that had its cellar dug deeper overnight.
+
+My hand. I flex it. The skin is tight — the angry red has faded to a dull pink, like a sunburn halfway through healing. Everything else feels whole. Strong. Rested in a way that goes beyond sleep.
+
+My stomach disagrees. The hunger hits before my eyes are fully open — sharp, immediate, the furnace demanding fuel.
+
+I sit up.
+
+The camp is small and well-hidden. Ryn's work — the fire tucked behind the fallen tree, smoke dispersing through the canopy. Bedrolls in a tight circle. Dawn light filtering through the trees in cold grey shafts.
+
+Ryn is crouched by the fire, turning strips of dried meat on a flat stone. He sees me move and wordlessly holds out a portion — meat, hard bread, the last of the dried fruit. I take it and eat. He watches me eat with the expression of a man who has recalibrated what the word *hungry* means.
+
+Edwyn is beside Harlan's bedroll. The priest looks tired but steady. Harlan hasn't moved, but the black veins are nearly invisible now — faint grey shadows under the skin where yesterday there were dark roots. Edwyn has a damp cloth on the man's forehead.
+
+"He stirred twice in the night," Edwyn says without looking up. "No words. But his eyes moved beneath the lids. He's climbing back toward consciousness. Could be hours. Could be today."
+
+And Sera.
+
+She's sitting against the same tree where she started her watch. Sword across her knees. Eyes on the tree line facing the Brennick farm. Her posture says she hasn't moved. The circles under her eyes say she didn't sleep.
+
+She feels me looking.
+
+"I'm fine," she says. The way people say *I'm fine* when they're not and don't want to discuss it.
+
+---
+
+"Let's get Harlan back home," I say. "Sera looks tired — I'll take point. Edwyn, let me know if you see that tree with the sap I need. Thanks for waiting for our return, Ryn."
+
+Sera opens her mouth to argue. I can see it forming — the objection, the *I'm fine*, the refusal to give up the position she's held since this party started walking.
+
+"Sera."
+
+I say it once. Not hard. Not soft. Just her name.
+
+She holds my gaze for three seconds. Then sheathes her sword and stands. The motion is slightly slower than usual. She notices me noticing and her jaw tightens.
+
+"Fine. You take point. I'll cover rear." She picks up her pack. "Wake me if something has six legs."
+
+Ryn's gratitude when I thank him is quick and genuine and immediately hidden behind his usual nervous efficiency.
+
+"I had a tree," he says, packing the cooking stone. "Good tree. Good sightlines." He glances toward the Brennick farm. "Didn't need the sightlines. Nothing came. Not even animals." A pause. "That was almost worse."
+
+Edwyn lifts Harlan over his shoulder with a grunt. The man is light — weeks of the presence sustaining him left muscle but not weight.
+
+"I'll watch for the ironwood. Silver-white bark, ley line proximity." He looks toward the trade road. "If it's anywhere, it's between here and the stretch where the corruption started thinning on our way in."
+
+---
+
+I take point. The trade road looks different heading southwest. Not better — *changing*. The corruption is still there — grey bark, curling leaves, the iridescent sheen on stream stones — but it's less aggressive than yesterday. The edges are softer. A patch of undergrowth that was solid grey yesterday has a faint green undertone at the roots. A tree that was leaning at a wrong angle seems to have straightened by a single degree.
+
+Small things. Barely visible. But the forest is *responding*. The cycle is turning and the land knows it.
+
+The silence has a crack in it too. A single bird call. Distant. Tentative. Like the first voice testing the acoustics of an empty room.
+
+I fall into step beside Edwyn and remind him about the ironwood. Silver-white bark, smooth, grows near ley lines. Aldric needs the sap.
+
+"I know ironwood," he says. "The Temple archives mention them as markers — they grow where the boundary between our world and the divine runs thin. Ley line anchors." He glances at the corrupted undergrowth. "If the corruption hasn't killed them."
+
+I scan the tree line as we walk. Dark-barked oak and ash and twisted elm. No silver-white bark. Not yet.
+
+---
+
+Ninety minutes into the walk, Edwyn speaks.
+
+"Kenji. Left. Thirty feet off the road."
+
+I stop. Look.
+
+Through the undergrowth, rising from a mossy depression where the stream passes close to the road — a tree. Not large. Maybe twenty feet tall. Young compared to the ancient oaks around it. But the bark—
+
+Silver-white. Smooth. Luminous in the grey morning light like polished bone. It doesn't look like it belongs in this forest. It looks like it grew here specifically to be found.
+
+"Ironwood," Edwyn says. "And look at the base."
+
+The corruption stops three feet from the ironwood's trunk. A perfect circle of clean earth around its roots. Green moss. Actual green. Small white flowers pushing up through the soil.
+
+"Ley line anchor," Edwyn murmurs. "The corruption can't touch it. The tree is *holding the line* — drawing clean energy from the ley line below and pushing the bleed back."
+
+I pull the empty vial from my pack. Hand axe. A careful V-shaped cut at chest height. The bark parts like butter — the wood underneath dense and pale and the sap comes immediately. Amber. Thick. The smell — hot copper, sharp and metallic, like a forge in liquid form.
+
+The vial fills in thirty seconds. I stopper it and hold it up to the light. The amber liquid catches the morning grey and glows faintly from within.
+
+The cut in the tree seals itself as I watch. The bark knitting closed in slow motion — ten seconds and there's nothing left but a faint line already fading.
+
+"Remarkable," Edwyn says. "The tree heals itself. The ley line feeds it and it feeds the ley line. Another cycle."
+
+He looks at me with an expression that says he's going to be thinking about cycles for a very long time.
+
+---
+
+I hand the vial to Ryn. He takes it carefully.
+
+"Ironwood sap. Take it to Aldric in Duskfen. He knows what to do. Then bring the finished armor back to me." I meet his eyes. "The road between here and Duskfen is the road we already cleared. You'll be safer than you were walking with us."
+
+He looks at the vial. At the road behind us. At the road ahead.
+
+"I can make Duskfen by evening if I move fast. Aldric said half a day for the work. I leave now, arrive tonight, he works through the morning, I'm back on the road by midday tomorrow." He pauses. "Where will you be?"
+
+"Sera and I will continue to clear a path to The Delve. You and Edwyn catch back up when you can."
+
+Edwyn's expression shifts.
+
+"Without me, you have no field medicine. No antitoxin. No consecrated wraps. No one to put you back together if something opens you up out there." He adjusts Harlan's weight. "I understand why. Harlan needs to get home. But I need you to understand what you're walking into without a healer."
+
+"Noted."
+
+He doesn't argue further. He pulls items from his satchel — silverleaf tea, three doses remaining. Then the two iron discs. The Flame Seals.
+
+"Take them. If you find something at The Delve that needs containing, these are the only tools that will do it." He describes the rite. Place one seal on each side of the threshold. Press your palm to each and speak the words — *By the Wandering Flame, I mark this threshold. What is within, remains within.* Thirty seconds of unbroken contact.
+
+"Simple," he says. "Don't let anything interrupt you."
+
+He looks at me one more time.
+
+"Eat every four hours, Kenji. I mean it."
+
+They head southwest. Edwyn's satchel clinking. Harlan's unconscious form over the priest's shoulder. Ryn's pack bouncing with every step. I watch them until the road bends and the forest takes them.
+
+---
+
+Just the two of us now. The trade road stretching northeast into corrupted forest.
+
+Sera stands beside me.
+
+"Two people. Exhaustion. No healer. Walking toward a nest of uncoordinated but still very alive Hexcrawlers that know we're coming." She rolls her shoulders. Winces. "You know this is stupid."
+
+A beat.
+
+"I would've made the same call."
+
+She draws her sword. Checks the edge. Sheathes it.
+
+"I'll manage the exhaustion. Don't slow down for me and don't ask me if I'm ok." She looks at me with tired, sharp eyes and something else underneath. "Just keep that golden light trick ready. Whatever's at The Delve might not be as talkative as your god."
+
+She starts walking. Northeast. Into the grey.
+
+---
+
+The road changes as we push deeper. The corruption reasserts itself — grey bark, dead undergrowth, iridescent sheen. But the quality is different. Yesterday it felt like the breath of something alive and hungry. Today it feels like residue. Stale corruption. The tide went out but the wreckage is still on the beach.
+
+Two hours in. I eat on the move. Hard bread chewed between strides. Sera watches me eat for the third time today.
+
+"How often," she says.
+
+"Every four hours. Or I start losing effectiveness."
+
+"That's a liability in the field."
+
+"The tradeoff is I heal twice as fast as anyone you've ever met."
+
+She files that.
+
+Three hours in. The track bends hard east and begins climbing. Rockier terrain. The trees gnarled and wind-bent. The corruption here is older. Deeper. Baked into the landscape.
+
+Tracks. Everywhere. Six-legged prints overlapping in the packed earth — dozens of them, layered, old and new. A highway for Hexcrawlers. Every patrol route converging on a single point.
+
+"We're close," Sera says. "This is the convergence zone." She points ahead where the track crests a rocky ridge. "The Delve is on the other side of that rise."
+
+She crouches. Touches a print.
+
+"These are fresh. Hours old. Multiple creatures — four, maybe five — moving back and forth." She traces the pattern. "They're not patrolling anymore. They're *circling*. Defensive pattern. Guarding something."
+
+The ridge is two hundred feet ahead. Rocky. Sparse cover. Boulders lining the approach.
+
+I tell Sera to scout ahead — see if she can come up with a plan to crush them with the boulders. I'm fast enough to play bait.
+
+"Bait," she repeats. "The man who touched a dying god yesterday wants to play *bait*."
+
+She's already moving. "Give me ten minutes. Don't move. Don't glow."
+
+She slips into the rocks and disappears in four seconds.
+
+---
+
+Ten minutes. She comes back belly-crawling through the dirt. Dust on her face. Eyes sharp despite the exhaustion.
+
+"Found them."
+
+She draws in the dirt with her finger. The ridge. A depression on the other side — a natural bowl, eighty feet across. The Delve at the bottom, old excavation entrance, timber-framed, half-collapsed.
+
+Five X marks in the bowl.
+
+"Five Hexcrawlers. Three circling the entrance. Two stationary — flanking the mine mouth. One of the guards is wounded." She looks at me. "The one that ran from us yesterday."
+
+She taps the ridge line. Three circles.
+
+"Three loose boulder formations on the crest. Cart-sized. Sitting on cracked shale. The right impact and those rocks go *down*."
+
+She traces the path with her finger. Boulders rolling downhill through the patrol loop.
+
+"You use the speed trick. Run the track loud. The three circling ones chase — they're pack hunters, they chase what runs. The path is narrow. They funnel into single file."
+
+She holds up a finger.
+
+"At the top, you hit the shale with everything you've got. Thunderous Strike. The shale breaks. The boulders go. Anything below you on the track and anything in the bowl gets buried."
+
+Second finger.
+
+"I'm on the ridge already, concealed. The two guards won't chase — they hold the entrance. When the boulders scatter them, I drop on whatever's still standing."
+
+She meets my eyes.
+
+"The timing has to be exact. The chasers need to be close enough for the boulders to catch them on the slope, but not so close they reach you before you break the shale."
+
+She folds her arms.
+
+"It's a good plan. It's also the kind of plan that kills you if you're two seconds slow."
+
+---
+
+"Let's do it."
+
+Sera nods. Moves up the eastern side of the ridge and disappears into the boulders. Gone in ten seconds.
+
+I stand alone on the track. One breath.
+
+The ember forks down my legs. Silver-white detonation under my first footfall. Arcane Stride. Active.
+
+I run.
+
+Not quiet. Not careful. *Loud*. Every silver-kicked footfall hitting packed earth like a hammer strike, the detonations echoing off boulders and up the ridge. I am a man-shaped announcement crashing up a mountain path, and I want everything on the other side to hear me coming.
+
+The response comes before I see it — that sub-frequency vibration. One voice. Two. Three. The circling patrol breaking formation and coming.
+
+They crest the ridge — three dark shapes pouring over the lip of rock and down the track. Six legs each. Six eyes each. Chitin gleaming wet. They see me. They see the silver light. They *charge*.
+
+The track narrows between the boulders. The Hexcrawlers funnel — single file, no choice. The lead creature is forty feet away. Thirty. Twenty. Closing fast. Faster than wolves. Faster than the cougar.
+
+The ridge crest. The cracked shale. Three cart-sized boulders sitting on it like loaded dice. The timing window is *now*.
+
+My boots dig into the shale. The momentum fights me — Stride wants to keep going — but I plant, pivot, and stop at the exact point where the crack meets the boulder line.
+
+The lead Hexcrawler is fifteen feet below me. Climbing. All six eyes locked on. Mouth open. That *wrong* sound filling the air.
+
+I draw the longsword. Thunder coils along the blade.
+
+I aim at the ground.
+
+The longsword comes down two-handed into the cracked shale and the thunder *detonates*.
+
+The sound is catastrophic. The crack races through the stone. The shale separates. The three boulders shift. Tilt. And gravity takes over.
+
+The mountain *moves*.
+
+Three boulders — each the size of a cart — roll off the shattered lip and down the slope in a cascade of stone and dust and thunder. The lead Hexcrawler doesn't have time to scream. The first boulder hits it center-mass and the creature *ceases to exist* — chitin and fluid compressed into the earth. The second boulder takes the middle creature on the bounce. The third catches the rear creature from behind and carries it thirty feet down the slope in a grinding avalanche.
+
+Three Hexcrawlers. Dead. Instantly. Not by blade or magic. By gravity and timing and a woman who reads terrain the way other people read books.
+
+The boulders reach the bowl. The wounded guard — the one that ran from us yesterday, missing chitin on its right flank — is standing directly in the path. It sees the stone coming. Tries to move. Its wounded side betrays it.
+
+The boulder rolls over it with the indifference of geology.
+
+The fifth Hexcrawler — the healthy guard — *leaps*. Six legs launching it sideways. The boulder clips its rear legs. It tumbles. Hits the ground. Scrambles upright.
+
+From the eastern formation — a shadow drops.
+
+Sera lands on the Hexcrawler's back. Her arming sword punches through the chitin between its second and third shoulder joints — a gap she spotted from the ridge, filed, and waited for. The creature shrieks. Bucks. She rides it for one second, twists the blade, and rolls free.
+
+The creature is on its side. Three legs working. Three not. Dark fluid pooling. One eye on Sera. One on me.
+
+"This one's yours if you want it!" she calls up. "Or I finish it!"
+
+---
+
+I don't answer her question. Not with words. Something else is happening — something I feel before I think it.
+
+The Hexcrawler is making that sound. The sub-frequency vibration. But broken. Stuttering. Like a signal searching for a frequency that's no longer broadcasting. It's looking for the intelligence that used to direct it. The god's desperate will. The signal that went quiet when I restored the cycle.
+
+It's *lost*.
+
+I pick my way down the rubble-strewn slope. Sixty feet of broken stone and crushed chitin. Sera's sword is still raised. She watches me approach the creature with an expression that's assembling a question she can't quite form yet.
+
+Thirty feet. Twenty. The creature's eyes track me. All six. The broken vibration shifts — higher, faster. Not a threat. A *question*.
+
+Ten feet. I can smell it — acrid, chemical, the wrongness of something that shouldn't exist and knows it.
+
+Five feet. I extend my right hand. Palm out. Open. The way you'd approach a wounded animal that doesn't know if you're salvation or the killing blow.
+
+The ember responds. Not with force — not silver-white, not gold. Something softer. A faint luminescence in my palm that's less weapon and more offering. Creation at its quietest.
+
+The Hexcrawler's broken vibration stops. Six eyes fix on my palm. On the light.
+
+I touch its head.
+
+The chitin is cold. Hard. Wrong under my fingers. The ember pulses through my palm. Gentle. A thread of creation touching something made entirely of entropy.
+
+The creature shudders. Every leg goes rigid. Every eye dilates. The broken vibration restarts — deeper, steadier. A heartbeat finding its rhythm. I feel it through the chitin — the moment creation touches the entropy inside this creature and doesn't fight it.
+
+It *completes* it.
+
+The creature's legs slowly relax. The six eyes half-close. The mouth — those fishhook teeth — closes. The whole body exhales a sound I've never heard a Hexcrawler make.
+
+It sounds like relief.
+
+Its head turns under my palm. Slowly. Not pulling away — *pressing in*. The way a dog presses its head into a hand it's decided to trust.
+
+Sera hasn't moved. Her sword is still raised. Seven emotions she doesn't have names for.
+
+"Kenji."
+
+Very quiet.
+
+"Did you just *tame* a Hexcrawler."
+
+---
+
+I keep my hand on its head. Push intent through the thread — not words, *feeling*.
+
+*What's inside. Show me.*
+
+The bond vibrates. Impressions come — not images, not language. A map drawn in sensation.
+
+Darkness. Down. Tunnels that branch and converge. A main shaft descending steep. Timber supports, most rotted. A wider chamber — a natural cavern. The floor covered in iridescent fluid. Thick. Ankle-deep.
+
+*Home.* The creature's feeling, not mine. This is where they were made. Not born — assembled. The fluid is the medium. The raw material of unraveling given form.
+
+Deeper in the cavern — clusters. Shapes in the fluid that haven't finished forming. Half-made things. Legs without bodies. Eyes without skulls. A factory running on anguish.
+
+Then something different. Deeper still. Past the spawning pools. The bond flinches — a hand touching a hot surface.
+
+Something else. Not a Hexcrawler. Not the god. Something that was in The Delve *before*. Older. Still. The creatures avoided it. Even the god's intelligence steered around it.
+
+The impression is colored entirely by avoidance. The Hexcrawler doesn't know what's down there. It only knows every instinct said *don't go deeper*.
+
+---
+
+I push one more thing through the bond. Gentler.
+
+*I can't heal you. I'm sorry.*
+
+The creature's eyes shift. One by one, slowly, they half-close. The broken vibration changes — lower, softer. Not the stuttering signal. Something more like acceptance. It knows what it is. It knows the god that built it from desperation is resting now.
+
+It presses its head into my hand one more time.
+
+*I'll make it quick.*
+
+The six eyes close.
+
+---
+
+I draw the longsword. The ember doesn't infuse the blade. I don't ask it to.
+
+The blade finds the soft membrane beneath the jaw. The same spot I found on the first Hexcrawler at the mill. One clean thrust. The creature shudders once. The vibration stops. The eyes stay closed.
+
+It doesn't make a sound.
+
+I pull the blade free. Clean it on the dead grass. Sheathe it.
+
+Sera sheathes her own sword. Steps beside me. Looks at the creature at my feet.
+
+She doesn't say *that was stupid* or *that was brave*. She says something else.
+
+"You felt it. What's inside."
+
+"Tunnels. A main shaft going down into a cavern. The floor is covered in that iridescent fluid. That's where they were made. There are unfinished ones — half-formed in the spawning pools. Still active."
+
+She nods.
+
+"And?"
+
+"Something deeper. Past the spawning cavern. Something that was already there before the god's influence reached The Delve. The Hexcrawlers avoided it. Even the intelligence directing them steered around it."
+
+Sera is quiet.
+
+"So the old excavation broke into something. The god's bleed reached The Delve and used it as a spawning ground. But whatever the excavation originally found — whatever caused them to condemn the site—" She looks at the entrance. "That's still down there."
+
+She looks at me.
+
+"One problem at a time. The spawning pools. If they're still active, they'll keep producing. We need to shut them down."
+
+I look at the entrance. At the sky. At Sera's tired eyes.
+
+"We'll use the knowledge we gained to avoid whatever's lurking deeper. But first — long rest. Here. It gives time for the party to catch up. We kill anything that comes out of that hole. Once we have everybody, we go in and destroy the nest."
+
+Sera looks at the bowl. The narrow track. The ridge. The rubble.
+
+"This position is defensible. One way in, one way out. Anything leaving The Delve comes through that entrance and up through rubble. We'd see it before it reached us." She nods at the ridge crest. "We camp up top. High ground. Sightlines."
+
+She sits on a boulder. The motion is heavier than it should be.
+
+"Edwyn and Ryn — if they left Duskfen at dawn tomorrow, Ryn picks up the armor midday, they're on the road by afternoon. They reach us by late evening. Maybe nightfall."
+
+She looks at me.
+
+"Thirty hours. That's a long time for spawning pools to run. But it's better than going in half-strength and not coming out."
+
+A pause. Quieter.
+
+"Rest is the right call. I need it. You need the slots." Something in her jaw tightens. "We set watches. Four hours on, four off. I take first sleep. You wake me at dark."
+
+She pulls her bedroll. Lays it behind the eastern boulder formation. Defensible. Concealed.
+
+"Kenji."
+
+"Yeah."
+
+"If something comes out of that hole while I'm asleep—" She doesn't open her eyes. "—don't tame it. Kill it."
+
+She's asleep in thirty seconds.
+
+---
+
+I eat. The last meal from our rations. The hunger settles. The ember calms.
+
+The afternoon passes. I sit on the ridge with the longsword across my knees and watch The Delve entrance. Nothing comes out. Nothing goes in. The dark mouth stares back with the patience of a hole in the ground.
+
+The forest around The Delve is the most corrupted I've seen. Every tree grey. The undergrowth dead. But at the edges — the border between grey and living forest has softened. Yesterday a hard line. Today a gradient. The cycle. Working.
+
+---
+
+Dusk. I'm not sleeping yet. The rations are gone and the furnace in my gut doesn't care about tactical timing.
+
+"I'm going hunting before I sleep," I tell Sera when she stirs. "We're out of food."
+
+She looks at me from her bedroll. "Stay within earshot. If I hear that thunder trick, I'm coming."
+
+"If you hear the thunder trick, bring a plate."
+
+She almost smiles.
+
+---
+
+I move south and west, toward the border where corruption meets living forest. The wildlife that fled didn't go far — it concentrated here, refugees pressed against a wall.
+
+The signs come within fifteen minutes. A young oak with its bark shredded at waist height. Deep gouges. Not claws — tusks. The soil around the base churned into mud by something heavy. Rooting. Marking territory.
+
+Boar. The tusk marks are wide-set — wider than my hand span. The hoofprints in the mud confirm it. This isn't a pig. This is a creature that treats trees as personal insults.
+
+The trail leads to a thicket two hundred feet south. Dense undergrowth around a clean-running stream. I can hear it before I see it. Grunting. The heavy *whuff whuff* of something breathing through a nose designed for war.
+
+I come in downwind. The thicket opens into a muddy clearing. And there it is.
+
+Massive. Shoulder height past my waist. Dark bristled hide caked in mud. Two tusks curving upward from a jaw designed by someone who hated everything. Small furious eyes. It's rooting at the stream bank with the single-minded intensity of a creature that has never once considered the feelings of anything else.
+
+The ember forks down my legs. Silver-white detonation. Arcane Stride. I don't approach quietly. I approach at sixty feet per second.
+
+Thirty feet in two strides. The longsword clears the scabbard. Thunder coils along the blade. The boar's head snaps up — small furious eyes finding me in the half-second between *what was that* and *oh*.
+
+Too late.
+
+The blade connects mid-sprint. A committed diagonal aimed at the rear flank where the hide stretches thin over the hip joint. The longsword bites deep and the thunder *detonates*. The concussive boom flattens the grass. The boar screams — a sound like metal being torn — and staggers sideways. The hide splits along the hip.
+
+It stays standing. Four hundred pounds of stubbornness keeping those legs locked.
+
+I'm already past it. The Stride carries me through. I pivot — the extra action — the longsword coming around in a backhand slash at the same wounded flank. The second cut opens a parallel line across the first wound. The boar's rear leg buckles for one instant before rage overrides the injury.
+
+I dig in thirty feet past. Turn. Sword up.
+
+The boar turns. Slowly. That wounded flank is dragging. But those small eyes have found me and everything behind them has committed to a single decision.
+
+It charges. Head down. Tusks forward. Four hundred pounds accelerating to full speed in two seconds.
+
+I see the tusks coming. Purple light flares across my ribs — Blade Ward answering the commitment of real ivory heading for real organs. The impact is *enormous* — the ward absorbs it and the force spreads across the shield like a hammer hitting a bell. My feet leave the ground. I hit mud back-first and slide.
+
+But the killing edge of it dissipates into violet light. I'm alive. Bruised. On my back. But alive.
+
+The boar skids to a stop five feet from where I'm lying. Snorting. Blood — mine and its own — dripping from the tusks. It stamps once. Lowers its head.
+
+I roll and shove myself upright. Ten feet of distance. The ember opens a different channel — not the legs, not the blade. The shadow daggers. Five shapes materialize from nothing — wickedly edged, black as ink, hovering at my shoulders like obedient wasps. I've never called them before but they feel *right*.
+
+The boar charges again.
+
+I throw.
+
+The first dagger crosses ten feet in a black streak and buries itself in the boar's left eye socket. The shadow blade dissolves on impact and the boar's charge *stutters*. It screams. And warmth floods back through the channel the dagger left — the ember drinking the wound, feeding the damage back to me as heat that settles into my bruised ribs. The pain recedes. The body repairs.
+
+Second dagger. Right eye. The black blade finds its mark and the boar's head wrenches sideways — two eyes gone, the charge veering wildly off course. More warmth. More healing.
+
+Third dagger. The boar is blind and staggering and the shadow blade takes it in the neck. The creature's legs buckle—
+
+And then it stands back up. One eye working. Three daggers dissolved in its flesh. Blood from everywhere. Legs shaking. Breathing a wet broken bellows. But standing. Because that's what this thing does.
+
+*Relentless.* Four hundred pounds of pure refusal.
+
+The boar charges one more time. Slower. Weaving. A dying thing that doesn't know how to do anything else.
+
+The tusks pass a foot to my right. It can't correct — the ruined eyes betraying it at the moment of commitment. It stumbles past and hits a tree root and goes to its knees in the mud.
+
+Five feet away. On its knees. One eye looking at nothing.
+
+The longsword comes down. Clean. Heavy. Across the neck. The one working eye goes dark.
+
+Four hundred pounds of stubbornness finally runs out of reasons to stand.
+
+---
+
+I work fast in the fading light. The hand axe does the heavy work. Four thick haunches. Ribs. The tusks — each one as long as my forearm, curved, dense ivory.
+
+I drag the best cuts back to the ridge. Sera is sitting up on her bedroll, looking at me emerge from the tree line carrying enough meat to feed a small army.
+
+"Boar," she says.
+
+"Giant boar."
+
+"How big."
+
+"Four hundred pounds. Give or take."
+
+"You were gone ninety minutes."
+
+"It charged me. I threw shadow daggers into its eyes and it still got back up. Had to hit it twice to keep it down."
+
+She stares at me. The expression on her face has given up recalculating.
+
+"You're going to eat most of this yourself, aren't you."
+
+"Probably."
+
+She shakes her head. Lies back down.
+
+"Wake me at dawn. And cook some of that. The smell of raw boar is not what I want to sleep to."
+
+---
+
+I build a small fire behind the boulders. The ribs go on the flat stone. Fat sizzles. Meat cooks. I eat — a full meal, hot, real — and the hunger that lives permanently in my gut finally goes quiet.
+
+I bank the fire. Take my position on the ridge. The Delve entrance stares up from the bowl. Dark. Silent.
+
+Midnight comes. I wake Sera. She takes the watch. I sleep.
+
+---
+
+The night is long and empty. At some point — Sera tells me later — around three in the morning, a sound came from inside The Delve. Wet. Heavy. Like something shifting in fluid. Then nothing.
+
+The spawning pools. Still working.
+
+Dawn comes grey and cold.
+
+I open my eyes. The ember is warm and deep and ready. The Delve entrance is a dark rectangle in the morning light.
+
+Somewhere behind us on the trade road, Edwyn and Ryn are coming. Ahead of us, underground, something ancient waits beneath a factory of half-formed nightmares.
+
+The boar ribs are cold on the stone but I eat them anyway. The furnace demands fuel and the day demands everything else.
+
+---
+
+DING — END OF DAY 4 — NO LEVEL UP
+
+The ember didn't grow louder. It grew more patient. Like a weapon that knows it will be needed soon and is conserving its edge.
+
+KENJI
+Human — Blade Channeler — Sorcerer Swordsman
+Level 3 — Outlander
+
+HP: 21
+AC: 12
+Initiative: +1
+Spell Attack: +5
+Spell Save DC: 13
+
+STR 15 / +2
+DEX 13 / +1
+CON 13 / +1
+INT 9 / -1
+WIS 11 / +0
+CHA 17 / +3
+
+CANTRIPS
+
+Arcane Edge — Silver-white weapon infusion. Adds force damage to every hit. Reflexive activation. Also works on sharp thrown projectiles.
+Blade Ward — Purple reactive shield. Halve one physical hit. Three uses per rest.
+
+LEVEL 1 SPELLS
+
+Thunderous Strike — On hit, expend a spell slot. Target saves or gets knocked prone and takes thunder damage.
+Charisma Surge — Expend a spell slot. Add charisma bonus to any one roll. Must be declared before rolling.
+Charm Person — One humanoid regards me as a friend for up to one hour.
+Arcane Stride — Enhanced via Speedster Perk. Twelve-hour duration. Movement doubled while sprinting. No opportunity attacks. Extra action per round.
+Radiant Edge — Golden radiant weapon. Scales with slot level. Pushes supernatural darkness thirty feet. Full radiant damage against entropy and undead. Halved against normal enemies.
+
+LEVEL 2 SPELLS
+
+Vampiric Daggers — Summons five shadow daggers. Throw two per action. Quarter damage healed, doubled by Fast Metabolism. First combat use Day 4 — devastating against the boar.
+
+PERK — SPEEDSTER
+
+Effect One — Arcane Stride Enhanced. Twelve hours. No opportunity attacks. Extra action per round.
+Effect Two — Fast Metabolism. All healing doubled. Hunger debuff triggers at four hours.
+
+ABILITIES
+
+Arcane Momentum — Kill an enemy with Arcane Edge active and I get one free bonus attack immediately.
+Sera's Cage — Defensive stance. Plus two AC as an action or once per combat as a reaction.
+Entropy Bond — NEW. Touch a creature of entropy and channel creation to bond it. Not control — connection. Requires CHA check. Bonded creature recognizes Kenji as part of the cycle. First use Day 4 — bonded a dying Hexcrawler and received intel on The Delve.
+
+INVENTORY
+
+Longsword — merchant steel, well balanced
+Hand Axe — melee or thrown
+Leather Armour — Aldric's son's, working condition
+Ryn's spare lockpick set
+Sharp flint stones, seven
+Fibrous tinder root
+Sera's map
+Maren's map
+Entropy Anchor Ring — wrapped, do not touch
+Creature claws, two — Hexcrawler
+Iridescent fluid sac — Hexcrawler
+Silverleaf tea, three doses
+Two Flame Seals of the Wandering Flame
+Boar meat — four haunches plus ribs, enough for eight or more meals
+Boar tusks, two — valuable ivory
+
+Gold: ten
+
+End of Chapter Four.
+
+
+# KENJI
+
+## *Day Five — What We Leave Behind*
+
+---
+
+Dawn. Grey and cold. The ridge.
+
+I eat cold boar ribs sitting on the boulder where Sera kept watch. The meat is gamey and tough and the best thing in the world because the furnace in my gut was already sending reminders before my eyes opened.
+
+The ember is rested. Deep. Patient. Everything charged. Everything ready for whatever's at the bottom of that hole.
+
+The Delve entrance stares up from the bowl below. Dark rectangle in grey stone. A thin wisp of iridescent vapor curling from the opening like breath from a sleeping mouth.
+
+Sera is cleaning her sword. Long methodical strokes with an oiled cloth. She slept well — the exhaustion gone from her posture, the sharpness back in her eyes.
+
+The bowl is a graveyard. Four crushed shapes in the rubble. The fifth Hexcrawler — the one I touched, the one I killed gently — lies near the entrance.
+
+Beyond the bowl, the corrupted forest. Grey. Dead. Silent. But at the edges the gradient is wider than yesterday. Green pushing in. The cycle doesn't rush.
+
+Sera finishes her sword. Sheathes it. Looks at me.
+
+"So. We've got roughly twelve hours before the others arrive. The spawning pools are still running down there. And you and I are sitting on a ridge staring at a hole."
+
+She picks up a pebble. Tosses it into the bowl.
+
+"I don't like waiting. And I don't like the sound that came from in there last night."
+
+"It sounds like we need to do what you do best, Sera. Scout the unknown."
+
+---
+
+Her hand stops mid-reach for her waterskin.
+
+"Scout," she repeats. "Not engage. Not clear. Scout."
+
+She stands. "I can do that. But I need parameters." She holds up fingers. "One — light. If it's just dark, a torch works. If it's that other dark—" She glances at my sword. "—I need you at the entrance ready to pull me out."
+
+Second finger. "Two — time limit. Thirty minutes. I go in, map what I can, count what's moving, come back."
+
+Third finger. "Three — the deeper thing. I don't touch it. I don't approach it. If the tunnels start feeling wrong, I turn around."
+
+She picks up a length of charred wood from last night's fire. "I'll mark the walls. Follow the marks if you have to come after me."
+
+"You're forgetting something. That Hexcrawler I tamed already gave me a mental map. I'm going with you — I just need your scouting skills."
+
+She stares at me. "Then nobody holds the entrance."
+
+She chews on it. "Nothing's come out in eighteen hours. The guards are dead. Whatever's producing down there hasn't finished anything mobile enough to climb a shaft yet."
+
+A beat.
+
+"Fine. We go together. Thirty minutes. You lead. I watch flanks and mark walls. We stay within arm's reach."
+
+She looks at my sword.
+
+"Light?"
+
+I reach for the ember. A Level 1 slot opens and gold pours down my arm into the steel. The longsword ignites — not the blazing sunrise of the cellar, but a steady warm radiance. Thirty feet of golden light.
+
+"That works," she says.
+
+---
+
+The descent. Timber-framed entrance, narrowed by partial collapse. Single file. Sera marks the frame with charred wood. A diagonal slash. Start point.
+
+The golden light pushes into the shaft and the darkness retreats — ordinary darkness, not the supernatural resistance from the cellar. Just a mine nobody's lit in years.
+
+The main shaft descends steep. Timber supports every eight feet — most intact, some bowed, two snapped with the ceiling sagging. The Hexcrawler's mental map overlays what I'm seeing. The angle matches. The spacing matches. We're on the right path.
+
+Sera marks every junction. Quick precise slashes. Her breathing controlled. Her footsteps silent on the damp stone.
+
+"Thirty feet down. Air's changing. Wetter. The timber's worse here."
+
+She's right. The supports are rotting from the bottom up. The iridescent fluid has been seeping upward — faint traces on the walls, a thin sheen on the floor getting thicker with every step. Warm through the leather of my boots in a way leather shouldn't conduct.
+
+"Stop." Sera's hand finds my arm. Iron grip. "Left wall. Six feet ahead."
+
+I hold the sword forward. The golden light finds it.
+
+A shape. Half-embedded in a pool of fluid against the left wall. Three chitinous legs growing from the fluid like stems from soil. No body. No head. Just legs, twitching in slow rhythmic pulses. The chitin translucent — not yet hardened. Fluid moving inside like blood in veins.
+
+The spawning process. Right here in the corridor.
+
+"It's growing," Sera says. Very quiet. "How long until those have a body."
+
+"Mark it. Keep moving."
+
+---
+
+The shaft opens.
+
+The golden light floods forward into space and the change hits before I see it — the ceiling vanishing upward, the walls pulling apart, the air going from corridor-tight to cavern-vast. The sound changes. Echo. Drip. And underneath — a wet, constant churning. Like a slow river made of something thicker than water.
+
+The natural cavern. The Hexcrawler's memory didn't do it justice.
+
+Sixty feet across. Ceiling thirty feet up. Stalactites. The walls raw limestone, broken where the excavation punched through. And the floor —
+
+A lake.
+
+Iridescent fluid covers everything. Not ankle-deep — knee-deep now in the centre. Shimmering in the golden light — rainbow slicks of entropy given liquid form, moving in slow lazy currents despite no wind.
+
+And in the fluid — shapes. Dozens of them. At various stages of *becoming*.
+
+Near the edges — raw material. Chitin plates floating like lily pads, accreting, finding each other, fusing. Further in — partial forms. A torso with two legs and no head, twitching. A skull-shape with four of six eye sockets formed. And near the centre — a nearly complete Hexcrawler. Five legs attached, the sixth growing from a nub, floating motionless with its eyes closed.
+
+None of them moving independently. All growing. Silently. The factory running on autopilot.
+
+"Gods," Sera whispers. Counting. "Fourteen. Various stages. The one near the centre — five legs — that's days from finishing. Maybe less."
+
+She looks at me. In the golden light her face is hard and certain.
+
+"We can't wait for Edwyn. These pools need to be destroyed today. If that five-legged one finishes and starts moving, it'll finish the others."
+
+Her eyes move to the far wall. "Kenji. Two o'clock."
+
+An opening in the far wall. Not a mine shaft — a natural crack in the limestone, widened by time. Roughly four feet wide. The fluid doesn't flow into it — pulls away from it. A thin margin of dry stone around the crack like the fluid is avoiding it.
+
+Even from sixty feet I can feel it. Not the entropy god's pull — that was hunger, desperation. This is *still*. Patient in a way that makes the entropy god's patience feel like fidgeting. Something very old and very quiet.
+
+The ember goes respectful. The way a campfire might feel near a volcano.
+
+Sera's hand is white on her sword.
+
+"That's the deeper thing. The one your Hexcrawler wouldn't go near."
+
+I want to know. I pull a plain flint — no ember, just a rock — and hurl it past the spawning lake, into the crack.
+
+*Clack.* First bounce. Close. *Clack.* Second. Further. Descending. *Clack.* Third. Fainter.
+
+Then silence.
+
+Five seconds. Ten. Fifteen. Nothing answers.
+
+But the echo changed. The acoustic signature shifted — the passage suddenly got much, much larger. The last clack didn't fade into distance. It *opened up*. Into a space big enough to swallow the sound whole.
+
+And one more thing. In the half-second after the sound opened up — a change in the air from the crack. The temperature dropped. A single pulse of cold that touched my face and retreated. Like something very far away exhaled once and went back to sleep.
+
+"Something is there," I tell Sera. "But it's more like a giant... really giant space. Something to file away. Let's stay on task."
+
+She nods. Hard. "Agreed."
+
+---
+
+We clear the cavern.
+
+The near-complete Hexcrawler first. Sera circles left along the dry margin. I come straight in. The fluid climbs to my shins. Warm. Wrong-warm.
+
+We converge on the five-legged form. It floats on its side, soft chitin, translucent at the joints. Not yet alive. Not yet not alive.
+
+I bring the Radiant Edge down. The golden blade punches through the soft chitin and radiant light detonates inside — gold flaring through the translucent shell, lighting up every unfinished organ. The body convulses once and collapses inward. Sera's sword takes the head simultaneously. Clean. Done.
+
+The rest is work. Not combat. Fifteen minutes of wading through knee-deep fluid, swords rising and falling. Each partial form gets the same treatment. The torso folds. The skull-shape cracks under a boot heel. The chitin plates scatter when the sword breaks their clusters.
+
+I take the deeper sections. The Radiant Edge makes it efficient — the radiant damage *unravels* the proto-Hexcrawlers faster than steel alone. Where the golden blade strikes a forming creature, the surrounding fluid loses its sheen. Goes grey. Goes clear. Goes still.
+
+"Kenji." Sera is watching it. Standing in a patch of fluid gone transparent. "The fluid is dying. Every one we destroy — the fluid around it stops producing."
+
+She's right. The spawning medium is one substance — the entropy god's bleed, pooled and concentrated. Each forming creature was a node drawing from the fluid. Destroy the node, the fluid goes inert.
+
+By the time I cut apart the last cluster — six free-floating legs near the far wall — the lake has changed. Knee-deep iridescent entropy fluid is now knee-deep grey-clear water. Still warm. Still wrong-smelling. But dead. The factory is shut down.
+
+I scan the cavern one final time. Golden light reaching every corner. Nothing twitching. Nothing growing. Fourteen proto-Hexcrawlers destroyed.
+
+We give the crack in the far wall a wide berth. Neither of us needs to discuss it.
+
+---
+
+Daylight. The bowl. Fresh air that tastes like paradise.
+
+Sera leans against a boulder. Wipes her sword. Her boots are stained iridescent — the colour might be permanent.
+
+"Fourteen destroyed. Spawning fluid neutralised." She says it like she's filing a report. "The Delve is clear of active threats. The deeper passage remains unexplored and should be classified as a separate hazard."
+
+She sheathes her sword. Looks at me.
+
+"You mentioned my superiors."
+
+Not a question. A door opening.
+
+"I was hired by the Varenholm Mage Council. Contracted through the Academy to assess the situation in the Duskfen region." She folds her arms. "I report to a woman named Instructor Seraphine Ash. She's the one who flagged the Duskfen reports as worth investigating when everyone else dismissed them."
+
+She looks at me.
+
+"Varenholm is roughly three days west of Duskfen. The Academy is the largest magical institution in the region. If anyone can explain what's in that deeper passage, or what your ember actually is, or how a god of entropy ended up starving under a farmhouse — they're in Varenholm."
+
+A pause.
+
+"I should have reported back days ago. I was contracted to assess, not engage. I stayed because—" She stops. Reorganises. "—the situation escalated beyond assessment parameters and leaving would have been tactically irresponsible."
+
+She says it like she rehearsed it.
+
+"If you're serious about going to Varenholm — I can get you in front of the Council. And Seraphine will want to hear everything."
+
+"But first — we go back. Duskfen. Harlan to his wife. Supplies. Rest." A beat. "And I want a real bed and a meal that isn't boar."
+
+---
+
+We head southwest. The trade road unspools. The corruption softens mile by mile. Edwyn was right — the ironwood is out here. Ninety minutes in, he spots it. Through the undergrowth, rising from a mossy depression — a tree with bark like polished bone. Silver-white. Smooth. Luminous.
+
+I'm getting ahead of myself. I haven't told you about Edwyn and Ryn yet.
+
+---
+
+Mid-afternoon. Two hours from Duskfen. Sera holds up a fist.
+
+"Voices. Ahead."
+
+Two voices. One low and measured. One higher, faster. The cadence of a man who talks when he's nervous.
+
+We round the bend. Fifty feet ahead — Edwyn in front, satchel on his shoulder, a crossbow on his back. Ryn behind him, pack heavy, something long and wrapped in oilcloth strapped across the top.
+
+No Harlan.
+
+Edwyn's face breaks into open relief. "Kenji! Sera!"
+
+They close the distance. Edwyn reads our faces, our posture, the iridescent stains on our boots.
+
+"The Delve?"
+
+"Cleared," Sera says. "Spawning pools destroyed. Fourteen proto-Hexcrawlers neutralised. The fluid is inert."
+
+Edwyn closes his eyes. Exhales. The kind that carries days.
+
+"And the deeper passage?"
+
+"Unexplored. Classified as a separate hazard."
+
+He nods. Opens his eyes.
+
+"Harlan is awake."
+
+---
+
+The words sit in the afternoon air.
+
+"He woke on the road. Yesterday evening, about an hour from Duskfen. Confused. Weak. The last thing he remembers is a voice in the cellar telling him his name."
+
+He adjusts his satchel.
+
+"I got him to Bessa. She—" He stops. Swallows. "I've administered healing rites to dying men and held the hands of women in childbirth. I was not prepared for what happened when Bessa opened that door."
+
+He doesn't elaborate.
+
+"The veins are gone. Completely. He's lucid. Eating. Talking. He asked who brought him home. He wants to meet you."
+
+Ryn steps forward. Produces the oilcloth package with careful urgency.
+
+"From Aldric."
+
+He unwraps it.
+
+---
+
+The armor is beautiful.
+
+Not in the way jewelry is beautiful — in the way a well-made weapon is beautiful. Functional beauty. The bear hide transformed — boiled, oil-cured, hardened to a deep rich brown nearly black at the edges. The chest piece layered three deep, the ironwood-treated leather stiff enough to turn a blade but shaped to move with the body. Shoulder guards — reinforced curves of hardened bear leather. Forearm bracers that buckle tight. Iron rivets, small, flush.
+
+And the ironwood. A faint amber sheen on the hardened surfaces. Where Aldric cured the leather with the sap, the material has a quality that's hard to describe. Not quite metal. Not quite leather. I tap the chest piece and the sound is *wrong* for leather. Deeper. Harder.
+
+"He worked through the night," Ryn says. "Kept saying *the boy earned this*."
+
+A folded piece of paper. Aldric's handwriting.
+
+*Kenji. Ironwood-cured bear leather. AC 14. Won't slow you down. Won't let you down. Don't die in it — my son never got to wear the last set I made for someone who deserved it. — Aldric*
+
+I strip off the old leather. Pull on the new set. Buckle the bracers. Settle the chest piece. Roll my shoulders.
+
+Different. The weight distributed better. The movement unrestricted. The shoulders don't catch when I swing. The bracers don't bind when I flex. And when I tap the chest piece that *wrong* sound rings out — the sound of something that will stop a claw that would have opened me up in the old set.
+
+Sera looks me up and down.
+
+"Better," she says.
+
+Ryn produces one more thing. A small wrapped bundle. "From Pip."
+
+Three honey cakes. Still faintly warm. Wrapped in a cloth that smells like lavender. A note.
+
+*Come back. — P*
+
+---
+
+I give my old armor and all the sellable loot to Ryn — the Hexcrawler claws, the iridescent fluid sac, the boar tusks. Everything.
+
+"No curiosities found yet, Ryn. But there's gold to be made. Take this, head back to town, sell it. Keep fifty percent of the profit. Give my half to Pip." I meet his eyes. "Tell her it's from the bandit."
+
+Something crosses his face. Not quite a smile.
+
+"Varenholm," he says, testing the word. "I've never been. Heard there are locks there that would take me a *week*." Something sparks. "I might find my way there. Eventually. If someone needed a door opened."
+
+"Thanks for letting me run," he says. He says my name differently than before. Like it means something now.
+
+He walks south. The old leather armor strapped to his pack. The first real thing anyone gave me in this world, passing to the next person who needs it.
+
+---
+
+We don't go back to Duskfen. No reason. Ryn's handling the village. We cut south to the main crossroads and pick up the western highway heading west toward Varenholm.
+
+I tell Sera to scout ahead for opportunities — game trails, trouble, anything unusual worth stopping for. I tell Edwyn to watch for herbs. I take some of Edwyn's load — the bedrolls and tarp — so he can walk at full speed instead of hunched under the camp pack.
+
+Edwyn's gratitude is immediate and dignified. He rolls his shoulders. Stands straighter. Starts scanning the roadside undergrowth with professional interest.
+
+Sera ranges ahead a quarter mile. Owl call if she finds something. Two owl calls if it's dangerous.
+
+Edwyn catalogs plants as we walk. He stops twice in the first hour — once for a cluster of yarrow along a stream bank, once for something he calls feverfew that he tucks into his satchel with quiet satisfaction. Further on, brightcap mushrooms growing in a rotted stump — pale caps that glow faintly when he cups his hand over them.
+
+"Dried and brewed into tea, these are a mild stimulant," he says. "Sharper than coffee, gentler than alchemy. Useful on long watches."
+
+He's talking faster now. The particular energy of a man on the one subject that makes him feel indispensable.
+
+"This close to Varenholm, near the ley line network that feeds the Academy, we'll start seeing rarer things. Moonpetal — a luminescent flower that grows at ley line intersections. The petals can be brewed into a draught that temporarily sharpens magical focus. If you're going to be casting spells in front of the Mage Council, one dose before the audience would be worth its weight."
+
+He ducks under a branch.
+
+"Ironroot — not to be confused with ironwood — a ground-cover vine whose berries provide sustained energy without the crash of stimulants. You eat every four hours because your metabolism demands it. Ironroot berries could stretch that to six, maybe seven. They're not common but they grow in magical runoff near the Academy."
+
+He glances at the undergrowth with professional hunger.
+
+"And bittershade. Dark-leafed shrub that grows in magical runoff. Toxic raw — will make you violently ill. But properly prepared, it's the base for the most effective antitoxin in the eastern provinces. My two doses came from a bittershade preparation. If we find a stand of it, I can make a dozen more."
+
+He pulls out his ledger and scribbles notes without breaking stride.
+
+"If we gather enough of the right materials, I can prepare field medicines on the road. And anything surplus sells well at the Academy — Varenholm scholars pay premium prices for raw alchemical components."
+
+The western highway is a real road. Wider. Maintained. Cart ruts deep and layered. Settled country — less monsters, more people.
+
+---
+
+The ironwood tree was yesterday — Edwyn spotted it on the road before we reached the Brennick farm. The sap. The vial. Ryn carrying it south. By now Aldric has it. By now the armor on my back exists because a priest noticed a tree with silver bark and a kid with clever hands ran a vial through Hexcrawler territory. The chain of small decisions that led to me wearing ironwood-cured bear leather instead of a dead man's hand-me-downs is longer than it has any right to be.
+
+---
+
+Second hour on the western highway. Sera's owl call.
+
+One call. *Come. Quiet.*
+
+I find her at a bend in the road. Crouched at the tree line. She points through the trees without speaking.
+
+Fifty feet off the road. A clearing — not natural, *cleared*. Stumps cut low. A cold firepit. Three lean-tos of branches and stolen canvas. Rope with dried meat hanging. A pile of goods under oilcloth — crates, sacks, a rolled carpet.
+
+Boot prints. Five, maybe six people. Heavy prints. Armored boots.
+
+"Bandit camp," Sera breathes. "Active. Five or six. They've been hitting crossroads traffic." She points at the lean-tos. "Nobody's home. Fire's cold — six hours. They're out working."
+
+She looks toward the crossroads.
+
+"Working the crossroads. Right now."
+
+She gives me the assessment. Three options. Raid the empty camp. Push to the crossroads and see if they're actively robbing someone. Or do both.
+
+"Six bandits against three of us — one of whom is a priest with a crossbow he's fired maybe thirty times. Those aren't bad odds for you and me. But bandits are humans. They have ranged weapons." She looks at me. "This isn't a Hexcrawler. These things shoot back."
+
+I tell Sera I plan on soloing them. But I'd like her help with a plan to deal with the ranged combatants.
+
+"Solo." She says it flat. "Six bandits. With bows. Solo."
+
+She needs to understand why. I tell her — I need to know what I'm capable of against enemies that think and coordinate and shoot back. If I can't handle people, Varenholm is going to eat me alive.
+
+She chews on it. Doesn't like it. Accepts it.
+
+"Fine. You solo. I plan. But I'm positioning myself with a line of sight. If you go down, I'm not sitting in a bush watching you die."
+
+---
+
+Fifteen minutes of scouting later she draws in the dirt.
+
+The crossroads. Two archers in a blind on the ridge — longbows, overwatch. Two flankers in the tree line — hand crossbows, short swords. Two at a log barricade — the talkers. One with a mace and chainmail, one with a longsword and studded leather. Classic hammer and anvil. The archers pin, the flankers close, the barricade collects.
+
+She builds my approach. East through the forest, not the road. Hit the archer blind from behind — it's open at the back. Drop both before anyone below knows. The ten-second confusion window. Then the flankers. Then the barricade.
+
+"The whole plan lives or dies on the first five seconds."
+
+I decide something in my head that I don't tell Sera. First time killing people. Except I'm not going to kill anyone unless I have to. The flat of the axe, not the edge. Knock them out. Disarm them.
+
+Not the wisest tactical decision I've ever made. But I've never been the wisest fighter. Kind of a softy, now that I think about it.
+
+---
+
+The archer blind. I come from the east. Pine needles underfoot. Silent. Two shapes inside — one chewing bread and watching the road, the other asleep with a cloak over his head.
+
+The hand axe. Flat side. Not the edge.
+
+The awake archer first. The flat connects with the base of his skull. A dull heavy *thock*. His head snaps forward. He slumps — but doesn't go down. His hands catch the rock. His mouth opens to shout—
+
+I bring it down again before the sound forms. Across the temple. His eyes roll white. He folds sideways. Out. Breathing. Unconscious.
+
+The sleeping archer stirs. His hand reaches for the longbow. I don't have time for elegant.
+
+The flat catches him across the jaw through the cloak. His head snaps sideways. Wide frightened eyes — young, barely twenty, scraggly beard — finding mine for one half-second of absolute confusion.
+
+I clamp my hand over his mouth. Pin his shoulder to the ground. He thrashes. Weak. Disoriented. I shake my head once.
+
+*Quiet.*
+
+He goes quiet. Not brave. Terrified. The man kneeling on his chest with a hand axe and hazel eyes is the most terrifying thing he's ever woken up to.
+
+One more tap. Clean. He goes limp. Breathing. Done.
+
+I strip both archers. Longbows, arrows, anything usable — scattered into the blind where they can't reach. Two down. No alarm.
+
+---
+
+I hear the barricade pair start climbing the ridge to check on their archers. Perfect. I slip out the back of the blind and circle east, then south, looping toward the flanker sitting against a tree. The one called Wes. Picking his nails. Hand crossbow in his lap. Back to me.
+
+The voice from the ridge — "They're not sleeping. They're *out*. Cold. Someone *hit* them."
+
+Wes stands. Watches the ridge. His back is fully turned. Thirty feet. Twenty. Fifteen.
+
+The flat of the axe. Behind the right ear. His knees buckle. The hand crossbow drops into pine needles. One more tap on the way down. He folds into the undergrowth without a sound.
+
+Three down. One flanker, two archers. All breathing. All disarmed.
+
+---
+
+"*Wes! Report!*" The mace fighter's voice from the ridge.
+
+No answer.
+
+"*Tam! West position! Report!*"
+
+The west flanker — Tam — calls back. "I'm here! Wes isn't answering!"
+
+"Fall back to the barricade. Now. We're being picked off."
+
+Tam breaks cover. Moving across open ground toward the barricade. Hand crossbow up. Sixty feet from me.
+
+The ember detonates under my feet. Arcane Stride. The forest blurs.
+
+Sixty feet in three strides. Tam hears the silver-bell sound. His head snaps left. Eyes wide.
+
+He raises the crossbow. Pulls the trigger.
+
+The bolt whips past my ear. One shot. Panic spent it.
+
+I don't swing. I go low. The last stride becomes a slide — boots kicking out, sweeping into his legs at full momentum.
+
+His feet leave the ground before his brain understands why. The hand crossbow flies from his grip. He hits dirt face-first with the graceless impact of a man who was not expecting the ground.
+
+The axe flat comes down. Twice. He goes limp.
+
+Four down.
+
+---
+
+I stand up. Slowly. Deliberately. The silver light fading from my last footprint. The hand axe resting casually on my shoulder.
+
+I look up at the ridge. Thirty feet above. The mace fighter in chainmail and the longsword fighter in studded leather staring down at me.
+
+They just watched a man cross sixty feet in two seconds, trip their flanker at full speed, and knock him unconscious with two hits before the body finished bouncing.
+
+I grin. Ear to ear.
+
+The longsword fighter takes a step backward. Involuntary.
+
+The mace fighter doesn't step back. But his eyes are doing math. Four men down. No blood. No screams. Just silence and then *this*.
+
+"Who the *hell* are you," he says. The mace head trembling in his grip.
+
+"I am Kenji. I'm just traveling through the area and saw your setup here. How much are you charging people to get through?"
+
+---
+
+The conversation that follows is the strangest negotiation I've had in two worlds.
+
+Garrett — that's the mace fighter's name — tells me about the toll. Two silver per person. Five per cart. Ten per merchant wagon. They don't hurt anyone who pays. His voice has the flat honesty of a man who knows the only card he has left is the truth.
+
+Sev — the longsword fighter — doesn't want to talk. He wants to run. I can see it in every muscle.
+
+I let Sev leave. Start a new life, I tell him. Or report back to your employer and explain what happened. His choice.
+
+He doesn't need to be told twice. He walks. Then walks faster. Then he's gone, heading west at a pace that will become a run.
+
+I call the rest of my party with an owl noise. Sera emerges from the trees. Edwyn behind her. They take positions flanking me. Garrett watches them arrive with the resigned assessment of a man at a job interview he didn't apply for.
+
+"A fighter, a priest, and whatever you are."
+
+I make him a deal. All the gold in the lockbox — sixty-three gold, six weeks of collections, all his. One month as my contractor. I'll deal with his employer, a man called Voss, on the way.
+
+"You are not a slave," I tell him. "I don't do slaves. And I hate slave owners." I let that sit. "Think of yourself as a contractor. You seem professional — I expect you won't take the gold and run. I need your skills and at the end of the contract you can do as you like."
+
+I hold his gaze.
+
+"I'm not a criminal. At least not yet. As long as you maintain a neutral or lawful alignment, we're good. No going off doing anything too crazy to get me in trouble. I don't care if you're evil or good." A beat. "But if you cross me, be prepared to fight."
+
+Garrett listens. His expression shifts through my words — *not a slave* gets a micro-nod, *hate slave owners* gets a longer look, *contractor* settles something behind his eyes. When I mention alignment his scarred jaw tightens. Not offended. Assessed.
+
+"I've done things I'm not proud of on this road," he says. Flat. Honest. "But I've never killed a traveler who couldn't fight back. And I've never taken a job that involved women or children. Voss offered both." A pause. "I turned both down. That's how I ended up running the *eastern* crew instead of the central one." He looks at the road west and something dark crosses his face. "The central crew doesn't have my rules."
+
+Something raw and wanting surfaces behind his eyes when I mention dealing with Voss.
+
+"One month. Contractor. I keep the box. We deal with Voss." He extends a thick hand. "You've got yourself a mace, Kenji."
+
+Sera steps forward. The interrogation is professional and thorough. Garrett gives her everything — Aldren Voss, the Broken Antler tavern, three toll crews, Captain Dunmore's corruption, and Brindle at the river crossing. Especially Brindle.
+
+"She enjoys the work," Garrett says. "The part that involves people being afraid. The toll is the same but if someone can't pay—" He doesn't finish. "Voss keeps her on because she's effective. I keep my crew away from hers because my boys don't need to learn what she teaches."
+
+Edwyn speaks for the first time. Quietly. "The river crossing. Travelers who can't pay. What happens to them, Garrett?"
+
+Garrett looks at the priest. Something in his expression flinches.
+
+"They don't come out of the river crossing, Father."
+
+---
+
+We leave the crossroads behind. Garrett strips the camp of everything useful. The four unconscious bandits get tied up with water in reach. They'll work free in hours. Without weapons, without the operation, they're just four men on a road with nothing.
+
+Garrett hoists the supply pack onto his back like it's a Tuesday. Chainmail, mace, lockbox, and a full camp's worth of gear. The man is built for carrying.
+
+The western highway stretches west. A real road. Cart ruts. Drainage ditches. Civilization — or it was, before Voss started taxing it.
+
+Garrett walks beside me and delivers intel like a debrief. Brindle's bridge. The Ashford river crossing. He lays out the positions with the precision of a man who's studied a colleague's operation and found it distasteful.
+
+"The bridge is twenty feet across and sixty feet long. Stone pillars, wooden deck. Brindle keeps two guards on the near side — the greeting committee. Two more on the far side — the door closers. And Brindle herself sits in the middle with her enforcer. Heavy crossbow. Bastard sword. She watches from the center of the bridge like a spider in a web."
+
+He ticks off the rest. "Archers on both banks. When you step onto the bridge, there's nowhere to go. The archers pin you. The guards at both ends close. Brindle in the middle decides whether you pay or you don't come out the other side."
+
+He glances at me.
+
+"Your speed trick. The one that turned Tam into a mudstain. How does it work over a bridge?"
+
+Good question. Sixty feet of open bridge with no obstacles, no terrain, no trees to use. Just wood planking and a woman with a heavy crossbow at the halfway point. The Stride would cross it in seconds — but there's nowhere to dodge on a twenty-foot-wide bridge.
+
+"Two of her crew are ex-military," Garrett continues. "Actual soldiers who deserted. They know formations, they know discipline, they know how to hold a line. The other three are muscle — big, dumb, loyal to Brindle because she feeds them and scares them more than anything else does."
+
+He looks at the road ahead. Then at me.
+
+"People who can't pay don't come out of the river crossing. That's not rumor. That's a number I stopped counting."
+
+Edwyn makes stew at camp that night from rations and wild herbs. Garrett eats three bowls. I eat four. The Fast Metabolism doesn't care about dignity.
+
+Sera takes second watch. I take third. Garrett takes first — he's fresh and knows the road. Edwyn sleeps through.
+
+I close my eyes on a bedroll stolen from the men I knocked unconscious, wearing armor forged from a bear I killed with rocks, with honey cakes from a girl who doesn't know what I've become in her chest pocket, and the ember burns deep and steady and ready for whatever tomorrow puts on the road.
+
+The river crossing. Brindle. The bridge. People who can't pay don't come out the other side.
+
+I'm coming. And I'm bringing the flat of an axe and a very persuasive smile.
+
+---
+
+DING — LEVEL 4
+
+The ember didn't level up. It dug deeper. Found a new floor underneath the one I thought was the bottom, and started furnishing it.
+
+KENJI
+Human — Blade Channeler — Sorcerer Swordsman
+Level 4 — Outlander
+
+HP: 27
+AC: 15
+Initiative: +1
+Spell Attack: +5
+Spell Save DC: 13
+
+STR 15 / +2
+DEX 13 / +1
+CON 13 / +1
+INT 9 / -1
+WIS 11 / +0
+CHA 17 / +3
+
+CANTRIPS
+
+Arcane Edge — Silver-white weapon infusion. Force damage on every hit. Reflexive activation. Works on sharp thrown projectiles.
+Blade Ward — Purple reactive shield. Halve one physical hit. Three uses per rest.
+
+LEVEL 1 SPELLS
+
+Thunderous Strike — On hit, expend a slot. Target saves or prone plus thunder damage.
+Charisma Surge — Expend a slot. Add charisma bonus to any roll before rolling.
+Charm Person — One humanoid regards me as a friend for one hour.
+Arcane Stride — Enhanced via Speedster Perk. Twelve hours. Movement doubled while sprinting. No opportunity attacks. Extra action per round.
+Radiant Edge — Golden radiant weapon. Scales with slot level. Pushes supernatural darkness thirty feet. Full damage against entropy and undead. Halved against normal enemies.
+
+LEVEL 2 SPELLS
+
+Vampiric Daggers — Five shadow daggers. Throw two per action. Quarter damage healed, doubled by Fast Metabolism. Devastating plus self-healing.
+Eyes of the Hunter — NEW. Twelve hours. Darkvision sixty feet. Advantage on Perception checks. Plus thirty feet normal range on thrown weapons. Can stack with one other buff. The ember gives you a predator's focus.
+
+PERK — SPEEDSTER
+
+Effect One — Arcane Stride Enhanced. Twelve hours. No opportunity attacks. Extra action per round.
+Effect Two — Fast Metabolism. All healing doubled. Hunger debuff triggers at four hours.
+
+ABILITIES
+
+Arcane Momentum — Kill an enemy with Arcane Edge active and get one free bonus attack.
+Sera's Cage — Defensive stance. Plus two AC as action or once per combat as reaction.
+Entropy Bond — Touch a creature of entropy to bond it. Not control, connection. CHA check.
+
+INVENTORY
+
+Ironwood-Cured Bear Leather Armor — Aldric's masterwork, AC fifteen
+Longsword — merchant steel
+Hand Axe — melee or thrown
+Lockpick set — Ryn's spares
+Sharp flint stones, twelve
+Silverleaf tea, three doses
+Two Flame Seals of the Wandering Flame
+Entropy Anchor Ring — wrapped, do not touch
+Boar meat, one meal remaining
+Pip's honey cakes, three
+Maps, two — Sera's and Maren's
+Fibrous tinder root
+Surplus bandit weapons carried by Garrett
+Camp gear carried by Garrett
+Bandit rations for a week carried by Garrett
+
+Gold: ten, plus access to Garrett's sixty three in the lockbox
+
+New ally: Garrett. Mace. Chainmail. Two year grudge against a man named Voss. One month contract and counting.
+
+New enemy: Brindle. Heavy crossbow. Bastard sword. A bridge she uses as a kill box and a smile she uses on people who can't pay.
+
+End of Chapter Five.
+
+
+# KENJI
+
+## *Day Six — The Bridge*
+
+---
+
+Dawn. Western highway camp. The cooking pot warm from last night's stew. The fire is embers and grey ash.
+
+I eat first. The last of the boar meat. Cold, tough, gone in minutes. The furnace doesn't care about presentation.
+
+The ember is full. Rested. Level four and everything it carries sitting in my chest like a coiled spring.
+
+Garrett is already up. Oiling his mace chain with methodical attention. The chainmail clean despite a night on the ground. He looks like he was born in a camp.
+
+Sera is stretching against a tree. Sword movements disguised as morning routine — the blade cutting slow precise arcs that warm the joints.
+
+Edwyn is brewing a poultice base from yesterday's yarrow and feverfew. Ledger open beside him.
+
+I look west. The road disappears into green forest. Somewhere down that road, a woman named Brindle is sitting on a bridge with a heavy crossbow and a body count.
+
+---
+
+Before anything else — the ember. I reach for the new shape. The one that settled into place overnight. Eyes of the Hunter.
+
+A Level 2 slot opens and the ember goes *up*. Through my neck, my jaw, behind my eyes. The sensation is strange — like someone adjusted the focus on a lens I didn't know was blurry.
+
+The forest *sharpens*. Every edge defined. Every shadow readable. The birdsong separates into individual voices — thrush forty feet left, finch in the canopy overhead. The dim spaces between trunks that were murky a second ago become clear. Not bright — *legible*. The darkness itself becomes transparent.
+
+And the distance. Sera stretching sixty feet away — I can see individual stitches on her bracer. Garrett's mace chain — the specific link where the oil hasn't penetrated. Edwyn's handwriting in the open ledger, readable from thirty feet.
+
+The world is a different place with predator's eyes.
+
+---
+
+"Sera. Before we move — I want another round."
+
+She reads the request. Draws her arming sword.
+
+"The cage held up?"
+
+"Mostly. I want to push it further."
+
+She settles into guard. The same closed-door stance from the Duskfen field. But this time — with the Eyes active — I can see things I couldn't before. The micro-shifts in her weight. The way her leading foot rotates a quarter-inch before committing. The tension in her forearm that telegraphs which angle the blade is coming from.
+
+She comes fast. The diagonal, the lateral, the thrust. But my eyes are tracking the blade at a resolution that borders on unfair.
+
+The cage holds. Not just holds — *responds*. I see the diagonal coming before her shoulder finishes committing and my blade is already there. The lateral slides off my guard with a scrape of steel that sounds right for the first time. The thrust — the one that killed me every time in Duskfen — I don't just catch. I *redirect*. Her blade slides past my shoulder and for one instant she's overextended and open.
+
+I don't take the opening. But I *see* it. And she knows I see it.
+
+"Better," she says. Her eyebrow is doing something. "Significantly better. What changed?"
+
+"New trick. I can see you thinking before you move."
+
+She comes again. Faster. Harder. Seven exchanges. Eight. Nine. The cage holds through all of them — feet moving, blade between, the predator's eyes catching every telegraph. Sera is working for every angle now. The polite instructor pace is gone. This is the real Sera.
+
+On the tenth exchange she feints low and comes high — a combination I haven't seen — and I catch it. Barely. The blades lock. My eyes find the weight commitment in her hips and I give her the empty space to fall into.
+
+She stumbles past. Catches herself. Turns.
+
+The expression on her face is new. Not the instructor assessing a student. Something more like recognition. One fighter looking at another and seeing an equal for the first time.
+
+"That trick with your eyes. How long does it last?"
+
+"Twelve hours."
+
+"Use it before every fight. Every single one." She sheathes her sword. "Your body is still learning what your instincts already know. Those eyes close the gap."
+
+She tests the transition one more time — a quick exchange where she deliberately leaves an opening after the third beat. The cage holds but the counter doesn't come. My body drops back into the defensive framework instead of flowing forward. The muscle memory for offense out of defense isn't there yet.
+
+"Close," she says. "The read was right. The execution wasn't. You need to stop thinking of defense and offense as two separate things. For me, every parry is the setup for the next strike. For you, every parry is the end of a sentence. You need to learn to keep talking."
+
+But the seed is planted. The cage with predator's eyes is something new. I can feel it — the moment an enemy misses inside the cage, the opening presents itself like a lit window in a dark house. I can't always take it yet. But I can see it. And seeing it is the first step.
+
+---
+
+"Garrett. Your turn."
+
+He looks at Sera. Looks at the space between them.
+
+"You want me to spar with the woman who just made you sweat."
+
+"I want to see how you fight."
+
+He stands. Unhooks the mace. Rolls his neck — the sound like cracking knuckles — and settles into a stance nothing like Sera's.
+
+Wide base. Low center. The mace held at waist height with both hands, head forward, the chain giving it a pendulum quality. He doesn't look fast. He looks *inevitable*.
+
+Sera opens with the diagonal, lateral, thrust. Garrett doesn't dodge. Doesn't parry. He *absorbs*. The mace comes up in a sweeping arc that catches the diagonal on the chain — not the head, the *chain* — wrapping Sera's blade for a half-second and redirecting it. The lateral arrives off-angle and scrapes harmlessly off his chainmail shoulder.
+
+The thrust he steps *into*. Directly into. Sera's blade point hits his chest and slides along the chainmail as he closes to zero distance. His mace arm comes around in a short vicious hook aimed at her ribs.
+
+Sera disengages — fast, clean, three feet. The mace head passes an inch from her leather.
+
+"Gods," she says. Impressed despite herself.
+
+Three more exchanges and the pattern is clear. Garrett fights like a wall that hits back. His defense is his armor — the chainmail takes what the mace can't redirect. His offense is proximity — close the distance, neutralize the sword's advantage, put the mace where it hurts.
+
+He's slow. Sera is faster in every dimension. But speed doesn't matter when you're already too close to swing properly, and every hit that lands on chainmail costs the attacker more than the defender.
+
+The ex-military training shows. Footwork regimented — straight lines, controlled angles, never overextends. He knows exactly how far his mace reaches and keeps every exchange inside that radius.
+
+Sera catches the pattern after the third exchange and starts fighting around it — lateral movement, angles, never letting him close. The fourth exchange she flows past his guard and tags his exposed neck with the flat of her blade.
+
+"Dead," she says.
+
+"Aye. That's always been the gap. Someone fast enough to stay outside and patient enough to wait for the opening." He looks at me. "That's why Brindle worries me. She's got the crossbow for range and the bastard sword for closing. She can fight at any distance."
+
+I file it all. Garrett is a frontline tank — devastating in tight spaces, vulnerable to fast lateral fighters. Best used to hold a chokepoint or pin an enemy while someone faster hits the flank. The mace ignores armor. The chainmail absorbs what gets through. And the man behind both doesn't panic.
+
+---
+
+Sera sits on the barricade log. All of us around her.
+
+"Tell me everything. Every spell. Every trick. Every limitation."
+
+I lay it out. All of it. Arcane Stride — twelve hours, double speed, extra action, can't stack with weapon infusions. Arcane Edge — force damage on sharp objects. Radiant Edge — golden light, specialist against entropy. Thunderous Strike — thunder detonation, prone save. Vampiric Daggers — five shadow blades, self-healing. Eyes of the Hunter — active now, darkvision, perception, range. Blade Ward — reactive shield. The Cage — defensive stance, and the new counter that's forming with the Eyes.
+
+Sera listens without interrupting.
+
+"So at any given moment you're choosing between speed and damage. Stride makes you untouchable but your sword is just a sword. Edge makes you hit harder but you're normal speed. You can't be both."
+
+She draws in the dirt. The bridge. The river. Both banks.
+
+"Brindle's setup. Two near side. Two far side. Brindle and the enforcer in the middle. The bridge is sixty feet long and twenty wide. No cover. She sees you coming from two hundred feet."
+
+She chews on it.
+
+"But she doesn't see you coming at night."
+
+She looks at me. At my eyes.
+
+"Your eye trick. Darkvision. Sixty feet in complete darkness. Brindle and her crew don't have that. At night, on the bridge, they're blind and you see everything."
+
+She draws the approach. South bank. Downriver. Through the forest. River noise covering movement.
+
+"You approach after dark. Arcane Stride active for the bridge. South bank through the forest to bypass the near-side guards. Take the archers silently — flat of the axe, same as the crossroads."
+
+She draws the bridge.
+
+"Then the bridge. Sixty feet. Stride across at full speed. Brindle gets one crossbow shot in torchlight at a target moving sixty feet per second."
+
+She looks at Garrett.
+
+"You and I approach from the north bank simultaneously. The far-side guards turn to face Kenji — backs to us."
+
+Garrett nods. "Hammer and anvil. I like being the hammer."
+
+Edwyn gets the south bank with the crossbow. Safety net.
+
+She turns back to me.
+
+"The whole plan hinges on Brindle. The enforcer is the wall — Thunderous Strike should handle him. On a bridge, knocked back means—"
+
+"Off the bridge," Garrett finishes.
+
+"One more thing." Sera's voice changes. "Garrett says she won't surrender. You've been using the flat. That worked on scared men. Brindle isn't scared of anything."
+
+She meets my eyes.
+
+"Your call. But make the decision now. Not during."
+
+---
+
+"I will take the fight seriously. I'll use lethal force. But if she can be saved, I won't prevent it."
+
+Sera holds my gaze for three seconds. Nods once.
+
+"Good enough."
+
+Garrett exhales through his nose. The sound of a man who heard what he needed to hear.
+
+Edwyn says nothing. But his hand moves to the flame symbol at his neck.
+
+---
+
+We spend the hours before midnight clearing the road. Sera scouts — patrol routes, sentry positions. Garrett and Edwyn take the roving patrol — two men on a loop circuit. Garrett steps out from behind a tree and puts the first one down with the mace shaft. The second freezes when Edwyn's crossbow bolt punches into the dirt an inch from his boot.
+
+Clean. Professional. No alarm.
+
+I eat twice. The Fast Metabolism doesn't care about timing. Bandit rations. Functional.
+
+Sera returns. Draws in the dirt. Confirms everything — six total, positions as Garrett described. Two south bank sentries by a fire pit. Two ex-military on the north bank. Brindle in a chair — an actual chair — at the center of the bridge with the crossbow on a stand and the bastard sword across her knees.
+
+"No torches now — daylight. But torch brackets on the bridge pillars. Six of them. At night they'll light them. Twenty feet of decent visibility from center. Beyond that, dark."
+
+She lays the plan one final time.
+
+"This ends tonight."
+
+---
+
+Midnight. No moon. Overcast sky. The darkest point of the night.
+
+Eyes of the Hunter — recast. The world sharpens. Predator's focus. I see everything.
+
+The party splits at the river. Sera and Garrett upstream to the shallow ford. Edwyn behind me in the trees with his crossbow.
+
+The Ashford rushes beside me in the dark. White noise that swallows everything. My boots find the quiet ground. The predator's eyes turn the midnight forest into a map drawn in perfect clarity.
+
+---
+
+The south bank sentries. Forty feet ahead. Fire pit — embers only, banked for the night. Two shapes on stumps. One sleeping against a tree, chin on chest. One poking embers with a stick, bored, tired. Hand crossbow unloaded on the stump beside him.
+
+The sleeping one first. Behind the trunk. The hand axe flat.
+
+The flat connects behind the ear. His head lolls. He starts to slide. Not out yet. One more. Across the temple. His eyes roll white. He settles into the roots like a man who fell asleep, which is exactly what he was doing.
+
+Eight feet to the ember-poker. Three steps. Silent. The river covers everything.
+
+The flat catches him across the temple. He rocks sideways off the stump. One more on the way down. Face in the dirt. Breathing. Done.
+
+Two down. No alarm. Weapons scattered. The bridge is thirty feet ahead.
+
+---
+
+The bridge. The wooden deck stretching sixty feet into the dark. Torchlight at the center — amber circle, twenty feet across. The chair. The woman. The crossbow aimed south.
+
+I can see her. She can't see me.
+
+Now.
+
+The ember forks down my legs. Arcane Stride. Silver-white detonation. The stealth is over. Speed is everything.
+
+The bridge booms under force-kicked footfalls. The planks shudder. Silver light off the stone pillars like war drums. Sixty feet at sixty feet per second.
+
+Brindle *moves*. Not panics. The crossbow swivels. Her hands find the trigger with mechanical precision. She finds the sound, aims at the sound, and fires into the darkness.
+
+The bolt screams past my left shoulder. The fletching brushes the ironwood leather. At full speed the miss is measured in inches and milliseconds. Her aim was right. My speed made it wrong.
+
+I burst into the torchlight. She sees me for the first time. Purple dreadlocks. Hazel eyes. Silver fire under my feet. Her eyes widen. One fraction. The only surprise she's shown anyone in years.
+
+The enforcer steps forward. Shield up. Mace ready. He fills the bridge — twenty feet wide, positioned to block the full path.
+
+I don't slow down.
+
+The longsword comes from the sprint. Every ounce of momentum into a single committed thrust at the center of his shield. Thunder coils along the blade.
+
+The blade connects with iron-banded oak and the thunder *detonates*.
+
+The enforcer's feet leave the planks. The concussive force hits his locked legs and the bridge becomes a launching pad. His body hits the waist-high railing, tips over it, and for one suspended second he's silhouetted against the dark sky with his shield still up and the expression of a man who was very good at his job right up until physics intervened.
+
+The splash is swallowed by the river. The Ashford takes him. Fast water. Heavy armor. Shield.
+
+He doesn't surface.
+
+Brindle is exposed. The bastard sword is up — she finished the draw during the thunder. Already moving. Forward. Into me.
+
+I catch her across the knuckles of the sword hand. Not the flat. The edge. The decision I made this morning applied between heartbeats. Steel parts leather gauntlet and opens the meat of her hand from index finger to wrist.
+
+She snarls. The bastard sword doesn't drop — fingers closed through rage and tendon memory — but the grip is compromised. Blood runs down the blade.
+
+I don't stop. The Stride carries me past. Into the darkness on the north side. Clean stop. Twenty feet past her.
+
+I can see her. She can't see me. The torchlight is behind her — silhouetted, bleeding, turning to face the direction I went.
+
+From the north bank — Garrett's mace finding something. Sera's voice cutting through: "*Down! Stay down!*"
+
+---
+
+Brindle doesn't panic. Doesn't shout for help that isn't coming. She reverses grip — one-handed now, wounded hand pressed against her thigh.
+
+She tries to reload the crossbow one-handed. The tendons won't cooperate. The bolt fumbles. She looks at the crossbow. Looks at her hand. Something cold settles into her expression.
+
+She kicks the crossbow stand off the bridge. It clatters into the dark and splashes into the Ashford.
+
+Bastard sword. One hand. Torch behind her. Bleeding. Alone.
+
+"Come on then. Come finish it, speed-freak. Or are you the type that runs past and hopes the cut was enough?"
+
+---
+
+I let the Stride die. The silver light fades. The ember shifts channels — down my arm, into the steel. Silver-white fire crawls along the longsword. Arcane Edge. The blade hums.
+
+I step forward. Out of the darkness. Into the amber torchlight. Slow. Deliberate. The grin first.
+
+Brindle watches me materialise from nothing. The dreadlocks. The eyes catching the firelight. The strange armor. The silver-white blade. The grin of a man who just threw her enforcer into a river and is strolling toward her like he's arriving at a dinner party.
+
+"A gentleman should always honor a lady's request." I stop. Fifteen feet. "So tell me, Brindle—"
+
+I step into the full torchlight so she can see my eyes.
+
+"—we talking or are we dancing, ma'am?"
+
+She looks at me. Really looks. The predator's assessment — she's done it to a thousand travelers. Now someone's doing it to her.
+
+She sees the enforcer-shaped absence. The empty crossbow stand. The blood on her own knuckles. She hears the sounds from the north bank — Garrett's mace, Sera's blade. Her operation collapsing in real time and the man responsible is standing in front of her *smiling*.
+
+"You're the one Sev told Voss about. The fast one. Purple hair. Knocked out Garrett's whole crew without drawing a sword." Her eyes move to the silver-white blade. "Looks like you've drawn it now."
+
+The bastard sword wavers. One-handed. Too heavy for single grip.
+
+"Talking." She tastes the word like poison. "You want to talk. To me. On my bridge. After you threw my enforcer into the river and cut my hand open."
+
+The river rushes below. The torchlight flickers.
+
+"I don't talk. I don't negotiate. I don't *surrender*." She spits the word. "Voss put me on this bridge because everyone else in his operation is too soft to do what needs doing. You want to know what happens to people who can't pay? I happen to them. Personally. And I sleep fine."
+
+She looks at my eyes. Searching for the flinch. The soft type Sev described.
+
+She doesn't find it.
+
+The grin is still there.
+
+---
+
+"Brindle." I point the silver-white blade at her chest. "I'm not here to teach you wrong from right. It's clear the only language you understand is strength."
+
+The tip of my sword catches the torchlight. Hers catches it back.
+
+"So. Defeat me or follow me. Voss's operation and territory will soon be mine. And I welcome any challenge."
+
+The bridge is silent except the river.
+
+Ten seconds. She's not calculating whether she can win. She knows she can't. She's calculating whether the man in front of her means what he says. Whether the strength that dismantled her operation in under sixty seconds has the *will* to take what Voss built and hold it.
+
+Her eyes move to the cut on her hand. To the river. To the north bank. Back to me. To the grin. The blade. The armor. The eyes that found her in the dark.
+
+The bastard sword lowers. All the way. Tip on the planks.
+
+"You're claiming Voss's territory."
+
+"I'm taking it."
+
+"Taking it." She looks west. "If it's Voss — you're welcome to him. That man has been skimming my collections for two years and calling it *management fees*." Her lip curls. Then the calculation resumes. "That means the western crew. Dunmore's garrison. Voss and whatever he keeps in that cellar." Her eyes on mine. "You know what you're walking into?"
+
+"I know Voss has a cellar and a captain on his payroll and about sixteen men left. I know Sev told him I was coming. And I know the man who ran his eastern crew for two years is standing behind me carrying a mace and a grudge."
+
+Something reorganizes in her face. Not softening. The hierarchy she's lived inside for two years — demolished and rebuilt in real time. The question isn't *should I follow this man*. It's *is he still standing when the dust settles*.
+
+"I don't do loyalty. I don't do friendship. I don't do *nice*." She holds up the bleeding hand. "You did this. I'll remember it every time I grip a sword for the rest of my life. That's not something I forgive."
+
+She steps forward. Close enough to swing.
+
+She doesn't swing.
+
+"But I know what strength looks like. I've been selling mine to a man who sits in a tavern counting coins while I stand on a bridge in the cold. You — " She looks at the river. At Marcus's absence. " — you stand on the bridge yourself."
+
+She reverses the bastard sword. Pommel first. Blade on her forearm. Blood running down the steel.
+
+"I don't follow. I *align*. For as long as the strength holds."
+
+"You're welcome to try."
+
+"Terms. I keep my bridge. When Voss is done, the river crossing is mine. Not his. Not yours. *Mine*. Tolls at a rate that doesn't get people killed. No more of what I've been doing." Something complicated crosses her face. "That was Voss's model. Not mine."
+
+She's not lying. The predator's eyes would catch it. There's nothing. The killing wasn't passion — it was policy. Voss's policy, executed by a woman who doesn't know another way to be strong.
+
+"I want the bridge. Legitimate operation. Toll road. Maintained. Protected." She holds the pommel closer. "That's my price."
+
+---
+
+Garrett walks into the torchlight. Mace at his hip. Splattered with something that isn't his.
+
+"Brindle."
+
+"Garrett. Heard you switched sides."
+
+"Heard you lost yours."
+
+Neither smiles. It's not that kind of relationship.
+
+Sera arrives. The two ex-military are down on the north bank — alive. She takes in the scene and her expression goes through several phases before settling on carefully neutral.
+
+Edwyn steps onto the bridge from the south end. Sees the blood on Brindle's hand. The healer overrides everything else.
+
+"That hand needs treatment. The tendons—"
+
+"I didn't ask for a priest."
+
+"You didn't ask for a severed tendon either. Sit down."
+
+She stares at him. He stares back. Quiet immovable patience.
+
+Brindle sits on the bridge. Edwyn kneels beside her. Opens the satchel. Begins cleaning the wound.
+
+She watches him work. Confusion — the particular confusion of someone receiving care they didn't earn from someone who has no reason to give it.
+
+---
+
+Sera walks to the south end of the bridge. Away from everyone.
+
+"Can I speak with you. Privately."
+
+Not a request.
+
+The river rushes below. Torchlight behind us. The predator's eyes make the darkness irrelevant.
+
+"I need to understand what I just watched."
+
+Her voice is low. Controlled.
+
+"I was hired to assess a supernatural threat. I stayed because you turned out to be something extraordinary. I watched you touch a dying god. I watched you tame a creature of entropy. I agreed to bring you to the Mage Council because what you carry — what you *are* — matters."
+
+She points back toward the bridge.
+
+"And I just watched you claim a criminal empire. To a woman who kills people for a living. You told her Voss's territory would be yours. Not dismantled. Not handed to authorities. *Yours*."
+
+She holds my gaze.
+
+"In two days I'm standing in front of Instructor Seraphine Ash. What do I tell her? That you restored the balance of creation and entropy — and also that you're building a toll road operation with the woman who ran the kill box?"
+
+She doesn't raise her voice. That's what makes it land.
+
+"I'm not telling you what to do. You've earned more trust from me than anyone has in years." Something shifts in her eyes. The thing underneath the mask. "But I need to understand what your plan actually is. Because right now I'm looking at two different men."
+
+"Yes, you tell them exactly that. If I live, I've gotten rid of a criminal element in the area. I'm going to turn this operation into something legitimate. You'll see. You'll only have to expect a delay of a couple of days."
+
+I smile. Stare into her eyes.
+
+"Oh wait — this isn't about needing company, is it? That's not very professional. We can switch the plan up if—"
+
+Sera's expression freezes. Color rises in her neck. Fast.
+
+"That is *not*—"
+
+She stops. Resets. The color is still there.
+
+"I am *asking* you a serious question about whether the man I'm vouching for is building a criminal empire on the side, and you're—"
+
+She stops again. The color has reached her ears.
+
+"You're *impossible*."
+
+Three seconds of struggling with something that isn't anger and isn't amusement and lives in the dangerous territory between.
+
+"The plan doesn't change. Edwyn and I continue to Varenholm. You deal with Voss. Three days." She holds up three fingers like she's stabbing the air. "Three days, Kenji. Not four. Not five. Not *whenever I finish conquering the western highway*."
+
+She turns. Takes two steps. Stops. Doesn't turn around.
+
+"For the record. When I report to Seraphine, I'm going to tell her I found something in Duskfen that matters more than anything the Council has studied in a decade. And that the man carrying it is reckless, stubborn, and has the worst timing of anyone I've ever met."
+
+A pause.
+
+"I will *not* be telling her about the smile."
+
+She walks back to the bridge. Precise. Military. Slightly faster than necessary.
+
+---
+
+The party splits on the bridge. Edwyn shakes my hand. Both hands.
+
+"Eat every four hours. I mean it." He holds my gaze. "Three days. Then Varenholm. The Academy. Answers."
+
+He pauses.
+
+"Be careful, Kenji. Voss is a man who builds cellars."
+
+Sera has her pack on. Sword at her hip. Standing at the north end. Waiting. Not looking at me.
+
+Then looking at me.
+
+"Three days. Don't die on a highway for a toll road."
+
+She holds my gaze for two seconds longer than tactical assessment requires.
+
+Then she turns and walks into the dark. Edwyn follows. Their boots fade into the rush of the Ashford.
+
+---
+
+The bridge. Torchlight. Me and Garrett and the sound of fast water.
+
+"The Broken Antler," he says. "One day's hard march. Voss knows we're coming. Sixteen men, give or take. A tavern built like a fort. Whatever's in that cellar."
+
+He looks at me.
+
+"Two of us against sixteen. Three if you count Brindle's hand."
+
+He hooks the mace.
+
+"When do we leave?"
+
+The bridge stretches behind me — taken, held, paid for in one man's drowning and one woman's blood and a promise I haven't kept yet. Ahead of me the western highway runs toward a tavern full of men who know my name and a boss who's had a day to prepare.
+
+Sera is walking north with my secrets in her satchel and something else entirely behind her eyes. Edwyn is walking beside her with a spawning fluid sample and a prayer. Brindle is sitting on a bridge letting a priest's stitches hold her hand together and wondering what kind of man cuts you open and sends a healer.
+
+And the ember burns steady in the dark. The settled warmth of something that knows exactly what it is and what it's for and is very nearly ready to prove it.
+
+Three days. Then Varenholm. Then answers.
+
+But first — a man named Voss. And whatever he keeps in his cellar.
+
+---
+
+DING — END OF DAY 6 — NO LEVEL UP
+
+KENJI
+Human — Blade Channeler — Sorcerer Swordsman
+Level 4 — Outlander
+
+HP: 27
+AC: 15
+Initiative: +1
+Spell Attack: +5
+Spell Save DC: 13
+
+STR 15 / +2
+DEX 13 / +1
+CON 13 / +1
+INT 9 / -1
+WIS 11 / +0
+CHA 17 / +3
+
+CANTRIPS
+
+Arcane Edge — Silver-white weapon infusion. Force damage on every hit. Reflexive. Works on sharp thrown projectiles.
+Blade Ward — Purple reactive shield. Halve one physical hit. Three uses per rest.
+
+LEVEL 1 SPELLS (5 slots)
+
+Thunderous Strike — On hit, expend a slot. CON save or prone plus two d six thunder.
+Charisma Surge — Add charisma bonus to any roll before rolling.
+Charm Person — One humanoid regards me as a friend for one hour.
+Arcane Stride — Enhanced. Twelve hours. Movement doubled. No opportunity attacks. Extra action per round. Cannot stack with weapon infusions.
+Radiant Edge — Golden radiant weapon. Scales with slot. Thirty foot anti-darkness light. Full damage against entropy and undead. Halved against normal.
+
+LEVEL 2 SPELLS (2 slots)
+
+Vampiric Daggers — Five shadow daggers. Two per action. Quarter damage healed, doubled by Fast Metabolism.
+Eyes of the Hunter — Twelve hours. Darkvision sixty feet. Advantage on Perception. Plus thirty feet throw range. Can stack with one other buff.
+
+PERK — SPEEDSTER
+
+Effect One — Arcane Stride Enhanced.
+Effect Two — Fast Metabolism. All healing doubled. Hunger at four hours.
+
+ABILITIES
+
+Arcane Momentum — Kill with Arcane Edge active, free bonus attack.
+Sera's Cage — Defensive stance, plus two AC.
+Enhanced Cage — While Eyes of the Hunter active and using the Cage, counterattack as reaction when enemy misses in melee. Once per combat.
+Entropy Bond — Touch a creature of entropy to bond it. CHA check. Not control, connection.
+
+PARTY
+
+Kenji — Level four. Ironwood armor. Five spell slots. Heading west.
+Garrett — Mace. Chainmail. Sixty three gold and a grudge. Heading west.
+Brindle — Bastard sword. Wounded hand. Holding the bridge. Conditional alignment.
+
+Separated — heading to Varenholm:
+Sera — Fighter. Mage Council contractor. Three days.
+Edwyn — Healer. Researcher. Answers waiting.
+
+Gold: ten, plus access to Garrett's sixty three in the lockbox.
+
+End of Chapter Six.
