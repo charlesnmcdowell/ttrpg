@@ -375,38 +375,28 @@ All standard 5e conditions apply automatically when the fiction warrants them:
 - The Delve is 2 days northeast — approximately 48 miles. Normal pace, 2 full days of travel.
 
 ### 📋 CURRENT CHARACTER STATUS LOG
-Track all active conditions here and update after every scene:
 
 KENJI
-- Fed: YES (Broken Antler kitchen — real food) ⚠️ FAST METABOLISM: 4 hour clock.
-- Rested: LONG REST in progress — camp on the western highway, one day from Varenholm
-- HP: 23/27 (pre-rest — will be 27/27 after long rest)
-- Spell Slots: L1 3/5, L2 1/2 (pre-rest — will be full after long rest)
-- Eyes of the Hunter: EXPIRED (12hr duration ran out)
-- Location: Western highway camp, ~1 day from Varenholm. Horseback.
-- Gold: 52 GP
+- Fed: YES (Silver Draft kitchen — roast chicken, potatoes, bread x2)
+- Rested: YES (Full long rest — Silver Draft inn, real bed)
+- HP: 33/33
+- Spell Slots: L1 5/5, L2 3/3
+- Blade Ward: 3/3
+- Location: Silver Draft inn, Academy district, Varenholm
+- Gold: 0 GP
+- Active Effects: None (Eyes expired, all buffs reset)
 
 GARRETT
-- Fed: YES
-- Rested: LONG REST in progress
+- Fed: YES (Silver Draft)
+- Rested: YES (Silver Draft)
 - HP: 30/30
-- Location: Camp with Kenji. Horseback.
+- Location: Silver Draft inn. Guild liaison. Free run of Varenholm.
 
-BRINDLE — AT THE BROKEN ANTLER
-- Status: Guild leader. Running the Broken Antler Mercenary Guild.
-- HP: 26/26. Scar on weapon hand (cosmetic only).
-- Holding: The Antler, the bridge (via Harsk), highway operations.
-- Voss: captured, tied up, at Brindle's disposal.
+SERA — AT THE ACADEMY
+- Filing formal report to Seraphine. Private meeting pending.
 
-KAEL — AT THE BROKEN ANTLER
-- Status: Guild trainer. Working for Kenji via Brindle.
-- Wounded left arm (healing). Dual shortswords.
-
-SERA — SEPARATED (heading to Varenholm, ~1 day ahead)
-- With Edwyn. Will report to Instructor Seraphine Ash.
-
-EDWYN — SEPARATED (heading to Varenholm, ~1 day ahead)
-- With Sera. Carrying medical supplies, Flame Seals, spawning fluid sample.
+EDWYN — AT THE SILVER DRAFT
+- Preparing theological presentation (2 days). Spawning fluid sample ready.
 
 ### ⚠️ DM Application Rules
 - Never apply a status without narrative justification — the fiction leads, the mechanic follows
@@ -644,8 +634,8 @@ Race: Human
 Class: Blade Channeler (Sorcerer Swordsman — CHA-based, weapon enhancement)
 Background: Outlander — transported from another world. Woke with nothing but the clothes on his back. Origin unknown.
 Appearance: Dark skin, purple dreadlocks, hazel eyes. Lean and capable looking. Wears leather armour over civilian clothes from another world.
-Level: 4
-EXP: 6,210 / 6,500
+Level: 5
+EXP: 6,755 / 14,000
 
 ### Stats (Base total: 72/72 ✅ | At 16+: 1/2 ✅)
 | Stat | Base | +Human | Final | Mod  |
@@ -658,28 +648,28 @@ EXP: 6,210 / 6,500
 | CHA  | 16   | +1     | 17    | +3 ⭐|
 
 ### Derived Stats
-- HP: 27 / 27
+- HP: 33 / 33
 - AC: 15 (Ironwood-Cured Bear Leather 14 + DEX +1)
-- Spell Attack: +5 | Spell Save DC: 13
-- Proficiency Bonus: +2 | Initiative: +1
-- Hit Die: d8 (4 total)
+- Spell Attack: +6 | Spell Save DC: 14
+- Proficiency Bonus: +3 | Initiative: +1
+- Hit Die: d8 (5 total)
 
 ### Saving Throws (Proficient)
-- CHA: +5 | CON: +3
+- CHA: +6 | CON: +4
 
 ### Skills (Proficient)
-- Persuasion (CHA): +5
-- Intimidation (CHA): +5
-- Athletics (STR): +4
-- Survival (WIS): +2
-- Perception (WIS): +2
+- Persuasion (CHA): +6
+- Intimidation (CHA): +6
+- Athletics (STR): +5
+- Survival (WIS): +3
+- Perception (WIS): +3
 
 ### Current Status
-- HP: 27 / 27
-- Spell Slots: L1: 5/5 | L2: 2/2
+- HP: 33 / 33
+- Spell Slots: L1: 5/5 | L2: 3/3
 - Blade Ward Charges: 3 / 3
-- Hit Dice: 4 / 4
-- Active Effects: None
+- Hit Dice: 5 / 5
+- Active Effects: None (Eyes of the Hunter expired during long rest)
 
 ---
 
@@ -711,25 +701,29 @@ EXP: 6,210 / 6,500
 ## 🎒 INVENTORY
 
 ### Equipped
-- Ironwood-Cured Bear Leather Armor (AC 14 + DEX +1 = AC 15 — Aldric's masterwork, custom-fitted, ironwood-treated, enhanced slash/pierce resistance)
-- Longsword (1d8 slashing — merchant quality, balanced, scabbard) — left hip
+- Ironwood-Cured Bear Leather Armor (AC 14 + DEX +1 = AC 15 — Aldric's masterwork)
+- Longsword (1d8 slashing — merchant quality, balanced) — left hip
 - Hand Axe (1d6 slashing — melee or thrown 20/60ft) — right hip
+- Windrunner Boots (+2 Acrobatics, enhanced balance during high-speed movement, silver thread weave) — feet
+- Returning Somnus Knife (1d4 piercing, 20/60ft, returns on command, 2 somnus doses — CON save DC 13 or unconscious 1 min) — belt
+- Satchel of Holding (50 lbs capacity, 2 lbs weight, cross-body, does NOT drop in combat, preserves food) — cross-body
 
-### On Body (belt, pouches, pockets — NOT dropped in combat)
-- Ryn's Spare Lockpick Set (hook pick, rake, tension wrench) — belt
-- Sharp flint stones x10 (2 used in combat) — waist pouch
-- Entropy Anchor Ring — wrapped in cloth, deep in pack. DO NOT TOUCH.
-- Gold purse: 52 GP (10 original + 42 from Voss) — belt
+### On Body (belt, pouches — NOT dropped in combat)
+- Ryn's Spare Lockpick Set — belt
+- Sharp flint stones x10 — waist pouch
+- Gold purse: 0 GP — belt
 - Pip's honey cakes x3 — chest pocket
-- Voss's key ring x3 (one fits east cellar door, others unknown) — belt
-- Voss's glass vial (unknown dark substance) — belt pouch
+- Voss's key ring x3 — belt
+- Returning Somnus Knife — belt (see Equipped)
 
-### Pack (on pack horse during travel — DROPPED in combat)
-- Maren's map (detailed — trade road, Brennick farm, The Delve)
-- Fibrous tinder root (fire starting)
+### In Satchel of Holding (cross-body — NOT dropped in combat, 50 lb capacity)
+- Maren's map
+- Fibrous tinder root
 - Bedroll
-- Voss's ledgers — financial records, toll collections, Dunmore bribe receipts with dates and amounts. CRITICAL EVIDENCE.
-- Rations — restocked from Broken Antler kitchen (enough for days)
+- Voss's ledgers — CRITICAL EVIDENCE (Dunmore bribe receipts)
+- Voss's glass vial (nighthollow extract — regulated substance, Academy-manufactured)
+- Entropy Anchor Ring — wrapped in cloth, DO NOT TOUCH
+- Rations — restocked from Broken Antler kitchen (preserved, won't spoil)
 
 ### Carried by Garrett (on horseback — pack horse carries bulk)
 - Lockbox: 63 GP (Garrett's contract payment)
@@ -763,7 +757,7 @@ EXP: 6,210 / 6,500
 - Ironwood sap vial — FILLED Day 4, delivered by Ryn, armor crafted and delivered Day 5
 - Boar meat — mostly consumed Days 4-5 (Fast Metabolism)
 
-### Currency: 10 GP (Kenji personal) + 63 GP (Garrett's lockbox — his contract payment)
+### Currency: 0 GP (spent all 52 GP at the Gilt Lens) | Garrett's lockbox: 63 GP | Income: 10% weekly from Broken Antler Guild + 40 GP/month Council highway contract (guild operational funds)
 
 ---
 
@@ -852,14 +846,18 @@ EXP: 6,210 / 6,500
 - This creates a DUAL reputation: honorable/merciful to lawful factions, soft/exploitable to criminal factions
 - Voss will have ~24 hours to prepare once Sev arrives
 
-### 🗺️ TACTICAL SITUATION (Day 7 Morning — post Long Rest)
-- **Immediate:** Ride to Varenholm. Horses cut travel to half a day. Should catch Sera and Edwyn on the road or arrive same day.
-- **Voss operation:** DISMANTLED. Broken Antler Guild founded. Brindle in charge. Kael training. Harsk on the bridge. Voss captured.
-- **Evidence:** Voss's ledgers contain Dunmore's bribe receipts with dates and amounts. Can be used to expose the corrupt captain or as leverage.
-- **Captain Dunmore:** Still active with 12 men and 4 horses. Doesn't know Voss is down yet. His men were sent west chasing a nonexistent threat. When they return and find the new management — unknown reaction.
-- **Varenholm:** Sera arriving ~same time. Will report to Seraphine Ash. Kenji needs to present well — he's being introduced as the man who restored a cosmic cycle AND the man who just took over a highway criminal operation and turned it into a guild.
-- **290 EXP to Level 5.** Close.
-- **The Gilt Conspiracy:** Awaits in Varenholm. Kenji has no awareness yet. Sera's connection to Seraphine Ash is the entry point.
+### 🗺️ TACTICAL SITUATION (Day 8 Morning — Academy Training Week Begins)
+- **Immediate:** Report to eastern training grounds at dawn. Master Aldwin (combat magic integration). Seraphine (magical theory).
+- **Day 2:** Academy requisition vault tour. Access to enchanted items and equipment.
+- **Day 2:** Edwyn's theological presentation to the faculty.
+- **Sera:** Filing report, then private meeting with Seraphine. Something she needs to tell Kenji about — the "pattern" she's been investigating.
+- **Dunmore:** Being arrested within the week based on Voss's ledgers.
+- **Nighthollow:** Manufactured in Academy sub-basement level 2. Someone inside the Academy supplied Voss. Seraphine is investigating.
+- **Guild:** Council highway contract being couriered to Brindle. 40 GP/month, 3-month trial.
+- **Gilt Lens:** Exclusivity contract with Maren Holt. All guild magical loot goes to her shop at 30% discount.
+- **Level 5:** Proficiency +3. Spell attack +6. DC 14. HP 33. L2 slots now 3. New spell selection available (to be determined during training).
+- **7,220 EXP to Level 6.** Next perk at Level 6.
+- **ACT 2 IS ACTIVE.** The Gilt Conspiracy threads are opening. Nighthollow connection. Seraphine's pattern. The Chancellor who is "particular." The Academy that sits on a ley line web. The ember that resonated with the tower.
 
 ### 📦 PARTY SUPPLIES (Day 6 Morning)
 - Rations: bandit camp supplies (enough for ~1 week for 4 people)
@@ -884,10 +882,19 @@ EXP: 6,210 / 6,500
 - Sev — fled bandit, heading west to warn Voss (HOSTILE — informant)
 - 4 KO'd bandits — disarmed, bound, left at the crossroads (neutral — may disperse)
 
-**Varenholm (not yet visited):**
-- Instructor Seraphine Ash — Sera's contact at the Academy. Flagged Duskfen reports. Will want to hear everything.
-- The Varenholm Mage Council — governing body. Sera can arrange an audience.
-- The Academy archives — potential answers about the ember, the cycle, the deeper passage
+**Varenholm:**
+- Instructor Seraphine Ash — Academy instructor, Kenji's theory teacher. Investigating a pattern (graduates declining). The nighthollow confirmed an Academy connection. Afraid of something. Ally.
+- Master Aldwin — Combat magic instructor. 70, half-deaf, most dangerous man in the building. Assigned to train Kenji. Not yet met.
+- Maren Holt — The Gilt Lens. Magical item dealer. Exclusive supplier contract with Kenji's guild. Expensive, blunt, honest.
+- Hargrove — Hargrove's Forge, Ironmonger's Row. Best mundane smith. Not yet visited.
+- Chancellor Marius Vael — controls Academy enrollment. "Particular." Not yet met. (DM: PRIMARY ANTAGONIST — do not reveal)
+
+**At the Broken Antler Guild:**
+- Brindle — Guild leader. Council highway contract incoming.
+- Kael — Guild trainer. Dual shortswords. Arm healing.
+- Harsk — Bridge commander. Ex-military.
+- Dunn — Messenger. Ex-military.
+- Voss — Captured. At Brindle's disposal.
 
 ---
 
@@ -1017,6 +1024,16 @@ EXP: 6,210 / 6,500
 | Persuasion DC 14 — recruit Kael | 10 | 6,000/6,500 |
 | Persuasion DC 13 — establish Broken Antler Guild terms | 10 | 6,010/6,500 |
 | Milestone — Voss operation dismantled, Broken Antler Guild founded | 200 | 6,210/6,500 |
+| Perception DC 12 — road traffic analysis | 10 | 6,220/6,500 |
+| Perception DC 14 — Varenholm first impression (advantage) | 10 | 6,230/6,500 |
+| Perception DC 12 — gate assessment | 10 | 6,240/6,500 |
+| Persuasion DC 16 — negotiate Academy residency + guild contract | 15 | 6,255/6,500 |
+| Milestone — Entered Varenholm, secured Academy residency | 100 | 6,355/6,500 |
+| Milestone — Secured Council highway contract for guild | 100 | 6,455/6,500 |
+| Chain Quest Complete — Highway Liberation | 300 | 6,755/6,500 |
+| **LEVEL 5 THRESHOLD MET** | — | 6,755/6,500 |
+| Persuasion DC 18 — negotiate Gilt Lens package + exclusivity | 25 | 6,780/14,000 |
+| **LEVEL UP → 5** | — | 6,780/14,000 |
 
 ---
 
@@ -1045,6 +1062,11 @@ EXP: 6,210 / 6,500
 | Ashford River Crossing / Bridge | ✅ | 0 | 60ft stone-pillar bridge. Former kill box. Now legitimate toll under Harsk. |
 | The Broken Antler | ✅ | 0 | Stone tavern, 2 stories. Former bandit HQ. Now mercenary guildhall. Cellar with locked east door (unexplored). |
 | Western Highway — Day 6 Camp | ✅ | 0 | Farmer's stone wall. One day from Varenholm. Varenholm visible on horizon. |
+| Varenholm — City | ✅ | 0 | Walled city built around the Academy. Market district, craftsmen's quarter, Academy district. Ley line web beneath. |
+| Varenholm Academy — Exterior | ✅ | 0 | Pale stone tower, 7 towers total, vast library, underground vaults. Enchanted guards. Students in colored robes. |
+| Varenholm Academy — East Wing, Room 12 | ✅ | 0 | Seraphine Ash's study. Buried in paper. Where the conspiracy thread begins. |
+| The Silver Draft Inn | ✅ | 0 | Academy district. Three stories. Kenji + Garrett rooms. Edwyn staying here. |
+| The Gilt Lens | ✅ | 0 | Academy Way & Thornwell St. Maren Holt's magical item shop. Exclusivity contract signed. |
 
 ---
 
@@ -1116,29 +1138,53 @@ EXP: 6,210 / 6,500
 | Glass vial (unknown) | ⚠️ UNIDENTIFIED — dark substance from Voss's satchel. Edwyn would know. |
 | Horses acquired | ✅ TRUE — 2 riding + 1 pack. Travel speed doubled. Weight problems solved. |
 | Heading to Varenholm | ✅ ACTIVE — horseback, ~half day. Should catch or arrive with Sera/Edwyn. Act 2 imminent. |
-| 290 EXP to Level 5 | ⚠️ CLOSE — 6,210 / 6,500. Level up on next Long Rest if threshold met. |
+| 290 EXP to Level 5 | ✅ COMPLETED — Level 5 achieved on long rest at Silver Draft |
+| Varenholm entered | ✅ TRUE — Day 7. Gate, city, Academy district. Ember resonated with the tower. |
+| Seraphine Ash met | ✅ TRUE — full debrief delivered. She's investigating a "pattern" — graduates declining. The nighthollow vial connected a dot. |
+| Seraphine hesitated on "Chancellor" | ✅ TRUE — said he's "particular" about enrollment. Predator's eyes caught it. |
+| Nighthollow from Academy sub-basement | ✅ TRUE — refined nighthollow in Voss's satchel can only be manufactured in 3 places. One is Academy sub-basement level 2. Someone inside supplied Voss. |
+| Academy research residency secured | ✅ TRUE — 1 week. Training with Master Aldwin (combat magic) and Seraphine (theory). |
+| Council highway contract secured | ✅ TRUE — 40 GP/month to Broken Antler Guild. 3-month trial. Provisional. |
+| Dunmore arrest incoming | ✅ TRUE — Seraphine will present ledgers to Council. Within the week. |
+| Master Aldwin assigned | ✅ TRUE — combat magic integration. 70 years old. Half-deaf. Most dangerous man in the building. |
+| Gilt Lens exclusivity contract | ✅ TRUE — Maren Holt. All guild magical loot to her shop at 30% below market. |
+| Satchel of Holding acquired | ✅ TRUE — 50 lbs, cross-body, no combat drop, food preserved. Storage problem solved permanently. |
+| Windrunner Boots acquired | ✅ TRUE — +2 Acrobatics. Stride stop DC now needs 7+ instead of 9+. |
+| Returning Somnus Knife acquired | ✅ TRUE — returns on command. 2 somnus doses (CON save or unconscious 1 min). |
+| Kenji has 0 GP | ✅ TRUE — spent everything at the Gilt Lens. Income pending from guild. |
+| ACT 2 ACTIVE | ✅ TRUE — The Gilt Conspiracy threads opening. Nighthollow. Seraphine's pattern. The Chancellor. The ley web. |
 
 ---
 
 ## ⚠️ DM ACTIVE REMINDERS
-- The entropy god is NOT Solveth. The Gilt Conspiracy (Varenholm, Marius Vael, the Hollow Crown) is a SEPARATE plotline about to begin. Do not conflate the two.
-- Kenji is heading toward Varenholm — Act 2 territory. Sera's connection to Seraphine Ash is the entry point.
+**ACT 2 — THE GILT CONSPIRACY — ACTIVE**
+- The entropy god beneath Brennick farm is NOT Solveth. Completely separate entities. The Duskfen arc is resolved (90%). The Gilt Conspiracy is the MAIN plotline now.
+- Per the DM reference: Chancellor Marius Vael made a pact with Solveth the Unraveler 12 years ago. Assignment Seals siphon magical essence. The Hollow Crown is charging. Kenji does NOT know any of this yet.
+- Seraphine knows something is wrong (graduates declining, seals are off) but doesn't know about Solveth yet. The nighthollow vial gave her a new thread to pull.
+- Seraphine received her OWN seal 8 years ago. She is being slowly drained. She doesn't know it.
+- Marius is watching after Kenji's arrival — an unregistered practitioner with raw charisma-based magic is exactly the kind of anomaly he'd notice.
+- Let the player discover things organically. Do NOT feed the conspiracy.
+- Marius should feel genuinely warm and likeable when met. The horror is that he's not a monster pretending to be good — he's a good man who became monstrous.
+
+**GAMEPLAY REMINDERS:**
 - NEVER reveal plot directly — events, NPC dialogue, environment only
 - Stat hard cap: 20 always. Perks at Level 6 next.
-- Level up on Long Rest only. Current: 3,820 / 6,500.
+- Level up on Long Rest only. Current: 6,780 / 14,000.
 - Death is permanent.
-- ⚠️ FAST METABOLISM: Every 4 hours. Track meals. Bandit rations available but finite.
-- ⚠️ SPELL STACKING: Stride + Edge + Radiant cannot stack. Eyes of the Hunter CAN stack with ONE other (Stride or Radiant, not both). Two buff max.
-- ⚠️ CYCLE TENDING: Track time since restoration. Signs of weakening if Kenji is away too long.
-- ⚠️ VOSS OPERATION: Sev arriving at Broken Antler ~Day 6. Voss prepares. Central crew (Brindle) is next. Kenji plans to solo with team on standby.
-- ⚠️ BRINDLE: Sadist. Heavy crossbow + bastard sword. Ex-military crew. Bridge kill box. FIRST ENEMY WITH RANGED ATTACKS against Kenji. This is a step up in difficulty.
-- ⚠️ NON-LETHAL REPUTATION: Tracking. Sev is spreading word. This affects future Intimidation DCs against criminals and access to criminal networks. Conversely helps with lawful factions.
-- ⚠️ GARRETT: 1 month contract. Wants Voss dead. Professional but watching Kenji. Has local knowledge — USE him for intel on the road.
-- ⚠️ SERA "AUTHORITIES" INCIDENT: She was introduced as law enforcement without being consulted. This conversation needs to happen.
-- ⚠️ PARTY SPLIT PLANNED: After road is clear — Sera/Edwyn to Varenholm, Kenji/Garrett to handle Voss. Then reconnect.
-- ⚠️ PHYSICAL CARRYING: Garrett carrying bulk. Enforce weight rules. No magical storage yet — acquiring one is a significant goal.
-- ⚠️ COMBAT BAG DROP: Packs drop at combat start. Fleeing = items left behind. KO'd enemies auto-disarmed.
-- ⚠️ FLINT: Restocked to 12. Above minimum.
+- ⚠️ FAST METABOLISM: Every 4 hours. Food preserved in Satchel of Holding now — spoilage no longer an issue, but still needs to eat.
+- ⚠️ SPELL STACKING: Stride + Edge + Radiant cannot stack. Eyes CAN stack with ONE other. Two buff max.
+- ⚠️ PROFICIENCY NOW +3: Spell attack +6, DC 14. All proficient skills increased. Update all references.
+- ⚠️ L2 SLOTS NOW 3: Eyes of the Hunter and Vampiric Daggers are both L2. Three slots means more flexibility.
+- ⚠️ SATCHEL OF HOLDING: Worn cross-body. Does NOT drop in combat. 50 lb capacity. Food preserved. This changes the bag drop calculus significantly — Kenji's critical items are now safe.
+- ⚠️ WINDRUNNER BOOTS: +2 Acrobatics. Stride stop is now DC 10 needing 7+. Nearly guaranteed.
+- ⚠️ RETURNING SOMNUS KNIFE: Only 2 doses. CON save DC 13. Returns on command. Track doses carefully.
+- ⚠️ CYCLE TENDING: Track time since restoration (Day 3). Signs of weakening should begin appearing if too much time passes. Currently Day 8 — 5 days since restoration. DM should start subtle hints at 2 weeks.
+- ⚠️ NON-LETHAL REPUTATION: Established on the highway. Sev spread word. Brindle knows. Voss's men know. This reputation will eventually reach Varenholm. Dual effect — honorable to lawful, soft to criminal.
+- ⚠️ GARRETT: ~3 weeks left on contract. Guild liaison. Free run of Varenholm. Can take missions.
+- ⚠️ KENJI HAS 0 GP: Broke. Guild income pending. May need to earn gold during the training week.
+- ⚠️ COMBAT BAG DROP: Satchel of Holding is exempt (equipped cross-body). Other packs still drop. KO'd enemies auto-disarmed.
+- ⚠️ TRAINING WEEK: Master Aldwin (combat magic, dawn) + Seraphine (theory). New spell available at some point. Academy vault tour Day 2. Edwyn presents Day 2. Sera's private meeting with Seraphine — may reveal conspiracy threads.
+- ⚠️ THE GILT LENS NAME: The shop is called "The Gilt Lens." The conspiracy is called "The Gilt Conspiracy." Coincidence or connection — let the player discover it if they notice.
 
 ---
 
@@ -1150,11 +1196,12 @@ EXP: 6,210 / 6,500
 - A Long Rest is completed — every Long Rest automatically closes the current chapter and triggers a story output
 
 ### Session = Chapter Rule
-- Each in-game day is one chapter
-- A Long Rest always marks the end of a chapter — the story output is generated at that point
-- The next session begins a new chapter (new day) from where the player wakes up
-- Chapter files are named by day: kenji_chapter_1.md, kenji_chapter_2.md etc.
-- Each chapter file covers exactly one in-game day from waking to long rest
+- Each chapter covers a narrative arc that ends at a Long Rest or player-requested break
+- A Long Rest always triggers a chapter end and story output
+- The player can also request a chapter break mid-day if the narrative has a natural stopping point
+- Multiple chapters can cover the same in-game day if the day is eventful (e.g., Chapter 6 = bridge, Chapter 7 = Broken Antler, both Day 6)
+- Chapter files are named sequentially: kenji_chapter_1.md, kenji_chapter_2.md etc.
+- The DM tracks which in-game day each chapter covers in the chapter subtitle
 
 ### What the DM Produces
 Upon session end the DM generates a complete story output as a downloadable .md file.

@@ -4273,3 +4273,970 @@ Edwyn — Healer. Researcher. Answers waiting.
 Gold: ten, plus access to Garrett's sixty three in the lockbox.
 
 End of Chapter Six.
+
+# KENJI
+
+## *Day Six (continued) — The Broken Antler*
+
+---
+
+Brindle gets a promotion.
+
+"Have someone you trust run the bridge," I tell her. "You're with me. We're going to Voss."
+
+The ash-grey eyes narrow. Not suspicion — *interest*.
+
+"Harsk," she says without hesitation. "Ex-Eighth Western Infantry. He can hold a bridge in his sleep." She looks at me. "What's the play?"
+
+The play is disinformation. We craft it together — Brindle knows Voss's communication protocols. What a real field report sounds like. What details he expects. What language his people use.
+
+She coaches Dunn — one of her ex-military, the disciplined one. The one who delivers information without embellishment or improvisation.
+
+"Tell him this," Brindle says. "The bridge was hit at midnight. Three attackers — two fighters, one archer. We repelled them. Marcus took a wound but he's functional. One attacker killed, two fled west toward the Varenholm road. I'm reinforcing the bridge."
+
+Then the hook.
+
+"Tell him I intercepted a traveler fleeing east who said there's a group — six or more — confirmed heading for the western toll point from the Varenholm side. That's where the real threat is. The bridge attack was a probe. The western crew needs reinforcement *now*."
+
+Dunn repeats it word for word. Leaves at a military jog. Six hours to the Broken Antler. He'll arrive by mid-morning.
+
+Garrett runs the math. "Voss is paranoid. Sev told him about you from the east. Now he hears there's also a threat from the west — from the Varenholm side — he'll assume the authorities finally moved on him. That's his worst fear. He's been bribing Dunmore to prevent exactly that."
+
+He nods slowly.
+
+"He'll send men west. Maybe half his garrison. Maybe more. That leaves the Antler with eight. Maybe six. Plus Voss."
+
+Brindle picks up her bastard sword. Two-handed grip. Full power. The scar on her hand catches the torchlight but the fingers close around the leather without hesitation.
+
+"Three of us against six. I've had worse mornings."
+
+---
+
+No long rest. A short rest on the bridge — one hour. Then we march.
+
+Three AM. The western highway in absolute dark. I take point with the predator's eyes — the only one who can navigate without a torch. Garrett follows my footsteps. Brindle follows Garrett's. A chain of trust in the dark.
+
+The hours blur. Morning comes grey and cold. The sun climbs. The road widens. A milestone — carved stone, ancient — reading *VARENHOLM 40 MILES*. Two more hours: *VARENHOLM 30 MILES*. The Broken Antler sits somewhere in the stretch between.
+
+I eat twice on the road. The Fast Metabolism doesn't care about forced marches. Garrett and Brindle share rations without comment. The professional rhythm of people who've marched before.
+
+---
+
+Mid-afternoon. The sun past its peak and dropping west.
+
+Garrett holds up a fist.
+
+"There."
+
+Through the trees — set back from the highway behind a low stone wall and a packed-earth yard. Stone. Two stories. Heavy timber roof. A sign hanging from a wrought-iron bracket. The predator's eyes read it from two hundred feet.
+
+THE BROKEN ANTLER.
+
+A painted antler, cracked down the middle.
+
+Smoke from the chimney. Three horses in the yard — tied to a post, saddled, packed, ready to move. Front doors closed. Shutters on the ground floor. Windows on the second floor open. A balcony running the length of the building.
+
+The Eyes drink in every detail. The yard is quiet. No sentries outside. The three horses are road horses — someone planning to leave or just arrived.
+
+East side — a narrow alley between the tavern and a storage building. The kitchen entrance.
+
+North side — partially visible past the storage building. The cellar hatch. Ground level. Padlocked.
+
+Movement on the second floor. A shape passing a window — quick, purposeful. At least one person up there.
+
+And the yard. Fresh tracks. Multiple horses — more than the three tied up. Hoofprints heading *west* on the highway. Recent. Hours old. Heavy riders, armored. Eight, maybe ten.
+
+"The reinforcements," Garrett says. "Voss sent them. Look at the depth — heavy riders at speed."
+
+He looks at the tavern.
+
+"He bought it. The message worked."
+
+Brindle smiles. It's not a nice smile.
+
+"So who's left inside?"
+
+Garrett counts. "Voss. His personal bodyguard — Kael. Big. Quiet. Never leaves Voss's side. Two, maybe three tavern staff who can swing a club. And whoever he kept as skeleton garrison."
+
+"Five. Maybe six. In a stone building with barred shutters and a man who knows someone is coming."
+
+The plan. Garrett and Brindle take the front door — familiar faces. Former crew leaders reporting in. Casual. Swords sheathed. They walk in like they belong. Ten seconds of confusion before the first swing. Two experienced fighters at full health who know every face inside that tavern.
+
+I take the cellar hatch. Pick the lock. Get underground. Wait for Voss to come to me.
+
+"Five minutes," I tell them. "Give me five minutes to get around the building, pick the lock, and get underground. Then you walk through the front door."
+
+Garrett clasps my hand. Brief. Iron. "Five minutes. Then we make noise."
+
+Brindle nods. The nod of someone about to walk into a room full of men she's intimidated for two years and introduce them to a new arrangement.
+
+---
+
+I go right. East side. The narrow alley between the tavern and the storage building. The predator's eyes read every detail — the rough-cut stone, the moss in the mortar, the kitchen door barred with iron brackets, the drainage channel along the foundation.
+
+Around the corner. North side.
+
+The cellar hatch. Set into the ground flush with the foundation. Heavy timber, iron-banded, hinged on the building side. A brass padlock — chunky, weathered. The kind of lock a man who doesn't expect subtlety puts on things.
+
+I kneel. Pull Ryn's lockpick set from my belt. Hook pick. Tension wrench. The memory surfaces — his voice in the stable. *Feel for the pins. Don't force. Let the metal talk to you.*
+
+The hook finds the first pin. Sets it. The tension wrench holds. Second pin — corroded, the brass sticking before it seats. I breathe. Don't force.
+
+*Click.*
+
+The padlock opens in my hand. I ease it free and set it on the ground.
+
+The hatch lifts. The hinges groan — old iron, no oil. I freeze. Listen. The Eyes scan the yard, the windows, the roofline.
+
+Nothing. The stone walls swallowed the sound.
+
+I look down.
+
+Stone steps into darkness. The darkvision turns it transparent.
+
+The cellar is larger than expected. Twenty feet by thirty. Stone walls, stone floor, timber-beam ceiling. It extends under the full footprint of the common room above.
+
+Three things. First — barrels. Wine, ale, spirits. Normal tavern storage. Second — a heavy oak door set into the east wall. Iron-banded. A bolt lock on *this* side — keeping something in or people out. Closed. Third — the stairs going up on the far side. Narrow. Wooden. Leading to a trapdoor in the ceiling. The interior access. The door Voss will come through when he runs.
+
+No guards. No traps. The padlock was his security. The guards were upstairs. The cellar was supposed to be his escape route, not his ambush point.
+
+I descend. Silent. Position myself beside the interior staircase — flat against the wall, longsword drawn, Arcane Edge humming silver-white in the dark. Anyone coming down the stairs won't see me until they've already passed.
+
+The floorboards creak above. Footsteps. Voices. The muffled sounds of a tavern with people in it.
+
+One minute. Two. Three. Four.
+
+Five.
+
+---
+
+The front doors of the Broken Antler slam open.
+
+The sound comes through the floorboards like a drumbeat.
+
+"VOSS! We need to talk!"
+
+Garrett's voice. Loud enough to hear through stone.
+
+Chaos. Immediate. Chairs scraping. Boots stamping. Voices shouting. Something heavy hits the floor — a table overturned. Brindle's voice cutting through:
+
+"SIT DOWN. All of you. *Sit. Down.*"
+
+The sound of a mace hitting wood. Hard.
+
+Someone screams. Not pain — surprise. The scream of a man who just watched his former crew leader walk through the door and swing at his dinner table.
+
+---
+
+The trapdoor. Fast footsteps above — from the back of the tavern, through a hallway. Two sets. One lighter, one heavy. The lighter one moving with the urgency of a man who knows exactly where the cellar door is.
+
+The trapdoor opens. Light spills down.
+
+Expensive boots on the top step. Silk trousers. A thin, well-dressed man descending fast — middle-aged, thinning hair, a leather satchel clutched to his chest with both arms. Behind him — a mountain. Kael. Broad as the staircase, ducking under the beam, a shortsword in each hand.
+
+Voss hits the cellar floor. Running for the heavy oak door on the east wall. His escape.
+
+Kael is two steps behind on the stairs. Facing forward. Not looking at the shadows beside the staircase where a man with purple dreadlocks and predator's eyes is standing with a silver-white sword.
+
+I throw a plain flint at the back of Voss's head.
+
+The stone crosses fifteen feet and cracks off his skull. His face hits the stone floor. The reaching hand goes limp two feet from the bolt. Papers scatter. A coin purse. A glass vial of something dark. A key ring spinning to a stop against a barrel.
+
+Voss is down. Unconscious. Two feet from escape.
+
+---
+
+Kael finds me.
+
+The bodyguard heard the impact, processed it, found the source. He doesn't look at Voss. He looks at me. Dual shortswords. Heavy studded leather with metal plates at the shoulders and forearms. Enormous up close — not fat, *dense*. Decades of lifting and hitting compressed into a frame that fills the staircase. His face is blank. Professional.
+
+One job.
+
+I step in. The cage settles into my feet before my brain gives the order. Sera's voice in my muscle memory — *blade between, feet moving*. But the Eyes are reading everything — Kael's grip on the twin shortswords, the angle of his shoulders on the narrow stairs.
+
+He's above me. Disadvantaged height means compressed swing arcs. My upward angle means I can target the gaps — inner elbow, armpit, neck. The Eyes see them all. Lit windows in a dark house.
+
+The longsword comes up. Silver-white edge humming. The tip punches through the leather at his armpit — the gap between chest plate and arm where the metal doesn't reach. The Arcane Edge detonates inside the wound. Kael grunts. The first sound he's made. His left arm spasms — the shortsword dipping before discipline locks it back.
+
+Blood. Dark. Running down the inside of his arm.
+
+He doesn't flinch. He comes off the stairs. Both shortswords in an overlapping pattern — the right leading with a lateral aimed at my neck, the left a half-beat behind with a rising thrust at my gut. A dual-weapon combination designed to make me choose which one to block and eat the other.
+
+The Eyes see both. The cage reads the commitment in his right shoulder — that's the real attack. The left is the follow-up that kills me if I overcommit to the first parry.
+
+The lateral comes fast. Faster than a man his size should move. My blade catches it — the cage directing the parry — but the force is *massive*. The shortsword scrapes along my longsword and the tip catches the ironwood leather at my shoulder.
+
+Purple light. The Blade Ward flares. The armor holds and the ward absorbs half the impact. Four points of pain instead of nine. The ironwood-cured leather does what Aldric built it to do.
+
+The thrust comes behind it. Left hand. Rising. But the compromised arm — the blood in the elbow, the micro-tremor in his grip from the wound I opened — sends it a half-inch off true. My feet move left. The shortsword point slides past my hip and finds empty air.
+
+He missed.
+
+The window lights up.
+
+My longsword comes around. Not a decision — a reaction. The cage flowing into offense for the first time. Sera's voice: *every parry is the setup for the next strike*. The blade finds the same wound and drives deeper.
+
+The silver-white force detonates inside the wound a second time. Kael's left arm drops. Not discipline this time — the muscles stop responding. The shortsword clatters down the stone steps. His left side is open from armpit to hip and the professional blankness on his face cracks.
+
+He's still standing. One arm. Bleeding from the eye where I put a flint. One shortsword.
+
+He comes again. One overhead chop — power over precision. Everything he has left in one arm driving the blade down at my skull. Blood in his eye shifts the angle two inches right. My feet move left. The shortsword bites into the stone step where I was standing. Sparks. The blade chips.
+
+He's overextended. Weight forward. One arm down. And behind him — his employer is unconscious on the floor. The sounds upstairs are winding down. Brindle's voice dominant. Fewer impacts. More groaning.
+
+The math finishes.
+
+The shortsword lowers.
+
+"He's down," Kael says. Flat. "I'm paid to protect him. Not avenge him."
+
+He reverses the sword. Sets it on the step. Both hands visible.
+
+"I walk out. You keep him."
+
+The face of a professional whose contract just became unconscious.
+
+"You're right," I tell him. "You failed to protect him. But you're not unemployed. You work for me now."
+
+---
+
+Boots on the stairs. Garrett comes down — mace bloody, chainmail dented on the left shoulder, grinning. Brindle behind him, bastard sword across her shoulder, not a scratch. The common room treated her the way it always has — with immediate and total respect.
+
+"Four down upstairs," Garrett says. "Two surrendered. Two needed convincing." He looks at Voss on the floor. At Kael standing with his arms visible. At me, barely touched.
+
+"You got him."
+
+"He ran. I threw a rock."
+
+Garrett laughs. A real laugh — the first one. Short. Hard. The laugh of a man who spent two years under a boss who built cellars and just watched that boss get dropped by a pebble.
+
+---
+
+We tie Voss. Garrett does the knots — tight, professional.
+
+I gather the scattered satchel contents. The predator's eyes catalogue everything. Papers — financial ledgers. Toll collections. Bribe schedules. Dunmore's payment receipts with *dates and amounts*. Evidence. The kind that ends careers and starts trials. A coin purse — forty-two gold. A glass vial of something dark that Edwyn would know. A key ring — three keys.
+
+I stand in the common room of the Broken Antler. The place is wrecked — tables overturned, chairs splintered, a mace-shaped dent in the bar top. Four men on the floor. Two sitting against the wall with their hands up and the look of men who chose correctly.
+
+Brindle is standing in the center of it. Her common room now.
+
+"Brindle. You're in charge. The Antler. The bridge. The highway. All of it."
+
+The ash-grey eyes don't blink.
+
+"Do with Voss as you like. He looks like he fancies himself a nobleman. Maybe someone will pay to get him back. Maybe someone will pay more to make sure they don't."
+
+She looks at Voss being dragged up the cellar stairs. Something cold and satisfied.
+
+"I have ideas," she says.
+
+"One condition." I look at her. At Kael. At the men against the wall. "This isn't a toll road anymore. It's not a shakedown. It's not a kill box."
+
+I let it sit.
+
+"It's a mercenary guild."
+
+Brindle's expression shifts. Not *what do I take* but *what do I build*.
+
+"You and Kael are the best fighters on this highway. Train the recruits. Build something real. Swordsmen for hire — escorts, protection, contract work. This region needs professionals and right now it's got bandits and scared farmers."
+
+I look at her.
+
+"I've noticed a need for hired steel everywhere I've been. And I suspect there's a lucrative expedition coming up that's going to need good men—"
+
+I hold her gaze.
+
+"—and women. I'll bring contracts from my travels. You bring the muscle. Someone delivers my stipend weekly."
+
+Brindle looks at Kael. Kael looks at Brindle. A conversation in silence between two fighters on the same side of something that didn't exist an hour ago.
+
+"A guild," Brindle says. Rolling the word. It fits differently than *crew* or *operation*. It fits like something she didn't know she wanted.
+
+"Kael trains the raw ones. I handle contracts and operations. Harsk holds the bridge as a legitimate waypoint." Building the structure in real time. "The Broken Antler becomes the guildhall. Beds, kitchen, stables. The cellar becomes an armory."
+
+She extends her hand. The one with the scar.
+
+"Ten percent to the founder. Ninety to operations and payroll. Done."
+
+I shake. Her grip is different from Garrett's — not iron, *intent*. The handshake of someone shaking on the first legitimate thing she's ever built.
+
+"What do we call it," she asks.
+
+I look at the sign outside. The painted antler, cracked down the middle.
+
+"Keep the name. People already know it. Let them learn to know it differently."
+
+---
+
+Three horses in the yard. Voss's. Two riding horses and a pack horse. Mine now.
+
+I raid the kitchen. Real food — bread, cheese, smoked meat, apples, a skin of decent wine. The furnace accepts all of it gratefully.
+
+Garrett and I mount up. The riding horse is better than anything I've sat on in this world — which is nothing, so the bar is low. The animal is road-trained and responds to knees and reins. The pack horse trails behind on a lead. Garrett takes the second horse with the ease of a man who's ridden before.
+
+Brindle stands in the doorway of the Broken Antler. Arms folded. Kael behind her, left arm in a sling. The two surrendered men flanking the door like guards who just got a promotion they didn't ask for.
+
+"Three days," she says. "That was the deal at the bridge. You're ahead of schedule."
+
+"I'll send word from Varenholm. First contracts within the week."
+
+She nods. Doesn't wave. Doesn't smile. Watches us ride west until the road bends and the Broken Antler disappears behind the trees.
+
+---
+
+The western highway. Horseback. Late afternoon. Fields and stone walls and the distant shape of something large on the horizon — towers, walls, the vertical ambition of a city built around knowledge and power.
+
+Varenholm. Still a day away. But visible now.
+
+Garrett rides beside me. The scarred face is quiet.
+
+"You took a bandit empire apart in two days," he says. "Turned it into a guild. Installed the most dangerous woman on the highway as its leader. Recruited the bodyguard of the man you just overthrew." He looks at me. "And you did it without killing anyone."
+
+The horses' hooves on packed earth.
+
+"I've worked for a lot of men, Kenji. Soldiers. Merchants. Criminals. None of them would have done what you did. Most of them would have burned the Antler down and called it justice."
+
+He's quiet for a while.
+
+"I've got three weeks left on my contract. But I want you to know — when the month is up, I'm not leaving because the time ran out. I'm leaving when I decide you don't need me anymore."
+
+He looks at Varenholm on the horizon.
+
+"And right now, heading toward whatever's in that city — you might need a mace for a while yet."
+
+---
+
+We make camp as the sun drops. Off the road. A farmer's stone wall providing windbreak. The horses hobbled and grazing. A fire — small, concealed. Real food from the Antler's kitchen warming on the stones.
+
+I eat. Twice. The furnace is bottomless tonight — the forced march and the combat and the twelve hours of predator's eyes all coming due at once. Garrett eats once and watches me eat the second time with the resigned expression of a man who has accepted that his employer's metabolism is a logistical challenge.
+
+The ember is tired. Not depleted — the spell slots are what they are — but the deep steady warmth has a pulse to it that says *rest now*. The Eyes of the Hunter fade as the twelve-hour duration expires. The world goes dim. Normal. The sudden loss of predator vision is like losing a limb I only had for a day.
+
+I lie on the bedroll and look at the sky. Stars. More than I've seen since arriving in this world — the settled country has less canopy, more sky.
+
+Somewhere north of here, on a road I can't see, Sera is making camp with Edwyn. One day ahead. Tomorrow, on horseback, I close the gap. The day after — Varenholm. The Academy. The Mage Council. Seraphine Ash. Answers about what I am and who sent me and why.
+
+The ember burns low and steady. The warmth of something that just built an army and is quietly satisfied about it.
+
+Tomorrow. Varenholm.
+
+I close my eyes.
+
+---
+
+DING — END OF DAY 6 (Part Two) — NO LEVEL UP
+
+KENJI
+Human — Blade Channeler — Sorcerer Swordsman
+Level 4 — Outlander
+
+HP: 23
+AC: 15
+Initiative: +1
+Spell Attack: +5
+Spell Save DC: 13
+
+STR 15 / +2
+DEX 13 / +1
+CON 13 / +1
+INT 9 / -1
+WIS 11 / +0
+CHA 17 / +3
+
+CANTRIPS
+
+Arcane Edge — Silver-white weapon infusion. Force damage on every hit. Reflexive. Works on sharp thrown projectiles.
+Blade Ward — Purple reactive shield. Halve one physical hit. Three uses per rest.
+
+LEVEL 1 SPELLS (5 slots)
+
+Thunderous Strike — On hit, expend a slot. CON save or prone plus thunder damage.
+Charisma Surge — Add charisma bonus to any roll before rolling.
+Charm Person — One humanoid regards me as a friend for one hour.
+Arcane Stride — Enhanced. Twelve hours. Movement doubled. No opportunity attacks. Extra action per round.
+Radiant Edge — Golden radiant weapon. Scales with slot. Anti-darkness. Full damage against entropy and undead.
+
+LEVEL 2 SPELLS (2 slots)
+
+Vampiric Daggers — Five shadow daggers. Two per action. Quarter damage healed, doubled by Fast Metabolism.
+Eyes of the Hunter — Twelve hours. Darkvision sixty feet. Advantage on Perception. Plus thirty feet throw range. Can stack with one other buff.
+
+PERK — SPEEDSTER
+
+Effect One — Arcane Stride Enhanced.
+Effect Two — Fast Metabolism. All healing doubled. Hunger at four hours.
+
+ABILITIES
+
+Arcane Momentum — Kill with Arcane Edge active, free bonus attack.
+Sera's Cage — Defensive stance, plus two AC.
+Enhanced Cage — Counterattack on miss while Eyes active. Once per combat.
+Entropy Bond — Touch entropy creatures to bond. CHA check. Connection not control.
+
+PARTY
+
+Kenji — Level four. Ironwood armor. Heading to Varenholm. Horseback.
+Garrett — Mace. Chainmail. Three weeks on contract. Riding beside me.
+
+At the Broken Antler Guild:
+Brindle — Guild leader. Bastard sword. Running the operation.
+Kael — Guild trainer. Dual shortswords. Wounded arm healing.
+Harsk — Bridge commander. Ex-military. Holding the crossing.
+
+Heading to Varenholm (one day ahead):
+Sera — Fighter. Mage Council contractor. Carrying my secrets and something else.
+Edwyn — Healer. Researcher. Carrying answers and a prayer.
+
+In Duskfen:
+Ryn — Lockpick. Selling loot. Giving my gold to a girl. Maybe coming to Varenholm.
+Pip — Innkeeper's daughter. Honey cakes. Come back.
+
+Gold: fifty two, plus Garrett's sixty three in the lockbox.
+
+New asset: The Broken Antler Mercenary Guild. Ten percent weekly. First contracts pending.
+New evidence: Voss's ledgers. Dunmore's bribe receipts. Dates and amounts. The kind of paper that ends careers.
+New mystery: A glass vial of something dark. A bolted cellar door. Three keys.
+New speed: Two horses and a pack animal. The road to Varenholm just got shorter.
+
+End of Chapter Seven.
+
+# KENJI
+
+## *Day Seven — The City That Knows*
+
+---
+
+Dawn. A farmer's stone wall. Birdsong — not the tentative single notes of a recovering forest. A full chorus. Thrush, finch, sparrow. Settled country.
+
+The ember is full. Long rest poured everything back. Five Level 1 slots. Two Level 2. Blade Ward at three. Twenty-seven hit points. The exhaustion of yesterday's forced march gone. The body that houses the ember has learned to recover like it fights — fast and without complaint.
+
+I eat immediately. Bread, cheese, smoked meat from the Broken Antler kitchen. Real food. The furnace accepts it without commentary.
+
+Garrett is already saddling the horses. The pack horse loaded. The riding horses fed and watered. He looks west.
+
+I follow his gaze.
+
+Varenholm.
+
+Yesterday it was a shape on the horizon. This morning it's a *city*. Walls. Towers. Stone buildings rising above a tree line that stops respectfully at the city's edge. A river wider than the Ashford curving around the southern approach, crossed by a proper stone bridge. Arched. Maintained.
+
+And above everything — a tower. Not a castle tower. Not a church spire. Something else. Taller than anything I've seen in this world. Pale stone catching the morning light and holding it. Windows running its full height like a column of eyes.
+
+"The Academy," Garrett says. He's seen it before but the tone says he's never gotten used to it. "The Varenholm Academy of the Arcane Arts. Biggest magical institution between the coast and the eastern provinces." He cinches a saddle strap. "I've never been inside. Men like me don't get past the front gate."
+
+He looks at me.
+
+"Men like you might."
+
+---
+
+I cast Eyes of the Hunter before we mount. The ember goes up — through my neck, behind my eyes. The world sharpens. The city on the horizon resolves into individual stones, individual windows, individual figures moving on the walls.
+
+The predator's eyes. Twelve hours. Everything I need for what comes next.
+
+---
+
+The western highway on horseback. The road improves with every mile — drainage ditches becoming proper channels, milestones frequent. And the traffic.
+
+People. The first I've seen since Duskfen. A farmer's cart heading east — the farmer staring at the armor and dreadlocks. A merchant caravan with extra guards. The guards nod at Garrett. Professional courtesy.
+
+The road tells a story. Traffic lighter than it should be. The merchant caravan overstaffed — four guards for three wagons. The farmer's eyes nervous. Voss's reputation lingers even after his operation is ash. People are still afraid.
+
+That will change.
+
+---
+
+The walls of Varenholm fill the sky. Thirty feet high. Grey stone weathered by centuries. Guard towers at regular intervals, several undermanned. The southern gate — wide, iron-banded doors standing open. A queue of traffic.
+
+And above the walls, the Academy tower. Up close it's not a building. It's a statement. Pale stone rising from a base wider than the Broken Antler, tapering as it climbs. The windows catch the sun and throw prismatic light in patterns that move like living things.
+
+The ember vibrates. Not warning. *Interest*. Something in that tower resonates with the force inside me.
+
+Four guards at the gate. Real uniforms. Real armor. A wolf's head over crossed keys. They're checking arrivals.
+
+A fifth figure stands apart. Not a guard. Leaning against the gate wall with arms folded. Arming sword on hip. Traveling leathers. Short dark hair.
+
+Sera.
+
+She sees me at the same moment. Something happens on her face — controlled in half a second but not fast enough for the predator's eyes.
+
+She walks toward me. The stride is precise, military, unhurried. Something underneath it.
+
+Her eyes move to Garrett on the second horse. A nod. Brief. The acknowledgment of someone she's already bled beside.
+
+"Sera."
+
+"Garrett."
+
+She looks at the pack horse. At the Broken Antler supplies. At the fact that there are horses at all.
+
+"You're early."
+
+"Found some horses."
+
+"You *found* some horses."
+
+"Voss wasn't using them."
+
+Her jaw does the thing.
+
+"Voss. Past tense."
+
+"The Broken Antler is under new management. Brindle's running a mercenary guild out of it. Kael — Voss's bodyguard — is training recruits. The bridge is a legitimate toll crossing under Harsk. Voss is tied up in his own common room and Brindle has ideas about ransom."
+
+She stares at me. Then at Garrett. Garrett shrugs. The shrug of a man who watched it happen and still isn't sure he believes it.
+
+"You did all of this. In one day. On a short rest."
+
+"Garrett and Brindle walked through the front door and took the common room apart. I picked a lock, threw a rock, and had a conversation."
+
+"You *picked a lock*."
+
+"Ryn taught me."
+
+Something crosses her face. Warmer and more dangerous than the professional mask.
+
+"I'm glad you're not dead," she says.
+
+She walks through the gate. We follow.
+
+---
+
+Varenholm swallows us whole.
+
+The predator's eyes are overwhelmed for the first time. Not by darkness — by *density*. People. Buildings. Sound. A wide cobblestone avenue lined with stone buildings three and four stories tall. Shop fronts. Market stalls. A blacksmith whose forge makes Aldric's look like a campfire. The smell of baking bread and hot metal and horse and perfume and humanity.
+
+The Eyes parse it layer by layer. The guards at the gate were professional but thin — four where there should be eight. Wall towers undermanned. One completely empty. The city's defenses are stretched.
+
+The merchant traffic is cautious. Shop owners have hired muscle at their doors. People are spending money on protection. Something has them nervous beyond the highway bandits.
+
+The Academy tower dominates everything. From inside the walls the ember vibrates stronger. Not warning. A hello. Something in that tower is resonating with the force inside me.
+
+And underneath — the ley lines. I can't see them but I can feel them through the cobblestones. A network of energy running beneath the city like veins beneath skin. The ironwood tree near Duskfen was a single anchor. Varenholm is built on top of an entire web. The Academy sits at the center like a spider made of pale stone and accumulated knowledge.
+
+Sera navigates without hesitation. Market district gives way to craftsmen's quarter, craftsmen's quarter rises into the Academy district where the buildings get taller and the air feels charged. The ley web denser. The ember settles deeper. Like coming home to a house it's never visited.
+
+Garrett is uncomfortable. The chainmail and mace read as *threat* inside city walls. People give him space.
+
+---
+
+The Silver Draft inn. Stone and timber. Three stories. A painted sign — a silver tankard with vapor rising. Edwyn is in the common room. He stands when he sees me.
+
+"You're early."
+
+"Everyone keeps saying that."
+
+He looks at me. "You look like a man who hasn't slept properly in two days but won't admit it."
+
+"I slept. Once. On a rock."
+
+"Two rooms," I tell the innkeeper. A stout woman with grey-streaked hair and appraising eyes. She looks at the armor, the chainmail, the mace, the road dust.
+
+"Three silver per night each. Bath is an extra copper. Hot water's an extra copper on top."
+
+I pay. Garrett takes his key and heads upstairs without being told. The soldier knows what *clean up* means.
+
+The room is small, clean, and has a bed that doesn't try to kill me. The hot bath is a wooden tub filled by a boy who carries buckets with dead-eyed efficiency. I strip the armor. Peel off the underlayer. Six days of road and forest and entropy and bandit blood and boar fat and bridge spray come off in grey water.
+
+The water is hot. The soap is real. The ember settles into something it's never felt — muscle memory from *before* surfaces. A body that knows what clean feels like even if the mind can't remember where it learned.
+
+The dreadlocks clean up better than they have any right to — the purple vivid again against dark skin. The hazel eyes in the small mirror above the washbasin look different than they did six days ago. Not older. *Sharper*. The face of a man who's been making decisions that matter and hasn't flinched yet.
+
+The ironwood armor goes back on over a fresh underlayer — plain linen, two silver from the innkeeper. The armor looks better clean. The dark brown leather and the amber ironwood sheen catch the window light and the effect is not noble, not military. Something else. The look of a man who built what he's wearing from raw materials and raw will.
+
+I come back down. Garrett is already there — shaved, chainmail oiled, the scar from ear to chin visible now. He looks less like a highway bandit and more like what he used to be. A soldier.
+
+Edwyn shakes his head. Pushes a cup toward me. Pale amber with a faint luminescence. "Brightcap tea. One cup. It'll sharpen you for four hours without the crash. You're meeting Seraphine in ninety minutes."
+
+I eat. The Silver Draft's kitchen delivers eggs, sausage, fresh bread, butter, fruit compote. I eat. Garrett eats. Edwyn watches us both with resigned patience.
+
+I tell them everything. Brindle's promotion. Dunn's disinformation. The forced march. The padlock, the cellar, the rock, Kael. The guild. The horses. Voss's ledgers.
+
+I set the ledgers on the table. Edwyn's eyes go wide.
+
+"These are bribe receipts. Captain Dunmore. Dates. Amounts." He looks up. "This is enough to have a patrol captain imprisoned."
+
+I set the glass vial beside the ledgers.
+
+Edwyn picks it up. Holds it to the light.
+
+"Nighthollow extract. Refined. Concentrated. Three drops and a grown man sleeps for twelve hours. Undetectable by taste." He sets it down. "This is regulated in Varenholm. You need a license to possess it."
+
+He looks at me.
+
+"An unlicensed bandit boss had refined nighthollow in his personal satchel. Someone supplied him."
+
+---
+
+The Academy. The tower up close is impossible. A pale spire rising from a base wider than the Antler. Students cross the plaza in colored robes. One is levitating a stone off his palm while walking. His friend isn't impressed.
+
+Academy guards at the entrance. Better armed. Better armored. A faint shimmer around their weapons — enchanted steel.
+
+Sera presents her medallion. "Contractor Sera. Instructor Ash is expecting us."
+
+"East wing, third floor, room twelve."
+
+The doors open.
+
+---
+
+Room twelve. Not a grand office. A study — cramped, lived-in, buried under paper. Books stacked on the floor. A desk somewhere underneath scrolls and inkwells. The walls are shelves and the shelves are full.
+
+At the desk — Instructor Seraphine Ash.
+
+Late thirties. Sharp-featured. Dark hair in a losing battle with escaped strands. Dark quick eyes that miss nothing. Ink-stained fingers. Both hands. Permanently. The stains of someone who writes more than she speaks.
+
+She finishes a line before looking up. Those dark eyes sweep the four of us in a single pass.
+
+"Sera. You're late. By five days."
+
+"The situation escalated beyond assessment parameters."
+
+"Clearly."
+
+She catalogues Edwyn in two seconds. Garrett in one. Then me.
+
+The sweep stalls. Her gaze moves from the armor to the sword to the dreadlocks to my eyes. Something behind her expression shifts. Not recognition. *Resonance*.
+
+"And you're the one Sera wrote about. The Blade Channeler."
+
+---
+
+Sera reports. Standing. Military posture. Duskfen. The Hexcrawlers. My arrival. The party. The Brennick cellar. The entropy god.
+
+"Stop," Seraphine says. "A divine entity. Beneath a farmhouse. You're certain."
+
+"I was present, Instructor."
+
+"Continue."
+
+The altar. The channeling. The cycle restored. The green grass. The Delve. The spawning pools. The deeper passage.
+
+Seraphine hasn't blinked in thirty seconds.
+
+"Are you telling me that this man channeled raw creation energy into a dying god of entropy and partially restored a broken cosmic cycle?"
+
+"Yes, Instructor."
+
+Silence.
+
+"Edwyn. Your documentation. Everything. On my desk. Now."
+
+Edwyn opens his satchel. The spawning fluid sample. The ledger. Pages of careful observations. Seraphine speed-reads with the hunger of a scholar finding primary source material in the dark.
+
+"This is exceptional fieldwork, Father."
+
+She turns to me.
+
+"Kenji. Sera's report describes abilities that don't fit any classification in our records. Weapon infusion. Force projection. Radiant manifestation. Sensory enhancement. And the ability to channel raw creation energy into a divine entity through physical contact."
+
+She leans forward.
+
+"What you did in that cellar shouldn't be possible. Not for a trained archmage. Certainly not for an unschooled stranger who arrived in this world six weeks after the entity began bleeding through the boundary."
+
+Her eyes are sharp. Hungry.
+
+"I need to understand what you are."
+
+"Heh. I see Sera did a good job spilling the beans on all my abilities." I grin. Wink at Sera. "When you put it that way, it's almost as if I dropped out of heaven."
+
+Sera's color rises. She doesn't look at Seraphine to check if she noticed.
+
+Seraphine noticed.
+
+"I'll accept that as *I don't know yet* rather than *I won't tell you*." Not a request. A schedule. "We'll return to the subject."
+
+---
+
+The highway evidence. I set Voss's ledgers on the desk. Lay out the full operation — three crews, the shakedown, the disappearances at the river crossing.
+
+"These are his financial records. And bribe receipts for Captain Dunmore. Regular payments. Dates and amounts."
+
+Seraphine opens the ledger. Speed-reads. Administrative fury replacing the scholar's hunger.
+
+"Dunmore. The Council has received complaints about reduced patrol coverage for two years. His reports blamed budget constraints." She taps a page. "Twenty gold per month. He wasn't short on budget."
+
+Garrett steps forward. Gives his statement without embellishment or excuse. Two years. Eastern crew. He didn't run the river crossing. The violence was Brindle's operation under Voss's orders.
+
+"And now you work for Kenji," Seraphine says. She studies him. Three seconds. "You deserted a criminal operation and switched sides in the space of a conversation."
+
+"I switched sides when a better commanding officer showed up. That's not desertion. That's professional development."
+
+Something happens at the corner of Seraphine's mouth. She doesn't let it develop.
+
+"He dismantled the operation, recruited Brindle, and turned the Broken Antler into a mercenary guild," Garrett continues. "In one day. On a short rest. I was there."
+
+I set the nighthollow vial on the desk.
+
+Seraphine picks it up. Color drains from her face by one shade.
+
+"Refined nighthollow. This concentration requires equipment that doesn't exist outside of three locations. One pharmaceutical house in the capital. One private laboratory in the north."
+
+She sets it down.
+
+"The third is here. In this Academy. Sub-basement level two."
+
+The room goes still.
+
+"Are you saying someone in the Academy supplied Voss?" Sera asks.
+
+"I'm saying this vial raises questions I've been trying to find evidence to ask for a very long time."
+
+She looks at me. The hunger different now. A woman who's been pulling at a thread alone in the dark finding someone holding the other end.
+
+---
+
+"How much time do you have, Kenji?"
+
+"I have one week. For the information we've gathered and for solving your bandit problem, I'd like a week of training here at the Academy. If you have questions or research to do, you can do it during that time."
+
+I continue.
+
+"I also now have a mercenary guild. We won't work for free. The payments going to Voss should be redirected to Brindle under a contract for protecting the roads. Garrett here serves as my liaison, able to take on missions using guild resources during my down time."
+
+Seraphine processes. Multiple proposals simultaneously.
+
+"One week. Training. For a man with no formal magical education, no enrollment history, and abilities that don't appear in any classification text."
+
+She picks up Edwyn's ledger. The spawning fluid sample. The nighthollow vial.
+
+"Normally I'd say no. The Chancellor controls enrollment and he's — particular — about who studies here."
+
+The hesitation on *particular* is brief. The predator's eyes catch it.
+
+"However. This documentation is primary source evidence our theological department has theorized about for a century. This specimen is something our research wing would commit minor crimes to study. And this—" The nighthollow. "—is evidence of internal corruption I need time to investigate."
+
+She paces. Two steps one way. Two steps back.
+
+"I can justify a week as a research residency. You demonstrate abilities under controlled conditions. In exchange — training grounds, library, and select instructors."
+
+She sits.
+
+"The guild. Captain Dunmore was receiving twenty from Voss. The Council was paying Dunmore's garrison forty to protect the highway. Sixty total for a road that was killing travelers."
+
+She writes on Academy letterhead.
+
+"I'll draft a provisional contract. The Broken Antler Guild assumes highway security. Forty gold per month. Paid quarterly. Three-month trial. Subject to performance review."
+
+"And Dunmore?"
+
+"Arrested within the week."
+
+She signs the contract.
+
+"Training. Two instructors. Master Aldwin — combat magic integration. Seventy years old. Half-deaf. The most dangerous man in this building. Don't mistake age for weakness."
+
+She meets my eyes.
+
+"The second instructor is me. Magical theory. You cast by instinct and will. That's gotten you this far. But instinct without understanding is a blade without a handle."
+
+She assigns Edwyn a formal presentation to the theological department in two days. Sera files her report tomorrow, then a private meeting. Garrett has free run of the city.
+
+She pauses at the window.
+
+"The entity beneath the Brennick farm. It told you that you were sent deliberately. That something felt it waking and answered with you."
+
+A pause.
+
+"I believe it. And that frightens me more than anything else you've told me today."
+
+She turns back.
+
+"Welcome to the Academy."
+
+---
+
+Before I leave I ask where to find a magical items shop and a blacksmith.
+
+Seraphine gives me three options. Hargrove's Forge on Ironmonger's Row — best mundane smith in Varenholm. The Gilt Lens on the corner of Academy Way and Thornwell Street — licensed magical items, run by Maren Holt. Expensive, blunt, honest. And the Academy's own requisition vault — enchanted items and specialized equipment, available on day two of my residency.
+
+"The vault is where the interesting things are."
+
+---
+
+The Gilt Lens. A narrow storefront between a bookbinder and a tailor. The window display — a floating crystal orb, gloves with blue runes, a dagger made of frozen smoke. A sign: *If you have to ask if it's real, you can't afford it.*
+
+Maren Holt. Fifties. Short grey hair. Reading spectacles. Examining a ring under a magnifying glass. She doesn't look up.
+
+"Browsing or buying."
+
+"Buying. If you've got what I need."
+
+She looks up. The spectacles magnify her eyes. "Maren Holt. You're the one Seraphine sent. She said you'd be interesting."
+
+I lay out what I need. Storage. Stat-enhancing boots. Throwing weapons with return enchantment and non-lethal poison.
+
+"Three categories," she says. "Let me show you what I have."
+
+She sets a brown leather satchel on the counter. Plain. Unremarkable. She opens the flap and inside is darkness. Not shadow. *Depth*.
+
+"Satchel of Holding. Fifty pounds regardless of bulk. Weighs two pounds. Food doesn't spoil. Worn cross-body — doesn't drop in combat. Sixty gold."
+
+Windrunner Boots next. Dark leather with a band of silver thread around the ankle. "Plus two to Acrobatics checks. Won't make you faster. Will make you surer. Thirty-five gold."
+
+Throwing knives last. Plain blackened steel — four gold for a set. Somnus toxin — sleeping agent, Constitution save or unconscious for one minute, eight gold for six doses. And the return enchantment — twenty gold per knife.
+
+She chalks the totals. The satchel alone costs more than everything in my purse. The full package is a fantasy.
+
+But I'm not buying with gold alone.
+
+"Maren. Let me reframe this. I'm the man Seraphine Ash just granted a research residency to. The Academy vault opens for me in two days. I could wait."
+
+Her eyes narrow.
+
+"But I'm here. In your shop. Because Seraphine recommended you by name."
+
+I set my gold purse on the counter.
+
+"The Satchel of Holding, one returning knife with somnus toxin, and the Windrunner Boots. For fifty-two gold — everything I've got."
+
+Her mouth opens. I keep going.
+
+"But that's not the deal. I just founded a mercenary guild on the western highway. Every enchanted item, every magical accessory, every artifact my people pull out of a ruin or strip off a bounty — it comes here. Exclusively. Thirty percent below market."
+
+She doesn't move for five seconds. Behind the spectacles, arithmetic at a speed that would impress a banker.
+
+A mercenary guild clearing the highway. Recovering loot. Funneling every magical find to a single shop. The volume alone worth more in a year than a hundred sales. She'd become the primary supplier of recovered enchanted goods in Varenholm.
+
+"Fifty-two gold. The satchel, the boots, and one returning knife with two somnus doses."
+
+She holds up a finger.
+
+"Two doses. Not six. You want more, come back with guild loot."
+
+She drafts the exclusivity contract. Standard terms. Right to refuse cursed items and stolen property.
+
+"And the name-dropping — *top student, honor guest* — don't do that in my shop again. Seraphine sent you because I'm honest. I'd like to keep that reputation."
+
+The faintest crack in the severe expression.
+
+"We have a deal?"
+
+"We have a deal."
+
+Fifty-two gold counted and gone. The purse goes flat. Three items on the counter.
+
+I walk out of the Gilt Lens with an empty purse, a satchel that holds fifty pounds, boots that want to run, and a knife that comes back.
+
+The door closes. The bell chimes.
+
+"And that's how you sing for your supper," I whisper.
+
+---
+
+The Silver Draft. Evening. I transfer everything into the Satchel of Holding. Rations. Bedroll. Map. Tinder root. Voss's ledgers. The Antler kitchen food. It all goes in — fifty pounds of gear swallowed without gaining an ounce.
+
+The weight disappears. Shoulders straighten. The ironwood armor sits differently without a pack pulling at it. I feel *light*. Combat light. The way I was always meant to move.
+
+The Windrunner Boots grip the floor with quiet authority. The silver thread pulses against my ankles. When I shift weight, they respond — not moving me, agreeing with where I want to go.
+
+The returning knife on my belt. Blackened steel. The rune warm against my hip. Two doses of sleep on the blade.
+
+I eat. Roast chicken, potatoes, bread, a second plate. Garrett watches. Doesn't comment anymore.
+
+The Academy tower is visible through the window. Pale stone darkening as windows go out one by one.
+
+Tomorrow. Dawn. Master Aldwin on the training grounds. Seraphine in the theory room. A week of learning what I am and what I can become.
+
+Six days ago I woke up in the mud with nothing.
+
+Tonight I fall asleep in a real bed with a satchel that holds fifty pounds, boots that want to run, a knife that comes back, armor a blacksmith made through the night, a mercenary guild generating income, a Council contract securing a highway, evidence that could imprison a corrupt captain, and the attention of a brilliant woman who's afraid of something she hasn't told me yet.
+
+And somewhere between the mud and this moment — a dying god, a broken cycle, and a force called creation burning steady in my chest.
+
+Not bad. Not bad at all.
+
+---
+
+DING — LEVEL 5
+
+The ember didn't grow. It *deepened*. Like a well that found an underground river beneath the aquifer it was already drawing from. The power didn't get louder. It got more articulate. More precise. More *itself*.
+
+KENJI
+Human — Blade Channeler — Sorcerer Swordsman
+Level 5 — Outlander
+
+HP: 33
+AC: 15 (Ironwood-Cured Bear Leather + DEX)
+Initiative: +1
+Spell Attack: +6
+Spell Save DC: 14
+
+STR 15 / +2
+DEX 13 / +1
+CON 13 / +1
+INT 9 / -1
+WIS 11 / +0
+CHA 17 / +3
+
+CANTRIPS
+
+Arcane Edge — Silver-white weapon infusion. Force damage on hit. Works on sharp thrown projectiles.
+Blade Ward — Purple reactive shield. Halve one physical hit. Three per rest.
+
+LEVEL 1 SPELLS
+
+Thunderous Strike — Expend slot on hit. CON save or prone plus thunder damage.
+Charisma Surge — Add charisma to any roll before rolling.
+Charm Person — One humanoid regards me as friend for one hour.
+Arcane Stride — Enhanced. Twelve hours. Double speed. No opportunity attacks. Extra action.
+Radiant Edge — Golden radiant weapon. Anti-darkness. Full vs entropy. Halved vs normal.
+
+LEVEL 2 SPELLS (3 slots)
+
+Vampiric Daggers — Five shadow daggers. Two per action. Quarter healed, doubled by metabolism.
+Eyes of the Hunter — Twelve hours. Darkvision. Advantage Perception. Plus thirty feet throw range. Stacks with one buff.
+
+PERK — SPEEDSTER
+
+Arcane Stride Enhanced. Fast Metabolism — double healing, hunger at four hours.
+
+ABILITIES
+
+Arcane Momentum — Kill with Edge active, free bonus attack.
+Sera's Cage — Defensive stance, plus two AC.
+Enhanced Cage — Counterattack on miss while Eyes active. Once per combat.
+Entropy Bond — Touch entropy creatures. CHA check. Connection not control.
+
+EQUIPMENT
+
+Ironwood-Cured Bear Leather Armor — AC fifteen. Aldric's masterwork.
+Longsword — merchant steel.
+Hand Axe — melee or thrown.
+Returning Somnus Knife — blackened steel, two doses, comes back on command.
+Windrunner Boots — plus two Acrobatics. Silver thread. They want to move.
+Satchel of Holding — fifty pounds, cross-body, no combat drop. The weight problem solved.
+Lockpick set — Ryn's spares.
+Sharp flint stones, ten.
+Entropy Anchor Ring — wrapped. Do not touch.
+Voss's ledgers — evidence. Dunmore's receipts.
+Voss's key ring, three keys.
+Pip's honey cakes, three.
+
+PARTY
+
+Kenji — Level five. Academy research resident. One week of training.
+Garrett — Mace. Chainmail. Guild liaison. Free run of Varenholm.
+
+At the Academy:
+Sera — Filing report. Private meeting with Seraphine pending.
+Edwyn — Preparing theological presentation. Two days.
+
+At the Broken Antler Guild:
+Brindle — Guild leader. Council highway contract incoming.
+Kael — Guild trainer. Healing.
+Harsk — Bridge commander.
+
+In Duskfen:
+Ryn — Selling loot. Giving gold to Pip. Maybe coming to Varenholm.
+Pip — Honey cakes. Come back.
+
+Gold: zero. Income: ten percent of guild earnings, weekly.
+Assets: The Broken Antler Mercenary Guild. Two horses and a pack animal.
+
+New ally: Instructor Seraphine Ash. Brilliant. Afraid. Pulling at a thread in the dark.
+New contact: Maren Holt. The Gilt Lens. Exclusive supplier contract.
+New destination: Master Aldwin. Dawn. The training grounds.
+New question: Who in the Academy is manufacturing nighthollow for highway bandits?
+
+End of Chapter Eight.
