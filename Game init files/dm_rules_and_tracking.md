@@ -377,34 +377,37 @@ All standard 5e conditions apply automatically when the fiction warrants them:
 ### 📋 CURRENT CHARACTER STATUS LOG
 
 KENJI
-- Fed: YES (Silver Draft breakfast + ley alcove breaks)
-- Rested: NO LONG REST — mid-day, post-gauntlet
-- HP: 33/33 (untouched across all three fights after vampiric healing)
-- Spell Slots: L1 3/5, L2 2/3 (post-gauntlet. Ley alcove available at training grounds if needed.)
+- Fed: YES (shepherd's pie x2, honey cake)
+- Rested: NO LONG REST — Day 8 into midnight infiltration
+- HP: 33/33
+- Spell Slots: L1 4/5 (Stride), L2 2/3 (Eyes)
 - Blade Ward: 3/3
-- Hit Dice: 5/5 (none spent — unprecedented in Aldwin's gauntlet)
-- Eyes of the Hunter: ACTIVE (~8 hrs remaining)
-- Arcane Stride: ACTIVE (~11 hrs remaining)
-- Location: Eastern training grounds, Varenholm Academy
-- Gold: 0 GP
-- New item: Combat Mage Certification (brass token — 12th in 40 years)
-- ⚠️ FAST METABOLISM: clock running. Needs to eat soon.
-- ⚠️ LEVEL 6 PENDING: 17,115 / 14,000. Triggers on next Long Rest. Perk selection needed.
+- Hit Dice: 5/5
+- Eyes of the Hunter: ACTIVE (cast 11:45 PM — ~12 hrs)
+- Arcane Stride: ACTIVE (cast 11:45 PM — ~12 hrs)
+- Gear: LIGHT — no chest armor, bracers only, hand axe, returning knife (1 somnus dose), Satchel of Holding, lockpick set, flint x7. Longsword left at inn.
+- Location: Academy west side, maintenance entrance, midnight
+- Gold: 3 GP
+- ⚠️ LEVEL 6 PENDING: 17,155 / 14,000. Triggers on next Long Rest.
+- ⚠️ FAST METABOLISM: clock running. Last meal ~7 PM. Needs food by ~11 PM — OVERDUE. Will need to eat during or after infiltration.
 
 GARRETT
-- Location: Market district, selling surplus weapons. Guild liaison work.
+- Location: Out overnight. Following guild contract lead. Unaware of infiltration.
 
-SERA — AT THE ACADEMY
-- Filed report. Watching Kenji's gauntlet from second-floor colonnade (Kenji unaware).
+SERA — WITH KENJI AT MAINTENANCE ENTRANCE
+- Dark leathers, sword, no armor. Hair back. Mission mode.
+- Knows her seal is draining her. Felt magic return for 2 seconds. Doesn't have full details yet — waiting for Elara's recap during the crawl.
+- Mapped Academy security over 2 days. Planned the infiltration approach.
+- Condition: full disclosure from Kenji. Not yet received.
 
-ELARA ASH — AT THE ACADEMY
-- Theory lesson complete. Revealed the seal corruption to Kenji. Asked him to read her seal. Felt the drain stop for one second.
-- Being siphoned by her own seal (8 years). Doesn't know the source. Suspects the Chancellor.
-- Wants: restricted archive access (original seal designs), sub-basement level 3 access, help breaking in.
-- Watching Kenji's gauntlet changed her assessment — she's all-in on him as her ally against whatever this is.
+ELARA ASH — WITH KENJI AT MAINTENANCE ENTRANCE
+- Dark clothes, tool satchel, soft-soled boots. Faculty ward access to sub-basement 2.
+- Knows everything — seal corruption, encoding match, Chancellor theory.
+- Will brief Sera during the crawl.
+- Does not yet know Kenji told Sera she was "gasping."
 
 EDWYN — AT THE SILVER DRAFT
-- Preparing theological presentation (tomorrow).
+- Preparing bittershade extract (ready by dawn). Theological presentation tomorrow. Unaware of infiltration.
 
 ### ⚠️ DM Application Rules
 - Never apply a status without narrative justification — the fiction leads, the mechanic follows
@@ -643,7 +646,7 @@ Class: Blade Channeler (Sorcerer Swordsman — CHA-based, weapon enhancement)
 Background: Outlander — transported from another world. Woke with nothing but the clothes on his back. Origin unknown.
 Appearance: Dark skin, purple dreadlocks, hazel eyes. Lean and capable looking. Wears leather armour over civilian clothes from another world.
 Level: 5
-EXP: 17,155 / 14,000 (LEVEL 6 PENDING — needs Long Rest)
+EXP: 17,180 / 14,000 (LEVEL 6 PENDING — needs Long Rest)
 
 ### Stats (Base total: 72/72 ✅ | At 16+: 1/2 ✅)
 | Stat | Base | +Human | Final | Mod  |
@@ -695,7 +698,7 @@ EXP: 17,155 / 14,000 (LEVEL 6 PENDING — needs Long Rest)
 - Radiant Edge (Scales with slot level): Golden radiant weapon infusion. Pushes back supernatural darkness 30ft radius. Damage and duration scale: L1=1hr/+1d4, L2=2hr/+1d6, L3=3hr/+1d8, L4=4hr/+1d10. Full radiant damage vs entropy, shadow, undead, radiant-weak enemies. HALVED vs normal enemies. Disadvantage aura only affects radiant-weak enemies. Cannot stack with Arcane Edge or Arcane Stride. Specialist anti-entropy weapon.
 
 ### Level 2 Spells (Slot required)
-- Vampiric Daggers: Expend 1 L2 slot. Summons 5 shadow daggers that float at Kenji's side. Throw up to 2 per action. Spell attack +5, range 20/60 ft. 1d4+3 force damage per dagger. Quarter of damage dealt returned as healing (doubled to half by Fast Metabolism). Duration: 1 minute or until all 5 thrown. Daggers consumed on throw (hit or miss).
+- Vampiric Daggers: Expend 1 L2 slot. Summons 5 shadow daggers that float at Kenji's side. Throw up to 2 per action OR stab in melee (5 ft) for same damage. Spell attack +6, range 20/60 ft (50/90 with Eyes). 1d4+3 force damage per dagger. Quarter of damage dealt returned as healing (doubled to half by Fast Metabolism). Melee stabs count as melee attacks — auto-crit on unconscious targets within 5 ft. Duration: 1 minute or until all 5 used. Daggers consumed on use (hit or miss).
 - Eyes of the Hunter: Expend 1 L2 slot. Duration 12 hours. Darkvision 60ft. Advantage on Perception checks. +30ft normal range on thrown weapons (flint goes from 20/60 to 50/90). Scales with slot: L2=12hr/60ft/+30ft, L3=24hr/90ft/+45ft, L4=48hr/120ft/+60ft. CAN stack with ONE other buff (Stride or Radiant) but not both simultaneously. Two active buffs max. "The ember gives you a predator's focus compressed into your optic nerve."
 
 ### Abilities
@@ -1061,6 +1064,8 @@ EXP: 17,155 / 14,000 (LEVEL 6 PENDING — needs Long Rest)
 | Perception DC 15 — spotted wards in Elara's study (advantage) | 15 | 17,130/14,000 |
 | CHA DC 14 — ember introspection, articulate feelings | 10 | 17,140/14,000 |
 | CHA DC 16 — ember reads Elara's seal, detects entropy siphon | 15 | 17,155/14,000 |
+| CHA DC 15 — ember reads Sera's seal, detects worse siphon | 15 | 17,170/14,000 |
+| Perception DC 13 — reading Elara's state after ring analysis | 10 | 17,180/14,000 |
 
 ---
 
@@ -1200,6 +1205,17 @@ EXP: 17,155 / 14,000 (LEVEL 6 PENDING — needs Long Rest)
 | Ember can stop the drain | ✅ TRUE — creation energy flinched the thread, stopped the trickle for one second. Elara felt "whole." But burning the thread risks burning the seal and damaging the bearer. |
 | The ember is ANGRY | ✅ TRUE — furious at the design. Architecture of corruption. Turning achievement into theft. This is personal for creation energy. |
 | "Sera warned me. He does this." | ✅ TRUE — Sera told Elara about Kenji's humor. Confirmed across two women. Kenji's reputation precedes him. |
+| Sera's seal read | ✅ TRUE — same entropy parasite, WORSE than Elara's. Certification seal has wider pipe. 3 years of drain. Magic completely emptied — not atrophied, STOLEN. |
+| Sera's magic flickered | ✅ TRUE — force bolt ghost in her palm for 2 seconds while ember suppressed the drain. First magic in 2 years. Then the thread reasserted. |
+| Sera knows she's being drained | ✅ TRUE — felt the drain stop, felt the magic return. Doesn't have full details yet — Kenji told her to get recap from Elara during infiltration. |
+| Sera demanded full disclosure | ✅ TRUE — condition for planning the infiltration. "Tell me everything. I earned it." |
+| Sera mapped Academy security | ✅ TRUE — 2 days of professional habit. Guard shifts, rotation times, 6-minute midnight window. |
+| Entropy anchor ring appraised | ✅ TRUE — Maren Holt: institutional-grade siphon, routing threads match seal encoding (per Elara). Same architect, centuries-old technique. |
+| Elara's theory: Vael is centuries old | ✅ TRUE — ring encoding matches seal encoding. Same methodology. If same architect, Vael predates his apparent age by centuries. Aged appearance may be glamour. |
+| Sub-basement 3 infiltration TONIGHT | ✅ ACTIVE — midnight, option 2 (the crawl via ley conduits). Team: Kenji, Sera, Elara. Garrett unaware. Edwyn unaware. |
+| Kenji light gear loadout | ✅ TRUE — no chest armor, bracers only, hand axe + returning knife, no longsword. Satchel of Holding. Eyes + Stride active. |
+| Bittershade ready at dawn | ✅ TRUE — Edwyn preparing overnight. 2 doses. Pick up at presentation tomorrow. |
+| Garrett out overnight | ✅ TRUE — following guild contract lead. Note: "Don't do anything stupid without me." |
 
 ---
 
