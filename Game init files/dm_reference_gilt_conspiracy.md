@@ -38,7 +38,7 @@
 - **Weakness:** He genuinely loved the Academy once. That love can be used against him.
 - **End scenario options:** Can be defeated, redeemed (if player learns his backstory), or sacrificed to seal Solveth permanently.
 
-### 📖 Instructor Seraphine Ash
+### 📖 Instructor Elara Ash
 - **Role:** Reluctant ally
 - **Appearance:** Late 30s, sharp-featured, always has ink-stained fingers
 - **What she knows:** She noticed the pattern — graduates from the last 12 years are subtly declining magically. She's been quietly pulling records. She doesn't know about Solveth yet, only that the seals are wrong.
@@ -67,7 +67,7 @@
 - **What he wants:** To be heard. To survive. Or, if the player can offer another way, to end peacefully.
 - **Resolution options:**
   1. Destroy the Hollow Crown — Solveth dissipates, Marius loses immortality and ages rapidly (dies or survives as a broken old man depending on player choice)
-  2. Redirect the Crown — If the player can get a willing soul to offer their essence freely (not siphoned), Solveth can be sustained peacefully without harm. Seraphine may volunteer.
+  2. Redirect the Crown — If the player can get a willing soul to offer their essence freely (not siphoned), Solveth can be sustained peacefully without harm. Elara may volunteer.
   3. Marius sacrifices himself — if redeemed, Marius can offer his own accumulated stolen essence back to Solveth as a final gift, dying in the process and freeing all siphon-bearers.
 
 ---
@@ -96,7 +96,7 @@
 - Final dungeon
 - Guarded by entropy constructs (beings of pure dissolution)
 - The Crown itself is a blackened iron circlet covered in runes — beautiful and deeply wrong
-- Destroying it requires either overwhelming magical force or the right ritual (Seraphine knows it, if she's alive and trusted)
+- Destroying it requires either overwhelming magical force or the right ritual (Elara knows it, if she's alive and trusted)
 
 ---
 
@@ -104,7 +104,7 @@
 
 ### ACT 1 — Graduation & Departure
 - Graduation ceremony / seal branding (DONE in opening scene)
-- Player notices something off (the burn, Seraphine's look)
+- Player notices something off (the burn, Elara's look)
 - Player and Lyra depart for Duskfen
 - **Player decision point:** Investigate now or head out?
 
@@ -118,7 +118,7 @@
 - Return to Varenholm with more questions than answers
 
 ### ACT 3 — The Investigation
-- Seraphine approaches the player (or player approaches her)
+- Elara approaches the player (or player approaches her)
 - Meet Brother Donn, get the ledger
 - Begin sneaking into Academy restricted areas
 - Find Marius's journal — the full truth is revealed

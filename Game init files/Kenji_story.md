@@ -3290,7 +3290,7 @@ She sheathes her sword. Looks at me.
 
 Not a question. A door opening.
 
-"I was hired by the Varenholm Mage Council. Contracted through the Academy to assess the situation in the Duskfen region." She folds her arms. "I report to a woman named Instructor Seraphine Ash. She's the one who flagged the Duskfen reports as worth investigating when everyone else dismissed them."
+"I was hired by the Varenholm Mage Council. Contracted through the Academy to assess the situation in the Duskfen region." She folds her arms. "I report to a woman named Instructor Elara Ash. She's the one who flagged the Duskfen reports as worth investigating when everyone else dismissed them."
 
 She looks at me.
 
@@ -3302,7 +3302,7 @@ A pause.
 
 She says it like she rehearsed it.
 
-"If you're serious about going to Varenholm — I can get you in front of the Council. And Seraphine will want to hear everything."
+"If you're serious about going to Varenholm — I can get you in front of the Council. And Elara will want to hear everything."
 
 "But first — we go back. Duskfen. Harlan to his wife. Supplies. Rest." A beat. "And I want a real bed and a meal that isn't boar."
 
@@ -4127,7 +4127,7 @@ She points back toward the bridge.
 
 She holds my gaze.
 
-"In two days I'm standing in front of Instructor Seraphine Ash. What do I tell her? That you restored the balance of creation and entropy — and also that you're building a toll road operation with the woman who ran the kill box?"
+"In two days I'm standing in front of Instructor Elara Ash. What do I tell her? That you restored the balance of creation and entropy — and also that you're building a toll road operation with the woman who ran the kill box?"
 
 She doesn't raise her voice. That's what makes it land.
 
@@ -4157,7 +4157,7 @@ Three seconds of struggling with something that isn't anger and isn't amusement 
 
 She turns. Takes two steps. Stops. Doesn't turn around.
 
-"For the record. When I report to Seraphine, I'm going to tell her I found something in Duskfen that matters more than anything the Council has studied in a decade. And that the man carrying it is reckless, stubborn, and has the worst timing of anyone I've ever met."
+"For the record. When I report to Elara, I'm going to tell her I found something in Duskfen that matters more than anything the Council has studied in a decade. And that the man carrying it is reckless, stubborn, and has the worst timing of anyone I've ever met."
 
 A pause.
 
@@ -4614,7 +4614,7 @@ The ember is tired. Not depleted — the spell slots are what they are — but t
 
 I lie on the bedroll and look at the sky. Stars. More than I've seen since arriving in this world — the settled country has less canopy, more sky.
 
-Somewhere north of here, on a road I can't see, Sera is making camp with Edwyn. One day ahead. Tomorrow, on horseback, I close the gap. The day after — Varenholm. The Academy. The Mage Council. Seraphine Ash. Answers about what I am and who sent me and why.
+Somewhere north of here, on a road I can't see, Sera is making camp with Edwyn. One day ahead. Tomorrow, on horseback, I close the gap. The day after — Varenholm. The Academy. The Mage Council. Elara Ash. Answers about what I am and who sent me and why.
 
 The ember burns low and steady. The warmth of something that just built an army and is quietly satisfied about it.
 
@@ -4846,7 +4846,7 @@ The ironwood armor goes back on over a fresh underlayer — plain linen, two sil
 
 I come back down. Garrett is already there — shaved, chainmail oiled, the scar from ear to chin visible now. He looks less like a highway bandit and more like what he used to be. A soldier.
 
-Edwyn shakes his head. Pushes a cup toward me. Pale amber with a faint luminescence. "Brightcap tea. One cup. It'll sharpen you for four hours without the crash. You're meeting Seraphine in ninety minutes."
+Edwyn shakes his head. Pushes a cup toward me. Pale amber with a faint luminescence. "Brightcap tea. One cup. It'll sharpen you for four hours without the crash. You're meeting Elara in ninety minutes."
 
 I eat. The Silver Draft's kitchen delivers eggs, sausage, fresh bread, butter, fruit compote. I eat. Garrett eats. Edwyn watches us both with resigned patience.
 
@@ -4882,7 +4882,7 @@ The doors open.
 
 Room twelve. Not a grand office. A study — cramped, lived-in, buried under paper. Books stacked on the floor. A desk somewhere underneath scrolls and inkwells. The walls are shelves and the shelves are full.
 
-At the desk — Instructor Seraphine Ash.
+At the desk — Instructor Elara Ash.
 
 Late thirties. Sharp-featured. Dark hair in a losing battle with escaped strands. Dark quick eyes that miss nothing. Ink-stained fingers. Both hands. Permanently. The stains of someone who writes more than she speaks.
 
@@ -4904,7 +4904,7 @@ The sweep stalls. Her gaze moves from the armor to the sword to the dreadlocks t
 
 Sera reports. Standing. Military posture. Duskfen. The Hexcrawlers. My arrival. The party. The Brennick cellar. The entropy god.
 
-"Stop," Seraphine says. "A divine entity. Beneath a farmhouse. You're certain."
+"Stop," Elara says. "A divine entity. Beneath a farmhouse. You're certain."
 
 "I was present, Instructor."
 
@@ -4912,7 +4912,7 @@ Sera reports. Standing. Military posture. Duskfen. The Hexcrawlers. My arrival. 
 
 The altar. The channeling. The cycle restored. The green grass. The Delve. The spawning pools. The deeper passage.
 
-Seraphine hasn't blinked in thirty seconds.
+Elara hasn't blinked in thirty seconds.
 
 "Are you telling me that this man channeled raw creation energy into a dying god of entropy and partially restored a broken cosmic cycle?"
 
@@ -4922,7 +4922,7 @@ Silence.
 
 "Edwyn. Your documentation. Everything. On my desk. Now."
 
-Edwyn opens his satchel. The spawning fluid sample. The ledger. Pages of careful observations. Seraphine speed-reads with the hunger of a scholar finding primary source material in the dark.
+Edwyn opens his satchel. The spawning fluid sample. The ledger. Pages of careful observations. Elara speed-reads with the hunger of a scholar finding primary source material in the dark.
 
 "This is exceptional fieldwork, Father."
 
@@ -4940,9 +4940,9 @@ Her eyes are sharp. Hungry.
 
 "Heh. I see Sera did a good job spilling the beans on all my abilities." I grin. Wink at Sera. "When you put it that way, it's almost as if I dropped out of heaven."
 
-Sera's color rises. She doesn't look at Seraphine to check if she noticed.
+Sera's color rises. She doesn't look at Elara to check if she noticed.
 
-Seraphine noticed.
+Elara noticed.
 
 "I'll accept that as *I don't know yet* rather than *I won't tell you*." Not a request. A schedule. "We'll return to the subject."
 
@@ -4952,23 +4952,23 @@ The highway evidence. I set Voss's ledgers on the desk. Lay out the full operati
 
 "These are his financial records. And bribe receipts for Captain Dunmore. Regular payments. Dates and amounts."
 
-Seraphine opens the ledger. Speed-reads. Administrative fury replacing the scholar's hunger.
+Elara opens the ledger. Speed-reads. Administrative fury replacing the scholar's hunger.
 
 "Dunmore. The Council has received complaints about reduced patrol coverage for two years. His reports blamed budget constraints." She taps a page. "Twenty gold per month. He wasn't short on budget."
 
 Garrett steps forward. Gives his statement without embellishment or excuse. Two years. Eastern crew. He didn't run the river crossing. The violence was Brindle's operation under Voss's orders.
 
-"And now you work for Kenji," Seraphine says. She studies him. Three seconds. "You deserted a criminal operation and switched sides in the space of a conversation."
+"And now you work for Kenji," Elara says. She studies him. Three seconds. "You deserted a criminal operation and switched sides in the space of a conversation."
 
 "I switched sides when a better commanding officer showed up. That's not desertion. That's professional development."
 
-Something happens at the corner of Seraphine's mouth. She doesn't let it develop.
+Something happens at the corner of Elara's mouth. She doesn't let it develop.
 
 "He dismantled the operation, recruited Brindle, and turned the Broken Antler into a mercenary guild," Garrett continues. "In one day. On a short rest. I was there."
 
 I set the nighthollow vial on the desk.
 
-Seraphine picks it up. Color drains from her face by one shade.
+Elara picks it up. Color drains from her face by one shade.
 
 "Refined nighthollow. This concentration requires equipment that doesn't exist outside of three locations. One pharmaceutical house in the capital. One private laboratory in the north."
 
@@ -4994,7 +4994,7 @@ I continue.
 
 "I also now have a mercenary guild. We won't work for free. The payments going to Voss should be redirected to Brindle under a contract for protecting the roads. Garrett here serves as my liaison, able to take on missions using guild resources during my down time."
 
-Seraphine processes. Multiple proposals simultaneously.
+Elara processes. Multiple proposals simultaneously.
 
 "One week. Training. For a man with no formal magical education, no enrollment history, and abilities that don't appear in any classification text."
 
@@ -5048,7 +5048,7 @@ She turns back.
 
 Before I leave I ask where to find a magical items shop and a blacksmith.
 
-Seraphine gives me three options. Hargrove's Forge on Ironmonger's Row — best mundane smith in Varenholm. The Gilt Lens on the corner of Academy Way and Thornwell Street — licensed magical items, run by Maren Holt. Expensive, blunt, honest. And the Academy's own requisition vault — enchanted items and specialized equipment, available on day two of my residency.
+Elara gives me three options. Hargrove's Forge on Ironmonger's Row — best mundane smith in Varenholm. The Gilt Lens on the corner of Academy Way and Thornwell Street — licensed magical items, run by Maren Holt. Expensive, blunt, honest. And the Academy's own requisition vault — enchanted items and specialized equipment, available on day two of my residency.
 
 "The vault is where the interesting things are."
 
@@ -5062,7 +5062,7 @@ Maren Holt. Fifties. Short grey hair. Reading spectacles. Examining a ring under
 
 "Buying. If you've got what I need."
 
-She looks up. The spectacles magnify her eyes. "Maren Holt. You're the one Seraphine sent. She said you'd be interesting."
+She looks up. The spectacles magnify her eyes. "Maren Holt. You're the one Elara sent. She said you'd be interesting."
 
 I lay out what I need. Storage. Stat-enhancing boots. Throwing weapons with return enchantment and non-lethal poison.
 
@@ -5080,11 +5080,11 @@ She chalks the totals. The satchel alone costs more than everything in my purse.
 
 But I'm not buying with gold alone.
 
-"Maren. Let me reframe this. I'm the man Seraphine Ash just granted a research residency to. The Academy vault opens for me in two days. I could wait."
+"Maren. Let me reframe this. I'm the man Elara Ash just granted a research residency to. The Academy vault opens for me in two days. I could wait."
 
 Her eyes narrow.
 
-"But I'm here. In your shop. Because Seraphine recommended you by name."
+"But I'm here. In your shop. Because Elara recommended you by name."
 
 I set my gold purse on the counter.
 
@@ -5106,7 +5106,7 @@ She holds up a finger.
 
 She drafts the exclusivity contract. Standard terms. Right to refuse cursed items and stolen property.
 
-"And the name-dropping — *top student, honor guest* — don't do that in my shop again. Seraphine sent you because I'm honest. I'd like to keep that reputation."
+"And the name-dropping — *top student, honor guest* — don't do that in my shop again. Elara sent you because I'm honest. I'd like to keep that reputation."
 
 The faintest crack in the severe expression.
 
@@ -5136,7 +5136,7 @@ I eat. Roast chicken, potatoes, bread, a second plate. Garrett watches. Doesn't 
 
 The Academy tower is visible through the window. Pale stone darkening as windows go out one by one.
 
-Tomorrow. Dawn. Master Aldwin on the training grounds. Seraphine in the theory room. A week of learning what I am and what I can become.
+Tomorrow. Dawn. Master Aldwin on the training grounds. Elara in the theory room. A week of learning what I am and what I can become.
 
 Six days ago I woke up in the mud with nothing.
 
@@ -5219,7 +5219,7 @@ Kenji — Level five. Academy research resident. One week of training.
 Garrett — Mace. Chainmail. Guild liaison. Free run of Varenholm.
 
 At the Academy:
-Sera — Filing report. Private meeting with Seraphine pending.
+Sera — Filing report. Private meeting with Elara pending.
 Edwyn — Preparing theological presentation. Two days.
 
 At the Broken Antler Guild:
@@ -5234,9 +5234,304 @@ Pip — Honey cakes. Come back.
 Gold: zero. Income: ten percent of guild earnings, weekly.
 Assets: The Broken Antler Mercenary Guild. Two horses and a pack animal.
 
-New ally: Instructor Seraphine Ash. Brilliant. Afraid. Pulling at a thread in the dark.
+New ally: Instructor Elara Ash. Brilliant. Afraid. Pulling at a thread in the dark.
 New contact: Maren Holt. The Gilt Lens. Exclusive supplier contract.
 New destination: Master Aldwin. Dawn. The training grounds.
 New question: Who in the Academy is manufacturing nighthollow for highway bandits?
 
 End of Chapter Eight.
+
+
+# KENJI
+
+## *Day Eight — The Old Man and the Ember*
+
+---
+
+Dawn. The Silver Draft. A real bed. A real ceiling. The disorientation of waking up somewhere that isn't dirt or stone or a stolen bedroll on a bridge.
+
+The ember is full. Level five full — deeper than yesterday. The extra spell slot sitting in reserve like a loaded chamber. The proficiency increase hums through everything — the connection between will and magic tighter, more responsive.
+
+I eat two plates. Eggs, porridge, sausage, bread. The boy refilling my cup looks at the empty dishes with quiet horror.
+
+Garrett is at a corner table studying a map of Varenholm. "I'll be in the market district. Selling the surplus weapons. Should bring fifteen, twenty gold." He looks at me. "You need a cut?"
+
+"Keep it for operational expenses. The guild needs a war chest."
+
+He nods. The liaison doing liaison work.
+
+Edwyn is rehearsing his presentation under his breath. The spawning fluid sample in its padded case beside his tea.
+
+"Eastern training grounds. Through the main courtyard, past the library wing, left at the fountain with the stone owl." He looks at me. "The faculty talk about Aldwin the way soldiers talk about a general they survived. Learn everything he'll teach you."
+
+---
+
+I cast Eyes of the Hunter before leaving the inn. The ember goes up. Varenholm in predator's clarity.
+
+The Academy gates. The guards recognize the residency token — brass disc, wolf-and-keys. They wave me through.
+
+The main courtyard. Students in colored robes. A fountain with a carved stone owl on a stack of books, water flowing from its open beak. The ember notes it — the water is ley-infused. Even the decorations run on magic here.
+
+Left at the owl. Covered walkway. The eastern training grounds.
+
+---
+
+Open air. A hundred feet by sixty. Stone walls on three sides, a colonnade with benches on the fourth. Packed earth, darker in patches that suggest training here involves fluids that aren't water. Weapon racks on the east wall. Practice dummies on the south — wooden frames wrapped in leather. Some scorched. One missing its head.
+
+The field is empty.
+
+No. Not empty.
+
+The predator's eyes find him. Sitting on a bench in the colonnade shadow. So still the morning light slides over him like he's part of the architecture.
+
+Small. Not short — *compressed*. Seven decades of gravity and combat folding a once-tall body inward. White hair, thin, wild. A face like crumpled leather left in the sun. And eyes that—
+
+The predator's eyes meet his.
+
+His are *better*.
+
+Not enhanced. Not magical. Seventy years of watching things try to kill him compressed into two grey points that find me across a hundred feet and *read* me the way Sera reads tracks.
+
+Plain grey robe. No armor. Sandals. A gnarled wooden staff leaned against the bench.
+
+He doesn't stand when I approach.
+
+"You're the one who talks to gods." His voice is rough. Loud. The volume of a man who's been half-deaf for twenty years. "Purple hair. Sera's report mentioned the hair. Didn't mention you'd be this young."
+
+He picks up the staff. Uses it to stand — slow, joints protesting. Once vertical he's shorter than me by four inches. His hands on the staff are knotted and scarred, the knuckles rebuilt multiple times by healers who prioritized function over aesthetics.
+
+"Aldwin." Not Master. Not Instructor. Just the name. "I've read Sera's report. The priest's notes. Elara's assessment." He looks at me like a lock he hasn't picked yet. "I don't care about any of it."
+
+He taps the staff once.
+
+"Show me."
+
+"Give me something tough to fight. Preferably worth my time."
+
+The squint deepens.
+
+"I've been teaching forty years. Every student wants to show me how impressive they are." He taps the staff. "You know what the dangerous ones do? They ask for something worth their time."
+
+He walks to a heavy iron door in the east wall. Unlocks it. Stone stairs descending into cool dark.
+
+"The Academy maintains a bestiary. Captured creatures. Things the research department studies and the combat department uses for examinations." He starts down. "You want a challenge? I'll give you a choice."
+
+---
+
+Three doors. Three creatures.
+
+The first — a Stonehide Basilisk. The size of a large dog but made of granite. Four hundred pounds of stone-textured hide. Blind — hunts by vibration and smell. Hits like a collapsing wall. The hide turns most blades. Slow. The joints and underbelly are the weaknesses.
+
+The second — a Duskmantle Stalker. I can barely see it through the bars — it's eating the light inside its cell. Then the predator's eyes find it on the ceiling. Elongated. Too many joints. Pale skin. Eight-fingered claws. Two unblinking eyes. It generates supernatural darkness. Fast. Claws carry paralytic venom — one hit and your muscles lock.
+
+The third — an Iron Sentinel. Seven feet of dark iron plates and embedded enchantment. Not alive. Animated by magic. No fear. No pain. No morale. Two iron fists that hit like siege engines. No life force — vampiric healing won't work.
+
+Aldwin lays out the lesson. Basilisk tests precision. Stalker tests adaptability. Sentinel tests endurance.
+
+"Pick."
+
+"All three. One at a time."
+
+His eyebrows rise. The first expression beyond the squint.
+
+"Good."
+
+---
+
+### The Basilisk
+
+The containment ward ignites. Sixty feet of warded circle. The gate opens. Four hundred pounds of stone-textured reptile walks out.
+
+It can't see me. The flat blind head swings, tasting vibrations, smelling magic. It orients on my heartbeat through the ground.
+
+I don't close the distance. I throw a rock.
+
+A plain flint, no magic, whipped across the circle to hit packed earth. *Tak-tak-tak.* Three impacts that sound exactly like boots on stone.
+
+The flat head snaps toward the decoy. The body pivots. The flank opens.
+
+Silent approach. The Windrunner Boots distributing weight across the earth, scattering vibrations instead of concentrating them. The predator's eyes find the joint — the seam where the stone plates connect to the rear leg. Two inches of exposed flesh.
+
+Thunderous Strike. The blade finds the seam and the thunder detonates. The rear leg buckles. The joint cracks. The creature screams — a grinding shriek — and rolls onto its back. Four hundred pounds of stone-hide with legs in the air.
+
+But I don't need the underbelly. I throw another rock.
+
+*Tak-tak-tak.*
+
+It falls for it again. The damaged leg corrupts its vibration sense, muddying everything. The head snaps east. The left flank opens. Same approach. Same silence. Same joint.
+
+The second Thunderous Strike cracks the left rear leg. Both rear legs compromised. The basilisk collapses. It rolls onto its back and this time the getting-up is harder — both rear joints sending static through its skeleton.
+
+It manages. Barely. Standing on legs that are shaking, joints grinding.
+
+A third rock. A third deception. A third silent approach to the cracked right joint. This time I don't need thunder. The Arcane Edge punches through the gap and the leg *separates*. The basilisk drops. Front claws drag it forward two feet — pure instinct — then the front legs give too.
+
+It's alive. Down. Not getting up.
+
+Aldwin drops the ward.
+
+"Three rounds of the same trick. You threw rocks at a wall and a four-hundred-pound predator fell for it every time." He examines the joints. "Most students try to go through the armor. You bypassed it entirely. Found the weak point and exploited it systematically."
+
+He looks at me.
+
+"That's not swordsmanship. That's not magic. That's *hunting*. You fight like a predator, not a soldier."
+
+---
+
+The ley alcove. Silver runes. Ten minutes. Spell slots refill. Blade Ward resets. HP untouched — the basilisk never laid a claw on me.
+
+---
+
+### The Stalker
+
+The ward ignites. The cell opens.
+
+Nothing comes out. Then the light dies. A sphere of absolute blackness rolls from the cell — twenty feet of supernatural darkness swallowing everything. The predator's eyes pierce fifteen feet into it instead of the full twenty. Shapes at the edge.
+
+I find it on the ceiling. Thirty feet up. Clinging to the containment dome with eight-fingered hands. Pale. Cold. A mouth too wide. Two eyes watching me watching it.
+
+It drops. No warning. Thirty feet of silent free-fall. Claws extended.
+
+The first claw rakes my shoulder — the ironwood catches most of it but the tips find the gap at the neck. Fire. Sharp. And something cold spreading down my arm, reaching for my muscles. The paralytic venom hits my bloodstream and the ember *ignites*. Defensive. Furious. The cold meets a wall of heat. The paralysis doesn't take.
+
+The second claw rakes my forearm — Blade Ward flares purple, absorbing half. The venom hits again. The ember burns it out again.
+
+The creature launches back to the ceiling. Hit and run. Drop, strike, retreat. The pattern of a predator that never lets prey fight back.
+
+It controls the darkness. It controls the ceiling. It controls the engagement.
+
+I need to change the equation.
+
+The returning knife. Blackened steel. I cast Radiant Edge — golden light crawling along the blade. A radiant scalpel. The rune on the pommel glows.
+
+The predator's eyes find the weakness. The eyes — oversized, light-sensitive. That's *why* it generates darkness. Not just to hide. To protect the eyes that function best in absolute black.
+
+I throw.
+
+The golden knife crosses thirty feet of darkness like a comet and punches into the Stalker's left eye.
+
+The scream is wrong. High. Wet. Golden light detonates inside the eye socket and the darkness aura *ruptures*. Twenty feet of supernatural black tears apart. Light floods in from every direction — morning sun and ward-glow and golden radiance hitting a creature that hasn't experienced light in years.
+
+The somnus toxin hits the bloodstream through the destroyed eye. The creature's remaining eye rolls back. The body goes limp. Every joint unlocking. The fingers releasing.
+
+It falls. Thirty feet. Unconscious.
+
+"Knife. Return."
+
+The golden blade pulls free from the eye socket and crosses twenty feet of air into my palm. Warm. Bloody. Still radiant.
+
+I close to five feet. The shadow daggers are still floating at my shoulders — I grab two and drive them down. Point blank. Into the chest. Into the throat. The auto-crits double the damage and the healing flows back through the same channels. My cuts close. My HP climbs.
+
+The creature's body arches once. The remaining eye goes dark. The darkness dies.
+
+Aldwin's voice from outside the ward. Quieter than I've heard it.
+
+"Did you just throw a sleeping poison radiant knife into a Duskmantle Stalker's eye from thirty feet through supernatural darkness and then recall the knife while it was still embedded?"
+
+A pause.
+
+"I'm writing that down."
+
+---
+
+The ley alcove. Spell slots refill. HP full from the vampiric crits. Hit dice untouched.
+
+---
+
+### The Sentinel
+
+I cast Arcane Stride before the ley refill. The slot comes back. The Stride persists. The old man watches me do it. Says nothing. The staff taps once.
+
+The ward ignites. The gate opens.
+
+Seven feet of dark iron walks out. Each step a *boom* that vibrates the earth. Riveted plates. A featureless dome with amber sensor slits. Two iron fists the size of anvils.
+
+It stops. Stands. The slits find me. It doesn't breathe. Doesn't shift.
+
+The amber brightens. The activation takes hold.
+
+The predator's eyes *devour* the construct. A natural twenty on the read — every rivet, every plate, every stress fracture visible in crystalline clarity.
+
+Three weak points. The knee joints — the thinnest section, micro-fractures in the rivets, bearing the full seven-hundred-pound load. The neck collar — rotation mechanism exposed at the back. And the chest plate — four load-bearing bolts holding the upper structure together. Behind it, the enchantment core. The kill shot.
+
+But the knees are easier. Break the legs. The math is simple.
+
+Arcane Stride. Silver-white detonation. Sixty feet closed in a second. The right knee — stressed rivets, vulnerable hinge. Thunderous Strike.
+
+The thunder hits iron and the sound is a church bell. The knee buckles. Rivets shear halfway. The Sentinel sways — seven hundred pounds uncertain about its foundation. The thunder stagger takes the multiattack. One slam instead of two.
+
+The extra action on the pass — the same knee, normal steel. The remaining rivets scream. The hinge deforms.
+
+Clean stop behind the weapon rack. Real cover.
+
+The Sentinel turns. Closes on my position. Twenty-five feet of movement — not enough. Ten feet short. The iron fist finds the practice dummy between us instead.
+
+The dummy *explodes*. Wood and canvas detonating. The fist punches through and embeds in the earth. The message is clear — that was going to be me.
+
+I sprint in. Thunderous Strike. The right knee *breaks*. The hinge shatters. The leg folds. Seven hundred pounds of iron drops to the ground. Prone. Staggered. The left leg tries to compensate.
+
+The extra action — the left knee on the pass. Same design. Same rivets. The blade dents the plating. Not broken. Compromised.
+
+The Sentinel tries to stand. One leg destroyed, one damaged. The iron frame lifts six inches — gears grinding, mechanical logic insisting — and the damaged left knee buckles under the full load. It collapses.
+
+The arms reach out. Iron fists dragging the body forward across the ground. Crawling. A seven-foot construct crawling toward me on its hands.
+
+I sprint in one last time. The left knee — the blade shears the last rivets. The leg disconnects. Both legs gone.
+
+The extra action. The neck collar. The blade punches through the seam of the rotation mechanism. The featureless head detaches. Rolls three feet. The amber slits flicker.
+
+Go dark.
+
+The arms drop. The gears wind down. The enchantment core pulses once behind the chest plate and dies.
+
+---
+
+Aldwin walks onto the field. Stands over the Sentinel's severed head.
+
+He's quiet for a long time.
+
+"Forty years. I've run this gauntlet for forty years. Three creatures. Sequential. Precision. Adaptability. Endurance."
+
+He taps the headless torso.
+
+"No student has ever cleared all three without spending a hit die."
+
+He looks at me.
+
+"You're not a student, Kenji. You never were. Students learn techniques. You learn *principles*. The rock trick — that was an understanding of how a creature perceives the world. The knife in the eye — a predator identifying the one vulnerability that collapses the entire threat. And the sentinel—"
+
+He looks at the destroyed knees.
+
+"You didn't overpower it. You didn't outlast it. You removed its ability to function and took it apart. That's not combat magic. That's *engineering in reverse*."
+
+He pulls a small leather case from his robe. Opens it. A brass token. Wolf-and-keys on one side. An anvil struck by lightning on the other.
+
+"Combat Mage certification. I've given out eleven in forty years. Sera has one. Two members of the King's Guard have one. The rest are dead."
+
+He sets it in my palm.
+
+"You're number twelve. Don't make me regret it."
+
+---
+
+The brass token is warm in my hand. The weight of forty years of standards compressed into a circle of metal smaller than my palm. Eleven people before me. Most of them dead.
+
+I close my fist around it.
+
+The training ground is silent. Morning sun on packed earth and the wreckage of three fights — scored ground, splinters, dark fluid stains, and an Iron Sentinel in three pieces. I'm standing in the middle of it. Thirty-three out of thirty-three hit points. Five hit dice unspent. The ember burning steady and satisfied.
+
+Somewhere above me — though I don't know it yet — two women stand behind a stone pillar on the second-floor colonnade. One of them has ink-stained fingers pressed against the railing. The other has her hand on the pommel of an arming sword she doesn't remember reaching for.
+
+Neither of them is looking at the destroyed Sentinel.
+
+They're looking at me.
+
+---
+
+END OF CHAPTER NINE — NO LEVEL UP (No Long Rest)
+
+The gauntlet is complete. The morning is young. The Academy still has lessons to teach and secrets to keep. The ember has proved what it can do to the one man in this building qualified to judge it.
+
+Eleven tokens in forty years. Number twelve.
+
+The day isn't over.

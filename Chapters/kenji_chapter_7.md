@@ -338,7 +338,7 @@ The ember is tired. Not depleted — the spell slots are what they are — but t
 
 I lie on the bedroll and look at the sky. Stars. More than I've seen since arriving in this world — the settled country has less canopy, more sky.
 
-Somewhere north of here, on a road I can't see, Sera is making camp with Edwyn. One day ahead. Tomorrow, on horseback, I close the gap. The day after — Varenholm. The Academy. The Mage Council. Seraphine Ash. Answers about what I am and who sent me and why.
+Somewhere north of here, on a road I can't see, Sera is making camp with Edwyn. One day ahead. Tomorrow, on horseback, I close the gap. The day after — Varenholm. The Academy. The Mage Council. Elara Ash. Answers about what I am and who sent me and why.
 
 The ember burns low and steady. The warmth of something that just built an army and is quietly satisfied about it.
 

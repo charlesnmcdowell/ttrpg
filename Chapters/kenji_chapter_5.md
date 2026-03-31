@@ -178,7 +178,7 @@ She sheathes her sword. Looks at me.
 
 Not a question. A door opening.
 
-"I was hired by the Varenholm Mage Council. Contracted through the Academy to assess the situation in the Duskfen region." She folds her arms. "I report to a woman named Instructor Seraphine Ash. She's the one who flagged the Duskfen reports as worth investigating when everyone else dismissed them."
+"I was hired by the Varenholm Mage Council. Contracted through the Academy to assess the situation in the Duskfen region." She folds her arms. "I report to a woman named Instructor Elara Ash. She's the one who flagged the Duskfen reports as worth investigating when everyone else dismissed them."
 
 She looks at me.
 
@@ -190,7 +190,7 @@ A pause.
 
 She says it like she rehearsed it.
 
-"If you're serious about going to Varenholm — I can get you in front of the Council. And Seraphine will want to hear everything."
+"If you're serious about going to Varenholm — I can get you in front of the Council. And Elara will want to hear everything."
 
 "But first — we go back. Duskfen. Harlan to his wife. Supplies. Rest." A beat. "And I want a real bed and a meal that isn't boar."
 

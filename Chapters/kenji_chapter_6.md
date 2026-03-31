@@ -398,7 +398,7 @@ She points back toward the bridge.
 
 She holds my gaze.
 
-"In two days I'm standing in front of Instructor Seraphine Ash. What do I tell her? That you restored the balance of creation and entropy — and also that you're building a toll road operation with the woman who ran the kill box?"
+"In two days I'm standing in front of Instructor Elara Ash. What do I tell her? That you restored the balance of creation and entropy — and also that you're building a toll road operation with the woman who ran the kill box?"
 
 She doesn't raise her voice. That's what makes it land.
 
@@ -428,7 +428,7 @@ Three seconds of struggling with something that isn't anger and isn't amusement 
 
 She turns. Takes two steps. Stops. Doesn't turn around.
 
-"For the record. When I report to Seraphine, I'm going to tell her I found something in Duskfen that matters more than anything the Council has studied in a decade. And that the man carrying it is reckless, stubborn, and has the worst timing of anyone I've ever met."
+"For the record. When I report to Elara, I'm going to tell her I found something in Duskfen that matters more than anything the Council has studied in a decade. And that the man carrying it is reckless, stubborn, and has the worst timing of anyone I've ever met."
 
 A pause.
 

@@ -144,7 +144,7 @@ The ironwood armor goes back on over a fresh underlayer — plain linen, two sil
 
 I come back down. Garrett is already there — shaved, chainmail oiled, the scar from ear to chin visible now. He looks less like a highway bandit and more like what he used to be. A soldier.
 
-Edwyn shakes his head. Pushes a cup toward me. Pale amber with a faint luminescence. "Brightcap tea. One cup. It'll sharpen you for four hours without the crash. You're meeting Seraphine in ninety minutes."
+Edwyn shakes his head. Pushes a cup toward me. Pale amber with a faint luminescence. "Brightcap tea. One cup. It'll sharpen you for four hours without the crash. You're meeting Elara in ninety minutes."
 
 I eat. The Silver Draft's kitchen delivers eggs, sausage, fresh bread, butter, fruit compote. I eat. Garrett eats. Edwyn watches us both with resigned patience.
 
@@ -180,7 +180,7 @@ The doors open.
 
 Room twelve. Not a grand office. A study — cramped, lived-in, buried under paper. Books stacked on the floor. A desk somewhere underneath scrolls and inkwells. The walls are shelves and the shelves are full.
 
-At the desk — Instructor Seraphine Ash.
+At the desk — Instructor Elara Ash.
 
 Late thirties. Sharp-featured. Dark hair in a losing battle with escaped strands. Dark quick eyes that miss nothing. Ink-stained fingers. Both hands. Permanently. The stains of someone who writes more than she speaks.
 
@@ -202,7 +202,7 @@ The sweep stalls. Her gaze moves from the armor to the sword to the dreadlocks t
 
 Sera reports. Standing. Military posture. Duskfen. The Hexcrawlers. My arrival. The party. The Brennick cellar. The entropy god.
 
-"Stop," Seraphine says. "A divine entity. Beneath a farmhouse. You're certain."
+"Stop," Elara says. "A divine entity. Beneath a farmhouse. You're certain."
 
 "I was present, Instructor."
 
@@ -210,7 +210,7 @@ Sera reports. Standing. Military posture. Duskfen. The Hexcrawlers. My arrival. 
 
 The altar. The channeling. The cycle restored. The green grass. The Delve. The spawning pools. The deeper passage.
 
-Seraphine hasn't blinked in thirty seconds.
+Elara hasn't blinked in thirty seconds.
 
 "Are you telling me that this man channeled raw creation energy into a dying god of entropy and partially restored a broken cosmic cycle?"
 
@@ -220,7 +220,7 @@ Silence.
 
 "Edwyn. Your documentation. Everything. On my desk. Now."
 
-Edwyn opens his satchel. The spawning fluid sample. The ledger. Pages of careful observations. Seraphine speed-reads with the hunger of a scholar finding primary source material in the dark.
+Edwyn opens his satchel. The spawning fluid sample. The ledger. Pages of careful observations. Elara speed-reads with the hunger of a scholar finding primary source material in the dark.
 
 "This is exceptional fieldwork, Father."
 
@@ -238,9 +238,9 @@ Her eyes are sharp. Hungry.
 
 "Heh. I see Sera did a good job spilling the beans on all my abilities." I grin. Wink at Sera. "When you put it that way, it's almost as if I dropped out of heaven."
 
-Sera's color rises. She doesn't look at Seraphine to check if she noticed.
+Sera's color rises. She doesn't look at Elara to check if she noticed.
 
-Seraphine noticed.
+Elara noticed.
 
 "I'll accept that as *I don't know yet* rather than *I won't tell you*." Not a request. A schedule. "We'll return to the subject."
 
@@ -250,23 +250,23 @@ The highway evidence. I set Voss's ledgers on the desk. Lay out the full operati
 
 "These are his financial records. And bribe receipts for Captain Dunmore. Regular payments. Dates and amounts."
 
-Seraphine opens the ledger. Speed-reads. Administrative fury replacing the scholar's hunger.
+Elara opens the ledger. Speed-reads. Administrative fury replacing the scholar's hunger.
 
 "Dunmore. The Council has received complaints about reduced patrol coverage for two years. His reports blamed budget constraints." She taps a page. "Twenty gold per month. He wasn't short on budget."
 
 Garrett steps forward. Gives his statement without embellishment or excuse. Two years. Eastern crew. He didn't run the river crossing. The violence was Brindle's operation under Voss's orders.
 
-"And now you work for Kenji," Seraphine says. She studies him. Three seconds. "You deserted a criminal operation and switched sides in the space of a conversation."
+"And now you work for Kenji," Elara says. She studies him. Three seconds. "You deserted a criminal operation and switched sides in the space of a conversation."
 
 "I switched sides when a better commanding officer showed up. That's not desertion. That's professional development."
 
-Something happens at the corner of Seraphine's mouth. She doesn't let it develop.
+Something happens at the corner of Elara's mouth. She doesn't let it develop.
 
 "He dismantled the operation, recruited Brindle, and turned the Broken Antler into a mercenary guild," Garrett continues. "In one day. On a short rest. I was there."
 
 I set the nighthollow vial on the desk.
 
-Seraphine picks it up. Color drains from her face by one shade.
+Elara picks it up. Color drains from her face by one shade.
 
 "Refined nighthollow. This concentration requires equipment that doesn't exist outside of three locations. One pharmaceutical house in the capital. One private laboratory in the north."
 
@@ -292,7 +292,7 @@ I continue.
 
 "I also now have a mercenary guild. We won't work for free. The payments going to Voss should be redirected to Brindle under a contract for protecting the roads. Garrett here serves as my liaison, able to take on missions using guild resources during my down time."
 
-Seraphine processes. Multiple proposals simultaneously.
+Elara processes. Multiple proposals simultaneously.
 
 "One week. Training. For a man with no formal magical education, no enrollment history, and abilities that don't appear in any classification text."
 
@@ -346,7 +346,7 @@ She turns back.
 
 Before I leave I ask where to find a magical items shop and a blacksmith.
 
-Seraphine gives me three options. Hargrove's Forge on Ironmonger's Row — best mundane smith in Varenholm. The Gilt Lens on the corner of Academy Way and Thornwell Street — licensed magical items, run by Maren Holt. Expensive, blunt, honest. And the Academy's own requisition vault — enchanted items and specialized equipment, available on day two of my residency.
+Elara gives me three options. Hargrove's Forge on Ironmonger's Row — best mundane smith in Varenholm. The Gilt Lens on the corner of Academy Way and Thornwell Street — licensed magical items, run by Maren Holt. Expensive, blunt, honest. And the Academy's own requisition vault — enchanted items and specialized equipment, available on day two of my residency.
 
 "The vault is where the interesting things are."
 
@@ -360,7 +360,7 @@ Maren Holt. Fifties. Short grey hair. Reading spectacles. Examining a ring under
 
 "Buying. If you've got what I need."
 
-She looks up. The spectacles magnify her eyes. "Maren Holt. You're the one Seraphine sent. She said you'd be interesting."
+She looks up. The spectacles magnify her eyes. "Maren Holt. You're the one Elara sent. She said you'd be interesting."
 
 I lay out what I need. Storage. Stat-enhancing boots. Throwing weapons with return enchantment and non-lethal poison.
 
@@ -378,11 +378,11 @@ She chalks the totals. The satchel alone costs more than everything in my purse.
 
 But I'm not buying with gold alone.
 
-"Maren. Let me reframe this. I'm the man Seraphine Ash just granted a research residency to. The Academy vault opens for me in two days. I could wait."
+"Maren. Let me reframe this. I'm the man Elara Ash just granted a research residency to. The Academy vault opens for me in two days. I could wait."
 
 Her eyes narrow.
 
-"But I'm here. In your shop. Because Seraphine recommended you by name."
+"But I'm here. In your shop. Because Elara recommended you by name."
 
 I set my gold purse on the counter.
 
@@ -404,7 +404,7 @@ She holds up a finger.
 
 She drafts the exclusivity contract. Standard terms. Right to refuse cursed items and stolen property.
 
-"And the name-dropping — *top student, honor guest* — don't do that in my shop again. Seraphine sent you because I'm honest. I'd like to keep that reputation."
+"And the name-dropping — *top student, honor guest* — don't do that in my shop again. Elara sent you because I'm honest. I'd like to keep that reputation."
 
 The faintest crack in the severe expression.
 
@@ -434,7 +434,7 @@ I eat. Roast chicken, potatoes, bread, a second plate. Garrett watches. Doesn't 
 
 The Academy tower is visible through the window. Pale stone darkening as windows go out one by one.
 
-Tomorrow. Dawn. Master Aldwin on the training grounds. Seraphine in the theory room. A week of learning what I am and what I can become.
+Tomorrow. Dawn. Master Aldwin on the training grounds. Elara in the theory room. A week of learning what I am and what I can become.
 
 Six days ago I woke up in the mud with nothing.
 
@@ -517,7 +517,7 @@ Kenji — Level five. Academy research resident. One week of training.
 Garrett — Mace. Chainmail. Guild liaison. Free run of Varenholm.
 
 At the Academy:
-Sera — Filing report. Private meeting with Seraphine pending.
+Sera — Filing report. Private meeting with Elara pending.
 Edwyn — Preparing theological presentation. Two days.
 
 At the Broken Antler Guild:
@@ -532,7 +532,7 @@ Pip — Honey cakes. Come back.
 Gold: zero. Income: ten percent of guild earnings, weekly.
 Assets: The Broken Antler Mercenary Guild. Two horses and a pack animal.
 
-New ally: Instructor Seraphine Ash. Brilliant. Afraid. Pulling at a thread in the dark.
+New ally: Instructor Elara Ash. Brilliant. Afraid. Pulling at a thread in the dark.
 New contact: Maren Holt. The Gilt Lens. Exclusive supplier contract.
 New destination: Master Aldwin. Dawn. The training grounds.
 New question: Who in the Academy is manufacturing nighthollow for highway bandits?

@@ -377,26 +377,34 @@ All standard 5e conditions apply automatically when the fiction warrants them:
 ### 📋 CURRENT CHARACTER STATUS LOG
 
 KENJI
-- Fed: YES (Silver Draft kitchen — roast chicken, potatoes, bread x2)
-- Rested: YES (Full long rest — Silver Draft inn, real bed)
-- HP: 33/33
-- Spell Slots: L1 5/5, L2 3/3
+- Fed: YES (Silver Draft breakfast + ley alcove breaks)
+- Rested: NO LONG REST — mid-day, post-gauntlet
+- HP: 33/33 (untouched across all three fights after vampiric healing)
+- Spell Slots: L1 3/5, L2 2/3 (post-gauntlet. Ley alcove available at training grounds if needed.)
 - Blade Ward: 3/3
-- Location: Silver Draft inn, Academy district, Varenholm
+- Hit Dice: 5/5 (none spent — unprecedented in Aldwin's gauntlet)
+- Eyes of the Hunter: ACTIVE (~8 hrs remaining)
+- Arcane Stride: ACTIVE (~11 hrs remaining)
+- Location: Eastern training grounds, Varenholm Academy
 - Gold: 0 GP
-- Active Effects: None (Eyes expired, all buffs reset)
+- New item: Combat Mage Certification (brass token — 12th in 40 years)
+- ⚠️ FAST METABOLISM: clock running. Needs to eat soon.
+- ⚠️ LEVEL 6 PENDING: 17,115 / 14,000. Triggers on next Long Rest. Perk selection needed.
 
 GARRETT
-- Fed: YES (Silver Draft)
-- Rested: YES (Silver Draft)
-- HP: 30/30
-- Location: Silver Draft inn. Guild liaison. Free run of Varenholm.
+- Location: Market district, selling surplus weapons. Guild liaison work.
 
 SERA — AT THE ACADEMY
-- Filing formal report to Seraphine. Private meeting pending.
+- Filed report. Watching Kenji's gauntlet from second-floor colonnade (Kenji unaware).
+
+ELARA ASH — AT THE ACADEMY
+- Theory lesson complete. Revealed the seal corruption to Kenji. Asked him to read her seal. Felt the drain stop for one second.
+- Being siphoned by her own seal (8 years). Doesn't know the source. Suspects the Chancellor.
+- Wants: restricted archive access (original seal designs), sub-basement level 3 access, help breaking in.
+- Watching Kenji's gauntlet changed her assessment — she's all-in on him as her ally against whatever this is.
 
 EDWYN — AT THE SILVER DRAFT
-- Preparing theological presentation (2 days). Spawning fluid sample ready.
+- Preparing theological presentation (tomorrow).
 
 ### ⚠️ DM Application Rules
 - Never apply a status without narrative justification — the fiction leads, the mechanic follows
@@ -635,7 +643,7 @@ Class: Blade Channeler (Sorcerer Swordsman — CHA-based, weapon enhancement)
 Background: Outlander — transported from another world. Woke with nothing but the clothes on his back. Origin unknown.
 Appearance: Dark skin, purple dreadlocks, hazel eyes. Lean and capable looking. Wears leather armour over civilian clothes from another world.
 Level: 5
-EXP: 6,755 / 14,000
+EXP: 17,155 / 14,000 (LEVEL 6 PENDING — needs Long Rest)
 
 ### Stats (Base total: 72/72 ✅ | At 16+: 1/2 ✅)
 | Stat | Base | +Human | Final | Mod  |
@@ -710,11 +718,12 @@ EXP: 6,755 / 14,000
 
 ### On Body (belt, pouches — NOT dropped in combat)
 - Ryn's Spare Lockpick Set — belt
-- Sharp flint stones x10 — waist pouch
+- Sharp flint stones x7 (3 used during basilisk fight) — waist pouch ⚠️ BELOW MINIMUM
 - Gold purse: 0 GP — belt
 - Pip's honey cakes x3 — chest pocket
 - Voss's key ring x3 — belt
-- Returning Somnus Knife — belt (see Equipped)
+- Returning Somnus Knife — belt (1 dose remaining)
+- Combat Mage Certification — brass token, wolf-and-keys / anvil-struck-by-lightning. 12th awarded in 40 years.
 
 ### In Satchel of Holding (cross-body — NOT dropped in combat, 50 lb capacity)
 - Maren's map
@@ -768,9 +777,9 @@ EXP: 6,755 / 14,000
 - HP: 22 / 22 | AC: 14
 - Active Effects: None
 - Role: Fighter, tracker, Mage Council liaison
-- Disposition: Deep trust and respect. Romantic tension escalating — the smile incident on the bridge. Has concerns about Kenji claiming criminal territory but trusts his stated intent to legitimize. Will vouch for him to Seraphine Ash.
+- Disposition: Deep trust and respect. Romantic tension escalating — the smile incident on the bridge. Has concerns about Kenji claiming criminal territory but trusts his stated intent to legitimize. Will vouch for him to Elara Ash.
 - Location: En route to Varenholm with Edwyn. ETA: 2 days.
-- Notes: Carrying Kenji's silverleaf tea x3 and 2x Flame Seals via Edwyn. Will report to Instructor Seraphine Ash. Told Kenji "three days" — deadline is firm. "I will not be telling her about the smile."
+- Notes: Carrying Kenji's silverleaf tea x3 and 2x Flame Seals via Edwyn. Will report to Instructor Elara Ash. Told Kenji "three days" — deadline is firm. "I will not be telling her about the smile."
 
 ### ⛪ Edwyn — Healer/Priest (SEPARATED — heading to Varenholm)
 - Status: ALIVE ✅
@@ -847,17 +856,17 @@ EXP: 6,755 / 14,000
 - Voss will have ~24 hours to prepare once Sev arrives
 
 ### 🗺️ TACTICAL SITUATION (Day 8 Morning — Academy Training Week Begins)
-- **Immediate:** Report to eastern training grounds at dawn. Master Aldwin (combat magic integration). Seraphine (magical theory).
+- **Immediate:** Report to eastern training grounds at dawn. Master Aldwin (combat magic integration). Elara (magical theory).
 - **Day 2:** Academy requisition vault tour. Access to enchanted items and equipment.
 - **Day 2:** Edwyn's theological presentation to the faculty.
-- **Sera:** Filing report, then private meeting with Seraphine. Something she needs to tell Kenji about — the "pattern" she's been investigating.
+- **Sera:** Filing report, then private meeting with Elara. Something she needs to tell Kenji about — the "pattern" she's been investigating.
 - **Dunmore:** Being arrested within the week based on Voss's ledgers.
-- **Nighthollow:** Manufactured in Academy sub-basement level 2. Someone inside the Academy supplied Voss. Seraphine is investigating.
+- **Nighthollow:** Manufactured in Academy sub-basement level 2. Someone inside the Academy supplied Voss. Elara is investigating.
 - **Guild:** Council highway contract being couriered to Brindle. 40 GP/month, 3-month trial.
 - **Gilt Lens:** Exclusivity contract with Maren Holt. All guild magical loot goes to her shop at 30% discount.
 - **Level 5:** Proficiency +3. Spell attack +6. DC 14. HP 33. L2 slots now 3. New spell selection available (to be determined during training).
 - **7,220 EXP to Level 6.** Next perk at Level 6.
-- **ACT 2 IS ACTIVE.** The Gilt Conspiracy threads are opening. Nighthollow connection. Seraphine's pattern. The Chancellor who is "particular." The Academy that sits on a ley line web. The ember that resonated with the tower.
+- **ACT 2 IS ACTIVE.** The Gilt Conspiracy threads are opening. Nighthollow connection. Elara's pattern. The Chancellor who is "particular." The Academy that sits on a ley line web. The ember that resonated with the tower.
 
 ### 📦 PARTY SUPPLIES (Day 6 Morning)
 - Rations: bandit camp supplies (enough for ~1 week for 4 people)
@@ -883,7 +892,7 @@ EXP: 6,755 / 14,000
 - 4 KO'd bandits — disarmed, bound, left at the crossroads (neutral — may disperse)
 
 **Varenholm:**
-- Instructor Seraphine Ash — Academy instructor, Kenji's theory teacher. Investigating a pattern (graduates declining). The nighthollow confirmed an Academy connection. Afraid of something. Ally.
+- Instructor Elara Ash — Academy instructor, Kenji's theory teacher. Investigating a pattern (graduates declining). The nighthollow confirmed an Academy connection. Afraid of something. Ally.
 - Master Aldwin — Combat magic instructor. 70, half-deaf, most dangerous man in the building. Assigned to train Kenji. Not yet met.
 - Maren Holt — The Gilt Lens. Magical item dealer. Exclusive supplier contract with Kenji's guild. Expensive, blunt, honest.
 - Hargrove — Hargrove's Forge, Ironmonger's Row. Best mundane smith. Not yet visited.
@@ -1034,6 +1043,24 @@ EXP: 6,755 / 14,000
 | **LEVEL 5 THRESHOLD MET** | — | 6,755/6,500 |
 | Persuasion DC 18 — negotiate Gilt Lens package + exclusivity | 25 | 6,780/14,000 |
 | **LEVEL UP → 5** | — | 6,780/14,000 |
+| Perception DC 15 — spot Aldwin in colonnade (advantage) | 15 | 6,795/14,000 |
+| Deception — basilisk vibration decoy 1 | 10 | 6,805/14,000 |
+| Stealth — basilisk approach 1 | 10 | 6,815/14,000 |
+| Deception — basilisk vibration decoy 2 | 10 | 6,825/14,000 |
+| Stealth — basilisk approach 2 | 10 | 6,835/14,000 |
+| Deception — basilisk vibration decoy 3 | 10 | 6,845/14,000 |
+| Stealth — basilisk approach 3 | 10 | 6,855/14,000 |
+| Combat — Stonehide Basilisk (CR 3, solo x4) | 2,800 | 9,655/14,000 |
+| Perception DC 16 — locate Stalker in darkness (advantage) | 15 | 9,670/14,000 |
+| Perception DC 17 — find Stalker eye weak point (advantage) | 15 | 9,685/14,000 |
+| Combat — Duskmantle Stalker (CR 3, solo x4) | 2,800 | 12,485/14,000 |
+| Perception DC 16 — analyze Sentinel weak points (NAT 20, doubled) | 30 | 12,515/14,000 |
+| Combat — Iron Sentinel (CR 4, solo x4) | 4,400 | 16,915/14,000 |
+| Milestone — Aldwin's Gauntlet cleared, 3/3, no hit dice spent | 200 | 17,115/14,000 |
+| **LEVEL 6 THRESHOLD MET — pending Long Rest** | — | 17,115/14,000 |
+| Perception DC 15 — spotted wards in Elara's study (advantage) | 15 | 17,130/14,000 |
+| CHA DC 14 — ember introspection, articulate feelings | 10 | 17,140/14,000 |
+| CHA DC 16 — ember reads Elara's seal, detects entropy siphon | 15 | 17,155/14,000 |
 
 ---
 
@@ -1064,7 +1091,7 @@ EXP: 6,755 / 14,000
 | Western Highway — Day 6 Camp | ✅ | 0 | Farmer's stone wall. One day from Varenholm. Varenholm visible on horizon. |
 | Varenholm — City | ✅ | 0 | Walled city built around the Academy. Market district, craftsmen's quarter, Academy district. Ley line web beneath. |
 | Varenholm Academy — Exterior | ✅ | 0 | Pale stone tower, 7 towers total, vast library, underground vaults. Enchanted guards. Students in colored robes. |
-| Varenholm Academy — East Wing, Room 12 | ✅ | 0 | Seraphine Ash's study. Buried in paper. Where the conspiracy thread begins. |
+| Varenholm Academy — East Wing, Room 12 | ✅ | 0 | Elara Ash's study. Buried in paper. Where the conspiracy thread begins. |
 | The Silver Draft Inn | ✅ | 0 | Academy district. Three stories. Kenji + Garrett rooms. Edwyn staying here. |
 | The Gilt Lens | ✅ | 0 | Academy Way & Thornwell St. Maren Holt's magical item shop. Exclusivity contract signed. |
 
@@ -1103,11 +1130,11 @@ EXP: 6,755 / 14,000
 | Something ancient beneath The Delve | ⚠️ DORMANT — massive underground space. Something breathed. Untouched. Filed for later. |
 | Kenji sent deliberately | ✅ TRUE — the god confirmed. Unknown sender. |
 | Kenji's origin still unknown | ✅ TRUE |
-| Conspiracy awareness | ⏳ APPROACHING — heading to Varenholm. Sera works for the Mage Council under Seraphine Ash. The conspiracy awaits. |
+| Conspiracy awareness | ⏳ APPROACHING — heading to Varenholm. Sera works for the Mage Council under Elara Ash. The conspiracy awaits. |
 | Solveth contact | ⏳ Not yet — the entropy god is NOT Solveth. Separate threads. |
 | Bessa's request | ✅ FULFILLED — Harlan home, awake, recovering |
 | Pip relationship | ✅ Active — honey cakes and a note. "Come back. — P" |
-| Sera — Mage Council connection revealed | ✅ TRUE — works for Varenholm Mage Council under Instructor Seraphine Ash. Can get Kenji an audience. |
+| Sera — Mage Council connection revealed | ✅ TRUE — works for Varenholm Mage Council under Instructor Elara Ash. Can get Kenji an audience. |
 | Sera — "actual authorities" incident | ✅ TRUE — Kenji introduced her as authorities to Garrett without consulting her. She has Opinions. |
 | Sera training completed | ✅ TRUE — Sera's Cage acquired |
 | Ryn — contract complete | ✅ TRUE — fulfilled porter/delivery role. In Duskfen. May come to Varenholm. |
@@ -1125,7 +1152,7 @@ EXP: 6,755 / 14,000
 | Brindle conditionally aligned | ✅ TRUE — holding the bridge. Price: legitimate toll operation after Voss. Does not forgive the hand wound. 3 day deadline. |
 | Enforcer Marcus | ⚠️ OFF THE BRIDGE — fell into river in heavy armor. Presumed drowning. Status unknown. Potential consequence. |
 | Sera romantic tension escalating | ✅ TRUE — "I will not be telling her about the smile." Color in her ears. The lock is nearly open. |
-| Sera has concerns about territory claim | ✅ TRUE — voiced them on the bridge. Accepted Kenji's intent to legitimize. Will vouch to Seraphine despite reservations. |
+| Sera has concerns about territory claim | ✅ TRUE — voiced them on the bridge. Accepted Kenji's intent to legitimize. Will vouch to Elara despite reservations. |
 | Kenji claimed Voss's territory publicly | ⚠️ ACTIVE — told Brindle "Voss's territory will be mine." This claim has consequences with both lawful and criminal factions. |
 | Enhanced Cage developed | ✅ TRUE — counterattack on miss while Eyes active. 1/combat. Trained with Sera Day 6. |
 | Party split for Voss operation | ✅ COMPLETED — Kenji + Garrett took the Antler. Sera + Edwyn heading to Varenholm. |
@@ -1140,19 +1167,39 @@ EXP: 6,755 / 14,000
 | Heading to Varenholm | ✅ ACTIVE — horseback, ~half day. Should catch or arrive with Sera/Edwyn. Act 2 imminent. |
 | 290 EXP to Level 5 | ✅ COMPLETED — Level 5 achieved on long rest at Silver Draft |
 | Varenholm entered | ✅ TRUE — Day 7. Gate, city, Academy district. Ember resonated with the tower. |
-| Seraphine Ash met | ✅ TRUE — full debrief delivered. She's investigating a "pattern" — graduates declining. The nighthollow vial connected a dot. |
-| Seraphine hesitated on "Chancellor" | ✅ TRUE — said he's "particular" about enrollment. Predator's eyes caught it. |
+| Elara Ash met | ✅ TRUE — full debrief delivered. She's investigating a "pattern" — graduates declining. The nighthollow vial connected a dot. |
+| Elara hesitated on "Chancellor" | ✅ TRUE — said he's "particular" about enrollment. Predator's eyes caught it. |
 | Nighthollow from Academy sub-basement | ✅ TRUE — refined nighthollow in Voss's satchel can only be manufactured in 3 places. One is Academy sub-basement level 2. Someone inside supplied Voss. |
-| Academy research residency secured | ✅ TRUE — 1 week. Training with Master Aldwin (combat magic) and Seraphine (theory). |
+| Academy research residency secured | ✅ TRUE — 1 week. Training with Master Aldwin (combat magic) and Elara (theory). |
 | Council highway contract secured | ✅ TRUE — 40 GP/month to Broken Antler Guild. 3-month trial. Provisional. |
-| Dunmore arrest incoming | ✅ TRUE — Seraphine will present ledgers to Council. Within the week. |
+| Dunmore arrest incoming | ✅ TRUE — Elara will present ledgers to Council. Within the week. |
 | Master Aldwin assigned | ✅ TRUE — combat magic integration. 70 years old. Half-deaf. Most dangerous man in the building. |
 | Gilt Lens exclusivity contract | ✅ TRUE — Maren Holt. All guild magical loot to her shop at 30% below market. |
 | Satchel of Holding acquired | ✅ TRUE — 50 lbs, cross-body, no combat drop, food preserved. Storage problem solved permanently. |
 | Windrunner Boots acquired | ✅ TRUE — +2 Acrobatics. Stride stop DC now needs 7+ instead of 9+. |
 | Returning Somnus Knife acquired | ✅ TRUE — returns on command. 2 somnus doses (CON save or unconscious 1 min). |
 | Kenji has 0 GP | ✅ TRUE — spent everything at the Gilt Lens. Income pending from guild. |
-| ACT 2 ACTIVE | ✅ TRUE — The Gilt Conspiracy threads opening. Nighthollow. Seraphine's pattern. The Chancellor. The ley web. |
+| ACT 2 ACTIVE | ✅ TRUE — The Gilt Conspiracy threads opening. Nighthollow. Elara's pattern. The Chancellor. The ley web. |
+| **NAME CHANGE:** Instructor Seraphine Ash → **Instructor Elara Ash** | Applied from Chapter 9 onward. Previous chapters retain "Seraphine." |
+| Aldwin's Gauntlet completed | ✅ TRUE — 3/3 creatures cleared. No hit dice spent. Unprecedented. |
+| Combat Mage Certification earned | ✅ TRUE — brass token, 12th in 40 years. Sera has one. Opens doors. |
+| Aldwin's assessment | ✅ TRUE — "You're not a student. You learn principles, not techniques. You fight like a predator." |
+| Sera + Elara observed gauntlet | ✅ TRUE — second-floor colonnade. Kenji unaware. Both saw everything. |
+| Level 6 pending | ⚠️ PENDING — 17,115 / 14,000. Needs Long Rest. Perk selection required. |
+| Flint stones below minimum | ⚠️ TRUE — 7 remaining (3 used as basilisk decoys). Needs to restock. |
+| Elara's theory lesson complete | ✅ TRUE — ember identified as "infinite seed," generative not emissive. Creation and entropy are phases, not opposites. |
+| Elara saw the ember open with mage-sight | ✅ TRUE — "the most beautiful thing I've ever seen." The crack in the professional mask. |
+| Seal corruption CONFIRMED | ✅ TRUE — Kenji touched Elara's seal with ember. Entropy parasite detected. Thin thread siphoning essence downward through ley web. Deliberate architecture, not desperate gasping. NOT the Duskfen god — a different, more precise entropy source. |
+| Siphon leads to sub-basement | ✅ TRUE — thread goes DOWN. Pulse at the far end. Heartbeat. Something collecting, growing fuller. |
+| 347 graduates potentially affected | ✅ TRUE — 12 years of corrupted seals. Every living graduate is an unwitting battery. |
+| Sera has a seal too | ⚠️ TRUE — Combat Mage certification. If cert seals are also corrupted, Sera is being drained. Kenji doesn't know yet. |
+| Chancellor Marius Vael — 12 year tenure | ⚠️ SUSPICIOUS — controls archives, enrollment, sealing ceremony. Correlation flagged by Elara. No proof yet. |
+| Restricted archives needed | ⚠️ ACTIVE — original uncorrupted seal design required to safely remove entropy threads. Chancellor controls access. |
+| Sub-basement level 3 | ⚠️ TARGET — whatever is collecting the siphoned essence is down there. Never accessed by students. Restricted. |
+| Elara asked about lockpicking | ✅ TRUE — "You said Ryn taught you to pick locks." Breaking into restricted archives is on the table. |
+| Ember can stop the drain | ✅ TRUE — creation energy flinched the thread, stopped the trickle for one second. Elara felt "whole." But burning the thread risks burning the seal and damaging the bearer. |
+| The ember is ANGRY | ✅ TRUE — furious at the design. Architecture of corruption. Turning achievement into theft. This is personal for creation energy. |
+| "Sera warned me. He does this." | ✅ TRUE — Sera told Elara about Kenji's humor. Confirmed across two women. Kenji's reputation precedes him. |
 
 ---
 
@@ -1160,8 +1207,8 @@ EXP: 6,755 / 14,000
 **ACT 2 — THE GILT CONSPIRACY — ACTIVE**
 - The entropy god beneath Brennick farm is NOT Solveth. Completely separate entities. The Duskfen arc is resolved (90%). The Gilt Conspiracy is the MAIN plotline now.
 - Per the DM reference: Chancellor Marius Vael made a pact with Solveth the Unraveler 12 years ago. Assignment Seals siphon magical essence. The Hollow Crown is charging. Kenji does NOT know any of this yet.
-- Seraphine knows something is wrong (graduates declining, seals are off) but doesn't know about Solveth yet. The nighthollow vial gave her a new thread to pull.
-- Seraphine received her OWN seal 8 years ago. She is being slowly drained. She doesn't know it.
+- Elara knows something is wrong (graduates declining, seals are off) but doesn't know about Solveth yet. The nighthollow vial gave her a new thread to pull.
+- Elara received her OWN seal 8 years ago. She is being slowly drained. She doesn't know it.
 - Marius is watching after Kenji's arrival — an unregistered practitioner with raw charisma-based magic is exactly the kind of anomaly he'd notice.
 - Let the player discover things organically. Do NOT feed the conspiracy.
 - Marius should feel genuinely warm and likeable when met. The horror is that he's not a monster pretending to be good — he's a good man who became monstrous.
@@ -1183,7 +1230,7 @@ EXP: 6,755 / 14,000
 - ⚠️ GARRETT: ~3 weeks left on contract. Guild liaison. Free run of Varenholm. Can take missions.
 - ⚠️ KENJI HAS 0 GP: Broke. Guild income pending. May need to earn gold during the training week.
 - ⚠️ COMBAT BAG DROP: Satchel of Holding is exempt (equipped cross-body). Other packs still drop. KO'd enemies auto-disarmed.
-- ⚠️ TRAINING WEEK: Master Aldwin (combat magic, dawn) + Seraphine (theory). New spell available at some point. Academy vault tour Day 2. Edwyn presents Day 2. Sera's private meeting with Seraphine — may reveal conspiracy threads.
+- ⚠️ TRAINING WEEK: Master Aldwin (combat magic, dawn) + Elara (theory). New spell available at some point. Academy vault tour Day 2. Edwyn presents Day 2. Sera's private meeting with Elara — may reveal conspiracy threads.
 - ⚠️ THE GILT LENS NAME: The shop is called "The Gilt Lens." The conspiracy is called "The Gilt Conspiracy." Coincidence or connection — let the player discover it if they notice.
 
 ---
