@@ -6365,3 +6365,2725 @@ Whatever's underneath — it's built from the opposite of what I carry. And unli
 Someone put it there. And someone has been feeding it.
 
 Time to find out who.
+
+# KENJI
+
+## *Day Eight (concluded) — The Crawl*
+
+---
+
+Elara opens the service door. Faculty key. Oiled hinges. The maintenance corridor descends into dark.
+
+"Before we go down," Sera says. Quiet. Hard. "The briefing. Now."
+
+I nod at Elara. She talks fast. Three minutes. The seal corruption. The entropy threads. Three hundred and forty-seven graduates. The siphon leading down. The pulse — heartbeat, collecting, growing fuller. The encoding match between the Duskfen ring and the seals. Same architect. Centuries old. The Chancellor.
+
+"And my seal," Sera says when Elara finishes.
+
+"The certification seal has a wider channel. The drain has been—"
+
+"More complete." Flat. "Three years. Not atrophied. Stolen."
+
+"Yes."
+
+Sera looks at the dark corridor.
+
+"Let's go find it."
+
+---
+
+Sub-basement one. General storage. I take point — the predator's eyes turning darkness transparent. Sera behind me. Elara last, navigating by memory and touch.
+
+The midnight shift change — voices, boots, the roster exchange forty feet away through stone. We hold. Three people breathing in the dark. Six minutes. The voices fade.
+
+Sera's hand signals. *Move. Left. Twenty feet. Door.*
+
+The ward lock on sub-basement two. Elara's palm. The shimmer reads her signature and dissolves.
+
+---
+
+Sub-basement two. The alchemical laboratories. Chemical tang. Workbenches. Glassware. Distillation apparatus.
+
+The predator's eyes find it immediately — a distillation array on the northeast wall, condensation in the collection flask. Dark. Nearly black.
+
+Nighthollow.
+
+The production setup. Botanical compounds. Mineral reagents. Institutional equipment — requisitioned, logged, maintained. Not a rogue operation. A sanctioned laboratory used for unsanctioned purpose.
+
+"Faculty-grade extraction setup," Elara says. "Someone signed for this through official channels."
+
+The northeast corner. Behind the distillation array. The maintenance hatch — iron, recessed in the floor, wheel-lock mechanism. No ward shimmer. Purely mechanical. The ley conduit access.
+
+I turn the wheel-lock. Stiff. Unused. A quarter turn. Half. Full. The lock disengages with a *clunk* that sounds like a gunshot.
+
+Silence. No alarm. No footsteps.
+
+The hatch opens. A vertical shaft. Three feet wide. Iron rungs. Descending into darkness.
+
+The air that rises is cold. Not cellar-cold. The cold of entropy. Concentrated. Thick. The same flavor as the Brennick cellar. As Elara's seal. As Sera's seal. But denser.
+
+The ember contracts. Shields itself. A flame when wind hits — not extinguished. Defended.
+
+---
+
+Thirty feet down. The predator's eyes straining. Another hatch. Sub-basement three.
+
+This hatch is different. Black threads — hairline-thin — woven into the iron frame. Entropy-based sensor. Not blocking. Detecting. Anything with magical energy that crosses the threshold gets flagged.
+
+"Your boots are enchanted," Elara says. "The knife has a return enchantment. The satchel is dimensional. If you go through, the sensor triggers."
+
+But I have something else. The Entropy Bond. I touched a Hexcrawler. I touched a dying god. The ember has a relationship with entropy. Not opposition. Dialogue.
+
+I reach toward the black threads. Hovering. The open hand. The listening reach. Creation meeting entropy to understand.
+
+The ember touches the threads. They're not alive. But they have a shape. A logic. Instructions — *detect, report*. I push gently. Not burning. Quieting. Like laying a hand over a sleeping animal.
+
+The threads dim. Dormant.
+
+"It's down. Go. Now."
+
+Sera through. Elara through. Me last — the ember holding the suppression as I pass. The threads twitch. I release. The ward hums back to life.
+
+We're through.
+
+---
+
+Sub-basement three.
+
+The predator's eyes struggle for the first time. Not dark — *too dark*. Entropy concentration so dense it interferes with the Eyes. Sixty feet of darkvision drops to thirty. Shadows at the edges that shouldn't be there.
+
+The air is cold. The cold of absence. My breath doesn't fog — the moisture consumed before it can condense.
+
+A corridor. Stone. Older than the Academy — rough-hewn, undressed. This was here first. The institution built on top of whatever this is. The ley conduit channels glow faintly — pale blue threads converging ahead. Flowing toward the heart.
+
+And the pulse. Physical now. A vibration in the stone. Thump. Thump. Thump.
+
+Sera whispers. "I can feel it. The pull. The same thing I felt when you touched my seal — except everywhere."
+
+Elara. Hand flat on the wall. "The ley conduits are converging. Every thread from every seal. This is the terminus."
+
+We advance. Elara's boot catches a loose stone. The sound rings.
+
+The pulse *changes*. Shifts rhythm. Something noticed.
+
+"It knows we're here."
+
+Sera's sword comes up. "Then we stop sneaking."
+
+---
+
+The chamber.
+
+Circular. Fifty feet across. Vaulted ceiling lost in entropy haze. Rough-hewn walls covered in carvings — old, worn, the root language of the encoding from the seals and the ring. Every ley conduit thread converges here.
+
+At the center. A stone pedestal. Three feet high.
+
+A crown.
+
+Blackened iron circlet. Runes carved into every surface — the same encoding from the ring and the seals but orders of magnitude more complex. The runes *move*. Crawling across the iron. The ley threads flow into the crown from every direction. Dozens of them.
+
+Thump. Thump. Thump.
+
+The heartbeat. The source. The thing collecting the essence of three hundred and forty-seven graduates for twelve years.
+
+The ember *screams*. Not sound. Sensation. Hot. Bright. Furious. Creation encounters entropy enslaved — chained to a purpose it was never meant to serve. A cosmic force perverted into a feeding machine.
+
+And behind the pedestal. In the deepest shadow. A shape. Not moving. *Present*. Tall. Thin. Patient. Something waiting for a very long time.
+
+The predator's eyes resolve it at the limit of their range. Not a construct. Not a creature. A *presence*. Darkness given form. Emaciated. Two points of cold light where eyes should be. The cold light finds me across thirty feet.
+
+Not my body. My ember.
+
+***...you carry the seed...***
+
+Telepathic pressure. The same weight as the dying god in the cellar — sharper. More coherent.
+
+***...the seed that makes things live. I am what makes things end. We were meant to complete each other.***
+
+A pause.
+
+***...help me. Please. I am so close to being whole again. And I am so tired of being fed through straws.***
+
+---
+
+I don't answer. Not yet. I hold.
+
+"There's an entity behind the pedestal," I tell them. "Telepathic. Asking for help."
+
+I sweep the chamber. Everything the eyes can give me.
+
+The carvings. The root-language symbols. The ley conduits converging. The crown pulsing at the center. A second passage on the south side — larger, proper archway, heavy ward signatures. The main access. The Chancellor's door.
+
+The floor around the pedestal — an inscribed circle, twenty-foot diameter. The entity hasn't moved beyond it.
+
+"It's bound. The circle is containment. It's chained to the crown and the crown is chained to the circle."
+
+I relay everything. Sera and Elara process.
+
+"What kind of help?" Sera says. "Help it finish? Help it eat faster?"
+
+"The containment circle changes things," Elara says. "If it's bound, it didn't build this. Someone else built the cage. Someone else installed the feeding mechanism."
+
+---
+
+I open the channel. Project intent through the ember.
+
+*The crown. Can I take it.*
+
+***...the crown is not mine. The crown is my cage.***
+
+The presence leans forward. Cold light flickering.
+
+***...I did not ask for it. I was dying — truly dying — and a man came with a bargain. He said he could save me. He said the cost would be small.***
+
+The cold light dims. Shame.
+
+***...the cost was not small. I feel them. Every one. Three hundred and forty-seven threads. I taste their essence and it keeps me alive and I hate every swallow.***
+
+***...if you take the crown, the binding breaks. The siphons sever. Every thread, every drain — it stops. Tonight.***
+
+A beat.
+
+***...and I am freed.***
+
+The cold light fixed on me.
+
+***...I will not lie, seed-bearer. I am the Unraveler. What makes things end. Freed, I am what I am. The hunger has changed me. Twelve years of forced feeding — I am more than I was. Less than I was. I am afraid of what I might be.***
+
+The presence contracts. A divine flinch.
+
+***...I might dissipate. Return to the cycle. The natural force of endings, invisible and necessary. Or I might manifest. Become something physical. Powerful. More powerful than I have been in millennia. And confused. And frightened. And very, very hungry.***
+
+***...I am telling you this because you carry the seed. You are the only being in this chamber — perhaps in this world — who could stop me if I become something I don't want to be. The creation energy that completed the cycle beneath the farmhouse could complete me. Or it could unmake me.***
+
+The cold light steadies. Fixed on me. The next words carry the weight of something that has thought about this for twelve years.
+
+***...take the crown. Free me. And if I become a monster — end me. That is the only bargain I will make. And unlike the Chancellor's — mine is honest.***
+
+The ember reads it. No deception. No manipulation. Raw honesty from something ancient and broken.
+
+***...but the crown is almost full. Weeks. When it reaches saturation, the man's bargain completes. He gets immortality. And the three hundred and forty-seven burn. All of them. At once.***
+
+The cold light finds Sera.
+
+***...including her. The one with the empty shelf.***
+
+---
+
+I relay everything. Word for word. Sera's jaw is iron.
+
+"The man. Ask it who."
+
+*The man who bargained with you. Who.*
+
+***...he came twelve years ago. Already old — not in body. In soul. He had lived beyond his natural span through smaller bargains. He knew the old methods. The encoding. The architecture.***
+
+***...he told me his name as though a god should be impressed by a mortal's title.***
+
+***...Chancellor. He called himself Chancellor.***
+
+---
+
+"Marius Vael," Elara says. Barely audible. "Twelve years."
+
+"He built the cage," Sera says.
+
+I ask the final question. *What did he get from you.*
+
+***...life. Unending life. We are a circuit. The essence flows through the crown into me, through me back into him. He does not age. A hundred and forty years wearing the face of an old man who should have died a century ago.***
+
+***...when the crown is full, the circuit completes permanently. He becomes truly immortal. And the three hundred and forty-seven burn.***
+
+"Weeks," Sera says. "We have weeks."
+
+---
+
+I look at the crown. At the circuit architecture laid open by the ember. Three hundred and forty-seven threads. An anchor point bearing Vael's signature.
+
+"Elara. Can you redirect the crown's anchor? Overwrite Vael's signature with mine?"
+
+She circles the pedestal. Crystal lens. Scribe. Binding ink. Two minutes of furious analysis.
+
+"Three components. The crown collects. Solveth stores. Vael anchors. The anchor is sympathetic — his signature woven into the runes. I can overwrite it. Ten to fifteen minutes inside the circle."
+
+She lays out the implications. Vael loses immortality. A hundred and forty years catches up. I become the anchor. The siphoned essence flows through me. The ember processes it — rivers into an ocean. And from inside the circuit, I can see every thread. Rewrite the system. Dismantle the siphons safely.
+
+"Theoretically," she says.
+
+I look at her.
+
+"Let's do it."
+
+---
+
+Elara steps across the threshold. The crown accelerates her drain. She gasps. Bears down. The scribe moves with surgical precision — tracing Vael's signature, isolating it, dissolving the redundant threads one by one.
+
+I guard the south passage with Sera. The archway. The chokepoint. Two alcoves flanking the entrance. She takes the right. I take the left. Hand axe. Flint stones. The returning knife with one dose of sleep.
+
+Minutes pass. Elara's voice thins as the drain pulls at her. "First redundant thread removed. Two more."
+
+Solveth watches her work.
+
+***...she is brave, the ink-fingered one. The man who built this was brilliant and cruel. She is brilliant and kind.***
+
+Seven minutes. "Last thread. It's fighting me. The encoding is adaptive — the crown is defending Vael's signature." She bears down. The scribe moving faster. "Got it. Kenji — I need you in the circle. Hand on the crown. The ember fills the space where Vael's signature was."
+
+I step into the circle. The entropy hits like deep water. The cold wraps around me. The ember roars. I put my hand on the crown.
+
+The world detonates.
+
+Not fire. Information. Three hundred and forty-seven threads visible. Every siphon. Every stolen life. A web stretching upward through the Academy, through the city, through the countryside. Individual signatures — a woman who can't light a candle. A man whose healing faded. A retired professor. Sera — the wide pipe, the empty shelf.
+
+And Vael's signature at the center. A hundred and forty years of borrowed life humming in the iron.
+
+Elara's scribe touches the crown. "Beginning the overwrite. Don't let go."
+
+The binding ink burns the old anchor away. The ember fills it. Not because I tell it to — because it *wants* to. Hot gold replacing cold black. My signature inscribing itself into the space where a parasite used to live.
+
+The pain. Not physical. Existential. Three hundred and forty-seven threads of stolen essence hitting an infinite seed. I see their faces. Flash. Flash. Flash. A woman laughing. A man reading. Sera throwing a force bolt with both hands. Elara with ink on her fingers and wonder in her eyes.
+
+The ember burns brighter than ever. Gold light pouring from my hand. The runes reorganize around the new anchor.
+
+The circuit completes.
+
+---
+
+Somewhere above — Marius Vael's heart stops. Three seconds. Restarts. A hundred and forty years of borrowed time noticing the rent is no longer paid.
+
+In the chamber, the circuit hums through me. Three hundred and forty-seven threads visible. The architecture open. I reach for Elara's thread.
+
+The ember dissolves it. Eight years of parasitic architecture unmade in two seconds.
+
+Elara makes a sound. A *breath*. The first full breath in eight years. Color floods her face. "Oh. Oh, *gods*."
+
+Sera's thread. Thicker. The wide pipe. Three years of total drain. The ember wraps around it and the thread fights — thicker, deeper roots. The ember burns hotter. Every root. Every tendril. Every anchor point — dissolved. The channels reopened. The shelf rebuilt.
+
+The thread dissolves. Three years. Gone.
+
+At the south passage archway, Sera feels it happen. Her knees buckle. She catches herself on the wall. Her hand comes up.
+
+Blue-white light.
+
+A force bolt. Fully formed. Stable. Real. The magic stolen three years ago, returned to a framework rebuilt by an infinite seed.
+
+"You're free, Sera. No more pent up nights in inns trying to do magic."
+
+She looks at me across the chamber. The force bolt in her palm. Tears she will deny until her dying day.
+
+"You absolute—"
+
+She closes her fist. The force bolt intensifies.
+
+"He's coming?" she says.
+
+"Two minutes."
+
+Sword in the right hand. Force bolt in the left. She steps into the center of the archway.
+
+"Let him come."
+
+---
+
+But we don't need to fight. We need to run.
+
+"We have the advantage of time," I tell them. "All we need is to escape with the crown."
+
+The crown off the pedestal. The chamber shudders. Ley threads stretch. The inscribed circle flares and goes dark. Solveth flickers — still bound, the cage is the mechanism, not the location. Where the crown goes, the entity follows.
+
+The crown goes into the Satchel of Holding. Three pounds of blackened iron swallowed by dimensional space. The siphon threads stretch through the fold but hold.
+
+Elara inverts the entropy sensor on the maintenance hatch. Her restored mage-sight and ward expertise making thirty seconds of work look like three years of practice.
+
+Up the shaft. Sera first — the force bolt lighting the way. Me second — Stride-enhanced climbing speed. Elara last — she seals the hatch behind us. Counter-runes. The entrance exactly as it was.
+
+Through sub-basement two. The nighthollow lab. Ghosts passing workbenches. Elara catches a wobbling flask before it hits the floor.
+
+Through sub-basement one. The service corridor. The door. Night air.
+
+Stars.
+
+---
+
+Three people behind an ivy-covered wall. Breathing hard.
+
+"Thanks for your help, ladies. You should have seen your faces once you were no longer all pent up and your magic started working." I adjust the satchel. "Jeez, that gasp of *oh my god* Elara — really that good?"
+
+"Kenji you cannot just WALK AWAY carrying a—"
+
+I'm around the corner.
+
+"—divine artifact containing a CHAINED GOD in a HANDBAG—"
+
+Gone.
+
+Behind me — two women on cold ground. One with a sword and a restored force bolt. One with a scribe and eight years of returned mage-sight. Both staring at the empty space.
+
+"He put a god in his satchel," Elara says. "He put an entropy god in a satchel and walked to an inn."
+
+Sera sheathes her sword. Slowly.
+
+"He does this."
+
+"You warned me."
+
+"The warning was insufficient."
+
+"I'm going to kill him."
+
+"Not before I do."
+
+"We could collaborate."
+
+"I'll draft a plan. Tomorrow."
+
+---
+
+The Silver Draft. Back door. My room. The lock clicks.
+
+The Satchel of Holding on my lap. Inside — the Hollow Crown. Three hundred and forty-five threads humming through the ember.
+
+***...seed-bearer. The empty chamber. The man is there. I can feel him. He is afraid. For the first time in a hundred and forty years.***
+
+A pause.
+
+***...thank you. For not destroying the crown. For not destroying me. For choosing the leash instead of the sword.***
+
+***...I will try to be worth the mercy.***
+
+The pressure fades. The entity settling into the dimensional space. A prisoner transferred to a kinder cell.
+
+I eat. Rations from the satchel. Perfectly preserved. I lie back on the bed. The satchel on my chest. The crown inside. The ember burning steady — hotter, deeper, processing three hundred and forty-five stolen lives through an infinite seed and holding.
+
+Tomorrow. Aldwin at dawn. Edwyn's presentation. A Chancellor aging in real time, hunting for his crown.
+
+And me. Walking into all of it with a chained god in my satchel and two furious women planning my murder.
+
+Day eight. The longest day since the mud.
+
+My eyes close. The ember holds the circuit. The heartbeat syncs with my breathing.
+
+I sleep.
+
+---
+
+DING — LEVEL 6 — PERK SELECTION AVAILABLE
+
+The ember didn't just deepen this time. It *restructured*. The circuit — three hundred and forty-five threads of entropy-stolen essence flowing through a seed of infinite creation — has changed the architecture of what I am. The power is denser. More articulate. The connection between will and magic not just tighter but *wider*. More channels. More options. The ember learned something tonight about what it means to hold entropy in one hand and creation in the other.
+
+KENJI
+Human — Blade Channeler — Sorcerer Swordsman
+Level 6 — Outlander
+
+HP: 39
+AC: 15 (Ironwood-Cured Bear Leather + DEX)
+Initiative: +1
+Spell Attack: +6
+Spell Save DC: 14
+
+STR 15 / +2
+DEX 13 / +1
+CON 13 / +1
+INT 9 / -1
+WIS 11 / +0
+CHA 17 / +3
+
+Proficiency Bonus: +3
+
+CANTRIPS
+
+Arcane Edge — Silver-white weapon infusion. Force damage on hit. Works on sharp thrown projectiles.
+Blade Ward — Purple reactive shield. Halve one physical hit. Three per rest.
+
+LEVEL 1 SPELLS (5 slots)
+
+Thunderous Strike — Expend slot on hit. CON save or prone plus thunder.
+Charisma Surge — Add charisma to any roll before rolling.
+Charm Person — One humanoid, friend for one hour.
+Arcane Stride — Enhanced. Twelve hours. Double speed. No opportunity attacks. Extra action.
+Radiant Edge — Golden radiant weapon. Anti-darkness. Full vs entropy. Halved vs normal.
+
+LEVEL 2 SPELLS (3 slots)
+
+Vampiric Daggers — Five shadow daggers. Throw or melee stab. Quarter healed, doubled by metabolism.
+Eyes of the Hunter — Twelve hours. Darkvision. Advantage Perception. Plus thirty feet throw. Stacks with one buff.
+
+LEVEL 3 SPELLS (2 slots) — NEW
+
+Available at Level 6. Selection pending.
+
+PERK — SPEEDSTER
+
+Arcane Stride Enhanced. Fast Metabolism — double healing, hunger at four hours.
+
+PERK 2 — PENDING SELECTION
+
+Level 6 perk available. To be chosen.
+
+ABILITIES
+
+Arcane Momentum — Kill with Edge active, free bonus attack.
+Sera's Cage — Defensive stance, plus two AC.
+Enhanced Cage — Counterattack on miss while Eyes active. Once per combat.
+Entropy Bond — Touch entropy creatures or constructs. CHA check. Connection, communion, suppression.
+Circuit Anchor — Kenji is bound to the Hollow Crown. 345 active siphon threads visible and accessible. Can sever threads individually. The ember processes stolen essence through creation energy.
+
+EQUIPMENT
+
+Ironwood-Cured Bear Leather Armor — AC fifteen.
+Longsword — at the Silver Draft.
+Hand Axe — belt.
+Returning Somnus Knife — one dose remaining.
+Windrunner Boots — plus two Acrobatics.
+Satchel of Holding — containing the Hollow Crown and one chained god.
+Combat Mage Certification — brass token.
+Lockpick set.
+Sharp flint stones, seven.
+Entropy Anchor Ring — evidence.
+Voss's ledgers — evidence.
+Voss's key ring, three keys.
+Pip's honey cake, one remaining.
+
+PARTY
+
+Kenji — Level six. Circuit anchor. Crown bearer. At the Silver Draft.
+Sera — Restored. Force bolt. Sword. Furious. Planning murder.
+Elara Ash — Restored. Mage-sight. Scribe. Also planning murder.
+Garrett — Out overnight. Guild contracts. Unaware.
+Edwyn — Preparing presentation. Preparing bittershade. Unaware.
+
+At the Broken Antler Guild:
+Brindle — Guild leader.
+Kael — Trainer.
+Harsk — Bridge.
+
+Gold: three.
+
+New burden: the Hollow Crown. Three hundred and forty-five stolen lives humming in a satchel. A chained god grateful for mercy. A Chancellor aging in real time. And a decision about three hundred and forty-five threads that has to be made before the crown reaches saturation.
+
+Weeks. Maybe less.
+
+The clock is running.
+
+End of Chapter Twelve.
+# KENJI
+
+## *Day Nine — The Dramatic Little Bastard*
+
+---
+
+Dawn. The Silver Draft. The bed. The ceiling. The satchel on my chest.
+
+Thump. Thump. Thump.
+
+Not my heartbeat. Alongside it. The Hollow Crown pulsing inside the dimensional fold. Three hundred and forty-five threads humming through the ember like a choir in a language I'm still learning. The circuit is constant now — a background awareness that wasn't there two days ago. The ley web beneath the city the way I feel my own pulse. The Academy tower a bright knot. The graduates — scattered across the region — faint individual notes in a vast chord.
+
+The ember is different this morning. Not just deeper. Wider. Level six. The long rest processed the circuit the way sleep processes a hard lesson. The creation energy didn't just absorb it. It organized it.
+
+New spell slots. Level three. Two of them. Empty chambers waiting. And the perk — the second perk — something crystallizing at the edge of perception. The ember has changed. The man who touches gods has been changed by the touching.
+
+I eat. Bread, smoked meat, an apple from the satchel. Perfectly preserved. The furnace accepts it sitting in pre-dawn dark with a god in my bag.
+
+---
+
+Full gear. Ironwood armor. Chest piece. Shoulder guards. Longsword left hip. Hand axe right. Returning knife on belt. Windrunner Boots. Satchel of Holding cross-body — the Crown inside, invisible, the heartbeat muffled.
+
+The circuit tells me things without being asked. The ley web is agitated. The Academy tower pulsing irregularly — the arrhythmia of a system that lost its core component. The threads are flowing into me now, through the satchel, and the web hasn't fully recalibrated.
+
+---
+
+The common room. Garrett at the corner table. Coffee. Ledger.
+
+"You look different."
+
+"New day."
+
+"No. Different. Heavier. Not weight. *Presence*. Like there's more of you."
+
+"Leveled up overnight. New spells. Deeper reserves."
+
+"Hm." He accepts it. "The guild contract lead panned out — merchant consortium running northern caravans. They need escorts. I'm meeting their factor at noon."
+
+He slides a paper across. "Brindle's courier arrived. The Council highway contract reached the Antler. She signed. The guild is officially operational. First monthly payment in three weeks."
+
+He sets two glass vials on the table. Dark green liquid. The sharp chemical smell of something that doesn't want to be touched.
+
+Bittershade. From Edwyn. Ready before dawn, as promised.
+
+"Edwyn said to tell you: *remember they feel everything*."
+
+---
+
+The Academy gates. Dawn. The guards wave me through — but one looks a beat longer than yesterday. Something in the Academy has changed overnight and even the guards feel it.
+
+The courtyard. Fewer students than yesterday. Clusters of conversation.
+
+"—felt it last night, around midnight—"
+
+"—the tower lights flickered—"
+
+"—the Chancellor cancelled his morning appointments—"
+
+The Chancellor cancelled his morning appointments. The cover story — ley fluctuation — is holding. But Vael isn't in his office. He's somewhere doing something about the empty chamber beneath his feet.
+
+---
+
+The eastern training grounds. Aldwin on the bench. Same stillness. But the staff isn't leaned against the bench — it's in his hands. Across his knees. The grip isn't casual. The knuckles white.
+
+"Sit down."
+
+I sit.
+
+"Something happened in this Academy last night. Around midnight. The ley web convulsed. Every ward flickered. My staff—" He lifts it. "—woke me up. It's been tuned to the network for forty years. Never done that before."
+
+He sets it down.
+
+"This morning the Chancellor cancelled all appointments. His office is locked. The sub-basement guards reported nothing unusual but the wards reported a micro-anomaly on the level-three sensor at twelve-oh-three AM. Three minutes after midnight shift change."
+
+The grey eyes.
+
+"You came here two days ago. Yesterday you cleared my gauntlet. Last night the ley web convulsed for the first time in three centuries." He taps the staff. "I don't believe in coincidences."
+
+"What did you do, Kenji?"
+
+---
+
+"What are you talking about, old man? I was busy helping two pent-up beautiful women last night. I even made one gasp oh my god." I wave my hands in his face. "Cast one of your *you're a wizard, Aldwin* spells and read my mind if you can."
+
+He stares at me.
+
+"You're a wizard, Aldwin," he repeats. Flat.
+
+He reaches forward. Two fingers — scarred, knotted — press against my forehead.
+
+He looks inside.
+
+---
+
+I lay out the memories like a card dealer choosing which cards face up. The Perfect Recall curating the presentation. The ember keeping the background dark, the context stripped.
+
+What Aldwin sees:
+
+A warded room. Elara. Her wrist in my hand. Eyes going wide. The gasp — "*Oh. Oh, gods.*" Color flooding her face.
+
+No seal visible. No threads. No entropy. Just a man touching a woman's wrist and her reaction.
+
+A fountain. Sera. Her forearm in my hand. Knees buckling. The gasp. Tears. "*It was there. For a second.*"
+
+No force bolt visible. No siphon. Just a man touching a woman's arm and her coming undone.
+
+My voice: "*You should have seen your faces once you were no longer all pent up.*" Elara: "*KENJI you cannot just WALK AWAY—*" Sera: "*He does this.*"
+
+---
+
+Aldwin's fingers leave my forehead.
+
+"You're telling me that last night — while the ley web was experiencing its first major convulsion — you were making Instructor Ash gasp. And making Sera buckle." He looks at me. "By touching their... forearms."
+
+A pause.
+
+"I'm seventy years old. I've been half-deaf for twenty. But I am not stupid."
+
+He sits back down.
+
+"What you showed me doesn't explain the ley web. But the fact that you curated it — shaped it, used that perfect memory to present exactly what you wanted — tells me something more important."
+
+He leans forward.
+
+"You're hiding something. Something involving Elara. Something involving Sera. Something that shook the foundations of this Academy." The grey eyes. "And you're hiding it behind the most elaborate *I was busy with women* excuse I've heard in four decades."
+
+He plants the staff.
+
+"Is this Academy in danger?"
+
+"Depends on me, Aldwin. I'll make a deal — you show me something cool, and I'll whip something out of my bag that answers your question. I'd like to learn a summoned frost sword."
+
+"You're *negotiating* with me. I ask if the Academy is in danger and you're negotiating."
+
+He doesn't throw me off the training ground.
+
+"Show me something cool," he repeats.
+
+---
+
+He teaches. Not theory. Not formulae. The way a man with forty years and no time teaches.
+
+"Frost is not ice. Frost is *stillness*. Cold is the absence of motion. Your ember makes things exist — make stillness exist. Give it form. Give it an edge."
+
+He demonstrates. The ice sword in his hand — clouded white, blue edge, smoking in the morning air. Then dismisses it.
+
+"Don't copy me. Ask the ember what stillness looks like when it's sharp."
+
+The ember considers. The creation energy takes the lattice, the framework, the idea of motion being removed. And the circuit adds something. The 345 threads carrying stolen essence — some belongs to mages who understood cold. Their knowledge is in the current. Their vocabulary is in the ember now.
+
+And Solveth. What is cold but the ending of warmth? What is frost but entropy applied to motion?
+
+The ember and the circuit and the whisper of a chained god converge.
+
+The sword forms in my hand.
+
+Not Aldwin's ice sword. Darker. Blue-black, the color of deep winter midnight. Dense, not transparent. The edge smokes with cold that has a faintly green tinge — the entropy echo. The crossguard is jagged crystal. Sharp enough to cut.
+
+The cold radiates. Not just temperature — *intent*. The air thickens. Moisture freezes. The packed earth frosts in a two-foot radius. Everything near this weapon is being told to slow down.
+
+"That's not what I taught you," Aldwin says.
+
+"The ember had opinions."
+
+"Your ember always has opinions." He reads the blade. "There's something in the frost that shouldn't be there. That green tinge. The Crown. The circuit. It's influencing your conjurations."
+
+"Is that a problem?"
+
+Five seconds.
+
+"Not yet. But watch it. Creation and entropy in the same blade is either the most balanced weapon I've ever seen or the most dangerous."
+
+---
+
+I dismiss the Frost Fang. The blade dissolves into cold vapor. The frost radius fades.
+
+"Your turn," I say. "A deal's a deal."
+
+I reach into the satchel. My fingers find the blackened iron. The crawling runes warm against my skin. I pull the Hollow Crown out.
+
+The training ground changes.
+
+The ley web beneath the packed earth flares. The ward runes from yesterday's gauntlet glow. The stone owl fountain gurgles louder. Every enchantment within a hundred feet wakes up.
+
+Aldwin's staff screams. Bright blue. The ley-tuned instrument responding to the object that was the convergence point for three hundred years of infrastructure.
+
+He looks at the Crown. The grey eyes — forty years in this Academy, forty years walking above something he never knew existed.
+
+"Gods. That's a convergence anchor. That's what the ley web was built around."
+
+"Sub-basement three. Below everything. In a chamber older than this institution."
+
+"Who."
+
+"That's the part I'm not telling you yet. Not because I don't trust you — because the person who put this down there has been here longer than you have."
+
+He stares. The grey eyes recalculating everything. Forty years. The seals. The graduates. The fading. The deaths.
+
+"A convergence anchor. Collecting what."
+
+"Essence. Magical essence. Siphoned from graduates through their Assignment Seals."
+
+The staff creaks in his grip.
+
+"The seals. Every student I've certified. Every combat mage I've trained. They walked out with a drain woven into—"
+
+He stops. Looks at his hands. The scarred hands that shook the hands of eleven combat mages. Seven dead. Did the drain weaken them? Did it contribute to—
+
+The thought crosses his face. The horror as revision. Every death. Every decline. Every former student who just seemed to fade.
+
+"How long."
+
+"Twelve years. Three hundred and forty-seven graduates."
+
+"And the person who built it."
+
+"Is in this Academy right now. And they know the Crown is gone."
+
+Aldwin sits down. Not on the bench. On the ground. The staff across his knees. The most dangerous man in the building sitting in the dirt processing the fact that his life's work has been a farm.
+
+Ten seconds.
+
+"Last night. Sera and Elara. That's what the gasping was. You removed their siphons."
+
+"I touched their seals with the ember. The creation energy dissolved the entropy threads."
+
+"They gasped." He looks at me. The ghost of something that might have been a smile in a universe where he hadn't just learned his institution is a slaughterhouse. "The oh-my-god gasp. You dramatic little bastard."
+
+I pull him to his feet.
+
+"I don't know who built it," he says. "You won't tell me. Fine. But are they stronger than me?"
+
+"Potentially. Twelve years of accumulated stolen essence."
+
+"Then you need to be stronger than both of us." He plants the staff. "Put that thing away. Tomorrow. Dawn. I teach you something that requires you to trust me completely. And you tell me who put that Crown in the basement."
+
+He walks toward the colonnade.
+
+"Dramatic little bastard," he mutters. But the staff taps with a rhythm that sounds like approval.
+
+I put the Crown back in the satchel. The ley web settles. I recast the Frost Fang — the blue-black blade reforming in my hand. Twelve hours. The green tinge curling from the edge like breath in winter air.
+
+---
+
+END OF CHAPTER THIRTEEN — NO LEVEL UP (No Long Rest)
+
+The morning sun on the training ground. Frost melting where the new blade touched the earth. A green tinge fading from the air. The most dangerous man in the Academy walking away with knowledge that changes everything he believed about his life's work.
+
+And in my satchel — the god and the Crown and 345 threads humming steady. The ember holding it all. Creation and entropy and stillness and the particular warmth of trust given in exchange for a dramatic little truth.
+
+Aldwin will figure out who built the Crown. By tomorrow he won't need me to tell him. The old man's grey eyes have been reading this Academy for forty years. Now they know what they're looking for.
+
+The afternoon holds Edwyn's presentation. The evening holds whatever Vael is planning. The night holds the unknown.
+
+But this morning — this morning I learned that frost is the ending of warmth. And the ember learned that endings can be a weapon too.
+
+
+# KENJI
+
+## *Day Nine (continued) — Two Combat Mages*
+
+---
+
+Sera arrives in four minutes. Through the colonnade at a pace that's technically walking and functionally advancing. Dark leathers. Sword on hip. The face of a woman who received a three-word summons from the most dangerous man in the Academy and came armed.
+
+She sees me. Then Aldwin. Then the frost residue on the training ground. Then the Frost Fang in my hand — the blue-black blade with the green entropy edge that didn't exist yesterday.
+
+"New sword."
+
+"Learned it this morning."
+
+"Of course you did."
+
+She looks at Aldwin. Respect. Deference. The relationship between a certified combat mage and the man who certified her.
+
+"Master Aldwin. You summoned me."
+
+"He summoned you." Aldwin nods at me. "I'm just the messenger service."
+
+Sera looks at me. The professional mask on — but underneath, the awareness of everything. The Crown. The crawl. The force bolt in her palm. The tears she'll deny. And the particular fury of a woman who was simultaneously saved and insulted.
+
+"What do you need, Kenji."
+
+---
+
+"I need you to teach me how to fight with two weapons. Not the cage — something that lets me attack twice in the same action. The longsword and the Frost Fang together."
+
+She draws her arming sword. Holds it right. Extends her left — a force bolt forming, elongating, solidifying into a short blade of compressed energy.
+
+My eyebrows rise. She didn't have that yesterday.
+
+"My magic came back with interest." Flat. Not explaining.
+
+She settles into a stance I haven't seen — wider than the cage, lower, both weapons forward. Fluid.
+
+"The cage is defense. A wall. This is different." She moves — the arming sword cuts lateral, the force blade follows from the opposite angle. A scissors pattern. "Two weapons. Two lines of attack. Same motion. The first opens the guard. The second punishes it."
+
+She resets.
+
+"Twin Fang. I learned it third year. Original technique used matching short swords." She looks at my weapons. "You're not matching. Longsword heavy, long, physical. Frost Fang lighter, shorter, magical. You can't mirror. You complement."
+
+She looks at Aldwin. "May I use the grounds?"
+
+"It's your certification. Teach."
+
+---
+
+"Draw both. Longsword right, Frost Fang left."
+
+The longsword — merchant steel, familiar. The Frost Fang — blue-black, smoking, green entropy curling into the air. Two weapons. Steel and stillness.
+
+"The longsword leads. Heavier, longer, more damage. The Frost Fang follows — shorter, faster, the finishing strike. Think of it as punctuation. The longsword writes the sentence. The Frost Fang adds the period."
+
+She demonstrates slow — leading cut, body rotation, trailing weapon following the torque.
+
+"The rotation generates momentum in your off-hand. Use it. The Frost Fang comes around on the back of the longsword's arc. Not separate. Continuation."
+
+The dummy first. The headless one that survived the gauntlet.
+
+The longsword cuts right to left. Body rotates. The Frost Fang follows left to right, trailing the torque. Both blades connect within a half second. The longsword bites canvas. The Frost Fang freezes where it touches.
+
+"Rough. Timing's off. The Frost Fang arrived late. Again. Faster. Don't think about the off-hand — let the rotation carry it."
+
+Better. The longsword leads and the Frost Fang rides its wake. Both cuts in a window too tight for a human opponent to block the second.
+
+"Now the problem." She draws. "Against me. Half speed."
+
+The diagonal. I block with the longsword — instinct, the cage. The Frost Fang hangs. Dead weight. The dual-wield offense vanishes the moment I go defensive.
+
+"That. When you defend, the off-hand dies. The cage used one blade for everything. Twin Fang needs you to separate them. During defense, the Frost Fang doesn't strike — it positions. Somewhere the enemy doesn't want it to be."
+
+The diagonal again. The longsword catches it. But this time my left hand moves — the Frost Fang drops low, pointing at her knee. Not striking. Threatening. Frost smoking six inches from her leg.
+
+She sees it. Has to adjust. The follow-up costs her a quarter-second.
+
+"There. That quarter-second is where the Twin Fang lives. You're making the enemy think about two things at once."
+
+She steps back. Looks at me holding both weapons.
+
+"It's not polished. You need days of practice. But the framework is there." She folds her arms. "Your ember will do the rest. It always does."
+
+Aldwin from the bench: "The frost blade changes things. Every off-hand hit slows the target. By the third exchange they're fighting through mud. The longsword gets faster relative to the target with every Frost Fang hit. That's not a technique. That's a strategy."
+
+He looks at Sera.
+
+"Good teaching."
+
+Her arms uncross for a half-second before recrossing.
+
+---
+
+The ember locks it in. Not memorized pattern — principle. The rotation carry. The trailing strike. The defensive threat. Frost first, slow the target, steel finishes.
+
+---
+
+"Now I want to test it." I grin at Sera. "Both of you. Summon your weapons. Come at me seriously. Life and death. Do not hold back."
+
+I cast. Ward Mastery — frost resistance. The purple-gold shimmer settling across the ironwood armor. Physical damage halved. Cold reduced by four on every hit.
+
+Longsword right. Frost Fang left. Eyes of the Hunter sharpening the world. Arcane Stride humming in the legs. Ward Mastery glowing on the armor.
+
+"Oh and Sera — this is your chance to prove yourself. Of course, you spent all night, alone, in the dark, practicing... with... your—"
+
+Sera's sword clears the scabbard before I finish. Force bolt compressed into a short blade. Murder in her eyes.
+
+"FINALLY."
+
+Aldwin stands. Staff taps. White pulse. Frost crystallizes. An ice blade at the tip — seven feet of bladed staff.
+
+"You asked for this. I want that on the record."
+
+---
+
+She comes first. Fastest initiative. Three years of stolen fury returned to a body that remembers what it was.
+
+A force bolt at my feet — displacement shot. Not aimed to hit. Aimed to move me. The detonation kicks my stance open. She's already inside. Arming sword — the diagonal. Force blade — Twin Fang trailing.
+
+Three hits. The force bolt rocks me. The sword finds my shoulder — the ironwood and the Ward absorb most of it, seven becomes three. The force blade cracks against my ribs. Blue-white energy on leather.
+
+"How's that feel."
+
+---
+
+My turn. The Stride launches me through her guard. Inside Twin Fang range.
+
+The longsword catches her forearm. She hisses. The Frost Fang follows the rotation — raking across her thigh. Cold *bites*. Frost spreads. The green tinge of entropy crawling through the wound. Warmth floods back through the circuit — the damage converting to healing. Seven hit points returning.
+
+"What the hell is—"
+
+The third strike. Stride extra action. The Frost Fang catches her sword arm. Blue-black blade trailing green cold. The arm slows. Fingers on the arming sword going rigid.
+
+Two frost stacks. Her movement halved and halved again. One more hit from combat-incapable.
+
+She goes to her knees. Force blade dissolving. Frost spreading. Green tinge pulsing.
+
+She looks up. Fury and awe fighting for the same face.
+
+"That sword is *wrong*."
+
+---
+
+Aldwin doesn't rush in. The staff taps. The earth erupts — frost spikes in a thirty-foot arc. Terrain control. Cutting off my lateral movement.
+
+The Windrunner Boots find the gaps. Dancing through ice.
+
+The bladed staff comes around. Seven feet of reach. The ice blade catches my hip. The cold is different from the Frost Fang — sharper, more refined, forty years compressed. The Ward eats four points but it still stings. My leg stiffens.
+
+"Speed without direction is just running. You hit Sera because she came to you. I didn't. I made you come to me."
+
+Staff planted.
+
+"Show me something or yield."
+
+---
+
+The Stride launches me around the frost terrain. Not through — around. The Windrunner Boots reading the spike field, finding the arc to his flank.
+
+Twin Fang. The longsword catches his left side. The grey robe parts. He grunts — the first sound of pain.
+
+The Frost Fang follows the rotation. Blue-black blade across his ribs. The cold hits and Aldwin *feels* it. The green tinge crawling in. Frost spreading. Warmth flooding back to me — seven hit points returning.
+
+First frost stack.
+
+The third strike — Stride extra action. The Frost Fang catches his staff arm. The fingers go rigid. The gnarled wood wobbles.
+
+Second frost stack. His movement a crawl now.
+
+I blow past. Thirty-five feet beyond. Clean stop. Full health. Three temporary hit points shimmering. Both weapons ready.
+
+Aldwin is standing where I left him. Both sides frosted. Staff arm barely functional. The most dangerous man in the Academy with green-tinged entropy crawling through his wounds.
+
+"The drain," he says. Quiet. "The sword drains. You built a weapon that steals life on every hit."
+
+He looks at the Frost Fang.
+
+"That green. That's not frost. That's not creation. That's entropy. In your blade."
+
+He plants the staff. Both hands. Using it to stay upright.
+
+"You're not just carrying that Crown. You're using it. The circuit. The entropy god. It's feeding your weapons."
+
+He straightens. It costs him.
+
+"I yield."
+
+The staff lowers. The ice blade dissolves. The frost terrain begins to melt.
+
+"Not because I can't fight. Because if I keep fighting, you'll put me down the way you put her down. I'd rather stand and tell you what I see."
+
+He looks at Sera on her knees. At me — full health, temp HP, not breathing hard.
+
+"Nine days. You've been here nine days. Carrying a divine artifact, channeling entropy through creation, and you just beat two combat mages simultaneously."
+
+He taps the staff once. The rhythm of finality.
+
+"Twelve certifications. You're still the best."
+
+He limps toward the bench.
+
+"Someone heal the old man. And tell Sera she can stop glaring. It's unbecoming of a combat mage."
+
+---
+
+END OF CHAPTER FOURTEEN — NO LEVEL UP (No Long Rest)
+
+The training ground. Scored with frost. Spike holes. Sera on her knees with green tinge fading from her armor. Aldwin on the bench with thirteen hit points and the expression of a man who just met the future.
+
+Two combat mages. One round for the first. Two rounds for the second. The Frost Fang's entropy echo draining life on every hit while the ember converts the stolen warmth to healing.
+
+Creation and entropy. In the same blade. In the same man.
+
+The morning sun is high. The training ground is quiet. And somewhere in the Academy — an aging Chancellor is wondering why the ley web has a new rhythm.
+
+It's mine now.
+
+# KENJI
+
+## *Day Nine (continued) — The Sword That Waited*
+
+---
+
+Sera is on one knee. Frost fading. Green tinge gone.
+
+I extend my hand.
+
+She takes it.
+
+I scoop. One arm under her back. One under her knees. Legs lifting, core pulling her close. Ironwood armor pressing against her leather. The Frost Fang dismissed a second before — left hand finding the back of her knees instead of a hilt.
+
+Sera freezes. Not frost. System failure. No response protocol for being picked up like a bride on a training ground at ten in the morning.
+
+Her arm goes around my neck. Instinct. Balance before her brain authorizes the motion.
+
+"Kenji. What are you doing."
+
+"I'm taking you to your room."
+
+The words cross the training ground like a thunderbolt.
+
+Her entire body goes rigid. The arm tightens.
+
+"You are NOT—"
+
+Actual voice crack. The first time Sera's voice has failed mechanically. The color ignites. Full-body flush so complete the frost on her leather melts faster from residual heat.
+
+From the bench — Aldwin. Staff stops mid-tap. Grey eyes wide. Thirteen hit points and broken composure.
+
+He coughs. It might be a laugh.
+
+Sera's mouth working. Words forming and dying. The professional mask isn't cracked — it's on the floor.
+
+"Put me — I can — this is a — you can't just—"
+
+Five commands. One mouth. Zero success.
+
+Two students in the courtyard stop walking. Watching through the archway. One drops a textbook.
+
+Sera sees them. The scout's eyes finding the audience at the worst possible moment.
+
+"Kenji." A whisper. "*Put me down.*"
+
+I set her down. Gently. Her boots find the earth. Her legs hold. They were always going to hold.
+
+Her arm leaves my neck. The half-second delay. Then gone.
+
+One step back. Two. Perimeter reestablished.
+
+She straightens her leather. Adjusts the sword belt. Pushes a strand behind her ear. Precise. Controlled. Professional exterior rebuilt over whatever is happening inside.
+
+The color is still in her ears.
+
+She looks at the training ground. The frost. The scored earth. The spot where she went down in one round.
+
+"He's right, you know." Quiet. The color still there but the voice steadying. "You called me here to see it. Not just Twin Fang. You wanted me in the ring. Wanted me to fight at full power — the power *you* gave back — and lose. So I'd know exactly how strong you are."
+
+A beat.
+
+"It worked. I hate that it worked."
+
+She opens her mouth. Closes it. Opens it.
+
+"Three hours. Edwyn's. Presentation. I'm going. To my room. To *rest*. Alone. By *myself*."
+
+She turns. Walks toward the colonnade. Precise. Military. Exactly as fast as dignity requires.
+
+She passes the two students. They study their shoes with sudden academic intensity.
+
+She disappears into the east wing.
+
+---
+
+Aldwin on the bench. Staff across his knees. Looking at the archway.
+
+He looks at me.
+
+"The spar. What you did to both of us." The staff taps. "That wasn't just technique testing. You called Sera here because you wanted us both to see what you've become. So when the time comes to face whatever's coming, we don't hesitate. We don't hold back. We follow."
+
+The grey eyes. Sharp as ever despite thirteen hit points.
+
+"Smart. Manipulative. Effective." He picks up his staff. Stands. "You'd have made a terrible student and an excellent general."
+
+"Three hours," he says. And walks away.
+
+A single bark of laughter from the colonnade — short, hard, killed immediately. The staff tapping accelerates. He disappears.
+
+The training ground is empty. Frost puddles. Spike holes. The particular silence that follows a morning where everything happened.
+
+The ember pulses. Warm. Amused.
+
+---
+
+I eat. Rations from the satchel. Sitting on the bench alone.
+
+Three hours before Edwyn's presentation. I need a better sword.
+
+---
+
+Room twelve. I knock. The door opens immediately.
+
+Elara is at her desk. Ink-stained fingers working through papers. The restored mage-sight evident in how she moves — fluid, certain, the eight-year fog lifted.
+
+"Kenji. What do you need."
+
+"Do you have any magical longswords I can look at?"
+
+The question isn't what she expected.
+
+"I'm an instructor, not an armorer. But you're asking the right person for the wrong reason. I don't have weapons. I have access."
+
+She pulls an Academy catalogue from the shelf. Thick. Dog-eared. Three hundred years of accumulated magical equipment.
+
+"The vault tour was scheduled for this afternoon, but Vael cancelling appointments disrupts the authorization chain." She looks at me. "However. Senior faculty with a research residency to supervise can authorize a supervised inspection under the academic study provision."
+
+She opens the catalogue. The weapon section.
+
+"Three magical longswords in inventory."
+
+She taps three entries. Tempest Edge — lightning, forty years old, reliable, textbook. Duskrender — shadow and necrotic, two hundred years old, entropy-adjacent. And—
+
+Emberfang.
+
+Unknown origin. Five hundred years old. Fire enchantment with an unusual secondary property. The blade has a faint amber glow. The crossguard etched with symbols Elara doesn't recognize.
+
+"This one is odd," she says. "The enchantment methodology doesn't match any tradition. The symbols predate our records. And the fire signature resonates with creation energy. I noticed during cataloguing last year but didn't understand why." She looks at me. "Now, knowing what your ember is, I think this weapon was made by someone who understood the same force you carry."
+
+"Let me see it."
+
+---
+
+The vault. Sub-basement one. Ward-locked door. Elara's palm. The shimmer reads her. Opens.
+
+Stone walls lined with glass cases. Weapon racks under preservation wards. Three centuries of equipment. The ley web humming through the floor.
+
+Three longswords on individual mounts. Elara reaches for the third — the one with the amber glow. Handling gloves. Lifts it. Pommel first.
+
+"Carefully. It's been in storage for—"
+
+I take it.
+
+---
+
+The ember detonates.
+
+Not outward. Inward. Creation energy hits the sword's enchantment and the two forces recognize each other. Old friends after centuries. The amber glow flares — gold light racing up the blade. The crossguard symbols ignite.
+
+They're not Academy symbols. They're the same root language as the sub-basement three chamber carvings. Same era. Same hand.
+
+But where the chamber was entropy, these are *creation*. The opposite signature. The other half of the alphabet.
+
+The sword is alive. The metal vibrating at a frequency matching the ember's pulse. The crossguard fitting my grip as though it was measured for my hand five hundred years ago.
+
+The bond is instantaneous. Total. The ember pours in and the blade drinks. Not draining — receiving. Dry earth receiving rain. The enchantment that's been dormant for five hundred years wakes up. Fully. The amber glow stabilizes into steady golden-white radiance. The symbols pulse with my heartbeat.
+
+Elara steps back. Mage-sight showing her something.
+
+"The enchantment was dormant. Not depleted — *waiting*. The fire signature I catalogued was the sword sleeping. It just woke up."
+
+The sword is part of me. Not like the Frost Fang — created yesterday, a tool the ember made. This is older. Deeper. This weapon has been waiting five centuries for someone carrying creation energy to pick it up.
+
+"Let me see what it does."
+
+She points to the training alcove. Reinforced stone. Scorch marks. An enchanted iron dummy sixty feet away.
+
+"The alcove is warded. Swing away."
+
+---
+
+Emberfang in my right hand. The weight is perfect — not adequate balance. Intentional balance. The blade knows where it wants to go.
+
+I swing. Horizontal arc. Willing the flames forward. Not a spell — an intent. The ember and the blade communicating in a language older than words.
+
+*Reach. Extend. The fire is not bound to the edge. The fire is the edge and the edge goes where I tell it.*
+
+The swing completes. The blade traces a golden-white arc — and the arc detaches. A crescent of amber flame separating from the blade. Crossing the vault. Sixty feet.
+
+The target dummy takes it dead center. Amber fire wrapping around enchanted iron. The impact point glows orange. The iron warps. The flame lingers three seconds before the preservation wards suppress it.
+
+"That's not in the catalogue entry." Elara. Very quiet. "The sword was listed as melee fire with an ignition ability. It has never projected at range. Not once in the Academy's records."
+
+She looks at me. At the blade. At the golden-white glow.
+
+"The projection ability was locked behind a requirement nobody in five hundred years has met. The sword was waiting for you."
+
+She counts implications on ink-stained fingers.
+
+"A five-hundred-year-old weapon with creation energy resonance. Symbols from the same era as the sub-basement chamber. Made by someone who understood creation the way the chamber's architect understood entropy." She looks at me. "Whoever made this sword knew about the ember. Five hundred years ago."
+
+---
+
+Solveth's whisper from the satchel.
+
+*The blade. I remember it. Not the sword itself. The hand that made it. The same hand that designed my cage. The same hand — but the other one. The left hand made the sword. The right hand made the cage. Creation and entropy.*
+
+A pause.
+
+*The man who chained me did not invent the method. He found it. In the ruins of something older. Something that understood both halves. The sword is from that older time. The cage is a copy.*
+
+*The sword was not built to serve a mortal's purpose. It was built to serve the cycle. And it has been waiting — very patiently — for the cycle to send someone to pick it up.*
+
+---
+
+I relay Solveth's words. Elara sits on a vault crate. Heavily.
+
+"Pre-Academy. Pre-institutional. Someone who understood creation and entropy as complementary forces and built tools for both. The sword for creation. The chamber for entropy. Both from the same source. And Vael found the entropy half and used it."
+
+She looks at Emberfang. The golden-white glow. The pulsing symbols.
+
+"The creation half found you."
+
+---
+
+END OF CHAPTER FIFTEEN — NO LEVEL UP (No Long Rest)
+
+The vault. Three floors beneath the Academy. The hum of preservation wards and the steady golden pulse of a sword that waited five centuries.
+
+Emberfang. The creation half of a paired set. The left hand's work. A blade that slept through the rise of an institution, the corruption of a ceremony, the chaining of a god — and woke when the right fingers closed around the grip.
+
+In my right hand — a sword made for the cycle by someone who understood it five hundred years before I arrived.
+
+In my satchel — a crown made from the same understanding, corrupted by a mortal who found the blueprints and used them for fear.
+
+Creation and entropy. Sword and cage. Both halves of something older than the Academy. Both halves held by a man who's been in this world for nine days.
+
+The afternoon holds a presentation about gods and entropy. The evening holds an aging Chancellor. The night holds whatever comes next.
+
+But for now — the vault is quiet. The blade is warm. And the ember is holding a five-hundred-year-old conversation with something that was built to be held by whatever I am.
+
+# KENJI
+
+## *Day Nine (continued) — The Chair and the Voice*
+
+---
+
+The ley alcove. Eastern training grounds. Silver runes pulse. The spell slots click back into place. Full reserves.
+
+The Frost Fang murmurs from my hip. ***"The ley lines here are rich. Three hundred years of infrastructure. The things I could do with this network if—"***
+
+"Solveth."
+
+***"...yes?"***
+
+"Maybe don't talk about what you'd do with the Academy's magical infrastructure while we're walking through the Academy."
+
+***"...fair point."***
+
+I pull rations from the satchel. Bread and an apple. Eat walking.
+
+---
+
+Main lecture hall. West wing. Early afternoon.
+
+Tiered stone seating descending to a central podium. Tall windows. The ley web bright in the walls — the hall built on a convergence point. Two hundred seats. Half full. Faculty in the upper tiers. Students in the middle. Visiting scholars. Temple representatives.
+
+The predator's eyes sweep the room.
+
+Aldwin — front row, left. Staff across his knees. Cleaner robe. Thirteen hit points hidden behind forty years of posture. His grey eyes find me. A nod.
+
+Sera — third row, right. Clean leathers. Sword on hip. Rested. She sees me. Finds Emberfang on my right hip. The Frost Fang on my left. Two swords that weren't there yesterday.
+
+Her eyebrow rises. One millimeter.
+
+Garrett — fourth row, center. Arms folded. Mace present. The discomfort of a man who didn't go to school sitting in one.
+
+Elara — front row, right. Ink-stained fingers on a fresh ledger. Restored mage-sight tracking the ley lines in the walls. She doesn't look at me. Deliberate.
+
+Edwyn — at the podium. Setting up. Nervous. He sees me. Relief visible.
+
+The Chancellor's chair — center of the front row, between Aldwin and Elara. Empty. A placard: *Chancellor Vael — Health Leave*.
+
+The circuit confirms. Vael's signature in the upper floors. Weaker than this morning. He's not coming.
+
+***"...the empty chair,"*** the Frost Fang murmurs. ***"He sat there for twelve years. Watched graduates wearing chains he built. And now the chair is empty and he's upstairs dying by inches."***
+
+A pause.
+
+***"...I would feel sympathy. But he spent twelve years feeding me through straws made of stolen children. So I don't."***
+
+---
+
+I take a seat. Fifth row, center. Sightlines to every exit.
+
+Edwyn begins.
+
+"Honored faculty, colleagues, guests. My name is Father Edwyn Marsh, Temple of the Wandering Flame. I'm here to present field documentation of a divine entropy cycle observed and — for the first time in recorded history — restored."
+
+He opens his ledger.
+
+"It begins with a dying god beneath a farmhouse."
+
+---
+
+Seven threads end in this lecture hall. Seven faculty who graduated in the last twelve years. Seven people with corrupted seals being drained while they listen to a priest describe a dying god.
+
+I pick five. Read them with the predator's eyes.
+
+A young woman in green — junior faculty, enchantment department. Two years drained. Thread thin. Still mostly whole.
+
+A heavyset man with a grey beard — theological department. Eight years. Thread thicker. His research lost its spark and he doesn't know why.
+
+A thin woman in blue — alchemy department. Eleven years. Thread thick. She looks tired in a way deeper than sleep.
+
+A broad-shouldered man in brown — combat integration, Aldwin's department. Six years. Moderate drain.
+
+A grey-haired woman in white — senior faculty, divination. Twelve years. One of the first corrupted class. Thread nearly as thick as Sera's was.
+
+Five people. Five stolen lives. I sever them from my seat.
+
+The ember finds the threads. One at a time. Quick. Creation energy dissolving entropy parasites. Not burning. Unmaking.
+
+The Crown shudders against my chest. Five channels go dark.
+
+---
+
+The reactions.
+
+The young enchanter — a sharp inhale. Hand to her forearm. Confused. Files it as nothing.
+
+The theologian — stops writing mid-word. Eyes defocus. Hand to his chest. Something refilled by a fraction. He looks around the room.
+
+The alchemist — a stifled gasp. Hand gripping the armrest. Eleven years of drain stopped. Her eyes wet. She wipes them. Chalks it up to the lecture.
+
+The combat instructor — sits straighter. Shoulders roll. Looks at his hands. Frowns.
+
+The senior diviner — goes still. Twelve years of drain ended. Her mage-sight flares. Dawn after the longest night. She sees the ley lines clearly for the first time in years. Tears she doesn't try to hide.
+
+---
+
+Aldwin's grey eyes aren't on Edwyn. They're on the faculty. He felt the ley web shift. Five micro-fluctuations. His staff pulsed. He's scanning the room.
+
+He finds the five. The inhale. The defocus. The gasp. The posture. The tears.
+
+His grey eyes move to me.
+
+He *knows*.
+
+He says nothing. Turns back to the lecture.
+
+---
+
+Sera turns. Dark eyes narrow. Mouths two words.
+
+*What. Did. You. Do.*
+
+---
+
+Elara saw it. Restored mage-sight showed her five golden-white flares from the satchel to five people in the upper tiers. She writes one word in her ledger margin.
+
+*Five.*
+
+---
+
+***"...that was kind,"*** the Frost Fang murmurs from my hip. ***"And reckless. And exactly what I would expect from you."***
+
+A pause.
+
+***"...three hundred and forty left. I should mention — every thread you sever reduces the Crown's stored essence. The less essence in the circuit, the less I have to sustain me. I am not complaining. I am noting. In case the math matters later."***
+
+---
+
+I stand. Walk down the tiered steps. Past Garrett — he recognizes the trajectory of a bad decision. Past Sera — the targeting reticle sharpening. Past the second row.
+
+The Chancellor's chair. Center. Between Aldwin and Elara.
+
+I pick up the placard. Set it face-down on the floor.
+
+And sit.
+
+---
+
+The room shifts. A hundred people registering something simultaneously. The research resident in the Chancellor's chair.
+
+Edwyn falters mid-sentence. Recovers. His voice half a note higher.
+
+Aldwin — "Bold." Half-deaf volume. The first three rows hear it.
+
+Elara — ink-stained fingers freeze. The pen touches the page and doesn't move.
+
+Sera — the stare changes temperature.
+
+Garrett — "I work for him." The tone of a man providing context and disclaiming responsibility.
+
+***"...you're sitting in his chair. The chair of the man who chained me."*** The Frost Fang from my hip. Quiet but audible to my neighbors. ***"...I approve."***
+
+The senior diviner in white — restored mage-sight showing her the shape. A man in the Chancellor's chair connected to the same infrastructure the Chancellor was connected to. Her eyes narrow. Not hostile. Calculating.
+
+---
+
+My right arm extends across the back of Elara's chair. Settles around her neck. Casual. I lean back and fix my eyes on Edwyn with the expression of a man deeply invested in divine entropy theory.
+
+Elara stops breathing.
+
+The pen touches the page. A dot of ink bleeds into a blot.
+
+"Kenji." Ventriloquism through clenched teeth. "Your arm is on my neck."
+
+The color arrives methodically. Ears. Neck. Cheeks. Academic blush — filed through proper channels.
+
+The ink blot grows to the size of a copper coin.
+
+---
+
+The faculty murmurs. The research resident. The Chancellor's chair. His arm around Instructor Ash. *Instructor Ash* — the woman who hasn't been seen in a non-professional context in the entire institutional memory.
+
+The heavyset theologian's pen stops. The junior enchanter whispers something. Eyebrows ascend to anatomical limits.
+
+Aldwin's shoulders shake. He converts it to a cough.
+
+From the third row — leather gloves creaking on an armrest.
+
+"I am going to make you pay for this," Elara whispers. Teeth clenched. Lips not moving. "In ways that haven't been invented yet."
+
+Her shoulder hasn't moved away from my arm.
+
+The ink blot is now the size of a gold piece.
+
+***"...the ink-fingered one's heart rate has increased by approximately forty percent,"*** the Frost Fang observes. ***"Also the angry one in the third row is gripping her sword pommel. I mention this as a survival observation."***
+
+---
+
+I give Elara's shoulder one last tight squeeze — the gesture of *thank you* and *I'm sorry for what comes next* in the same motion.
+
+Her breath catches. Then the arm is gone and I'm standing.
+
+I hop onto the stage. The Windrunner Boots carrying me from floor to podium in one fluid motion. Landing beside Edwyn mid-sentence.
+
+"Kenji — what are you—"
+
+I draw the Frost Fang. Blue-black blade smoking. Green-tinged edge curling cold into the air. Temperature drops three degrees. Frost on the podium.
+
+I hold it out. Pommel first.
+
+"Here, Edwyn. Your god of entropy is calling. Pick it up."
+
+---
+
+Silence. Absolute.
+
+Edwyn looks at the sword. At the frost. At my face.
+
+"My — what?"
+
+"The dying god. The one you've been lecturing about. He'd like to say hello."
+
+"That's not — you can't — there's no mechanism for divine consciousness to inhabit a—"
+
+***"...hello, priest."***
+
+The voice. Thin. Reedy. Echoing. The hall's acoustics amplifying a god with the same efficiency as a lecturer. Every person hears it.
+
+***"...your lecture was excellent. The section on cyclical divine energy transference was particularly well-researched. I have a minor correction regarding the feeding mechanics — the process is less voluntary than you described. But the theological framework is sound."***
+
+Edwyn's hand shakes. The spawning fluid sample rattles.
+
+"That's a divine entity. Speaking through a blade. On my stage. During my presentation."
+
+***"...I am Solveth. The Unraveler. What makes things end. I was the subject of your lecture. I thought it appropriate to attend."***
+
+A pause.
+
+***"...I would have arrived earlier but I was in a handbag."***
+
+---
+
+The theologian stands. Chair scraping. "The vocal resonance — the entropy signature — that's authentic. That's actual divine consciousness channeled through—"
+
+"Through a frost blade carrying an entropy echo linked to a divine circuit anchored to the man holding it," Elara says. Standing. Ink-blotted ledger. Restored mage-sight blazing.
+
+"Instructor Ash. You *knew* about this?"
+
+"I knew about several things. Some learned very recently. In a warded room."
+
+---
+
+Aldwin. Front row. Staff across his knees. Satisfied. The old man watching a play he helped rehearse arrive at the third act.
+
+Sera. Third row. On her feet. Hand on sword. Reading the room for threats while a god talks through a weapon.
+
+Garrett. Leaned back. "I work for him," he says to the student beside him. The student has stopped breathing.
+
+---
+
+Edwyn stares at the Frost Fang.
+
+"You brought a god to my presentation."
+
+"He wanted to see it."
+
+"He was in your *bag*."
+
+"He's collaborative."
+
+The terror gets company. Wonder. The kind that made him become a priest. He sets down the spawning fluid sample. The notes. Extends his hand.
+
+Takes the sword.
+
+***"...priest. You documented my suffering with compassion and accuracy. You described the cycle as complementary forces, not adversaries. You understood the truth."***
+
+The thin voice. Gentler.
+
+***"...ask your question. The one you've been building toward. The one you haven't dared ask."***
+
+Edwyn holds the sword. Frost reflecting lecture hall light. A hundred people watching a priest hold a conversation with a god.
+
+"Can the cycle be restored? Not just Duskfen. The entire cycle. Can creation and entropy be brought into balance permanently?"
+
+The Frost Fang pulses.
+
+***"...yes. But not by a god. Not by a mortal. By both. Together. The seed-bearer carries creation. I carry endings. The cycle was broken because the halves were separated. It is restored when they choose — freely, without chains, without cages, without crowns — to complete each other."***
+
+A pause.
+
+***"...your friend with the purple hair is the first person in five hundred years who could make that choice. And he is the most infuriating man I have ever met. So there is hope. And there is concern."***
+
+---
+
+END OF CHAPTER SIXTEEN — NO LEVEL UP (No Long Rest)
+
+The lecture hall. A hundred people processing a divine revelation. A theologian standing with his mouth open. An alchemist with wet eyes who doesn't know why her hands stopped shaking. A diviner seeing ley lines clearly for the first time in twelve years.
+
+Five freed. Three hundred and forty left.
+
+A priest holding a god's voice in his hands. A god calling the man with purple hair infuriating and hopeful in the same breath. A chair with no placard. An ink blot the size of a gold piece in a ledger that will be studied for decades.
+
+And somewhere upstairs — an aging Chancellor who wasn't in the room to hear what his captive god just told a hundred witnesses.
+
+The cycle can be restored. Freely. Without chains.
+
+But first — the man who built the chains has to be dealt with. And three hundred and forty people are still wearing them.
+
+The afternoon light through the tall windows. The ley web humming. The ember steady.
+
+Hope. And concern.
+
+
+# KENJI
+
+## *Day Nine (concluded) — Sing for Your Supper*
+
+---
+
+The corridor. Garrett beside me. The lecture hall erupting behind closed doors.
+
+"The merchant consortium meeting went well," he says. As if the last ten minutes didn't happen. "Escort contracts. Three routes. Good pay." He adjusts his mace. "Also — *sir* — did you just declare yourself a rank that doesn't exist, call an instructor your beautiful partner, leave a divine artifact with a priest, and make a sex joke on your way out?"
+
+"Yes, Garrett. Yes I did."
+
+He walks. I walk. Students giving us a wide berth.
+
+"If I'm awarded the rank — I probably won't be — it would mean I'm over the Academy and the guild. But realistically I just expect them to look to Elara and Aldwin for advice. Give them the power of the Academy until the old Chancellor shows his hand."
+
+I look at Garrett.
+
+"Of course I left bait. With Edwyn. The Frost Fang is basically a spying device — I can hear everything through Solveth and know when the Chancellor tries to take the artifacts back. We spring a trap when he does."
+
+Garrett processes. The mercenary mind sorting tactical from theatrical.
+
+"The Crown on the podium. The god-sword with a priest who can't fight. Vael can't ignore it — it's his immortality. His life."
+
+"Garrett, gather some men. Provide a security detail for Edwyn. Be nonchalant about it. If anybody asks what I'm up to, tell them you don't know — he just walked off to the forest saying he's seeking treasure."
+
+"Security detail for Edwyn. Nonchalant. Men who look like they're there for the theology." He counts on his fingers. "I've got a contact from the consortium meeting. Quiet type. Knows how to stand near a door. I'll pair him with one of Brindle's people in civilian clothes."
+
+He stops at the corridor junction.
+
+"I'll have the detail in place within the hour. Edwyn won't know they're there." He straightens. "And as far as I know — you wandered off to find treasure in the woods. I don't know anything else. Hard to leak what I don't know."
+
+"Anything else, sir?"
+
+---
+
+The eastern training grounds. The ley alcove.
+
+I stand near the convergence point and reach for the ember. Not a weapon. Not a blade. Infrastructure. The creation energy builds something permanent for the first time.
+
+Ten minutes. Gold light coalescing against the stone wall. Solidifying. Shaping. An archway — seven feet tall, four feet wide, golden-white radiance humming at the edges. The symbols from Emberfang's crossguard appearing in the stone frame. Root language. Pre-Academy. The ember writing in the alphabet it learned from a five-hundred-year-old sword.
+
+The archway completes. The interior shimmers — empty, waiting. No destination yet. When the second gateway is built, at least a day's travel away, the interior activates. Instant travel. Permanent.
+
+The Master Summoner enhancement makes itself known. The archway isn't just sturdy — it's fortified. Golden stone resisting magical and mundane force.
+
+Portal Gateway number one. Varenholm Academy. Awaiting a pair.
+
+---
+
+Eyes of the Hunter — still active. Hours remaining.
+
+Arcane Stride — recast at level three. The silver hum deepens. Not doubled speed. Quadrupled. 120 feet per round. The world ready to blur.
+
+The ley lines refill the slots. Full reserves. Full buffs.
+
+---
+
+The Silver Draft. Late afternoon. The common room quiet. The innkeeper's boy bringing food before I ask — he's learned the rhythm.
+
+Stew. Bread. Roasted chicken. A second stew. The boy has stopped making eye contact but his service is impeccable.
+
+I sit at the table. The satchel on my chest. Lighter now. No Crown. No Frost Fang. Just the satchel with rations, evidence, gear, and —
+
+I open it. Reach inside. The cloth wrapping. Pip's handwriting.
+
+*Come back. — P*
+
+The last honey cake. Preserved by the dimensional fold. The lavender still fresh.
+
+I look at it. Put it back in the satchel.
+
+I look toward the eastern gates. Toward the road. Toward Duskfen. Three days of normal travel. Eighteen hours at four times speed.
+
+"And that's how you sing for your supper."
+
+I walk outside. Late afternoon sun. The Academy tower behind me — the ley web humming with upheaval, a lecture hall in chaos, an aging Chancellor about to hear the worst news of his life.
+
+The road east opens ahead.
+
+The Stride engages.
+
+---
+
+END OF CHAPTER SEVENTEEN — NO LEVEL UP (No Long Rest)
+
+120 feet per second. The world blurs. Varenholm shrinking behind. Emberfang warm on the hip. The satchel flat against the chest. Two pounds of dimensional space containing evidence and a honey cake.
+
+The countryside unrolling. The road — the same road, the same hills, the same forests — passing beneath Windrunner Boots at a pace that turns landmarks into afterimages.
+
+Three days of travel. Eighteen hours of running. A girl in a doorway who wrote *Come back* on a piece of cloth and wrapped it around lavender cakes.
+
+The ember burns steady. The circuit hums — stretched thin over distance but holding. The Crown far behind on a podium in a lecture hall. The god in a sword beside a priest. The trap baited. The investigation petitioned. The chair empty.
+
+And ahead — Duskfen. Where it started. Where a man woke in mud nine days ago and began something that now involves gods, crowns, conspiracies, academies, and a guild named after the first inn he walked into.
+
+The road stretches east. The sun sets behind. The predator's eyes turn darkness into day.
+
+Run.
+
+# KENJI
+
+## *Day Ten — Come Back*
+
+---
+
+Dawn. Duskfen.
+
+Eighteen hours of running. The Stride fading. The Windrunner Boots settling into normal weight. The world returning to proper speed.
+
+The settlement — changed. Green patches in the grey. Dark soil where ash used to be. The air lighter. Birds I didn't hear nine days ago. The cycle working. Slowly. Patiently.
+
+The Broken Antler. The porch. Smoke from the chimney. The smell of cooking.
+
+I pull the last honey cake from the satchel. The cloth wrapping. Pip's handwriting. *Come back. — P.*
+
+Lavender still fresh. Perfectly preserved. I eat it standing on the porch. Sweet. Warm. The flavor of someone who cared enough to write two words on a cloth.
+
+---
+
+Flowers. The marshland around Duskfen — where the cycle hit first. Grey marsh giving way to dark soil. And growing from it — wildflowers. Purple and white. Small. Stubborn. The first blooms since the entropy sickness began.
+
+I pick a handful. Not a bouquet — a fistful. Stems muddy. Petals damp. Purple and white.
+
+---
+
+The front door. The common room. The bar. The hearth with a low fire. The smell of porridge and bread and something with honey.
+
+I sit at the bar. Set the flowers on the counter. Lean on one elbow. Emberfang on my hip. The satchel cross-body. The ironwood armor travel-dusty. Purple dreadlocks loose after eighteen hours of wind.
+
+The kitchen sounds stop.
+
+Footsteps. Light. Quick.
+
+The kitchen door swings open.
+
+Pip.
+
+She carries herself differently. The woman who stood in a doorway pressing honey cakes into a stranger's hands has been running an inn for six days alone. The apron is the same. The flour on her hands is the same. But the eyes are older.
+
+She sees me.
+
+Eyes wide. Flour-dusted hands freeze mid-wipe. The particular silence of someone who wrote *come back* and is looking at the person who did.
+
+She sees the flowers.
+
+"You brought me flowers again." Quiet. The *again* carrying weight. The first time was a stranger being kind. The second time is a man who left and came back.
+
+She sets them in a clay mug behind the bar. Water from a pitcher. Next to where the first ones dried.
+
+She looks at me. The armor. The new sword glowing amber. The satchel. The brass token. Whatever nine days has done.
+
+"You're different," she says. "You're... more."
+
+Her chin trembles. Once. She locks it down. The innkeeper's daughter managing the room.
+
+"Sup, Pip. I have something better than a story for you this time. Want to take an instant vacation to a mage academy? Don't worry — you'll be back in time for work tomorrow."
+
+She stares. The words processing.
+
+"You've been gone six days." The voice steadier than her chin. "Sera's not here. Edwyn's not here. Garrett's not here. The guild people are doing highway things. Aldric checks on me but he doesn't talk much."
+
+She looks at the flowers in the clay mug. At me.
+
+"How can I be back by tomorrow. Varenholm is three days ride."
+
+She's not saying no. She's asking how.
+
+"I'll show you. First — I need food. Whatever's on the stove. All of it."
+
+Three minutes. Porridge with honey. Fresh bread. Two fried eggs. Smoked sausage. A mug of something warm. Two copper. I leave a silver.
+
+---
+
+Behind the inn. The yard. Muddy. A chicken coop. A woodpile. Clear space against the back wall.
+
+Ten minutes. Gold light coalescing. The ember building something permanent. An archway — seven feet tall, four feet wide, golden-white radiance. The symbols from Emberfang's crossguard appearing in the stone frame. Root language. Pre-Academy.
+
+The archway completes. The interior activates — connecting to the first gateway three days away. Through the shimmer — the eastern training grounds of Varenholm Academy. The ley alcove. Stone walls. Packed earth. Morning light from a different sky.
+
+Two places. Three days apart. Connected by a golden door.
+
+Pip's mouth is open. Looking through the archway at a place that was a word on a map until five seconds ago.
+
+"That's Varenholm?"
+
+"The Academy. Where I've been training."
+
+She reaches one hand toward the shimmer. Pulls it back.
+
+"And I can just walk through?"
+
+"Anyone I approve. Instant. Both directions. Permanent."
+
+She unties the apron. Folds it. Sets it on the counter.
+
+"I've never seen a city. I've never left Duskfen."
+
+She looks at me. Making a decision that's younger than anything she's done in six days.
+
+"If you can get me back by tomorrow — yes."
+
+---
+
+Ryn. At Aldric's smithy. Carrying tools. Sweeping ash. He sees me.
+
+"Kenji. You came back."
+
+"Grab your things, Ryn. You and Pip are coming with me. Quick trip."
+
+Aldric looks at me. At Emberfang. At whatever nine days has done.
+
+"Bring him back in one piece."
+
+---
+
+The golden archway. Pip in a clean dress she changed into in four minutes. Ryn clutching a satchel he packed in two.
+
+They look at the gateway. At Varenholm visible through the shimmer. At each other.
+
+Pip takes Ryn's hand. He lets her. Two people from Duskfen who've never left the marshland standing at the threshold.
+
+"Hold your breath if you want. It doesn't matter. But people always want to."
+
+Pip steps through. One step — Duskfen. The next — Varenholm. Three days of travel in the space between footfalls.
+
+Ryn follows. Pulled by her hand.
+
+I step through last.
+
+---
+
+Varenholm. The eastern training grounds. Morning light. The ley alcove.
+
+Pip is turning in a slow circle. The dress catching the breeze. Her eyes taking in stone towers, stained glass windows, ward-light on ancient walls, students in robes crossing a courtyard bigger than her entire settlement.
+
+"This is..."
+
+She can't finish.
+
+Ryn is gripping his satchel straps. Mouth open. The young man who swept ashes looking at a building that contains more magic than Duskfen has produced in its entire history.
+
+I pull the brass token from my belt. The Combat Mage Certification. Twelfth in forty years. I press it into Pip's hand.
+
+"If anyone asks, say you're a guest of ArchMagus Kenji."
+
+"ArchMagus. Is that real?"
+
+"It's complicated."
+
+She closes her fingers around the token. Holds it against her chest.
+
+Ryn is already mapping the route to the library tower.
+
+"I can get you both enrolled. If you want to learn magic — real magic — this is where it happens. With the portal, you can come here for classes and be home for dinner. Duskfen to Varenholm in one step."
+
+"I don't have magic," Ryn says.
+
+"You don't have it yet."
+
+Pip is looking at the students. The robes. The books. A life she never imagined because imagination requires a reference point.
+
+"Da needs me at the inn."
+
+"The portal is permanent, Pip. Morning classes here. Afternoon shifts at the bar. Your da doesn't lose you. Duskfen doesn't lose you. You just become more."
+
+The word lands. *More*. The same word she used about me.
+
+She looks at Ryn. He looks at her. A silent conversation that doesn't need words.
+
+"Can we see the library?" Pip asks.
+
+"Have fun."
+
+I wave them off. Pip grabs Ryn's arm. They walk toward the courtyard. Then faster. Two people from the marshes disappearing into the Academy wearing a clean dress and a brass token that outranks most of the faculty.
+
+I watch them go. Pip in the dress. Ryn with the satchel. Getting smaller against the towers.
+
+The ember pulses. Warm. The warmest it's been all day. Creation energy responding to something that isn't combat or strategy or a god or a crown.
+
+Two people walking into a bigger world through a door I built.
+
+---
+
+I find a messenger in the courtyard. A coin and a message — tell the woman with the brass token which room I'm in at the Silver Draft. Her companion can have Garrett's room. She knows where to find me.
+
+The Silver Draft. Afternoon. My room. The lock clicks.
+
+The satchel lighter than it's been in days. No Crown. No Frost Fang. No honey cake. No brass token. Just gear and evidence and the particular emptiness of a man who gave everything away and somehow feels fuller for it.
+
+I eat. The innkeeper's boy brings food without being asked. Stew. Bread. The silent impeccable service.
+
+I lie back on the bed. The ember holding the circuit — stretched thin over distance, the Crown in the lecture hall, Solveth in the Frost Fang, 340 threads humming faintly. Garrett's detail in position. No movement from Vael. Not yet.
+
+Emberfang on the bedside table. Amber glow dimmed. The five-hundred-year-old sword resting for the first time since it woke.
+
+My eyes close.
+
+---
+
+END OF CHAPTER EIGHTEEN — LONG REST — LEVEL 7
+
+The ember restructures in sleep. The circuit integration deepening. The creation energy processing twenty-four hours of running, fighting, building, freeing, and walking two people through a golden door into a life that didn't exist this morning.
+
+Level seven. The man who woke in mud ten days ago. The man who carries a god's leash and a woman's flowers and the particular weight of being the first person in five hundred years who could choose to restore the cycle.
+
+Tomorrow — whatever Vael does. Whatever the investigation finds. Whatever Solveth becomes. Whatever the 340 threads require.
+
+But tonight — two people are seeing a library for the first time. And the portal hums in the back of an inn in Duskfen. And the flowers are in a clay mug next to where the first ones dried.
+
+Creation doesn't just make weapons. It makes doors.
+
+
+# KENJI
+
+## *Day Eleven — Both Halves*
+
+---
+
+Dawn. The Silver Draft. Pip snoring. Face-down, arms sprawled, one leg kicked free of the sheets. The sheet covers half her back and trails across her hips. Her face buried in the pillow. Remarkable volume from a woman half my size.
+
+The ember pulses. The circuit hums — stretched to the lecture hall. Crown on the podium. Solveth in the Frost Fang. Garrett's detail in position. 340 threads steady. No movement from Vael overnight.
+
+Level seven. The body different — six more hit points. The ember wider. The creation energy denser.
+
+I slide out of bed. Pip doesn't stir. Emberfang on the bedside table — amber glow pulsing, the five-hundred-year-old sword keeping its own rhythm.
+
+---
+
+The common room. The innkeeper's boy. Eggs, sausage, porridge, bread, a second porridge.
+
+I cast on the way out. Eyes of the Hunter. Arcane Stride at level one.
+
+---
+
+The Academy gates. Both guards look at me. Not curiosity. Recognition.
+
+"ArchMagus," one says. Testing it.
+
+The courtyard. Students looking. Clusters going quiet as I pass.
+
+Three things register through the circuit and the predator's eyes.
+
+The lecture hall — Crown still on the podium. Frost Fang with Edwyn. Faculty present. The investigation grinding forward.
+
+The Chancellor's office — Vael's signature. Fainter than yesterday. But active. He's in his office. Not hiding. Working. Taking meetings. A desperate man who decided hiding looks guiltier than acting normal.
+
+A figure in white robes crossing the courtyard. Professor Lira Thane. Senior diviner. Twelve years freed. Walking with purpose toward the training grounds.
+
+---
+
+Aldwin on the bench. Not alone. Thane standing in front of him. Low conversation. Intense.
+
+They see me. Stop talking.
+
+"I figured it out," Aldwin says. "Last night. Marius Vael."
+
+Thane: "The artifact's entropy signature matches the Chancellor's personal ward-key. Same encoding. Same methodology."
+
+Five signatures on the petition now. Council formally notified. Emergency session this afternoon.
+
+"The Chancellor has been invited to attend," Thane says. "He accepted."
+
+"Either he has a plan," Aldwin says, "or he's going to try to talk his way out of a hundred and forty years."
+
+Council session at third bell. North wing. I'm invited. Thane threatened to resign if I wasn't.
+
+"Thanks, Aldwin. And yes — ArchMagus. A title of a champion. I'll leave Chancellor to Elara and her paper pushing. But I'll be on call for matters of military, combat, and thwarting our most devastating threats. I was also planning on funneling battle mages you train here to my mercenary guild. In fact I had two new recruits wandering the grounds yesterday. Pip and Ryn."
+
+Aldwin processes. The grey eyes weighing it.
+
+"A champion. Military. Combat. Threats. And you funnel my combat mages into your mercenary guild." He looks at me. "You're describing a warlord with institutional backing. Not an academic title."
+
+The staff taps.
+
+"I don't hate it."
+
+Thane's eyebrow rises. "The Council will have opinions. But given that the current structure involved feeding graduates to an entropy god — opinions about yours may be favorable by comparison."
+
+Aldwin looks at the training ground. At the portal humming gold against the wall.
+
+"Pip and Ryn. The two wandering the grounds yesterday with your brass token." The grey eyes. "The guards reported them. A young woman who walked into the restricted section by holding up a Combat Mage Certification and saying — and I'm quoting — *my partner is the ArchMagus, he runs this place, go ask him if you have a problem*."
+
+A pause.
+
+"She got into the restricted section. The guards didn't know what an ArchMagus was but they weren't willing to find out by arguing."
+
+"The young man — Ryn — was quieter. Sat in the main reading room for six hours. Read four books on foundational magical theory. The librarian said he was taking notes. In handwriting better than most first-years."
+
+"Bring them to me," Aldwin says. "Tomorrow morning. Dawn. I'll evaluate them myself."
+
+He looks at the portal.
+
+"And tell your partner that the certification gets her into the training grounds, not the classified archives. The restricted section contains ward schematics, entropy research, and three books that are literally cursed. If she touched the one with the black binding, we're going to have a conversation."
+
+Thane inclines her head. "I'll leave you to your training. Council session — third bell. Don't be late. And bring the priest with the sword. If Vael tries to deny the Crown's existence, having a god available to contradict him will be efficient."
+
+She walks toward the main building. White robes in the morning light. The diviner who can see again, preparing to dismantle a Chancellor.
+
+Aldwin watches her go. "She's terrifying. Twelve years of suppressed divination coming back at full power."
+
+He settles into the training ground.
+
+---
+
+Aldwin teaches.
+
+"Yesterday I watched you fight with creation and entropy in the same blade. You're building a combat style around the circuit. Effective. Powerful." He plants the staff. "It's also a path. And paths go somewhere."
+
+He holds up the staff.
+
+"I want to teach you something from the other side. Not the entropy side. The creation side. The side that built a portal and freed seven people."
+
+He looks at Emberfang.
+
+"That sword woke up because you carry creation. Your strongest asset isn't the Frost Fang — it's the ember itself. You haven't learned to fight with it directly."
+
+Draw Emberfang. The amber glow brightens.
+
+"Hold it forward. And push. Not a spell. Not a slot. Just push. The blade is a channel. The ember is the breath."
+
+I push.
+
+The ember moves. Raw. Creation energy flowing through Emberfang. The blade sings. Golden-white light explodes outward — a wave. A pulse radiating in a thirty-foot cone.
+
+Where the wave touches packed earth — grass. Actual grass. The frost damage from yesterday heals. Scorch marks from the gauntlet fade. The headless dummy sprouts a vine from the splintered neck.
+
+The wave hits Aldwin. His ribs — where the Frost Fang connected yesterday. The bruising vanishes.
+
+"You just healed me. From thirty feet. Without a spell slot. Without intending to." He taps the staff. "The creation energy doesn't distinguish between healing and growing. It just makes things more alive."
+
+Again. But focused. Narrower. A lance instead of a wave.
+
+The push compresses. A single beam from Emberfang's tip to the iron dummy sixty feet away. The dummy doesn't melt or burn. It *changes*. The iron glows gold. The preservation wards improve — stronger, more resilient than the enchanter intended.
+
+"Against inert targets, creation makes it stronger. Not useful." He taps the staff. "Now consider — what happens when you push raw creation into something corrupted? By entropy, by poison, by parasitic magic?"
+
+He stops. The implication.
+
+"The creation lance purifies. Against the seals, the siphons, the Crown's threads — it unmakes corruption. A ranged, focused, zero-cost purification beam through a sword built for exactly this."
+
+He looks at me.
+
+"And against a man sustaining himself on stolen entropy? You wouldn't be attacking him. You'd be healing him. Healing him of the entropy that keeps him alive."
+
+He plants the staff hard.
+
+"The most merciful weapon you could carry. And the most lethal thing the Chancellor will ever face."
+
+---
+
+Garrett at the Silver Draft. Corner table. Coffee. Ledger.
+
+"Three things on the board. All local."
+
+Stoneclaw Den. Quarry caves. Two miles northeast. Burrowing predators killing workers. Fifteen gold clearance. Twenty if I collapse the cave.
+
+---
+
+The quarry. Drav — bald, eight fingers. "The Stoneclaws moved in five days ago. Bottom level. They breed fast."
+
+The cave. Limestone. Forty feet across. Thermal vent. The nest. Eight Stoneclaws — four adults, four juveniles. Clustered. Undetected.
+
+Aldwin's teaching echoes. Push the ember inward. Not through the blade. Into the skin. The ember and the circuit merge. Creation and entropy wrapping the body. I lift off the cave floor.
+
+Entropy mode.
+
+The aura ignites. Green-black tinge. Sixty feet of ending radiating outward. Every living thing in this cave inside the field.
+
+---
+
+Four rounds.
+
+The entropy aura ticks every round — 1d6 necrotic on everything within sixty feet. No escape. The juveniles try to flee down a tunnel. The field follows. A Flame Crescent through the tunnel mouth finishes them.
+
+Emberfang's passive ignite catches two adults on fire. The double DOT — necrotic aura and fire burning simultaneously. The adults can't reach me. I'm ten feet up. Their leaps scrape ironwood and bounce off temp HP that the aura rebuilds every round.
+
+The last adult burrows. Erupts beneath me. One hit to real HP. I bring Emberfang around. One swing. Exact kill.
+
+Creation mode. The green-black dissolves. Golden warmth. The cave brightens.
+
+Eight claws collected. The cave collapsed — three Flame Crescents at the load-bearing stalactites. Ten feet of rubble sealing the entrance.
+
+Drav pays twenty gold.
+
+Forty-five minutes.
+
+---
+
+The Silver Draft. Pip on the bed. Hair down. Clean. Reading a book from the restricted section — dimensional folding.
+
+"This thing is better than gold," she says, holding up the brass token.
+
+"Get up. We're going shopping."
+
+Her eyebrows rise.
+
+"Give me two minutes."
+
+It takes her one.
+
+---
+
+The Gilt Lens. Maren Holt. The spectacles. The assessment.
+
+"Jewelry. Something for her. Budget of ten gold."
+
+Three items on the counter. A hearthstone pendant — warmth. A shimmerweave bracelet — vanity made practical. And a whisperstone ring — pale blue stone, silver band. One telepathic message per day. Twenty-five words. Fifty mile range.
+
+"The ring."
+
+Ten gold. I take it from the box. Take Pip's hand. Slide it onto her finger. The pale blue stone pulses — brighter — reading her. Attuning. The silver fitting like it was measured.
+
+"If I'm ever nearby, all you have to do is call. And I'll appear."
+
+She looks at the ring. The blue pulse matching her heartbeat. The silver on her finger.
+
+She steps forward. Both hands on my chest — one with the ring, one without. Her forehead against the ironwood armor. Three seconds.
+
+She steps back.
+
+"Go to your meeting."
+
+Steady. The innkeeper's voice. But the hand with the ring stays one extra beat.
+
+"Go. I'll be in the library. I'm on chapter four of dimensional folding and the author is wrong about planar membrane theory."
+
+She turns to Maren. "Do you have books?"
+
+Maren looks at me over Pip's shoulder. "I like her."
+
+---
+
+END OF CHAPTER NINETEEN — NO LEVEL UP (No Long Rest)
+
+The cobblestones. Afternoon sun. The Academy tower ahead. The north wing. The Council chamber.
+
+Emberfang on the hip. The satchel lighter than it's been in days. A man walking toward a reckoning with a fire sword and the clarity of someone who just put a ring on a woman's finger and told her to call.
+
+The circuit hums. The Crown on the podium. Solveth in the Frost Fang. 340 threads steady.
+
+And somewhere in the north wing — Marius Vael. A hundred and forty years old. Aging faster. Walking into a room full of people he's been stealing from for twelve years.
+
+Third bell. The reckoning.
+
+Both halves. Creation and entropy. Mercy and justice. A sword that heals and a field that ends.
+
+The choice approaches.
+
+
+# KENJI
+
+## *Day Eleven (continued) — The Reckoning*
+
+---
+
+The Council chamber. Circular. Domed ceiling with ley-light through crystal panels. Tiered seating in a half-circle. A long table with seven chairs — five senior faculty, two Council representatives. Fifty people. More than the lecture hall.
+
+Aldwin at the table. Staff across his knees. Professor Thane beside him. White robes. Restored mage-sight active. The heavyset theologian. A woman in formal black. An older man with spectacles and the Enchantment insignia. Two Council representatives — a sharp-faced woman with a silver chain of office, a broad man in merchant's finery.
+
+Sera — third row. Sightlines to every exit.
+
+Elara — front row. New ledger. Doesn't look at me when I enter.
+
+Edwyn — front row beside Elara. Frost Fang at his hip. The priest carrying a god-voiced sword.
+
+Garrett — back wall. Mace visible. The detail flanking.
+
+The Hollow Crown. On the central table. Cloth-lined pedestal. Crawling runes. 340 threads stretching outward through the walls.
+
+And Marius Vael.
+
+Seated opposite the senior faculty. Alone. The circuit screams — his signature frayed, thin, the ley web flickering around him. He looks old. Not vigorous old. The old of a man who has been a hundred and forty-three for three days. Silver beard thinner. Skin looser. Hands trembling. The glamour failing.
+
+But his eyes. Blue. Clear. Sharp. Undimmed.
+
+He sees me. Finds Emberfang. Finds the satchel. Finds the empty space where the Crown used to be.
+
+Something crosses his face. Not fear. Recognition. The courtesy of an old king meeting the new one.
+
+---
+
+I sit beside Elara. Front row. My hand settles on her lap.
+
+Her pen stops. New ink blot forming.
+
+She doesn't remove the hand. Doesn't look at me. Doesn't breathe for four seconds. The blush begins its methodical ascent.
+
+"I will end you," she whispers.
+
+I fix my eyes on Vael. Serious.
+
+In the third row — leather gloves creak on an armrest. Sera sees the hand. Sees the lap. Updating a murder timeline.
+
+At the table — Aldwin's staff taps once. The tap of a man who has decided that the memoir chapter about this week will be the longest.
+
+---
+
+The Council woman stands.
+
+"This emergency session is convened to address allegations of institutional misconduct by Chancellor Marius Vael. The petitioners allege that the Chancellor has used a concealed artifact to siphon magical essence from graduates through corrupted Assignment Seals."
+
+She gestures at the Crown.
+
+"All parties are present. Including the individual who removed the artifact and who currently holds the title of 'ArchMagus,' which this Council does not recognize but has agreed to table for a separate discussion."
+
+"Chancellor Vael. You may address the allegations."
+
+---
+
+Vael stands. Slowly. Trembling.
+
+"I am guilty."
+
+The chamber stops breathing.
+
+"I am guilty of everything the petition alleges. The Crown is mine. The siphons are mine. The corruption of the Assignment Seals — mine. For twelve years I have drained the magical essence of three hundred and forty-seven graduates to sustain a pact with a divine entity of entropy bound beneath this Academy."
+
+No defense. No denial.
+
+"I am one hundred and forty-three years old. I was dying when I found the chamber. The entity — Solveth — was dying too. We made a bargain. My knowledge for its power. I built the Crown. I corrupted the seals. I fed a god through stolen lives."
+
+The blue eyes find me.
+
+"I am not here to defend myself. I am here because in a hundred and forty-three years, the most remarkable thing I have ever witnessed is a man who carries creation and entropy in the same body and chose mercy when destruction would have been easier."
+
+He looks at the Crown.
+
+"You could have destroyed it. I would be dead. Solveth dispersed. Justice. Clean." He looks at me. "Instead you took the anchor. Left Solveth bound but unchained. Freed who you could. Left the mechanism intact to dismantle safely. The harder path. The one that saves more lives."
+
+The tremor worsens. He grips the table.
+
+"I built a cage for a god and a feeding system for myself out of fear. The most human fear. And I let it make me monstrous."
+
+He sits down.
+
+---
+
+"Thank you for your story, Chancellor. In my opinion — you were successful. Your life extension research worked. You're a hundred and forty-three and still the sharpest mind in this room."
+
+I look at him.
+
+"But why live forever? Seems like that would get boring. Was it a good life? What happened to you — before all this?"
+
+The blue eyes recalculating. He expected judgment. Not — tell me about yourself.
+
+"I was born in a village called Threshton. Farming country. East of here. My mother was a seamstress. My father built fences. I was the third of five and the only one who could light a candle without a match."
+
+The chamber very still.
+
+"A traveling scholar found me at nine. Tested me. Paid my tuition from his own pocket. I arrived at this Academy at ten with one pair of shoes and a letter from my mother that I kept until the paper fell apart."
+
+He looks at the room.
+
+"I was brilliant. By twenty I was publishing. By thirty, teaching. By forty, the foremost entropy theorist in the western provinces."
+
+The blue eyes sharpen.
+
+"I married. Lena. A healer. She worked in the lower city clinics — the ones that serve people who can't afford Academy-trained mages. She was better than me in every way that mattered."
+
+Something crosses his face. The tremor returns.
+
+"She died. I was fifty-three. A fever. The kind that doesn't respond to magic because it isn't magical. I held her hand for three days. The most powerful entropy theorist alive and I couldn't stop a fever."
+
+Some of the older faculty remember Lena. Their faces change.
+
+"That's when the fear started. Slowly. I watched my body age. Watched the mind slow. Watched colleagues die from time. The great unbeatable enemy."
+
+He looks at me.
+
+"I started researching life extension at sixty. Small bargains first — alchemical treatments, entropy manipulation. Each bought a few years. Each cost something I told myself didn't matter."
+
+He holds up his trembling hands.
+
+"By eighty I had exhausted every conventional method. I found the chamber at ninety-one. A construction project breached the sub-basement. The architecture of something older than the Academy. And Solveth — dying. A god of entropy curled in the dark."
+
+He looks at me.
+
+"A ninety-one-year-old man looking at a dying god. We were the same thing. The bargain was easy. That's the worst part."
+
+He looks at the five freed faculty.
+
+"Dying is not the worst thing a man can do. The worst thing is making other people pay for your fear of it."
+
+Beside me — Elara's hand. The ink-stained fingers settling over mine on her lap. When it happened I'm not sure. Somewhere between the fever and the fear. But it's there. Her fingers on my knuckles. The weight of a woman holding onto something while a man who stole eight years of her life explains why.
+
+Three requests. One — safe severance of the 340 remaining siphons, directed by the anchor-holder. Two — Solveth freed, not destroyed. The cycle requires both halves. Three — let him help dismantle what he built. Not forgiveness. Usefulness.
+
+---
+
+"Unfortunately — there are victims. I'd like everyone to hear from one of them."
+
+I turn to the third row.
+
+"Sera."
+
+---
+
+She stands. Walks down the tiers. Each step measured. The combat mage's walk.
+
+She stands near Vael. Close enough that the Chancellor can see the woman his system made.
+
+Five seconds of silence.
+
+"My name is Sera. I graduated three years ago with a Combat Mage Certification. The twelfth. Before the one you've been hearing about."
+
+She holds up her hand. A force bolt crackles — blue-white, stable.
+
+"The day I graduated, Chancellor Vael pressed a certification seal into my forearm."
+
+She pushes up her sleeve. The seal.
+
+"Six months later, my force bolts were weaker. A year in, I couldn't project at range. Two years in, the compression failed entirely."
+
+She closes her fist. The bolt vanishes.
+
+"I practiced every night. Alone. In the dark. Because if I practiced in daylight someone might see the combat mage couldn't cast."
+
+She looks at her hand.
+
+"Three years. I fought with steel because it was all I had left. I told people I preferred swordwork. I told my employers magic wasn't my style. I told myself every morning that today would be different."
+
+She looks at Vael.
+
+"I didn't know why. I thought it was me. I thought I was defective. That the certification was a mistake. That the truth was catching up."
+
+She holds up her forearm.
+
+"It wasn't me. It was this. A parasite woven into my skin by the man in that chair."
+
+She opens her hand. The force bolt returns. Brighter.
+
+"Nine days ago, a man I'd known for three days touched my arm and dissolved the thread. The magic came back in one second. Three years of stolen life between one heartbeat and the next."
+
+The crack in the mask. Opening. Not breaking.
+
+"I cried. I'll say that once and never again. The magic came back and I cried. Because it wasn't me. I wasn't broken. I was being eaten."
+
+She looks at Vael.
+
+"You said the cost was acceptable. I missed it every day for three years. Every night alone in the dark trying to light a spark that you were drinking through a straw."
+
+She closes her fist.
+
+"I don't want your apology. I needed you to hear — from someone you stole from — that the cost was not acceptable. That it was never acceptable."
+
+She straightens.
+
+"That's my story. Three years. One seal. One man's fear."
+
+---
+
+The silence after Sera is sharp. The difference between understanding a crime and meeting the victim.
+
+Faculty touching their seals. The freed five seeing their own story in a woman with wet eyes and a steady chin.
+
+In the front row — Elara. Gripping the ledger with ink-stained fingers. Tears on her face. The woman whose own eight years were stolen, hearing three years described by the voice that carries it best.
+
+Vael. The blue eyes on Sera. Something broken that wasn't broken during his own confession.
+
+"I heard you," he says. "I hear you."
+
+Sera walks back to the third row. Sits. Arms folded. Eyes dry.
+
+---
+
+The Council woman looks at me. "Does the ArchMagus have anything further?"
+
+I shake my head. Once. Nothing further.
+
+"The Council will deliberate. Non-essential personnel are dismissed."
+
+---
+
+The courtyard. The stone owl fountain. Late afternoon. The Academy golden in sunset.
+
+Five people at the fountain. Sera on the edge. Edwyn against a column. Garrett at the entrances. Elara beside me — ink-stained fingers finding my hand. Tight. Brief. Released.
+
+Nobody speaks. The fountain burbles. The sunset deepens. The ley web settling around a new reality.
+
+Twenty minutes.
+
+---
+
+The chamber doors open. Aldwin emerges. Staff tapping.
+
+"The Council's decision."
+
+One. Marius Vael is stripped of the title of Chancellor. Confined to Academy grounds under faculty supervision. Required to assist in dismantling the siphon architecture under the anchor-holder's supervision.
+
+Two. Siphon severance declared highest institutional priority. All Academy resources authorized. Work directed by the anchor-holder in consultation with senior faculty.
+
+Three. Solveth recognized as a divine entity held in unjust captivity. The Council formally requests the anchor-holder pursue cycle restoration — freely, without chains — when safe to do so.
+
+Four. ArchMagus tabled for quarterly Council session. Kenji granted provisional designation of Academy Champion — authority over defense, combat readiness, external threat response. Reporting to senior faculty council.
+
+Five. Instructor Elara Ash appointed Acting Chancellor. Effective immediately.
+
+Elara's hand tightens on the ledger. White-knuckled. The woman who spent three years pulling at threads — now running the institution.
+
+She nods. Once.
+
+"Go eat," Aldwin says. "You all look terrible."
+
+---
+
+***"...freely. Without chains. When it is safe."***
+
+Solveth. From Edwyn's hip. Quiet.
+
+***"...I have waited twelve years. I can wait a little longer. The man with the purple hair will know when it's time."***
+
+---
+
+END OF CHAPTER TWENTY — NO LEVEL UP (No Long Rest)
+
+The courtyard. Sunset. The fountain. Five people who dismantled a conspiracy in nine days.
+
+Vael stripped. Elara Chancellor. Kenji Champion. Solveth's freedom formally requested. 340 threads authorized for dismantling.
+
+The sharp-faced Council woman said ArchMagus like she was handling something sharp. Aldwin said go eat like he meant go sleep. Solveth said he could wait like he meant he'd been waiting since before the Academy existed.
+
+And Sera sat in the third row with dry eyes and folded arms and the particular silence of a woman who just told fifty people about three years of practicing alone in the dark. And was heard.
+
+The sunset deepens. The fountain burbles. The ley web hums a different rhythm.
+
+The conspiracy is over. The cycle begins.
+
+# KENJI
+
+## *Day Eleven (concluded) — Getting It Up*
+
+---
+
+The courtyard. Sunset fading to dusk. The fountain burbling. The five of us.
+
+I put my hand over my heart. Look at Sera. The grin spreading. Shaking my head.
+
+She got me. The naming thing. *Special battle mage forces.* A sick burn. Emotional damage. She's rubbing off on me or I'm rubbing off on her.
+
+The fraction of a millimeter at the corners of her mouth. Sera's version of a standing ovation.
+
+"I agree with all her changes. Combat lead. Two researchers plus Edwyn. One squad in, two on rotation. The triangle portal network. We go with Sera's plan."
+
+Sera inclines her head. The combat lead's acknowledgment.
+
+"One more thing. Especially for you, Edwyn. The deeper passage has entropy presence. The cold. The pressure. The thing that turns hair white. But I think I have something that can combat it."
+
+I look at everyone.
+
+"Behold... *ultimate power*!"
+
+I spin around. Hands splayed to the sky. Fingers spread. Deep concentration.
+
+Nothing happens.
+
+Two seconds. Three. Four.
+
+A student crosses the courtyard. Stares. Keeps walking faster.
+
+Five seconds.
+
+Sera's arms fold. "Kenji. Your ultimate power looks a lot like standing still."
+
+I look at Elara. At Sera. Disconcerted.
+
+"It seems I can't get my magic up. Can my partners please come over and help me out?"
+
+I hold a wrist out toward each of them.
+
+---
+
+Sera's hand goes to her sword pommel. Knuckles white. Elara's pen snaps in half. Garrett takes one step backward. Edwyn closes his eyes.
+
+***"...he knows exactly what he's doing,"*** Solveth says. ***"The man treats mortal peril as a recreational activity."***
+
+But I hold the moment. Serious. "Ladies, I'm serious. The ley lines. My connection is weakening. Hurry. We are all waiting."
+
+They look at each other. The calculation. Whether this is genuine or another setup.
+
+"The Duality Aspect channels both creation and entropy simultaneously," Elara says. The researcher engaging despite herself. "In a neutral environment he would need a catalyst—"
+
+"He needs a catalyst," Sera finishes.
+
+"Both of you. One wrist each. Three seconds."
+
+Sera moves first. Grabs my left wrist. Not gently. The grip of a woman making a point. Through the circuit — the entropy residual in her skin. Three years of siphon damage. Faint. But present.
+
+Elara takes my right wrist. Clinical. The Acting Chancellor providing a magical catalyst. The creation energy in her restored magic — pure, Academy-refined — flowing through the contact.
+
+Left hand — entropy. Right hand — creation. Both halves. Bridged through me.
+
+The ember ignites.
+
+I gasp. Loud. Head thrown back. Eyes closed. The performance of a lifetime.
+
+"Oh my GOD—"
+
+Sera's grip tightens. "What's happening—"
+
+"YES — Elara — YES SERA — keep it up — don't stop—"
+
+Golden light erupts. The Duality Aspect blooming. Creation mode. Sixty feet of radiance washing across the courtyard. I lift off the cobblestones. Two feet. Three. The aura expanding. The fountain healing. The grass growing. Flowers budding between stones.
+
+The sounds I'm making. The gasping. The shaking. The *yes* and the *keep it up* while two women hold my wrists and golden light pours from my body in a public courtyard at dusk.
+
+A student in the colonnade drops an entire stack of books.
+
+Garrett has turned around. Facing the wall. Shoulders shaking.
+
+Edwyn is making a sound between prayer and choking.
+
+Sera — frozen between letting go and maintaining what she believes is critical. Her face a color medical science would find concerning.
+
+"Kenji are you — is this — do we need to keep—"
+
+"DON'T LET GO — I'M ALMOST THERE—"
+
+Elara's fingers locked on my right wrist. The Acting Chancellor — appointed thirty minutes ago — providing magical support while the Academy Champion moans in a courtyard.
+
+"This is not — I am going to — when this is over I will—"
+
+The golden aura stabilizes. The light steadies. I hover. The sixty-foot radius holds. The fountain healed. The grass grown.
+
+---
+
+I let go. Drop to the ground. The aura still radiating.
+
+"Thanks, ladies. I learned to cast that spell yesterday. I, um... didn't actually need you to touch me."
+
+Silence.
+
+"But wow, you ladies really are grabby."
+
+---
+
+Sera walks to the fountain. Sits. Picks up a stone. Squeezes it. The stone cracks.
+
+Elara looks at her empty hands. "I appointed you Academy Champion thirty minutes ago. I can unappoint you."
+
+She opens the ledger. Starts writing. The handwriting of a woman committing something to institutional record that will haunt a man for his career.
+
+***"...I tried to warn them. Nobody listens to the god in the sword."***
+
+A pause.
+
+***"...for the record — the dual catalyst requirement was entirely fabricated. He can activate the aspect independently. He demonstrated this in a cave with no assistance whatsoever."***
+
+The thin voice. Carrying across the courtyard.
+
+***"...he did not need help getting it up."***
+
+Sera looks at the Frost Fang. At me. Back at the Frost Fang. The stone in her hand cracks again. Smaller pieces this time.
+
+Elara's pen — already in two halves — gets gripped so hard the wood splinters further. The Acting Chancellor adding *divine testimony of deliberate humiliation* to the institutional record.
+
+Garrett is still within the aura. He rolls his shoulder — the right one. The one he compensates for when he swings the mace. The old injury from the bridge. The one he never mentions.
+
+"It doesn't hurt," he says. Testing it. Rolling it again. The disbelief of a man feeling something he'd written off as permanent suddenly not there. He looks at me. "I don't care about the joke. My shoulder hasn't felt this good in six years. Can you just... stay near me? Forever?"
+
+---
+
+I look at Edwyn.
+
+The priest is touching the edge of the aura. His fingers passing through the boundary. The expression shifting — the priest feeling divine creation energy on his skin.
+
+"This will work," he says. Quiet. "The entropy presence operates through ambient saturation. Cold. Fatigue. Cellular decay. Your creation aura is the exact opposite. Ambient restoration. The two fields would cancel — your aura pushing back entropy the way light pushes back darkness."
+
+He looks at his hand. A small cut on his index finger from a page edge is gone.
+
+"Anyone within sixty feet would be shielded. More than shielded — actively sustained. Minor injuries healing passively. Fatigue suppressed. The researchers could work in conditions that would normally be lethal."
+
+He looks at me. The wonder. The theology made physical.
+
+"Yes. This will work. The expedition has a counter to the entropy presence." He pauses. "Assuming the people you need to protect are still willing to stand within sixty feet of you after—"
+
+He gestures vaguely at the two women.
+
+"—all of that."
+
+---
+
+END OF CHAPTER TWENTY-ONE — NO LEVEL UP (No Long Rest)
+
+The courtyard. Golden light. A healed fountain. Growing grass. Flowers between the cobblestones.
+
+Sera cracking stones on the fountain edge. Elara writing something permanent in the institutional record. Garrett rolling a shoulder that works for the first time in six years. Edwyn confirming the expedition is viable. A god in a sword who tried to warn them.
+
+The expedition has its counter. The plan has its structure. The combat lead has her title. The Acting Chancellor has her ledger.
+
+And the Academy Champion has a sixty-foot aura of divine creation energy, two women who are planning his death with institutional resources, and the particular satisfaction of a man who spent two minutes building toward a joke about getting his magic up.
+
+Creation doesn't just make weapons. It makes doors. It makes gardens. And apparently it makes terrible, terrible jokes.
+
+
+# KENJI
+
+## *Day Eleven (Night) — Come Back*
+
+---
+
+I don't say goodbye. I just go. The Duality Aspect launches me upward — not a gentle hover. A launch. Ten feet. Twenty. Thirty. The golden creation aura rising over the Academy courtyard like a second sun at dusk.
+
+Students look up. Every face tilting toward the man in ironwood armor trailing golden light. A vine sprouts from a third-floor window box as I pass. A gargoyle gets slightly less weathered.
+
+Sera watches from the fountain. The stone in her hand forgotten. The dark eyes tracking the golden sphere.
+
+She'll never admit what her expression is.
+
+Elara looks up from the ledger. Pen still. The Acting Chancellor watching the Academy Champion fly over her institution trailing divine creation energy like a comet with a bad sense of humor.
+
+She looks back at the ledger. Writes one more line. Closes it.
+
+---
+
+The Silver Draft. Through the second-floor window because the door is for people who can't fly.
+
+The kitchen. The innkeeper's boy starts cooking before I speak.
+
+"A week's worth of road food. Everything you can fit in here."
+
+Twenty minutes. Smoked sausage. Hard cheese. Dried fruit. Salted jerky. Hard bread. Honey pot. Trail mix. Salt. Two waterskins. All preserved the moment they enter the satchel.
+
+Three gold. I eat a sausage link and bread while he packs.
+
+---
+
+The window. Up. The golden aura clearing the rooftops. Varenholm spreading below — city lights, Academy tower, walls. The road east visible as a pale ribbon.
+
+Over the walls. A guard waves. Salute or confusion.
+
+Forty-five minutes of flight. The creation aura healing the countryside beneath — a sixty-foot circle of greener grass tracking my path.
+
+The Duality expires. The gold fades. The flight cuts. I drop —
+
+The Windrunner Boots catch the road. Momentum converts to a run. Seamless. One second flying. The next sprinting.
+
+Arcane Stride. Level three. Silver hum. Four times speed.
+
+---
+
+Five hours. The dark road bright through the predator's eyes. Sausage and bread at the four-hour mark. The countryside blurring.
+
+The Broken Antler territory. The turnoff. The inn visible — lantern light in the windows.
+
+Midnight.
+
+---
+
+The common room. I stop dead center. Papers blow off a table.
+
+Brindle at the bar. Bastard sword against her stool. "Kenji. We weren't expecting you."
+
+Kael at a corner table. Cleaning a shortsword. He reads Emberfang — the amber glow, the creation bond. "New sword."
+
+"New everything. I need your back yard for ten minutes."
+
+---
+
+Behind the inn. Training circle. Weapon racks. Beaten earth.
+
+The last spell slot. Ten minutes. Gold light against the back wall. The archway forming. Seven feet tall. Four feet wide. The interior activating — two destinations visible. Varenholm Academy. Duskfen.
+
+The triangle is complete.
+
+Brindle watches the archway build itself. Arms folded.
+
+"That goes to the Academy and to Duskfen. Instant. Permanent."
+
+She walks to the portal. Reaches toward the shimmer. Through it — the eastern training grounds of Varenholm visible in the moonlight. Three days ride showing through a golden door in her back yard.
+
+"Supply lines. Reinforcements. Evacuation." The guild leader ticking off implications. "We can take contracts in Varenholm and deploy from here."
+
+"The fastest mercenary company on the continent."
+
+"The only one with a portal network." She looks at the archway. "What did you need the back yard for. You could have put this in the common room."
+
+"Didn't want to scare the new recruits."
+
+She almost smiles. Almost.
+
+"Garrett will come through in the morning with the details. Academy-funded expedition — one week, hazard pay, salvage, speed bonus. He'll brief you on squad structure."
+
+Kael in the doorway. "How many squads."
+
+"Three. You, Brindle, Garrett. Four people each. Sera is combat lead."
+
+"Sera. The woman from the bridge."
+
+"With her magic back."
+
+Something shifts in Kael's posture. Recalculating.
+
+"We'll be ready," Brindle says. Tankard in hand. "Day thirteen?"
+
+"Day thirteen."
+
+"Then get some sleep. You look like a man running on ego and sausage."
+
+---
+
+"Kael. Before I go — I want to train. Dual-wield defense. You fight with two shortswords. I need what you know."
+
+Kael sets the cleaning cloth down. "You're exhausted."
+
+"I'm asking."
+
+Brindle takes her tankard inside. This isn't guild business. Two fighters in a yard.
+
+Kael pulls two wooden training swords from the rack. Tosses one pair to me. Keeps the other.
+
+"Short session."
+
+He settles into stance. Both training swords forward. Low. Wide. The same base as Sera's Twin Fang but different. Where Sera's is offensive, Kael's is defensive. Shortswords angled inward. Covering center mass. The stance of a man whose job was keeping someone else alive.
+
+"You learned Twin Fang. Offense. Two weapons, two attacks." He crosses the training swords in front of his chest. An X. "This is the other side. Two weapons, two blocks, one reaction. The cross-guard."
+
+The X position. Both blades forming a barrier.
+
+"One weapon blocks one line. Two weapons block two lines simultaneously. The cross catches any angle. Your Cage technique uses one weapon — plus two AC. With two weapons, the geometry covers everything. The AC bonus doubles."
+
+He drops the X. "Attack me."
+
+I swing. The training sword hits the cross and stops. Dead. Two blades sharing the load. My weapon arm jarred.
+
+"One blade deflects. Two blades absorb. And that—" A snap thrust at my throat, stopping an inch from my neck. "—is where the counter comes from."
+
+The cross-guard absorbs. The counter launches from absorption. The attacker's weapon trapped in the X for a fraction of a second. They can't parry because their blade is in the guard.
+
+"With one weapon — one counter per engagement. With two weapons in cross-guard, the window is wider. The X creates the opening instead of waiting for one."
+
+"Again. Three times. Fast."
+
+Three swings. High, low, diagonal. Kael's cross-guard catches all three — and after the third, both his training swords launch. One high, one low. Two simultaneous counters.
+
+"Three blocks. Two counters. Every block is a potential launch point."
+
+My turn. The X position. Weapons angled inward. Kael attacks.
+
+His sword hits the cross. The impact distributes across both blades — not jarring. Shared. The geometry works.
+
+"Now counter. The moment the impact dies — pick a blade and launch."
+
+Block. Absorb. Right-hand launch at his exposed ribs. He parries. Barely.
+
+"Faster than I expected."
+
+Block. Absorb. Left-hand low at the knee. He sidesteps.
+
+Block. Absorb. Both swords — the double counter. High and low. Kael throws himself backward. Training swords whistle past.
+
+"Three for three." He sets the training swords on the rack. "You learn too fast. It's unnatural."
+
+The ember locks it in. The cross-guard merging with Sera's Cage. One weapon becoming two. One counter becoming three. The geometry of protection doubling.
+
+"One session," Kael says. "Took me two years."
+
+He sheathes his real shortswords.
+
+"Get some sleep, Kenji. You're fighting something underground in two days and I'd rather my guild founder didn't die in a hole because he trained at midnight instead of resting."
+
+---
+
+The portal. One step. The guild's back yard becomes the Academy training grounds. Midnight air. Different sky.
+
+The Silver Draft. The stairs. My room.
+
+Garrett's room is lent to Ryn. Garrett sleeping somewhere in the inn. I leave a note on the corner table.
+
+*Third portal is up. Broken Antler. Brief Brindle and Kael when you wake. You know the plan. — K*
+
+My room. The lock clicks. Pip is asleep. On her side. Steady breathing. The Whisperstone Ring catching moonlight on her finger. A book on dimensional folding on the bedside table — bookmarked at chapter seven. Three more chapters since this afternoon.
+
+Emberfang beside the book. Amber glow next to a library theft.
+
+Sausage and cheese from the satchel. Eating on the edge of the bed.
+
+Boots off. Armor off. I slide in beside her. She shifts without waking — muscle memory finding the shape of someone next to her. Her back against my chest. My arm across her waist. The ring cool against my forearm.
+
+The circuit hums. Distant. Crown still. Solveth still. 340 threads. Three portals glowing gold in three different places. Garrett's note downstairs. Sera somewhere in the Academy. Elara in her office — probably still writing.
+
+Brindle and Kael at the guild. Squads to assemble. A golden door in their back yard.
+
+Tomorrow. Pip and Ryn with Aldwin. Sera attending. Final prep. Day thirteen — the Delve.
+
+But now — the bed. The warmth. The steady breathing. The ring on her finger. The particular quiet of a man who flew over a city, ran for six hours, built a golden door, sparred a bodyguard at midnight, and is now exactly where the honey cake always said to be.
+
+*Come back.*
+
+He came back.
+
+---
+
+END OF CHAPTER TWENTY-TWO — LONG REST — LEVEL 8
+
+The ember restructures in sleep. The circuit deepening. Twenty-one hours awake processing into something denser. The cross-guard merging with the cage. The creation aura settling into memory. The triangle of golden doors humming across the distance.
+
+Level eight. Day twelve. The man who woke in mud twelve days ago.
+
+Tomorrow — two people from a marsh village stand in front of the most dangerous man in the Academy and learn whether they have what he has. A combat lead attends. A guild provisions. An Acting Chancellor drafts contracts in an office that belonged to a monster.
+
+And somewhere beneath Duskfen — something old. Something original. Something that has been waiting in the dark longer than gods.
+
+The Delve is next.
+
+But tonight — the warmth. The breathing. The ring.
+
+Come back. Come back. Come back.

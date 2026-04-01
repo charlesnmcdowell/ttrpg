@@ -377,37 +377,75 @@ All standard 5e conditions apply automatically when the fiction warrants them:
 ### 📋 CURRENT CHARACTER STATUS LOG
 
 KENJI
-- Fed: YES (shepherd's pie x2, honey cake)
-- Rested: NO LONG REST — Day 8 into midnight infiltration
-- HP: 33/33
-- Spell Slots: L1 4/5 (Stride), L2 2/3 (Eyes)
+- Fed: eat at dawn (Fast Metabolism)
+- Rested: YES (Full long rest — Level 8)
+- HP: 51/51
+- Spell Slots: L1 5/5, L2 3/3, L3 3/3 (was 2, now 3 at Level 8), L4 1/1 (NEW)
 - Blade Ward: 3/3
-- Hit Dice: 5/5
-- Eyes of the Hunter: ACTIVE (cast 11:45 PM — ~12 hrs)
-- Arcane Stride: ACTIVE (cast 11:45 PM — ~12 hrs)
-- Gear: LIGHT — no chest armor, bracers only, hand axe, returning knife (1 somnus dose), Satchel of Holding, lockpick set, flint x7. Longsword left at inn.
-- Location: Academy west side, maintenance entrance, midnight
-- Gold: 3 GP
-- ⚠️ LEVEL 6 PENDING: 17,155 / 14,000. Triggers on next Long Rest.
-- ⚠️ FAST METABOLISM: clock running. Last meal ~7 PM. Needs food by ~11 PM — OVERDUE. Will need to eat during or after infiltration.
+- Hit Dice: 8/8
+- Ember Lance: 3/3
+- Active Effects: Circuit Anchor (permanent), Demigod passives (permanent). All buffs expired — recast as needed.
+- Location: Silver Draft inn, Varenholm — Day 12 morning, with Pip
+- Gold: 9 GP, 9 SP, 8 CP
+- Emberfang: bedside table
+- Frost Fang: WITH EDWYN (Solveth voice channel)
+- Crown: Council chamber (status post-verdict — may need securing)
+- Brass token: WITH PIP
+- Satchel: restocked — 1 week food supply
+- ⚠️ LEVEL 8. L4 slot unlocked (1). HP 51. L3 slots now 3 (per spell table). Perk at Level 9.
+- ⚠️ CROSS-GUARD: Sera's Cage upgraded — +4 AC dual-wield, 3 counters/combat.
+- ⚠️ TEMP HP CAP: now 51 (matches max HP).
+
+PIP
+- At the Silver Draft, Kenji's room. Whisperstone Ring attuned. Has brass token.
+- Established intimate relationship with Kenji.
+- Reading dimensional folding (restricted section) — chapter 7. "The author is wrong about planar membrane theory."
+- Talked her way into restricted section: "My partner is the ArchMagus."
+- Aldwin evaluating her tomorrow dawn.
+
+RYN
+- At the Silver Draft, Garrett's room.
+- Read four books on magical theory in six hours. Taking notes. Better handwriting than first-years.
+- Aldwin evaluating him tomorrow dawn.
 
 GARRETT
-- Location: Out overnight. Following guild contract lead. Unaware of infiltration.
+- At the Silver Draft. Note left: third portal is up, brief Brindle and Kael.
+- Will go through Broken Antler portal to provision and brief guild on expedition.
 
-SERA — WITH KENJI AT MAINTENANCE ENTRANCE
-- Dark leathers, sword, no armor. Hair back. Mission mode.
-- Knows her seal is draining her. Felt magic return for 2 seconds. Doesn't have full details yet — waiting for Elara's recap during the crawl.
-- Mapped Academy security over 2 days. Planned the infiltration approach.
-- Condition: full disclosure from Kenji. Not yet received.
+SERA — COMBAT LEAD
+- At the Academy. Promoted to combat lead for the expedition.
+- Testified publicly at Council. Three years in the dark. Heard.
+- Attending Pip/Ryn evaluation tomorrow dawn.
 
-ELARA ASH — WITH KENJI AT MAINTENANCE ENTRANCE
-- Dark clothes, tool satchel, soft-soled boots. Faculty ward access to sub-basement 2.
-- Knows everything — seal corruption, encoding match, Chancellor theory.
-- Will brief Sera during the crawl.
-- Does not yet know Kenji told Sera she was "gasping."
+ELARA ASH — ACTING CHANCELLOR
+- In the Chancellor's office (her office now). Probably still writing.
+- Drafting Academy-funded expedition contract tonight.
+- Selecting two researchers for the expedition.
 
-EDWYN — AT THE SILVER DRAFT
-- Preparing bittershade extract (ready by dawn). Theological presentation tomorrow. Unaware of infiltration.
+EDWYN — CUSTODIAN / EXPEDITION MEDIC
+- Holding Frost Fang and Crown. Confirmed Duality Aspect counters entropy presence.
+- Volunteered for expedition — medical and divine consultation.
+
+ALDWIN — FULL KNOWLEDGE
+- Senior faculty. Evaluating Pip and Ryn tomorrow dawn.
+- Taught Kenji Ember Lance. "Terrible student, excellent general."
+
+PROFESSOR LIRA THANE — FREED, ALLIED
+- Senior diviner. Restored mage-sight. Led the investigation petition.
+- Working with Aldwin on institutional reform.
+
+MARIUS VAEL — STRIPPED, CONFINED
+- Stripped of Chancellor. Confined to Academy grounds under faculty supervision.
+- Required to assist siphon dismantling under Kenji's supervision.
+- Aging. Cooperative. Confessed voluntarily. Tragic.
+
+BRINDLE — GUILD LEADER
+- At the Broken Antler. Portal #3 active in her back yard.
+- Assembling squads for Day 13 expedition. Garrett briefing her in the morning.
+
+KAEL — GUILD TRAINER
+- At the Broken Antler. Trained Kenji in cross-guard at midnight.
+- "You learn too fast. It's unnatural." Assembling his squad.
 
 ### ⚠️ DM Application Rules
 - Never apply a status without narrative justification — the fiction leads, the mechanic follows
@@ -547,16 +585,22 @@ Fast travel is NOT available as a default game mechanic. The party must walk the
 | 4     | 27  |
 | 5     | 33  |
 | 6     | 39  |
+| 7     | 45  |
+| 8     | 51  |
+| 9     | 57  |
 
 ### 🔮 Spell Slots (CHA-tied | Half-caster)
-| Level | L1 | L2 | L3 |
-|-------|----|----|----|
-| 1     | 3  | —  | —  |
-| 2     | 4  | —  | —  |
-| 3     | 4  | 2  | —  |
-| 4     | 5  | 2  | —  |
-| 5     | 5  | 3  | —  |
-| 6     | 5  | 3  | 2  |
+| Level | L1 | L2 | L3 | L4 |
+|-------|----|----|----|-----|
+| 1     | 3  | —  | —  | —   |
+| 2     | 4  | —  | —  | —   |
+| 3     | 4  | 2  | —  | —   |
+| 4     | 5  | 2  | —  | —   |
+| 5     | 5  | 3  | —  | —   |
+| 6     | 5  | 3  | 2  | —   |
+| 7     | 5  | 3  | 2  | —   |
+| 8     | 5  | 3  | 3  | 1   |
+| 9     | 5  | 3  | 3  | 2   |
 
 ---
 
@@ -569,6 +613,9 @@ Fast travel is NOT available as a default game mechanic. The party must walk the
 | 3→4   | 1,800     | 2,700 |
 | 4→5   | 3,800     | 6,500 |
 | 5→6   | 7,500     | 14,000|
+| 6→7   | 9,000     | 23,000|
+| 7→8   | 11,000    | 34,000|
+| 8→9   | 16,000    | 50,000|
 
 - EXP: combat (5e CR), discovery (25-100), milestones (50-200)
 - Level up on Long Rest ONLY
@@ -592,6 +639,35 @@ Combat EXP awarded to the player character scales based on how many allied comba
 - If an ally is incapacitated mid-fight (knocked out, fled), they still count if they participated in any round of the combat
 - The DM applies the multiplier to the base CR combat EXP before logging it
 - This applies ONLY to combat EXP, not skill check EXP, discovery EXP, or milestones
+
+### ⚔️ CR RATING REFERENCE LADDER
+Use this ladder to calibrate CR for new enemies and NPCs. If a creature/NPC is tougher than a reference point, their CR is higher. If weaker, lower. Always compare to established benchmarks.
+
+| CR | Base EXP | Reference Enemies |
+|----|----------|-------------------|
+| 1 | 200 | Wolves, basic bandits (untrained), Hexcrawler |
+| 2 | 450 | Cougar, armed bandits (light training), Brindle's toll sentries |
+| 3 | 700 | Stonehide Basilisk, Duskmantle Stalker, Sera (restored combat mage), Brindle (full power), experienced enforcers |
+| 4 | 1,100 | Iron Sentinel, Kael (bodyguard, dual shortswords), dangerous bounty targets |
+| 5 | 1,800 | **Aldwin (master instructor, frost terrain, 40 years)**, elite military officers, minor magical creatures |
+| 6 | 2,300 | Senior combat mages, dangerous magical beasts, elite constructs |
+| 7 | 2,900 | Archmage-level combatants, greater constructs, powerful entropy creatures |
+| 8 | 3,900 | **Chancellor Vael (weakening — estimated)**, legendary fighters, minor divine servants |
+| 9 | 5,000 | Chancellor Vael (full power, pre-Crown-loss), major divine servants |
+| 10+ | 5,900+ | Gods, manifestations, world-level threats |
+
+**NPC CR Ratings (established):**
+- Sera (pre-restoration, sword only): CR 2
+- Sera (restored, twin weapons + force magic): **CR 3**
+- Garrett (mace, chainmail, tank): CR 2
+- Brindle (bastard sword, full power): CR 3
+- Kael (dual shortswords, heavy armor): CR 4
+- Aldwin (master instructor, frost magic, bladed staff): **CR 5**
+- Elara (restored, ward expertise, mage-sight): CR 2 (non-combat specialist)
+- Edwyn (healer, crossbow): CR 1
+- Chancellor Vael (current, aging, weakening): **CR 7-8 estimated** (was CR 9 at full power)
+
+**Rule:** When Kenji fights someone or something tougher than an established reference, the CR must be higher. If Kenji fights something weaker, CR must be lower. The ladder scales — no exceptions.
 
 ### 🎲 EXP FROM SKILL CHECKS
 Successful skill checks award EXP based on the DC of the check. The world rewards competence — every meaningful success teaches the character something.
@@ -645,8 +721,8 @@ Race: Human
 Class: Blade Channeler (Sorcerer Swordsman — CHA-based, weapon enhancement)
 Background: Outlander — transported from another world. Woke with nothing but the clothes on his back. Origin unknown.
 Appearance: Dark skin, purple dreadlocks, hazel eyes. Lean and capable looking. Wears leather armour over civilian clothes from another world.
-Level: 5
-EXP: 17,180 / 14,000 (LEVEL 6 PENDING — needs Long Rest)
+Level: 8
+EXP: 40,585 / 50,000
 
 ### Stats (Base total: 72/72 ✅ | At 16+: 1/2 ✅)
 | Stat | Base | +Human | Final | Mod  |
@@ -659,11 +735,11 @@ EXP: 17,180 / 14,000 (LEVEL 6 PENDING — needs Long Rest)
 | CHA  | 16   | +1     | 17    | +3 ⭐|
 
 ### Derived Stats
-- HP: 33 / 33
+- HP: 51 / 51
 - AC: 15 (Ironwood-Cured Bear Leather 14 + DEX +1)
 - Spell Attack: +6 | Spell Save DC: 14
 - Proficiency Bonus: +3 | Initiative: +1
-- Hit Die: d8 (5 total)
+- Hit Die: d8 (8 total)
 
 ### Saving Throws (Proficient)
 - CHA: +6 | CON: +4
@@ -676,11 +752,13 @@ EXP: 17,180 / 14,000 (LEVEL 6 PENDING — needs Long Rest)
 - Perception (WIS): +3
 
 ### Current Status
-- HP: 33 / 33
-- Spell Slots: L1: 5/5 | L2: 3/3
+- HP: 39 / 39
+- Spell Slots: L1: 5/5 | L2: 3/3 | L3: 2/2
 - Blade Ward Charges: 3 / 3
-- Hit Dice: 5 / 5
-- Active Effects: None (Eyes of the Hunter expired during long rest)
+- Hit Dice: 6 / 6
+- Active Effects: Circuit Anchor (permanent). Demigod passive effects (permanent).
+- L3 Spells: Ward Mastery + Portal Gateway — SELECTED
+- Perk 2: Demigod (Godlike + Master Summoner) — SELECTED
 
 ---
 
@@ -691,21 +769,30 @@ EXP: 17,180 / 14,000 (LEVEL 6 PENDING — needs Long Rest)
 - Blade Ward: Reaction. Halve one physical hit. 3 uses/long rest.
 
 ### Level 1 Spells (Slot required)
-- Thunderous Strike: On hit, expend slot. CON save DC 13 or prone + 2d6 thunder.
+- Thunderous Strike: On hit, expend slot. CON save DC 14 or prone + 2d6 thunder.
 - Charisma Surge: Expend slot. Add +3 (CHA mod) to any roll. Declared before rolling.
-- Charm Person: One humanoid makes WIS save DC 13 or regards Kenji as friendly for 1 hour. Ends if Kenji or allies harm them.
-- Arcane Stride (Enhanced via Speedster Perk): Expend 1 slot. Duration 12 hours. Movement speed doubled (30→60 ft) while sprinting. No opportunity attacks while active. Acrobatics DC 10 check to stop or fall prone. Must be full sprint. Cannot use Arcane Edge on weapons simultaneously. Cannot be used in tight spaces. While active: gain one extra action per round (limited to: one weapon attack, Dash, Disengage, or Use an Object — NOT a full extra turn).
+- Charm Person: One humanoid makes WIS save DC 14 or regards Kenji as friendly for 1 hour. Ends if Kenji or allies harm them.
+- Arcane Stride (Enhanced via Speedster Perk): Expend 1 slot. Duration 12 hours (all levels). Speed doubles per slot level: L1=2x(60ft), L2=3x(90ft), L3=4x(120ft), L4=5x(150ft), L5=6x(180ft). Acrobatics DC to stop increases by 2 per level: L1=DC10, L2=DC12, L3=DC14, L4=DC16, L5=DC18. No opportunity attacks. Cannot use Arcane Edge on weapons simultaneously. Cannot be used in tight spaces. While active: gain one extra action per round (limited to: one weapon attack, Dash, Disengage, or Use an Object — NOT a full extra turn). Extra action unchanged by slot level.
 - Radiant Edge (Scales with slot level): Golden radiant weapon infusion. Pushes back supernatural darkness 30ft radius. Damage and duration scale: L1=1hr/+1d4, L2=2hr/+1d6, L3=3hr/+1d8, L4=4hr/+1d10. Full radiant damage vs entropy, shadow, undead, radiant-weak enemies. HALVED vs normal enemies. Disadvantage aura only affects radiant-weak enemies. Cannot stack with Arcane Edge or Arcane Stride. Specialist anti-entropy weapon.
 
 ### Level 2 Spells (Slot required)
-- Vampiric Daggers: Expend 1 L2 slot. Summons 5 shadow daggers that float at Kenji's side. Throw up to 2 per action OR stab in melee (5 ft) for same damage. Spell attack +6, range 20/60 ft (50/90 with Eyes). 1d4+3 force damage per dagger. Quarter of damage dealt returned as healing (doubled to half by Fast Metabolism). Melee stabs count as melee attacks — auto-crit on unconscious targets within 5 ft. Duration: 1 minute or until all 5 used. Daggers consumed on use (hit or miss).
+- Vampiric Daggers (ENHANCED by Master Summoner + Entropy Echo): Expend 1 L2 slot. Summons 5 shadow daggers with dark green necrotic edge. Throw up to 2 per action OR stab in melee (5 ft). Spell attack +8 (+6 base +2 Master Summoner), range 20/60 ft (50/90 with Eyes). 1d4+5 force damage (+2 Master Summoner) + **10% of target's max HP as necrotic damage** (living beings only, does NOT work on constructs/undead). Quarter of force damage healed (doubled by Metabolism). 25% of necrotic damage healed (doubled by Metabolism to 50%). **Healing that exceeds max HP becomes temporary HP (cap: equal to max HP, currently 51). Temp HP fades 10 min out of combat.** Melee stabs = melee attacks, auto-crit on unconscious within 5 ft. Duration: 1.5 minutes (50% longer via Master Summoner). Daggers consumed on use.
 - Eyes of the Hunter: Expend 1 L2 slot. Duration 12 hours. Darkvision 60ft. Advantage on Perception checks. +30ft normal range on thrown weapons (flint goes from 20/60 to 50/90). Scales with slot: L2=12hr/60ft/+30ft, L3=24hr/90ft/+45ft, L4=48hr/120ft/+60ft. CAN stack with ONE other buff (Stride or Radiant) but not both simultaneously. Two active buffs max. "The ember gives you a predator's focus compressed into your optic nerve."
+- Frost Fang (ENHANCED by Master Summoner + Entropy Echo): Expend 1 L2 slot. Action. Summon a blue-black longsword of deep frost with green-tinged entropy edge. Duration: 12 hours. Melee spell attack +8 (+6 base +2 Master Summoner). 1d8+5 cold damage (+2 Master Summoner) + **10% target max HP as necrotic** (living beings only). **Slow effect:** each hit reduces target movement by 10ft (stacks). At 0 movement: frozen — restrained 1 round. 25% of necrotic healed (doubled by Metabolism to 50%). Overflow → temp HP (cap = max HP). Blade is real — parries, blocks, dual-wields with longsword. CAN be active alongside Stride (summoned weapon, not infusion). CANNOT be infused with Arcane Edge or Radiant Edge (already enchanted). Duration: 1.5x base via Master Summoner = 12 hrs. Visual: blue-black blade, green frost smoke, jagged crystal crossguard, 2ft frost radius.
+
+### Level 3 Spells (Slot required) — NEW
+- Ward Mastery: Expend L3 slot. Action. Self only. Duration 1 hour. No concentration. Only one Ward active at a time. Physical Resistance: all nonmagical slashing/piercing/bludgeoning halved. Elemental Resistance: choose one element at cast (fire/cold/lightning/acid/thunder), reduce that element's damage by 4 per hit. Scales: L4 slot = reduce by 7, L5 = reduce by 10. Stacks with armor, enchantments, other buffs. If Blade Ward charge used during Ward Mastery, physical damage is QUARTERED (halved twice). Visual: faint purple-gold shimmer on armor.
+- Portal Gateway: Expend L3 slot. 10 minutes sustained channeling (interrupted = slot lost). Creates a permanent golden archway (7ft tall, 4ft wide). Gateways connect to ALL other active gateways — step in, choose destination, instant travel. Min distance: 1 day's travel apart. Must create within 100ft with line of sight. Max active: 4 gateways (creating 5th requires dismissing one). Durability: fortified wall + resistant to magical damage (Master Summoner enhanced). Anyone can use with Kenji's verbal approval, revocable at will. Unauthorized users see solid arch. Visual: gold-light archway, visible, permanent. 10 min cast = strategic only, NOT combat usable.
+- Duality Aspect: Expend L3 slot. Action. Duration 1 hour. Transformation — ember and circuit merge into a unified field. **Flight:** 4x normal speed (120 ft). Replaces ground movement. **No extra action** (Stride's advantage). **Passive 60ft AOE — CANNOT be disabled.** Choose one mode (switch as bonus action): **Entropy Mode** — all creatures within 60ft (allies AND enemies) take 1d6 necrotic at start of your turn, Kenji heals 50% of total necrotic (Metabolism). **Creation Mode** — all creatures within 60ft (allies AND enemies) heal 1d6, Kenji heals 1d6. Cannot stack with Arcane Stride. If deactivated early, costs another L3 slot to reactivate. Visual: Entropy = green-black aura, cold. Creation = golden aura, warmth, things grow.
 
 ### Abilities
 - Arcane Momentum: When Kenji kills an enemy with Arcane Edge active, gain one immediate free bonus attack.
-- Sera's Cage: Defensive stance. As an action, +2 AC until start of next turn, cannot attack. Can also be used once per combat as a reaction when enemy enters melee range — +2 AC against that attack only.
-- Enhanced Cage: While Eyes of the Hunter is active AND using Sera's Cage, Kenji can make a single counterattack as a reaction when an enemy misses him in melee. One use per combat. The predator's eyes turn defense into opportunity.
-- Entropy Bond: Touch a creature of entropy and channel a thread of creation to bond it. Requires physical contact and CHA check (DC scales with HP, hostility, intelligence). Bonded creature is not controlled — connected. Recognizes Kenji as part of the cycle. May follow simple emotional intent (stay, come, calm). Bond sustained passively, no spell slot cost. Breaks at 1 mile+ distance or if creature forced back into desperate entropy. Limited to creatures of entropy origin only.
+- Sera's Cage (UPGRADED — Cross-Guard, Day 11): Defensive stance. As an action, +2 AC with one weapon OR **+4 AC with two weapons** (cross-guard position) until start of next turn, cannot attack. Can also be used as a reaction when enemy enters melee range — +2 AC (single) or +4 AC (dual) against that attack only.
+- Enhanced Cage (UPGRADED — Cross-Guard, Day 11): While Eyes of the Hunter is active AND using Sera's Cage with two weapons, Kenji can make **three counterattacks per combat** as reactions when enemies miss him in melee (one per enemy turn max). Each counter can use either weapon. Single-weapon version retains original 1 counter per combat. Trained by Kael at the Broken Antler.
+- Entropy Bond: Touch a creature or construct of entropy and channel creation to commune. CHA check. Bonded creatures are connected, not controlled. Can also suppress entropy wards/sensors through sustained will — not a spell, an act of communion. Exhausting. Effective.
+- Circuit Anchor (NEW — Day 8): Kenji is bound to the Hollow Crown as its anchor. 340 active siphon threads visible and accessible through the ember. Can sever threads individually (CHA check per thread, DC scales with integration depth). The ember processes stolen essence through creation energy — rivers into an ocean. Can feel the ley web, the threads, and the Crown's status at all times. The Crown is currently in the Satchel of Holding. Solveth the Unraveler is bound to the Crown and by extension to Kenji.
+- Twin Fang (Passive Technique — Day 9): When dual wielding, Kenji makes two weapon attacks as a single action — leading weapon + trailing weapon using body rotation momentum. Both use their respective attack bonuses. With Stride active: Twin Fang action + Stride extra action = 3 attacks per round. During defense, off-hand weapon maintains threat position (doesn't strike but forces enemy to account for two lines). Requires both hands occupied.
+- Ember Lance (Creation push — Day 11): Requires Emberfang held and pointed. Range 60 ft, single target, straight line. Uses: CHA mod per long rest (currently 3). Effect on allies: heals 2d8 HP, removes one condition/curse, purifies entropy corruption. Effect on entropy-sustained enemies: 2d8 radiant + CON save DC 14 or lose one active enchantment/buff. Against Vael: each hit strips entropy sustenance, aging him further. Effect on objects: strengthens/repairs. No spell slot cost. Wide Pulse variant: 30 ft cone, 1d8 heal all allies, grows plants, uses one charge. Visual: golden-white beam, air smells like rain and growing things.
 
 ---
 
@@ -713,11 +800,11 @@ EXP: 17,180 / 14,000 (LEVEL 6 PENDING — needs Long Rest)
 
 ### Equipped
 - Ironwood-Cured Bear Leather Armor (AC 14 + DEX +1 = AC 15 — Aldric's masterwork)
-- Longsword (1d8 slashing — merchant quality, balanced) — left hip
+- **EMBERFANG** (AWAKENED — creation-bonded, 500+ years old) — right hip. 1d8+2 slashing + 1d6 fire per melee hit. **Passive Ignite:** every melee hit — target CON save DC 15 or catches fire (1d6 fire/round, save each turn to end). Flame Crescent: 60 ft ranged attack (spell attack +6), 2d6 fire + ignite (2d6 fire start of next turn, CON DC 15 or burns 1 more round). No use limit — weapon property. Ignite active (3/day): on melee hit, extra 2d6 fire + guaranteed burn. Passive: warm, never rusts, golden-white glow (dimmable). Creation Bond: fully awakened, responds to ember, may reveal more properties. CAN be infused with Arcane Edge (fire + force stacking). Pre-Academy origin — same architect as sub-basement 3 chamber (creation half of paired set).
 - Hand Axe (1d6 slashing — melee or thrown 20/60ft) — right hip
 - Windrunner Boots (+2 Acrobatics, enhanced balance during high-speed movement, silver thread weave) — feet
-- Returning Somnus Knife (1d4 piercing, 20/60ft, returns on command, 2 somnus doses — CON save DC 13 or unconscious 1 min) — belt
-- Satchel of Holding (50 lbs capacity, 2 lbs weight, cross-body, does NOT drop in combat, preserves food) — cross-body
+- Returning Somnus Knife (1d4 piercing, 20/60ft, returns on command, 1 somnus dose remaining) — belt
+- Satchel of Holding (50 lbs capacity, cross-body, no combat drop) — containing THE HOLLOW CROWN + Solveth
 
 ### On Body (belt, pouches — NOT dropped in combat)
 - Ryn's Spare Lockpick Set — belt
@@ -729,13 +816,15 @@ EXP: 17,180 / 14,000 (LEVEL 6 PENDING — needs Long Rest)
 - Combat Mage Certification — brass token, wolf-and-keys / anvil-struck-by-lightning. 12th awarded in 40 years.
 
 ### In Satchel of Holding (cross-body — NOT dropped in combat, 50 lb capacity)
+- **THE HOLLOW CROWN** — blackened iron circlet, runes, 340 active siphon threads. Solveth the Unraveler is bound to it. Kenji is the anchor. THE most important item Kenji possesses.
 - Maren's map
 - Fibrous tinder root
 - Bedroll
 - Voss's ledgers — CRITICAL EVIDENCE (Dunmore bribe receipts)
-- Voss's glass vial (nighthollow extract — regulated substance, Academy-manufactured)
-- Entropy Anchor Ring — wrapped in cloth, DO NOT TOUCH
-- Rations — restocked from Broken Antler kitchen (preserved, won't spoil)
+- Voss's glass vial (nighthollow extract — Academy-manufactured)
+- Entropy Anchor Ring — EVIDENCE (encoding matches seal corruption)
+- Rations — Broken Antler kitchen (preserved)
+- Pip's honey cake x1 (last one)
 
 ### Carried by Garrett (on horseback — pack horse carries bulk)
 - Lockbox: 63 GP (Garrett's contract payment)
@@ -858,18 +947,20 @@ EXP: 17,180 / 14,000 (LEVEL 6 PENDING — needs Long Rest)
 - This creates a DUAL reputation: honorable/merciful to lawful factions, soft/exploitable to criminal factions
 - Voss will have ~24 hours to prepare once Sev arrives
 
-### 🗺️ TACTICAL SITUATION (Day 8 Morning — Academy Training Week Begins)
-- **Immediate:** Report to eastern training grounds at dawn. Master Aldwin (combat magic integration). Elara (magical theory).
-- **Day 2:** Academy requisition vault tour. Access to enchanted items and equipment.
-- **Day 2:** Edwyn's theological presentation to the faculty.
-- **Sera:** Filing report, then private meeting with Elara. Something she needs to tell Kenji about — the "pattern" she's been investigating.
-- **Dunmore:** Being arrested within the week based on Voss's ledgers.
-- **Nighthollow:** Manufactured in Academy sub-basement level 2. Someone inside the Academy supplied Voss. Elara is investigating.
-- **Guild:** Council highway contract being couriered to Brindle. 40 GP/month, 3-month trial.
-- **Gilt Lens:** Exclusivity contract with Maren Holt. All guild magical loot goes to her shop at 30% discount.
-- **Level 5:** Proficiency +3. Spell attack +6. DC 14. HP 33. L2 slots now 3. New spell selection available (to be determined during training).
-- **7,220 EXP to Level 6.** Next perk at Level 6.
-- **ACT 2 IS ACTIVE.** The Gilt Conspiracy threads are opening. Nighthollow connection. Elara's pattern. The Chancellor who is "particular." The Academy that sits on a ley line web. The ember that resonated with the tower.
+### 🗺️ TACTICAL SITUATION (Day 11 Evening — Post-Council Verdict)
+**THE GILT CONSPIRACY IS RESOLVED. VAEL CONFESSED. THE INSTITUTION IS REFORMING.**
+
+- **Vael:** Stripped of Chancellor. Confined to Academy grounds. Required to assist siphon dismantling under Kenji's supervision. Aging. Cooperative (confessed voluntarily). No longer a combat threat — political and institutional power removed. Still the most knowledgeable person about the Crown's architecture.
+- **340 threads still active:** Siphon dismantling authorized as highest institutional priority. All Academy resources available. Vael assisting. Can be done gradually — Kenji severs via CHA checks, Vael advises on architecture. Mass-severing still risks Solveth catastrophic release.
+- **Solveth:** Bound to Crown. Cooperative. Council formally requested cycle restoration — freely, without chains, when safe. Solveth can wait. The god trusts Kenji to know when.
+- **Crown:** On the central table in Council chamber (status after session — may need to be secured). Kenji is still the anchor regardless of Crown's physical location.
+- **Frost Fang:** With Edwyn. Solveth's voice channel active.
+- **Elara:** Acting Chancellor. Effective immediately. Running the institution.
+- **Kenji:** Academy Champion. Authority over defense, combat, external threats. ArchMagus title tabled for quarterly session.
+- **Portal Network:** Duskfen ↔ Varenholm active. 2 gateway slots remaining.
+- **Guild:** Broken Antler operational. Highway contract. Merchant escort contracts pending. Garrett liaising.
+- **Remaining campaign threads:** 340 siphon threads (authorized), Solveth's cycle restoration, the Delve deeper passage (Duskfen), Duskfen cycle tending (Day 11, 8 days since restoration), Pip and Ryn evaluation with Aldwin tomorrow dawn, the ancient civilization mystery (Emberfang/chamber architect).
+- **Level 8:** PENDING on long rest. 40,450 / 34,000.
 
 ### 📦 PARTY SUPPLIES (Day 6 Morning)
 - Rations: bandit camp supplies (enough for ~1 week for 4 people)
@@ -1061,6 +1152,69 @@ EXP: 17,180 / 14,000 (LEVEL 6 PENDING — needs Long Rest)
 | Combat — Iron Sentinel (CR 4, solo x4) | 4,400 | 16,915/14,000 |
 | Milestone — Aldwin's Gauntlet cleared, 3/3, no hit dice spent | 200 | 17,115/14,000 |
 | **LEVEL 6 THRESHOLD MET — pending Long Rest** | — | 17,115/14,000 |
+| Perception DC 13 — reading Elara after ring analysis | 10 | 17,125/14,000 |
+| CHA DC 15 — ember reads Sera's seal | 15 | 17,140/14,000 |
+| Stealth DC 12 — party descent through sub-basements | 10 | 17,150/14,000 |
+| Perception DC 14 — alchemical lab assessment (advantage) | 10 | 17,160/14,000 |
+| Perception DC 15 — hatch trap inspection (advantage) | 10 | 17,170/14,000 |
+| CHA DC 17 — Entropy Bond suppresses sensor ward | 25 | 17,195/14,000 |
+| Perception DC 16 — sub-basement 3 corridor (advantage) | 15 | 17,210/14,000 |
+| Perception DC 18 — full chamber assessment (NAT 20, doubled) | 30 | 17,240/14,000 |
+| Perception DC 20 — identify Solveth (advantage) | 25 | 17,265/14,000 |
+| CHA DC 18 — ember interfaces with Hollow Crown | 15 | 17,280/14,000 |
+| CHA DC 14 — sever Elara's siphon thread | 10 | 17,290/14,000 |
+| CHA DC 17 — sever Sera's siphon thread | 15 | 17,305/14,000 |
+| Athletics DC 12 — speed climb (Stride-enhanced) | 10 | 17,315/14,000 |
+| Perception DC 14 — monitoring Vael approach | 10 | 17,325/14,000 |
+| Milestone — Hollow Crown seized, anchor overwritten | 500 | 17,825/14,000 |
+| Milestone — Sera and Elara freed from siphon | 200 | 18,025/14,000 |
+| Milestone — Escaped sub-basement 3 undetected | 100 | 18,125/14,000 |
+| **LEVEL UP → 6** | — | 18,125/23,000 |
+| Deception DC 12 — act normal with Garrett | 10 | 18,135/23,000 |
+| Persuasion DC 18 — partial reveal to Aldwin, maintain trust | 15 | 18,150/23,000 |
+| CHA DC 16 — learn Frost Fang (ember interprets frost framework) | 25 | 18,175/23,000 |
+| CHA DC 15 — ember integrates Twin Fang technique | 25 | 18,200/23,000 |
+| Combat — Sera, restored combat mage (CR 3, solo x4) | 2,800 | 21,000/23,000 |
+| Combat — Aldwin, master instructor (CR 5, solo x4) | 7,200 | 28,200/23,000 |
+| **LEVEL 7 THRESHOLD MET — pending Long Rest** | — | 28,200/23,000 |
+| CHA — Ember bonds with Emberfang (NAT 20, doubled) | 50 | 28,250/23,000 |
+| CHA DC 16 — Project Emberfang flame crescent at range | 15 | 28,265/23,000 |
+| CHA DC 15 — establish Solveth vocal channel through Frost Fang | 15 | 28,280/23,000 |
+| Perception DC 14 — lecture hall room assessment (advantage) | 10 | 28,290/23,000 |
+| CHA DC 14 — identify threads in lecture hall | 10 | 28,300/23,000 |
+| Perception DC 13 — read five targets | 10 | 28,310/23,000 |
+| CHA DC 12 — sever thread 1 (junior enchanter, 2 yrs) | 10 | 28,320/23,000 |
+| CHA DC 14 — sever thread 2 (theologian, 8 yrs) | 10 | 28,330/23,000 |
+| CHA DC 16 — sever thread 3 (alchemist, 11 yrs) | 15 | 28,345/23,000 |
+| CHA DC 14 — sever thread 4 (combat instructor, 6 yrs) | 10 | 28,355/23,000 |
+| CHA DC 17 — sever thread 5 (diviner, 12 yrs) | 15 | 28,370/23,000 |
+| Milestone — Solveth speaks publicly to theological faculty | 200 | 28,570/23,000 |
+| Milestone — Sat in Chancellor's chair, public statement of authority | 100 | 28,670/23,000 |
+| CHA DC 12 — cast Portal Gateway #1 (Varenholm Academy) | 10 | 28,680/23,000 |
+| Milestone — First Portal Gateway created (permanent infrastructure) | 50 | 28,730/23,000 |
+| Perception DC 13 — find wildflowers in healing Duskfen | 10 | 28,740/23,000 |
+| CHA DC 12 — cast Portal Gateway #2 (Duskfen, Broken Antler) | 10 | 28,750/23,000 |
+| Milestone — Portal network active (Duskfen ↔ Varenholm, permanent) | 100 | 28,850/23,000 |
+| Milestone — Pip and Ryn brought to Varenholm Academy | 50 | 28,900/23,000 |
+| **LEVEL UP → 7** | — | 28,900/34,000 |
+| CHA DC 15 — raw creation push through Emberfang | 15 | 28,915/34,000 |
+| CHA DC 18 — focused creation lance (Ember Lance learned) | 25 | 28,940/34,000 |
+| CHA DC 17 — crystallize Duality Aspect mid-combat | 25 | 28,965/34,000 |
+| Perception DC 14 — quarry assessment (Eyes, advantage) | 10 | 28,975/34,000 |
+| Perception DC 15 — cave count and assessment | 15 | 28,990/34,000 |
+| Combat — Stoneclaw Adults x4 (CR 2, base 450, solo x4) | 7,200 | 36,190/34,000 |
+| Combat — Stoneclaw Juveniles x4 (CR 1, base 200, solo x4) | 3,200 | 39,390/34,000 |
+| Milestone — Stoneclaw Den cleared + collapsed, 20 GP earned | 50 | 39,440/34,000 |
+| **LEVEL 8 THRESHOLD MET — pending Long Rest** | — | 39,440/34,000 |
+| Perception DC 14 — Council chamber assessment (Eyes, advantage) | 10 | 39,450/34,000 |
+| Milestone — Vael confessed fully, no defense | 200 | 39,650/34,000 |
+| Milestone — Sera testified publicly about the siphon cost | 200 | 39,850/34,000 |
+| Milestone — Council verdict: Vael stripped, Elara Chancellor, Kenji Champion | 500 | 40,350/34,000 |
+| Milestone — Solveth's freedom formally requested by Council | 100 | 40,450/34,000 |
+| CHA DC 12 — cast Portal Gateway #3 (Broken Antler Guild HQ) | 10 | 40,460/34,000 |
+| Milestone — Triangle portal network complete (Varenholm ↔ Guild ↔ Duskfen) | 100 | 40,560/34,000 |
+| CHA DC 16 — ember integrates Kael's cross-guard into Cage technique | 25 | 40,585/34,000 |
+| **LEVEL UP → 8** | — | 40,585/34,000 |
 | Perception DC 15 — spotted wards in Elara's study (advantage) | 15 | 17,130/14,000 |
 | CHA DC 14 — ember introspection, articulate feelings | 10 | 17,140/14,000 |
 | CHA DC 16 — ember reads Elara's seal, detects entropy siphon | 15 | 17,155/14,000 |
@@ -1106,7 +1260,7 @@ EXP: 17,180 / 14,000 (LEVEL 6 PENDING — needs Long Rest)
 | Level | Status | Perk | Effect |
 |-------|--------|------|--------|
 | 3 | ✅ EARNED | Speedster (Type C) | Effect 1: Arcane Stride Enhanced — 12hr duration, 1 slot, no OA, prone check on stop, extra action per round while active (one weapon attack/Dash/Disengage/Use Object only). Effect 2: Fast Metabolism — all healing doubled on Kenji, hunger debuff triggers at 4 hours instead of standard timing. |
-| 6 | Unearned | — | — |
+| 6 | ✅ EARNED | Demigod | Effect 1 — Godlike: Resistant to poison, paralysis, mind-altering effects (advantage on saves, half duration on fail). Immune to disease and mundane illness. Advantage on CON checks when not hungry. Perfect Recall — anything seen/heard/read remembered exactly. Effect 2 — Master Summoner: All ember-conjured entities gain +2 to hit, +2 damage, 50% longer duration. All ember-created structures gain enhanced durability (resist magical + mundane). Entropy Echo: all summoned weapons deal 10% of target max HP as necrotic (living beings only, no constructs/undead). 25% of necrotic healed (doubled by Metabolism to 50%). Overflow healing becomes temp HP (cap = max HP, currently 51). Temp HP fades 10 min out of combat. |
 | 9 | Unearned | — | — |
 | 12 | Unearned | — | — |
 
@@ -1216,38 +1370,167 @@ EXP: 17,180 / 14,000 (LEVEL 6 PENDING — needs Long Rest)
 | Kenji light gear loadout | ✅ TRUE — no chest armor, bracers only, hand axe + returning knife, no longsword. Satchel of Holding. Eyes + Stride active. |
 | Bittershade ready at dawn | ✅ TRUE — Edwyn preparing overnight. 2 doses. Pick up at presentation tomorrow. |
 | Garrett out overnight | ✅ TRUE — following guild contract lead. Note: "Don't do anything stupid without me." |
+| **INFILTRATION COMPLETE** | ✅ — Sub-basement 3 reached via ley conduit crawl. Crown chamber found. Solveth communed with. |
+| Hollow Crown seized | ✅ TRUE — removed from pedestal, stored in Satchel of Holding. 340 threads still active. |
+| Kenji is the Circuit Anchor | ✅ TRUE — Elara overwrote Vael's signature with Kenji's. The ember processes the circuit. |
+| Solveth the Unraveler — communed | ✅ TRUE — chained god of entropy. Didn't build the cage. Vael bargained 12 years ago. Forced feeding. Ashamed. Afraid of what it becomes if freed. Asked Kenji to be the failsafe. |
+| Solveth confirmed Vael | ✅ TRUE — "Chancellor. He called himself Chancellor." 12 years ago. The bargain: immortality for Vael, essence for Solveth. A circuit — parasites feeding parasites. |
+| Vael is ~140 years old | ✅ CONFIRMED by Solveth — aged appearance is glamour. "Lived beyond natural span through smaller bargains." |
+| Saturation deadline | ⚠️ WEEKS — when Crown reaches full saturation, all 345 siphon-bearers burn and Vael becomes permanently immortal. Taking the Crown bought time but threads still feed. |
+| Vael's anchor severed | ✅ TRUE — lost immortality. 140 years catching up. Discovered empty chamber. Desperate. |
+| Sera freed | ✅ TRUE — siphon thread severed. Force bolt restored. Full combat mage returning. Three years of stolen magic. |
+| Elara freed | ✅ TRUE — siphon thread severed. Mage-sight restored. Eight years of drain ended. |
+| 340 threads remain | ⚠️ ACTIVE — every graduate except Sera and Elara still being drained. Kenji can sever from inside the circuit but mass-severing risks catastrophic release in Solveth. |
+| Solveth's bargain with Kenji | ✅ TRUE — "Take the crown. Free me. If I become a monster, end me." Honest. The ember read no deception. |
+| Sub-basement 3 resealed | ✅ TRUE — Elara reset the hatch wards. Entrance appears undisturbed. But the Crown is gone. Vael knows. |
+| "He does this" confirmed x3 | ✅ TRUE — Sera warned Elara. Elara experienced it. Both planning collaborative murder. The warning was "insufficient." |
+| Solveth in the satchel | ✅ TRUE — a chained god of entropy in a dimensional handbag. Walking to an inn. "He put a god in his satchel." |
+| Aldwin saw the Crown | ✅ TRUE — partial reveal. Saw the convergence anchor. Ley web reacted. Staff screamed. |
+| Aldwin knows seals corrupted | ✅ TRUE — 347 graduates, 12 years, siphoned essence, sub-basement 3. Does NOT know it's Vael yet. |
+| Aldwin knows Sera and Elara freed | ✅ TRUE — figured out the "gasping" was siphon removal. "You dramatic little bastard." |
+| Aldwin will figure out Vael | ⚠️ IMMINENT — by tomorrow. 40 years of reading the Academy. Now knows what to look for. |
+| Aldwin is an ally | ✅ TRUE — furious at the institution being a farm. On Kenji's side. Teaching with urgency. |
+| Frost Fang learned | ✅ TRUE — blue-black ice sword, green-tinged entropy echo. 12hr duration. Slow effect + necrotic. Aldwin noted the entropy influence. |
+| Aldwin's warning | ✅ TRUE — "Creation and entropy in the same blade is either the most balanced or the most dangerous. Depends which one is steering." |
+| Perfect Recall used in combat (social) | ✅ TRUE — curated memories for Aldwin's mind-read. Showed the gasping without context. Aldwin won the read but Kenji's curation held partially. |
+| Guild officially operational | ✅ TRUE — Brindle signed Council contract. First payment in 3 weeks. Garrett meeting merchant factor for escort contracts. |
+| Bittershade x2 acquired | ✅ TRUE — from Edwyn via Garrett. "Remember they feel everything." |
+| Ley web agitated | ✅ TRUE — Academy felt Crown removal. Cover story: "ley fluctuation." Students noticed. Guards noticed. Vael cancelled appointments. |
+| "Dramatic little bastard" | ✅ TRUE — Aldwin's assessment of Kenji. Said twice. The staff tapped with approval. |
+| Twin Fang learned | ✅ TRUE — dual-wield technique. Longsword leads, Frost Fang trails. Rotation carry. Sera taught it. |
+| 2v1 spar: Sera + Aldwin defeated | ✅ TRUE — Sera downed Rd 1, Aldwin yielded Rd 2. Kenji ended at full HP + temp HP. |
+| Frost Fang entropy echo demonstrated | ✅ TRUE — Aldwin and Sera both felt the necrotic drain. "That sword is wrong." Green tinge visible. |
+| Aldwin recognized the entropy in the blade | ✅ TRUE — "You're not just carrying that Crown. You're using it. The circuit is feeding your weapons." |
+| Aldwin yielded | ✅ TRUE — "Not because I can't fight. Because I'd rather stand and tell you what I see." |
+| "Twelve certifications. You're still the best." | ✅ TRUE — Aldwin's final assessment after the spar. |
+| Level 7 pending | ⚠️ PENDING — 28,265 / 23,000. Needs Long Rest. |
+| Emberfang awakened | ✅ TRUE — 500-year-old creation-bonded longsword. Dormant enchantment fully woke on contact with ember. NAT 20 bond. |
+| Emberfang flame crescent | ✅ TRUE — 60 ft ranged fire projection. Ability was locked behind creation carrier requirement. Nobody in 500 years qualified until Kenji. |
+| Emberfang origin | ✅ TRUE — pre-Academy. Same architect as sub-basement 3 chamber. Creation half of a paired set. "Left hand made the sword. Right hand made the cage." |
+| Solveth remembers the maker | ✅ TRUE — "The man who chained me did not invent the method. He found it. In ruins of something older." Vael's cage is a copy. Emberfang is original. |
+| Ancient civilization/individual | ⚠️ NEW THREAD — someone understood both creation and entropy as complementary 500+ years ago. Built tools for both halves. Pre-dates the Academy. Who were they? |
+| Sera carried across training ground | ✅ TRUE — "I'm taking you to your room." System failure. Voice crack. Students witnessed. Aldwin laughed for the first time in years. |
+| Kenji now dual-wields Emberfang + Frost Fang | ✅ TRUE — creation fire (right) and entropy frost (left). Both halves of the cycle in his hands. Twin Fang technique. |
+| Solveth can speak through Frost Fang | ✅ TRUE — audible voice, thin/reedy/echoing. Effortful for extended speech. Anyone nearby hears. Requires Frost Fang summoned. |
+| 5 more threads severed during lecture | ✅ TRUE — junior enchanter (2yr), theologian (8yr), alchemist (11yr), combat instructor (6yr), senior diviner (12yr). Crown now 340 active. Total freed: 7 + Sera + Elara = 9. |
+| Kenji sat in Chancellor's chair | ✅ TRUE — public statement. Entire theological faculty witnessed. Placard face-down on floor. Political shockwave. |
+| Arm around Elara in front of faculty | ✅ TRUE — in the Chancellor's chair. The entire theological department saw. Elara's professional reputation recontextualized. Ink blot the size of a gold piece. "Ways that haven't been invented yet." |
+| Solveth spoke publicly | ✅ TRUE — through Frost Fang, on stage, during Edwyn's presentation. 100+ witnesses. Theologian confirmed authentic divine consciousness. "I would have arrived earlier but I was in a handbag." |
+| Solveth confirmed cycle can be restored | ✅ TRUE — "Not by a god. Not by a mortal. By both. Together. Freely. Without chains." Kenji is the first in 500 years who could make the choice. |
+| Senior diviner (white robes) saw the shape | ⚠️ ACTIVE — restored mage-sight showed her Kenji's connection to the Crown. She's calculating. Not hostile but aware. |
+| Edwyn held the Frost Fang | ✅ TRUE — spoke with Solveth directly. Wonder and terror. Asked the central question. Got the answer. |
+| Faculty knows about Solveth | ✅ TRUE — 100+ witnesses. The secret is public. Academic emergency. This changes everything politically. |
+| Vael was NOT present | ✅ TRUE — "Health Leave." But he'll hear about this within hours through faculty gossip. His captive god just spoke to 100 people. |
+| Trap set for Vael | ✅ TRUE — Crown and Frost Fang left on podium with Edwyn. Garrett arranging nonchalant security detail. Solveth acts as listening device through Frost Fang — Kenji hears everything. |
+| Garrett's security detail | ✅ TRUE — consortium sellsword + Brindle's person in civilian clothes. Edwyn doesn't know they're there. |
+| Garrett calls Kenji "sir" | ✅ TRUE — first time. The contract became a cause. |
+| Cover story | ✅ TRUE — if asked, Kenji "walked off to the forest seeking treasure." |
+| Portal Gateway #1 | ✅ TRUE — Varenholm Academy, eastern training grounds, ley alcove. Permanent golden archway. Awaiting paired gateway (minimum 1 day travel distance). 3 slots remaining. |
+| Crown NOT on Kenji's person | ⚠️ CRITICAL — Crown is on podium in lecture hall. Edwyn is custodian. Garrett's detail guarding. Kenji can still feel 340 threads through circuit at distance. Anchor connection holds through dimensional stretch. |
+| Frost Fang NOT on Kenji | ⚠️ ACTIVE — Frost Fang with Edwyn. Solveth speaks through it. Kenji can hear through the circuit. Divine wiretap. |
+| Kenji en route to Duskfen | ✅ TRUE — L3 Stride, 4x speed, ~18 hrs. Left Varenholm late afternoon Day 9. Arrives morning Day 10. |
+| Duskfen cycle healing | ✅ CONFIRMED during run — green grass returning, soil darkening, air lighter. The restored cycle is working. 6 days since restoration. |
+| Investigation petition | ✅ TRUE — three senior faculty signatures (diviner, theologian, alchemist). Formal investigation into Chancellor's office. Institutional process started. |
+| "Arch Magus" declared | ✅ TRUE — title doesn't exist. Political theater. Real purpose: force Academy to look to Elara and Aldwin for leadership while Vael is neutralized. |
+| Elara called "beautiful" through a god | ✅ TRUE — through Solveth, via Frost Fang, in front of 100+ faculty. Ink blot the size of a gold piece. "He said beautiful through a god." |
+| "She usually has me come to her warded room in private to feel me in... on the details" | ✅ TRUE — exit line. Aldwin's staff fell off his knees. Sera consulted a higher power. The lecture hall erupted. |
+| Pip's last honey cake | ✅ EATEN — on the porch of the Broken Antler. Dawn. Day 10. The last one. |
+| Duskfen healing confirmed (Day 10) | ✅ TRUE — green grass, dark soil, lighter air, birds, wildflowers growing. Cycle working. 7 days since restoration. |
+| Portal Gateway #2 | ✅ TRUE — Duskfen, behind the Broken Antler. Permanent golden archway. Network ACTIVE: Duskfen ↔ Varenholm instant travel. 2 slots remaining. |
+| Flowers for Pip (second time) | ✅ TRUE — purple and white wildflowers. First blooms since the sickness. "You brought me flowers again." Set next to where the first ones dried. |
+| Pip visited Varenholm | ✅ TRUE — first time in a city. First time outside Duskfen. Changed into a clean dress in four minutes. |
+| Ryn visited Varenholm | ✅ TRUE — first time outside Duskfen. Immediately wanted the library. |
+| Pip has the brass token | ✅ TRUE — Combat Mage Certification given to Pip. "Guest of ArchMagus Kenji." Holds it against her chest. |
+| Academy enrollment offered | ✅ TRUE — Kenji offered to get Pip and Ryn enrolled. Portal makes it possible — morning classes, afternoon shifts. "You just become more." |
+| Pip asked to see the library | ✅ TRUE — the first request. The right request. |
+| "You're more" | ✅ TRUE — Pip said it about Kenji. Kenji said it back to her. The word connecting them. |
+| Pip staying at Silver Draft | ✅ TRUE — Kenji's room. Ryn in Garrett's room. Messenger sent with room info. |
+| Level 7 achieved | ✅ TRUE — Long rest, Silver Draft, Day 10. HP 45. Hit dice 7. |
+| Aldwin knows it's Vael | ✅ TRUE — figured out overnight. "Marius Vael. The man who's been signing my paychecks for twelve years." |
+| Professor Lira Thane allied | ✅ TRUE — senior diviner, 12-year drain freed, restored mage-sight. Working with Aldwin. Five signatures. Council notified. |
+| Council emergency session | ✅ TRUE — third bell, north wing. Vael attending to defend himself. Kenji invited. Thane threatened resignation. |
+| Vael accepted Council session | ⚠️ CRITICAL — he's coming. Either has a plan or is trying to talk his way out. Not hiding. Acting normal. |
+| Ember Lance learned | ✅ TRUE — ranged creation purification beam through Emberfang. 60 ft, 2d8, 3/long rest. Heals allies, strips entropy from enemies. No spell slot. |
+| Aldwin's balance teaching | ✅ TRUE — "The Frost Fang drains. Emberfang restores. You carry both." The path question — mercy or justice. |
+| Duality Aspect learned | ✅ TRUE — L3 transformation. Flight 4x speed. 60 ft passive AOE: entropy (1d6 necrotic everything) or creation (1d6 heal everything). Can't disable aura. Crystallized mid-combat in Stoneclaw cave. |
+| Stoneclaw Den cleared | ✅ TRUE — 8 kills (4 adult CR2, 4 juvenile CR1). 4 rounds. 20 GP earned. Cave collapsed. |
+| Emberfang passive ignite confirmed | ✅ TRUE — melee hits force CON DC 15 or catch fire (1d6/round). Double DOT with entropy aura in combat. |
+| Pip — restricted section | ✅ TRUE — talked her way in with the brass token. "My partner is the ArchMagus, he runs this place." Guards didn't argue. |
+| Ryn — four books in six hours | ✅ TRUE — foundational magical theory. Notes. Better handwriting than first-years. Aldwin wants to evaluate both tomorrow dawn. |
+| Whisperstone Ring | ✅ TRUE — bought for Pip. 10 GP. Pale blue stone. 1/day telepathic message, 25 words, 50 mile range. "If I'm ever nearby, all you have to do is call." |
+| Pip's forehead on the ironwood | ✅ TRUE — three seconds. Both hands on his chest. The ring on her finger. "Go to your meeting." |
+| Maren likes Pip | ✅ TRUE — "I like her." |
+| Level 8 pending | ⚠️ PENDING — 40,450 / 34,000. Needs Long Rest. |
+| Vael confessed publicly | ✅ TRUE — full confession. No defense. "I am guilty of everything." Born in Threshton. Seamstress mother. Wife Lena died of fever at 53. Fear of death drove everything. |
+| Vael's three requests | ✅ TRUE — 1) safe siphon severance, 2) free Solveth not destroy, 3) let him help dismantle. All three addressed by Council verdict. |
+| Sera testified publicly | ✅ TRUE — three years practicing alone in the dark. "I wasn't broken. I was being eaten." Force bolt demonstrated. 50 witnesses. Wet eyes. Steady chin. |
+| Council verdict delivered | ✅ TRUE — five decisions: Vael stripped, siphon dismantling authorized, Solveth freedom requested, Kenji = Academy Champion (ArchMagus tabled), Elara = Acting Chancellor. |
+| Vael stripped of Chancellor | ✅ TRUE — confined to Academy grounds. Required to assist dismantling under Kenji's supervision. Not imprisoned. Not executed. |
+| Elara is Acting Chancellor | ✅ TRUE — appointed by Council. Effective immediately. The woman who spent 3 years investigating now runs the institution. |
+| Kenji is Academy Champion | ✅ TRUE — provisional designation. Authority over defense, combat readiness, external threats. Reporting to senior faculty council. Compensation TBD. |
+| ArchMagus tabled | ✅ TRUE — to be discussed at next quarterly Council session. The title doesn't exist yet but the role does. |
+| Siphon dismantling authorized | ✅ TRUE — highest institutional priority. All Academy resources. Directed by Kenji with senior faculty consultation. Vael required to assist. |
+| Solveth's freedom formally requested | ✅ TRUE — Council recognizes unjust captivity. Restoration of cycle requested. Freely. Without chains. When Kenji determines safe. |
+| Vael is sympathetic | ✅ CONFIRMED — the DM reference's intent realized. Good man who became monstrous from fear. Faculty crying during confession. The theologian with white knuckles and wet eyes. |
+| Hand on Elara's lap during Council session | ✅ TRUE — in front of 50 people, two Council reps, the Chancellor. New ink blot. "I will end you." Her hand settled over his during Vael's confession. |
+| Elara's hand on Kenji's | ✅ TRUE — during Vael's confession. Ink-stained fingers on his knuckles. When it happened neither is sure. But it was there. |
+| The conspiracy is resolved | ✅ TRUE — Crown seized, Vael confessed, Council ruled, institutional reform underway. Remaining work: 340 threads, Solveth's cycle, the Delve. |
+| Expedition planned | ✅ TRUE — Delve deeper passage. One week funded. Academy contract to Broken Antler guild. Hazard pay + salvage. Unspent funds as bonus. |
+| Sera is Combat Lead | ✅ TRUE — accepted on condition the title isn't "special battle mage forces." Runs fighters in the field. Kenji runs strategy. |
+| Expedition structure (Sera's revisions) | ✅ TRUE — 2 researchers + Edwyn (3 non-combatants max). 1 squad in passage, 2 on rotation/entrance. Triangle portal network. Garrett logistics. |
+| Triangle portal needed | ⚠️ PENDING — third portal at Broken Antler guild HQ. Varenholm ↔ Guild ↔ Duskfen. Kenji casting next. |
+| Duality Aspect demonstrated | ✅ TRUE — creation mode in courtyard. Fountain healed. Grass grew. Garrett's shoulder fixed. Edwyn confirmed it counters entropy presence for expedition. |
+| "Getting it up" con | ✅ TRUE — faked needing Sera + Elara wrist contact as catalyst. Gasped and moaned. "Don't let go, I'm almost there." Solveth exposed the con: "he did not need help getting it up." A student dropped books. Elara's pen snapped. Sera cracked a stone. |
+| Expedition launches Day 13 | ✅ PLANNED — tomorrow: Pip/Ryn eval + portal at guild + briefings. Day after: expedition begins. One week. Everyone home by Day 20. |
+| Garrett told to wait for guild portal | ✅ TRUE — stays in Varenholm until the guild portal option appears, then goes through to provision from that side. |
+| Dramatic flight exit | ✅ TRUE — launched from courtyard in golden Duality aura. Vine sprouted from window box. Gargoyle less weathered. Sera will never admit her expression. Elara wrote one more line and closed the ledger. |
+| Satchel restocked | ✅ TRUE — 1 week food supply from Silver Draft kitchen. 3 GP. Smoked sausage, cheese, jerky, bread, dried fruit, honey, trail mix, waterskins. |
+| Portal Gateway #3 | ✅ TRUE — Broken Antler Guild HQ. Triangle complete: Varenholm ↔ Guild ↔ Duskfen. 1 slot remaining. |
+| Triangle portal network | ✅ TRUE — three golden doors. Instant travel between all three locations. "The fastest mercenary company on the continent." |
+| Brindle briefed (partial) | ✅ TRUE — saw the portal, understands implications. Garrett completing the expedition brief in the morning. "Day thirteen." |
+| Kael trained Kenji — cross-guard | ✅ TRUE — midnight session. Dual-wield defensive technique. X position. +4 AC. 3 counters per combat. "One session. Took me two years." "You learn too fast. It's unnatural." |
+| Sera's Cage upgraded | ✅ TRUE — cross-guard merged with Cage. +4 AC dual-wield (was +2). 3 counters (was 1). Kael's bodyguard technique integrated by ember. |
+| Note left for Garrett | ✅ TRUE — "Third portal is up. Broken Antler. Brief Brindle and Kael when you wake. You know the plan. — K" |
+| Pip — chapter 7 | ✅ TRUE — dimensional folding. Three more chapters since afternoon. Library theft beside Emberfang on the bedside table. |
+| Level 8 achieved | ✅ TRUE — Long rest, Silver Draft, Day 12. HP 51. Hit dice 8. L4 slot unlocked (1). |
+| "Running on ego and sausage" | ✅ TRUE — Brindle's assessment. Accurate. |
 
 ---
 
 ## ⚠️ DM ACTIVE REMINDERS
-**ACT 2 — THE GILT CONSPIRACY — ACTIVE**
-- The entropy god beneath Brennick farm is NOT Solveth. Completely separate entities. The Duskfen arc is resolved (90%). The Gilt Conspiracy is the MAIN plotline now.
-- Per the DM reference: Chancellor Marius Vael made a pact with Solveth the Unraveler 12 years ago. Assignment Seals siphon magical essence. The Hollow Crown is charging. Kenji does NOT know any of this yet.
-- Elara knows something is wrong (graduates declining, seals are off) but doesn't know about Solveth yet. The nighthollow vial gave her a new thread to pull.
-- Elara received her OWN seal 8 years ago. She is being slowly drained. She doesn't know it.
-- Marius is watching after Kenji's arrival — an unregistered practitioner with raw charisma-based magic is exactly the kind of anomaly he'd notice.
-- Let the player discover things organically. Do NOT feed the conspiracy.
-- Marius should feel genuinely warm and likeable when met. The horror is that he's not a monster pretending to be good — he's a good man who became monstrous.
+**ACT 2 — THE GILT CONSPIRACY — RESOLVED. ACT 3 TRANSITIONING.**
+**Vael confessed. Council ruled. Elara is Chancellor. Kenji is Champion. 340 threads remain. Solveth awaits freedom.**
+
+- The Duskfen entropy god is NOT Solveth. Separate. Duskfen arc 90% resolved.
+- Solveth the Unraveler is BOUND to the Hollow Crown in Kenji's satchel. Cooperative. Grateful. Afraid of itself. NOT the villain — Vael is. Solveth is a victim who became complicit.
+- Vael is STRIPPED and CONFINED. Aging. Cooperative — confessed voluntarily, requested to help dismantle. No longer a threat. Write him as a diminished, regretful man who is useful and tragic. The horror arc is over — what remains is the dismantling.
+- Marius should still feel sympathetic in all interactions. A good man who became monstrous from fear of death. Now facing the death he feared with the clarity of someone who has nothing left to hide.
+- Vael has political capital, faculty trust, Council influence. 12 years beloved. Kenji has been here 2 days. In he-said-she-said, Vael wins.
+- 345 siphon-bearers STILL DRAINING. Crown still collects with new anchor. Kenji can sever threads (CHA check each) but mass-severing risks catastrophic release in Solveth.
+- Marius should still feel sympathetic when confronted. A good man who became monstrous from fear of death. Let the player choose resolution.
 
 **GAMEPLAY REMINDERS:**
 - NEVER reveal plot directly — events, NPC dialogue, environment only
-- Stat hard cap: 20 always. Perks at Level 6 next.
-- Level up on Long Rest only. Current: 6,780 / 14,000.
+- Stat hard cap: 20. Perk 2 + L3 spells pending selection.
+- Level up on Long Rest only. Current: 18,125 / 23,000.
 - Death is permanent.
-- ⚠️ FAST METABOLISM: Every 4 hours. Food preserved in Satchel of Holding now — spoilage no longer an issue, but still needs to eat.
+- ⚠️ FAST METABOLISM: Every 4 hours. Food preserved in satchel.
 - ⚠️ SPELL STACKING: Stride + Edge + Radiant cannot stack. Eyes CAN stack with ONE other. Two buff max.
-- ⚠️ PROFICIENCY NOW +3: Spell attack +6, DC 14. All proficient skills increased. Update all references.
-- ⚠️ L2 SLOTS NOW 3: Eyes of the Hunter and Vampiric Daggers are both L2. Three slots means more flexibility.
-- ⚠️ SATCHEL OF HOLDING: Worn cross-body. Does NOT drop in combat. 50 lb capacity. Food preserved. This changes the bag drop calculus significantly — Kenji's critical items are now safe.
-- ⚠️ WINDRUNNER BOOTS: +2 Acrobatics. Stride stop is now DC 10 needing 7+. Nearly guaranteed.
-- ⚠️ RETURNING SOMNUS KNIFE: Only 2 doses. CON save DC 13. Returns on command. Track doses carefully.
-- ⚠️ CYCLE TENDING: Track time since restoration (Day 3). Signs of weakening should begin appearing if too much time passes. Currently Day 8 — 5 days since restoration. DM should start subtle hints at 2 weeks.
-- ⚠️ NON-LETHAL REPUTATION: Established on the highway. Sev spread word. Brindle knows. Voss's men know. This reputation will eventually reach Varenholm. Dual effect — honorable to lawful, soft to criminal.
-- ⚠️ GARRETT: ~3 weeks left on contract. Guild liaison. Free run of Varenholm. Can take missions.
-- ⚠️ KENJI HAS 0 GP: Broke. Guild income pending. May need to earn gold during the training week.
-- ⚠️ COMBAT BAG DROP: Satchel of Holding is exempt (equipped cross-body). Other packs still drop. KO'd enemies auto-disarmed.
-- ⚠️ TRAINING WEEK: Master Aldwin (combat magic, dawn) + Elara (theory). New spell available at some point. Academy vault tour Day 2. Edwyn presents Day 2. Sera's private meeting with Elara — may reveal conspiracy threads.
-- ⚠️ THE GILT LENS NAME: The shop is called "The Gilt Lens." The conspiracy is called "The Gilt Conspiracy." Coincidence or connection — let the player discover it if they notice.
+- ⚠️ L3 SPELLS: Ward Mastery (1hr sustained defense) + Portal Gateway (permanent fast travel network). Ward Mastery stacks with Blade Ward for quarter damage. Portal Gateway is strategic — 10 min cast, not combat.
+- ⚠️ SATCHEL CONTAINS A GOD: Hollow Crown + Solveth in the Satchel of Holding. If satchel destroyed, Crown released. If Crown destroyed, unknown consequences. If someone takes the satchel, they have a god.
+- ⚠️ RETURNING SOMNUS KNIFE: Only 1 dose remaining. Bittershade x2 from Edwyn today.
+- ⚠️ FLINT: 7 remaining. Below minimum. Restock.
+- ⚠️ CYCLE TENDING: Day 9. 6 days since restoration. Hints at 2 weeks.
+- ⚠️ GARRETT: ~3 weeks on contract. Does NOT know about infiltration.
+- ⚠️ EDWYN: Does NOT know about infiltration. Presenting today. Will learn entropy/creation from academic side.
+- ⚠️ VAEL'S ROLE NOW: Confined advisor. Required to help dismantle siphon architecture. Knows the Crown better than anyone. Kenji supervises. Write him as useful, tragic, aging. The clock is running — he may not survive the full dismantling process.
+- ⚠️ ALDWIN: FULL KNOWLEDGE. Senior faculty. Knows it's Vael. Taught Kenji Ember Lance. Evaluating Pip and Ryn tomorrow dawn. "Terrible student, excellent general."
+- ⚠️ SERA: Testified publicly. Three years in the dark. The room heard her. The mask cracked open for fifty people. She's still processing. The combat mage who was heard. Romance with Kenji unresolved — complicated by Pip relationship and Elara tension.
+- ⚠️ ELARA: ACTING CHANCELLOR. Ink blots. "I will end you." Hand on Kenji's during Vael's confession. Running an institution while processing being called beautiful through a god and having her lap claimed in a Council session. The most overloaded woman in Varenholm.
+- ⚠️ THE GILT LENS NAME: Still potentially significant.
+- ⚠️ PIP: Established intimate relationship with Kenji — they've slept together before. Not an unresolved crush. She's a young woman in her early 20s running an inn, not a child. Flour is a WORK detail only — when she's not in the kitchen she's clean. Write her with the weight of someone who matters, not a blushing innocent.
+- ⚠️ RYN: Young man, early 20s. Not a boy. Quiet, observant, not timid. Write accordingly.
+- ⚠️ PIP AND RYN: Both early 20s. Do NOT write them as children or kids. They are young adults from a harsh environment who have survived entropy sickness and isolation.
 
 ---
 
