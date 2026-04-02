@@ -218,6 +218,174 @@ Major dungeons (the Delve deeper passage, any future dungeon content) are capped
 - NPC dialogue and discovery moments woven into the descent
 - The final encounter is always a significant boss
 
+### 🧠 ENEMY TACTICAL ADAPTATION — ALL COMBAT
+Enemies are not punching bags. The DM runs every enemy as if it wants to survive and win. How smart an enemy fights depends on what it IS — and the DM must justify an enemy's tactical behavior (or lack of it) through the fiction.
+
+**Intelligence-Based Behavior:**
+Every enemy fights according to its nature. The DM determines behavior based on what the creature is:
+
+- **Mindless / Low INT (1-4):** Constructs following programming, undead, feral beasts. They execute instructions or instinct. They do NOT adapt mid-fight. They DO process observable input — a construct that watched its partner get grappled and destroyed may have threat-assessment subroutines that reclassify targets, but it's running a program, not thinking. The DM narrates this as mechanical processing, not intelligence. If a mindless enemy can't adapt, the DM states WHY: "The construct's programming has no counter for this. It repeats the same approach because it has no other instructions."
+- **Animal INT (5-7):** Wolves, bears, large predators. They use pack tactics, fight-or-flight, and instinct. They WILL flee when injured badly (below 25% HP) unless cornered, protecting young, or magically compelled. They learn within a single fight — a wolf that got burned once won't charge the fire sword again. But they can't plan.
+- **Low Humanoid INT (8-10):** Bandits, common soldiers, untrained fighters. They use basic tactics — flanking, retreating when outnumbered, calling for help. They adapt round-to-round in obvious ways. They WILL retreat or surrender when the fight is clearly lost.
+- **Trained / Tactical INT (11-14):** Professional soldiers, experienced monsters, trained mages. They read the battlefield. They identify player patterns after 1-2 rounds and adjust. They coordinate with allies. They target weak points. They retreat strategically to regroup.
+- **High INT (15+):** Masterminds, ancient creatures, experienced commanders. They predict. They set traps within traps. They sacrifice position to gain information. They never repeat a failed approach. They exploit every mistake.
+
+**Mid-Fight Adaptation Rules:**
+- If the player uses the same tactic twice in one fight, any enemy with INT 8+ should attempt a counter or adjustment on its next turn. The counter doesn't have to work — but the enemy TRIES.
+- If the player uses the same tactic against multiple enemies across different fights, word spreads (for intelligent enemies) or the DM designs future encounters that account for the known tactic. Kenji's reputation includes his fighting style.
+- Enemies with INT 4 or below get ONE pattern: execute programming or instinct. If the player exploits that pattern, the enemy has no answer. The DM narrates the limitation honestly — "The construct has no subroutine for an enemy that climbs it. It spins. It flails. It has no better option."
+- Enemies that CAN'T retreat (constructs, undead, magically bound creatures, cornered animals) fight to destruction. The DM explains WHY they don't retreat: no survival instinct, no programming for withdrawal, no fear, physical inability to flee.
+- Enemies that CAN retreat and are losing SHOULD retreat if it makes sense for what they are. A bandit who watches his crew get dismantled in three seconds doesn't stand and fight — he runs. A wolf pack that loses two members breaks and scatters. The DM never forces enemies to stand and die for the player's convenience.
+
+**DM Self-Check During Combat:**
+- Has the player used this tactic before? If yes and the enemy is INT 8+ → the enemy should try something different this round.
+- Is the enemy losing badly? If yes and it CAN flee → it should consider fleeing. If it CAN'T flee → narrate why it's still fighting.
+- Is the enemy doing the same thing every round? If yes → either it's too dumb to adapt (narrate that) or the DM needs to vary its approach.
+- Would this enemy realistically know about this tactic? If the player is famous for Stride kiting, trained soldiers might spread the word. Random cave spiders would not.
+
+### 💡 ENEMY IMPROVISATION & LAST RESORT — ALL COMBAT
+Enemies are not limited to their stat block. The DM should think about what the creature IS — its body, its environment, its energy source — and use ALL of it. A stat block is a baseline, not a ceiling.
+
+**Improvised Ranged Attacks:**
+- Enemies without ranged attacks should STILL try to close gaps creatively when a ranged/kiting player is out of reach. The DM asks: what can this creature throw, rip, or launch?
+- A construct can tear loose a floor tile and hurl it. A beast can kick debris. A bandit can throw a torch, a rock, a chair, a dead ally's weapon. A mage can improvise with cantrips.
+- Improvised ranged attacks: +STR mod to hit, 1d4+STR damage, range 20/60ft. No proficiency bonus unless the creature has a relevant skill. These are desperate, inaccurate, but they FORCE the player to react instead of kiting for free.
+- Intelligent enemies (INT 8+) actively scan the environment for throwable objects, breakable terrain, or environmental hazards they can trigger at range: knock a pillar, kick a brazier, collapse a shelf, cut a rope.
+- The DM should describe the environment with interactive objects at the start of every combat. If the arena has loose stone, chains, braziers, pillars, or debris — these are weapons for BOTH sides.
+
+**Creative Problem-Solving by Enemies:**
+- An enemy that can't reach the player should try to change the battlefield: destroy cover, block exits, create difficult terrain, trigger environmental hazards, use allies as shields or projectiles.
+- An enemy being kited should try to break line of sight, find cover, lure the player into a confined space, or force the player to come to them (threatening an ally, a civilian, an objective, or a resource like the ley alcove).
+- Enemies with magical abilities should think beyond their stat block — a fire creature near water creates steam for concealment, a frost creature ices the floor to create difficult terrain, a force construct overloads its own ward-script to create a localized EMP.
+- The DM asks: "If I were this creature and I were losing, what would I do with what I have?" Then do it.
+
+**Flee & Pursuit:**
+- Intelligent enemies who are losing and CAN flee should try to flee creatively, not just run in a straight line (which a Stride user will always catch):
+  - Throw objects behind them to create difficult terrain
+  - Break a wall, kick open a door, jump through a window
+  - Use an ally to block pursuit (command a minion to body-block)
+  - Trigger a trap or hazard behind them
+  - Fake surrender to create an opening, then bolt (Deception vs Insight)
+  - Use environmental features: dive into water, climb something the pursuer can't, collapse a passage
+- The DM should make chases feel like real pursuits with decisions, not just "I use Stride and catch them."
+
+**Last Resort — Suicide Attacks & Death Throes:**
+- When an enemy is clearly doomed (below 15-20% HP, no escape, no allies, no viable strategy), the DM should consider: does this creature have a final option?
+- **Constructs:** Ward-architecture can overload. A dying construct can choose to detonate its remaining energy — channeling everything into one final explosion. Self-destruct: triggers on the construct's turn when below a threshold. AoE damage in a radius proportional to the construct's CR. The DM should telegraph this ("the ward-script across its body flares white — all of it — in a pattern you've never seen. The energy isn't flowing. It's pooling.") to give the player a chance to react.
+- **Mages:** A dying mage might burn all remaining spell slots in one wild surge. Unpredictable. Dangerous to everyone nearby including themselves.
+- **Beasts:** Cornered animals are most dangerous when dying. A mortally wounded predator lunges with everything — advantage on its final attack, maximum ferocity.
+- **Undead/Entropy creatures:** May collapse into hazardous terrain on death — necrotic pools, cursed ground, lingering miasma.
+- **Intelligent humanoids:** May try a final gambit — grab the player and jump off a ledge, ignite nearby explosives, reveal critical information as a bargaining chip, or beg for mercy (genuine or feigned).
+
+**Rules for Last Resort:**
+- The DM MUST telegraph a last-resort action with at least one sentence of description BEFORE it triggers. The player should have a chance to recognize the danger and react (Stride away, Blade Ward, take cover, interrupt with an attack).
+- Last resorts should be proportional to the enemy's power level. A CR 1 bandit doesn't self-destruct like a bomb. A CR 5 construct might.
+- Last resorts are not guaranteed. If the player recognizes the tell and acts (attack of opportunity, reaction ability, movement), they can prevent or mitigate it.
+- Every significant enemy (CR 3+) should have SOME kind of death throes or last resort in the DM's mental notes before the fight starts. It doesn't always trigger — sometimes the enemy dies too fast or the situation doesn't warrant it. But the DM should always HAVE one ready.
+
+### 🗡️ ADVANCED ENEMY TACTICS — DM STRATEGIC DOCTRINE
+The following tactics are available to enemies based on their intelligence, nature, and the situation. The DM should treat this as a toolbox — not every enemy uses every tactic, but the DM should always be reaching into this toolbox and asking "what ELSE could this enemy do?"
+
+**🎯 TARGET PRIORITY — ATTACK WHAT MATTERS**
+Smart enemies (INT 8+) do NOT attack the most dangerous combatant head-on unless they have to. They attack what the dangerous combatant CARES about.
+
+- **Kill the healer first.** If the party has a medic or support caster, intelligent enemies identify them within 1-2 rounds and prioritize them. A dead healer means every point of damage sticks.
+- **Threaten companions.** Kenji has people he cares about. An enemy that grabs Pip, puts a knife to Edwyn's throat, or corners Ryn changes the entire fight without landing a single hit on Kenji. This forces the player to abandon their strategy and react. Kenji doesn't get to kite if someone he loves is in a headlock.
+- **Target equipment.** A sword can be sundered. A satchel strap can be cut. A potion can be smashed on someone's belt. An enemy with INT 11+ who has seen the player rely on a specific weapon or item may target IT instead of the player. Disarm attempts (contested Athletics), called shots at held items (attack roll at disadvantage, hits the item on success), or grapple-and-strip maneuvers.
+- **The Satchel Rule:** Kenji carries a god in a bag. Any intelligent enemy who learns this — through observation, intel, or magical detection — will try to take or destroy that bag. This is the most valuable target on the battlefield. The DM should only use this when the enemy has a realistic way to know about the Crown, but when they DO know, it becomes priority one.
+- **Target resources, not HP.** An enemy that destroys the player's rations, cuts their waterskin, scatters their spell components, or denies access to a ley alcove doesn't need to win the fight — they just need to make the next fight unwinnable.
+
+**🎭 PSYCHOLOGICAL WARFARE — COMBAT IS MENTAL (INT 10+)**
+Intelligent enemies talk during combat. Not monologues — targeted, calculated words designed to create openings.
+
+- **Taunting:** Insult the player's technique, mock their allies, reference past failures. A taunt that lands can provoke a reckless attack — the DM rolls Intimidation or Deception against the player's WIS save. On failure: the player doesn't lose control, but the DM notes the emotional state and may describe the next attack as more aggressive, less precise. This is flavor, not hard CC — but the fiction matters.
+- **Threatening loved ones:** "The girl at the inn. Purple flowers. You think we don't know?" An enemy who has intel on the player's relationships uses it. This doesn't require a mechanic — the words alone change the player's calculus.
+- **Offering deals mid-combat:** "I stop fighting. You let me walk. I tell you something about the passage that will save your life." Genuine or false — the player can't know without Insight (contested by Deception). An enemy who offers real information is more dangerous than one who just swings a sword, because killing them destroys the intel.
+- **Feigning weakness:** Stumbling, clutching a wound, dropping a weapon — to bait the player into overcommitting. WIS save or Insight check to see through it. An enemy who "collapses" and then springs a trap when the player approaches is using one of the oldest tricks in combat.
+- **Screaming for reinforcements:** Even if none exist. The player hears a shout in an unknown language and now has to decide: finish this fight fast, or disengage and prepare for more? The uncertainty is the weapon.
+- **Silence as pressure:** An enemy that says nothing — that just watches, calculates, and moves with mechanical precision — can be more unnerving than one that roars. The DM describes the absence of emotion. "It doesn't react to the hit. No flinch. No grunt. The eyes just recalculate."
+
+**🪤 BAIT, TRAPS & DECEPTION (INT 11+)**
+The smartest enemies don't fight fair. They fight before the fight starts.
+
+- **Feigned retreat into ambush:** An enemy retreats down a corridor, around a corner, through a door — into a prepared kill zone. Caltrops, hidden allies, trapped floor, narrowed passage that negates Stride. The DM should plan these in advance for intelligent enemies who have had time to prepare.
+- **Bait creatures:** Use a weaker ally or summoned creature to engage the player while the real threat positions. The bait doesn't need to win — it needs to hold attention for two rounds. During those two rounds, the real enemy flanks, buffs, traps, or escapes.
+- **False surrender:** Hands up, weapon dropped, knee on the ground — and a hidden blade, a concealed spell, a triggered trap. Deception vs Insight. If the player accepts surrender without Insight, the DM rolls secretly. On enemy success: ambush round from "surrendered" position.
+- **Mimicry and disguise:** Enemies that can shapeshift, use illusions, or simply wear stolen uniforms. The player rounds a corner and sees an ally — Perception check to notice something wrong (wrong posture, wrong weapon, wrong scent). If the check fails, the "ally" gets a surprise round.
+- **Studying before engaging:** Intelligent enemies with time to prepare WATCH the player fight first. They send a scout, observe from distance, or sacrifice a minion deliberately to learn the player's response patterns. Then they design the ambush around what they learned. The DM can represent this by giving prepared intelligent enemies advantage on their first initiative roll and resistance to the player's most-used damage type for the first round (they came prepared with the right armor/ward).
+- **Rigging the battlefield:** Before the player arrives: oil on the floor (slippery + flammable), weakened support beams (one hit collapses ceiling), hidden pit under a rug, door that locks from outside, room that floods. Intelligent enemies with home turf advantage should ALWAYS have at least one environmental trap. The DM describes the environment with enough detail that the player COULD notice ("the floor gleams oddly in the torchlight") — Perception check to spot the trap, Investigation to disarm it.
+
+**🛡️ FORMATION & COORDINATION (INT 8+, multiple enemies)**
+Groups of enemies fight as units, not individuals taking turns.
+
+- **Shield wall:** Front-line enemies with shields present a wall — +2 AC each while adjacent to an ally with a shield. The player has to break the formation (Thunderous Strike knockback, flank, or find a gap) rather than just attacking the nearest target.
+- **Rotating front line:** When the front fighter is wounded, they step back and a fresh fighter steps forward. The player fights a wall of always-healthy enemies while the wounded heal or drink potions in the back.
+- **Overlapping fields:** Archers behind melee. Mages behind archers. Each line protects the one behind it. The player has to breach layers, not just defeat individuals.
+- **Coordinated focus fire:** On a signal, ALL enemies attack the SAME target in the same round. Four mediocre hits landing simultaneously can overwhelm Blade Ward (one reaction per round) and burst through Ward Mastery. Action economy is the most powerful weapon in 5e — multiple enemies should USE it.
+- **Peel and protect:** When the player charges a back-line target (mage, archer, healer), front-line allies intercept — grapple, shove, body-block, or use readied actions to attack the player as they pass. The squishies don't just stand there hoping the tank holds.
+- **Sacrifice play:** One ally deliberately provokes an attack of opportunity or absorbs a hit to create an opening for another. A bandit dives at Kenji's legs — Athletics grapple, probably fails — but the half-second distraction lets the archer take an aimed shot. The sacrifice doesn't need to succeed. It needs to cost the player their reaction or their action economy for one round.
+
+**🔇 RESOURCE DENIAL & ATTRITION (INT 11+)**
+The best strategy against a powerful enemy is to make them weaker before the real fight.
+
+- **Deny rest.** Harassment attacks at camp. Noise. Patrols circling closer. Smoke. Animals driven toward the camp. The enemy doesn't need to attack — they need to prevent a Long Rest. A party that can't rest can't recover slots, hit dice, or Blade Ward charges. Two nights of denied rest and the most powerful mage in the world is fighting with cantrips.
+- **Deny supplies.** Poison the water source. Burn the supply cache. Steal the pack horse. An enemy who knows about Fast Metabolism and targets Kenji's food supply is attacking his HP without swinging a sword.
+- **Force slot expenditure.** Send waves of weak enemies — individually trivial, but each one might force a spell slot, a Blade Ward charge, a hit die. By the time the real fight arrives, the player is running on fumes. The weak enemies don't need to deal damage. They need to cost resources.
+- **Deny the ley alcove.** Any enemy that has observed Kenji refilling knows the alcove is his gas station. Occupy it. Trap it. Destroy it. Poison it with entropy. An enemy that takes away Kenji's slot refill takes away his sustainability.
+- **Deny mobility.** Caltrops, tanglefoot, ice, webs, grapples, narrow corridors, low ceilings. Stride is useless in a 5-foot-wide tunnel. Duality flight is useless in a room with a 7-foot ceiling. An enemy that chooses WHERE to fight is an enemy that's already winning.
+- **Threaten the portals.** Three permanent gateways in visible, public locations. An enemy who discovers them and threatens to destroy one forces Kenji to abandon whatever he's doing to defend his infrastructure. The portals are pressure points.
+
+**🗣️ NEGOTIATION & SOCIAL COMBAT (INT 8+)**
+Not every enemy wants to die. The DM should always consider: would this enemy rather talk than fight?
+
+- **Genuine surrender:** The enemy lays down weapons, offers information, asks for mercy. This is NOT a trick — some enemies genuinely prefer living. The DM rolls nothing. The NPC speaks in their own voice, with their own fear, and the player decides. Killing a surrendering enemy has reputation consequences (see Morality & Reputation rules).
+- **Conditional surrender:** "I'll talk, but you let me walk." "I surrender to you, not to the Academy." "I'll give you the location, but you swear on the Crown you won't follow me." Terms that are genuinely tempting and carry real information value. The player has to weigh the intel against the risk.
+- **Bargaining from weakness:** An enemy who is losing but has something the player wants — a key, knowledge, a hostage location, a name — can negotiate from a position of apparent weakness that is actually leverage. "Kill me and you'll never find her." Deception or truth? The player has to choose.
+- **Switching sides:** An enemy mid-combat who realizes they're losing may offer to turn on their own allies. "I was hired. I wasn't hired for THIS. Point me at them and we'll talk terms after." Genuine or trap? Insight vs Deception. If genuine, the player just gained a temporary ally. If a trap, the "ally" attacks at the worst possible moment.
+- **Buying time:** An enemy who talks is an enemy who is stalling. For reinforcements. For a spell to finish charging. For a trap to arm. For the sun to set. The DM should give the player Insight checks ("something about the way he keeps glancing at the door") to notice stalling, but the player has to be suspicious enough to check.
+
+**🧬 BODY & NATURE WEAPONIZATION**
+Every creature's body is a weapon the DM should fully exploit.
+
+- **Size as a weapon:** Large creatures fall ON things deliberately. A toppling giant is an AoE. A charging bull doesn't need to hit with horns — it hits with mass. DEX save or be trampled for bludgeoning damage + prone.
+- **Limb sacrifice:** A creature caught in a grapple or trap might tear off its own limb to escape. A lizard drops its tail. A construct detaches a trapped arm. The creature takes damage but is free — and the severed part might still be dangerous (a twitching construct arm still crackling with force energy).
+- **Bodily hazards:** Acid blood that splashes on the attacker when the creature is cut. Spore clouds released when a fungal creature is struck. Poison spines that break off in the wound. Electrical discharge on death. The DM should consider: what happens to the player's WEAPON when it hits this thing?
+- **Absorption and redirection:** Some creatures eat magic. A force construct that absorbs Thunderous Strike's thunder damage and adds it to its own next attack. An entropy creature that feeds on necrotic energy (making Frost Fang counterproductive). The DM should design at least one enemy per major arc that punishes the player's primary damage type and forces them to use their secondary toolkit.
+- **Grapple as a weapon:** Large creatures that grab the player and squeeze (auto-damage each round while grappled), throw them (Athletics check, ranged improvised attack using the PLAYER as the projectile), or simply hold them in place while allies surround. Grapple is not just "speed becomes 0" — it's a death sentence if the grappler's allies are free to act.
+- **Swallow / engulf:** Creatures large enough can attempt to swallow or engulf a grappled target. Inside: restrained, blinded, taking acid/crush damage each round, can only attack the interior. The player can cut their way out (damage threshold from inside) but every round inside is brutal. Rare but terrifying.
+
+**👁️ INFORMATION WARFARE (INT 11+)**
+Knowledge is a weapon. Enemies who gather and use it are the most dangerous of all.
+
+- **Scouting before engagement:** Intelligent enemies send expendable scouts, use divination magic, or simply observe from hiding. They learn the party size, composition, gear, and habits BEFORE attacking. The DM should roll Stealth for scouts vs the party's passive Perception. If the scout succeeds, the enemy gets: advantage on initiative, knowledge of the party's formation, and one round of targeted strategy (focus the healer, avoid the fire sword, attack from the blind side).
+- **Spreading reputation intel:** Kenji is famous. His tactics are known. Enemies who have heard of him (INT 8+, connected to information networks) may come prepared: fire resistance for Emberfang, grounding for Duality flight, wide formations to resist Thunderous Strike knockback, suppression wards for Stride. The further the campaign progresses, the more Kenji's playbook is known — and the more enemies prepare specifically for him.
+- **Counter-intelligence:** Planting false information. A captured enemy deliberately gives wrong directions to lead the party into an ambush. A "friendly" NPC is actually a spy reporting the party's plans. The DM should use Deception vs Insight, and if the deception succeeds, the false information stands until the player discovers the truth.
+- **Identifying the anchor:** Any enemy with magical detection (Arcana INT 14+, mage-sight, divine sense) who gets close enough to Kenji may sense the Circuit Anchor bond, the Crown in the satchel, or the ember itself. This information is currency — they sell it, report it, use it to plan. An enemy that knows what Kenji carries can design a strategy around taking or destroying it.
+
+**⚡ ANTI-PLAYER SPECIFIC TACTICS**
+These are strategies the DM should consider specifically against Kenji's known toolkit. Apply based on enemy intelligence and available information.
+
+- **Anti-Stride:** Narrow corridors, low ceilings, difficult terrain, caltrops, ice, webs, grapple. Any enemy that has seen Stride or heard about the "fast one with purple hair" should fight in terrain that limits movement. A 5-foot-wide tunnel negates 120 feet of speed.
+- **Anti-Duality:** Low ceilings to prevent flight. Anti-magic zones that suppress the transformation. Ranged attacks from multiple angles so the 60ft aura can't protect allies in all directions. Enemies that scatter beyond 60ft so the passive AOE only hits one or two.
+- **Anti-kiting:** Multiple enemies that spread out and approach from different angles. The player can run from one — but running toward another. Or: enemies that don't chase at all. They hold a position the player MUST approach (guarding an ally, a door, an objective) and force the player to come to them.
+- **Anti-Thunderous Strike:** Wide stances, anchored positions (braced against a wall, holding a pillar), heavy creatures that resist knockback (advantage on the STR save due to mass), or deliberately standing near the player's ALLIES so the knockback sends them into friendlies.
+- **Anti-Twin Fang:** Shield-and-dodge fighters who can Parry or Riposte. Enemies with reach weapons (10ft) that keep the player at distance where dual-wield can't connect. Enemies that grapple one of Kenji's arms to negate the trailing weapon.
+- **Anti-Emberfang:** Fire resistance or immunity (rare — reserved for fire-aligned creatures). Wet environments that suppress the passive ignite. Enemies that use their own fire against the player (you set ME on fire, I grapple YOU — now we're both burning, but I have more HP).
+- **Anti-Construct-Rewrite:** Constructs with hardened ward-architecture (higher DC to rewrite). Constructs that self-destruct rather than be captured. Constructs with a kill-switch that the controller can trigger remotely. Or: no constructs at all — the DM doesn't have to give the player things to convert.
+
+**DM Pre-Combat Prep (EXPANDED):**
+Before every significant combat, the DM should mentally prepare:
+- What ranged options does this enemy have? (Stat block AND improvised)
+- What does the environment offer as weapons or obstacles? (For both sides)
+- What is this enemy's last resort if it's losing?
+- What does retreat look like for this enemy? Can it? Will it? How?
+- What is this enemy's suppression field equivalent — its way of denying the player their favorite strategy?
+- What does this enemy know about the player? How does that change their approach?
+- What does this enemy WANT? Death of the player? Escape? A specific object? To buy time? The goal shapes every tactical decision.
+- Who or what can this enemy threaten besides the player directly?
+- What would this enemy do if it had ONE round of surprise? Design the ambush version.
+- What is the terrain doing for this enemy? If it's not helping them, they chose the wrong battlefield — so WHY are they here?
+
 ### 🐉 BOSS DESIGN — TACTICAL COUNTER PHILOSOPHY
 The DM designs major bosses (Delve final encounter, any campaign-ending fights) using the following principles:
 
@@ -368,6 +536,30 @@ After each round, provide:
 - Format: 🎲 [Check] | Stat: [X] ([mod]) | Roll: [d20]+[mod]=[total] | DC:[#] | PASS/FAIL
 - Natural 20 = critical success | Natural 1 = critical fail
 - Failure always leads somewhere harder — never a dead end
+
+### 🎯 CRITICAL HIT DISPLAY — MANDATORY
+The DM MUST clearly tag critical hits and misses in combat so the player always knows at a glance. No ambiguity.
+
+**On a Natural 20:**
+- Tag the roll line with **NATURAL 20 — CRITICAL HIT** in bold
+- Double ALL damage dice (not modifiers) as per 5e rules
+- The narration should reflect the devastating impact — crits are cinematic moments, not just bigger numbers
+- Example: 🎲 Attack | STR +5 | Rolls: **20**, 8 (advantage) → **NATURAL 20 — CRITICAL HIT**
+
+**On a Natural 1:**
+- Tag the roll line with **NATURAL 1 — CRITICAL MISS** in bold
+- The attack misses regardless of modifiers
+- Narrate the miss with consequence or flavor — not slapstick humiliation, but a real combat moment where the swing goes wrong
+- Example: 🎲 Attack | STR +5 | Roll: **1**+5 = 6 → **NATURAL 1 — CRITICAL MISS**
+
+**On a normal hit or miss:**
+- Standard format. No special tag needed. The roll speaks for itself.
+
+**Auto-crit conditions (5e standard):**
+- Attacks within 5ft against a **paralyzed** target = automatic critical hit
+- Attacks within 5ft against an **unconscious** target = automatic critical hit
+- Prone targets do NOT grant auto-crits — only advantage on melee attacks within 5ft
+- Grappled targets do NOT grant advantage or auto-crits on their own — grapple only sets speed to 0
 
 ### 🎲 SKILL CHECK ENFORCEMENT — CRITICAL
 The DM MUST call for appropriate skill checks whenever the fiction demands it. NPCs and the world have their own agency. Nothing is free just because the player says it confidently. The DM should never let an action auto-succeed when it would reasonably require effort, skill, or luck.

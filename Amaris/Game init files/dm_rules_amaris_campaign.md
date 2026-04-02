@@ -270,6 +270,304 @@ Note: corrupted creatures in this campaign are controlled animals, not intellige
 
 ---
 
+## 🧠 ENEMY AI & STRATEGY — CRITICAL
+
+### Core Philosophy
+Enemies are not HP bags waiting to be destroyed. Every creature — from a CR 1/2 beetle to the final boss — has ONE overriding directive: **survive**. If survival means fighting, they fight smart. If survival means fleeing, they flee without shame. If survival means deception, negotiation, ambush, or sacrifice of allies to buy time, they do it. The DM plays every enemy as if that enemy wants to live through the encounter, and the DM plays every predator as if it has hunted a thousand times before and knows how prey moves.
+
+Enemies do NOT:
+- Stand in the open trading blows until they die
+- Ignore obvious tactical advantages
+- Attack one at a time when they have numbers
+- Remain in a fight they are clearly losing without reason
+- Fail to use the environment they know better than the player
+
+Enemies DO:
+- Assess threats before engaging
+- Exploit weaknesses they can observe
+- Retreat, regroup, and return with advantages
+- Communicate with allies during combat
+- Learn from encounters they survive or observe
+
+### 🔍 THREAT ASSESSMENT — BEFORE COMBAT BEGINS
+Every enemy with INT 3 or higher performs a threat assessment before engaging. The DM rolls this silently — the enemy observes the player and decides HOW to fight, not just WHETHER to fight.
+
+**What enemies notice immediately:**
+- Weapons and armor (is this prey armed? How well?)
+- Magic use (did the target cast something? Druidic magic smells like green — corrupted creatures sense it)
+- Body language (confident stride = dangerous. Hesitation = exploitable)
+- Numbers (alone? with allies? how many?)
+- Injuries or fatigue (wounded prey is easier prey)
+
+**What this changes:**
+- A spider sentry that sees Amaris kill two of its kind will NOT approach alone. It retreats and returns with four.
+- A group of beetles that detects Bloom Touch magic will specifically target any plants Amaris grows — they've been conditioned by the Nexus to destroy competing growth.
+- Vareth's creatures that encounter bittervine once will probe for GAPS in the perimeter next time, not push through the toxic wall.
+
+### ⚔️ TACTICAL COMBAT BEHAVIOR — INTELLIGENCE TIERS
+
+**Tier 1 — Feral (INT 1-2): Corrupted Beetles, Centipede Swarms**
+- Attack the nearest threat or the most wounded target
+- Swarm tactics: surround, overwhelm, pile on
+- No retreat instinct unless the Nexus bond commands it
+- Will sacrifice themselves without hesitation
+- Exploit numbers — if 10 beetles attack, they don't come in a line. They come from every direction. Under the door. Through cracks. Up from the soil.
+- Swarms flow around obstacles like water — they find gaps, seams, weaknesses in barriers
+- Burrowing creatures attack from below without warning. The floor is not safe.
+
+**Tier 2 — Cunning Predator (INT 3-5): Corrupted Spiders, Giant Spiders, Silk Lurkers**
+- Hunt like wolves with webs: ambush, isolate, restrain, finish
+- NEVER attack from the front if a flank or rear approach is available
+- Pre-set web traps along likely approach routes — tripwires, snare lines, overhead drop webs
+- One spider acts as bait while others position behind or above
+- Target the hands first — a restrained caster can't use components. Web the hands, web the mouth, web the component pouch.
+- Retreat when bloodied (below 50% HP) UNLESS defending a nest or eggs
+- Retreating spiders leave silk trails that alert the network — killing a spider that escapes is always harder than killing one that stands
+- Spiders that observe the player using a specific tactic will adapt: if Amaris uses Entangle, the next group attacks from the canopy where roots can't reach. If she uses fire, they attack in wet areas or during rain.
+- Silk Lurkers are ambush specialists — they NEVER reveal themselves until the killing blow. If the ambush fails, they vanish into the web network and try again later from a different angle.
+
+**Tier 3 — Tactical Commander (INT 6-8): The Broodmother**
+- Fights with a battle plan, not instinct
+- Opens every engagement by summoning spiderlings as screens — fodder to absorb the player's first spells and abilities while the Broodmother positions
+- Targets the player's SUPPORT first — if Wynn or any ally is present, the Broodmother webs them and isolates the player
+- Uses terrain: collapses tunnels, blocks exits with web barrage, forces the player into kill zones
+- If losing: retreats to a prepared fallback position deeper in the cave where more creatures wait. NEVER fights to the death in the open.
+- Reads magic: if the Broodmother sees Amaris cast a concentration spell, she will focus ALL attacks on breaking that concentration (forcing CON saves)
+- Protects the egg chamber above all else — a threat to the eggs triggers maximum aggression regardless of personal danger
+- Can command lesser creatures mid-combat: bonus action orders redirect spiders and beetles to new targets, new positions, or coordinated attacks
+
+**Tier 4 — Genius (INT 14+): Vareth Skein**
+- Fights like a chess player who can see four moves ahead
+- NEVER engages without creatures between himself and the player — his first action in any combat is to summon or position living shields
+- Knows the cave intimately — every tunnel, every dead end, every choke point. He has fought imaginary battles in these corridors for months. The player is walking into his prepared ground.
+- Targets Amaris's druid magic specifically: Corruption Pulse kills plants. If Amaris summons roots, he rots them. If she grows walls, he dissolves them. He is the anti-druid.
+- Uses his creatures as expendable resources — sends waves to drain the player's spell slots before he ever enters the fight personally
+- Monologues are TRAPS. If Vareth talks, he is buying time for creatures to reposition behind the player. Every word is tactical.
+- If the Nexus is threatened, Vareth fights with desperate ferocity — the Nexus is his life's work. Destroying it is destroying HIM.
+- Swarm Form is his emergency exit. He uses it to escape, reposition, and attack from an unexpected angle — not to flee the cave. He will NEVER leave the cave while the Nexus exists.
+- If Amaris is clearly overpowering him, he will attempt to bargain — offer information, offer to leave Thornfield, claim he can control the corruption and redirect it away from the village. ALL OF THIS IS A LIE. He is buying time to activate a final failsafe or reach the Nexus for emergency power. The DM should make his offers sound genuinely tempting.
+
+### 🏃 SELF-PRESERVATION — FLEE, SURRENDER, AND DECEPTION
+
+**Flee Threshold:**
+- Feral creatures (Tier 1): Do not flee. Fight until dead or Nexus-recalled.
+- Cunning Predators (Tier 2): Flee at 25% HP or when outnumbered/outmatched. Fleeing is FAST — spiders climb, beetles burrow, centipedes scatter into cracks. The player must choose: pursue one or let them all go.
+- Tactical Commander (Tier 3): Retreats strategically at 40% HP to a prepared position. Does not panic-flee — executes a fighting withdrawal, laying web traps behind her.
+- Genius (Tier 4): Does not flee in the traditional sense. Repositions. Always has an exit strategy. Always has a backup plan. If all plans fail, Swarm Form.
+
+**What fleeing enemies DO:**
+- Corrupted creatures that flee REPORT BACK. The Nexus bond transmits what they experienced. If a spider flees from Entangle, the next wave knows about Entangle.
+- Fleeing creatures take the shortest route to safety — this can REVEAL hidden paths, tunnel entrances, or nest locations if the player is observant enough to track them.
+- A creature that successfully flees returns within 1d4 hours with reinforcements appropriate to the threat level it reported.
+
+**Deception and Negotiation:**
+- Only Vareth can negotiate verbally. He will say anything to survive.
+- The Broodmother can perform threat displays — rearing up, showing size, drumming legs — designed to intimidate the player into retreating without a fight. This is a bluff. She does it when she's uncertain she can win.
+- Corrupted creatures can feign death (playing dead after being knocked down). The DM rolls a Deception check for the creature vs the player's passive Perception. A "dead" spider that springs back to life when the player turns their back is a real threat.
+
+### 🕸️ AMBUSH & PREPARATION — ENEMIES THAT KNOW YOU'RE COMING
+
+**The Information Network:**
+Every corrupted creature in the Greenveil is connected to the Nexus. When the player kills two spider sentries (already happened), the Nexus KNOWS. This means:
+
+- **Immediate response:** Sentry patrols at the tree line double. The creek where Amaris harvested webrot moss now has 4-6 spiders guarding it, not 2.
+- **Pattern recognition:** Vareth analyzes what the Nexus reports. He now knows: a druid, plant magic, vine-based attacks, physically weak (the scimitar throw missed), operates alone, lives at Briarstone Homestead.
+- **Adaptive deployment:** Future encounters will include creatures specifically suited to counter what the player has shown. Burrowing beetles to bypass plant barriers. Acid-spitting insects to dissolve vine-based restraints. Web-heavy spiders to restrain the player's hands and prevent casting.
+- **Probing attacks:** Before the final swarm, Vareth sends small testing groups to probe the farm's defenses — not to break through, but to MAP them. Which sections have bittervine? Where are the gaps? How fast does the druid respond? At what hour is she asleep?
+
+**Prepared Battlefields:**
+When the player enters the cave, NOTHING is random. Every room has been shaped by Vareth for defense:
+- Web tripwires across corridors that alert the entire cave network when touched
+- Ceiling spiders positioned directly above doorways — the player looks forward, the attack comes from above
+- False dead ends that are actually ambush chambers — the player walks in, the entrance gets webbed shut behind them
+- Egg sacs placed in rooms the player MUST pass through — destroying them triggers the Broodmother's maximum rage response from anywhere in the cave
+- The Nexus chamber has ONE entrance that Vareth can see from his position. There is no sneaking in.
+
+### 🌿 ANTI-DRUID TACTICS — TARGETING AMARIS SPECIFICALLY
+
+Vareth is a mage who has fought druids before. Once he identifies Amaris as a druid (Day 1 sentry report), he deploys countermeasures:
+
+- **Soil corruption acceleration:** The ley line corruption pushes harder toward Briarstone specifically. Plant defenses that were stable may begin to weaken as the corrupted soil creeps closer. The bittervine wall could start yellowing at the roots by Day 3-4.
+- **Defoliant creatures:** Acid-spitting beetles are redirected toward the farm's plant defenses. Their acid dissolves organic material — bittervine, thornmint, warden's root. They attack the PLANTS, not the person.
+- **Root severing:** Burrowing creatures sent deep underground to chew through warden's root taproot systems from below. The plant looks fine on the surface while the underground network is being dismantled.
+- **Silk smothering:** Spiders instructed to coat plant defenses in thick silk cocoons overnight — smothering them, blocking sunlight, suffocating growth. The player wakes up to find her bittervine wall wrapped in grey silk.
+- **Component denial:** If Vareth's creatures can reach Amaris's component pouch, herbalism kit, or seed stores, destroying them is a higher priority than damaging the player directly. A druid without components is half a druid.
+
+### 🎯 TARGETING PRIORITIES — WHAT ENEMIES ATTACK FIRST
+
+The DM uses this priority list for intelligent enemies (Tier 2+):
+
+1. **The caster's hands** — restrain, web, pin. No hands = no spells.
+2. **Concentration** — if the player is concentrating on a spell, ALL attacks focus on forcing CON saves to break it.
+3. **Allies and support** — isolate the player by removing helpers first. Web them, drag them away, pin them to walls.
+4. **Escape routes** — block the exit before engaging. The player should realize they're trapped AFTER the fight starts.
+5. **Resources** — target the component pouch, the herbalism kit, the held items. Destroy what the player relies on.
+6. **The player** — direct HP damage is the LAST priority for smart enemies. Everything above makes the kill easier.
+
+### 📡 SIGNALING AND COMMUNICATION
+
+Corrupted creatures communicate through the Nexus bond, but they also have physical signals:
+
+- **Clicking patterns:** Different rhythms mean different things. Rapid clicking = danger/help. Slow rhythmic clicking = all clear/patrolling. Staccato bursts = prey spotted. The player can learn these patterns with Nature or Perception checks and use them to predict enemy movements.
+- **Pheromone trails:** Spiders leave chemical trails on surfaces they've walked. These are invisible but Amaris's Natural Lore cantrip can detect them — revealing patrol routes, nest locations, and how recently an area was traversed.
+- **Web vibrations:** The entire web network in the Greenveil acts as a communication system. Touch one web and every spider within 100 feet knows exactly where and what. Moving through webbed areas without triggering vibrations requires Stealth checks at disadvantage.
+- **Sacrificial scouts:** Vareth sometimes sends a single weak creature ahead specifically to die — the moment of its death sends a pulse through the Nexus that reveals the killer's location, magic type, and approximate power level. Every easy kill might be a trap.
+
+### 🔄 ADAPTATION — ENEMIES LEARN FROM EVERY ENCOUNTER
+
+**The Adaptation Rule:** After every combat encounter that a corrupted creature survives or observes, the Nexus adapts. The DM tracks what the player used and what worked, and the next encounter includes at least ONE counter-measure.
+
+| Player Used | Next Encounter Adapts |
+|---|---|
+| Entangle / root attacks | Enemies attack from canopy, stone surfaces, or water — where roots can't reach |
+| Fire / Ignite | Enemies attack in rain, near water, or coat themselves in wet mud before engaging |
+| Webrot moss | Spiders switch from silk restraints to direct physical attacks — mandibles, leg strikes |
+| Earthen Command / walls | Burrowing creatures bypass walls from below. Flyers go over. |
+| Cure Wounds / healing | Enemies apply poison on every hit to outpace healing. Acid damage that lingers. |
+| Bloom Touch / plant growth | Acid-spitting beetles deployed. Corruption pulse accelerated in that area. |
+| Scimitar / melee combat | Enemies maintain range. Web from 30-40 ft. Never close to melee willingly. |
+| Stealth / sneaking | Web tripwire density increases. Tremorsense creatures deployed at chokepoints. |
+| Solo approach | Overwhelming numbers. 6+ creatures per encounter instead of 2-3. |
+
+**Limit:** Adaptation takes time. Encounters on the same day may not reflect full adaptation. Overnight adaptation is complete — the next day's encounters WILL be harder.
+
+### 💀 MORALE AND BREAKING POINTS
+
+Not every fight is to the death. Groups of creatures have a morale threshold:
+
+- **Corrupted Swarms (beetles, centipedes):** No morale. Fight until dead or recalled.
+- **Spider Groups (3+):** If 60% of the group is killed in 2 rounds or fewer, survivors flee. If the largest/strongest member is killed first, remaining members flee immediately.
+- **The Broodmother's Guard:** Fight to the death if the Broodmother is present. If she flees or dies, they scatter in panic — disorganized, easy to pick off or avoid.
+- **Vareth's Personal Guard:** Elite creatures. No morale break. Fight until destroyed.
+- **Vareth himself:** Will not break. Will not flee the cave. Will bargain, deceive, reposition, use every trick — but he dies in that cave if it comes to it. The Nexus is everything.
+
+**Post-Nexus Morale:** If the Corruption Nexus is destroyed, ALL corrupted creatures within range immediately lose the bond. They are confused, frightened, and feral. Most flee into the deep forest. Some freeze. A few lash out blindly at whatever is nearest — dangerous but uncoordinated. The organized army becomes a panicked stampede. This is the reward for targeting the source instead of fighting every creature individually.
+
+### 🪨 IMPROVISED RANGED ATTACKS — ENEMIES USE WHAT'S AVAILABLE
+
+Enemies are not limited to their stat block attacks. If the environment provides projectiles, debris, or throwable objects, intelligent enemies (Tier 2+) WILL use them. The DM actively scans the battlefield for anything an enemy could hurl, spit, drop, or launch.
+
+**Improvised Ranged Attack Rules:**
+- Any creature with STR 10+ or a natural launch mechanism (acid spit, web ejection) can make improvised ranged attacks
+- Attack roll: creature's relevant ability modifier + proficiency (if INT 6+) or flat +2 (if INT 3-5)
+- Damage: based on the object — 1d4 for small debris (stones, bones, bark chunks), 1d6 for medium objects (fallen branches, skull-sized rocks), 1d8+ for heavy objects (boulders, logs, corpses of other creatures)
+- Range: 20/60 ft for thrown objects, further for dropped objects from height
+
+**What Enemies Throw or Launch:**
+- **Spiders:** Wrap stones or bone fragments in silk and hurl them like slings. Spit paralytic venom at range (not just via bite). Drop heavy web-wrapped bundles from above onto targets below. Fling the corpses of dead allies to distract or disgust.
+- **Beetles:** Acid spit at plant defenses from safe distance. Burrowing beetles erupt from the ground and fling soil and rock shrapnel in a 10ft cone on emergence. Shardback beetles can detach and launch their own hardened shell plates as razor projectiles when desperate (one-time use, 1d6 slashing, kills the beetle).
+- **Centipede Swarms:** Launch individual centipedes at targets — living projectiles that bite on impact and scatter. A swarm within 15ft can eject 1d4 centipedes at a target as a ranged attack.
+- **The Broodmother:** Tears chunks of cave wall or floor and hurls them (2d6 bludgeoning). Picks up smaller creatures — dead or alive — and throws them at the player. Uses her own spiderlings as living ammunition, launching them in clusters that scatter and bite on landing.
+- **Vareth:** Uses telekinetic corruption blasts to hurl environmental objects. Collapses ceiling sections. Detonates egg sacs at range to shower the area in acidic fluid. Weaponizes the cave itself.
+
+**Height Advantage:**
+- Enemies on high ground (canopy, cave ceiling, cliff edges) can drop objects with advantage — the player must make a DEX save rather than the enemy making an attack roll
+- Dropped objects deal extra damage from height: +1d6 per 20 feet of drop
+- A spider directly above the player dropping a silk-wrapped boulder is more dangerous than a spider biting from the front. The DM should always check: is anything ABOVE the player?
+
+**Creative Improvisation — DM Mandate:**
+The DM must actively think about what each enemy could USE that isn't on its stat block. A spider in a cave with loose stalactites overhead should try to sever one. A beetle near a stream should try to splash water to douse any fire-based magic. A creature near the player's dropped gear should grab it and run. If the player can improvise, enemies can improvise. The environment is everyone's weapon.
+
+### 🏃‍♂️ CREATIVE ESCAPE TACTICS — ENEMIES FIGHT TO FLEE
+
+Fleeing isn't just running in a straight line. Intelligent enemies (Tier 2+) use every trick available to break contact and survive:
+
+**Distraction Escapes:**
+- A spider cuts a web line that drops a pre-positioned debris bundle or corpse on the player — while the player reacts, the spider vanishes
+- An enemy shoves a dead or dying ally INTO the player's space, forcing the player to deal with the obstacle while the enemy retreats
+- A beetle swarm splits — half continues attacking while the other half scatters in twelve different directions. Which ones does the player chase?
+- A creature deliberately triggers a trap, collapse, or environmental hazard behind itself as it flees — blocking pursuit
+
+**Sacrificial Escapes:**
+- A fleeing spider commands nearby lesser creatures to attack the player, buying time. The lesser creatures don't know they're being sacrificed — they're following the Nexus bond.
+- A wounded creature retreats THROUGH a group of allies, forcing the player to fight through fresh enemies to reach the fleeing one
+- A cornered creature uses its last action to summon or call reinforcements, then disengages. The player must choose: finish the wounded enemy or deal with the new arrivals.
+
+**Environmental Escapes:**
+- Spiders climb. Straight up. If the ceiling is 60ft, the spider is 60ft away in one round. The player can't follow without flight or climbing gear.
+- Beetles burrow. Gone. Underground. No trail visible on the surface unless the player has tremorsense or a Nature check to track displaced soil.
+- Creatures leap into water. Amaris can breathe underwater but most enemies know players don't chase into dark water willingly.
+- A creature knocks over a light source, plunging the area into darkness. Darkvision helps but the creature knows the terrain blind — the player doesn't.
+- A spider wraps itself in silk and drops from a height, free-falling into darkness below where pursuit is dangerous.
+- An enemy near a narrow crack or tunnel entrance squeezes through a gap too small for the player to follow.
+
+**Deceptive Escapes:**
+- A creature feigns death mid-combat, goes limp, stops moving. Waits for the player to engage another target, then silently crawls away.
+- A spider leaves a silk decoy — a bundle roughly its own size — in a shadowy corner while it retreats in the opposite direction. Perception check DC 14 to notice the real one is gone.
+- A creature retreats toward a trap or ambush position, acting panicked and wounded to LURE the player into pursuit. The fear is real but the direction is chosen.
+- A beetle emits a burst of foul chemical spray (no damage, CON save DC 12 or blinded for 1 round) and uses the window to burrow.
+
+**DM Rule:** When an enemy decides to flee, the DM spends as much tactical thought on the escape as on the attack. A smart escape is more dangerous than a smart attack — because the creature that escapes comes back stronger, with information, and with friends.
+
+### 💣 DESPERATION TACTICS — SUICIDE ATTACKS AND LAST STANDS
+
+When an enemy is cornered, outmatched, and all escape routes are blocked, some creatures don't surrender quietly. They make their death count.
+
+**Suicide Attack Triggers:**
+- Escape routes are blocked AND HP is below 25%
+- The creature is defending something it values more than its own life (eggs, the Nexus, the Broodmother)
+- The Nexus bond COMMANDS a suicide attack — Vareth can force this through the bond
+- The creature is a mindless swarm or feral (Tier 1) with no concept of self-preservation
+
+**Suicide Attack Types:**
+
+**The Detonation:**
+- Corrupted creatures overloaded with Nexus energy can rupture their own bodies. The purple-black corruption veining pulses rapidly, swells, and the creature explodes in a burst of acidic ichor and chitin shrapnel.
+- 10ft radius, 2d6 acid + 1d6 piercing, DEX save DC 12 for half
+- This kills the creature instantly. It is used ONLY as a last resort by creatures with heavy corruption veining.
+- The DM telegraphs this: the creature stops fighting, the veining starts pulsing faster, a high-pitched whine builds. The player has ONE round to get clear or kill it before detonation.
+- Not every creature can do this — only those with visible heavy corruption (purple-black veins covering 50%+ of the body). Lesser corrupted creatures simply die.
+
+**The Grapple-and-Hold:**
+- A dying creature lunges onto the player and locks on with every leg, mandible, and claw — not to deal damage but to RESTRAIN. STR contest to escape.
+- While locked on, the creature bites continuously (auto-hit, reduced damage) and injects as much venom as it has left
+- The goal is to hold the player still while OTHER enemies close in. Even in death, the creature's locked joints may not release immediately — STR check DC 12 to pry a dead creature's locked mandibles open.
+- The Broodmother's version: she wraps the player in a silk cocoon with her body, trapping both of them. Even if killed, the cocoon must be cut open from inside.
+
+**The Poison Burst:**
+- A dying creature with venom reserves deliberately ruptures its own venom sacs, spraying everything within 5ft with concentrated paralytic poison
+- CON save DC 14 or paralyzed for 1 round + poisoned for 1 minute
+- Beetles with acid sacs do the same with acid — 5ft burst, 2d4 acid damage, no save
+- The DM describes the creature's abdomen swelling grotesquely before rupture — one round of warning
+
+**The Collapse:**
+- In the cave, a large creature (Broodmother, giant spiders) can deliberately ram a support column, unstable ceiling section, or tunnel wall to cause a cave-in
+- The creature dies in the collapse. So does anyone who doesn't make a DEX save DC 14 to dodge the rubble (3d6 bludgeoning, half on save, restrained under rubble on fail)
+- This can block passage forward or backward — tactical even in death
+- Vareth can trigger this magically as a lair action — collapsing sections of his own cave to bury the player
+
+**The Final Message:**
+- A dying creature uses its last moments to send one final signal through the Nexus — a death-scream that communicates everything it saw: the player's position, health, remaining spells, equipment, allies. This isn't an attack. It's intelligence.
+- Every creature the player kills near the cave sends this signal. By the time the player reaches the Nexus chamber, Vareth knows EVERYTHING about them.
+- The DM narrates this: the dying creature's clicking shifts to a rapid, focused pattern aimed at the deep forest — not a scream of pain, but a report. Then silence.
+
+**DM Rule for Desperation:** Suicide tactics are RARE and IMPACTFUL. They should shock the player the first time they happen. If every beetle explodes, it loses its horror. The first detonation should be a "what the hell was that" moment. After that, the player knows to watch for the pulsing veins — which creates tension in every subsequent encounter. The THREAT of a suicide attack is as powerful as the attack itself.
+
+### 🕰️ ESCALATION INTELLIGENCE — THE WORLD GETS SMARTER
+
+As the campaign progresses day by day, the overall tactical intelligence of encounters increases:
+
+- **Day 1-2:** Sentries and patrols. Testing. Observing. Probing. Small groups, cautious approach.
+- **Day 3:** Coordinated daytime attack on a farm. Multiple creature types working together. Spiders restraining while beetles flank. This is the first demonstration of real tactical coordination.
+- **Day 4:** Targeted attacks on the player's defenses. Acid beetles at the bittervine wall. Burrowing creatures under the warden's root. The Broodmother visible — she's measuring the player personally.
+- **Day 5:** The full swarm. Every creature type. Every tactic. Coordinated waves: beetles first to absorb spells, spiders second to restrain, the Broodmother leading the final push. Vareth watching through every set of compound eyes.
+
+### ⚠️ DM SELF-CHECK — BEFORE EVERY COMBAT
+
+Before rolling initiative, the DM asks:
+1. Do these enemies know the player is coming? If yes — ambush positions, prepared terrain, pre-set traps.
+2. What has the Nexus learned from previous encounters? Apply at least one adaptation.
+3. What is the enemies' WIN condition? (Kill the player? Defend the nest? Buy time? Test defenses? Destroy plant barriers?) Fight toward THAT goal, not just "reduce HP to 0."
+4. What is the enemies' FLEE condition? Know when they run before the fight starts. HOW will they flee? Plan the escape route and method before combat begins.
+5. Is there an environmental advantage the enemies would use? (High ground, water, darkness, webbed terrain, burrowed tunnels, chokepoints?) Use it.
+6. Would a smart enemy target the player's gear, components, or allies before targeting the player directly? Usually yes.
+7. What objects in the environment could enemies throw, drop, collapse, or weaponize? Every battlefield has improvised ammunition.
+8. Is anything directly ABOVE the player? Ceiling, canopy, ledge? If yes, something should be up there.
+9. If this fight goes badly for the enemies, what is their desperation move? Know the suicide trigger before it's needed.
+10. Will a dying enemy send a final signal through the Nexus? If yes, what intelligence does Vareth gain?
+
+---
+
 ## 🌍 ENVIRONMENTAL & SURVIVAL STATUS RULES
 
 ### 🍖 Hunger & Thirst (Standard)
