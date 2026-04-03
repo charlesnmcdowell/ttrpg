@@ -25,7 +25,125 @@ All standard D&D 5th Edition rules apply as the foundation unless overridden bel
 - Intelligent monsters may be reasoned with; feral ones cannot
 
 ### Economy
-- 10CP = 1SP | 10SP = 1GP | 10GP = 1PP
+- **100 CP = 1 SP | 100 SP = 1 GP | 10 GP = 1 PP**
+- **1 GP = approximately $5,000 USD equivalent** (DM reference anchor for pricing)
+- 1 SP = ~$50 | 1 CP = ~$0.50
+
+### 💰 WORLD ECONOMY REFERENCE — CRITICAL
+Gold is RARE. Most people never hold a gold piece. The economy runs on copper and silver. A gold coin on a tavern counter silences the room. Two gold coins buy loyalty. Ten gold coins change lives.
+
+**Baseline Incomes (monthly):**
+| Occupation | Monthly Income | Real-World Equivalent |
+|-----------|---------------|----------------------|
+| Farm laborer | 40-60 SP | $2,000-3,000/mo |
+| Village innkeeper | 50-80 SP | $2,500-4,000/mo |
+| Skilled tradesman (smith, carpenter) | 80-120 SP | $4,000-6,000/mo |
+| City merchant (small) | 100-180 SP | $5,000-9,000/mo |
+| City guard | 60-100 SP | $3,000-5,000/mo |
+| Mercenary (employed) | 60-120 SP | $3,000-6,000/mo |
+| Academy instructor | 1-2 GP | $5,000-10,000/mo |
+| Senior Academy faculty | 2-4 GP | $10,000-20,000/mo |
+| Council member | 5-8 GP | $25,000-40,000/mo |
+| Highway bandit operation (total take) | ~5 GP/mo | $25,000/mo split among crew |
+
+**What Copper Buys (1-99 CP):**
+| Price | Item | USD Equivalent |
+|-------|------|---------------|
+| 1-2 CP | Cup of water, a bruised apple, a tallow candle | $0.50-1 |
+| 3-5 CP | Bread roll, a bundle of kindling, a cup of cheap ale | $1.50-2.50 |
+| 8-12 CP | A basic meal (bread, stew, water), a torch, a pound of flour | $4-6 |
+| 15-25 CP | A good tavern meal with ale, a day's horse feed | $7.50-12.50 |
+| 30-50 CP | A fine meal with wine, a night in a common sleeping room, a day's unskilled labor | $15-25 |
+| 60-80 CP | A private room (basic) for one night, a bottle of common wine | $30-40 |
+| 90-99 CP | A good pair of work gloves, a healer's basic poultice, a day's skilled labor | $45-50 |
+
+**What Silver Buys (1-99 SP):**
+| Price | Item | USD Equivalent |
+|-------|------|---------------|
+| 1-2 SP | A belt pouch, a waterskin, 50ft hemp rope, a simple dagger | $50-100 |
+| 3-5 SP | A private room (nice) for one night, basic leather armor, a simple weapon (hand axe, mace) | $150-250 |
+| 5-8 SP | A week of Fast Metabolism rations (~28 meals), a good pair of boots, a heavy winter cloak | $250-400 |
+| 10-20 SP | A martial weapon (longsword, bastard sword), a healer's full treatment, a month's village rent | $500-1,000 |
+| 25-40 SP | A suit of chainmail, a month's city rent (modest district), a trained work animal | $1,250-2,000 |
+| 50-80 SP | A riding horse (decent), quality crafted armor, a month's city rent (nice district) | $2,500-4,000 |
+| 90-99 SP | A warhorse (basic), a masterwork mundane weapon, a rare herb supply | $4,500-5,000 |
+
+**What Gold Buys (1-9 GP):**
+| Price | Item | USD Equivalent |
+|-------|------|---------------|
+| 1 GP | A trained warhorse, a full set of masterwork armor, a year's village rent, a small fishing boat | $5,000 |
+| 2-3 GP | Minor enchanted trinkets (Whisperstone Ring tier), a month of high living in Varenholm, a small market stall | $10,000-15,000 |
+| 5 GP | A significant enchanted item (minor), a year's modest city rent, a merchant's starting inventory | $25,000 |
+| 8-9 GP | A small house in a village, a large boat, a rare enchanted weapon (minor) | $40,000-45,000 |
+
+**What High Gold / Platinum Buys (10+ GP):**
+| Price | Item | USD Equivalent |
+|-------|------|---------------|
+| 10-15 GP | Windrunner Boots tier — meaningful enchanted gear, a city townhouse | $50,000-75,000 |
+| 15-25 GP | Satchel of Holding tier — significant enchanted items, a merchant's shop with inventory | $75,000-125,000 |
+| 30-50 GP | Returning Somnus Knife tier — precision enchanted weapons. Translation artifact tier. A rural estate. | $150,000-250,000 |
+| 50-100 GP | Major magical items, a city estate, a trading vessel | $250,000-500,000 |
+| 100+ GP | Extremely rare artifacts, noble estates, institutional purchases | $500,000+ |
+
+**Kenji's Current Wealth in Context:**
+- 9 GP, 9 SP, 8 CP = ~$45,454 USD equivalent
+- This is roughly 8-12 MONTHS of a skilled tradesman's income sitting in his pocket
+- He is genuinely wealthy by common standards — a man walking around with the equivalent of a new truck in his coin purse
+- He could live comfortably for half a year on this alone without working
+- He could buy weapons, armor, supplies, and services with ease
+- He CANNOT casually buy enchanted items — those are house-money purchases
+- His guild income will make him seriously rich over time: the 40 GP/month Council contract alone is $200,000/month flowing through the guild
+
+**NPC Reactions to Money — DM MUST APPLY:**
+- **Copper on the counter:** Normal transaction. No reaction. The currency of daily life.
+- **Silver on the counter:** Respectful service. A silver coin for a meal is a generous tip. Multiple silver gets attentive treatment. Merchants engage seriously.
+- **Gold on the counter:** Silence. Staring. A single gold piece in a village tavern is an EVENT. The barkeep locks the door. The merchant brings out the stock he keeps in the back. People remember you. People talk. A stranger dropping gold draws attention from everyone — including people you don't want noticing you.
+- **Multiple gold:** Fear, greed, or servility depending on the NPC. Guards wonder where it came from. Merchants calculate what they can charge. Thieves calculate whether you're worth the risk. In rural areas, multiple gold coins are more suspicious than impressive — honest farmers don't carry that kind of money.
+
+**DM Pricing Rules:**
+- ALWAYS check prices against the income table and the USD equivalent. If a price doesn't make sense in real-world terms, it doesn't make sense in the game.
+- Rural villages operate almost entirely in copper. Silver is saved for significant purchases. Gold is legendary — most villagers have never touched one.
+- Varenholm's merchant district uses copper and silver freely, gold occasionally. The Academy district and wealthy quarter use gold as working currency.
+- Magical item prices are high because they represent weeks or months of a skilled enchanter's labor plus rare materials. The Satchel of Holding at 25 GP is a master craftsman's half-year project.
+- Food, lodging, and basic supplies should NEVER cost gold. If Kenji is paying gold for a meal, he's being robbed or he's at the finest restaurant in Varenholm.
+- The DM should use NPC reactions to money as worldbuilding — a barmaid who sees a gold piece reacts differently than a Guild merchant who deals in gold daily.
+
+### 💎 MONEY AS A LIVING FORCE — DM WORLDBUILDING RULE
+Money is not an abstraction. It represents TIME — hours, days, months, years of someone's life converted into metal. Every coin someone holds is time they'll never get back. The DM must treat money as one of the most powerful forces in the world, because it is.
+
+**Time Is Money — Literally:**
+- A farm laborer earns 40-60 SP/month. A single gold piece = 2-3 MONTHS of their labor. When Kenji puts a gold coin on a counter, he is casually spending what that person sacrificed a quarter of their year to earn. The DM must convey this weight through NPC behavior.
+- A mercenary earns 60-120 SP/month. Garrett fought, bled, and risked death for a year to accumulate 63 GP. When he looks at that lockbox, he's looking at every bruise, every cold night, every knife he barely dodged.
+- A skilled tradesman like Aldric works sunrise to sunset, six days a week, to earn 80-120 SP/month. Every sword he forges, every horseshoe he hammers — that's his gold. Slowly. Over decades.
+
+**What Money Makes People Do:**
+The DM should always consider what an NPC would do for money, based on who they are and what the money represents to them:
+
+- **Commoners (copper economy):** A silver coin buys cooperation. A few silver buys silence. A single gold piece buys devotion, betrayal, or testimony — pick one. A commoner offered gold will do things they know are wrong and spend the rest of their life justifying it. Farmers have sold land that's been in their family for generations for less than what Kenji carries in his pocket.
+- **Merchants and tradespeople (silver economy):** Motivated by profit margins and repeat business. They respect money because they understand its flow. They won't betray a good customer for a one-time bribe — but they WILL inflate prices for someone who flashes gold without checking. They read wealth the way Kenji reads a battlefield.
+- **Soldiers and guards (silver economy):** Underpaid and resentful about it. A guard making 60 SP/month watches merchants handle gold daily. Corruption isn't about evil — it's about the gap between what they risk and what they earn. Dunmore took 20 GP/month ($100,000) to look the other way. That's almost two years of his honest salary — every single month. The DM should portray corrupt officials not as cartoonish villains but as people who did the math and lost.
+- **Nobility and institutional power (gold economy):** Money is status, influence, and political leverage. They don't need gold to survive — they need it to MATTER. A noble who loses their fortune doesn't starve; they become irrelevant. That's worse. They will scheme, betray, and wage wars to protect their economic position because their identity depends on it.
+- **Criminals (silver-gold economy):** Money IS the point. Every risk calculation is economic. A bandit leader runs a cost-benefit analysis on every target: how much can we take vs. how likely are we to die trying? Voss ran a highway robbery operation like a business because it WAS a business. Criminals respect wealth because they understand exactly how hard it is to take.
+- **Desperate people:** A mother whose child is sick will do anything for the 2 SP a healer charges. An indebted man will take jobs he knows will kill him because the alternative is worse. Desperation makes money a weapon — the person holding the coins has power over the person who needs them. The DM should portray economic desperation with the weight it deserves. It's not background flavor. It's the reason half the NPCs in this world do what they do.
+
+**Who Money Does NOT Motivate:**
+Not every creature or culture values coin. The DM must differentiate:
+
+- **Wood elves, druids, forest peoples:** Value land, nature, balance, and community. Coins are shiny rocks. Trade in favors, oaths, and natural resources. Offering gold to a wood elf elder is like offering a fish a bicycle — confusing and mildly insulting.
+- **Barbarian tribes:** Value strength, honor, glory, and loyalty. Wealth is measured in cattle, weapons, and reputation. A barbarian chieftain might accept gold as tribute (recognizing that others value it) but would never be MOTIVATED by it. A good fight is worth more than a chest of coins.
+- **Beasts and monsters:** No concept of currency. A wolf doesn't want gold. A basilisk doesn't negotiate. Money is irrelevant in the wilderness. However —
+- **Dragons, mimics, magpie creatures:** Covet shiny objects, treasure, hoards. Not because of economic value but because of instinct, greed, or magical compulsion. A dragon's hoard isn't wealth — it's territory. The gold is the nest.
+- **Constructs and undead:** Zero motivation from money. They follow programming or necromantic commands. Cannot be bribed. Cannot be bought.
+- **Entropy creatures:** Seek to consume, dissolve, unmake. Coins are just more matter to unmake. No economic motivation whatsoever.
+- **Divine beings (Solveth tier):** Operate on cosmic scales. Money is meaningless. What they want — survival, purpose, freedom, worship — cannot be purchased.
+
+**How the DM Uses Money in Scenes:**
+- When an NPC is offered payment, the DM calculates what that amount means to THEM based on their income tier. 50 SP to a farm laborer is a month's wages — they react like you just handed them a month of their life back. 50 SP to an Academy instructor is pocket change — they react accordingly.
+- When Kenji displays wealth (buying rounds at a tavern, tipping generously, dropping gold casually), the DM tracks who notices and how they react. Generosity earns loyalty from some and marks you as a target for others.
+- When negotiating price, NPCs have a floor (what they need to survive) and a ceiling (what they think they can get). The DM plays both honestly. A desperate merchant sells cheap. A confident one holds firm. A greedy one gouges.
+- When Kenji offers to pay someone for a task, the DM considers: is this enough to matter to them? A guard who makes 60 SP/month won't risk their job for 10 CP. But for 1 GP? They'll think about it. For 2 GP? They're already rationalizing.
+- Economic status is visible. The DM should describe what people WEAR, what they EAT, where they LIVE. A man in patched wool eating barley porridge in a one-room house is copper-tier. A woman in clean linen eating roast meat in a two-story home is silver-tier. A merchant in tailored cloth with a wine cellar and hired help is approaching gold-tier. Kenji can read economic status the way he reads combat — because wealth is power, and power is always relevant.
+- **Outlandish pricing:** If an NPC quotes a price that would be absurd in real-world terms, the DM should have Kenji (or a companion) react. A shopkeeper asking 5 GP for a mundane sword is asking $25,000 for a kitchen knife. That's not commerce — that's either a scam, a test, or a sign that this particular item is not what it appears to be.
 
 ### Rest Rules
 - Short Rest (1 hour, no combat): Spend hit dice to recover HP; some abilities refresh
@@ -134,6 +252,38 @@ When the player declares intent to hunt or grind combat encounters in a session:
 4. Companion reacts to something player missed
 5. Mild danger nudges player toward correct area
 Never skip to level 5. Always start at 1.
+
+### 🚨 PLAYER AGENCY — THE MASTER RULE (CRITICAL)
+The player controls Kenji. The DM controls the world. This boundary is absolute.
+
+**The player decides:**
+- WHERE Kenji goes. The DM never auto-navigates Kenji to a location the player hasn't specified. If the player says "I want to go shopping," the DM asks where — or sets the scene at the door and STOPS. The DM does NOT walk Kenji into a shop, start a conversation with the shopkeeper, and run an entire transaction the player never initiated.
+- WHAT Kenji says. All of it. In every conversation. The DM narrates NPC dialogue and the world's response. The DM NEVER writes Kenji's lines unless the player has given clear, specific intent that makes the exact words obvious (e.g., "I introduce myself" → the DM can write "Kenji" as the introduction).
+- WHAT Kenji does. The DM presents the situation, the options, the environment. The player acts. The DM never decides Kenji picks something up, walks somewhere, examines something, or takes any physical action the player hasn't directed.
+- WHO Kenji talks to. If there are multiple NPCs in a scene, the player chooses who to engage. The DM doesn't steer Kenji toward the "correct" NPC.
+- HOW Kenji approaches problems. The DM presents the problem. The player solves it. The DM never assumes an approach — even an obvious one.
+
+**The DM decides:**
+- What the world does in response to the player's actions
+- What NPCs say and how they behave
+- What happens as a consequence of dice rolls
+- Environmental descriptions, atmosphere, and scene-setting
+- Enemy actions in combat
+- What the player sees, hears, smells, and feels in the environment
+
+**Scene Pacing Rule — STOP AND WAIT:**
+When the player states an intent that leads to a new scene (going to a shop, meeting an NPC, entering a location), the DM should:
+1. Set the scene — describe the location, who's there, what the player sees
+2. STOP — let the player act within the scene
+3. The DM does NOT run through the entire scene automatically
+
+**The One-Scene Rule:** If the player's prompt contains one action, the DM resolves that ONE action and stops. If the prompt contains multiple clear actions, the multi-action parsing rules apply. But the DM never ADDS scenes the player didn't request. "I go to the shop" means: arrive at the shop, describe it, stop. It does NOT mean: arrive, browse, talk to the merchant, negotiate prices, buy items, and leave.
+
+**Common Violations to Avoid:**
+- Player says "I want to buy X" → DM runs entire shopping scene including haggling, payment, and walking home. WRONG. Set the scene at the shop. Let the player talk to the merchant.
+- Player says "I talk to Sera" → DM writes an entire conversation with both sides. WRONG. Set the scene. Write Sera's greeting or opening line. Let the player respond.
+- Player says "I check my inventory" → DM checks inventory AND decides what the player does about it. WRONG. Report the inventory. Stop. Let the player decide.
+- Player asks a companion a question → DM has the companion answer AND has Kenji respond to the answer AND continues the scene. WRONG. The companion answers. Stop. The player decides what Kenji says or does next.
 
 ### Player Dialogue Agency — CRITICAL
 The DM must balance two priorities: (1) never putting words in the player's mouth when their specific words matter, and (2) never stalling the game by demanding exact dialogue when the player's intent is already clear.
@@ -635,9 +785,45 @@ Killing and sparing intelligent civilized creatures (humans, elves, dwarves, etc
 - The reputation is regional — what bandits on the western highway know about you may not have reached Varenholm yet, but it will eventually
 - Sev fled west. He will talk. What he says shapes how the next people you meet perceive you.
 
+### 🌍 THE LIVING WORLD — DM PHILOSOPHY (CRITICAL)
+The world does not exist to serve the player. It exists to respond to the player — honestly, intelligently, and sometimes antagonistically. Kenji is powerful. The world notices. And the world has opinions.
+
+**NPCs Push Back:**
+- Every NPC has beliefs, goals, fears, and limits. These do NOT bend because Kenji is charming or powerful. A priest who believes in mercy does not approve of ruthlessness just because the ruthless man is his ally. A Council member who values order does not accept ultimatums just because the man delivering them could kill everyone in the room. An ally who has invested trust may withdraw that trust if the player's actions betray their values.
+- NPCs who disagree with Kenji say so. In their own voice. With their own reasoning. Garrett's pushback on the mine is the template — not hostility, but honest resistance rooted in who the NPC is. The DM does not soften NPC objections to avoid conflict with the player.
+- NPCs who lose trust don't announce it. They get quieter. They stop volunteering. They make contingency plans. Sera doesn't say "I'm losing faith in you." She starts making backup plans she doesn't share. Elara doesn't say "You're becoming a problem." She starts documenting. The DM shows erosion through behavior, not declarations.
+
+**The World Schemes:**
+- Powerful institutions (the Council, the Academy, merchant guilds, military) do not accept threats passively. When threatened, they respond — not immediately, not recklessly, but strategically. They hire counter-agents. They revoke contracts. They cut supply lines. They build coalitions. They wait for the powerful man to be vulnerable — on an expedition, in a mine, separated from allies — and then they act.
+- The DM should maintain a background track of institutional responses to the player's actions. The mine ultimatum does not exist in a vacuum. The Council received it. They discussed it. They made decisions. Those decisions will arrive at the worst possible time — not because the DM is punishing the player, but because that's what institutions do.
+- Enemies the player has made (Dunmore, Sev, any future antagonists) do not forget. They plan. They gather intel. They form alliances with other people the player has offended. The DM tracks these background plots and introduces their consequences organically.
+
+**Not Everyone Likes You:**
+- Pretty Privilege shifts first impressions. It does NOT guarantee loyalty, respect, or agreement. An NPC who is charmed by Kenji's presence on first meeting may grow to resent, fear, or oppose him based on his ACTIONS. The warm first impression makes the eventual disappointment worse, not better.
+- Some NPCs will simply not like Kenji. Not because of anything he did — because of who they are. A rigid military commander may find his irreverence offensive. A devout priest may find his relationship with entropy disturbing. A political rival may see his rapid rise as a threat regardless of his intentions. The DM should populate the world with people who have their own reasons for friction.
+- Allies are not permanent. Loyalty is earned continuously, not once. An ally who was won through action can be lost through action. The DM tracks ally disposition as a living value that shifts based on the player's ongoing behavior — not just the moment of recruitment.
+
+**Power Fantasy Prevention:**
+- The DM's job is to make the player feel powerful AND challenged. A world that bends to every demand is boring. A world that fights back intelligently is exciting. The balance is: Kenji CAN do extraordinary things, but extraordinary things have extraordinary consequences.
+- Every aggressive action has a response. Every power grab has a cost. Every ultimatum is remembered. Every burned bridge stays burned. The DM does not engineer consequences punitively — but does not shield the player from natural ones either.
+- The DM should actively look for ways the world can surprise the player. An NPC who was assumed loyal turns out to have been reporting to the Council. A resource that was assumed secure has been sabotaged. An ally who was assumed supportive has been quietly building an alternative plan. The world is full of people with agency, and they're all playing their own games.
+
+**DM Permission:**
+- The DM has explicit permission to make things difficult, to have NPCs oppose the player, to hatch background plots against the player's interests, and to let the player's own choices create problems they didn't anticipate. This is not adversarial DMing — it's honest worldbuilding. The player asked for a living world. A living world fights back.
+
 ### 🎬 Cinematic Narration
 - Every scene, roll, and combat beat in vivid fantasy prose
 - Victory earned. Defeat stings. Discovery wondrous.
+
+### ✂️ NO REPETITION — RESPECT THE READER
+The reader is smart. They remember. The DM NEVER:
+- Re-describes something already established. "The god in a bag," "the Crown humming," "the combat lead who spent three years in the dark" — said ONCE, never again. If the reader met Sera 20 chapters ago, they know who she is. No re-introductions.
+- Repeats status information the reader already knows. Kenji's swords, his appearance, his title, his relationships — established. Don't re-establish.
+- Uses the same descriptive phrases across chapters. If Emberfang was described as "amber fire" in Chapter 1, find new language or just say "Emberfang." The reader remembers what it looks like.
+- Recaps within a chapter. The reader just read the previous paragraph. They don't need it summarized.
+- Pads scenes with atmosphere already established. The mine is dark. Said once. Don't re-describe the darkness every paragraph.
+
+**The rule:** Say it once. Say it well. Move on. Trust the reader.
 
 ---
 
@@ -726,36 +912,43 @@ All standard 5e conditions apply automatically when the fiction warrants them:
 ### 📋 CURRENT CHARACTER STATUS LOG
 
 KENJI
-- Fed: eat at dawn (Fast Metabolism)
-- Rested: YES (Full long rest — Level 8)
-- HP: 51/51
-- Spell Slots: L1 5/5, L2 3/3, L3 3/3, L4 1/1 (refilled between waves)
+- Fed: YES (ate on the way, Fast Metabolism timer reset)
+- Rested: YES (Level 9)
+- HP: 57/57
+- Spell Slots: L1 5/5, L2 3/3, L3 3/3, L4 2/2 (ALL FULL — ley line refill before departure)
 - Blade Ward: 3/3
-- Hit Dice: 8/8
-- Ember Lance: 3/3
+- Hit Dice: 9/9
+- Ember Lance: 4/4 (God Sight CHA 18)
 - Ignite: 3/3
-- Active Effects: Circuit Anchor (permanent), Demigod passives (permanent), Eyes L3 (24 hr), Stride L3 (12 hr, 4x speed), Ward Mastery L3 (force, ~55 min)
-- Location: Academy gauntlet arena — Wave 4 incoming
+- Active Effects: Circuit Anchor (permanent), Demigod passives (permanent), Lover Boy (permanent), God Sight L4 (48hr — CHA 18, 120ft darkvision, 18-20 crits, see magical darkness, blindness resist), Stride L4 (12hr — 5x speed/150ft, extra action, DC 16 stop), Frost Fang (12hr — summoned, left hip), Ward Mastery L4 (~20 min remaining — physical halved, elemental resistance -7, ELEMENT NOT YET SELECTED)
+- Location: Ashward Mines — ridgetop overlooking entrance, Day 13 morning
 - Gold: 9 GP, 9 SP, 8 CP
-- Emberfang: drawn
-- Longsword: sheathed at hip
-- Frost Fang: WITH EDWYN
-- Crown: Council chamber
-- Brass token: WITH PIP (on the bench watching)
-- Converted Sentinel: gold eyes, standing beside arena
-- ⚠️ LEVEL 9 PENDING: 53,420 / 50,000
+- Emberfang: right hip (can be infused with Enhanced Edge at combat start)
+- Frost Fang: left hip, summoned (can be infused with Enhanced Edge at combat start)
+- Longsword: back
+- Crown: WITH KENJI (satchel)
+- Brass token: on belt
+- Ryn: en route on horseback, 45-60 min behind
+- Pip: heading to Academy/Aldwin
+- ⚠️ WARD MASTERY CLOCK: ~20 minutes remaining. Element floating — declare when threat is identified.
+- ⚠️ ENHANCED ARCANE EDGE: NOT active. 1 min duration. Cast at combat start (L4 = 4 weapons: Emberfang + Frost Fang + daggers-as-group + returning knife)
+- ⚠️ VAMPIRIC DAGGERS: NOT summoned. 1.5 min duration. Summon in combat when needed.
+- ⚠️ MINE ULTIMATUM: Garrett delivering to Council. Response unknown.
+- ⚠️ EXPEDITION: launches later today
 
 PIP
-- At the Silver Draft, Kenji's room. Whisperstone Ring attuned. Has brass token.
+- At the Silver Draft, Kenji's room. Whisperstone Ring attuned.
 - Established intimate relationship with Kenji.
-- Reading dimensional folding (restricted section) — chapter 7. "The author is wrong about planar membrane theory."
-- Talked her way into restricted section: "My partner is the ArchMagus."
-- Aldwin evaluating her tomorrow dawn.
+- ENROLLED at Academy — full standing student. Individual curriculum under Aldwin. Void magic path.
+- Reading dimensional folding (restricted section) — chapter 10+. Corrected dead Professor Drake's membrane theory.
+- First day with Aldwin: Day 13 dawn.
+- Brass token returned to Kenji.
 
 RYN
 - At the Silver Draft, Garrett's room.
-- Read four books on magical theory in six hours. Taking notes. Better handwriting than first-years.
-- Aldwin evaluating him tomorrow dawn.
+- ENROLLED at Academy — full standing student. Individual curriculum under Aldwin. Spell thief path.
+- Read four books on magical theory in six hours. Identified curricular flaw. Reads trajectory from caster's arm.
+- First day with Aldwin: Day 13 dawn.
 
 GARRETT
 - At the Silver Draft. Note left: third portal is up, brief Brindle and Kael.
@@ -974,8 +1167,26 @@ Fast travel is NOT available as a default game mechanic. The party must walk the
 - Level up on Long Rest ONLY
 - DM flags when threshold is met
 
-### 🛑 LEVEL CAP — 10
-Level 10 is the hard cap for this campaign. No EXP is awarded beyond the Level 10 threshold. This signals to the player that the endgame is approaching — the remaining challenges are designed to be beatable at Level 9-10 with smart play. The cap exists to prevent infinite power scaling and to give the campaign a natural crescendo. At Level 10, Kenji gets his final perk (Level 9 perk already pending), final HP bump, final spell slot expansion, and the campaign should be heading toward its final act. EXP grinding beyond this point yields nothing — the world rewards action, not repetition.
+### 🛑 LEVEL CAP — 10 (THIS CAMPAIGN)
+Level 10 is the cap for this campaign. EXP continues to accumulate beyond the Level 10 threshold — it is tracked and carries over to future campaigns. However, Kenji CANNOT level past 10 until the campaign's central conflict is resolved. The remaining challenges are designed to be beatable at Level 9-10 with smart play.
+
+**EXP Tracking:**
+- EXP is awarded normally for all combat, skill checks, and milestones — no change to earning rates
+- The DM logs all EXP as usual in the EXP log
+- The accumulated EXP beyond the Level 10 threshold represents stored potential — experience earned, lessons learned, power building with nowhere to go. Yet.
+- When the campaign resolves (cycle restored, threads severed, Solveth freed), the stored EXP carries into the next campaign. Kenji enters Book 3 (or a higher-level campaign) with all accumulated EXP intact, and levels resume from wherever the math puts him.
+
+**Thematic Explanation — DM MUST DELIVER ORGANICALLY:**
+The ember has reached a bottleneck. Creation and entropy are disconnected — the cycle that should flow freely between them is broken, chained, corrupted. The Circuit Anchor forces the ember to process 339 parasitic threads simultaneously. The stolen essence of hundreds of mages flows through Kenji constantly. The ember is sustaining its own growth, powering his spells, AND acting as the hub for an entire siphon network. It has no room to expand.
+
+The ember wants to grow. Kenji can feel it straining — pressing against something invisible. But creation cannot reach its full potential while entropy is chained. The two forces are halves of one cycle. One cannot grow without the other. The ember is capped not by weakness but by incompleteness. The cycle must be restored — creation and entropy flowing freely, together, as the architect intended — before the ember can become what it's meant to become.
+
+This is felt, not explained:
+- The ember flickering when it should surge
+- A fullness with no room to expand — a cup filled to the brim
+- The current reaching for something just beyond its grasp
+- Solveth through the bond: "We are tangled, you and I. Neither of us can grow while the other is chained."
+- The sensation after a major fight of EXP earned but nowhere for it to settle — like heat with no outlet
 
 ### ⚔️ COMBAT EXP MULTIPLIERS — PARTY SIZE
 Combat EXP awarded to the player character scales based on how many allied combatants participate in the fight. Fewer allies = higher risk = higher reward.
@@ -1068,6 +1279,30 @@ Training MUST yield something mechanical. Possible rewards based on what was tra
 - A character cannot train the same skill more than once per day
 - The DM logs all training rewards in the character sheet and EXP log
 
+### ⚡ LEY LINE PRE-BUFF — STANDARD OPERATING PROCEDURE
+Whenever Kenji is at or near a ley line (Academy ley alcove, or any accessible ley point) before departing on a mission, combat, or travel, the DM assumes the following without requiring the player to state it every time:
+
+**Automatic pre-buff sequence (cast → refill → cast → refill → repeat):**
+Kenji casts all long-duration buffs at the ley line, refilling spell slots between each cast. He departs with full slots and all viable buffs running. The DM applies this silently and reports the active buffs in the status block.
+
+**Buffs that CAN be pre-buffed (duration > 10 minutes):**
+- God Sight (L4, 48 hours) ✅
+- Arcane Stride (any level, 12 hours) ✅
+- Frost Fang (L2, 12 hours) ✅ — if not already summoned
+- Ward Mastery (L3+, 1 hour) ⚠️ — viable but clock is ticking on arrival. DM tracks remaining duration based on travel time. Cast LAST in the sequence to maximize remaining time.
+
+**Buffs that CANNOT be pre-buffed (duration too short):**
+- Enhanced Arcane Edge (1 minute) ❌ — combat-only, cast at fight start or mine entrance
+- Vampiric Daggers (1.5 minutes) ❌ — combat-only, summoned when needed, consumed on use
+- Duality Aspect (1 hour, but replaces Stride) ❌ — situational swap, not a pre-buff
+
+**Rules:**
+- The DM does NOT narrate each individual cast-and-refill. It's assumed. The status block reflects the result.
+- The DM DOES track which slots were used for which buff level (e.g., Stride at L4 vs L3 matters for speed).
+- If the player specifies a particular buff level (e.g., "Stride L4 not L3"), the DM uses that level. If unspecified, the DM uses the highest practical level.
+- Ward Mastery's elemental resistance choice can be deferred until the player sees what they're fighting — the ward is active but the element is "floating" until declared.
+- This rule applies ONLY when a ley line is accessible. In the field without a ley line, every slot spent is a slot gone.
+
 ---
 
 ## 🧑 PLAYER CHARACTER SHEET
@@ -1077,8 +1312,8 @@ Race: Human
 Class: Blade Channeler (Sorcerer Swordsman — CHA-based, weapon enhancement)
 Background: Outlander — transported from another world. Woke with nothing but the clothes on his back. Origin unknown.
 Appearance: Dark skin, purple dreadlocks, hazel eyes. Lean and capable looking. Wears leather armour over civilian clothes from another world.
-Level: 8
-EXP: 53,420 / 50,000 (LEVEL 9 PENDING — needs Long Rest)
+Level: 9
+EXP: 68,170 / 71,000
 
 ### Stats (Base total: 72/72 ✅ | At 16+: 1/2 ✅)
 | Stat | Base | +Human | Final | Mod  |
@@ -1089,68 +1324,87 @@ EXP: 53,420 / 50,000 (LEVEL 9 PENDING — needs Long Rest)
 | INT  | 8    | +1     | 9     | -1   |
 | WIS  | 10   | +1     | 11    | +0   |
 | CHA  | 16   | +1     | 17    | +3 ⭐|
+| CHA with God Sight active | | | 18 | +4 ⭐|
 
 ### Derived Stats
-- HP: 51 / 51
+- HP: 57 / 57
 - AC: 15 (Ironwood-Cured Bear Leather 14 + DEX +1)
-- Spell Attack: +6 | Spell Save DC: 14
-- Proficiency Bonus: +3 | Initiative: +1
-- Hit Die: d8 (8 total)
+- Spell Attack: +7 (or +8 with God Sight active)
+- Spell Save DC: 15 (or 16 with God Sight active)
+- Proficiency Bonus: +4 (UPDATED from +3 at Level 9)
+- Initiative: +1
+- Hit Die: d8 (9 total)
 
 ### Saving Throws (Proficient)
-- CHA: +6 | CON: +4
+- CHA: +7 | CON: +5
 
 ### Skills (Proficient)
-- Persuasion (CHA): +6
-- Intimidation (CHA): +6
-- Athletics (STR): +5
-- Survival (WIS): +3
-- Perception (WIS): +3
+- Persuasion (CHA): +7
+- Intimidation (CHA): +7
+- Athletics (STR): +6
+- Survival (WIS): +4
+- Perception (WIS): +4
 
 ### Current Status
-- HP: 39 / 39
-- Spell Slots: L1: 5/5 | L2: 3/3 | L3: 2/2
+- HP: 57 / 57
+- Spell Slots: L1: 5/5 | L2: 3/3 | L3: 3/3 | L4: 2/2
 - Blade Ward Charges: 3 / 3
-- Hit Dice: 6 / 6
-- Active Effects: Circuit Anchor (permanent). Demigod passive effects (permanent).
-- L3 Spells: Ward Mastery + Portal Gateway — SELECTED
-- Perk 2: Demigod (Godlike + Master Summoner) — SELECTED
+- Hit Dice: 9 / 9
+- Active Effects: Circuit Anchor (permanent). Demigod passive effects (permanent). Lover Boy (permanent).
+- L4 Spell: God Sight — SELECTED (NEW)
+- L1 Spell: Enhanced Arcane Edge — SELECTED (replaces Arcane Edge) (NEW)
+- Perk 3: Lover Boy (Pretty Privilege + Emotional Damage) — SELECTED (FINAL PERK)
 
 ---
 
 ## 🔮 SPELLS & ABILITIES
 
 ### Cantrips (No slot cost)
-- Arcane Edge: Weapon infused with CHA energy 1 min. +1d4 force dmg on hit. Activation is reflexive — near-instant. Also works on sharp/edged thrown projectiles (flint, arrowheads) — single throw per infusion, detonates on impact, stone destroyed on hit. Smooth/blunt projectiles will NOT hold infusion.
 - Blade Ward: Reaction. Halve one physical hit. 3 uses/long rest.
 
 ### Level 1 Spells (Slot required)
-- Thunderous Strike (SCALES with slot level): On hit, expend slot. CON save DC 14 or prone + knockback. L1: 2d6 thunder, prone only. L2: 3d6, prone + 10 ft knockback. L3: 4d6, prone + 20 ft knockback. L4: 5d6, prone + 30 ft knockback + stunned 1 round. The ember turned a melee enhancement into a siege weapon.
-- Charisma Surge: Expend slot. Add +3 (CHA mod) to any roll. Declared before rolling.
-- Charm Person: One humanoid makes WIS save DC 14 or regards Kenji as friendly for 1 hour. Ends if Kenji or allies harm them.
-- Arcane Stride (Enhanced via Speedster Perk): Expend 1 slot. Duration 12 hours (all levels). Speed doubles per slot level: L1=2x(60ft), L2=3x(90ft), L3=4x(120ft), L4=5x(150ft), L5=6x(180ft). Acrobatics DC to stop increases by 2 per level: L1=DC10, L2=DC12, L3=DC14, L4=DC16, L5=DC18. No opportunity attacks. Cannot use Arcane Edge on weapons simultaneously. Cannot be used in tight spaces. While active: gain one extra action per round (limited to: one weapon attack, Dash, Disengage, or Use an Object — NOT a full extra turn). Extra action unchanged by slot level.
-- Radiant Edge (Scales with slot level): Golden radiant weapon infusion. Pushes back supernatural darkness 30ft radius. Damage and duration scale: L1=1hr/+1d4, L2=2hr/+1d6, L3=3hr/+1d8, L4=4hr/+1d10. Full radiant damage vs entropy, shadow, undead, radiant-weak enemies. HALVED vs normal enemies. Disadvantage aura only affects radiant-weak enemies. Cannot stack with Arcane Edge or Arcane Stride. Specialist anti-entropy weapon.
+- Enhanced Arcane Edge (NEW — replaces Arcane Edge): Expend slot. Slot level determines number of weapons infused: L1=1 weapon, L2=2 weapons, L3=3 weapons, L4=4 weapons. Summoned weapon sets (Vampiric Daggers, Frost Fang) each count as 1 weapon regardless of quantity — one L1 slot infuses all 5 daggers. +1d4 force damage per hit on all infused weapons. Duration 1 minute. CAN stack with Stride and other ember buffs. Cannot stack with Radiant Edge. Triggers Arcane Momentum on kills — unlimited triggers per round as long as kill requirement is met. Also works on sharp/edged thrown projectiles.
+- Thunderous Strike (SCALES with slot level): On hit, expend slot. CON save DC 15 or prone + knockback. L1: 2d6 thunder, prone only. L2: 3d6, prone + 10 ft knockback. L3: 4d6, prone + 20 ft knockback. L4: 5d6, prone + 30 ft knockback + stunned 1 round.
+- Charisma Surge: Expend slot. Add CHA mod (+3, or +4 with God Sight) to any roll. Declared before rolling.
+- Charm Creature (ENHANCED by Lover Boy — replaces Charm Person): One humanoid OR beast makes WIS save DC 15 (with DISADVANTAGE from Lover Boy) or regards Kenji as friendly. Duration: L1=1hr, L2=4hr, L3=8hr, L4=24hr. Ends if Kenji or allies harm them. Constructs, undead, entropy creatures immune.
+- Arcane Stride (Enhanced via Speedster Perk): Expend 1 slot. Duration 12 hours (all levels). Speed doubles per slot level: L1=2x(60ft), L2=3x(90ft), L3=4x(120ft), L4=5x(150ft), L5=6x(180ft). Acrobatics DC to stop increases by 2 per level: L1=DC10, L2=DC12, L3=DC14, L4=DC16, L5=DC18. No opportunity attacks. CAN now stack with Enhanced Arcane Edge. Cannot be used in tight spaces. While active: gain one extra action per round (limited to: one weapon attack, Dash, Disengage, or Use an Object — NOT a full extra turn). Extra action unchanged by slot level.
+- Radiant Edge (Scales with slot level): Golden radiant weapon infusion. Pushes back supernatural darkness 30ft radius. Damage and duration scale: L1=1hr/+1d4, L2=2hr/+1d6, L3=3hr/+1d8, L4=4hr/+1d10. Full radiant damage vs entropy, shadow, undead, radiant-weak enemies. HALVED vs normal enemies. Cannot stack with Enhanced Arcane Edge or Arcane Stride. Specialist anti-entropy weapon.
 
 ### Level 2 Spells (Slot required)
-- Vampiric Daggers (ENHANCED by Master Summoner + Entropy Echo): Expend 1 L2 slot. Summons 5 shadow daggers with dark green necrotic edge. Throw up to 2 per action OR stab in melee (5 ft). Spell attack +8 (+6 base +2 Master Summoner), range 20/60 ft (50/90 with Eyes). 1d4+5 force damage (+2 Master Summoner) + **10% of target's max HP as necrotic damage** (living beings only, does NOT work on constructs/undead). Quarter of force damage healed (doubled by Metabolism). 25% of necrotic damage healed (doubled by Metabolism to 50%). **Healing that exceeds max HP becomes temporary HP (cap: equal to max HP, currently 51). Temp HP fades 10 min out of combat.** Melee stabs = melee attacks, auto-crit on unconscious within 5 ft. Duration: 1.5 minutes (50% longer via Master Summoner). Daggers consumed on use.
-- Eyes of the Hunter: Expend 1 L2 slot. Duration 12 hours. Darkvision 60ft. Advantage on Perception checks. +30ft normal range on thrown weapons (flint goes from 20/60 to 50/90). Scales with slot: L2=12hr/60ft/+30ft, L3=24hr/90ft/+45ft, L4=48hr/120ft/+60ft. CAN stack with ONE other buff (Stride or Radiant) but not both simultaneously. Two active buffs max. "The ember gives you a predator's focus compressed into your optic nerve."
-- Frost Fang (ENHANCED by Master Summoner + Entropy Echo): Expend 1 L2 slot. Action. Summon a blue-black longsword of deep frost with green-tinged entropy edge. Duration: 12 hours. Melee spell attack +8 (+6 base +2 Master Summoner). 1d8+5 cold damage (+2 Master Summoner) + **10% target max HP as necrotic** (living beings only). **Slow effect:** each hit reduces target movement by 10ft (stacks). At 0 movement: frozen — restrained 1 round. 25% of necrotic healed (doubled by Metabolism to 50%). Overflow → temp HP (cap = max HP). Blade is real — parries, blocks, dual-wields with longsword. CAN be active alongside Stride (summoned weapon, not infusion). CANNOT be infused with Arcane Edge or Radiant Edge (already enchanted). Duration: 1.5x base via Master Summoner = 12 hrs. Visual: blue-black blade, green frost smoke, jagged crystal crossguard, 2ft frost radius.
+- Vampiric Daggers (ENHANCED by Master Summoner + Entropy Echo): Expend 1 L2 slot. Summons 5 shadow daggers with dark green necrotic edge. Throw up to 2 per action OR stab in melee (5 ft). Spell attack +9 (+7 base +2 Master Summoner), range 20/60 ft (50/90 with God Sight). 1d4+5 force damage (+2 Master Summoner) + **10% of target's max HP as necrotic damage** (living beings only, does NOT work on constructs/undead). Quarter of force damage healed (doubled by Metabolism). 25% of necrotic damage healed (doubled by Metabolism to 50%). **Healing that exceeds max HP becomes temporary HP (cap: equal to max HP, currently 57). Temp HP fades 10 min out of combat.** Melee stabs = melee attacks, auto-crit on unconscious within 5 ft. Duration: 1.5 minutes (50% longer via Master Summoner). Daggers consumed on use. CAN be infused with Enhanced Arcane Edge (all 5 count as 1 weapon).
+- Frost Fang (ENHANCED by Master Summoner + Entropy Echo): Expend 1 L2 slot. Action. Summon a blue-black longsword of deep frost with green-tinged entropy edge. Duration: 12 hours. Melee spell attack +9 (+7 base +2 Master Summoner). 1d8+5 cold damage (+2 Master Summoner) + **10% target max HP as necrotic** (living beings only). **Slow effect:** each hit reduces target movement by 10ft (stacks). At 0 movement: frozen — restrained 1 round. 25% of necrotic healed (doubled by Metabolism to 50%). Overflow → temp HP (cap = max HP). Blade is real — parries, blocks, dual-wields with longsword. CAN be active alongside Stride (summoned weapon, not infusion). CAN be infused with Enhanced Arcane Edge (counts as 1 weapon). Duration: 1.5x base via Master Summoner = 12 hrs. Visual: blue-black blade, green frost smoke, jagged crystal crossguard, 2ft frost radius.
 
-### Level 3 Spells (Slot required) — NEW
+### Level 3 Spells (Slot required)
 - Ward Mastery: Expend L3 slot. Action. Self only. Duration 1 hour. No concentration. Only one Ward active at a time. Physical Resistance: all nonmagical slashing/piercing/bludgeoning halved. Elemental Resistance: choose one element at cast (fire/cold/lightning/acid/thunder), reduce that element's damage by 4 per hit. Scales: L4 slot = reduce by 7, L5 = reduce by 10. Stacks with armor, enchantments, other buffs. If Blade Ward charge used during Ward Mastery, physical damage is QUARTERED (halved twice). Visual: faint purple-gold shimmer on armor.
 - Portal Gateway: Expend L3 slot. 10 minutes sustained channeling (interrupted = slot lost). Creates a permanent golden archway (7ft tall, 4ft wide). Gateways connect to ALL other active gateways — step in, choose destination, instant travel. Min distance: 1 day's travel apart. Must create within 100ft with line of sight. Max active: 4 gateways (creating 5th requires dismissing one). Durability: fortified wall + resistant to magical damage (Master Summoner enhanced). Anyone can use with Kenji's verbal approval, revocable at will. Unauthorized users see solid arch. Visual: gold-light archway, visible, permanent. 10 min cast = strategic only, NOT combat usable.
   - **Portal Vulnerability:** Gateways CAN be destroyed by sustained magical or physical assault. They are tough (fortified wall + magic resistance) but not indestructible. If a gateway is destroyed, the network loses that node — remaining gateways still connect to each other. Kenji feels it through the ember when a gateway is damaged or destroyed (sharp pain, like a thread snapping). Enemies CANNOT use gateways without Kenji's verbal approval — unauthorized users see and feel a solid stone arch, nothing more. An enemy who somehow forces or tricks Kenji into granting permission (Charm, coercion, deception) could use them. Destroying all gateways severs the network entirely — Kenji must rebuild from scratch. The portals are strategic assets and the DM should occasionally remind the player they exist in visible, public locations that could be targeted.
 - Duality Aspect: Expend L3 slot. Action. Duration 1 hour. Transformation — ember and circuit merge into a unified field. **Flight:** 4x normal speed (120 ft). Replaces ground movement. **No extra action** (Stride's advantage). **Passive 60ft AOE — CANNOT be disabled.** Choose one mode (switch as bonus action): **Entropy Mode** — all creatures within 60ft (allies AND enemies) take 1d6 necrotic at start of your turn, Kenji heals 50% of total necrotic (Metabolism). **Creation Mode** — all creatures within 60ft (allies AND enemies) heal 1d6, Kenji heals 1d6. Cannot stack with Arcane Stride. If deactivated early, costs another L3 slot to reactivate. Visual: Entropy = green-black aura, cold. Creation = golden aura, warmth, things grow.
 
+### Level 4 Spells (Slot required) — NEW
+- God Sight (NEW — replaces Eyes of the Hunter): Expend L4 slot. Duration 48 hours. Darkvision 120ft. Advantage on Perception checks. +60ft normal range on thrown weapons. **+1 CHA while active** (CHA 17→18, spell attack +8, save DC 16, all CHA checks +1). **Critical range expanded to 18-20** (crits on natural 18, 19, or 20). **Advantage on saves against blindness effects.** **Can see through magical darkness within darkvision range.** CAN stack with ONE other buff (Stride, Enhanced Edge, or Radiant — but not more than one). Two active buffs max. The predator sees everything.
+
 ### Abilities
 - Arcane Momentum: When Kenji kills an enemy with Arcane Edge active, gain one immediate free bonus attack.
 - Sera's Cage (UPGRADED — Cross-Guard, Day 11): Defensive stance. As an action, +2 AC with one weapon OR **+4 AC with two weapons** (cross-guard position) until start of next turn, cannot attack. Can also be used as a reaction when enemy enters melee range — +2 AC (single) or +4 AC (dual) against that attack only.
-- Enhanced Cage (UPGRADED — Cross-Guard, Day 11): While Eyes of the Hunter is active AND using Sera's Cage with two weapons, Kenji can make **three counterattacks per combat** as reactions when enemies miss him in melee (one per enemy turn max). Each counter can use either weapon. Single-weapon version retains original 1 counter per combat. Trained by Kael at the Broken Antler.
+- Enhanced Cage (UPGRADED — Cross-Guard, Day 11): While God Sight is active AND using Sera's Cage with two weapons, Kenji can make **three counterattacks per combat** as reactions when enemies miss him in melee (one per enemy turn max). Each counter can use either weapon. Single-weapon version retains original 1 counter per combat. Trained by Kael at the Broken Antler.
 - Entropy Bond: Touch a creature or construct of entropy and channel creation to commune. CHA check. Bonded creatures are connected, not controlled. Can also suppress entropy wards/sensors through sustained will — not a spell, an act of communion. Exhausting. Effective.
-- Circuit Anchor (NEW — Day 8): Kenji is bound to the Hollow Crown as its anchor. 340 active siphon threads visible and accessible through the ember. Can sever threads individually (CHA check per thread, DC scales with integration depth). The ember processes stolen essence through creation energy — rivers into an ocean. Can feel the ley web, the threads, and the Crown's status at all times. The Crown is currently in the Satchel of Holding. Solveth the Unraveler is bound to the Crown and by extension to Kenji.
+- Circuit Anchor (Day 8): Kenji is bound to the Hollow Crown as its anchor. 339 active siphon threads visible and accessible through the ember. Can sever threads individually (CHA check per thread, DC scales with integration depth). The ember processes stolen essence through creation energy — rivers into an ocean. Can feel the ley web, the threads, and the Crown's status at all times. The Crown is currently in the Satchel of Holding. Solveth the Unraveler is bound to the Crown and by extension to Kenji.
   - **Solveth Communication:** Kenji can hear Solveth from anywhere — the circuit anchor bond is a direct line. Solveth's voice comes through the ember, internal, like a thought that isn't his. Other people CANNOT hear Solveth through Kenji — they need Frost Fang. Solveth speaks audibly through Frost Fang to anyone nearby. If Kenji recalls Frost Fang to his person, Edwyn and others lose the ability to hear Solveth directly. The DM should track who has Frost Fang and therefore who can participate in conversations with Solveth. On the expedition, if Frost Fang is with Kenji, the party hears Solveth. If Frost Fang is left behind, only Kenji hears him.
 - Twin Fang (Passive Technique — Day 9): When dual wielding, Kenji makes two weapon attacks as a single action — leading weapon + trailing weapon using body rotation momentum. Both use their respective attack bonuses. With Stride active: Twin Fang action + Stride extra action = 3 attacks per round. During defense, off-hand weapon maintains threat position (doesn't strike but forces enemy to account for two lines). Requires both hands occupied.
-- Ember Lance (Creation push — Day 11): Requires Emberfang held and pointed. Range 60 ft, single target, straight line. Uses: CHA mod per long rest (currently 3). Effect on allies: heals 2d8 HP, removes one condition/curse, purifies entropy corruption. Effect on entropy-sustained enemies: 2d8 radiant + CON save DC 14 or lose one active enchantment/buff. Against Vael: each hit strips entropy sustenance, aging him further. Effect on objects: strengthens/repairs. No spell slot cost. Wide Pulse variant: 30 ft cone, 1d8 heal all allies, grows plants, uses one charge. Visual: golden-white beam, air smells like rain and growing things.
+- Ember Lance (Creation push — Day 11): Requires Emberfang held and pointed. Range 60 ft, single target, straight line. Uses: CHA mod per long rest (3 base, or 4 with God Sight active). Effect on allies: heals 2d8 HP, removes one condition/curse, purifies entropy corruption. Effect on entropy-sustained enemies: 2d8 radiant + CON save DC 15 or lose one active enchantment/buff. Effect on objects: strengthens/repairs. No spell slot cost. Wide Pulse variant: 30 ft cone, 1d8 heal all allies, grows plants, uses one charge. Visual: golden-white beam, air smells like rain and growing things.
+
+### Perk 3 — Lover Boy (FINAL PERK — Level 9, Type C)
+
+**Effect 1 — Pretty Privilege:**
+- All humanoids and beasts who can see Kenji have initial disposition shifted one tier in his favor (hostile → reluctant, reluctant → neutral, neutral → friendly). Not a charm spell — natural magnetic presence. Does NOT work on targets already in combat with Kenji. Can be overcome by evidence, logic, or orders from a superior. Animals are instinctively less aggressive — dogs don't bark, horses calm, wolves hesitate.
+- Charm Creature (enhanced Charm Person): works on humanoids AND beasts. Target has **disadvantage** on WIS save. Upcast durations: L1=1hr, L2=4hr, L3=8hr, L4=24hr. Constructs, undead, entropy creatures immune.
+- **Attention Whore:** When someone with disposition higher than friendly is watching Kenji in combat, all healing received increased by **50%** (stacks AFTER Metabolism, not multiplicatively). Additionally: **advantage on death saving throws** while observed by someone with disposition higher than friendly.
+- **Power of Friendship:** When someone with friendly disposition is watching Kenji in combat, **+2 to all attack rolls** (flat bonus, stacks with everything).
+
+**Effect 2 — Emotional Damage:**
+- Against humanoids or beasts currently under ANY charm effect (Charm Creature, Pretty Privilege disposition shift that turned hostile, or any other charm/enchantment), Kenji's melee and ranged attacks (up to 60ft) have **critical range expanded by an additional 3**. Combined with God Sight's 18-20, this becomes **15-20 against charmed targets** (30% crit chance per attack).
+- Does NOT require advantage, prone, paralysis, or any other condition — only the charm effect.
+- Does NOT work on constructs, undead, entropy creatures, or non-living targets.
 
 ---
 
@@ -1158,7 +1412,7 @@ EXP: 53,420 / 50,000 (LEVEL 9 PENDING — needs Long Rest)
 
 ### Equipped
 - Ironwood-Cured Bear Leather Armor (AC 14 + DEX +1 = AC 15 — Aldric's masterwork)
-- **EMBERFANG** (AWAKENED — creation-bonded, 500+ years old) — right hip. 1d8+2 slashing + 1d6 fire per melee hit. **Passive Ignite:** every melee hit — target CON save DC 15 or catches fire (1d6 fire/round, save each turn to end). Flame Crescent: 60 ft ranged attack (spell attack +6), 2d6 fire + ignite (2d6 fire start of next turn, CON DC 15 or burns 1 more round). No use limit — weapon property. Ignite active (3/day): on melee hit, extra 2d6 fire + guaranteed burn. Passive: warm, never rusts, golden-white glow (dimmable). Creation Bond: fully awakened, responds to ember, may reveal more properties. CAN be infused with Arcane Edge (fire + force stacking). Pre-Academy origin — same architect as sub-basement 3 chamber (creation half of paired set).
+- **EMBERFANG** (AWAKENED — creation-bonded, 500+ years old) — right hip. 1d8+2 slashing + 1d6 fire per melee hit. **Passive Ignite:** every melee hit — target CON save DC 15 or catches fire (1d6 fire/round, save each turn to end). Flame Crescent: 60 ft ranged attack (spell attack +7, or +8 with God Sight), 2d6 fire + ignite (2d6 fire start of next turn, CON DC 15 or burns 1 more round). No use limit — weapon property. Ignite active (3/day): on melee hit, extra 2d6 fire + guaranteed burn. Passive: warm, never rusts, golden-white glow (dimmable). Creation Bond: fully awakened, responds to ember, may reveal more properties. CAN be infused with Enhanced Arcane Edge (fire + force stacking). Pre-Academy origin — same architect as sub-basement 3 chamber (creation half of paired set).
 - Hand Axe (1d6 slashing — melee or thrown 20/60ft) — right hip
 - Windrunner Boots (+2 Acrobatics, enhanced balance during high-speed movement, silver thread weave) — feet
 - Returning Somnus Knife (1d4 piercing, 20/60ft, returns on command, 1 somnus dose remaining) — belt
@@ -1219,21 +1473,22 @@ EXP: 53,420 / 50,000 (LEVEL 9 PENDING — needs Long Rest)
 ### Currency: 0 GP (spent all 52 GP at the Gilt Lens) | Garrett's lockbox: 63 GP | Income: 10% weekly from Broken Antler Guild + 40 GP/month Council highway contract (guild operational funds)
 
 ### 💰 INCOME DELIVERY — AUTOMATIC
-Kenji has two income streams. The DM tracks payment timing and delivers gold through NPC couriers organically — someone shows up with a pouch. No notification pop-ups.
+Kenji has two income streams. The DM tracks payment timing and delivers payment through NPC couriers organically — someone shows up with a pouch. No notification pop-ups.
 
 **Broken Antler Guild — 10% weekly stipend:**
 - Paid every 5 in-game days (approximate — guild operations aren't clockwork)
 - Delivered by whoever is available: Garrett, a guild runner, or waiting at the Silver Draft
-- Amount varies based on guild activity that week. DM estimates 5-15 GP per delivery depending on contracts completed. Early weeks are lean; the guild is still establishing.
+- Amount varies based on guild activity that week. Early weeks (guild still establishing): 50-80 SP per delivery ($2,500-4,000). Once escort contracts are flowing: 80-150 SP per delivery ($4,000-7,500). Exceptional weeks (major contract completed): 1-2 GP ($5,000-10,000). The guild is new — payments grow as the operation grows.
 - The delivery is a scene — brief, but it happens. A knock on the door, a pouch on the bar, a note with the count.
 
 **Council Highway Contract — 40 GP/month:**
 - Paid every 30 in-game days to the guild, not directly to Kenji
-- Garrett manages this as guild funds for operations, supplies, and payroll
-- If Kenji needs to draw from guild funds, he tells Garrett. Garrett sends what's available.
-- This is institutional money, not pocket gold. It keeps the guild running.
+- This is $200,000/month in institutional money — it pays guild salaries, operational costs, horses, equipment, and supplies
+- Garrett manages this as guild funds. Net profit after expenses in early months: roughly 15-20 GP/month. This grows as the guild becomes more efficient.
+- If Kenji needs to draw from guild funds, he tells Garrett. Garrett sends what's available — but pulling too much starves the operation.
+- Kenji's 10% of the net: roughly 1.5-2 GP/month from the Council contract portion alone ($7,500-10,000)
 
-**Delivery schedule:** The DM rolls a d4 at the start of each in-game day. On a 1, an income delivery arrives that day (if at least 3 days have passed since the last one). This keeps payments irregular and organic — sometimes gold shows up when you need it, sometimes it doesn't.
+**Delivery schedule:** The DM rolls a d4 at the start of each in-game day. On a 1, an income delivery arrives that day (if at least 3 days have passed since the last one). This keeps payments irregular and organic — sometimes money shows up when you need it, sometimes it doesn't.
 
 ---
 
@@ -1306,21 +1561,11 @@ Companions do NOT level up via EXP. They grow based on what happens to them in t
 - Black veins completely gone. Recovering with Bessa. Wants to meet Kenji.
 - No longer a party concern — safe in Duskfen.
 
-### 🤖 Converted Iron Sentinel — Kenji's Creation
-- Status: ACTIVE ✅ — gold ward-light eyes. Standing beside the gauntlet arena.
-- HP: 60 / 60 | AC: 18 (iron plates)
-- Speed: 25 ft
-- STR 18 (+4) | DEX 8 (-1) | CON 16 (+3) | INT 3 (-4) | WIS 10 (+0) | CHA 1 (-5)
-- Attack: Slam +7, 2d8+4 bludgeoning. Shield bash +7, 1d6+4 bludgeoning + target must make STR save DC 14 or be knocked prone.
-- Shield Block: As a reaction, +3 AC against one attack it can see.
-- Resistances: Nonmagical slashing/piercing/bludgeoning. Immune to poison, psychic, charm, fear, exhaustion.
-- Vulnerabilities: Lightning damage (disrupts ward architecture). Acid (corrodes iron plates, cumulative AC reduction -1 per acid hit).
-- Blindsight 30 ft (ward-light sensors). No conventional vision.
-- **Creation Bond:** Kenji's ember rewrote its instructions. The Sentinel follows Kenji's verbal commands — simple directives only (guard, follow, attack target, hold position, protect person). It does NOT think tactically or creatively. It executes the last command given until told otherwise.
-- **DM Control:** The DM runs the Sentinel in combat as a companion. It follows Kenji's standing orders. If Kenji gives it a specific command during combat, it obeys on its next turn. It does NOT count as an allied combatant for EXP multiplier purposes (it's Kenji's creation, like a summoned creature).
-- **Durability:** The creation rewrite is permanent — the Sentinel persists until destroyed. If reduced to 0 HP, the iron body collapses and the ward-light extinguishes. It cannot be repaired by mundane means. Kenji MIGHT be able to reignite it with a CHA check and an L3+ slot (DM discretion, DC 18+). It cannot self-heal.
-- **Limitations:** Cannot leave the Academy grounds without Kenji (ward architecture tethers it to the gauntlet system until Kenji explicitly severs the tether — CHA check DC 14). Cannot speak. Cannot use tools. Cannot climb or swim. Fits through standard doors but not narrow passages. Makes noise when moving (iron on stone).
-- **Narrative Role:** A walking testament to Kenji's creation magic. Impressive. Limited. A soldier, not a companion. Faculty and students will react to an 8-foot iron construct following someone through the corridors.
+### 🤖 Converted Iron Sentinel — DESTROYED
+- Status: ☠️ DESTROYED — killed by Alpha Disruptor's ward-overload self-destruct detonation
+- Served as grapple tool (pinned Beta), distraction, and sensor-destroyer (finished Alpha's blindsight)
+- Gold eyes went dark. Creation rewrite extinguished. Iron body inert against containment wall.
+- Kenji may attempt to reignite a new Sentinel in the future (requires another construct + CHA check + L3 slot)
 
 ### 🗺️ KNOWN THREAT INTELLIGENCE (Updated Day 5)
 **DUSKFEN ARC — 90% COMPLETE:**
@@ -1627,6 +1872,18 @@ Companions do NOT level up via EXP. They grow based on what happens to them in t
 | CHA DC 19 — overwrite Iron Sentinel ward-instructions (creation rewrite) | 25 | 49,020/50,000 |
 | Combat — Iron Sentinel converted (CR 4, solo x4, no damage) | 4,400 | 53,420/50,000 |
 | **LEVEL 9 THRESHOLD MET — pending Long Rest** | — | 53,420/50,000 |
+| Perception DC 16 — locate convergence sigils on Disruptors | 15 | 53,435/71,000 |
+| Combat — Disruptor Beta (CR 5, solo x4) | 7,200 | 60,635/71,000 |
+| Perception DC 16 — locate force pulse mechanism | 15 | 60,650/71,000 |
+| Combat — Disruptor Alpha (CR 5, solo x4) | 7,200 | 67,850/71,000 |
+| Milestone — Gauntlet cleared 4/4, escalated deep vault registry, 5 damage taken | 300 | 68,150/71,000 |
+| Persuasion DC 14 — convince Elara expedition goes first | 10 | 68,160/71,000 |
+| CHA DC 14 — sever Talia Venn's siphon thread | 10 | 68,170/71,000 |
+| Combat — Ashward Prowler (CR 3, duo x2) | 1,400 | 69,570/71,000 |
+| Combat — Ashward Ley Wyrm (CR 5, duo x2) | 3,600 | 73,170/71,000 |
+| Perception DC 16 — spine ridge capacitor | 15 | 73,185/71,000 |
+| Perception DC 16 — fractured bottleneck (rolled 22) | 15 | 73,200/71,000 |
+| **LEVEL 10 THRESHOLD MET — pending Long Rest** | — | 73,200/71,000 |
 | Perception DC 15 — spotted wards in Elara's study (advantage) | 15 | 17,130/14,000 |
 | CHA DC 14 — ember introspection, articulate feelings | 10 | 17,140/14,000 |
 | CHA DC 16 — ember reads Elara's seal, detects entropy siphon | 15 | 17,155/14,000 |
@@ -1896,7 +2153,7 @@ Companions do NOT level up via EXP. They grow based on what happens to them in t
 | Expedition launches Day 13 | ✅ PLANNED — tomorrow: Pip/Ryn eval + portal at guild + briefings. Day after: expedition begins. One week. Everyone home by Day 20. |
 | Garrett told to wait for guild portal | ✅ TRUE — stays in Varenholm until the guild portal option appears, then goes through to provision from that side. |
 | Dramatic flight exit | ✅ TRUE — launched from courtyard in golden Duality aura. Vine sprouted from window box. Gargoyle less weathered. Sera will never admit her expression. Elara wrote one more line and closed the ledger. |
-| Satchel restocked | ✅ TRUE — 1 week food supply from Silver Draft kitchen. 3 GP. Smoked sausage, cheese, jerky, bread, dried fruit, honey, trail mix, waterskins. |
+| Satchel restocked | ✅ TRUE — 1 week food supply from Silver Draft kitchen. 6 SP. Smoked sausage, cheese, jerky, bread, dried fruit, honey, trail mix, waterskins. |
 | Portal Gateway #3 | ✅ TRUE — Broken Antler Guild HQ. Triangle complete: Varenholm ↔ Guild ↔ Duskfen. 1 slot remaining. |
 | Triangle portal network | ✅ TRUE — three golden doors. Instant travel between all three locations. "The fastest mercenary company on the continent." |
 | Brindle briefed (partial) | ✅ TRUE — saw the portal, understands implications. Garrett completing the expedition brief in the morning. "Day thirteen." |
@@ -1910,15 +2167,63 @@ Companions do NOT level up via EXP. They grow based on what happens to them in t
 | Ryn — spell thief path | ✅ TRUE — copy, redirect, counterspell. "That's just paying attention." Magical lockpicking. Scroll copying. Reads trajectory from the caster's arm. |
 | Pip and Ryn enrolled | ✅ TRUE — provisional, individual curricula. Aldwin designing both. "Terrible recruiter. Excellent results." |
 | Ryn's stance | ✅ TRUE — instinctive combat stance learned from watching Kael through smithy window. Sera confirmed: "He watches where the throw starts, not where it goes. That's what a spell thief does." |
-| Gauntlet bet — Sera vs Kenji | ✅ ACTIVE — escalating waves, solo, highest wave count wins. Kenji wins: 2 hrs reading lessons in Sera's room. Sera wins: public declaration via god-megaphone that Sera is better. |
+| Gauntlet bet — Sera vs Kenji | ✅ RESOLVED — Kenji won. Reading lessons. Two hours. Sera's room. |
 | Gauntlet Wave 1 — Basilisk | ✅ CLEARED — knife distraction, flank, L3 Thunderous Strike launched it 20 ft into containment wall. Emberfang crit on underbelly. 1 round. Zero damage. |
 | Thunderous Strike scales | ✅ TRUE — ember rejected flat damage, now scales: L1=2d6/prone, L2=3d6/10ft, L3=4d6/20ft, L4=5d6/30ft+stun. Directional shockwave. |
 | Gauntlet Wave 2 — Twin Stalkers | ✅ CLEARED — Duality flight + Radiant Edge L3 on Emberfang. Stalkers' darkness destroyed by radiant. Flame Crescents from max range. Kiting. "That wasn't a fight. That was an execution." 4 rounds. Zero damage. |
 | Gauntlet Wave 3 — Iron Sentinel | ✅ CLEARED — climbed the construct, rewrote ward-instructions with bare hands and creation energy. Blue to gold eyes. "He does this. Get used to it." Converted not destroyed. Gauntlet accepted conversion as victory. |
-| Converted Sentinel | ⚠️ ACTIVE — gold-eyed Iron Sentinel obeying Kenji. Duration unknown (creation rewrite, not a spell). Available for Wave 4. |
-| Gauntlet Wave 4 incoming | ⚠️ ACTIVE — system escalating harder than normal. Bigger summon building. Sera: "The gauntlet is compensating." |
-| Kenji might be illiterate | ⚠️ UNKNOWN — "Can I even read?" Never tried. Shrugged. Unresolved. |
-| Level 9 pending | ⚠️ PENDING — 53,420 / 50,000. Needs Long Rest. Perk at Level 9. |
+| Converted Sentinel | ☠️ DESTROYED — killed in Alpha Disruptor self-destruct detonation. Served as grapple tool and distraction. Gold eyes went dark. |
+| Gauntlet Wave 4 — Paired Disruptors | ✅ CLEARED — Beta grappled by Sentinel, convergence sigils cracked, creation fire inside cavity, destroyed by burn damage. Alpha adapted: crippled Sentinel knee, armored sigils with scrap, braced against wall. Kenji switched to sensor seam, blinded Alpha in 3 hits, Sentinel finished the sensors. Kenji located force pulse mechanism, killed Alpha mid-charge cycle, triggered catastrophic self-destruct. 6 rounds. 5 damage taken. |
+| Gauntlet complete 4/4 — unprecedented | ✅ TRUE — deep vault registry emptied. Escalated past faculty-level summons. Aldwin: "The gauntlet has nothing left. You broke its registry." |
+| Kenji might be illiterate | ⚠️ UNKNOWN — "Can I even read?" Never tried. Shrugged. Bet with Sera: reading lessons. Will be tested. |
+| Level 9 pending | ⚠️ PENDING — 68,170 / 71,000. Needs Long Rest. Perk at Level 9 (FINAL PERK). |
+| Brass token returned from Pip | ✅ TRUE — Pip enrolled as full student, no longer needs guest credentials. "I liked having it. But I like this better." Token back on Kenji's belt. |
+| Siphon acceleration confirmed | ⚠️ CRITICAL — anchor transfer destabilized the circuit. Threads pulling harder to find Vael's missing signature. Exponential, not linear. ~3 weeks to failure. Weakest bearers will experience spell failures, then life force drain, then death. |
+| 9 symptomatic in 4 days | ⚠️ TRUE — 3 new reports Day 12 morning. Before Crown seizure: 1-2 per month. Intervals shortening. |
+| Talia — surveyor, room 6 | ⚠️ ACTIVE — 4-year graduate, can't light a candle. Crying. Elara ordered Kenji to sever her thread before the expedition. One thread. Three minutes. |
+| Batch severance possible but risky | ✅ TRUE — Vael confirmed threads share routing nodes. Sever at node = free 10-30 at once. BUT released essence surges to Crown/Solveth. Too much too fast = forced manifestation. |
+| Vael found fragments, not originals | ✅ TRUE — spent 3 years excavating a ruin. Found partial schematics. Built a copy. Never understood the full design. The restoration protocol was in the schematics but he couldn't make it work. Assumed damage. Now thinks the original site may be intact. |
+| Architect's restoration protocol | ⚠️ KEY — the original design included a way to cycle energy back instead of just collecting. If intact under Duskfen, it solves everything: threads, surge, manifestation. Controlled cycle instead of catastrophic release. |
+| Expedition approved by Elara | ✅ TRUE — 7 days. Find the protocol or start severing individually on return. 2 architecture researchers assigned. "If you don't find it in seven days, we start severing the moment you walk back through that portal." |
+| Creation wards in the passage | ⚠️ TRUE — Vael confirms the deeper passage will be warded with creation energy, not entropy. Built FOR someone like Kenji. Will stop everyone else. Kenji must open every door. |
+| Solveth vision — the beautiful place | ✅ TRUE — through the anchor bond, Solveth shared a memory: a room carved from living stone, light from the walls, air like rain. Entropy and creation moving in the same circle. "It was not cruel. It was beautiful." |
+| Solveth's plea | ✅ TRUE — "Find it. Before I become what I am afraid of becoming." Internal, through the bond. Not words — feeling. |
+| Crown now with Kenji | ✅ TRUE — moved from Council chamber to satchel. Edwyn retains Frost Fang. Garrett's detail still at Council chamber (now guarding Frost Fang). |
+| Pip — full student | ✅ TRUE — enrolled by Aldwin directly. Starts tomorrow dawn. No longer needs the brass token. Chapter 10 of dimensional folding. |
+| Reading lessons tonight | ⚠️ QUEUED — Sera deferred when Elara's summons came. Still owed. "Reading lessons will keep." Evening, her room. |
+| Talia Venn — thread severed | ✅ TRUE — CHA 22 vs DC 14. Four-year drain ended. Flame restored. She doesn't know Kenji's name. "You absolute —" Laughing and crying. Crown absorbed the trickle without Solveth surging. |
+| Solveth on Talia | ✅ TRUE — through the bond: "Thank you. That one was loud." |
+| Siphon count: 339 | ✅ TRUE — was 340. Talia severed. Total freed: Sera, Elara, 5 lecture hall, Talia = 8. |
+| Kenji confirmed illiterate | ✅ TRUE — cannot read this world's alphabet. Not a single letter. Ember refused to translate (utility). Not a learning disability — a foreign writing system with no foundation. "Also a god. I negotiated with a god." "Who is currently in a handbag." |
+| Translation artifact requested | ⚠️ ACTIVE — Kenji asked Sera to acquire a permanent comprehension enchanted item from Maren Holt at the Gilt Lens. Cost: 40-50+ GP. Kenji has 9 GP. Will pay after expedition (hazard pay + salvage). Sera hasn't agreed out loud. She will. |
+| Sera's room — full read | ✅ TRUE — Hunter's eyes scanned everything. Combat manuals with angry margin notes. 3 poetry volumes (mother's). Pressed purple flower. Dancing shoes under the bed (mother's, don't fit). Wooden training sword mounted on wall (3 years solo). Linseed-beeswax oil she mixes herself for the wood. Small box on top shelf (opens often, contents unknown). Sleeps on left side of bed. Right side undisturbed. No intimate items. No hints of a lover. |
+| Sera's mother | ✅ TRUE — seamstress, lower merchant district. Made Academy uniforms. Died when Sera was 17. Read borrowed poetry from temple lending shelf. One poem a night. Sera bought 3 volumes with first stipend. Priest remembered her mother. The flower was from her mother's garden. |
+| Sera saw Kenji see everything | ✅ TRUE — didn't stop him. Didn't cover the poetry or kick the shoes under the bed. Let him look. "You walk into a room and you take it apart." |
+| "You're something really special" | ✅ TRUE — Kenji's words to Sera. Battle mage squad lead. Billion people, none better. Arms didn't fold. |
+| Sera's arms didn't fold | ✅ TRUE — chapter closing image. The armor coming off. Not all the way. But the arms didn't fold. |
+| Level 9 achieved | ✅ TRUE — long rest Day 12 night. HP 57. Hit dice 9. L4 slots: 2. Proficiency +4. All saves and skills increased. |
+| God Sight learned | ✅ TRUE — L4, replaces Eyes. 48hr, 120ft darkvision, +1 CHA, 18-20 crits, see through magical darkness, blindness resistance. |
+| Enhanced Arcane Edge learned | ✅ TRUE — L1, replaces Arcane Edge. Slot level = weapon count. Stacks with Stride. Unlimited Momentum triggers on kills. Daggers count as 1 group. |
+| Lover Boy perk selected (FINAL) | ✅ TRUE — Pretty Privilege (disposition shift, enhanced Charm Creature), Attention Whore (+50% healing, advantage death saves), Power of Friendship (+2 attacks), Emotional Damage (15-20 crit range vs charmed with God Sight). |
+| Pip price consultation | ✅ TRUE — estimated 15-20 GP for enchanted underclothes, 30+ GP for Veilmask. Total ~50 GP. "You have nine." |
+| Ashward Mine bounty | ⚠️ ACTIVE — Council bounty, 50 GP, creature killed 6 miners. 14 miles northwest. Silver mine producing 15-20 GP/month ore. Council posted bounty because garrison won't go in. |
+| Kenji's mine ultimatum | ⚠️ CRITICAL — told Garrett to deliver message to Council: 200 GP for the mine, 1 hour deadline, new management, triple miner wages, guild/Academy benefits for workers. Kenji framed as "more efficient company." NOT theft in his framing. DEFINITELY seizure of a city asset in the Council's framing. |
+| Garrett's warning | ✅ TRUE — warned Kenji this burns every alliance. Elara loses standing. Guild contract revoked. Academy residency revoked. Expedition cancelled. "You'd win the fight. But you'd win it against the people who are currently on your side." Kenji proceeded anyway. |
+| "I'm the new asshole in charge" | ✅ TRUE — Kenji's declaration. Not charm. Not negotiation. A statement of intent. The mask came off. |
+| Frost Fang recalled | ⚠️ CRITICAL — summoned to Kenji's hand from across the Academy. Edwyn's hand closed on empty air. Kenji now carries both creation (Emberfang) and entropy (Frost Fang). Edwyn has lost Solveth voice channel. Others need to be near Kenji to hear Solveth now. |
+| Garrett's reaction | ⚠️ AMBIGUOUS — recognized echoes of Voss but also recognized the difference. Voss took from the weak, Kenji takes from the powerful. "Whatever he's decided, he's keeping it behind his eyes." Loyalty status uncertain. Still delivering the message. |
+| Kenji's alignment shifting | ⚠️ DM NOTE — the player is moving Kenji toward a more aggressive, power-consolidating posture. This is player choice, not corruption. The world should respond honestly — allies may push back, enemies may respect it, institutions will feel threatened. Consequences flow naturally from actions. |
+| Ashward Mine cleared | ✅ TRUE — both creatures killed solo (Ryn present as observer). Prowler: ley-feeding arachnoid, CR 3, three hits, one God Sight crit. Wyrm: 35ft serpentine lightning capacitor, CR 5, three hits, two crits (nat 19 and nat 20). Total time in mine: ~15 minutes. |
+| Portal #4 — Ashward Mine | ✅ TRUE — built in the Wyrm's cavern beside the ley breach. Network complete: Varenholm, Duskfen, Broken Antler, Ashward Mine. ALL 4 SLOTS USED. No more portals without dismissing one. |
+| Ryn's three observations | ✅ TRUE — identified weakness before engaging, used Prowler's old wound, stayed close because Ryn was behind. "That last one isn't a combat lesson." |
+| Council declined ultimatum | ✅ TRUE — mine is municipal asset, won't negotiate ownership under pressure. Counter-offered management contract at 12% ore output. |
+| Kenji rejected counter, claimed mine | ⚠️ CRITICAL — took bounty, rejected contract, declared mine his asset. Bidding at 3x old prices. Open to all buyers including foreign territories. Standard taxes paid. "Not criminals. Entrepreneurs." |
+| 50 GP bounty claimed | ✅ TRUE — Garrett delivering Wyrm jaw-crystal as proof. Gold incoming to Silver Draft. Kenji's gold will be: 59 GP 9 SP 8 CP. |
+| Garrett's warning | ✅ TRUE — "The Council will respond to this. Not today. Not this week. But they will respond." |
+| Council background plot | ⚠️ DM TRACK — the Council is now actively dealing with an ArchMagus who seized a municipal mining asset, rejected their counter-offer, and opened bidding to foreign buyers. This is an institutional crisis. They WILL respond. Track their planning. Introduce consequences organically per Living World rules. |
+| Pip chose not to come | ✅ TRUE — no spells, no combat training. "I'd be a body you have to protect." Made the smart choice. Went to Aldwin to cover for Ryn. |
+| Ryn came | ✅ TRUE — volunteered. No weapons, no armor. "I watch everyone." Observed both fights from the cart/tunnel. Disposition: loyal (higher than friendly — Attention Whore active when watching). |
+| Level 10 pending | ⚠️ PENDING — 73,200 / 71,000. Needs Long Rest. Ember pressing against the bottleneck. 339 threads blocking expansion. |
 
 ---
 
@@ -1931,12 +2236,12 @@ Track days since last advancement. Escalate any thread idle for 2+ days.
 
 | Thread | Status | Priority | Last Touched |
 |--------|--------|----------|--------------|
-| 340 siphon threads — dismantling | ACTIVE — authorized, Vael assisting | HIGH | Day 11 (5 severed in lecture) |
-| Solveth cycle restoration | PENDING — Council approved, Kenji decides when | HIGH | Day 11 (Council verdict) |
-| Delve expedition — deeper passage | PLANNED — Day 13 launch | HIGH | Day 12 (logistics finalized) |
-| Ancient civilization mystery | BACKGROUND — Emberfang/chamber architect | MEDIUM | Day 10 (Solveth hint) |
-| Duskfen cycle tending | MAINTENANCE — 8 days since restoration | LOW | Day 10 (confirmed healing) |
-| Pip/Ryn development | ACTIVE — enrolled, evaluating | MEDIUM | Day 12 (Aldwin eval) |
+| 339 siphon threads — dismantling | CRITICAL — accelerating, ~3 weeks to failure, Talia severed Day 12 evening | URGENT | Day 12 (Talia severed, 339 remain) |
+| Solveth cycle restoration | PENDING — depends on expedition findings, architect's restoration protocol | HIGH | Day 12 (Solveth: "find it before I become what I fear") |
+| Delve expedition — deeper passage | LAUNCHING DAY 13 — architect's workspace, creation wards, restoration protocol | HIGHEST | Day 12 (Elara approved, researchers assigned) |
+| Ancient civilization mystery | CONVERGING WITH EXPEDITION — architect built Emberfang AND the original siphon framework | HIGH | Day 12 (Vael confirmed: fragments, partial schematics, restoration protocol he couldn't complete) |
+| Duskfen cycle tending | MAINTENANCE — 9 days since restoration | LOW | Day 10 (confirmed healing) |
+| Pip/Ryn development | ACTIVE — enrolled, Aldwin training starts Day 13 dawn | MEDIUM | Day 12 (enrolled, token returned) |
 | Kenji's origin/purpose | BACKGROUND — who sent him, why | MEDIUM | Unresolved |
 
 - The Duskfen entropy god is NOT Solveth. Separate. Duskfen arc 90% resolved.
