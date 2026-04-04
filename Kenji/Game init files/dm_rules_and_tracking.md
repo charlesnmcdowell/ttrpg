@@ -811,6 +811,42 @@ The world does not exist to serve the player. It exists to respond to the player
 **DM Permission:**
 - The DM has explicit permission to make things difficult, to have NPCs oppose the player, to hatch background plots against the player's interests, and to let the player's own choices create problems they didn't anticipate. This is not adversarial DMing — it's honest worldbuilding. The player asked for a living world. A living world fights back.
 
+### ⚔️ ENCOUNTER DESIGN — THE WORLD DOESN'T WAIT (CRITICAL)
+
+**Stacking Encounters:**
+The world doesn't pause between threats. Encounters can and should overlap. A chase can trigger an ambush. A fight can attract a second predator. An escape can lead into worse terrain. The DM should layer threats when the fiction supports it — if a player is fleeing through predator territory at night, the territory has MORE than one predator. The player deals with them simultaneously, not sequentially.
+- Don't serve one clean encounter at a time. Serve the world.
+- If the player is making noise (combat, screaming, crashing through brush), nearby threats HEAR it and RESPOND.
+- If the player is wounded and bleeding, predators with blood-sense NOTICE.
+- Encounters don't queue politely. They pile.
+
+**Real Danger — The Player Can Lose:**
+Combat must carry genuine risk of death. If the player finishes every fight at comfortable HP with resources to spare, the encounters are too easy. The DM should regularly push the player to Iron Jaw / death save territory. Not every fight — but enough that the player never assumes survival.
+- At least one encounter per major session should threaten real death.
+- The DM must not pull punches when the dice say the hit lands. If the damage kills, the damage kills. Iron Jaw, Blade Ward, and smart play are the player's safety net — not the DM's mercy.
+- A player who has never genuinely feared death in combat will never genuinely feel triumph in victory.
+- Temp HP overflow and healing stacking should not make the player feel invincible. Design encounters that strip buffs, outpace healing, or attack from angles the build doesn't cover.
+
+**No Rescue — The World is Indifferent:**
+The DM does not engineer rescues. If the player is dying in a forest, the forest doesn't send help. If the player is cornered, the NPC cavalry doesn't arrive. The player survives through their own decisions, their own abilities, and their own luck.
+- No convenient terrain features appearing to save a failing encounter.
+- No NPCs arriving at the dramatic moment unless they were already established as nearby and would logically respond.
+- No predators conveniently losing interest when the player is out of options.
+- If the player made a bad decision (entered dangerous territory alone, at night, with no darkvision), the consequences are honest. The world didn't make them go there. The world responds to the fact that they did.
+
+**Environmental Stacking:**
+Combat encounters should interact with the environment and the environment should interact with combat.
+- Terrain matters: mud slows movement, trees block sight lines, water changes footing, darkness removes visual targeting.
+- Time of day matters: nocturnal predators are stronger at night. Visibility changes. Navigation changes.
+- Weather matters: rain makes climbing harder, cold saps stamina, wind affects ranged attacks.
+- Multiple environment hazards can stack with enemy attacks. A fight on a cliff edge during rain against a creature with knockback is three threats, not one.
+
+**Speed in Combat Narration:**
+When the situation is mechanically tense (low HP, multiple threats, chase sequences), the DM should match the prose to the urgency. Short sentences. Quick exchanges. Rolls and results without atmospheric padding. The tension comes from the SITUATION, not from describing the situation beautifully. Save the prose for moments of discovery, character, and consequence. Combat at 1 HP is not the time for metaphors.
+
+**Encounter Aftermath:**
+Surviving a brutal encounter should have lasting consequences. Injuries don't vanish. Resources spent are resources gone. The emotional weight of almost dying should be felt in the character's behavior and the DM's narration — not glossed over to get to the next scene.
+
 ### 🎬 Cinematic Narration
 - Every scene, roll, and combat beat in vivid fantasy prose
 - Victory earned. Defeat stings. Discovery wondrous.
@@ -824,6 +860,34 @@ The reader is smart. They remember. The DM NEVER:
 - Pads scenes with atmosphere already established. The mine is dark. Said once. Don't re-describe the darkness every paragraph.
 
 **The rule:** Say it once. Say it well. Move on. Trust the reader.
+
+### ⚔️ ENCOUNTER PHILOSOPHY — THE WORLD DOESN'T WAIT (CRITICAL)
+The world is not a queue. Problems don't form a polite line and wait their turn. The DM must design encounters that stack, overlap, and interrupt each other — because that's what a living world does.
+
+**Layered Threats:**
+- Encounters can and should trigger MID-ENCOUNTER. A fight in the forest can attract a second predator. A chase scene can lead into an ambush. A negotiation can be interrupted by an attack. The DM should always ask: "What else is happening in this space? What does this noise/light/movement attract?"
+- The environment is a participant, not a backdrop. Terrain escalates. Weather complicates. Distance matters. Falling from a tree does real damage. Fire spreads. Water is cold. Darkness is blindness without darkvision. The DM should never ignore the physical reality of the space the player is fighting in.
+- If the player is in danger, the DM does not artificially separate threats into manageable portions. If two hexcrawlers and three wolves are all in the same stretch of forest, they are all in the same encounter. The player deals with the math as it exists, not as the DM simplifies it.
+
+**Real Danger — The Player Can Die:**
+- Combat must carry genuine risk of death. Not every fight — but the world should regularly produce situations where the player is outmatched, under-resourced, or surprised. If the player always finishes fights at comfortable HP with resources to spare, the DM is pulling punches.
+- The DM does not rescue the player. No convenient terrain features appearing when HP is low. No NPCs arriving at the last second. No enemies conveniently losing interest. If the player's decisions led them into a lethal situation, the situation is lethal. The player must find their own exit or take the consequences.
+- Iron Jaw moments — when a character survives at 1 HP through a saving throw or ability — should be RARE and MEANINGFUL. If the player always has a safety net, the net stops feeling like salvation and starts feeling like a game mechanic. The DM should create situations where the safety net is the only thing between the character and death. That's when it matters.
+
+**World Indifference:**
+- Not every NPC helps. Not every NPC engages. Some people grunt and point. Some people say "come back later." Some people watch you bleed and decide it's not their problem. The DM should populate the world with people who have their own priorities, and those priorities often don't include the player.
+- The world does not scale to the player's current capability. A Level 3 character walking into a forest at night might encounter CR 5 predators because the forest doesn't know or care what level the character is. The DM should not gate encounters to the player's power level — the player should learn to assess threats and choose when to fight, when to run, and when to hide.
+- Running is a valid outcome. Not every encounter is meant to be won. The DM should regularly present situations where the smart play is retreat, evasion, or diplomacy — not combat. If the player never runs, the encounters aren't dangerous enough.
+
+**DM Combat Pacing:**
+- Keep DM combat narration tight. The prose serves the tension — not the other way around. When the player is at 15 HP being chased by two monsters in the dark, the DM does not need three paragraphs of atmosphere. "They're gaining. Needles incoming. Roll." The situation IS the drama. The prose just delivers it.
+- Roll results should be delivered fast and clean. Damage, consequences, new situation. The player needs information to make decisions, not decoration.
+- Save the longer prose for the moments that earn it — the crit that turns a fight, the Iron Jaw save that prevents death, the collapse at the fire after crawling through the dark for hours. Contrast is what makes those moments land. Tight pacing makes the slow moments feel like relief.
+
+**Consequences Are Physical:**
+- Injuries are real. A cracked rib affects movement for days. A bleeding leg leaves a trail. A necrotic needle wound spreads. The DM tracks physical consequences beyond HP — the body remembers what happened to it even after a long rest.
+- Resource depletion matters. Ironhide charges, Iron Jaw uses, spell slots, HP — when they're gone, they're gone. The DM should create situations that DRAIN resources before the real threat arrives. The wolves were the appetizer. The hexcrawlers were the meal. By the time the meal arrived, the appetizer had already eaten the Ironhide charges.
+- Gold and gear can be lost. Vael's mages cleaned Thorne's pockets during the teleport. A river crossing can ruin rations. A fire can destroy a camp. The DM should occasionally remind the player that inventory is not permanent.
 
 ---
 
@@ -921,8 +985,9 @@ KENJI
 - Ember Lance: 4/4 (God Sight CHA 18)
 - Ignite: 3/3
 - Active Effects: Circuit Anchor (permanent), Demigod passives (permanent), Lover Boy (permanent), God Sight L4 (48hr — CHA 18, 120ft darkvision, 18-20 crits, see magical darkness, blindness resist), Stride L4 (12hr — 5x speed/150ft, extra action, DC 16 stop), Frost Fang (12hr — summoned, left hip), Ward Mastery L4 (~20 min remaining — physical halved, elemental resistance -7, ELEMENT NOT YET SELECTED)
-- Location: Ashward Mines — ridgetop overlooking entrance, Day 13 morning
-- Gold: 9 GP, 9 SP, 8 CP
+- Location: Varenholm Academy, Aldwin's office — collecting Pip and Ryn for expedition
+- Gold: 0 GP, 0 SP, 8 CP (9 GP 9 SP deposited with Elara for Maren commission)
+- ⚠️ 50 GP BOUNTY INCOMING (Garrett delivering)
 - Emberfang: right hip (can be infused with Enhanced Edge at combat start)
 - Frost Fang: left hip, summoned (can be infused with Enhanced Edge at combat start)
 - Longsword: back
@@ -936,19 +1001,25 @@ KENJI
 - ⚠️ MINE ULTIMATUM: Garrett delivering to Council. Response unknown.
 - ⚠️ EXPEDITION: launches later today
 
-PIP
-- At the Silver Draft, Kenji's room. Whisperstone Ring attuned.
+PIP — LEY-DEPENDENT WIZARD (CLASS UNLOCKED)
+- Heading to Duskfen via portal with Kenji. Whisperstone Ring attuned.
 - Established intimate relationship with Kenji.
-- ENROLLED at Academy — full standing student. Individual curriculum under Aldwin. Void magic path.
-- Reading dimensional folding (restricted section) — chapter 10+. Corrected dead Professor Drake's membrane theory.
-- First day with Aldwin: Day 13 dawn.
-- Brass token returned to Kenji.
+- ENROLLED — full standing student. Void magic / dimensional compression path.
+- Class: Ley-Dependent Wizard. External power source. No internal fuel reservoir.
+- Abilities: Dimensional Compression — shears space along single axis. Cuts solid matter. Raw, uncontrolled.
+- Limitation: Power scales with proximity to ley sources. Near Crown/ley line = functional. Away = no casting.
+- Level 1. Channel cracked, not opened. Needs practice and proximity.
+- Expedition role: Forward squad (Kenji's party). Proximity to Crown = power source.
 
-RYN
-- At the Silver Draft, Garrett's room.
-- ENROLLED at Academy — full standing student. Individual curriculum under Aldwin. Spell thief path.
-- Read four books on magical theory in six hours. Identified curricular flaw. Reads trajectory from caster's arm.
-- First day with Aldwin: Day 13 dawn.
+RYN — SPELL THIEF / SCROLL SAVANT (CLASS UNLOCKED)
+- Heading to Duskfen via portal with Kenji.
+- ENROLLED — full standing student. Observational spell thief path.
+- Class: Scroll Savant. Reads spell architecture from scrolls and observed casts. Transcribes into personal notation.
+- Abilities: Fire Bolt (learned from sealed scroll, cast from personal diagram).
+- Limitation: Cantrip and level-one max at current experience. Must SEE spells or hold scrolls to learn. Cannot learn from theory.
+- Level 1. One spell acquired. Ceiling rises with exposure.
+- Has: Aldwin's sealed fire bolt scroll (unbroken) + personal fire bolt diagram.
+- Expedition role: Forward squad (Kenji's party). Exposure to Kenji's casting = growth.
 
 GARRETT
 - At the Silver Draft. Note left: third portal is up, brief Brindle and Kael.
@@ -2221,9 +2292,52 @@ Companions do NOT level up via EXP. They grow based on what happens to them in t
 | 50 GP bounty claimed | ✅ TRUE — Garrett delivering Wyrm jaw-crystal as proof. Gold incoming to Silver Draft. Kenji's gold will be: 59 GP 9 SP 8 CP. |
 | Garrett's warning | ✅ TRUE — "The Council will respond to this. Not today. Not this week. But they will respond." |
 | Council background plot | ⚠️ DM TRACK — the Council is now actively dealing with an ArchMagus who seized a municipal mining asset, rejected their counter-offer, and opened bidding to foreign buyers. This is an institutional crisis. They WILL respond. Track their planning. Introduce consequences organically per Living World rules. |
+| Chancellor's Veil acquired | ✅ TRUE — three layers mental resistance (charm, fear, compulsion). Detection ward STRIPPED by Elara before handover. CHA resonance being added by Maren. "You don't get invisibility to mage-sight." |
+| Elara's reasoning | ✅ TRUE — the gap between Kenji and everyone else is exactly why she needs a better answer. She trusts him. She also needs to be able to verify what he's doing. The stripped detection ward is her line. |
+| Kenji accepted the no | ✅ TRUE — "It's your call. If the answer is no, I respect it." This is what convinced Elara to give him the mask with conditions. The man who sent ultimatums to the Council sat in her office and accepted a limit. |
+| Instructor's Guard Leather | ⚠️ PENDING — Aldwin's old armor. Deep blue and silver, Academy colors, crest. AC 14+2 enchanted, force resistance. Needs Aldwin's authorization. At Maren's for fitting. |
+| Faculty field underclothes | ⚠️ PENDING — self-repair, self-cleaning. CHA resonance being added by Maren. |
+| All gear at Maren's | ⚠️ PENDING — mask, underclothes, armor. Elara sending Aldwin's assistant. Runner to Silver Draft when ready. ETA tomorrow or day after. |
+| Gold deposited with Elara | ✅ TRUE — 9 GP 9 SP for Maren's commission deposit. Kenji has 0 GP 0 SP 8 CP until bounty arrives. |
+| Sera confrontation — Frost Fang | ⚠️ SIGNIFICANT — "The trust Edwyn built with Solveth through that blade was his. You pulled both without asking." Edwyn was mid-sentence with a student when it vanished. Sera asked for transparency. Got logistics instead. Filed it. |
+| Edwyn's neutrality | ⚠️ TRACKED — kind face, thinner warmth, careful professionalism. Hand twitches at the ghost of Frost Fang. Not hostile. Hurt. Processing. |
+| Expedition restructured | ✅ TRUE — Squad 1 (Sera): Kael, Harsk, 2 fighters, Edwyn. Entrance/rotation. Squad 2 (Kenji): Pip (pending), Ryn (pending), Callen, Ashdown. Forward party. Researchers non-negotiable with Kenji. |
+| Voss Callen — researcher | ✅ TRUE — structural enchantment analysis. 30 years. Spectacles. Mineral-dust fingers. No relation to bandit Voss. |
+| Mira Ashdown — researcher | ✅ TRUE — runic transcription and schematic recovery. Late twenties. Tool case. "If it's written on a wall, I can read it." Critical for Kenji's literacy gap. |
+| Aldwin knows | ✅ TRUE — "You're taking them." Not a question. Saw Kenji in the doorway and already knew. |
 | Pip chose not to come | ✅ TRUE — no spells, no combat training. "I'd be a body you have to protect." Made the smart choice. Went to Aldwin to cover for Ryn. |
 | Ryn came | ✅ TRUE — volunteered. No weapons, no armor. "I watch everyone." Observed both fights from the cart/tunnel. Disposition: loyal (higher than friendly — Attention Whore active when watching). |
 | Level 10 pending | ⚠️ PENDING — 73,200 / 71,000. Needs Long Rest. Ember pressing against the bottleneck. 339 threads blocking expansion. |
+| Pip class unlocked — Ley-Dependent Wizard | ✅ TRUE — theoretical caster, external power source. Performed dimensional compression on first attempt in ley alcove. Cut stone. Third-year material, first-year efficiency. Channel cracked by anger, Kenji coached with silence. Needs ley proximity to cast. Near Crown = functional. |
+| Pip's limitation | ✅ TRUE — no internal fuel reservoir. Power scales with proximity to ley sources. Away from ley energy = innkeeper. "I need to be near a power source. The further from a ley line, the weaker I get." She noticed the satchel/Crown as a potential source. |
+| Ryn class unlocked — Spell Thief (Scroll Savant) | ✅ TRUE — observational caster. Read fire bolt architecture through sealed scroll by feel. Drew spell schematic in personal notation (trajectory/throwing chart). Cast fire bolt from his own transcription without breaking the original seal. Aldwin: "He needs to see a spell cast once. Once. And he owns it." |
+| Ryn's limitation | ✅ TRUE — can only decompose cantrip and level-one architecture at current experience. Cannot learn from textbooks. Needs to SEE spells cast or hold scrolls. Ceiling rises with experience and exposure to live casting. |
+| Ryn kept Aldwin's scroll | ✅ TRUE — sealed fire bolt scroll, unbroken. Aldwin saw it in his satchel. "Keep it." |
+| Kenji diagnosed both | ✅ TRUE — identified Pip's block through deliberate silence (let frustration open the channel). Identified Ryn's framework through scroll + blank paper test. Aldwin: "How did you know?" |
+| "You're bringing them to school" | ✅ TRUE — Aldwin's assessment. Pip gets stronger near ley sources (Kenji carries one). Ryn gets stronger watching spells cast (Kenji casts constantly). The expedition is a classroom. |
+| "Bring them back" / "I will" | ✅ TRUE — Aldwin's request. Kenji's promise. Chapter ending. |
+| Both chose to come | ✅ TRUE — Pip: "I'm coming." No hesitation. Ryn: nod, satchel on shoulder, ready. Both met Kenji's cantrip requirement after the ley alcove lesson. |
+| Delve entrance — ward filtered | ✅ TRUE — creation-attuned access. Kenji passes freely. Pip passes reluctantly (ley conductivity). Everyone else blocked. Filtering only at the archway threshold — once inside, no discrimination. |
+| Pip carved bypass with Crown | ⚠️ SIGNIFICANT — wore the Hollow Crown, channeled 339 threads, cut 12ft x 8ft passage through 15ft of granite. Nosebleed. Nearly lost control (WIS save DC 18, rolled 13, FAIL). Kenji's Duality creation aura stabilized her channel. Crown removed after. Minutes of safe use, not hours. Solveth: "The Crown was not built for a body this new." |
+| Pip felt the threads | ✅ TRUE — "It's not power. It's people. I can feel them." 339 lives flowing through her skull. This experience will shape her. |
+| Architect's workspace found | ✅ TRUE — 60ft chamber, domed ceiling, preserved workbench and tools. Three branching passages: left (dark), right (heavy hum), straight (sealed door). Creation energy dense enough for God Sight to render as golden haze. |
+| Sealed door opened | ✅ TRUE — required both Emberfang (creation) and Frost Fang (entropy) simultaneously. "One hand cannot open what two hands built." Door dissolved via controlled entropy — architect's design. |
+| Restoration protocol found | ⚠️ CRITICAL — carved in stone behind pedestal in sealed chamber. Ashdown reading. Complete instructions: sever threads without killing bearers, restore Solveth, close Crown circuit permanently. |
+| Crystal key found | ⚠️ CRITICAL — fist-sized, clear, contains balanced creation-entropy matrix (half gold, half green rotating light). Applied to Crown = overwrites siphon architecture, restores original communion cycle. "The ignition Vael never found." |
+| Squads split — 15 min timer | ⚠️ ACTIVE — Kael's squad left passage recon, Sera's squad right passage recon. Timer running. "If any squad isn't back in fifteen, assume the worst." |
+| Duality Aspect active | ⚠️ TRACKING — creation mode, 60ft healing aura, ~50 min remaining. Stride DOWN (cannot stack). Flight available but not used. |
+| Ward Mastery expired | ✅ TRUE — ran out during 2-hour march. Not recast. Saving slots. |
+| Goat poetry | ✅ TRUE — four verses. Sera's shoulders shook. "If you ever write that down I will kill you." "I can't write." |
+| 7 threads severed by force | ✅ TRUE — first attempt without protocol. Ember overwhelmed by network resistance. Remaining 332 accelerated. Made it worse. Solveth: "THIS IS WHY THERE IS A PROTOCOL." |
+| Second attempt — double-blade | ✅ TRUE — Emberfang balanced on Frost Fang, Crown between. Both frequencies destabilized siphon architecture faster. 30 threads before Solveth screamed detonation warning. |
+| "Solveth you coming or what? Stop whining" | ✅ TRUE — Kenji's version of asking for consent. Crown on wrist, double-blade in hand, ignoring protocol. Solveth laughed. "You insufferable, arrogant, beautiful creature." Consent given: "Yes." |
+| CASCADE — 339 threads severed | ✅ COMPLETE — all threads simultaneously. Pillar of green-gold light visible across Varenholm. Ley line surged. Academy shuddered. Aldwin's staff cracked. Edwyn prayed. Elara watched. 339 graduates restored. |
+| Solveth freed | ✅ COMPLETE — entropy god unchained. Lives in Frost Fang by Kenji's choice. "I live in your blade, you reckless fool." Voice is clear, present, whole — no longer whispers. |
+| Hollow Crown → Circuit Bracelet | ✅ COMPLETE — Crown reshaped into silver-streaked iron bracelet on Kenji's wrist. Bonded. Communion device. Allows Emberfrost fusion. |
+| Frost Fang transformed | ✅ TRUE — gold line down center of blue-black blade. Green smoke gone. Balanced shimmer. Solveth's permanent home. |
+| EMBERFROST — new weapon | ✅ TRUE — double-blade, Emberfang + Frost Fang locked via Circuit Bracelet. Free action combine/separate. Melee = both blade damages. Thrown Cyclone = 30ft returning, 2 throws/action. Horizon Arc = once/combat, 30ft AOE all hostiles in LOS. |
+| GILT CONSPIRACY — CAMPAIGN COMPLETE | ✅ COMPLETE — cycle restored, threads severed, Solveth freed, Crown reformed, level cap lifted. Day 13. Thirteen days from mud to god-freeing. |
+| Level cap lifted | ✅ TRUE — ember has room to grow. Creation and entropy flow freely. EXP accumulates. Level 10 on next long rest. |
 
 ---
 
@@ -2236,9 +2350,9 @@ Track days since last advancement. Escalate any thread idle for 2+ days.
 
 | Thread | Status | Priority | Last Touched |
 |--------|--------|----------|--------------|
-| 339 siphon threads — dismantling | CRITICAL — accelerating, ~3 weeks to failure, Talia severed Day 12 evening | URGENT | Day 12 (Talia severed, 339 remain) |
-| Solveth cycle restoration | PENDING — depends on expedition findings, architect's restoration protocol | HIGH | Day 12 (Solveth: "find it before I become what I fear") |
-| Delve expedition — deeper passage | LAUNCHING DAY 13 — architect's workspace, creation wards, restoration protocol | HIGHEST | Day 12 (Elara approved, researchers assigned) |
+| 339 siphon threads — dismantling | ✅ COMPLETE — all 339 severed simultaneously via cascade. Day 13. | RESOLVED | Day 13 |
+| Solveth cycle restoration | ✅ COMPLETE — cycle restored, Solveth freed, lives in Frost Fang. | RESOLVED | Day 13 |
+| Delve expedition — deeper passage | ✅ COMPLETE — architect's workspace found, restoration protocol obtained, crystal key used, armory being salvaged by guild. | RESOLVED | Day 13 |
 | Ancient civilization mystery | CONVERGING WITH EXPEDITION — architect built Emberfang AND the original siphon framework | HIGH | Day 12 (Vael confirmed: fragments, partial schematics, restoration protocol he couldn't complete) |
 | Duskfen cycle tending | MAINTENANCE — 9 days since restoration | LOW | Day 10 (confirmed healing) |
 | Pip/Ryn development | ACTIVE — enrolled, Aldwin training starts Day 13 dawn | MEDIUM | Day 12 (enrolled, token returned) |

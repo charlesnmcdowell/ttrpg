@@ -11113,3 +11113,766 @@ End of Book 1
 
 Start of book 2 : 
 
+# KENJI — BOOK TWO: *The Descent*
+
+---
+
+*Thirteen days ago, a man woke face-down in mud in a world he doesn't remember arriving in. His name is Kenji. The warmth at the base of his skull is creation — one half of the cosmic engine that built the world.*
+
+*In thirteen days he has: killed his first monster with a borrowed axe. Earned a sword from a blacksmith. Tamed a creature of entropy. Stabilized a dying god. Built a mercenary guild. Discovered the Chancellor's twelve-year siphon of 347 graduates. Seized the Hollow Crown and overwrote its anchor with his own soul. Became Academy Champion. Built a portal network. And looked his most loyal contractor in the eyes and said: "I'm the new asshole in charge."*
+
+*339 threads are still feeding. The expedition into ancient ruins launches today. And the City Council is about to learn what new management looks like.*
+
+---
+
+## Chapter One — *What Lives in the Dark*
+
+## Day Thirteen — Morning
+
+---
+
+Dawn. The Silver Draft. Both swords on my hips. The ember sits deeper than it did yesterday. Wider. The magic knows what it is now.
+
+Pip is cross-legged on the bed. Dimensional folding. Past chapter ten.
+
+I run the inventory. Nine gold, nine silver, eight copper. Twenty-six meals in the satchel. Six and a half days of food.
+
+"How much would enchanted underclothes cost? Self-repair, self-cleaning, charisma resonance. And a mask — shows eyes and hair, charisma boost, layered mental resistance."
+
+She runs it like a ledger. Self-cleaning is cheap. Self-repair is skilled work. Resonance weaving is precision. The mask is worse — layered abjuration, rare base materials.
+
+"Fifty gold for both. You have nine."
+
+"Wow, Pip — you are so smart and knowledgeable about enchantments and trade."
+
+The faintest flush. "I run an inn. I know what things cost. That's not smart — that's survival."
+
+She's smiling when I gather my gear.
+
+---
+
+Garrett's room. Supply manifests and expedition logistics.
+
+"That's your 'I need something unreasonable' face."
+
+"What kind of work does the Broken Antler have that's risky enough to pay sixty to a hundred gold and leave me time to join the expedition?"
+
+He lays it out. The guild is a week old. Nothing on the board pays sixty gold for a morning's work.
+
+"That said."
+
+A crumpled notice from under the manifests. Council bounty board. The Ashward Mines — fourteen miles northwest. Something moved in three weeks ago, killed six workers.
+
+"This came through two days ago. I didn't bring it to you because the timing was wrong — you had the gauntlet, the Council session, the siphon work. The expedition is the priority." He smooths the parchment. "But since you're asking for sixty-gold morning work, this is what exists."
+
+Fifty gold. Proof of kill.
+
+---
+
+I tell him the plan. Not the bounty. The mine itself. Claim it. Portal it. New management. Two hundred gold to the Council. One hour deadline. Triple wages for miners.
+
+He explains — carefully — that the mine is a registered municipal asset. That seizing it burns every alliance I've built in two weeks.
+
+I adjust. Not theft — a more efficient company claiming an idle resource.
+
+"I'm asking you — as the man who left Voss because he saw where 'take what you want' leads — to think about who you want to be when this is over."
+
+---
+
+"Garrett. I didn't come this far because I'm a nice guy. I came this far because no one has killed me. Yet."
+
+"I'll do what I can for the little guy. But I could care less about those rich noble assholes in their academies, councils, and whatever else."
+
+The air drops ten degrees. Frost Fang materializes — blue-black steel, green smoke. Pulled from across the Academy. From Edwyn's table. Mid-sentence with a student.
+
+"I'm the new asshole in charge. And whoever disagrees can come have a chat."
+
+---
+
+Garrett delivers the ultimatum. I go collect Ryn.
+
+Pip first. My room. I tell them about the mine.
+
+"If you know a basic spell to defend yourself with, come and use that. If not, head to Aldwin's class. I'll excuse the absence — we can call this special training from the ArchMagus himself. But I understand if either of you don't want to come."
+
+Pip closes the book.
+
+"I don't have spells, Kenji. I've been reading theory for two days. I can't fold space. I can't make a shield. I can't cast anything."
+
+"I'd be a body you have to protect, not an ally who helps you fight. And you just told me you promise we'll be safe — which means you're already thinking about keeping me alive instead of thinking about the creature."
+
+"I want to come. I'm telling you I shouldn't. Not yet."
+
+---
+
+Ryn is in his doorway. Satchel packed.
+
+"I don't know any spells either. But I can throw a rock accurately and I can read what a creature does before it does it. I'd be more useful watching you fight than sitting in Aldwin's classroom learning from a book. Aldwin teaches theory."
+
+He picks up the satchel.
+
+"You are the practice."
+
+One honest no. One quiet yes. I give them both horses. Pip rides to the Academy. Ryn rides northwest.
+
+I cast God Sight. Stride L4. Through the western gate before the guards finish their shift change.
+
+---
+
+The Ashward Mines. Forty minutes at 150 feet per second.
+
+Abandoned work buildings. An overturned wheelbarrow. A pickaxe mid-swing in a log. A single boot in the gravel.
+
+Two sets of scratches on the timber frame. Newer ones going in — sharp, deep. Older ones from inside — wider, worn smooth. Two creatures.
+
+I wait for Ryn. Eat from the satchel. Check the outbuildings. Take sixty feet of rope and two torches from the tool shed.
+
+Forty-three minutes. Ryn dismounts. Badly. The horse sighs.
+
+He looks at the entrance for fifteen seconds.
+
+"Two creatures?"
+
+---
+
+I tie the rope from my waist to the ore cart. Tell Ryn to get in.
+
+"You're going to pull me."
+
+"At speed. Stay low."
+
+Ward Mastery L4 — lightning resistance. The ozone told me what I needed to know.
+
+I run. The mine shaft swallows us. God Sight opens the darkness — 120 feet of perfect vision in absolute black.
+
+A junction. Main tunnel straight, side tunnel left. A broken ore cart. Claw marks.
+
+The side tunnel has webs. Not spider silk — translucent sheets. Bones. A boot. The match to the one outside.
+
+I cast Radiant Edge on Emberfang. Golden-white light floods the mine. Ryn's first sight of the tunnels.
+
+"Not spider," he says. "Wrong structure. Sheets, not radial patterns."
+
+"Stay in the cart. If anything comes from the main tunnel — yell."
+
+---
+
+The Prowler. Side tunnel. A natural chamber. Eight legs, six feet of tarnished silver chitin, four eyes — two blind, two glowing blue. Ley-sensitive. Hiding from whatever lives deeper.
+
+Three hits. Frost Fang through the flank. Emberfang trailing — creation fire in the cracked seam, the creature igniting. Emberfang again — overhead, God Sight crit on natural 18, the golden blade splitting the head.
+
+The webs catch fire. The chamber burns behind me.
+
+"It's dead?"
+
+"It's dead."
+
+---
+
+The Wyrm. Full Stride. Cart screaming.
+
+God Sight finds it at 120 feet. A cavern — sixty feet across. A ley tributary surfacing at the center. Coiled around it — thirty-five feet of gunmetal serpent crusted with silver mineral deposits. Eyeless. Pit-organ sensors. A ridge of crystallized silver along the spine crackling with electrical discharge.
+
+A biological lightning cannon. Wounded — the Prowler's work, weeks old. Feeding on the ley energy to recover.
+
+The Stride stop doesn't hold. I overshoot ten feet into the cavern. The cart slams into the transition and stops. Ryn jolts forward.
+
+I dust myself off.
+
+"Ryn... you didn't see that when retelling this story to Pip."
+
+From the cart, quiet: "See what?"
+
+The spine ridge flares. The jaws open — a silver-lined cavity of concentrated lightning. Aimed at me.
+
+The bolt crosses sixty feet. Ward Mastery catches seven points. The rest punches through.
+
+Three rounds until it fires again. Enough.
+
+"Ryn. Stay there. Keep watch. I'm going to show you a new lesson."
+
+God Sight finds the weakness. The spine ridge — a biological capacitor. Two-thirds down the body, where the Prowler scarred the flank, the crystalline structure is fractured. The bottleneck.
+
+Stride. Seventy feet. Both swords drawn.
+
+Frost Fang leads. Natural 19 — God Sight crit. The cold detonates inside the capacitor. The ridge shatters. The charging pulse dies.
+
+Emberfang trails. Golden-white radiance flooding the crater. The wound ignites.
+
+Frost Fang. Stride extra action. Natural 20. The blade buries to the crossguard. Ice crystallizes along the spine in both directions. The entropy edge unmaking the nervous system.
+
+The head rises one last time. The jaws open with nothing to fire. They close. Thirty-five feet of serpent hitting the cavern floor.
+
+---
+
+Ryn. From the tunnel mouth.
+
+"Three things. You identified the weakness before you engaged. You used the Prowler's old wound. And you stayed close instead of retreating because I was behind you."
+
+A pause.
+
+"That last one isn't a combat lesson. That's a different kind."
+
+---
+
+Portal Gateway. Ten minutes. The fourth golden archway. Varenholm. Duskfen. Broken Antler. Ashward Mine. Four doors.
+
+We step through to the Academy. Ley line refill. Buffs renewed.
+
+---
+
+Garrett's room. A single document. Council seal.
+
+"The mine?"
+
+"Cleared. Both creatures. Portal built."
+
+"The Council declined the ultimatum. Counter-offering a management contract. Twelve percent of ore output."
+
+"No deal. Give me the fifty gold. The mine is mine. They missed the deadline. Bidding starts at three times the old price. Open to any buyer including neighboring territories. We pay standard taxes. We're not criminals. We're entrepreneurs."
+
+He wraps the Wyrm jaw-crystal for proof. Heads for the door. Pauses.
+
+"The Council will respond to this, Kenji. Not today. Not this week. But they will respond."
+
+He leaves.
+
+---
+
+## Chapter Two — *Dead Men's Gear*
+
+## Day Thirteen — Late Morning
+
+---
+
+The Academy. Elara's office.
+
+I drop into the chair across from her desk. Hands behind my head. One leg crossed.
+
+"You're sitting in Professor Harwick's chair. He's been dead for six years. Nobody sits there." A beat. "Until now, apparently."
+
+"I need gear before the expedition. Enchanted underclothes and a mask."
+
+The vault has standard faculty field gear. The resonance weave is rare — she's seen one piece in twelve years. The mask is a different story.
+
+"Layered mental resistance. The Academy made exactly three. One was lost. One is in the vault. One —"
+
+She looks at Vael's portrait.
+
+"One was Marius's."
+
+"Give me the base pieces from the vault. Have someone take them to Maren for the resonance work. The gold on my desk covers the deposit."
+
+Nine gold, nine silver, eight copper. She sweeps the coins. Three notes. Field gear and mask to Maren. Runner when ready — tomorrow, possibly the day after.
+
+The Chancellor's Veil on the desk. Black cloth. Silver threads. Moonstone.
+
+"That leaves this. Make your case."
+
+---
+
+"I need the best gear possible if I'm going into danger on behalf of the Academy."
+
+"That's not a case. That's a sentence. This is the reason a man hid what he was for a decade. The detection ward makes the wearer invisible to mage-sight. Tell me why that shouldn't concern me."
+
+"Did she just compare me to combat mages... I surpassed them my first day."
+
+The laugh bounces off stone. Elara doesn't join it.
+
+"You did. And that's exactly why I need a better answer."
+
+"It's your call, Elara. If the answer is no, I respect it."
+
+I stand.
+
+Six seconds.
+
+"Sit down."
+
+She picks up the mask. Sets it on my side of the desk.
+
+"Mental resistance stays. Detection ward — I'm disabling it. Charm, fear, and compulsion resistance. Not invisibility to mage-sight."
+
+---
+
+"Now — armor. Instructor's Guard Leather. Commissioned for Aldwin twenty years ago. Deep blue and silver — Academy colors. Enchanted. Better than what you're wearing."
+
+A fourth note. Everything to Maren. Runner when ready.
+
+"Anything else, or can I get back to saving the institution you keep making my job harder for?"
+
+"Can't be any more difficult than having your magic sucked up by Vael's. Thanks for the assist, partner."
+
+I wink. The ink blot on her left hand grows half a centimeter.
+
+"Get out of my office."
+
+---
+
+The eastern training grounds. The expedition staging.
+
+Sera is at the portal arch. Arms folded. Her eyes drop to Frost Fang on my left hip. She doesn't comment.
+
+Edwyn beside her. Crossbow. He sees Frost Fang. His hand twitches once. "Kenji." Polite. Professional. Thinner than it used to be.
+
+"You're late. You smell like ozone. And you have a sword that belongs to our priest. Is there anything I should know, or are we doing the thing where I find out mid-expedition?"
+
+---
+
+"Interesting. The sword is a summoned weapon. I belong to the priest?"
+
+"The sword is yours. The trust Edwyn built with Solveth through that blade was his. You pulled both without asking. This morning it vanished from his hands mid-sentence while he was talking to a second-year who wanted to know if entropy would eat her soul."
+
+"I don't know what's in the Delve. Threw a rock once and I know it's big. When do we leave?"
+
+She asked about trust. She got logistics.
+
+"Now. Two hours on foot. Normal pace — the researchers don't have magical boots." She turns to the specialists. "Names. Specialties."
+
+"Voss Callen. Structural enchantment analysis. Thirty years." He notices my expression. "No relation."
+
+"Mira Ashdown. Runic transcription. If it's written on a wall, I can read it."
+
+Useful for a man who can't read anything.
+
+"Kenji leads. I run the fighters. Questions?"
+
+---
+
+"I agree with the plan. But I'll be leading a different squad. Pip and Ryn."
+
+"Pip and Ryn. The innkeeper with no spells and the young man from the mining cart."
+
+"The decision is theirs. I'm confident I'll keep them safe."
+
+"Fine. Their choice."
+
+"I've already said they'll be in a party I'm leading..."
+
+The grin.
+
+"Two squads. Mine holds the entrance. Yours goes deep with the researchers." She holds up a finger. "The researchers stay with you. Non-negotiable."
+
+I snap a salute. Sera's eye twitches.
+
+I fall in beside Edwyn. The corner of his mouth betrays him.
+
+"You enjoy that," he says quietly.
+
+---
+
+Duskfen. The Broken Antler.
+
+Kael sees me step through. "ArchMagus. Squad's ready. Brindle sends her regards and says 'try not to acquire any more real estate while you're down there.'"
+
+Word travels fast.
+
+Back through to Varenholm. Aldwin's office. Both of them on the bench. Staff across his knees.
+
+"You're taking them."
+
+Not a question.
+
+---
+
+## Chapter Three — *The Crack and the Copy*
+
+## Day Thirteen — Late Morning
+
+---
+
+"Only if they want to come." I look at Aldwin. "Any noticeable gains?"
+
+He looks at Pip. "She asked me a question about dimensional compression that a third-year couldn't formulate. The channel isn't open."
+
+He looks at Ryn. "He described your technique from the mine in more detail than most combat students manage after a semester. He can't cast. But he reads everything."
+
+"Neither gained power. They gained perspective." He stands. "The question is whether you're ready to keep them alive where I can't reach them."
+
+---
+
+"It's up to you guys. But this will be dangerous. Need to be able to cast an offensive spell. A cantrip at least."
+
+Pip looks at her hands. "I can't. Not yet. I know the math. I know the theory." She holds up her palm. Nothing. "I don't meet your requirement."
+
+Ryn pulls a stone from his satchel. Throws it. Cracks Aldwin's wall. Normal throw. Nothing magical.
+
+"Not yet. But I can feel where the edge is."
+
+---
+
+"Oh I see you guys' problem. I had the same issue. I know what's wrong."
+
+I stand there. Not explaining. Twenty seconds.
+
+Pip breaks. "You're not going to tell us."
+
+The fists ball. The frustration rising. The anger moving through her body like —
+
+Like a channel opening.
+
+"Exactly, beautiful. Now follow me over to this ley line and try that again."
+
+---
+
+The ley alcove. Pip at the edge. The frustration still on her face. The ley energy washing over her.
+
+"What do I do?"
+
+"Let it out."
+
+She's thinking too hard. "Stop THINKING, Pip. You don't think about lifting a barrel. You just lift it."
+
+The dam cracks. The air between her palms folds — a ripple, a shimmer, three dimensions becoming two for a quarter-second. A pop of displaced air.
+
+On the stone floor — a line. Razor thin. Two feet long. Stone sheared along the compression axis.
+
+Aldwin straightens. "That is not a cantrip."
+
+---
+
+"You're not a sorcerer. You're a wizard, Pip! The theory IS the casting. What you've been missing is the fuel." I stamp the floor. "It's right here beneath your feet."
+
+"Sorcerers generate. Wizards conduct." She stamps the floor. "You have an ember. I have this."
+
+Aldwin: "Third-year material at first-year efficiency. But she's ley-dependent. Near a source — dangerous. Away from one —"
+
+"She's an innkeeper again," Pip finishes. She looks at the satchel. "Unless I'm near something else that generates."
+
+---
+
+Ryn. Staring at the cut. The geometry.
+
+"I saw what she did. The shape. But I can't reach it."
+
+Aldwin: "Different problem. Theory without fuel versus instinct without framework."
+
+"Aldwin. Do you have a scroll of fire bolt? Give it to Ryn. Don't cast."
+
+He holds the sealed scroll. Five seconds. His breathing changes.
+
+"Heat. Inside it. The shape — it's like a throw. Origin, arc, destination. A straight line with rotation. Like a fastball with spin."
+
+Aldwin: "He's reading spell architecture through a sealed scroll. By feel."
+
+"Give him a blank scroll and a quill."
+
+Ryn draws. Not words. Not arcane notation. Lines. Curves. A trajectory mapped in ink. A throwing chart. Thirty seconds.
+
+Aldwin picks it up. His hands aren't steady.
+
+"This is fire bolt. In a notation system that doesn't exist. And it's accurate."
+
+---
+
+"Cast it at the training dummy."
+
+Ryn's right hand comes up — a throwing stance, not a casting position. The air between his palm and the dummy ignites. Compressed heat crossing forty feet. The straw catches.
+
+"I didn't use the scroll."
+
+"No. You used your copy." Aldwin takes back the sealed scroll — unbroken. "He's a spell thief. He reads architecture by observation and reproduces it. He needs to see a spell cast once. Once. And he owns it."
+
+I nod. "Cantrips and level one at his current experience. He's a scroll savant."
+
+Aldwin looks at Ryn. At Pip. At me.
+
+"Pip gets stronger near ley sources — you carry one. Ryn gets stronger watching spells cast — you cast constantly. You're not bringing them for protection. You're bringing them to school."
+
+---
+
+"Keep developing your talents. It's up to you, but it's time for me to head out."
+
+Pip tucks the textbook under her arm. "I'm coming."
+
+Ryn folds the diagram. Puts it in his satchel beside the sealed scroll Aldwin didn't give him but he somehow still has.
+
+Aldwin: "Keep it."
+
+The three of us walk toward the portal.
+
+"Kenji."
+
+I stop. Turn.
+
+"Bring them back."
+
+"I will."
+
+---
+
+## Chapter Four — *What Two Hands Built*
+
+## Day Thirteen — Afternoon
+
+---
+
+Ley alcove. Slots topped. Portal. Duskfen.
+
+I catch up to Sera. Match her stride. Six inches closer than tactical spacing.
+
+"You're in my spacing."
+
+"I feel safer next to you."
+
+"You soloed a Ley Wyrm this morning."
+
+"Terrified."
+
+---
+
+An hour in. Cloud bank from the west. Temperature drops. Rain starts.
+
+My stomach tightens. Four hours since breakfast. I eat while walking.
+
+"That's your third meal and it's barely past noon."
+
+"Fast metabolism."
+
+"That's not a metabolism. That's a furnace."
+
+Ward Mastery fades mid-march. Saving slots.
+
+I clear my throat.
+
+"There once was a man from the hills, whose wife tended goats by the rills. One morning she vanished — the herd looking famished — and all that remained were her frills."
+
+"He searched through the meadow and glen, he questioned the chickens and hen. The goats merely chewed, looking rather subdued — they'd developed a taste beyond grain."
+
+"He confronted the billy goat king, who sat on a fence made of string. 'Where's my wife?' asked the man. The goat licked his hand — and burped up her favourite earring."
+
+"He mourned her with dignity and grace. He planted some flowers in place. But the goats ate those too — as goats tend to do — and left him with nothing but space."
+
+Sera stops the formation at the Delve entrance. Turns to me.
+
+"If you ever write that down, I will kill you."
+
+"I can't write."
+
+Her shoulders shaking. The combat lead facing away so nobody sees. Ryn whispers to Pip: "Is he always like this?" "Always."
+
+---
+
+The archway. Fifteen feet tall. Ancient. Pre-Academy. God Sight reads 120 feet of carved corridor.
+
+Callen: "Self-sustaining wards. Could last another thousand years."
+
+Ashdown traces the header script: "'The cycle remembers what the world forgets. Enter in balance or do not enter.'"
+
+Sera reaches for the threshold. Pushed back. Edwyn. Pushed back. Everyone pushed back except me and Pip — the ley energy she's conducting gives her enough creation-adjacent signature.
+
+The researchers can't get in.
+
+---
+
+"Pip — can you cut an entrance?"
+
+Callen checks the walls. Ward architecture threads through the stone near the archway — self-repairing. But twenty feet out, it drops off.
+
+"If she can cut deep enough."
+
+I pull out the Crown. Sera's hand on my wrist instantly.
+
+"No."
+
+"Everybody stop being so jumpy. Vael wore this for twelve years. The trick is moderation. Channel what you can, Pip. Pour a glass. Not the tap."
+
+She puts on the Crown. 339 threads flooding a channel cracked open an hour ago. The spatial distortion expanding — rain freezing between her palms, grass shearing at her feet.
+
+"PIP. A glass."
+
+She holds it. Barely. Turns to the hillside. The compression field shears through fifteen feet of granite. Twelve feet wide. Eight tall.
+
+"Pip is more than stable. She is a badass spatial mage! Did you see how big that opening was? Crazy work right there."
+
+I take the Crown off her head. Back in the satchel.
+
+"I'm fine," she says. She's not fine. But she's standing.
+
+---
+
+The expedition files through. The wards accept everyone from inside.
+
+The corridor descends. Creation energy thickening. Pip strengthening with every step. Ryn watching Sera's combat footwork. Learning.
+
+The corridor opens.
+
+A chamber. Sixty feet across. Domed ceiling. Walls covered in carved script. A workbench at the center — tools, instruments. The architect's workspace.
+
+Three passages. Left — dark. Right — a lower hum. Straight ahead — a sealed stone door.
+
+Ashdown reads the script: "'One hand cannot open what two hands built.'"
+
+Sera studies the three passages. "The sealed door needs you. Researchers go with Kenji." She points left. "Kael. Recon. Fifty feet." Points right. "I take the right. Fifteen minutes. If any squad isn't back, assume the worst."
+
+"Fifteen minutes then regroup."
+
+---
+
+The sealed door. Both swords drawn. Emberfang on the left. Frost Fang on the right. Both blades against the stone.
+
+Gold flows toward Emberfang. Green pushes back from Frost Fang. The two frequencies harmonizing — a chord from two notes that haven't been played together in three hundred years.
+
+The door dissolves.
+
+---
+
+Twenty feet square. A pedestal. A carved panel of dense script. On the pedestal — a crystal. Fist-sized. Clear. Half gold, half green light rotating inside. A cycle in miniature.
+
+Ashdown: "The restoration protocol. Complete instructions. How to sever threads without killing bearers. How to restore Solveth. How to close the Crown circuit permanently. It's all here."
+
+Callen: "The crystal is a literal key. A balanced matrix. Applied to the Crown, it overwrites the siphon and restores the original communion cycle."
+
+I place the Crown on the crystal. They fit perfectly — a groove nobody could see until the two pieces touched. The runes freeze, then rearrange. The crystal reading the corruption. Mapping the overwrite.
+
+Solveth through the bond: *It remembers me.*
+
+Ashdown: "It's pre-building the overwrite. The only missing piece is Solveth's consent."
+
+Footsteps in the main chamber. Multiple. Fast.
+
+Kael's voice: "CONTACT LEFT. WE'RE COMING IN HOT."
+
+---
+
+"Pip, Ryn — behind me. Range only. Callen, Ashdown — stay in the protocol chamber."
+
+Enhanced Arcane Edge — L2 slot. Both swords infused. The clock starts.
+
+Three constructs pour from the left passage. Stone-skinned. Seven feet. Fast. The architect's guardians.
+
+Sera from the right: "TWO MORE ON THE RIGHT. FALLING BACK."
+
+Five constructs. Two passages. Cross-guard up. AC 19.
+
+I drop the first three. Frost Fang crit shatters one. Emberfang crit destroys another. Arcane Momentum chains into the third. Kael and Harsk finish it — both his arms working, the creation aura having healed the injury two rounds ago.
+
+Pip and Ryn firing from behind me — compression scoring the stone, fire bolt superheating the score line. The same combination every time. The theoretical caster and the spell thief learning to fight as a unit.
+
+Sera's force blade punches through the fourth construct. The fifth reaches me — misses the cross-guard, eats a Frost Fang counter, takes Pip's groove and Ryn's fire bolt in the same shoulder.
+
+I sheathe both swords. Lean against the wall. Arms crossed. The golden aura still pulsing.
+
+Kael and Harsk surround the crippled fifth construct. Both shortswords, shield slam, overhead strike into the fracture pattern.
+
+Five constructs. Five piles of rubble.
+
+Sera walks to me. Looks at the wall I'm leaning against.
+
+"You stopped fighting."
+
+"You didn't need me."
+
+Two seconds. Something in her eyes that isn't irritation.
+
+"No. We didn't."
+
+---
+
+Kael: "Left passage. Armory. Dormant weapons and equipment."
+
+Sera: "Right passage. Entropy workshop. Dead end."
+
+Callen emerges from the protocol chamber. "We have everything. The crystal. The protocol. The only thing left is Solveth's consent and a ley line."
+
+I turn to Kael. "The Broken Antler claims this site. Get a squad from Duskfen. Strip everything. Store it at the Antler."
+
+"We'll need carts."
+
+"Use the Duskfen portal. Tell Brindle — new management."
+
+"She's going to kill you."
+
+"She can try."
+
+Elara lifts the Crown and crystal from the pedestal before we leave. Wraps them in black cloth. Hands them to me at the portal without ceremony. "Your anchor. Your satchel."
+
+---
+
+## Chapter Five — *The Cycle Turns*
+
+## Day Thirteen — Late Afternoon
+
+---
+
+Varenholm. The ley alcove. Grey sky. Rain on the colonnade.
+
+Elara. Aldwin. Sera. Edwyn. Pip. Ryn. Callen and Ashdown with the notebook.
+
+"Let's set these people free."
+
+---
+
+Frost Fang driven into the ley alcove floor. The Crown lowered onto the hilt. I reach through the anchor bond. 339 threads. The ember grabs all of them and PULLS.
+
+Seven snap. The weakest. Then the resistance. The remaining 332 pull back collectively — the siphon redistributing.
+
+My knees hit stone.
+
+Solveth: *THIS IS WHY THERE IS A PROTOCOL.*
+
+Elara: "He just made it worse for 332 people."
+
+---
+
+I stand. Balance Emberfang on Frost Fang's pommel. Both swords in the ley line. The Crown between them. Both frequencies channeling.
+
+Thirty threads snap. The network fraying faster — both frequencies destabilizing what one couldn't. But the entropy runoff has nowhere to go.
+
+Solveth: *WITHOUT MY CONSENT THIS BECOMES A DETONATION. ASK ME.*
+
+Aldwin's containment ward shatters. His staff cracks.
+
+---
+
+I pick up the swords in double-blade configuration. The Crown slides down over my wrist. The crystal blazes — trigger condition met.
+
+"Solveth. You coming or what? Stop whining."
+
+Silence. Then laughter. Deep. Old.
+
+*You insufferable, arrogant, beautiful creature.*
+
+*Yes.*
+
+---
+
+The cascade. Not a bomb. A restoration. Every siphon line severing simultaneously — dissolved, not torn. 339 lives releasing.
+
+The entropy runoff hits Frost Fang. The blade turns white. A column of emerald light shoots from the ley alcove into the sky. Visible from every corner of Varenholm.
+
+The ley line surges. The Academy shudders. Hairline fractures racing outward.
+
+Sera has Pip and Ryn behind a pillar. Edwyn on his knees praying. Elara standing. Watching. Twelve years arriving at once.
+
+The pillar narrows. The last drops transfer. Silence.
+
+---
+
+The Crown reshapes on my wrist. Iron contracts — silver-streaked, seamless. Runes settling like tattoos. Not a crown. A bracelet. The Restored Circuit.
+
+Frost Fang — a line of gold down the center. Green smoke gone. Balanced shimmer. Solveth lives here.
+
+Emberfang — unchanged. Already what it was meant to be.
+
+The double-blade holds. I spin it. Frost trailing white mist on one end. Creation fire on the other. A wheel of winter and sunlight.
+
+Solveth. Clear. Whole. From the blade.
+
+*I am free. The cycle turns. And I live in your blade, you reckless fool.*
+
+Somewhere in Varenholm — 339 people gasping. Matches lighting. Bonfires blooming. Candles igniting from across rooms.
+
+Talia Venn is setting something on fire.
+
+Sera: "What is that?"
+
+"Something new."
+
+"Yep."
+
+---
+
+END OF chapter 5
+
+
