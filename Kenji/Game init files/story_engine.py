@@ -72,9 +72,14 @@ class StoryEngine:
         self.squads = d.get("squads", {})
         # {"Darkblades": {"captain": "Sera", "status": "deployed", "location": "Eastern highway", "mission": "sweep"}}
         
-        # ASSETS / INCOME
+        # ASSETS / INCOME — each asset has daily_gp and daily_sp for auto-deposit
+        # "status": "active" = deposits daily. "frozen"/"pending" = no deposits.
+        # Golden Age doubles all income — applied in process_income()
         self.assets = d.get("assets", [])
-        # [{"name": "Mine", "income": "~8 GP/month", "status": "frozen — hearing pending"}]
+        # [{"name": "Highway Contract", "daily_gp": 2, "daily_sp": 66, "status": "active", "display": "80 GP/month"},
+        #  {"name": "Guild Stipend", "daily_gp": 0, "daily_sp": 100, "status": "active", "display": "100-300 SP/delivery"},
+        #  {"name": "Mine Ore", "daily_gp": 0, "daily_sp": 27, "status": "frozen", "display": "~8 GP/month"}]
+        self.golden_age_active = d.get("golden_age_active", True)  # doubles all income
         
         # NPCs
         self.npcs = d.get("npcs", {})
@@ -343,6 +348,7 @@ class StoryEngine:
             "portals": self.portals, "portal_max": self.portal_max,
             "events": self.events, "quests": self.quests,
             "squads": self.squads, "assets": self.assets, "npcs": self.npcs,
+            "golden_age_active": self.golden_age_active,
             "hm_log": self.hm_log, "hm_total_today": self.hm_total_today,
             "noble_interest_active": self.noble_interest_active,
             "active_perks": self.active_perks,
@@ -371,11 +377,41 @@ class StoryEngine:
     # LIVING WORLD PROCESSING
     # ============================================================
     
+    def process_income(self) -> List[str]:
+        """Process daily income from all active assets. Golden Age doubles everything. Called by process_new_day."""
+        results = []
+        total_gp = 0; total_sp = 0
+        mult = 2 if self.golden_age_active else 1
+        
+        for asset in self.assets:
+            if asset.get("status", "active") != "active": continue
+            dgp = asset.get("daily_gp", 0) * mult
+            dsp = asset.get("daily_sp", 0) * mult
+            if dgp > 0 or dsp > 0:
+                total_gp += dgp; total_sp += dsp
+                ga_note = " (2x Golden Age)" if mult > 1 else ""
+                results.append(f"  💰 {asset['name']}: +{dgp} GP {dsp} SP{ga_note}")
+        
+        # Convert overflow SP to GP
+        total_gp += total_sp // 100
+        total_sp = total_sp % 100
+        
+        if total_gp > 0 or total_sp > 0:
+            self.gold += total_gp; self.silver += total_sp
+            while self.silver >= 100: self.silver -= 100; self.gold += 1
+            results.insert(0, f"💰 DAILY INCOME: +{total_gp} GP {total_sp} SP deposited")
+        
+        return results
+    
     def process_new_day(self):
         """Called at dawn each day. Advances ALL world systems."""
         results = []
         
-        # Noble's Interest
+        # Asset Income (deposits BEFORE Noble's Interest so it compounds)
+        income_results = self.process_income()
+        results.extend(income_results)
+        
+        # Noble's Interest (compounds AFTER income deposited)
         if self.noble_interest_active:
             old = self.gold + (self.silver / 100)
             self.apply_noble_interest()
@@ -544,11 +580,28 @@ class StoryEngine:
         # Assets
         if self.assets:
             lines.append(f"╠{'─'*w}╣")
-            lines.append(f"║ {'ASSETS & INCOME':<{w}}║")
+            ga = " (2x Golden Age)" if self.golden_age_active else ""
+            lines.append(f"║ {'ASSETS & INCOME' + ga:<{w}}║")
+            mult = 2 if self.golden_age_active else 1
+            total_daily_gp = 0; total_daily_sp = 0
             for a in self.assets:
-                icon = "💰" if a["status"] == "active" else "❄️"
-                aline = f"  {icon} {a['name']} — {a['income']} [{a['status']}]"
+                icon = "💰" if a.get("status") == "active" else "❄️"
+                # Show daily rate if available, otherwise show display string
+                if "daily_gp" in a or "daily_sp" in a:
+                    dgp = a.get("daily_gp", 0) * mult
+                    dsp = a.get("daily_sp", 0) * mult
+                    if a.get("status") == "active":
+                        total_daily_gp += dgp; total_daily_sp += dsp
+                    rate = f"+{dgp}gp {dsp}sp/day" if a.get("status") == "active" else "frozen"
+                    disp = a.get("display", a["name"])
+                    aline = f"  {icon} {a['name']}: {rate} ({disp})"
+                else:
+                    aline = f"  {icon} {a['name']} — {a.get('income', '?')} [{a.get('status', '?')}]"
                 lines.append(f"║ {aline:<{w}}║")
+            # Total daily
+            total_daily_gp += total_daily_sp // 100; total_daily_sp = total_daily_sp % 100
+            if total_daily_gp > 0 or total_daily_sp > 0:
+                lines.append(f"║   📊 Total daily income: +{total_daily_gp} GP {total_daily_sp} SP{' '*(w-38-len(str(total_daily_gp))-len(str(total_daily_sp)))}║")
         
         # Key NPCs
         if self.npcs:
