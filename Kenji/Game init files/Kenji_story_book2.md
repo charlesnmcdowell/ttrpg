@@ -758,57 +758,7 @@ Sera: "What is that?"
 
 ---
 
-DING — END OF BOOK TWO: THE DESCENT — LEVEL 10 PENDING
-
 The cycle turns. Three hundred and thirty-nine threads dissolved simultaneously — not severed, not torn. Dissolved. Creation and entropy flowing together for the first time in twelve years. The ember has room it didn't have yesterday. The bottleneck is gone. And the power building behind it has nowhere to go. Yet.
-
-KENJI
-Human — Blade Channeler
-Level 9 — Outlander (Level 10 on Long Rest)
-EXP: 76,650 / 71,000
-
-HP: 57/57
-AC: 15
-Spell Attack: +7 (or +8 with God Sight)
-Spell Save DC: 15 (or 16 with God Sight)
-Proficiency: +4
-
-STR 15 / +2, DEX 13 / +1, CON 13 / +1, INT 9 / -1, WIS 11 / +0, CHA 17 / +3 (18 / +4 with God Sight)
-
-Spell Slots: L1 5, L2 3, L3 3, L4 2
-Blade Ward 3/3, Ember Lance 3/3 (4 with God Sight), Ignite 3/3
-
-NEW — BOOK 2
-Circuit Bracelet (formerly Hollow Crown) — silver-streaked iron on wrist, green-black entropy threading. Creation + entropy dual nature. Portal anchor. Solveth's home. The 339 siphon threads are gone. NEW.
-Emberfrost (double-blade configuration) — Emberfang + Frost Fang combined via Circuit Bracelet. Cyclone Throw 30ft returning. Horizon Arc 30ft AOE. No Cage/Cross-Guard while combined. NEW.
-Frost Fang — gold line down the center. Green smoke gone. Solveth lives here. NEW VISUAL.
-Solveth freed — the god of entropy, unchained. The cycle restored. Creation and entropy flowing freely. NEW.
-
-ABILITIES (unchanged from Book 1, with Emberfrost added)
-Enhanced Arcane Edge, Thunderous Strike, Charisma Surge, Charm Creature, Arcane Stride, Radiant Edge
-Vampiric Daggers, Frost Fang
-Ward Mastery, Portal Gateway, Duality Aspect
-God Sight
-Arcane Momentum, Sera's Cage (Cross-Guard), Enhanced Cage, Entropy Bond, Circuit Anchor, Twin Fang, Ember Lance, Ignite
-Perk 1 — Speedster. Perk 2 — Demigod. Perk 3 — Lover Boy.
-
-INVENTORY
-Equipped: Ironwood-Cured Bear Leather (AC 15), Emberfang (right hip), Frost Fang (left hip, Solveth), hand axe, Windrunner Boots, Returning Somnus Knife, Circuit Bracelet (wrist)
-Satchel: Rations (26 meals), Maren's map, tinder root, bedroll, Voss ledgers, glass vial, Entropy Anchor Ring
-Gold: 9 GP, 9 SP, 8 CP
-
-SQUADS
-The Darkblades: Sera captain. Ryn, Tarin Voss. Offense.
-The Ironveil: Vael captain. Defense. Recruiting.
-
-Portals: 4/4 — Varenholm, Duskfen, Broken Antler, Ashward Mines.
-
-PENDING
-50 GP mine bounty — Garrett collecting from the Council.
-Gear delivery from Maren — due tomorrow.
-Level 10 on Long Rest. The bottleneck is gone.
-
-End of Book Two: The Descent.
 
 ---
 
@@ -953,40 +903,6 @@ He looks up. Sweeps the Academy blue, the Veil, the gloves, the bracelet.
 "You look expensive."
 
 ---
-
-DING — END OF CHAPTER ONE
-
-KENJI
-Human — Blade Channeler
-Level 10 — Outlander
-EXP: 76,650 / 100,000
-
-HP: 63/63
-AC: 18 (Instructor's Guard 15 + DEX 3, force resistance)
-Spell Attack: +9
-Spell Save DC: 17
-Proficiency: +4
-Initiative: +3
-
-STR 16 / +3 (Ring of Strength)
-DEX 16 / +3 (Threadwalker Gloves)
-CON 13 / +1
-INT 9 / -1
-WIS 11 / +0
-CHA 20 / +5 (base 17 + God Sight +1, Veil +1, Underclothes +1 = cap)
-
-Slots: L1 5/5 | L2 3/3 | L3 3/3 | L4 3/3
-Blade Ward 3/3 | Ember Lance 5/5 | Ignite 3/3
-
-BATTLE MAGE SQUADS
-Squad 1 — [Sera's choice, pending]: Sera captain. Offense.
-Squad 2 — The Ironveil: Vael captain. Defense. Abjuration.
-
-Gold: 13 GP, 0 SP, 8 CP
-
-End of The Sundered Gate — Chapter One.
-
-# KENJI — THE SUNDERED GATE
 
 ## Chapter Two — *The Spear and the Net*
 
@@ -1204,37 +1120,6 @@ I go.
 
 ---
 
-DING — END OF CHAPTER TWO
-
-KENJI
-Human — Blade Channeler
-Level 10 — Outlander
-EXP: 76,650 / 100,000
-
-HP: 63/63
-AC: 18 (Instructor's Guard 15 + DEX 3, force resistance)
-Spell Attack: +9
-Spell Save DC: 17
-Proficiency: +4
-Initiative: +3
-
-STR 16 / +3, DEX 16 / +3, CON 13 / +1, INT 9 / -1, WIS 11 / +0, CHA 20 / +5
-
-Slots: L1 5/5, L2 3/3, L3 3/3, L4 3/3
-Blade Ward 3/3, Ember Lance 5/5, Ignite 3/3
-Active: God Sight L4 (48hr), Arcane Stride L4 (150ft, 12hr)
-Fed: YES. Timer reset.
-
-SQUADS
-The Darkblades: Sera, Ryn, Tarin Voss. Offense.
-The Ironveil: Vael. Defense. Recruiting.
-
-Gold: 10 GP, 2 SP, 8 CP | Meals: 14 (need 28)
-
-End of The Sundered Gate — Chapter Two.
-
----
-
 ## Chapter Three — *Dead Ground*
 
 ## Day Fourteen — Afternoon to Dusk
@@ -1365,22 +1250,6 @@ The ember doesn't want to go back. The ember doesn't get to vote. Not tonight.
 
 ---
 
-DING — END OF CHAPTER THREE
-
-KENJI — Level 10
-HP: 63/63 | AC: 18 | Spell Attack: +9 | DC: 17
-Slots: L1 4/5, L2 0/3, L3 3/3, L4 2/3
-Blade Ward 3/3, Ember Lance 4/5, Ignite 3/3
-Active: God Sight (40hr), Stride L4 (7hr). Ward Mastery expired.
-Fed: 9 meals remaining.
-
-KILLS: Abyssal Scavenger x3, Abyssal Watcher x2, Gate x1 sealed.
-EXP: 112,650 / 100,000. Level 11 on Long Rest.
-
-End of The Sundered Gate — Chapter Three.
-
----
-
 ## Chapter Four — *Three Doors Down*
 
 ## Day Fourteen — Dusk
@@ -1432,18 +1301,6 @@ The entity. Both hands extended toward nothing. Three seams dark. I have two lan
 I fly west. Duality expires on the road. Stride floods back. The crossroads. Campfire light. Tarin's silhouette at the road's edge.
 
 "He's back."
-
----
-
-DING — END OF CHAPTER FOUR
-
-KENJI — Level 10
-HP: 63/63 | Slots: L1 4/5, L2 0/3, L3 2/3, L4 1/3
-Ember Lance 2/5 | Active: God Sight (38hr), Stride (5hr)
-EXP: 123,005 / 135,000. Kills: Watcher x1, Gates A/B/C sealed.
-Meals: 7. Gold: 8 GP, 88 SP, 8 CP.
-
-End of The Sundered Gate — Chapter Four.
 
 ---
 
@@ -1500,19 +1357,6 @@ Sera is up. Dark hair pulled tight. She doesn't look at me.
 "I'll make it three."
 
 I head west.
-
----
-
-DING — LEVEL 11
-
-KENJI — Level 11
-HP: 69/69 | Slots: L1 5, L2 3, L3 3, L4 3, L5 1
-NEW: L5 slot. Stride L5 (180ft). Ward L5 (-10). Edge L5 (5 weapons). Thunderous L5 (6d6, 40ft knockback, stunned). Charm L5 (48hr).
-NEW SPELL: Recall — L1, instant teleport to any portal. Unlimited range. Solo.
-NEW SPELL: Arcane Gate — L2/L5, permanently raises portal cap to 8.
-Portals: 4/8. Meals: 6. Gold: 8 GP, 88 SP, 8 CP.
-
-End of The Sundered Gate — Chapter Five.
 
 ---
 
@@ -1617,16 +1461,6 @@ I fall asleep.
 "Thanks for the briefing."
 
 The portal. The Silver Draft. Pip's key across the bar. The bed. The dark.
-
----
-
-DING — END OF DAY 16 — NO LEVEL UP
-
-KENJI — Level 11
-Portals: 6/8 — Varenholm, Duskfen, Broken Antler, Mines, Thornwall, Crestfall.
-Gold: 8 GP, 88 SP, 8 CP. Meals: 51.
-
-End of The Sundered Gate — Chapter Six.
 
 ---
 
@@ -1784,22 +1618,10 @@ Senna stands in the arena. Bare hands. The healer who's seen worse.
 
 ---
 
-DING — END OF DAY 17 — NO LEVEL UP
+# The Sundered Gate — Chapter Eight: The Pipeline
 
-KENJI — Level 11
-HP: 52/69 (Varn spar) | EXP: 132,350 / 135,000
-Active: God Sight (46hr), Duality Entropy (59 min), Enhanced Edge (55 sec)
-Power of Friendship: +2 attacks (Finch + Varn)
-Slots: L1 5/5, L2 2/3, L3 2/3, L4 3/3, L5 1/1
-Meals: 48. Gold: 8 GP, 88 SP, 8 CP.
 
-WARDBREAKERS: Finch (friendly), Varn (friendly), Thessaly (hostile), Senna (neutral — about to spar).
-
-End of The Sundered Gate — Chapter Seven.
-
-# The Sundered Gate — Chapter Ten: The Pipeline
-
-**Day 18, Morning → Afternoon**
+## Day 18, Morning → Afternoon
 
 ---
 
@@ -1877,104 +1699,23 @@ Not a node. Not a pump station. A base.
 
 Senna takes her squad to close the gates. Hand signals to Finch and Varn. Professional. Fast. This is what Gold teams do.
 
+---
+
+# The Sundered Gate — Chapter Nine: The Pipeline
+
+## Day 18, Night
+
+---
+
 Kenji and Thessaly descend. Sixty feet down the carved glass slope. The compound door is open. Not broken — open. A ward line across the threshold. Alarm, not offensive. Whoever lives here wants to know when someone comes in.
 
 They don't want to stop them.
 
 "That means they're confident about what's inside."
 
-The corridor stretches ahead. Black glass walls reflecting the red glow. Symbols carved into the surface — not Academy script. Older. The same geometric precision as the convergence, the relay spires, the gates. Whoever built this wrote their name in the walls.
+The corridor stretches ahead — ten feet wide, black glass walls reflecting the red glow, red light from deeper inside. Symbols carved into the surface — not Academy script. Older. The same geometric precision as the convergence, the relay spires, the gates. Whoever built this wrote their name in the walls.
 
-The humming grows louder. Not mechanical. Organic. Like something breathing through stone.
-
-The humming shifts pitch. Lower.
-
-Aware.
-
-Something is waiting.
-
----
-
-*End of Chapter eight.*
-
-
-# The Sundered Gate — Chapter nine: The Pipeline
-
-**Day 18, Morning → Night**
-
----
-
-Dawn. The Silver Draft. Level 15. Three levels hit overnight like a detonation — the ember restructuring channels that were adequate yesterday and insufficient today. Ninety-three hit points. Proficiency +5. A sixth register opening for the first time.
-
-Aldwin teaches two new spells at the Academy. Haste — concentration, fragile, five attacks per round while it holds. Giant's Throw — 270 feet of returning steel with 50% more damage per hit. The Wizard King's arsenal.
-
-The Silver Draft at Hour 9. Breakfast. And sitting at the table — Senna. Third plate. Auburn braid. Green eyes that haven't looked up.
-
-She ran sixty miles overnight. Through the Bleakmoor. In the dark. Killed four things on the way. Found Finch's note pinned under a rock. Used the portal. Ate. Slept. Woke up. Ate again.
-
-"You threw me through a portal."
-
-"How was your jog?"
-
-The fork bends in her fist.
-
-"Sixty. Miles."
-
-The bent fork goes on the table. She picks up a new one from the next setting without looking.
-
-"Then I found a note. Pinned under a rock. In Finch's handwriting. 'Gone to Varenholm. Use the portal. —F. P.S. He says you can use his portals now.'"
-
-"So I used the portal. And I walked into this inn. And your friend behind the bar told me you charmed my arcanist, recruited my scout, and threw me sixty miles so you could build infrastructure while I was unconscious."
-
-"Well I figured I couldn't beat you by force. You know, with the healing factor, the teleporting, the hard-hitting fists. So I opted for the next best thing. How's the eggs, by the way? This inn has the best eggs."
-
-"The eggs are fine."
-
-From the corner, Varn: "She's had four plates."
-
-"The eggs are FINE, Varn."
-
----
-
-The Wardbreakers deploy through the Bleakmoor Ruins portal. Full squad — Senna on point, Finch scouting, Varn on the greatshield, Thessaly reading ley signatures, Kenji fully buffed from the Academy ley line. Six buffs active. Five attacks per round. 270 feet of Cyclone range.
-
-The siphon trail runs east from the convergence. Wider than before — the unsealed convergence feeding more energy into whatever waits deeper. Thessaly confirms: the flow is accelerating.
-
-Senna's squad takes the first relay node. Two Glass Sentinels. She handles it without breaking stride. The bracelet pulses — Hearts and Minds registers the kills.
-
-Kenji and Thessaly push east. Two miles. The trail leads to a basin — quarter mile across, black glass mirror floor. Three spires in a triangle. Three Glass Sentinels patrolling. And at the center, seated at the base of an engineered abyssal gate — something that reads as a hole in the shape of a person.
-
-Not a breach. Not a scar. A gate. Built. Controlled. Twenty feet tall. The energy flowing through it metered. Precise. Engineering.
-
-Emberfrost drops from the cliff. Horizon Arc sweeps the basin — fire and frost and entropy ripping through three sentinels. Two crits. They stagger.
-
-Three Cyclone throws. Giant's Throw turns each hit into artillery. 270 feet. 1.5x damage. The sentinels shatter. Black glass dust settling like snow.
-
-The Gate Warden unfolds. Eight and a half feet of void. It reaches — Void Grasp. Misses. Counter Throw fires. Emberfrost punches through its torso at range and returns. The second grasp connects — force pulling Kenji toward the gate. Temp HP absorbs.
-
-Round 2. Cyclone throws. The first carves sixty damage. The third crits. The Warden comes apart like a mirror dropped from a roof.
-
-Thessaly reads the architecture: "That's not a breach. That's engineered. Someone built that."
-
-Three spires destroyed. Gate starved. The basin goes quiet.
-
-Senna's squad catches up. They walk through the rubble. Three sentinels and a gate guardian, all destroyed. Two people. Two rounds. Senna reads the scene without breaking stride. She says nothing.
-
-Finch: "You didn't save us any."
-
----
-
-Deeper east. Full party. The channels converge. And then drop.
-
-A crater. Two hundred yards across. Carved. At the bottom — a compound. Stone and black glass. Angular. Built. Walls. A roof. Windows glowing faint red from inside. Three active gates arranged in a triangle around the structure. All shimmering.
-
-Not a node. Not a pump station. A base.
-
-"That's not a node," Thessaly says. "That's a compound. Someone is living down there."
-
-Senna takes her squad to close the gates. Hand signals to Finch and Varn. Professional. Fast. This is what Gold teams do.
-
-Kenji and Thessaly descend. The compound corridor — ten feet wide, black glass walls, red glow from deeper inside. Two Void Weavers at the junction room. Abyssal casters designed to strip buffs and phase-dodge melee.
+Two Void Weavers at the junction room. Abyssal casters designed to strip buffs and phase-dodge melee.
 
 Horizon Arc down the corridor. Both Weavers in the sweep. Then three Cyclone throws — one crit, then another crit. The corridor fills with fire and frost and black glass dust. Two Void Weavers dead before their turn.
 
@@ -2022,62 +1763,593 @@ Tomorrow is paperwork. Day after is blood.
 
 ---
 
-*End of Chapter nine.*
+# The Sundered Gate — Chapter Ten: Combat Operations
+
+
+## Day 19, Morning → Day 20, Dawn
 
 ---
 
-**CHAPTER 9 — STATE AT CLOSE**
+Sera walks through the Thornwall gate at Hour 14 leading eight Darkblades in column. Four days on the eastern highway. Dust on their gear. Blood on two shields — old, brown, from something that bled wrong.
 
+She dismisses the squad with a hand signal. Walks to Kenji. Professional distance.
+
+"Highway's clear of hostiles. Fourteen kills across four days. Three gate scars still active — we held perimeter but couldn't seal them. That's your job."
+
+A folded map. Kill sites, gate locations, settlements, road conditions. One settlement contact — the Silent Settlement opened their gate after the Darkblades cleared their perimeter. Farming again.
+
+Two things. The dead zone at site three is growing. Not fast, but it wasn't growing when they arrived. Whatever Kenji unsealed at the convergence pushed energy through the network. The endpoints are responding.
+
+And there's talk in the waypoint towns. About portals. Big ones. Gold and green-black. People calling them "the ArchMagus gates." The ones who've seen abyssal gates think his are the same thing. There's fear on the road. Not of the Bleakmoor. Of him.
+
+"Be careful. I'll register tonight. Dawn tomorrow my squad is yours."
+
+She walks toward the barracks. Stops. Doesn't turn.
+
+"Thank you for the rest."
+
+---
+
+The highway. Solo. Three scars to close.
+
+Site 1. Dormant. Unguarded. Ember Lance. The golden-white beam fuses the black glass shut. Veins go dark. Clean.
+
+Site 2. Same. Dormant. Ember Lance. Sealed.
+
+Site 3. Different.
+
+The dead zone is forty feet across now. Doubled in four days. The black glass floor breathing — rising and falling, slow, rhythmic. The scar at the center isn't a line anymore. It's a circle. Twenty feet in diameter. Pulsing red. Deep.
+
+God Sight reads it: not a scar. A terminal. One end of a siphon channel that runs sixty feet underground, then southeast — all the way to the convergence and beyond to the Sundered Gate.
+
+Something at the bottom. A living valve. Grown into the infrastructure. Months of feeding on siphon energy. Coiled around the junction where the shaft meets the horizontal channel.
+
+Emberfrost down the shaft. Four Cyclone throws. The first hit does 64 damage. The second triggers Phase 2 — the valve tears free from the channel wall, regen stopping. The third carves another 63. The fourth crits on a natural 19. The valve creature comes apart sixty feet below and slides back down to the junction in pieces.
+
+The channel bleeds uncontrolled. Acid mist fills the shaft. Three minutes. Then: two Ember Lance charges, sustained, straight down. Creation energy floods the channel — sealing, fusing, cauterizing. The red glow dies inch by inch.
+
+The breathing stops. Permanent closure. The terminal severed from Mordecai's network.
+
+---
+
+Portal to Thornwall. Sera at the barracks. Boots off. Bowl of something warm.
+
+"All three?"
+
+"All three. Site three was a terminal. Living thing grown into the channel."
+
+She nods. Doesn't ask for details.
+
+"Highway's clean then."
+
+---
+
+Portal to Varenholm. The Gilt Lens. Maren behind the counter.
+
+"ArchMagus. And this is the combat operations."
+
+Two items. A Rapier of Arrest — tier three, finesse, plus three, paralysis on critical hit. And a Breach Shard — crystallized gate energy pulled from a highway scar by Garrett's mercs. Three annihilation rays per combat. Every elemental evocation upcast one tier. Abyssal energy weaponized.
+
+Ninety-five gold. The rapier in oiled cloth. The shard in a leather sleeve. Maren slides the package toward Sera, not Kenji.
+
+Sera picks up the rapier first. Two testing cuts. The balance is immediate. Then the shard. Her hand closes around it and the air thins and she's somewhere else for a moment — three years of drain, and now the same energy in her fist. Hers.
+
+"Both," she says. "It's both."
+
+From behind the counter, Maren: "Combat operations."
+
+---
+
+The Silver Draft. Senna at the corner table. Maps. Garrett's notes. Working.
+
+The recap: highway sealed, valve destroyed, terminal cauterized. Twenty sentinels at the gate. Tournament registered.
+
+Senna doesn't say "what's the plan." She says: "Here's what I'm doing tomorrow."
+
+Her squad through the crater portal at dawn. Finch scouts the approach. Thessaly reads the architecture. No engagement. Scout, map, count sentinels, cut supply lines.
+
+"But you should be in the tournament too."
+
+The arms uncross. The green eyes doing something complicated.
+
+Three squads to support the operation. Vael's Ironveil — four battle mages, wards and defense. Kael's merc squad — four fighters, muscle. Brindle's merc squad — four more, supply interdiction. Fourteen people total with Thessaly and Finch. A military operation, not a scouting party.
+
+Senna, Varn, Sera, and Kenji in the ring.
+
+"Four fighters from the ArchMagus's people. Thornwall's going to talk."
+
+"Good."
+
+Garrett gets the deployment orders via Whisperstone. Three squads, crater portal, dawn Day 21. Midnight delivery.
+
+"Get some sleep. You have a tournament and I have a hearing and neither of us can afford to lose."
+
+---
+
+Sleep. Level 18 settles in overnight. The channels widen. The registers deepen.
+
+Dawn. Day 20.
+
+Senna already gone — portal to Thornwall, registering. Varn with her.
+
+Somewhere a patrol is heading to the crater portal. Somewhere Elara is composing a message. Somewhere twelve miles northeast, twenty sentinels stand guard around a gate that's 56% of the way to opening.
+
+Tomorrow is blood.
+
+---
+
+---
+
+# The Sundered Gate — Chapter Eleven: The Iron Coliseum
+
+
+## Day 21, Morning
+
+---
+
+---
+
+Dawn. Varenholm. The ley alcove at the Academy. Six buffs in ten minutes — the familiar layering of God Sight, Haste, Stride, Frost Fang, Giant's Throw, Enhanced Edge. Emberfrost on my back. The ember running hot and clean through channels that feel wider every morning.
+
+Portal to Thornwall.
+
+The Iron Coliseum rises above the military quarter like something built by people who thought architecture should make a threat. Stone tiers carved into the hillside. Iron posts. Ward lines along the ring boundary glowing faint blue. Three thousand seats and every one of them filled.
+
+Tournament Day.
+
+---
+
+"BOUT ONE. GREAVE, IRON CHAMPION OF THORNWALL. VERSUS KENJI, ARCHMAGE OF VARENHOLM ACADEMY."
+
+Greave walks out first. Full plate. Greatsword across his back. Three years undefeated. The crowd knows him. They roar when he draws the sword.
+
+I walk out second. The crowd gets quieter. The portals are famous now. The ArchMagus gates. People on the highway call them that.
+
+The bell rings.
+
+I sit down.
+
+Cross-legged. In the dirt. Pull a meal from the satchel. Start eating. Three thousand people go silent. Greave's greatsword lowers an inch. Nobody has ever sat down in his ring.
+
+The bracelet pulses. I reach through the network — four constructs materialize around me in a diamond. Seven feet tall. Faceless. Gold-black glass bodies threaded with entropy veining. Warrior front, Mage and Ranger flanking, Healer behind. They don't look at Greave. They face outward. Guarding. The thing they were made to do.
+
+Somewhere in the stands, a tournament official is on his feet. The announcer's voice goes uncertain. The judges look at each other. In the fighter's alcove, Senna unfolds her arms. The green eyes bright. She's *grinning.* Sera's hand is over her mouth.
+
+Greave charges anyway. Three years of Iron Champion. He's not going to yield to a man eating a sandwich.
+
+The Warrior meets him. Shield drawn. The Mage fires entropy bolts from the flank. The Ranger marks and shoots. Greave is fighting three things that don't tire, don't flinch, don't breathe. He's good — good enough to crack the Warrior's shield, good enough to keep the Mage honest, good enough to take arrows and keep swinging.
+
+Three rounds. The Warrior is cracking. Greave is bleeding from six places but he's still standing. Still coming.
+
+I wave a hand. The constructs dissolve. Gold-black light. Back to Varenholm. Back to Elara's command. The ring is empty again.
+
+Just me and Greave. Thirty-five feet of packed earth between us. His plate dented. His greatsword arm shaking.
+
+I close my eyes.
+
+Five shadow daggers materialize around my head. Dark green necrotic edge. Floating. Orbiting slow. The crowd doesn't know what they're looking at. Greave does — the same dark energy that was in the construct's blades.
+
+He charges. Everything he has left. Greatsword overhead. The Iron Champion going down fighting because that's what champions do.
+
+Two fingers flick. Eyes closed.
+
+The first dagger hits his right eye. The green light crawls. He spins but doesn't stop. Still coming.
+
+The second dagger hits the same eye. His legs give. The greatsword leaves his hand. He hits the dirt sliding and goes still.
+
+The third dagger never arrives. Nothing left to hit.
+
+I open my eyes. Stand up. Brush the crumbs off. Walk to where Greave is lying face-down in the packed earth. The medics are running but I get there first.
+
+Ember Lance. One charge. The golden-white beam touches his face. The necrotic veins burn away. The wound closes. The eye reforms — whole, undamaged. When he wakes up, he'll see out of both eyes.
+
+The crowd watches the man who destroyed their champion kneel down and fix what he broke. The noise shifts. Not just excitement anymore. Something else.
+
+The announcer finds his voice. "BOUT ONE — THE ARCHMAGE. WINNER."
+
+He doesn't add anything else.
+
+At the far end of the stands, Dren Valdric leans forward. Hands on the railing. The Lord of Ironholt watching the ArchMagus walk off with crumbs on his coat and a healed enemy behind him.
+
+"I need to fight that man."
+
+---
+
+The bookmaker's stand behind the fighter's alcove. Chalk board. Odds in silver shorthand.
+
+"Hundred gold. Senna. Bout three."
+
+The bookmaker stares at the pouch. A hundred gold is more than he'll handle all week. Two-to-one odds. He writes it down with shaking hands.
+
+Across the alcove, Senna sees me at the counter. Can't hear the bet. But she sees the gold. The green eyes narrow.
+
+---
+
+I sit next to Senna. Bout 2. Sera walks into the ring. Rapier of Arrest on her hip. The Breach Shard pulsing faint violet under her coat.
+
+Caius Dael across from her. Rapier duelist. Fast. Elegant. Local favorite who's never lost a blade exchange.
+
+Caius wins initiative. Crosses the ring in one dash. Opens with a three-hit flurry — the speed of someone who's built his whole life around one weapon.
+
+Sera doesn't retreat. The Cage snaps into place — the stance she invented, the one she drilled into my muscle memory. Rapier angled. Caius's first strike slides off. Miss.
+
+And the counter fires. The Rapier of Arrest catches Caius across the jaw and his body locks. One heartbeat of paralysis. The crowd sees the duelist freeze mid-stance with Sera's blade at his throat. Then it breaks. He recovers. His second and third strikes land — she bleeds.
+
+Doesn't matter. Her off-hand rises. The Breach Shard pulses.
+
+Lightning Bolt. Point blank. The crack of thunder in a stone arena. Caius saves half but sixteen still throws him back. His rapier arm shaking.
+
+Round 2. Caius comes back in. Gets two hits through. Sera takes them. Hand rises.
+
+Lightning Bolt. Full damage. Caius buckles. 
+
+Round 3. He gets one more hit through the Cage. It doesn't matter. Her hand is already up.
+
+Lightning Bolt. Caius Dael hits the stone floor and doesn't get up.
+
+Three rounds. Three Lightning Bolts. The woman who invented the Cage, holding a rapier that punishes crits, fighting with a shard that turns every spell into something beyond its weight.
+
+Sera walks back to the alcove. Bleeding from both arms. Doesn't look at the crowd. Looks at me.
+
+---
+
+"BOUT THREE. SENNA, THE ASHEN FIST. VERSUS TORR."
+
+Senna stands. Cracks her knuckles.
+
+"My turn."
+
+She walks into the ring barefoot. No armor. No weapon. Auburn braid. The crowd murmurs — after constructs and lightning and shadow daggers, the barefoot woman looks like a mistake.
+
+Torr is six-four. Bare fists. Tattoo wards across both arms. Pit fighter. The kind of man who fights in cages because cages are honest.
+
+The bell rings. Torr charges. Haymaker to Senna's jaw — connects. Her head snaps. Then the Concussive Blow — the stun technique that's ended a dozen fights in these pits.
+
+Senna shakes it off. The green eyes come back to center. Not angry. Focused. She steps into his reach.
+
+Ki Intrusion. Her fist connects with Torr's ribs and force punches through muscle into bone. Not surface damage — deep damage. The kind that doesn't bruise because it's happening underneath. Torr feels it. Everyone in the stands who's ever been hit feels it.
+
+Then the ash light crawls across Senna's jaw. The bruise fades. Gone. Full health. Round 1 over and she's already healed everything he did.
+
+Torr's face changes. He understands what he's fighting.
+
+Round 2. He swings big. Her hand rises — Ash Shield. The haymaker hits a wall of grey-gold force. Blocked. She hits back. Regens to full. He lands one more. She heals it.
+
+Round 3. Both strikes connect. She takes the hit. Punches back harder. Regens to full. Torr at half.
+
+Round 4. She takes him apart piece by piece. Every hit she heals. Every hit she lands stays. The math is impossible. He's punching a wall that regenerates.
+
+Round 5. Torr won't go down. Won't yield. The pit fighter in him won't allow it.
+
+Round 6. She crits. The strike catches his solar plexus — bludgeoning and force together, the Ki Intrusion at full power. Torr's feet leave the ground. He lands on his back and doesn't get up.
+
+Six rounds. Senna walks out at full health. Not a mark on her. The regen erased everything Torr ever did.
+
+The crowd doesn't cheer. They're doing the same math I did. She can't be beaten by sustained damage. She heals faster than anyone can hurt her. The only way to stop the Ashen Fist is to kill her in one hit.
+
+The bookmaker pays out. Two hundred gold profit. His hands are still shaking.
+
+---
+
+I sit next to Sera. My hand finds her side where Caius's rapier got through. The ember reaches. Creation energy through skin. The cut knits.
+
+"Stop healing me. I want to feel it for the bout against Vael."
+
+She doesn't move away from the hand.
+
+---
+
+Bout 4. Varn walks into the ring like a wall that decided to relocate. Greatshield. Warhammer. No expression.
+
+Kessa — twin blades, dancer's speed, four attacks per round. She opens with Blade Storm. Six strikes in one burst. Five of them bounce off AC twenty. Varn doesn't flinch. Doesn't react. Takes the two that land like they're rain.
+
+Then he walks forward. Shield Bash. Kessa hits the dirt. Gets up. Twin blades flashing. Most of them bouncing off the greatshield. Varn walks forward again. Bash. Prone. Warhammer.
+
+Seven rounds of a dancer trying to find a gap in a wall that doesn't have one. Three times she goes prone. Three times she gets back up. The fourth time Varn's warhammer catches her clean and she stays down.
+
+Varn walks out of the ring bleeding from a dozen small cuts. Doesn't acknowledge the crowd. Sits on a stone bench, greatshield against his legs, and doesn't look at anything.
+
+---
+
+Bout 5. Vael versus the Storm Mage. Nine rounds of the most frustrating fight in tournament history.
+
+Mirren casts Lightning Bolt. Vael Counterspells it. Mirren casts Lightning Bolt. Vael Counterspells it and reflects it back. Mirren takes her own lightning to the chest. Casts Lightning Bolt again.
+
+Nine times. Nine Counterspells. Two reflections. The crowd starts booing by Round 5. Vael doesn't care. He chips Mirren down with Force Shards between the Counterspells — missing five times, landing three — and on Round 9 the last shard drops her.
+
+Vael walks out untouched. Spectacles clean. The crowd hates him. He doesn't notice. He's already reading a book.
+
+---
+
+Bout 6. Dren Valdric, Lord of Ironholt.
+
+Hask is a berserker. Greataxe. Rage. Reckless attacks. The kind of fighter who trades defense for overwhelming offense.
+
+Dren dismantles him like a clockwork.
+
+Round 1. Three precise blade strikes and a system strike. No flourish. No waste. Every cut calculated. Hask rages, goes reckless, and his first axe swing glances off Dren's guard.
+
+Round 2. Dren's Adaptive Counter starts stacking. His defense against slashing climbs. Hask's axes start missing not because Dren is dodging — because his system has *learned* how Hask swings.
+
+Round 3. Hask can't hit him. The axes bounce off nothing. Dren walks through the berserker's offense like it's not there and carves him down with surgical precision.
+
+Round 4. Hask at a sliver. One more three-hit combination. The berserker goes down.
+
+Dren Valdric walks out barely scratched. The grin hasn't left his face since my bout. He stops at the railing, looks down at the ring, and then looks at me.
+
+The grin widens.
+
+---
+
+Round 1 is over. Six fighters advance. Six eliminated.
+
+The announcer reads the Round 2 bracket. The Coliseum goes quiet.
+
+Senna versus Varn. The Ashen Fist versus the wall.
+
+Sera versus Vael. Lightning versus Counterspell.
+
+Kenji versus Dren Valdric. The ArchMagus versus the Lord of Ironholt.
+
+Healing between rounds. Full health. The real fights start now.
+
+Dren is still grinning. 
+
+---
+
+---
+
+# The Sundered Gate — Chapter Twelve: The Iron Coliseum
+
+Five rounds in my underwear. The Lord of Ironholt bleeding from the face, frost in his shoulder, his best trick turned to colored glass on his belt. Eight thousand people screaming at a man who solved an axe problem by getting undressed.
+
+The ember sits different after that fight. Not stronger. Not deeper. Wider. Something about reading Dren's enchantments — the whole architecture laid bare in two seconds of God Sight, every layer and shortcut and one pass too few visible like a blueprint. The enchantment reading isn't new. The speed of it is. Two seconds to map ten years of a genius's layered work. That isn't something you train into muscle memory. It's the ember doing its own work now, growing into the space that keeps opening.
+
+The constructs are part of it. Sorcerer's Hegemony — the name the power came with when the number ticked up. The portals aren't just doors anymore. They're garrisons. Twenty-four constructs spawning per day across six gateways. Gold-black glass. Faceless. Entropy-veined. I used them against Greave like chess pieces and I sent one to Elara carrying my wardrobe like a valet. The network is an empire and the empire builds its own army whether I'm watching or not.
+
+I need to check the fear reports. Six portals. Two squads each after two days. Forty-eight constructs standing guard in five settlements and a crater. Varenholm. Duskfen. Broken Antler. Mines. Thornwall. Bleakmoor. Villagers don't sleep well near things that look like the abyssal threat they're being protected from. The Council will add this to their file. Another line. Another reason.
+
+Haste is gone. That hurts. Veritas's second swing broke my concentration; Dren didn't need to know the rules to feel the speed drop and file it away.
+
+He wants to talk after. The grin he left the ring with wasn't a loser's grin. It was a recruitment grin. The Lord of Ironholt found someone who fights like an engineer and he's not going to let that walk away without a conversation.
+
+Senna keeps scaling after every fight — two hundred sixty-one and climbing. Varn came in with six vials brewed specifically for her: Nullroot hit, suppressed her healing for a full round, and it wasn't enough. She healed him in the ring after. She's proof against poison now, from his vials. But the cold and necrotic resistances from our spar are three days old. Long rests purge them. When we fight in the semifinal, Frost Fang hits her at full strength. She doesn't know that yet.
+
+Sera is in the ring. Rapier only. No Shard. No magic. Fighting the Counterspell specialist with steel because I told her what she already knew.
+
+Semifinals: Kenji versus Senna, the second time. She's stronger. But she bleeds to cold and necrotic now. The math changed and she doesn't know it changed.
+
+The Dren fight paid. The Bleakmoor runs paid. The tally is high enough that the next long rest will change me again — level nineteen waiting on the other side of sleep.
+
+Four hundred fifty-three gold. Noble's Interest plus Golden Age income. By the time the Sundered Gate hits critical, the ArchMagus carries more gold than the Academy's annual budget. The Council will notice.
+
+The gate is at fifty-six percent. Eight percent a day. Five days.
+Sera: Ring vs Vael. Steel only. Close (+45).
+Senna: Won. 261 HP. Poison immune. Cold (-25). Grinning.
+Varn: Healed. Bench. Eating. Eliminated. Neutral (+5).
+Dren: Medical. Wants to talk. Friendly (+15 NEW).
+Garrett: Mine hearing. Today. Unknown result.
+Elara: Received wardrobe via construct. Faculty saw.
+Thessaly/Finch: Bleakmoor ops Day 2. Producing H&M EXP.
+Mordecai: Sunken Bastion. 56%. Not idle.
+Solveth: Frost Fang. Questioning existence.
+Constructs: 47 active. 6 locations. Fear level 1 everywhere.
 ```
-Day 18, Hour 22:00 — Night — Thornwall
-Kenji Level 15 (Level 17 pending Long Rest)
-EXP: 257,235
 
-HP: 93/93 +93t | AC 18 (Emberfrost)
-Slots: L1:5/5 L2:3/3 L3:1/3 L4:1/3 L5:3/3 L6:0/1
-Charges: BW 3/3 | Lance 5/5 | Ignite 3/3 | Cage 3/3
-Buffs: God Sight 26hr | Giants Throw 13hr | Haste 1hr | Stride 1hr | Frost Fang 1hr
+---
 
-Gold: 8 GP, 83 SP, 8 CP | Meals: 41
-Noble's Interest: 8.8 GP → 13.2 GP tomorrow
-Portals 6/8: Varenholm, Duskfen, Broken Antler, Mines, Thornwall, Bleakmoor Crater
+# The Sundered Gate — Chapter Thirteen: Champion
 
-Squads:
-  Darkblades (Sera) — Eastern highway, sweep, H&M active
-  Wardbreakers (Senna) — Varenholm, reporting intel to Elara + Garrett
-  Mercenary Guild (Garrett) — Silver Draft, hearing prep
-  Ironveil (Vael) — Varenholm, recruiting
+I yielded at full health. Covered her mouth before she could do it first. Held her there for twenty seconds in front of eight thousand people and told her I've been smitten since Day One.
 
-H&M EXP Today: 47,600
-  Wardbreakers: Relay sentinels x2 (CR7) — 11,600
-  Wardbreakers: Crater gate guards x3 (est CR5) — 21,600
-  Darkblades: Highway patrol Day 17-18 (est CR3-5) — 14,400
+Sera is the Iron Coliseum Champion. One thousand gold pieces. The crowd is still screaming. She's standing in the center of the ring holding a trophy she didn't expect to win because the man she was fighting decided the tournament wasn't the point.
 
-Key NPCs:
-  Senna — Varenholm. Cold professional. Encounter count: 1. Scaling: HP 198, dmg +5%.
-  Thessaly — Varenholm. Reporting to Elara. Disposition: reluctant (warming).
-  Finch — Varenholm. Friendly. Recruited (conditional on Senna).
-  Varn — Varenholm. Friendly. Deferred to Senna.
-  Garrett — Silver Draft. Mine hearing prep. Professional.
-  Sera — Eastern highway. Day 4 of sweep. Deep trust.
-  Mordecai Corven — Sundered Gate, 12mi NE of crater. Accelerating.
+The Charm on Senna worked — not because I deserved the luck, but because her guard failed at the worst moment. The Ashen Fist, all poison-proof stubbornness and scaling habit, stood in the ring and told me she can't stop thinking about my stupid hands. Then she set her stance and told me to come fight her anyway. I sat down. Put my hands behind my head. Stared at her until she flicked my forehead and yielded.
 
-Inventory:
-  Equipped: Emberfrost (combined), Instructor's Guard Leather, Circuit Bracelet,
-    Chancellor's Veil, Threadwalker Gloves, Ring of Strength, Windrunner Boots,
-    Whisperstone Ring
-  Satchel: 41 meals, Garrett's envelope (unread), Network map copy
-  Key Items: Hollow Crown / Circuit Bracelet, Satchel of Holding, Hand Axe
-  Consumables: Somnus 0, Bittershade 0
+She's wary now, half angry at herself. Not cold toward me anymore — reluctant. The grin she walked out with wasn't the competitive one. It was the other kind. The kind that means something changed and she's not sure she likes it yet.
 
-Objectives:
-  🔴 The Sundered Gate — LOCATED 12mi NE of crater. Ancient sealed gate.
-  🔴 Mordecai Corven — IDENTIFIED. Former Academy. Funded by unknown backer.
-  🔴 Vanguard Platinum — Bleakmoor neutralization = stop Mordecai.
-  🔴 Report Intel — IN PROGRESS. Thessaly → Elara. Senna → Garrett.
-  🟡 Tournament — Registration tonight/Day 19. Tournament Day 21.
-  🟡 Mine Hearing — Day 21. Garrett handling.
-  🟡 Wardbreaker Recruitment — Finch YES. Varn/Thessaly deferred. Senna not asked.
-  🔵 Ancient Civilization — Pre-Academy builders. Compound confirms old architecture.
-  🔵 Kenji's Origin — Solveth confirmed deliberate. Unresolved.
-```
+The cold and necrotic resistances from our spar were gone. Three days of long rests purged them. Frost Fang would have hit at full strength if I'd used it. I didn't need to. Charisma and a disastrous slip in her will did what the blade couldn't — made her honest for thirty seconds.
+
+She's mentally immune to charm now. Two exposures. That door is closed. Whatever happens between us next happens without magic.
+
+Sera. The nod before the championship. The two Breach Bolts I ate on borrowed resilience. The rapier she didn't draw because I didn't draw either. The laugh when I tickled her — the first real one I've heard. Not the controlled exhale. Not the almost-smile. A laugh. Twenty seconds of eye contact. I asked if she still thought I was cute.
+
+She nodded.
+
+The list has my name on it now, and I put it there on purpose.
+
+The next threshold is waiting on the other side of a long rest. The ember can feel it — not straining, not pushing. Patient. Like it knows what's coming and wants me to be ready for it.
+
+The constructs number forty-seven across six portals. Fear everywhere. By tomorrow morning seventy-one. The day after, ninety-five. The Wizard King's army grows whether he sleeps or not.
+
+Four hundred fifty-three gold. Noble's Interest hasn't compounded yet today. Tomorrow the tally jumps again.
+
+Dren is waiting in the medical area. The Lord of Ironholt wants to talk. The grin he left the ring with was a recruitment grin. Ironholt needs allies. So do I.
+
+The gate is at fifty-six percent. Five days.
+
+---
+
+# The Sundered Gate — Chapter Fourteen: The Hearing and the Hum
+
+## Day 22 — Morning
+
+---
+
+The Council chamber smells like old paper and older money. Oak panelling. High windows. The kind of room where men in clean clothes decide what happens to men in dirty ones.
+
+Garrett is already at the table. Blue-grey eyes. Pressed coat. The stack of documents in front of him could stop a crossbow bolt. He's been preparing for this since before I knew it was happening.
+
+I sit down. Start eating. The satchel has dried meat and hard bread — not ceremonial, not polite, but the hunger doesn't care about decorum. A councillor two seats down watches me tear into a strip of jerky like I haven't eaten in a week. I haven't. Not by his standards.
+
+"The Council recognises Kenji, ArchMagus of the Academy, operator of the Ashward Mines."
+
+I nod. Keep eating.
+
+Garrett stands. He doesn't look at me. He looks at the five people who decide whether the mine stays ours. Then he starts talking.
+
+---
+
+The hearing takes four hours. I don't speak once.
+
+Garrett handles the numbers — production records, tax compliance, employment rolls for the surrounding settlements. He handles the legal precedent — three prior Academy mineral claims, two of which predate the current Council charter. He handles the political angle — the mine employs forty-seven people from Varenholm and Crestfall. Shutting it down doesn't just hurt the ArchMagus. It hurts voters.
+
+A councillor named Vess asks about the constructs. Six portals. Glass bodies at every location. "An unlicensed military force operating on sovereign territory."
+
+Garrett doesn't blink. "Autonomous security assets deployed under Academy charter Article Twelve, subsection—"
+
+"I've read Article Twelve, Mr. Garrett."
+
+"Then you know it permits defensive deployment at Academy-affiliated sites without separate Council authorisation, provided the assets do not engage civilian populations or interfere with municipal operations."
+
+Vess's mouth thins. She has more to say. She'll say it in a separate docket, on a separate day, with separate witnesses. Garrett already knows this. He's counting on the delay.
+
+The hearing adjourns at midday. Provisional recognition of the mine. Quarterly audits. The construct question deferred.
+
+Garrett meets me on the steps outside. The blue-grey eyes are tired but the math behind them is satisfied.
+
+"Provisional. Quarterly audits. Constructs punted to a separate docket — I bought us three weeks minimum."
+
+"You did good."
+
+"I did my job." He straightens his coat. Already thinking about the next problem. "I'll have the audit paperwork drafted by tomorrow. Stay on the portal network — I may need a signature."
+
+"You'll manage."
+
+"I always do."
+
+---
+
+## Day 22 — Afternoon
+
+The Crestfall portal hums warm against the bracelet. I step through — Bleakmoor Crater. The air changes instantly. Colder. Drier. That low electric hum in the ground that means the ley lines are angry. The portal frame stands fifteen feet tall at the crater's edge, gold and green-black entropy threads spiraling through the stone. Eight constructs in a loose perimeter. Faceless. Still.
+
+I eat from the satchel while I walk. Hard bread and dried meat. The God Sight reads the landscape ahead — black glass soil, dead scrub, three miles of corrupted terrain between here and the ridgeline where the Wardbreakers set camp. I can see the smoke from their fire. A thin grey thread against the overcast.
+
+Stride. The ground disappears under me. Three miles in minutes.
+
+---
+
+The camp is two tents, a firepit, and a supply cache under canvas. Professional. Nothing wasted. Finch is on a rock with his boots off, cleaning a knife and humming something that doesn't have a melody. Varn is sitting against the supply cache with a plate of something brown and a look on his face that says he's been eating for an hour and isn't finished.
+
+Finch sees me first. The knife stops.
+
+"There he is. The ArchMagus himself. Walked right past eight constructs and they didn't even twitch. Must be nice being the one they're programmed not to kill."
+
+"They're programmed not to kill anyone on our side, Finch."
+
+"That's what they tell you." He grins. Puts the boots back on. "Senna's in the big tent. She's been at the maps since dawn. I'd knock, but she doesn't believe in doors."
+
+I don't knock. I push the flap open and walk in.
+
+---
+
+Senna is standing over a table made from a crate and two flat stones. Maps. Garrett's notes. Charcoal marks in her handwriting — sharp, angular, the kind of letters a woman writes when she learned penmanship between fights. Auburn braid over one shoulder. Green eyes that come up from the map and land on me like a spear finding centre mass.
+
+She doesn't say hello. She says: "You're six hours late."
+
+"Council hearing ran long."
+
+"Everything runs long when you let other people talk." She straightens up. Crosses her arms. The sleeves of her jacket are rolled to the elbows and her forearms are bruised — not from combat. From carrying rubble. She's been clearing something. "Sit down. I'm only going through this once."
+
+Thessaly is in the corner. Book on her lap. Crystal-tipped staff against the tent pole. She smells like lavender, which shouldn't be possible after three days in the Bleakmoor, but she's Thessaly and the universe makes exceptions for people who refuse to lower their standards. She doesn't look up when I walk in. She adjusts her spectacles and turns a page.
+
+"Archivist Thessaly. Good to see you."
+
+"Is it." The page turns.
+
+---
+
+Senna puts both hands on the table. The competitive edge drops. This is the other Senna — the squad leader. The one who runs four people through hostile terrain and brings them all back.
+
+"Day 20. You portaled out. I took Finch and Varn south through the ruins to check the tributary nodes you flagged. Three active. Thessaly mapped the energy flow — each one feeding the convergence at roughly equal rates. We dropped two that day. Standard sentinels. Four per node. Nothing we couldn't handle."
+
+She taps the map. Two charcoal X's south of the convergence.
+
+"Day 21. Third node. Harder. Six sentinels and something new — a Glass Sentinel variant. Taller. Faster. Some kind of ranged pulse attack Finch barely dodged. Thessaly identified it as a Void Weaver relay. We destroyed it. Supply flow from the south dropped to nothing."
+
+"That's the relay that cut the gate's intake," Thessaly says from the corner. She still hasn't looked up, but the book is closed now. "The convergence was pulling from three directions. We severed two. The third — the northern line — your constructs are sitting on. Which means the gate is starving. Down to ambient ley absorption only."
+
+"How much does that slow it?"
+
+Now she looks up. The spectacles catch the lantern light. "Two percent per day reduction in growth rate. Assuming Mordecai doesn't adapt. Which he will, because he's not an idiot."
+
+"She's cheerful," Senna says.
+
+"I'm accurate." Thessaly stands. Lean, straight-backed, the posture of someone who spent nine years in Academy lecture halls and never learned to slouch. She crosses to the map table and puts one finger on the southern basin. "This appeared last night. Finch went out at dawn. Got within four hundred yards before the thermal bloom made his scout glass useless."
+
+"Thermal bloom?"
+
+"Heat distortion. Like a furnace exhaust, but in a circle roughly sixty feet across. The ground inside that radius is warm to the touch. The glass soil — which has been dead and cold since we arrived — is *warm*." She adjusts her spectacles. "Nothing in the Bleakmoor generates heat. The abyssal constructs are cold-process. Entropy-based. Glass Sentinels register ambient temperature on crystal-focus detection. This thing reads like a bonfire in a graveyard."
+
+Senna cuts back in. "Finch says it's big. Taller than the sentinels. Moves slow. Hasn't left the basin since it appeared. It's either nesting or waiting."
+
+"Or both," Thessaly says.
+
+Silence. The fire outside pops. Varn's shadow passes across the tent wall — patrol circuit, steady as a clock.
+
+Senna looks at me. Green eyes. Auburn braid. There's a scrape on her jaw she hasn't bothered healing — three days of field work and she's saving the ki for when it matters.
+
+"Here's what I think. The sentinels pulled inward because of that thing, not because of us. Whatever moved into the basin spooked them. They're consolidating around the convergence to protect the gate, not to defend against our ops."
+
+"The enemy of our enemy," Thessaly says, "is something we don't understand and can't identify. Which historically is worse than the original enemy."
+
+"I didn't say ally. I said it changed the board." Senna's jaw tightens. She taps the northern approach. "Your forty constructs are here. Twenty sentinels are here." She taps the convergence. "The thing is here." Southern basin. "And we're here." The camp. "Four-way problem. Two of those things are hostile to us. One is hostile to everything. And one is ours but doesn't think."
+
+She straightens up. The arms cross again.
+
+"I've been running this for three days with four people and no portal recall because you were in a courtroom. I need to know what you want to do with this, Kenji. Because I've got a plan, but it's my plan, and if the ArchMagus has a different one, I'd rather hear it now than find out mid-operation."
+
+---
+
+"Do your plan. You've been running this longer than I have. I trust your read."
+
+Something shifts in her face. Not much. A quarter-inch of tension leaving her jaw. She didn't expect that.
+
+"I'll brief you at dawn."
+
+"I'll be here."
+
+Thessaly's eyebrows go up behind the spectacles. She opens her book again. Says nothing. But the page doesn't turn for a long time.
+
+---
+
+## Day 22 — Evening
+
+I eat outside by the fire. Finch joins me. He's got a tin plate of something that might have been stew before it was reheated three times.
+
+"How was the hearing?"
+
+"Garrett talked. I ate."
+
+"Sounds about right." He scrapes the plate. "You know she's been sleeping two hours a night since you left? Maps at midnight. Patrol at three. Back to maps at five. She won't let Varn take a solo watch because she thinks he'll fall asleep standing up."
+
+"Will he?"
+
+"He has. Twice. Don't tell her."
+
+The fire pops. The Bleakmoor stretches south — black glass and dead scrub under a sky that hasn't seen stars in days. Somewhere past that ridgeline, something warm is sitting in a basin that should be cold. Somewhere past that, a gate is at sixty-four percent and climbing.
+
+"Finch."
+
+"Yeah?"
+
+"Get some sleep. Both of you."
+
+"What about you?"
+
+"Same."
+
+---
+
+Varn takes first watch without being asked. He sits against the supply cache with the greatshield across his knees and doesn't say a word. I check the construct perimeter through the bracelet — eight glass bodies standing motionless in a ring around the camp. The northern forty holding formation two miles out. No movement from the sentinels. No movement from the basin.
+
+The tent is dark. My bedroll smells like Bleakmoor dust and leather. I eat again — the last meal of the day, hard bread and dried fruit from the satchel. The ember settles low in my chest, banking itself for the night. The God Sight dims to a background hum.
+
+Somewhere in the other tent, Senna is still at her maps. I can see the lantern glow through the canvas. Two hours from now she'll sleep. Maybe three.
+
+I close my eyes. The Bleakmoor hums. The bracelet is warm. Tomorrow is Day 23. Dren's quartermaster meeting. Senna's operation. Something in the basin that doesn't belong.
+
+Five days until the gate hits critical.
+
+Sleep comes faster than it should.

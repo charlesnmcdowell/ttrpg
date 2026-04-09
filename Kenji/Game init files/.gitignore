@@ -1,0 +1,12 @@
+# Local campaign save (copy from kenji_state.example.json)
+kenji_state.json
+
+# Generated LLM brief (optional — remove this line if you want AI_CONTEXT.md in version control)
+AI_CONTEXT.md
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.cursor/

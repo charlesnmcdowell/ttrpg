@@ -1,0 +1,1 @@
+# Python 3.10+. Stdlib only — no pip packages required for ttrpg_game_engine.py.
