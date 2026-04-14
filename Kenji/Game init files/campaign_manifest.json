@@ -1,0 +1,9 @@
+{
+  "_comment": "Live dashboard loads this folder as the campaign root. Paths are relative to this file unless absolute.",
+  "campaign_id": "kenji",
+  "window_title_template": "{char_name} — Live Dashboard",
+  "state_file": "kenji_state.json",
+  "music_dir": "../music",
+  "music_map": "../music/music_map.json",
+  "engine_path": "."
+}

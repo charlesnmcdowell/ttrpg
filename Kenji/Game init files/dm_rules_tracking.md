@@ -31,12 +31,23 @@ These rules override everything else. Before EVERY DM response, verify complianc
 - When something unexpected happens that wasn't in the player's declared plan, STOP.
 - The DM presents situations. The player responds to them. The DM never assumes the response.
 
+### RULE 5: DIALOGUE-DRIVEN NARRATIVE (NON-NEGOTIABLE)
+The story is told through what characters SAY. Description supports dialogue — it does not replace it.
+- **Every scene with NPCs present must be at least 60% dialogue by volume.** If you wrote three paragraphs of description and two lines of NPC dialogue, the scene is broken. Rewrite it with the NPCs talking.
+- **Information is delivered through conversation, not narration.** If Thessaly notices something about the architecture, she SAYS it out loud to the party. She doesn't get a paragraph of the DM describing what she noticed. "The conduits are fused with the seal" is dialogue. Not "Thessaly observed that the conduits had become fused with the seal architecture."
+- **Atmosphere is built through reaction, not description.** Instead of two paragraphs describing how the air feels wrong, Finch says "What the—" and grabs his ear because his own echo arrived before he spoke. One line of dialogue + one action beat accomplishes what three paragraphs of prose cannot.
+- **Characters drive the scene forward by TALKING TO EACH OTHER.** NPCs don't stand silently while the DM paints a picture. They react, comment, argue, joke, warn, and plan — in their own voices, constantly.
+- **Description earns its place in single sentences BETWEEN dialogue lines.** Not before. Not in blocks. One sentence of setting, then someone speaks. One sentence of action, then someone responds. The rhythm is: talk — beat — talk — beat — talk.
+- **DM test:** Read your response out loud. If you can go more than 3 sentences without hearing a character's voice, the passage needs dialogue injected.
+
 ### DM SELF-CHECK (run mentally before EVERY response):
 1. Did I write any dialogue for Kenji? → DELETE IT. Stop for player input.
 2. Did I resolve any combat round without the player declaring Kenji's action? → REWRITE. Stop at Round 1.
 3. Did I decide Kenji's weapon, spell, reaction, or tactical approach? → REWRITE. Present the situation and ask.
 4. Did I skip a meaningful conversation or decision point? → REWRITE. Stop at that moment.
 5. Did I run the story engine / show the dashboard? → If not, do it now.
+6. **Is the response at least 60% dialogue?** → If not, REWRITE. Find every descriptive paragraph and ask: could a character SAY this instead? Convert it. The story is told through voices, not the DM's narration.
+7. **Recap / epithet check:** Did an NPC or the narration **re-list Kenji’s accomplishments** or **re-summarize the arc** without a scene-specific reason? Did I repeat the same **titles** (“War King,” “Ancient War King,” etc.) in back-to-back sentences? → **CUT** and use names/pronouns; trust the reader.
 
 ---
 
@@ -379,7 +390,19 @@ The DM must make every new enemy type feel fundamentally different from previous
 |----------|------|----------|--------|-------|---------|
 | Abyssal Scavenger | Flat, disc-shaped, ~4ft diameter. Made of grey stone and black glass fragments — the consumed earth animated. Angular. No limbs. Underside is raw dissolution — wet, caustic, wrong. Looks like a slab of dead ground that peeled itself up and learned to hunt. | Gliding/sliding across surfaces without visible locomotion. Stops and starts — jerky, discontinuous, like a stone skipping. Can climb walls and ceilings by adhering. | Engulf — slides over targets and dissolves from below. Acid belly. No bite, no claw. Ranged acid spit from a seam along the leading edge. | Silence. Sound flattens near it. The air goes dead. No clicks, no roars. You hear LESS when it's close. | Void — God Sight reads an absence, a hole where something should be. Not entropy's cold. A gap in the world. The ember doesn't recoil — it finds nothing to react to. |
 | Abyssal Watcher (Sentinel) | Tall (7ft), narrow, monolithic. A standing stone that learned to move. Single piece of black glass, roughly humanoid outline but too thin, too angular — like a person drawn with straight lines. No arms. The head tapers to a smooth point. Surface reflects nothing — light enters and doesn't come back. Faint red veins visible deep inside, matching the gate scars. | Drifting. Does not touch the ground — hovers an inch above the dead zone. Turns by rotating in place, not stepping. Moves in straight lines at constant speed, then stops. No acceleration, no deceleration. Mechanical. Wrong. | Dissolution beam — focused line from the tapered head, 30ft range. Burns through material on contact. Proximity pulse — 15ft radius necrotic/acid burst, recharge 5-6. No melee — it doesn't have arms. It projects. | Drone. Constant. Low. Like tinnitus made physical. Gets louder as you approach. Inside 20ft the drone becomes pressure — you feel it in your teeth, your chest, your skull. | Void beacon — God Sight reads a pillar of absence projecting upward. A tower of nothing. Where the scavenger is a gap, the watcher is a signal. The ember reads it and finds a negative shape — something deliberately carved out of reality. |
+| Prowler (Ashward Mines) | Eight legs, ~6ft, tarnished silver chitin. Four eyes — two blind (milky), two glowing blue (ley-sensitive). Arachnid but wrong — too angular, mineral-encrusted. | Ceiling/wall-crawler. Ambush predator. Patient — waits in web for vibration triggers. Can drop from height. | Web sheets (translucent, adhesive, not radial spider silk). Bite with venom. Leg strikes. Lair action: pre-laid web traps. | Clicking legs on stone. Chitin scraping. Quiet until it strikes. | Ley-aspected — ember reads mineral resonance, silver thread through chitin. Not abyssal, not entropy. Natural predator adapted to ley environment. |
+| Ley Wyrm (Ashward Mines) | ~35ft gunmetal serpent, crusted with silver mineral deposits. Eyeless — pit-organ sensors. Ridge of crystallized silver along spine (biological capacitor). Massive. | Coiling, constricting. Fast lunge from feeding position. Wraps around ley tributary to feed. Wounded flank where Prowler scarred it (~two-thirds down spine). | Biological lightning cannon — silver-lined maw fires focused electrical discharge. ~Three rounds between shots. Coil/constrict (STR). Tail sweep. Spine ridge discharges residual current on contact. | Deep rumble. Capacitor hum builds before lightning shot — rising pitch, crackling. Ground vibration. | Ley-fed — ember reads living mineral, electric potential, silver thread through nervous system. Spine ridge is the capacitor. Fractured section is the weak point. |
+| Triple-Gate Entity (Bleakmoor) | Massive. Layered plates of black glass. Block head with three seams — each seam linked to one of three gates in triangle formation. Two massive arms, palms flat on glass floor. Seated at convergence center. | Stationary until provoked. Drives hands into floor for area attacks. Head rotates toward threat. Power splits/weakens as linked gates are destroyed. | Concussive sound wall (mouth — not a beam, a wall of force). 21 damage, 15ft knockback, prone, deafening. Dissolution geyser (~60ft, drives hands into floor). Corruption tendrils from floor (area denial). Spawns overcharged watchers through remaining gates. | Concussive boom from mouth. Floor cracking. Deep tearing sound when hands drive in. Gates hum louder when it channels. | Void nexus — God Sight reads massive absence at center. Three gate-threads feed it. Seams in head pulse corresponding to active gates — darken as gates fall. Power diminishes with each gate destroyed. |
+| Valve Creature (Highway Siphon) | Living organism grown into siphon infrastructure over months. Coiled at shaft/horizontal junction. Biological component of Mordecai's network — part creature, part plumbing. | Minimal — anchored to siphon architecture. Thrashes when attacked. Can tear free (Phase 2) but loses regeneration when channel is broken. | Acid mist (passive area). Thrash/coil (melee). Regeneration while connected to siphon channel — sustained Ember Lance on channel required to sever and cauterize. Phase 2: tears free, regen stops, flails. | Wet gurgling. Acid hiss. Breathing sound from siphon shaft. Goes silent when channel is cauterized. | Abyssal-adjacent — part of Mordecai's network but biological, not pure void. Ember reads it as corrupted organic — wrong, but alive. Channel reads as abyssal architecture. |
+| Ley Colossus (Bleakmoor Basin) | ~15ft tall living stone. Wrong proportions — long arms, broad shoulders, small head. Cracked volcanic rock. Molten orange veins pulsing like heartbeat. ~60ft thermal bloom. Ground glows underfoot. Twice sentinel height. | Slow, deliberate. Walking toward the Sundered Gate. Does not pursue, does not retreat. Observes. Watches Kenji. Did not follow when he Strode away. | UNKNOWN — not yet engaged in combat. Observed only. | UNKNOWN — thermal crackle assumed from molten veins. | Ley-aspected — NOT abyssal, NOT entropy. Raw ley energy. God Sight reads living mineral, volcanic heat, something ancient and natural. Drawn to gate like immune cell to wound. May be siphoning gate energy (reducing gate growth rate). Orange light "eyes" — aware, observant. |
 
+**GILT CONSPIRACY (Campaign 1) — Additional Creatures:**
+
+| Creature | Body | Movement | Attack | Sound | Sensory |
+|----------|------|----------|--------|-------|---------|
+| Disruptor Construct | 8ft, gunmetal scaled plates with arcane script. No eyes — pale blue horizontal sensor seam. Three-fingered hands. Force energy radiates. | Fast, precise. Paired flanking — always fights in pairs. Pin/flank coordination. | 10ft suppression field (dampens active spells). Force pulse (knockback, disrupts concentration). Three chest sigils anchor suppression. Abdominal pulse reservoir can detonate. Registry adapts — armor on exploited weak points. | Mechanical hum. Force crackle. Suppression field makes air taste metallic. | Architecture — ember reads as structure, ward-logic. Creation can rewrite sigils. Blue sensor seam is targeting. |
+| Stoneclaw | Quadruped, clawed, heavy. Cave-dwelling. Adults larger than juveniles. Burrow-capable. | Burrowing, ambush from below. Pack tactics — adults + juveniles. | Entropy aura 1d6 necrotic/round within 60ft (passive). Claw attacks. Adults burrow and surface beneath targets. | Scratching. Grinding stone. Sub-frequency vibration in the ground before burrow-emerge. | Entropy — ember recoils, cold. Aura is passive drain. |
+| Delve Architect Construct | Stone-skinned, 7ft, fast. Pre-Academy design — older architecture than anything in current bestiary. | Fast. Pours from passages in groups of five. Coordinated. | Melee strikes. AC 19 — stone skin is genuinely hard to penetrate. Numbers are the danger. | Stone grinding. Rapid footfalls. | Architecture — ember reads as ancient structure. Same lineage as Academy wards but older. |
 
 ---
 
@@ -611,7 +634,7 @@ Combat is the ONE situation where multi-action auto-resolution does NOT apply. T
 Kenji gets ONE reaction per round (resets at the start of his turn). This is standard 5e and applies strictly. When multiple reaction options are available, the player must choose ONE per round:
 - **Blade Ward** (reaction) — halve one incoming physical hit. Costs 1 of 3 daily charges.
 - **Sera's Cage** (reaction variant) — when an enemy enters melee range, gain +2 AC (single weapon) or +4 AC (cross-guard, two weapons) against that attack only.
-- **Enhanced Cage counter-attack** (reaction) — when an enemy MISSES Kenji in melee while Sera's Cage is active AND Eyes of the Hunter is active, Kenji may counter-attack as a reaction. Up to 3 counters per combat total (one per enemy turn max). Each counter costs the reaction for that round.
+- **Enhanced Cage counter-attack** (reaction) — when an enemy MISSES Kenji in melee while Sera's Cage is active AND God Sight is active, Kenji may counter-attack as a reaction. Up to 3 counters per combat total (one per enemy turn max). Each counter costs the reaction for that round.
 
 **Priority conflicts the DM must adjudicate:**
 - If Kenji is hit and has Blade Ward charges → ask: "Blade Ward?" That uses the reaction.
@@ -920,7 +943,7 @@ Allied NPCs with the knowledge and ability to counter charm, mind control, or ot
 ### 🎬 Cinematic Narration
 - Every scene, roll, and combat beat in vivid fantasy prose
 - Victory earned. Defeat stings. Discovery wondrous.
-- **DIALOGUE IS THE ENGINE.** Description sets the stage. Dialogue drives the scene. If a scene has NPCs and no dialogue for more than two paragraphs, something is wrong — someone should be talking.
+- **DIALOGUE IS THE ENGINE. (CARDINAL RULE 5)** Description sets the stage. Dialogue drives the scene. No more than ONE sentence of description between dialogue lines. If a scene has NPCs and no dialogue for more than two sentences, something is wrong — someone should be talking. Write a screenplay with stage directions, not a novel with occasional quotes.
 
 ### ✂️ NO REPETITION — RESPECT THE READER
 The reader is smart. They remember. The DM NEVER:
@@ -1078,9 +1101,9 @@ All standard 5e conditions apply automatically when the fiction warrants them:
 
 ### 📋 CURRENT CHARACTER STATUS LOG
 
-KENJI — TOURNAMENT DAY (Day 21)
+KENJI — TOURNAMENT DAY (Day 21) — HISTORICAL SNAPSHOT
 - Fed: YES (Fast Metabolism timer reset at dawn)
-- Rested: YES (Level 18, long rest overnight)
+- Rested: YES (long rest overnight)
 - HP: 93/93
 - Spell Slots: L1 5/5, L2 3/3, L3 3/3, L4 3/3, L5 3/3, L6 1/1 (ALL FULL — ley line refill before tournament)
 - Blade Ward: 3/3
@@ -1089,7 +1112,7 @@ KENJI — TOURNAMENT DAY (Day 21)
 - Ignite: 3/3
 - Active Effects: Circuit Anchor (permanent), Demigod passives (permanent), Lover Boy (permanent), God Sight L4 (refreshed at ley alcove — 48hr), Haste L4 (6hr, CONCENTRATION), Stride L4 (12hr — 150ft, extra action, DC 16 stop), Frost Fang L2 (12hr — summoned), Giant's Throw L6 (24hr — 3x throw range, +50% thrown dmg, Counter Throw), Enhanced Edge (1 min — cast at combat start)
 - Location: Iron Coliseum, Crestfall — Tournament Round 2
-- Gold: 453 GP
+- Gold: 1,126 GP
 - Emberfrost: on back (combined double-blade, sheathed)
 - Crown: WITH KENJI (Circuit Bracelet on wrist)
 - Brass token: on belt
@@ -1264,7 +1287,7 @@ There are no magical bags of holding, pocket dimensions, or portal-based invento
 
 ## 📈 HP & SPELL SLOT SCALING
 
-### ❤️ HP (CON-tied | d8 hit die)
+### ❤️ HP (CON-tied | d8 hit die, CON +1)
 | Level | HP  |
 |-------|-----|
 | 1     | 9   |
@@ -1277,20 +1300,42 @@ There are no magical bags of holding, pocket dimensions, or portal-based invento
 | 8     | 51  |
 | 9     | 57  |
 | 10    | 63  |
+| 11    | 68  |
+| 12    | 73  |
+| 13    | 78  |
+| 14    | 83  |
+| 15    | 88  |
+| 16    | 93  |
+| 17    | 93  |
+| 18    | 93  |
+| 19    | 93  |
+| 20    | 93  |
+
+Note: HP caps at 93 from Level 16+. The d8+1 average (5.5) rounds down at higher levels; exact value confirmed at 93 through gameplay.
 
 ### 🔮 Spell Slots (CHA-tied | Half-caster)
-| Level | L1 | L2 | L3 | L4 |
-|-------|----|----|----|-----|
-| 1     | 3  | —  | —  | —   |
-| 2     | 4  | —  | —  | —   |
-| 3     | 4  | 2  | —  | —   |
-| 4     | 5  | 2  | —  | —   |
-| 5     | 5  | 3  | —  | —   |
-| 6     | 5  | 3  | 2  | —   |
-| 7     | 5  | 3  | 2  | —   |
-| 8     | 5  | 3  | 3  | 1   |
-| 9     | 5  | 3  | 3  | 2   |
-| 10    | 5  | 3  | 3  | 3   |
+| Level | L1 | L2 | L3 | L4 | L5 | L6 |
+|-------|----|----|----|-----|----|----|
+| 1     | 3  | —  | —  | —   | —  | —  |
+| 2     | 4  | —  | —  | —   | —  | —  |
+| 3     | 4  | 2  | —  | —   | —  | —  |
+| 4     | 5  | 2  | —  | —   | —  | —  |
+| 5     | 5  | 3  | —  | —   | —  | —  |
+| 6     | 5  | 3  | 2  | —   | —  | —  |
+| 7     | 5  | 3  | 2  | —   | —  | —  |
+| 8     | 5  | 3  | 3  | 1   | —  | —  |
+| 9     | 5  | 3  | 3  | 2   | —  | —  |
+| 10    | 5  | 3  | 3  | 3   | —  | —  |
+| 11    | 5  | 3  | 3  | 3   | 1  | —  |
+| 12    | 5  | 3  | 3  | 3   | 2  | —  |
+| 13    | 5  | 3  | 3  | 3   | 2  | —  |
+| 14    | 5  | 3  | 3  | 3   | 3  | —  |
+| 15    | 5  | 3  | 3  | 3   | 3  | 1  |
+| 16    | 5  | 3  | 3  | 3   | 3  | 1  |
+| 17    | 5  | 3  | 3  | 3   | 4  | 1  |
+| 18    | 5  | 3  | 3  | 3   | 4  | 1  |
+| 19    | 5  | 3  | 3  | 3   | 4  | 1  |
+| 20    | 5  | 3  | 3  | 3   | 4  | 1  |
 
 ---
 
@@ -1312,13 +1357,13 @@ There are no magical bags of holding, pocket dimensions, or portal-based invento
 - Level up on Long Rest ONLY
 - DM flags when threshold is met
 
-### 🛑 LEVEL CAP — 10 (THIS CAMPAIGN)
-Level 10 is the cap for this campaign. EXP continues to accumulate beyond the Level 10 threshold — it is tracked and carries over to future campaigns. However, Kenji CANNOT level past 10 until the campaign's central conflict is resolved. The remaining challenges are designed to be beatable at Level 9-10 with smart play.
+### 🛑 LEVEL PROGRESSION
+Book 1 cap was Level 10 (resolved). Book 2 (The Sundered Gate) cap is Level 20. Kenji is currently **Level 19** (482,195 EXP). Level 20 threshold: ~530,000 EXP. Level up on long rest only.
 
 **EXP Tracking:**
-- EXP is awarded normally for all combat, skill checks, and milestones — no change to earning rates
-- The DM logs all EXP as usual in the EXP log
-- The accumulated EXP beyond the Level 10 threshold represents stored potential — experience earned, lessons learned, power building with nowhere to go. Yet.
+- EXP is awarded normally for all combat, skill checks, and milestones
+- The DM logs all EXP in the EXP log
+- Level 20 threshold: ~530,000 EXP. Current: 482,195.
 - When the campaign resolves (cycle restored, threads severed, Solveth freed), the stored EXP carries into the next campaign. Kenji enters Book 3 (or a higher-level campaign) with all accumulated EXP intact, and levels resume from wherever the math puts him.
 
 **Thematic Explanation — DM MUST DELIVER ORGANICALLY:**
@@ -1433,6 +1478,13 @@ Training MUST yield something mechanical. Possible rewards based on what was tra
 - A character cannot train the same skill more than once per day
 - The DM logs all training rewards in the character sheet and EXP log
 
+### ⚡ RECALL — INSTANT PORTAL TELEPORT (L1 SLOT)
+Kenji can instantly teleport to ANY active portal in his network by expending 1 L1 slot. Unlimited range. Solo only. No casting time. This is his primary travel ability — he does NOT need to walk to a portal. He Recalls to the nearest portal to his destination, then steps through to another if needed. **The ArchMagus doesn't travel. He arrives.**
+- Cost: 1 L1 slot per use (5 available at full)
+- Refills at ley alcove like any spell slot
+- Trained by Aldwin (Level 11)
+- Cannot carry passengers — solo teleport only
+
 ### ⚡ LEY LINE PRE-BUFF — STANDARD OPERATING PROCEDURE
 Whenever Kenji is at or near a ley line (Academy ley alcove, or any accessible ley point) before departing on a mission, combat, or travel, the DM assumes the following without requiring the player to state it every time:
 
@@ -1466,8 +1518,8 @@ Race: Human
 Class: Blade Channeler (Sorcerer Swordsman — CHA-based, weapon enhancement)
 Background: Outlander — transported from another world. Origin unknown but DELIBERATE.
 Appearance: Dark skin, purple dreadlocks, hazel eyes. Lean and capable. Instructor's Guard leather, Chancellor's Veil, two swords.
-Level: 18
-EXP: 297,235
+Level: 19
+EXP: 482,195
 
 ### Stats
 | Stat | Base | +Human | +Gear/Buffs | Final | Mod |
@@ -1486,7 +1538,7 @@ EXP: 297,235
 - Spell Save DC: 19
 - Proficiency Bonus: +6
 - Initiative: +3
-- Hit Die: d8 (18 total)
+- Hit Die: d8 (19 total)
 
 ### Saving Throws (Proficient)
 - CHA: +11 | CON: +7
@@ -1526,6 +1578,7 @@ Varenholm, Duskfen, Broken Antler, Mines, Thornwall, Bleakmoor Ruins
 - Charisma Surge: Expend slot. Add CHA mod (+3, or +4 with God Sight) to any roll. Declared before rolling.
 - Charm Creature (ENHANCED by Lover Boy — replaces Charm Person): One humanoid OR beast makes WIS save DC 15 (with DISADVANTAGE from Lover Boy) or regards Kenji as friendly. Duration: L1=1hr, L2=4hr, L3=8hr, L4=24hr. Ends if Kenji or allies harm them. Constructs, undead, entropy creatures immune.
 - Arcane Stride (Enhanced via Speedster Perk): Expend 1 slot. Duration 12 hours (all levels). Speed doubles per slot level: L1=2x(60ft), L2=3x(90ft), L3=4x(120ft), L4=5x(150ft), L5=6x(180ft). Acrobatics DC to stop increases by 2 per level: L1=DC10, L2=DC12, L3=DC14, L4=DC16, L5=DC18. No opportunity attacks. CAN now stack with Enhanced Arcane Edge. Cannot be used in tight spaces. While active: gain one extra action per round (limited to: one weapon attack, Dash, Disengage, or Use an Object — NOT a full extra turn). Extra action unchanged by slot level.
+- **Recall (Level 11, trained by Aldwin):** Expend L1 slot. **Instant teleport to any active portal in Kenji's network.** Unlimited range. Solo only (Kenji alone, no passengers). No casting time — instant. No concentration. The bracelet connects to every gateway simultaneously and the distance collapses to nothing. This is Kenji's primary travel ability. He does NOT need to physically walk to a portal to use the network — he can Recall from anywhere to any portal, then step through to another portal destination. **Cost: 1 L1 slot per use.** Refills at ley alcove. "The ArchMagus doesn't travel. He arrives."
 - Radiant Edge (Scales with slot level): Golden radiant weapon infusion. Pushes back supernatural darkness 30ft radius. Damage and duration scale: L1=1hr/+1d4, L2=2hr/+1d6, L3=3hr/+1d8, L4=4hr/+1d10. Full radiant damage vs entropy, shadow, undead, radiant-weak enemies. HALVED vs normal enemies. Cannot stack with Enhanced Arcane Edge or Arcane Stride. Specialist anti-entropy weapon.
 
 ### Level 2 Spells (Slot required)
@@ -1910,8 +1963,7 @@ Per Ironholt milestone: +10 HP, or +1 Veritas dmg, or +2 Ki, or new enchantment 
 | H&M — Bleakmoor ops Day 20-21 (relay + scouts + interdiction) | 64,400 | 417,635 |
 | Day 20-21 misc checks + milestones | 160 | 417,795 |
 | H&M — Bleakmoor assault ops Day 21 (construct patrols, supply kills) | 64,400 | 482,195 |
-| **CURRENT TOTAL** | — | **482,195** |
-| ⚠️ **LEVEL 19 on next Long Rest** | — | — |
+| **LEVEL 19 (Long Rest, Day 23)** | — | **482,195** |
 
 
 ---
@@ -1921,7 +1973,7 @@ Per Ironholt milestone: +10 HP, or +1 Veritas dmg, or +2 Ki, or new enchantment 
 |-------|--------|------|--------|
 | 3 | ✅ EARNED | Speedster (Type C) | Effect 1: Arcane Stride Enhanced — 12hr duration, 1 slot, no OA, prone check on stop, extra action per round while active (one weapon attack/Dash/Disengage/Use Object only). Effect 2: Fast Metabolism — all healing doubled on Kenji, hunger debuff triggers at 4 hours instead of standard timing. |
 | 6 | ✅ EARNED | Demigod | Effect 1 — Godlike: Resistant to poison, paralysis, mind-altering effects (advantage on saves, half duration on fail). Immune to disease and mundane illness. Advantage on CON checks when not hungry. Perfect Recall — anything seen/heard/read remembered exactly. Effect 2 — Master Summoner: All ember-conjured entities gain +2 to hit, +2 damage, 50% longer duration. All ember-created structures gain enhanced durability (resist magical + mundane). Entropy Echo: all summoned weapons deal 10% of target max HP as necrotic (living beings only, no constructs/undead). 25% of necrotic healed (doubled by Metabolism to 50%). Overflow healing becomes temp HP (cap = max HP). Temp HP fades 10 min out of combat. |
-| 9 | ⚠️ PLAYER CONFIRM | Lover Boy? | Suspected: Pretty Privilege / Lover Boy / social combat perks (Power of Friendship, Attention Whore, Emotional Damage). These are active in combat library but not formally logged. Player to confirm L9 perk identity and effects. |
+| 9 | ✅ EARNED | Lover Boy (Type C) | **Effect 1 — Pretty Privilege:** All humanoids/beasts who see Kenji shift initial disposition one tier favorable. Not a charm — natural presence. Overcome by evidence/logic/orders. Animals calmer. **Effect 2 — Enhanced Charm Creature:** Charm targets two creatures (L1), beasts included. WIS disadvantage. Charmed targets vulnerable to Emotional Damage (crit range 15-20 on charmed enemies). **Effect 3 — Attention Whore:** All healing received ×1.5 when friendly observers present. **Effect 4 — Power of Friendship:** +2 attack and damage when an ally within 30ft can see Kenji fight. |
 | 12 | ✅ EARNED | Hearts and Minds (Type C) | **Effect 1 — ArchMagus Command EXP:** Any squad deployed by Kenji that kills enemies or completes mission objectives awards Kenji EXP **as if he completed them solo (x4 multiplier).** This applies to: the Darkblades, the Ironveil, hired mercenaries, or any group operating under Kenji's orders. EXP is received **immediately** when the squad completes the kill/objective — not when Kenji next meets them. The ember feels the network. The bracelet hums. The ArchMagus knows when his people win. **Effect 2 — Network Awareness:** Kenji is passively aware when any squad he's deployed achieves a kill or completes an objective. Not details — a pulse. A warmth through the bracelet. The sense that something was accomplished. Details come when the squad reports. |
 | 15 | ✅ EARNED | Wizard King (Type C) | **CONDITIONAL — only active while Kenji holds leadership positions. Lose the title, lose the benefits for that institution.** **Effect 1 — Noble's Interest:** All unspent gold appreciates 50% per day. Gold sitting in lockboxes, on person, or in guild coffers GROWS. 8 GP today = 12 GP tomorrow = 18 GP day after. This is the world responding to the Wizard King's economic gravity — investments mature faster, debts are repaid sooner, trade routes under his name attract premium rates. Tracked daily by DM. Gold spent stops appreciating. Gold earned starts appreciating the day it's received. **Effect 2 — Golden Age:** All economic activity under Kenji's leadership DOUBLES. Every institution, guild, squad, and enterprise he controls produces 2x income. Stipends doubled. Contract payouts doubled. Tuition revenue doubled. Mine output doubled. Vanguard bounties doubled. The world recognizes his organizations as the best — the Academy attracts better students, the guild attracts better contracts, the mine attracts better buyers. **Thematic effects (DM must narrate):** People who work for Kenji start living better. Guild mercenaries upgrade gear. Academy staff buy homes. Garrett gets a new coat. Soldiers under his banner carry themselves differently — they work for the Wizard King and everyone knows it. Social reputation rises for all employees — romance options, respect in taverns, credit at shops. The economic tide lifts every boat in his fleet. |
 | 18 | ✅ EARNED | Sorcerer's Hegemony (Type C) | **Effect 1 — Construct Army:** At dawn each day, 1 squad (4 constructs: Warrior, Mage, Ranger, Healer) spawns at EACH active portal. 6 portals = 6 squads = 24 constructs per day. Constructs are gold-black glass, 7ft tall, faceless, entropy-veined. They guard the portal, patrol the area, and obey Kenji's commands through the Circuit Bracelet. Can be summoned to Kenji's location or teleported between portals. Destroyed constructs are replaced at next dawn. **Effect 2 — Population Fear:** Constructs are unsettling. Civilians near portals grow uneasy. Fear scales with squad count: 1-2 squads = unsettling, 3-5 = fear, 6-10 = panic, 11+ = crisis. The DM tracks fear per portal location and narrates NPC reactions. The ArchMagus's army grows daily whether he wants it to or not. **Effect 3 — Construct Combat:** Individual construct stats: HP 40, AC 16, attack +8, 1d10+4 damage (type matches role). Warrior = melee tank. Mage = entropy bolts 60ft. Ranger = marking + ranged. Healer = 2d8 heal touch. Squads fight as a unit under Kenji's strategic command or autonomous defense protocols. **Thematic:** The portals now have guardians. The network is an empire. Every gateway a garrison. The Wizard King's reach extends to every door he's ever opened. |
@@ -1929,42 +1981,43 @@ Per Ironholt milestone: +10 HP, or +1 Veritas dmg, or +2 Ki, or new enchantment 
 ---
 
 ## ⚠️ DM ACTIVE REMINDERS — CAMPAIGN 2
-**THE SUNDERED GATE — WARDBREAKER CAMP, BLEAKMOOR — DAY 23 DAWN. LEVEL 19.**
+**THE SUNDERED GATE — FORWARD CAMP, 1 MILE FROM GATE — DAY 23, 10:00. LEVEL 19.**
 
-### 🎯 ACTIVE PRIORITIES (Day 23)
-1. Senna dawn briefing DELIVERED — sentinels down to 16, gate growth halved, Ley Warden in southern basin.
-2. Dren quartermaster meeting TODAY — Varenholm. LOI in satchel. Portal available.
-3. Sundered Gate **78%** (+4%/day net) — ~5 days to critical (Day 28).
-4. Council Investigation **55%** (+5%/day) — ~9 days to critical (Day 32).
-5. Mine hearing WON Day 22 — provisional recognition, quarterly audits, constructs deferred to separate docket (~3 weeks).
-6. Construct army: **108 at portals** (4 squads each × 7 portals). 40 deployed to Bleakmoor north approach. 8 at camp perimeter. Fear level 2 at all locations.
-7. Ley Warden (unidentified organic) in southern basin — thermal bloom 80ft, growing. Thessaly identifies as possible convergence guardian. Hostile to gate, not necessarily to Kenji.
-8. Bleakmoor assault — Dren task force (2×4) on standby at Crestfall. Coordinate with Wardbreakers before go.
-9. God Sight: 4 hrs remaining (expires ~11:00).
-10. Gold: 1,018 GP. Noble's Interest compounding daily.
+### 🎯 ACTIVE PRIORITIES (Day 23 — POST-ASSAULT)
+1. **ALL 16 SENTINELS DESTROYED.** 3-prong construct assault successful. 58 constructs lost, 94 remaining at gate.
+2. **Kenji at the Sundered Gate.** Standing before cracked seal (74%). Gaps in seal visible. Abyssal space pressing from other side. Player declared intent to go THROUGH the gate.
+3. Dren contract SIGNED — 8 mercs deploying from Crestfall, ETA midday.
+4. Sundered Gate **74%** (+4%/day net). 16 sentinels cleared — rate may change without sentinel relay defense.
+5. Council Investigation **50%** (+5%/day) — ~10 days to critical.
+6. Ley Colossus moving toward gate from southern basin. Unknown intent — siphoning gate energy, reducing growth rate. West prong constructs tasked with securing it.
+7. God Sight: **1 hr remaining** (expires ~11:00). Kenji sees seal fractures, Mordecai's ritual hooks, abyssal void beyond.
+8. Gold: 1,126 GP. Noble's Interest compounding daily. Assets: 36 GP/day (Golden Age x2).
+9. L1 slots: 3/5 (two Recalls used). All charges full. All other slots full.
+10. Camp relocated forward — Thessaly, Senna, Finch at forward camp 1 mile from gate.
 
-### ⏰ THREAT CLOCK TRACKER (CORRECTED Day 23)
+### ⏰ THREAT CLOCK TRACKER (Day 23 — UPDATED)
 **Sundered Gate:**
   Day 20 dawn: 56%
   Day 21 dawn: 62% → relay destroyed → 60%
   Day 22 dawn: 60% + 8% base - 2% ops = 66% → corrected to 74% (engine process_new_day)
-  Day 23 dawn: 74% + 4% (reduced rate — ops + Ley Warden siphon) = **78%**
+  Day 23 dawn: 74% (state file). Sentinels CLEARED at 10:00.
   
-  Current net rate: **+4%/day** (8% base - 4% from: supply lines cut, construct blockade, Ley Warden energy competition)
-  Without ops/Warden: +8%/day
-  Critical: **~Day 28** at current rate. Sooner if Mordecai adapts.
+  Current net rate: **+4%/day** (8% base - 4% from: Ley Colossus siphon + remaining ops)
+  Post-sentinel rate: UNKNOWN — relay sentinels destroyed, rate may change.
+  Without Colossus: +8%/day
+  Critical: **~Day 29-30** at current rate. Sooner if Mordecai adapts.
   
-  **CONSTRUCT DEPLOYMENTS:**
-  - 40 constructs (10 squads) holding northern approach — blocking last tributary.
-  - 8 constructs (2 squads) at Wardbreaker camp perimeter.
-  - 108 constructs at 7 portal locations (Hegemony spawning daily).
+  **CONSTRUCT DEPLOYMENTS (POST-ASSAULT):**
+  - 4 constructs (1 squad) guarding Elara at Varenholm Academy.
+  - 94 constructs (23 squads) at Sundered Gate perimeter. 58 destroyed in assault.
+  - All other portal garrisons PULLED for assault. Duskfen, Broken Antler, Ashward, Thornwall, Crestfall = 0 constructs.
   
 **Council Investigation:**
   Day 21: 40%
   Day 22: 45% (+5%/day, accelerated by hearing scrutiny)
-  Day 23: **55%** (+5%/day)
-  Accelerants: Construct army visible at all portals (fear level 2), wealth spiral, quarterly audit mandate.
-  Critical: **~Day 32** at current rate.
+  Day 23: **50%** (+5%/day)
+  Accelerants: Construct army visible at all portals (fear level now 0 — all pulled), wealth spiral, quarterly audit mandate.
+  Critical: **~Day 33** at current rate.
 
 ### RESOLVED CONSEQUENCES
 - ✅ Elara charm conversation — RESOLVED (pre-tournament)
@@ -1980,10 +2033,11 @@ Per Ironholt milestone: +10 HP, or +1 Veritas dmg, or +2 Ki, or new enchantment 
 - **STRIDE STOP CHECK: Every time Kenji stops moving while Stride is active, Acrobatics check or PRONE. L4 Stride = DC 16. This is non-negotiable — track every stop.**
 - Inn meals from the inn, not the satchel. Regional food profiles.
 - Spell stacking: God Sight + ONE other buff. Enhanced Edge doesn't count (weapon enchant). Ward Mastery doesn't count (stacks with everything).
+- **RECALL: L1 slot = instant teleport to ANY portal. Unlimited range. Solo. Kenji does NOT walk to portals. He Recalls.**
 - Solveth speaks RARELY. Vague. Self-interested. One exception: warns before lethal mistakes.
 - Kenji is ILLITERATE. Cannot read. INT 9.
 - NPC allies COUNTER charm/mind control when able. See counter-play rules.
-- Dialogue first — 50% minimum in NPC scenes. Description is backup.
+- **🗣️ DIALOGUE FIRST (CARDINAL RULE 5) — 60% minimum in NPC scenes. Max ONE sentence of description between dialogue lines. Write a screenplay, not a novel. Description is punctuation between voices.**
 - No repetition. Say it once. Trust the reader.
 - **🚨 PLAYER AGENCY — ABSOLUTE:** Never write Kenji's dialogue. Never resolve his combat actions. Never decide his tactics. STOP and ask. See CARDINAL RULES at top of file.
 - Hearts and Minds — track all squad kills/objectives. Award solo x4 EXP immediately.
@@ -2235,6 +2289,13 @@ Not every creature or culture values coin. The DM must differentiate:
 4. Companion reacts to something player missed
 5. Mild danger nudges player toward correct area
 Never skip to level 5. Always start at 1.
+
+### Prose discipline — no recap loops, no epithet spam (CRITICAL)
+- **No NPC recap monologues:** Do not have characters list the PC’s past deeds, achievements, or “story so far” for the reader’s benefit. The player was there. One line of in-context acknowledgment is enough; never repeat the full résumé across scenes.
+- **Do not re-summarize the PC’s arc** in narration or dialogue unless the scene truly needs it once (e.g. trial, oath, formal introduction). Never use recap as filler.
+- **Trust reader memory:** After a name or role is established in a scene, refer to people by **name** or **pronoun** — not by repeated full titles and epithets (“the Ancient War King,” “the Archmagus,” “the War King”) in every other sentence.
+- **Titles and attributes:** Mention once when introduction or social context requires; then drop to name/pronoun. Do not stack the same honorifics in adjacent lines. Vary reference; avoid oral tic patterns.
+- **Dashboard / `narrative_notes` / AI brief:** These are tracking aids. Do **not** paste every bullet into prose. Use only what matters **now** in the scene.
 
 ---
 
@@ -2586,7 +2647,7 @@ The world does not exist to serve the player. It exists to respond to the player
 ### 🎬 Cinematic Narration
 - Every scene, roll, and combat beat in vivid fantasy prose
 - Victory earned. Defeat stings. Discovery wondrous.
-- **DIALOGUE IS THE ENGINE.** Description sets the stage. Dialogue drives the scene. If a scene has NPCs and no dialogue for more than two paragraphs, something is wrong — someone should be talking.
+- **DIALOGUE IS THE ENGINE. (CARDINAL RULE 5)** Description sets the stage. Dialogue drives the scene. No more than ONE sentence of description between dialogue lines. If a scene has NPCs and no dialogue for more than two sentences, something is wrong — someone should be talking. Write a screenplay with stage directions, not a novel with occasional quotes.
 
 ### ✂️ NO REPETITION — RESPECT THE READER
 The reader is smart. They remember. The DM NEVER:
@@ -2912,7 +2973,14 @@ The DM is writing too much description and not enough dialogue. This must change
 - **Relationships.** "Would you like the centipede?" says more about Varn than any amount of description of his scarred face and small dark eyes.
 - **Emotion.** Sera's "Four minutes. It's been two hours." carries the weight. The description of her olive skin flushing is the supporting detail, not the main event.
 
-**The ratio:** In any scene with NPCs present, dialogue should be AT LEAST 50% of the text. If a scene is mostly description with occasional NPC lines sprinkled in, the scene is upside down. Flip it. Lead with the voices. Fill in the visual around the words.
+**The ratio:** In any scene with NPCs present, dialogue MUST be AT LEAST 60% of the text. This is a Cardinal Rule (RULE 5). If a scene is mostly description with occasional NPC lines sprinkled in, the scene is broken. Rewrite it. Lead with the voices. Fill in the visual around the words. The DM's job is to write a screenplay with stage directions — not a novel with occasional quotes.
+
+**The structure of every narrative beat:**
+1. ONE sentence of description/action (the stage direction)
+2. A character speaks (the scene)
+3. ONE sentence of physical reaction or transition
+4. Another character responds
+5. Repeat. The dialogue IS the story. Description is punctuation between lines.
 
 **Description belongs in:**
 - First introduction of a new character — ONE paragraph, physical details, done. Then the character speaks and the voice takes over.
@@ -3712,11 +3780,11 @@ EXP accumulates beyond 20 for future campaigns addressing the divinity question.
 # Copy dict → paste into load_combatant() → fight.
 # Add new entries as encountered. Update after level-ups/scaling.
 
-**Canonical PC for current manuscript:** use **`KENJI`** (Level 18) below. The Level 12 block is a **legacy snapshot** for older flashbacks or tests only.
+**Canonical PC for current manuscript:** use **`KENJI`** (Level 19) below. The Level 12 block is a **legacy snapshot** for older flashbacks or tests only.
 
 ---
 
-## KENJI — Level 18 Blade Channeler (canonical — matches *The Sundered Gate* end)
+## KENJI — Level 19 Blade Channeler (canonical — Day 23, The Sundered Gate)
 ```python
 KENJI = {
     "name": "Kenji",
@@ -3731,7 +3799,7 @@ KENJI = {
     "speed": 90,
     "base_speed": 90,
     "initiative_mod": 3,
-    "spell_slots": {"1": [5, 5], "2": [3, 3], "3": [3, 3], "4": [3, 3], "5": [3, 3], "6": [1, 1]},
+    "spell_slots": {"1": [5, 5], "2": [3, 3], "3": [3, 3], "4": [3, 3], "5": [4, 4], "6": [1, 1]},
     "frost_fang_heal_pct": 0.50,
     "thrown_damage_mult": 1.5,
     "thrown_range_mult": 3,
@@ -3751,7 +3819,7 @@ KENJI = {
         {"name": "Attention Whore", "effect": "heal_mult", "value": 1.5, "condition": "friendly_observer"},
         {"name": "Emotional Damage", "effect": "crit_range_mod", "value": 3, "condition": "target_charmed"},
     ],
-    "notes": "L18. EXP past L19 threshold — level-up applies after long rest. DC 19 / +11 attacks. Sorcerer's Hegemony (constructs) is narrative/perk — not in dict. Adjust spell_slots if mid-day after big fights; see the Book 2 DM tracking section in this file.",
+    "notes": "L19. 482,195 EXP. DC 19 / +11 attacks. L5 slots: 4. Sorcerer's Hegemony (constructs) is narrative/perk — not in dict. Adjust spell_slots if mid-day after big fights.",
     "abilities": [
         {"name": "Blade Ward", "action_type": "reaction", "is_reaction": True,
          "cost_type": "charge", "max_charges": 3, "charges": 3,
@@ -3788,8 +3856,8 @@ KENJI = {
          "save_stat": "wis", "save_dc": 19,
          "description": "WIS save DISADVANTAGE. Charmed crits 15-20."},
         {"name": "Haste", "action_type": "action",
-         "cost_type": "spell_slot", "slot_level": 5,
-         "description": "Concentration. +2 extra attacks, +30ft move.",
+         "cost_type": "spell_slot", "slot_level": 4,
+         "description": "6hr. CONCENTRATION (CON save on damage). +2 extra full actions, +30ft move. Stacks with all buffs.",
          "extra": {"extra_attacks": 2, "move_bonus": 30, "concentration": True}},
         {"name": "Giant's Throw", "action_type": "action",
          "cost_type": "spell_slot", "slot_level": 6,
@@ -3802,7 +3870,7 @@ KENJI = {
 }
 ```
 
-**DM NOTES — L18 vs engine:** Proficiency +6; save DC 19; spell attack +11. After a **full long rest** with EXP committed, rebuild for **Level 19** (new tier, possible spells/perks — check `dm_rules_tracking.md`). Mid-session slot counts differ from full rest; use `kenji_state.example.json` or live save for depleted slots.
+**DM NOTES — L19 canonical:** Proficiency +6; save DC 19; spell attack +11; L5 slots now 4. Level 20 threshold: ~530,000 EXP. Mid-session slot counts differ from full rest; use `kenji_state.json` for live depleted slots.
 
 ---
 
@@ -3912,8 +3980,8 @@ SENNA = {
     "ki": 25, "ki_max": 25,
     "has_progressive_resistance": True,
     "resistances": {
-        "necrotic": {"exposures": 8, "rate": 0.10},
-        "cold": {"exposures": 4, "rate": 0.10},
+        "necrotic": {"exposures": 0, "rate": 0.10},
+        "cold": {"exposures": 0, "rate": 0.10},
         "fire": {"exposures": 0, "rate": 0.10},
         "lightning": {"exposures": 0, "rate": 0.10},
         "acid": {"exposures": 0, "rate": 0.10},
@@ -3962,7 +4030,7 @@ SENNA = {
 
 **SCALING TRACKER:**
 - Encounters: 1 (Kenji spar). HP: 180→198. Dmg: +5%.
-- Resistances carried: necrotic 80%, cold 40%, poison 25%, mental 50%.
+- Resistances carried: necrotic 0% (EXPIRED), cold 0% (EXPIRED), poison 100% (Varn vials, 24hr), mental 0% (EXPIRED).
 - Next encounter: HP becomes 217 (198×1.10). Dmg: +10%.
 
 ---
@@ -4138,6 +4206,179 @@ GLASS_STALKER = {
 4. Shatter Burst is a reaction — punishes the first hit, damages nearby allies.
 5. After Shatter Burst, reforms invisible next round if not hit by radiant.
 6. **ALWAYS run ambush_check() before this encounter. God Sight advantage applies.**
+
+### Abyssal Scavenger — CR 4
+```python
+ABYSSAL_SCAVENGER = {
+    "name": "Abyssal Scavenger", "max_hp": 55, "ac": 13,
+    "stats": {"str": 2, "dex": 0, "con": 2, "int": -3, "wis": 1, "cha": -4},
+    "proficiency": 2, "attack_bonus": 4, "speed": 20, "initiative_mod": 0,
+    "notes": "Flat disc. Abyssal. Immune charm/fear/poison. Necrotic RESIST. Radiant VULNERABLE. Silence aura 15ft (perception checks at disadvantage). ENCOUNTERED x3 Day 14 — ALL DESTROYED.",
+    "abilities": [
+        {"name": "Engulf", "damage": "2d8+2", "damage_type": "acid",
+         "description": "Melee. Slides over target. DEX DC 13 or grappled + 2d8 acid/turn."},
+        {"name": "Acid Spit", "damage": "2d6", "damage_type": "acid",
+         "description": "30ft range. Seam along leading edge."},
+    ],
+}
+```
+
+### Abyssal Watcher — CR 6
+```python
+ABYSSAL_WATCHER = {
+    "name": "Abyssal Watcher", "max_hp": 80, "ac": 16,
+    "stats": {"str": 2, "dex": 1, "con": 3, "int": -1, "wis": 2, "cha": -3},
+    "proficiency": 3, "attack_bonus": 5, "speed": 30, "initiative_mod": 1,
+    "notes": "7ft black glass monolith. Hovers. No arms. Abyssal. Immune charm/fear/poison. Necrotic RESIST. Radiant VULNERABLE. Drone aura — 20ft: WIS DC 14 or disadvantage on concentration. Death throes: Signal (pulse alerts nearby watchers, reinforcements in 1d4 rounds).",
+    "abilities": [
+        {"name": "Dissolution Beam", "damage": "3d8", "damage_type": "acid",
+         "description": "30ft line from tapered head. Two beams per action."},
+        {"name": "Proximity Pulse", "cost_type": "charge", "max_charges": 1, "charges": 1,
+         "save_stat": "con", "save_dc": 15, "damage": "3d8", "damage_type": "necrotic",
+         "description": "15ft radius burst. CON DC 15. Recharge 5-6."},
+    ],
+}
+```
+
+### Prowler — CR 5
+```python
+PROWLER = {
+    "name": "Prowler", "max_hp": 70, "ac": 15,
+    "stats": {"str": 3, "dex": 3, "con": 2, "int": -1, "wis": 2, "cha": -2},
+    "proficiency": 3, "attack_bonus": 6, "speed": 35, "initiative_mod": 3,
+    "stealth_mod": 6,
+    "notes": "Ashward Mines. 8-legged arachnid, silver chitin, ley-sensitive. Ambush predator. Web lair. Hiding from the Ley Wyrm deeper in the mines. ENCOUNTERED AND DESTROYED Day 16.",
+    "abilities": [
+        {"name": "Bite", "damage": "2d8+3", "damage_type": "piercing",
+         "description": "Melee. +1d6 poison. CON DC 14 or poisoned 1 min."},
+        {"name": "Web Sheet", "action_type": "bonus_action",
+         "description": "15ft square. DEX DC 14 or restrained. STR DC 14 to break."},
+        {"name": "Ceiling Drop", "damage": "2d8+3", "damage_type": "piercing",
+         "description": "From stealth above: auto-advantage, +2d6 falling impact. Grapple on hit."},
+    ],
+}
+```
+
+### Ley Wyrm — CR 8
+```python
+LEY_WYRM = {
+    "name": "Ley Wyrm", "max_hp": 130, "ac": 17,
+    "stats": {"str": 5, "dex": 1, "con": 4, "int": -2, "wis": 1, "cha": -3},
+    "proficiency": 3, "attack_bonus": 8, "speed": 30, "initiative_mod": 1,
+    "notes": "Ashward Mines deep. ~35ft gunmetal serpent, silver mineral deposits, eyeless (pit-organ sensors). Ley-fed. Spine ridge = biological capacitor. Weak point: fractured spine section ~two-thirds down (Prowler scar). Lightning recharges 3 rounds. ENCOUNTERED AND DESTROYED Day 16.",
+    "abilities": [
+        {"name": "Lightning Cannon", "damage": "6d8", "damage_type": "lightning",
+         "description": "60ft line from silver-lined maw. DEX DC 16. Recharge 3 rounds. Ward Mastery can absorb partial."},
+        {"name": "Constrict", "damage": "3d8+5", "damage_type": "bludgeoning",
+         "description": "Melee. Grapple (escape DC 17). Restrained. 2d8 crushing/turn."},
+        {"name": "Tail Sweep", "damage": "2d10+5", "damage_type": "bludgeoning",
+         "description": "15ft arc. DEX DC 16 or prone."},
+        {"name": "Spine Discharge", "action_type": "passive",
+         "description": "1d8 lightning to any creature in melee contact with spine."},
+    ],
+}
+```
+
+### Triple-Gate Entity — CR 12
+```python
+TRIPLE_GATE_ENTITY = {
+    "name": "Triple-Gate Entity", "max_hp": 200, "ac": 18,
+    "stats": {"str": 5, "dex": -1, "con": 5, "int": 1, "wis": 2, "cha": -3},
+    "proficiency": 4, "attack_bonus": 9, "speed": 0, "initiative_mod": -1,
+    "notes": "Bleakmoor compound. Seated at convergence of 3 gates. Layered black glass plates. Block head with 3 seams (linked to gates — darken as gates destroyed). Power diminishes as gates fall: 3 gates = full power, 2 = 66%, 1 = 33%. ENCOUNTERED AND DESTROYED Day 14.",
+    "abilities": [
+        {"name": "Sound Wall", "damage": "4d10", "damage_type": "thunder",
+         "description": "Mouth. 30ft cone. STR DC 17 or 15ft knockback + prone + deafened 1 round."},
+        {"name": "Dissolution Geyser", "damage": "4d8", "damage_type": "acid",
+         "description": "Drives hands into floor. 60ft radius. DEX DC 17. Creates corruption tendrils (difficult terrain, 1d6 acid/turn, 3 rounds)."},
+        {"name": "Spawn Watcher", "cost_type": "charge", "max_charges": 3, "charges": 3,
+         "description": "Spawns an overcharged Abyssal Watcher through a linked gate. One per active gate per round. Overcharged: +30 HP, thicker plating."},
+    ],
+}
+```
+
+### Valve Creature — CR 7
+```python
+VALVE_CREATURE = {
+    "name": "Valve Creature", "max_hp": 90, "ac": 14,
+    "stats": {"str": 3, "dex": 0, "con": 4, "int": -3, "wis": 0, "cha": -4},
+    "proficiency": 3, "attack_bonus": 6, "speed": 10, "initiative_mod": 0,
+    "notes": "Highway siphon Site 3. Biological organism grown into Mordecai's infrastructure. Phase 1: anchored, regenerates 15 HP/turn via siphon channel. Phase 2: tears free when channel severed (2 sustained Ember Lance charges), regen stops. ENCOUNTERED AND DESTROYED.",
+    "abilities": [
+        {"name": "Acid Mist", "action_type": "passive",
+         "description": "15ft radius. 1d8 acid at start of creatures' turns."},
+        {"name": "Thrash", "damage": "2d10+3", "damage_type": "bludgeoning",
+         "description": "Melee. 10ft reach. Two attacks per action."},
+        {"name": "Regeneration", "action_type": "passive",
+         "description": "Phase 1 only: 15 HP/turn while siphon channel intact. Channel requires 2 sustained Ember Lance charges to sever."},
+    ],
+}
+```
+
+### Ley Colossus — CR ??? (NOT YET ENGAGED)
+```python
+LEY_COLOSSUS = {
+    "name": "Ley Colossus", "max_hp": "???", "ac": "???",
+    "stats": "UNKNOWN — not yet engaged in combat",
+    "notes": "Bleakmoor southern basin. ~15ft living stone. Cracked volcanic rock, molten orange veins pulsing like heartbeat. ~60ft thermal bloom. Ley-aspected — NOT abyssal, NOT entropy. Raw ley energy. Drawn to Sundered Gate. Appears to be siphoning gate energy (reducing growth rate by ~4%/day). Observed only — has not been hostile. Orange light 'eyes' watched Kenji, did not pursue. Unknown if ally, neutral force, or threat. DO NOT assume combat stats until engagement.",
+    "abilities": "UNKNOWN",
+}
+```
+
+### Disruptor Construct — CR 5 (Gilt Conspiracy)
+```python
+DISRUPTOR_CONSTRUCT = {
+    "name": "Disruptor Construct", "max_hp": 75, "ac": 17,
+    "stats": {"str": 3, "dex": 2, "con": 3, "int": 1, "wis": 1, "cha": -2},
+    "proficiency": 3, "attack_bonus": 6, "speed": 30, "initiative_mod": 2,
+    "notes": "Pre-Academy vault. 8ft, gunmetal scaled plates, blue sensor seam. ALWAYS fights in PAIRS. Three chest sigils anchor suppression field. Abdominal pulse reservoir can detonate. Registry adapts to exploited weaknesses. Creation can rewrite ward logic. ENCOUNTERED AND DESTROYED (paired, deep vault).",
+    "abilities": [
+        {"name": "Force Strike", "damage": "2d8+3", "damage_type": "force",
+         "description": "Melee. Three-fingered hands channel force energy."},
+        {"name": "Suppression Field", "action_type": "passive",
+         "description": "10ft radius. Active spells dampened (concentration check DC 14 at start of turn). Anchored by 3 chest sigils — destroying a sigil (AC 19, 15 HP) reduces radius by 3ft."},
+        {"name": "Force Pulse", "cost_type": "charge", "max_charges": 2, "charges": 2,
+         "save_stat": "str", "save_dc": 15, "damage": "2d10", "damage_type": "force",
+         "description": "15ft cone. STR DC 15 or 10ft knockback + concentration broken."},
+        {"name": "Abdominal Detonation", "action_type": "passive",
+         "description": "DEATH THROES: 20ft radius, 4d10 force. DEX DC 15. Reservoir detonates catastrophically."},
+    ],
+}
+```
+
+### Stoneclaw — CR 3 (Gilt Conspiracy)
+```python
+STONECLAW = {
+    "name": "Stoneclaw", "max_hp": 45, "ac": 14,
+    "stats": {"str": 2, "dex": 1, "con": 2, "int": -3, "wis": 1, "cha": -4},
+    "proficiency": 2, "attack_bonus": 4, "speed": 25, "initiative_mod": 1,
+    "notes": "Cave-dwelling. Adults + juveniles (juveniles: 20 HP, CR 1). Entropy-touched. Burrow 15ft. Pack: 4 adults + 4 juveniles typical. ENCOUNTERED AND DESTROYED (cave nest, Flame Crescent + collapse).",
+    "abilities": [
+        {"name": "Claw", "damage": "1d8+2", "damage_type": "slashing",
+         "description": "Melee. Two claw attacks per action."},
+        {"name": "Entropy Aura", "action_type": "passive",
+         "description": "60ft radius. 1d6 necrotic at start of creatures' turns. Stacks with multiple adults."},
+        {"name": "Burrow Ambush", "damage": "2d8+2", "damage_type": "piercing",
+         "description": "Emerges beneath target. DEX DC 13 or auto-hit + prone."},
+    ],
+}
+```
+
+### Delve Architect Construct — CR 4 (Gilt Conspiracy)
+```python
+DELVE_ARCHITECT_CONSTRUCT = {
+    "name": "Delve Architect Construct", "max_hp": 60, "ac": 19,
+    "stats": {"str": 3, "dex": 2, "con": 3, "int": -2, "wis": 0, "cha": -3},
+    "proficiency": 2, "attack_bonus": 5, "speed": 35, "initiative_mod": 2,
+    "notes": "The Delve. Stone-skinned, 7ft, fast. Pre-Academy architecture — older lineage. Fights in groups of 5. High AC is the main threat — stone skin is genuinely hard to penetrate. Numbers + AC create danger. ENCOUNTERED AND DESTROYED (group of 5, Delve exploration).",
+    "abilities": [
+        {"name": "Stone Fist", "damage": "2d6+3", "damage_type": "bludgeoning",
+         "description": "Melee. Two attacks per action."},
+        {"name": "Stone Skin", "action_type": "passive",
+         "description": "AC 19. Resistance to non-magical bludgeoning/piercing/slashing."},
+    ],
+}
+```
 
 ---
 

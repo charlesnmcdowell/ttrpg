@@ -1,1 +1,5 @@
-# Python 3.10+. Stdlib only — no pip packages required for ttrpg_game_engine.py.
+# Python 3.10+
+# Core engine: stdlib only (ttrpg_game_engine.py)
+# GUI frontend: requires the packages below
+customtkinter>=5.2.0
+pyinstaller>=6.0.0

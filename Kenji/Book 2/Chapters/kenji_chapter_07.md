@@ -4,7 +4,7 @@
 
 ---
 
-Ley alcove. Full rack. Recall to Crestfall.
+Ley alcove. Everything topped off. Recall to Crestfall.
 
 I leave word — I'm crossing, send men behind me. The lieutenant starts to protest. I'm walking.
 
@@ -18,45 +18,45 @@ Stride opens.
 
 ---
 
-The Bleakmoor hits all at once. Not cold — the highway dead zones were cold. This is heavier. The ground black. The sky pressing down. The ember braces against something underneath — not the familiar void of the gates but something deeper, older, spread across the land like a stain soaked into bedrock. The ley lines here are wrong. Not dead. Redirected. Someone is *using* them.
+The Bleakmoor hits like a weight — not cold like the highway strips. Black ground. Low sky. Ley lines **wrong**: not dead. Rerouted. Someone's farming this.
 
-Solveth: *The corruption runs through the ley network itself. This is not surface damage. This is infrastructure.*
+Solveth: *Infrastructure damage. Corruption in the network, not surface scrapes.*
 
-Three miles in. I stop on a ridge. Eat from the satchel. The ember takes the calories like water into cracked earth.
+"Shorter words next time."
 
-Half a mile east — the ground is breathing. Sixty feet across. Rising and falling. The ley lines beneath pulsing in a rhythm that the ember can feel but can't sync with. On the far ridge, a figure on a ruined wall.
+*Stain. Parasite. Happy?*
+
+Three miles in I eat on a ridge. Half a mile east the ground **breathes** — sixty feet, rise and fall — and there's a figure on a broken wall like he paid rent for the view.
 
 ---
 
-A halfling. Three and a half feet. Worn leather. A cloak the color of the terrain. Sandy-brown hair. Ruddy tan skin. A broken nose healed with an upturn.
+Halfling on the wall. Leather. Cloak the same color as the dirt. Grin like he invented trouble.
 
 "What's up."
 
-The grin. "Oh, plenty." He gestures at the breathing ground. "That's been doing that since yesterday."
+"Plenty." He thumbs at the breathing ground. "That's new since yesterday."
 
-"Finch." Small hand extended. "You're not military. You're not from the Hall."
+"Finch." Hand out. "You're not military. Not Hall."
 
-"Kenji. Let's go meet your friends."
+"Kenji." He jerks his chin south. "Friends first. Ground second. It burps when it's hungry."
 
 ---
 
-Three people behind the south wall.
+South wall. Half-orc with a greatshield across his knees, eating like the world owes him calories.
 
-The half-orc. Impossible to miss. Greatshield across his knees. Eating with hands the size of dinner plates. He looks up. Goes back to eating.
+Varn doesn't look up long. "She likes you already."
 
-"Varn. He likes you."
+Senna at the edge — auburn braid, bare hands. "Healer. You bleed, I'll know before you do."
 
-The woman at the wall's edge. Auburn braid. Green eyes that assess injury before threat. Bare hands — instruments.
-
-"Senna."
-
-The one on the stone block. Thessaly. Book on her knee. Spectacles. Robes pressed clean in the Bleakmoor — somehow. Crystal-tipped staff against the wall. Blue-grey eyes that are already taking me apart.
+Thessaly on the stone block. Book. Staff. Spectacles. Robes too clean for the Bleakmoor.
 
 "Where did you train?"
 
+"Badly. Then faster."
+
 ---
 
-I tell them everything. Basilisk. Aldwin. The conspiracy. Promoted myself. Mercenary guild. Mine. Crystal wyrm. Court soon. Six portals. Solo. Platinum offer.
+I tell them everything. The highlights — twenty minutes that sound like someone else's life. Basilisk. Conspiracy. A god in a sword. Mercenary guild. Six portals. Solo Platinum offer.
 
 The book hits the ground.
 
@@ -108,7 +108,7 @@ He'd stand on the hillside and bleat at the dawn —
 and the man's wife would whisper...
 *our love is not wrong.*"
 
-Second bite. Swollen flesh. Venom save — barely.
+Second bite. Swollen flesh. Barely standing.
 
 "The man went to Bartol. He pleaded. He wept.
 He said *give me back what you've stolen and kept.*
@@ -116,7 +116,7 @@ But Bartol just chewed on a mouthful of hay —
 then looked at the man's wife...
 and she *chose to stay.*"
 
-Third bite. The shield arm dropping lower. Venom save — passes by one.
+Third bite. The shield arm dropping lower. He's fighting the venom now.
 
 "The man walked home slowly. The stars filled the sky.
 He didn't look back. And he didn't ask why.
@@ -124,7 +124,7 @@ Some loves are for people. Some loves are for goats.
 And some men just stand there...
 reciting their notes."
 
-Fourth bite. Same wound. Deeper. Venom save — fails.
+Fourth bite. Same wound. Deeper. The venom wins.
 
 The shield arm drops. "Yield. Get it off me."
 
@@ -155,3 +155,9 @@ Both blades drawn. Enhanced Arcane Edge. Duality Aspect Entropy — the green-bl
 Senna stands in the arena. Bare hands. Green eyes tracking the aura, the blades, the altitude. The healer who's seen worse.
 
 "Whenever you're ready."
+
+We spar until the light goes flat and the Bleakmoor stops caring about the horizon. The squad gets a single sentence in the log — *full power exchange, no injuries requiring intervention* — and a memory none of them were allowed to watch.
+
+---
+
+End of The Sundered Gate — Chapter Seven.

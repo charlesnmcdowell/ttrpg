@@ -1,4 +1,6 @@
-# KENJI — BOOK TWO: *The Descent*
+# KENJI — BOOK TWO: *The Sundered Gate*
+
+**Single manuscript — Book 2:** *Prelude — The Gilt Conspiracy* (Day Thirteen) → *The Expedition* → *The Sundered Gate* through **Chapter Twenty-Four** (*Long Rest*). **Book 3 — *The Iron Crown War*** is separate (`Book 3/Chapters/`).
 
 ---
 
@@ -782,10 +784,6 @@ Sera: "What is that?"
 "Something new."
 
 "Yep."
-
----
-
-The cycle turns. Three hundred and thirty-nine threads dissolved simultaneously — not severed, not torn. Dissolved. Creation and entropy flowing together for the first time in twelve years. The ember has room it didn't have yesterday. The bottleneck is gone. And the power building behind it has nowhere to go. Yet.
 
 ---
 
@@ -1685,6 +1683,8 @@ Senna stands in the arena. Bare hands. The healer who's seen worse.
 
 "Whenever you're ready."
 
+We spar until the light goes flat and the Bleakmoor stops caring about the horizon. The squad gets a single sentence in the log — *full power exchange, no injuries requiring intervention* — and a memory none of them were allowed to watch.
+
 ────────────────────────────────────────
 **— END OF CHAPTER TWELVE — BARTOL —**
 ────────────────────────────────────────
@@ -1738,13 +1738,13 @@ From the corner, Varn: "She's had four plates."
 
 ---
 
-The Wardbreakers deploy through the Bleakmoor Ruins portal. Full squad — Senna on point, Finch scouting, Varn on the greatshield, Thessaly reading ley signatures, Kenji fully buffed from the Academy ley line. Six buffs active. Five attacks per round. 270 feet of Cyclone range.
+The Wardbreakers deploy through the Bleakmoor Ruins portal. Full squad — Senna on point, Finch scouting, Varn on the greatshield, Thessaly reading ley signatures, I'm fully buffed from the Academy ley line. Six buffs active. Five attacks per round. 270 feet of Cyclone range.
 
 The siphon trail runs east from the convergence. Wider than before — the unsealed convergence feeding more energy into whatever waits deeper. Thessaly confirms: the flow is accelerating.
 
 Senna's squad takes the first relay node. Two Glass Sentinels. She handles it without breaking stride. The bracelet pulses — Hearts and Minds registers the kills.
 
-Kenji and Thessaly push east. Two miles. The trail leads to a basin — quarter mile across, black glass mirror floor. Three spires in a triangle. Three Glass Sentinels patrolling. And at the center, seated at the base of an engineered abyssal gate — something that reads as a hole in the shape of a person.
+Thessaly and I push east. Two miles. The trail leads to a basin — quarter mile across, black glass mirror floor. Three spires in a triangle. Three Glass Sentinels patrolling. And at the center, seated at the base of an engineered abyssal gate — something that reads as a hole in the shape of a person.
 
 Not a breach. Not a scar. A gate. Built. Controlled. Twenty feet tall. The energy flowing through it metered. Precise. Engineering.
 
@@ -1752,7 +1752,7 @@ Emberfrost drops from the cliff. Horizon Arc sweeps the basin — fire and frost
 
 Three Cyclone throws. Giant's Throw turns each hit into artillery. 270 feet. 1.5x damage. The sentinels shatter. Black glass dust settling like snow.
 
-The Gate Warden unfolds. Eight and a half feet of void. It reaches — Void Grasp. Misses. Counter Throw fires. Emberfrost punches through its torso at range and returns. The second grasp connects — force pulling Kenji toward the gate. Temp HP absorbs.
+The Gate Warden unfolds. Eight and a half feet of void. It reaches — Void Grasp. Misses. Counter Throw fires. Emberfrost punches through its torso at range and returns. The second grasp connects — force pulling me toward the gate. Temp HP absorbs.
 
 Round 2. Five Cyclone throws. The first carves sixty damage. The third crits. The Warden comes apart like a mirror dropped from a roof.
 
@@ -1793,9 +1793,9 @@ Senna takes her squad to close the gates. Hand signals to Finch and Varn. Profes
 
 ---
 
-Kenji and Thessaly descend. Sixty feet down the carved glass slope. The compound door is open. Not broken — open. A ward line across the threshold. Alarm, not offensive. Whoever lives here wants to know when someone comes in.
+Thessaly and I descend. Sixty feet down the carved glass slope. The compound door is open. Not broken — open. A ward line across the threshold. Alarm, not offensive. Whoever lives here wants to know when someone comes in.
 
-They don't want to stop them.
+They don't want to stop us.
 
 "That means they're confident about what's inside."
 
@@ -1833,7 +1833,7 @@ Senna closes three gates. The Wardbreakers regroup at the crater's edge.
 
 Thessaly briefs. Journals, map, Mordecai's name, the Sundered Gate. Senna takes the intel like a professional.
 
-Orders: Thessaly to Varenholm — Elara gets the journals. Senna briefs Garrett at the Silver Draft. Kenji registers for the tournament.
+Orders: Thessaly to Varenholm — Elara gets the journals. Senna briefs Garrett at the Silver Draft. I register for the tournament.
 
 The Bleakmoor Ruins portal goes dark. A new gateway rises at the crater — fifteen feet of gold and green-black entropy threading. Portal 6 rebuilt. The network holds.
 
@@ -1841,9 +1841,9 @@ Senna walks through last. A look over her shoulder. Not warm. Not hostile. A cap
 
 ---
 
-Thornwall at night. The Iron Coliseum rising behind the registration office. Stone and iron built for a scale of violence that makes the Bleakmoor look polite. Two guards at the door watching the ArchMagus step out of a fifteen-foot entropy-lined portal.
+Thornwall at night. The Iron Coliseum rising behind the registration office. Stone and iron built for a scale of violence that makes the Bleakmoor look polite. Two guards at the door watching me step out of a fifteen-foot entropy-lined portal.
 
-Emberfrost on his back. Bleakmoor dust on his boots. The ember settling into something that feels like anticipation.
+Emberfrost on my back. Bleakmoor dust on my boots. The ember settling into something that feels like anticipation.
 
 Tomorrow is paperwork. Day after is blood.
 
@@ -1980,8 +1980,6 @@ Tomorrow is blood.
 
 
 ## Day 21, Morning
-
----
 
 ---
 
@@ -2225,17 +2223,6 @@ The Dren fight paid. The Bleakmoor runs paid. The tally is high enough that the 
 Four hundred fifty-three gold. Noble's Interest plus Golden Age income. By the time the Sundered Gate hits critical, the ArchMagus carries more gold than the Academy's annual budget. The Council will notice.
 
 The gate is at fifty-six percent. Eight percent a day. Five days.
-Sera: Ring vs Vael. Steel only. Close (+45).
-Senna: Won. 261 HP. Poison immune. Cold (-25). Grinning.
-Varn: Healed. Bench. Eating. Eliminated. Neutral (+5).
-Dren: Medical. Wants to talk. Friendly (+15 NEW).
-Garrett: Mine hearing. Today. Unknown result.
-Elara: Received wardrobe via construct. Faculty saw.
-Thessaly/Finch: Bleakmoor ops Day 2. Producing H&M EXP.
-Mordecai: Sunken Bastion. 56%. Not idle.
-Solveth: Frost Fang. Questioning existence.
-Constructs: 47 active. 6 locations. Fear level 1 everywhere.
-```
 
 ────────────────────────────────────────
 **— END OF CHAPTER SEVENTEEN — THE IRON COLISEUM, PART II —**
@@ -2473,7 +2460,7 @@ Sleep comes faster than it should.
 
 ## Chapter Twenty — The Assault
 
-## Day 23 — Afternoon
+## Day 23 — Morning
 
 ---
 
@@ -2638,3 +2625,1847 @@ I wait.
 ────────────────────────────────────────
 **— END OF CHAPTER TWENTY — THE ASSAULT —**
 ────────────────────────────────────────
+
+---
+
+## Chapter Twenty-One — The Heart
+
+## Day 23 — Midday — Inside the Sundered Gate
+
+---
+
+Dren arrives at noon. Eight mercenaries in enchanted kit cresting the ridge behind him, and the man himself carrying a longsword with a grey-wrapped hilt like he walked three hours and isn't tired. Because he did and he isn't.
+
+He surveys the dead zone. Shattered sentinel remains. Constructs on patrol. The green-black column rising from the gate crack two hundred yards ahead.
+
+"You work fast."
+
+---
+
+Six of us at the edge of the dead zone. The gate ahead. The plan simple — the six of us go through. Constructs and mercs hold the exit.
+
+Senna doesn't wait. "Who's this?"
+
+"Dren." He doesn't look at her. He's reading the terrain — debris fields, patrol routes, approach angles. "Merc guild. My people hold your exit."
+
+"Nobody asked you to hold anything."
+
+"Nobody asked. I'm telling you." He turns. Calm. Professional. "Eight fighters, enchanted kit, posted at the tear. Your constructs hold the perimeter. My people hold the choke."
+
+Senna's jaw tightens. She looks at me.
+
+Thessaly cuts in. She's holding a ley-compass, needle spinning. "The tear is passable. The Watchers originated from inside — they pushed through at seventy-four percent degradation. We can push through the same gap." The needle stutters. "But the readings are structured. There's architecture on the other side. Not natural. Someone *built* something in there."
+
+Finch, leaning on his short spear: "Built something. Inside the screaming wound in reality."
+
+"Yes."
+
+"And we're going into the thing someone built inside the screaming wound in reality."
+
+"Yes."
+
+"Just making sure I understood the assignment."
+
+Dren: "What's the fallback?"
+
+Thessaly: "Kenji can Recall to any portal instantly. Three charges remaining today. The tear behind us is our physical exit — as long as the seal doesn't collapse, it stays open."
+
+"And if it collapses?"
+
+Silence.
+
+"That's what I thought." Dren faces the group. "My people hold the exit. If the tear seals, they wait until dawn. After dawn, they pull back and report to Garrett. Non-negotiable."
+
+Senna: "Your people, your call." The first thing she's said to him without an edge.
+
+Varn speaks for the first time. One word. "Formation?"
+
+Senna nods. "You take point. Finch flanks right. Thessaly reads the walls — anything structural, anything that tells us how to break it. I'm center." She looks at me and Dren. "You two sort yourselves out."
+
+Dren: "I'm rear guard. Someone needs to watch what's behind us while the rest of you stare at the magic."
+
+Finch: "Did he just volunteer for the job nobody wants?"
+
+Senna: "He volunteered for the job that keeps us alive if something follows us in. Smart."
+
+---
+
+God Sight is gone. Expired at eleven. The expanded perception, the thermal reads, the deep-structure vision — all flat. The world got smaller three hours ago and I've been working without it since.
+
+I Recall to Varenholm. The threshold snaps away — replaced by warm stone and amber light. The ley alcove hums. Clean energy. I reach for it and the ember catches. God Sight blooms behind my eyes. The world sharpens. Layers. Crit range widened. Darkvision to a hundred and twenty feet. The predator sees everything.
+
+One more Recall. The anchor pulls me back to the forward camp. Grey sky, black glass. I walk through the tear.
+
+---
+
+The tear accepts us.
+
+No resistance. No barrier. One step on black glass under grey sky, and the next step the sky is gone.
+
+The cold hits first. Not temperature. Structure. In the bones, in the blood, in the way joints connect. A place that was never meant to hold living things.
+
+Then the sound.
+
+Finch: "What the—" His words arrive before his mouth moves. Then his lips catch up. Then the echo comes third.
+
+Thessaly: "Temporal acoustic displacement. Sound travels at inconsistent speeds here. You'll hear responses before questions. Don't panic."
+
+Finch: "Don't panic, she says, while my own voice is *time traveling*—"
+
+"Finch." Senna. One word. He stops.
+
+The space resolves. Cathedral-vast. A ceiling hundreds of feet overhead, lost in violet-black haze. The floor is polished black glass — smooth, intentional. Walls curving inward, covered in thousands of ley-script sigils. Most dark. Dead. A few still glowing faint blue-white.
+
+Thessaly makes a sound that isn't a word.
+
+Senna: "Report."
+
+"I need a moment—"
+
+"You don't have a moment. Report."
+
+Thessaly steadies herself. "This isn't a gate. It's a *chamber*. The original seal wasn't a wall — it was a room. A containment architecture. We're standing *inside* the seal." She turns slowly, compass glowing. "The script on every surface is the lock mechanism. Thousands of interlocking sigils. Most are dead — that's the seventy-four percent. But the ones still active..." She points at a cluster near the ceiling. "That's what's holding reality together."
+
+Dren, from the rear: "And the red stuff?"
+
+Crystallized conduits run through the ancient stonework like parasitic roots. Black glass veins branching and rebranching, pulsing slow red. They originate from the tear behind us and run deeper, converging.
+
+Thessaly: "Mordecai's work. Ritual conduits. They're feeding dissolution energy directly into the lock sigils — corroding them from inside. Four percent per day isn't natural decay. It's *engineered*." She traces a conduit with her eyes. "They've fused with the original architecture. This has been running for *months*."
+
+Senna: "Can we break them?"
+
+"Possibly. Physical force might shatter them. But I don't know what happens when you sever a conduit fused with a seal this old. It might slow the degradation. It might accelerate it."
+
+"So don't touch anything until you're sure."
+
+"That would be my *strong* recommendation."
+
+Dren kneels. Runs two fingers across the floor. "Tracks."
+
+Drag marks. Grooves scored into the black glass. Something heavy, scraping the same path over and over. The marks lead deeper, following the conduits.
+
+Senna: "How old?"
+
+"Ongoing. Whatever made these comes through here regularly. The groove is worn smooth." He stands. "Something lives in here."
+
+Finch: "Of course something lives in here. Why wouldn't something live in here. Lovely space. Great acoustics."
+
+Varn: "Quiet."
+
+Everyone goes still. He's staring deeper into the chamber. Head tilted. Listening — or trying to, in a place where sound doesn't work right.
+
+Then we all hear it. A low, rhythmic pulse. Not mechanical. Not biological. Coming from deep ahead, where the conduits converge and the wall-script gets dimmer. A heartbeat that belongs to the architecture itself.
+
+Thessaly: "That's the junction. Where the conduits meet. If there's a central mechanism driving the degradation — it's wherever that sound is coming from."
+
+Senna looks at the tear behind us. Still open. Grey sky visible.
+
+She looks forward. Into the dark. The drag marks. The pulse.
+
+"Your call, wizard."
+
+---
+
+Thessaly briefs while I'm gone rebuffing. When I step back through with God Sight burning, she's ready.
+
+"Three things. The conduits — forty-seven from here. All converge approximately four hundred yards deeper. The pulse is the junction."
+
+"Can we break the conduits on the way?"
+
+"That's the second thing." She holds up her compass. The needle is cracked. "I pressed it against a conduit wall. Just pressure. The dissolution energy inside *reached through the crystal* and fractured the needle. Break one and the energy sprays. In an enclosed space like this..."
+
+Finch: "Don't touch the glowing red things. Noted."
+
+"Get to the junction. Kill it at the source. The conduits drain and go inert."
+
+Senna: "Third thing?"
+
+"The drag marks. Eight to ten feet across. Heavy. It's a patrol route — loops out from the junction along the north wall, back along the south, returns. Every fifteen to twenty minutes."
+
+Dren: "So we have a twenty-minute window."
+
+"Closer to fifteen."
+
+Senna draws her blade. "Four hundred yards. Fifteen minutes. One big thing on a loop."
+
+Finch: "And the target is the pulsing heart of a dissolution engine built by a man who engineered an apocalypse for a living."
+
+Thessaly: "That's... an accurate summary."
+
+---
+
+We set the ambush sixty yards from the junction path. God Sight catches it at a hundred and twenty feet — a gap in the world, sliding along the south wall. Eight feet across. Layered plates of black glass. The underside is raw dissolution. Where it passes, the floor hisses.
+
+Dren: "I see it."
+
+Finch: "I don't see anything. I see the floor *dissolving*."
+
+Thessaly: "That IS it. A mobile dissolution node — part of the conduit network."
+
+Senna: "How tough?"
+
+"I don't know. Bigger than a Scavenger. Connected to the conduits — it might regenerate."
+
+Senna: "Then we kill it fast. Wizard — your turn."
+
+Eighty feet. Sixty. Fifty.
+
+Emberfang points. The ember reaches through the steel. The golden-white beam fires.
+
+The Ember Lance punches a hole through the threshold's darkness. Creation energy detonates on contact. The crawler's black glass shell cracks in a starburst. The void material *unravels* — absence being forcibly replaced by presence. The air smells like rain for one second inside a place that has never known it.
+
+The crawler lurches. Spins. Surges forward.
+
+I combine Emberfrost. The blades lock. Haste hits my bloodstream like lightning — time stretches, the world slows, and every heartbeat takes three seconds. Giant's Throw wraps around my arms. The double-blade feels lighter. Built to fly.
+
+Finch darts from the north wall. Spear skids off the layered plates. "It's *hard*. Like hitting a wall."
+
+Senna's blade comes down on the Ember Lance fracture. Steel bites. Glass chips fly. "Right here. Hit the crack."
+
+Two Cyclone throws. The Emberfrost double-blade screams through the threshold air — fire and frost trailing in a helix. Both hit the cracked weak point. The shell splits. Frost crawls across its surface. Fire cauterizes the void material. The thing is in pieces.
+
+Varn walks into the acid aura. Takes the burn. Brings the axe down on the exposed interior. Dren's longsword follows through the gap.
+
+It collapses. The layered plates slide apart. Void material dissolves into nothing. The conduit veins on its surface flicker red, then dark.
+
+Thessaly: "The conduit link severed when it died. The network's already rerouting."
+
+Senna kicks a glass plate. "So there are more of these."
+
+"The network could support dozens."
+
+Dren: "Then we move. Now."
+
+---
+
+Four hundred yards. The conduits multiply overhead. Ten. Twenty. Forty. Red veins branching like a circulatory system, all flowing the same direction. The pulse grows from a heartbeat to a pressure in the chest.
+
+Thessaly, walking fast: "The seal script density is increasing. We're approaching the keystone."
+
+Finch: "Can you talk and walk faster?"
+
+Senna: "She's fine. Keep moving."
+
+Dren, from behind: "Movement. Left wall. Thirty yards back."
+
+Everyone freezes. Another crawler, on a perpendicular route. Moving away.
+
+Dren: "We're clear."
+
+Senna: "How many of those are in here?"
+
+Thessaly: "The network could support dozens. They're maintenance nodes."
+
+Finch: "Wonderful."
+
+The Emberfrost buzzes in my grip. A warning. Giant's Throw flickers — the enhanced range drops for half a second. Then snaps back. The gate suppressing active magic. Stronger here, closer to the core.
+
+Thessaly: "Your buffs will flicker more frequently. If it catches your Haste concentration—"
+
+Dren: "He knows."
+
+"I'm going to keep saying it until he *acts* on knowing it."
+
+---
+
+The corridor opens.
+
+Eighty feet across. Domed ceiling. The keystone.
+
+Every inch of wall is carved with ley-script — spiraling inward toward the center. Blue-white glow brighter than anywhere else, but surrounded by dead black script. A campfire with the darkness pressing in.
+
+Eight conduits enter from the walls. Each thick as a man's torso. They converge on the center.
+
+The apparatus.
+
+Six feet tall. Layered black glass and red crystal fused into a pillar — half Mordecai's engineering, half ancient keystone. The eight conduits plug into it. It pulses. Slow. Deep. Each pulse sends a ripple of red through the conduits and into the wall-script, and wherever that ripple touches a surviving sigil, the blue-white dims.
+
+Senna: "That's what's killing the gate."
+
+Thessaly: "That's what's killing the *seal*. The gate is the wound. That is the infection."
+
+The air around the apparatus shimmers. A thirty-foot radius of concentrated dissolution — red mist at knee height, the floor wet and caustic.
+
+Dren: "Can you lance it from here?"
+
+Thessaly holds up a hand. "Wait. The conduits aren't just feeding it. They're *shielding* it. See the crystallization pattern? A redistribution matrix. Your lance will hit, but eighty percent gets routed away."
+
+Senna: "So we cut the conduits."
+
+"Which sprays concentrated dissolution energy in a fifteen-foot burst."
+
+"How many?"
+
+Thessaly does the math. "Four. Minimum. The redistribution can't compensate. The apparatus loses its shield."
+
+Finch counts. Eight entry points around the room. "So we chop four pipes, dodge the acid bath, and he shoots the thing."
+
+Thessaly: "Roughly."
+
+Dren: "And the patrol creatures?"
+
+"When we start cutting, the network registers the damage. Every crawler in the threshold will know."
+
+Senna: "How long?"
+
+"Minutes."
+
+Senna draws her blade. "Kenji — can you hit all of them from here?"
+
+Thessaly: "Two throws per action. Three actions. Six from range. Senna and Varn take the last two. Simultaneously."
+
+Senna and Varn split to the south wall. Blades ready.
+
+Thessaly raises her hand. Compass pointed at the apparatus.
+
+"Now."
+
+---
+
+Emberfrost spins.
+
+Conduit one — east wall. Cyclone hits where crystal meets stone. Glass explodes. Red dissolution sprays outward. Nobody near it.
+
+Conduit two — east wall. Same arc. Adjacent feed. Detonation.
+
+Conduit three — north wall. The throw crosses the full width of the chamber. Seventy feet. Doesn't matter. Range is two hundred and seventy. It hits like a cannonball.
+
+Conduit four — north wall. Finch flinches as the return throw screams past. "Warn a man!"
+
+Dren: "He's busy."
+
+Conduit five — west wall. The spray hits a cluster of surviving sigils. Blue-white flares where creation-touched Emberfrost residue meets the ancient script.
+
+Conduit six — west wall. Red mist fills the upper air.
+
+South wall. Senna's blade comes down clean. The crystal splits. Acid catches her shoulder — she turns into the splash. Takes it on the armor.
+
+"Done."
+
+Varn cleaves through the last conduit and buries the axe in the wall behind it. The spray hits him full in the chest. He doesn't make a sound.
+
+Finch: "Varn—"
+
+"Fine."
+
+---
+
+Eight conduits severed.
+
+The apparatus screams. Not sound — pressure. A concussive ripple blasts outward. Red crystal flares white-hot. The eight stumps hemorrhage dissolution onto the floor.
+
+The shield collapses. The redistribution matrix goes dark. The crystallized surface is exposed.
+
+Thessaly: "Shield's down! The lance will—"
+
+She stops.
+
+The apparatus is changing. The severed feeds aren't stopping it. Red crystal veins rerouting — reaching upward, stretching toward the dome where void energy bleeds through. New connections. Bypassing the conduits. Drawing straight from the tear.
+
+Thessaly's compass needle snaps in half.
+
+"It has a failsafe." Her voice is different now. Afraid. "It's drawing directly from the tear. It's going to dump everything — all the stored dissolution — into the seal in one pulse."
+
+Dren: "How long?"
+
+"Minutes. Maybe less. If that pulse fires, the seal drops to nothing. The gate opens fully."
+
+Senna: "*Now.*"
+
+From behind — the scraping sound. Drag marks on polished glass. Getting louder. More than one.
+
+Finch: "Crawlers. Three. North corridor."
+
+Dren draws his blade. "I'll hold the entrance."
+
+Senna: "Finch, Varn — with Dren. Buy him time." She turns to me. "Whatever you're going to do, do it fast."
+
+Thessaly: "It's unshielded. Full power. Destroy it before that glow reaches the ceiling."
+
+---
+
+Emberfang points.
+
+The ember reaches past the fire. Past the bracelet. Into the deep place where creation lives.
+
+The first lance fires. Golden-white light tears across sixty feet of acid mist. Creation energy detonates on the apparatus. The black glass cracks. Golden light pours into the gaps. The air smells like rain.
+
+The second lance widens the fractures. Half the pillar glows gold. The failsafe glow retreats. A red crystal vein reaching for the ceiling snaps and falls.
+
+Behind me — steel on glass. Dren's voice. "Two down — third one's pushing through!"
+
+Senna: "Hold it! He needs ten more seconds!"
+
+Finch: "We don't HAVE—"
+
+Varn: "We have enough."
+
+The third lance doesn't crack the pillar. It unmakes it.
+
+Golden-white light punches through the center and erupts from every fracture. The black glass dissolves. Absence burned away by creation energy. The red crystal vaporizes. The failsafe dies mid-climb. The stored dissolution dissipates as a warm wind that smells like fresh-cut grass.
+
+For one second, the junction chamber is bright. Golden light fills every crack. The surviving seal-sigils flare blue-white — not dimming. *Holding*.
+
+Then the light fades.
+
+From the corridor — a sound like porcelain dropping. Three times. Dren steps back. The crawlers have stopped. Layered plates sliding apart, void material losing cohesion. They collapse into inert glass and go still.
+
+Finch nudges one with his boot. "They're dead. All three."
+
+Thessaly walks to the center. Steps onto the scorch mark where the apparatus stood. Turns slowly.
+
+"The network is down. No conduits. No apparatus. No crawlers." She reads the walls. "The seal is holding. Twenty-six percent integrity, and it's *stable*. No active corrosion."
+
+Senna: "So the gate stops growing."
+
+"The internal mechanism stops. External ritual circles might still feed ambient energy. One percent per day. Maybe less."
+
+Dren: "How much time did we just buy?"
+
+"At the old rate — six days. At one percent? Twenty-six days. Maybe more if the Ley Colossus is still siphoning from outside."
+
+Finch sits on the floor. "So we're not all going to die this week."
+
+"Not from the gate."
+
+Senna looks at the scorch mark. At the clean floor. At the steady blue-white sigils.
+
+She looks at me.
+
+"Good hit."
+
+---
+
+Where the apparatus stood: a starburst burn. Nothing else. No wreckage. No crystal. Just the ghost of something that used to exist and doesn't anymore.
+
+The seal-script on the walls pulses. Steady. Patient. Twenty-six percent of a lock that held for thousands of years before Mordecai found it. It held then. It's holding now.
+
+The tear is four hundred yards back. Open. Grey sky on the other side. The exit waits.
+
+Senna sheathes her blade. Varn wipes dissolution residue off his chestplate without expression. Finch is still sitting on the floor, grinning at nothing. Dren checks the inert crawlers with the professional calm of a man who has already moved on to the next problem.
+
+Thessaly holds the two halves of her broken compass. The needle fragments glow faint blue-white. She pockets them.
+
+"We should go. The threshold is stable, but there's no reason to stay."
+
+Senna: "Agreed." She looks at the team. "Move out. Same formation. Kenji — take the rear this time. I want God Sight watching our back."
+
+Dren: "That's my job."
+
+"Your job just changed. Walk with Finch. He needs someone to talk to who isn't me."
+
+Finch: "That's the nicest thing you've ever said."
+
+"Don't get used to it."
+
+---
+
+Four hundred yards back through the threshold. The conduit stumps on the ceiling are dark — inert crystal, no longer pulsing. The drag marks on the floor lead nowhere now. The maintenance routes of an extinct network.
+
+The tear grows brighter as we approach. Grey sky. The smell of real air. Gravity stops pulling the wrong direction. Sound catches up with itself.
+
+We step through.
+
+The Bleakmoor stretches in every direction. Dead glass. Overcast sky. The constructs hold their perimeter — ninety-four glass bodies in shifting patrols. Dren's mercs at the tear, shields up, eyes forward. Professional. They relax half a degree when they see their commander come through alive.
+
+The green-black column of energy still rises from the gate crack. But it's thinner. The pulse that drove it is gone. Whatever was pushing from the inside isn't pushing anymore.
+
+Thessaly lifts her replacement compass — borrowed from her pack at the forward camp. The needle spins once. Settles. Points at the gate, steady and slow.
+
+"One percent. Confirmed."
+
+Senna looks south. Toward the thermal shimmer. The Ley Colossus is still out there somewhere. Watching.
+
+"Twenty-six days." She says it like she's tasting it. Testing the weight. "That's enough time to find Mordecai."
+
+Dren: "That's enough time for Mordecai to find us."
+
+Thessaly: "He'll know the apparatus is gone. The network collapse would have been visible to anyone monitoring the system."
+
+Finch: "So the man who built the apocalypse machine knows we just broke it."
+
+"Yes."
+
+"And he's going to be... upset about that."
+
+Thessaly adjusts her spectacles. "I would be."
+
+The ember settles in my chest. Not straining. Not pushing. Patient. The gate is held. The seal is stable. The clock that was counting down from six days now reads twenty-six.
+
+Whatever comes next, we bought the time to face it.
+
+The fire banks low. The bracelet is warm.
+
+Day twenty-three. Midday. The Wizard King's army holds the gate. The Wizard King himself just broke the heart of it from the inside.
+
+And somewhere out there, Mordecai Corven is recalculating.
+
+────────────────────────────────────────
+**— END OF CHAPTER TWENTY-ONE — THE HEART —**
+────────────────────────────────────────
+
+
+---
+
+════════════════════════════════════════════════════════════
+# PART THREE (continued) — *THE SUNDERED GATE*
+### Chapters Twenty-Two through Twenty-Four
+════════════════════════════════════════════════════════════
+
+
+<!-- source: kenji_chapter_22.md -->
+
+# The Sundered Gate — Chapter Twenty-Two: The Cork
+
+## Day 23 — Afternoon — Inside the Sundered Gate
+
+---
+
+Senna has the map drawn before I reach the briefing point. Chalk on a flat slab of broken stone. Three corridors branching from the threshold. Finch and Varn flanking the entrance. Thessaly cross-legged behind them, staff across her knees, eyes half-closed — reading ley currents.
+
+"You're on time. Good." She taps the chalk. "Wardbreakers ran three sub-chambers while you were at camp. Here's what we've got."
+
+She drags a finger along the leftmost passage.
+
+"Chamber A. Collapsed. Structural failure — probably happened when you severed the conduits. Nothing gets through there without a week of excavation. Write it off."
+
+The center path.
+
+"Chamber B. Active ward glyphs. Thessaly confirmed — Mordecai's signature. Fresh. Whatever's behind that door, he doesn't want us finding it. Finch got within thirty feet before the air started tasting like copper. We pulled back."
+
+Finch, from the doorway: "Tasted like licking a forge."
+
+"Chamber C." Her voice drops. She looks at me for the first time. "Southern overlook. Open basin. And that's where we saw it."
+
+A pause. Her eyes don't leave mine.
+
+"The Ley Colossus. It's real. Moving north through the basin. Slow, but it's headed this way. Thessaly?"
+
+Thessaly, without opening her eyes: "Ley interference is increasing by the hour. My divinations are getting noisier. If we push deeper, I can't guarantee reliable readings."
+
+Senna: "My recommendation — we fall back to forward camp. Resupply. Let Thessaly calibrate. Then we push Chamber B with a full team, fresh slots." She folds her arms. "Your call, ArchMagus."
+
+---
+
+"We push Chamber B now. I'll take point."
+
+She stares at me for a long beat. Exhales through her nose.
+
+"Noted."
+
+She turns to the team. No hesitation — pure operational.
+
+"Wardbreakers, column formation. ArchMagus has point. Finch, five meters behind — eyes on the ceiling. Varn, left wall. I've got right. Thessaly, center, keep reading those wards. Dren — rear guard."
+
+Dren, rolling his shoulders, axe already in hand: "Don't have to tell me twice."
+
+Finch: "What about the trap she mentioned? Blast, binding, alarm?"
+
+"That's why he's on point." She looks at me. Not warm. Not hostile. Professional. "You've got God Sight and the best reflexes here. If anything triggers, you see it first. Don't waste the advantage."
+
+---
+
+The corridor to Chamber B narrows. The stone changes — darker, veined with faint violet light. The temperature drops. Every surface hums.
+
+Thessaly, eyes closed, staff dragging along the wall: "Three layers. First is a concussive blast — pressure wave, probably thirty-foot radius. Second is a binding glyph set — anyone caught in the blast gets rooted. Third is... an alarm. Not for us. For *him*."
+
+God Sight reads the ward line ten feet ahead. Glyphs etched into the floor, invisible to normal eyes. They pulse in sequence, like a heartbeat. Deliberate. Precise. Mordecai's work.
+
+Thessaly: "If that alarm goes off, he knows we're here. He knows exactly where."
+
+Finch, quietly: "He probably already knows."
+
+I stop. Ten feet from the ward line.
+
+"Thessaly. Before we go through — what do we need to do to stop the Bleakmoor threat permanently? Not slow it. End it."
+
+She opens her eyes. The question earns something rare from her — attention.
+
+---
+
+She stands. Walks to the wall and draws in the dust with her staff tip. Three circles. Lines connecting them. A larger circle around the whole thing.
+
+"The Bleakmoor is a wound, not a creature. You can't kill it. You can only stop the thing that keeps it bleeding."
+
+She taps the center of her diagram.
+
+"Three layers. First — Mordecai's relay network. We destroyed the internal apparatus, but the external stations and ritual circles are still pumping energy into the system. Dren's task force can hit the surface stations."
+
+She draws an X through one of the outer circles.
+
+"Second — the convergence. Where the ley lines cross. We killed the entity and closed the gates, but the convergence is still unsealed. When you broke those gates, you cracked the cap. It's leaking raw abyssal energy into the ground — that's what keeps the Bleakmoor alive. It needs to be *sealed*. Not destroyed. Destruction is what broke it."
+
+Finch, leaning against the wall: "So we need to put a cork in it."
+
+"You need to put a *precise magical cork* in it. A ley seal. Academy-grade work. Either the ArchMagus does it himself or we bring Elara."
+
+She taps the third circle.
+
+"Third — Mordecai. As long as he's alive, he rebuilds. We destroyed one apparatus. He built it in months. He'll build another." She adjusts her spectacles. "Killing his infrastructure without killing him is treating symptoms."
+
+Senna, arms crossed: "So the list is: surface relays, the convergence, and the man himself."
+
+"In that order, if you want to be methodical. In reverse order, if you want to be efficient." She looks at me. "Mordecai is behind that ward line. The convergence is a day's march south. The relays are Dren's problem. You could end two of three today if what's behind Chamber B is what I think it is."
+
+Dren, from the back: "And what do you think it is?"
+
+"His workshop. His backup. The place he retreats to when someone destroys his apparatus and collapses his network." She taps the ward diagram on the wall. "These wards aren't protecting a weapon. They're protecting a *door*."
+
+---
+
+"Can we seal the convergence without taking out the relays?"
+
+Thessaly tilts her head. The question interests her more than she wants to show.
+
+"Yes. But you won't like the math."
+
+She crouches. Draws in the dust again. A circle — the convergence. Lines feeding into it — the relays. An X over the circle — the seal.
+
+"If I seal the convergence while the relays are still active, the energy they're pumping doesn't stop. It just has nowhere to go. Imagine plugging a drain while the water's still running."
+
+Finch: "Floods."
+
+"Pressure. The ley energy backs up along the relay channels. Two outcomes. First — the seal holds and the energy dissipates into the ground over weeks. The Bleakmoor stops growing, the dead zone stabilizes, the corruption slowly starves. This is the optimistic scenario and it requires an *exceptional* seal."
+
+She looks at me.
+
+"The other outcome — the relay pressure exceeds the seal's tolerance. It cracks. When a ley seal cracks under pressure, it doesn't just *open*. It ruptures. What took months of slow corruption becomes a single catastrophic event."
+
+Senna: "How likely is that?"
+
+"Depends on who builds it. Academy standard? Fifty-fifty. Elara? Holds a month. The ArchMagus, with the ember?" She taps her staff. "He burned through conduits upstairs that should have taken a team and a week. An hour."
+
+Dren: "Sounds like a compliment, Thessaly."
+
+"It's an observation." She doesn't look at him. "My honest assessment — if the ArchMagus seals the convergence himself, the seal *probably* holds against relay pressure. Eighty percent. But if it fails, we've made the problem catastrophically worse and we won't get a second attempt."
+
+Senna, quietly: "And if we take Mordecai first? Kill him, then seal. Do the relays matter after that?"
+
+"Without Mordecai, no one maintains the relays. They degrade on their own — weeks, maybe a month. The energy flow drops to a trickle. Seal the convergence *after* Mordecai is dead and the relays are already weakening? Ninety-five percent hold." She counts on her fingers. "Mordecai first, convergence second, relays left to rot? The Bleakmoor is dead inside six months and Dren's people never have to set foot in a relay station."
+
+---
+
+"How many relay lines are still active?"
+
+Thessaly holds up three fingers.
+
+"The network had three main supply lines feeding into the convergence. South, east, north." She folds one finger down. "Southern line — we destroyed it. Day twenty-one. Six sentinels, a Void Weaver relay node. Senna's work. Dead."
+
+Second finger.
+
+"Eastern line — same operation. Finch and I hit it while the ArchMagus was at the convergence. Two relay stations, both demolished. Dead."
+
+One finger left.
+
+"Northern line. Still intact. Your constructs are *sitting* on it — the garrison at the forward camp is physically blocking the flow. But the relay stations themselves are still standing. If those constructs ever move, the northern line reactivates."
+
+Senna: "So one relay line. That's Dren's target."
+
+"That's the easy part. The harder part is the ritual circles. At the convergence platform. Mordecai carved self-sustaining ritual circles into the black glass. They don't need relays. They don't need a caster. They just *pull*. Ambient ley energy, constantly, forever, until someone counter-inscribes them or destroys the platform. That's where the remaining one percent per day comes from."
+
+Finch: "So the actual list is — one relay line and the ritual circles."
+
+"Correct. Dren's people handle the northern relays. The ritual circles require either me or the ArchMagus. And the convergence seal — that's the real work. That's the cork."
+
+---
+
+I look at the ward line. The glyphs pulse. Mordecai behind that door. Twenty-six days on the clock.
+
+I turn away from it.
+
+"Thessaly. Take me to the ritual circles. We seal the convergence first."
+
+---
+
+Everyone stops. Senna stares. Finch opens his mouth and closes it.
+
+Thessaly doesn't hesitate. "Now you're thinking like an arcanist."
+
+Senna: "We just walked an hour to get here."
+
+"And now we're walking back." I look at her. "We seal the bleeding, then we come back for him. Your recommendation was right — just not the way you meant it."
+
+Something shifts in her expression. Not warmth. Not approval. Recognition, maybe. She nods once.
+
+"Wardbreakers. Reverse formation. Move out."
+
+---
+
+At the forward camp, I pull Dren aside.
+
+"The northern relay line. Thessaly said your people can handle it."
+
+He looks north. Then back at me. The grin.
+
+"Standard military targets. Glass sentinels, infrastructure. That's what we signed up for." He whistles — both squads snap to. Eight mercs, axes and enchanted kit. "How many of those glass things can I borrow?"
+
+The bracelet pulses. A detachment of constructs peels off from the forward camp garrison and falls in behind Dren's mercs.
+
+"If the relay stations look anything like the ones Senna described, we'll be done by morning." He claps my shoulder. "Go plug your hole. I'll kill the pipes."
+
+He marches north. Eight mercs and a column of glass soldiers following the last active supply line.
+
+---
+
+Stride. Three miles south. The terrain shifts to the black glass mirror floor of the convergence basin. The air gets heavier. That low electric hum in the ground.
+
+The convergence platform. Three shattered spires in a triangle — the gates I destroyed on the first run. The black glass platform at the center, ritual circles carved into the surface, glowing faint green-black. Self-sustaining. Pulling. The ground vibrates.
+
+God Sight reads the ritual circles. Intricate. Layered. Mordecai's precise geometric hand. The energy flow is thin but constant. One percent per day, feeding into the Sundered Gate twelve miles north.
+
+Seven portals. One slot open.
+
+The ember responds. Gold and green-black entropy threads spiral up from the glass floor — fifteen feet tall. The eighth portal locks into place at the convergence platform. The bracelet pulses warm. Eight of eight. Full network.
+
+Senna, watching the portal stabilize: "Full network."
+
+"Thessaly. Varenholm. Bring Elara."
+
+She's already moving. Adjusts her spectacles, tucks the book under one arm, steps through without a word. The gold-black surface ripples and she's gone.
+
+Finch: "Think she'll come back with Elara or a lecture?"
+
+Senna: "Both."
+
+---
+
+## Day 23 — Evening — Bleakmoor Convergence
+
+I sit on a broken spire. Open the satchel — roast pork from the Silver Draft, wrapped in waxed cloth and still warm. A half-loaf of Pip's sourdough from the Broken Antler. A stoppered flask of cider from the Thornwall market. The bag keeps everything the way it went in. Six hours and it tastes like the kitchen counter.
+
+The Bleakmoor stretches black and silent in every direction and the food tastes like home.
+
+Halfway through the meal, Haste drops. The speed bleeds out of my limbs like water through a cracked glass. Everything slower. Heavier. The God Sight compensates, sharpening perception where the body lost tempo.
+
+Senna, from the southern perimeter, without turning: "Haste is gone."
+
+"I know."
+
+"I can hear it. You're breathing different." A pause. "Is that *pork?*"
+
+"Silver Draft. Want some?"
+
+She doesn't answer. Finch appears from the northern watch like he was summoned by smell.
+
+"I'll take his share."
+
+---
+
+The portal flares gold-black.
+
+Thessaly steps through first. Behind her — angular face, ink-stained fingers clutching a leather satchel of instruments, Chancellor's cloak billowing in the Bleakmoor wind.
+
+Elara Ash.
+
+She stops three steps past the portal. Looks at the convergence platform. The ritual circles. The shattered spires. The black glass stretching to every horizon. Her eyes go wide for one second. Then the Chancellor is back.
+
+"You could have mentioned the scale."
+
+Thessaly: "I did. You said 'I'm sure it's manageable.'"
+
+"I was wrong." She's already moving. Crouches at the edge of the ritual circles, instruments out — crystal lens, silver stylus, leather-bound notebook. Ink-dark fingers tracing carved glyphs without touching them. "Mordecai's work. Of course it is. Precise. Layered. Self-sustaining resonance loops feeding into..." She trails off. Reads for a full minute.
+
+Thessaly stands beside her, staff tip glowing faint blue, reading ley flow from above while Elara reads inscriptions from below.
+
+"Three interlocking circles. Each one feeds the next. Break one, the other two compensate and rebuild. It's elegant. It's also *cruel* — he designed this so a single caster can't dismantle it alone."
+
+Thessaly: "Two casters?"
+
+"Two casters, working simultaneously on two of the three circles, while a third source provides enough raw ley energy to overpower the rebuild loop on the third." She looks up. At me. At the ember. "I counter-inscribe circle one. Thessaly counter-inscribes circle two. You *burn* circle three with everything the ember has. All at the same time. The rebuild loop triggers, tries to compensate, finds nothing to pull from, and the whole system collapses."
+
+Thessaly: "How long to prepare the counter-inscriptions?"
+
+Elara looks at the circles again. The stylus taps against her knee.
+
+"Two hours. Maybe three. I need to map every glyph before I can write the inverse." She glances at Senna's perimeter. At the darkening sky. "It will be night when we're ready."
+
+Senna, from thirty feet away: "We'll hold."
+
+---
+
+Night comes to the Bleakmoor the way it always does — not gradually, but like someone turning off a light. One moment the overcast sky is grey. The next it's black. No stars. No moon. The glass floor reflects nothing because there's nothing to reflect.
+
+The God Sight adjusts. A hundred and twenty feet of darkvision in every direction. The constructs on the perimeter glow faint gold to my eyes — entropy signatures warm against the void. Senna is a silhouette on the southern ridge. Finch invisible somewhere north, which is exactly where a halfling scout is supposed to be. Varn hasn't moved in forty minutes.
+
+At the platform, two pools of light. Elara's silver stylus glows white as she traces counter-inscriptions around the first circle — careful, precise, the tip never touching the original glyphs. Thessaly's staff casts blue-white against the second circle, her compass fragments arranged in a semicircle around her like a surgeon's instruments. They don't speak. They don't need to.
+
+The third circle pulses green-black at my feet. Waiting.
+
+The ember banks low. I eat the last of the sourdough. The cider is gone. The Bleakmoor hums. Somewhere north, Dren is hitting relay stations with eight mercs and a column of glass soldiers. Somewhere inside the Sundered Gate, Mordecai knows his apparatus is gone and is recalculating.
+
+The bracelet is warm. Eight portals. Full network. The Wizard King's empire stretched from Varenholm to a dead convergence in the middle of nowhere, and the two smartest women he knows are drawing on the ground in the dark while the third-smartest stands on a ridge with a blade and watches the horizon.
+
+Elara looks up from her circle. Ink-stained fingers. The stylus glows.
+
+"Thirty more minutes."
+
+The fire banks low. The night stretches. Day twenty-three isn't over yet.
+
+But the cork is almost ready.
+
+
+<!-- source: kenji_chapter_23.md -->
+
+# The Sundered Gate — Chapter Twenty-Three: The Seal
+
+## Day 23 — Night — Bleakmoor Convergence
+
+---
+
+Elara stands. Wipes the stylus on her sleeve. The counter-inscription around circle one glows faint white — an inverse of Mordecai's geometry, every glyph mirrored, every resonance loop reversed.
+
+"Done."
+
+Thessaly rises beside her. Circle two pulses blue-white. The compass fragments rearranged on the glass in a pattern that matches the staff's hum.
+
+"Done."
+
+Circle three is green-black at my feet. Pulsing. Pulling. I can feel it through my boots — a slow drain, like standing in a current. One percent a day doesn't sound like much until you're standing on top of it and the ember can feel every drop leaving.
+
+Elara crosses to me. The ink-stained fingers grip my forearm. Not gentle.
+
+"Listen carefully. When I say go, Thessaly and I activate our counter-inscriptions simultaneously. The rebuild loop will trigger within two seconds — Mordecai's circles will try to compensate by pulling energy from circle three. That's when you burn it. Not before. If you burn early, the loop reroutes through our inscriptions and we lose them both."
+
+"Two-second window."
+
+"At most." She lets go. "The ember needs to overpower the circle's self-sustaining resonance. That means everything. Not a lance. Not a blade. Direct channeling. Put your hands on the glass and let the creation energy pour through until there's nothing left to burn."
+
+Thessaly adjusts her spectacles. "If you feel the circle pulling back — resisting — don't stop. Push harder. The self-sustaining loop will fight the overwrite. It's designed to. Mordecai built these to survive exactly this kind of assault."
+
+"What if the loop wins?"
+
+Thessaly looks at Elara. Elara looks at me.
+
+"Then the backlash hits all three of us and we start over. Assuming we can."
+
+---
+
+Positions. Elara at circle one — twenty feet to my left. Thessaly at circle two — twenty feet to my right. Triangle formation. The three circles carved into the black glass platform glow in their respective colors. White. Blue-white. Green-black.
+
+The Bleakmoor hums underneath. The convergence column spirals upward into nothing — green-black energy threading skyward. The air tastes like copper and cold stone.
+
+Senna's voice from the southern ridge, carrying clean across the flat glass: "Perimeter clear. You've got your window."
+
+Finch, from somewhere invisible: "Nothing north."
+
+Varn says nothing. That means nothing's moving.
+
+Elara raises the stylus. Thessaly raises the staff. I kneel at the edge of circle three and put both palms flat on the black glass.
+
+The surface is warm. Not hot — warm the way a living thing is warm. The pull is immediate. The circle tasting the ember through my palms and wanting more.
+
+"On my mark." Elara's voice is steady. The Chancellor. The woman who ran an Academy through a conspiracy and a siphon crisis without missing a lecture. "Three. Two. One. Go."
+
+---
+
+White light erupts from circle one. Blue-white from circle two. Both counter-inscriptions fire simultaneously — inverse geometry burning through Mordecai's glyphs, unwriting what he wrote.
+
+The rebuild loop triggers. I feel it — a shudder through the glass, the platform vibrating. Circle three surges. The green-black glow intensifies. The pull through my palms doubles. Triples. The loop is rerouting everything into the last surviving circle. Feeding it. Fortifying it. Mordecai's failsafe — if two fall, the third becomes unbreakable.
+
+Two seconds.
+
+I let go.
+
+Not of the glass. Of the restraint.
+
+The ember reaches past the fire, past the blade channels, past the bracelet and the buffs and the architecture that Aldwin taught me to build. Into the deep place. The creation well. The same place that powered three Ember Lances through the apparatus in the Sundered Gate. The same place that freed Solveth. The same place that burned three hundred and thirty-nine siphon threads out of my chest on Day One.
+
+Gold light pours through my palms and into the glass.
+
+The circle resists. The self-sustaining loop fights the overwrite — the green-black energy pushing back against the gold, the resonance loops cycling faster, trying to outpace the burn. Mordecai built this to survive.
+
+I push harder.
+
+The ember opens wider. Channels that were comfortable a minute ago are screaming. The glass under my palms is hot now — actually hot. Smoke rising from the points of contact. The green-black glow is retreating, the gold advancing, but the loop is still cycling. Still fighting. Still pulling.
+
+Thessaly, twenty feet away, voice strained: "It's compensating — the loop is drawing ambient ley to reinforce. Don't stop!"
+
+I can feel the ambient draw. The ground underneath leaching energy from the ley line remnants and feeding it into the circle. Every drop I burn, the circle replaces from the earth itself.
+
+So I burn the earth too.
+
+The ember widens. Not just the circle now — the creation energy floods outward through the glass, through the soil, through the ley line stumps. Everywhere the circle tries to draw, it finds gold. Every channel it reaches for is already burning.
+
+The green-black light flickers. Stutters. The resonance loop skips a beat.
+
+The second beat doesn't come.
+
+---
+
+The collapse is silent.
+
+No detonation. No shockwave. No dramatic finale. The green-black glow in circle three simply... goes out. Like a candle in a draft. The self-sustaining loop, starved of every source it could reach, cycles one last time and finds nothing. The glyphs carved into the glass fade from green-black to grey to nothing. Dead stone.
+
+Circle one is dark — Elara's counter-inscription glowing faint white, then dimming. Circle two is dark — Thessaly's staff-light fading to blue, then nothing.
+
+The convergence column thins.
+
+Not dies. Not yet. But the spiral of green-black energy that's been feeding the Sundered Gate for months is thinner now. Weaker. The ritual circles that were its lungs have stopped breathing.
+
+I pull my hands off the glass. The palms are red. Not burned — flushed, like holding them too close to a fire for too long. The ember is quiet. Not empty. Quiet. The deep place closing back down to its usual depth.
+
+Elara walks to the center of the platform. Steps onto circle three. Crouches. Runs a finger along the dead stone.
+
+"Clean." She looks up. A rare expression — not satisfaction exactly. Relief shaped like professionalism. "The resonance loops are gone. Not suppressed. Not dormant. Gone. The glyphs are inert."
+
+Thessaly is reading the convergence column with her staff. The blue-white tip tracking the energy flow.
+
+"Column output reduced by... significant margin. The ritual circles were responsible for more than I estimated. Eighty percent of the directed flow was coming through these three circles. What's left is pure ambient — the convergence leaking on its own. Slow. Manageable."
+
+"How slow?"
+
+She does the math with her lips moving. "A quarter percent per day. Maybe less. At that rate, the gate takes..." She pauses. "Over a hundred days to reach critical. If Dren's relay line goes down tonight, even the ambient drops."
+
+---
+
+The Bleakmoor is quiet for the first time since I stepped onto it.
+
+Not silent — the hum is still there, down in the glass, in the bones of the corrupted ground. But the urgency is gone. The pulse that was counting toward a hundred has slowed to something that sounds almost like a heartbeat at rest.
+
+Senna walks down from the ridge. She stops at the edge of the platform. Looks at the dead circles. The dimming convergence. Me, kneeling on the glass with red palms.
+
+"Worked?"
+
+"Worked."
+
+She nods. Doesn't smile. Turns to the perimeter. "Finch. Sitrep."
+
+Finch materializes from the dark. "Northern perimeter quiet. Construct line holding. Something moved about ten minutes ago — thermal bloom, south. Big. Stopped moving when the light show started."
+
+The Colossus. Still out there. Still walking toward the convergence, slow and patient and drawn to the wound.
+
+Thessaly heard it. The spectacles turn south. "It stopped?"
+
+"Stopped when the circles died. It was headed this way. Now it's standing still." Finch shrugs. "Maybe it knows the bleeding slowed down."
+
+Thessaly stares into the dark for a long time. The staff pulses once. Faint blue.
+
+"Or it's waiting to see what we do next."
+
+---
+
+Elara is packing her instruments. The silver stylus clicks into its leather case. The crystal lens wrapped in cloth. Every tool accounted for in the same order she unpacked them. She does not rush.
+
+"The seal on the Sundered Gate itself — Thessaly's reading from inside — twenty-six percent integrity, stable. No active corrosion from the apparatus. The ritual circles are dead. The only remaining feed is ambient ley leakage through the convergence, and at the current rate that's negligible."
+
+She looks at me. The angular face soft for one second, the way stone is soft in the right light.
+
+"You bought time. A lot of it. Mordecai can rebuild his circles — he has the knowledge. But not quickly. Months, not weeks. And the relay line Dren is hitting tonight was the last high-volume supply. Without it, rebuilding the circles doesn't give him what he needs. He'd have to start from scratch."
+
+"So the gate's not the deadline anymore."
+
+"The gate was never the deadline." She stands. Brushes glass dust from her knees. "Mordecai is the deadline. He built this once. He'll build it again. The convergence, the relays, the ritual circles — they're tools. You broke his tools. Now you need to break the man."
+
+---
+
+The bracelet pulses. Warm. A familiar rhythm — Dren's communication pattern through the construct relay.
+
+I close my eyes and feel through the network. The northern constructs — Dren's escort — are stopped. No movement. No combat signatures. The entropy signatures are calm. Intact.
+
+Then the warmth shifts. A pattern. Short-long-short. The field signal Dren's mercs use.
+
+Done.
+
+I open my eyes. "Dren finished. Northern relay line is down."
+
+Thessaly's staff flares once. She reads the ley flow. The blue-white tip dims to almost nothing.
+
+"Confirmed. Northern supply severed. Ambient convergence flow is..." She tilts her head. The staff pulses twice more, then goes still. "Functionally zero. The convergence is still open — still leaking — but the output is below measurable threshold. Without active ritual circles or relay pressure, the gate's growth has stopped."
+
+Senna looks at the convergence column. The green-black spiral is thin now. Wispy. Like smoke from a fire that's almost out.
+
+"Stopped." She says it flat. Testing the word. "Not sealed. Stopped."
+
+Thessaly: "Stopped is what we have. The seal requires the ArchMagus at the convergence point itself — direct ley inscription, not counter-inscription. Different discipline. Elara and I can prepare the methodology, but the ember is the power source. That's a separate operation."
+
+Elara nods. "Tomorrow. In daylight. With the ArchMagus at full capacity." She looks at my red palms. "Not tonight."
+
+---
+
+The camp reconvenes around the dying fire. The constructs hold the perimeter — gold-black shapes in the dark, unblinking, untiring. The Bleakmoor stretches flat and black to every horizon.
+
+I sit on the broken spire. The ember is quiet. The deep place aches — not painfully, the way a muscle aches after heavy use. I pushed further than the apparatus fight. Further than the Triple-Gate Entity. The creation energy that burned through three interlocking ritual circles and the ley earth underneath them came from somewhere, and that somewhere needs rest.
+
+Senna drops onto the adjacent stone. Doesn't look at me. Eats from a ration pack. Chews.
+
+"That thing you did. The light. At the end it wasn't just the circle."
+
+"No."
+
+"I could feel it through the ground. Sixty feet away. Like standing on a hot coal." She chews. Swallows. "How far did it go?"
+
+"I don't know. Far enough."
+
+She looks at me. The green eyes in the dark, lit faint gold by the ember's residual glow.
+
+"That's new."
+
+"Yeah."
+
+A long silence. The Bleakmoor hums. Quieter now.
+
+"Get some sleep, ArchMagus. Thessaly says tomorrow's worse."
+
+---
+
+I close my eyes. The bracelet is warm. Eight portals. Full network. The gate has stopped growing. Dren's relay is down. The ritual circles are dead stone. Mordecai is behind a ward line in the Sundered Gate and he knows — he has to know — that his infrastructure is collapsing.
+
+Somewhere south, the Ley Colossus stands still in the dark. Waiting.
+
+Tomorrow: the convergence seal. The cork.
+
+Then the man who built the bottle.
+
+---
+
+End of The Sundered Gate — Chapter Twenty-Three.
+
+
+<!-- source: kenji_chapter_24.md -->
+
+# The Sundered Gate — Chapter Twenty-Four: Long Rest
+
+## Day 23 — Late Night → Day 24 — Morning
+
+---
+
+I don't sleep on the Bleakmoor.
+
+I stand. Red palms. The ember aching. Senna looks up from the adjacent stone.
+
+"Going somewhere?"
+
+"Varenholm. Real bed. Real food. I'll be back at dawn."
+
+She looks at the convergence — the thin wisp of green-black still spiraling upward. The constructs ringing the perimeter. Then back at me.
+
+"Fine. Leave the glass army. We'll hold."
+
+---
+
+The bracelet pulses. The Varenholm portal is three miles west at the Wardbreaker camp, but I don't need it. Recall. The word drops into the ember and the Bleakmoor tears away.
+
+The ley alcove. Warm stone. Amber light. The hum of clean energy through the Academy walls. The transition is instant — one heartbeat I'm standing on dead glass under a black sky, the next I'm in a room that smells like old books and oiled wood.
+
+My hands are shaking. Not from the cold.
+
+---
+
+Before the rest. Before the inn. Business.
+
+I sit cross-legged on the alcove stone and close my eyes. The bracelet warms. The construct network opens in my chest like a map unfolding — every glass body, every position, every status.
+
+Eight portals. The network pulses. I count.
+
+Varenholm — four constructs. Elara's guard detail. Academy grounds.
+
+Bleakmoor convergence — sixty-one constructs. The main body. Perimeter ring around Senna's camp.
+
+Bleakmoor north — nineteen constructs. Dren's escort column. Stationary. The relay assault is over. They're holding position at the destroyed relay station.
+
+Bleakmoor east — eight constructs. Scattered along the ravine approach. Sentry positions from the morning assault.
+
+Duskfen — zero. Broken Antler — zero. Mines — zero. Thornwall — zero. Crestfall — zero. Stripped clean since the assault deployment.
+
+Total active: ninety-two. Twelve lost in the sentinel fights, the relay assault, and the eastern approach. The daily spawns haven't had time to replenish — the portals generate four per day each, but the ones at the stripped towns have been spawning into empty garrisons with standing orders to march to the Bleakmoor. Tomorrow morning's spawn will add thirty-two more.
+
+Ninety-two active. Thirty-two incoming at dawn. A hundred and twenty-four by morning.
+
+---
+
+First order. The four on Elara.
+
+I reach through the bracelet. The four constructs at the Academy receive the command: stand down. Redeploy. Walk to the Bleakmoor portal and join the convergence perimeter.
+
+They move immediately. I can feel them through the network — four gold signatures leaving the Academy grounds, crossing the courtyard, stepping through the portal. Gone. Elara's guard detail dissolved.
+
+She won't notice until morning. When she does, she'll have opinions. But glass soldiers standing outside the Chancellor's office generate questions from faculty, students, and any Council observer who happens to visit. Every day they stand there is another line in someone's report. The Bleakmoor needs bodies more than Elara needs guards she didn't ask for.
+
+Second order. All constructs — every glass body in the network — consolidated to the Bleakmoor. Patrol pattern. Wide perimeter around the convergence, the destroyed relay stations, and the Sundered Gate approach. No town deployments. No settlement garrisons. The towns sleep without glass soldiers tonight and every night until this is over.
+
+The fear reports stop accumulating. The Council's construct docket has nothing new to file. Garrett's audit defence gets a little easier.
+
+The ninety-two reshape their patrol routes through the bracelet. Dren's northern escort folds into the main body. The eastern sentries pull back to the convergence ring. A single unified force — glass soldiers walking slow circuits through dead ground, guarding nothing but the wound.
+
+Senna's voice in my head, unprompted, from the Whisperstone ring on her finger: "The constructs just shifted formation. Your doing?"
+
+"Consolidated everything to Bleakmoor. Wide patrol. No more town garrisons."
+
+A pause. Then: "Good. The towns were getting nervous."
+
+The ring goes quiet.
+
+---
+
+The Silver Draft. Late. The common room nearly empty — two merchants in a corner nursing the last of something amber. The barkeep nods without speaking. He's used to the ArchMagus coming and going at strange hours.
+
+I take the stairs. My room. Door closes.
+
+The satchel goes on the hook. Emberfrost against the wall. The bracelet stays on — it always stays on. I sit on the bed and look at my hands. The red is fading. The ember is pulling warmth from the ley line under the building, the way roots drink from a river. Slow. Passive. Healing what I spent.
+
+The bed is good. The sheets are clean. The room is warm.
+
+This is what the portal network is for. Fighting in the Bleakmoor at midnight. Sleeping in a warm bed twenty minutes later. The Wizard King's logistics.
+
+I eat the last of the dried meat from the satchel. The ember takes it. Quiet. Patient. The furnace behind my ribs banking low, the channels widening in the dark, the architecture rebuilding itself the way it always does when I stop pushing.
+
+I close my eyes.
+
+---
+
+Long rest.
+
+Eight hours.
+
+The threshold breaks at Hour 4.
+
+---
+
+It doesn't come like the others. The early levels were doors — something opening, the ember expanding into new space. Level 10 was the bottleneck shattering. Level 15 was a detonation. Level 18 was the portals becoming garrisons.
+
+Level 20 is none of those things.
+
+Level 20 is the ceiling arriving.
+
+The ember reaches upward — the way it always does when a threshold approaches — and finds the top. Not a wall. Not a barrier. A surface. Smooth. Complete. The final shape of what the fire was always becoming.
+
+The channels don't widen. They finish. The architecture doesn't expand. It locks. Every pathway, every register, every resonance loop — set. Permanent. The blueprint that's been drawing itself since a man woke up in a dormitory with a silver-white sword finds its last line.
+
+I lie in the dark and feel it happen. Not pain. Not ecstasy. Completion.
+
+Solveth, through the silence, quieter than I've ever heard: *There it is.*
+
+"That's the ceiling?"
+
+*That's the ceiling. The ember has reached its full expression. What you do from here, you do with what you have. No more registers. No more thresholds. No more architecture expanding in the dark.*
+
+"How does it feel?"
+
+A pause. Long. The god in the blade choosing words for the first time in a long time.
+
+*It feels like the end of growing and the beginning of something else.*
+
+I stare at the ceiling. The actual ceiling. Wooden beams. The Silver Draft. Clean sheets. A warm room.
+
+Level 20. The cap. Whatever that means.
+
+I go back to sleep.
+
+---
+
+Dawn. Day 24.
+
+The ember is full. Not just rested — full. The deep place that ached last night is smooth and solid, like a cracked stone that healed in the kiln. The channels aren't wider than yesterday. They're the same. They'll always be the same now. But they're clean. Ready. Every drop of what I spent on the ritual circles has been replaced and the reservoir sits at a level it's never been at before.
+
+I eat breakfast downstairs. Eggs. Bacon. Toast. A mug of cider. The Silver Draft kitchen doesn't ask questions at dawn — they put food on the table and leave the ArchMagus alone.
+
+The eggs are perfect. The ember takes the calories and doesn't ask for more. For the first time since Day One, the furnace behind my ribs isn't hungry.
+
+---
+
+The construct network pulses through the bracelet. Dawn spawns. Four per portal. Eight portals. Thirty-two new glass bodies stepping out of portal frames across the continent and immediately marching to the Bleakmoor. Standing orders.
+
+Total active: a hundred and twenty-four. All Bleakmoor. All patrol. Zero in towns. Zero on Elara. The fear clock stops ticking.
+
+The ley alcove calls. The morning rebuff. God Sight, Stride, Giant's Throw. Not Haste — Haste requires the kind of focus that should wait until the fighting starts. Three buffs in three minutes. The world sharpens. The ground becomes optional. The returning blade heavy enough to crack stone.
+
+Level 20.
+
+---
+
+The Academy courtyard. Morning light through the colonnades. Students crossing between lecture halls — a few glance at the ArchMagus and look away quickly. The buffs make the air hum.
+
+Sera is at the eastern training yard. Alone. The Rapier of Arrest in her right hand, the Breach Shard in her left. Running the Cage — her stance, her invention — against a practice dummy that's already missing an arm.
+
+She doesn't stop when I walk up. Two more strikes. The rapier blurs. The dummy freezes on the second hit — paralysis triggering on the clean strike. She holds the stance for one beat. Then relaxes.
+
+"You're back."
+
+"Recalled last night. Long rest at the Draft."
+
+She sheathes the rapier. Wipes her forehead with the back of her wrist. The Whisperstone ring catches the light. She's sweating. She's been out here a while.
+
+"How are you doing?"
+
+The question lands differently than I expect. She doesn't deflect. Doesn't reach for the mask. She looks at the practice dummy — the frozen, one-armed thing — and then at the courtyard, the students, the morning light.
+
+"I'm the Iron Coliseum Champion." She says it like she's testing how it sounds. "A thousand gold richer. The Darkblades have a reputation now. Three people asked Ryn for my autograph yesterday." A pause. The twitch at her mouth. "Ryn charged them."
+
+"Smart man."
+
+"He's learning from the wrong people." She sits on the training yard wall. Sets the Shard on the stone beside her. The Breach energy hums faintly — contained, patient, the abyssal power she spent three years being drained by, now hers to wield.
+
+I sit next to her. Not close enough to touch. Close enough to talk.
+
+"What are you going to do with the gold?"
+
+She stops mid-reach for the rapier. Looks at me. The dark eyes sharp — reading whether it's small talk or a real question.
+
+"You actually want to know."
+
+"I actually want to know."
+
+She sits back down. Slow. The Shard resting on the stone between us.
+
+"A thousand gold." She says it quietly. Like saying it too loud might break something. "Do you know what that is? My father was a farrier in Crestfall. He made eight silver a month. Good months. A thousand gold is... more than he'd earn in a hundred lifetimes. More than the Darkblades' annual Academy stipend. More than most guilds carry in their treasury."
+
+She looks at her hands. The calluses. The Whisperstone ring.
+
+"I've never had more than twelve gold at one time. That was three months ago. Before the Shard. Before the tournament. Before you." A pause. "Twelve gold felt like a fortune."
+
+"And now?"
+
+"Now I don't know what to do with most of it." She picks up the Shard. Turns it once. Sets it down. "Forty gold to the Darkblades. New armour for Ryn — he's still wearing Academy leather from two years ago, and it shows. A proper shield for Tarin instead of the force-projection she falls back on when her staff breaks. Healing draughts. Field rations. Real ones, not the Academy bricks." She ticks the list on her fingers. The way a captain inventories. "The things that keep a squad alive when the ArchMagus is on the other side of a portal and can't get there in four minutes. Forty gold covers all of it with room to spare."
+
+"And the rest?"
+
+The twitch fires. She looks at the courtyard. At the colonnades. At the Academy she's been part of since she was seventeen.
+
+"There's a building on the west side of the grounds. Old storage block. Stone walls, good bones, but the roof leaks and the interior is gutted. Aldwin uses it for overflow supplies." She's not looking at me. "Fifteen gold buys the renovation. Training floor. Equipment racks. A briefing room. A place the Darkblades can call home instead of borrowing the eastern yard and getting kicked out when third-years have shield practice."
+
+Fifty-five gold committed. Nine hundred and forty-five sitting in her head like a weight she's never carried.
+
+"And the other nine hundred and forty-five?"
+
+She's quiet for a long time. Her jaw works. The mask wants to go up — the captain, the professional, the woman who always has a plan. But she doesn't let it.
+
+"I don't know." She says it like it costs her something. "I've been thinking about it since the ring. Since the corridor. Since you handed me a life I didn't have two months ago and I keep waiting for the cost."
+
+She picks up the Shard again. Grips it.
+
+"Three years. The Crown ate three years. Every spell, every technique, every hour of training — gone. I kept going because stopping meant admitting it was permanent. And now I'm sitting on enough gold to buy a house in every city on the portal network and I don't —" She stops. Breathes. "I don't know how to think about money I didn't earn by the day."
+
+The courtyard is quiet. Students passing. Morning light warm on the stone.
+
+"My father would cry." The twitch again. But different. "He'd sit at his anvil and cry and then he'd tell me to put it somewhere safe and not spend it on anything stupid."
+
+"Is that the plan?"
+
+"The plan is fifty-five gold on the Darkblades and the building. The plan is put the rest somewhere it can't disappear." She looks at me. No mask. Not the captain. Not the champion. "I spent three years watching everything I built get drained away. I'm not doing that again. Not with the squad. Not with the gold. Not with anything."
+
+She stands. Picks up the rapier.
+
+"You know what Aldwin said when I told him about the building?"
+
+"Something dry."
+
+"He said: 'Fifteen gold for that wreck is robbery. I'll talk to the bursar. You'll pay eight.'" The almost-smile. The real one, underneath. "Then he handed me the key. He'd already had it copied."
+
+I look at her. The Shard in her hand. The Whisperstone on her finger. The rapier at her hip. The woman who walked into the Iron Coliseum with no magic and beat a Counterspell specialist with a blade and patience. Sitting on a fortune she doesn't know how to hold.
+
+"Do you own a home? In Varenholm?"
+
+She blinks. The question catches her off guard — which is rare. Sera doesn't get caught off guard.
+
+"No." She says it simply. "I've been in Academy housing since I was seventeen. A room. Bed, desk, footlocker. The same room for six years. Before that it was my father's house in Crestfall. Before that —" She shrugs. "There was no before that."
+
+"You could buy one."
+
+She looks at me. The sharp eyes doing the math she's been avoiding.
+
+"A house in Varenholm is what — thirty gold? Forty for something near the Academy?" She says the numbers like she's tasting something unfamiliar. "I could buy one outright. Furnish it. Have nine hundred gold left over."
+
+The courtyard is quiet. A student drops a book near the fountain and the sound carries.
+
+"I've never had a door that was mine." She says it without self-pity. Just a fact. A captain reporting the status of something she never thought to inventory. "The Academy room has a lock but Elara has a master key. My father's house has his name on it. Every barracks, every field camp, every inn — someone else's door."
+
+She's quiet. Looking at the old storage block across the grounds — the one she's turning into the Darkblades' home.
+
+"A squad headquarters and a house." The twitch fires. "My father would say I'm being reckless."
+
+"Your father made eight silver a month."
+
+"My father made eight silver a month and never owed anyone anything." She looks at me. Not defensive. Something else. "That's worth more than you think when you've watched debt eat people alive."
+
+She picks up the rapier. Stands. But doesn't turn to the dummy.
+
+"I'll think about it." Quiet. The voice she uses when something landed and she's not ready to show it. "A door that's mine."
+
+She turns back to the training yard. Pauses. Without looking:
+
+"Thank you for asking."
+
+The Cage opens. Two strikes. The dummy freezes again.
+
+---
+
+I don't walk to the portal. Not yet.
+
+The thought arrives fully formed. Not a plan — an inevitability. The kind of idea that's been sitting in the back of the ember's heat for weeks and only needed Sera saying *a door that's mine* to shake loose.
+
+I walk to the Silver Draft.
+
+---
+
+The common room. Mid-morning. Three tables occupied — merchants, a courier eating eggs, a woman with a ledger who looks like she owns something. The barkeep is behind the counter. A man named Hollis. Broad. Quiet. He's run the Silver Draft since before I arrived in Varenholm. The owner's name is on a deed somewhere in the city registrar's office — an absent landlord in Crestfall who visits twice a year to collect and complain about the roof.
+
+I sit at the bar. Order cider. Hollis pours without comment.
+
+"Who owns this building?"
+
+He sets down the glass. Looks at me the way bartenders look at questions they've been waiting for.
+
+"Man named Aldren Crewe. Crestfall. Inherited it from his uncle. Comes twice a year. Raises the rent. Tells me the kitchen smells like grease." He wipes the counter. "Last time he came, he said he'd sell if anyone offered enough to make the trip worthwhile."
+
+"How much is enough?"
+
+Hollis stops wiping. He's done the math before. Every bartender who works for an absent landlord has done the math.
+
+"The building's worth sixty, maybe seventy gold. Location near the Academy keeps the value up. Rooms stay full. Kitchen's solid. Roof needs work — ten gold in repairs he's been deferring for three years." He looks at me. Careful. "Crewe would take a hundred and twenty and think he robbed you. He'd take a hundred and brag about it for a year."
+
+A hundred gold. Half a million in the currency my old life thought in. Less than a tenth of what's compounding in the accounts Garrett manages.
+
+"Write to him. Tell him the ArchMagus of Varenholm Academy wants to buy the Silver Draft. Cash. No terms. No inspection contingency."
+
+Hollis stares. Three seconds. Then the bartender's mask comes back — professional, measured, the face of a man who's heard everything across a counter.
+
+"He'll want a hundred and thirty. He'll think the title means you'll overpay."
+
+"Garrett will handle the negotiation. And Hollis — not just the Draft. The building across the street too. Both."
+
+Hollis stops wiping. "The textile shop? Mercer closed that six months ago. It's been empty since."
+
+"Both buildings. Garrett negotiates. Cash. Tell Crewe whatever he needs to hear."
+
+Hollis stares at me for a long time. Then the cloth resumes.
+
+"Does this mean I still have a job?"
+
+"It means you have a job, a raise, and a boss who actually lives here."
+
+The almost-smile becomes a real one. Brief. Then it's gone.
+
+"The roof first. Please."
+
+"The roof first."
+
+---
+
+Garrett's room. Upstairs. The door open, the desk buried in documents. He's already working — blue-grey eyes scanning a ledger. He looks up when I walk in.
+
+"Buy the Silver Draft. Building's worth sixty to seventy — Crewe will ask for a hundred and thirty. Don't pay more than a hundred and ten. Also buy the empty textile shop across the street. Whatever Mercer left it listed at."
+
+He sets down the quill. "You're buying real estate."
+
+"I'm buying real estate."
+
+"This morning."
+
+"This morning."
+
+He picks the quill back up. Not surprised — Garrett doesn't do surprised. He does math. "The textile building's been listed at forty-five. Mercer's desperate. I can get it for thirty-five. Combined with the Draft — a hundred and forty-five, maybe a hundred and fifty with fees and registration."
+
+"Do it."
+
+"What's the textile building for?"
+
+"I'll figure that out when the Bleakmoor isn't trying to end the world."
+
+He writes something in the ledger. "I'll have both deeds within the week. The Council registrar will want to know why the ArchMagus is acquiring commercial property in addition to a mine, a portal network, and a private army."
+
+"Tell them I like the eggs."
+
+The quill scratches. Garrett almost smiles. Almost.
+
+---
+
+The Duskfen portal. The bracelet pulses. Gold-black light and then the smell of damp earth and wildflowers and woodsmoke. The Broken Antler sits at the crossroads — stone foundation, timber frame, a hand-painted sign with an antler that's been repainted so many times the wood underneath is smooth.
+
+Morning in Duskfen is quieter than morning in Varenholm. No Academy bells. No students. A cart on the road. A dog asleep in the sun. The kind of place where a gold piece is two months of work and people remember what you paid for dinner three years ago.
+
+The door is open. The common room smells like bacon and fresh bread and something Pip bakes that I've never been able to name. Two locals at a corner table. A merchant with a half-finished plate.
+
+The man behind the bar is not Pip.
+
+He's older. Broader in the shoulders. The same dark hair, greying at the temples. Hands that have done two kinds of work — the forge calluses underneath and the bartender's calluses on top. He's drying a glass and watching me the way a man watches someone who just stepped out of a fifteen-foot portal in his front yard.
+
+"You must be Kenji."
+
+"You must be Pip's father."
+
+"Brenn." He sets the glass down. Doesn't extend a hand. Doesn't not extend one. He's measuring. The sword on my back, the bracelet on my wrist, the Academy blue — he sees all of it, but he's not looking at any of it. He's looking at the man his daughter talks about.
+
+"She's at the Academy. Morning lectures." He picks up another glass. Dries it. "She told me you'd come through that portal eventually. Didn't say when. Didn't say why. Just said I'd know."
+
+"She was right."
+
+"She usually is." He sets the glass on the shelf. Precise. Every glass in the same place. Twenty years of muscle memory in a bar he built with his hands. "What can I do for the ArchMagus?"
+
+"I want to talk about the inn."
+
+The drying stops.
+
+---
+
+Brenn doesn't sit. He stands behind his bar with both hands flat on the wood and he looks at me the way a man looks at someone who's about to change his life and he hasn't decided if that's good yet.
+
+"The Broken Antler's been in my family since my father built it. I was born in the upstairs room. Pip was born in the same room. Her mother died in the room next to it." He says it without grief — just inventory. The ledger of a life kept in one building. "The foundation's stone. The timber's forty years old and still sound. I've replaced the roof twice. The kitchen feeds twenty. The rooms sleep eight."
+
+He looks at the common room. The worn floors. The hand-painted sign. The corner where the locals sit.
+
+"It's worth twenty gold. Maybe twenty-five to someone who cares about the crossroads location. The trade road runs through Duskfen — always has. Merchants stop. Couriers stop. Your portal made it busier. More traffic. More meals. More beds."
+
+He looks at me.
+
+"Why are you asking?"
+
+"What would you want for it? If you were willing to sell."
+
+The hands on the bar don't move. His jaw tightens. The same jaw Pip has — the one that sets when something hits close.
+
+"I'm not sure I am willing. This bar is the only thing I've ever built that outlasted me. My daughter runs it better than I do. She's smarter than I am, works harder than I did at her age, and she turned a crossroads inn into something people travel to on purpose." He pauses. "I'd want to know why. Not how much. Why."
+
+The common room is quiet. The merchant has stopped eating. The locals are watching.
+
+"Because your daughter deserves to own it. Not run it for someone else — even you. Own it. Her name on the deed. Her decisions. Her door."
+
+Brenn stares at me.
+
+A long time.
+
+"Pip said you do this. Say exactly the right thing at exactly the right time and make it impossible to argue."
+
+"Is that a yes?"
+
+"That's a *sit down and stop making me emotional in my own bar.*" He pulls two glasses from the shelf. Pours something amber from a bottle he keeps below the counter — not the house stock. The good one. Sets one in front of me.
+
+"Twenty-five gold. Fair price. I won't take more and I won't take less." He raises the glass. "And I stay on. Part-time. Mornings. Because I'm not ready to stop and Pip isn't ready to watch me stop."
+
+"Twenty-five gold. And you stay on mornings."
+
+We drink. The amber burns clean. Better than the Silver Draft's cider. Better than Thornwall market wine. This is what twenty years of knowing your own bar tastes like.
+
+"One condition," Brenn says.
+
+"Name it."
+
+"The sign stays. The name stays. The Broken Antler. My father picked it."
+
+"The sign stays."
+
+He nods. Sets the glass down. Picks up the cloth. Goes back to drying.
+
+"You're not what I expected," he says to the glass in his hand.
+
+"What did you expect?"
+
+"Someone taller."
+
+---
+
+The Duskfen portal. Back to Varenholm. Through the Academy courtyard.
+
+---
+
+Pip is in the eastern corridor. Between lectures. A stack of books under one arm — dimensional theory, spatial geometry, something with a cracked spine that looks older than the Academy. Dark hair pinned up with a pencil. Ink on her left thumb. She's reading while she walks, which means she's about to hit a pillar.
+
+"What's up."
+
+She doesn't look up. Sidesteps the pillar without breaking stride.
+
+"Spatial membrane theory is wrong about planar intersections, my next lecture is in nine minutes, and the author of this book has been dead for sixty years so I can't yell at him." She turns a page. "What's up with you?"
+
+"Bought some buildings."
+
+She looks up. The dark eyes. The pencil wobbling in her hair.
+
+"Buildings. Plural."
+
+"Three."
+
+"Three buildings." She closes the book. Holds it against her chest. The full attention lands — the same look Brenn gave me across the bar, but sharper. Faster. She got his jaw and her mother's eyes and somewhere in between she got the ability to read people like they were open books. "Which three."
+
+"The Silver Draft. The empty textile shop across from it. And —" I pause. Not for effect. Because the next part matters. "The Broken Antler."
+
+She doesn't move.
+
+The corridor is busy. Students passing. A lecturer carrying a globe of something luminous. Someone laughing near the fountain. None of it registers. The world has narrowed to the two of us and the name of an inn in Duskfen.
+
+"You bought my father's inn."
+
+"Your father's inn. Your name on the deed."
+
+The book lowers. An inch. Her knuckles are white on the spine.
+
+"You talked to my dad."
+
+"I talked to your dad."
+
+"And he said yes."
+
+"Twenty-five gold. Fair price. He stays on mornings. The sign stays."
+
+She's quiet. The pencil falls out of her hair. Neither of us picks it up.
+
+"He said the sign stays?"
+
+"His father picked it. It stays."
+
+She stares at me. The dark eyes are doing something I've only seen once before — the night at the Broken Antler when I told her about the siphon threads and she realized the man she'd been feeding breakfast to was carrying three hundred and thirty-nine parasites in his chest. The look that means the world just rearranged itself and she's rebuilding the map in real time.
+
+"I've been running that inn since I was fourteen." Her voice is steady. Barely. "My dad's hands started shaking two years ago. He won't tell anyone. He dries the glasses so people don't see him grip the counter. I took over the books when I was sixteen and the kitchen when I was seventeen and I've been running his inn and pretending it's his because it's the only thing he has left of my grandfather."
+
+"Now it's yours."
+
+The book hits her side. She takes one step forward. Grabs the front of my shirt with the hand that isn't holding sixty years of dead spatial theory. Pulls me down. Forehead against mine.
+
+"You absolute —" She stops. Breathes. Her hand is shaking. Not like Brenn's — not from age. From something else. "You walked into my dad's bar and bought his life's work and he *let you* because you said exactly the right thing. Didn't you."
+
+"He said the same thing."
+
+"Because it's what you DO." She hasn't let go of my shirt. The students in the corridor are watching. She doesn't care. "You show up and you say the right thing and you make it impossible and then you leave for a dead wasteland and I have to stand here holding a book about *planar membranes* while you —"
+
+She stops. Presses her forehead harder against mine. The anger that isn't anger. The shaking that isn't fear.
+
+"You put my name on the deed."
+
+"Your inn. Your door."
+
+She pulls back. Looks at me. The eyes are bright. She won't cry in the corridor — she's Pip, she doesn't cry in corridors — but it's close. Closer than I've seen.
+
+She picks up the pencil. Puts it back in her hair. Picks up the book. Straightens her shirt. The mask goes back up — the Academy student, the innkeeper's daughter, the woman who has a lecture in seven minutes.
+
+"Fix the roof."
+
+"Your dad said the same thing."
+
+"Because the roof has needed fixing for three years and my — and the previous owner wouldn't pay for it." She says *previous owner* and something crosses her face. Brief. Gone. "Fix the roof. And come back alive."
+
+She turns to go. I catch her hand.
+
+She stops. Looks down at my fingers around hers. I turn her hand over — palm up. The Whisperstone ring on her finger. The copper filament that pulses faint warmth when the paired ring is near.
+
+I run my thumb across the stone. Slow. The filament glows.
+
+She looks at the ring. Then at me. The bright eyes. The almost-tears she's holding behind the mask. The corridor full of students who don't exist right now.
+
+"Come back alive," she says again. Quieter this time. Not a command. A request.
+
+I bring her hand up. Press my lips to the Whisperstone. The copper filament pulses once against my mouth — warm, steady, the same heartbeat rhythm it's carried since the day I put it on her finger.
+
+"Four minutes," I say.
+
+Her hand tightens on mine. One squeeze. Then she lets go.
+
+She starts toward the lecture hall. Three steps. Stops.
+
+"Kenji."
+
+"Yeah."
+
+She doesn't turn around.
+
+"The eggs at the Broken Antler are better than the Silver Draft. Always have been. You should know that. As a building owner."
+
+"Walk with me."
+
+She turns. The books against her chest. The pencil in her hair. The ink on her thumb. The Whisperstone glowing faint on her finger.
+
+"I don't have a lecture for another two hours."
+
+"I know. Walk with me to the Antler."
+
+Something shifts in her expression. Not suspicion. Curiosity. The look she gives a spatial theorem she hasn't cracked yet.
+
+"You're up to something."
+
+"Always."
+
+---
+
+Three properties. The Silver Draft and the textile building — Garrett handling both. The Broken Antler — twenty-five gold, handshake deal, Brenn stays on mornings, the sign stays.
+
+---
+
+We take the portal together. The flare dies behind us and the smell hits first. It always hits first. Bread and woodsmoke and the thing Pip bakes that I've never been able to name — something with honey and oats that she learned from her grandmother and hasn't written down because it lives in her hands, not on paper.
+
+Pip breathes it in without thinking. The way you breathe in the smell of a place that raised you. She's already moving — through the common room door, past the four tables, past the stone hearth, into the space she's known since before she could reach the bar top.
+
+The common room hasn't changed. Low ceiling darkened by decades of cookfire. The window where I sat on my first night in this world and told a story about a six-legged monster to a girl behind a bar who gave me a free ale because she liked the way I told it.
+
+The corner room is upstairs. The one with the draft under the door. I slept there that first night — after the bath, after the stories, after she let a stranger with nothing in his pockets into her room because he rubbed her feet and didn't complain. The blankets smelled like lavender. The pillow held the shape of her.
+
+Twenty-four days ago. A different life.
+
+Brenn is behind the bar. Morning shift. His hands move the way they always move — drying a glass, setting it down, picking up the next. The rhythm of a man who's done this for twenty years and will do it for twenty more. He sees his daughter walk in with the ArchMagus and nods once and goes back to drying. The glass in his hands is steady today. Some mornings they're not.
+
+Pip drops her books on the corner table — dimensional theory, spatial geometry, the cracked-spine one that's older than this building. The ledger goes on top. The pencil goes in her hair. A second pencil appears from somewhere. She settles into the chair the way a river settles into a bed it carved.
+
+I sit across from her. The table where I sat on my second morning in this world and ate eggs and bacon that her father cooked without asking me to pay, because his daughter was happier than she'd been in a year and that was currency enough and they were never going to discuss it.
+
+The common room is quiet. Two locals in the far corner nursing ales they've been nursing since before we arrived. A cat on the hearth. Brenn's cloth on glass. The creak of the building settling the way old buildings do — not complaining, just breathing.
+
+I look at her across the table where I sat on my second morning in this world and ate eggs and bacon that her father cooked without asking me to pay, because his daughter was happier than she'd been in a year and that was currency enough and they were never going to discuss it.
+
+"I have an offer for you."
+
+The pencil comes out of her hair. She sets it on the table next to the other one. The books close. Full attention. The look she gives a spatial theorem she hasn't cracked yet — not skeptical, not eager. Ready.
+
+"I'm listening."
+
+I put a pouch on the table. Heavy. The kind of heavy that makes the wood creak. A hundred gold.
+
+She stares at the pouch. Then at me. One of the pencils rolls off the table. Neither of us catches it.
+
+"I own three properties. The Broken Antler — already yours, your name on the deed. The Silver Draft in Varenholm — closing this week. The textile building across from it — same." I hold her gaze. "I need someone to manage all of them. Hire staff. Handle the books. Coordinate repairs, inventory, revenue. Everything."
+
+She hasn't touched the pouch.
+
+"That's a hundred gold."
+
+"That's your salary."
+
+The common room goes very quiet.
+
+Behind the bar, Brenn's cloth stops moving. The glass in his hand is motionless.
+
+"My — " She stops. The jaw sets. The one that means the math has started and everything else will have to wait. "My *salary.*"
+
+"Annual. Renegotiable. You're managing a portfolio that'll be worth over two hundred gold in property alone by the end of the month."
+
+I put a second pouch on the table. Heavier.
+
+"The four hundred is for running the business."
+
+Nobody moves. Not Pip. Not Brenn. Not the two locals. Not the cat. The only sound is the creak of the table under the weight of five hundred gold.
+
+She opens the first pouch. Looks inside. Closes it. Opens the second. Closes it. Sets both hands flat on the table. The fingers are trembling. Not Brenn's kind — not the tremor of age or wear. The kind that comes from holding something so heavy the body hasn't learned the grip yet.
+
+"Five hundred gold." Her voice is level. The hands aren't. "You're giving me five hundred gold and three buildings and telling me to run them while you go fight a war."
+
+"Yes."
+
+"And you think I can do this."
+
+I lean back. Look at her.
+
+"You've been running this inn since you were fourteen. Keeping books since you were sixteen. Managing your father's health and his pride since his hands started shaking, studying spatial magic at the Academy, and doing all of it on less than a gold a month." I look at the corner room upstairs where the draft comes under the door. "You gave a stranger a bath and a bed and asked for nothing but stories. You heated the water yourself. You wrapped his wounds when he came back from the forest bleeding. You sent him honey cakes on the road with a note that said two words."
+
+The pencil on the table rolls in the silence.
+
+"I think you've been ready for this since before I met you."
+
+The ledger comes out. The surviving pencil finds her hand. The mask rebuilds itself in numbers — it's what Pip does when the feeling gets too big. She puts it in columns. Itemized. Controlled.
+
+"The Broken Antler needs a cook, not an innkeep. Dad handles the bar. New hire is kitchen and housekeeping — fifteen silver a month, room and board included. I'll have someone by the end of the week."
+
+She hasn't said yes. She's already working.
+
+"The Silver Draft — Hollis runs it. He's good. Don't replace him. The roof is ten gold, maybe eight if I source timber from the Duskfen mill instead of Varenholm prices."
+
+She pulls the ledger closer. The numbers are flowing now — the thing she does when the world gets too heavy and the only way to hold it is to weigh it properly, line by line.
+
+"The textile building. I'll need to see it. Square footage. Foundation. Water access. If it's got the bones for a kitchen, it becomes a second common room — overflow from the Silver Draft. If not, storage and offices. Either way it gets assessed before a single copper goes into it."
+
+She looks up. The pencil is in her hand. The other one is still on the floor.
+
+"Property Manager," she says. Testing it. Then: "No. That's boring."
+
+She thinks.
+
+"Director of Holdings."
+
+"Director of Holdings."
+
+"With a budget line. Quarterly reports. And I answer to you, not Garrett. I like Garrett. I don't work for Garrett."
+
+"You answer to me."
+
+"And the Broken Antler stays in my name."
+
+"It was never coming out of your name."
+
+She extends her hand across the table. The innkeeper's daughter. The Academy student. The girl who heated bathwater for a stranger and is now the Director of Holdings for the ArchMagus of Varenholm's growing empire.
+
+I shake it.
+
+"And I'm raising Dad's morning rate to three silver a month."
+
+From behind the bar: "You don't need to — "
+
+"Dad." One word. The jaw. The eyes. "I'm the Director. You're getting a raise."
+
+Brenn doesn't argue. He reaches under the bar for the good bottle — the amber one he keeps behind the cheaper stock, the one he pours when something matters. Three measures. He brings two to the table. Keeps one. He doesn't sit behind the bar. He sits at the table next to ours. Not as the innkeeper. As her father.
+
+"To the Director," he says.
+
+The voice steady. The hands steady. The pride enormous and quiet and earned across twenty years of drying glasses and raising a daughter who was always going to outgrow the building.
+
+We drink.
+
+---
+
+The amber settles warm. Brenn takes his glass back to the bar. The locals stop pretending. The common room breathes.
+
+Pip is already writing. The pencil moving fast — columns, numbers, projections. I watch her for a moment. The ink on her thumbs. The way the pencil moves between her hair and the page and the table like it's a fourth limb. The dark hair held up by a cooking skewer, same as the first night I saw her.
+
+"Pip."
+
+"I'm working."
+
+"I know."
+
+I wait. The pencil slows. She doesn't look up but she stops writing.
+
+"I need to say something and I need you to hear it. Not as the Director. Not as the woman who just got five hundred gold. As the girl who let a stranger sleep in the corner room."
+
+The pencil stops.
+
+She looks up. The dark eyes. The bright ones that saw through me on the first night and liked what they found underneath. The ones that were too knowing for someone her age and still are.
+
+"You remember that first night. I came through the door with monster blood on my hands and borrowed armor and I told you a story about a thing with six legs and six eyes because I needed an ale and didn't have a copper to pay for it."
+
+"I remember."
+
+"You didn't give me the ale because the story was good."
+
+A beat. She sets the pencil down.
+
+"No."
+
+"You gave it to me because I was alone and I had nothing and you could see it. You could see all of it — the mud, the confusion, the man who woke up in a world he didn't recognize and walked toward the first smoke he could find because he didn't know what else to do." I hold her gaze. "And when I asked to take a bath and tell you more stories in your room — which was a terrible line, by the way, the worst line I've used in any world — you gave me a key. Not because the line worked. Because you'd already decided."
+
+"The line was terrible." The almost-smile. The real one. The one that takes over her whole face before she can catch it. "I gave you the key because you looked at me like I was the most important person in the room. And nobody had ever — " She stops. Picks up the pencil. Puts it down again. "Nobody does that in Duskfen. In Duskfen you're the innkeeper's daughter and that's the whole story."
+
+"It was never the whole story."
+
+"You didn't know that. You'd been alive in this world for about twelve hours."
+
+"I knew."
+
+The common room is very quiet. Brenn's back is turned. His shoulders are doing something he doesn't want anyone to see. The cloth has stopped moving on the glass.
+
+"You slept in the corner room," she says. "The one with the draft under the door and the loose floorboard and the blanket that's thinner than the others because I never replaced it." Her voice is steady in the way that means it's trying very hard to be. "You ate whatever was left from service. Cold eggs. Bread ends. And you sat there and told me about a world where people cook food without fire and carry every song ever written in their pockets and I didn't believe a word of it."
+
+"Not a word?"
+
+"Not a single word. And I let you stay anyway. Because you rubbed my feet after a fourteen-hour shift and you didn't complain once and you looked at the ceiling of that room like it was a cathedral." She's not looking at the ledger anymore. She's looking at the table where her hands are flat and still. "And I thought — this man is either the most patient person alive or he has absolutely nowhere else to go."
+
+"Both."
+
+"Both." The word cracks. Just at the edges. She pulls it back together. "And then the next morning you picked wildflowers from the stream bank — blue ones and violet ones, the ones that only grow where the water keeps the soil warm — and you put them on my bar in a clay cup and said I looked exceptionally beautiful and my father made you eggs and didn't charge you because I was happier than he'd seen me in a year."
+
+She's holding the table edge now. Knuckles white.
+
+"And then you went into the forest at night — alone, without telling anyone — and you fought two wolves and a bear with rocks and came back bleeding and picked my lock and fell asleep next to me smelling like blood and pine needles. And the next morning you walked out the door toward the thing that called a man by his name and you didn't know if you were coming back and I stood in the doorway and watched you go and I didn't wave."
+
+"You didn't wave."
+
+"I couldn't. If I waved it meant goodbye and I wasn't — " Her voice breaks. Clean. Like a branch that held too long. "I wasn't ready for goodbye. Not for you. Not after two days. Two *days*, Kenji. You were in my life for two days and I couldn't wave."
+
+Brenn sets the glass down. Quietly. He walks into the kitchen. The door closes behind him. Giving her the room.
+
+"And then you sent Ryn back with gold from the road and told him to give my share to the girl at the inn and to tell her it's from the bandit." She laughs. Wet. Short. "The *bandit*. Who picked my lock and snuck in and gave foot massages."
+
+She wipes her eyes with the heel of her hand. Fast. The way you do it when you don't want anyone to notice.
+
+"So when you sit there and tell me that the gold and the buildings and the title aren't enough — that you can never repay me for what I did when you had nothing — "
+
+She reaches across the table. Takes my hand. The Whisperstone ring is warm between our palms. The copper filament that's been pulsing faint warmth since the day I put it on her finger.
+
+"You showed up with nothing and you treated me like I was everything. *That* was the payment. The rest of this — " She looks at the pouches. The ledger. The inn that carries her name on the deed. " — the rest of this is you being ridiculous. And wonderful. And the most stubborn man in any world."
+
+She squeezes once. Hard. Doesn't let go.
+
+"You didn't owe me anything, Kenji. You never did. I let you stay because I wanted to. I heated the water because I wanted to. I gave you the key because when you smiled at me from across that bar I felt like the room got bigger."
+
+The Whisperstone pulses once. The paired rings. Warm.
+
+She lets go. Wipes her eyes again. The mask comes back — not all the way, not the professional mask, the one she wears to keep from falling apart in public. She picks up the pencil.
+
+"Now." The voice finding its feet. "You said something about rooms."
+
+---
+
+"Two tiers. Every inn."
+
+I tell her. Low-rate rooms for people who need a bed — travellers, refugees, anyone the road chewed up and spat out. A copper or two a night. A clean room, no questions asked. And luxury rooms on the top floors — better furniture, better linens, hot water, privacy. Premium rate. The people with gold pay for the people without.
+
+The pencil moves. She's sketching a floor plan on the margin of the ledger before I finish the first sentence. The tears are still drying on her cheeks and she's drawing room layouts. That's Pip. The feeling goes in the columns. The columns hold the world together.
+
+"The Broken Antler has eight rooms. Two could convert to luxury without structural work — the upstairs corner rooms, the ones with the good light."
+
+She pauses. Looks at me.
+
+"Not the corner room."
+
+"Which corner room."
+
+"*The* corner room. The one with the draft. That one stays as it is."
+
+She doesn't explain. She doesn't need to.
+
+"That one stays as it is."
+
+"The other upstairs corner — the south-facing one — that converts. New bed, new linens, a partition wall for a private washroom. Six gold, maybe five if I source the furniture locally." She's writing while she talks. "The remaining six stay standard. Drop the base rate to two copper a night for anyone who can't afford more. One copper for families with children."
+
+"Silver Draft — twelve rooms. I've counted." She hasn't set foot in the building as Director and she's already counted the rooms. "Four luxury conversions, top floor. Varenholm has more money passing through — merchant traffic, Academy visitors, guild officers. Ten silver a night. Eight standard rooms, two copper for need cases."
+
+She flips the page. The floor plan is taking shape.
+
+"The textile building." She taps the pencil. "If it has the bones, the ground floor becomes overflow lodging. Low-rate only. Cots, a common washroom, a kitchen. The Varenholm equivalent of what this inn was when my grandfather built it." She looks at me. "A place where someone with nothing can sleep warm and eat hot food."
+
+"That's what I'm asking for."
+
+"You want to build a shelter and disguise it as a business."
+
+"I want to build a business that has a shelter inside it."
+
+She writes one more line. Underlines it twice.
+
+"And food," I say. "Complimentary. Every room. Every guest. Doesn't matter if they're paying two copper or ten silver — they eat. A real meal. Hot. No one walks out of my inn hungry."
+
+She nods. The pencil already moving to a second column — base kitchen costs, premium pricing.
+
+"Then a luxury menu. Premium option — better cuts, spiced wine, imported cheese. The markup covers the cost of feeding everyone else."
+
+"Dad can handle the standard kitchen. He's been cooking for the common room since before I could reach the counter." She taps the pencil. "The luxury menu is a hire — one decent cook, three silver a day. The premium meals pay that back by lunch. Silver Draft — same model, bigger kitchen. Textile building gets a common kitchen — soup, bread, high volume. Nobody goes without."
+
+She underlines the new column. Looks up. The tears are gone. The eyes are bright. Not the almost-tears — something harder and clearer. The look she gets when a theorem clicks and the proof is elegant.
+
+"Complimentary meals, all rooms. Luxury dining option, premium rate. Three properties. The kitchen pays for itself inside a week." She closes the ledger. "You know what you're doing."
+
+"What am I doing."
+
+"You're building the room with the draft under the door. Over and over. In every building you own. You're building the place where the stranger with nothing walks in and gets a hot meal and a bed and nobody asks what he can pay because somebody already decided he deserves it."
+
+I look at her across the table where two pouches of gold sit next to a stack of Academy textbooks and a pencil that's been in her hair, on the table, on the floor, and back in her hand six times in the last twenty minutes.
+
+"I had someone teach me that," I say. "Girl behind a bar. Auburn hair. Cooking skewer holding it up. Bright eyes. She gave a stranger a free ale and a key to a room and she heated the bathwater herself."
+
+"She sounds like an idiot."
+
+"She sounds like the bravest person I've ever met."
+
+The pencil goes back in her hair. She picks up both pouches and stands. The Director of Holdings. The innkeeper's daughter. The girl who let a stranger stay.
+
+"Go save the world, Kenji. I have a roof to fix."
+
+She turns toward the kitchen. Three steps. Stops.
+
+"Kenji."
+
+"Yeah."
+
+She doesn't turn around.
+
+"The corner room. The one with the draft." Her voice is quiet. "I still haven't replaced the blanket."
+
+She walks into the kitchen where her father is pretending he hasn't been crying, and the door closes, and the common room is empty except for me and two locals who are suddenly very interested in their ales and a cat on the hearth who hasn't moved through any of it.
+
+I sit there for a long time. The table where it started. The bar where she set down a cup of something amber and local and said *on the house* and *my name's Pip.* The corner where Sera sat with her back to the wall and her drink untouched and didn't leave.
+
+The Whisperstone ring on my hand is warm. It stays warm.
+
+---
+
+The Bleakmoor waits. The convergence. The cork. Mordecai.
+
+But the empire has a Director now. The roof will be fixed by the end of the week. And somewhere upstairs, in a corner room with a draft under the door and a blanket that's thinner than the others, there's a clay cup on the windowsill that once held pale blue and deep violet wildflowers picked from a stream bank by a man who had nothing in the world except an ember and an instinct that told him the girl behind the bar deserved flowers.
+
+The cup is empty now. But she kept it.
+
+---
+
+End of The Sundered Gate — Chapter Twenty-Four.
+

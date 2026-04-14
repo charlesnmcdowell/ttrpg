@@ -692,3 +692,56 @@ EXP: 6,820 / 14,000
 Campaign Multiplier: x4 active
 
 End of Chapter 2.
+
+---
+---
+
+# AMARIS — Epilogue: The Stranger in the Greenveil
+
+---
+
+Three days after you walled the east fence in bittervine, the forest went quiet.
+
+Not empty-quiet — birds came back first, stupid and loud as birds always are when the danger passes. Then the clicking stopped. Then the webs along Maren's old posts began to sag and grey and fall apart like old laundry left in the rain.
+
+You didn't do that part.
+
+Nobody in Thornfield can quite agree on what happened. Harwick's logbook has three different witness statements and a fourth page where he wrote *uncorroborated* and underlined it twice. Delia swears she saw light through the trees — gold and violet, like sunset decided to walk underground. Wynn says the soil stopped screaming in her sleep; she won't elaborate. Maren cried on your porch for an hour and wouldn't say why except *it's gone*.
+
+What everyone agrees on is this: someone went into the Greenveil while the village slept. Someone found whatever was nesting the corruption. And someone finished it — fast — without asking for payment, praise, or breakfast.
+
+You were asleep in your own bed when it happened. Warden's root humming. Thornmint at the door. The deed in a box under the mattress and your scimitar leaning where you could reach it if the night had gone wrong.
+
+It didn't.
+
+---
+
+Morning comes up the eastern fields the color of honey. You walk the fence line with tea in one hand and mud on your boots. The bittervine is still thick. Beyond it, the Greenveil looks like a forest again — dark, yes, old, yes, but not *wrong*. The purple-black sheen on the bark at the tree line is fading. You press your palm to the soil at the pasture edge. Cool. Alive. Hungry for seed in the good way.
+
+Your soil.
+
+The eastern quarter Maren warned you about still needs rest before you plant — another season, maybe two — but the deed doesn't flinch when you read it. Briarstone Homestead. Buyer: Amaris. The balance is paid. The witness signed. The constable filed the copy. No liens. No surprises. No horse-sized spiders on the horizon.
+
+You sit on the porch steps and finish the tea.
+
+Somewhere out past the tree line, a branch cracks. You look up — reflex — and see nothing but morning and leaves. If there's a footprint where a stranger stood, the grass has already made up its mind to forget.
+
+You're okay with that.
+
+You own twelve acres of good dirt, a roof that doesn't leak when it rains, and a dream that outlasted the thing that tried to eat it. The village will gossip for years about the hero who saved Thornfield. They'll get half the details wrong on purpose because stories like that need room to grow.
+
+You'll correct them on the soil chemistry. You won't correct them on the rest.
+
+The Wayfinder Crystal at your throat pulses once — warm, steady, done — like it's agreeing.
+
+You go inside to make breakfast.
+
+The farm is yours.
+
+---
+
+**End of campaign — Amaris: The Crawling Dark (resolved).**
+
+Amaris remains at Briarstone Homestead, deed in hand, corruption ended by an unidentified intervening hero. Thornfield endures. The east field will heal; the dream holds.
+
+---

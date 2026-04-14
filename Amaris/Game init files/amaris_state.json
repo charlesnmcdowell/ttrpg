@@ -1,0 +1,144 @@
+{
+  "_comment": "Post-campaign snapshot — The Crawling Dark resolved; mysterious stranger ended the forest corruption. Amaris holds Briarstone. Same realm as Kenji campaign (see shared_world + Documents/TTRPG/shared_world_continuity.md).",
+  "_save_version": 3,
+  "_saved_at": "",
+  "day": 8,
+  "hour": 9,
+  "hours_since_meal": 1,
+  "location": "Briarstone Homestead — porch",
+  "weather": "Clear",
+  "char_name": "Amaris",
+  "level": 5,
+  "exp": 6820,
+  "hp": 28,
+  "max_hp": 28,
+  "temp_hp": 0,
+  "ac": 12,
+  "spell_slots": {
+    "1": [4, 4],
+    "2": [3, 3],
+    "3": [2, 2]
+  },
+  "gold": 15,
+  "silver": 0,
+  "copper": 0,
+  "meals": 8,
+  "equipped": [
+    "Blue Mermaid Leather Armor",
+    "Double-Bladed Scimitar",
+    "Wayfinder Crystal Necklace",
+    "Holding Bracelet"
+  ],
+  "satchel": [
+    "Herbalist's Pack",
+    "Herbalism Kit",
+    "Component Pouch",
+    "Constable's Writ",
+    "Webrot Moss vials"
+  ],
+  "consumables": {},
+  "key_items": [
+    "Deed to Briarstone Homestead (signed)",
+    "Farm — eastern defenses (bittervine, warden's root, thornmint)"
+  ],
+  "buffs": {},
+  "statuses": [
+    "fed",
+    "peaceful"
+  ],
+  "charges": {},
+  "portals": {},
+  "portal_max": 0,
+  "events": [],
+  "quests": [
+    {
+      "name": "Greenveil corruption",
+      "status": "resolved",
+      "priority": "HIGH",
+      "notes": "Ended by unidentified hero; Nexus destroyed or purged off-page. Village safe."
+    }
+  ],
+  "squads": {},
+  "assets": [
+    {
+      "name": "Briarstone Homestead",
+      "daily_gp": 0,
+      "daily_sp": 0,
+      "status": "active",
+      "display": "12 acres — deed held; soil healing after corruption receded"
+    }
+  ],
+  "golden_age_active": false,
+  "hm_log": [],
+  "hm_total_today": 0,
+  "noble_interest_active": false,
+  "active_perks": [],
+  "weapon_config": "",
+  "weapon_config_detail": "",
+  "threat_clocks": {
+    "Greenveil / Crawling Dark": {
+      "progress": 0,
+      "rate": 0,
+      "trigger": "— ended —",
+      "description": "Corruption source removed; forest stable.",
+      "accelerated": false
+    }
+  },
+  "npc_agendas": {},
+  "org_plots": {},
+  "shared_world": {
+    "continuity_doc": "Documents/TTRPG/shared_world_continuity.md",
+    "same_realm_as": "Kenji campaign (Varenholm / Duskfen / Bleakmoor arc)",
+    "separation_note": "Thornfield is on the eastern frontier; Kenji-scale politics and ley warfare are weeks away and off Briarstone's porch — real in-world, but not local pressure unless Amaris travels or hears late rumor."
+  },
+  "world_events": [
+    "Distant heartland (same realm): Academy politics, Bleakmoor convergence, Sundered Gate situation — per Kenji timeline; no effect on Thornfield by location unless you bring news or travel east."
+  ],
+  "consequences": [],
+  "reputation": {
+    "Thornfield": {
+      "level": "local hero (by proxy)",
+      "opinion": "grateful — the stranger saved them; Amaris is the mage who stayed"
+    }
+  },
+  "relationships": {
+    "Maren": {
+      "score": 20,
+      "tier": "warm",
+      "history": [
+        {
+          "day": 8,
+          "change": 5,
+          "reason": "Relief after corruption ended; cried on Amaris's porch"
+        }
+      ]
+    },
+    "Wynn": {
+      "score": 18,
+      "tier": "ally",
+      "history": []
+    },
+    "Delia": {
+      "score": 12,
+      "tier": "friendly",
+      "history": []
+    },
+    "Harwick": {
+      "score": 10,
+      "tier": "professional",
+      "history": []
+    }
+  },
+  "construct_army": {},
+  "construct_fear": {},
+  "hegemony_active": false,
+  "events_active": {},
+  "canon_pointer": "amaris_story.md — Epilogue: The Stranger in the Greenveil (campaign complete)",
+  "story_beat": "Morning on the porch. Tea, birds back in the Greenveil, deed in the house. Amaris owns Briarstone; the crisis ended while she slept — a stranger did the work and vanished.",
+  "narrative_notes": [
+    "Campaign CLOSED. Mysterious hero — identity unknown, details contradictory in village gossip.",
+    "Vareth / Nexus: resolved off-camera; no civilian casualties from final swarm (swarm never launched).",
+    "East pasture: still resting; western fields healthy. Amaris happy, farm hers.",
+    "Shared world: Kenji's active plots exist in-setting far west/central; Amaris is unaffected by distance — not ignorance of cosmology, just geography and slow news."
+  ]
+}

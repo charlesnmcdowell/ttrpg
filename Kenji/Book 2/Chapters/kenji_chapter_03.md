@@ -26,27 +26,33 @@ I eat. The ring warms.
 
 ---
 
-Garrett's envelope. The map I can read — three red X's along a twelve-mile stretch. The three pages of witness statements, I cannot. Symbols on parchment that might as well be bird tracks. The ArchMagus of Varenholm, level ten, CHA 20, can't read a teamster's account of what killed his horses.
+Garrett's envelope. Map in Common — three X's, twelve miles. Witness statements in handwriting that might as well be bird tracks.
 
-Solveth, from the blade: *The irony is not lost on me.*
+Solveth: *The ArchMagus can't read a teamster.*
+
+"Neither can you. You're a sword."
+
+*The irony is not lost on me.*
 
 "Shut up."
 
-The map is enough. First X six miles ahead. I walk. God Sight at full range.
+First X six miles ahead. I walk. God Sight wide open.
 
 ---
 
-Mile three. The grass turns grey. Both sides of the road, thirty feet wide. I touch a blade. It crumbles like ash. The soil beneath is black. The ember reaches for it — the way it reaches for any living thing, looking for the handshake, the thing it can build on — and finds nothing. Not cold. Not entropy. Entropy is Solveth's domain, and entropy leaves something behind. This is removal. The land didn't die. It was erased.
+Mile three. Grass goes grey — thirty feet each side. I touch a stalk. Ash. Black soil underneath. The ember reaches for a handshake and gets **nothing**. Not cold. Not entropy — entropy leaves *something*. This is removal.
 
-Solveth, very quiet: *This is not my work. Not any god's work. Something else made this.*
+Solveth, very quiet: *Not my work. Not any god's. Something else made this.*
 
-Mile six. First X. A wagon overturned in the ditch. Canvas dissolved. One wheel missing — the axle ending in a smooth curve as if the wood stopped existing. Cargo scattered. A child's shoe. Small enough for a four-year-old. I file it. Keep walking.
+"Define *something.*"
 
-Twenty feet off the road — a circle of black glass, red veins threaded through it. I know this craft. Same bones as the Delve. Same engineering as Vael's seals. But cleaner. The vein pattern isn't random — it's a circuit. Whoever built this understood the architecture at least as well as whoever built the Delve. Maybe better.
+*If I could name it, you'd be less afraid. Keep walking.*
 
-Someone found the old blueprints. And improved them.
+Mile six — first X. Wagon in the ditch, canvas gone, one wheel missing like the wood *stopped existing*. Cargo everywhere. A child's shoe. Four-year-old size. I note it and keep moving.
 
-The glass is cold. Weeks old. I keep walking.
+Twenty feet off-road: black glass circle, red veins like a circuit board. Delve bones. Vael bones. Cleaner. Someone got the blueprints and **upgraded**.
+
+The glass is cold. Old. I keep walking.
 
 ---
 
@@ -58,7 +64,7 @@ They're pacing me. Flanking. Getting closer. Not mindless — they're boxing me 
 
 I step off the road. They charge.
 
-Emberfrost. Horizon Arc — fire and frost expanding outward in a ring. All three stagger. Creation light burns where it touches them — not healing, not restoring, just *annihilating*. The void peeling back from gold. The healing floods back — three targets, half the total damage, the math against groups is obscene.
+Emberfrost. Horizon Arc — fire and frost expanding outward in a ring. All three stagger. Creation light burns where it touches them — not healing, not restoring, just *annihilating*. The void peeling back from gold. The healing floods back — creation light ripping through all three at once. Against groups, the destruction is obscene.
 
 The nearest catches the Cyclone throw and comes apart. No blood. No bones. It dissolves into black glass shards that keep dissolving until nothing is left. Two left. I split the blades. Cross-guard. They hit the guard and bounce. Frost Fang catches one on the exit. Emberfang meets the other. Both dissolving within seconds.
 
@@ -74,11 +80,11 @@ Two pillars of black glass flanking it. Seven feet tall. No arms. Heads tapering
 
 Solveth: *Do not let the beams touch the bracelet. The architecture is compatible — it might try to FEED.*
 
-The near one fires before I can answer. A beam of red-black energy that hits my chest and removes a perfect circle of blue dye from the leather. Thirteen damage. Academy colors burned away in a ring the size of my fist. The armor doesn't self-repair. Aldwin's armor. Twenty years old. I take that personally.
+The near one fires before I can answer. A beam of red-black energy that hits my chest and removes a perfect circle of blue dye from the leather. Academy colors burned away in a ring the size of my fist. The armor doesn't self-repair. Aldwin's armor. Twenty years old. I take that personally.
 
 Ward Mastery. Acid resistance online. God Sight finds the weak point — red veins converging at a nexus, center mass. But the beam comes from the head. Two systems, one body. Smart design.
 
-Frost Fang through the near one's tip. Critical. Thunder detonates through the contact. Launched ten feet. Prone. I close thirty feet to the far one. Same shot — tip shatters. Beam destroyed.
+Frost Fang through the near one's tip. Dead center. Thunder detonates through the contact. Launched ten feet. Down. I close the distance to the far one. Same shot — tip shatters. Beam destroyed.
 
 The near one fires from behind. Ward catches most of the acid. What leaks through burns — not fire-burns, *dissolves*. Leather fibers separating at the molecular level. The far one pulses from the ground, trying to stand. I twist sideways. Three strikes finish the near one — crystallizes and shatters. The far one melts under both blades.
 
@@ -128,32 +134,20 @@ I turn west and run. The colour returns mile by mile. At eighteen miles the ring
 
 ---
 
-East again. Two more meals from the satchel. The ember chews through both in minutes. Running Stride for two hours burns fuel the way a forge burns kindling.
+East again. Two meals from the satchel — gone before I taste them. Stride burns fuel like a forge.
 
-Mile twelve. Dusk. The sky bruise-colored. It's not a strip anymore. Both sides of the road, treeline to treeline. No grass. No trees. Black dust that the wind won't touch. The void pressing up from the ground like breath from a sick mouth.
+Mile twelve. Dusk. Sky bruised. Both treelines dead — black dust the wind won't touch.
 
-Ahead — red light. Not one gate. Three. Clustered in a pattern that God Sight recognizes as triangular before the mind does. Something standing in the center. Bigger than anything I've seen today. The three gates feeding it. A network. A system. Whoever built this didn't stumble into it — they engineered a power station.
+Ahead: **three** gates. Triangle. Something in the middle that makes my teeth hurt from half a mile out.
 
-God Sight strains. 120 feet isn't enough. The shape — tall, broad, wrong. Layered. The ember reaches for it out of habit and recoils from a void so deep it feels like leaning over a cliff in the dark.
+Solveth: *Not a creature. A node. Gates are organs.*
 
-Solveth: *That is not a creature. That is a node. The gates are its organs.*
+"Poetic."
 
-The drone reaches me from half a mile. In my teeth already.
+*Accurate.*
 
-The ember doesn't want to go back. The ember doesn't get to vote. Not tonight.
+The ember wants to stop. I don't ask its opinion.
 
 ---
-
-DING — END OF CHAPTER THREE
-
-KENJI — Level 10
-HP: 63/63 | AC: 18 | Spell Attack: +9 | DC: 17
-Slots: L1 4/5, L2 0/3, L3 3/3, L4 2/3
-Blade Ward 3/3, Ember Lance 4/5, Ignite 3/3
-Active: God Sight (40hr), Stride L4 (7hr). Ward Mastery expired.
-Fed: 9 meals remaining.
-
-KILLS: Abyssal Scavenger x3, Abyssal Watcher x2, Gate x1 sealed.
-EXP: 112,650 / 100,000. Level 11 on Long Rest.
 
 End of The Sundered Gate — Chapter Three.

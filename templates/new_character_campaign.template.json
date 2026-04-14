@@ -1,0 +1,60 @@
+{
+  "_comment": "Copy to <NewPC>/Game init files/character_world_state.json — fill on character creation; prior campaigns are lore only unless player_knowledge says otherwise.",
+  "_save_version": 1,
+  "_saved_at": "",
+  "universe": {
+    "id": "combined_realm_v1",
+    "inherits_from_registry": "realm_lore_registry.json"
+  },
+  "character": {
+    "name": "",
+    "concept": "",
+    "unique_background": "",
+    "why_here_not_thornfield_or_varenholm": ""
+  },
+  "inherited_lore": {
+    "sources": [
+      "shared_world_continuity.md",
+      "realm_lore_registry.json",
+      "Amaris/Game init files/amaris_state.json",
+      "Kenji/Game init files/kenji_state.json"
+    ],
+    "player_knowledge": "DM: bullet what this PC has actually heard about prior arcs (may be wrong, vague, or nothing).",
+    "dm_only_crossover_hooks": "Optional: ways to meet Kenji/Amaris geography or NPCs without breaking their canon."
+  },
+  "new_region": {
+    "name": "",
+    "type": "village | town | wilderness_hold | ship | other",
+    "from_worlds_middle": "Where it sits vs the 'middle' (girdle / heartland) — see shared_world_continuity.md § Description map",
+    "from_crown_realm": "Where it sits vs the Crown realm (inside kingdom, border, beyond — vs Varenholm heartland)",
+    "terrain_and_vibe": "",
+    "population_or_scale": "",
+    "nearest_named_realm_anchor": "",
+    "travel_time_to_major_hub": "e.g. 3 weeks to Varenholm by road — DM sets",
+    "on_map_note": "One sentence for realm_lore_registry + optional addition to shared_world_continuity.md description map"
+  },
+  "main_cast": [
+    {
+      "name": "",
+      "role": "ally | mentor | merchant | antagonist | foil | other",
+      "want": "",
+      "voice_hook": "speech tick or attitude in one line"
+    }
+  ],
+  "quest_spine": [
+    {
+      "beat": "hook | rising | midpoint | crisis | resolution",
+      "summary": "",
+      "key_npc": ""
+    }
+  ],
+  "dialogue": {
+    "intro_scene": "",
+    "rumor_mill_examples": [],
+    "confrontation_line": "",
+    "peaceful_outro_hint": ""
+  },
+  "mechanical_state": {
+    "_merge_note": "StoryEngine (Kenji ttrpg_game_engine.py) preserves unknown top-level keys on save. Merge this file with kenji_state.example.json in one JSON if you use the GUI — universe / inherited_lore / new_region blocks round-trip as extended state."
+  }
+}

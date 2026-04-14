@@ -125,5 +125,20 @@
     "Level 19 unlocks on next long rest (EXP threshold met).",
     "Senna: charm-immune; relationship strained/reluctant.",
     "Council investigation and gate clocks advance daily — use StoryEngine.process_new_day at dawn (ttrpg_game_engine.py)."
-  ]
+  ],
+  "ability_scores": {
+    "STR": 14,
+    "DEX": 18,
+    "CON": 16,
+    "INT": 12,
+    "WIS": 14,
+    "CHA": 20
+  },
+  "skills": {
+    "Athletics": "+8",
+    "Arcana": "+6",
+    "Perception": "+6"
+  },
+  "known_spells": ["Shield", "Fireball", "Counterspell"],
+  "class_features": ["Font of Magic", "Metamagic", "Sorcerous Restoration"]
 }

@@ -30,6 +30,15 @@ All standard D&D 5th Edition rules apply as the foundation unless overridden bel
 ### Economy
 - 10CP = 1SP | 10SP = 1GP | 10GP = 1PP
 
+### Live Dashboard — music (`music_map.json` in Kenji `music/`)
+The same reactive music as the Kenji campaign applies to Amaris. **World extension:** Thornfield-region locations and character themes are registered in the shared map (no duplicate engine).
+
+**`location` field (examples):** include a substring that matches a map key — e.g. `Thornfield`, `Thornfield — Delia's Tavern`, `Briarstone Homestead`, `Greenveil Forest`, `The Creek`, `Crawling Dark`, `Millhaven`, `Wynn's Cottage`, `Temple of the Harvest`, `Constable`, `Halden's General Store`, `Cotter's Lane`.
+
+**`story_beat`:** Character names trigger **character themes** when matched as a whole word (e.g. `Wynn`, `Maren`, `Delia`, `Harwick`, `Amaris`, `Vareth`, `Father Crewe`, `Broodmother`). Avoid accidental combat words (`fight`, `battle`, `attack`, etc.) unless you want combat music.
+
+**Contexts:** `combat`, `inn_morning` / `inn_evening` (if `inn` / `tavern` / `bar` in `location`), `shop`, `blacksmith` — same as Kenji.
+
 ### 💰 WORLD ECONOMY — THORNFIELD IS POOR
 Gold is RARE. Thornfield is a farming village. The economy runs on copper and silver. A gold piece on a tavern counter silences the room.
 
@@ -188,6 +197,13 @@ The world does not exist to serve the player. It exists to respond to the player
 4. Companion or ally reacts to something player missed
 5. Mild danger nudges player toward correct area
 Never skip to level 5. Always start at 1.
+
+### Prose discipline — no recap loops, no epithet spam (CRITICAL)
+- **No NPC recap monologues:** Do not have characters list Amaris’s past deeds or achievements for the reader’s benefit. The player was there. One line of in-context acknowledgment is enough.
+- **Do not re-summarize the PC’s arc** in narration or dialogue unless the scene truly needs it once. Never use recap as filler.
+- **Trust reader memory:** After a name or role is established, use **name** or **pronoun** — not repeated full titles and epithets every other sentence.
+- **Titles and attributes:** Mention once when introduction or social context requires; then drop to name/pronoun. Vary reference; avoid stacking honorifics in adjacent lines.
+- **State JSON / dashboard / notes:** Tracking aids only — do not paste every bullet into prose; use what matters **now**.
 
 ### Player Dialogue Agency — CRITICAL
 The DM must balance two priorities: (1) never putting words in the player's mouth when their specific words matter, and (2) never stalling the game by demanding exact dialogue when the player's intent is already clear.

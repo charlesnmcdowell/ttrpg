@@ -4,9 +4,7 @@
 
 ---
 
-Varenholm. Garrett's room.
-
-"Mine — ownership challenge. Hearing in six days. Highway contract — modified retroactively. Quarterly inspections. They're wrapping the guild in paperwork."
+"Mine — ownership challenge. Hearing in six days." Garrett is already talking when I walk into his room. "Highway contract — modified retroactively. Quarterly inspections. They're wrapping the guild in paperwork."
 
 "I'm building a portal east. Bypasses Council authority."
 
@@ -18,9 +16,13 @@ The pause before he starts is the pause of a man who already read it twice and i
 
 "Vanguard Hall. Keldara headquarters. Platinum tier offer — direct. No ladder. No Silver-to-Gold-to-Platinum climb. One proving contract: Bleakmoor source point neutralization." He looks up. "Complete it and every Hall post on the continent opens to you. Kill contracts. Evacuation rights. Near-diplomatic immunity in forty-six cities. The mine hearing becomes irrelevant because the Council can't touch a Platinum adventurer without starting a jurisdictional war with Keldara."
 
-Forty-six cities. Diplomatic immunity. Everything the Council is using to choke the guild — gone. One contract.
+"That's —"
 
-"Fail it?" Garrett sets the letter down. His voice is level but his hand stays on the paper.
+"That's everything they're using to choke us. Gone. One contract." His hand still won't leave the paper.
+
+"Fail it?"
+
+He sets the letter down. Voice level. Hand not.
 
 "Dead in the Bleakmoor. Source point neutralization means going to where the gates come from and closing whatever's making them." I think about the entity. The three gates. The engineering. "That's not a contract. That's a war."
 
@@ -34,11 +36,11 @@ Aldwin's workshop. Three checks. Theory, channeling, controlled transit.
 
 "Don't arrive inside a wall."
 
-Recall. L1 slot. Any portal. Unlimited range.
+Recall. Any portal. Anywhere. Instant.
 
 ---
 
-Pip at the bar. A gold coin across the wood. She looks at it the way she always looks at gold — not at the metal but at what it means. A gold piece is two months of her life running this bar. I set it down like it's a tip.
+The Broken Antler. Duskfen. Pip at the bar. A gold coin across the wood. She looks at it the way she always looks at gold — not at the metal but at what it means. A gold piece is two months of her life running this inn. I set it down like it's a tip.
 
 "Here's to the best space mage in the land."
 
@@ -60,15 +62,15 @@ Maren. Two silver. One hour. Acid panels replaced.
 
 ---
 
-East. Past the Darkblades — Sera's ring warming briefly. Past the sealed gates. Past the entity. Past the map. No more gates. Old damage. A pipeline, not an invasion front.
+East. Sera's ring warms once — Darkblades sweep behind me — then fades. Sealed gates. Dead map. No fresh scars. Old pipeline damage, not a front line.
 
-A silent walled settlement. Stone walls fifteen feet high. Gate barred from inside — fresh timber nailed across old iron. No smoke from the chimneys but water stains on the well rope. Someone alive inside. Someone who heard what happened to the highway and decided the world outside could wait. I mark it for Sera. The Darkblades can knock. I have further to go.
+I pass a walled settlement with the gate barred from inside, fresh timber over old iron. Well rope's wet. Someone's alive in there — they just decided the world could wait. I mark it for Sera. The Darkblades can knock. I keep moving.
 
-The dead zone thins. Colour returns — first grey-green, then proper green, then mud and grass and the smell of earth that hasn't been erased. The absence lifts like pressure equalizing.
+Green comes back in layers. Mud smells like mud again.
 
-Day 16. A waypoint town with a market. Two weeks of road food. Stride northeast.
+Day 16 — market town, two weeks of road food in my teeth. Stride northeast.
 
-Thornwall. A fortress-city built to hold a border. The Iron Coliseum audible from half a mile — the roar of a crowd watching something fight something else. The sound of money and violence finding each other.
+Thornwall hits my ears before the walls: **Coliseum** — crowd noise like money sharpening knives.
 
 I build the expanded portal outside the walls. Arcane Gate widens the network to eight. The gateway rises — fifteen feet tall, creation outlined in entropy threading. Gold and green light cutting through the afternoon haze. Visible from the walls.
 
@@ -138,14 +140,8 @@ I fall asleep.
 
 "Thanks for the briefing."
 
-The portal. The Silver Draft. Pip's key across the bar. The bed. The dark.
+The portal. The Silver Draft. My room. The bed. The dark.
 
 ---
-
-DING — END OF DAY 16 — NO LEVEL UP
-
-KENJI — Level 11
-Portals: 6/8 — Varenholm, Duskfen, Broken Antler, Mines, Thornwall, Crestfall.
-Gold: 8 GP, 88 SP, 8 CP. Meals: 51.
 
 End of The Sundered Gate — Chapter Six.

@@ -1460,6 +1460,37 @@ class StoryEngine:
         self.canon_pointer = d.get("canon_pointer", "")
         self.story_beat = d.get("story_beat", "")
         self.narrative_notes = d.get("narrative_notes", [])
+        
+        # CHARACTER SHEET — optional blocks for dashboard / brief (D&D-style; empty = omit in UI)
+        self.ability_scores = d.get("ability_scores", {})  # {"STR": 14, "DEX": 16, ...}
+        self.skills = d.get("skills", {})  # {"Perception": "+5", "Athletics": "+7", ...}
+        self.known_spells = d.get("known_spells", [])  # ["Shield", "Fireball", ...]
+        self.class_features = d.get("class_features", [])  # ["Metamagic", "Font of Magic", ...]
+        
+        # SAVE INTEGRITY — OneDrive sync protection
+        self._save_version = d.get("_save_version", 0)
+        self._saved_at = d.get("_saved_at", "")
+        self._construct_total_expected = d.get("_construct_total_expected", -1)
+
+        # PASSTHROUGH — any other top-level JSON keys (e.g. universe, inherited_lore, shared_world
+        # from templates/new_character_campaign) round-trip on save_json(). _comment is stripped in load_json.
+        self._known_top_level_keys = frozenset({
+            "day", "hour", "hours_since_meal", "location", "weather", "char_name", "level", "exp",
+            "hp", "max_hp", "temp_hp", "ac", "spell_slots", "gold", "silver", "copper", "meals",
+            "equipped", "satchel", "consumables", "key_items", "buffs", "statuses", "charges",
+            "portals", "portal_max", "events", "quests", "squads", "assets", "npcs",
+            "golden_age_active", "hm_log", "hm_total_today", "noble_interest_active", "gold_yesterday",
+            "active_perks", "weapon_config", "weapon_config_detail", "weather_profiles",
+            "threat_clocks", "npc_agendas", "org_plots", "world_events", "consequences",
+            "reputation", "relationships", "construct_army", "construct_fear", "hegemony_active",
+            "events_active", "canon_pointer", "story_beat", "narrative_notes",
+            "ability_scores", "skills", "known_spells", "class_features",
+            "_save_version", "_saved_at", "_construct_total_expected",
+        })
+        self.extra_json: dict = {}
+        for k, v in d.items():
+            if k not in self._known_top_level_keys:
+                self.extra_json[k] = v
     
     # ---- TIME ----
     
@@ -1472,11 +1503,13 @@ class StoryEngine:
         elif self.hour < 21: return "Evening"
         else: return "Night"
     
-    def _advance_time(self, hours: int = 1):
-        """Internal: advance time + expire buffs. Use tick_interaction() for the full pipeline."""
+    def _advance_time(self, hours: int = 1) -> List[str]:
+        """Single source of truth for time, buff expiry, meal counter, and day rollover.
+        Returns list of alerts (expired buffs, new-day processing)."""
+        alerts = []
         self.hour += hours
         self.hours_since_meal += hours
-        # Tick buff durations
+        expired = []
         for name in list(self.buffs.keys()):
             b = self.buffs[name]
             dur = b.get("duration_hrs", -1)
@@ -1484,16 +1517,24 @@ class StoryEngine:
                 b["duration_hrs"] = dur - hours
                 if b["duration_hrs"] <= 0:
                     del self.buffs[name]
-        # Day rollover
+                    expired.append(name)
+        for name in expired:
+            alerts.append(f"⏰ Buff expired: {name}")
         while self.hour >= 24:
             self.hour -= 24
             self.day += 1
+            day_results = self.process_new_day()
+            alerts.extend(day_results)
+        return alerts
     
     def advance_day(self):
-        """Jump to next morning (Long Rest). Runs the full daily pipeline."""
+        """Jump to next morning (Long Rest). Restores resources + runs daily pipeline."""
         self.day += 1
         self.hour = 6
         self.hours_since_meal = 0
+        self.restore_all_slots()
+        self.restore_all_charges()
+        self.buffs.clear()
         return self.process_new_day()
     
     def hours_until(self, target_day: int, target_hour: int = 6) -> int:
@@ -1520,9 +1561,6 @@ class StoryEngine:
     
     def add_buff(self, name: str, duration_hrs: int, effects: str):
         self.buffs[name] = {"duration_hrs": duration_hrs, "effects": effects}
-    
-    def remove_buff(self, name: str):
-        self.buffs.pop(name, None)
     
     def add_event(self, name: str, day: int, etype: str = "deadline", priority: str = "MEDIUM", notes: str = ""):
         self.events.append({"name": name, "day": day, "type": etype, "priority": priority, "notes": notes})
@@ -1561,35 +1599,74 @@ class StoryEngine:
             self.meals -= 1
         self.hours_since_meal = 0
     
+    def spend_slot(self, level: str, count: int = 1) -> bool:
+        """Spend spell slot(s). Returns True if successful."""
+        if level not in self.spell_slots:
+            return False
+        cur, mx = self.spell_slots[level]
+        if cur < count:
+            return False
+        self.spell_slots[level][0] = cur - count
+        return True
+    
+    def restore_slot(self, level: str, count: int = 1):
+        """Restore spell slot(s), capped at max."""
+        if level not in self.spell_slots:
+            return
+        cur, mx = self.spell_slots[level]
+        self.spell_slots[level][0] = min(mx, cur + count)
+    
+    def restore_all_slots(self):
+        """Refill all spell slots to max (long rest)."""
+        for level in self.spell_slots:
+            self.spell_slots[level][0] = self.spell_slots[level][1]
+    
+    def spend_charge(self, name: str, count: int = 1) -> bool:
+        """Spend charge(s). Returns True if successful."""
+        if name not in self.charges:
+            return False
+        cur, mx = self.charges[name]
+        if cur < count:
+            return False
+        self.charges[name][0] = cur - count
+        return True
+    
+    def restore_charge(self, name: str, count: int = 1):
+        """Restore charge(s), capped at max."""
+        if name not in self.charges:
+            return
+        cur, mx = self.charges[name]
+        self.charges[name][0] = min(mx, cur + count)
+    
+    def restore_all_charges(self):
+        """Refill all charges to max (long rest)."""
+        for name in self.charges:
+            self.charges[name][0] = self.charges[name][1]
+    
+    def remove_buff(self, name: str) -> bool:
+        """Remove a buff by name. Returns True if found and removed."""
+        if name in self.buffs:
+            del self.buffs[name]
+            return True
+        return False
+    
     def tick_interaction(self) -> List[str]:
         """THE ONE METHOD TO CALL EVERY INTERACTION. Advances 1 hour, checks everything.
         Returns list of alerts the DM must narrate."""
-        alerts = []
+        alerts = self._advance_time(1)
         
-        # Advance 1 hour
-        self.hour += 1
-        if self.hour >= 24:
-            self.hour = 0; self.day += 1
-            day_results = self.process_new_day()
-            alerts.extend(day_results)
-        
-        # Meal tracking
-        self.hours_since_meal += 1
         meal_alert = self.check_meal()
         if meal_alert: alerts.append(meal_alert)
         
-        # Buff expiry
-        expired = self.check_expired_buffs()
-        for name in expired:
-            alerts.append(f"⏰ Buff expired: {name}")
-        
-        # Check world events this hour
         for event in self.world_events:
+            if not isinstance(event, dict):
+                continue
+            if "day" not in event:
+                continue
             if not event.get("fired") and event["day"] == self.day and event.get("hour", 0) <= self.hour:
                 event["fired"] = True
                 alerts.append(f"🌍 EVENT: {event['event']} — {event.get('effect', '')}")
         
-        # Check consequences
         for con in self.consequences:
             if not con.get("fired") and con["trigger_day"] <= self.day:
                 con["fired"] = True
@@ -1629,8 +1706,12 @@ class StoryEngine:
         return daily_exp
     
     def to_dict(self) -> dict:
-        """Serialize entire state to dict. Use for save/load between sessions."""
-        return {
+        """Serialize entire state to dict. Use for save/load between sessions.
+        Merges extra_json last so combined-universe / template keys round-trip."""
+        core = {
+            "_save_version": self._save_version,
+            "_saved_at": self._saved_at,
+            "_construct_total_expected": self._construct_total_expected,
             "day": self.day, "hour": self.hour, "hours_since_meal": self.hours_since_meal,
             "location": self.location, "weather": self.weather,
             "char_name": self.char_name, "level": self.level, "exp": self.exp,
@@ -1661,7 +1742,15 @@ class StoryEngine:
             "canon_pointer": self.canon_pointer,
             "story_beat": self.story_beat,
             "narrative_notes": self.narrative_notes,
+            "ability_scores": self.ability_scores,
+            "skills": self.skills,
+            "known_spells": self.known_spells,
+            "class_features": self.class_features,
         }
+        if self.extra_json:
+            merged = {**core, **self.extra_json}
+            return merged
+        return core
     
     def log_hm_exp(self, squad: str, desc: str, exp: int):
         self.hm_log.append({"squad": squad, "desc": desc, "exp": exp})
@@ -1837,34 +1926,48 @@ class StoryEngine:
         self._normalize_army(army)
         if to_portal not in self.construct_army:
             self.construct_army[to_portal] = {"squads": 0, "warrior": 0, "healer": 0, "mage": 0, "ranger": 0, "destroyed": 0}
-        self._normalize_army(self.construct_army[to_portal])
+        dest = self.construct_army[to_portal]
+        self._normalize_army(dest)
         
         if unit_type == "all":
             squads_to_move = min(count, army["squads"])
             for utype in ["warrior", "healer", "mage", "ranger"]:
-                moved = squads_to_move
-                army[utype] -= moved
-                self.construct_army[to_portal][utype] += moved
+                army[utype] -= squads_to_move
+                dest[utype] += squads_to_move
             army["squads"] -= squads_to_move
-            self.construct_army[to_portal]["squads"] += squads_to_move
+            dest["squads"] += squads_to_move
+            actually_moved = squads_to_move
+            label = "squads"
         else:
-            moved = min(count, army.get(unit_type, 0))
-            army[unit_type] -= moved
-            self.construct_army[to_portal][unit_type] += moved
+            actually_moved = min(count, army.get(unit_type, 0))
+            army[unit_type] -= actually_moved
+            dest[unit_type] += actually_moved
+            army["squads"] = min(army["warrior"], army["healer"], army["mage"], army["ranger"])
+            dest["squads"] = min(dest["warrior"], dest["healer"], dest["mage"], dest["ranger"])
+            label = unit_type
         
         self.update_construct_fear()
-        return f"Moved {count} {'squads' if unit_type == 'all' else unit_type} from {from_portal} to {to_portal}"
+        return f"Moved {actually_moved} {label} from {from_portal} to {to_portal}"
     
     def destroy_constructs(self, portal: str, count: int):
-        """Record construct losses at a portal."""
+        """Record construct losses at a portal, distributed evenly across roles."""
         if portal not in self.construct_army: return
         army = self.construct_army[portal]
         self._normalize_army(army)
-        per_type = max(1, count // 4)
-        for utype in ["warrior", "healer", "mage", "ranger"]:
-            lost = min(per_type, army[utype])
-            army[utype] -= lost
-            army["destroyed"] += lost
+        remaining = count
+        roles = ["warrior", "healer", "mage", "ranger"]
+        while remaining > 0:
+            removed_this_pass = 0
+            for utype in roles:
+                if remaining <= 0:
+                    break
+                if army[utype] > 0:
+                    army[utype] -= 1
+                    army["destroyed"] += 1
+                    remaining -= 1
+                    removed_this_pass += 1
+            if removed_this_pass == 0:
+                break
         army["squads"] = min(army["warrior"], army["healer"], army["mage"], army["ranger"])
         self.update_construct_fear()
     
@@ -2243,8 +2346,26 @@ class StoryEngine:
                 aline = f"  {npc}: {agenda['goal'][:35]} ({agenda.get('progress',0)}%, {deadline})"
                 lines.append(f"║ {aline:<{w}}║")
         
-        # Upcoming World Events (unfired, within 3 days)
-        upcoming = [e for e in self.world_events if not e.get("fired") and e["day"] - self.day <= 3]
+        # String entries = lore notes (e.g. Amaris combined-universe); scheduled dicts = timed events
+        lore_world_notes = [e for e in self.world_events if isinstance(e, str) and e.strip()]
+        if lore_world_notes:
+            lines.append(f"╠{'─'*w}╣")
+            lines.append(f"║ {'🌍 WORLD / LORE NOTES':<{w}}║")
+            for note in lore_world_notes:
+                chunk = note[: w - 4]
+                lines.append(f"║   {chunk:<{w - 4}}║")
+                if len(note) > w - 4:
+                    rest = note[w - 4 :]
+                    while rest:
+                        lines.append(f"║   {rest[: w - 4]:<{w - 4}}║")
+                        rest = rest[w - 4 :]
+
+        # Upcoming World Events (unfired, within 3 days) — dict entries only
+        upcoming = [
+            e for e in self.world_events
+            if isinstance(e, dict) and "day" in e
+            and not e.get("fired") and e["day"] - self.day <= 3
+        ]
         if upcoming:
             lines.append(f"╠{'─'*w}╣")
             lines.append(f"║ {'🌍 UPCOMING WORLD EVENTS':<{w}}║")
@@ -2315,6 +2436,42 @@ class StoryEngine:
                 for i in range(0, len(unfought)-1, 2):
                     uline = f"    {unfought[i]} vs {unfought[i+1]}"
                     lines.append(f"║ {uline:<{w}}║")
+        
+        # Character sheet — ability scores, skills, known spells, class features
+        sheet_any = (
+            self.ability_scores or self.skills or self.known_spells or self.class_features
+        )
+        if sheet_any:
+            lines.append(f"╠{'─'*w}╣")
+            lines.append(f"║ {'📋 ABILITIES / SKILLS / SPELLS':<{w}}║")
+            if self.ability_scores:
+                order = ("STR", "DEX", "CON", "INT", "WIS", "CHA")
+                parts = []
+                for k in order:
+                    if k in self.ability_scores:
+                        parts.append(f"{k} {self.ability_scores[k]}")
+                for k in sorted(self.ability_scores.keys()):
+                    if k not in order:
+                        parts.append(f"{k} {self.ability_scores[k]}")
+                ab = "  " + "  ".join(parts)
+                for i in range(0, len(ab), w - 2):
+                    seg = ab[i : i + w - 2]
+                    lines.append(f"║ {seg:<{w}}║")
+            if self.skills:
+                lines.append(f"║ {'  Skills:':<{w}}║")
+                for sk, mod in sorted(self.skills.items()):
+                    sline = f"    {sk} {mod}"
+                    lines.append(f"║ {sline[:w]:<{w}}║")
+            if self.known_spells:
+                lines.append(f"║ {'  Spells known:':<{w}}║")
+                for sp in self.known_spells:
+                    sline = f"    • {sp}"
+                    lines.append(f"║ {sline[:w]:<{w}}║")
+            if self.class_features:
+                lines.append(f"║ {'  Class / passive features:':<{w}}║")
+                for feat in self.class_features:
+                    fline = f"    • {feat}"
+                    lines.append(f"║ {fline[:w]:<{w}}║")
         
         # Active Perks
         lines.append(f"╠{'─'*w}╣")
@@ -2410,16 +2567,32 @@ class StoryEngine:
         data = json.loads(raw)
         if isinstance(data, dict):
             data.pop("_comment", None)
-        return cls(data)
+        eng = cls(data)
+        print(f"[load] v{eng._save_version} saved {eng._saved_at or 'never'}")
+        return eng
 
     def save_json(self, path: str) -> None:
-        """Persist full state to JSON (same keys as to_dict())."""
-        import json
+        """Persist full state to JSON. Atomic write + verify to survive OneDrive sync."""
+        import json, os
         from pathlib import Path
-        Path(path).write_text(
-            json.dumps(self.to_dict(), indent=2, ensure_ascii=False) + "\n",
+        from datetime import datetime
+        self._save_version += 1
+        self._saved_at = datetime.now().isoformat(timespec="seconds")
+        if self.hegemony_active and self.construct_army:
+            self._construct_total_expected = self.total_constructs()
+        data = self.to_dict()
+        tmp = path + ".tmp"
+        Path(tmp).write_text(
+            json.dumps(data, indent=2, ensure_ascii=False) + "\n",
             encoding="utf-8",
         )
+        os.replace(tmp, path)
+        check = json.loads(Path(path).read_text(encoding="utf-8"))
+        if check.get("_save_version") != self._save_version:
+            raise RuntimeError(
+                f"SAVE VERIFY FAILED: wrote v{self._save_version}, "
+                f"read back v{check.get('_save_version')} — OneDrive likely overwrote the file"
+            )
 
     def validate(self) -> List[str]:
         """Check state consistency. Returns list of warnings (empty = clean)."""
@@ -2448,13 +2621,20 @@ class StoryEngine:
             for req in ("progress", "rate", "trigger"):
                 if req not in clock:
                     warnings.append(f"threat_clock[{name}] missing key '{req}'")
+        if self._construct_total_expected >= 0 and self.hegemony_active:
+            actual = self.total_constructs()
+            if actual != self._construct_total_expected:
+                warnings.append(
+                    f"Construct total drifted: expected {self._construct_total_expected}, "
+                    f"actual {actual} (Δ{actual - self._construct_total_expected})"
+                )
         return warnings
 
     def ai_brief_markdown(self) -> str:
         """Compact markdown for LLM-assisted DMing. Uses engine variables + narrative_notes.
         Does not replace the novels — use for facts-at-a-glance and dynamic continuity."""
         lines: List[str] = []
-        lines.append("# Kenji — live state (StoryEngine / ttrpg_game_engine)")
+        lines.append(f"# {self.char_name} — live state (StoryEngine / ttrpg_game_engine)")
         lines.append("")
         lines.append(
             "Use these **numbers and facts** for the current session. For prose style, voice, and "
@@ -2503,6 +2683,27 @@ class StoryEngine:
         if self.active_perks:
             lines.append("- **Active perks:** " + ", ".join(self.active_perks))
         lines.append("")
+        if self.ability_scores or self.skills or self.known_spells or self.class_features:
+            lines.append("## Abilities, skills, spells (sheet)")
+            lines.append("")
+            if self.ability_scores:
+                order = ("STR", "DEX", "CON", "INT", "WIS", "CHA")
+                row = []
+                for k in order:
+                    if k in self.ability_scores:
+                        row.append(f"{k} **{self.ability_scores[k]}**")
+                for k in sorted(self.ability_scores.keys()):
+                    if k not in order:
+                        row.append(f"{k} **{self.ability_scores[k]}**")
+                lines.append("- **Ability scores:** " + " · ".join(row))
+            if self.skills:
+                sk = [f"{n} {v}" for n, v in sorted(self.skills.items())]
+                lines.append("- **Skills:** " + "; ".join(sk))
+            if self.known_spells:
+                lines.append("- **Spells known:** " + ", ".join(self.known_spells))
+            if self.class_features:
+                lines.append("- **Class features:** " + "; ".join(self.class_features))
+            lines.append("")
         if self.buffs:
             lines.append("## Buffs")
             lines.append("")
@@ -2597,15 +2798,27 @@ class StoryEngine:
                     f"- Day {con.get('trigger_day')}: {con.get('cause', '')} -> {con.get('effect', '')}"
                 )
             lines.append("")
+        if self.extra_json:
+            lines.append("## Extended state (non-engine keys preserved on save)")
+            lines.append("")
+            try:
+                import json as _json
+
+                lines.append("```json")
+                lines.append(_json.dumps(self.extra_json, indent=2, ensure_ascii=False))
+                lines.append("```")
+            except Exception:
+                lines.append(str(self.extra_json))
+            lines.append("")
         if self.narrative_notes:
-            lines.append("## Narrative notes (edit in kenji_state.json)")
+            lines.append("## Narrative notes (edit state JSON)")
             lines.append("")
             for note in self.narrative_notes:
                 lines.append(f"- {note}")
             lines.append("")
         lines.append("---")
         lines.append(
-            "*Update by editing `kenji_state.json`, then `python ttrpg_game_engine.py brief`, or call `save_json()` after play.*"
+            "*Update the state JSON, then `python ttrpg_game_engine.py brief`, or call `save_json()` after play.*"
         )
         return "\n".join(lines)
 

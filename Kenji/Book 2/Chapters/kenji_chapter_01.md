@@ -32,9 +32,9 @@ Through the bond, Solveth: *Welcome to the other side of the bottleneck.*
 
 ---
 
-Day 14. Dawn. I check the schedule.
+Day 14. Dawn.
 
-Gear from Maren — due today. Elara handling delivery. Guild income — not today. Delve salvage — ongoing under Kael. Mine operations — miners rehired, first ore pending. Council response — unknown. Vael — alive, unconfined, Room 302.
+Elara's waiting in the corridor with a slate like I'm a student who forgot homework. "Maren's gear — today. Guild cut of nothing until the mine hearing shakes out. Kael's still neck-deep in Delve salvage. Miners are back on the payroll; first ore's pending. Council's quiet — which means they're planning something loud. Vael's in three-oh-two. Alive. Unconfined. Don't make him cry before breakfast."
 
 ---
 
@@ -42,11 +42,11 @@ Elara's office. Gold threads on the wall map now — tracking restored graduates
 
 "339 reports overnight. Every single one. Faculty healers running since midnight. The city temple received forty walk-ins before dawn." She almost smiles. "Talia Venn set her curtains on fire."
 
-The gear. The underclothes — dark fabric, weightless, humming with CHA resonance. The Chancellor's Veil — moonstone-threaded silver, open at the eyes and crown, three layers of mental resistance. Both finished. Both calibrated.
+She taps the desk. "Underclothes — dark, weightless, resonance-woven. Veil's moonstone-threaded silver, eyes and crown open, three layers of mental resistance. Both calibrated. Try not to scratch your face through the silk."
 
 "The armor needs Aldwin's signature. He hasn't responded."
 
-Two out of three.
+"Two out of three isn't losing. It's pending."
 
 ---
 
@@ -64,9 +64,11 @@ He reaches under the workbench. The authorization. Already signed. Ink dry.
 
 ---
 
-The Instructor's Guard Leather settles over the underclothes. Academy blue and silver. The crest on the chest. Force resistance activating. AC 16 with the old DEX. The Veil over my face. Both resonance weaves stacking with God Sight.
+The Instructor's Guard Leather settles over the underclothes. Academy blue and silver — crest on the chest, force resistance a low hum I stop noticing after three breaths. Veil on. The world sharpens; God Sight drinks it in.
 
-CHA 20. The cap. Spell attack +9. Save DC 17.
+Solveth: *Vanity suits you. Try not to trip.*
+
+"The spells hit harder," I tell the hallway. The hallway doesn't negotiate.
 
 ---
 
@@ -100,62 +102,34 @@ Solveth from the blade: *You are full of terrible decisions that somehow work.*
 
 ---
 
-A runner to Sera with the details. Administrative updates to the registrar. Two battle mage squads established under the ArchMagus.
+A runner takes Vael's paperwork to the registrar. *Ironveil* hits the ledger; the clerk's pen hesitates once — then keeps moving.
 
 ---
 
-The Gilt Lens. Maren behind the counter.
-
-"You look different from the man who spent fifty-two gold in my shop two weeks ago. Better dressed. More dangerous. Same empty pockets?"
+"You look different from the man who spent fifty-two gold in my shop two weeks ago." Maren leans on the counter at the Gilt Lens. "Better dressed. More dangerous. Same empty pockets?"
 
 "Fifty gold. Two items. Ring of strength, plus one. Gloves that set dexterity to sixteen."
 
-The ring — plain iron, forged reinforcement loop. Twelve gold. The Threadwalker Gloves — thin leather, silver threading, replaces reflexive baseline. Twenty-five gold. Thirty-seven total.
+"Flex," Maren says.
 
-The ring tightens the muscle architecture. STR 15 becomes 16. The gloves activate — DEX 13 becomes 16. The hands that fumbled Stride stops now operating at a baseline my body never had.
+I flex. The ring tightens — plain iron, forged loop — and Emberfang shifts on my hip like it approves. The gloves wake; the world slows half a beat.
 
-AC jumps to 18. Initiative to +3. Emberfang hits harder. Stride stops are comfortable.
+"Again. Faster."
+
+I flick a stop. Comfortable. "Emberfang says thank you."
+
+"Emberfang can pay shipping."
 
 "You walked into my shop two weeks ago in borrowed leather smelling like forest. Now you look like something the Academy would put on a recruitment poster." She pauses. "Don't let that go to your head. I still have your exclusivity contract."
 
 ---
 
-The Silver Draft. Garrett's room. The door open. The table different — supply manifests replaced with documents and a regional map pinned to the wall. Red marks on the eastern border.
+"You look expensive." Garrett sweeps the Academy blue, the Veil, the gloves, the bracelet from behind his desk at the Silver Draft. The room's half war-room now — manifests swapped for documents, eastern map bleeding red ink toward the border. "Say something reassuring."
 
-He looks up. Sweeps the Academy blue, the Veil, the gloves, the bracelet.
+"That's not my brand."
 
-"You look expensive."
+"It was worth a try."
 
 ---
 
-DING — END OF CHAPTER ONE
-
-KENJI
-Human — Blade Channeler
-Level 10 — Outlander
-EXP: 76,650 / 100,000
-
-HP: 63/63
-AC: 18 (Instructor's Guard 15 + DEX 3, force resistance)
-Spell Attack: +9
-Spell Save DC: 17
-Proficiency: +4
-Initiative: +3
-
-STR 16 / +3 (Ring of Strength)
-DEX 16 / +3 (Threadwalker Gloves)
-CON 13 / +1
-INT 9 / -1
-WIS 11 / +0
-CHA 20 / +5 (base 17 + God Sight +1, Veil +1, Underclothes +1 = cap)
-
-Slots: L1 5/5 | L2 3/3 | L3 3/3 | L4 3/3
-Blade Ward 3/3 | Ember Lance 5/5 | Ignite 3/3
-
-BATTLE MAGE SQUADS
-Squad 1 — [Sera's choice, pending]: Sera captain. Offense.
-Squad 2 — The Ironveil: Vael captain. Defense. Abjuration.
-
-Gold: 13 GP, 0 SP, 8 CP
-
-End of Chapter One.
+End of The Sundered Gate — Chapter One.

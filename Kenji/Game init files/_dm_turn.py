@@ -18,6 +18,9 @@ Commands:
     clock <name> <delta>          Manually adjust a threat clock, save.
     gold <amount>                 Add (positive) or subtract (negative) gold, save.
     buff <name> <hours> <effects> Add a buff, save.
+    debuff <name>                 Remove a named buff, save.
+    slot <level> <+/-N>           Spend or restore spell slots (e.g. slot L2 -1), save.
+    charge <name> <+/-N>          Spend or restore charges (e.g. charge Recall -1), save.
     quest <name> <status> [notes] Update quest status, save.
     event <name> <day> [notes]    Add a scheduled event, save.
     validate                      Run consistency checks, print warnings.
@@ -44,7 +47,7 @@ def save(eng):
         print("\n⚠️  VALIDATION WARNINGS:")
         for w in warnings:
             print(f"  - {w}")
-    print(f"\n✅ Saved → {STATE_FILE.name}")
+    print(f"\n✅ Saved → {STATE_FILE.name} (v{eng._save_version})")
 
 
 def cmd_tick(eng, args):
@@ -195,6 +198,55 @@ def cmd_event(eng, args):
     save(eng)
 
 
+def cmd_slot(eng, args):
+    if len(args) < 2:
+        print("Usage: slot <level> <+/-N>  (e.g. slot L2 -1)"); return
+    level = args[0]
+    delta = int(args[1])
+    if level not in eng.spell_slots:
+        print(f"Unknown slot level: {level}"); return
+    cur, mx = eng.spell_slots[level]
+    if delta < 0:
+        ok = eng.spend_slot(level, abs(delta))
+        if not ok:
+            print(f"Not enough L{level} slots ({cur}/{mx})"); return
+    else:
+        eng.restore_slot(level, delta)
+    new_cur = eng.spell_slots[level][0]
+    print(f"{level}: {new_cur}/{mx}")
+    save(eng)
+
+
+def cmd_charge(eng, args):
+    if len(args) < 2:
+        print("Usage: charge <name> <+/-N>  (e.g. charge Recall -1)"); return
+    name = args[0]
+    delta = int(args[1])
+    if name not in eng.charges:
+        print(f"Unknown charge: {name}. Available: {', '.join(eng.charges.keys())}"); return
+    cur, mx = eng.charges[name]
+    if delta < 0:
+        ok = eng.spend_charge(name, abs(delta))
+        if not ok:
+            print(f"Not enough {name} charges ({cur}/{mx})"); return
+    else:
+        eng.restore_charge(name, delta)
+    new_cur = eng.charges[name][0]
+    print(f"{name}: {new_cur}/{mx}")
+    save(eng)
+
+
+def cmd_debuff(eng, args):
+    if not args:
+        print("Usage: debuff <name>  (e.g. debuff Haste)"); return
+    name = " ".join(args)
+    if eng.remove_buff(name):
+        print(f"Removed buff: {name}")
+    else:
+        print(f"Buff not found: {name}. Active: {', '.join(eng.buffs.keys()) or 'none'}")
+    save(eng)
+
+
 def cmd_validate(eng, args):
     warnings = eng.validate()
     if warnings:
@@ -222,6 +274,9 @@ COMMANDS = {
     "clock": cmd_clock,
     "gold": cmd_gold,
     "buff": cmd_buff,
+    "debuff": cmd_debuff,
+    "slot": cmd_slot,
+    "charge": cmd_charge,
     "quest": cmd_quest,
     "event": cmd_event,
     "validate": cmd_validate,

@@ -1,6 +1,8 @@
 # 🎲 DM REFERENCE — *The Crawling Dark*
 > CONFIDENTIAL — For DM use only. Do not share with player.
 
+**Canon closure (player-facing):** The campaign concludes in **`amaris_story.md` — *Epilogue: The Stranger in the Greenveil***. An unidentified hero ends the forest corruption overnight; Amaris keeps Briarstone and never meets Vareth in the cave. Timelines below describe the threat *if* that closure had not occurred — useful for alternate runs or pre-epilogue flashbacks.
+
 ---
 
 ## 🌍 SETTING

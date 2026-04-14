@@ -1,0 +1,9 @@
+{
+  "_comment": "Amaris campaign — shares StoryEngine + music from Kenji install until Amaris-specific assets exist.",
+  "campaign_id": "amaris",
+  "window_title_template": "{char_name} — Live Dashboard",
+  "state_file": "amaris_state.json",
+  "music_dir": "../../Kenji/music",
+  "music_map": "../../Kenji/music/music_map.json",
+  "engine_path": "../../Kenji/Game init files"
+}

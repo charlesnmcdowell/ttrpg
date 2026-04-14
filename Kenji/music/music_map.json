@@ -1,0 +1,313 @@
+{
+  "_comment": "Location and context → music tracks. Variants are picked at random or cycled. 'night' keys override when hour >= 21 or < 6. Amaris / Thornfield (east frontier) entries extend the same world — reuse paths relative to this music/ folder.",
+
+  "locations": {
+    "Varenholm": {
+      "day": [
+        "City That Knows Your Name Varenholm.wav",
+        "City That Knows Your Name Varenholm 2.wav"
+      ],
+      "night": [
+        "City That Knows Your Name Varenholm 2.wav"
+      ]
+    },
+    "Varenholm Academy": {
+      "day": [
+        "Vault of Quiet Stars academy.wav",
+        "Vault of Quiet Stars academy 2.wav"
+      ],
+      "night": [
+        "Vault of Quiet Stars academy 2.wav"
+      ]
+    },
+    "Forest outside Varenholm": {
+      "day": [
+        "Counting Shadows bandit forest.wav",
+        "Counting Shadows bandit forest 2.wav"
+      ],
+      "night": [
+        "Hunter's Breath forest night.wav"
+      ]
+    },
+    "Duskfen": {
+      "day": [
+        "Fog Over Fernwood.wav"
+      ],
+      "night": [
+        "Fog Over Fernwood.wav",
+        "Hunter's Breath forest night.wav"
+      ]
+    },
+    "Forest outside Duskfen": {
+      "day": [
+        "Counting Shadows bandit forest.wav",
+        "Fog Over Fernwood.wav"
+      ],
+      "night": [
+        "Hunter's Breath forest night.wav"
+      ]
+    },
+    "Bleakmoor": {
+      "day": [
+        "Hunter's Breath zero dark thirty.wav"
+      ],
+      "night": [
+        "Hunter's Breath zero dark thirty.wav",
+        "Hunter's Breath forest night.wav"
+      ]
+    },
+    "Thornwall": {
+      "day": [
+        "Counting Shadows bandit forest 2.wav",
+        "Origin of the Last Name theme.wav"
+      ],
+      "night": [
+        "Hunter's Breath zero dark thirty.wav"
+      ]
+    },
+    "Crestfall": {
+      "day": [
+        "Origin of the Last Name theme.wav",
+        "City That Knows Your Name Varenholm 2.wav"
+      ],
+      "night": [
+        "Hunter's Breath zero dark thirty.wav"
+      ]
+    },
+    "Broken Antler": {
+      "day": [
+        "Counting Shadows bandit forest.wav",
+        "Fog Over Fernwood.wav"
+      ],
+      "night": [
+        "Hunter's Breath forest night.wav"
+      ]
+    },
+    "Ashward Mines": {
+      "day": [
+        "Hunter's Breath zero dark thirty.wav"
+      ],
+      "night": [
+        "Hunter's Breath zero dark thirty.wav"
+      ]
+    },
+    "Sundered Gate": {
+      "day": [
+        "Hunter's Breath zero dark thirty.wav",
+        "Origin of the Last Name theme.wav"
+      ],
+      "night": [
+        "Hunter's Breath zero dark thirty.wav"
+      ]
+    },
+
+    "Thornfield": {
+      "day": [
+        "Fog Over Fernwood.wav",
+        "Counting Shadows bandit forest 2.wav"
+      ],
+      "night": [
+        "Fog Over Fernwood.wav",
+        "Hunter's Breath forest night.wav"
+      ]
+    },
+    "Briarstone": {
+      "day": [
+        "Origin of the Last Name theme.wav",
+        "Fog Over Fernwood.wav"
+      ],
+      "night": [
+        "Hunter's Breath forest night.wav",
+        "Fog Over Fernwood.wav"
+      ]
+    },
+    "Briarstone Homestead": {
+      "day": [
+        "Origin of the Last Name theme.wav",
+        "Fog Over Fernwood.wav"
+      ],
+      "night": [
+        "Hunter's Breath forest night.wav",
+        "Origin of the Last Name theme.wav"
+      ]
+    },
+    "Greenveil": {
+      "day": [
+        "Counting Shadows bandit forest.wav",
+        "Fog Over Fernwood.wav"
+      ],
+      "night": [
+        "Hunter's Breath forest night.wav",
+        "Hunter's Breath zero dark thirty.wav"
+      ]
+    },
+    "Greenveil Forest": {
+      "day": [
+        "Counting Shadows bandit forest.wav",
+        "Counting Shadows bandit forest 2.wav"
+      ],
+      "night": [
+        "Hunter's Breath forest night.wav",
+        "Hunter's Breath zero dark thirty.wav"
+      ]
+    },
+    "Cotter's Lane": {
+      "day": [
+        "Fog Over Fernwood.wav"
+      ],
+      "night": [
+        "Hunter's Breath forest night.wav"
+      ]
+    },
+    "Millhaven": {
+      "day": [
+        "City That Knows Your Name Varenholm.wav",
+        "Origin of the Last Name theme.wav"
+      ],
+      "night": [
+        "City That Knows Your Name Varenholm 2.wav",
+        "Hunter's Breath zero dark thirty.wav"
+      ]
+    },
+    "Temple of the Harvest": {
+      "day": [
+        "Weight of the Quiet Man Edwyn theme.wav",
+        "Vault of Quiet Stars academy.wav"
+      ],
+      "night": [
+        "Weight of the Quiet Man Edwyn theme 2.wav"
+      ]
+    },
+    "Wynn's Cottage": {
+      "day": [
+        "The Shop That Watches Back.wav",
+        "Fog Over Fernwood.wav"
+      ],
+      "night": [
+        "The Shop That Watches Back theme 2.wav",
+        "Hunter's Breath forest night.wav"
+      ]
+    },
+    "Halden's General Store": {
+      "day": [
+        "The Shop That Watches Back.wav",
+        "The Shop That Watches Back theme 2.wav"
+      ],
+      "night": [
+        "The Shop That Watches Back theme 2.wav"
+      ]
+    },
+    "Constable": {
+      "day": [
+        "Salute To Nothing Garret Theme 1.wav",
+        "Origin of the Last Name theme.wav"
+      ],
+      "night": [
+        "Hunter's Breath zero dark thirty.wav"
+      ]
+    },
+    "The Creek": {
+      "day": [
+        "Counting Shadows bandit forest.wav",
+        "Fog Over Fernwood.wav"
+      ],
+      "night": [
+        "Hunter's Breath forest night.wav"
+      ]
+    },
+    "Crawling Dark": {
+      "day": [
+        "Hunter's Breath zero dark thirty.wav",
+        "Origin of the Last Name theme.wav"
+      ],
+      "night": [
+        "Hunter's Breath zero dark thirty.wav"
+      ]
+    },
+    "Corruption Nexus": {
+      "day": [
+        "Hunter's Breath zero dark thirty.wav",
+        "Origin of the Last Name theme.wav"
+      ],
+      "night": [
+        "Hunter's Breath zero dark thirty.wav"
+      ]
+    }
+  },
+
+  "contexts": {
+    "combat": [
+      "Smile in the Fire Kenji battle theme 1.wav",
+      "Smile in the Fire Kenji Battle theme 2.wav",
+      "Origin of the Last Name battle theme.wav"
+    ],
+    "inn_morning": [
+      "Trouble By The Hearth morning inn.wav",
+      "Fog Over Fernwood inn.wav"
+    ],
+    "inn_evening": [
+      "Trouble By The Hearth evening inn.wav",
+      "Fog Over Fernwood inn.wav"
+    ],
+    "shop": [
+      "The Shop That Watches Back.wav",
+      "The Shop That Watches Back theme 2.wav"
+    ],
+    "blacksmith": [
+      "Hammer Psalm black smith theme 1.wav",
+      "Hammer Psalm black smith 2.wav"
+    ]
+  },
+
+  "character_themes": {
+    "Kenji": [
+      "Smile in the Fire Kenji battle theme 1.wav",
+      "Smile in the Fire Kenji Battle theme 2.wav"
+    ],
+    "Sera": [
+      "Edge of the Scabbard sera theme.wav",
+      "Edge of the Scabbard sera theme 2.wav"
+    ],
+    "Garrett": [
+      "Salute To Nothing Garret Theme 1.wav",
+      "Salute To Nothing Garret Theme 2.wav"
+    ],
+    "Edwyn": [
+      "Weight of the Quiet Man Edwyn theme.wav",
+      "Weight of the Quiet Man Edwyn theme 2.wav"
+    ],
+
+    "Amaris": [
+      "Origin of the Last Name theme.wav",
+      "Fog Over Fernwood.wav"
+    ],
+    "Maren": [
+      "Weight of the Quiet Man Edwyn theme.wav",
+      "Weight of the Quiet Man Edwyn theme 2.wav"
+    ],
+    "Delia": [
+      "Trouble By The Hearth morning inn.wav",
+      "Fog Over Fernwood inn.wav"
+    ],
+    "Wynn": [
+      "The Shop That Watches Back.wav",
+      "The Shop That Watches Back theme 2.wav"
+    ],
+    "Harwick": [
+      "Salute To Nothing Garret Theme 1.wav",
+      "Salute To Nothing Garret Theme 2.wav"
+    ],
+    "Vareth": [
+      "Hunter's Breath zero dark thirty.wav",
+      "Origin of the Last Name theme.wav"
+    ],
+    "Father Crewe": [
+      "Weight of the Quiet Man Edwyn theme.wav",
+      "Vault of Quiet Stars academy.wav"
+    ],
+    "Broodmother": [
+      "Hunter's Breath zero dark thirty.wav",
+      "Smile in the Fire Kenji battle theme 1.wav"
+    ]
+  }
+}

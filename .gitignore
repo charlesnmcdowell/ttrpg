@@ -1,0 +1,12 @@
+# IDE
+.cursor/
+**/.cursor/
+
+# Generated / local (optional — use if this folder is versioned)
+**/AI_CONTEXT.md
+**/*.tmp
+**/*_state.json.bak
+# Keep example/template states; ignore only if you prefer not to commit live saves:
+# **/kenji_state.json
+# **/amaris_state.json
+# **/character_world_state.json

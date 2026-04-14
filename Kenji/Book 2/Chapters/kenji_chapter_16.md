@@ -1,16 +1,16 @@
-# The Sundered Gate — Chapter eleven: The Iron Coliseum
+# The Sundered Gate — Chapter Sixteen: The Iron Coliseum
 
 **Day 21, Morning**
 
 ---
 
-Dawn. Varenholm. The ley alcove at the Academy. Six buffs in ten minutes — the familiar layering of God Sight, Haste, Stride, Frost Fang, Giant's Throw, Enhanced Edge. Emberfrost on my back. The ember running hot and clean through channels that feel wider every morning.
+Dawn. Varenholm. Ley alcove — six buffs in ten minutes: God Sight, Haste, Stride, Frost Fang, Giant's Throw, Enhanced Edge. Emberfrost on my back. Channels feel wider every morning; the ember runs hot and clean.
 
 Portal to Thornwall.
 
-The Iron Coliseum rises above the military quarter like something built by people who thought architecture should make a threat. Stone tiers carved into the hillside. Iron posts. Ward lines along the ring boundary glowing faint blue. Three thousand seats and every one of them filled.
+Iron Coliseum over the military quarter — stone tiers, iron posts, blue ward-line at the ring. Eight thousand seats, all full. Architecture built to sound like a threat.
 
-Tournament Day.
+Tournament day.
 
 ---
 
@@ -18,13 +18,21 @@ Tournament Day.
 
 Greave walks out first. Full plate. Greatsword across his back. Three years undefeated. The crowd knows him. They roar when he draws the sword.
 
-I walk out second. The crowd gets quieter. The portals are famous now. The ArchMagus gates. People on the highway call them that.
+I walk out second. The noise dips — the gates have a reputation now. Highway calls them the ArchMagus gates.
 
-The bell rings.
+Bell.
 
-I sit down.
+I sit. Cross-legged. Dirt. Meal from the satchel. I eat.
 
-Cross-legged. In the dirt. Pull a meal from the satchel. Start eating. Three thousand people go silent. Greave's greatsword lowers an inch. Nobody has ever sat down in his ring.
+Eight thousand people forget how lungs work. Greave's greatsword dips an inch.
+
+From the stands: "Is he—"
+
+"—eating."
+
+Greave: "Stand up."
+
+"I'm fueling." I take another bite. "Your turn when I'm done chewing."
 
 The bracelet pulses. I reach through the network — four constructs materialize around me in a diamond. Seven feet tall. Faceless. Gold-black glass bodies threaded with entropy veining. Warrior front, Mage and Ranger flanking, Healer behind. They don't look at Greave. They face outward. Guarding. The thing they were made to do.
 
@@ -92,7 +100,7 @@ And the counter fires. The Rapier of Arrest catches Caius across the jaw and his
 
 Doesn't matter. Her off-hand rises. The Breach Shard pulses.
 
-Lightning Bolt. Point blank. The crack of thunder in a stone arena. Caius saves half but sixteen still throws him back. His rapier arm shaking.
+Lightning Bolt. Point blank. The crack of thunder in a stone arena. Caius partially deflects but the bolt throws him back. His rapier arm shaking.
 
 Round 2. Caius comes back in. Gets two hits through. Sera takes them. Hand rises.
 
@@ -102,7 +110,7 @@ Round 3. He gets one more hit through the Cage. It doesn't matter. Her hand is a
 
 Lightning Bolt. Caius Dael hits the stone floor and doesn't get up.
 
-Three rounds. Three Lightning Bolts. The woman who invented the Cage, holding a rapier that punishes crits, fighting with a shard that turns every spell into something beyond its weight.
+Three rounds. Three Lightning Bolts. The woman who invented the Cage, holding a rapier that freezes on a clean hit, fighting with a shard that turns every spell into something beyond its weight.
 
 Sera walks back to the alcove. Bleeding from both arms. Doesn't look at the crowd. Looks at me.
 
@@ -136,7 +144,7 @@ Round 4. She takes him apart piece by piece. Every hit she heals. Every hit she 
 
 Round 5. Torr won't go down. Won't yield. The pit fighter in him won't allow it.
 
-Round 6. She crits. The strike catches his solar plexus — bludgeoning and force together, the Ki Intrusion at full power. Torr's feet leave the ground. He lands on his back and doesn't get up.
+Round 6. She lands it clean. The strike catches his solar plexus — bludgeoning and force together, the Ki Intrusion at full power. Torr's feet leave the ground. He lands on his back and doesn't get up.
 
 Six rounds. Senna walks out at full health. Not a mark on her. The regen erased everything Torr ever did.
 
@@ -156,7 +164,7 @@ She doesn't move away from the hand.
 
 Bout 4. Varn walks into the ring like a wall that decided to relocate. Greatshield. Warhammer. No expression.
 
-Kessa — twin blades, dancer's speed, four attacks per round. She opens with Blade Storm. Six strikes in one burst. Five of them bounce off AC twenty. Varn doesn't flinch. Doesn't react. Takes the two that land like they're rain.
+Kessa — twin blades, dancer's speed, relentless. She opens with Blade Storm. Six strikes in one burst. Five of them bounce off the greatshield like rain. Varn doesn't flinch. Doesn't react. Takes the two that land like they're rain.
 
 Then he walks forward. Shield Bash. Kessa hits the dirt. Gets up. Twin blades flashing. Most of them bouncing off the greatshield. Varn walks forward again. Bash. Prone. Warhammer.
 
@@ -212,4 +220,4 @@ Dren is still grinning.
 
 ---
 
-*End of Chapter eleven.*
+*End of Chapter Sixteen.*

@@ -1,0 +1,47 @@
+{
+  "_comment": "Combined-universe campaign index. schema_version bumps if you add required fields. New entry shape: { id, character, status, state_file, story_files[], regions_established[], lore_role, optional supersedes_note }. Paths relative to TTRPG folder.",
+  "schema_version": 1,
+  "universe_id": "combined_realm_v1",
+  "calendar": {
+    "era_label": null,
+    "notes": "Optional: set era_label when you want a named year in prose. Per-campaign day counters in *_state.json stay local unless you sync for a crossover."
+  },
+  "realm_docs": [
+    "shared_world_continuity.md",
+    "universe_campaign_framework.md"
+  ],
+  "campaigns": [
+    {
+      "id": "amaris",
+      "character": "Amaris",
+      "status": "complete",
+      "state_file": "Amaris/Game init files/amaris_state.json",
+      "story_files": [
+        "Amaris/Game init files/amaris_story.md"
+      ],
+      "regions_established": [
+        "Thornfield",
+        "Briarstone Homestead",
+        "Greenveil Forest"
+      ],
+      "lore_role": "Eastern frontier — Greenveil corruption resolved; local hero legend; deed at Briarstone."
+    },
+    {
+      "id": "kenji",
+      "character": "Kenji",
+      "status": "active",
+      "state_file": "Kenji/Game init files/kenji_state.json",
+      "story_files": [
+        "Kenji/Game init files/Kenji_story_book1.md",
+        "Kenji/Game init files/Kenji_story_book2.md"
+      ],
+      "regions_established": [
+        "Varenholm",
+        "Duskfen",
+        "Bleakmoor",
+        "Sundered Gate corridor"
+      ],
+      "lore_role": "Academy / ArchMagus arc — portals, constructs, Bleakmoor convergence, Council pressure; heartland and west."
+    }
+  ]
+}
