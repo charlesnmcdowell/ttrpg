@@ -21,6 +21,7 @@ Prior campaigns become **background lore** for new characters unless you tie plo
 1. **`Kenji_story_book1.md`** — Book one (*The Gilt Conspiracy* arc through the Hollow Crown / cycle restoration).
 2. **`Kenji_story_book2.md`** — **Complete Book 2 in one file:** prelude (*The Gilt Conspiracy*, Day Thirteen) → *The Expedition* → *The Sundered Gate* (through Chapter Twenty-Four). Per-chapter exports also live under `Book 2/Chapters/kenji_chapter_*.md` for editing.
 3. **`Book 3/Chapters/`** — ***The Iron Crown War*** — follows Book 2; chapter files remain the edit surface for Book 3.
+4. **`Kenji_story_book4.md`** — Book four (*Fraying Empire* / *The Ronin* arc), combined manuscript through the latest `fraying_empire_chapter_*.md`. Per-chapter edits: `Book 4/Chapters/fraying_empire_chapter_01.md` onward. Kingdom-scale frame: `fraying_empire_campaign.md` (*The Fraying Crown*).
 
 Without that context, answers will miss character history, relationships, what the world has already seen, and what is still secret in the DM material.
 
