@@ -1,5 +1,8 @@
 # KENJI — COMPLETE CHARACTER TRACKING
-## Post-Book 3: The Iron Crown War
+## Mid-Book 4: The Ronin — End of Chapter 5 (*The Eastbound Run*)
+### Ashmere 24, 1247 AR (Day 246) — South road out of Millhaven
+
+> Book 4 is a deliberate scale-down: Kenji is traveling the southern provinces as a solo ronin, cash-and-carry mercenary work, sleeping in inns, no constructs called, no portals used, high-tier gear stored. The Post-Book 3 snapshot below is preserved as a historical peak reference. The **BOOK 4 CURRENT STATE** section at the bottom reflects what is actually in play right now.
 
 ---
 
@@ -270,4 +273,187 @@ Every encounter unique. Names generated fresh. Both can become recurring charact
 
 ---
 
-*Last updated: Day 49. Post-Book 3.*
+
+---
+
+## BOOK 4 — CURRENT STATE (Ronin Mode)
+
+### Snapshot
+- **Arc position:** End of Book 4, Chapter 5 — *The Eastbound Run*
+- **Date:** Ashmere 24, 1247 AR — Stillday morning, hour 6
+- **Location:** South road out of Millhaven. Wind Step. Following the iron key's ley tether south-southwest.
+- **Known to the world:** Ronin. Traveling mercenary. No name that sticks. Millhaven knows Taryn.
+- **Gold on person:** 1,488 gp / 50 sp (after Holsk payouts, Bracken commission advance, Taryn's share)
+
+---
+
+### BOOK 4 CORE STATS (17 partners, ring stored)
+
+| Stat | Base | Bonded Lovers | Total | Mod |
+|------|------|---------------|-------|-----|
+| STR  | 20   | +17           | 37    | +13 |
+| DEX  | 18   |               | 20*   | +5  |
+| CON  | 20   | +17           | 37    | +13 |
+| INT  | 9    |               | 9     | -1  |
+| WIS  | 10   |               | 10    | +0  |
+| CHA  | 20   |               | 20    | +5  |
+
+\*DEX +2 from Windstrider Boots.
+
+- **Level:** 35 (same — no combat XP prioritized this book)
+- **HP:** 347 | Regen: 100%/turn
+- **AC (active kit):** 19 — Ronin Hakama +3, no heavy armor, Threadwalker Gloves, Ronin Hat/Ninja Mask
+- **Crit Range:** 18-20 (God Sight, permanent)
+- **Speed:** 30 base / 150 Arcane Stride / Wind Step (charges)
+
+---
+
+### SOUL NEXUS (17 Partners — +5 in Book 4)
+
+| # | Partner | Skill | Perk | Book |
+|---|---------|-------|------|------|
+| 1 | Senna | Flurry/Evasion | Regeneration (100% HP/turn) | B1 |
+| 2 | Lythara | Forest Sense | Forest Bond | B1 |
+| 3 | Pip | Appraisal | Golden Tongue | B1 |
+| 4 | Della | Steady Hands | Tip Jar | B1 |
+| 5 | Faelindra | Blade Dance (3 atk/round) | Ironwood Discipline | B1/B2 |
+| 6 | Nimue | Aether Shield | Cascade | B1/B2 |
+| 7 | The Eldest | Sovereign's Voice | Ley Sovereign | B1 |
+| 8 | Sera | Dual Strike Mastery | Unbreakable Bond | B1 |
+| 9 | Thessaly | Archive Recall | **Long Memory** (pattern recognition) | B2 |
+| 10 | Elara | Counterspell Mastery | Spell Eater | B2 |
+| 11 | Vess | War Room | Institutional Memory | B2 |
+| 12 | Katya | Surrender Terms | War Prize | B3 |
+| 13 | **Breca** | Hearth Sense | Warmkeep (cold resist aura, small party) | B4 Ch2 |
+| 14 | **Amaris** (Level 16) | Groundsong | **Living Ground** (plant tremorsense 200ft) | B4 Ch3 |
+| 15 | **Delia** | Road Sense | Trade Warmth (detect dead/live trade routes) | B4 Ch3 |
+| 16 | **Wynn** | Clean Cut | **Diagnostic Touch** (scan wounds/poisons) | B4 Ch4 |
+| 17 | **Taryn** | Iaido Stance (guaranteed crits on drawn cut) | **Steel Sight** (weapon quality/flaws at a glance) | B4 Ch4 |
+
+---
+
+### BOOK 4 INTIMATE PARTNERS (5 new)
+
+| Name | When | Role | Bond Skill / Perk |
+|------|------|------|-------------------|
+| Breca | Ashmere 11, Greymere | Innkeeper, Broken Antler | Hearth Sense / Warmkeep |
+| Amaris | Ashmere 15, Greenveil | Druid of the Thornlight circle — Level 16 | Groundsong / Living Ground |
+| Delia | Ashmere 17, crossroads | Caravan outrider | Road Sense / Trade Warmth |
+| Wynn | Ashmere 20, Millhaven | Field medic, garrison infirmary | Clean Cut / Diagnostic Touch |
+| Taryn | Ashmere 21-22, Millhaven | Gate guard → commissioned scout (mythril half-plate, thrum halberd) | Iaido Stance / Steel Sight |
+
+---
+
+### ACTIVE KIT (in play)
+
+- **Abyssal Shard Nodachi** — 6d12 slash + Void. 25% vaporize on crit. Primary weapon this book.
+- **Ronin Hakama** — AC +3, traveling clothes silhouette, no obvious magic.
+- **Ronin Hat / Ninja Mask** — face concealment, no aura tell at distance.
+- **Threadwalker Gloves** — silent hand movements, +5 Sleight/Stealth.
+- **Windstrider Boots** — DEX +2, +5 Acrobatics, 20% dodge, silent, no tracks.
+- **Storage Ring** — Bag of Holding (iron key, iron chest from Aldric, bronze ring mass, etc.)
+- **Whisper Stones** — still available but unused this book (no network calls).
+
+### STORED (not in play)
+- **Emberfrost** double blade, **Instructor's Guard** leather, **Ring of Strength**, **Circuit Bracelet** — all at Varenholm or in the portal vault. Not invoked in Book 4.
+
+---
+
+### BOOK 4 ABILITIES IN ROTATION
+
+- **Wind Step** — 5 charges/day, 10 min per charge. Primary movement/extraction tool.
+- **Phantom Double** — 2 charges, 10 min. Reconnaissance, decoy, ambush bait. Confirmed kills-by-decoy this book.
+- **Iaido Stance** (Taryn bond) — guaranteed crit on drawn cut, once per encounter before initiative or after full sheath.
+- **Enhanced Arcane Edge** — +1d8 force/hit + Arcane Momentum (free atk per kill).
+- **Diagnostic Touch** (Wynn) — passive field triage.
+- **Long Memory** (Thessaly) — passive pattern read on ruins, signatures, dialect.
+- **Living Ground** (Amaris) — plant tremorsense 200 ft, passive in any vegetated terrain.
+- **Road Sense / Trade Warmth** (Delia) — live/dead trade route read.
+- **Steel Sight** (Taryn) — item appraisal at a glance.
+- **Greater Invisibility** — used sparingly for decoy phases.
+- **Irresistible Presence** — still live (DC 23), but Kenji deliberately understates CHA-facing interactions this book.
+
+---
+
+### BOOK 4 KEY NPCs
+
+| NPC | Location | Role |
+|-----|----------|------|
+| Breca | Broken Antler, Greymere | Innkeeper, bonded |
+| Amaris | Thornlight circle, Greenveil | Druid L16, bonded |
+| Delia | South road caravans | Outrider, bonded |
+| Marda | Broken Wheel, Millhaven | Innkeeper. Knows Kenji as "ronin." |
+| Wynn | Millhaven garrison infirmary | Field medic, bonded |
+| Taryn | Millhaven | Ex-gate-guard → commissioned scout, bonded. **Knows the cold hand.** Has Bracken's Letter of Commission (Coalition Council auth + 475g now / 5000g pending). Wearing Holsk's mythril half-plate, carrying Holsk's thrum halberd. |
+| Bracken | Millhaven | Ranger-captain / commissioner. Writes contracts. Pays clean. |
+| Holsk | Millhaven forge | Master blacksmith. Reforged Taryn's kit. Revealed the **maerinbronze / thrum alloy** on the ruin rings (pre-Guild Ledger, 800+ years). Paid 1,440g for 8 bronze rings. |
+| Sir Aldric the Fallen | Eastbound trade road | Ashenmere knight, turned. Encountered at the caravan vanishment site. Left behind a warded iron chest (stolen, unopened). |
+| Seravane | The Pallid March | Border-setter. Left the note at the caravan circle. Threat vector: the border isn't where the Coalition thinks. |
+
+---
+
+### BOOK 4 ACTIVE QUESTS
+
+1. **The Southern Marker** — iron key from the Millhaven ruin is humming south-southwest along a ley tether. Kenji is on its thread now. Something sealed. The bronze rings were holding it.
+2. **Aldric's Chest** — warded iron chest, stolen from the caravan-vanishment site. Unopened. Requires safe workspace + counter-wards.
+3. **The Ashenveil Letter** — Taryn holds commission authority to present the Ashenveil column evidence (including four Millhaven garrison dead) to the Coalition Council. Outcome pending her arrival.
+4. **Pallid March / Seravane Recon** — the border Seravane drew isn't the one on Coalition maps. Active threat vector.
+
+### RESOLVED (Book 4)
+
+- Greymere relief run (Ch1)
+- Greenveil druid circle assistance (Ch2)
+- Millhaven ruin — bronze ring extraction, iron key acquired (Ch4)
+- Eastbound bandit/caravan investigation + Sir Aldric contact (Ch5)
+
+---
+
+### BOOK 4 STANDING THREATS (macro)
+
+- **The Hollowing** — confirmed presence in abandoned south-road stretch (dead trade warmth)
+- **Pallid March** — Seravane's border, disputed/moving
+- **Red Court** — not seen yet this book, still on the board
+- **Iron Horde** — not seen yet this book
+- **Twin Wyrms** — not seen yet this book
+- **Still Night countdown** — 21-day clock opened Ashmere 22 (approximate). Day 18 left.
+
+---
+
+### BOOK 4 TIMELINE
+
+| Day | Date (Ashmere) | Chapter | Beat |
+|-----|----------------|---------|------|
+| 229 | 7  | Ch1 — *Greymere* | Arrive Greymere, relief work, Breca |
+| 233 | 11 | Ch1 end | Leave Greymere |
+| 237 | 15 | Ch2 — *The Greenveil* | Thornlight circle, Amaris (L16) |
+| 240 | 18 | Ch3 — *Stillday* | Crossroads, Delia, dead trade warmth read |
+| 242 | 20 | Ch4 — *Millhaven* | Arrive Millhaven, Broken Wheel, Wynn, garrison infirmary |
+| 243-244 | 21-22 | Ch4 | Taryn training + bond, ruin prep |
+| 244 | 22 | Ch4 end / (Ch "Signpost" aside) | Ruin south of Millhaven. Phantom double recon, Watchers two-tap, 8 bronze rings + iron key. Holsk reveal. Broken Wheel door close. |
+| 245 | 23 | Ch5 — *The Eastbound Run* | Eastbound decoy. 4 bandits. Caravan vanishment site. Seravane's post. Ashenveil column + 4 Millhaven dead. Sir Aldric the Fallen. Iron chest acquired. |
+| 245 | 23 evening | Ch5 | Back to Millhaven. Holsk finishes Taryn's mythril + thrum halberd. Wolf pack + warg Matriarch solo'd by Taryn (16 wolves + 1 warg, six minutes). Bracken's Letter of Commission (475g / 5000g pending). |
+| 246 | 24 | Ch5 end | **The Cold Hand.** Taryn clocks the phantom double on main street. Kenji over the south wall. Wind Step. Iron key tether south-southwest. Millhaven behind. |
+
+---
+
+### WHAT TARYN KNOWS (as of Ch5 end)
+
+- The ronin's name is *Kenji*.
+- He gave her every scrap of credit — the pelts, the warg, the Ashenveil column, the Letter of Commission, the gold.
+- The hand she held at the south gate wasn't him. He's already gone.
+- She has the gear, the rank, the letter, and the cold air.
+
+---
+
+### BOOK 4 OPEN THREADS / HOOKS
+
+- Iron key's destination (active thread)
+- Aldric's chest contents
+- Coalition Council response to Taryn's Ashenveil evidence
+- Seravane's actual border
+- Still Night countdown (T-18 days approximate)
+- Whether Taryn follows
+
+---
+
+*Last updated: Day 246, Ashmere 24, 1247 AR. Mid-Book 4 — End of Chapter 5 (*The Eastbound Run*). On the south road, following the key.*
