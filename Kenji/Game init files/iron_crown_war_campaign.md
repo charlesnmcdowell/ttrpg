@@ -60,7 +60,7 @@ They are all Level 20+ at campaign start. They are all dangerous. Not all are al
 
 ---
 
-### 1. DREN VALDRIC — THE LORD OF IRONHOLT
+### 1. DREN VAUREN — THE LORD OF IRONHOLT
 **Analogue:** Richter (The Land: Founding)
 **Status:** ALLY — Kenji relationship +30
 **Level:** 25 | **CR:** 17 (field), 19 (Ironholt)
@@ -256,11 +256,11 @@ Already established in canon. Builder-lord. Place of Power. Kex the drake. Ironh
 
 ---
 
-### 7. ALDRIC GREYHOLM — THE TWICE-BORN KING
+### 7. AUREN GREYHOLM — THE TWICE-BORN KING
 **Analogue:** Arthur Leywin (The Beginning After the End)
 **Level:** 28 | **CR:** 20
 
-**Origin:** This one is different. Aldric didn't arrive from another world — he was *reborn* into this one. In his previous life, he was a king of a now-destroyed kingdom on the eastern continent. He died defending his throne against the Dominion's grandfather-emperor two hundred years ago. The ley network preserved his soul. He was reborn as a child in Silvandris, the Deepwood capital, thirty years ago. He remembers everything.
+**Origin:** This one is different. Auren didn't arrive from another world — he was *reborn* into this one. In his previous life, he was a king of a now-destroyed kingdom on the eastern continent. He died defending his throne against the Dominion's grandfather-emperor two hundred years ago. The ley network preserved his soul. He was reborn as a child in Silvandris, the Deepwood capital, thirty years ago. He remembers everything.
 
 **Build:** Sword-mage supreme. Two centuries of martial arts mastery combined with elven aether-magic training. He fights with a blade in one hand and spells in the other, seamlessly, like breathing. Every swing is enhanced. Every spell is delivered through steel. He is what Kenji could become if Kenji had two hundred years of practice.
 
@@ -280,16 +280,16 @@ Already established in canon. Builder-lord. Place of Power. Kex the drake. Ironh
 - **King's Domain** — Action. 60ft radius. All allies: +2 AC, +2 saves, advantage vs fear. All enemies: -2 attack, -2 saves. Concentration. 1 minute.
 - **Reincarnation Memory** — Passive. Cannot be deceived by any illusion, enchantment, or disguise. He's seen it all before. Literally.
 - **Absolute Counter** — Reaction. Counterspell at will, no slot cost. Can counter up to 6th level automatically. 7+ requires INT check DC 10 + spell level.
-- **Two Lifetimes** — 1/day. Aldric draws on his past life's combat experience. For 1 minute: advantage on all attacks, all saves, and all ability checks. Extra attack (3 total per round). This is what two centuries of skill looks like compressed into sixty seconds.
+- **Two Lifetimes** — 1/day. Auren draws on his past life's combat experience. For 1 minute: advantage on all attacks, all saves, and all ability checks. Extra attack (3 total per round). This is what two centuries of skill looks like compressed into sixty seconds.
 
 **Personality:**
 - Old soul. Literally. He speaks like a man who has lived too long and remembers too much.
 - Kind but distant. The distance of someone who has lost an entire kingdom and everyone he loved and then had to grow up again knowing what loss feels like.
 - The Deepwood Confederacy doesn't know what he is. The Eldest suspects. The elves raised him as one of their own. He loves them for it and carries the guilt of a secret he'll have to reveal.
-- He views the Dominion as personal. Their grandfather-emperor killed him. Their current emperor is finishing the conquest his ancestor started. This war is Aldric's unfinished business from two centuries ago.
+- He views the Dominion as personal. Their grandfather-emperor killed him. Their current emperor is finishing the conquest his ancestor started. This war is Auren's unfinished business from two centuries ago.
 - He is the most dangerous individual combatant on the continent. And he's spent thirty years hiding it.
 
-**Location at campaign start:** Silvandris. The Eldest has called a war council. For the first time in centuries, the Deepwood Confederacy is considering entering a human war. Aldric is the reason. He just told the Eldest who he really is.
+**Location at campaign start:** Silvandris. The Eldest has called a war council. For the first time in centuries, the Deepwood Confederacy is considering entering a human war. Auren is the reason. He just told the Eldest who he really is.
 
 ---
 
@@ -338,7 +338,7 @@ Former enemy, current neutral ally. His Confluence Lens methodology is the only 
 Dren's drake companion. Evolved during the siege — the Ironholt Core fed him. Now CR 14 on his own. Telepathic link with Dren. Psi-blasts. Flight. The size of a horse. The intelligence of a tactician. Kex doesn't just fight — he coordinates Ironholt's aerial defense.
 
 **20. QUEEN LIRIEN — THE DEEPWOOD WAR-SINGER**
-Auren Greyholm's elven mother (adoptive). Level 18. Aether-voice — she casts through song. Healing, buffs, battlefield control. Her war-songs can rally a broken army or shatter a siege tower's enchantments. She doesn't know Aldric is a reincarnated king. She just knows her son is volunteering for a human war and she's not letting him go alone.
+Auren Greyholm's elven mother (adoptive). Level 18. Aether-voice — she casts through song. Healing, buffs, battlefield control. Her war-songs can rally a broken army or shatter a siege tower's enchantments. She doesn't know Auren is a reincarnated king. She just knows her son is volunteering for a human war and she's not letting him go alone.
 
 ---
 

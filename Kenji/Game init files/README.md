@@ -15,7 +15,7 @@ This campaign uses a **rules-based tracking system** to maintain continuity acro
 | File | Purpose | When to read |
 |------|---------|--------------|
 | `tracking_rules.md` | **READ FIRST every session.** 9 mandatory rules: pre-write review, timestamps, drift checks, goal timers, personality constraints, alive-must-have-goals, never delete, endgame snapshots, consolidation. | Start of every session |
-| `character_tracker.md` | Source of truth for all characters >2 chapters old. Status, location, disposition, abilities, gear, goals with due dates and public_at timers. The World is also tracked here. Campaign threats with clock percentages. | Before writing any NPC |
+| `character_tracker.md` | Source of truth for all characters >2 chapters old. Status, location, disposition, abilities, gear, goals with due dates and public_at timers. The World is also tracked here. Campaign threats with clock percentages. Contains the DM-only **Harrowing cosmology appendix** (four gods, champion roster, outlander/isekai table, three endings). | Before writing any NPC |
 | `npc_appearance.md` | Physical reference derived from image uploads. Includes Vigor eye-shift mechanics. DM checklist for new character introductions. | When describing any NPC physically |
 | `book_1_endgame_tracker.md` | Frozen snapshot — all characters at Book 1 end (Day 13, Level 9). | Reference only |
 | `book_2_endgame_tracker.md` | Frozen snapshot — all characters at Book 2 end (Day 24, Level 20). | Reference only |
@@ -25,7 +25,7 @@ This campaign uses a **rules-based tracking system** to maintain continuity acro
 
 | File | Purpose | When to read |
 |------|---------|--------------|
-| `dm_rules_tracking.md` | Cardinal rules (never speak for Kenji, never auto-resolve combat, stop at decision points, dialogue-first narrative), combat mechanics, enemy tactics, creature registry, encounter design, worldbuilding tone, environmental rules, NPC combat stat blocks. Historical DM secrets for Books 1-2 (archived). | Before running combat or encounters |
+| `dm_rules_tracking.md` | Cardinal rules (never speak for Kenji, never auto-resolve combat, stop at decision points, dialogue-first narrative), combat mechanics, enemy tactics, creature registry, encounter design, worldbuilding tone, environmental rules, NPC combat stat blocks. Contains the Harrowing cosmology **tracking rules** (divine silence, information tiers, champion operating spec, outlander pull rules, endgame triggers) — companion to the narrative appendix in `character_tracker.md`. Historical DM secrets for Books 1-2 (archived). | Before running combat or encounters |
 | `world_calendar_lore.md` | Calendar system, holidays, seasonal cycle, month names. | When referencing dates or seasons |
 | `fraying_empire_campaign.md` | Book 4 campaign bible — 5 threats, clock management, key NPCs per threat. | When writing campaign-level content |
 | `iron_crown_war_campaign.md` | Book 3 campaign bible. | Reference only (Book 3 complete) |

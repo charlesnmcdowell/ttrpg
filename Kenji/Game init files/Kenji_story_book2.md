@@ -1486,7 +1486,7 @@ Stride northeast. The land changing — rocky bluffs, eastern wind, exhausted ea
 
 Crestfall. A fortress-city carved into granite. Walls forty feet high. A gatehouse built as a kill zone.
 
-Commander Aldric Thorne. Over six feet. Late fifties. Dark brown skin. Grey stubble. A thick grey mustache. Eyes that calculate permanently. Working armor dented at the left shoulder.
+Commander Darrus Thorne. Over six feet. Late fifties. Dark brown skin. Grey stubble. A thick grey mustache. Eyes that calculate permanently. Working armor dented at the left shoulder.
 
 The brass token on his desk. He looks at it.
 

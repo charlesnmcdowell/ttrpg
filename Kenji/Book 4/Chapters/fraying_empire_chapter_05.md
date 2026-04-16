@@ -10,7 +10,7 @@
 
 ---
 
-Ashmere 22 I'd left the ruin south of Millhaven unopened — Bracken's seal, the noon window, Taryn on the wall expecting me to care about old stone before anything else. I didn't go. The letter from the bandit camp and the circle where ten wagons stopped existing both pointed east; the border Seravane drew wasn't where Bracken thought it was. East first. One night to sleep, then the road.
+Ashmere 22 I'd left the ruin south of Millhaven unopened — Bracken's seal, the noon window, Taryn on the wall expecting me to care about old stone before anything else. I didn't go. The letter from the bandit camp and the circle where ten wagons stopped existing both pointed east; the border the Lady drew wasn't where Bracken thought it was. East first. One night to sleep, then the road.
 
 ---
 
@@ -54,7 +54,7 @@ At the center — a post. Wooden. Sharpened. Black cloth at the base. A parchmen
 
 *— the Lady.*
 
-The border isn't where Bracken thinks it is. It's here. Fifteen miles north. Seravane moved it.
+The border isn't where Bracken thinks it is. It's here. Fifteen miles north. The Lady moved it.
 
 ---
 
@@ -62,7 +62,7 @@ The border isn't where Bracken thinks it is. It's here. Fifteen miles north. Ser
 
 ---
 
-Three hours southeast. The road dies. The smell starts. The trees stunt. The mist rises. Seravane's border stakes — every thirty feet, black cloth, another note:
+Three hours southeast. The road dies. The smell starts. The trees stunt. The mist rises. The Lady's border stakes — every thirty feet, black cloth, another note:
 
 *Beyond this line the living serve or the living fall. There is no third option.*
 

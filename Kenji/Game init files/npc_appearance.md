@@ -80,6 +80,33 @@ The exact shifted color varies by partner (see entries below). This is a quiet n
 
 ---
 
+## Vess — Coalition Council Chief / Oversight
+
+**Build:** Tall, full-figured, curvy — wide shoulders balanced by broad hips and long, shapely legs. Defined waist under the coat; built, not soft. Reads *authority at a desk* before she stands up. The Council coat shapes the silhouette on duty; off-duty the proportions are unmistakably feminine and heavy-set in the right places.
+
+**Hair:** Deep black — thick, heavy, wavy, parted to one side with a soft front sweep across the brow. Falls to mid-back / lower-back when down. On duty: sometimes pinned or drawn back off the collar. Off duty: always loose.
+
+**Face:** Defined features — straight nose, full lips (natural faint pout), strong clean jawline, dark arched brows that read *assessing* in a council chamber and *amused* across a kitchen table. Small dangling earrings (standard wear). A controlled half-smile is her resting expression — the one that doesn't tell you what she just filed.
+
+**Eyes:**
+- **Default:** slate blue-grey — cool, direct, long-lashed. The council-chamber default.
+- **Fresh Vigor buff:** vivid teal / cyan-green — luminous, glowing. Reads *lit from inside.*
+- **Mid-stack:** teal blending toward slate — muted but still unusual
+- **Final day:** washed pale — near-white blue-green, near-translucent
+- **Off-stack:** back to slate blue-grey
+
+**Vigor skin-mark (partner-specific tell):** Faint teal-green runic lines trace under the skin while the buff is active — inside the forearms, thighs, across the collarbones, down the lower belly. Brightest day 1. Fades with the stack. Off-stack skin is clean.
+
+**Skin:** Fair, warm undertone. Smooth, no visible scars. Faint pressure-marks where the coat's collar and belt sit by end of a long day.
+
+**Uniform (Council coat — on duty, "never comes off in public"):** Dark navy / black long military-cut coat, double-breasted with gold buttons in twin columns, small rank epaulettes, wide dark leather belt at the waist, turn-back cuffs. Collar brooch — small pendant/star, Coalition emblem. White high-collared shirt underneath. Knee-length matched skirt. Under-layer: black lace lingerie, garter belt, black lace-topped thigh-highs (only Kenji ever sees this).
+
+**Off-duty / intimate register:** Hair fully down. Coat off or unbuttoned and hanging open. The oversight posture drops — the same way Bracken drops the captain posture at her own kitchen table, Vess drops the council-chamber posture at her own desk after hours. The controlled half-smile opens a hair wider. The *filing* look goes off her eyes. When the Vigor mark lights up, she looks lit from inside — not composed, not auditing, not in front of anyone.
+
+**Hands:** Clean, well-kept, ink-faint on the right middle finger from quill work. Nails trimmed short for paperwork. Grip is ledger-steady, not weapon-trained.
+
+---
+
 ## Lady Nyx — Living Lich / Warden-Queen (Pallid March)
 
 *(True name Lady Nyx is a reveal beat — save it. Gated: revealed only to Kenji, and only if Kenji's disposition reads neutral-or-higher at the moment of meeting. In-prose until reveal, use: "the Lych" to enemies (she is always in lich form to enemies — no exceptions), "their Lady" / "my Lady" / "our Lady" to undead enthralled followers (they have no free will — they cannot know her name), and "— the Lady" as her signature on border-proclamations and bound notices. The abbreviation "S." has been retired. See `character_tracker.md` for full alias and form-switch rules.)*

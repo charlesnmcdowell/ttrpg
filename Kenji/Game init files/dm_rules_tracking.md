@@ -1965,6 +1965,64 @@ The world has three fundamental energies. Two are natural. One is not. The DM MU
 4. Does his infrastructure reflect intelligence and engineering skill? If it looks sloppy — fix it.
 5. Can the player respect what he's built even while opposing it? If he's just a monster — add depth.
 
+### 🜁 THE HARROWING — COSMOLOGY TRACKING RULES (DM ONLY — CRITICAL)
+
+> **Narrative lore lives in `character_tracker.md` → "HARROWING — DM-ONLY COSMOLOGY APPENDIX."** This block is the mechanical ruleset only. Do not duplicate lore here.
+
+**What the Harrowing is (one-line refresher):** Four gods — two ascending (Aelith/Creation, Morrun/Death), two dying (Thirrin/Nature in the ember, Solveth/Entropy in Frost Fang). The outcome of the cycle is being decided through mortal proxies. Kenji is one of those proxies. He does not know this. **He must never be told.**
+
+#### Divine silence — extends DIVINE INVOLVEMENT LIMITATIONS (see Circuit Anchor rules)
+- All rules governing Solveth apply to ALL four gods without exception. Aelith does not monologue. Morrun does not warn. Thirrin does not lecture.
+- **Gods never explain the Harrowing to anyone.** Not to champions. Not to priests. Not in dreams. The cosmology is something scholars piece together — always incompletely — through ruins, myth-fragments, and contradictions between faiths.
+- **Visions are symbolic, not literal.** A god may send an image, a feeling, a recurring motif. Never a briefing.
+- **DM self-check before any divine beat:** "Am I using a god to deliver cosmology info the player should discover through the world?" If yes — cut it.
+
+#### Information tiers — who can know what
+| Tier | Audience | What They Access |
+|------|----------|------------------|
+| **Cosmic** | DM ONLY | Full Harrowing structure, four-god layout, dying pair, ending conditions. Never spoken aloud in game. |
+| **Champion** | Named senior champions (the Eldest, Mordecai's counterpart on Death's side, etc.) | Know they are a champion. Know their god's direction. Do NOT know the full roster or the meta-game. Each champion thinks their god is winning. |
+| **Paladin / Cleric / Druid** | PC-encounterable NPCs | Know their god exists, has a will, grants power conditionally. Do not know other gods are "dying" or that a contest is running. |
+| **Priest / Lay worshipper** | Common NPCs | Doctrine, ritual, folklore. May contradict other faiths. Usually wrong about cosmic structure. |
+| **Scholar fragment** | Thessaly, Wynn, Edwyn, Mordecai, Academy researchers | Can assemble partial truth from ruins + old texts. Will always be missing a piece. **Never give a scholar the full picture.** |
+
+#### Champion operating spec (applies to every named champion, mortal or outlander)
+- **Killable.** A champion is a buffed mortal, not an avatar. They bleed. They can lose. The player must not feel the divine thumb on the scale during combat.
+- **Noticeably above peers.** 1–3 levels beyond what their class/role should be, or unusual access (resources, position, lineage).
+- **One signature god-gift ability.** ONE. Used rarely. Thematically aligned with the god. Example: Eldest doesn't fight — she *decides*; Auren's reincarnation memory is his gift; Gorath's video-game frame is Death's gift (lets him treat lives as currency without psychic damage).
+- **One named restraint.** Every champion has a line they will not cross, baked into character. The restraint is what keeps them useful to the god instead of collapsing into pure villainy or pure saint.
+- **The champion does not know they are a champion of a *contest*.** They may know they are favored. They do not know why.
+
+#### Outlander pull rules (the isekai roster)
+- **Creation pulls broadly.** Aelith's bench is wide — Kenji plus the six native-world-fiction homages (Auren/Dren/Jace/Jarek/Zarek/Mira/Carrick). Most outlanders in the world are Creation-pulled. This is deliberate: she needs variety.
+- **Death pulls sparingly.** Morrun has plenty of native destroyers already — he does not need many outlanders. **Gorath is the sole Death-pulled outlander currently on the board.** Do not add more without flagging here.
+- **Two-source template (use rarely):** An outlander's home-world patron + the pulling god. Example: Jarek (Primal Hunter / Ki-Shar) pulled by Aelith. Use this only when the home-world lore adds flavor. Default is single-source (pulling god only).
+- **Lateral gods (Vess, Nyx, Vorathiel, Ki-Shar, etc.):** Provide character flavor, doctrine, and regional politics. They are NOT players in the Harrowing. Do not add lateral gods as champions of cosmic contest. They have their own unrelated agendas.
+- **Mordecai is NOT a champion of any god.** He is a Vess-trained mortal engineer who left the council. Any NPC or text implying otherwise is a retcon error — fix it on sight.
+
+#### Endgame trigger mechanics (Level 40 apotheosis — DM foreshadow only)
+- The Harrowing resolves through what Kenji chooses at apotheosis — not through combat with a god.
+- **Three ending paths** (see character_tracker.md appendix for narrative flavor):
+  - **Life-dominant:** Creation wins the cycle. Paradise that cannot change. Stasis.
+  - **Death-dominant:** Morrun wins. Wasteland. Return to soil without regrowth.
+  - **Balance:** Both dying juniors (Thirrin/Solveth) are restored. Cycle resumes. Kenji steps back.
+- The DM does NOT present this as a menu. The path is determined by accumulated choices: how Kenji treats the ember, Frost Fang, allies, Gorath, and the dying gods themselves across the campaign.
+- **Kenji never fights a senior god.** The contest is won by choice, not combat. Combat with lesser agents of each god is fair game.
+
+#### Champion roster quick-ref (for DM internal use — do NOT recite in narration)
+| God | Role | Senior Champion | Outlander(s) |
+|-----|------|-----------------|--------------|
+| Aelith | Creation (ascending) | The Eldest | Kenji, Auren, Dren, Jace, Jarek (2-src), Zarek, Mira, Carrick |
+| Morrun | Death (ascending) | Lady Nyx (native, archmage-to-lich) | Gorath (sole) |
+| Thirrin | Nature (dying, ember-bound) | — dying god, no active champion | — |
+| Solveth | Entropy (dying, Frost Fang-bound) | — dying god, speaks via Frost Fang only | — |
+
+#### Cross-references
+- Narrative appendix: `character_tracker.md` → HARROWING section
+- Base cosmology (Creation/Entropy/Abyssal energies): this file, THREE COSMIC FORCES above
+- Divine silence rule origin: this file, DIVINE INVOLVEMENT LIMITATIONS (Circuit Anchor, ~line 1559)
+- Outlander roster table: `character_tracker.md` → HARROWING appendix → Outlander Roster
+
 ### Races
 - All standard 5e races exist with racial traits applied automatically
 - Varenholm is predominantly Human with a mixed merchant district

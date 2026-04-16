@@ -485,7 +485,7 @@ No active goals — identity and status unknown. **Investigation flag:** Who Cor
 
 ---
 
-## SIR ALDRIC THE FALLEN — Death Knight, the Lych's Guard
+## SIR CORWYN THE FALLEN — Death Knight, the Lych's Guard
 
 > **One-line character:** A Lawful Good undead paladin serving a Chaotic Evil lich. Both halves of that sentence are fully and simultaneously true, and the tension between them is the character. Every encounter with Corwyn has to play both halves at once — the honor and the horror, the conscience and the chain, the sword that still carries holy fire in the hand of a man who died three days dying.
 
@@ -709,21 +709,23 @@ This is the duality the story has been gesturing at: a creature of light and und
 
 ---
 
-## WARCHIEF GORATH SKULLSPLITTER — Half-Orc Warlord/Strategist
+## WARCHIEF GORATH SKULLSPLITTER — Barbarian Warlord (Outlander)
 
 **Status:** MIA
 **Location:** Sunderplains — Horde encampment (west/northwest)
 **Last Updated:** Ashmere 24 (stub created — not yet encountered)
 
-**Physical:** Seven feet tall. Tusks filed flat (human affectation — infuriates purist orcs). Half-orc (human mother, orc father).
+**Physical:** Seven feet tall. Half-orc frame. Scarred. Covered in trophies taken from people who were alive when he took them.
 **Disposition to Kenji:** Unknown — not yet encountered.
-**Morale Compass:** Lawful Evil — half-orc warlord with filed tusks and a library. Conquest is a campaign plan, not a tantrum. Chain of command, logistics, treaties he will sign and then break on schedule. Opposes Kenji if Kenji is a threat to the Horde's operational tempo.
+**Morale Compass:** Chaotic Evil — murderhobo min-maxer. Treats the world as a video game he is "winning." Conquers populations as loot instances, takes women as sex slaves on a level-up ladder, enslaves surviving civilians as camp labor. Short temper — rages when NPCs "don't behave the way they should." Opposes anyone who interrupts his grind.
 
-**Abilities:** Warlord/Strategist, Level 27. Speaks four languages. Reads. Unified 30 tribes through shame, not bloodlust. Katya-level strategist. Commands 50,000 warriors, war mammoths, troll shock troops, goblin sappers, worg cavalry. Respects strength but respects intelligence more.
+**Abilities:** Barbarian, Level 27. Classic rage, reckless attack, brutal critical. Stacked pure STR/CON — no tactical literacy beyond "hit it until the number drops." Commands 50,000 warriors by terror and the fact that he actually wins fights; loyalty bought with plunder rights. War mammoths, troll shock troops, goblin sappers, worg cavalry — delegated to competent subordinates (Magra, Snikkit, Vrokka) because Gorath does not read maps.
 
-**Important Gear:** Unknown — warchief's arms presumed.
+**Important Gear:** A massive two-handed axe he thinks of as his "main hand weapon slot." Several rings he believes are stat boosts (some actually are). Armor he calls "plus-fours."
 
-**Personality:** Furious. Smart. Right. Raised between two worlds that both rejected him. Would prefer a treaty to a battle. The most dangerous thing about him is that he's correct — the orcs have been excluded from civilization and he's done asking nicely.
+**Personality:** Entitled, cruel, and unselfconsciously gleeful about it. Thinks of everyone around him as NPCs — kill commands, dialogue trees, quest givers, loot. Uses words like "XP," "quest," and "class" out loud and is confused why nobody else does. Believes he is the protagonist. Rage-flips when the world fails to obey the rules he thinks he is playing by.
+
+**[DM-only — Harrowing lore: outlander. Pulled by Morrun (God of Death) from a world that had video games. Death did not speak to him, does not coach him, does not care about his methods. Death selected him because he was always going to be a destroyer. Morality was not a factor in the selection. Gorath does not know he was pulled. He believes he "isekai'd" and that confirms for him that reality is a game. He is right that it is something, wrong about what. **Dark mirror to Kenji** — both outlanders, both carried by gods, neither knows. Kenji thinks it's real, treats people as people, grows through relationships. Gorath thinks it's a game, treats people as NPCs, grinds levels through violence. When they meet, it reads as two entire theories of what a life IS colliding in combat. Gorath will see a mid-tier "ronin" side character and not understand why the numbers aren't working.]**
 
 ### Active Goals
 
@@ -980,20 +982,26 @@ Last-known states preserved in AI_CONTEXT.md. Promote to full tracker entries on
 - **Senna** — Chaotic Good. War-priestess with a soft spot for the broken. Acts first, apologizes never.
 - **Thessaly** — Lawful Good. Scholar-healer. Opposes harm even when harm is useful.
 - **Vess** — Lawful Good. Coalition intelligence chief. Will bend rules for the mission, not for herself. Currently running the coalition solo, exhausted and angry.
-- **Katya Voss** — Lawful Good. General of the Thornwall. Soldier's morality. Protects her line first.
-- **Mordecai** — Lawful Evil. Canonical LE alongside Vael. Operates inside the Coalition's legal framework to accrue personal power. Court-polite, quietly lethal.
+- **Katya Voss** — Lawful Good. General at Thornkeep (eastern border fortress — bridge between continents). Commands the post-war allied continental defense: 20,000 soldiers across six territories built in five months. Thursdays she portals to Varenholm — nobody asks why. Soldier's morality. Protects her line first. Disposition to Kenji: intimate (earned post-war).
+- **Mordecai** — Lawful Evil. Canonical LE alongside Vael. Former senior of the Vess council in Varenholm; left to build abyss-portal infrastructure (Book 2 architect). In Book 3: infiltrated Vyranth pretending to offer the Emperor Forge-reactivation — the offer was a feint. He never intended to fire it; he told the Emperor he could so the Emperor would have the illusion of choice, then waited in the throne room for Kenji to take the option away. Resolution: "gentleman's understanding" fulfilled, walked away clean. Post-war: vanished. The Dominion still wants his Confluence Lens methodology; the Coalition tolerates/hunts him depending on the week. Torvald says he'll find him eventually. Court-polite, quietly lethal, plays the board for himself within whatever legal framework is currently standing. **[DM: NOT a champion of any god — mortal engineer, standalone arc. See Harrowing appendix "What This Is Not."]**
 - **Vael** — Lawful Evil. The other canonical LE. Legal mind, bureaucratic knife. Never breaks a rule he hasn't already rewritten.
 - **The Eldest** — Lawful Good. She/her. Sovereign of the Deepwood, ten thousand years old. Doesn't fight; she decides. Mother of three daughters (Faelindra, Nimue, Lythara) and one son (Auren). Named Kenji Champion of the Deepwood. **[DM: Creation's senior champion — long-game restraint.]**
 - **Faelindra** — Lawful Good. Eldest daughter of the Eldest. Military commander, ironwood armor, three hundred years of rejected suitors. Intimate with Kenji.
 - **Nimue** — Chaotic Good. Middle daughter of the Eldest. Water affinity. The one Kenji calls "toots." Intimate with Kenji.
 - **Lythara** — Chaotic Good. Youngest daughter of the Eldest. Root/hair affinity. Designed the continental ley restoration network. Intimate with Kenji.
 - **Auren Greyholm** — Lawful Good. Son of the Eldest. Reincarnated king who chose peace the second time. Level 28. **[DM: outlander (Arthur/TBATE homage), pulled by Creation.]**
+- **Queen Lirien — the Deepwood War-Singer** — Lawful Good. Auren's adoptive elven mother. Level 18. Aether-voice: casts through song — healing, buffs, battlefield control, can shatter siege-engine enchantments. Does not know her son was a reincarnated king; only knows he is *her* son and she protects him. Deepwood-based.
+- **Malcus Vyr — the Deposed Emperor** — Lawful Evil (conviction-based, not cruelty-based). Level 30 war-mage. Former Emperor of Vyranthos; wore the Iron Crown until Day 49 of the Iron Crown War, when he walked off the throne with Faelindra's hand. Alive. The Crown came off voluntarily after the Crown had drunk from him for two days — he arrived at surrender on his own terms just before the swords came out. Post-war location: unknown. Not imprisoned (surrender terms honored). Probably in Vyranth or its outskirts, stripped of imperial authority but not executed. Genuinely believed unifying the continent under Vyranthos's system would save more lives than independent territories; he was wrong with conviction, not malice. **[DM: If he reappears in Book 4+, he's a defeated idealist, not a cackling returnee. Possible threads: reform advocate, wandering scholar, or target of vengeance from Dominion hardliners who blame him for the surrender. Not currently a threat clock.]**
 - **Della** — Lawful Good. Village-keeper type, Thornfield-adjacent.
 - **Lena** — Chaotic Good. Runaway-turned-fixer. Helps the wrong people first.
 - **Torvald** — Lawful Good. Dwarven veteran, reliable as stone.
 - **Brenn** — Lawful Good. Farm-hand-turned-militia. Protects what's his.
-- **Carrick Hale** — Lawful Evil. Merchant-prince, Coalition-adjacent, plays the board for himself within the rules.
-- **Dren** — Chaotic Evil. Ex-smuggler, snake with a grin. Loyalty is an auction. *(FLAG: this entry conflicts with Dren Valdric — Lord of Ironholt / Master Enchanter in AI_CONTEXT and npc_appearance.md, who has friendly +30 disposition with Kenji. Reconcile: two different Drens, or one miswritten entry?)*
+- **Carrick Hale** — Lawful Evil. Merchant-prince, Coalition-adjacent, plays the board for himself within the rules. Opened a restaurant in Stormhaven that sells "cheeseburgers." **[DM: outlander (Carl/DCC homage), pulled by Aelith.]**
+- **Jarek Windmere** — Lawful Good. Ranger/hunter-king, "the perception-god." Apex Bow, Apex Perception, Predator's Mark. Based in the Deepwood. **[DM: outlander (Jake/Primal Hunter homage). Two-source: champion of the God of Poison in his home world (Malefic Viper homage); pulled here by Aelith. Poison kit is luggage; current patronage is Creation. God of Poison is a lateral god not involved in the Harrowing.]**
+- **Zarek Ashborne** — Chaotic Good. Mountain lord of Cinderpeak, wields Worldsplitter. Comes when Kenji calls — because it's fun. **[DM: outlander (Zac/Defiance of the Fall homage), pulled by Aelith.]**
+- **Jace Corwin** — Lawful Good. Based in Brackenmoor. **[DM: outlander (Jason/HWFWM homage), pulled by Aelith.]**
+- **Mira Ashveil** — Lawful Good. Status: **alive, whereabouts unknown**. Healer-tank hybrid (punches to heal, heals to punch). Level 27. Was at Ironholt during the Book 3 siege — per campaign bible she was punching Dominion soldiers off the wall when Kenji's relief force arrived. After the siege broke she vanished before formal coalition contact (true to form — she's the paramedic who beat recruiters unconscious and walked into the wilderness the last time someone tried to hire her). **Current goal: find a merc company or independent army to sign on with on her own terms** — she won't be absorbed into a national military, won't take orders from lords, but will fight for pay and principle with a unit that lets her do the job. Last rumored heading northwest — chasing the same "Wizard King heals by touch" story that brought her east in the first place. **[DM: outlander (Ilea/Azarinth Healer homage), pulled by Aelith. Available for Book 4 reintroduction — merc hire, tavern encounter, or she finds Kenji-in-disguise and doesn't recognize him.]**
+- **Dren Valdric** — Lawful Good. Lord of Ironholt / Master Enchanter, +30 disposition to Kenji. **[DM: outlander (Richter/The Land homage), pulled by Aelith.]**
 
 ### Book 1-2 Squad Leaders & Wardbreakers (referenced in AI_CONTEXT squads / npc_appearance.md)
 
@@ -1044,7 +1052,7 @@ Each of the four women carrying Kenji's children has a distinct arrival trigger 
 6. **Death-binder parasitism** — Feeding on the Lych's 4th seam. She doesn't know. Kenji doesn't know whether to tell her, sever it, or use the information as leverage.
 7. **Border-signature standardized — "the Lady".** The Chapter 5 caravan-circle parchment (previously signed "— S.") and all subsequent border proclamations now sign *"— the Lady."* The abbreviation "S." has been retired in-setting. The signature aligns the public-facing notice with what her followers already call her, which means Kenji will one day realize the signature and his enemy are the same person — the recognition is the scene, not a puzzle reveal.
 8. **Book 1-2 stub characters** — Sera, Pip, Garrett, Elara, Aldwin, Maren all have minimal entries. Expand when their threads reactivate.
-9. **Distant NPCs not yet promoted** — Senna, Thessaly, Vess, Katya, Mordecai, Vael, Lythara, Nimue, Faelindra, The Eldest, Auren Greyholm, Della, Lena, Torvald, Brenn, Carrick Hale, Dren. Their last-known states are in AI_CONTEXT.md and can be promoted to full tracker entries on reactivation.
+9. **Distant NPCs not yet promoted** — Senna, Thessaly, Vess, Katya, Mordecai, Vael, Lythara, Nimue, Faelindra, The Eldest, Auren Greyholm, Queen Lirien, Malcus Vyr, Della, Lena, Torvald, Brenn, Carrick Hale, Jarek Windmere, Zarek Ashborne, Jace Corwin, Mira Ashveil, Dren Valdric. Their last-known states are in AI_CONTEXT.md or inline above and can be promoted to full tracker entries on reactivation.
 
 ---
 
@@ -1102,6 +1110,74 @@ Kenji at 2,209,800 / 2,500,000 EXP. 290,200 to Level 40. Five threats provide th
 
 ---
 
+## HARROWING — DM-ONLY COSMOLOGY APPENDIX
+
+The metaplot behind the campaign. **Kenji never learns this cleanly.** Scholars (Thess, Wynn, Edwyn, Mordecai) may piece fragments over time. Gods never monologue.
+
+### The Four Gods
+
+- **Aelith** — God of Creation (senior). *"The First Maker."*
+- **Morrun** — God of Death (senior). *"The Last Door."*
+- **Thirrin** — God of Nature (junior, dying — carried in Kenji's ember). *"The Greenkeeper."*
+- **Solveth** — God of Entropy (junior, dying — lives in Frost Fang). *"The Unraveler."* (Canon from Book 1.)
+
+Forces given sentience. No moral alignment. Thirrin + Solveth = the junior pair, the living-world cycle in miniature. Both are dying; both recover as Kenji grows; both are restored at his Level 40 apotheosis.
+
+### How the Game Is Played
+
+- Gods do not intervene directly.
+- They recruit **champions** — native mortals or pulled outlanders — as chess pieces.
+- Champions act; gods watch.
+- Pulling an outlander is **rare and deliberate.** Death pulls sparingly (plenty of native destroyers); Creation cultivates a broader bench because its strategy is slower.
+- The Harrowing never becomes common knowledge. If a character learns fragments, they stay fragments.
+
+### Champion Roster (reveals, not inventions)
+
+- **Aelith's senior champion:** The Eldest. Native. 10,000 years. Long-game restraint.
+- **Morrun's senior champion:** Lady Nyx. Native. Archmage-to-lich.
+- **Aelith's active outlander piece:** Kenji — also carrying Thirrin and Solveth. Does not know.
+
+### Outlander Roster
+
+- **Creation-pulled:** Kenji, Auren Greyholm, Jarek Windmere (two-source: Poison home-world + Aelith pull), Carrick Hale, Zarek Ashborne, Jace Corwin, Mira Ashveil, Dren Valdric.
+- **Death-pulled:** Gorath Skullsplitter. The single isekai'd Death piece. Murderhobo min-maxer; morality irrelevant to the pull.
+
+**Transported Protagonists — canonical table (self-contained reference):**
+
+| Name | Home-World Homage | Level | Current Location | Pulled By |
+|------|-------------------|-------|------------------|-----------|
+| Kenji | — (original PC) | 20 (→40 at apotheosis) | Varenholm / mobile | Aelith |
+| Auren Greyholm | Arthur / TBATE | 28 | Silvandris | Aelith |
+| Mira Ashveil | Ilea / Azarinth Healer | 27 | Unknown | Aelith |
+| Zarek Ashborne | Zac / Defiance of the Fall | 26 | Cinderpeak | Aelith |
+| Dren Valdric | Richter / The Land | 25 | Ironholt | Aelith |
+| Jarek Windmere | Jake / Primal Hunter | 24 | Deepwood | Aelith (two-source: Ki-Shar / Poison home-world) |
+| Carrick Hale | Carl / Dungeon Crawler Carl | 23 | Stormhaven (restaurant) | Aelith |
+| Jace Corwin | Jason / He Who Fights With Monsters | 22 | Brackenmoor | Aelith |
+| Gorath Skullsplitter | (generic murderhobo-barbarian) | 27 | Mobile / conquest-driven | Morrun |
+
+Pull direction is DM-only. Outlanders do not know they were pulled by a specific god — most assume random transport.
+
+### Lateral Gods (exist, not on the Harrowing board)
+
+- **Ki-Shar** — Lateral god of the poison-touched / predator-path (Primal Hunter / Malefic Viper homage). Jarek Windmere's home-world patron. No stake in the Harrowing. Provides character flavor, not cosmic-political involvement.
+- **Vess, Nyx (as doctrine), Vorathiel** — lateral / regional gods already established in world canon. None play the Harrowing.
+- Other lateral gods may sponsor characters similarly without affecting the cycle.
+
+### Three Possible Endings (at Kenji's Apotheosis, Lv 40)
+
+- **Life-dominant:** Aelith + Thirrin win. Paradise-stasis. Nothing dies, nothing changes, the cycle stops. Ending the cycle is itself a loss.
+- **Death-dominant:** Morrun + Solveth win. Wasteland. Everything unravels faster than it makes. Extinction curve.
+- **Balance:** Cycle preserved. The two dying juniors fully restored. Mortals continue imperfectly. The seniors return to equilibrium.
+
+### What This Is Not
+
+- **Mordecai is not anyone's champion.** Standalone mortal-mage arc (senior Varenholm council → Abyss portals → Book 3 Vyranth infiltration with a Forge-reactivation feint, waiting in the throne room for Kenji). Abyss portals are what Lawful Evil mortal mages do, not a cosmic signal.
+- **The Fathom is not a god.** Cosmic-horror framing retired. Treat as a local apocalyptic prison-breach, not a Harrowing faction.
+- **Kenji never fights gods.** The story does not go there. Apotheosis restores the juniors; it does not cage the seniors.
+
+---
+
 *Last full consolidation: Ashmere 24, 1247 AR. Source: Book 4 Chapters 1-8 prose + Book 1/2 story summaries. Full rewrite to restore content after mount-cache truncation incident; all renames (Seravane→Lady Nyx, Captain Voss→Captain Halvard, Brekka→Vrokka, Brother Kael→Brother Morvak) applied; Morale Compass attribute added to every entry.*
 
 *Patch pass (Ashmere 24, 1247 AR, later): rename drift fixed in `fraying_empire_campaign.md`, `npc_appearance.md`, `AI_CONTEXT.md`, `world_calendar_lore.md`. Added Book 1-2 squad leaders and Wardbreakers (Kael, Brindle, Renna Thorne, Ryn, Finch, Varn) to Distant NPCs. Removed redundant "Alignment:" field from Lady Nyx entry. Flagged Dren entry collision (tracker vs AI_CONTEXT / npc_appearance) for reconciliation.*
@@ -1115,3 +1191,25 @@ Kenji at 2,209,800 / 2,500,000 EXP. 290,200 to Level 40. Five threats provide th
 *Alignment reference expanded (Ashmere 24, 1247 AR, follow-up): Morale Compass descriptors for Lawful Good and Lawful Evil enriched with their *narrative-danger* readings. LG gets the "walking on eggshells" framing — the code that makes them honorable is the same code that makes them an enemy the instant the law you crossed is theirs; their kindness is real and their sword is also real and both answer to the same sovereign. LE gets the "trustworthiness paradox" framing — more predictable than CE because they will not cross the laws of the land, making a signed deal actually binding. You can negotiate with Lawful Evil. You cannot negotiate with Chaotic Evil. This sharpens the threat taxonomy and explains why Corwyn (LG warped) is simultaneously the most honorable and the most dangerous follower in the Lady's army.*
 
 *Border-signature retirement (Ashmere 24, 1247 AR, same pass): "S." abbreviation dropped in-setting. All border-proclamations and bound notices now sign "— the Lady." Applied in `character_tracker.md`, `npc_appearance.md`, `fraying_empire_campaign.md`, `AI_CONTEXT.md`, `Kenji_story_book4.md` line 1214, and `Book 4/Chapters/fraying_empire_chapter_05.md` line 55. The signature now matches the follower-voice alias, which makes the recognition-beat (Kenji realizing the caravan-circle Lady and the Lych are one person) a narrative scene rather than an alphabet puzzle.*
+
+*Harrowing cosmology & pre-play gap closure (Ashmere 24, 1247 AR, final pass):*
+*(1) Harrowing appendix added to this file (four gods — Aelith/Morrun/Thirrin/Solveth, champion roster, outlander roster with self-contained protagonists table, three endings, explicit exclusions for Mordecai-as-champion and Fathom-as-god).*
+*(2) Harrowing tracking rules added to `dm_rules_tracking.md` as companion block (divine silence extension, information tiers, champion operating spec, outlander pull rules, endgame triggers, quick-ref roster with Lady Nyx locked as Morrun's senior champion).*
+*(3) Dren collision resolved: stray "Dren — Chaotic Evil ex-smuggler" entry was a miswrite; deleted. Canonical Dren is Dren Valdric, Lord of Ironholt / Master Enchanter, LG, +30 disposition, Creation-pulled outlander (Richter/The Land homage). Collision flag on his entry removed.*
+*(4) Queen Lirien entry added to Distant NPCs (Auren's adoptive elven mother, Level 18, aether-voice war-singer, Deepwood-based).*
+*(5) Mordecai snapshot expanded with Book 3 arc: Vess-senior-on-Varenholm-council → left to build abyss portals → nearly aided Vyranthos Emperor against elves → post-war neutral non-combatant, Dominion wants his Confluence Lens methodology. Explicit DM tag: NOT a champion of any god.*
+*(6) Aldric naming collisions resolved: Book 2 Commander Aldric Thorne → Commander Darrus Thorne (Crestfall, `Kenji_story_book2.md` ln 1489); Iron Crown reincarnated king Aldric Greyholm → Auren Greyholm throughout `iron_crown_war_campaign.md` (matches canonical tracker name from Book 3). Aldric Voss (Book 1 Duskfen blacksmith) intact — he was the original and stays.*
+*(7) README updated to mention Harrowing content in both tracker file descriptions.*
+
+*Book 3 validation pass (Ashmere 24, 1247 AR, later): re-derived end-of-Book-3 state from the 13 chapters and the final epilogue; compared against tracker entries.*
+*(A) Katya Voss location corrected: "General of the Thornwall" → "General at Thornkeep (eastern border)". Post-war role expanded: 20,000 soldiers across six territories, Thornkeep as bridge fortress, Thursdays in Varenholm. Disposition to Kenji: intimate.*
+*(B) Mira Ashveil expanded: status locked as alive-whereabouts-unknown. Was at the Ironholt siege per campaign bible; after relief, fled before formal coalition contact (true to her "punch recruiters, walk into wilderness" precedent). Active goal: find a merc company or independent army on her own terms — last rumored heading northwest chasing the Wizard-King-heals-by-touch rumor. Available for Book 4 reintroduction.*
+*(C) Mordecai Book 3 framing polished: "nearly aided Vyranthos Emperor" → infiltrated Vyranth with a Forge-reactivation feint, never intended to fire it, waited in the throne room for Kenji. "Gentleman's understanding" fulfilled; post-war vanished; Torvald hunting.*
+*(D) Malcus Vyr entry added to Distant NPCs: Level 30 war-mage, deposed Emperor of Vyranthos, alive, walked off the throne voluntarily on Day 49, current location unknown. Lawful Evil conviction-based (wrong with conviction, not cruelty). Not a threat clock.*
+*(E) Distant NPCs roster updated: added Queen Lirien, Malcus Vyr, Jarek Windmere, Zarek Ashborne, Jace Corwin, Mira Ashveil to the not-yet-promoted list (the Book 3 transported/Deepwood figures were missing).*
+*(F) Campaign bible `iron_crown_war_campaign.md` has stale bible-era names (Dren Vauren, Carrick Dunne, Jarek Thornveil, Emperor Varek Sol, Blade Prince Saelen, Archon Thessik/Velnis) and a cut Archon spy character. Flagged but not touched — file is marked "Reference only (Book 3 complete)" in README. Prose-era names are canonical; tracker already reflects them.*
+
+*Book 4 validation pass (Ashmere 24, 1247 AR, later): re-derived end-of-current-prose state from Chapters 1–5; compared against tracker entries. 17 major spot-checks matched.*
+*(G) Seravane → "the Lady" scrub completed in Book 4 Ch5 prose: three stale narrative references (lines 13, 57, 65 of `fraying_empire_chapter_05.md` — and their mirrors in the built `Kenji_story_book4.md` lines 1172, 1216, 1224) converted from "Seravane" to "the Lady." All three references are in Kenji's POV and tied to her border claims (the border she drew / moved / her border stakes), which she signs `— the Lady.` so the signature-name framing fits his current awareness. Kenji still has not connected the border-signing Lady to the Coalition's Lych — the reveal beat remains gated. True name "Lady Nyx" remains locked behind the in-setting condition (disposition neutral-or-higher at first meeting with Kenji). Alias rule now enforced project-wide: allies/followers → "the Lady," enemies → "the Lych," true name → reveal-gated to Kenji only.*
+*(H) Vess appearance entry added to `npc_appearance.md` (placed after Sera, before Lady Nyx). Covers build (tall, full-figured, curvy), hair (deep black wavy to mid-back), face (defined, controlled half-smile), eye-shift scale (slate blue-grey → teal/cyan-green on Vigor), Vigor skin-mark (teal-green runic lines under forearms/thighs/collarbones/lower belly), the Council coat uniform details, and off-duty/intimate register. Kenji-only: under-layer of black lace + garter + lace-top thigh-highs beneath the coat.*
+*(I) Minor tracker refinements flagged but not applied: "Source: Book 4 Chapters 1-8 prose" in line 1181 is stale (only Chapters 1–5 exist); Taryn's `Location:` field is forward-projected to the Ashenmere City road but prose ends with her still in the Millhaven street holding the commission letter; TEILEN entry is a DM-prepared NPC with no prose appearance yet. Left as-is pending direction — none are load-bearing.*
