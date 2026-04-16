@@ -254,6 +254,8 @@ I drop into the chair across from her desk. Hands behind my head. One leg crosse
 
 "You're sitting in Professor Harwick's chair. He's been dead for six years. Nobody sits there." A beat. "Until now, apparently."
 
+"Harwick's been dead six years and this chair's still on the roster. When does the furniture get reassigned — or does he still need the office upstairs?"
+
 "I need gear before the expedition. Enchanted underclothes and a mask."
 
 The vault has standard faculty field gear. The resonance weave is rare — she's seen one piece in twelve years. The mask is a different story.
@@ -322,15 +324,17 @@ Edwyn beside her. Crossbow. He sees Frost Fang. His hand twitches once. "Kenji."
 
 ---
 
-"Interesting. The sword is a summoned weapon. I belong to the priest?"
+"I'm robbing priests of their swords now?"
 
-"The sword is yours. The trust Edwyn built with Solveth through that blade was his. You pulled both without asking. This morning it vanished from his hands mid-sentence while he was talking to a second-year who wanted to know if entropy would eat her soul."
+I grin.
 
-"I don't know what's in the Delve. Threw a rock once and I know it's big. When do we leave?"
+Sera doesn't rise to it. "The sword is yours. The trust Edwyn built with Solveth through that blade was his. You pulled both without asking. This morning it vanished from his hands mid-sentence while he was talking to a second-year who wanted to know if entropy would eat her soul."
 
-She asked about trust. She got logistics.
+"Tell her Solveth says it depends on her diet."
 
-"Now. Two hours on foot. Normal pace — the researchers don't have magical boots." She turns to the specialists. "Names. Specialties."
+Edwyn makes a sound that's almost a laugh — smothered before it lands. "If entropy ate souls, I'd have lost mine to paperwork years ago."
+
+Sera exhales through her teeth. "Forget it. Now. Two hours on foot. Normal pace — the researchers don't have magical boots." She turns to the specialists. "Names. Specialties."
 
 "Voss Callen. Structural enchantment analysis. Thirty years." He notices my expression. "No relation."
 

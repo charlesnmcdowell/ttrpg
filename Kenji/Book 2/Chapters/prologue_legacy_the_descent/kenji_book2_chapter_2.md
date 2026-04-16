@@ -12,7 +12,7 @@ I drop into the chair across from her desk. Hands behind my head. One leg crosse
 
 "You're sitting in Professor Harwick's chair. He's been dead for six years. Nobody sits there." A beat. "Until now, apparently."
 
-[kenji should make a wise crack about her worried about a dead man's chair, and why hasn't it been reassigned?]
+"Harwick's been dead six years and this chair's still on the roster. When does the furniture get reassigned — or does he still need the office upstairs?"
 
 "I need gear before the expedition. Enchanted underclothes and a mask."
 
@@ -77,21 +77,18 @@ Edwyn beside her. Crossbow. He sees Frost Fang. His hand twitches once. "Kenji."
 "You're late. You smell like ozone. And you have a sword that belongs to our priest. Is there anything I should know, or are we doing the thing where I find out mid-expedition?"
 
 ---
-[check grammar of below content]
 
-"I'm robbing priest of their swords?"
-Kenji grins.
+"I'm robbing priests of their swords now?"
 
-Serra annoyed,
-"The sword is yours. The trust Edwyn built with Solveth through that blade was his. You pulled both without asking. This morning it vanished from his hands mid-sentence while he was talking to a second-year who wanted to know if entropy would eat her soul."
+I grin.
 
-"Tell her solveth says it depends on her diet."
+Sera doesn't rise to it. "The sword is yours. The trust Edwyn built with Solveth through that blade was his. You pulled both without asking. This morning it vanished from his hands mid-sentence while he was talking to a second-year who wanted to know if entropy would eat her soul."
 
-[add comment from edward]
-Edward chuckles.
+"Tell her Solveth says it depends on her diet."
 
+Edwyn makes a sound that's almost a laugh — smothered before it lands. "If entropy ate souls, I'd have lost mine to paperwork years ago."
 
-sera fuming, "Sigh, forget it. Now. Two hours on foot. Normal pace — the researchers don't have magical boots." She turns to the specialists. "Names. Specialties."
+Sera exhales through her teeth. "Forget it. Now. Two hours on foot. Normal pace — the researchers don't have magical boots." She turns to the specialists. "Names. Specialties."
 
 "Voss Callen. Structural enchantment analysis. Thirty years." He notices my expression. "No relation."
 

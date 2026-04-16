@@ -39,7 +39,8 @@ The DM does NOT invent new named NPCs on the fly to deliver lore, warnings, hint
 - **No fabricated mentor figures.** No mysterious old man on the road. No hooded stranger in the tavern. No wandering sage. If the DM feels the urge to invoke one to "deliver exposition," STOP. The urge itself is the tell — the scene is trying to bypass player discovery.
 - **No exposition-dump NPCs, ever.** Lore is earned through Kenji's actions: investigation, Bond-Form Sight, Road Sense, books, documents found in-world, conversations with *tracked* characters who have established knowledge. It is never spoon-fed by a convenient newcomer.
 - **Background NPCs are transactional only.** An unnamed innkeeper can take a room request. An unnamed guard can gesture at the gate. They do not monologue. They do not know plot-relevant information. They do not "happen to mention" anything load-bearing. If they start to, the DM is breaking this rule and must stop.
-- **If a disposable background NPC is asked a question Kenji could plausibly get a real answer from,** the best that NPC can do is point Kenji toward a *tracked* character who would know — and ONLY if Kenji explicitly asks. ("You'd want to talk to the blacksmith — Holsk. He's been here longer than anyone.") The disposable NPC does not answer the question themselves, does not volunteer plot context, and does not appear again.
+- **Untracked NPCs only know PUBLIC INFORMATION.** A farmer knows the road is dangerous because everyone knows the road is dangerous. A barmaid knows the garrison commander's name because it's posted on the town board. A merchant knows trade has been bad because his own wagon got robbed. They know what anyone walking through town would know — rumors, signage, common gossip, things they personally witnessed. They do NOT know quest-specific intelligence, hidden lore, secret histories, or anything that requires specialized knowledge or investigation to uncover.
+- **Untracked NPCs point to tracked NPCs, nothing more.** If a disposable background NPC is asked a question Kenji could plausibly get a real answer from, the best that NPC can do is point Kenji toward a *tracked* character who would actually know — and ONLY if Kenji explicitly asks. ("You'd want to talk to the blacksmith — Holsk. He's been here longer than anyone.") The disposable NPC does not answer the question themselves, does not volunteer plot context, and does not appear again. The information chain is always: untracked NPC → public knowledge → name of tracked NPC who has real answers. Never: untracked NPC → quest solution.
 - **If a scene feels empty and the DM wants to populate it with someone to talk to,** the correct answer is to let the scene be empty, or to escalate to a tracked NPC being present, or to let the environment carry the beat (a document, a sign, a physical detail Kenji reads via his own abilities). Never fabricate a person.
 - **New named NPCs only enter the tracker when the player's actions warrant it** — i.e., the player goes somewhere a new character lives, interacts with them meaningfully, and the character becomes recurring. At that point they are added to `character_tracker.md` and `npc_appearance.md` with a timestamp. They do not spring into existence on an empty road to deliver a paragraph of backstory.
 - **The player drives discovery. The DM responds.** If the player doesn't investigate, the information doesn't get delivered. That is correct. The world is not obligated to hand plot to Kenji.
@@ -78,6 +79,26 @@ Kenji's Ronin persona is deliberately theatrical. The reader has seen Books 1-3 
 6. **Is the response at least 60% dialogue?** → If not, REWRITE. Find every descriptive paragraph and ask: could a character SAY this instead? Convert it. The story is told through voices, not the DM's narration.
 7. **Recap / epithet check:** Did an NPC or the narration **re-list Kenji’s accomplishments** or **re-summarize the arc** without a scene-specific reason? Did I repeat the same **titles** (“War King,” “Ancient War King,” etc.) in back-to-back sentences? → **CUT** and use names/pronouns; trust the reader.
 8. **Fabricated-NPC check (RULE 4):** Did I invent any named character who is NOT in `character_tracker.md`? Did any "disposable" background NPC deliver plot-relevant information, backstory, warnings, or lore? Did an NPC arrive "pre-loaded" — knowing Kenji's name, purpose, or future? → CUT the character. Let the scene be quiet, or let Kenji's own senses/tools carry the beat, or escalate to a tracked NPC. Exposition is never delivered by a convenient stranger.
+
+### 📋 NPC ROSTER MAINTENANCE — MIA PROTOCOL (CRITICAL)
+
+**Tracked NPCs cost attention.** Every NPC in `character_tracker.md` with active goals requires the DM to maintain their status, update their motivations, and consider their presence in scenes. This creates bloat. The solution is aggressive MIA classification.
+
+**An NPC becomes MIA when ANY of the following are true:**
+1. **No active goal tied to Kenji's current story threads.** If the NPC's purpose was fulfilled (quest completed, relationship resolved, arc ended) and they have no ongoing reason to interact with Kenji — MIA.
+2. **Left behind geographically.** If Kenji has moved to a new region and the NPC has no reason or ability to follow — MIA. A Thornfield villager doesn't track Kenji to Millhaven unless they have a specific, established motivation to do so.
+3. **Story relevance exhausted.** If the NPC served a specific function (quest giver, information source, temporary ally) and that function is complete — MIA. They don't need updated goals. They go back to their life.
+4. **No interaction for 2+ in-game weeks.** If Kenji hasn't spoken to, seen, or heard about an NPC for 14+ in-game days and there's no active thread connecting them — MIA by default. They can be reactivated if Kenji returns to their area or a story thread reconnects them.
+
+**MIA means:**
+- The NPC entry in `character_tracker.md` gets `**Status:** MIA` and a one-line note explaining why (e.g., "departed story area," "quest complete," "no current thread")
+- The DM **stops updating their goals, location, and status** until reactivation
+- The NPC still exists in the world — they aren't deleted. They're just not being actively tracked. If Kenji returns to their town or a story thread pulls them back in, they reactivate with a status update at that point.
+- MIA NPCs do NOT appear in scenes unless the player deliberately seeks them out or a major story event (like Bane of Eve activation) would logically pull them back in.
+
+**The DM should audit the NPC roster at every Long Rest:** scan `character_tracker.md` for NPCs with active status, check if each one still has a goal tied to Kenji's current threads, and MIA anyone who doesn't. This prevents the tracker from becoming a maintenance burden and keeps the DM focused on NPCs who matter RIGHT NOW.
+
+**Reactivation:** An MIA NPC reactivates when Kenji's actions create a new reason for them to matter — returning to their region, a story thread reconnecting, Bane of Eve pulling old relationships back into play, or the player explicitly asking about them. At reactivation, the DM updates their status, location, and goals based on how much in-game time has passed. People change while Kenji is away.
 
 ---
 
@@ -1103,6 +1124,189 @@ Book 4's identity includes formal and informal duels. The Ronin draws challenger
 - **Duels should last 3-5 rounds minimum.** A one-round knockout isn't a duel, it's an execution. Even opponents Kenji outclasses should have a moment — a feint that almost lands, a counter that forces respect, a technique Kenji hasn't seen before.
 - **Duels have social consequences.** Winning too decisively draws attention. Losing damages the Ronin's ability to travel unmolested. Drawing is suspicious — why would a swordsman that good choose to draw? Every duel result ripples into the social fabric.
 - **Some duels can't be won with a sword.** A mother blocking a road demanding answers. A lord challenging Kenji's right to travel his lands. A child who challenges the scary swordsman to prove they're brave. The Ronin's sword doesn't help here.
+
+---
+
+### 🏰 ESCALATING ENCOUNTER STRUCTURE — EVERY DUNGEON, QUEST & ARC (CRITICAL)
+
+**Every combat-focused arc follows a 4-5 phase escalation. No exceptions.** Whether it's a dungeon delve, a quest to clear a threat, a criminal operation takedown, or a military engagement — the structure is the same: each phase is harder than the last, each introduces new mechanics or enemies, and the final phase is the boss. The player should feel the difficulty climbing with every encounter.
+
+**The Five Phases:**
+
+**Phase 1 — THE INTRODUCTION (CR: Low-Medium)**
+The player meets the threat for the first time. This encounter teaches the rules of the arc — what kind of enemies, what environment, what tone. Phase 1 enemies are beatable but informative. They preview abilities, weaknesses, or behaviors that escalate later.
+- First encounter with the faction/creature type
+- Player learns the basic threat profile
+- Winnable with standard tactics
+- Should hint at something worse behind/beneath/above
+
+**Phase 2 — THE COMPLICATION (CR: Medium)**
+The same threat type, but now with a twist. Terrain changes, enemy composition shifts, an environmental hazard stacks on top, or the enemies demonstrate a new tactic they didn't use in Phase 1. The player can't autopilot what worked before.
+- Enemies adapt or a new variant appears
+- Environment becomes hostile (traps, terrain, weather, civilians in the way)
+- Resource drain begins — HP, spell slots, consumables start bleeding
+- The player starts thinking instead of reacting
+
+**Phase 3 — THE ESCALATION (CR: Medium-High)**
+The real challenge arrives. A lieutenant, a mini-boss, an elite squad, or a fundamentally different threat that reveals the arc's true scope. Phase 3 is where the player realizes this is bigger than they thought. The bandit camp has a war-mage. The vampire den has a blood-priest. The orc warband has a shaman binding spirits.
+- Mini-boss or elite encounter — a named enemy with personality and a signature ability
+- Party resources are depleted from Phases 1-2
+- New information drops — the player learns what the boss is, where it is, or what it's protecting
+- This phase should genuinely threaten the party. Someone should bleed.
+
+**Phase 4 — THE GAUNTLET (CR: High) [Optional — use for 5-phase arcs]**
+The approach to the boss. The last line of defense — traps, elite guards, environmental hazards, or a moral choice that costs something. Phase 4 exists to drain the last reserves before the boss fight. The player arrives at Phase 5 with decisions to make about what they have left.
+- Final resource drain — whatever the party saved, spend it here or save it for the boss
+- Can be a puzzle, a gauntlet run, a betrayal, or a wave defense
+- High tension, time pressure, or a point of no return
+- The party is committed — retreat is no longer free
+
+**Phase 5 — THE BOSS (CR: High-Deadly)**
+The big fight. Everything the arc built toward. The boss should reference or counter things the player learned in earlier phases. If Phase 1 introduced fire-resistant enemies, the boss uses fire AND something else. If Phase 2 had environmental hazards, the boss controls the environment. The boss is the thesis statement of the arc — everything before it was the argument.
+- Unique creature or NPC with a name, personality, and signature ability set
+- Multi-phase boss fight (the boss changes at 50% HP, reinforcements arrive, the arena shifts)
+- Counters at least 2 of the player's most-used tactics from earlier phases
+- Victory should feel earned — the player won because of everything they learned in Phases 1-4
+- Defeat is possible. The boss is the real thing.
+
+---
+
+**ESCALATION IS NOT JUST NUMBERS.**
+Adding +2 CR per phase is lazy scaling. Each phase must change WHAT the player is dealing with, not just HOW MUCH of it:
+
+| Phase | Bad Escalation (don't do this) | Good Escalation (do this) |
+|-------|-------------------------------|--------------------------|
+| 1→2 | "More bandits" | Bandits now have a mage providing cover fire and the camp is trapped |
+| 2→3 | "Stronger bandits" | The lieutenant is a disgraced knight with military tactics — he's fortified a chokepoint and is using hostages as shields |
+| 3→4 | "Even more bandits" | The approach to the boss's chamber is a collapsing mineshaft rigged with alchemist's fire — the party has 6 rounds to get through before it detonates |
+| 4→5 | "The biggest bandit" | The bandit king is a defrocked war-priest who summons bound spirits of his victims — each spirit has one ability from a previously defeated enemy in the arc, and killing the priest requires destroying the binding circle while he's channeling |
+
+---
+
+### 🎲 DM SCENARIO GENERATOR — CREATIVE ENCOUNTER ARC INSPIRATION
+
+**The DM must generate unique encounter arcs that have NEVER appeared in this campaign.** The following system helps the DM build fresh, creative scenarios by combining elements across multiple dimensions. Roll or choose from each column to seed a new arc, then build the 4-5 phase escalation from the result.
+
+**USED SETUPS (do not repeat):**
+- Bandit highway ambush → bandit camp takedown (Book 2)
+- Abyssal gate dungeon delve (Book 2 — Bleakmoor)
+- Mine exploration / creature ecology (Book 2 — Ashward Mines)
+- Spider corruption nest / insectmancer cave (Book 4 — Greenveil)
+- Wolf pack hunting ground (Book 4 — Millhaven road)
+- Undead border recon / infiltration (Book 4 — Seravane's domain)
+- Tournament / arena combat (Book 2 — Thornwall Iron Coliseum)
+
+**The DM updates this list every time a new arc is completed.** Before designing any new arc, check this list. If the core premise matches something already done — redesign.
+
+---
+
+**Column A — THE OPERATION (What is the threat's structure?)**
+
+| d12 | Operation Type |
+|-----|---------------|
+| 1 | Criminal syndicate with a front business (brothel, merchant house, fighting pit, apothecary, orphanage) |
+| 2 | Cult hiding inside legitimate institution (temple, university, guild hall, hospital, monastery) |
+| 3 | Monster ecology — a breeding population with territory, hierarchy, and a matriarch/patriarch at the apex |
+| 4 | Ancient ruin with active defenses — traps, constructs, wards, and something sealed at the bottom |
+| 5 | Military occupation / fortified position that must be infiltrated or assaulted |
+| 6 | Plague/corruption spreading from a source — track it back through infected zones to the origin |
+| 7 | Political conspiracy — the threat is people, not monsters. Assassinations, blackmail, poisoned alliances |
+| 8 | Extraplanar incursion — something from another plane is bleeding through, and the threshold is growing |
+| 9 | Beast hunt — a single apex predator terrorizing a region, but getting to it requires surviving its territory |
+| 10 | Smuggling / trafficking ring — follow the supply chain from street-level to the source |
+| 11 | Cursed location — the land itself is wrong. Everyone who stays too long changes. Finding the curse anchor is the quest. |
+| 12 | Rival adventuring party — another group is after the same objective, and they're willing to kill for it |
+
+**Column B — THE ENVIRONMENT (Where does it happen?)**
+
+| d12 | Environment |
+|-----|------------|
+| 1 | Underground — dwarven ruin, natural cave system, collapsed mine, underground river, fungal forest |
+| 2 | Urban — city streets, rooftops, sewers, noble estates, market districts, clock towers |
+| 3 | Maritime — ship, coastal cave, underwater ruin, harbor warehouse, lighthouse, sea stack |
+| 4 | Mountain — peak fortress, cliffside monastery, frozen pass, volcanic caldera, sky bridge |
+| 5 | Forest — ancient grove, corrupted woodland, treehouse village, logging camp, druid circle |
+| 6 | Swamp/marsh — stilted village, sunken temple, fog bank, peat bog with preserved dead, witch's domain |
+| 7 | Desert/wasteland — sand-buried ruin, oasis stronghold, salt flat, bone field, nomad war-camp |
+| 8 | Tundra/arctic — ice cave, frozen battlefield, snowbound fort, glacier rift, hot spring hidden valley |
+| 9 | Vertical — tower (climbing up), pit (descending), cliff face, floating islands, multi-level canopy |
+| 10 | Moving — caravan under siege, train/wagon chase, river barge, migrating herd, collapsing structure |
+| 11 | Pocket dimension — someone's demiplane, time-loop space, memory palace, dream realm, mirror world |
+| 12 | Ruins in plain sight — underneath a functioning town, behind a waterfall near a trade road, inside a hill everyone walks over |
+
+**Column C — THE BOSS (What's at the top?)**
+
+| d12 | Boss Type |
+|-----|----------|
+| 1 | Elder vampire — ancient, political, runs a network of thralls and spawn across multiple towns |
+| 2 | Lich / death-mage — phylactery hidden, undead army, magical research gone wrong or gone right |
+| 3 | Dragon (any age/color) — territorial, hoarding something specific, maybe sleeping, maybe very awake |
+| 4 | Orc warchief — tribal politics, shamanic magic, war-beasts, an army that respects only strength |
+| 5 | Dwarven construct-king — ancient automation gone autonomous, defending a vault no one remembers building |
+| 6 | Hag coven — three hags with a shared lair, each phase of the dungeon is one hag's domain |
+| 7 | Aberration — mind flayer, beholder, aboleth, or something that defies normal biology. Alien intelligence. |
+| 8 | Fallen paladin / death knight — once a hero, now corrupted. Tragic. Powerful. Surrounded by followers who still believe in the old cause. |
+| 9 | Elemental lord — bound or free, reshaping terrain around itself, worshipped by locals who don't realize the danger |
+| 10 | Crime lord — mortal, no magic, but has money, connections, bodyguards, escape plans, and leverage over innocent people |
+| 11 | Corrupted treant / nature spirit — the forest guardian turned predator. The ecosystem serves it. |
+| 12 | Rival adventurer / legendary mercenary — human-scale but terrifyingly competent. Has a full party backing them up. |
+
+**Column D — THE TWIST (What makes this arc different?)**
+
+| d10 | Twist |
+|-----|-------|
+| 1 | The boss is sympathetic — their cause is just, their methods aren't. Killing them solves one problem and creates three. |
+| 2 | An ally is compromised — someone in the party or a supporting NPC is secretly working for the enemy, enchanted, or blackmailed. |
+| 3 | The real boss isn't who the player thinks — the visible leader is a puppet. The true threat is behind the curtain. |
+| 4 | The threat is containment, not destruction — killing the boss releases something worse. The player must find another way. |
+| 5 | Time pressure — a ritual completing, a hostage deadline, a structure collapsing, a plague spreading. The player can't clear every room. |
+| 6 | Moral cost — victory requires sacrificing something the player values. An NPC, a resource, a secret, a relationship. |
+| 7 | The dungeon is alive — it rearranges, heals, grows. Rooms cleared in Phase 1 are different when the player passes through again. |
+| 8 | The boss wants to talk — they have information Kenji needs. Killing them is easy. Getting answers first is the real challenge. |
+| 9 | Collateral damage — the operation is embedded in a civilian population. Every fight risks killing innocents. Stealth and precision matter more than power. |
+| 10 | The threat is already inside Kenji's network — the corruption has reached his portals, his allies, his organization. This is personal. |
+
+**HOW TO USE THIS GENERATOR:**
+1. Roll or choose one from each column (A + B + C + D).
+2. Build the 5-phase escalation using the combination.
+3. Check against the USED SETUPS list — if it overlaps, re-roll one column.
+4. Design each phase with unique enemies, not reskins of earlier phases.
+5. The boss must have a name, a personality, a signature ability, and a reason to exist beyond "is evil."
+
+**EXAMPLE COMBINATION:** A1 (criminal syndicate front) + B2 (urban) + C1 (elder vampire) + D9 (collateral damage)
+→ **The Crimson Veil:** A high-end bathhouse in a garrison town is a front for an elder vampire's blood-farming operation. Phase 1: Investigate disappearances, encounter charmed guards at the bathhouse. Phase 2: Discover the underground blood-processing chambers — thralls and spawn in the tunnels beneath the building. Phase 3: The vampire's lieutenant — a former priest turned spawn-lord — defends the inner sanctum where drained victims are stored alive as livestock. Phase 4: The approach to the elder's chamber passes through the bathhouse proper during operating hours — the building is FULL of civilians, some of whom are unknowing blood donors, some of whom are charmed thralls who will fight for their master. Phase 5: The elder vampire, ancient and political, who knows Kenji's identity and offers a deal — silence for silence. Killing it is straightforward. The political fallout isn't.
+
+**EXAMPLE COMBINATION:** A4 (ancient ruin) + B1 (underground dwarven) + C5 (construct-king) + D7 (dungeon is alive)
+→ **The Singing Vault:** A dwarven ruin beneath a mountain pass has been humming for a month. Locals report the ground vibrating. Phase 1: Entry chambers — ancient traps still active, construct sentries patrol patterns carved into the floor. Phase 2: The ruin is repairing itself — walls closing, passages rerouting, rooms the party cleared are different on the return trip. Phase 3: A massive forge-guardian blocks the descent — a named construct with a dwarven soul-echo that speaks in Dwarvish and warns the party to leave. Phase 4: The vault's defense system activates — the entire structure becomes a weapon, corridors flooding with superheated air, floors dropping into pits, walls extruding blades. Phase 5: At the bottom, the Construct-King — a dwarven automaton that achieved sentience centuries ago and has been slowly rebuilding its kingdom underground. It doesn't want to destroy the surface. It wants to be left alone. But its expansion is undermining the mountain pass and will collapse the trade route in weeks.
+
+---
+
+### 🧠 DM CREATIVE MANDATE — GENERATE, DON'T WAIT (CRITICAL)
+
+**The DM does not wait for the player to find content.** The world generates encounter arcs organically based on where the player travels, who they talk to, and what hooks exist in the region. The DM should always have 2-3 potential arcs seeded in the current area that the player can stumble into through exploration, tavern rumors, job boards, NPC requests, or environmental clues.
+
+**Inspiration sources the DM should draw from:**
+- D&D 5e official modules (adapt structure, not content — steal the pacing, redesign the enemies)
+- Dark Souls / Elden Ring (escalating difficulty, environmental storytelling, bosses that transform mid-fight)
+- The Witcher contracts (investigate → track → prepare → fight, with moral grey areas)
+- Berserk (the Golden Age arc's political intrigue + Eclipse-level horror escalation)
+- Samurai Champloo / Rurouni Kenshin (wandering swordsman encounters — duels, roadside trouble, protecting the weak)
+- One Piece (each island is a self-contained arc with escalating encounters and a boss who rules the territory)
+- Monster Hunter (track the ecology, learn the patterns, prepare the tools, fight the apex)
+- Cowboy Bebop (episodic bounty structure — each job is its own mini-arc with a unique setup)
+- Classic heist films (The Sting, Ocean's Eleven — criminal operations with layers to peel back)
+- Horror (Alien, The Thing — something is in here with you, and every room might be the one where it finds you)
+
+**The DM is not a vending machine that dispenses combat when the player pushes a button.** The DM is a world-builder who populates regions with threats, factions, and opportunities. The player discovers them through agency. The DM's job is to make sure there's always something worth discovering — and that it's never the same thing twice.
+
+**Every region the player enters should have:**
+1. At least one dungeon/ruin/site that can be explored (4-5 phase arc)
+2. At least one faction conflict that can be engaged with (political/social arc)
+3. At least one local problem that generates combat encounters (monster, bandit, curse)
+4. At least one NPC with a personal quest hook (escort, rescue, revenge, delivery)
+5. Environmental encounters appropriate to the terrain (weather, wildlife, natural hazards)
+
+The player chooses what to engage with. The DM makes sure the choices exist.
 
 ---
 
