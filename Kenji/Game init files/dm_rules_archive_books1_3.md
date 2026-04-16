@@ -353,7 +353,7 @@ EXP accumulates beyond 20 for future campaigns addressing the divinity question.
 - **Pip** — Ley-dependent wizard. Level 1. Near Kenji = powerful.
 - **Ryn** — Scroll savant. Level 1. Needs live casting exposure.
 - **Brindle** — guild operations. Pragmatic.
-- **Kael (guild)** — guild fighter. Leading Delve salvage. Loyal.
+- **Kael** — guild fighter. Leading Delve salvage. Loyal.
 
 ### Unresolved Threads
 - Vael — alive, powerless, desperate

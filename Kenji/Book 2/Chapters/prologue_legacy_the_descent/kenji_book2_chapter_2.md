@@ -12,6 +12,8 @@ I drop into the chair across from her desk. Hands behind my head. One leg crosse
 
 "You're sitting in Professor Harwick's chair. He's been dead for six years. Nobody sits there." A beat. "Until now, apparently."
 
+[kenji should make a wise crack about her worried about a dead man's chair, and why hasn't it been reassigned?]
+
 "I need gear before the expedition. Enchanted underclothes and a mask."
 
 The vault has standard faculty field gear. The resonance weave is rare — she's seen one piece in twelve years. The mask is a different story.
@@ -35,12 +37,6 @@ The Chancellor's Veil on the desk. Black cloth. Silver threads. Moonstone.
 "I need the best gear possible if I'm going into danger on behalf of the Academy."
 
 "That's not a case. That's a sentence. This is the reason a man hid what he was for a decade. The detection ward makes the wearer invisible to mage-sight. Tell me why that shouldn't concern me."
-
-"Did she just compare me to combat mages... I surpassed them my first day."
-
-The laugh bounces off stone. Elara doesn't join it.
-
-"You did. And that's exactly why I need a better answer."
 
 "It's your call, Elara. If the answer is no, I respect it."
 
@@ -81,16 +77,21 @@ Edwyn beside her. Crossbow. He sees Frost Fang. His hand twitches once. "Kenji."
 "You're late. You smell like ozone. And you have a sword that belongs to our priest. Is there anything I should know, or are we doing the thing where I find out mid-expedition?"
 
 ---
+[check grammar of below content]
 
-"Interesting. The sword is a summoned weapon. I belong to the priest?"
+"I'm robbing priest of their swords?"
+Kenji grins.
 
+Serra annoyed,
 "The sword is yours. The trust Edwyn built with Solveth through that blade was his. You pulled both without asking. This morning it vanished from his hands mid-sentence while he was talking to a second-year who wanted to know if entropy would eat her soul."
 
-"I don't know what's in the Delve. Threw a rock once and I know it's big. When do we leave?"
+"Tell her solveth says it depends on her diet."
 
-She asked about trust. She got logistics.
+[add comment from edward]
+Edward chuckles.
 
-"Now. Two hours on foot. Normal pace — the researchers don't have magical boots." She turns to the specialists. "Names. Specialties."
+
+sera fuming, "Sigh, forget it. Now. Two hours on foot. Normal pace — the researchers don't have magical boots." She turns to the specialists. "Names. Specialties."
 
 "Voss Callen. Structural enchantment analysis. Thirty years." He notices my expression. "No relation."
 
@@ -110,10 +111,9 @@ Useful for a man who can't read anything.
 
 "Fine. Their choice."
 
-"I've already said they'll be in a party I'm leading..."
+I grin, "fo sho" .
 
-The grin.
-
+Sera rolls her eyes,
 "Two squads. Mine holds the entrance. Yours goes deep with the researchers." She holds up a finger. "The researchers stay with you. Non-negotiable."
 
 I snap a salute. Sera's eye twitches.

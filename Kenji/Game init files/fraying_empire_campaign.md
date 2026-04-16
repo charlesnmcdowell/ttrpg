@@ -131,7 +131,7 @@ Ashenmere is 30% converted. The Harbor Master is a thrall. Two of the five city 
 - **Sevren** — Doppelganger spymaster, Level 20. Runs the replacement network. Has seventeen faces memorized. Paranoid. Brilliant. The only person who knows the full roster of who's been replaced. If captured alive, he's an intelligence goldmine. He'll try to become Kenji's face if cornered.
 - **Captain Halvard** — (no relation to Katya Voss) — Ashenmere garrison, Level 14. Recently turned. He doesn't want to be a vampire. He was bitten three weeks ago and he's fighting the hunger. If Kenji can cure him (creation energy? Bloom Purge? Alchemical?), Halvard becomes an inside man. If not, the hunger wins within a month.
 - **Old Tam** — Goblin fence, Level 6. Runs a pawn shop in the Ashenmere docks. Not Court. Not coalition. Just a goblin who buys and sells and notices things. He knows which officials stopped eating garlic. He knows which nobles stopped attending day-court. He knows the temple priest ran because "the altar bled." He'll sell this information for the right price.
-- **Brother Morvak** — (not Kenji's Kael) — Orc priest of the Sunfather, Level 12. Runs a mission in the dock district for orc dockworkers and mixed-race poor. His wards have been keeping the vampires out of his block. He's noticed the pattern. He's been documenting it. He's terrified and he's right.
+- **Brother Morvak** — Orc priest of the Sunfather, Level 12. Runs a mission in the dock district for orc dockworkers and mixed-race poor. His wards have been keeping the vampires out of his block. He's noticed the pattern. He's been documenting it. He's terrified and he's right.
 
 ---
 

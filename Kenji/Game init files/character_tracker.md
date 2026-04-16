@@ -741,7 +741,7 @@ This is the duality the story has been gesturing at: a creature of light and und
 **Location:** Ashenmere — dock district mission (eastern coast)
 **Last Updated:** Ashmere 24 (stub created — not yet encountered)
 
-**Physical:** Orc. (Not Kenji's Kael from earlier books.)
+**Physical:** Orc.
 **Disposition to Kenji:** Unknown — not yet encountered.
 **Morale Compass:** Lawful Good — orc priest of the Sunfather. Runs the mission for dockworkers and the mixed-race poor, wards his block against the vampires, documents the infiltration because someone has to. Opposes Kenji if Kenji endangers his people or asks him to stop witnessing.
 
@@ -1054,12 +1054,12 @@ Last-known states preserved in AI_CONTEXT.md. Promote to full tracker entries on
 - **Jarek Windmere** — Lawful Good. Ranger/hunter-king, "the perception-god." Apex Bow, Apex Perception, Predator's Mark. Based in the Deepwood. **[DM: outlander (Jake/Primal Hunter homage). Two-source: champion of the God of Poison in his home world (Malefic Viper homage); pulled here by Aelith. Poison kit is luggage; current patronage is Creation. God of Poison is a lateral god not involved in the Harrowing.]**
 - **Zarek Ashborne** — Chaotic Good. Mountain lord of Cinderpeak, wields Worldsplitter. Comes when Kenji calls — because it's fun. **[DM: outlander (Zac/Defiance of the Fall homage), pulled by Aelith.]**
 - **Jace Corwin** — Lawful Good. Based in Brackenmoor. **[DM: outlander (Jason/HWFWM homage), pulled by Aelith.]**
-- **Mira Ashveil** — Lawful Good. Status: **alive, whereabouts unknown**. Healer-tank hybrid (punches to heal, heals to punch). Level 27. Was at Ironholt during the Book 3 siege — per campaign bible she was punching Dominion soldiers off the wall when Kenji's relief force arrived. After the siege broke she vanished before formal coalition contact (true to form — she's the paramedic who beat recruiters unconscious and walked into the wilderness the last time someone tried to hire her). **Current goal: find a merc company or independent army to sign on with on her own terms** — she won't be absorbed into a national military, won't take orders from lords, but will fight for pay and principle with a unit that lets her do the job. Last rumored heading northwest — chasing the same "Wizard King heals by touch" story that brought her east in the first place. **[DM: outlander (Ilea/Azarinth Healer homage), pulled by Aelith. Available for Book 4 reintroduction — merc hire, tavern encounter, or she finds Kenji-in-disguise and doesn't recognize him.]**
+- **Jessica Windveil** — Lawful Good. Status: **alive, whereabouts unknown**. Healer-tank hybrid (punches to heal, heals to punch). Level 27. Was at Ironholt during the Book 3 siege — per campaign bible she was punching Dominion soldiers off the wall when Kenji's relief force arrived. After the siege broke she vanished before formal coalition contact (true to form — she's the paramedic who beat recruiters unconscious and walked into the wilderness the last time someone tried to hire her). **Current goal: find a merc company or independent army to sign on with on her own terms** — she won't be absorbed into a national military, won't take orders from lords, but will fight for pay and principle with a unit that lets her do the job. Last rumored heading northwest — chasing the same "Wizard King heals by touch" story that brought her east in the first place. **[DM: outlander (Ilea/Azarinth Healer homage), pulled by Aelith. Available for Book 4 reintroduction — merc hire, tavern encounter, or she finds Kenji-in-disguise and doesn't recognize him.]**
 - **Dren Valdric** — Lawful Good. Lord of Ironholt / Master Enchanter, +30 disposition to Kenji. **[DM: outlander (Richter/The Land homage), pulled by Aelith.]**
 
 ### Book 1-2 Squad Leaders & Wardbreakers (referenced in AI_CONTEXT squads / npc_appearance.md)
 
-- **Kael** (Kenji's Kael, not Brother Morvak) — Lawful Good. Squad leader, Eastern territories patrol. Reports to Katya. Post-war patrol duty. Loyal to the chain, loyal to Kenji. Opposes Kenji only if Kenji undermines Katya's command or the patrol's mission.
+- **Kael** — Lawful Good. Squad leader, Eastern territories patrol. Reports to Katya. Post-war patrol duty. Loyal to the chain, loyal to Kenji. Opposes Kenji only if Kenji undermines Katya's command or the patrol's mission.
 - **Brindle** — Lawful Good. Squad leader, trade route security on the Broken Antler → Ironholt circuit. Reports to Katya. Caravan escort commander. Standards-first, merchants-second.
 - **Renna Thorne** — Lawful Good. Thornkeep garrison commander on the southern Ashenveil border. Jostin's commander. Logging undead activity with increasing alarm. Opposes Kenji if Kenji endangers Thornkeep or the border watch's credibility.
 - **Ryn** — Chaotic Good. Spell Thief / Scout. Book 1-2 Wardbreaker. Takes what the enemy won't miss, leaves what the party can't live without. Operates inside the law only when it's cheaper.
@@ -1106,7 +1106,7 @@ Each of the four women carrying Kenji's children has a distinct arrival trigger 
 6. **Death-binder parasitism** — Feeding on the Lych's 4th seam. She doesn't know. Kenji doesn't know whether to tell her, sever it, or use the information as leverage.
 7. **Border-signature standardized — "the Lady".** The Chapter 5 caravan-circle parchment (previously signed "— S.") and all subsequent border proclamations now sign *"— the Lady."* The abbreviation "S." has been retired in-setting. The signature aligns the public-facing notice with what her followers already call her, which means Kenji will one day realize the signature and his enemy are the same person — the recognition is the scene, not a puzzle reveal.
 8. **Book 1-2 stub characters** — Sera, Pip, Garrett, Elara, Aldwin, Maren all have minimal entries. Expand when their threads reactivate.
-9. **Distant NPCs not yet promoted** — Senna, Thessaly, Vess, Katya, Mordecai, Vael, Lythara, Nimue, Faelindra, The Eldest, Auren Greyholm, Queen Lirien, Malcus Vyr, Della, Lena, Torvald, Brenn, Carrick Hale, Jarek Windmere, Zarek Ashborne, Jace Corwin, Mira Ashveil, Dren Valdric. Their last-known states are in AI_CONTEXT.md or inline above and can be promoted to full tracker entries on reactivation.
+9. **Distant NPCs not yet promoted** — Senna, Thessaly, Vess, Katya, Mordecai, Vael, Lythara, Nimue, Faelindra, The Eldest, Auren Greyholm, Queen Lirien, Malcus Vyr, Della, Lena, Torvald, Brenn, Carrick Hale, Jarek Windmere, Zarek Ashborne, Jace Corwin, Jessica Windveil, Dren Valdric. Their last-known states are in AI_CONTEXT.md or inline above and can be promoted to full tracker entries on reactivation.
 
 ---
 
@@ -1193,7 +1193,7 @@ Forces given sentience. No moral alignment. Thirrin + Solveth = the junior pair,
 
 ### Outlander Roster
 
-- **Creation-pulled:** Kenji, Auren Greyholm, Jarek Windmere (two-source: Poison home-world + Aelith pull), Carrick Hale, Zarek Ashborne, Jace Corwin, Mira Ashveil, Dren Valdric.
+- **Creation-pulled:** Kenji, Auren Greyholm, Jarek Windmere (two-source: Poison home-world + Aelith pull), Carrick Hale, Zarek Ashborne, Jace Corwin, Jessica Windveil, Dren Valdric.
 - **Death-pulled:** Gorath Skullsplitter. The single isekai'd Death piece. Murderhobo min-maxer; morality irrelevant to the pull.
 
 **Transported Protagonists — canonical table (self-contained reference):**
@@ -1202,7 +1202,7 @@ Forces given sentience. No moral alignment. Thirrin + Solveth = the junior pair,
 |------|-------------------|-------|------------------|-----------|
 | Kenji | — (original PC) | 20 (→40 at apotheosis) | Varenholm / mobile | Aelith |
 | Auren Greyholm | Arthur / TBATE | 28 | Silvandris | Aelith |
-| Mira Ashveil | Ilea / Azarinth Healer | 27 | Unknown | Aelith |
+| Jessica Windveil | Ilea / Azarinth Healer | 27 | Unknown | Aelith |
 | Zarek Ashborne | Zac / Defiance of the Fall | 26 | Cinderpeak | Aelith |
 | Dren Valdric | Richter / The Land | 25 | Ironholt | Aelith |
 | Jarek Windmere | Jake / Primal Hunter | 24 | Deepwood | Aelith (two-source: Ki-Shar / Poison home-world) |
@@ -1232,7 +1232,7 @@ Pull direction is DM-only. Outlanders do not know they were pulled by a specific
 
 ---
 
-*Last full consolidation: Ashmere 24, 1247 AR. Source: Book 4 Chapters 1-8 prose + Book 1/2 story summaries. Full rewrite to restore content after mount-cache truncation incident; all renames (Seravane→Lady Nyx, Captain Voss→Captain Halvard, Brekka→Vrokka, Brother Kael→Brother Morvak) applied; Morale Compass attribute added to every entry.*
+*Last full consolidation: Ashmere 24, 1247 AR. Source: Book 4 Chapters 1-8 prose + Book 1/2 story summaries. Full rewrite to restore content after mount-cache truncation incident; all renames (Seravane→Lady Nyx, Captain Voss→Captain Halvard, Brekka→Vrokka) applied; Morale Compass attribute added to every entry.*
 
 *Patch pass (Ashmere 24, 1247 AR, later): rename drift fixed in `fraying_empire_campaign.md`, `npc_appearance.md`, `AI_CONTEXT.md`, `world_calendar_lore.md`. Added Book 1-2 squad leaders and Wardbreakers (Kael, Brindle, Renna Thorne, Ryn, Finch, Varn) to Distant NPCs. Removed redundant "Alignment:" field from Lady Nyx entry. Flagged Dren entry collision (tracker vs AI_CONTEXT / npc_appearance) for reconciliation.*
 
@@ -1257,10 +1257,10 @@ Pull direction is DM-only. Outlanders do not know they were pulled by a specific
 
 *Book 3 validation pass (Ashmere 24, 1247 AR, later): re-derived end-of-Book-3 state from the 13 chapters and the final epilogue; compared against tracker entries.*
 *(A) Katya Voss location corrected: "General of the Thornwall" → "General at Thornkeep (eastern border)". Post-war role expanded: 20,000 soldiers across six territories, Thornkeep as bridge fortress, Thursdays in Varenholm. Disposition to Kenji: intimate.*
-*(B) Mira Ashveil expanded: status locked as alive-whereabouts-unknown. Was at the Ironholt siege per campaign bible; after relief, fled before formal coalition contact (true to her "punch recruiters, walk into wilderness" precedent). Active goal: find a merc company or independent army on her own terms — last rumored heading northwest chasing the Wizard-King-heals-by-touch rumor. Available for Book 4 reintroduction.*
+*(B) Jessica Windveil expanded: status locked as alive-whereabouts-unknown. Was at the Ironholt siege per campaign bible; after relief, fled before formal coalition contact (true to her "punch recruiters, walk into wilderness" precedent). Active goal: find a merc company or independent army on her own terms — last rumored heading northwest chasing the Wizard-King-heals-by-touch rumor. Available for Book 4 reintroduction.*
 *(C) Mordecai Book 3 framing polished: "nearly aided Vyranthos Emperor" → infiltrated Vyranth with a Forge-reactivation feint, never intended to fire it, waited in the throne room for Kenji. "Gentleman's understanding" fulfilled; post-war vanished; Torvald hunting.*
 *(D) Malcus Vyr entry added to Distant NPCs: Level 30 war-mage, deposed Emperor of Vyranthos, alive, walked off the throne voluntarily on Day 49, current location unknown. Lawful Evil conviction-based (wrong with conviction, not cruelty). Not a threat clock.*
-*(E) Distant NPCs roster updated: added Queen Lirien, Malcus Vyr, Jarek Windmere, Zarek Ashborne, Jace Corwin, Mira Ashveil to the not-yet-promoted list (the Book 3 transported/Deepwood figures were missing).*
+*(E) Distant NPCs roster updated: added Queen Lirien, Malcus Vyr, Jarek Windmere, Zarek Ashborne, Jace Corwin, Jessica Windveil to the not-yet-promoted list (the Book 3 transported/Deepwood figures were missing).*
 *(F) Campaign bible `iron_crown_war_campaign.md` has stale bible-era names (Dren Vauren, Carrick Dunne, Jarek Thornveil, Emperor Varek Sol, Blade Prince Saelen, Archon Thessik/Velnis) and a cut Archon spy character. Flagged but not touched — file is marked "Reference only (Book 3 complete)" in README. Prose-era names are canonical; tracker already reflects them.*
 
 *Book 4 validation pass (Ashmere 24, 1247 AR, later): re-derived end-of-current-prose state from Chapters 1–5; compared against tracker entries. 17 major spot-checks matched.*

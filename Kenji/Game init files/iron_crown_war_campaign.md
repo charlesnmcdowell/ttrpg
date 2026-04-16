@@ -239,9 +239,9 @@ Already established in canon. Builder-lord. Place of Power. Kex the drake. Ironh
 
 **Key abilities:**
 - **Sentinel Reconstruction** — Passive. Regenerates 30 HP/round. Cannot be reduced below 1 HP by any single hit (overkill protection).
-- **Ash Infusion** — All unarmed strikes deal additional 2d6 fire + heal Mira for 50% of total damage dealt. Stacks with Reconstruction.
-- **Reversal** — Reaction. When struck in melee, Mira can immediately strike back (1 unarmed attack) before damage resolves. The counter-hit heals her for the amount she's about to take. If the heal exceeds the damage, she takes zero.
-- **Destruction Sphere** — Action. 20ft radius centered on self. 6d10 fire+force. DEX DC 20. Mira takes no damage. 1/short rest.
+- **Ash Infusion** — All unarmed strikes deal additional 2d6 fire + heal Jessica for 50% of total damage dealt. Stacks with Reconstruction.
+- **Reversal** — Reaction. When struck in melee, Jessica can immediately strike back (1 unarmed attack) before damage resolves. The counter-hit heals her for the amount she's about to take. If the heal exceeds the damage, she takes zero.
+- **Destruction Sphere** — Action. 20ft radius centered on self. 6d10 fire+force. DEX DC 20. Jessica takes no damage. 1/short rest.
 - **Absolute Restoration** — Action. Touch. Heals 100 HP. Removes all conditions, diseases, curses. Regrows lost limbs. 1/long rest.
 - **Pain Threshold** — Passive. Immune to stun, unconscious, and incapacitation effects. She fights until her HP hits 0. Nothing short of death stops her.
 
@@ -384,7 +384,7 @@ Levels 21-40 are **EPIC TIER**. EXP requirements double per level. New perk ever
 ### ACT 1 — THE SIEGE (Levels 20-24)
 - Break the Ironholt siege
 - Secure the Thornkeep border fortress
-- Recruit the first transported allies (Mira at Ironholt, Jace at Brackenmoor)
+- Recruit the first transported allies (Jessica at Ironholt, Jace at Brackenmoor)
 - Establish eastern portal network
 - First encounter with General Katya Voss
 

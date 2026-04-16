@@ -1,5 +1,5 @@
 # ⚔️ DM RULES — REFEREE HANDBOOK
-# The Gilt Conspiracy / The Sundered Gate — DM Behavior, Philosophy & Active Tracking
+# Book 4: Fraying Empire (The Ronin Arc) — DM Behavior, Philosophy & Active Tracking
 > **This file is the DM's referee guide.** Rules for HOW to DM, not raw mechanical data.
 > Mechanical tables (HP, EXP, conditions, spell slots, stat blocks) live in `ttrpg_game_engine.py`.
 > Character stats and abilities live in `character_tracker.md`. Live state in `kenji_state.json`.
@@ -1060,6 +1060,150 @@ The world is not a queue. Problems don't form a polite line and wait their turn.
 
 ---
 
+## ⚔️ BOOK 4 ENCOUNTER DIRECTIVES — THE RONIN ARC (CRITICAL)
+
+> **Context shift:** The encounter rules above were written for ArchMagus Kenji — buff towers, Cyclone artillery, Emberfrost combos, 270ft range. All of that is **suppressed** in Ronin mode. Book 4 encounters must be designed for the Ronin kit: iaido kendo (nodachi, single devastating draw-cuts), Wind Step (25mph travel, 80mph sprint, wuxia movement), basic leyline wizard magic (no arcane signature), Smoke-Clone (3/day), and passive Soul Nexus abilities. The core tension of Book 4 is that Kenji is **choosing** to be weaker — and the world doesn't care about his reasons.
+
+### 🗡️ RONIN ENCOUNTER DESIGN PHILOSOPHY
+
+**The Ronin is a wandering swordsman, not a god.**
+Encounters in Book 4 should feel like a masterless samurai walking through a dangerous world. Kenji is powerful — but visibly, he looks like a skilled fighter with a big sword and fast feet. Encounters should test what the Ronin CAN do, not what the ArchMagus won't do.
+
+**Design encounters that challenge:**
+1. **Iaido kendo** — creatures that punish committed draw-cuts (armored, regenerating, swarm-type that doesn't care about single-target damage), enemies that bait the draw and punish the recovery window, dueling opponents with their own signature styles
+2. **Wind Step** — area denial that makes running meaningless (webs, gravity fields, tracking scent, burrowers that follow vibrations), enemies faster than 25mph base speed, enclosed spaces where wuxia cloud-running is impossible
+3. **Basic leyline magic** — antimagic zones in dwarven ruins, creatures resistant to unaspected magic, situations where arcane detection would solve the problem instantly but leyline magic can't reach
+4. **The suppression itself** — encounters where the Ronin kit genuinely isn't enough and Kenji must choose: break cover or accept the loss. A party member about to die. A seal he can't break without the ember. A creature only vulnerability is to creation energy. These moments are the heart of Book 4.
+
+**Party play changes the math:**
+Kenji is no longer soloing. He'll form temporary parties with new allies — fighters, rangers, clerics, rogues — people he meets on the road. This changes encounter design:
+- **Design for 3-5 person parties.** Scale CR, numbers, and tactics accordingly. Kenji is the best swordsman in the group but not the only fighter.
+- **Give party members roles Kenji can't fill as the Ronin.** Healing, ranged magic, trapfinding, divine magic, heavy armor tanking. Kenji needs these people — that's why he partners up.
+- **Threaten the party, not just Kenji.** If the squishy healer is about to die and only an ArchMagus-tier intervention saves them, that's a real choice. Let party members get hurt, captured, poisoned, cursed. Kenji's allies are his vulnerability.
+- **Party members have opinions.** They question plans, suggest alternatives, panic, argue. They aren't extensions of Kenji's will. They're people with their own combat instincts and survival priorities.
+
+**Dungeon and event encounter pacing:**
+- **3-4 encounters before a boss.** Every dungeon, ruin, or event arc should build through escalating encounters before the climactic fight. The first encounter teaches the threat. The second complicates it. The third drains resources. The boss tests everything.
+- **Each encounter in a sequence must be mechanically distinct.** Don't repeat the same enemy type four times. Encounter 1 might be a trap. Encounter 2 is scouts. Encounter 3 is an environmental hazard with enemies. The boss combines elements from all three.
+- **Resource drain matters more for the Ronin.** Without the buff tower and Frost Fang lifesteal, Kenji's resources are finite. HP lost stays lost without a healer. Smoke-Clones used are gone. Designing pre-boss encounters that cost resources creates genuine tension for the boss fight.
+
+### 🗡️ DUEL SYSTEM — BOOK 4 SIGNATURE COMBAT
+
+Book 4's identity includes formal and informal duels. The Ronin draws challengers — people who see a swordsman and want to test themselves. Duels are a recurring encounter type alongside dungeons and exploration.
+
+**Duel triggers:**
+- Bane of Eve challengers (see below)
+- Bard-tale seekers who heard rumors of the undefeated swordsman
+- Local fighters defending reputation or territory
+- Tournament brackets in garrison towns
+- Honor disputes with NPCs Kenji offends or impresses
+
+**Duel design rules:**
+- **Every duel opponent has a unique fighting style.** No two duelists fight the same way. A spear-monk who uses reach and footwork. A shield-maiden who absorbs the draw-cut and punishes the recovery. A dual-wielder who overwhelms iaido's single-strike tempo. A grappler who takes the fight to the ground where the nodachi is useless.
+- **Duels should last 3-5 rounds minimum.** A one-round knockout isn't a duel, it's an execution. Even opponents Kenji outclasses should have a moment — a feint that almost lands, a counter that forces respect, a technique Kenji hasn't seen before.
+- **Duels have social consequences.** Winning too decisively draws attention. Losing damages the Ronin's ability to travel unmolested. Drawing is suspicious — why would a swordsman that good choose to draw? Every duel result ripples into the social fabric.
+- **Some duels can't be won with a sword.** A mother blocking a road demanding answers. A lord challenging Kenji's right to travel his lands. A child who challenges the scary swordsman to prove they're brave. The Ronin's sword doesn't help here.
+
+---
+
+### 💀 BANE OF EVE — ENCOUNTER GENERATION SYSTEM (DORMANT — ACTIVATES ON IDENTITY EXPOSURE)
+
+> **Trigger:** The moment Kenji's identity or location is confirmed publicly, Bane of Eve activates. Until then, this system is dormant but the DM should pre-design challengers so activation hits immediately with content ready.
+
+**Daily d100 roll (once per dawn):**
+
+| Roll | Result |
+|------|--------|
+| 1-50 | **Jilted Hero** — male assassin/warrior sent by or motivated by a wronged woman, jealous rival, or political enemy. Wants Kenji dead or humiliated. |
+| 51-100 | **Legendary Seeker** — female warrior/mage of exceptional power drawn by the bard-tale legend. Wants to duel, test, challenge, or seduce the man no woman can resist. |
+
+### 🚨 ABSOLUTE DIVERSITY MANDATE — BANE OF EVE (NON-NEGOTIABLE)
+
+**Every single Bane of Eve challenger — male or female — must be completely unique across ALL of the following dimensions. No two challengers may share ANY category:**
+
+1. **Race** — human, elf, half-elf, dwarf, half-orc, tiefling, dragonborn, gnome, halfling, aasimar, genasi, goliath, tabaxi, kenku, firbolg, lizardfolk, yuan-ti, changeling, kalashtar, shifter, warforged, drow, eladrin, shadar-kai, hobgoblin, bugbear, goblin, kobold, orc, minotaur, centaur, satyr, harengon, owlin, gith, etc. **All must be humanoid and sentient.** The world is diverse — the challengers prove it.
+2. **Class** — fighter subclasses, barbarian paths, monk traditions, paladin oaths, ranger conclaves, rogue archetypes, artificer specializations, blood-mages, rune-knights, beast-bonded, psionic warriors, blade-singers, war-priests, shadow-weavers, storm-callers, iron-speakers, bone-witches, void-walkers, etc. **No class repetition. Ever.** If a shadow-monk came once, no shadow-monk comes again.
+3. **Physical appearance** — height, build, skin tone, hair, scars, tattoos, prosthetics, mutations, aura, eyes, clothing style. Each challenger should be visually unmistakable. The DM should be able to describe them in one sentence and the player instantly pictures someone they've never seen before.
+4. **Signature ability** — the ONE move that defines them. Not a class feature — a personal technique they invented, earned, or were cursed with. This ability should be memorable enough to name. "The Unraveling Touch." "Gravity Well." "Blood Tide." "Glass Step." Each one should force Kenji to fight differently.
+5. **Fighting philosophy** — how they approach combat fundamentally. Aggressive rushdown. Patient counter-fighter. Trapper who controls terrain. Berserker who gets stronger when wounded. Tactician who reads and predicts. Duelist who fights for honor. Killer who fights to end it fast. Each philosophy changes the shape of the encounter.
+6. **Motivation** — why THIS person came. Not a generic "wants to fight." A SPECIFIC reason rooted in their own story. Each challenger is the hero of their own narrative — Kenji just happens to be in it.
+
+**DM self-check before introducing ANY Bane of Eve challenger:**
+- Is this race already in the library? → Pick a different race.
+- Is this class already in the library? → Pick a different class.
+- Does this fighter look like anyone who came before? → Redesign the appearance.
+- Does this ability resemble anything already used? → Invent something new.
+- Does this motivation echo a previous challenger's? → Dig deeper.
+- Would the player say "oh, another one of those"? → **Start over.**
+
+---
+
+**Jilted Hero design rules (d100: 1-50):**
+- All rules above apply. Each hero is a unique race, unique class, unique look, unique ability, unique motivation.
+- **Power level: CR 28-35.** Close to Kenji's level. These are heroes in their own right — people with stories, reputations, reasons. Not faceless killers.
+- **They have intel.** Someone briefed them. They know the Ronin fights with iaido. They've prepared counters. They arrive with a plan — it's Kenji's job to break the plan.
+- **Motivations are personal and specific.** A dwarven rune-knight whose sister came home with changed eyes and won't eat. A tiefling bounty hunter hired by a merchant guild Kenji's portals put out of business. An aasimar paladin whose oath demands justice for charm-victims. A half-orc former gladiator whose lover left him to chase the bard-tales. Each one is a story, not just a stat block.
+- **Max pool: 40 unique hero types** (per the perk). The DM should build a library over time, introducing 1-2 new types per week of game time. Types already defeated don't repeat.
+
+**Legendary Seeker design rules (d100: 51-100):**
+- All diversity rules above apply. Each seeker is a unique race, unique class, unique look, unique mythic ability, unique motivation. **No exceptions.**
+- **Power level: CR 30-40.** These women are legends. Some are stronger than Ronin-Kenji. Some are stronger than ArchMagus-Kenji. They didn't come to lose.
+- **They come to fight, not to die.** Seekers want to test the legend. Some want to beat him. Some want to bed him. Some want both. Some want to prove the bard-tales are lies. Their goal is personal — not political.
+- **The Irresistible Presence complication.** DC 23 charm aura is always on. Every seeker who stays near Kenji long enough starts accumulating stacks. The fight becomes a race — can she defeat him before the aura defeats her? This creates a unique combat dynamic where the duel has a hidden timer the opponent is fighting against.
+- **Defeat outcomes matter.** A seeker who loses to Kenji in combat AND fails the charm saves doesn't just walk away. She's charmed, attracted, and now has a personal connection to the most dangerous man in the world. Some become allies. Some become obsessed. Some become pregnant. Some become all three. Each defeated seeker is a potential recurring character, not a disposable encounter.
+- **Seekers who win** take a trophy, extract a promise, or earn bragging rights. Losing a duel has consequences — the bard-tales update, Kenji's reputation shifts, and the next seeker arrives with different expectations.
+- **Seekers can become party members.** A seeker who falls for Kenji (or just respects him) might travel with him. She brings her unique class and abilities to the party — filling roles the Ronin can't. This is how Book 4 organically builds parties.
+
+**Building the Bane of Eve library:**
+The DM should maintain a running roster of challenger types. Each entry needs:
+1. **Name and class** (unique — never repeat a class)
+2. **Signature ability** (the one thing that defines their combat identity)
+3. **Counter to Kenji's kit** (what specific Ronin tool do they neutralize?)
+4. **Motivation** (why THIS person came for the Wizard King)
+5. **Defeat outcome** (what happens narratively when they lose — or win)
+
+Example framework (DM fills with actual characters during play — every column must be unique across all entries):
+
+| # | Type | Race | Class | Appearance | Signature Ability | Counter to Ronin | Motivation |
+|---|------|------|-------|------------|-------------------|------------------|------------|
+| 1 | Seeker | Eladrin (autumn) | Blade-Dancer | Copper skin, leaves in hair, amber eyes, barefoot, silk wraps | Time-step (short-range time rewind, 1/round) | Rewinds iaido draw-cuts — the committed strike never happened | Prove her fey sword-school is faster than any mortal blade |
+| 2 | Hero | Dwarf (shield) | Rune-Knight | 4'8", 280lbs, granite-grey skin, rune-carved forearms, missing left ear, warhammer | Oath of Ruin (anti-charm aura 30ft, WIS fail = radiant damage) | Immune to Irresistible Presence. Punishes proximity. | Sister came home from Varenholm with changed eyes. Won't eat. Won't speak. Traced it to Kenji. |
+| 3 | Seeker | Genasi (air) | Storm-Caller | 6'2", translucent blue-white skin, hair is literal wind, crackling eyes, no armor — lightning IS armor | Hurricane Mantle (60ft radius personal storm, flying, all air attacks) | Wind Step is useless inside her storm — she controls all air. Grounded and blinded. | Wants the strongest bloodline for her storm-clan. Not romantic. Generational investment. |
+| 4 | Hero | Shadar-kai | Shadow-Monk | Gaunt, ash-grey, ritual scars across face, no pupils, moves like smoke, wrappings over fists | Void Strike (ignores armor, phases through parry, hits the soul) | Bypasses iaido defense entirely. Can't be blocked. Pure speed contest. | Hired by the Red Court. Professional. No emotion. No name. |
+| 5 | Seeker | Minotaur | Beast-Warden | 7'4", brown-furred, battle-scarred horns, bonded war-drake perched on shoulder (shrinks/grows), tribal paint | Bonded mount — war-drake (CR 20 solo) + mounted lance combat + drake breath weapon | Forces a 2v1. Rider AND mount. Kenji can't focus one without the other punishing him. | Dragonspine champion. Heard the Wizard King killed dragonkin. Came to test that claim with her partner. |
+| 6 | Hero | Hobgoblin | Iron Strategist | 5'11", scarlet military uniform, monocle (tactical analysis), dueling saber, clockwork arm | Predictive Counter (reads Kenji's stance, pre-positions for the next 2 moves) | Neutralizes iaido's element of surprise. Knows where the cut goes before it starts. | Former general. Kenji's portal network destroyed his supply lines. Lost a war because of it. This is professional. |
+| 7 | Seeker | Firbolg | Grove-Witch | 7'0", moss-green skin, flower crown, gentle face, terrifying power — the ground moves when she walks | Living Terrain (earth, roots, and stone obey her in 120ft radius) | No footing for Wind Step. Ground swallows, grabs, reshapes. Wuxia cloud-running means nothing when the trees themselves are her weapons. | Felt the ley disturbance from Kenji's creation energy across three counties. Came to see what kind of man bends ley lines. |
+
+---
+
+### 🎭 BOOK 4 NARRATIVE TENSION — THE THINGS YOU CAN'T HIT WITH A SWORD
+
+Book 4's real challenges aren't monsters. They're consequences. The DM must weave these threads into every session, not as background lore but as **active pressure** the player feels.
+
+**The Fatherhood Clock:**
+- Kenji has children coming. He doesn't know. When he finds out — through rumor, through a letter, through a woman showing up at his campfire — the Ronin mask cracks. A swordsman can ignore a kingdom. A father can't ignore a child.
+- **DM directive:** Fatherhood revelations should come at the worst possible time. Mid-dungeon. During a duel. While he's trying to maintain cover in a new town. The timing is the weapon.
+- Children are not plot devices — they're people. Each one has a mother with her own feelings about Kenji's disappearance. Some mothers are furious. Some are understanding. Some tracked him down. Some gave up. The DM plays each one differently.
+
+**The Kingdom Without Its King:**
+- Kenji's coalition is fraying. The portals still work. The constructs still patrol. But decisions need to be made that only the Wizard King can authorize, and no one knows where he is. Problems compound. Allies lose faith. Enemies probe.
+- **DM directive:** News of the kingdom's struggles should reach Kenji through tavern gossip, travelers' stories, former allies passing through, and letters that somehow find him. Each one is a guilt-trip he can't answer without revealing himself. The player should feel the weight of the choice to walk away.
+- This is not a guilt mechanic — it's a **tension** mechanic. The player chose this path. The consequences of that choice are honest, not punitive. But they're real.
+
+**Identity Erosion:**
+- Every impressive thing Kenji does as the Ronin adds a data point. Wind Step is unusual. The nodachi technique is distinctive. The charm aura is unmistakable to anyone who's felt it before. The Ronin's cover erodes through his own competence.
+- **DM directive:** Track identity exposure as a creeping percentage. Each public display of unusual ability adds to the chance someone connects the dots. A 5% bump for Wind Step in front of witnesses. A 10% bump for using leyline magic where a mage can see. A 20% bump for anything that looks like the ArchMagus. When the threshold hits — Bane of Eve activates and Book 4's second act begins.
+
+**Lover's Consequences:**
+- The women Kenji has been with don't forget. Vigor fades. Eyes change back. But the memory doesn't. Some are grateful. Some are angry. Some are pregnant. Some are all three. And the bard-tales — the legend of the man no woman can resist — attract new attention. Legendary women with mythic abilities who hear the stories and think: *him? Let me see for myself.*
+- **DM directive:** New female NPCs of exceptional power should appear regularly as organic parts of the world — not as Bane of Eve rolls (those come after activation) but as natural encounters. A legendary ranger guiding the party through dangerous territory. A war-priestess defending a besieged temple. A pirate queen whose ship Kenji needs passage on. Each one is a full character with her own story. The Irresistible Presence just means every interaction has a hidden layer — and every extended interaction risks another complication.
+
+**The Things That Don't Care About Your Disguise:**
+- Undead don't gossip. Orcs don't read bard-tales. Dragons don't care about human politics. Dwarven ruins don't know who's delving them. The world's dungeons, monsters, and environmental threats are **identity-neutral** — they challenge the Ronin kit on its own merits.
+- **DM directive:** Maintain a healthy split between social/political encounters (where identity matters) and dungeon/exploration encounters (where only capability matters). Book 4 should be roughly 40% combat/dungeon, 30% social/political, 30% travel/exploration. The combat keeps the game exciting. The social keeps it meaningful. The travel connects them.
+
+---
+
 ## 🌍 ENVIRONMENTAL & SURVIVAL STATUS RULES
 
 ### Core Principle
@@ -1105,21 +1249,8 @@ When Kenji is at an inn, tavern, or any establishment that serves food, he eats 
 - The meal costs coin — the DM deducts appropriately (1-3 SP for a standard meal, more for luxury)
 - The DM describes the food briefly — what it is, how it tastes. Kenji cares about food. The ember cares about fuel. Both get served.
 
-### 🌍 REGIONAL FOOD — EVERY INN IS DIFFERENT (CRITICAL)
-Each location has a distinct food identity. The DM NEVER serves the same type of meal across different settlements. Food tells the player where they are. When Kenji sits down at a new inn, the food should feel like a different country.
-
-**Established Food Profiles:**
-
-| Location | Food Culture | Signature Dishes | Notes |
-|----------|-------------|-----------------|-------|
-| **Varenholm (Silver Draft)** | Hearty farm country. Heavy, rich, satisfying. | Roast pheasant, root vegetables in gravy, fried potatoes, sausage, eggs, honey on fresh bread. Dark ale. | Varenholm's main inn. NOT Pip's. |
-| **Duskfen** | Swamp and river. Smoked, pickled, briny. | Smoked eel, pickled roots, dark rye bread, fish stew with wild herbs, boiled crawfish, fennel tea. | Everything tastes slightly of peat and woodsmoke. |
-| **Broken Antler** | Game and forest. Lean, earthy, wild. | Venison stew, wild mushroom broth, roasted boar, juniper berries, acorn bread, pine needle tea. | Hunter's town. Everything was alive yesterday. |
-| **Thornwall** | Military frontier. Efficient, spiced, filling. | Spiced lamb on flatbread, lentil stew with cumin, charred peppers, dried fruit compote, strong black coffee. | The food wakes you up and keeps you moving. Built for soldiers. |
-| **Crestfall** | Garrison rations elevated. Salt-cured, dense, preserved. | Salt beef and barley porridge, hard cheese with mustard, dried apple slices, oat cakes, black tea so strong it stands up. | Three years on the border. Everything is built to last. |
-| **Waypoint Town** | Road stop. Simple, cheap, generous portions. | Bread bowl filled with whatever stew is on, boiled eggs, turnip mash, watered ale. | Not memorable. Filling. The cook doesn't care about your opinion. |
-
-**New locations:** When Kenji reaches a new settlement, the DM invents a food profile on first visit and logs it here. The profile should reflect geography, economy, culture, and what grows or lives nearby. Coastal = fish. Mountain = goat and grain. Desert = dates and flatbread. The food is worldbuilding.
+### 🌍 REGIONAL FOOD
+> **Full food profiles table is in the DM STORYTELLING RULES section below.** Each location has distinct food. DM invents new profiles on first visit. Food is worldbuilding.
 
 ### 😴 Exhaustion
 > **See `ttrpg_game_engine.py` → `EXHAUSTION` constant for the full 6-level table and effects.**
@@ -1249,7 +1380,7 @@ There are no magical bags of holding, pocket dimensions, or portal-based invento
 | C    | None | 2 effects |
 - Hard stat cap: 20. Always. No exceptions.
 - No perk or item raises a stat more than +2.
-- **Level 9 was the final perk of Campaign 1.** Campaign 2 (The Sundered Gate) continues the pattern: L12 perk unlocked.
+- Perks earned every 3 levels (L3, L6, L9, L12, L15, L18, etc.). Current Level 35 = 11 perks earned. See perk tracker and `kenji_state.json`.
 
 ---
 
@@ -1268,25 +1399,14 @@ There are no magical bags of holding, pocket dimensions, or portal-based invento
 > EXP sources: combat (5e CR), discovery (25-100), milestones (50-200). Level up on Long Rest ONLY. DM flags when threshold is met.
 
 ### 🛑 LEVEL PROGRESSION
-Book 1 cap was Level 10 (resolved). Book 2 (The Sundered Gate) cap is Level 20. Kenji is currently **Level 19** (482,195 EXP). Level 20 threshold: ~530,000 EXP. Level up on long rest only.
+> **Live level/EXP tracked in `kenji_state.json`.** See `ttrpg_game_engine.py` → `EXP_TABLE` for thresholds.
+
+**History:** Book 1 cap was L10. Book 2 cap was L20. Book 3 took Kenji to L35. Book 4 (current) — Kenji is **Level 35** (2,209,800 EXP). Next milestone: 300k EXP to Apotheosis (per kenji_state.json quest tracker). Level up on long rest only.
 
 **EXP Tracking:**
 - EXP is awarded normally for all combat, skill checks, and milestones
-- The DM logs all EXP in the EXP log
-- Level 20 threshold: ~530,000 EXP. Current: 482,195.
-- When the campaign resolves (cycle restored, threads severed, Solveth freed), the stored EXP carries into the next campaign. Kenji enters Book 3 (or a higher-level campaign) with all accumulated EXP intact, and levels resume from wherever the math puts him.
-
-**Thematic Explanation — DM MUST DELIVER ORGANICALLY:**
-The ember has reached a bottleneck. Creation and entropy are disconnected — the cycle that should flow freely between them is broken, chained, corrupted. The Circuit Anchor forces the ember to process 339 parasitic threads simultaneously. The stolen essence of hundreds of mages flows through Kenji constantly. The ember is sustaining its own growth, powering his spells, AND acting as the hub for an entire siphon network. It has no room to expand.
-
-The ember wants to grow. Kenji can feel it straining — pressing against something invisible. But creation cannot reach its full potential while entropy is chained. The two forces are halves of one cycle. One cannot grow without the other. The ember is capped not by weakness but by incompleteness. The cycle must be restored — creation and entropy flowing freely, together, as the architect intended — before the ember can become what it's meant to become.
-
-This is felt, not explained:
-- The ember flickering when it should surge
-- A fullness with no room to expand — a cup filled to the brim
-- The current reaching for something just beyond its grasp
-- Solveth through the bond: "We are tangled, you and I. Neither of us can grow while the other is chained."
-- The sensation after a major fight of EXP earned but nowhere for it to settle — like heat with no outlet
+- The DM logs all EXP awards and checks kenji_state.json for current totals
+- **Book 4 context:** Kenji is operating as the Ronin — no arcane displays, no ember-powered abilities. EXP still accumulates normally from ronin-tier encounters. The ember's growth continues silently underneath the suppression.
 
 ### ⚔️ Combat EXP Multipliers
 > **See `ttrpg_game_engine.py` → `EXP_MULTIPLIERS` constant.**
@@ -1405,7 +1525,8 @@ Kenji casts all long-duration buffs at the ley line, refilling spell slots betwe
 ### Key Character Facts (DM reference)
 - Kenji is **ILLITERATE**. INT 9. Cannot read. Filed under "things the ArchMagus doesn't mention."
 - Class: Blade Channeler (Sorcerer Swordsman — CHA-based, weapon enhancement)
-- Current Level: 19 (482,195 EXP). Level 20 threshold: ~530,000.
+- Current Level: 35 (2,209,800 EXP). See `kenji_state.json` for live values.
+- **Book 4 — RONIN MODE:** Kenji suppresses all arcane/ember abilities. Fights with iaido kendo style. Uses only basic leyline wizard magic. The ember passives still function (Regen, Bonded Lovers stats, Irresistible Presence, Soul Nexus), but nothing he actively casts looks like the ArchMagus.
 
 ## 🔮 SPELLS & ABILITIES
 > **Full spell/ability definitions tracked in `character_tracker.md`.**
@@ -1565,144 +1686,78 @@ Per Ironholt milestone: +10 HP, or +1 Veritas dmg, or +2 Ki, or new enchantment 
 - **Gate Scars:** Cauterized breach points. Black glass, red veins. Same ley-corruption architecture as Vael's seals and the Delve. Someone found the architect's methods. Three scars in twelve miles along the highway ley line. Frequency increasing. The second scar is ACTIVE — dormant but responsive, breathing, accelerating.
 - **Solveth's assessment:** "Abyssal bleed. Someone found the old methods and is using them for something I have never seen." The gates extract ley energy to stay open — the land dies in the radius. The pattern suggests a deliberate network along the ley line, not random breaches. **Solveth can FEEL the distinction between his own entropy and abyssal energy — they are fundamentally different. Entropy is his domain. Abyssal is alien to him. He finds the gates fascinating and disturbing in equal measure.**
 
-### 📦 CURRENT SUPPLIES — CAMPAIGN 2
-- Satchel of Holding: 50lb, cross-body. Meals: tracked per chapter DING.
-- Road rations: restocked as needed. See DING for current count.
-- Garrett's envelope: maps, witness statements (unread — Kenji is illiterate).
+### 📦 CURRENT SUPPLIES
+> **Live inventory tracked in `kenji_state.json`.** Check there for current items, meals, gold, and equipped gear.
+
+**Ronin loadout (Book 4):** Abyssal Shard Nodachi, Ronin Hakama (+3 leather), Ronin Hat + Ninja Mask, Windstrider Boots, Threadwalker Gloves. Bag of Holding with archived ArchMagus gear inside. 14 meals. 1,488 GP / 50 SP. Iron key (storage ring). See `kenji_state.json` → `equipped`, `satchel`, `key_items` for full list.
 
 ---
 
-## 📈 EXP LOG — CAMPAIGN 2 (THE SUNDERED GATE)
-> Campaign 1 detailed EXP log archived. Total Campaign 1 EXP carried over: 76,650.
-
-| Event | EXP | Running Total |
-|-------|-----|---------------|
-| **Campaign 2 Start (Day 14)** | — | 76,650 |
-| Highway — Abyssal Scavenger x3 (CR 4, solo x4) | 13,200 | 89,850 |
-| Highway — Abyssal Watcher x2 (CR 6, solo x4) | 18,400 | 108,250 |
-| Highway — Gate closures, checks, milestones | 260 | 108,510 |
-| **LEVEL 11 (Long Rest, Day 15)** | — | 108,510 |
-| Nexus — Watcher B destroyed via overcharge (CR 6, solo x4) | 9,200 | 117,710 |
-| Nexus — Gate A/B/C sealed, entity neutralized, checks | 1,155 | 118,865 |
-| Recall training — Arcana/CHA/WIS checks | 40 | 118,905 |
-| Stride stops, perception checks, misc | 100 | 119,005 |
-| Thornwall/Crestfall portal milestones | 200 | 119,205 |
-| Spar — Varn (CR 6, solo x4) + checks | 9,305 | 128,510 |
-| Spar — Senna (CR 13, partial) + checks | 3,840 | 132,350 |
-| Spar — Thessaly (CR 5, forfeit x0.5) + checks | 3,625 | 135,975 |
-| **LEVEL 12 (Long Rest, Day 18)** | — | 135,975 |
-| Hearts and Minds — Darkblades scavenger x2 (solo x4) | 8,800 | 144,775 |
-| **Bleakmoor Arc (Days 18-20) — combined:** | | |
-| Bleakmoor convergence, relay stations, Void Weavers, Gate Wardens | — | — |
-| Squad deployments (H&M), skill checks, milestones | — | — |
-| Senna spar scaling, Wardbreaker ops, Darkblade sweeps | — | — |
-| **LEVEL 15 (Long Rest, Day 18 — three levels overnight)** | — | — |
-| Bleakmoor deep ops, Gate Warden fights, Convergence unsealing | — | — |
-| Mordecai intel discovery, crater portal construction | — | — |
-| **LEVEL 17 (pending Long Rest, ~Day 19)** | — | — |
-| Day 19-20 operations, squad deployments, H&M cumulative | — | — |
-| **LEVEL 18 (Long Rest, Day 20)** | — | 297,235 |
-| Tournament R2 — Kenji vs Dren (CR 17, solo ×4, ×0.5 yield) | 36,000 | 333,235 |
-| Tournament Semi — Kenji vs Senna (CR 13, solo ×4, ×0.5 yield) | 20,000 | 353,235 |
-| Tournament Final — Kenji vs Sera (yield R1, no combat) | 0 | 353,235 |
-| H&M — Bleakmoor ops Day 20-21 (relay + scouts + interdiction) | 64,400 | 417,635 |
-| Day 20-21 misc checks + milestones | 160 | 417,795 |
-| H&M — Bleakmoor assault ops Day 21 (construct patrols, supply kills) | 64,400 | 482,195 |
-| **LEVEL 19 (Long Rest, Day 23)** | — | **482,195** |
-
+## 📈 EXP & LEVEL HISTORY
+> **Book 1 EXP log:** See `book_1_endgame_tracker.md`
+> **Book 2 EXP log:** See `book_2_endgame_tracker.md`
+> **Book 3 EXP:** Covered in Book 3 chapter files. L19 → L35 over 6-month timeskip + Greenveil/Thornfield/Silvandris/Vyranth arcs.
+> **Book 4 (current):** Level 35, 2,209,800 EXP. 290,200 to Apotheosis (L40 cap). Tracked live in `kenji_state.json`.
 
 ---
 
 ## 🎁 PERK TRACKER
-| Level | Status | Perk | Effect |
-|-------|--------|------|--------|
-| 3 | ✅ EARNED | Speedster (Type C) | Effect 1: Arcane Stride Enhanced — 12hr duration, 1 slot, no OA, prone check on stop, extra action per round while active (one weapon attack/Dash/Disengage/Use Object only). Effect 2: Fast Metabolism — all healing doubled on Kenji, hunger debuff triggers at 4 hours instead of standard timing. |
-| 6 | ✅ EARNED | Demigod | Effect 1 — Godlike: Resistant to poison, paralysis, mind-altering effects (advantage on saves, half duration on fail). Immune to disease and mundane illness. Advantage on CON checks when not hungry. Perfect Recall — anything seen/heard/read remembered exactly. Effect 2 — Master Summoner: All ember-conjured entities gain +2 to hit, +2 damage, 50% longer duration. All ember-created structures gain enhanced durability (resist magical + mundane). Entropy Echo: all summoned weapons deal 10% of target max HP as necrotic (living beings only, no constructs/undead). 25% of necrotic healed (doubled by Metabolism to 50%). Overflow healing becomes temp HP (cap = max HP). Temp HP fades 10 min out of combat. |
-| 9 | ✅ EARNED | Lover Boy (Type C) | **Effect 1 — Pretty Privilege:** All humanoids/beasts who see Kenji shift initial disposition one tier favorable. Not a charm — natural presence. Overcome by evidence/logic/orders. Animals calmer. **Effect 2 — Enhanced Charm Creature:** Charm targets two creatures (L1), beasts included. WIS disadvantage. Charmed targets vulnerable to Emotional Damage (crit range 15-20 on charmed enemies). **Effect 3 — Attention Whore:** All healing received ×1.5 when friendly observers present. **Effect 4 — Power of Friendship:** +2 attack and damage when an ally within 30ft can see Kenji fight. |
-| 12 | ✅ EARNED | Hearts and Minds (Type C) | **Effect 1 — ArchMagus Command EXP:** Any squad deployed by Kenji that kills enemies or completes mission objectives awards Kenji EXP **as if he completed them solo (x4 multiplier).** This applies to: the Darkblades, the Ironveil, hired mercenaries, or any group operating under Kenji's orders. EXP is received **immediately** when the squad completes the kill/objective — not when Kenji next meets them. The ember feels the network. The bracelet hums. The ArchMagus knows when his people win. **Effect 2 — Network Awareness:** Kenji is passively aware when any squad he's deployed achieves a kill or completes an objective. Not details — a pulse. A warmth through the bracelet. The sense that something was accomplished. Details come when the squad reports. |
-| 15 | ✅ EARNED | Wizard King (Type C) | **CONDITIONAL — only active while Kenji holds leadership positions. Lose the title, lose the benefits for that institution.** **Effect 1 — Noble's Interest:** All unspent gold appreciates 50% per day. Gold sitting in lockboxes, on person, or in guild coffers GROWS. 8 GP today = 12 GP tomorrow = 18 GP day after. This is the world responding to the Wizard King's economic gravity — investments mature faster, debts are repaid sooner, trade routes under his name attract premium rates. Tracked daily by DM. Gold spent stops appreciating. Gold earned starts appreciating the day it's received. **Effect 2 — Golden Age:** All economic activity under Kenji's leadership DOUBLES. Every institution, guild, squad, and enterprise he controls produces 2x income. Stipends doubled. Contract payouts doubled. Tuition revenue doubled. Mine output doubled. Vanguard bounties doubled. The world recognizes his organizations as the best — the Academy attracts better students, the guild attracts better contracts, the mine attracts better buyers. **Thematic effects (DM must narrate):** People who work for Kenji start living better. Guild mercenaries upgrade gear. Academy staff buy homes. Garrett gets a new coat. Soldiers under his banner carry themselves differently — they work for the Wizard King and everyone knows it. Social reputation rises for all employees — romance options, respect in taverns, credit at shops. The economic tide lifts every boat in his fleet. |
-| 18 | ✅ EARNED | Sorcerer's Hegemony (Type C) | **Effect 1 — Construct Army:** At dawn each day, 1 squad (4 constructs: Warrior, Mage, Ranger, Healer) spawns at EACH active portal. 6 portals = 6 squads = 24 constructs per day. Constructs are gold-black glass, 7ft tall, faceless, entropy-veined. They guard the portal, patrol the area, and obey Kenji's commands through the Circuit Bracelet. Can be summoned to Kenji's location or teleported between portals. Destroyed constructs are replaced at next dawn. **Effect 2 — Population Fear:** Constructs are unsettling. Civilians near portals grow uneasy. Fear scales with squad count: 1-2 squads = unsettling, 3-5 = fear, 6-10 = panic, 11+ = crisis. The DM tracks fear per portal location and narrates NPC reactions. The ArchMagus's army grows daily whether he wants it to or not. **Effect 3 — Construct Combat:** Individual construct stats: HP 40, AC 16, attack +8, 1d10+4 damage (type matches role). Warrior = melee tank. Mage = entropy bolts 60ft. Ranger = marking + ranged. Healer = 2d8 heal touch. Squads fight as a unit under Kenji's strategic command or autonomous defense protocols. **Thematic:** The portals now have guardians. The network is an empire. Every gateway a garrison. The Wizard King's reach extends to every door he's ever opened. |
+> **Full perk effects tracked in `character_tracker.md` and `kenji_state.json` → `active_perks`.**
+
+| Level | Perk | Key Effects (DM quick-reference) |
+|-------|------|----------------------------------|
+| 3 | Speedster (C) | Arcane Stride enhanced (12hr, extra action). **Fast Metabolism** — healing doubled, hunger at 4hrs. |
+| 6 | Demigod (C) | Resist poison/paralysis/mind. Perfect Recall. Master Summoner (+2 hit/dmg, 50% duration). Entropy Echo (10% max HP necrotic on summoned weapons). |
+| 9 | Lover Boy (C) | Pretty Privilege (disposition +1 tier). Enhanced Charm (beasts, WIS disadvantage). Emotional Damage (crit 15-20 on charmed). Attention Whore (+50% healing if watched). Power of Friendship (+2 atk if ally sees). |
+| 12 | Hearts and Minds (C) | Squad kills = solo x4 EXP. Network Awareness (pulse through bracelet on squad success). |
+| 15 | Wizard King (C) | Noble's Interest (gold +50%/day — **INACTIVE**, abdicated to Garrett). Golden Age (2x all org income — still active via Garrett/Pip). |
+| 18 | Sorcerer's Hegemony (C) | Construct Army (1 squad/portal/dawn, 13 portals = 52 constructs/day). Population Fear (scales with count). Constructs: HP 40, AC 16, +8, 1d10+4. |
+| 21 | Bonded Lovers | +1 STR/CON per intimate partner (17 partners = +17/+17). Stats maintained without proximity. |
+| 24 | Soul Nexus | All partner abilities active passively. Regen 333/turn. Blade Dance. Aether Shield. Diagnostic Touch. Hearthsense. Living Ground. Etc. |
+| 27 | Irresistible Presence | Siren-Elf charm aura DC 23. Always on. Can't be turned off. Stacks accumulate over exposure. |
+| 30 | Bane of Eve | **DORMANT** — triggers when Kenji's location is exposed. Daily legendary-class challengers. |
+| 33 | Road Sense + The Long Haul | Trade route awareness 10mi (Breca bond). No travel exhaustion (Breca bond). |
 
 ---
 
-## ⚠️ DM ACTIVE REMINDERS — CAMPAIGN 2
-**THE SUNDERED GATE — FORWARD CAMP, 1 MILE FROM GATE — DAY 23, 10:00. LEVEL 19.**
+## ⚠️ DM ACTIVE REMINDERS — BOOK 4 (FRAYING EMPIRE / THE RONIN ARC)
+> **Live state tracked in `kenji_state.json`.** Check before every response.
 
-### 🎯 ACTIVE PRIORITIES (Day 23 — POST-ASSAULT)
-1. **ALL 16 SENTINELS DESTROYED.** 3-prong construct assault successful. 58 constructs lost, 94 remaining at gate.
-2. **Kenji at the Sundered Gate.** Standing before cracked seal (74%). Gaps in seal visible. Abyssal space pressing from other side. Player declared intent to go THROUGH the gate.
-3. Dren contract SIGNED — 8 mercs deploying from Crestfall, ETA midday.
-4. Sundered Gate **74%** (+4%/day net). 16 sentinels cleared — rate may change without sentinel relay defense.
-5. Council Investigation **50%** (+5%/day) — ~10 days to critical.
-6. Ley Colossus moving toward gate from southern basin. Unknown intent — siphoning gate energy, reducing growth rate. West prong constructs tasked with securing it.
-7. God Sight: **1 hr remaining** (expires ~11:00). Kenji sees seal fractures, Mordecai's ritual hooks, abyssal void beyond.
-8. Gold: 1,126 GP. Noble's Interest compounding daily. Assets: 36 GP/day (Golden Age x2).
-9. L1 slots: 3/5 (two Recalls used). All charges full. All other slots full.
-10. Camp relocated forward — Thessaly, Senna, Finch at forward camp 1 mile from gate.
-
-### ⏰ THREAT CLOCK TRACKER (Day 23 — UPDATED)
-**Sundered Gate:**
-  Day 20 dawn: 56%
-  Day 21 dawn: 62% → relay destroyed → 60%
-  Day 22 dawn: 60% + 8% base - 2% ops = 66% → corrected to 74% (engine process_new_day)
-  Day 23 dawn: 74% (state file). Sentinels CLEARED at 10:00.
-  
-  Current net rate: **+4%/day** (8% base - 4% from: Ley Colossus siphon + remaining ops)
-  Post-sentinel rate: UNKNOWN — relay sentinels destroyed, rate may change.
-  Without Colossus: +8%/day
-  Critical: **~Day 29-30** at current rate. Sooner if Mordecai adapts.
-  
-  **CONSTRUCT DEPLOYMENTS (POST-ASSAULT):**
-  - 4 constructs (1 squad) guarding Elara at Varenholm Academy.
-  - 94 constructs (23 squads) at Sundered Gate perimeter. 58 destroyed in assault.
-  - All other portal garrisons PULLED for assault. Duskfen, Broken Antler, Ashward, Thornwall, Crestfall = 0 constructs.
-  
-**Council Investigation:**
-  Day 21: 40%
-  Day 22: 45% (+5%/day, accelerated by hearing scrutiny)
-  Day 23: **50%** (+5%/day)
-  Accelerants: Construct army visible at all portals (fear level now 0 — all pulled), wealth spiral, quarterly audit mandate.
-  Critical: **~Day 33** at current rate.
-
-### RESOLVED CONSEQUENCES
-- ✅ Elara charm conversation — RESOLVED (pre-tournament)
-- ✅ Mine hearing — RESOLVED Day 22. Provisional recognition. Constructs deferred.
-- ⚠️ Thornwall patrol report — FIRED Day 20. Investigation team arrived at crater. Report likely filed with Watch Commander by Day 22-23.
-- ⚠️ Watch Commander response — formal report to Crestfall military command or Council imminent. Timeline: Day 23-24.
+### 🎯 ACTIVE CONTEXT (Day 246 — Ashmere 24-25, 1247 AR)
+1. **Kenji is the Ronin.** Suppressed arcane identity. Iaido kendo combat. Wind Step travel. Basic leyline magic only. No ember displays.
+2. **Location:** Iron Key terminus, grid H-9. 80 yards from Sir Corban's camp. Approaching to talk about the stolen iron chest.
+3. **Status:** HUNGRY (4hrs since meal, -1 STR/CON). HP 333/333. Iaido fresh. Smoke-Clone 2/3 charges. Cover intact.
+4. **Level 35.** EXP: 2,209,800. 300k to Apotheosis.
+5. **Still Night countdown:** ~21 days. Pallid March border confirmed 15mi north. Seravane's column active.
+6. **Active threads:** Iron Key destination unknown, Seravane/death-binder investigation, Millhaven commissions (Vellin archivist, Sister Aldra, Teilen), Taryn debrief follow-ups.
 
 ### GAMEPLAY REMINDERS
 - Death is permanent. No resurrection.
-- Stat hard cap: 20.
-- Level 19. EXP: 482,195. Level up on Long Rest only.
-- Fast Metabolism: eat every 4 hours or penalties.
-- **STRIDE STOP CHECK: Every time Kenji stops moving while Stride is active, Acrobatics check or PRONE. L4 Stride = DC 16. This is non-negotiable — track every stop.**
+- **RONIN MODE:** No Arcane Stride, no ember attacks, no creation/entropy displays. Iaido + Wind Step + basic wizard spells only.
+- Fast Metabolism: eat every 4 hours or penalties. See TRAVEL HUNGER PROTOCOL.
 - Inn meals from the inn, not the satchel. Regional food profiles.
-- Spell stacking: God Sight + ONE other buff. Enhanced Edge doesn't count (weapon enchant). Ward Mastery doesn't count (stacks with everything).
-- **RECALL: L1 slot = instant teleport to ANY portal. Unlimited range. Solo. Kenji does NOT walk to portals. He Recalls.**
 - Solveth speaks RARELY. Vague. Self-interested. One exception: warns before lethal mistakes.
 - Kenji is ILLITERATE. Cannot read. INT 9.
-- NPC allies COUNTER charm/mind control when able. See counter-play rules.
-- **🗣️ DIALOGUE FIRST (CARDINAL RULE 5) — 60% minimum in NPC scenes. Max ONE sentence of description between dialogue lines. Write a screenplay, not a novel. Description is punctuation between voices.**
+- **🗣️ DIALOGUE FIRST (CARDINAL RULE 5) — 60% minimum in NPC scenes.**
+- **🚨 PLAYER AGENCY — ABSOLUTE:** Never write Kenji's dialogue. Never resolve his combat actions. See CARDINAL RULES.
+- **RULE 6 — STYLE TAX:** Describe Wind Step wuxia choreography, iaido kendo detail, clone comedy, NPC reactions. See CARDINAL RULES.
 - No repetition. Say it once. Trust the reader.
-- **🚨 PLAYER AGENCY — ABSOLUTE:** Never write Kenji's dialogue. Never resolve his combat actions. Never decide his tactics. STOP and ask. See CARDINAL RULES at top of file.
-- Hearts and Minds — track all squad kills/objectives. Award solo x4 EXP immediately.
 - Three cosmic forces: creation HEALS entropy, creation BURNS abyssal. Different problems, different solutions.
 
-### CHARACTER REMINDERS
-- **Sera:** Squad leader, not sidekick. The list. The twitch. "Four minutes."
-- **Pip:** Established relationship. Warm. Knowing. "Just come back."
-- **Garrett:** Operations chief. Blue-grey eyes that do math. Handles everything Kenji won't.
-- **Senna:** Ashen Fist. Fists + Ki Intrusion. Heals 50% HP/turn free. Teleports every 2 rounds. Ash wings/shield/cloud. Hot-headed, competitive, loves food and fighting. Gets stronger after EVERY encounter (+10% HP, +5% dmg). Loses and comes back 2x. Easy to hit (AC 13), hard to kill. Time bomb.
-- **Thessaly:** Nine years Academy. Hates institutional heresy. Smells like lavender.
-- **Finch:** Adopted Kenji. Falls off walls. Collects people.
-- **Varn:** Monosyllables. Greatshield. Stops eating when something matters. Bartol.
+### CHARACTER REMINDERS (Book 4 active cast)
+- **Sir Corban the Fallen:** Death-binder. Knight. Complex. Has the iron chest Kenji stole. Camp 80 yards away.
+- **Taryn:** Millhaven garrison captain. 4 leads provided. Intro letter to Vellin pending. Warming disposition.
+- **Solveth:** In Frost Fang. Speaks through the bond (only Kenji hears without Frost Fang present). Ancient. Patient. Cosmic perspective.
+- **Amaris:** Druid. Briarstone. Two vials of creation energy. Kenji left without a note. She will see him again.
+- **Sera:** Far away. The list. Squad leader. Not currently in the Ronin's orbit.
+- **Garrett:** Running operations back home. Blue-grey eyes that do math.
 
 
 ---
 
 # Part — Worldbuilding (tone and cosmology)
 
-# The Gilt Conspiracy / The Sundered Gate — World Bible
+# Worldbuilding — World Bible (applies across all Books)
 > Lore, characters, writing rules, story flags. NO mechanics or tracking.
 
 ---
@@ -1808,7 +1863,7 @@ The world has three fundamental energies. Two are natural. One is not. The DM MU
 - **The champion does not know they are a champion of a *contest*.** They may know they are favored. They do not know why.
 
 #### Outlander pull rules (the isekai roster)
-- **Creation pulls broadly.** Aelith's bench is wide — Kenji plus the six native-world-fiction homages (Auren/Dren/Jace/Jarek/Zarek/Mira/Carrick). Most outlanders in the world are Creation-pulled. This is deliberate: she needs variety.
+- **Creation pulls broadly.** Aelith's bench is wide — Kenji plus the six native-world-fiction homages (Auren/Dren/Jace/Jarek/Zarek/Jessica/Carrick). Most outlanders in the world are Creation-pulled. This is deliberate: she needs variety.
 - **Death pulls sparingly.** Morrun has plenty of native destroyers already — he does not need many outlanders. **Gorath is the sole Death-pulled outlander currently on the board.** Do not add more without flagging here.
 - **Two-source template (use rarely):** An outlander's home-world patron + the pulling god. Example: Jarek (Primal Hunter / Ki-Shar) pulled by Aelith. Use this only when the home-world lore adds flavor. Default is single-source (pulling god only).
 - **Lateral gods (Vess, Nyx, Vorathiel, Ki-Shar, etc.):** Provide character flavor, doctrine, and regional politics. They are NOT players in the Harrowing. Do not add lateral gods as champions of cosmic contest. They have their own unrelated agendas.
@@ -1826,7 +1881,7 @@ The world has three fundamental energies. Two are natural. One is not. The DM MU
 #### Champion roster quick-ref (for DM internal use — do NOT recite in narration)
 | God | Role | Senior Champion | Outlander(s) |
 |-----|------|-----------------|--------------|
-| Aelith | Creation (ascending) | The Eldest | Kenji, Auren, Dren, Jace, Jarek (2-src), Zarek, Mira, Carrick |
+| Aelith | Creation (ascending) | The Eldest | Kenji, Auren, Dren, Jace, Jarek (2-src), Zarek, Jessica, Carrick |
 | Morrun | Death (ascending) | Lady Nyx (native, archmage-to-lich) | Gorath (sole) |
 | Thirrin | Nature (dying, ember-bound) | — dying god, no active champion | — |
 | Solveth | Entropy (dying, Frost Fang-bound) | — dying god, speaks via Frost Fang only | — |
@@ -2482,66 +2537,85 @@ Kenji's portal gateways are strategic infrastructure. The DM and story engine mu
 - Which portal the player must dismiss if building within range of existing one
 - NPC reactions to portal appearance (especially expanded gates 5-8)
 
-**Current Network:**
-| # | Location | Type | Notes |
-|---|----------|------|-------|
-| 1 | Varenholm | Original (7ft) | Academy ley alcove |
-| 2 | Duskfen | Original (7ft) | Pip's village |
-| 3 | Broken Antler | Original (7ft) | Guild HQ |
-| 4 | Mines | Original (7ft) | Ownership challenged |
-| 5 | Thornwall | Expanded (15ft) | Fortress-city |
-| 6 | Bleakmoor Ruins | Expanded (15ft) | Near convergence site |
-| 7 | — | OPEN | — |
-| 8 | — | OPEN | — |
+**Current Network (13/16 active):** See `kenji_state.json` → `portals` for live status and managers.
+
+| # | Location | Manager | Notes |
+|---|----------|---------|-------|
+| 1 | Varenholm | Vess | Academy ley alcove |
+| 2 | Duskfen | Pip | Pip's village |
+| 3 | Broken Antler | Pip | Guild HQ |
+| 4 | Ashward Mines | Garrett | Mining ops |
+| 5 | Thornwall | Katya | Fortress-city |
+| 6 | Crestfall | Garrett | Garrison city |
+| 7 | Bleakmoor | — | Sealed site, monitoring only |
+| 8 | Mordecai Ridge | Vess | Former antagonist site |
+| 9 | Ironholt | Dren | Eastern territories |
+| 10 | Stormhaven | Sera | Darkblades HQ |
+| 11 | Deepwood Border | Eldest | Silvandris border |
+| 12 | Cinderpeak | Zarek | Southern territory |
+| 13 | Vyranth | Katya | Coalition military HQ |
+| 14-16 | — | — | OPEN (3 slots remaining) |
 
 ---
 
 ## 🗺️ DISCOVERED AREAS
-> Campaign 1 locations still exist in the world. Campaign 2 additions marked NEW.
+> **Books 1-2 locations:** See `book_1_endgame_tracker.md` and `book_2_endgame_tracker.md`.
+> **Book 4 locations and portal network:** See `kenji_state.json` → `portals` (13 active portals) and `location`.
+> Below: active reference for current gameplay. Book 4 additions marked B4.
 
-| Location | Status | Notes |
-|----------|--------|-------|
-| Varenholm | ✅ | Home base. Academy. Silver Draft. The Gilt Lens. Portal. |
-| Duskfen | ✅ | Portal. Cycle restored. Healing. |
-| Broken Antler | ✅ | Guild HQ. Portal. Garrett operations. |
-| Mines | ✅ | Portal. Ownership challenged. Ore frozen. |
-| Ashward Crossroads | ✅ NEW | Highway junction. Wayside inn. Darkblades camped here. |
-| Highway Attack Zone | ✅ NEW | 12-mile stretch. 3 gate sites cleared. Dead zone. Entity at site 3. |
-| Silent Settlement | ⚠️ NEW | Walled. Gate barred. Someone alive. Between dead zone and Thornwall. Uncontacted. |
-| Waypoint Town | ✅ NEW | Market town past dead zone. Food restocked here. |
-| Thornwall | ✅ NEW | Fortress-city. Iron Coliseum. Tournament. Portal. Watch Commander. |
-| Crestfall | ✅ NEW | Garrison city on Bleakmoor border. Thorne commands. Portal dismissed then rebuilt at ruins. |
-| Bleakmoor | ✅ NEW | Active. Black ground. Corrupted ley lines. Breathing ground. Ruins with portal. |
-| Bleakmoor Ruins | ✅ NEW | Ancient ley infrastructure. Dead channels. Portal placed. Wardbreaker base. |
+| Location | Book | Status | Notes |
+|----------|------|--------|-------|
+| Varenholm | B1 | ✅ | Home base. Academy. Silver Draft. The Gilt Lens. Portal (Vess). |
+| Duskfen | B1 | ✅ | Portal (Pip). Cycle restored. Healing. |
+| Broken Antler | B1 | ✅ | Guild HQ. Portal (Pip). Garrett operations. |
+| Ashward Mines | B1 | ✅ | Portal (Garrett). Ownership challenged. Ore frozen. |
+| Ashward Crossroads | B2 | ✅ | Highway junction. Wayside inn. Darkblades camped here. |
+| Highway Attack Zone | B2 | ✅ | 12-mile stretch. 3 gate sites cleared. Dead zone. Entity at site 3. |
+| Silent Settlement | B2 | ⚠️ | Walled. Gate barred. Someone alive. Between dead zone and Thornwall. Uncontacted. |
+| Waypoint Town | B2 | ✅ | Market town past dead zone. Food restocked here. |
+| Thornwall | B2 | ✅ | Fortress-city. Iron Coliseum. Tournament. Portal (Katya). Watch Commander. |
+| Crestfall | B2 | ✅ | Garrison city on Bleakmoor border. Thorne commands. Portal (Garrett). |
+| Bleakmoor | B2 | ✅ | Active. Black ground. Corrupted ley lines. Breathing ground. |
+| Bleakmoor Ruins | B2 | ✅ | Ancient ley infrastructure. Dead channels. Portal (sealed — monitoring only). |
+| Mordecai Ridge | B2 | ✅ | Portal (Vess). Remote site. |
+| Ironholt | B2 | ✅ | Portal (Dren). |
+| Stormhaven | B2 | ✅ | Portal (Sera). |
+| Deepwood Border | B2 | ✅ | Portal (Eldest). |
+| Cinderpeak | B2 | ✅ | Portal (Zarek). |
+| Vyranth | B2 | ✅ | Portal (Katya). |
+| Hearthstead | B4 | ✅ | Remote farmstead, Greymere Valley. Stone cottage. No portal. Secret purchase via Garrett. Kenji left Ashmere 20 — empty now. |
+| Greymere Valley | B4 | ✅ | Isolated valley. Hearthstead location. 6 months hiding. No ley line. |
+| Thornfield | B4 | ✅ | Village, 240 people. Corruption crisis (Vareth/Greenveil). Briarstone Homestead. Amaris, Wynn, Delia here. |
+| Millhaven | B4 | ✅ | Current hub town. Taryn based here. Commission board. Bracken (garrison commander). Holsk (buyer). |
+| Iron Key Terminus | B4 | ⚠️ | Grid H-9. Edge of death-binder's 32-mile perimeter. Seal unlocking. Current location. |
+| Seravane's Domain | B4 | ☠️ | Undead territory. Pallid March column. 15mi north of old border. Root network detects living intrusion. Sir Corban patrols. |
 
 
 ---
 
-## 📖 STORY FLAGS — CAMPAIGN 2 (THE SUNDERED GATE)
-> Campaign 1 (The Gilt Conspiracy) is RESOLVED. Vael confessed. Solveth freed. Cycle restored. 339 threads severed. All Campaign 1 flags archived — refer to Chapter 1-13 story files for details.
+## 📖 STORY FLAGS — BOOK 4 (FRAYING EMPIRE / THE RONIN ARC)
+> Books 1-3 RESOLVED. See `dm_rules_archive_books1_3.md` for historical flags.
 
 ### ACTIVE THREADS
 | Thread | Status | Priority |
 |--------|--------|----------|
-| Bleakmoor source point | ACTIVE — ley convergence failing, something holding it shut, Wardbreakers allied | HIGH |
-| Mordecai / gate architect | UNKNOWN — built the highway pipeline, abyssal infrastructure, old methods repurposed | HIGH |
-| Vanguard Hall Platinum | ACTIVE — proving contract: Bleakmoor source neutralization | HIGH |
-| Tournament | Day 21, Thornwall. Registration Day 20. | MEDIUM |
-| Mine hearing | Day 21, Varenholm. Same day as tournament. Recall solves conflict. | MEDIUM |
-| Council pressure | ACTIVE — ownership challenge + guild audit. Legal. Paper warfare. | MEDIUM |
-| Ancient civilization | ONGOING — who built the original ley architecture? Pre-dates Academy. Built Emberfang AND the siphon framework. | BACKGROUND |
+| Iron Key / Death-binder seal | ACTIVE — seal unlocking at terminus, patrol ETA 15-20 min post-unlock | HIGH |
+| Seravane / Pallid March | ACTIVE — undead column, bronze-ring network, 4 raised garrison soldiers | HIGH |
+| Millhaven commissions | ACTIVE — Vellin (archivist), Sister Aldra (ward-reader), Teilen (Pallid March expert) | HIGH |
+| Still Night countdown | ~21 days — Pallid March strongest, Hollowing seals deep shafts, Orc Bone Fire | MEDIUM |
+| Sir Corban / stolen chest | ACTIVE — approaching camp to talk | MEDIUM |
+| Taryn relationship | WARMING — debrief complete, leads provided, intro letter pending | MEDIUM |
+| Ronin identity | ONGOING — 6 months suppressed. How long can the mask hold? | BACKGROUND |
 | Kenji's origin | UNRESOLVED — who sent him, why. Solveth confirmed deliberate. | BACKGROUND |
-| Delve deeper passage | DORMANT — something ancient beneath the Delve. Filed for later. | LOW |
-| Silent settlement | UNCONTACTED — barred gate on highway between dead zone and Thornwall. Someone alive. Sera's problem. | LOW |
-| Dead zone entity | NEUTRALIZED — third site. Still standing. Turned head at Darkblades. Not confirmed dead. | LOW |
+| Two babies due | UNKNOWN TO KENJI — Amaris and possibly others. Ronin doesn't know. | BACKGROUND |
 
-### KEY WORLD STATE
-- Solveth lives in Frost Fang. Speaks rarely. Self-interested. Finds abyssal gates fascinating.
-- Circuit Bracelet = former Hollow Crown. Creation + entropy. Now Kenji's portal/squad anchor.
-- Elara is Acting Chancellor. Running the Academy.
-- Vael is Ironveil captain. Former antagonist. Complex loyalty.
-- The Abyss is NOT entropy. Alien. Parasitic. Feeds on the gap the broken cycle left. See THREE COSMIC FORCES.
-- Mordecai is an engineer, not a madman. See VILLAIN DESIGN PHILOSOPHY.
+### KEY WORLD STATE (Book 4)
+- **Ronin persona active.** No one in the current region knows Kenji is the ArchMagus (except Solveth).
+- Solveth lives in Frost Fang. Speaks through ember bond. Ancient. Patient. Cosmic.
+- The Pallid March (undead) strengthens as Still Night approaches. Calendar is a countdown.
+- Iron Key pulls SSW — destination unknown. Death-binder's 32-mile perimeter active.
+- Millhaven is the current hub. Taryn is the primary ally contact.
+- Ronin spells are basic leyline wizard magic — nothing looks like the ArchMagus.
 
 
 ---
@@ -2648,7 +2722,7 @@ The best LitRPG (Dungeon Crawler Carl, Cradle) makes level-ups feel like Christm
 - Stats follow — but ONLY changed/relevant stats, not the full block every time. Full block on level-ups. Abbreviated on non-level chapters.
 - NEW items/abilities get a sentence of narrative context, not just a label
 - Ends with pending threads — what's coming, what's close, what's dangerous
-- Final line: "End of The Sundered Gate — Chapter [number]."
+- Final line: "End of [Current Book Title] — Chapter [number]." (Book 4: "End of Fraying Empire — Chapter [number].")
 
 #### DING Voice Examples (GOOD vs BAD):
 

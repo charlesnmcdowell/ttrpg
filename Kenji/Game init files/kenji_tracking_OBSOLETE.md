@@ -223,7 +223,7 @@
 | Carrick Hale | Carl/DCC | 23 | Stormhaven (restaurant) |
 | Zarek Ashborne | Zac/Defiance | 26 | Cinderpeak |
 | Jarek Windmere | Jake/Primal Hunter | 24 | Deepwood |
-| Mira Ashveil | Ilea/Azarinth | 27 | Unknown |
+| Jessica Windveil | Ilea/Azarinth | 27 | Unknown |
 | Auren Greyholm | Arthur/TBATE | 28 | Silvandris |
 
 ---
@@ -248,7 +248,7 @@ Every encounter unique. Names generated fresh. Both can become recurring charact
 4. **The Iron Crown** — repurpose or destroy?
 5. **300k EXP to Level 40 Apotheosis**
 6. **3 portal slots remaining**
-7. **Mira Ashveil** — 7th transported, never recruited
+7. **Jessica Windveil** — 7th transported, never recruited
 8. **Post-war governance** — coalition stability
 9. **Vyranth reconstruction**
 10. **What is Kenji without a war?**
