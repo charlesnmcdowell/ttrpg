@@ -100,7 +100,9 @@ Auren told the Deepwood who he was. They kept him anyway. The reincarnated king 
 
 The three daughters of the Eldest.
 
-Lythara tends the ley restoration network from the Heart Grove. Her roots reach across the continent. She braids her hair now. She finishes her breakfast. She does things the old-fashioned way and tells her roots to wait. They listen. Mostly.
+Lythara tends the ley restoration network from the Heart Grove. Her roots reach across the continent. She braids her hair now. She finishes her breakfast.
+
+She does things the old-fashioned way and tells her roots to wait. They listen. Mostly.
 
 Nimue runs the aether research division. Three explosions per week. Acceptable losses. She still goes fast. She still goes loud. She brings pie to the E8 crater and tells it about her week.
 
