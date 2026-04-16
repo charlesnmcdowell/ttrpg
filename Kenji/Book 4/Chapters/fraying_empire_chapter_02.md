@@ -278,17 +278,19 @@ But more than that. Something deeper. The Lover's Vigor settles into her like su
 
 She gasps. Pulls back. Looks at her own hands.
 
-She crushes a rock with her bare fingers.
+She crushes a rock with her bare fingers. Stares at the pebbles falling out of her fist.
 
-"What did you *do* to me."
+*"Okay. Okay, what the hell was that."*
 
-She jumps. Six feet straight up. Lands in a crouch. Silent. Balanced. She draws the scimitar — it moves like a willow switch.
+Not scared. Delighted and completely confused at the same time. She jumps — six feet straight up, lands in a crouch, silent, balanced. She draws the scimitar. It moves like a willow switch.
 
-"My spells are stronger. I can think faster. I memorized the Stilthorn recipe from one reading." She stares at me. "This isn't an aura effect. You *changed* me."
+*"My spells are stronger. I can think faster. I memorized the Stilthorn recipe from one reading."* She turns to me, grinning now, eyes wide. *"Ronin. What ARE you."*
 
 I tell her I came inside of her.
 
-"That is NOT an explanation for why I can CRUSH ROCKS with my BARE HANDS."
+She laughs — loud, real, echoes off the web canopy.
+
+*"That is NOT why I can CRUSH ROCKS with my BARE HANDS. Try again. With more words."*
 
 She has questions. I tell her after the big one.
 

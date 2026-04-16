@@ -4,6 +4,12 @@
 
 ---
 
+Forty minutes at the forward camp. Water. Jerky. A replacement ration kit Pip packed with a note that just says *eat the fruit first.* The bracelet shows eighty-four constructs in perimeter, Kael and Brindle on the eastern line, no new contacts. Dren's mercs at the tear, shields set, professional silence.
+
+Thessaly's voice through the Whisperstone: *Back in. We've mapped sub-chambers. Senna wants a council.*
+
+Recall anchor holds. One charge refreshed overnight. I step through the tear again — the cold-in-bones, the wrong gravity, the sound catching up half a beat late. The threshold accepts me the way it accepted us this morning: without resistance, without ceremony.
+
 Senna has the map drawn before I reach the briefing point. Chalk on a flat slab of broken stone. Three corridors branching from the threshold. Finch and Varn flanking the entrance. Thessaly cross-legged behind them, staff across her knees, eyes half-closed — reading ley currents.
 
 "You're on time. Good." She taps the chalk. "Wardbreakers ran three sub-chambers while you were at camp. Here's what we've got."

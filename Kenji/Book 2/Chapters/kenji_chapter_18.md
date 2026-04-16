@@ -1,36 +1,68 @@
 # The Sundered Gate — Chapter Eighteen: Champion
 
-I yield at full health. My palm over Sera's mouth before she can return the favor — twenty seconds, eight thousand witnesses, and the truth: smitten since Day One.
-
-When I let go, she breathes once. "You could have said that without the gag."
-
-"You would have argued."
-
-"I'm Iron Coliseum Champion because you decided the trophy was homework." She lifts the cup like it might bite. A thousand gold in prizes. The crowd still doesn't know which anthem to scream.
+**Day 21, Late Afternoon → Evening**
 
 ---
 
-Senna's semifinal still replays in my skull.
+The championship bout is fourteen seconds long and will be argued about in Thornwall taverns for twenty years.
 
-Charm lands dirty — her guard slips at the worst heartbeat. She says something honest about my hands, hates herself mid-sentence, sets her stance anyway.
+Sera walks into the ring in a cleaned version of the Academy blue, rapier sheathed at her hip, Breach Shard holstered at her belt. She has just beaten Dren Valdric in the other semifinal — rapier against greatsword, patience against adaptive armor, two Breach Bolts at point-blank and Dren on the ground with the same grin he was wearing when he walked in. Three years of Lord of Ironholt's pride went back into its box with a polite bow.
+
+I walk in against her. Bell.
+
+She draws. I don't.
+
+"Kenji."
+
+"I yield."
+
+My palm goes over her mouth before she can return the favor. Twenty seconds of her trying to argue through my fingers. Eight thousand witnesses. And the truth I say quietly against her ear, under the noise of a stadium trying to decide what it just watched: *smitten since Day One.*
+
+When I let her go, she breathes once.
+
+"You could have said that without the gag."
+
+"You would have argued."
+
+"I would have."
+
+"I know."
+
+She lifts the cup like it might bite. Iron Coliseum Champion. A thousand gold in prizes. The crowd still doesn't know which anthem to scream.
+
+---
+
+The semifinal still replays in my skull while the announcer is reading Sera's title into the ring.
+
+Me and Senna. An hour earlier. Same ring, same dirt. Round two.
+
+Charm lands dirty — I spend the last reaction I have on a compulsion and it catches her guard slipping at the worst heartbeat. She says something honest about my hands, hates herself mid-sentence, sets her stance anyway.
 
 "Fight me."
 
-I sit. Hands behind my head. Stare until she flicks my forehead and yields.
+I sit. Cross-legged. Hands behind my head. Stare at her until she walks over and flicks my forehead.
 
-She walks out with the wrong grin — not competition. The kind that means the math changed.
+"Yield."
 
-Elara will filet me for compulsion in front of a stadium. Good. I earned the lecture.
+She yields for me. The walk back to the alcove is the wrong grin — not competition, not recovery. The kind of grin that means the math she had on me this morning isn't the math she has on me this afternoon.
 
-Spar resistances faded — three days did it. Frost Fang would've hit full if I'd swung steel; I didn't need to. Charm did the blade's job for thirty seconds. Two exposures: she's immune now. Next conversation with Senna happens without shortcuts.
+Elara will filet me for compulsion on an ally in front of a stadium. Good. I earned the lecture and I'd like to get it out of the way tonight.
 
-Sera — nod before the championship, two Breach Bolts I ate on borrowed nerve, neither of us drawing steel when pride would've let us.
+*Spar-resistances faded — three days did it. Frost Fang would have hit full if I'd swung steel; I didn't need to. Charm did the blade's job for thirty seconds. She's burned both exposures on me; next one rolls off. Next conversation with Senna happens without shortcuts.*
 
-I tickle her once. She laughs — real, not performance. "Still think I'm cute?"
+The list Elara keeps of every documented incident has my name on it now. I put it there myself.
 
-She nods.
+---
 
-The list has my name on it. I put it there.
+Sera's final started with a nod across the ring — the nod she gave me meant *don't pretend you don't know this is a script.* Two Breach Bolts I ate on borrowed nerve because the Ward didn't catch them clean. Neither of us drawing steel when pride would have let us.
+
+Twenty seconds in, I tickled her once under the ribs, to break the pretense she was maintaining that this was a fight. She laughed — real, not performance.
+
+"Still think I'm cute?"
+
+She nodded.
+
+Yield.
 
 ---
 

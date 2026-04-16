@@ -1,6 +1,8 @@
 # KENJI — COMPLETE CHARACTER TRACKING
-## Mid-Book 4: The Ronin — End of Chapter 5 (*The Eastbound Run*)
-### Ashmere 24, 1247 AR (Day 246) — South road out of Millhaven
+## Mid-Book 4: The Ronin — End of Chapter 6 (*The Grove That Held Its Breath*)
+### Ashmere 26, 1247 AR (Day 248) — Millhaven east gate, Kenji + Bracken bound for Corban's chapel
+
+> **Vigor window active:** Day 248 → Day 253. Lover's Vigor +50% all stats on Kenji. Bracken immune to Presence for 5 days; Unsatisfiable applied (dormant). New lead: **Vellin of Ashenveil** — private archive on 1040s Ashenmere Warden-elect bond rings (letter of introduction from Bracken). Grove plan: civil terms through Corban's chapel, map only, no extraction this trip.
 
 > Book 4 is a deliberate scale-down: Kenji is traveling the southern provinces as a solo ronin, cash-and-carry mercenary work, sleeping in inns, no constructs called, no portals used, high-tier gear stored. The Post-Book 3 snapshot below is preserved as a historical peak reference. The **BOOK 4 CURRENT STATE** section at the bottom reflects what is actually in play right now.
 
@@ -287,13 +289,13 @@ Every encounter unique. Names generated fresh. Both can become recurring charact
 
 ---
 
-### BOOK 4 CORE STATS (17 partners, ring stored)
+### BOOK 4 CORE STATS (18 partners, ring stored)
 
 | Stat | Base | Bonded Lovers | Total | Mod |
 |------|------|---------------|-------|-----|
-| STR  | 20   | +17           | 37    | +13 |
+| STR  | 20   | +18           | 38    | +14 |
 | DEX  | 18   |               | 20*   | +5  |
-| CON  | 20   | +17           | 37    | +13 |
+| CON  | 20   | +18           | 38    | +14 |
 | INT  | 9    |               | 9     | -1  |
 | WIS  | 10   |               | 10    | +0  |
 | CHA  | 20   |               | 20    | +5  |
@@ -329,10 +331,11 @@ Every encounter unique. Names generated fresh. Both can become recurring charact
 | 15 | **Delia** | Road Sense | Trade Warmth (detect dead/live trade routes) | B4 Ch3 |
 | 16 | **Wynn** | Clean Cut | **Diagnostic Touch** (scan wounds/poisons) | B4 Ch4 |
 | 17 | **Taryn** | Iaido Stance (guaranteed crits on drawn cut) | **Steel Sight** (weapon quality/flaws at a glance) | B4 Ch4 |
+| 18 | **Bracken** | **Captain's Read** (intent/rank/allegiance/lie-tells on sight) | **Bond-Form Sight** (read geometry/termination/feeder of any binding contract — paladin oaths, ring bonds, ley-anchors) | B4 Ch6 |
 
 ---
 
-### BOOK 4 INTIMATE PARTNERS (5 new)
+### BOOK 4 INTIMATE PARTNERS (6 new)
 
 | Name | When | Role | Bond Skill / Perk |
 |------|------|------|-------------------|
@@ -341,6 +344,7 @@ Every encounter unique. Names generated fresh. Both can become recurring charact
 | Delia | Ashmere 17, crossroads | Caravan outrider | Road Sense / Trade Warmth |
 | Wynn | Ashmere 20, Millhaven | Field medic, garrison infirmary | Clean Cut / Diagnostic Touch |
 | Taryn | Ashmere 21-22, Millhaven | Gate guard → commissioned scout (mythril half-plate, thrum halberd) | Iaido Stance / Steel Sight |
+| Bracken | Ashmere 25-26, Millhaven | Watch Captain, Millhaven garrison (19yr service, Coalition Ashenmere rotation) | Captain's Read / Bond-Form Sight |
 
 ---
 
@@ -351,11 +355,12 @@ Every encounter unique. Names generated fresh. Both can become recurring charact
 - **Ronin Hat / Ninja Mask** — face concealment, no aura tell at distance.
 - **Threadwalker Gloves** — silent hand movements, +5 Sleight/Stealth.
 - **Windstrider Boots** — DEX +2, +5 Acrobatics, 20% dodge, silent, no tracks.
-- **Storage Ring** — Bag of Holding (iron key, iron chest from Aldric, bronze ring mass, etc.)
+- **Frost Fang (summoned)** — conjured blade, creation-energy-manifested, blue-black with green entropy edge, cold vapor. NOT carried on the hip — no sheath. Summoned in-hand on command from the ember (same creation-summon mechanic as the vampiric knives in Archmagus mode). **Solveth the Unraveler**, the God of Entropy, is bound to the ember itself and rides the blade when it manifests. When the blade is dismissed it dissolves to cold vapor; Solveth persists in the ember. 1d8+5 cold + 10% max HP necrotic per hit, slow on target, 50% of damage returns as healing to Kenji. Solveth speaks, observes, sardonic. **Ronin-mode risk note:** summoning Frost Fang is a visible creation-conjuration — an archmagus-grade tell to anyone with the training to recognize it. In Seravane's grove (Ch6) the audience is undead with no baseline on Kenji or his signature, so it is NOT an immediate cover break in-world. It becomes one only if word later reaches someone who can connect "Kenji" to "archmagus summoning" (Varenholm scholars, Thessaly's circle, a War College researcher, etc.). Kenji has kept it holstered in the ember since entering Book 4; Seravane's grove is the first Book 4 summon.
+- **Storage Ring** — Bag of Holding (iron key, iron chest from Corban, bronze ring mass, etc.)
 - **Whisper Stones** — still available but unused this book (no network calls).
 
 ### STORED (not in play)
-- **Emberfrost** double blade, **Instructor's Guard** leather, **Ring of Strength**, **Circuit Bracelet** — all at Varenholm or in the portal vault. Not invoked in Book 4.
+- **Emberfang** (fire/creation half of Emberfrost), **Instructor's Guard** leather, **Ring of Strength**, **Circuit Bracelet** — all at Varenholm or in the portal vault. Not invoked in Book 4. *Frost Fang (the cold/entropy half, with Solveth inside) is carried, not stored.*
 
 ---
 
@@ -387,7 +392,7 @@ Every encounter unique. Names generated fresh. Both can become recurring charact
 | Taryn | Millhaven | Ex-gate-guard → commissioned scout, bonded. **Knows the cold hand.** Has Bracken's Letter of Commission (Coalition Council auth + 475g now / 5000g pending). Wearing Holsk's mythril half-plate, carrying Holsk's thrum halberd. |
 | Bracken | Millhaven | Ranger-captain / commissioner. Writes contracts. Pays clean. |
 | Holsk | Millhaven forge | Master blacksmith. Reforged Taryn's kit. Revealed the **maerinbronze / thrum alloy** on the ruin rings (pre-Guild Ledger, 800+ years). Paid 1,440g for 8 bronze rings. |
-| Sir Aldric the Fallen | Eastbound trade road | Ashenmere knight, turned. Encountered at the caravan vanishment site. Left behind a warded iron chest (stolen, unopened). |
+| Sir Corban the Fallen | Eastbound trade road | Ashenmere knight, turned. Encountered at the caravan vanishment site. Left behind a warded iron chest (stolen, unopened). |
 | Seravane | The Pallid March | Border-setter. Left the note at the caravan circle. Threat vector: the border isn't where the Coalition thinks. |
 
 ---
@@ -395,7 +400,7 @@ Every encounter unique. Names generated fresh. Both can become recurring charact
 ### BOOK 4 ACTIVE QUESTS
 
 1. **The Southern Marker** — iron key from the Millhaven ruin is humming south-southwest along a ley tether. Kenji is on its thread now. Something sealed. The bronze rings were holding it.
-2. **Aldric's Chest** — warded iron chest, stolen from the caravan-vanishment site. Unopened. Requires safe workspace + counter-wards.
+2. **Corban's Chest** — warded iron chest, stolen from the caravan-vanishment site. Unopened. Requires safe workspace + counter-wards.
 3. **The Ashenveil Letter** — Taryn holds commission authority to present the Ashenveil column evidence (including four Millhaven garrison dead) to the Coalition Council. Outcome pending her arrival.
 4. **Pallid March / Seravane Recon** — the border Seravane drew isn't the one on Coalition maps. Active threat vector.
 
@@ -404,7 +409,7 @@ Every encounter unique. Names generated fresh. Both can become recurring charact
 - Greymere relief run (Ch1)
 - Greenveil druid circle assistance (Ch2)
 - Millhaven ruin — bronze ring extraction, iron key acquired (Ch4)
-- Eastbound bandit/caravan investigation + Sir Aldric contact (Ch5)
+- Eastbound bandit/caravan investigation + Sir Corban contact (Ch5)
 
 ---
 
@@ -430,7 +435,7 @@ Every encounter unique. Names generated fresh. Both can become recurring charact
 | 242 | 20 | Ch4 — *Millhaven* | Arrive Millhaven, Broken Wheel, Wynn, garrison infirmary |
 | 243-244 | 21-22 | Ch4 | Taryn training + bond, ruin prep |
 | 244 | 22 | Ch4 end / (Ch "Signpost" aside) | Ruin south of Millhaven. Phantom double recon, Watchers two-tap, 8 bronze rings + iron key. Holsk reveal. Broken Wheel door close. |
-| 245 | 23 | Ch5 — *The Eastbound Run* | Eastbound decoy. 4 bandits. Caravan vanishment site. Seravane's post. Ashenveil column + 4 Millhaven dead. Sir Aldric the Fallen. Iron chest acquired. |
+| 245 | 23 | Ch5 — *The Eastbound Run* | Eastbound decoy. 4 bandits. Caravan vanishment site. Seravane's post. Ashenveil column + 4 Millhaven dead. Sir Corban the Fallen. Iron chest acquired. |
 | 245 | 23 evening | Ch5 | Back to Millhaven. Holsk finishes Taryn's mythril + thrum halberd. Wolf pack + warg Matriarch solo'd by Taryn (16 wolves + 1 warg, six minutes). Bracken's Letter of Commission (475g / 5000g pending). |
 | 246 | 24 | Ch5 end | **The Cold Hand.** Taryn clocks the phantom double on main street. Kenji over the south wall. Wind Step. Iron key tether south-southwest. Millhaven behind. |
 
@@ -448,7 +453,7 @@ Every encounter unique. Names generated fresh. Both can become recurring charact
 ### BOOK 4 OPEN THREADS / HOOKS
 
 - Iron key's destination (active thread)
-- Aldric's chest contents
+- Corban's chest contents
 - Coalition Council response to Taryn's Ashenveil evidence
 - Seravane's actual border
 - Still Night countdown (T-18 days approximate)

@@ -6,9 +6,11 @@
 
 ---
 
-Varenholm. The ley alcove. Grey sky. Rain on the colonnade.
+Back through the Delve portal to the Academy. Up through the cloister. Down the long stair to the ley alcove — the same stair I walked an hour ago with Pip, only this time the whole expedition behind me and the Crown heavier in the satchel than it has any right to be.
 
-Elara. Aldwin. Sera. Edwyn. Pip. Ryn. Callen and Ashdown with the notebook.
+Varenholm. The ley alcove. Grey sky cut by the colonnade's stone arches overhead. Rain drumming on the flags outside the open mouth of the chamber. Aldwin already there — summoned ahead, containment wards chalked in a wide circle around the ley core, his staff planted at the center of the pattern. Elara at the threshold in her Chancellor's cloak. Sera and Edwyn flanking the entrance. Pip and Ryn at the back wall. Callen and Ashdown seated on the step with the notebook open between them.
+
+Everyone waiting for me to set Frost Fang into the floor.
 
 "Let's set these people free."
 

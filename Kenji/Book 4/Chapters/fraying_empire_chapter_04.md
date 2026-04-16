@@ -88,13 +88,13 @@ My arm doesn't move.
 
 I don't push back. I hold her hand and look at her eyes. My thumb traces across her knuckles. I start talking. Casual. How long she's been a guard. What she knows about the area. Jobs that pay real money.
 
-While I talk, I move her arm. One-third of the way toward the table. So slow it could be gravity.
+She keeps pushing for about twenty seconds. Then she stops pushing, looks at our hands, looks at my face, raises an eyebrow, and lets her grip soften — contest grip to just a grip. Holding on.
 
-She notices. She can't stop it. She stops trying. Her hand in mine shifts from a contest grip to just a grip. Holding on.
+*"Oh,"* she says, half a smile. *"It's like that."*
 
-I move it slowly the rest of the way down while she tells me about the Ashenveil and the missing caravan and the wolves and the ruin. Her hand touches the table gentle. The softest pin. My thumb still moving on her knuckles.
+I lower her arm slow while she tells me about the Ashenveil and the missing caravan and the wolves and the ruin. Her hand touches the table gentle. The softest pin. She leaves her hand in mine after.
 
-"Thirty-one and five." She says it quiet. "The other four losses made me angry. This one didn't."
+*"Thirty-one and five,"* she says quiet. Grinning now. *"The other four losses made me angry. This one did not."*
 
 ---
 
@@ -126,21 +126,23 @@ Taryn stares at the lockbox where forty gold disappeared.
 
 ---
 
-She takes the mask off herself. One hand. Quick. Looks at my face for two seconds. Decides she's keeping it.
+She takes the mask off herself. One hand. Quick. Looks at my face for two seconds.
+
+*"Yeah. I'm keeping this. Just so we're clear."*
 
 Fast. Hard. The bed frame hits the wall. She doesn't make noise — she breathes through exertion. The way she breathes through a drill.
 
-The ember slips. The gold warmth. She gasps.
+After — she stretches her hand out, flexes the wrist, rotates it. Looks at the old burn scar. Rotates again. A slow grin starts.
 
-After — her hand on her own wrist. The burn scar. Rotating.
+*"Huh. My wrist doesn't hurt. It's hurt for eleven years. Ronin. What."*
 
-"My wrist doesn't hurt. It always hurts. It's hurt for eleven years."
+She says it happy, not alarmed. Turns the wrist a third time. Laughs once.
 
 ---
 
 Morning. The bed is in four pieces. Three noise complaints. A note from the innkeeper. Room 4 asked if the room is available tomorrow night.
 
-I take her again. Longer. At three-quarters. When I release the ember doesn't slip — it pours. Every scar she ever earned erases like chalk in rain. The burn. The eyebrow. The ankle micro-fracture. The shoulder. Eleven years of garrison wear reversing to nothing. Her skin tightens. Two years of age smoothing backward.
+I take her again. Longer. At three-quarters. After, she traces a hand down her own arm — the burn scar is smooth skin. The eyebrow is whole. The old ankle fracture. The shoulder. Eleven years of garrison wear gone. Her skin tightens. Two years of age easing backward.
 
 "All of them. All of them are gone."
 

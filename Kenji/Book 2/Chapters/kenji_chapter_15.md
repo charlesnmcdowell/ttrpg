@@ -4,9 +4,13 @@
 
 ---
 
-Sera walks through the Thornwall gate at Hour 14 leading eight Darkblades in column. Four days on the eastern highway. Dust on their gear. Blood on two shields — old, brown, from something that bled wrong.
+Sera walks through the Thornwall west gate at Hour 14 leading eight Darkblades in column. Four days on the eastern highway. Dust on every piece of kit they own. Blood on two shields — old, brown, set into the grain like the shields have decided to keep it. Tarin in the second rank, staff-end dragged in a line behind her because she is too tired to lift it straight. Ryn in the third rank, notebook still open on a strap across his chest, still writing while walking.
 
-She dismisses the squad with a hand signal. Walks to me. Professional distance.
+She sees me at the Coliseum gate from fifty yards out. Doesn't change pace. Doesn't wave. The Whisperstone on her finger catches light as her hand moves to her belt — a reflexive check, not a greeting.
+
+She dismisses the squad with a hand signal at the barracks turn-off. Walks the last twenty paces to me alone.
+
+Professional distance. Her eyes do the same one-pass read Aldwin did a week ago — armor, bracelet, mask — and end on the mask the way Aldwin ended on the staff. Inventory taken.
 
 "Highway's clear of hostiles. Fourteen kills across four days. Three gate scars still active — we held perimeter but couldn't seal them. That's your job."
 
@@ -36,29 +40,84 @@ Site 2. Same. Dormant. Ember Lance. Sealed.
 
 Site 3. Different.
 
-Forty feet across now — doubled in four days. Floor breathes. Center's not a scar-line anymore; it's a red circle twenty feet wide, thumping like a heart.
+The grey strip is forty feet across now — doubled in four days. The floor *breathes,* the rhythm slower and deeper than the breathing ground at the Bleakmoor rim because this thing is bigger. The center is not a scar-line anymore. It's a red circle twenty feet wide, thumping in time with the breath.
 
-God Sight: terminal. Siphon runs sixty feet down, then southeast — convergence, then Sundered Gate. Something's **grown** into the junction. Valve-creature. Months of drinking siphon soup.
+God Sight reads it and I wish it hadn't. Terminal. The siphon runs sixty feet down from the surface and then turns southeast — convergence first, then the Sundered Gate beyond. Something has *grown* into the junction. Not built. Grown. The architecture invited a guest and the guest has spent months drinking the pipe.
 
-Solveth: *Cut the valve. Cauterize the pipe. Don't romanticize the worm.*
+Valve-creature. God Sight calls it a valve because that's what it's doing — regulating flow, routing power, answering the pipeline's pressure changes with organic contractions.
 
-Emberfrost down the shaft. Four Cyclones — first hits meat, second tears it off the wall and kills regen, third digs, fourth finds center. It comes apart in pieces.
+Solveth, hard: *Cut the valve. Cauterize the pipe. Don't romanticize the worm.*
 
-Channel screams. Acid mist. Three minutes of bad air. Two Ember Lance charges straight down — seal, fuse, cauterize. Red dies inch by inch. Breathing stops.
+"Noted."
+
+*Down the shaft. Do not let it coil on you inside the pipe.*
+
+"Noted twice."
+
+---
+
+I step onto the red circle.
+
+It *recognizes* me — the thumping drops out of rhythm for a heartbeat, then comes back faster. The grey strip's edge crawls another six inches outward while I'm standing on the lid. Drinking the ember's ambient.
+
+Emberfrost drawn. Ember Lance lit in the right hand, low burn, pointed down at my boots.
+
+I punch through.
+
+The lance drills a three-foot circle of black glass floor into molten black glass ceiling of the chamber below, and I drop through the hole the way you drop through a trapdoor you just made.
+
+Sixty feet down. The Windrunners slow the fall. I land on a ledge six feet above the valve itself.
+
+The valve is meat. Meat wrapped around stone. Meat wrapped around void-signature crystal. Peristaltic contractions running along its length in visible waves. The smell is everything wrong at once — lanolin, ozone, old blood.
+
+It turns toward me.
+
+Cyclone. Emberfang spinning, Giant's Throw stacked. The blade hits the valve meat and *disappears* into it — the flesh closing over the wound faster than the recall can pull.
+
+"Solveth —"
+
+*Yes. Recall is fighting the regen. Give it three of them. Give it *weight.* *
+
+Three more throws. Back to back. The recall dragging each time.
+
+First throw: hits meat, regen closes behind it.
+Second throw: same wound, two inches deeper. Recall tears off a chunk of tissue on the way out.
+Third throw: three inches deeper. Black valve-fluid spraying.
+Fourth throw: into the center core. The crystal at the valve's heart.
+
+The fourth throw finds center.
+
+The valve shudders the length of the chamber — a peristaltic spasm that runs top to bottom and then reverses — and comes apart in pieces.
+
+The channel *screams.* Not sound. Pressure. The red glow in the chamber collapses inward. Acid mist from the ruptured fluid lines sprays across the ledge. Ward Mastery catches most of it. What leaks through leaves pits in the armor.
+
+Three minutes of bad air. I hold.
+
+Then two Ember Lance charges straight down into the ruptured pipe where the valve was. First charge seals the top two feet. Second charge fuses the seal down to the next joint. The red dies inch by inch, like a wound cauterizing in reverse.
+
+The breathing stops.
+
+The strip outside, when I come back up through my hole, has stopped growing.
 
 Terminal's dead. Mordecai's pipe leaks somewhere else now.
 
 ---
 
-Portal to Thornwall. Sera at the barracks. Boots off. Bowl of something warm.
+Portal back to Thornwall. I step out three blocks from the barracks with pits in the armor and valve-fluid in my hair and the particular post-combat tiredness that the ember can't buff out.
+
+Sera is at the barracks mess table. Boots off. Bowl of something warm between her hands. She looks up when I come in. Doesn't react to the armor or the hair. She's seen worse from me than this and it hasn't been a month yet.
 
 "All three?"
 
 "All three. Site three was a terminal. Living thing grown into the channel."
 
-She nods. Doesn't ask for details.
+She nods. Doesn't ask for details. She has them from Solveth's stormfront anyway — Whisperstone carries combat harmonics the way a tuning fork carries a struck note, and she will have heard the shape of the fight if not the words.
 
 "Highway's clean then."
+
+"Highway's clean."
+
+She pushes the bowl across the table at me. I eat it standing.
 
 ---
 

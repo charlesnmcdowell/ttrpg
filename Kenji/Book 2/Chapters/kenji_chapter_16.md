@@ -4,11 +4,25 @@
 
 ---
 
-Dawn. Varenholm. Ley alcove — six buffs in ten minutes: God Sight, Haste, Stride, Frost Fang, Giant's Throw, Enhanced Edge. Emberfrost on my back. Channels feel wider every morning; the ember runs hot and clean.
+Dawn. Varenholm.
 
-Portal to Thornwall.
+The city is quiet at this hour — the kind of quiet a place gets the morning of a long day, when everyone who matters has already started and everyone who doesn't is still asleep. I walk the three blocks to the Academy in street-silence.
 
-Iron Coliseum over the military quarter — stone tiers, iron posts, blue ward-line at the ring. Eight thousand seats, all full. Architecture built to sound like a threat.
+Ley alcove. Hands on stone. Six buffs in ten minutes — God Sight, Haste, Stride, Frost Fang's native chill, Giant's Throw, Enhanced Edge. I stack them in order, because the order matters, because the ember seats each one against the one before it. Channels feel wider every morning. The 339 are gone; the ember runs hot and clean in the space they used to fight me for.
+
+Solveth, quiet, through the blade: *Today is a performance day, not a combat day. Try to remember the difference.*
+
+"I'll try."
+
+*You won't, but the intention counts.*
+
+Emberfrost on my back. Bracelet warm. Portal to Thornwall.
+
+---
+
+Iron Coliseum over the military quarter. Stone tiers, iron posts, blue ward-line at the ring. Eight thousand seats and every one of them full before the first bell — Thornwall's Platinum proving circuit running in parallel with the Vanguard qualifier, and a gazette-listed ArchMagus on the bracket. The crowd noise is not the noise of a stadium expecting a game. It is the noise of a stadium expecting a story.
+
+Architecture built to sound like a threat. The ward-line at the ring flickering faint blue — *you can fight in here, you can't leave in here.*
 
 Tournament day.
 
@@ -18,11 +32,13 @@ Tournament day.
 
 Greave walks out first. Full plate. Greatsword across his back. Three years undefeated. The crowd knows him. They roar when he draws the sword.
 
-I walk out second. The noise dips — the gates have a reputation now. Highway calls them the ArchMagus gates.
+I walk out second. No cloak. Academy blue scarred visibly at chest and shoulder — the repairs Maren made after the acid but not the ones she hasn't made yet. The noise dips. The gates have a reputation now. Highway villages call them the ArchMagus gates.
 
 Bell.
 
-I sit. Cross-legged. Dirt. Meal from the satchel. I eat.
+I stop three paces inside the ring. Greave's guard tightens.
+
+I sit. Cross-legged. Dirt. I reach into the satchel and take out a meal — Pip's bread, a wedge of cheese, the small green thing she insists on. I lay the cloth out on my lap. I eat.
 
 Eight thousand people forget how lungs work. Greave's greatsword dips an inch.
 

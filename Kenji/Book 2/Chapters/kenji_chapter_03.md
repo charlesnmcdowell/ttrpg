@@ -56,45 +56,111 @@ The glass is cold. Old. I keep walking.
 
 ---
 
-Mile eight. Grey strip eighty feet wide. Trees falling. Road cracking.
+Mile eight. Grey strip eighty feet wide. Trees falling on both sides — not rotted, *gone soft*, as if the wood forgot how to be wood. Road cracking down the center. The air has the flat pressure of a room with the windows shut.
 
-God Sight catches movement. Three shapes — flat, disc-shaped — sliding through the deadfall on both sides. No legs. Gliding in jerky stops and starts. The air going flat and dead wherever they pass. God Sight reads them as gaps. Holes in the weave of things. The ember reaches and finds nothing to grab — like trying to shake hands with a shadow.
+God Sight catches movement a hundred yards ahead — three shapes, flat, disc-shaped, sliding through the deadfall off the right shoulder. No legs. Gliding in jerky stops and starts. The air going flat and dead wherever they pass. God Sight reads them as gaps — holes in the weave of things. The ember reaches and finds nothing to grab. Like trying to shake hands with a shadow.
 
-They're pacing me. Flanking. Getting closer. Not mindless — they're boxing me east, toward the second X. Herding behavior. Something programmed this, or something is watching through them.
+I slow. Don't stop. Let them see me keep pace. A fourth one — no, same three, one looped behind through the left treeline. They're not pacing. They're *flanking.* Boxing me east, toward the second X on the map. Herding behavior. Something programmed this. Or something is watching through them right now.
 
-I step off the road. They charge.
+*Solveth.*
 
-Emberfrost. Horizon Arc — fire and frost expanding outward in a ring. All three stagger. Creation light burns where it touches them — not healing, not restoring, just *annihilating*. The void peeling back from gold. The healing floods back — creation light ripping through all three at once. Against groups, the destruction is obscene.
+*I see them. They have no minds I can address. Treat them like weather.*
 
-The nearest catches the Cyclone throw and comes apart. No blood. No bones. It dissolves into black glass shards that keep dissolving until nothing is left. Two left. I split the blades. Cross-guard. They hit the guard and bounce. Frost Fang catches one on the exit. Emberfang meets the other. Both dissolving within seconds.
+*Weather with a direction.*
 
-Silence. The dead strip is thirty feet wider than it was five minutes ago. I sheathe both blades. They wanted me moving toward the second X. I'm going anyway — but I don't love that we agreed on the destination.
+*Yes.*
+
+Forty yards. Thirty. They stop trying to stay hidden and come at me from three angles at once — a cut-off play, two on the flanks, one up the road to close the jaws.
+
+I step off the road onto the dead grass and draw both blades at once.
+
+**Emberfrost.** The twin-stance lock — Emberfang in the right, Frost Fang in the left, the blades' auras meeting at the cross-guard and stitching into a single double-edged profile. Fire on one side. Frost on the other. Creation down the seam.
+
+**Horizon Arc.** Both blades sweep outward in a ring — fire and frost expanding in a halo thirty feet wide. All three discs hit the ring at once. Void meeting gold. Creation light doesn't heal them — nothing to heal. It *annihilates*. The void peels back wherever the ring touches, and the ring is everywhere at once. Against a group this tight, the effect is obscene.
+
+All three stagger. None drop.
+
+I don't give them the recovery beat. The first throw of my life that earns a name — Emberfang leaves my right hand spinning on the long axis, fire-and-frost helix trailing, a single weapon thrown like a handaxe at range. The Cyclone. Solveth's private word for it, from a story he told once about a monk who threw his spear at the sky.
+
+The nearest disc catches Emberfang center-mass and comes apart. No blood. No bones. Black glass shards dissolving until there is nothing left to dissolve.
+
+Two left. The left-flank one tries to close. I recall Emberfang — the enchantment tugs back to my palm like a leash called — and split the blades into a low cross-guard as the disc hits.
+
+The guard catches. Both discs bounce.
+
+Frost Fang catches the left one on the exit — a clean thrust through the gap where its center mass should be. It dissolves in three breaths. Emberfang meets the right one — downward stroke, edge against the flat of it, fire along the seam. Same result.
+
+Silence, except for the wind.
+
+The dead strip is thirty feet wider than it was five minutes ago. The edge crept outward while the fight was happening. I note that. I sheathe both blades slowly and watch the treeline for a fourth.
+
+Nothing.
+
+They wanted me moving toward the second X. I'm going anyway — but I don't love that we agreed on the destination.
 
 ---
 
-Mile nine. Dead zone a hundred feet across.
+Mile nine. Dead zone a hundred feet across. Nothing growing. Nothing moving. Not even wind.
 
-The gate. Twelve feet of black glass, red veins pulsing. Not a scar — alive. The vein pattern is symmetrical. Deliberate. Someone designed this the way an architect designs a bridge — form serving function, every line carrying load. I hate how good it is.
+The gate.
 
-Two pillars of black glass flanking it. Seven feet tall. No arms. Heads tapering to smooth points. Hovering. A drone in my teeth that the ember can't find a frequency for.
+Twelve feet of black glass set upright in the center of the zone, red veins pulsing across its surface in slow synchronized waves. Not a scar. Alive. The vein pattern is symmetrical — deliberate. Someone designed this the way an architect designs a bridge. Form serving function, every line carrying load. I hate how good it is.
 
-Solveth: *Do not let the beams touch the bracelet. The architecture is compatible — it might try to FEED.*
+Two pillars of the same black glass flank it. Seven feet tall. No arms. Heads tapering to smooth points, like the tip of a sharpened stick. Hovering a hand's breadth off the ground. A drone rides in my teeth that the ember can't find a frequency for. God Sight reads both pillars as the same kind of gap as the discs — but denser. Thicker weave of absence. These are not discs grown up. These are the proper piece.
 
-The near one fires before I can answer. A beam of red-black energy that hits my chest and removes a perfect circle of blue dye from the leather. Academy colors burned away in a ring the size of my fist. The armor doesn't self-repair. Aldwin's armor. Twenty years old. I take that personally.
+I stop at forty yards. They notice. Both pillars rotate toward me in perfect sync.
 
-Ward Mastery. Acid resistance online. God Sight finds the weak point — red veins converging at a nexus, center mass. But the beam comes from the head. Two systems, one body. Smart design.
+Solveth, sharp and low: *Do not let the beams touch the bracelet. The architecture is compatible — it might try to FEED.*
 
-Frost Fang through the near one's tip. Dead center. Thunder detonates through the contact. Launched ten feet. Down. I close the distance to the far one. Same shot — tip shatters. Beam destroyed.
+*Understood.*
 
-The near one fires from behind. Ward catches most of the acid. What leaks through burns — not fire-burns, *dissolves*. Leather fibers separating at the molecular level. The far one pulses from the ground, trying to stand. I twist sideways. Three strikes finish the near one — crystallizes and shatters. The far one melts under both blades.
+The near one fires before I finish the word. A beam of red-black energy — not light, the opposite of light — punches out of its tip at the speed of thrown rock. I angle. Too slow. It hits my chest at the edge of the pectoral plate and removes a perfect circle of blue dye from the leather the size of my fist. Not burned. *Removed.* Academy colors gone like they were never there, leaving the undyed hide beneath.
 
-Emberfang. Ember Lance. The golden beam hits the gate. Creation doesn't heal it — creation *burns* it. The black glass whitens, cracks, folds inward. The red veins flash gold for a half-second before they die. The architecture fighting the overwrite and losing.
+The armor doesn't self-repair.
+
+Aldwin's armor. Twenty years old. I take that personally.
+
+**Ward Mastery** flares — the full abjuration stack Elara drilled into me, spun up in a breath. Acid resistance online. Force resistance layered over it.
+
+God Sight finds the weak point — red veins converge at a nexus at center mass, fist-sized, bright as a forge door. But the beam comes from the *head*, not the chest. Two systems, one body. Power in the belly, emission from the tip. Break the tip and the beam stops, even if the body is still alive.
+
+Smart design. Also an exploit.
+
+I close the ground in two Stride-assisted strides — forty yards to ten — and throw.
+
+Frost Fang, overhand, tip-first. Not the Cyclone. A straight spear-throw. The blade punches through the head of the near pillar dead center. Thunder detonates through the contact point — Frost Fang's native discharge, Solveth's voice in the violence of it. The pillar is launched ten feet backward and hits the ground like a toppled statue, head gone, beam dark.
+
+The far one pivots to fire. I recall Frost Fang — pull, and the blade tears loose from the wreckage and slaps back into my left palm — and throw again. Same shot. The far pillar's head shatters. Beam destroyed.
+
+I exhale one breath too early.
+
+The near one, on the ground, *fires from behind me* — the beam emitter regenerating from broken glass in the five seconds I looked away. I feel it before the Ward catches — heat in the small of my back. Most of the acid stops at the barrier. What leaks through burns — not fire-burns, *dissolves*. Leather fibers separating at the molecular level. The sound is wet and papery and wrong.
+
+I pivot into the incoming beam instead of away from it — kill angle, reduce exposure — and close on the grounded near-pillar before its head finishes reforming. Three strikes to center mass. Emberfang then Frost Fang then Emberfang again. The nexus ruptures on the third hit. The whole body crystallizes from the wound outward and shatters into black glass dust.
+
+The far one is trying to stand — pulses pulling it upward from the ground like an insect flipping. I don't let it. Both blades, full Emberfrost, into the nexus. It melts inward. Gone in four seconds.
+
+Two down.
+
+The gate is still there, still pulsing. Red veins moving slower now, as if the gate is *concerned.* Good.
+
+**Emberfang. Ember Lance.** I pour the well into the point of the blade and let it out as a beam of my own. The golden line hits the gate center-seam. Creation doesn't heal it — creation *burns* it. The black glass whitens along the line of contact, cracks spidering outward from the wound, and folds inward like a page curling over a flame. The red veins flash gold for a half-second — the architecture fighting the overwrite — and then they die.
+
+The gate collapses into itself. A cold downdraft of displaced air rolls outward across the dead zone.
 
 Gone.
 
+I stand in the silence for ten seconds, blades still in hand, Ward still up. Waiting for a third pillar. None comes. Only the wind moving into the space the gate used to occupy, as if the world is filling a hole.
+
 ---
 
-I turn west and run. The colour returns mile by mile. At eighteen miles the ring warms — from the other end.
+I turn west and run.
+
+Stride opens. The ember feeds it. Nine miles back the way I came, at a speed that makes the dead trees along the road blur past.
+
+The colour returns mile by mile. Grass greens up at mile seven. A bird calls at mile five. Regular forest at mile three — the smell of living sap coming back like a window opening. I slow at mile one to a walking pace and let the sweat come off me instead of freezing in place.
+
+At eighteen miles from Varenholm, the ring at my left hand warms — from the other end.
 
 "Sera."
 
@@ -134,19 +200,37 @@ I turn west and run. The colour returns mile by mile. At eighteen miles the ring
 
 ---
 
-East again. Two meals from the satchel — gone before I taste them. Stride burns fuel like a forge.
+East again.
 
-Mile twelve. Dusk. Sky bruised. Both treelines dead — black dust the wind won't touch.
+Two meals from the satchel as I run — bread, jerky, something dried that used to be apple — gone before I taste them. Stride burns fuel like a forge. The ember asks for more and I tell it wait until the night.
 
-Ahead: **three** gates. Triangle. Something in the middle that makes my teeth hurt from half a mile out.
+Past the first gate-site. The wind still filling the hole. Past the second — same. The grey strip hasn't closed but it hasn't grown since I passed through either. Mile for mile the light is draining out of the sky.
 
-Solveth: *Not a creature. A node. Gates are organs.*
+Mile twelve. Dusk. Sky bruised. Both treelines dead fifty yards out from the road, black dust where the underbrush used to be. The dust doesn't move. The wind passes *over* it like it's not there. I have never seen air refuse to touch something before tonight.
+
+Then the road opens onto a clearing and I stop moving.
+
+**Three** gates. Not one. Three, arranged in a perfect triangle, each one twelve feet tall, each one pulsing in sync with the other two.
+
+Something in the middle of the triangle makes my teeth hurt from half a mile out. God Sight won't fix on it — the image blurs when I try to focus, like staring into a heat haze. The bracelet runs one quick warning pulse against my wrist. The ember pulls back from the edge of the clearing without being asked.
+
+Solveth, very quiet: *Not a creature. A node. Gates are organs. That is what they are attached to.*
 
 "Poetic."
 
-*Accurate.*
+*Accurate. Do not cross the line of the triangle. Whatever is in the center is watching right now.*
 
-The ember wants to stop. I don't ask its opinion.
+I don't cross the line. I kneel at the treeline fifty yards out and take one long slow look. Count the veins. Count the pulse rate. Mark the wind. Let God Sight read what it can before the node reads me back.
+
+The ember wants to leave. I don't ask its opinion. But I don't argue with it either.
+
+One long look.
+
+Then I back away from the clearing the way I came, one careful step at a time, until the trees close between me and the triangle and the bracelet stops pulsing.
+
+This is a road conversation with Sera. This is a war-room conversation with Elara and Vael. This is not a tonight problem.
+
+I mark the spot. I turn west.
 
 ---
 

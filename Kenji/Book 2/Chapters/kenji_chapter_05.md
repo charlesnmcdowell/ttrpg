@@ -12,7 +12,13 @@ Ryn is sketching by firelight. The scavengers. Three different views — top, si
 
 "Or they're programmed." Tarin, from the perimeter. Flat as always. "Constructs don't need eyes. They need instructions."
 
-"The question is who's writing the instructions," Ryn says. He turns back to the page.
+"The question is who's writing the instructions," Ryn says. He turns back to the page. "I'm making a list. Everything we know and everything we guessed. Elara will want it in order."
+
+He reads as he writes: *Discs — flanking behavior, void signature, dissolve on creation contact. Pillars — beams, regenerating heads, same void signature. Gate — architecture matches Delve but cleaner. Node — three-gate anchor, central hub we could not look at directly. Operator — unknown. Purpose — unknown. Origin — unknown.*
+
+"Three unknowns at the bottom," Tarin says.
+
+"That's the list she'll care about."
 
 Sera next to me. Shoulder touching the acid-burned leather. Her fingers brush the dissolved circle on the chest piece — the watcher's beam mark. She doesn't say anything. She doesn't need to.
 
@@ -34,25 +40,47 @@ The list of things I should be thinking about — the third gate, the node, whoe
 
 ---
 
-I step out into the cold. The fire is low. Ryn doesn't move for three seconds. "I — yes. Night. Good."
+I step back into the cold. The fire is low. Ryn's still at it, head down, pretending very hard that he was never paying attention to any of it. Three seconds too late he clears his throat. "I — yes. Night. Good."
 
 Tarin's voice from the perimeter. Flat. "Dead man."
 
+"I heard that."
+
+"You were supposed to."
+
 ---
 
-Eight hours. Level 11 — fifth register opens like a ceiling lifting instead of a door.
+Eight hours. The ember runs long and deep against the ward ring's low hum. Somewhere in the dark the current widens by another degree — the architecture finishing a piece of itself that's been waiting for a quiet night.
 
-Solveth: *Road east got heavier overnight. You sealed a branch. Trunk's still feeding.*
+Level 11. Not a door this time. More like a ceiling lifting off a room I didn't know had one. The ember expands into the empty space and doesn't find a wall.
+
+Solveth, distant: *Road east got heavier overnight. You sealed a branch. Trunk's still feeding.*
 
 "Good pep talk."
 
-Dawn. Frost on the marker. I eat; Frost Fang returns to my hand like a dog that heard breakfast. Stride hums smoother — stops don't jar, turns don't pull.
+*You asked for honest.*
 
-Sera is up. Dark hair pulled tight. Arms folded — the default. She doesn't look at me. One hand resting on the Whisperstone ring, turning it once.
+"I didn't."
+
+*I assumed.*
+
+---
+
+Dawn. Frost on the stone marker. I eat — three meals from the satchel in ten minutes, because the ember burned through yesterday's like it was paper — and Frost Fang returns to my hand like a dog that heard breakfast. Stride hums smoother in the channels than it did last night. Stops don't jar. Turns don't pull.
+
+Sera is up. Dark hair pulled tight. Arms folded — the default. She is not looking at me, which is how I know she's been looking at me. One hand resting on the Whisperstone ring, turning it once.
 
 "Orders stand?"
 
-"Orders stand."
+"Orders stand. You sweep the trunk road between here and Varenholm. I scout further east. If I find the next branch I call."
+
+"And if you find the trunk."
+
+"I mark it. I don't engage. Not without you and Elara and a plan drawn on a table."
+
+"Good answer."
+
+She finally looks at me. Whatever the mask was a second ago is thinner now. Then it's back.
 
 "Four minutes," she says to the horizon.
 

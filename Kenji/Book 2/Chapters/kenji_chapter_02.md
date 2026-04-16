@@ -24,7 +24,9 @@ I pay. The box goes into my belt.
 
 ---
 
-Pip is behind the bar at the Broken Antler — sleeves up, hair loose, already pouring before I reach the stool. "You're leaving."
+Out of the Gilt Lens, four blocks back past the fountain, then two more east to the Broken Antler. The morning post-miracle mood has settled into midday — city quieter than usual, people walking slower than usual, a shop-owner on his step with a mug in both hands looking at nothing. The Antler's door is propped open against the mild weather. I hear Pip before I see her — the specific clatter of her stacking clean tankards two at a time.
+
+She's behind the bar — sleeves up, hair loose, already pouring before I reach the stool. "You're leaving."
 
 "Eastern highway. A week. Maybe less."
 
@@ -56,7 +58,11 @@ I eat my vegetables.
 
 ---
 
-Garrett's room upstairs is buried in documents — map bleeding red east of Ashward like something's chewing the border. He holds out a sealed envelope. "Merchant interviews. Three attacks mapped."
+Canvas bundle over one shoulder. Back out into the midday. The Silver Draft is three blocks north of the Antler — same street, different guilds, different clientele. I take the back staircase up to Garrett's office because the front is already stacked with men waiting to be contracted and I don't have the patience for a queue.
+
+His door is open. His room is buried in documents — map bleeding red east of Ashward like something's chewing the border, three witness ledgers spread across the desk, a half-empty mug gone cold at his elbow. He holds out a sealed envelope without preamble.
+
+"Merchant interviews. Three attacks mapped."
 
 "How scared?"
 
@@ -78,7 +84,9 @@ I take the envelope.
 
 ---
 
-The Academy courtyard — late light, Aldwin on the steps with the cracked staff like a prop he hates. Sera's at the gate, cinching a saddlebag like the leather owes her money.
+Down the back stairs, out the Draft's side door, up the long slope to the Academy gate. Varenholm sits on a hill; the walk is uphill both ways depending on where you're coming from. By the time I clear the Academy gate the afternoon has tipped into late light — long shadows across the flagstones, one of the dining bells ringing somewhere in the interior.
+
+The Academy courtyard. Aldwin on the steps with the cracked staff like a prop he hates. Sera at the archway to the outer gate, cinching a saddlebag like the leather owes her money.
 
 She turns. "Whatever you're about to do —"
 
@@ -156,9 +164,11 @@ She turns toward the Academy. Stops. Looks back — the Whisperstone glinting on
 
 ---
 
-The ley alcove. Palms on stone. God Sight. Stride. Refill between casts until the channels stop whining.
+Across the courtyard and down the stair to the ley alcove — the same alcove where yesterday afternoon a god got free. Stone's cold again. No one's in here, but there's a faint smell that wasn't here a day ago — ozone, if you know what you're sniffing for, and underneath it the warm-metal scent the bracelet gives off when it pulses.
 
-Solveth: *You are thinking loudly.*
+Palms on stone. God Sight lit. Arcane Stride primed and released, primed and released — three refills through the well until the channels stop whining and the ember reports satisfied. Then I hold the contact a breath longer and listen east.
+
+Solveth, through the blade: *You are thinking loudly.*
 
 "Just taking inventory."
 
@@ -168,13 +178,21 @@ Solveth: *You are thinking loudly.*
 
 *Something east. I felt it when you touched the stone. Old. Wrong. Not entropy — I would recognize entropy. An absence where something should be.*
 
-"Say that louder. The stone might flinch."
+I don't joke this time. *Absence meaning what. Hole in the ley? Dead zone?*
 
-*Be careful with what you note and what you ignore.*
+*Not dead. Dead still has a shape. This has the shape of a space that was cleared and then paved over. Something chose it, and something has been keeping it empty. Whatever the merchants are calling "wrong" on that road — it is the edge of that thing touching the surface.*
+
+*Noted. Keep listening on the way. If it moves, tell me before it tells the bracelet.*
+
+*Agreed.*
+
+I pull my hands off the stone. The ember's topped out. Stride is primed. The channel doesn't whine.
 
 ---
 
-Sera at the gate an hour later. Not alone.
+Back up the stair. Across the courtyard one more time. The sun has dropped another finger. An hour has gone while I was below.
+
+Sera at the gate. Not alone.
 
 Ryn's beside her — scroll case, satchel, one nod that says *I chose this.* Scar along his neck; he wears it like a credential.
 
@@ -198,7 +216,21 @@ Tarin looks east. "How bad?"
 
 ---
 
-The gate. Four of us. I give the operational brief — I run point, they sweep behind, ring goes warm they talk.
+The gate. Four of us. The horses Sera pulled from the Academy stable are already saddled — her bay, a chestnut for Ryn, a scrub-grey for Tarin who doesn't look pleased about the scrub-grey.
+
+I run the brief with everyone holding reins.
+
+"I run point. Arcane Stride — I'll cover forty miles before you cover ten. God Sight reading the corridor. Whisperstone comes online the minute anything registers. If the ring goes warm and you hear my voice on it, you stop moving and you listen to the whole sentence before you answer. If the ring goes warm and you hear *nothing* — assume I'm alive and don't come looking. I'll check in at every hour mark."
+
+Sera: "If you don't check in."
+
+"Then you hold position wherever you are, build a ward circle, and wait the second hour before you decide I'm dead."
+
+Tarin: "What are we fighting if we have to fight."
+
+"Unknown. Merchants describe the attack zone as *wrong,* not as *monsters.* Solveth says an absence where something should be. Our job is to make the shape of it visible. Not close with it. Visible."
+
+Ryn nods. Tarin grunts. Sera adjusts the stirrup.
 
 "One more thing. What's the name?"
 

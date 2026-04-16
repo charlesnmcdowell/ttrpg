@@ -1,6 +1,5 @@
 {
   "_comment": "Location and context → music tracks. Variants are picked at random or cycled. 'night' keys override when hour >= 21 or < 6. Amaris / Thornfield (east frontier) entries extend the same world — reuse paths relative to this music/ folder.",
-
   "locations": {
     "Varenholm": {
       "day": [
@@ -100,7 +99,6 @@
         "Hunter's Breath zero dark thirty.wav"
       ]
     },
-
     "Thornfield": {
       "day": [
         "Fog Over Fernwood.wav",
@@ -232,9 +230,78 @@
       "night": [
         "Hunter's Breath zero dark thirty.wav"
       ]
+    },
+    "Ashenveil": {
+      "day": [
+        "Counting Shadows bandit forest.wav",
+        "Counting Shadows bandit forest 2.wav"
+      ],
+      "night": [
+        "Hunter's Breath forest night.wav",
+        "Counting Shadows bandit forest 2.wav"
+      ]
+    },
+    "Pallid March": {
+      "day": [
+        "Counting Shadows bandit forest.wav",
+        "Counting Shadows bandit forest 2.wav"
+      ],
+      "night": [
+        "Hunter's Breath forest night.wav",
+        "Counting Shadows bandit forest 2.wav"
+      ]
+    },
+    "Roadside chapel": {
+      "day": [
+        "Counting Shadows bandit forest.wav",
+        "Counting Shadows bandit forest 2.wav"
+      ],
+      "night": [
+        "Hunter's Breath forest night.wav",
+        "Counting Shadows bandit forest 2.wav"
+      ]
+    },
+    "Eastbound road": {
+      "day": [
+        "Counting Shadows bandit forest.wav",
+        "Counting Shadows bandit forest 2.wav"
+      ],
+      "night": [
+        "Hunter's Breath forest night.wav",
+        "Counting Shadows bandit forest 2.wav"
+      ]
+    },
+    "South road out of Millhaven": {
+      "day": [
+        "Counting Shadows bandit forest.wav",
+        "Counting Shadows bandit forest 2.wav"
+      ],
+      "night": [
+        "Hunter's Breath forest night.wav",
+        "Counting Shadows bandit forest 2.wav"
+      ]
+    },
+    "Frontier": {
+      "day": [
+        "Counting Shadows bandit forest.wav",
+        "Counting Shadows bandit forest 2.wav"
+      ],
+      "night": [
+        "Hunter's Breath forest night.wav",
+        "Counting Shadows bandit forest 2.wav"
+      ]
+    },
+    "bandit forest": {
+      "day": [
+        "Counting Shadows bandit forest.wav",
+        "Counting Shadows bandit forest 2.wav"
+      ],
+      "night": [
+        "Hunter's Breath forest night.wav",
+        "Counting Shadows bandit forest 2.wav"
+      ]
     }
   },
-
   "contexts": {
     "combat": [
       "Smile in the Fire Kenji battle theme 1.wav",
@@ -258,7 +325,6 @@
       "Hammer Psalm black smith 2.wav"
     ]
   },
-
   "character_themes": {
     "Kenji": [
       "Smile in the Fire Kenji battle theme 1.wav",
@@ -276,7 +342,6 @@
       "Weight of the Quiet Man Edwyn theme.wav",
       "Weight of the Quiet Man Edwyn theme 2.wav"
     ],
-
     "Amaris": [
       "Origin of the Last Name theme.wav",
       "Fog Over Fernwood.wav"

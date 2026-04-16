@@ -54,11 +54,13 @@ Garrett meets me on the steps outside. The blue-grey eyes are tired but the math
 
 ## Day 22 — Afternoon
 
-Crestfall portal hums; I step through into Bleakmoor Crater — colder, drier, ley lines muttering underfoot. Fifteen-foot frame at the rim: gold-green-black entropy threading stone. Eight constructs, loose ring, faceless, still.
+Council chamber to Silver Draft to ley alcove to portal in under twenty minutes. The ember tops off at the stone. Pip's satchel at my hip feels heavier than it was yesterday — she packed double after the tournament and wouldn't take an argument.
 
-I eat walking. God Sight paints the scrub and black glass ahead — three miles to Wardbreaker smoke, thin grey on grey.
+Through the Crestfall gate, salute to the watch officer at the far side. Through the Bleakmoor Crater gate — colder, drier, ley lines muttering underfoot like an argument I've walked into. The fifteen-foot frame at the crater rim hums the gold-green-black entropy threading I set five days ago. Eight constructs in a loose ring at the rim, faceless, still, watching me arrive the way they watch everyone arrive.
 
-Stride. Ground vanishes. Miles in minutes.
+I eat walking. God Sight paints the scrub and black glass ahead — three miles to where Wardbreaker smoke is rising thin and grey on grey.
+
+Stride opens. The ground vanishes. Miles in minutes.
 
 ---
 

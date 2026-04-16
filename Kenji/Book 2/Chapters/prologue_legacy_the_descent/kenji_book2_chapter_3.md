@@ -40,6 +40,8 @@ Like a channel opening.
 
 ---
 
+Out of Aldwin's office. Down the artificer corridor. Through the narrow passage behind the old lecture hall that nobody uses anymore because the wards under the floor hum at the base of your skull until you can't think. The stair down. Three torches along the wall, always lit. The air thickening with creation energy one step at a time until it tastes like copper and ozone and the back of a warm kiln.
+
 The ley alcove. Pip at the edge. The frustration still on her face. The ley energy washing over her.
 
 "What do I do?"

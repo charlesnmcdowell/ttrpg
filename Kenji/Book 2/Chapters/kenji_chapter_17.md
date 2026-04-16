@@ -1,5 +1,27 @@
 # The Sundered Gate — Chapter Seventeen: The Iron Coliseum, Part II
 
+**Day 21, Afternoon**
+
+---
+
+The half-hour break between rounds is shorter than it feels. Senna uses twenty minutes of it on a bench in the alcove with her eyes closed, not because she needs rest but because she is running the math on Varn and she likes to do her math with the lids down. Varn spends the same twenty minutes on the opposite bench with six glass vials laid out in a row on a folded cloth in front of him. He doesn't look at her. She doesn't look at him. Nobody interrupts either of them.
+
+Sera is re-wrapping her forearm. Dren Valdric is across the alcove drinking water and watching me the way a man watches a problem he's looking forward to solving. The grin hasn't faded in an hour.
+
+Solveth, quiet in the sword at my hip: *They have all watched you now. The second round is a different tournament.*
+
+"I know."
+
+*Do not be clever twice with the same trick.*
+
+"I won't be."
+
+*You will be.*
+
+"I might be."
+
+The bell calls us.
+
 ---
 
 "ROUND TWO. BOUT ONE. SENNA, THE ASHEN FIST. VERSUS VARN."
@@ -150,25 +172,23 @@ The crowd erupts. The woman with no magic just beat the Counterspell specialist 
 
 ---
 
-Five rounds in my underwear. Dren: bleeding, frosted, grinning like I did him a favor. The crowd doesn't know whether to cheer or file a complaint.
+Five rounds in my underwear. Dren bleeding, frosted, grinning like I did him a favor. The crowd doesn't know whether to cheer or file a complaint, so it does both.
 
-Solveth: *You read his armour like a menu.*
+Solveth, in the blade: *You read his armor like a menu.*
 
-"Ten years of wards," I think back. "Two seconds to bill him."
+"Ten years of wards. Two seconds to bill him."
 
-The network keeps spawning constructs at the gates — garrisons, not doorways. Villagers side-eye the gold-black glass. Council'll love that file.
+*He will go home and build a version of that armor with fewer signatures. You will fight him again in three years and it will be harder.*
 
-Haste broke when Dren forced the issue; he noticed the dip. Of course he did.
+"Something to look forward to."
 
-Senna's ring heals Varn after the Nullroot chess match. She's stronger every round. Varn brewed six vials to mute her regen — one round each — and she still erased the damage. Our spar resistances are three days gone. Semifinal with her, Frost Fang hits clean. She doesn't know yet.
+I dress in the alcove. Sera is already bandaged. Varn is already on his feet, ribs wrapped, watching Dren with a fighter's quiet respect. Senna is eating. Finch is nowhere — he's on the Bleakmoor, where he's supposed to be, Whisperstone silent which means *still no news.*
 
-Sera's bout starts: rapier only, no shard, because Vael counters air if you give him spells.
+The bracket resets for the semifinals. Me against Senna. Sera against Dren.
 
-"Steel doesn't cast," she told me on the bench.
+Gate sits at fifty-six percent, per Thessaly's last ring-pulse. Five days left on Corven's clock. Meanwhile, the Coliseum prepares for the semifinal by selling more ale.
 
-"Then make him study the wrong textbook."
-
-Gold compounds. Gate sits at fifty-six percent. Five days left on the clock.
+---
 
 End of The Sundered Gate — Chapter Seventeen.
 

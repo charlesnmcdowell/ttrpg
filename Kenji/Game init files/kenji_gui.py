@@ -200,8 +200,14 @@ class LiveDashboard(ctk.CTk):
                 raw = json.loads(mp.read_text(encoding="utf-8"))
                 raw.pop("_comment", None)
                 self._music_map = raw
+                try:
+                    self._music_map_mtime = os.path.getmtime(mp)
+                except Exception:
+                    self._music_map_mtime = 0.0
             except Exception:
                 pass
+        else:
+            self._music_map_mtime = 0.0
 
     def _resolve_track(self, location=None, context=None, character=None):
         mm = self._music_map
@@ -316,6 +322,20 @@ class LiveDashboard(ctk.CTk):
     # ------------------------------------------------------------------
     def _poll_state(self):
         try:
+            # Hot-reload music_map if it changed on disk
+            try:
+                mp = self.config.music_map
+                if mp.exists():
+                    mm_mtime = os.path.getmtime(mp)
+                    if mm_mtime != getattr(self, "_music_map_mtime", 0.0):
+                        self._load_music_map()
+                        # Force re-resolve on next _react_music call
+                        self._last_location = ""
+                        self._last_story_beat = ""
+                        self._react_music()
+            except Exception:
+                pass
+
             mtime = os.path.getmtime(self.config.state_file)
             if mtime != self._last_mtime:
                 self._last_mtime = mtime

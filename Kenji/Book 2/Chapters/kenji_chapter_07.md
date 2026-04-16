@@ -4,55 +4,113 @@
 
 ---
 
-Ley alcove. Everything topped off. Recall to Crestfall.
+Pre-dawn. The Draft is quiet. Pip's dough is already rising in the kitchen. I eat standing in the doorway — bread, ham, something warm from a pot. She watches me eat the way a mother watches a son she's already decided not to worry about out loud.
 
-I leave word — I'm crossing, send men behind me. The lieutenant starts to protest. I'm walking.
+"Where today."
 
-The sally port. Two guards. Through before anyone stops me.
+"Bleakmoor."
 
-The checkpoint. A sergeant steps into the road. I do a front flip over him. Land on the far side. Moonwalk away.
+"Eat another plate."
+
+I eat another plate.
+
+---
+
+Academy ley alcove. Hands on the stone. Ember tops off to the brim in the time it takes to take two breaths. The 339 are gone; the current fills the channels it used to fight for. Recall to Crestfall.
+
+Thorne's antechamber. Six AM. A lieutenant at the duty desk who was clearly not expecting a man to step out of a door made of light before the bread wagons.
+
+"ArchMagus."
+
+"I'm crossing. Send a messenger to the Commander. Tell him I don't need an escort and I'd rather his men not die in the Bleakmoor playing one."
+
+"The Commander will want to —"
+
+"Tell him anyway."
+
+I'm walking before he finishes the sentence.
+
+The sally port. Two guards who have clearly received no instructions yet and are caught between the letter of their orders and the brass token clipped at my hip. I'm through before either decides.
+
+Fifty yards past the port, the checkpoint. A sergeant steps into the road like a man who has made this stop a thousand times. Hand up. Polite. Ready to be firm.
+
+I do a front flip over him. Clean. Land on the far side. Moonwalk four paces.
 
 "Nobody. Say. Anything."
+
+Behind me, very faintly: *"…sir, did he just —"* and the sergeant, flat: *"Nobody. Say. Anything."*
 
 Stride opens.
 
 ---
 
-The Bleakmoor hits like a weight — not cold like the highway strips. Black ground. Low sky. Ley lines **wrong**: not dead. Rerouted. Someone's farming this.
+The Bleakmoor hits like a weight — not cold like the highway strips. This is heavier. Black ground — not burned, not dead, wrong in the way the grey strip was wrong but on a regional scale. Low sky. The clouds moving in the wrong direction for the wind I can feel at ground level. Ley lines underneath me running in a geometry that doesn't match the map Garrett pinned to his wall.
 
-Solveth: *Infrastructure damage. Corruption in the network, not surface scrapes.*
+Solveth: *Not dead. Rerouted. Someone is farming this.*
 
 "Shorter words next time."
 
+*Infrastructure damage. Corruption in the network, not surface scrapes.*
+
+"Worse."
+
 *Stain. Parasite. Happy?*
 
-Three miles in I eat on a ridge. Half a mile east the ground **breathes** — sixty feet, rise and fall — and there's a figure on a broken wall like he paid rent for the view.
+"Getting there."
+
+I Stride three miles in, then stop on a ridge to eat — because the ember burns faster here, against the rerouted current, and the satchel doesn't care about ambient corruption. Half a mile east the ground *breathes.* Sixty feet of it, rising and falling in a slow rhythm like something asleep underneath a blanket of earth. I watch it for a count of fifty. The rhythm doesn't vary.
+
+And there's a figure on a broken wall overlooking the breathing ground, boots dangling, eating something out of a paper twist like he paid rent for the view.
 
 ---
 
-Halfling on the wall. Leather. Cloak the same color as the dirt. Grin like he invented trouble.
+Halfling. Leather. Cloak the same color as the dirt, which takes technique out here because the dirt keeps changing shade. Grin like he invented trouble and is still looking for the patent paperwork.
 
 "What's up."
 
 "Plenty." He thumbs at the breathing ground. "That's new since yesterday."
 
-"Finch." Hand out. "You're not military. Not Hall."
+"Finch." Hand out. Grip firmer than his size earns. "You're not military. Not Hall."
 
-"Kenji." He jerks his chin south. "Friends first. Ground second. It burps when it's hungry."
+"Kenji."
+
+"I know."
+
+He jerks his chin south. "Friends first. Ground second. It burps when it's hungry."
+
+"How often."
+
+"Irregular. It's part of the charm."
 
 ---
 
-South wall. Half-orc with a greatshield across his knees, eating like the world owes him calories.
+South wall of the ruin. Half-orc on a collapsed column with a greatshield across his knees, eating something brown out of a bowl like the world owes him calories and is running the tab.
 
-Varn doesn't look up long. "She likes you already."
+He doesn't look up for long.
 
-Senna at the edge — auburn braid, bare hands. "Healer. You bleed, I'll know before you do."
+"She likes you already."
 
-Thessaly on the stone block. Book. Staff. Spectacles. Robes too clean for the Bleakmoor.
+"Who."
+
+"The one with the book. She's trying to pretend she doesn't."
+
+Senna at the edge — auburn braid, bare hands, robes dusted in the Bleakmoor's not-quite-ash. She watches me the way a good farrier watches a horse.
+
+"Healer. You bleed, I'll know before you do."
+
+"Comforting."
+
+"Not meant to be."
+
+Thessaly on a stone block behind her. Book. Staff. Spectacles. Robes that were clean this morning and are making a valiant attempt to stay that way despite all available evidence.
+
+She looks up.
 
 "Where did you train?"
 
 "Badly. Then faster."
+
+Her mouth does something that is not quite a smile but is cousin to one.
 
 ---
 
@@ -142,21 +200,39 @@ He picks up his food. Pauses. "The goat poem. Bartol. Good name."
 
 "Who's next?"
 
-Senna steps forward. "Full power. Both of us. Everything we have. Show me what you are."
+Senna steps forward. Bare hands still. Expression unchanged.
 
-I eat from the satchel. The ember processes the food in seconds — the furnace burning hotter now, anticipation feeding the metabolism. I look at her while I chew. Bare hands. Fighter's stance disguised as a healer's posture. She touched one finger to my boot in passing three minutes ago and probably knows my bone density and heart rate already. A woman who reads bodies the way Ryn reads spell architecture.
+"Full power. Both of us. Everything we have. Show me what you are."
+
+I eat from the satchel while I think. Two meals in ninety seconds — the ember processes the food the way a forge processes charcoal, and I can feel it banking hot for what's coming. I look at her while I chew. Bare hands. A fighter's stance disguised as a healer's posture. She touched one finger to my boot in passing three minutes ago and probably knows my bone density and heart rate already. A woman who reads bodies the way Ryn reads spell architecture.
 
 This is going to hurt.
 
 "Everyone's going to want to stand back. Sixty feet. At least."
 
-Both blades drawn. Enhanced Arcane Edge. Duality Aspect Entropy — the green-black aura blooming. I lift off the ground. The Bleakmoor wind catching the aura and scattering wisps of entropy like cold smoke.
+Varn is already on his feet and walking off, still eating. Finch has gone up the wall to a safer perch. Thessaly has picked up her book and is holding it to her chest the way you hold a book you don't intend to drop a third time.
+
+I draw. Both blades. Emberfrost engaged, then something newer — the green-black entropy aura I've been carrying since the node closed, blooming across the steel in a slow pulse. The Bleakmoor wind catches it and scatters wisps like cold smoke.
+
+The Windrunners lift me a foot off the ground. Then three.
 
 Senna stands in the arena. Bare hands. Green eyes tracking the aura, the blades, the altitude. The healer who's seen worse.
 
 "Whenever you're ready."
 
-We spar until the light goes flat and the Bleakmoor stops caring about the horizon. The squad gets a single sentence in the log — *full power exchange, no injuries requiring intervention* — and a memory none of them were allowed to watch.
+---
+
+We spar until the light goes flat and the Bleakmoor stops caring about the horizon. By the end the ground around us is scored, neither of us is talking anymore, and Senna has had to re-knit a rib I don't remember being hit in. She is smiling the small professional smile of a healer who has finally met a patient interesting enough to complain about.
+
+The squad gets a single sentence in the log — *full power exchange, no injuries requiring intervention* — and a memory none of them were allowed to watch close enough to describe.
+
+Varn, when we walk back: "Verdict."
+
+Senna: "He'll do."
+
+Thessaly, still holding the book: "I'm coming."
+
+Finch, from the wall: "Me too. Somebody has to keep the rest of you alive."
 
 ---
 

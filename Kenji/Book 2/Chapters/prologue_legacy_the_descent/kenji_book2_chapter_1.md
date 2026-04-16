@@ -36,7 +36,7 @@ She's smiling when I gather my gear.
 
 ---
 
-Garrett's room. Supply manifests and expedition logistics.
+Down the hall. Plank floor creaking under the ironwood boots. The Silver Draft waking up below — pots on the hearth, someone moving a keg. Garrett's door. I knock. The room behind it already an hour into the day — supply manifests and expedition logistics spread across the table, a mercenary who sleeps less than he works standing at the end of it.
 
 "That's your 'I need something unreasonable' face."
 
@@ -104,7 +104,11 @@ I cast God Sight. Stride L4. Through the western gate before the guards finish t
 
 ---
 
-The Ashward Mines. Forty minutes at 150 feet per second.
+Northwest. Cobblestones surrender to cart track a mile past the walls. Farmland to scrub to rock, the country rising in long grey steps toward the foothills. Cloud bank sitting low over the western ridges — rain coming, not yet arrived. Sheep scattering off the road as I blur past them. A single woodcutter a quarter-mile off the track who won't be sure what he saw when the wind settles. Fourteen miles at a hundred and fifty feet per second compresses to forty minutes.
+
+The valley mouth opens on a shelf of worked stone. Timber headframes. Ore chutes weathering grey. A tipple still half-loaded three weeks after the last cart left.
+
+The Ashward Mines.
 
 Abandoned work buildings. An overturned wheelbarrow. A pickaxe mid-swing in a log. A single boot in the gravel.
 
@@ -153,6 +157,8 @@ The webs catch fire. The chamber burns behind me.
 "It's dead."
 
 ---
+
+Back to the junction. The cart turned. The main tunnel runs deeper than the side passage — floor pitching down at a steady grade, walls widening, the torch-light throwing long shadows across silver veins webbing the rock like frost on black stone. Water somewhere below, dripping. The air thickening. Warmer than a mine this deep has any right to be. God Sight reaches five hundred feet ahead and finds the cavern opening up. Something coiled inside it.
 
 The Wyrm. Full Stride. Cart screaming.
 
@@ -206,7 +212,7 @@ We step through to the Academy. Ley line refill. Buffs renewed.
 
 ---
 
-Garrett's room. A single document. Council seal.
+Down through the western cloister. Out the service gate. Three blocks of wet cobblestone — morning grey breaking toward midday, the city awake now, the smell of bread carts and horse sweat. Up the back stairs of the Silver Draft. Garrett's room. A single document on the table. Council seal.
 
 "The mine?"
 

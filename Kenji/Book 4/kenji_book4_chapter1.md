@@ -132,23 +132,31 @@ She pauses.
 
 I buy a room and a round. Breca stays for an hour. She tells me more about the route, the village, the slow death of a place she delivered to for nine years.
 
-Somewhere in that hour, the drink and the conversation and whatever else was in the air got the better of her. She's flushed. Talking more than she planned. Staying longer than an hour warrants.
+Halfway through the second ale she undoes the top two buttons of her collar. Not looking at me. Looking at the fire.
 
-She leaves fast. Pushes the chair in hard. Gives me the map at the door. Walks to her cart in the yard and leans against the wheel with both hands.
+*"Warm in here."*
 
-She stays like that for a while.
+It is not warm in here.
+
+A few minutes later her boot nudges mine under the table and stays there. She starts telling me she hasn't liked a man's face in six years and my face, she is warning me now, is on her list. She is saying it flat, with the same tone she used to describe the webs, which is the funniest part.
+
+She leaves fast when the ale is gone. Pushes the chair in hard. Gives me the map at the door.
+
+*"I'm in the yard. Cart with the red axle. I'll be there a while if you've got anything else to ask me."*
+
+She does not mean the map.
 
 ---
 
-Later. The copper tub. She came back. She didn't want to talk about why.
+Later. The copper tub. She came back — because she wanted to, and she said so at the door. Widow, six years on her own, a ronin she liked the face of passing through the only village she still delivered to. She told me at the threshold she was done being coy about it.
 
-Six years of empty roads and cold carts and telling herself she didn't need this dissolving in an inn room in a village she's stopped at a hundred times. Her forehead against my neck. Her breath uneven. She cried once into my shoulder and didn't apologize for it.
+In the tub she laughed once at something I said and it surprised her — she put a hand over her mouth like she'd forgotten the sound. She had opinions about where my hands went. She gave them.
 
 Afterwards, she dressed with her back to me. Steady hands. Every buckle a piece of armor going back on.
 
-At the door she stopped.
+At the door she stopped. Half a smile.
 
-"I'm going to drive north. I'm going to tell myself this was the bottle."
+*"I'm going to drive north. I'm going to tell the next village I stopped for the bottle. I'm not sorry, ronin. Come through Fallowmere again and I'll stop for you first."*
 
 Cart wheels on gravel. Gone.
 

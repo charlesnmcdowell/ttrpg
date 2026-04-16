@@ -70,7 +70,9 @@ I wink. The ink blot on her left hand grows half a centimeter.
 
 ---
 
-The eastern training grounds. The expedition staging.
+Out of the Chancellor's wing. Down the main stair. Across the cloistered quad where second-years are running a warding drill in the drizzle. Through the armory corridor, out the east door. The rain thinning. The training grounds stretch across the flat past the stables — packed earth, practice posts, a row of portal arches at the far edge tied off with weathered silk.
+
+The expedition staging.
 
 Sera is at the portal arch. Arms folded. Her eyes drop to Frost Fang on my left hip. She doesn't comment.
 
@@ -122,13 +124,15 @@ I fall in beside Edwyn. The corner of his mouth betrays him.
 
 ---
 
+I peel off from the column at the arch marked with Duskfen's rune. Through. Gold-black folding around me for a heartbeat and the world reassembles as flagstone floor, low rafters, the smell of bacon fat and pipe smoke.
+
 Duskfen. The Broken Antler.
 
 Kael sees me step through. "ArchMagus. Squad's ready. Brindle sends her regards and says 'try not to acquire any more real estate while you're down there.'"
 
 Word travels fast.
 
-Back through to Varenholm. Aldwin's office. Both of them on the bench. Staff across his knees.
+Back through the Antler's portal to the Academy. Across the rain-wet quad. Up two flights to the artificer wing. Aldwin's office. The door already open. Pip and Ryn both on the bench. Staff across his knees.
 
 "You're taking them."
 

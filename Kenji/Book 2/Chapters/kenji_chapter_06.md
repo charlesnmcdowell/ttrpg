@@ -4,11 +4,25 @@
 
 ---
 
-"Mine — ownership challenge. Hearing in six days." Garrett is already talking when I walk into his room. "Highway contract — modified retroactively. Quarterly inspections. They're wrapping the guild in paperwork."
+Stride west from the crossroads at first light. Forty miles in under an hour. The city gate guard this morning doesn't cry. He looks tired the way everyone in Varenholm looks tired two days after a miracle — tired because joy is more work than grief.
 
-"I'm building a portal east. Bypasses Council authority."
+Silver Draft. Back stairs. Garrett's room.
 
-He picks up a letter. No seal. Handwritten. Addressed to the ArchMagus.
+He's already talking when I open the door — reading from a stack I suspect hasn't left his desk since yesterday. "Mine — ownership challenge. Hearing in six days. Highway contract — modified retroactively. Quarterly inspections. They're wrapping the guild in paperwork."
+
+I sit. "I can move the guild east."
+
+"Move it how."
+
+"Portal. Bypasses Council authority."
+
+He looks up. Stops reading. Sets the page down flat.
+
+"Say that again."
+
+"Aldwin finished the ring-work last week. Arcane Gate. I can anchor a permanent passage between two points once I've stood at both. Council can put paperwork on every road. They can't paper the air."
+
+A long look. Then he reaches into the drawer and pulls out a different letter. No seal. Handwritten. Addressed to *ArchMagus Kenji — private.*
 
 "Read it to me."
 
@@ -24,19 +38,35 @@ The pause before he starts is the pause of a man who already read it twice and i
 
 He sets the letter down. Voice level. Hand not.
 
-"Dead in the Bleakmoor. Source point neutralization means going to where the gates come from and closing whatever's making them." I think about the entity. The three gates. The engineering. "That's not a contract. That's a war."
+"Dead in the Bleakmoor. Source point neutralization means going to where the gates come from and closing whatever's making them."
+
+I think about the entity. The three gates. The engineering.
+
+"That's not a contract. That's a war."
 
 "It's a test. They want to know if you're what the rumors say."
 
 "Then I'll take the test."
 
+"Thought you might."
+
 ---
 
-Aldwin's workshop. Three checks. Theory, channeling, controlled transit.
+Aldwin's workshop. Smell of resin. The repaired staff back on its wall peg.
+
+"Sit. Theory first."
+
+I sit. He walks me through the three checks he's built the ring-work around — theory, channeling, controlled transit. The first is a memorization drill, anchor points and failure modes. The second is the actual seating of the gate's frame in the well. The third is the hard one: stepping through a passage I've made and coming out somewhere with my bones in the right order.
+
+"Three rules." He holds up fingers. "One — never open a gate into a space you haven't stood in. Two — recall costs you nothing if the ember is seated. If it isn't, it costs everything. Three —"
 
 "Don't arrive inside a wall."
 
-Recall. Any portal. Anywhere. Instant.
+"Don't arrive inside a wall."
+
+I run all three checks under his hand. He doesn't nod on the third; he just steps out of my way, which is the closest Aldwin gets to approval.
+
+Recall. Any portal I've seated. Anywhere. Instant.
 
 ---
 
@@ -72,13 +102,19 @@ Day 16 — market town, two weeks of road food in my teeth. Stride northeast.
 
 Thornwall hits my ears before the walls: **Coliseum** — crowd noise like money sharpening knives.
 
-I build the expanded portal outside the walls. Arcane Gate widens the network to eight. The gateway rises — fifteen feet tall, creation outlined in entropy threading. Gold and green light cutting through the afternoon haze. Visible from the walls.
+I build the portal outside the walls in a grain field a bowshot from the gatehouse. The farmer watching from his wagon decides the wagon is suddenly very interesting and studies its axle instead of me.
 
-Garrison horns. Six guards. Crossbows leveled at a man standing next to a door made of light.
+Arcane Gate widens the network to eight. The gateway rises — fifteen feet tall, creation outlined in entropy threading. Gold and green light cutting through the afternoon haze. Visible from the walls the way a bonfire is visible from the walls.
+
+Garrison horns. Six guards at double-time across the field. Crossbows leveled at a man standing next to a door made of light.
 
 "ArchMagus Kenji. Varenholm Academy." I hold up the brass token. "The gate stays."
 
-Recall to Varenholm. Refill. Step back through. Thirty seconds. Six crossbows lower.
+"The gate —"
+
+"I'll demonstrate. Don't shoot me when I come back through."
+
+I recall to Varenholm. Thirty seconds in the Academy courtyard — Elara's already there, because of course she is — then back. Six crossbows lower a quarter-inch.
 
 The Watch Commander — a woman with a scar from temple to jaw and the posture of someone who has been on the wrong side of a siege — walks a circle around the portal. Tests the frame with a gauntleted fist. Looks through it at the Academy courtyard on the other side.
 
@@ -108,15 +144,21 @@ The mustache twitches. Not a smile. An assessment passing a threshold.
 
 ---
 
-The gateway rises outside Crestfall. Thorne watches ten minutes of wind and light.
+The gateway rises outside Crestfall on a flat of hardpan Thorne walked me to personally. He watches ten full minutes of wind and light without saying a word, hand on the pommel of a sword he probably hasn't drawn in years.
 
 "That doesn't look like the Academy."
 
-I step through. Varenholm. Elara — spectacles I haven't seen before, a Chancellor's cloak with the price tag still attached. She removes the tag and walks through the portal into Bleakmoor border wind.
+"It goes there anyway."
 
-Twenty minutes. I lean against the base and don't listen. When it's done, Thorne has what he needs. The gate stays.
+"Prove it."
 
-Elara walks back through without saying goodbye. The ink-stained fingers trailing once along the portal frame — a scholar touching architecture she's only read about.
+I step through. Varenholm courtyard. Elara is already waiting — spectacles I haven't seen before, a Chancellor's cloak with the price tag still attached. She removes the tag without looking at it and walks through the portal into Bleakmoor border wind like she's been rehearsing the walk for a week.
+
+Twenty minutes of professional conversation between a fortress commander and an acting chancellor. I lean against the portal base and don't try to listen. I catch fragments — *reciprocal defense*, *Thornwall already signed*, *Council doesn't need to know until it needs to know* — and that's the shape of it.
+
+When it's done, Thorne has what he needs. The gate stays.
+
+Elara walks back through without saying goodbye. Ink-stained fingers trailing once along the portal frame — a scholar touching architecture she's only read about. Then she's gone.
 
 "She's sharp," Thorne says. He's watching the portal where she disappeared, not me. "Sharper than most of the officers I've trained. What's her title?"
 
@@ -132,15 +174,29 @@ I don't have an answer for that. He's not wrong.
 
 ---
 
-The briefing. Thorne's office. The wall map. The oil lamp warm. The chair comfortable.
+The briefing. Thorne's office. Wall map of the Bleakmoor border. Oil lamp warm. Chair comfortable in a way that Thorne has probably weaponized on other men.
+
+He talks for a while. Threat reports. Garrison strength. Where his riders last came back from and where they didn't.
 
 I fall asleep.
 
+I come up to Thorne's voice, very dry, from across the desk.
+
 "I've had soldiers fall asleep in briefings. Privates. After seventy-two-hour watches. They had the decency to be embarrassed about it."
+
+"How long."
+
+"Eleven minutes. I let you."
 
 "Thanks for the briefing."
 
-The portal. The Silver Draft. My room. The bed. The dark.
+"Get out of my office, ArchMagus. Sleep somewhere that isn't my chair."
+
+I go.
+
+---
+
+Portal. Silver Draft. My room on the second floor. Boots off. Bracelet still warm. Solveth quiet in the scabbard. I am asleep before the door finishes swinging shut.
 
 ---
 

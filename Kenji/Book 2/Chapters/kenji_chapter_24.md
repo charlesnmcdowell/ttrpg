@@ -558,7 +558,7 @@ I sit across from her. The table where I sat on my second morning in this world 
 
 The common room is quiet. Two locals in the far corner nursing ales they've been nursing since before we arrived. A cat on the hearth. Brenn's cloth on glass. The creak of the building settling the way old buildings do — not complaining, just breathing.
 
-I look at her across the table where I sat on my second morning in this world and ate eggs and bacon that her father cooked without asking me to pay, because his daughter was happier than she'd been in a year and that was currency enough and they were never going to discuss it.
+I look at her across the table.
 
 "I have an offer for you."
 

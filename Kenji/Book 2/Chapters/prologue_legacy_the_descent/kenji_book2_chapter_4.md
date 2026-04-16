@@ -8,6 +8,8 @@
 
 Ley alcove. Slots topped. Portal. Duskfen.
 
+Out of the Broken Antler into Duskfen's high street. The column already moving — Sera at the front, researchers in the middle, Edwyn drifting the flank, Pip and Ryn wedged somewhere between the packs. Past the last houses, onto the old drover's road that runs east toward the Delve country. Stride drops me alongside them in three beats.
+
 I catch up to Sera. Match her stride. Six inches closer than tactical spacing.
 
 "You're in my spacing."
@@ -20,7 +22,7 @@ I catch up to Sera. Match her stride. Six inches closer than tactical spacing.
 
 ---
 
-An hour in. Cloud bank from the west. Temperature drops. Rain starts.
+An hour in. The country east of Duskfen opens out — rolling pasture, stone walls half-collapsed, a river running slow through reeds a quarter-mile south of the track. No farms this far out. Nothing tills this soil. Cloud bank rolls in from the west. Temperature drops. Rain starts.
 
 My stomach tightens. Four hours since breakfast. I eat while walking.
 
@@ -52,7 +54,9 @@ Her shoulders shaking. The combat lead facing away so nobody sees. Ryn whispers 
 
 ---
 
-The archway. Fifteen feet tall. Ancient. Pre-Academy. God Sight reads 120 feet of carved corridor.
+The Delve sits in a saucer of land fifty feet below the surrounding hills — a natural clearing where nothing grows. Grass ends twenty yards out in a clean ring. Bare stone beyond it. Rain sheeting sideways across the basin. At the center, built into the hillside like something the land grew around instead of something men dragged up, the archway.
+
+Fifteen feet tall. Ancient. Pre-Academy. God Sight reads 120 feet of carved corridor behind the threshold.
 
 Callen: "Self-sustaining wards. Could last another thousand years."
 
@@ -92,7 +96,7 @@ I take the Crown off her head. Back in the satchel.
 
 The expedition files through. The wards accept everyone from inside.
 
-The corridor descends. Creation energy thickening. Pip strengthening with every step. Ryn watching Sera's combat footwork. Learning.
+The corridor descends. Cut stone underfoot, edges still clean after what must be a thousand years. Torches in iron brackets every forty feet catching by themselves as the first boot passes — old wardwork, good wardwork. The rain sound cuts off behind us. The only sound the scuff of boots and the low hum of the stone itself. Creation energy thickening one switchback at a time. Pip strengthening with every step. Ryn watching Sera's combat footwork. Learning.
 
 The corridor opens.
 

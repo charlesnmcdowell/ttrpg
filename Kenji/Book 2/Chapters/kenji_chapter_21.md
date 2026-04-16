@@ -20,7 +20,7 @@ Kael nods. Brindle rests the bastard sword on her shoulder and turns south witho
 
 ---
 
-## Day 23 — Midday — Inside the Sundered Gate
+## Day 23 — Midday — The Tear
 
 ---
 
@@ -80,11 +80,17 @@ Senna: "He volunteered for the job that keeps us alive if something follows us i
 
 ---
 
-God Sight is gone. The threshold stripped it — the suppression field inside the seal tore through the buff within an hour of entry. The expanded perception, the thermal reads, the deep-structure vision — all flat. Been working without it since.
+Thessaly, quieter, only loud enough for me: "Kenji. The suppression field inside the seal will strip active buffs within an hour. God Sight won't last. Rebuff before we step through — you'll want the opening window sharp."
 
-I Recall to Varenholm. The threshold snaps away — replaced by warm stone and amber light. The ley alcove hums. Clean energy. I reach for it and the ember catches. God Sight blooms behind my eyes. The world sharpens. Layers. The edge sharpened. Darkvision to a hundred and twenty feet. The predator sees everything.
+I nod. Hand on the bracelet.
 
-One more Recall. Two charges spent. One left for the day. The anchor pulls me back to the forward camp. Grey sky, black glass. I walk through the tear.
+Recall. The tear snaps away — replaced by warm stone and amber light in Varenholm's alcove. Clean energy. I reach for it and the ember catches. God Sight blooms behind my eyes. The world sharpens. Layers. Darkvision to a hundred and twenty feet. The predator sees everything.
+
+One more Recall. Two charges spent. One left for the day. The anchor pulls me back to the forward camp. Grey sky, black glass, Dren's mercs setting their line at the tear's edge. I walk to the front of the formation.
+
+Senna: "Ready?"
+
+"Ready."
 
 ---
 
@@ -156,7 +162,13 @@ She looks forward. Into the dark. The drag marks. The pulse.
 
 ---
 
-Thessaly briefs while I'm gone rebuffing. When I step back through with God Sight burning, she's ready.
+Forty minutes of careful exploration. The ember flickers twice — the suppression field eating at the buff stack. Thessaly watches my face and reads it before I say anything.
+
+"Rebuff. Now, while we have time. I'll map the conduit count while you're out."
+
+Recall. Third charge. Varenholm alcove. Ember reaches. God Sight reseats itself, sharper this time — the predator's eye fresh. Anchor back. I step through the tear with the buff burning clean.
+
+Thessaly has notes waiting. Her spectacles catch the blue-white glow and throw it back.
 
 "Three things. The conduits — forty-seven from here. All converge approximately four hundred yards deeper. The pulse is the junction."
 
