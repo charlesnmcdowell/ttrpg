@@ -80,9 +80,11 @@ The exact shifted color varies by partner (see entries below). This is a quiet n
 
 ---
 
-## Seravane — Living Lich / Warden-Queen (Pallid March)
+## Lady Nyx — Living Lich / Warden-Queen (Pallid March)
 
-**Two forms. She is almost ALWAYS in lich form. Human form is rare — only used to seduce.**
+*(True name Lady Nyx is a reveal beat — save it. Gated: revealed only to Kenji, and only if Kenji's disposition reads neutral-or-higher at the moment of meeting. In-prose until reveal, use: "the Lych" to enemies (she is always in lich form to enemies — no exceptions), "their Lady" / "my Lady" / "our Lady" to undead enthralled followers (they have no free will — they cannot know her name), and "— the Lady" as her signature on border-proclamations and bound notices. The abbreviation "S." has been retired. See `character_tracker.md` for full alias and form-switch rules.)*
+
+**Two forms. She is almost ALWAYS in lich form. Human (Lady) form is rare — deployed only as a seduction tool, and only when the target (a) has neutral-or-higher disposition to her, (b) is not one of her thralls, (c) is not being actively killed by her lich form as an enemy, and (d) is either Kenji specifically or a viable charm-into-service target (male or female). Followers never see the Lady form — by the time they are thralls, the Lady has already done her work.**
 
 ### Lich Form (DEFAULT — this is how Kenji and the world encounter her 99% of the time)
 
@@ -108,6 +110,8 @@ She does not casually switch to human. She switches for one reason: she wants so
 **Skin:** Deep rich dark brown / black — smooth, warm to the touch in human form. Alive. Real heartbeat. Real warmth. When her power activates or Vigor is running, faint teal-green runic lines trace along her skin (arms, thighs, back, collarbones) — veins of light beneath the surface.
 
 **Personality in human form:** Zero inhibitions. Chaotic evil. She has had thousands of humanoid servants, alive and undead. She only cares about herself and her own pleasure. If she feels an urge, she acts on it immediately. No guilt, no performance, no coyness. She is the easiest woman in the story to bed — and the most dangerous. The smile is real. The desire is real. The consequences are catastrophic.
+
+**Contagion — Close to Death:** Lady form carries a transmissible condition called *Close to Death.* During intercourse it deals 1% max-HP damage per second to her partner — a raw mechanic with no standard save or resistance. Most partners die mid-act or shortly after, and rise as her enthralled undead. This is the origin pathway for most of her standing thrall army: she does not recruit, she beds. Lich form does not transmit it because lich form does not have intercourse. See `character_tracker.md` Lady Nyx entry for full mechanic and Kenji-specific survival implications.
 
 ---
 

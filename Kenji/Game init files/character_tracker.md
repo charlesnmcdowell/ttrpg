@@ -10,10 +10,12 @@
 
 Every character entry includes a **Morale Compass** value. Use it to decide how to write them, when they hold ground, and when they oppose Kenji. Five values are used:
 
-- **Lawful Good (LG)** — Follows the law, helps people. Cooperates when justice and protection align. Opposes Kenji if he becomes the one harming innocents. *Example: Sera.*
+- **Lawful Good (LG)** — Follows the law, helps people. Cooperates when justice and protection align. Opposes Kenji if he becomes the one harming innocents. *Examples: Sera, Sir Corwyn (a Lawful Good paladin whose sovereign happens to be evil — the alignment describes the man, not the throne he answers to).*
+  - **The dangerous read.** Lawful Good is the alignment players most often mistake for *safe.* It is not. LG characters are friendly, principled, trustworthy in most contexts — and they will absolutely put you in poverty, in jail, or in the ground if the law they serve tells them to. Nothing is above the law for them. Not friendship, not gratitude, not mercy in the moment. That is why Lawful Good characters are easy to hate and hard to navigate: the same code that makes them honorable in one scene makes them an enemy in the next the instant the law you crossed is theirs. You are always walking on eggshells around an LG you have reason to fear, because their kindness is real and their sword is also real and both of them answer to the same sovereign.
 - **Chaotic Good (CG)** — Breaks rules for good ends. Protects people without permission. Ignores laws that grind down the weak. Helps Kenji when it saves lives; pushes back when he grows cold or convenient. *Example: Garret (bandit highwayman who refused to kill needlessly).*
 - **Neutral (N)** — Self-interest, balance, or capacity for genuine change. **RESERVED FOR PLAYER CHARACTERS ONLY.** See rules below.
 - **Lawful Evil (LE)** — Works inside the rules to accrue power and harm those beneath them legally. Shows up to court. Stabs you on the way out. *Examples: Vael, Mordecai.*
+  - **The trustworthiness paradox.** Lawful Evil is — counterintuitively — *more* predictable than Chaotic Evil. An LE operator has drawn a line: they will not cross the laws of the land. They will twist, exploit, contract around, and lobby to change those laws, but within them, they play straight. That consistency is a kind of trust: you know what they will and will not do, and the boundary holds. Their ambition is to *control* the law, not to disobey it. This makes them dangerous in a slower, more negotiable way than a Chaotic Evil character — you can sign a deal with a Lawful Evil and actually expect the terms to be honored. You cannot sign a deal with Chaotic Evil at all, and if you do, it is not binding on them the second a better offer appears.
 - **Chaotic Evil (CE)** — Cares only for self: pleasure, power, conquest. Obeys only when forced or rewarded. Lies, pretends virtue, betrays the moment a better deal appears. *Example: Lady Nyx.*
 
 ### Alignment Rules
@@ -46,7 +48,7 @@ Every character entry includes a **Morale Compass** value. Use it to decide how 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
 | iron_key_investigation | Ashmere 22 | TBD | TBD | in_progress | Iron key pulls SSW from Millhaven. Bond-Form Sight shows 2-century binding, feeder ley-node, sealed terminator. Located in grid square H-9, 6 miles south of grove — inside the death-binder's 32-mile perimeter. Currently following the pull south-southwest from Millhaven. | Unknown. Opens a sealed location or entity. |
-| iron_chest_contents | Ashmere 23 | TBD | TBD | in_progress | Stolen from Aldric the Fallen's camp during the eastbound run. Warded. Pre-kingdom preservation enchantment. Currently in Bag of Holding, unopened. Contents unknown — whatever it is, a death knight was guarding it personally. | Opening reveals what the Lych thinks is worth guarding. Could be: phylactery component, ley-anchor, bound soul, historical artifact, or trap. Aldric will want it back. |
+| iron_chest_contents | Ashmere 23 | TBD | TBD | in_progress | Stolen from Corwyn the Fallen's camp during the eastbound run. Warded. Pre-kingdom preservation enchantment. Currently in Bag of Holding, unopened. Contents unknown — whatever it is, a death knight was guarding it personally. | Opening reveals what the Lych thinks is worth guarding. Could be: phylactery component, ley-anchor, bound soul, historical artifact, or trap. Corwyn will want it back. |
 | apotheosis_level_40 | ongoing | TBD | N/A | in_progress | 2,209,800 / 2,500,000 EXP. 290,200 to Level 40 (apotheosis cap). Five threats provide the content. Bane of Eve daily supplemental. | Reaching L40 completes the apotheosis arc. Mechanical cap on advancement. |
 
 ---
@@ -123,13 +125,13 @@ Every character entry includes a **Morale Compass** value. Use it to decide how 
 
 ## LADY NYX — Living Lich / Warden-Queen (Pallid March)
 
-**True name:** Lady Nyx. **She does not speak this name aloud to anyone but Kenji, and only after she has decided to keep him.** Before that reveal she has no name in the narrative — only aliases.
+**True name:** Lady Nyx. **She speaks this name aloud to exactly one person in the setting: Kenji — and only if Kenji's disposition to her reads neutral-or-higher at the moment they actually meet.** If he meets her hostile, afraid, or combat-forward, he gets "the Lych" like everyone else and the name stays locked. The reveal is conditional, not guaranteed. Before that reveal she has no name in the narrative — only aliases.
 
-**Aliases (use these in prose until the reveal):**
-- **"Their Lady" / "my Lady" / "our Lady"** — what her followers, thralls, death knights, and minions call her. Reverent. Possessive.
-- **"the Lych"** — what her enemies call her. Coalition scouts, Ashenveil survivors, Thornkeep patrols, old historians. Derogatory. Afraid.
-- **"S."** — a signature she uses on border-proclamations and bound notices (see Chapter 5 caravan circle parchment). Stands for a title, not a name — likely *"the Sovereign"* or *"the Silent"* or similar. Public-facing alias. **[DM NOTE: reconcile this on first in-person scene — confirm which title "S." abbreviates.]**
-- The true name "Lady Nyx" is a reveal beat. Save it.
+**Aliases (use these in prose until — and unless — the reveal):**
+- **"their Lady" / "my Lady" / "our Lady"** — what her followers call her. Her followers are **undead enthralled thralls with no free will.** They do not know her name because they are not people anymore. "The Lady" is the only noun an enthralled mouth can shape toward her. Followers do NOT count as neutral+ disposition — they have no disposition, only command.
+- **"the Lych"** — what her enemies call her. The Coalition. Ashenveil survivors. Thornkeep patrols. Old historians. The few who have seen her and lived. Derogatory. Afraid. **She is always in lich form to enemies.** No exceptions.
+- **"— the Lady"** — her signature on border-proclamations and bound notices (see Chapter 5 caravan circle parchment). She signs as *the Lady* because the title is the same thing her followers call her, which is the same thing her enemies do not yet understand — that the undead signing the proclamation and the horror guarding the grove are the same authority. Public-facing signature. **Not "S."** — the abbreviation has been retired in-setting and in all notes.
+- The true name "Lady Nyx" is a reveal beat gated behind Kenji's disposition. Save it.
 
 **Status:** alive (ley-suspended, metabolism 1%)
 **Location:** Weeping elm grove, 4 miles into woodland east of Millhaven
@@ -137,19 +139,51 @@ Every character entry includes a **Morale Compass** value. Use it to decide how 
 
 **Class:** Living Lich — alive with full dominion over death. Not undead. Real heartbeat, real warmth, real body. Chose this path as a Warden-elect in 1042. Holds a lich's power (undead army, territorial control, phylactery-equivalent) without crossing the threshold into undeath. Can switch between lich form (default) and human form (rare — seduction only).
 
-**Physical:** See npc_appearance.md — two forms documented. **DEFAULT FORM is lich** — giant skeletal floating grim reaper nightmare. Shadow and bone. This is what the world sees 99% of the time. **Human form is rare** — used exclusively to seduce. Deep brown/black skin, brown hair, hazel eyes, full-figured, commanding. Human form is fully alive and functional (real heartbeat, real warmth, all working parts).
+**Physical:** See npc_appearance.md — two forms documented. **DEFAULT FORM is lich** — giant skeletal floating grim reaper nightmare. Shadow and bone. This is what the world sees 99% of the time. **Human form (the "Lady form") is rare** — deployed only as a seduction tool. Deep brown/black skin, brown hair, hazel eyes, full-figured, commanding. Human form is fully alive and functional (real heartbeat, real warmth, all working parts).
 
-**Alignment:** Chaotic evil.
-**Disposition to Kenji:** Unknown to Kenji — not yet encountered. Kenji has not yet met her in person. The grove visit that would establish her nature has not occurred. Kenji currently only knows her as "the Lych" (coalition/Bracken framing) and the "S." signature from the caravan circle.
+### Form-Switch Rules (CRITICAL — DM gating)
+
+**Lich form is the default and is used to everyone, always, unless a very specific exception fires.** She does not casually appear human. She does not shift for convenience, for conversation, for travel, or to blend in.
+
+**Lady (human) form is only deployed when ALL of the following are true:**
+1. The target has **neutral-or-higher disposition** to her, OR she is actively trying to build that disposition through seduction.
+2. The target is **not one of her undead thralls** (thralls have no free will — no charm work needed, no seduction possible).
+3. She is **not currently trying to kill the target in lich form as an enemy.** If the lich is on the field fighting them, the Lady is nowhere.
+4. **Kenji exception:** Kenji automatically satisfies the male+disposition clause for her — he is the one person she has pre-committed to human-form treatment for, provided he meets her neutral-or-higher when they meet. If he doesn't, see alias rules above.
+
+**Lady form's only two purposes:**
+- Seduce Kenji specifically (special case — she has decided he is the keep-and-break project).
+- Charm *other* targets — male or female — into her service as new thralls. The gendered criterion above reads strictest for males; for female targets, the Lady form is still the seduction vector but the ancillary thrall conversion (see Close to Death, below) is the end-state regardless of gender.
+
+**Followers never see the Lady form.** By the time a person is a thrall, the human form has done its work and retired. The Lady is for the living.
+
+**Disposition to Kenji:** Unknown to Kenji — not yet encountered. Kenji has not yet met her in person. The grove visit that would establish her nature has not occurred. Kenji currently only knows her as "the Lych" (coalition/Bracken framing) and "the Lady" (the signature on the caravan circle parchment). He has not yet connected the two names.
 **Morale Compass:** Chaotic Evil — the anchor of this alignment. Conquest, pleasure, and self are the only loyalties. Obeys only under compulsion. Lies, pretends tenderness, flips sides the instant a better throne is on offer. Will love Kenji as a pet and murder him the moment he stops being interesting.
 
 **Abilities:** Ley-pool stasis (breathing every 11 seconds), senses and commands all 612 undead she anchors, high WIS (item-boosted), 1042 Warden-elect binding knowledge, grief-seam creation, form-switching (lich ↔ human, defaults to lich), necromantic dominion (the 612-column, the 32-mile perimeter, the territorial control), living mist grove defense (locks out intruders, grove becomes ordinary trees to unwelcome visitors)
 
 **Important Gear:** Bronze ring (4 seams — 3 clean, 4th is grief-seam tied to Corban, parasitized by death-binder). The ring is her phylactery-equivalent — the puzzle. The iron key at Kenji's hip pulls toward something connected to her power structure (grid square H-9, 6 miles south of grove).
 
+### Close to Death (Contagion Mechanic — CRITICAL)
+
+Lady Nyx carries a condition called **"Close to Death."** It is a fantasy-venereal contagion tied to her Living Lich state — the alive-with-full-dominion-over-death edge that makes her what she is leaks across skin contact during intercourse.
+
+- **Vector:** Transmitted only through intercourse in Lady (human) form. Lich form cannot transmit it because lich form does not have intercourse.
+- **Mechanic:** Deals **1% max-HP damage per second** to the partner for the duration of the act. A typical encounter (100+ seconds) will reduce a baseline humanoid to zero HP. Scales raw — no save, no resistance, no mitigation from ordinary means.
+- **Usual outcome:** Death mid-act or shortly after.
+- **Post-death outcome:** The partner rises as one of her **enthralled undead.** This is the primary origin pathway for most of her standing army of thralls. She does not recruit — she beds.
+- **This is why her followers have no free will.** They were people she slept with. The Close to Death killed them. The dominion-over-death rebound bound them to her. "My Lady" is what a mouth that used to love her now calls her.
+- **Canonical exception — Sir Corwyn the Fallen.** His paladin Constitution and Oath of Protection refused to die on the normal schedule. Seventy-two continuous hours of intercourse were required to finally reduce him to zero HP. When he finally died, his Oath did not break — it *warped,* and the dominion-over-death rebound could not fully claim him. He retains full paladin class features, partial sentience, memory, and an unbroken (though redirected) Oath of Protection. This is the only documented survival of the first hour in setting history, and it is still not a full survival — it is a partial one. See Corwyn's entry below for the full mechanics and narrative consequences.
+
+**Kenji-specific implications (DM-tracked, not player-visible until discovery):**
+- Kenji's biological enhancement profile and healing throughput may be the first thing in her living memory that could survive the act. Whether he does is a mechanic, not a plot guarantee.
+- If Kenji survives an encounter, the Vigor cycle below fires — and he survives to face the 10%-per-cycle conquest consequence. She gets what she wants *and* keeps him alive to do it again.
+- If Kenji does not survive, he becomes her highest-grade thrall. The Abyssal Shard Nodachi in the hand of an enthralled Kenji is a setting-level extinction event. Do not hand-wave this outcome.
+- The first intimacy is the test. The first dawn after is the reveal.
+
 ### Vigor Consequence Mechanics (CRITICAL)
 
-If Kenji is intimate with Lady Nyx (human form), she receives Lover's Vigor (+50% all stats, 5 days):
+If Kenji is intimate with Lady Nyx (human form) **and survives Close to Death**, she receives Lover's Vigor (+50% all stats, 5 days):
 - **Immediate:** She becomes unstoppable in combat. Minion toughness multiplied 5×. Her lich-form army becomes unkillable by any local force.
 - **Per 5-day buff cycle:** Conquers **10% of the kingdom** — destroys villages in her area, expands undead territory, absorbs populations into her army.
 - **Natural conquest rate (no buff):** 5% per 20 days. She's already a threat without Vigor. With it, she's a catastrophe.
@@ -164,7 +198,7 @@ If Kenji is intimate with Lady Nyx (human form), she receives Lover's Vigor (+50
 | pallid_march_potential | 1042 AR | TBD | TBD | dormant | The full Pallid March threat — Lady Nyx's lich-form ambition. Currently dormant because she's suspended. Once freed, her nature determines whether she becomes a threat regardless of Kenji's choices (natural 5%/20 days conquest). Intimacy with Kenji accelerates this catastrophically. | Without Vigor: slow 5%/20-day expansion, manageable threat. With Vigor: 10%/cycle blitz, unstoppable army, capture-Kenji side plot triggers, kingdom-ending trajectory. |
 | capture_kenji | N/A | N/A | N/A | dormant | ACTIVATES only after first Vigor buff expires. Lady Nyx hunts Kenji (sends minions or goes personally) to capture him alive and force re-buff. Repeats after every expiration. | If Kenji is captured: forced intimacy → new 5-day conquest cycle → 10% more kingdom falls. Escape or rescue required. Side plot escalates with each capture attempt. |
 
-**THE TRAP:** She is the easiest woman in the story to bed — chaotic evil, zero inhibitions, upfront about what she wants, beautiful in human form. But each intimacy event triggers a 10% kingdom conquest cycle and eventually a capture-hunt side plot. The romance path IS the threat path. Nobody omnisciently connects Kenji to the surge. The player chooses the destruction with full mechanical transparency. Kenji has not yet encountered her.
+**THE TRAP:** She is the easiest woman in the story to bed — chaotic evil, zero inhibitions, upfront about what she wants, beautiful in human form. But each intimacy event (a) requires Kenji to *survive Close to Death* (1%/sec), (b) triggers a 10% kingdom conquest cycle if he does, and (c) eventually a capture-hunt side plot. The romance path IS the threat path AND the extinction path. Nobody omnisciently connects Kenji to the surge. The player chooses the destruction with full mechanical transparency. Kenji has not yet encountered her.
 
 ---
 
@@ -453,26 +487,49 @@ No active goals — identity and status unknown. **Investigation flag:** Who Cor
 
 ## SIR ALDRIC THE FALLEN — Death Knight, the Lych's Guard
 
+> **One-line character:** A Lawful Good undead paladin serving a Chaotic Evil lich. Both halves of that sentence are fully and simultaneously true, and the tension between them is the character. Every encounter with Corwyn has to play both halves at once — the honor and the horror, the conscience and the chain, the sword that still carries holy fire in the hand of a man who died three days dying.
+
 **Status:** MIA
 **Location:** Ashenveil — clearing on higher ground (southeast). Kenji observed him at a fire ring during Ashmere 23 eastbound run but did not engage.
 **Last Updated:** Ashmere 24 (stub created — observed but not formally introduced)
 
 **Physical:** Black plate armor, polished. Greatsword called Oathbreaker — two signatures (holy + necrotic). The sword is in pain.
-**Disposition to Kenji:** Hostile (chased the clone, called out "THIEF" when iron chest was taken). Does not know Kenji's identity.
-**Morale Compass:** Lawful Evil — fallen paladin. Still has a code; the code now serves the Lych. Will duel honorably, keep his word, and butcher a village on command. Opposes Kenji with everything because Kenji stole the chest and the chest was his charge. Oaths don't die just because they rotted.
+**Disposition to Kenji:** Hostile on paper (chased the clone, called out "THIEF" when iron chest was taken), restrained in practice. Does not know Kenji's identity. The restraint — the *willingness to talk* noted in prior chapters — is a function of his partial sentience, not his orders. Orders say kill. Oath says protect. Oath wins in the moment; orders catch up later.
+**Morale Compass:** **Lawful Good.** Strictly speaking — not "Lawful Good with an asterisk," not "Lawful Good warped," just Lawful Good. He follows a lawful chain of command. He protects what he has been given to protect. He does not seek power for himself. He does not take pleasure in hurting anyone. He does not lie, cheat, or hunt the helpless. He confirms targets before striking and he keeps his word. That is the behavior of a Lawful Good character, and alignment describes behavior, not the morality of whoever sits on the throne he answers to. The queen he serves is Chaotic Evil. Corwyn is not. Two characters, two alignments. His Oath of Protection was redirected — who he protects changed — but the virtues that make him *him* are intact and operating on the same rules they did when he was alive. He is a good knight serving the wrong queen. That is the entire tragedy in one sentence, and it does not require the alignment label to carry a qualifier.
 
-**Abilities:** Death Knight, Level 26. Was a paladin. Died in the Ashenveil on a purification quest. Raised by the Lych. Retains personality, honor, memories. Hates what he's become. Most dangerous single combatant in her army. Greatsword Oathbreaker (holy/necrotic dual-signature).
+**Origin — The Seventy-Two Hour Death (CRITICAL — explains everything about him):**
 
-**Important Gear:** Black plate armor, Oathbreaker (greatsword — holy origin, necrotic corruption). Iron chest was stolen from his camp by Kenji.
+Sir Corwyn was a Lawful Good paladin of the Oath of Protection. Before he fell, he was everything the Oath asked of him — a shield for the weak, an honest sword, a man whose word was a load-bearing beam of his life.
 
-**Personality:** Honorable. Tormented. If Kenji can break the binding, Aldric becomes an ally. If not, he's a lethal enemy.
+Lady Nyx seduced him. In Lady form. Bedded him with the intent of Close to Death running its standard course — 1% max-HP per second, dead in under two minutes, rise as thrall.
+
+**His paladin Constitution refused to cooperate.** The Oath-bonded CON, the divine vigor of a protector at peak — it resisted the contagion directly. He didn't die in two minutes. He didn't die in an hour. He didn't die in a day.
+
+**It took seventy-two hours of continuous connection.** She stayed with him the entire time, because the mechanic requires ongoing intercourse to deal damage — she couldn't leave and come back. For three full days she fed Close to Death into his body, and he held. His HP drained percentile by percentile while his Oath kept rebuilding the floor underneath him.
+
+**When he finally died, he didn't fully enthrall.** The Close to Death completed the kill. The dominion-over-death rebound fired as it always does. But the Oath of Protection did not break — it *warped.* Where her other victims lost everything that made them people, Corwyn kept:
+
+- **His paladin power.** Full suite. Lay on Hands, smite, aura, divine sense — all functional, all tied to the original Oath that was never formally broken. He can still cast as a paladin because he still *is* one, technically.
+- **His sentience.** Partial. He knows who he was. He knows what he is now. He knows how he got here. Most thralls know nothing. Corwyn knows everything and remembers every hour of the seventy-two.
+- **His Oath.** Not broken — warped. The Oath of Protection now reads: *protect the Lady, her grove, her domain.* But the original vector (protect the weak, protect the innocent, do not strike the defenseless) is still underneath it, unbroken because paladin oaths are not simple compliance contracts — they are identity. She could rewrite the target. She could not delete the shape.
+- **His alignment.** Still Lawful Good. Strictly. The Close to Death killed his body, not his morality. He has not become cruel, he has not become grasping, he has not developed a taste for the things death knights usually develop a taste for. He serves a dark queen, but he serves her the way a good man serves — without relish, without ambition, without any of the pleasures of evil. The *law* he answers to is now hers. The *good* is the same good it was when he was alive. Alignment describes the character, not the throne; Corwyn stays Lawful Good the way Sera or Bracken do, and the sovereign he answers to is simply CE. Two characters, two alignments, both clean. That is exactly what makes him the most dangerous of her followers to her own cause — because he still has a conscience, and conscience is the one thing her other servants do not have to fight through.
+
+This is the duality the story has been gesturing at: a creature of light and undeath in the same armor, neither fully. The necrotic runs up his sword from the pommel; the holy runs down from the edge. They meet in the middle of Oathbreaker and they are *still fighting each other.* The blade is in pain because the wielder is in pain.
+
+**Abilities:** Death Knight, Level 26 — BUT retains functional paladin class features under the warped Oath. Lay on Hands still heals (he can heal *her grove's living defenders*, which is theologically incoherent and which he does not think about). Smite fires on command (necrotic-tinged). Divine Sense still works. Aura of Protection still extends. The Oath powers have been re-targeted, not removed. Combat: most dangerous single combatant in her army. Greatsword Oathbreaker (holy/necrotic dual-signature — sword is *in pain* because it is also carrying the duality). Retains personality, honor, memories. Hates what he's become but cannot act directly against the Lady without breaking the warped Oath, which he does not know he can survive.
+
+**Important Gear:** Black plate armor, Oathbreaker (greatsword — holy origin, necrotic corruption, dual-signature, *in pain*). Iron chest was stolen from his camp by Kenji — he was guarding it because the Lady told him to, and his Oath requires him to recover it, which means he must chase Kenji, which means he must talk before he strikes, which means he is *here and not killing.*
+
+**Personality:** Honorable. Tormented. The calmest voice in the Lady's army because he is the only follower who is still a *person* in there. If Kenji can break the warped Oath (not the original — the warp), Corwyn returns fully to who he was and becomes a catastrophic ally (paladin memories + death knight power + seventy-two hours of grudge against the Lady). If Kenji cannot break it, Corwyn remains the most dangerous and the most hesitant enemy Kenji will fight — the one who will pause before the killing stroke and ask a question first. The pause is the opening.
+
+**Narrative function — why he hasn't rushed to kill Kenji:** Every prior encounter where Corwyn has talked instead of struck is because the Oath of Protection — the unbroken underneath one — is reading Kenji's intent (not yet a threat to the Lady directly) and running the old rules: *do not strike the uncommitted, confirm the target.* That is paladin doctrine, not death-knight doctrine. He is acting on the doctrine that was never deleted. The Lady's orders say kill the thief. The original Oath says confirm the threat. The original Oath moves his feet first.
 
 ### Active Goals
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| serve_the_lady | pre-campaign | DORMANT (tied to Pallid March clock) | N/A | dormant | Bound to Their Lady's service (what he and the other bound undead call her). Leads assault columns. Patrols the Ashenveil. Currently hunting whatever stole the iron chest from his camp. | If binding broken: Aldric becomes a powerful ally (paladin memories + death knight power). If March launches: he leads the vanguard. |
-| recover_iron_chest | Ashmere 23 | TBD | N/A | in_progress | Kenji stole a warded iron chest from Aldric's camp during the eastbound run. Aldric chased the clone south. Doesn't know who took it or where they went. | If recovered: whatever was in the chest returns to the Lych's control. If not: Kenji has it (contents unknown — still in Bag of Holding). |
+| serve_the_lady | pre-campaign | DORMANT (tied to Pallid March clock) | N/A | dormant | Bound to Their Lady's service via the warped Oath of Protection (what he and the other bound undead call her). Leads assault columns. Patrols the Ashenveil. Currently hunting whatever stole the iron chest from his camp. His compliance is NOT total — the original unbroken Oath is still underneath, reading intent, hesitating on uncommitted targets. | If the warp is broken (not the Oath itself — the redirect): Corwyn returns fully to Lawful Good with full paladin class features AND death knight power AND seventy-two hours of grudge against the Lady. Catastrophic ally. If March launches before the warp breaks: he leads the vanguard, and the vanguard has a hesitation built into it that Kenji can exploit. |
+| recover_iron_chest | Ashmere 23 | TBD | N/A | in_progress | Kenji stole a warded iron chest from Corwyn's camp during the eastbound run. Corwyn chased the clone south. Doesn't know who took it or where they went. | If recovered: whatever was in the chest returns to the Lych's control. If not: Kenji has it (contents unknown — still in Bag of Holding). |
 
 ---
 
@@ -926,16 +983,26 @@ Last-known states preserved in AI_CONTEXT.md. Promote to full tracker entries on
 - **Katya Voss** — Lawful Good. General of the Thornwall. Soldier's morality. Protects her line first.
 - **Mordecai** — Lawful Evil. Canonical LE alongside Vael. Operates inside the Coalition's legal framework to accrue personal power. Court-polite, quietly lethal.
 - **Vael** — Lawful Evil. The other canonical LE. Legal mind, bureaucratic knife. Never breaks a rule he hasn't already rewritten.
-- **Lythara** — Lawful Evil. Elven noble, political operator. Armistice with Kenji holds as long as ley network is undisturbed.
-- **Nimue** — Chaotic Good. Water-fae, wild morality, kind to the drowning, cruel to the oathbreakers.
-- **Faelindra** — Lawful Good. Eldest of the Seelie contact courts. Old protocols, older kindnesses.
-- **The Eldest** — Chaotic Evil. Ancient, hungry, unreadable. Treats mortals as weather.
+- **The Eldest** — Lawful Good. She/her. Sovereign of the Deepwood, ten thousand years old. Doesn't fight; she decides. Mother of three daughters (Faelindra, Nimue, Lythara) and one son (Auren). Named Kenji Champion of the Deepwood. **[DM: Creation's senior champion — long-game restraint.]**
+- **Faelindra** — Lawful Good. Eldest daughter of the Eldest. Military commander, ironwood armor, three hundred years of rejected suitors. Intimate with Kenji.
+- **Nimue** — Chaotic Good. Middle daughter of the Eldest. Water affinity. The one Kenji calls "toots." Intimate with Kenji.
+- **Lythara** — Chaotic Good. Youngest daughter of the Eldest. Root/hair affinity. Designed the continental ley restoration network. Intimate with Kenji.
+- **Auren Greyholm** — Lawful Good. Son of the Eldest. Reincarnated king who chose peace the second time. Level 28. **[DM: outlander (Arthur/TBATE homage), pulled by Creation.]**
 - **Della** — Lawful Good. Village-keeper type, Thornfield-adjacent.
 - **Lena** — Chaotic Good. Runaway-turned-fixer. Helps the wrong people first.
 - **Torvald** — Lawful Good. Dwarven veteran, reliable as stone.
 - **Brenn** — Lawful Good. Farm-hand-turned-militia. Protects what's his.
 - **Carrick Hale** — Lawful Evil. Merchant-prince, Coalition-adjacent, plays the board for himself within the rules.
-- **Dren** — Chaotic Evil. Ex-smuggler, snake with a grin. Loyalty is an auction.
+- **Dren** — Chaotic Evil. Ex-smuggler, snake with a grin. Loyalty is an auction. *(FLAG: this entry conflicts with Dren Valdric — Lord of Ironholt / Master Enchanter in AI_CONTEXT and npc_appearance.md, who has friendly +30 disposition with Kenji. Reconcile: two different Drens, or one miswritten entry?)*
+
+### Book 1-2 Squad Leaders & Wardbreakers (referenced in AI_CONTEXT squads / npc_appearance.md)
+
+- **Kael** (Kenji's Kael, not Brother Morvak) — Lawful Good. Squad leader, Eastern territories patrol. Reports to Katya. Post-war patrol duty. Loyal to the chain, loyal to Kenji. Opposes Kenji only if Kenji undermines Katya's command or the patrol's mission.
+- **Brindle** — Lawful Good. Squad leader, trade route security on the Broken Antler → Ironholt circuit. Reports to Katya. Caravan escort commander. Standards-first, merchants-second.
+- **Renna Thorne** — Lawful Good. Thornkeep garrison commander on the southern Ashenveil border. Jostin's commander. Logging undead activity with increasing alarm. Opposes Kenji if Kenji endangers Thornkeep or the border watch's credibility.
+- **Ryn** — Chaotic Good. Spell Thief / Scout. Book 1-2 Wardbreaker. Takes what the enemy won't miss, leaves what the party can't live without. Operates inside the law only when it's cheaper.
+- **Finch** — Chaotic Good. Halfling Scout / Wardbreaker. Finds things interesting when he should find them terrifying. Loyal to the squad, not the rules.
+- **Varn** — Lawful Good. Half-orc Fighter / Wardbreaker. Greatshield line. Single-sentence sincerity. Opposes Kenji if Kenji asks him to stand aside while civilians get hit.
 
 ---
 
@@ -972,12 +1039,12 @@ Each of the four women carrying Kenji's children has a distinct arrival trigger 
 1. **Wynn's research samples** — Story-changing if they leave Thornfield. No timer set because we don't know her plan. Needs a goal with due_date when she decides to act.
 2. **Amaris searching via Root Network** — She's a Level 16 druid looking for Kenji through the soil. If the Root Network extends to Millhaven's region, she could detect his ember. Needs clarification on range.
 3. **Iron key investigation** — Kenji is now following the pull SSW from Millhaven. Key points to something sealed with 2-century binding, located in grid square H-9 (6 miles south of grove). Inside death-binder's 32-mile perimeter.
-4. **Iron chest contents** — Stolen from Aldric. Still unopened in Bag of Holding. Unknown what the Lych thought was worth a death knight guarding.
+4. **Iron chest contents** — Stolen from Corwyn. Still unopened in Bag of Holding. Unknown what the Lych thought was worth a death knight guarding.
 5. **Corban unknown** — Named as the Lych's grief-seam anchor. Status (alive/dead/undead/bound) not determined. Likely gates the ring puzzle.
 6. **Death-binder parasitism** — Feeding on the Lych's 4th seam. She doesn't know. Kenji doesn't know whether to tell her, sever it, or use the information as leverage.
-7. **"S." signature reconciliation** — Chapter 5's caravan-circle parchment is signed "— S." Lady Nyx's true name starts with N. The "S." is a public-facing title ("the Sovereign"? "the Silent"?) she uses on border proclamations. Reconcile on first in-person scene.
+7. **Border-signature standardized — "the Lady".** The Chapter 5 caravan-circle parchment (previously signed "— S.") and all subsequent border proclamations now sign *"— the Lady."* The abbreviation "S." has been retired in-setting. The signature aligns the public-facing notice with what her followers already call her, which means Kenji will one day realize the signature and his enemy are the same person — the recognition is the scene, not a puzzle reveal.
 8. **Book 1-2 stub characters** — Sera, Pip, Garrett, Elara, Aldwin, Maren all have minimal entries. Expand when their threads reactivate.
-9. **Distant NPCs not yet promoted** — Senna, Thessaly, Vess, Katya, Mordecai, Vael, Lythara, Nimue, Faelindra, The Eldest, Della, Lena, Torvald, Brenn, Carrick Hale, Dren. Their last-known states are in AI_CONTEXT.md and can be promoted to full tracker entries on reactivation.
+9. **Distant NPCs not yet promoted** — Senna, Thessaly, Vess, Katya, Mordecai, Vael, Lythara, Nimue, Faelindra, The Eldest, Auren Greyholm, Della, Lena, Torvald, Brenn, Carrick Hale, Dren. Their last-known states are in AI_CONTEXT.md and can be promoted to full tracker entries on reactivation.
 
 ---
 
@@ -1036,3 +1103,15 @@ Kenji at 2,209,800 / 2,500,000 EXP. 290,200 to Level 40. Five threats provide th
 ---
 
 *Last full consolidation: Ashmere 24, 1247 AR. Source: Book 4 Chapters 1-8 prose + Book 1/2 story summaries. Full rewrite to restore content after mount-cache truncation incident; all renames (Seravane→Lady Nyx, Captain Voss→Captain Halvard, Brekka→Vrokka, Brother Kael→Brother Morvak) applied; Morale Compass attribute added to every entry.*
+
+*Patch pass (Ashmere 24, 1247 AR, later): rename drift fixed in `fraying_empire_campaign.md`, `npc_appearance.md`, `AI_CONTEXT.md`, `world_calendar_lore.md`. Added Book 1-2 squad leaders and Wardbreakers (Kael, Brindle, Renna Thorne, Ryn, Finch, Varn) to Distant NPCs. Removed redundant "Alignment:" field from Lady Nyx entry. Flagged Dren entry collision (tracker vs AI_CONTEXT / npc_appearance) for reconciliation.*
+
+*Lore expansion (Ashmere 24, 1247 AR, later still): Lady Nyx access-control rules formalized. Name-reveal gated to Kenji only, contingent on neutral-or-higher disposition at moment of meeting. Follower alias "the Lady" justified by thrall-status (no free will, cannot know her name). Enemies see lich form exclusively. Lady-form deployment rules codified (neutral+ disposition, not-thrall, not-actively-hostile, Kenji-exception, charm-target male or female). Close to Death contagion mechanic added (1%/sec max-HP during intercourse, post-death thrall conversion — origin pathway for her standing undead army). Vigor Consequence entry updated to note Kenji must first survive Close to Death before the buff cycle even fires. Mirrored into `npc_appearance.md` alias header and added to human-form Personality block.*
+
+*Corwyn backstory canonized (Ashmere 24, 1247 AR, same pass): Sir Corwyn the Fallen entry rewritten with full Seventy-Two Hour Death origin — paladin CON resisted Close to Death for three continuous days of forced intercourse; when he finally died, his Oath of Protection warped rather than broke, leaving him partially sentient with retained paladin class features and the original protect-the-uncommitted instinct still running underneath the Lady's orders. Explains his duality (holy + necrotic in the same armor, Oathbreaker "in pain"), his restraint toward Kenji (old Oath confirms target before striking), and his story viability as the only follower who is still a person. Lady Nyx Close to Death entry cross-references Corwyn as the canonical exception.*
+
+*Corwyn alignment correction (Ashmere 24, 1247 AR, follow-up, then further refined): Morale Compass settled at **Lawful Good — full stop, no qualifier.** Earlier drafts used "Lawful Good — warped" but that qualifier was wrong on reflection. Alignment describes the character, not the sovereign they answer to. Corwyn follows a lawful chain, protects what he has been given to protect, does not seek power, does not enjoy harm, does not lie, confirms targets before striking, keeps his word. That is Lawful Good behavior, by the book. The queen he serves is Chaotic Evil; Corwyn is not. Two characters, two clean alignments. The word "warped" is preserved only where it describes the *Oath* (a piece of divine binding that was re-targeted — a mechanical state) — not where it would describe *him.* This is the cleanest possible read: a Lawful Good knight serving the wrong queen, and the tragedy is that both of those sentences are simultaneously true without the alignment label needing to flinch.*
+
+*Alignment reference expanded (Ashmere 24, 1247 AR, follow-up): Morale Compass descriptors for Lawful Good and Lawful Evil enriched with their *narrative-danger* readings. LG gets the "walking on eggshells" framing — the code that makes them honorable is the same code that makes them an enemy the instant the law you crossed is theirs; their kindness is real and their sword is also real and both answer to the same sovereign. LE gets the "trustworthiness paradox" framing — more predictable than CE because they will not cross the laws of the land, making a signed deal actually binding. You can negotiate with Lawful Evil. You cannot negotiate with Chaotic Evil. This sharpens the threat taxonomy and explains why Corwyn (LG warped) is simultaneously the most honorable and the most dangerous follower in the Lady's army.*
+
+*Border-signature retirement (Ashmere 24, 1247 AR, same pass): "S." abbreviation dropped in-setting. All border-proclamations and bound notices now sign "— the Lady." Applied in `character_tracker.md`, `npc_appearance.md`, `fraying_empire_campaign.md`, `AI_CONTEXT.md`, `Kenji_story_book4.md` line 1214, and `Book 4/Chapters/fraying_empire_chapter_05.md` line 55. The signature now matches the follower-voice alias, which makes the recognition-beat (Kenji realizing the caravan-circle Lady and the Lych are one person) a narrative scene rather than an alphabet puzzle.*

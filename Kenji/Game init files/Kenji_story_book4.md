@@ -1211,7 +1211,7 @@ At the center — a post. Wooden. Sharpened. Black cloth at the base. A parchmen
 
 *Ten carried swords. Ten were collected. Their goods feed the March. Their horses pull the carts. Their bodies stand in the column.*
 
-*— S.*
+*— the Lady.*
 
 The border isn't where Bracken thinks it is. It's here. Fifteen miles north. Seravane moved it.
 
@@ -1237,7 +1237,7 @@ I take what I can without touching the bodies. A shield — silver inlay, anti-t
 
 A clearing. Higher ground. A fire in a stone ring. A death knight.
 
-Sir Aldric the Fallen. Black plate. Polished. A greatsword called Oathbreaker — Steel Sight reads it screaming. Two signatures in the metal. One holy. One necrotic. The sword is in pain.
+Sir Corwyn the Fallen. Black plate. Polished. A greatsword called Oathbreaker — Steel Sight reads it screaming. Two signatures in the metal. One holy. One necrotic. The sword is in pain.
 
 He looks at the clone. Studies it.
 
@@ -1255,7 +1255,7 @@ Tied initiative. I'm faster. Bag of Holding open. Chest goes in. Wind Step — s
 
 "THIEF."
 
-The clone stays. Walks deeper into the marsh. Aldric chases the ghost. The column reactivates. The root network fires. Everything in the Ashenveil chases a phantom south while I walk north.
+The clone stays. Walks deeper into the marsh. Corwyn chases the ghost. The column reactivates. The root network fires. Everything in the Ashenveil chases a phantom south while I walk north.
 
 Four hours of illusion duration. They can chase it until dusk.
 

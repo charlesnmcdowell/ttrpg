@@ -101,7 +101,7 @@ Shortest day. Longest night. The most significant holiday across all cultures.
 
 **Orcs:** The Bone Fire. Each tribe builds a fire from the bones of animals hunted that year. The fire burns through the night. Young orcs who came of age that year jump the fire. If you land clean, the year will be strong. If you stumble, the shaman gives you extra training.
 
-**Undead:** Seravane's army would be at peak strength. The Ashenveil is most dangerous on this night. Death knights patrol. Wraiths are solid enough to touch. The ley lines at their lowest means the barrier between living and dead is thinnest.
+**Undead:** The Lych's army would be at peak strength. The Ashenveil is most dangerous on this night. Death knights patrol. Wraiths are solid enough to touch. The ley lines at their lowest means the barrier between living and dead is thinnest.
 
 **Culturally:** Family. Memory. Warmth against the dark. The holiday that matters most and the one Kenji has never experienced.
 
