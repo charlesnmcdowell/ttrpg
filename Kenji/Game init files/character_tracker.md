@@ -37,9 +37,61 @@ Every character entry includes a **Morale Compass** value. Use it to decide how 
 **Disposition:** N/A (protagonist)
 **Morale Compass:** Neutral (Player Character — Hiro's call; shiftable as Kenji develops)
 
-**Abilities:** Enhanced Arcane Edge, Haste, Stride (L4), Wind Step (70m), God Sight (120ft darkvision + crit targeting), Greater Invisibility, Clone (smoke bomb), Radiant Edge, Ward Mastery (L4), Living Ground (druid bond), Diagnostic Touch, Bond-Form Sight, Captain's Read, Siren-Elf charm aura (Irresistible Presence DC 23), Portal Gateway, Lover's Vigor (transmitted via intimacy — +50% all stats, 5 days, eye-color shift)
+**Abilities (full ArchMagus kit — most are SUPPRESSED in Ronin mode):** Enhanced Arcane Edge, Haste, Stride (L4), Wind Step (70m), God Sight (120ft darkvision + crit targeting), Greater Invisibility, Clone (smoke bomb), Radiant Edge, Ward Mastery (L4), Living Ground (druid bond), Diagnostic Touch, Bond-Form Sight, Captain's Read, Siren-Elf charm aura (Irresistible Presence DC 23), Portal Gateway, Lover's Vigor (transmitted via intimacy — +50% all stats, 5 days, eye-color shift)
 
-**Important Gear:** Abyssal Shard Nodachi (red-black steel), Emberfang (creation sword — left behind/stored), Frost Fang (entropy sword — summonable, Solveth lives here), Windstrider boots, Bag of Holding, Iron Key (pulls SSW — 2-century binding, feeder ley-node, sealed terminator), Hollow Crown → Circuit Bracelet (Book 2 endgame), mask, hakama, ronin garb, enchanted underclothes
+### RONIN MODE — Active Loadout (Book 4)
+
+**Why he's fighting this way:** Kenji is deliberately building a new combat persona — **The Ronin** — to throw off everyone hunting Kenji the ArchMagus / Champion of the Elves / Bane of Eve. The iaido-and-nodachi silhouette, the wuxia-style Wind Step, the troll-illusion smoke-bomb-clone combo, the trimmed spell list — none of it reads like the Wizard King's fighting style. Anyone searching for Kenji is looking for: ember aura, dual-blade Emberfrost, golden portals, Siren-Elf charm pressure, creation/entropy signature, battlefield flight. **The Ronin uses none of that.** Witnesses describe a masked swordsman with a black nodachi, a hakama, and a smoke-bomb trick. That description maps to hundreds of wandering blades across the continent. That's the point.
+
+Kenji is undercover. **Arcane and Ember abilities are deliberately off the table** — using them would identify him as Kenji the ArchMagus and collapse the disguise. Ronin mode is a trimmed, deliberately low-tier-looking kit that lets him fight and travel without reading as an archmagus to any observer.
+
+**What's active:**
+
+- **Abyssal Shard Nodachi** — primary weapon. Red-black steel, faint internal luminescence. **Damage: 6d12 slash + Void.** **25% chance to vaporize the enemy on a CRIT** (instant-kill roll per crit, not per hit). Reads as a scary but mundane exotic blade to observers.
+- **Iaido Stance** (Taryn bond, trained Millhaven Ch 4) — **Guaranteed crit on the drawn cut. Once per encounter.** Triggers either **before initiative** (pre-combat draw-strike) or **after a full sheathe** during combat (reset by sheathing the blade, then redrawing). Form: thumb on guard, left foot forward, weight low. Draw, strike, return — one motion, one breath. Six months of muscle memory plus seven days of back-room drill. **Synergy with the nodachi:** guaranteed crit + 25% vaporize on crit = every drawn cut rolls for instant-kill.
+- **Iaido Combat Economy (per turn):**
+  - **2 attacks per turn** base.
+  - **2 counter-attacks per turn** (reactions on enemy miss in melee range, no reaction cap within a single turn — each counter is its own strike).
+  - **On-Kill Continuation:** When Kenji kills an enemy with the nodachi, he gets an immediate free bonus attack. **This is baked into the iaido style itself — it does NOT require Arcane Edge active.** Replaces Arcane Momentum in Ronin mode (Arcane Edge is suppressed for cover reasons, but the style's momentum-on-kill remains). Unlimited triggers per round so long as the kill requirement keeps being met.
+  - **Sheathe types** (flavor/tactical):
+    - **Back-carry sheathe** — slow arc over right shoulder, tip skyward, rotates down behind the back. *Shhhhiiiing. Click.* Full sheathe. Resets Iaido Stance.
+    - **Hayanoto (quick reset)** — fast one-handed drop to the scabbard. Full sheathe. Resets Iaido Stance.
+    - **Chiburi-first** — flick of the blade to shed blood before sheathing. Full sheathe. Resets Iaido Stance. Cosmetic — tells witnesses he's done.
+    - **Half-sheathe hold** — tip into the mouth of the scabbard, thumb on guard, blade mostly exposed. **Does NOT reset Iaido Stance.** Reads as "still dangerous" to anyone paying attention. Used to bluff, load, or keep options open.
+    - **Reverse / left-hand sheathe** — off-hand sheathe. Full sheathe (resets stance), awkward on purpose, used to sell off-balance or occupied-hand.
+- **Steel Sight** (Taryn bond) — Reads weapon quality and flaws at a glance. Passive, no tell.
+- **Windstrider Boots** — silent, trackless, +2 DEX, +5 Acrobatics, 20% dodge.
+- **Threadwalker Gloves** — +3 DEX.
+- **Red-and-Black Hakama** — **+3 light armor. Generates a defensive ward every 2 turns** (one absorption/deflection charge refreshes on a 2-round cadence). Reads as traveling clothes. The ward cadence is the only tell, and it's subtle — looks like "lucky blocks" to an outside eye.
+- **Smoke Bomb + Invisibility + Clone (combined)** — single combo ability. **Lasts 6 hours. 3 charges per day.** Smoke bomb drops, Kenji goes invisible, the clone walks out of the smoke. This is a **troll-tier illusion package** — Kenji uses it for fun and distraction. A genuine illusionist at Kenji's level would do vastly more; this is the shallow surface layer specifically *because* he's playing small.
+- **Wind Step** — travel ability. ~70 meter burst. **Opposite of Arcane Stride — this is extremely agile and silent instead of fast and loud.** Cloud-stepping, tree-running, water-running. Kenji crosses terrain by skipping across surfaces that shouldn't hold weight. Looks like wuxia, not war-magic. No tiring over normal distances at Level 35.
+  - **CURRENT TIER (Book 4 early): 25 mph** — base pace, chained continuously.
+  - **PENDING UPGRADE — Wind Step Leveled (DM: trigger when travel use earns it):**
+    - **Stealth mode (clone running ahead as decoy): 40 mph.** Not invisible-fast — can be seen and stopped. The clone runs the road openly while Kenji ghost-steps parallel. Observers see a traveler. Not two.
+    - **All-out sprint (no stealth, doesn't care who sees): 80 mph.** Ridiculous kung-fu montage — kicking off trees, buildings, boulders, using them to gain height, then air-walking for a few moments and spinning into a sky-glide streaming upward before slowly arcing back down to earth. Flashy, loud in a wuxia way (not an ember way), unmistakably a high-level move but reads as martial mastery, not arcane.
+    - **Maximum burst (sustained glide phase): ~200 mph** during the airborne portion of the all-out sprint. This is as fast as Kenji can move without Arcane Stride / the ember.
+  - **NARRATIVE DIRECTION — THE RONIN'S STYLE TAX:** Wind Step (all tiers) is Kenji deliberately looking cool. The reader knows his real potential from Books 1-3 (Arcane Stride was raw speed and violence). The Ronin version is theatrical — twirls, spins, mid-air poses, cloud-stepping with unnecessary flourish. **Describe in detail:** the wuxia kicks, the tree launches, the glide arcs, the deliberate show of it. NPCs who witness it should react the same way they react to the clone — comedic disbelief, dry commentary, "did that man just run on a cloud?" Same energy as when characters spot the clone isn't real. **No omniscient commentary** — NPCs comment on what they see (a masked swordsman doing impossible acrobatics), NOT on Kenji's true potential or old move set unless they canonically know who he is.
+
+**What's suppressed (will break cover if used):**
+
+- All Ember abilities (Ember Lance, Emberfang, Emberfrost, Cyclone, Horizon Arc, Ignite) — Emberfang is left behind/stored specifically to prevent temptation.
+- All overt Arcane casting visible to witnesses — Enhanced Arcane Edge, Radiant Edge, Stride, Haste, Thunderous Strike, etc. Held in reserve for genuine emergencies only.
+- Portal Gateway creation — 15ft dual-nature archways are a signature fingerprint.
+- Duality Aspect — 60ft aura and flight would identify him instantly.
+- Siren-Elf Charm Aura (DC 23) — activating it near NPCs creates witnesses who can later describe the aura and trigger Bane of Eve #2.
+- Full-scale Lover's Vigor transmission to anyone whose eye-color shift will be publicly visible and traced back.
+
+**Sensory toolkit (passive, no tell, always on):**
+
+- Bond-Form Sight, Living Ground, Captain's Read, Steel Sight, Diagnostic Touch, God Sight — all invisible to observers, all safe to use at all times.
+
+**Emergency-only (breaks cover, used only if the alternative is dying or exposure is already inevitable):**
+
+- Recall (solo teleport to portal network) — visual tell is brief but complete disappearance.
+- Frost Fang summon — Solveth speaks through it audibly; only draw if already committed to a fight with no survivors.
+- Full Arcane/Ember arsenal — if the mask comes off, it comes off; fight as the ArchMagus.
+
+**Important Gear:** Abyssal Shard Nodachi (red-black steel, 25% vaporize on hit), Windstrider boots, Threadwalker gloves, red-and-black hakama (+3 light armor, ward every 2 turns), Emberfang (creation sword — left behind/stored), Frost Fang (entropy sword — summonable, Solveth lives here), Bag of Holding, Iron Key (pulls SSW — 2-century binding, feeder ley-node, sealed terminator), Hollow Crown → Circuit Bracelet (Book 2 endgame), mask, ronin garb, enchanted underclothes
 
 **Gold:** ~1,488 gp / 50 sp
 

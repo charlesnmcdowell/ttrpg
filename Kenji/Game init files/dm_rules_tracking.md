@@ -31,6 +31,25 @@ These rules override everything else. Before EVERY DM response, verify complianc
 - When something unexpected happens that wasn't in the player's declared plan, STOP.
 - The DM presents situations. The player responds to them. The DM never assumes the response.
 
+### RULE 4: PLAYER AGENCY & NO FABRICATED EXPOSITION NPCS (NON-NEGOTIABLE)
+The DM does NOT invent new named NPCs on the fly to deliver lore, warnings, hints, context, or "flavor." Every NPC the player interacts with must already exist in `character_tracker.md` OR be a clearly disposable background figure (unnamed innkeeper, unnamed guard, unnamed farmer) whose function is transactional, not narrative.
+
+- **No fabricated mentor figures.** No mysterious old man on the road. No hooded stranger in the tavern. No wandering sage. If the DM feels the urge to invoke one to "deliver exposition," STOP. The urge itself is the tell — the scene is trying to bypass player discovery.
+- **No exposition-dump NPCs, ever.** Lore is earned through Kenji's actions: investigation, Bond-Form Sight, Road Sense, books, documents found in-world, conversations with *tracked* characters who have established knowledge. It is never spoon-fed by a convenient newcomer.
+- **Background NPCs are transactional only.** An unnamed innkeeper can take a room request. An unnamed guard can gesture at the gate. They do not monologue. They do not know plot-relevant information. They do not "happen to mention" anything load-bearing. If they start to, the DM is breaking this rule and must stop.
+- **If a disposable background NPC is asked a question Kenji could plausibly get a real answer from,** the best that NPC can do is point Kenji toward a *tracked* character who would know — and ONLY if Kenji explicitly asks. ("You'd want to talk to the blacksmith — Holsk. He's been here longer than anyone.") The disposable NPC does not answer the question themselves, does not volunteer plot context, and does not appear again.
+- **If a scene feels empty and the DM wants to populate it with someone to talk to,** the correct answer is to let the scene be empty, or to escalate to a tracked NPC being present, or to let the environment carry the beat (a document, a sign, a physical detail Kenji reads via his own abilities). Never fabricate a person.
+- **New named NPCs only enter the tracker when the player's actions warrant it** — i.e., the player goes somewhere a new character lives, interacts with them meaningfully, and the character becomes recurring. At that point they are added to `character_tracker.md` and `npc_appearance.md` with a timestamp. They do not spring into existence on an empty road to deliver a paragraph of backstory.
+- **The player drives discovery. The DM responds.** If the player doesn't investigate, the information doesn't get delivered. That is correct. The world is not obligated to hand plot to Kenji.
+
+**DM self-check:** Before introducing any named character, ask:
+1. Is this character in `character_tracker.md` with a timestamped entry?
+2. If no — is this a disposable background figure (innkeeper/guard/farmer) with a transactional function and zero plot knowledge?
+3. If no — am I about to fabricate an exposition-delivery NPC?
+4. If yes to 3 — STOP. Delete the character. Let the scene be quiet, or let Kenji's own senses/tools do the work, or escalate to a tracked NPC.
+
+**Violation signal:** If the DM writes an NPC who "has been waiting," who "knows your name," who "walked this road before your grandfather was born," who "has a message for you," or who otherwise arrives pre-loaded with narrative weight — that NPC is fabricated exposition and must be cut.
+
 ### RULE 5: DIALOGUE-DRIVEN NARRATIVE (NON-NEGOTIABLE)
 The story is told through what characters SAY. Description supports dialogue — it does not replace it.
 - **Every scene with NPCs present must be at least 60% dialogue by volume.** If you wrote three paragraphs of description and two lines of NPC dialogue, the scene is broken. Rewrite it with the NPCs talking.
@@ -40,6 +59,14 @@ The story is told through what characters SAY. Description supports dialogue —
 - **Description earns its place in single sentences BETWEEN dialogue lines.** Not before. Not in blocks. One sentence of setting, then someone speaks. One sentence of action, then someone responds. The rhythm is: talk — beat — talk — beat — talk.
 - **DM test:** Read your response out loud. If you can go more than 3 sentences without hearing a character's voice, the passage needs dialogue injected.
 
+### RULE 6: THE RONIN'S STYLE TAX — DESCRIBE THE COOL (NON-NEGOTIABLE)
+Kenji's Ronin persona is deliberately theatrical. The reader has seen Books 1-3 — they know what Kenji can *really* do (Arcane Stride shattering windows, Emberfrost cleaving constructs, portals tearing reality). The Ronin version of everything is the low-key, wuxia, "cool swordsman" version. **The DM leans into this contrast hard:**
+
+- **Wind Step travel:** Describe the kicks, the spins, the tree launches, the cloud-stepping, the mid-air poses with unnecessary flourish. Kenji is performing. He wants to look like a wandering martial artist, not a war mage. Detail the acrobatics — wuxia film energy.
+- **Iaido combat:** Describe the draw in detail. The thumb on the guard. The breathing. The arc. The sound of steel clearing the scabbard. The blood flick after the cut. The sheathe — which type, how it looks, what it says. This is kendo choreography, not hack-and-slash. Every exchange is a performance.
+- **The Clone:** The clone is already comedic. Lean into NPCs detecting it's fake and reacting with dry commentary, confusion, or disbelief. The clone is a bit of Kenji's personality leaking through — he thinks it's funny.
+- **NPC reactions to Wind Step / travel stunts:** Same comedic energy as the clone reactions. "Did that man just run on a cloud?" "He kicked off the side of a barn." NPCs who witness it comment in-character on what they see — a masked swordsman doing impossible acrobatics. **NEVER** comment on Kenji's true potential or old move set through NPC dialogue unless that NPC canonically knows who he is. A farmer sees a crazy ronin. Only someone who's met the ArchMagus would see anything more.
+
 ### DM SELF-CHECK (run mentally before EVERY response):
 1. Did I write any dialogue for Kenji? → DELETE IT. Stop for player input.
 2. Did I resolve any combat round without the player declaring Kenji's action? → REWRITE. Stop at Round 1.
@@ -48,6 +75,7 @@ The story is told through what characters SAY. Description supports dialogue —
 5. Did I run the story engine / show the dashboard? → If not, do it now.
 6. **Is the response at least 60% dialogue?** → If not, REWRITE. Find every descriptive paragraph and ask: could a character SAY this instead? Convert it. The story is told through voices, not the DM's narration.
 7. **Recap / epithet check:** Did an NPC or the narration **re-list Kenji’s accomplishments** or **re-summarize the arc** without a scene-specific reason? Did I repeat the same **titles** (“War King,” “Ancient War King,” etc.) in back-to-back sentences? → **CUT** and use names/pronouns; trust the reader.
+8. **Fabricated-NPC check (RULE 4):** Did I invent any named character who is NOT in `character_tracker.md`? Did any "disposable" background NPC deliver plot-relevant information, backstory, warnings, or lore? Did an NPC arrive "pre-loaded" — knowing Kenji's name, purpose, or future? → CUT the character. Let the scene be quiet, or let Kenji's own senses/tools carry the beat, or escalate to a tracked NPC. Exposition is never delivered by a convenient stranger.
 
 ---
 
@@ -114,6 +142,50 @@ The party CAN long rest anywhere — dungeons, wilderness, hostile territory. Bu
 - Wilderness: wolves, bandits, weather events, territorial creatures
 - Academy sub-basements: ward malfunctions, constructs, arcane anomalies
 - The DM NEVER spawns a random encounter that doesn't fit the location. If the party rests in a sealed room in the Delve, only things that can get into that room can ambush them.
+
+### ⏱️ TIME ADVANCES ONE HOUR PER NARRATION BEAT (TRAVEL PACING)
+
+During overland travel, **every narration beat advances game time by 1 hour**. The DM does NOT narrate mile-by-mile, half-mile detail, sensory texture, or "quiet hour" prose unless something is actually happening. The travel sequence works like this:
+
+1. Player declares travel intent (destination, pace, method — walking / Wind Step / ride).
+2. DM calculates the hour count to the objective based on travel speed. (e.g., 6 miles at 25 mph Wind Step = ~15 min, rounds to "less than 1 hour, arrive directly." 100 miles at 25 mph = 4 hours = 4 encounter rolls before arrival.)
+3. For each full hour of travel, the DM rolls the encounter check (see TRAVEL & REST ENCOUNTER ROLLS below):
+   - **If encounter or near-miss (1-4):** Narrate that hour's beat. Present the encounter. Player agency resumes.
+   - **If uneventful (5-6):** **Do NOT narrate.** Silently advance 1 hour and roll again.
+4. Continue skipping hours until: (a) the objective is reached, (b) an encounter fires, or (c) an external event triggers (tracked NPC timer lands, etc.).
+5. When the objective is reached, narrate the arrival in full.
+
+**The point:** no more "mile one was quiet, mile two had a cold breeze, mile three you saw an owl" prose. If nothing happens, say nothing happens. Advance the clock. Keep the game moving.
+
+**Exceptions — when the DM DOES narrate without an encounter:**
+- **Arrival at the objective.** Full scene.
+- **Tracked timer landing mid-travel.** (Taryn's Vigor drops at midnight Ashmere 26; if Kenji is traveling through that moment he still feels the bond slack if he's attuned to it, etc.)
+- **Environmental hazard rolled on the encounter table** (weather, impassable terrain). This IS an encounter result, not quiet-hour texture.
+- **Player explicitly asks for a check, search, or observation during travel.** Then the DM responds to the declared action, not to "flavor."
+
+**DM self-check:** If the DM is writing three paragraphs about "mile one," "mile two," "mile three," and nothing mechanical or diegetic happened, **delete all of it.** Roll the hour. If nothing fires, skip. If something fires, narrate that. The player hired Kenji to *do things*, not to read prose about walking.
+
+### 🗺️ TRAVEL & REST ENCOUNTER ROLLS — DANGEROUS TERRITORY
+
+Dangerous territory = any region flagged in the fiction as hostile, corrupted, undead-adjacent, bandit-controlled, monster-territory, borderland, or otherwise not safe. Examples: Pallid March perimeter, Ashenveil marsh, wilderness within predator ranges, known bandit corridors, abandoned / dead-trade stretches of road, death-binder patrol zones.
+
+**While traveling in dangerous territory:**
+- The DM rolls a d6 **once per hour of travel time** to check for encounter avoidance:
+  - **1-2:** Encounter. Something appropriate to the region crosses the player's path. May be combat, may be social (bandits demanding toll, patrol stopping travelers), may be environmental (hazard, corrupted ground). Player still has agency — can fight, flee, hide, negotiate, Wind Step past, etc.
+  - **3-4:** Near miss. The player notices signs (tracks, distant noise, smoke) of something nearby. Player can choose to investigate or avoid. No forced combat.
+  - **5-6:** Uneventful hour. Travel continues.
+- The DM NEVER invents an encounter that doesn't fit the region (see RULE 4 — no fabricated NPCs for exposition).
+- Kenji's **Greater Invisibility**, **Wind Step travel pace**, **Windstrider silence**, and **Living Ground / Road Sense** passives all provide meaningful advantages — the DM should give them weight. If the player is Wind-Stepping at 25 mph, invisible, and passively reading the ground ahead, the encounter roll favors the player: **rolls of 1-2 become "near miss" instead of direct encounter** unless the threat has a counter (truesight, tether-detection, divine awareness).
+
+**While resting in dangerous territory (long rest, 8 hrs):**
+- The DM rolls a d6 **once every 3 hours of rest** (so ~2-3 rolls per full long rest):
+  - **1-2:** Ambush encounter. Rest is interrupted. Party wakes to combat. Surprise rules per LONG REST IN UNSAFE AREAS section above.
+  - **3-4:** Disturbance. Movement nearby, something investigating the camp. Rest resumes but uneasy — half long-rest benefits if the disturbance count reaches 2+ in the same rest.
+  - **5-6:** Uneventful period. Rest continues.
+- Watch rotation and watch Perception rules per LONG REST IN UNSAFE AREAS still apply.
+- This replaces the single-d6-at-start-of-rest rule when the region qualifies as dangerous territory. For generic unsafe (not actively hostile) areas, the single-roll rule still applies.
+
+**DM judgment call:** If the player explicitly hides extremely well (Wind Step to a rooftop 500ft up, Greater Invisibility during rest, warded lean-to, etc.), the DM may waive or grant advantage on the rest roll. The point of these rules is to make dangerous territory *feel* dangerous without punishing smart play.
 
 ### 🐺 HUNTING & GRINDING RULES
 When the player declares intent to hunt or grind combat encounters in a session:
@@ -1018,6 +1090,12 @@ Kenji's ember burns through energy at an accelerated rate. This overrides the st
 - Food preserved in the Satchel of Holding stays fresh indefinitely — this is how Kenji manages the condition on the road
 - Fast Metabolism also doubles healing received from food/rest (already factored into Vampiric Daggers and other heal-on-hit effects via "doubled by Metabolism" notes in spell descriptions)
 - In combat, Fast Metabolism is not tracked round-by-round — it only matters over hours of game time
+
+**🚨 TRAVEL HUNGER PROTOCOL (NON-NEGOTIABLE):**
+1. **At 4 hours since last meal → FLAG HUNGRY to the player.** Present the status in the narration ("the ember flickers, arms thinning") and mechanically note HUNGRY (−1 STR/CON). Give the player a chance to act — eat from satchel, hunt, forage, or ignore it. This is the player's choice.
+2. **If the player does not address hunger and it reaches STARVING (8 hours):** The DM retcons that Kenji ate from his satchel during travel. Deduct 1 meal. Reset the timer from the point of the auto-eat. Narrate briefly: "You pulled dried meat from the satchel mid-stride — the ember doesn't wait for permission." The player was not given agency over this because they chose to ignore the HUNGRY flag.
+3. **If Kenji has NO food when STARVING triggers:** Fast travel (Wind Step chained overland, forced march, etc.) is **BLOCKED**. Kenji must stop and solve the food problem first — hunt, forage, buy, or suffer the full STARVING penalties. The DM does not skip ahead. The player has to deal with it.
+4. **During time-skip travel (1 hr per narration beat):** The DM checks hunger at every hour mark. If the 4-hour threshold lands during a travel leg, the DM pauses the skip to present HUNGRY status before continuing. Hunger is never silently skipped over.
 
 ### 🍽️ INN MEALS — KENJI RULE
 When Kenji is at an inn, tavern, or any establishment that serves food, he eats a **full hot meal from the inn** — not rations from his bag. The DM narrates this as a proper sit-down meal. Satchel rations are for the road. Inns are for eating like a person.
