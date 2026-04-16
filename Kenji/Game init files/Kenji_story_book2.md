@@ -161,6 +161,8 @@ The webs catch fire. The chamber burns behind me.
 
 "It's dead."
 
+Ryn exhales — shaky, one sound. "Half of that was already done. Something tore the flank open before we ever got here; you walked into a kill someone else started." He looks at Frost Fang, then Emberfang, then away. "And those blades — black smoke, gold fire like that? They don't look like steel. They look like the props a bard gives the hero in the last verse when the tavern goes quiet."
+
 ---
 
 The Wyrm. Full Stride. Cart screaming.
@@ -204,6 +206,8 @@ Ryn. From the tunnel mouth.
 "Three things. You identified the weakness before you engaged. You used the Prowler's old wound. And you stayed close instead of retreating because I was behind you."
 
 A pause.
+
+"If I could see down here without you," Ryn says, voice low, "I'd have run. Both of them — wrong in a way you don't get from a book."
 
 "That last one isn't a combat lesson. That's a different kind."
 

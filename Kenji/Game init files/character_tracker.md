@@ -4,6 +4,8 @@
 **Current Location:** South road out of Millhaven, heading toward iron key's pull (SSW)
 **Active Book:** Book 4 — Fraying Empire (The Ronin Arc)
 
+> **Cross-references:** DM behavior rules → `dm_rules_tracking.md` | Game engine & mechanics → `ttrpg_game_engine.py` | Live state → `kenji_state.json`
+
 ---
 
 ## MORALE COMPASS REFERENCE

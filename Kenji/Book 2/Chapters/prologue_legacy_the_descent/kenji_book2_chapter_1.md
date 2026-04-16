@@ -82,7 +82,7 @@ Pip first. My room. I tell them about the mine.
 
 Pip closes the book.
 
-"I don't have spells, Kenji. I've been reading theory for two days. I can't fold space. I can't make a shield. I can't cast anything."
+"I don't have spells, Kenji. I've been reading theory for two days, can't fold space, can't make a shield, and can't cast anything."
 
 "I'd be a body you have to protect, not an ally who helps you fight. And you just told me you promise we'll be safe — which means you're already thinking about keeping me alive instead of thinking about the creature."
 
@@ -92,11 +92,9 @@ Pip closes the book.
 
 Ryn is in his doorway. Satchel packed.
 
-"I don't know any spells either. But I can throw a rock accurately and I can read what a creature does before it does it. I'd be more useful watching you fight than sitting in Aldwin's classroom learning from a book. Aldwin teaches theory."
+"I don't know any spells either. But I can throw a rock accurately and I can read what a creature does before it does it. I'd be more useful watching you fight than sitting in Aldwin's classroom learning from a book."
 
 He picks up the satchel.
-
-"You are the practice."
 
 One honest no. One quiet yes. I give them both horses. Pip rides to the Academy. Ryn rides northwest.
 
@@ -136,11 +134,9 @@ I run. The mine shaft swallows us. God Sight opens the darkness — 120 feet of 
 
 A junction. Main tunnel straight, side tunnel left. A broken ore cart. Claw marks.
 
-The side tunnel has webs. Not spider silk — translucent sheets. Bones. A boot. The match to the one outside.
+The side tunnel has webs. Not quite spider silk — translucent sheets. Bones. A boot. The match to the one outside.
 
 I cast Radiant Edge on Emberfang. Golden-white light floods the mine. Ryn's first sight of the tunnels.
-
-"Not spider," he says. "Wrong structure. Sheets, not radial patterns."
 
 "Stay in the cart. If anything comes from the main tunnel — yell."
 
@@ -155,6 +151,8 @@ The webs catch fire. The chamber burns behind me.
 "It's dead?"
 
 "It's dead."
+
+Ryn exhales — shaky, one sound. "Half of that was already done. Something tore the flank open before we ever got here; you walked into a kill someone else started." He looks at Frost Fang, then Emberfang, then away. "And those blades — black smoke, gold fire like that? They don't look like steel. They look like the props a bard gives the hero in the last verse when the tavern goes quiet."
 
 ---
 
@@ -202,7 +200,7 @@ Ryn. From the tunnel mouth.
 
 A pause.
 
-"That last one isn't a combat lesson. That's a different kind."
+"If I could see down here without you," Ryn says, voice low, "I'd have run. Both of them — wrong in a way you don't get from a book."
 
 ---
 
@@ -224,7 +222,7 @@ Down through the western cloister. Out the service gate. Three blocks of wet cob
 
 He wraps the Wyrm jaw-crystal for proof. Heads for the door. Pauses.
 
-"The Council will respond to this, Kenji. Not today. Not this week. But they will respond."
+"The Council will respond to this, Kenji. I hope you know what you're doing."
 
 He leaves.
 
