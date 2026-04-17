@@ -39,7 +39,7 @@ Every character entry includes a **Morale Compass** value. Use it to decide how 
 **Disposition:** N/A (protagonist)
 **Morale Compass:** Neutral (Player Character — Hiro's call; shiftable as Kenji develops)
 
-**Abilities (full ArchMagus kit — most are SUPPRESSED in Ronin mode):** Enhanced Arcane Edge, Haste, Stride (L4), Wind Step (70m), God Sight (120ft darkvision + crit targeting), Greater Invisibility, Clone (smoke bomb), Radiant Edge, Ward Mastery (L4), Living Ground (druid bond), Diagnostic Touch, Bond-Form Sight, Captain's Read, Siren-Elf charm aura (Irresistible Presence DC 23), Portal Gateway, Lover's Vigor (transmitted via intimacy — +50% all stats, 5 days, eye-color shift)
+**Abilities (full ArchMagus kit — most are SUPPRESSED in Ronin mode):** Enhanced Arcane Edge, Haste, Stride (L4), Wind Step (70m), God Sight (120ft darkvision + crit targeting), Greater Invisibility, Clone (smoke bomb), Radiant Edge, Ward Mastery (L4), Living Ground (druid bond), Diagnostic Touch, Bond-Form Sight, Captain's Read, Siren-Elf attraction aura (Irresistible Presence DC 23 — biological attraction, NOT charm/dominate, target retains full sentience and free will), Portal Gateway, Lover's Vigor (transmitted via intimacy — +50% all stats, 5 days, eye-color shift)
 
 ### RONIN MODE — Active Loadout (Book 4)
 
@@ -55,6 +55,8 @@ Kenji is undercover. **Arcane and Ember abilities are deliberately off the table
   - **2 attacks per turn** base.
   - **2 counter-attacks per turn** (reactions on enemy miss in melee range, no reaction cap within a single turn — each counter is its own strike).
   - **On-Kill Continuation:** When Kenji kills an enemy with the nodachi, he gets an immediate free bonus attack. **This is baked into the iaido style itself — it does NOT require Arcane Edge active.** Replaces Arcane Momentum in Ronin mode (Arcane Edge is suppressed for cover reasons, but the style's momentum-on-kill remains). Unlimited triggers per round so long as the kill requirement keeps being met.
+- **Ronin Quirks (roleplay-driven combat behaviors — not perks, not leveled, earned through play):**
+  - **Showman's Sheathe (nat 1 / miss quirk):** When Kenji rolls a nat 1 or misses an attack, he does NOT continue attacking. Instead, he plays the miss off — creating distance with a spin, twirl, or flourish — then slowly sheathes the nodachi in a dramatic samurai/ninja pose and **freezes in the pose, ending his turn.** The enemy gets their attack turn against a man standing still with his sword put away. **But Kenji gains 4 counters during the enemy's attack turn while holding the pose.** Each counter is a full reaction strike triggered on an enemy miss. Pose ends at the start of Kenji's next turn. **Mechanically:** trades offense for quadruple counter potential. **Narratively:** the ronin who treats combat like performance art. Witnesses see a man who missed, sheathed his blade mid-fight, and then punished every retaliatory swing without breaking the pose. It looks insane. It looks deliberate. It looks like he meant to miss.
   - **Sheathe types** (flavor/tactical):
     - **Back-carry sheathe** — slow arc over right shoulder, tip skyward, rotates down behind the back. *Shhhhiiiing. Click.* Full sheathe. Resets Iaido Stance.
     - **Hayanoto (quick reset)** — fast one-handed drop to the scabbard. Full sheathe. Resets Iaido Stance.
@@ -559,13 +561,13 @@ No active goals — identity and status unknown. **Investigation flag:** Who Cor
 
 > **One-line character:** A Lawful Good undead paladin serving a Chaotic Evil lich. Both halves of that sentence are fully and simultaneously true, and the tension between them is the character. Every encounter with Corwyn has to play both halves at once — the honor and the horror, the conscience and the chain, the sword that still carries holy fire in the hand of a man who died three days dying.
 
-**Status:** MIA
-**Met:** no — observed from distance (Ashmere 23, Ashenveil fire ring). Stole chest from his camp. Clone interaction only. Name known via Steel Sight reading Oathbreaker. Physical appearance known (black plate, greatsword). Never spoke face to face.
-**Location:** Ashenveil — clearing on higher ground (southeast). Kenji observed him at a fire ring during Ashmere 23 eastbound run but did not engage.
-**Last Updated:** Ashmere 24 (stub created — observed but not formally introduced)
+**Status:** Active
+**Met:** yes — Ashmere 24 night, terminus camp. Kenji returned the stolen iron chest, spoke face to face ("I thought dead men told no tales, yet here we are"). Corwyn asked "Why are you here, swordsman?" twice. Kenji never answered — walked away with Elda mid-conversation. Corwyn witnessed the seal opening behind Kenji. Kenji knows him as "the death knight" — does not use the name Corwyn in conversation (learned via Steel Sight only).
+**Location:** Iron Key Terminus — grid H-9, edge of Lady Nyx's 32-mile perimeter. Last seen at stone ring camp with returned iron chest. Seal opened nearby. May report to Seravane.
+**Last Updated:** Ashmere 25 (Chapter 6 end)
 
 **Physical:** Black plate armor, polished. Greatsword called Oathbreaker — two signatures (holy + necrotic). The sword is in pain.
-**Disposition to Kenji:** Hostile on paper (chased the clone, called out "THIEF" when iron chest was taken), restrained in practice. Does not know Kenji's identity. The restraint — the *willingness to talk* noted in prior chapters — is a function of his partial sentience, not his orders. Orders say kill. Oath says protect. Oath wins in the moment; orders catch up later.
+**Disposition to Kenji:** Conflicted. Initially hostile (chased clone Ashmere 23, called "THIEF"). After chest return (Ashmere 24): puzzled, wary, not aggressive. The thief came back, returned the stolen property, and walked away from an opened seal without looking inside. That's not thief behavior. The restraint — the *willingness to talk* — is a function of his partial sentience, not his orders. Orders say kill. Oath says protect. The ronin's behavior (returning stolen goods, protecting a civilian) maps to the Oath, not the enemy. Corwyn noticed. Does not know Kenji's identity.
 **Morale Compass:** **Lawful Good.** Strictly speaking — not "Lawful Good with an asterisk," not "Lawful Good warped," just Lawful Good. He follows a lawful chain of command. He protects what he has been given to protect. He does not seek power for himself. He does not take pleasure in hurting anyone. He does not lie, cheat, or hunt the helpless. He confirms targets before striking and he keeps his word. That is the behavior of a Lawful Good character, and alignment describes behavior, not the morality of whoever sits on the throne he answers to. The queen he serves is Chaotic Evil. Corwyn is not. Two characters, two alignments. His Oath of Protection was redirected — who he protects changed — but the virtues that make him *him* are intact and operating on the same rules they did when he was alive. He is a good knight serving the wrong queen. That is the entire tragedy in one sentence, and it does not require the alignment label to carry a qualifier.
 
 **Origin — The Seventy-Two Hour Death (CRITICAL — explains everything about him):**

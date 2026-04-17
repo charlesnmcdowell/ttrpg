@@ -51,7 +51,14 @@
 
 - **DC 23** WIS save, female humanoids, on first viewing each day
 - **Escalation:** Every 15 minutes of viewing, cumulative -1 to save
-- **Stacks:** 1=mild (it's mentioned) , 2=moderate (finds kenji attractive), 3=strong (physically uncomfortable, horny), 4+=agony (very horny may start asking kenji if its ok to relieve themselfs), 7+= ravenous (may take what they need by force from kenji, may make a will save or attempt to relieve them selfs with their hands or objects or someone else they are in a relationship with) 10+ = insanity (starts 5% damage to hp every fail after this point. )
+- **Nature:** This is a biological attraction aura, NOT a charm or dominate effect. The target maintains full sentience and free will at ALL times. It is a natural urge to biologically procreate — escalating arousal/attraction, never torture, pain, or loss of faculties. Targets always know what they're feeling and can choose how to act.
+- **Stacks (attraction-based):**
+  - **Stack 1 — Mild Attraction:** Subtle awareness. Target notices Kenji is attractive. Slightly distracted. Might glance more than normal. Fully functional otherwise.
+  - **Stack 2 — Moderate Attraction:** Finds Kenji genuinely attractive. Thoughts drift. Harder to focus on other topics. May find excuses to stay near him or keep conversation going.
+  - **Stack 3 — Strong Attraction:** Physically aroused. Noticeable warmth, flushed skin, quickened pulse. Wants to be closer. May struggle to maintain train of thought in conversation. Still fully in control of actions.
+  - **Stack 4-6 — Deep Attraction:** Struggling to maintain physical distance and focus. Strong biological pull toward Kenji. Proximity becomes magnetic — stepping away requires conscious effort. Attention keeps snapping back to him. May start asking or hinting for physical contact. Still has free will, still makes their own choices, but the wanting is loud and persistent.
+  - **Stack 7-9 — Ravenous Attraction:** Discomfort from resisting physical contact. The body wants what it wants and denying it feels like holding your breath — possible but increasingly uncomfortable. May make a WIS save or attempt to relieve themselves, seek out Kenji directly, or find another outlet. The resistance itself is what causes discomfort, not the aura.
+  - **Stack 10+ — Overwhelming Attraction:** Maximum intensity. The pull is constant and consuming. Every thought circles back. Resisting physical contact is agonizing — not from pain, but from sheer biological need. May take what they need by force (WIS save to resist). Still sentient, still aware, still making choices — but the choice to resist has become the hardest thing they've ever done.
 - **Fade times:** Stack 1=1hr, Stack 2=3hrs, Stack 3=5hrs, Stack 4=8hrs, Stack 5+=12hrs
 - **Immunity:** 5 days after intimacy (Lover's Vigor)
 - **Pretty Privilege + Tip Jar:** strangers start at friendly (2 tier shift)

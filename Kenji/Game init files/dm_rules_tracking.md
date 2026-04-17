@@ -1104,6 +1104,8 @@ The world is not a queue. Problems don't form a polite line and wait their turn.
 - Resource depletion matters. Ironhide charges, Iron Jaw uses, spell slots, HP — when they're gone, they're gone. The DM should create situations that DRAIN resources before the real threat arrives. The wolves were the appetizer. The hexcrawlers were the meal. By the time the meal arrived, the appetizer had already eaten the Ironhide charges.
 - Gold and gear can be lost. Vael's mages cleaned Thorne's pockets during the teleport. A river crossing can ruin rations. A fire can destroy a camp. The DM should occasionally remind the player that inventory is not permanent.
 
+**Ronin Quirks (DM must enforce — these are roleplay-driven combat behaviors, not level perks):**
+- **Showman's Sheathe:** When Kenji rolls a nat 1 or misses an attack, he does NOT continue attacking. Instead, he plays the miss off as intentional — creates distance with a spin, twirl, or flourish — then slowly sheathes the nodachi in a dramatic samurai/ninja pose and **freezes in the pose, ending his turn.** The enemy gets their attack turn against a man standing still with his sword put away. **However, Kenji gains 4 counters during the enemy's attack turn while holding the pose** (up from the normal 2). Each counter triggers on an enemy miss as a full reaction strike. Pose ends at the start of Kenji's next turn. **DM narration directive:** describe the pose, the stillness, the enemy swinging at a statue — and the punishing counter-strikes that fire without the ronin breaking form. To observers, it looks like he missed on purpose to bait the counterattack. It looks insane. It looks deliberate. See `character_tracker.md` § Ronin Quirks for mechanical details.
 
 ---
 
@@ -1379,8 +1381,8 @@ The player chooses what to engage with. The DM makes sure the choices exist.
 - All diversity rules above apply. Each seeker is a unique race, unique class, unique look, unique mythic ability, unique motivation. **No exceptions.**
 - **Power level: CR 30-40.** These women are legends. Some are stronger than Ronin-Kenji. Some are stronger than ArchMagus-Kenji. They didn't come to lose.
 - **They come to fight, not to die.** Seekers want to test the legend. Some want to beat him. Some want to bed him. Some want both. Some want to prove the bard-tales are lies. Their goal is personal — not political.
-- **The Irresistible Presence complication.** DC 23 charm aura is always on. Every seeker who stays near Kenji long enough starts accumulating stacks. The fight becomes a race — can she defeat him before the aura defeats her? This creates a unique combat dynamic where the duel has a hidden timer the opponent is fighting against.
-- **Defeat outcomes matter.** A seeker who loses to Kenji in combat AND fails the charm saves doesn't just walk away. She's charmed, attracted, and now has a personal connection to the most dangerous man in the world. Some become allies. Some become obsessed. Some become pregnant. Some become all three. Each defeated seeker is a potential recurring character, not a disposable encounter.
+- **The Irresistible Presence complication.** DC 23 attraction aura is always on (NOT charm/dominate — target keeps full sentience and free will). Every seeker who stays near Kenji long enough starts accumulating stacks of escalating biological attraction. The fight becomes a race — can she defeat him before the aura overwhelms her focus? This creates a unique combat dynamic where the duel has a hidden timer the opponent is fighting against. See kenji_tracking_OBSOLETE.md for full stack breakdown.
+- **Defeat outcomes matter.** A seeker who loses to Kenji in combat AND fails the attraction saves doesn't just walk away. She's deeply attracted and now has a personal connection to the most dangerous man in the world. Some become allies. Some become obsessed. Some become pregnant. Some become all three. Each defeated seeker is a potential recurring character, not a disposable encounter.
 - **Seekers who win** take a trophy, extract a promise, or earn bragging rights. Losing a duel has consequences — the bard-tales update, Kenji's reputation shifts, and the next seeker arrives with different expectations.
 - **Seekers can become party members.** A seeker who falls for Kenji (or just respects him) might travel with him. She brings her unique class and abilities to the party — filling roles the Ronin can't. This is how Book 4 organically builds parties.
 
@@ -1944,7 +1946,7 @@ Per Ironholt milestone: +10 HP, or +1 Veritas dmg, or +2 Ki, or new enchantment 
 | 18 | Sorcerer's Hegemony (C) | Construct Army (1 squad/portal/dawn, 13 portals = 52 constructs/day). Population Fear (scales with count). Constructs: HP 40, AC 16, +8, 1d10+4. |
 | 21 | Bonded Lovers | +1 STR/CON per intimate partner (17 partners = +17/+17). Stats maintained without proximity. |
 | 24 | Soul Nexus | All partner abilities active passively. Regen 333/turn. Blade Dance. Aether Shield. Diagnostic Touch. Hearthsense. Living Ground. Etc. |
-| 27 | Irresistible Presence | Siren-Elf charm aura DC 23. Always on. Can't be turned off. Stacks accumulate over exposure. |
+| 27 | Irresistible Presence | Siren-Elf attraction aura DC 23. Always on. Can't be turned off. Biological attraction stacks (NOT charm/dominate — full sentience/free will). See kenji_tracking_OBSOLETE.md for stack breakdown. |
 | 30 | Bane of Eve | **DORMANT** — triggers when Kenji's location is exposed. Daily legendary-class challengers. |
 | 33 | Road Sense + The Long Haul | Trade route awareness 10mi (Breca bond). No travel exhaustion (Breca bond). |
 
@@ -2817,8 +2819,9 @@ Kenji's portal gateways are strategic infrastructure. The DM and story engine mu
 | Greymere Valley | B4 | ✅ | Isolated valley. Hearthstead location. 6 months hiding. No ley line. |
 | Thornfield | B4 | ✅ | Village, 240 people. Corruption crisis (Vareth/Greenveil). Briarstone Homestead. Amaris, Wynn, Delia here. |
 | Millhaven | B4 | ✅ | Current hub town. Taryn based here. Commission board. Bracken (garrison commander). Holsk (buyer). |
-| Iron Key Terminus | B4 | ⚠️ | Grid H-9. Edge of death-binder's 32-mile perimeter. Seal unlocking. Current location. |
+| Iron Key Terminus | B4 | ⚠️ | Grid H-9. Edge of death-binder's 32-mile perimeter. SEAL OPENED Ashmere 24 night. Key left in ground. Contents unexplored. Sir Corwyn witnessed. |
 | Seravane's Domain | B4 | ☠️ | Undead territory. Pallid March column. 15mi north of old border. Root network detects living intrusion. Sir Corwyn patrols. |
+| Thornkeep | B4 | ✅ | Border fortress. Garrison town. Commander Renna Thorne. Corporal Jostin (scout). Thornkeep Waystation (Pip property, 3 GP/day). Kenji arrived Ashmere 25. Logging unusual undead activity from Ashenveil. |
 
 
 ---
