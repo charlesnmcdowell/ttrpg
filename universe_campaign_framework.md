@@ -35,19 +35,31 @@ Copy `templates/new_character_campaign.template.json` to
 
 Default assumption: **not much detail** unless their background justifies it.
 
-- **Common folk** in a new region might know: big cities have an **Academy**, nobles and **Council** exist, **war in the west** or “trouble on the moors” as vague rumor—tune to taste using `kenji_state.json` / story files.
-- **Frontier** PCs might know **Thornfield**-scale gossip: forests, ley strangeness, “a village east had a bad season”—without naming Amaris.
-- **Direct crossover** is optional: use `inherited_lore.player_knowledge` in the template to lock what **this** PC has heard.
+- **Common folk** in a new region might know: big cities have an **Academy**, nobles and **Council** exist, a **coalition** governs most of the continent, the **Wizard King** conquered an empire and then vanished — all as vague rumor scaled to distance. Tune to taste using `kenji_state.json` / story files.
+- **Frontier** PCs might know **Thornfield**-scale gossip: forests, ley strangeness, “a village east had a bad season” — without naming Amaris. They might also hear “glass soldiers patrol the roads now” or “the portals changed everything” without knowing Kenji's name.
+- **Coalition-adjacent** PCs might know more: the ArchMagus abdicated, the stewards are holding things together, there are threats on multiple borders. How much depends on proximity and social class.
+- **Direct crossover** is optional but increasingly natural: use `inherited_lore.player_knowledge` in the template to lock what **this** PC has heard. A new PC starting near Thornkeep or Millhaven is already in Kenji's active campaign territory — crossover is geographic, not forced.
 
 Distance and slow news are your friends; the combined universe stays consistent without forcing every PC into every plotline.
 
 ---
 
-## 4. When a campaign ends (becoming lore for the next PC)
+## 4. Campaign success, failure, and persistence
+
+**Every campaign must define explicit success and failure states at creation.**
+
+- **Success state** = resolving the campaign’s central threats. The completing player gains power, fame, and permanent world-state changes.
+- **Failure state** = any single threat overwhelming the region/world. The campaign is lost. The world suffers severe ramifications (territories fall, populations die, the map redraws).
+
+**The campaign supersedes the character.** A player’s death or absence does NOT end the campaign. The world continues. The threats continue. The clocks continue. Other players from other campaigns can enter the same world and attempt to finish what was started — or fail trying. The world exists before, during, and after any individual player’s story.
+
+**Canonical example:** In Kenji’s Book 4, he is operating in Millhaven — territory established by Amaris’s campaign. The seal, the dead road, the undead activity — that’s content from her threat chain. She’s absent. Kenji walked in and started solving her problems. A player doing another player’s campaign content. The world doesn’t wait for the "right" player.
+
+**When a campaign ends** (becoming lore for the next PC):
 
 1. Snapshot final `character_world_state.json` (or export from your engine).
-2. Add or update a **short** entry in `realm_lore_registry.json`: region name, status, pointer to state + story files.
-3. Optional one-paragraph **epilogue** in a `story.md` for that PC (like Amaris’s epilogue)—future DMs read the registry + epilogue, not necessarily every JSON field.
+2. Add or update a **short** entry in `realm_lore_registry.json`: region name, status, pointer to state + story files. Note whether the campaign ended in **success** or **failure** — the outcome shapes the world the next player inherits.
+3. Optional one-paragraph **epilogue** in a `story.md` for that PC (like Amaris’s epilogue) — future DMs read the registry + epilogue, not necessarily every JSON field.
 
 The **next** new character’s template should list these sources under `inherited_lore.sources` so the stack stays explicit.
 

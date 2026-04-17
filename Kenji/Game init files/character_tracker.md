@@ -192,7 +192,7 @@ Kenji is undercover. **Arcane and Ember abilities are deliberately off the table
 - **"— the Lady"** — her signature on border-proclamations and bound notices (see Chapter 5 caravan circle parchment). She signs as *the Lady* because the title is the same thing her followers call her, which is the same thing her enemies do not yet understand — that the undead signing the proclamation and the horror guarding the grove are the same authority. Public-facing signature. **Not "S."** — the abbreviation has been retired in-setting and in all notes.
 - The true name "Lady Nyx" is a reveal beat gated behind Kenji's disposition. Save it.
 
-**Status:** alive (ley-suspended, metabolism 1%)
+**Status:** alive (ley-suspended, dormant)
 **Met:** no — Kenji knows of her through intel and Solveth's identification. Never encountered directly. Name unknown to Kenji (see alias rules above).
 **Location:** Weeping elm grove, 4 miles into woodland east of Millhaven
 **Last Updated:** Ashmere 24
@@ -255,7 +255,7 @@ If Kenji is intimate with Lady Nyx (human form) **and survives Close to Death**,
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| pallid_march_potential | 1042 AR | Ashmere 45 (Still Night — March launches) | TBD | dormant | The full Pallid March threat — Lady Nyx's lich-form ambition. Currently dormant because she's suspended. Once freed, her nature determines whether she becomes a threat regardless of Kenji's choices (natural 5%/20 days conquest). Intimacy with Kenji accelerates this catastrophically. | Without Vigor: slow 5%/20-day expansion, manageable threat. With Vigor: 10%/cycle blitz, unstoppable army, capture-Kenji side plot triggers, kingdom-ending trajectory. |
+| pallid_march_potential | 1042 AR | Ashmere 45 (Still Night) | TBD | active | The full Pallid March threat — Lady Nyx's lich-form ambition. The Pallid March launches at Still Night. Her advance columns are already testing borders. Even in suspension, the army she built operates on her timeline. Once freed, her nature determines whether she becomes a threat regardless of Kenji's choices (natural 5%/20 days conquest). Intimacy with Kenji accelerates this catastrophically. | Without Vigor: slow 5%/20-day expansion, manageable threat. With Vigor: 10%/cycle blitz, unstoppable army, capture-Kenji side plot triggers, kingdom-ending trajectory. |
 | capture_kenji | N/A | N/A | N/A | dormant | ACTIVATES only after first Vigor buff expires. Lady Nyx hunts Kenji (sends minions or goes personally) to capture him alive and force re-buff. Repeats after every expiration. | If Kenji is captured: forced intimacy → new 5-day conquest cycle → 10% more kingdom falls. Escape or rescue required. Side plot escalates with each capture attempt. |
 
 **THE TRAP:** She is the easiest woman in the story to bed — chaotic evil, zero inhibitions, upfront about what she wants, beautiful in human form. But each intimacy event (a) requires Kenji to *survive Close to Death* (1%/sec), (b) triggers a 10% kingdom conquest cycle if he does, and (c) eventually a capture-hunt side plot. The romance path IS the threat path AND the extinction path. Nobody omnisciently connects Kenji to the surge. The player chooses the destruction with full mechanical transparency. Kenji has not yet encountered her.
@@ -374,7 +374,7 @@ If Kenji is intimate with Lady Nyx (human form) **and survives Close to Death**,
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| operate_forge | ongoing | ongoing | N/A | in_progress | Maintain garrison blacksmith. Accept commissions. | Kenji has access to master-level crafting in Millhaven. |
+| taryn_polearm_pickup | Ashmere 21 | Ashmere 28 | N/A | active | Taryn's halberd fitted during vigor (STR 24, DEX 21). Pickup scheduled Ashmere 28. Vigor drops Ashmere 27 — Taryn shows up post-vigor (STR 16, DEX 14). The measurements are wrong. A runesmith who reads bodies by sight will see a different woman. He'll have questions. | Holsk notices the discrepancy. Asks questions. Data point toward Kenji's identity exposure (failure state). If Holsk connects the dots to enhancement magic, word reaches the guild network. |
 
 ---
 
@@ -395,7 +395,9 @@ If Kenji is intimate with Lady Nyx (human form) **and survives Close to Death**,
 
 ### Active Goals
 
-No active goals yet — awaiting orders from Bracken about Pallid March operations.
+| goal_id | opened | due_date | public_at | status | description | completion_effects |
+|---------|--------|----------|-----------|--------|-------------|--------------------|
+| coalition_response_prep | Ashmere 25 | Ashmere 32 | N/A | active | Bracken's reports on Ashenveil escalation going up the chain. Teilen preparing operational grid maps and garrison readiness assessments for potential coalition response. If response comes, Teilen coordinates Millhaven's contribution. | Coalition mobilization order routes through Teilen's desk. Quality of preparation determines Millhaven's response speed. |
 
 ---
 
@@ -418,14 +420,14 @@ No active goals yet — awaiting orders from Bracken about Pallid March operatio
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| maintain_column | ongoing | ongoing | N/A | in_progress | Keep the 612-body column patrolling the 32-mile perimeter. Column is the visible arm of the death-binder's operation. | Ongoing. Failure = column collapses, perimeter unguarded, whatever the death-binder is hiding becomes reachable. |
-| siphon_from_lych_ring | ~unknown (established pre-current) | ongoing | N/A | in_progress | Parasitize the 4th grief-seam of the Lych's bronze ring to feed own power. She does not know. If she finds out, she will not be gracious. | If discovered by the Lych: war between them. If severed by Kenji: death-binder loses primary power feed, column weakens, but the Lych's ring is disturbed (unknown consequences). |
+| siphon_critical_mass | pre-campaign | Ashmere 45 (Still Night) | N/A | active | Parasitizing the 4th grief-seam of the Lych's bronze ring. Power accumulation accelerates as Still Night approaches (ley energy peaks at solstice). By Ashmere 45, the death-binder has siphoned enough to either break free of the ring dependency or challenge the Lych directly. If the Lych discovers the parasite before then, war between them — which destabilizes the Pallid March (success state for Kenji). If undiscovered, the death-binder becomes a second-front threat independent of the Lych (failure state). | Two possible outcomes: Lych discovers parasite (March fractures, opportunity for Kenji) or death-binder completes siphon (new independent threat). Either changes the board. |
+| react_to_seal_opening | Ashmere 24 | Ashmere 30 | N/A | active | The terminus seal at H-9 was opened Ashmere 24 night. The death-binder's perimeter node registered the event. By Ashmere 30, the death-binder has investigated the opened seal and whatever is below it. If Kenji doesn't return first, the death-binder claims the contents. | Contents of the seal fall to whoever gets there first. The death-binder has proximity advantage. |
 
 ---
 
 ## HANDLER — Unnamed (death-binder's logistics/support)
 
-**Status:** alive (presumed — location unknown)
+**Status:** MIA
 **Met:** no — no direct intel at all.
 **Location:** Unknown — mobile, within the death-binder's operational range
 **Last Updated:** Ashmere 24
@@ -1105,39 +1107,39 @@ This is the duality the story has been gesturing at: a creature of light and und
 These characters were primary NPCs in Book 1-2 and are alive, mostly anchored in the Varenholm/Duskfen region. Their full histories live in AI_CONTEXT.md. Promoted here for quick reference; expand to full entries when their threads reactivate.
 
 ### Sera — Captain of the Darkblades / Former Assassin
-**Status:** alive | **Location:** Varenholm HQ | **Last Updated:** Book 2 end
+**Status:** MIA | **Location:** Varenholm HQ | **Last Updated:** Book 2 end
 **Disposition:** Allied/Intimate (Whisperstone ring bonded)
 **Morale Compass:** Lawful Good — the canonical LG. Follows the law, helps people, tells the truth even when it costs her. Opposes Kenji if Kenji becomes the unjust hand.
 **Gear:** Rapier of Arrest, Breach Shard, Whisperstone ring
 **Goal:** Leading Darkblades squad, renovating HQ (900+ gold unallocated)
 
 ### Pip — Director of Holdings / Innkeeper / Spatial Mage
-**Status:** alive | **Location:** Duskfen (Broken Antler) | **Last Updated:** Book 2 end
+**Status:** MIA | **Location:** Duskfen (Broken Antler) | **Last Updated:** Book 2 end
 **Disposition:** Intimate/Bonded (Whisperstone ring)
 **Morale Compass:** Lawful Good — ledger-keeper, house-keeper, people-keeper. Runs three properties by taking care of the people inside them first.
 **Gear:** Whisperstone ring, ledgers
 **Goal:** Managing 3 properties (Broken Antler, Silver Draft, textile building). 400g operational budget.
 
 ### Garrett — Mercenary Leader / Advisor
-**Status:** alive | **Location:** Varenholm | **Last Updated:** Book 2 end
+**Status:** MIA | **Location:** Varenholm | **Last Updated:** Book 2 end
 **Disposition:** Professional/Loyal
 **Morale Compass:** Chaotic Good — the canonical CG. Ex-bandit highwayman who refused to kill needlessly. Breaks rules he disagrees with, protects people without asking permission.
 **Goal:** Managing Darkblade guild operations, Council liaison
 
 ### Elara — Academy Chancellor
-**Status:** alive | **Location:** Varenholm Academy | **Last Updated:** Book 2 end
+**Status:** MIA | **Location:** Varenholm Academy | **Last Updated:** Book 2 end
 **Disposition:** Allied/Professional
 **Morale Compass:** Lawful Good — Chancellor-class LG. Believes in institutions because institutions outlast any one person. Opposes Kenji if Kenji undermines the Academy's integrity.
 **Goal:** Academy management, convergence seal support
 
 ### Aldwin — Artificer / Professor
-**Status:** alive | **Location:** Varenholm Academy | **Last Updated:** Book 2 end
+**Status:** MIA | **Location:** Varenholm Academy | **Last Updated:** Book 2 end
 **Disposition:** Allied/Mentor
 **Morale Compass:** Lawful Good — teacher's morality. Passes the craft on, doesn't hoard it, corrects students gently and firmly. Opposes misuse of artifice.
 **Goal:** Teaching, magical research
 
 ### Maren — Enchanter / Shopkeeper
-**Status:** alive | **Location:** Varenholm | **Last Updated:** Book 2 end
+**Status:** MIA | **Location:** Varenholm | **Last Updated:** Book 2 end
 **Disposition:** Professional (exclusivity contract with Kenji)
 **Morale Compass:** Lawful Good — contract-keeper. Does the work, delivers on time, doesn't cheat the client. Opposes Kenji if he tries to break a contract she signed in good faith.
 **Goal:** Operating shop, fulfilling Kenji's commissions

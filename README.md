@@ -16,7 +16,7 @@ This folder holds **one shared fantasy realm** played across multiple characters
 | Path | Character / notes |
 |------|---------------------|
 | **`Amaris/`** | Amaris — eastern frontier (Thornfield, Greenveil, Briarstone). Campaign complete; see `Game init files/amaris_state.json` and `amaris_story.md`. |
-| **`Kenji/`** | Kenji — heartland / west (Varenholm, Duskfen, Bleakmoor, Sundered Gate). Live fiction + TTRPG engine lives under `Kenji/Game init files/`. |
+| **`Kenji/`** | Kenji — continental scale across 4 books. Book 1-2: heartland (Varenholm, Duskfen, Bleakmoor, Sundered Gate). Book 3: Iron Crown War (Vyranth conquest). Book 4: The Fraying Empire — five existential threats, 20+ territories, coalition governance. Active campaign. Live fiction + TTRPG engine under `Kenji/Game init files/`. |
 
 Shared tooling (GUI, `ttrpg_game_engine.py`, music maps) is documented in **`Kenji/Game init files/README.md`**.
 

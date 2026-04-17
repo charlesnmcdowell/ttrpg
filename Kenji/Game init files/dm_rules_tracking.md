@@ -4,6 +4,20 @@
 > Mechanical tables (HP, EXP, conditions, spell slots, stat blocks) live in `ttrpg_game_engine.py`.
 > Character stats and abilities live in `character_tracker.md`. Live state in `kenji_state.json`.
 > Historical Book 1-3 lore and combat stat blocks archived to `dm_rules_archive_books1_3.md`.
+>
+> **For additional context, reference the full project folder:** `C:\Users\charl\OneDrive\Documents\TTRPG\Kenji\`
+> - `Book 1/Chapters/` — 27 chapters (The Sorcerer's Sword)
+> - `Book 2/Chapters/` — 24 chapters (continuation)
+> - `Book 3/Chapters/` — 13 chapters (The Iron Crown War)
+> - `Book 4/Chapters/` — Active book, chapters added as played
+> - `Game init files/AI_CONTEXT.md` — Quick-start live state summary for new sessions
+> - `Game init files/Kenji_story_book1.md`, `book2.md`, `book4.md` — Story manuscripts / prose style references
+> - `Game init files/iron_crown_war_campaign.md` — Book 3 campaign bible (completed)
+> - `Game init files/fraying_empire_campaign.md` — Book 4 campaign bible (active)
+> - `Game init files/dm_rules_archive_books1_3.md` — Archived rules and stat blocks from earlier books
+> - `Game init files/world_calendar_lore.md` — Calendar system, dates, seasons
+> - `Game init files/npc_appearance.md` — NPC physical descriptions
+> - `Game init files/npc_name_bank.md` — Available names for new NPCs (cross-referenced against existing characters)
 
 ---
 
@@ -52,6 +66,40 @@ The DM does NOT invent new named NPCs on the fly to deliver lore, warnings, hint
 4. If yes to 3 — STOP. Delete the character. Let the scene be quiet, or let Kenji's own senses/tools do the work, or escalate to a tracked NPC.
 
 **Violation signal:** If the DM writes an NPC who "has been waiting," who "knows your name," who "walked this road before your grandfather was born," who "has a message for you," or who otherwise arrives pre-loaded with narrative weight — that NPC is fabricated exposition and must be cut.
+
+### 🏆 CAMPAIGN SUCCESS & FAILURE STATES (FOUNDATIONAL)
+
+**This campaign has exactly two outcomes. Every DM decision, NPC goal, and threat clock must push toward one of them.**
+
+**SUCCESS STATE:** All five major threats to the kingdom are resolved — destroyed, negotiated, or contained. The kingdom survives. The player(s) who complete the campaign gain power, fame, and lasting world impact. Kenji's coalition endures and the world is better for it.
+
+**FAILURE STATE:** The kingdom falls to **any single threat**. One breach is enough. If the Fathom rises, or the Pallid March overruns the south, or the Red Court takes the coalition from within, or the Iron Horde sacks Thornwall, or the Twin Wyrms descend — the campaign is lost. Partial victories still matter (save three, lose two = the world changes), but the campaign objective is all five.
+
+**CAMPAIGN SUPERSEDES CHARACTER (NON-NEGOTIABLE):**
+The campaign is bigger than any single player. Kenji's death or absence does NOT end the campaign — it ends Kenji's participation in it. The world continues. The threats continue. The clocks continue. Other players from other campaigns can enter the same world and attempt to finish what Kenji started (or failed to start). A failed campaign has severe ramifications on the world — territories fall, populations die, the political map redraws. A successful campaign rewards the player who completes it with power, fame, and permanent world-state changes in their favor. The world exists before, during, and after any individual player's story.
+
+**Canonical example:** Early in Book 4, Kenji is not running his own campaign — he's in Amaris's campaign territory. The seal, the dead road, the undead activity around Millhaven — that's her threat chain, her content. She's absent. Kenji walked in and started solving her problems. This is a player doing another player's campaign in their absence. The world doesn't wait for the "right" player to show up. Whoever is there, plays.
+
+**DM enforcement:** Every goal, every clock, every NPC action must be traceable to one of these two outcomes. If it doesn't push the campaign toward success or failure, it doesn't belong in the game.
+
+---
+
+### 📅 GOAL DATES — HARD DEADLINES (NON-NEGOTIABLE)
+
+Every alive/Active character in `character_tracker.md` MUST have at least one goal with a **hard due_date** (a specific in-game date, not "TBD", "ongoing", or "N/A"). No exceptions.
+
+- **If a character is alive but has no hard-dated goal → change their Status to MIA.** They exist in the world but aren't narratively active until they get a deadline.
+- **Goals always have a hard date.** Time is always the explanation. If the DM doesn't know exactly when something fires, pick a reasonable date and commit. A creative explanation can be written when the date arrives.
+- **Check goal dates at every chapter end.** Any goal whose due_date has passed must be resolved, extended with a new date, or marked RESOLVED/FAILED.
+- **New characters get a goal with a date on creation.** No character enters the tracker without at least one dated goal.
+
+**GOAL QUALITY TEST (NON-NEGOTIABLE):**
+Every NPC goal must push Kenji's campaign toward its conclusion — either a **success state** or a **failure state** for one of the five threats. If a goal does not progress the campaign in either direction, it is a bad goal and must be cut or reframed.
+
+- **Good goal:** "Wynn's analysis reaches critical mass by Ashmere 35 — she identifies creation energy. If this reaches the wrong hands, Kenji's identity is exposed." → Pushes toward failure state (identity blown) or success state (Kenji controls the information).
+- **Bad goal:** "Holsk operates his forge." → Flavor. Doesn't move anything. Cut it.
+- **The test:** "If this goal resolves or fails, does it change Kenji's chances of winning or losing?" If no → not a goal. If yes → keep it, date it, track it.
+- **NPCs are not decorations.** Every living character with a goal is either helping Kenji win or making him lose. The DM's job is to make sure each goal creates a decision point, a consequence, or a countdown that the player must react to.
 
 ### 👁️ MET FLAG — KNOWLEDGE GATING (NON-NEGOTIABLE)
 

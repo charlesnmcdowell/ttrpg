@@ -12,7 +12,11 @@ Five threats have been building while Kenji picked berries and trained bears. Ea
 
 **Campaign triggers when:** Kenji's identity or location is exposed. The mechanism doesn't matter — name recognition, power display, ember use, someone puts the pieces together. The moment the world knows where Kenji is, everything converges. Bane of Eve activates. The baby mamas come looking. The kingdom's stewards come begging. And five existential threats come knocking because the one thing keeping them cautious — the legend of the Wizard King — just got a confirmed address.
 
-**Campaign ends when:** All five threats are resolved (destroyed, negotiated, contained) OR the kingdom falls. Partial victories are possible — save three territories, lose two. The coalition fractures but survives. The world is different either way.
+**Campaign SUCCESS:** All five threats resolved (destroyed, negotiated, contained). The kingdom survives. The completing player gains power, fame, and permanent world-state changes in their favor.
+
+**Campaign FAILURE:** The kingdom falls to **any single threat**. One breach is enough. Partial victories still matter — save three, lose two, the world changes — but the campaign objective is all five.
+
+**Campaign supersedes character.** Player death or absence does NOT end the campaign. The world continues. The threats continue. The clocks continue. Other players from other campaigns can enter and attempt to finish what was started. A failed campaign has severe world ramifications. A successful campaign rewards the player who completes it. **Example:** Early in Book 4, Kenji is not running his own campaign — he's in Amaris's campaign territory (Millhaven, the seal, the dead road). She's absent. He's solving her problems. A player doing another player's campaign content. The world doesn't wait for the "right" player.
 
 **Kenji hits Level 40 — Apotheosis — during this campaign.** 300,000 EXP remaining. Five threats provide the content. Bane of Eve provides daily supplemental EXP. The cap is the cap. What happens after Level 40 is the epilogue.
 

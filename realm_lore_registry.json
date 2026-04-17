@@ -33,15 +33,34 @@
       "state_file": "Kenji/Game init files/kenji_state.json",
       "story_files": [
         "Kenji/Game init files/Kenji_story_book1.md",
-        "Kenji/Game init files/Kenji_story_book2.md"
+        "Kenji/Game init files/Kenji_story_book2.md",
+        "Kenji/Game init files/Kenji_story_book4.md",
+        "Kenji/Game init files/iron_crown_war_campaign.md",
+        "Kenji/Game init files/fraying_empire_campaign.md"
       ],
       "regions_established": [
         "Varenholm",
         "Duskfen",
         "Bleakmoor",
-        "Sundered Gate corridor"
+        "Sundered Gate corridor",
+        "Crestfall",
+        "Stormhaven",
+        "Ironholt",
+        "Thornwall",
+        "Thornkeep",
+        "Ashward Mines",
+        "Mordecai Ridge",
+        "Cinderpeak",
+        "Deepwood / Silvandris",
+        "Vyranth",
+        "Ashenmere",
+        "Millhaven",
+        "Kharn-Dural (Dwarven Undermountain)",
+        "The Ashenveil (Dead Marshlands)",
+        "The Sunderplains (Orc Steppe)",
+        "Dragonspine Mountains"
       ],
-      "lore_role": "Academy / ArchMagus arc — portals, constructs, Bleakmoor convergence, Council pressure; heartland and west."
+      "lore_role": "Continental-scale arc across 4 books. Book 1-2: Academy rise, ArchMagus title, portals, constructs, Bleakmoor convergence. Book 3 (Iron Crown War): conquered Vyranth, ended continental war in 16 days. Book 4 (The Fraying Empire): abdicated, hiding as ronin under alias 'Taryn'; five existential threats converging on the coalition he built. Campaign success = all five threats resolved. Campaign failure = kingdom falls to any single threat."
     }
   ]
 }
