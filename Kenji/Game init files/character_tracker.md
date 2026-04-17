@@ -110,6 +110,7 @@ Kenji is undercover. **Arcane and Ember abilities are deliberately off the table
 ## BRACKEN — Watch Captain, Millhaven Garrison
 
 **Status:** alive
+**Met:** yes (Ashmere 22 — Millhaven watch-hall, multiple interactions through Ashmere 24)
 **Location:** Millhaven — watch-hall or home (doesn't know Kenji left)
 **Last Updated:** Ashmere 24
 
@@ -132,6 +133,7 @@ Kenji is undercover. **Arcane and Ember abilities are deliberately off the table
 ## TARYN — Fighter / Commissioned Scout
 
 **Status:** alive
+**Met:** yes (Ashmere 22 — Millhaven gate, multiple interactions through Ashmere 24)
 **Location:** South road to Ashenmere City (departed Ashmere 24 evening or Ashmere 25 dawn, estimated arrival Ashmere 26-27)
 **Last Updated:** Ashmere 24
 
@@ -158,6 +160,7 @@ Kenji is undercover. **Arcane and Ember abilities are deliberately off the table
 ## SOLVETH — God of Entropy (bonded in Frost Fang)
 
 **Status:** alive (bonded to blade)
+**Met:** yes (Book 2 — bonded, ongoing ember communication)
 **Location:** Frost Fang (summonable by Kenji)
 **Last Updated:** Ashmere 24
 
@@ -188,6 +191,7 @@ Kenji is undercover. **Arcane and Ember abilities are deliberately off the table
 - The true name "Lady Nyx" is a reveal beat gated behind Kenji's disposition. Save it.
 
 **Status:** alive (ley-suspended, metabolism 1%)
+**Met:** no — Kenji knows of her through intel and Solveth's identification. Never encountered directly. Name unknown to Kenji (see alias rules above).
 **Location:** Weeping elm grove, 4 miles into woodland east of Millhaven
 **Last Updated:** Ashmere 24
 
@@ -259,6 +263,7 @@ If Kenji is intimate with Lady Nyx (human form) **and survives Close to Death**,
 ## AMARIS — Druid, Briarstone Homestead
 
 **Status:** alive
+**Met:** yes (Book 4 Ch1-3 — Greymere/Thornfield, intimate partner)
 **Location:** Briarstone Homestead, Thornfield region
 **Last Updated:** Ashmere 11 (Book 4 Ch 2)
 
@@ -282,6 +287,7 @@ If Kenji is intimate with Lady Nyx (human form) **and survives Close to Death**,
 ## WYNN — Herbalist / Researcher
 
 **Status:** alive
+**Met:** yes (Book 4 Ch1-3 — Thornfield herb cottage, intimate partner)
 **Location:** Herb cottage, Thornfield (south end)
 **Last Updated:** Ashmere 18 (Book 4 Ch 3)
 
@@ -307,6 +313,7 @@ If Kenji is intimate with Lady Nyx (human form) **and survives Close to Death**,
 ## DELIA — Tavern Keeper, Thornfield
 
 **Status:** alive
+**Met:** yes (Book 4 Ch3 — Thornfield tavern, intimate partner)
 **Location:** The Stubborn Mule tavern, Thornfield
 **Last Updated:** Ashmere 18 (Book 4 Ch 3)
 
@@ -329,6 +336,7 @@ If Kenji is intimate with Lady Nyx (human form) **and survives Close to Death**,
 ## BRECA — Merchant / Dry Goods Trader
 
 **Status:** MIA
+**Met:** yes (Book 4 Ch1 — Greymere north road, intimate partner)
 **Location:** Northbound trade route (departed Greymere region)
 **Last Updated:** Ashmere 5 (Book 4 Ch 1)
 
@@ -347,6 +355,7 @@ If Kenji is intimate with Lady Nyx (human form) **and survives Close to Death**,
 ## HOLSK — Blacksmith (Dwarven), Millhaven
 
 **Status:** alive
+**Met:** yes (Ashmere 22 — Millhaven forge, multiple interactions)
 **Location:** Millhaven garrison blacksmith
 **Last Updated:** Ashmere 24 (Book 4 Ch 5)
 
@@ -369,6 +378,7 @@ If Kenji is intimate with Lady Nyx (human form) **and survives Close to Death**,
 ## TEILEN — Sergeant, Millhaven Watch
 
 **Status:** alive
+**Met:** yes (Ashmere 22 — Millhaven watch-hall, multiple interactions)
 **Location:** Millhaven watch-hall
 **Last Updated:** Ashmere 24
 
@@ -389,6 +399,7 @@ No active goals yet — awaiting orders from Bracken about Pallid March operatio
 ## DEATH-BINDER — Unnamed (antagonist)
 
 **Status:** alive (presumed — location unknown)
+**Met:** no — no direct intel. Known only through Living Ground/Bond-Form readings and Solveth's analysis.
 **Location:** Unknown — operates within a 32-mile perimeter south/southwest of Millhaven. Iron key's SSW pull terminates at grid square H-9 (6 miles south of weeping elm grove, inside this perimeter).
 **Last Updated:** Ashmere 24
 
@@ -412,6 +423,7 @@ No active goals yet — awaiting orders from Bracken about Pallid March operatio
 ## HANDLER — Unnamed (death-binder's logistics/support)
 
 **Status:** alive (presumed — location unknown)
+**Met:** no — no direct intel at all.
 **Location:** Unknown — mobile, within the death-binder's operational range
 **Last Updated:** Ashmere 24
 
@@ -434,6 +446,7 @@ No active goals yet — awaiting orders from Bracken about Pallid March operatio
 ## CORBAN — Connected to the Lych's Grief-Seam
 
 **Status:** Unknown (alive / dead / undead / bound — not yet determined)
+**Met:** no — identity and status unknown to Kenji. Name known only through Bond-Form analysis of the bronze ring's 4th seam.
 **Location:** Unknown
 **Last Updated:** Ashmere 24
 
@@ -464,6 +477,7 @@ No active goals — identity and status unknown. **Investigation flag:** Who Cor
 ## KING THORGRIM IRONVAULT — Runesmith / Ruler of Kharn-Dural
 
 **Status:** MIA
+**Met:** no — MIA. Campaign threat NPC. Never encountered.
 **Location:** Kharn-Dural — Dwarven Undermountain (northwest)
 **Last Updated:** Ashmere 24 (stub created — not yet encountered)
 
@@ -488,6 +502,7 @@ No active goals — identity and status unknown. **Investigation flag:** Who Cor
 ## BRUNHILD DEEPDELVE — Head Miner, Kharn-Dural
 
 **Status:** MIA
+**Met:** no — MIA. Campaign threat NPC. Never encountered.
 **Location:** Kharn-Dural — deep tunnels (northwest)
 **Last Updated:** Ashmere 24 (stub created — not yet encountered)
 
@@ -512,6 +527,7 @@ No active goals — identity and status unknown. **Investigation flag:** Who Cor
 ## GRIMJAW — Duergar Exile, Kharn-Dural Upper Tunnels
 
 **Status:** MIA
+**Met:** no — MIA. Campaign threat NPC. Never encountered.
 **Location:** Kharn-Dural — upper tunnels (northwest)
 **Last Updated:** Ashmere 24 (stub created — not yet encountered)
 
@@ -544,6 +560,7 @@ No active goals — identity and status unknown. **Investigation flag:** Who Cor
 > **One-line character:** A Lawful Good undead paladin serving a Chaotic Evil lich. Both halves of that sentence are fully and simultaneously true, and the tension between them is the character. Every encounter with Corwyn has to play both halves at once — the honor and the horror, the conscience and the chain, the sword that still carries holy fire in the hand of a man who died three days dying.
 
 **Status:** MIA
+**Met:** no — observed from distance (Ashmere 23, Ashenveil fire ring). Stole chest from his camp. Clone interaction only. Name known via Steel Sight reading Oathbreaker. Physical appearance known (black plate, greatsword). Never spoke face to face.
 **Location:** Ashenveil — clearing on higher ground (southeast). Kenji observed him at a fire ring during Ashmere 23 eastbound run but did not engage.
 **Last Updated:** Ashmere 24 (stub created — observed but not formally introduced)
 
@@ -590,6 +607,7 @@ This is the duality the story has been gesturing at: a creature of light and und
 ## MAGS — Halfling Grave-Robber, Ashenveil Border
 
 **Status:** MIA
+**Met:** no — MIA. Stub created but never encountered.
 **Location:** Edge of the Ashenveil (southeast)
 **Last Updated:** Ashmere 24 (stub created — not yet encountered)
 
@@ -614,6 +632,7 @@ This is the duality the story has been gesturing at: a creature of light and und
 ## CORPORAL JOSTIN — Scout, Thornkeep Garrison
 
 **Status:** MIA
+**Met:** no — MIA. Stub created but never encountered.
 **Location:** Thornkeep garrison — southern swamp border (southeast)
 **Last Updated:** Ashmere 24 (stub created — not yet encountered)
 
@@ -642,6 +661,7 @@ This is the duality the story has been gesturing at: a creature of light and und
 ## LADY MIRENNE — Elder Vampire, Red Court Leader
 
 **Status:** MIA
+**Met:** no — MIA. Campaign threat NPC. Never encountered.
 **Location:** Ashenmere — hidden estate, eastern coast
 **Last Updated:** Ashmere 24 (stub created — not yet encountered)
 
@@ -666,6 +686,7 @@ This is the duality the story has been gesturing at: a creature of light and und
 ## SEVREN — Doppelganger Spymaster, Red Court
 
 **Status:** MIA
+**Met:** no — MIA. Campaign threat NPC. Never encountered.
 **Location:** Ashenmere — mobile, operating under multiple identities
 **Last Updated:** Ashmere 24 (stub created — not yet encountered)
 
@@ -690,6 +711,7 @@ This is the duality the story has been gesturing at: a creature of light and und
 ## CAPTAIN HALVARD — Ashenmere Garrison (recently turned)
 
 **Status:** MIA
+**Met:** no — MIA. Campaign threat NPC. Never encountered.
 **Location:** Ashenmere garrison (eastern coast)
 **Last Updated:** Ashmere 24 (stub created — not yet encountered)
 
@@ -714,6 +736,7 @@ This is the duality the story has been gesturing at: a creature of light and und
 ## OLD TAM — Goblin Fence, Ashenmere Docks
 
 **Status:** MIA
+**Met:** no — MIA. Campaign threat NPC. Never encountered.
 **Location:** Ashenmere — pawn shop, dock district (eastern coast)
 **Last Updated:** Ashmere 24 (stub created — not yet encountered)
 
@@ -738,6 +761,7 @@ This is the duality the story has been gesturing at: a creature of light and und
 ## BROTHER MORVAK — Orc Priest of the Sunfather, Ashenmere Docks
 
 **Status:** MIA
+**Met:** no — MIA. Campaign threat NPC. Never encountered.
 **Location:** Ashenmere — dock district mission (eastern coast)
 **Last Updated:** Ashmere 24 (stub created — not yet encountered)
 
@@ -766,6 +790,7 @@ This is the duality the story has been gesturing at: a creature of light and und
 ## WARCHIEF GORATH SKULLSPLITTER — Barbarian Warlord (Outlander)
 
 **Status:** MIA
+**Met:** no — MIA. Campaign threat NPC. Never encountered.
 **Location:** Sunderplains — Horde encampment (west/northwest)
 **Last Updated:** Ashmere 24 (stub created — not yet encountered)
 
@@ -792,6 +817,7 @@ This is the duality the story has been gesturing at: a creature of light and und
 ## MAGRA BLOODTUSK — Orc Shaman, Iron Horde
 
 **Status:** MIA
+**Met:** no — MIA. Campaign threat NPC. Never encountered.
 **Location:** Sunderplains — Horde encampment (west/northwest)
 **Last Updated:** Ashmere 24 (stub created — not yet encountered)
 
@@ -816,6 +842,7 @@ This is the duality the story has been gesturing at: a creature of light and und
 ## SNIKKIT — Goblin Sapper-Engineer, Iron Horde
 
 **Status:** MIA
+**Met:** no — MIA. Campaign threat NPC. Never encountered.
 **Location:** Sunderplains — Horde siege works (west/northwest)
 **Last Updated:** Ashmere 24 (stub created — not yet encountered)
 
@@ -840,6 +867,7 @@ This is the duality the story has been gesturing at: a creature of light and und
 ## VROKKA — Female Troll Berserker, Iron Horde Champion
 
 **Status:** MIA
+**Met:** no — MIA. Campaign threat NPC. Never encountered.
 **Location:** Sunderplains — Horde encampment (west/northwest)
 **Last Updated:** Ashmere 24 (stub created — not yet encountered)
 
@@ -868,6 +896,7 @@ This is the duality the story has been gesturing at: a creature of light and und
 ## VORATHIEL THE CONQUEROR — Ancient Red Dragon
 
 **Status:** MIA
+**Met:** no — MIA. Campaign threat NPC. Never encountered.
 **Location:** Dragonspine Mountains — summit aerie (far north)
 **Last Updated:** Ashmere 24 (stub created — not yet encountered)
 
@@ -892,6 +921,7 @@ This is the duality the story has been gesturing at: a creature of light and und
 ## KAELTHARION THE KEEPER — Ancient Silver Dragon
 
 **Status:** MIA
+**Met:** no — MIA. Campaign threat NPC. Never encountered.
 **Location:** Dragonspine Mountains — lower peaks (far north)
 **Last Updated:** Ashmere 24 (stub created — not yet encountered)
 
@@ -916,6 +946,7 @@ This is the duality the story has been gesturing at: a creature of light and und
 ## DRAZHARA — Dragonborn Elder, Lower Peaks
 
 **Status:** MIA
+**Met:** no — MIA. Campaign threat NPC. Never encountered.
 **Location:** Dragonspine Mountains — largest dragonborn settlement, lower peaks (far north)
 **Last Updated:** Ashmere 24 (stub created — not yet encountered)
 
@@ -940,6 +971,7 @@ This is the duality the story has been gesturing at: a creature of light and und
 ## IGNIS — Young Red Dragon, Vorathiel's Youngest
 
 **Status:** MIA
+**Met:** no — MIA. Campaign threat NPC. Never encountered.
 **Location:** Dragonspine Mountains — upper peaks (far north)
 **Last Updated:** Ashmere 24 (stub created — not yet encountered)
 
@@ -964,6 +996,7 @@ This is the duality the story has been gesturing at: a creature of light and und
 ## SKRATCH — Kobold Prophet, Dragonspine Base
 
 **Status:** MIA
+**Met:** no — MIA. Campaign threat NPC. Never encountered.
 **Location:** Dragonspine Mountains — base camps (far north)
 **Last Updated:** Ashmere 24 (stub created — not yet encountered)
 

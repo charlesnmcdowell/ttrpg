@@ -53,6 +53,25 @@ The DM does NOT invent new named NPCs on the fly to deliver lore, warnings, hint
 
 **Violation signal:** If the DM writes an NPC who "has been waiting," who "knows your name," who "walked this road before your grandfather was born," who "has a message for you," or who otherwise arrives pre-loaded with narrative weight — that NPC is fabricated exposition and must be cut.
 
+### 👁️ MET FLAG — KNOWLEDGE GATING (NON-NEGOTIABLE)
+
+Every NPC in `character_tracker.md` has a `**Met:** yes/no` flag. This flag controls what Kenji knows about them IN-GAME.
+
+**Met = no means:**
+- Kenji does NOT know their name. The DM describes them by appearance, title, or role — "the armored figure," "the woman in the grove," "the dwarf at the forge." Names are earned through introduction — another NPC names them, they introduce themselves, or Kenji reads a nameplate/document.
+- Kenji does NOT know their physical details beyond what he can currently observe. If he's never seen them, he can't picture them. If he saw them from 200 yards in the dark, he knows silhouette and armor, not face and eye color.
+- Kenji does NOT know their abilities, personality, backstory, or motivations. The DM's notes are DM knowledge. Kenji learns through interaction, observation, and investigation — not because the tracker has a paragraph about them.
+- **Exception: passive sensory tools.** Steel Sight can read a weapon's name and signatures. Bond-Form Sight can read binding architecture. Living Ground can read body heat and movement. God Sight can read creature type and threat level. These tools give Kenji mechanical/magical information about unmet NPCs — but NOT biographical information. Steel Sight reads "Oathbreaker — holy/necrotic dual signature" not "Sir Corwyn's tragic backstory."
+
+**Met = yes means:**
+- Kenji knows their name, face, voice, and whatever was established during their interactions. The DM can use their name freely in narration and Kenji's internal monologue.
+
+**Transitioning from no to yes:**
+- The flag flips to `yes` when Kenji has a direct, face-to-face interaction where names and identities are exchanged. Observing from distance does NOT count. Having intel about someone does NOT count. Meeting means meeting.
+- When the flag flips, update `character_tracker.md` with the date and context.
+
+**DM self-check:** Before using an NPC's name in narration or Kenji's thoughts — check the met flag. If `no`, use a descriptor instead. The player discovers names through gameplay, not through the DM's notes.
+
 ### RULE 5: DIALOGUE-DRIVEN NARRATIVE (NON-NEGOTIABLE)
 The story is told through what characters SAY. Description supports dialogue — it does not replace it.
 - **Every scene with NPCs present must be at least 60% dialogue by volume.** If you wrote three paragraphs of description and two lines of NPC dialogue, the scene is broken. Rewrite it with the NPCs talking.
@@ -166,49 +185,56 @@ The party CAN long rest anywhere — dungeons, wilderness, hostile territory. Bu
 - Academy sub-basements: ward malfunctions, constructs, arcane anomalies
 - The DM NEVER spawns a random encounter that doesn't fit the location. If the party rests in a sealed room in the Delve, only things that can get into that room can ambush them.
 
-### ⏱️ TIME ADVANCES ONE HOUR PER NARRATION BEAT (TRAVEL PACING)
+### ⏱️ TRAVEL PACING — BINARY ENCOUNTER SYSTEM (CRITICAL)
 
-During overland travel, **every narration beat advances game time by 1 hour**. The DM does NOT narrate mile-by-mile, half-mile detail, sensory texture, or "quiet hour" prose unless something is actually happening. The travel sequence works like this:
+Travel narration is **encounter-driven, not time-driven.** The DM does NOT narrate quiet hours, scenery, atmospheric filler, or "mile by mile" prose. Narration only happens at two points: when an encounter fires, or when the player arrives at the objective. Everything else is skipped silently.
 
+**Travel sequence:**
 1. Player declares travel intent (destination, pace, method — walking / Wind Step / ride).
-2. DM calculates the hour count to the objective based on travel speed. (e.g., 6 miles at 25 mph Wind Step = ~15 min, rounds to "less than 1 hour, arrive directly." 100 miles at 25 mph = 4 hours = 4 encounter rolls before arrival.)
-3. For each full hour of travel, the DM rolls the encounter check (see TRAVEL & REST ENCOUNTER ROLLS below):
-   - **If encounter or near-miss (1-4):** Narrate that hour's beat. Present the encounter. Player agency resumes.
-   - **If uneventful (5-6):** **Do NOT narrate.** Silently advance 1 hour and roll again.
-4. Continue skipping hours until: (a) the objective is reached, (b) an encounter fires, or (c) an external event triggers (tracked NPC timer lands, etc.).
-5. When the objective is reached, narrate the arrival in full.
+2. DM calculates the hour count based on travel speed. (e.g., 25 miles at 25mph Wind Step = 1 hour = 1 encounter roll. 100 miles at 25mph = 4 hours = 4 rolls.)
+3. For each full hour of travel, the DM rolls a **d6 encounter check:**
+   - **1-2: ENCOUNTER.** Travel stops. DM rolls ambush check (see below). Narration begins at the encounter.
+   - **3-6: No encounter.** Silently advance 1 hour. Roll again for the next hour.
+4. If no encounter fires across all hours → narration begins at the objective arrival.
+5. If an encounter fires → resolve it. After resolution, player decides: continue travel (resume rolling) or change plans.
 
-**The point:** no more "mile one was quiet, mile two had a cold breeze, mile three you saw an owl" prose. If nothing happens, say nothing happens. Advance the clock. Keep the game moving.
+**Kenji's cover advantage (Wind Step + Invisibility + Living Ground + Road Sense):**
+When Kenji is actively using stealth/speed/sensory tools during travel, the encounter threshold shifts:
+- **1: ENCOUNTER.** Only a 1 triggers an encounter.
+- **2-6: No encounter.**
+- This advantage is negated if the threat has a specific counter (truesight, tether-detection, tremorsense against Wind Step vibrations, divine awareness, etc.).
 
-**Exceptions — when the DM DOES narrate without an encounter:**
-- **Arrival at the objective.** Full scene.
-- **Tracked timer landing mid-travel.** (Taryn's Vigor drops at midnight Ashmere 26; if Kenji is traveling through that moment he still feels the bond slack if he's attuned to it, etc.)
-- **Environmental hazard rolled on the encounter table** (weather, impassable terrain). This IS an encounter result, not quiet-hour texture.
-- **Player explicitly asks for a check, search, or observation during travel.** Then the DM responds to the declared action, not to "flavor."
+**No narration means NO narration.** If the roll says no encounter, the DM writes nothing for that hour. No trees. No wind. No "the road was quiet." Nothing. Advance the clock and roll again. The player didn't ask for a nature walk.
 
-**DM self-check:** If the DM is writing three paragraphs about "mile one," "mile two," "mile three," and nothing mechanical or diegetic happened, **delete all of it.** Roll the hour. If nothing fires, skip. If something fires, narrate that. The player hired Kenji to *do things*, not to read prose about walking.
+---
 
-### 🗺️ TRAVEL & REST ENCOUNTER ROLLS — DANGEROUS TERRITORY
+### ⚔️ AMBUSH CHECK — WHEN AN ENCOUNTER FIRES
 
-Dangerous territory = any region flagged in the fiction as hostile, corrupted, undead-adjacent, bandit-controlled, monster-territory, borderland, or otherwise not safe. Examples: Pallid March perimeter, Ashenveil marsh, wilderness within predator ranges, known bandit corridors, abandoned / dead-trade stretches of road, death-binder patrol zones.
+When an encounter roll results in ENCOUNTER, the DM immediately rolls a **d6 ambush check** to determine who has initiative advantage:
 
-**While traveling in dangerous territory:**
-- The DM rolls a d6 **once per hour of travel time** to check for encounter avoidance:
-  - **1-2:** Encounter. Something appropriate to the region crosses the player's path. May be combat, may be social (bandits demanding toll, patrol stopping travelers), may be environmental (hazard, corrupted ground). Player still has agency — can fight, flee, hide, negotiate, Wind Step past, etc.
-  - **3-4:** Near miss. The player notices signs (tracks, distant noise, smoke) of something nearby. Player can choose to investigate or avoid. No forced combat.
-  - **5-6:** Uneventful hour. Travel continues.
-- The DM NEVER invents an encounter that doesn't fit the region (see RULE 4 — no fabricated NPCs for exposition).
-- Kenji's **Greater Invisibility**, **Wind Step travel pace**, **Windstrider silence**, and **Living Ground / Road Sense** passives all provide meaningful advantages — the DM should give them weight. If the player is Wind-Stepping at 25 mph, invisible, and passively reading the ground ahead, the encounter roll favors the player: **rolls of 1-2 become "near miss" instead of direct encounter** unless the threat has a counter (truesight, tether-detection, divine awareness).
+| Roll | Result | Effect |
+|------|--------|--------|
+| 1-2 | **Enemy ambush** | Enemies get a FREE TURN (full round of actions) before initiative is rolled. After the free turn, all combatants roll initiative and combat proceeds normally. |
+| 3-4 | **Neutral** | No surprise. Both sides are aware. All combatants roll initiative immediately. Combat proceeds normally. |
+| 5-6 | **Player ambush** | Kenji gets a FREE TURN (full round of actions) before initiative is rolled. After the free turn, all combatants roll initiative and combat proceeds normally. |
+
+**Kenji's cover modifies ambush too:** If Kenji has stealth/invisibility active, shift the ambush result by +1 (enemy ambush becomes neutral, neutral becomes player ambush). A roll of 1 with cover = neutral instead of enemy ambush. A roll of 3 with cover = player ambush instead of neutral.
+
+After the free turn (if any), initiative is rolled normally for all combatants and combat proceeds in standard turn order.
+
+---
+
+### 🗺️ REST ENCOUNTER ROLLS — DANGEROUS TERRITORY
+
+Dangerous territory = any region flagged as hostile, corrupted, undead-adjacent, bandit-controlled, monster-territory, borderland, or otherwise not safe.
 
 **While resting in dangerous territory (long rest, 8 hrs):**
-- The DM rolls a d6 **once every 3 hours of rest** (so ~2-3 rolls per full long rest):
-  - **1-2:** Ambush encounter. Rest is interrupted. Party wakes to combat. Surprise rules per LONG REST IN UNSAFE AREAS section above.
-  - **3-4:** Disturbance. Movement nearby, something investigating the camp. Rest resumes but uneasy — half long-rest benefits if the disturbance count reaches 2+ in the same rest.
-  - **5-6:** Uneventful period. Rest continues.
-- Watch rotation and watch Perception rules per LONG REST IN UNSAFE AREAS still apply.
-- This replaces the single-d6-at-start-of-rest rule when the region qualifies as dangerous territory. For generic unsafe (not actively hostile) areas, the single-roll rule still applies.
+- The DM rolls a **d6 once every 3 hours of rest** (2-3 rolls per full long rest):
+  - **1-2: ENCOUNTER.** Rest interrupted. Roll ambush check (above). Enemy ambush = party is surprised (enemies get free turn). Neutral/player ambush = party wakes in time.
+  - **3-6: No encounter.** Rest continues silently.
+- Watch rotation: If the party sets a watch, the ambush check gets +1 (same as Kenji's cover bonus). No watch = enemy ambush is automatic on encounter (no ambush roll, enemies always get the free turn).
 
-**DM judgment call:** If the player explicitly hides extremely well (Wind Step to a rooftop 500ft up, Greater Invisibility during rest, warded lean-to, etc.), the DM may waive or grant advantage on the rest roll. The point of these rules is to make dangerous territory *feel* dangerous without punishing smart play.
+**DM judgment:** Smart resting (hidden position, warded campsite, high ground) can further modify rolls at DM discretion. The system rewards preparation, not luck.
 
 ### 🐺 HUNTING & GRINDING RULES
 When the player declares intent to hunt or grind combat encounters in a session:
@@ -1929,7 +1955,7 @@ Per Ironholt milestone: +10 HP, or +1 Veritas dmg, or +2 Ki, or new enchantment 
 
 ### 🎯 ACTIVE CONTEXT (Day 246 — Ashmere 24-25, 1247 AR)
 1. **Kenji is the Ronin.** Suppressed arcane identity. Iaido kendo combat. Wind Step travel. Basic leyline magic only. No ember displays.
-2. **Location:** Iron Key terminus, grid H-9. 80 yards from Sir Corban's camp. Approaching to talk about the stolen iron chest.
+2. **Location:** Iron Key terminus, grid H-9. 80 yards from Sir Corwyn's camp. Approaching to talk about the stolen iron chest.
 3. **Status:** HUNGRY (4hrs since meal, -1 STR/CON). HP 333/333. Iaido fresh. Smoke-Clone 2/3 charges. Cover intact.
 4. **Level 35.** EXP: 2,209,800. 300k to Apotheosis.
 5. **Still Night countdown:** ~21 days. Pallid March border confirmed 15mi north. Seravane's column active.
@@ -1949,7 +1975,7 @@ Per Ironholt milestone: +10 HP, or +1 Veritas dmg, or +2 Ki, or new enchantment 
 - Three cosmic forces: creation HEALS entropy, creation BURNS abyssal. Different problems, different solutions.
 
 ### CHARACTER REMINDERS (Book 4 active cast)
-- **Sir Corban the Fallen:** Death-binder. Knight. Complex. Has the iron chest Kenji stole. Camp 80 yards away.
+- **Sir Corwyn the Fallen:** Death-binder. Knight. Complex. Has the iron chest Kenji stole. Camp 80 yards away.
 - **Taryn:** Millhaven garrison captain. 4 leads provided. Intro letter to Vellin pending. Warming disposition.
 - **Solveth:** In Frost Fang. Speaks through the bond (only Kenji hears without Frost Fang present). Ancient. Patient. Cosmic perspective.
 - **Amaris:** Druid. Briarstone. Two vials of creation energy. Kenji left without a note. She will see him again.
@@ -2792,7 +2818,7 @@ Kenji's portal gateways are strategic infrastructure. The DM and story engine mu
 | Thornfield | B4 | ✅ | Village, 240 people. Corruption crisis (Vareth/Greenveil). Briarstone Homestead. Amaris, Wynn, Delia here. |
 | Millhaven | B4 | ✅ | Current hub town. Taryn based here. Commission board. Bracken (garrison commander). Holsk (buyer). |
 | Iron Key Terminus | B4 | ⚠️ | Grid H-9. Edge of death-binder's 32-mile perimeter. Seal unlocking. Current location. |
-| Seravane's Domain | B4 | ☠️ | Undead territory. Pallid March column. 15mi north of old border. Root network detects living intrusion. Sir Corban patrols. |
+| Seravane's Domain | B4 | ☠️ | Undead territory. Pallid March column. 15mi north of old border. Root network detects living intrusion. Sir Corwyn patrols. |
 
 
 ---
@@ -2807,7 +2833,7 @@ Kenji's portal gateways are strategic infrastructure. The DM and story engine mu
 | Seravane / Pallid March | ACTIVE — undead column, bronze-ring network, 4 raised garrison soldiers | HIGH |
 | Millhaven commissions | ACTIVE — Vellin (archivist), Sister Aldra (ward-reader), Teilen (Pallid March expert) | HIGH |
 | Still Night countdown | ~21 days — Pallid March strongest, Hollowing seals deep shafts, Orc Bone Fire | MEDIUM |
-| Sir Corban / stolen chest | ACTIVE — approaching camp to talk | MEDIUM |
+| Sir Corwyn / stolen chest | ACTIVE — approaching camp to talk | MEDIUM |
 | Taryn relationship | WARMING — debrief complete, leads provided, intro letter pending | MEDIUM |
 | Ronin identity | ONGOING — 6 months suppressed. How long can the mask hold? | BACKGROUND |
 | Kenji's origin | UNRESOLVED — who sent him, why. Solveth confirmed deliberate. | BACKGROUND |

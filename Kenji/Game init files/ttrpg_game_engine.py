@@ -1339,10 +1339,26 @@ CONDITIONS = {
 # Kenji's cover (Greater Invis, Wind Step, Windstrider, Living Ground) bumps 1-2 → near miss
 ENCOUNTER_TABLE_TRAVEL = {
     1: "encounter",   2: "encounter",
-    3: "near_miss",   4: "near_miss",
-    5: "uneventful",  6: "uneventful",
+    3: "no_encounter", 4: "no_encounter",
+    5: "no_encounter", 6: "no_encounter",
+}
+ENCOUNTER_TABLE_TRAVEL_COVER = {
+    1: "encounter",
+    2: "no_encounter", 3: "no_encounter",
+    4: "no_encounter", 5: "no_encounter", 6: "no_encounter",
 }
 ENCOUNTER_TABLE_REST = ENCOUNTER_TABLE_TRAVEL  # same odds, different frequency
+ENCOUNTER_TABLE_REST_COVER = ENCOUNTER_TABLE_TRAVEL_COVER
+
+# --- AMBUSH TABLE ---
+# After encounter fires, roll d6 for ambush.
+# 1-2: enemy ambush (free turn), 3-4: neutral (no surprise), 5-6: player ambush (free turn)
+# Kenji cover shifts result +1 (enemy→neutral, neutral→player)
+AMBUSH_TABLE = {
+    1: "enemy_ambush", 2: "enemy_ambush",
+    3: "neutral",      4: "neutral",
+    5: "player_ambush", 6: "player_ambush",
+}
 
 # --- WIND STEP TRAVEL TIERS ---
 WIND_STEP_TIERS = {
@@ -1991,26 +2007,57 @@ class StoryEngine:
     # ---- TRAVEL & ENCOUNTER MECHANICS (formerly in dm_rules_tracking.md) ----
 
     def encounter_roll(self, mode: str = "travel", kenji_cover: bool = True) -> dict:
-        """Roll for encounter in dangerous territory.
+        """Roll for encounter in dangerous territory. Binary: encounter or no encounter.
         mode: 'travel' (d6/hr) or 'rest' (d6/3hr).
-        kenji_cover: if True, rolls of 1-2 become 'near_miss' instead of 'encounter'
-                     (Greater Invis + Wind Step + Windstrider + Living Ground).
+        kenji_cover: if True, only a roll of 1 triggers encounter (instead of 1-2).
         Returns: {'roll': int, 'result': str, 'description': str}
-        See dm_rules_tracking.md for DM referee guidance on encounter content.
+        If encounter fires, also rolls ambush check (d6).
+        See dm_rules_tracking.md § BINARY ENCOUNTER SYSTEM.
         """
         roll = random.randint(1, 6)
-        table = ENCOUNTER_TABLE_TRAVEL if mode == "travel" else ENCOUNTER_TABLE_REST
-        result = table[roll]
-        if kenji_cover and result == "encounter":
-            result = "near_miss"
-            desc = f"d6={roll} → encounter bumped to near miss (Kenji cover toolkit active)"
-        elif result == "encounter":
-            desc = f"d6={roll} → ENCOUNTER. DM generates threat appropriate to region."
-        elif result == "near_miss":
-            desc = f"d6={roll} → near miss. Something close but Kenji avoids it."
+        if mode == "travel":
+            table = ENCOUNTER_TABLE_TRAVEL_COVER if kenji_cover else ENCOUNTER_TABLE_TRAVEL
         else:
-            desc = f"d6={roll} → uneventful. Nothing happens this hour."
-        return {"roll": roll, "result": result, "description": desc}
+            table = ENCOUNTER_TABLE_REST_COVER if kenji_cover else ENCOUNTER_TABLE_REST
+        result = table[roll]
+
+        out = {"roll": roll, "result": result}
+
+        if result == "encounter":
+            # Roll ambush check
+            ambush = self.ambush_roll(kenji_cover)
+            out["ambush"] = ambush
+            cover_note = " (cover active, threshold=1)" if kenji_cover else " (no cover, threshold=1-2)"
+            out["description"] = (
+                f"d6={roll} → ENCOUNTER{cover_note}. "
+                f"Ambush: {ambush['description']}. DM generates threat appropriate to region."
+            )
+        else:
+            out["description"] = f"d6={roll} → no encounter. Travel continues."
+        return out
+
+    def ambush_roll(self, kenji_cover: bool = True) -> dict:
+        """Roll d6 for ambush when an encounter fires.
+        1-2: enemy ambush (free turn), 3-4: neutral, 5-6: player ambush (free turn).
+        kenji_cover shifts result +1 (enemy→neutral, neutral→player).
+        See dm_rules_tracking.md § AMBUSH CHECK.
+        """
+        roll = random.randint(1, 6)
+        raw_result = AMBUSH_TABLE[roll]
+        result = raw_result
+        if kenji_cover:
+            if raw_result == "enemy_ambush":
+                result = "neutral"
+            elif raw_result == "neutral":
+                result = "player_ambush"
+            # player_ambush stays player_ambush
+
+        descriptions = {
+            "enemy_ambush": f"d6={roll} → ENEMY AMBUSH. Enemies get a free turn before initiative.",
+            "neutral": f"d6={roll} → NEUTRAL. No surprise. Roll initiative normally.",
+            "player_ambush": f"d6={roll} → PLAYER AMBUSH. Kenji gets a free turn before initiative.",
+        }
+        return {"roll": roll, "raw": raw_result, "result": result, "description": descriptions[result]}
 
     def travel_time(self, miles: float, tier: str = "base") -> dict:
         """Calculate travel time at a given Wind Step tier.
@@ -2029,18 +2076,24 @@ class StoryEngine:
         }
 
     def travel_leg(self, miles: float, tier: str = "base", kenji_cover: bool = True) -> dict:
-        """Execute a full travel leg: calculate time, advance hours, roll encounters, check hunger.
-        Returns summary with all rolls and alerts. DM narrates based on results.
-        See dm_rules_tracking.md for time-pacing rule (1 hr per narration beat, skip uneventful).
+        """Execute a full travel leg: calculate time, roll binary encounters, check hunger.
+        Binary system: encounter or no encounter. No near-miss stops.
+        If encounter fires → includes ambush roll. Travel pauses for DM narration.
+        If no encounters → travel completes, DM narrates arrival at objective.
+        See dm_rules_tracking.md § BINARY ENCOUNTER SYSTEM.
         """
         calc = self.travel_time(miles, tier)
         hours = max(1, int(calc["hours"]))
-        results = {"calc": calc, "hours_elapsed": hours, "encounters": [], "alerts": [], "meals_consumed": 0}
+        results = {
+            "calc": calc, "hours_elapsed": 0, "encounters": [],
+            "alerts": [], "meals_consumed": 0, "arrived": False
+        }
 
         for hr in range(hours):
             # Advance 1 hour
             time_alerts = self._advance_time(1)
             results["alerts"].extend(time_alerts)
+            results["hours_elapsed"] += 1
 
             # Check hunger — Travel Hunger Protocol
             meal_alert = self.check_meal()
@@ -2056,31 +2109,48 @@ class StoryEngine:
                     f"Meals remaining: {self.meals}. Timer reset."
                 )
 
-            # Encounter roll
+            # Binary encounter roll
             enc = self.encounter_roll("travel", kenji_cover)
             enc["hour"] = hr + 1
             results["encounters"].append(enc)
 
-            # If encounter fires, stop the travel — DM narrates
+            # If encounter fires, stop travel — DM narrates encounter
             if enc["result"] == "encounter":
-                results["alerts"].append(f"⚔️ ENCOUNTER at hour {hr+1}! Travel paused. DM narrates.")
+                results["alerts"].append(
+                    f"⚔️ ENCOUNTER at hour {hr+1}! "
+                    f"Ambush: {enc['ambush']['result']}. Travel paused. DM narrates."
+                )
                 break
+        else:
+            # No encounter across all hours — player arrives at objective
+            results["arrived"] = True
+            results["alerts"].append(
+                f"✅ ARRIVED. {hours} hour(s) traveled, no encounters. DM narrates arrival at objective."
+            )
 
         return results
 
     def rest_check(self, hours: int = 8, kenji_cover: bool = True) -> dict:
-        """Roll encounter checks during rest in dangerous territory.
-        d6 every 3 hours. Returns encounter results.
+        """Roll binary encounter checks during rest in dangerous territory.
+        d6 every 3 hours. Encounter or no encounter. If encounter → ambush roll.
+        No watch = enemy ambush is automatic (no ambush roll needed).
+        See dm_rules_tracking.md § REST ENCOUNTER ROLLS.
         """
         rolls_needed = max(1, hours // 3)
-        results = {"hours": hours, "encounters": [], "alerts": []}
+        results = {"hours": hours, "encounters": [], "alerts": [], "rest_complete": True}
         for i in range(rolls_needed):
             enc = self.encounter_roll("rest", kenji_cover)
             enc["rest_hour"] = (i + 1) * 3
             results["encounters"].append(enc)
             if enc["result"] == "encounter":
-                results["alerts"].append(f"⚔️ REST INTERRUPTED at hour {(i+1)*3}!")
+                results["rest_complete"] = False
+                results["alerts"].append(
+                    f"⚔️ REST INTERRUPTED at hour {(i+1)*3}! "
+                    f"Ambush: {enc['ambush']['result']}."
+                )
                 break
+        if results["rest_complete"]:
+            results["alerts"].append(f"✅ Rest complete. {hours} hours, no interruptions.")
         return results
 
     # ---- EXHAUSTION TRACKING ----
