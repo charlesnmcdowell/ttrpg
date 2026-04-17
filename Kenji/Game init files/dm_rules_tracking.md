@@ -2821,7 +2821,7 @@ Kenji's portal gateways are strategic infrastructure. The DM and story engine mu
 | Millhaven | B4 | ✅ | Current hub town. Taryn based here. Commission board. Bracken (garrison commander). Holsk (buyer). |
 | Iron Key Terminus | B4 | ⚠️ | Grid H-9. Edge of death-binder's 32-mile perimeter. SEAL OPENED Ashmere 24 night. Key left in ground. Contents unexplored. Sir Corwyn witnessed. |
 | Seravane's Domain | B4 | ☠️ | Undead territory. Pallid March column. 15mi north of old border. Root network detects living intrusion. Sir Corwyn patrols. |
-| Thornkeep | B4 | ✅ | Border fortress. Garrison town. Commander Renna Thorne. Corporal Jostin (scout). Thornkeep Waystation (Pip property, 3 GP/day). Kenji arrived Ashmere 25. Logging unusual undead activity from Ashenveil. |
+| Thornkeep | B4 | ✅ | Border fortress. Garrison town. Commander Renna Hale. Corporal Jostin (scout). Thornkeep Waystation (Pip property, 3 GP/day). Kenji arrived Ashmere 25. Logging unusual undead activity from Ashenveil. |
 
 
 ---

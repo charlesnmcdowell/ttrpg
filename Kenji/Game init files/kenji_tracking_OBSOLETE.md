@@ -212,7 +212,7 @@
 | Brennan | Varenholm | Silver Draft cook |
 | Vael | Mobile | Battle mage commander |
 | Brindle/Kael | Western territories | Squad leaders |
-| Renna Thorne | Thornkeep | Bridge garrison commander |
+| Renna Hale | Thornkeep | Bridge garrison commander |
 | Syravelle | Silvandris | Enchanter apprentice |
 | Torvald | Field | Shadow operative |
 | Auren | Silvandris | Reincarnated king, border patrol |

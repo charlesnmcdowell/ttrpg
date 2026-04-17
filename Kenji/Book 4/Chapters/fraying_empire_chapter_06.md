@@ -48,7 +48,13 @@ He doesn't flinch. The green fire doesn't shift. Oathbreaker hums — low, metal
 
 "Why are you here, swordsman?"
 
-I don't answer. The woman introduces herself — Elda. Twenty-six. Looking for her son, a boy named Halden, nine years old, ran toward Thornkeep three days ago chasing a merchant wagon. She's been lost since.
+I don't answer. The woman introduces herself — Elda. Looking for her son, Halden, twenty-four, was traveling south from Ashenmere to meet her at the crossroads three days ago. He never arrived. She's been searching since.
+
+I tell the death knight his mother taught him no manners. There's an elderly woman on the road alone and afraid.
+
+"You're elderly, over thirty, right ma'am?"
+
+Elda gives me a look that could curdle milk. "I'm fifty-three, you horrible young man."
 
 I look at the death knight. I look at her. I hold out my hand.
 
@@ -182,7 +188,7 @@ I go to my room. Bare walls. Bed. Window facing the street. Moonlight through th
 
 Quiet night. Garrison boots on cobblestones every half hour. The fire downstairs dies to coals.
 
-The seal is open fifteen miles north. The key is in the ground. The death knight watched me walk away. A woman I don't know is on the other side of a wall unable to sleep for reasons she can't name. Her son is somewhere in this town or was.
+The seal is open fifteen miles north. The key is in the ground. The death knight watched me walk away. A woman I don't know is on the other side of a wall unable to sleep for reasons she can't name. Her son is somewhere on the south road between Ashenmere and the crossroads. Three days lost.
 
 I left threads behind tonight. The seal. The key. The death knight's questions. Whatever is under that terminus.
 
@@ -194,7 +200,7 @@ I sleep.
 
 *Ashmere 25. Fieldday. Thornkeep Waystation. Morning light through the shutters.*
 
-*The inn smells like breakfast. The road south goes to the border. The garrison goes about its business. Somewhere in this town, a nine-year-old boy is three days lost.*
+*The inn smells like breakfast. The road south goes to the border. The garrison goes about its business. Somewhere on the south road, a young man is three days lost.*
 
 *The seal can wait. The death knight can wait. The key is in the ground.*
 
@@ -209,7 +215,7 @@ I sleep.
 **Chapter Summary:**
 - Kenji Wind-Stepped from Millhaven to the iron key terminus (south-southwest, ~1hr)
 - Arrived at Sir Corwyn's camp. Returned the stolen iron chest. Death knight asked questions — Kenji never answered.
-- Met Elda — untracked NPC, 26, searching for her son Halden (9yo, missing 3 days, headed toward Thornkeep). Perimeter redirection herded her to the camp.
+- Met Elda — untracked NPC, elderly, searching for her son Halden (24, missing 3 days, was traveling south from Ashenmere to meet her at the crossroads). Perimeter redirection herded her to the camp.
 - Kenji grabbed Elda's hand and walked away from the death knight, the chest, and the seal mid-conversation.
 - Seal opened behind them. Key left in the ground.
 - 4 wights (Seravane perimeter patrol) ambushed on the south road. Enemy ambush — all 4 destroyed. Showman's Sheathe quirk debut (nat 1 → pose → 4 counters → iaido draw-kill).
