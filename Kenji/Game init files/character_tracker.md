@@ -107,6 +107,215 @@ Kenji is undercover. **Arcane and Ember abilities are deliberately off the table
 | iron_chest_contents | Ashmere 23 | N/A | N/A | RESOLVED | RETURNED to Sir Corwyn at terminus camp, Ashmere 24 night. Contents never opened. Kenji never looked inside. | Corwyn has his chest back. Relationship shifted to Conflicted. |
 | apotheosis_level_40 | ongoing | Ashmere 45 (Still Night) | N/A | in_progress | 2,214,900 / 2,500,000 EXP. 285,100 to Level 40 (apotheosis cap). Five threats provide the content. Bane of Eve daily supplemental. The threats converge at Still Night. | Reaching L40 completes the apotheosis arc. Mechanical cap on advancement. |
 
+### Titles
+
+- **ArchMagus of Varenholm** — Academy rank. Abdicated in practice, not revoked.
+- **Champion of the Deepwood** — 5th in 10,000 years. First human.
+- **Liberator of Vyranth** — Continental recognition. Diplomatic immunity. Coalition veto.
+
+### Perks (Level Progression)
+
+| Level | Perk | Effect |
+|-------|------|--------|
+| L3 | Speedster | Arcane Stride (150ft), Fast Metabolism (2x healing) |
+| L6 | Demigod | Resistances (poison/paralysis/mind), Perfect Recall, Master Summoner (+2 hit/dmg, 50% duration), Entropy Echo (10% max HP necrotic on summoned weapons) |
+| L9 | Lover Boy | Pretty Privilege (disposition +1 tier), Enhanced Charm (beasts, WIS disadvantage), Emotional Damage (crit 15-20 on charmed), Attention Whore (+50% healing if watched), Power of Friendship (+2 atk if ally sees) |
+| L12 | Hearts and Minds | Squad kills = solo x4 EXP. Network Awareness (pulse through bracelet on squad success). |
+| L15 | Wizard King | Noble's Interest (gold +50%/day — INACTIVE, abdicated to Garrett). Golden Age (2x all org income — still active via Garrett/Pip). |
+| L18 | Sorcerer's Hegemony | Construct Army (1 squad/portal/dawn, 13 portals = 52 constructs/day). Population Fear (scales with count). Constructs: HP 40, AC 16, +8, 1d10+4. |
+| L20 | Bonded Lovers | +1 STR/CON per intimate partner, UNCAPPED via Soul Nexus |
+| L21 | Soul Nexus (Mythic) | All partners' abilities simultaneously |
+| L25 | Irresistible Presence | DC 21, female humanoids, escalating |
+| L28 | Irresistible Presence+ | DC 23, cumulative -1/15min, 2x fade |
+| L30 | Sorcerer's Hegemony | Construct army via portals |
+| L30 | Golden Age | All income x2 |
+| L35 | Lover and a Fighter | Creation Override + Lover's Vigor (5-day buff +50% all stats) |
+| CAP | Bane of Eve | Daily d100: 1-50 male assassin, 51-100 legendary female seeker |
+
+### Suppressed Abilities (full definitions — not active in Ronin mode)
+
+- **Aegis Ward** — reaction, 75% damage reduce + 75% reflect, unlimited uses w/ L4+ slots
+- **God Sight** — crit 18-20, perception, darkvision 120ft. Permanently available via captured nodes.
+- **Giant's Throw** — 3x range, +50% thrown damage. Permanently available.
+- **Duality Aspect** — Creation (60ft heal AOE) / Entropy (60ft necrotic AOE). Flight. Suppressed — would identify him instantly.
+- **Enhanced Arcane Edge** — +1d8 force per hit + Arcane Momentum (free atk per kill). Suppressed — On-Kill Continuation baked into Iaido style replaces this in Ronin mode.
+- **Aether Weaving** (MASTERED) — raw ley manipulation by intent. Creative, flexible.
+- **Sovereign's Will** (PARTIAL) — command presence at scale. Foundation only.
+- **The Long Memory** (GOOD via Thessaly bond) — pattern recognition across time. Functional. Passive, safe to use.
+- **Creation Override** — lethal strikes on females heal target to 2x HP + apply Unsatisfiable debuff. Unsatisfiable: permanent unless memory wiped. No other lover compares. Only applied if Kenji was intimate with them or caused orgasm via Creation Override.
+- **Haste** — +2 AC, extra action, ADV DEX saves
+- **Greater Invisibility** — learned from Aldwin Day 34
+
+### Combat Reference (Post-Book 3 Peak — historical, not current Ronin kit)
+
+- **HP:** 333 | Regen: 100%/turn (333 HP/turn)
+- **AC:** 23 base / 25 haste / 27 with Unbreakable Bond | +20% dodge
+- **Attack:** +16 (+12 STR + 2 PoF + 2 Friendship) | +18 dual-wield (Dual Strike Mastery)
+- **Crit Range:** 18-20 (God Sight)
+- **Speed:** 30 base / 150 Stride / 300 Stride+Haste+Dash
+
+### Properties & Income (managed by Garrett/Pip in Kenji's absence)
+
+| Property | Location | Income/Day |
+|----------|----------|------------|
+| Ashward Mine | Ashward | 16 GP |
+| Academy Stipend | Varenholm | 10 GP |
+| Vanguard Hall Bounties | Varenholm | 6 GP |
+| Merc Guild Contracts | Varenholm | 4 GP |
+| Village Inn (co-owned Pip) | Village | 2 GP |
+| Silver Draft Inn | Varenholm | 4 GP |
+| The Dustwell | Thornwall | 2 GP |
+| Aldwin War College | Varenholm | 8 GP |
+| The Broken Crown Inn | Stormhaven | 4 GP |
+| Ironholt Trade Post | Ironholt | 6 GP |
+| Thornkeep Waystation | Thornkeep | 3 GP |
+| Vyranth Imperial Suite | Vyranth | pending |
+
+**Daily Income:** ~65 GP (x2 Golden Age = ~130 GP/day)
+**Gold Reserve:** ~29,400,000 GP
+**Noble's Interest:** 50%/day compound on reserves (INACTIVE — abdicated to Garrett)
+
+### Portal Network (13/16 slots used)
+
+1. Varenholm  2. Duskfen  3. Broken Antler  4. Ashward Mines  5. Thornwall  6. Crestfall  7. Bleakmoor  8. Mordecai Ridge  9. Ironholt  10. Stormhaven  11. Deepwood Border  12. Cinderpeak  13. Vyranth
+
+**Available:** 3 more portal slots
+
+### Constructs
+
+- **Total:** ~1,088
+- **Spawn Rate:** 48/day (12 active spawn portals)
+- **Deployed:** peacekeeping across all territories + Vyranth garrison
+
+### Army (Katya Voss commanding)
+
+- 6,000 converted Dominion soldiers (War Prize perk)
+- 20,000 recruitment target (6 month timeline)
+- 6 territory branches
+- Budget: 200,000 GP
+
+### Soul Nexus Partners (18 — +6 in Book 4)
+
+| # | Partner | Skill | Perk | Book |
+|---|---------|-------|------|------|
+| 1 | Senna | Flurry/Evasion | Regeneration (100% HP/turn) | B1 |
+| 2 | Lythara | Forest Sense | Forest Bond | B1 |
+| 3 | Pip | Appraisal | Golden Tongue | B1 |
+| 4 | Della | Steady Hands | Tip Jar | B1 |
+| 5 | Faelindra | Blade Dance (3 atk/round) | Ironwood Discipline (immune fear/charm/stun) | B1/B2 |
+| 6 | Nimue | Aether Shield (absorb+store spells) | Cascade (overkill splashes) | B1/B2 |
+| 7 | The Eldest | Sovereign's Voice (DC 23 pause) | Ley Sovereign (sense/redirect ley) | B1 |
+| 8 | Sera | Dual Strike Mastery (+2/+1d6 dual-wield) | Unbreakable Bond (+2 AC w/ partner) | B1 |
+| 9 | Thessaly | Archive Recall (Legend Lore free) | Long Memory (pattern recognition) | B2 |
+| 10 | Elara | Counterspell Mastery (no slot, 3/LR) | Spell Eater (heal on counterspell) | B2 |
+| 11 | Vess | War Room (+10% efficiency) | Institutional Memory (ADV govt CHA) | B2 |
+| 12 | Katya | Surrender Terms (DC 23 army surrender) | War Prize (50% enemy conversion) | B3 |
+| 13 | Breca | Hearth Sense | Warmkeep (cold resist aura, small party) | B4 Ch2 |
+| 14 | Amaris (Level 16) | Groundsong | Living Ground (plant tremorsense 200ft) | B4 Ch3 |
+| 15 | Delia | Road Sense | Trade Warmth (detect dead/live trade routes) | B4 Ch3 |
+| 16 | Wynn | Clean Cut | Diagnostic Touch (scan wounds/poisons) | B4 Ch4 |
+| 17 | Taryn | Iaido Stance (guaranteed crits on drawn cut) | Steel Sight (weapon quality/flaws at a glance) | B4 Ch4 |
+| 18 | Bracken | Captain's Read (intent/rank/allegiance/lie-tells) | Bond-Form Sight (read binding geometry) | B4 Ch6 |
+
+### Intimate Partners (chronological)
+
+| Name | When | Role | Day |
+|------|------|------|-----|
+| Sera | Book 1 | Darkblade Captain, Stormhaven | Thursdays? |
+| Pip | Book 1 | Inn Empire Director, Varenholm | Mondays |
+| Senna | Day 29 | War College Instructor | mornings |
+| Thessaly | Day 28 | Field Archivist, Silvandris | — |
+| Elara | Day 28 | Ley Warden, Academy | Wednesdays |
+| Vess | Day 28 | Council Oversight, Varenholm | Tuesdays |
+| Lythara | Day 39/48 | Druid, Deepwood | — |
+| Nimue | Day 42 | Aether Researcher, Deepwood | — |
+| Faelindra | Day 42 | Continental Defense Commander | — |
+| Della | Day 42 | Silver Draft barmaid | breaks |
+| The Eldest | Day 43 | Deepwood Sovereign | — |
+| Katya Voss | Day 47 | General, Merc Guild | Thursdays |
+| Breca | Ashmere 11 | Innkeeper, Broken Antler | — |
+| Amaris | Ashmere 15 | Druid, Greenveil | — |
+| Delia | Ashmere 17 | Caravan outrider | — |
+| Wynn | Ashmere 20 | Field medic, Millhaven | — |
+| Taryn | Ashmere 21-22 | Gate guard → commissioned scout | — |
+| Bracken | Ashmere 25-26 | Watch Captain, Millhaven | — |
+
+### Transported Protagonists (7)
+
+| Name | Based On | Level | Location |
+|------|----------|-------|----------|
+| Dren Valdric | Richter/The Land | 25 | Ironholt |
+| Jace Corwin | Jason/HWFWM | 22 | Brackenmoor |
+| Carrick Hale | Carl/DCC | 23 | Stormhaven (restaurant) |
+| Zarek Ashborne | Zac/Defiance | 26 | Cinderpeak |
+| Jarek Windmere | Jake/Primal Hunter | 24 | Deepwood |
+| Jessica Windveil | Ilea/Azarinth | 27 | Unknown |
+| Auren Greyholm | Arthur/TBATE | 28 | Silvandris |
+
+### Campaign Timeline
+
+- **Day 1:** Arrived. Mud. Nothing.
+- **Day 1-29:** Book 1 — The Gilt Conspiracy (Levels 1-9)
+- **Day 29-30:** Book 2 — The Sundered Gate (Levels 10-20)
+- **Day 33-49:** Book 3 — The Iron Crown War (Levels 20-35)
+- **Day 49:** War ended. Crown removed. Knelt to Faelindra.
+- **Day 231-248:** Book 4 — The Fraying Empire (Level 35, ronin arc)
+
+### Book 4 Timeline
+
+| Day | Date (Ashmere) | Chapter | Beat |
+|-----|----------------|---------|------|
+| 229 | 7 | Ch1 — Greymere | Arrive Greymere, relief work, Breca |
+| 233 | 11 | Ch1 end | Leave Greymere |
+| 237 | 15 | Ch2 — The Greenveil | Thornlight circle, Amaris (L16) |
+| 240 | 18 | Ch3 — Stillday | Crossroads, Delia, dead trade warmth read |
+| 242 | 20 | Ch4 — Millhaven | Arrive Millhaven, Broken Wheel, Wynn, garrison infirmary |
+| 243-244 | 21-22 | Ch4 | Taryn training + bond, ruin prep |
+| 244 | 22 | Ch4 end | Ruin south of Millhaven. 8 bronze rings + iron key. Holsk reveal. |
+| 245 | 23 | Ch5 — The Eastbound Run | Eastbound decoy. Caravan vanishment. Sir Corban. Iron chest acquired. |
+| 245 | 23 eve | Ch5 | Back to Millhaven. Taryn solos wolf pack. Bracken's Letter of Commission. |
+| 246 | 24 | Ch5 end / Ch6 — The Grove | The Cold Hand. Taryn discovers phantom double. Corban's chapel. Seravane's grove. |
+| 247 | 25 | Ch6 end / Ch7 open | Back to Millhaven. Bracken debrief. Garrison visit (Renna Hale). |
+| 247-248 | 25-26 | Ch7 — The Dead Road | Thornkeep waystation. Wind Step south. Combat (wights + skeletons). Jostin. Soul Nexus search. Elda + Halden found. Gap zone camp. |
+
+### Book 4 Hooks (open threads)
+
+1. **Lena** — the thread that waited (OPEN THREAD)
+2. **Mordecai** — gone, building something
+3. **Bane of Eve** — daily encounters (dormant until identity exposed)
+4. **The Iron Crown** — repurpose or destroy?
+5. **300k EXP to Level 40 Apotheosis**
+6. **3 portal slots remaining**
+7. **Jessica Windveil** — 7th transported, never recruited
+8. **Post-war governance** — coalition stability
+9. **Vyranth reconstruction**
+10. **What is Kenji without a war?**
+11. **Vellin of Ashenveil** — private archive on 1040s Ashenmere Warden-elect bond rings (letter of introduction from Bracken)
+
+### Resolved Quests (Book 4)
+
+- Greymere relief run (Ch1)
+- Greenveil druid circle assistance (Ch2)
+- Millhaven ruin — bronze ring extraction, iron key acquired (Ch4)
+- Eastbound bandit/caravan investigation + Sir Corban contact (Ch5)
+- Iron chest — returned to Corwyn at terminus camp (Ch6)
+- Elda & Halden found — escort pending (Ch7)
+
+### Manuscript Structure (Books 2-3)
+
+**Canonical intent:** keep the prelude and the gate as one continuous read into the war.
+
+- **Book 2 manuscript** (`Kenji_story_book2.md` and `Book 2/Chapters/`): opens with prelude — *The Gilt Conspiracy* (Day Thirteen lead-in chapters) so the Hollow Crown / guild beat flows straight into *The Sundered Gate*. `kenji_chapter_*.md` files pick up at *New Skin* as Chapter One.
+- **Handoff:** Sundered Gate leads into Book 3 — *The Iron Crown War* (prose in `Book 3/Chapters/`, e.g. `iron_crown_*.md`). Gate → war is the spine; no gap.
+- **Single-file Book 2:** `Kenji_story_book2.md` is the full prelude + Sundered Gate manuscript (through Chapter Twenty-Four).
+
+### What Taryn Knows (as of Ch5 end)
+
+- The ronin's name is *Kenji*.
+- He gave her every scrap of credit — the pelts, the warg, the Ashenveil column, the Letter of Commission, the gold.
+- The hand she held at the south gate wasn't him. He's already gone.
+- She has the gear, the rank, the letter, and the cold air.
+
 ---
 
 ## BRACKEN — Watch Captain, Millhaven Garrison
@@ -1163,8 +1372,12 @@ Last-known states preserved in AI_CONTEXT.md. Promote to full tracker entries on
 - **Auren Greyholm** — Lawful Good. Son of the Eldest. Reincarnated king who chose peace the second time. Level 28. **[DM: outlander (Arthur/TBATE homage), pulled by Creation.]**
 - **Queen Lirien — the Deepwood War-Singer** — Lawful Good. Auren's adoptive elven mother. Level 18. Aether-voice: casts through song — healing, buffs, battlefield control, can shatter siege-engine enchantments. Does not know her son was a reincarnated king; only knows he is *her* son and she protects him. Deepwood-based.
 - **Malcus Vyr — the Deposed Emperor** — Lawful Evil (conviction-based, not cruelty-based). Level 30 war-mage. Former Emperor of Vyranthos; wore the Iron Crown until Day 49 of the Iron Crown War, when he walked off the throne with Faelindra's hand. Alive. The Crown came off voluntarily after the Crown had drunk from him for two days — he arrived at surrender on his own terms just before the swords came out. Post-war location: unknown. Not imprisoned (surrender terms honored). Probably in Vyranth or its outskirts, stripped of imperial authority but not executed. Genuinely believed unifying the continent under Vyranthos's system would save more lives than independent territories; he was wrong with conviction, not malice. **[DM: If he reappears in Book 4+, he's a defeated idealist, not a cackling returnee. Possible threads: reform advocate, wandering scholar, or target of vengeance from Dominion hardliners who blame him for the surrender. Not currently a threat clock.]**
-- **Della** — Lawful Good. Village-keeper type, Thornfield-adjacent.
-- **Lena** — Chaotic Good. Runaway-turned-fixer. Helps the wrong people first.
+- **Della** — Lawful Good. Village-keeper type, Thornfield-adjacent. Silver Draft morning shift worker (Varenholm). Intimate with Kenji.
+- **Brennan** — Lawful Good. Silver Draft cook, Varenholm. Background staff.
+- **Syravelle** — Lawful Good. Enchanter apprentice, Silvandris. Master enchanter. Named her first original creation "Velissa" — grandmother's name.
+- **Marda** — Neutral. Innkeeper, Broken Wheel tavern, Millhaven. Knows Kenji as "the ronin." Transactional relationship.
+- **Vellin of Ashenveil** — Unknown alignment. Private archivist with records on 1040s Ashenmere Warden-elect bond rings. Bracken provided a letter of introduction. Not yet contacted. Potentially load-bearing for the Lady Nyx ring puzzle.
+- **Lena** — Chaotic Good. Runaway-turned-fixer. Helps the wrong people first. Book 4 open hook — "the thread that waited."
 - **Torvald** — Lawful Good. Dwarven veteran, reliable as stone.
 - **Brenn** — Lawful Good. Farm-hand-turned-militia. Protects what's his.
 - **Carrick Hale** — Lawful Evil. Merchant-prince, Coalition-adjacent, plays the board for himself within the rules. Opened a restaurant in Stormhaven that sells "cheeseburgers." **[DM: outlander (Carl/DCC homage), pulled by Aelith.]**
@@ -1277,7 +1490,7 @@ The Pallid March row above is the ONE PUBLIC FACE of the threat — what the Coa
 
 ### Apotheosis tracker
 
-Kenji at 2,209,800 / 2,500,000 EXP. 290,200 to Level 40. Five threats provide the content. Bane of Eve provides daily supplemental. Cap is the cap.
+Kenji at 2,214,900 / 2,500,000 EXP. 285,100 to Level 40. Five threats provide the content. Bane of Eve provides daily supplemental. Cap is the cap.
 
 ---
 

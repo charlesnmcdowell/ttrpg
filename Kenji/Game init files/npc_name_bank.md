@@ -99,7 +99,7 @@
 7. Holloway
 8. Lannek
 9. Morwen
-10. Sevrin
+10. Drathek
 
 **Female:**
 1. Ashwyn
@@ -109,6 +109,6 @@
 5. Elowen
 6. Fennara
 7. Grael
-8. Hestia
+8. Ravenne
 9. Luthiel
 10. Veshra

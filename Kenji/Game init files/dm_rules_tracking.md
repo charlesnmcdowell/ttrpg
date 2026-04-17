@@ -1994,22 +1994,54 @@ Per Ironholt milestone: +10 HP, or +1 Veritas dmg, or +2 Ki, or new enchantment 
 | 18 | Sorcerer's Hegemony (C) | Construct Army (1 squad/portal/dawn, 13 portals = 52 constructs/day). Population Fear (scales with count). Constructs: HP 40, AC 16, +8, 1d10+4. |
 | 21 | Bonded Lovers | +1 STR/CON per intimate partner (17 partners = +17/+17). Stats maintained without proximity. |
 | 24 | Soul Nexus | All partner abilities active passively. Regen 333/turn. Blade Dance. Aether Shield. Diagnostic Touch. Hearthsense. Living Ground. Etc. |
-| 27 | Irresistible Presence | Siren-Elf attraction aura DC 23. Always on. Can't be turned off. Biological attraction stacks (NOT charm/dominate — full sentience/free will). See kenji_tracking_OBSOLETE.md for stack breakdown. |
+| 27 | Irresistible Presence | Siren-Elf attraction aura DC 23. Always on. Can't be turned off. Biological attraction stacks (NOT charm/dominate — full sentience/free will). See IP RULES section below. |
 | 30 | Bane of Eve | **DORMANT** — triggers when Kenji's location is exposed. Daily legendary-class challengers. |
 | 33 | Road Sense + The Long Haul | Trade route awareness 10mi (Breca bond). No travel exhaustion (Breca bond). |
+
+---
+
+### IRRESISTIBLE PRESENCE — FULL RULES
+
+- **DC 23** WIS save, female humanoids, on first viewing each day
+- **Escalation:** Every 15 minutes of viewing, cumulative -1 to save
+- **Nature:** Biological attraction aura, NOT a charm or dominate effect. Target maintains full sentience and free will at ALL times. Natural urge to biologically procreate — escalating arousal/attraction, never torture, pain, or loss of faculties. Targets always know what they're feeling and can choose how to act.
+- **Stacks (attraction-based):**
+  - **Stack 1 — Mild Attraction:** Subtle awareness. Target notices Kenji is attractive. Slightly distracted. Might glance more than normal. Fully functional otherwise.
+  - **Stack 2 — Moderate Attraction:** Finds Kenji genuinely attractive. Thoughts drift. Harder to focus on other topics. May find excuses to stay near him or keep conversation going.
+  - **Stack 3 — Strong Attraction:** Physically aroused. Noticeable warmth, flushed skin, quickened pulse. Wants to be closer. May struggle to maintain train of thought in conversation. Still fully in control of actions.
+  - **Stack 4-6 — Deep Attraction:** Struggling to maintain physical distance and focus. Strong biological pull toward Kenji. Proximity becomes magnetic — stepping away requires conscious effort. Attention keeps snapping back to him. May start asking or hinting for physical contact. Still has free will, still makes their own choices, but the wanting is loud and persistent.
+  - **Stack 7-9 — Ravenous Attraction:** Discomfort from resisting physical contact. The body wants what it wants and denying it feels like holding your breath — possible but increasingly uncomfortable. May make a WIS save or attempt to relieve themselves, seek out Kenji directly, or find another outlet. The resistance itself is what causes discomfort, not the aura.
+  - **Stack 10+ — Overwhelming Attraction:** Maximum intensity. The pull is constant and consuming. Every thought circles back. Resisting physical contact is agonizing — not from pain, but from sheer biological need. May take what they need by force (WIS save to resist). Still sentient, still aware, still making choices — but the choice to resist has become the hardest thing they've ever done.
+- **Fade times:** Stack 1=1hr, Stack 2=3hrs, Stack 3=5hrs, Stack 4=8hrs, Stack 5+=12hrs
+- **Immunity:** 5 days after intimacy (Lover's Vigor)
+- **Blindfold mechanic:** IP requires VIEWING Kenji. Blindfold blocks line of sight = no new saves. Stack holds but doesn't escalate. Physical contact without visual = comfort without feeding the aura. Fade timer continues normally.
+- **Pretty Privilege + Tip Jar:** strangers start at friendly (2 tier shift)
+- **Creation Override:** lethal strikes on females heal to 2x HP + Unsatisfiable debuff
+- **Unsatisfiable:** permanent unless memory wiped. No other lover compares. Only applied if Kenji was intimate with them or caused orgasm via Creation Override.
+- **Counter:** Memory wipe removes Unsatisfiable debuff. Items and spells can help alleviate aura. Characters can stop viewing Kenji to alleviate. A character can obtain Kenji's semen via intimacy or through other means — as long as it enters the vagina, immunity is granted. A character that isn't shy about intimacy can counter easily by being intimate. A character that doesn't want intimacy but understands the mechanic can collect, store, and insert on their own — like an elixir or potion used to ward off a monster's toxin. Many creative counters allowed. Individuals always have free will. **A roll must always be made regardless of character skill level, items, and spells.**
+
+### BANE OF EVE — FULL RULES
+
+Roll d100 at dawn (triggers when Kenji's identity is exposed):
+- **1-50:** Male assassin/champion. Unique name, rare class, personal vendetta, CR 35+.
+- **51-100:** Legendary female seeker. Unique name, race, rare class, personal agenda, Presence roll.
+
+**Classes:** Warrior, Paladin, Rogue, Healer, Sorcerer, Barbarian, Ranger, Druid, White Mage, Ninja, Samurai, Beastmaster, Artificer, Warlock, Blood Knight, Void Walker, Storm Caller, Chronomancer, Death Knight, Blade Singer, Shadow Weaver, Rune Scribe, Spirit Caller, Iron Maiden, Witch Hunter, Dervish, and more.
+
+Every encounter unique. Names generated fresh. Both can become recurring characters.
 
 ---
 
 ## ⚠️ DM ACTIVE REMINDERS — BOOK 4 (FRAYING EMPIRE / THE RONIN ARC)
 > **Live state tracked in `kenji_state.json`.** Check before every response.
 
-### 🎯 ACTIVE CONTEXT (Day 246 — Ashmere 24-25, 1247 AR)
+### 🎯 ACTIVE CONTEXT (Day 248 — Ashmere 26, 1247 AR)
 1. **Kenji is the Ronin.** Suppressed arcane identity. Iaido kendo combat. Wind Step travel. Basic leyline magic only. No ember displays.
-2. **Location:** Iron Key terminus, grid H-9. 80 yards from Sir Corwyn's camp. Approaching to talk about the stolen iron chest.
-3. **Status:** HUNGRY (4hrs since meal, -1 STR/CON). HP 333/333. Iaido fresh. Smoke-Clone 2/3 charges. Cover intact.
-4. **Level 35.** EXP: 2,209,800. 300k to Apotheosis.
-5. **Still Night countdown:** ~21 days. Pallid March border confirmed 15mi north. Seravane's column active.
-6. **Active threads:** Iron Key destination unknown, Seravane/death-binder investigation, Millhaven commissions (Vellin archivist, Sister Aldra, Teilen), Taryn debrief follow-ups.
+2. **Location:** Gap zone camp, off-road between crossroads and Ashenmere (south road). With Elda (Stack 7, blindfolded, fading) and Halden.
+3. **Status:** HUNGRY (8hrs since meal). HP 333/333. Long rest complete. All resources refreshed. Cover intact.
+4. **Level 35.** EXP: 2,214,900. 285,100 to Apotheosis.
+5. **Still Night countdown:** ~19 days. Pallid March border confirmed 15mi north. Seravane's column active.
+6. **Active threads:** Escort Elda+Halden home (Ashmere 27), south road dead zone, seal contents at terminus, Thornkeep understaffed, Jostin report (Ashmere 27), Corwyn reports to Seravane (Ashmere 28), Holsk polearm pickup (Ashmere 28), Vellin archivist lead.
 
 ### GAMEPLAY REMINDERS
 - Death is permanent. No resurrection.
