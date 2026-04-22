@@ -12,6 +12,8 @@ Commands:
     move <location>               Change location, save.
     dashboard                     Print dashboard (no save).
     brief                         Generate AI_CONTEXT.md + print brief (no save).
+    receipt                       One-line arc pointer stamp (RUN_ID + SHAs). No state change.
+                                  Same as: python run_arc_pointer.py --stamp --no-log
     npc <name> <field> <value>    Update NPC field (location|activity|disposition), save.
     squad <name> <field> <value>  Update squad field (status|location|mission), save.
     rel <npc> <change> <reason>   Update relationship (+/-N and reason), save.
@@ -26,6 +28,7 @@ Commands:
     validate                      Run consistency checks, print warnings.
     save                          Just save current engine state to JSON.
 """
+import subprocess
 import sys
 from pathlib import Path
 
@@ -44,10 +47,10 @@ def save(eng):
     eng.save_json(str(STATE_FILE))
     warnings = eng.validate()
     if warnings:
-        print("\n⚠️  VALIDATION WARNINGS:")
+        print("\n[!] VALIDATION WARNINGS:")
         for w in warnings:
             print(f"  - {w}")
-    print(f"\n✅ Saved → {STATE_FILE.name} (v{eng._save_version})")
+    print(f"\n[OK] Saved -> {STATE_FILE.name} (v{eng._save_version})")
 
 
 def cmd_tick(eng, args):
@@ -60,9 +63,9 @@ def cmd_tick(eng, args):
         print("=== ALERTS ===")
         for a in all_alerts:
             print(a)
-    print(f"\nDay {eng.day}, Hour {eng.hour:02d}:00 — {eng.time_of_day()}")
-    print(f"Meal: {eng.meal_status()}")
     save(eng)
+    print(f"\nDay {eng.day}, {eng.clock_display()} — {eng.time_of_day()}")
+    print(f"Meal: {eng.meal_status()}")
 
 
 def cmd_rest(eng, args):
@@ -72,7 +75,7 @@ def cmd_rest(eng, args):
         print("=== DAWN PROCESSING ===")
         for r in results:
             print(r)
-    print(f"\nDay {eng.day}, Hour {eng.hour:02d}:00 — {eng.time_of_day()}")
+    print(f"\nDay {eng.day}, {eng.clock_display()} — {eng.time_of_day()}")
     save(eng)
 
 
@@ -99,8 +102,29 @@ def cmd_brief(eng, args):
     brief = eng.ai_brief_markdown()
     out = SCRIPT_DIR / "AI_CONTEXT.md"
     out.write_text(brief, encoding="utf-8")
-    print(f"[Wrote {out}]")
-    print(brief)
+    print(f"[Wrote {out}] ({len(brief)} chars)")
+
+
+def cmd_receipt(eng, args):
+    """Print KENJI_ARC_POINTER_STAMP from run_arc_pointer.py (no log file, no JSON mutation)."""
+    script = SCRIPT_DIR / "run_arc_pointer.py"
+    cmd = [
+        sys.executable,
+        str(script),
+        "--state",
+        str(STATE_FILE),
+        "--stamp",
+        "--no-log",
+    ]
+    r = subprocess.run(cmd, cwd=str(SCRIPT_DIR), capture_output=True, text=True, encoding="utf-8", errors="replace")
+    out = (r.stdout or "").strip()
+    err = (r.stderr or "").strip()
+    if out:
+        print(out)
+    if err:
+        print(err, file=sys.stderr)
+    if r.returncode != 0 and not out:
+        print(f"[receipt] exit {r.returncode}", file=sys.stderr)
 
 
 def cmd_npc(eng, args):
@@ -250,11 +274,11 @@ def cmd_debuff(eng, args):
 def cmd_validate(eng, args):
     warnings = eng.validate()
     if warnings:
-        print("⚠️  VALIDATION WARNINGS:")
+        print("[!] VALIDATION WARNINGS:")
         for w in warnings:
             print(f"  - {w}")
     else:
-        print("✅ State is clean — no warnings.")
+        print("[OK] State is clean -- no warnings.")
 
 
 def cmd_save(eng, args):
@@ -268,6 +292,7 @@ COMMANDS = {
     "move": cmd_move,
     "dashboard": cmd_dashboard,
     "brief": cmd_brief,
+    "receipt": cmd_receipt,
     "npc": cmd_npc,
     "squad": cmd_squad,
     "rel": cmd_rel,
@@ -290,7 +315,10 @@ if __name__ == "__main__":
             print(f"Unknown command: {sys.argv[1]}")
         sys.exit(1)
 
-    eng = load()
     cmd = sys.argv[1]
     args = sys.argv[2:]
-    COMMANDS[cmd](eng, args)
+    if cmd == "receipt":
+        cmd_receipt(None, args)
+    else:
+        eng = load()
+        COMMANDS[cmd](eng, args)

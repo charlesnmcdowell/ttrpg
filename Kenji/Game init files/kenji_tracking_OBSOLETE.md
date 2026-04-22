@@ -51,8 +51,8 @@
 
 - **DC 23** WIS save, female humanoids, on first viewing each day
 - **Escalation:** Every 15 minutes of viewing, cumulative -1 to save
-- **Nature:** This is a biological attraction aura, NOT a charm or dominate effect. The target maintains full sentience and free will at ALL times. It is a natural urge to biologically procreate — escalating arousal/attraction, never torture, pain, or loss of faculties. Targets always know what they're feeling and can choose how to act.
-- **Stacks (attraction-based):**
+- **Nature:** **NOT charm / NOT dominate.** Targets keep full sentience and free will. The aura projects a **strong urge to want to procreate with Kenji** (escalating arousal + fixation on him as the sexual/biological outlet — *not* pain, not torture, not loss of faculties). Targets always know what they are feeling and can still choose how they act — but the wanting is real, loud, and persistent as stacks climb.
+- **Stacks (escalating procreation urge — “attraction” in shorthand at the table):**
   - **Stack 1 — Mild Attraction:** Subtle awareness. Target notices Kenji is attractive. Slightly distracted. Might glance more than normal. Fully functional otherwise.
   - **Stack 2 — Moderate Attraction:** Finds Kenji genuinely attractive. Thoughts drift. Harder to focus on other topics. May find excuses to stay near him or keep conversation going.
   - **Stack 3 — Strong Attraction:** Physically aroused. Noticeable warmth, flushed skin, quickened pulse. Wants to be closer. May struggle to maintain train of thought in conversation. Still fully in control of actions.
@@ -60,11 +60,11 @@
   - **Stack 7-9 — Ravenous Attraction:** Discomfort from resisting physical contact. The body wants what it wants and denying it feels like holding your breath — possible but increasingly uncomfortable. May make a WIS save or attempt to relieve themselves, seek out Kenji directly, or find another outlet. The resistance itself is what causes discomfort, not the aura.
   - **Stack 10+ — Overwhelming Attraction:** Maximum intensity. The pull is constant and consuming. Every thought circles back. Resisting physical contact is agonizing — not from pain, but from sheer biological need. May take what they need by force (WIS save to resist). Still sentient, still aware, still making choices — but the choice to resist has become the hardest thing they've ever done.
 - **Fade times:** Stack 1=1hr, Stack 2=3hrs, Stack 3=5hrs, Stack 4=8hrs, Stack 5+=12hrs
-- **Immunity:** 5 days after intimacy (Lover's Vigor)
+- **Immunity + Lover's Vigor (5 days, same package):** If Kenji **ejaculates inside her vagina** during sex **OR** she otherwise gets **Kenji’s semen inside her vagina** (any route the table accepts: intimacy, collected sample, smuggled “elixir,” **Book 3 canon — Kenji’s elf sister used her hair to place his semen inside the other woman’s vagina**, other bodily vectors if the table allows, etc.), she gains **Lover’s Vigor** for **5 days** (**+50% all stats**, eye/skin tells per character) **and** is **immune to Irresistible Presence** for those same 5 days (no IP viewing-save ladder, no new IP stacks from aura while immunity holds). **DM must track dates on each affected woman** (`Vigor start`, `expires`, `immune to IP until`, `buffed vs baseline stats`). **When the 5 days end:** stats revert, **immunity drops**, and the **procreative urge slams back** — many will **miss the power** and may pursue Kenji (or his seed) to **get Vigor back** (seduction, bargaining, theft, coercion — table handles consent + consequences).
 - **Pretty Privilege + Tip Jar:** strangers start at friendly (2 tier shift)
 - **Creation Override:** lethal strikes on females heal to 2x HP + Unsatisfiable debuff
 - **Unsatisfiable:** permanent unless memory wiped. No other lover compares only applied if kenji was intimate with them or caused them to orgasem via creation override.
-- **Counter:** Memory wipe removes Unsatisfiable debuff, items , and spells can help alleviate aura of irresistible presence. Characters can stop viewing kenji to alleviate. character can obtain kenjis semen via intimacy or through another means , as long as they get it inside their vagina they gain immunity, so a character that isn't shy about intimacy can counter easily just by being intimate with kenji and not caring, or a character that doesn't want to be intimate with kenji but understands all they need is his semen, can find away to collect it , store it and insert it on their own thus granting immunity , like an elixer or potion used to ward off a special monsters toxin. Many creative counters allowed, individuals are not mind controlled always have free will to choose what they want to do. A roll must always be made though regardless of character skill level, items, and spells.
+- **Counter:** Memory wipe removes Unsatisfiable debuff, items, and spells can help **alleviate** (not remove) IP pressure. **Stop viewing Kenji** to stop escalation. **Full reset of the aura’s mechanical pressure** uses the same gate as **Lover’s Vigor** above: Kenji’s semen **inside her vagina** (sex, stored sample, elixir-style delivery, **Book 3 hair delivery by the elf sister**, other vectors if allowed, etc.) → **5 days of Vigor + IP immunity**; when that window ends, counters expire and the **urge returns**. A character comfortable with sex can cooperate; one who refuses intimacy can still engineer delivery if the table allows — **not mind control; free will always**. A roll must always be made regardless of skill, items, and spells.
 
 ---
 
@@ -212,7 +212,7 @@
 | Brennan | Varenholm | Silver Draft cook |
 | Vael | Mobile | Battle mage commander |
 | Brindle/Kael | Western territories | Squad leaders |
-| Renna Bracken | Thornkeep | Bridge garrison commander |
+| Renna Hale | Thornkeep | Bridge garrison commander |
 | Syravelle | Silvandris | Enchanter apprentice |
 | Torvald | Field | Shadow operative |
 | Auren | Silvandris | Reincarnated king, border patrol |

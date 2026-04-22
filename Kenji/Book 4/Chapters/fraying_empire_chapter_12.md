@@ -1,7 +1,7 @@
 # Book 4 — Fraying Empire
 ## Chapter 12: The Formation
 
-**Date:** Ashmere 28, 1247 AR (Swordsday, morning → early afternoon)
+**Date:** Ashmere 28, 1247 AR (Stillday, morning → early afternoon)
 **Location:** South road, mile 8 → mile 15.5
 
 ---
@@ -173,6 +173,8 @@ From the dead oak, invisible, Kenji watched. The living signature on the west fl
 Thirty yards from the real Kenji's tree. Close enough that Living Ground read details: heartbeat steady, breathing slow, no armor signature, no weapon drawn. Whoever it was, they weren't here to fight.
 
 They were here to observe.
+
+Kenji filed the rhythm — slow breath, steady pulse, no hunger-shake in the legs. *Field posture,* not camp posture. Whatever report that body owed, it would travel on roots later; he did not know yet that the same heartbeat would stand at mile 16.5 in a Coalition tabard with a collar-leash, but Living Ground had already learned the gait.
 
 The clone kept walking. Fifty yards from the wall. Forty. Thirty.
 

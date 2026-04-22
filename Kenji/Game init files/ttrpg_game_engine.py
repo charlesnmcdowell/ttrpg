@@ -1382,7 +1382,7 @@ PERK_TABLE = {
     6:  "God Sight: 120ft darkvision, crit range 18-20, +60 thrown range, advantage Perception.",
     9:  "Giant's Throw: 1.5x thrown dmg, 3x range, Counter Throw reaction.",
     12: "Bonded Lovers: +1 STR/CON per intimate partner. Soul Nexus: all partner abilities passive.",
-    15: "Irresistible Presence: DC 23 charm aura, always on. Cannot be turned off.",
+    15: "Irresistible Presence: DC 23 Siren-Elf aura (procreative urge, NOT charm/dominate), always on. Lover's Vigor + 5-day IP immunity when semen reaches vagina (Book 3: elf sister + hair) — see kenji_tracking_OBSOLETE.md.",
     18: "Sorcerer's Hegemony: 48 constructs/day, delegated command.",
 }
 
@@ -1631,7 +1631,16 @@ class StoryEngine:
         elif self.hour < 18: return "Afternoon"
         elif self.hour < 21: return "Evening"
         else: return "Night"
-    
+
+    def clock_display(self) -> str:
+        """Format self.hour as HH:MM (supports fractional hours, e.g. recon timestamps)."""
+        hf = float(self.hour) % 24.0
+        if hf < 0:
+            hf += 24.0
+        h = int(hf)
+        m = int(round((hf - h) * 60.0)) % 60
+        return f"{h:02d}:{m:02d}"
+
     def _advance_time(self, hours: int = 1) -> List[str]:
         """Single source of truth for time, buff expiry, meal counter, and day rollover.
         Returns list of alerts (expired buffs, new-day processing)."""
@@ -1673,10 +1682,10 @@ class StoryEngine:
         return max(0, target_total - current_total)
     
     def meal_status(self) -> str:
-        if self.hours_since_meal >= 8: return "⚠️ STARVING (-disadv STR/CON/WIS, no short rest HP)"
-        elif self.hours_since_meal >= 6: return "⚠️ HUNGRY (-1 STR/CON)"
-        elif self.hours_since_meal >= 3: return f"🍖 {4 - self.hours_since_meal}hr until hungry"
-        else: return "🍖 Fed"
+        if self.hours_since_meal >= 8: return "!! STARVING (-disadv STR/CON/WIS, no short rest HP)"
+        elif self.hours_since_meal >= 6: return "!! HUNGRY (-1 STR/CON)"
+        elif self.hours_since_meal >= 3: return f"{4 - self.hours_since_meal}hr until hungry"
+        else: return "Fed"
     
     # ---- UPDATES ----
     
@@ -1821,9 +1830,9 @@ class StoryEngine:
     def check_meal(self) -> Optional[str]:
         """Check meal status. Returns alert string if hungry/penalty."""
         if self.hours_since_meal >= self.meal_interval + 2:
-            return f"🍖 HUNGER PENALTY ACTIVE — {self.hours_since_meal}hr since last meal. -1 to all checks."
+            return f"HUNGER PENALTY ACTIVE — {self.hours_since_meal}hr since last meal. -1 to all checks."
         elif self.hours_since_meal >= self.meal_interval:
-            return f"🍖 EAT NOW — {self.hours_since_meal}hr since last meal."
+            return f"EAT NOW — {self.hours_since_meal}hr since last meal."
         return None
     
     def estimate_squad_hm(self, squad_name: str, kills_per_day: int = 2, avg_cr: int = 5) -> int:
@@ -2433,7 +2442,7 @@ class StoryEngine:
         lines = []
         w = 60
         lines.append(f"╔{'═'*w}╗")
-        time_str = f"Day {self.day}, Hour {self.hour:02d}:00 — {self.time_of_day()}"
+        time_str = f"Day {self.day}, {self.clock_display()} — {self.time_of_day()}"
         lines.append(f"║ {self.char_name} — Level {self.level} — {time_str:<37}║")
         lines.append(f"║ {self.location} — {self.weather:<46}║")
         lines.append(f"║ {self.meal_status():<59}║")
@@ -2827,7 +2836,7 @@ class StoryEngine:
         lines = []
         lines.append(f"┌── SCENE: {scene_type.upper()} ──┐")
         lines.append(f"│ Location: {self.location}")
-        lines.append(f"│ Time: Day {self.day}, {self.hour:02d}:00 — {self.time_of_day()}")
+        lines.append(f"│ Time: Day {self.day}, {self.clock_display()} — {self.time_of_day()}")
         if npcs:
             lines.append(f"│ NPCs present: {', '.join(npcs)}")
         

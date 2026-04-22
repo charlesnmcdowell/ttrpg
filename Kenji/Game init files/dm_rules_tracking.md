@@ -4,20 +4,6 @@
 > Mechanical tables (HP, EXP, conditions, spell slots, stat blocks) live in `ttrpg_game_engine.py`.
 > Character stats and abilities live in `character_tracker.md`. Live state in `kenji_state.json`.
 > Historical Book 1-3 lore and combat stat blocks archived to `dm_rules_archive_books1_3.md`.
->
-> **For additional context, reference the full project folder:** `C:\Users\charl\OneDrive\Documents\TTRPG\Kenji\`
-> - `Book 1/Chapters/` — 27 chapters (The Sorcerer's Sword)
-> - `Book 2/Chapters/` — 24 chapters (continuation)
-> - `Book 3/Chapters/` — 13 chapters (The Iron Crown War)
-> - `Book 4/Chapters/` — Active book, chapters added as played
-> - `Game init files/AI_CONTEXT.md` — Quick-start live state summary for new sessions
-> - `Game init files/Kenji_story_book1.md`, `book2.md`, `book4.md` — Story manuscripts / prose style references
-> - `Game init files/iron_crown_war_campaign.md` — Book 3 campaign bible (completed)
-> - `Game init files/fraying_empire_campaign.md` — Book 4 campaign bible (active)
-> - `Game init files/dm_rules_archive_books1_3.md` — Archived rules and stat blocks from earlier books
-> - `Game init files/world_calendar_lore.md` — Calendar system, dates, seasons
-> - `Game init files/npc_appearance.md` — NPC physical descriptions
-> - `Game init files/npc_name_bank.md` — Available names for new NPCs (cross-referenced against existing characters)
 
 ---
 
@@ -67,40 +53,6 @@ The DM does NOT invent new named NPCs on the fly to deliver lore, warnings, hint
 
 **Violation signal:** If the DM writes an NPC who "has been waiting," who "knows your name," who "walked this road before your grandfather was born," who "has a message for you," or who otherwise arrives pre-loaded with narrative weight — that NPC is fabricated exposition and must be cut.
 
-### 🏆 CAMPAIGN SUCCESS & FAILURE STATES (FOUNDATIONAL)
-
-**This campaign has exactly two outcomes. Every DM decision, NPC goal, and threat clock must push toward one of them.**
-
-**SUCCESS STATE:** All five major threats to the kingdom are resolved — destroyed, negotiated, or contained. The kingdom survives. The player(s) who complete the campaign gain power, fame, and lasting world impact. Kenji's coalition endures and the world is better for it.
-
-**FAILURE STATE:** The kingdom falls to **any single threat**. One breach is enough. If the Fathom rises, or the Pallid March overruns the south, or the Red Court takes the coalition from within, or the Iron Horde sacks Thornwall, or the Twin Wyrms descend — the campaign is lost. Partial victories still matter (save three, lose two = the world changes), but the campaign objective is all five.
-
-**CAMPAIGN SUPERSEDES CHARACTER (NON-NEGOTIABLE):**
-The campaign is bigger than any single player. Kenji's death or absence does NOT end the campaign — it ends Kenji's participation in it. The world continues. The threats continue. The clocks continue. Other players from other campaigns can enter the same world and attempt to finish what Kenji started (or failed to start). A failed campaign has severe ramifications on the world — territories fall, populations die, the political map redraws. A successful campaign rewards the player who completes it with power, fame, and permanent world-state changes in their favor. The world exists before, during, and after any individual player's story.
-
-**Canonical example:** Early in Book 4, Kenji is not running his own campaign — he's in Amaris's campaign territory. The seal, the dead road, the undead activity around Millhaven — that's her threat chain, her content. She's absent. Kenji walked in and started solving her problems. This is a player doing another player's campaign in their absence. The world doesn't wait for the "right" player to show up. Whoever is there, plays.
-
-**DM enforcement:** Every goal, every clock, every NPC action must be traceable to one of these two outcomes. If it doesn't push the campaign toward success or failure, it doesn't belong in the game.
-
----
-
-### 📅 GOAL DATES — HARD DEADLINES (NON-NEGOTIABLE)
-
-Every alive/Active character in `character_tracker.md` MUST have at least one goal with a **hard due_date** (a specific in-game date, not "TBD", "ongoing", or "N/A"). No exceptions.
-
-- **If a character is alive but has no hard-dated goal → change their Status to MIA.** They exist in the world but aren't narratively active until they get a deadline.
-- **Goals always have a hard date.** Time is always the explanation. If the DM doesn't know exactly when something fires, pick a reasonable date and commit. A creative explanation can be written when the date arrives.
-- **Check goal dates at every chapter end.** Any goal whose due_date has passed must be resolved, extended with a new date, or marked RESOLVED/FAILED.
-- **New characters get a goal with a date on creation.** No character enters the tracker without at least one dated goal.
-
-**GOAL QUALITY TEST (NON-NEGOTIABLE):**
-Every NPC goal must push Kenji's campaign toward its conclusion — either a **success state** or a **failure state** for one of the five threats. If a goal does not progress the campaign in either direction, it is a bad goal and must be cut or reframed.
-
-- **Good goal:** "Wynn's analysis reaches critical mass by Ashmere 35 — she identifies creation energy. If this reaches the wrong hands, Kenji's identity is exposed." → Pushes toward failure state (identity blown) or success state (Kenji controls the information).
-- **Bad goal:** "Holsk operates his forge." → Flavor. Doesn't move anything. Cut it.
-- **The test:** "If this goal resolves or fails, does it change Kenji's chances of winning or losing?" If no → not a goal. If yes → keep it, date it, track it.
-- **NPCs are not decorations.** Every living character with a goal is either helping Kenji win or making him lose. The DM's job is to make sure each goal creates a decision point, a consequence, or a countdown that the player must react to.
-
 ### 👁️ MET FLAG — KNOWLEDGE GATING (NON-NEGOTIABLE)
 
 Every NPC in `character_tracker.md` has a `**Met:** yes/no` flag. This flag controls what Kenji knows about them IN-GAME.
@@ -139,34 +91,13 @@ Kenji's Ronin persona is deliberately theatrical. The reader has seen Books 1-3 
 
 ### DM SELF-CHECK (run mentally before EVERY response):
 1. Did I write any dialogue for Kenji? → DELETE IT. Stop for player input.
-2. Did I resolve any combat round without the player declaring Kenji’s action? → REWRITE. Stop at Round 1.
-3. Did I decide Kenji’s weapon, spell, reaction, or tactical approach? → REWRITE. Present the situation and ask.
+2. Did I resolve any combat round without the player declaring Kenji's action? → REWRITE. Stop at Round 1.
+3. Did I decide Kenji's weapon, spell, reaction, or tactical approach? → REWRITE. Present the situation and ask.
 4. Did I skip a meaningful conversation or decision point? → REWRITE. Stop at that moment.
 5. Did I run the story engine / show the dashboard? → If not, do it now.
-6. **Is the response at least 60% dialogue?** → If not, REWRITE. Find every descriptive paragraph and ask: could a character SAY this instead? Convert it. The story is told through voices, not the DM’s narration.
+6. **Is the response at least 60% dialogue?** → If not, REWRITE. Find every descriptive paragraph and ask: could a character SAY this instead? Convert it. The story is told through voices, not the DM's narration.
 7. **Recap / epithet check:** Did an NPC or the narration **re-list Kenji’s accomplishments** or **re-summarize the arc** without a scene-specific reason? Did I repeat the same **titles** (“War King,” “Ancient War King,” etc.) in back-to-back sentences? → **CUT** and use names/pronouns; trust the reader.
-8. **Fabricated-NPC check (RULE 4):** Did I invent any named character who is NOT in `character_tracker.md`? Did any “disposable” background NPC deliver plot-relevant information, backstory, warnings, or lore? Did an NPC arrive “pre-loaded” — knowing Kenji’s name, purpose, or future? → CUT the character. Let the scene be quiet, or let Kenji’s own senses/tools carry the beat, or escalate to a tracked NPC. Exposition is never delivered by a convenient stranger.
-9. **CONTINUITY ENGINE CHECK (MANDATORY):** Before EVERY scene, validate NPCs and threat routing against `continuity_engine.py`. Every named NPC must be in MAIN_NPCS or SECONDARY_NPCS. Every secondary NPC must point_to MAIN NPCs only (no chains). Every scene must route to one of the 5 campaign threats or “coalition.” Made-up NPCs are allowed but they MUST be registered with a points_to link to a MAIN NPC and they must redirect the player toward that main NPC through dialogue, items, or circumstances. If the engine rejects it, the scene is wrong.
-
-### “CHECK ENGINE” — MASTER COMMAND (NON-NEGOTIABLE)
-
-When the player says **”check engine”**, the AI performs ALL of the following in one pass. This replaces the old long-form request. No exceptions. No partial checks.
-
-**The 12-step check engine sequence:**
-1. **READ kenji_state.json** — get all live values (HP, EXP, hour, location, charges, meals, statuses)
-2. **AURA CHECKS** — roll/track IP for all nearby NPCs. Update stacks. Record save results.
-3. **TIME/WEATHER** — update hour based on actions taken. Check meal timer (penalty at 4hrs). Update weather if time-of-day changed.
-4. **SCENE VALIDATION** — run `validate_scene()` from continuity_engine.py for all NPCs present. Fix any errors.
-5. **THREAT ROUTING** — confirm which of the 5 threats (or coalition) the current scene serves. If none → the scene is off-track.
-6. **STATUS/PERKS** — check Living Ground range, Vigor timers (who expires when), all charges, active buffs.
-7. **CHARACTER TRACKER** — sync NPC locations, dispositions, IP stacks, last-updated timestamps.
-8. **DM RULES ACTIVE CONTEXT** — update location, time, Brynn stack, active threads in the Active Context section.
-9. **NPC NAME BANK** — mark any newly used names as taken.
-10. **WORLD CALENDAR** — verify date, Still Night countdown, any approaching deadlines.
-11. **CAMPAIGN STATUS** — run `campaign_status()` from continuity_engine.py. Report all 5 threat clocks.
-12. **WRITE UPDATES** — push changes to kenji_state.json, character_tracker.md, dm_rules_tracking.md, AI_CONTEXT.md, world_calendar_lore.md, npc_name_bank.md as needed.
-
-**The AI MUST complete all 12 steps before resuming gameplay.** If any step reveals an error (invalid NPC, wrong threat routing, stale data), fix it before continuing.
+8. **Fabricated-NPC check (RULE 4):** Did I invent any named character who is NOT in `character_tracker.md`? Did any "disposable" background NPC deliver plot-relevant information, backstory, warnings, or lore? Did an NPC arrive "pre-loaded" — knowing Kenji's name, purpose, or future? → CUT the character. Let the scene be quiet, or let Kenji's own senses/tools carry the beat, or escalate to a tracked NPC. Exposition is never delivered by a convenient stranger.
 
 ### 📋 NPC ROSTER MAINTENANCE — MIA PROTOCOL (CRITICAL)
 
@@ -183,6 +114,8 @@ When the player says **”check engine”**, the AI performs ALL of the followin
 - The DM **stops updating their goals, location, and status** until reactivation
 - The NPC still exists in the world — they aren't deleted. They're just not being actively tracked. If Kenji returns to their town or a story thread pulls them back in, they reactivate with a status update at that point.
 - MIA NPCs do NOT appear in scenes unless the player deliberately seeks them out or a major story event (like Bane of Eve activation) would logically pull them back in.
+
+**Party splits / POV off-camera:** If a **named, still-Active** NPC is not in the current scene but remains tied to Kenji’s threads (ally left behind, enemy moving on parallel clock, etc.), their entry must still carry **trackable goals** — either in **`### Active Goals`** or in a fork-specific **`### Off-screen goals`** block. If they no longer qualify for **active** tracking under the bullets above, **MIA** them like anyone else. This is not a second ruleset; it is the same maintenance rule applied while the camera is elsewhere.
 
 **The DM should audit the NPC roster at every Long Rest:** scan `character_tracker.md` for NPCs with active status, check if each one still has a goal tied to Kenji's current threads, and MIA anyone who doesn't. This prevents the tracker from becoming a maintenance burden and keeps the DM focused on NPCs who matter RIGHT NOW.
 
@@ -1450,7 +1383,13 @@ The player chooses what to engage with. The DM makes sure the choices exist.
 - All diversity rules above apply. Each seeker is a unique race, unique class, unique look, unique mythic ability, unique motivation. **No exceptions.**
 - **Power level: CR 30-40.** These women are legends. Some are stronger than Ronin-Kenji. Some are stronger than ArchMagus-Kenji. They didn't come to lose.
 - **They come to fight, not to die.** Seekers want to test the legend. Some want to beat him. Some want to bed him. Some want both. Some want to prove the bard-tales are lies. Their goal is personal — not political.
-- **The Irresistible Presence complication.** DC 23 attraction aura is always on (NOT charm/dominate — target keeps full sentience and free will). Every seeker who stays near Kenji long enough starts accumulating stacks of escalating biological attraction. The fight becomes a race — can she defeat him before the aura overwhelms her focus? This creates a unique combat dynamic where the duel has a hidden timer the opponent is fighting against. See kenji_tracking_OBSOLETE.md for full stack breakdown.
+- **The Irresistible Presence complication.** DC 23 aura is always on (**NOT charm/dominate** — full sentience and free will). Every seeker who **views** Kenji long enough accumulates stacks of escalating **urge to procreate with him** (shorthand “attraction” in some notes). The fight becomes a race — can she defeat him before the aura overwhelms her focus? Full ladder + **Vigor / 5-day IP immunity + semen routes** in `kenji_tracking_OBSOLETE.md` → `## IRRESISTIBLE PRESENCE RULES`. Track **Vigor clock per NPC** when it matters — expiry restores IP pressure and often drives **wanting the buff back**.
+
+#### Irresistible Presence — female humanoids (do not re-define here)
+**Canonical mechanics live in `kenji_tracking_OBSOLETE.md` → `## IRRESISTIBLE PRESENCE RULES`.** Follow that section verbatim for: **who saves**, **DC 23**, **first viewing each day**, **every 15 minutes of viewing = cumulative −1 to the save**, **stack ladder**, **fade times**, **Lover’s Vigor + 5-day immunity to IP** (semen-in-vagina routes including **Book 3 — elf sister, hair**), and **counters** (including **stop viewing Kenji**). When a woman is on Vigor, **track start/expiry**; when it drops, **immunity ends** and **procreative-urge stacks can return** — many NPCs will **miss the stat buff** and angle to **re-acquire Vigor**.
+
+**DM reminder:** the trigger is **viewing** (she can see Kenji — eyes/scrying/magical sight counts the same if the table treats it as *seeing him*), **not** a made-up distance band like “30 ft exposure.” If you need edge cases, resolve them against the obsolete block + table consistency — don’t invent a second IP system in `dm_rules_tracking.md`.
+
 - **Defeat outcomes matter.** A seeker who loses to Kenji in combat AND fails the attraction saves doesn't just walk away. She's deeply attracted and now has a personal connection to the most dangerous man in the world. Some become allies. Some become obsessed. Some become pregnant. Some become all three. Each defeated seeker is a potential recurring character, not a disposable encounter.
 - **Seekers who win** take a trophy, extract a promise, or earn bragging rights. Losing a duel has consequences — the bard-tales update, Kenji's reputation shifts, and the next seeker arrives with different expectations.
 - **Seekers can become party members.** A seeker who falls for Kenji (or just respects him) might travel with him. She brings her unique class and abilities to the party — filling roles the Ronin can't. This is how Book 4 organically builds parties.
@@ -1492,7 +1431,7 @@ Book 4's real challenges aren't monsters. They're consequences. The DM must weav
 - This is not a guilt mechanic — it's a **tension** mechanic. The player chose this path. The consequences of that choice are honest, not punitive. But they're real.
 
 **Identity Erosion:**
-- Every impressive thing Kenji does as the Ronin adds a data point. Wind Step is unusual. The nodachi technique is distinctive. The charm aura is unmistakable to anyone who's felt it before. The Ronin's cover erodes through his own competence.
+- Every impressive thing Kenji does as the Ronin adds a data point. Wind Step is unusual. The nodachi technique is distinctive. **Irresistible Presence** is unmistakable to anyone who's felt it before. The Ronin's cover erodes through his own competence.
 - **DM directive:** Track identity exposure as a creeping percentage. Each public display of unusual ability adds to the chance someone connects the dots. A 5% bump for Wind Step in front of witnesses. A 10% bump for using leyline magic where a mage can see. A 20% bump for anything that looks like the ArchMagus. When the threshold hits — Bane of Eve activates and Book 4's second act begins.
 
 **Lover's Consequences:**
@@ -2015,55 +1954,22 @@ Per Ironholt milestone: +10 HP, or +1 Veritas dmg, or +2 Ki, or new enchantment 
 | 18 | Sorcerer's Hegemony (C) | Construct Army (1 squad/portal/dawn, 13 portals = 52 constructs/day). Population Fear (scales with count). Constructs: HP 40, AC 16, +8, 1d10+4. |
 | 21 | Bonded Lovers | +1 STR/CON per intimate partner (17 partners = +17/+17). Stats maintained without proximity. |
 | 24 | Soul Nexus | All partner abilities active passively. Regen 333/turn. Blade Dance. Aether Shield. Diagnostic Touch. Hearthsense. Living Ground. Etc. |
-| 27 | Irresistible Presence | Siren-Elf attraction aura DC 23. Always on. Can't be turned off. Biological attraction stacks (NOT charm/dominate — full sentience/free will). See IP RULES section below. |
+| 27 | Irresistible Presence | Siren-Elf aura DC 23. Always on. Can't be turned off. **Strong procreative urge toward Kenji** (stack ladder; NOT charm/dominate — full sentience/free will). Vigor + 5-day IP immunity + expiry behavior → `kenji_tracking_OBSOLETE.md`. |
 | 30 | Bane of Eve | **DORMANT** — triggers when Kenji's location is exposed. Daily legendary-class challengers. |
 | 33 | Road Sense + The Long Haul | Trade route awareness 10mi (Breca bond). No travel exhaustion (Breca bond). |
-
----
-
-### IRRESISTIBLE PRESENCE — FULL RULES
-
-- **DC 23** WIS save, female humanoids, on first viewing each day
-- **Escalation:** Every 15 minutes of viewing, cumulative -1 to save
-- **Nature:** Biological attraction aura, NOT a charm or dominate effect. Target maintains full sentience and free will at ALL times. Natural urge to biologically procreate — escalating arousal/attraction, never torture, pain, or loss of faculties. Targets always know what they're feeling and can choose how to act.
-- **Stacks (attraction-based):**
-  - **Stack 1 — Mild Attraction:** Subtle awareness. Target notices Kenji is attractive. Slightly distracted. Might glance more than normal. Fully functional otherwise.
-  - **Stack 2 — Moderate Attraction:** Finds Kenji genuinely attractive. Thoughts drift. Harder to focus on other topics. May find excuses to stay near him or keep conversation going.
-  - **Stack 3 — Strong Attraction:** Physically aroused. Noticeable warmth, flushed skin, quickened pulse. Wants to be closer. May struggle to maintain train of thought in conversation. Still fully in control of actions.
-  - **Stack 4-6 — Deep Attraction:** Struggling to maintain physical distance and focus. Strong biological pull toward Kenji. Proximity becomes magnetic — stepping away requires conscious effort. Attention keeps snapping back to him. May start asking or hinting for physical contact. Still has free will, still makes their own choices, but the wanting is loud and persistent.
-  - **Stack 7-9 — Ravenous Attraction:** Discomfort from resisting physical contact. The body wants what it wants and denying it feels like holding your breath — possible but increasingly uncomfortable. May make a WIS save or attempt to relieve themselves, seek out Kenji directly, or find another outlet. The resistance itself is what causes discomfort, not the aura.
-  - **Stack 10+ — Overwhelming Attraction:** Maximum intensity. The pull is constant and consuming. Every thought circles back. Resisting physical contact is agonizing — not from pain, but from sheer biological need. May take what they need by force (WIS save to resist). Still sentient, still aware, still making choices — but the choice to resist has become the hardest thing they've ever done.
-- **Fade times:** Stack 1=1hr, Stack 2=3hrs, Stack 3=5hrs, Stack 4=8hrs, Stack 5+=12hrs
-- **Immunity:** 5 days after intimacy (Lover's Vigor)
-- **Blindfold mechanic:** IP requires VIEWING Kenji. Blindfold blocks line of sight = no new saves. Stack holds but doesn't escalate. Physical contact without visual = comfort without feeding the aura. Fade timer continues normally.
-- **Pretty Privilege + Tip Jar:** strangers start at friendly (2 tier shift)
-- **Creation Override:** lethal strikes on females heal to 2x HP + Unsatisfiable debuff
-- **Unsatisfiable:** permanent unless memory wiped. No other lover compares. Only applied if Kenji was intimate with them or caused orgasm via Creation Override.
-- **Counter:** Memory wipe removes Unsatisfiable debuff. Items and spells can help alleviate aura. Characters can stop viewing Kenji to alleviate. A character can obtain Kenji's semen via intimacy or through other means — as long as it enters the vagina, immunity is granted. A character that isn't shy about intimacy can counter easily by being intimate. A character that doesn't want intimacy but understands the mechanic can collect, store, and insert on their own — like an elixir or potion used to ward off a monster's toxin. Many creative counters allowed. Individuals always have free will. **A roll must always be made regardless of character skill level, items, and spells.**
-
-### BANE OF EVE — FULL RULES
-
-Roll d100 at dawn (triggers when Kenji's identity is exposed):
-- **1-50:** Male assassin/champion. Unique name, rare class, personal vendetta, CR 35+.
-- **51-100:** Legendary female seeker. Unique name, race, rare class, personal agenda, Presence roll.
-
-**Classes:** Warrior, Paladin, Rogue, Healer, Sorcerer, Barbarian, Ranger, Druid, White Mage, Ninja, Samurai, Beastmaster, Artificer, Warlock, Blood Knight, Void Walker, Storm Caller, Chronomancer, Death Knight, Blade Singer, Shadow Weaver, Rune Scribe, Spirit Caller, Iron Maiden, Witch Hunter, Dervish, and more.
-
-Every encounter unique. Names generated fresh. Both can become recurring characters.
 
 ---
 
 ## ⚠️ DM ACTIVE REMINDERS — BOOK 4 (FRAYING EMPIRE / THE RONIN ARC)
 > **Live state tracked in `kenji_state.json`.** Check before every response.
 
-### 🎯 ACTIVE CONTEXT (Day 250 — Ashmere 28, 1247 AR, afternoon ~2:00 PM)
-1. **Kenji is the Ronin.** INVISIBLE in a dead oak, 60 yards west of road, mile 15.5. Clone with party. **COVER PARTIALLY BLOWN with Bracken only.** Jostin noticed clone switch — wrote something, said nothing. Brynn unaware.
-2. **Location:** South road, mile 15.5. Active corruption zone — necromantic root network (sensory web). Mist chest-high. Formation ahead: 42 skeletons (shield wall) + 3 revenants. Living signature 30 yards west — human, alive, observing. Root network signaling south. The Lych knows.
-3. **Status:** HP 333/333 (full — 19 partners). Smoke-Clone 2/3. Wind Step 4/5. Phantom Double 2/2. All slots full. Meals 3. Next hunger check ~4:30 PM. Clone active (~5hrs remaining).
-4. **Level 35.** EXP: 2,256,750 (+1,800 from morning straggler kills). 243,250 to Apotheosis. Partners: 20. STR 40 (+15) / CON 40 (+15).
-5. **Still Night countdown:** ~17 days (Hollowmere 15). Pallid March border confirmed 15mi north. Lady Nyx's relay network DESTROYED — south road clear. Pallid March still active via main column.
-6. **Active threads:** Hub = Lady Nyx's forward staging infrastructure (connects to Pallid March threat), trunk relay decision (destroy = permanent local network death + backlash), circle-and-line symbols = command markings (Lady Nyx's network), network blackout = command pulled back after Node 3 losses, seal contents at terminus unexplored, death knight Corwyn posted at seal site, Thornkeep understaffed (40/120), Corwyn reports to Seravane (Ashmere 28), Holsk polearm pickup (Ashmere 28), Vellin archivist lead, Taryn Vigor expires TODAY.
-7. **IP active on party:** Brynn Stack 7 (Devoted — IMMUNE, Lover's Vigor active through Ashmere 33. No saves needed. Eyes amber-gold. Vigor stats: STR 24, DEX 18, CON 21, HP 128. Partner #19. Soul Nexus: Rearguard Sense + Hold the Line). Jostin unaffected (male — suspects something, keeping quiet). Bracken Stack 4 at garrison (fading — ~37hrs since LOS). Elda Stack 3 fading at waystation (~49hrs since LOS).
+### 🎯 ACTIVE CONTEXT (Day 246 — Ashmere 24-25, 1247 AR)
+1. **Kenji is the Ronin.** Suppressed arcane identity. Iaido kendo combat. Wind Step travel. Basic leyline magic only. No ember displays.
+2. **Location:** Iron Key terminus, grid H-9. 80 yards from Sir Corwyn's camp. Approaching to talk about the stolen iron chest.
+3. **Status:** HUNGRY (4hrs since meal, -1 STR/CON). HP 333/333. Iaido fresh. Smoke-Clone 2/3 charges. Cover intact.
+4. **Level 35.** EXP: 2,209,800. 300k to Apotheosis.
+5. **Still Night countdown:** ~21 days. Pallid March border confirmed 15mi north. Seravane's column active.
+6. **Active threads:** Iron Key destination unknown, Seravane/death-binder investigation, Millhaven commissions (Vellin archivist, Sister Aldra, Teilen), Taryn debrief follow-ups.
 
 ### GAMEPLAY REMINDERS
 - Death is permanent. No resurrection.
@@ -2077,18 +1983,10 @@ Every encounter unique. Names generated fresh. Both can become recurring charact
 - **RULE 6 — STYLE TAX:** Describe Wind Step wuxia choreography, iaido kendo detail, clone comedy, NPC reactions. See CARDINAL RULES.
 - No repetition. Say it once. Trust the reader.
 - Three cosmic forces: creation HEALS entropy, creation BURNS abyssal. Different problems, different solutions.
-- **LONG REST (5E RULES — STRICT):** A long rest is 8 hours total. The character must SLEEP for at least 6 of those 8 hours. The remaining 2 hours can be light activity (watch, eating, reading). When the party sets up camp, the DM must track sleep hours vs. watch hours and ensure the 6/2 split is met before granting long rest benefits. If a character volunteers for watch, calculate whether they still get 6 hours of sleep within the 8-hour window. NPCs like Jostin (trained scout) know field rest protocol and will advise on watch rotation to ensure everyone gets a proper long rest. Recharge on long rest: all spell slots, Wind Step (5/5), Smoke Bomb (3/3), Phantom Double (2/2), Bloom Purge (1/1), Last Call (1/1).
-- **ENCOUNTER FREQUENCY (HOSTILE TERRITORY):** Roll once per mile when traveling through dangerous zones (dead zones, Ashenveil border, corrupted forest, etc.). Roll once per watch shift (2-3 hours) when resting in hostile territory. Camping near an active threat (relay node, undead post, etc.) increases the threshold — 20% per hour minimum. These are separate rolls, not one roll for the whole march or the whole night. Undercounting encounter rolls makes hostile territory feel safe when it shouldn't.
-- **NPC PREDICTION (STORY ELEMENT):** NPCs who have observed Kenji's behavior pattern should predict his next move and comment on it IN ADVANCE — not in hindsight. The prediction must be based ONLY on what that NPC has personally witnessed or been told. No omniscience. If the NPC hasn't seen enough to form a prediction, they don't make one. This creates better writing: it shows NPCs are paying attention, builds their intelligence as characters, and gives the player moments where companions feel real. Example: Jostin watched Kenji walk straight through 4 skeleton sentry pairs without slowing. Jostin can predict Kenji will walk straight at the next threat too — and say so before it happens. The prediction can be wrong. The NPC is guessing based on pattern, not reading the player's mind.
 
 ### CHARACTER REMINDERS (Book 4 active cast)
-- **Brynn:** Shield infantry. Level 10 Fighter. IP Stack 7 (Devoted — IMMUNE via Vigor). Lover's Vigor active (STR 24, DEX 18, CON 21, HP 128, eyes amber-gold, expires Ashmere 33). Partner #19. Soul Nexus: Rearguard Sense (passive rear awareness 30ft) + Hold the Line (1/LR immovable). Discovering her new strength in real time. Obliterated a skeleton with a shield bash. Jostin noticed. She told him to shut up about it.
-- **Jostin:** Thornkeep scout. 78/78 HP (rested). Heard everything last night. Pretending he didn't. Noticed Brynn's eyes, her strength, the timing. Doing math he has no framework for. Loyal, professional, keeping his mouth shut. Intel report for Bracken will be... edited.
-- **Renna Bracken:** Thornkeep commander. Level 18 Fighter. IP Stack 4 (fading — ~37hrs since LOS). Lover's Vigor active (expires ~Ashmere 31). Won intimate duel 5-3. Kenji owes her name, intel, service. 18th partner. 42 soldiers, 35% complement. Waiting for assault team debrief.
-- **Elda:** Thornkeep waystation. Stack 3 fading (~49hrs since LOS). 100GP. Safe with Halden.
-- **Sir Corwyn the Fallen:** Death-binder. Knight. Complex. Has the iron chest. Camp at terminus.
-- **Taryn:** Millhaven. Vigor expires TODAY (Ashmere 28). Holsk will notice the stat drop on polearm pickup. 4 leads provided.
-- **Hadley:** Watch Captain, Millhaven. NOT intimate. Full debrief on Seravane/Corban/bronze rings. 4 leads provided.
+- **Sir Corwyn the Fallen:** Death-binder. Knight. Complex. Has the iron chest Kenji stole. Camp 80 yards away.
+- **Taryn:** Millhaven garrison captain. 4 leads provided. Intro letter to Vellin pending. Warming disposition.
 - **Solveth:** In Frost Fang. Speaks through the bond (only Kenji hears without Frost Fang present). Ancient. Patient. Cosmic perspective.
 - **Amaris:** Druid. Briarstone. Two vials of creation energy. Kenji left without a note. She will see him again.
 - **Sera:** Far away. The list. Squad leader. Not currently in the Ronin's orbit.
@@ -2482,6 +2380,12 @@ Every player interaction in story mode (NOT combat) costs **1 hour of in-game ti
 - "I take a bath" = 1 hour
 - "I check the contract board" = 1 hour
 - Multiple actions in one prompt = each action still costs 1 hour (3 actions = 3 hours)
+
+**Scene compression (same uninterrupted scene — IMPORTANT):** The **1 hour / interaction** rule is meant to stop “one in-game day becomes fifty Discord paragraphs,” **not** to mean every single sentence advances the clock. If the player and DM are trading **short lines in one continuous moment** (same location, no travel cut, no new objective hop), advance time by **scene beats**, not by **line count**.
+
+- **Default compression:** advance **≤ 1 hour per meaningful beat** (new information, a decision, a relationship shift, a consequence, someone enters/leaves, danger spikes). A “beat” can include several back-and-forth lines without stacking hours.
+- **Optional finer grain:** if you want mechanical honesty without absurdity, advance **15–30 in-world minutes** for “small talk / sizing each other up” segments, then **1 hour** when the scene *actually* moves (meal ends, bath starts, guards arrive, etc.).
+- **Still counts as interactions for aura cadence:** Irresistible Presence uses **in-world minutes spent viewing**, independent of how you choose to tick the campaign clock for chat pacing.
 
 **What does NOT cost time:**
 - Combat rounds (tracked in rounds/minutes, not hours)
@@ -2931,7 +2835,7 @@ Kenji's portal gateways are strategic infrastructure. The DM and story engine mu
 | Millhaven | B4 | ✅ | Current hub town. Taryn based here. Commission board. Bracken (garrison commander). Holsk (buyer). |
 | Iron Key Terminus | B4 | ⚠️ | Grid H-9. Edge of death-binder's 32-mile perimeter. SEAL OPENED Ashmere 24 night. Key left in ground. Contents unexplored. Sir Corwyn witnessed. |
 | Seravane's Domain | B4 | ☠️ | Undead territory. Pallid March column. 15mi north of old border. Root network detects living intrusion. Sir Corwyn patrols. |
-| Thornkeep | B4 | ✅ | Border fortress. Garrison town. Commander Renna Bracken. Corporal Jostin (scout). Thornkeep Waystation (Pip property, 3 GP/day). Kenji arrived Ashmere 25. Logging unusual undead activity from Ashenveil. |
+| Thornkeep | B4 | ✅ | Border fortress. Garrison town. Commander Renna Hale. Corporal Jostin (scout). Thornkeep Waystation (Pip property, 3 GP/day). Kenji arrived Ashmere 25. Logging unusual undead activity from Ashenveil. |
 
 
 ---
@@ -3077,9 +2981,10 @@ GOOD: "Two days. Five portals became six. The highway is a pipeline feeding the 
 
 ---
 
-### ✍️ WRITING STYLE REFERENCE — PLAYER APPROVED STANDARD
-The following rules define the exact voice and style the story output must match.
-These are derived from the player's own edited version of Day One and represent the gold standard.
+### ✍️ WRITING STYLE REFERENCE
+Live scenes should be **dialogue-led**: characters talk (or clearly signal) and the story moves through what they say and do. **Keep description spare** — only what the reader needs to picture the beat, in **plain words** that read easily. If something sounds like a briefing note or a code only the table would know, **say it simply** in the same moment.
+
+**Book 4 — *Fraying Empire* (south road / March):** stay in the same habit as **`Book 4/Chapters/fraying_empire_chapter_*.md`** — dialogue and action first; no pasting tracker or engine text into prose; third-person on Kenji unless a chapter is explicitly first-person.
 
 #### 🗣️ DIALOGUE FIRST — SHOW THROUGH CONVERSATION, NOT DESCRIPTION (CRITICAL)
 The DM is writing too much description and not enough dialogue. This must change.

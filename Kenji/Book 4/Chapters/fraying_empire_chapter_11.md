@@ -1,7 +1,7 @@
 # Book 4 — Fraying Empire
 ## Chapter 11: The Voice from the Marsh
 
-**Date:** Ashmere 27–28, 1247 AR (Crownday night → Swordsday morning)
+**Date:** Ashmere 27–28, 1247 AR (Crownday night → Stillday morning)
 **Location:** South road, miles 10–12. Camp at mile 12. March north to mile 8.
 
 ---

@@ -1,5 +1,7 @@
 # Kenji TTRPG — Game init files
 
+**AI assistants:** read **`CLAUDE.md`** in this folder first — especially **machine receipt** rules (do not fabricate `KENJI_*_RECEIPT` blocks or `RUN_ID` / SHA lines).
+
 ## How the game works
 
 This campaign uses a **rules-based tracking system** to maintain continuity across sessions. The chapter prose is the canon. The tracking files are downstream artifacts that get updated after play — never the other way around.
@@ -96,7 +98,8 @@ These files support the Python GUI dashboard and game engine. They are **not req
 
 1. Set **`active_arc`** on `kenji_state.json` (top-level object), e.g. `"relative_path": "arcs/your_arc.md"`, plus optional `slug` and `title`. Paths are **relative to this folder** only (safety check).
 2. Run **`python run_arc_pointer.py`** before or during a session. Paste the **KENJI_ARC_POINTER_RUN_RECEIPT** block into chat so an LLM cannot claim it resolved the arc without your tool output (`RUN_ID`, `STATE_FILE_SHA`, `ARC_FILE_SHA`).
-3. Regenerating **`AI_CONTEXT.md`** via **`python _dm_turn.py brief`** includes an **Active story arc** section when `active_arc` is present (same markdown as `ttrpg_game_engine.py brief`).
+3. **Fast / minimal paste (same proof fields):** `python run_arc_pointer.py --stamp --no-log` prints a single **`KENJI_ARC_POINTER_STAMP ...`** line (new `RUN_ID` each run). Or: **`python _dm_turn.py receipt`** (no StoryEngine load; still runs the pointer subprocess).
+4. Regenerating **`AI_CONTEXT.md`** via **`python _dm_turn.py brief`** includes an **Active story arc** section when `active_arc` is present (same markdown as `ttrpg_game_engine.py brief`).
 
 ### Scene graph prototype (app-driven beats + AI voice slots)
 

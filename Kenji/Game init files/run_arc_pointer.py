@@ -7,6 +7,7 @@ Usage (from this directory):
   python run_arc_pointer.py
   python run_arc_pointer.py --peek 40
   python run_arc_pointer.py --state "C:/path/to/kenji_state.json"
+  python run_arc_pointer.py --stamp --no-log   # one proof line, no logs/ file (fast paste for AI)
 """
 
 from __future__ import annotations
@@ -129,6 +130,37 @@ def build_success_receipt(
     return "\n".join(lines)
 
 
+def build_stamp_line_success(
+    *,
+    run_id: str,
+    utc: str,
+    state_sha: str,
+    arc_sha: str,
+    meta: dict,
+) -> str:
+    """Single-line machine stamp (ASCII). Proof fields match the full receipt."""
+    slug = meta.get("slug", "") or "(none)"
+    rel = (meta.get("relative_path") or meta.get("path") or "").strip() or "(none)"
+    return (
+        "KENJI_ARC_POINTER_STAMP "
+        f"RUN_ID={run_id} "
+        f"EXECUTED_AT_UTC={utc} "
+        f"STATE_FILE_SHA={state_sha} "
+        f"ARC_FILE_SHA={arc_sha} "
+        f"ACTIVE_ARC_SLUG={slug} "
+        f"ACTIVE_ARC_REL={rel}"
+    )
+
+
+def build_stamp_line_failure(*, run_id: str, utc: str, state_sha: str | None, err: str) -> str:
+    sha = state_sha or "NONE"
+    err_one = err.replace("\n", " ").strip()[:200]
+    return (
+        "KENJI_ARC_POINTER_STAMP_FAIL "
+        f"RUN_ID={run_id} EXECUTED_AT_UTC={utc} STATE_FILE_SHA={sha} ERR={err_one}"
+    )
+
+
 def build_failure_receipt(
     *,
     run_id: str,
@@ -184,6 +216,11 @@ def main() -> int:
         help="After receipt, print first N lines of the arc file (default 0)",
     )
     ap.add_argument("--no-log", action="store_true", help="Do not write logs/arc_session_*.txt")
+    ap.add_argument(
+        "--stamp",
+        action="store_true",
+        help="Print one ASCII proof line (RUN_ID + SHAs + slug) instead of the full receipt banner",
+    )
     args = ap.parse_args()
 
     log_dir = _ROOT / "logs"
@@ -196,34 +233,46 @@ def main() -> int:
     state_path = args.state
     out_parts: list[str] = []
 
+    utc = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
     if not state_path.is_file():
+        fail_lines = [f"State file not found: {state_path}"]
         r = build_failure_receipt(
             run_id=run_id,
             state_path=state_path,
             state_sha=None,
-            fail_lines=[f"State file not found: {state_path}"],
+            fail_lines=fail_lines,
             log_file=log_file,
         )
-        print(r)
+        if args.stamp:
+            print(build_stamp_line_failure(run_id=run_id, utc=utc, state_sha=None, err=fail_lines[0]))
+        else:
+            print(r)
         if not args.no_log:
             log_file.write_text(r, encoding="utf-8")
-            print(f"Wrote: {log_file}")
+            if not args.stamp:
+                print(f"Wrote: {log_file}")
         return 1
 
     try:
         state = load_state(state_path)
     except json.JSONDecodeError as e:
+        fail_lines = [f"Invalid JSON in state file: {e}"]
         r = build_failure_receipt(
             run_id=run_id,
             state_path=state_path,
             state_sha=None,
-            fail_lines=[f"Invalid JSON in state file: {e}"],
+            fail_lines=fail_lines,
             log_file=log_file,
         )
-        print(r)
+        if args.stamp:
+            print(build_stamp_line_failure(run_id=run_id, utc=utc, state_sha=None, err=fail_lines[0]))
+        else:
+            print(r)
         if not args.no_log:
             log_file.write_text(r, encoding="utf-8")
-            print(f"Wrote: {log_file}")
+            if not args.stamp:
+                print(f"Wrote: {log_file}")
         return 1
 
     state_sha = file_sha256_16(state_path)
@@ -236,11 +285,19 @@ def main() -> int:
             fail_lines=errs,
             log_file=log_file,
         )
-        print(r)
+        if args.stamp:
+            print(
+                build_stamp_line_failure(
+                    run_id=run_id, utc=utc, state_sha=state_sha, err=errs[0] if errs else "resolve failed"
+                )
+            )
+        else:
+            print(r)
         out_parts.append(r)
         if not args.no_log:
             log_file.write_text("".join(out_parts), encoding="utf-8")
-            print(f"Wrote: {log_file}")
+            if not args.stamp:
+                print(f"Wrote: {log_file}")
         return 1
 
     arc_text = arc_resolved.read_text(encoding="utf-8", errors="replace")
@@ -257,19 +314,33 @@ def main() -> int:
         arc_bytes=len(arc_text.encode("utf-8")),
         log_file=log_file,
     )
-    print(receipt)
+    if args.stamp:
+        print(
+            build_stamp_line_success(
+                run_id=run_id,
+                utc=utc,
+                state_sha=state_sha,
+                arc_sha=arc_sha,
+                meta=meta or {},
+            )
+        )
+    else:
+        print(receipt)
     out_parts.append(receipt)
 
-    if args.peek > 0:
+    if args.peek > 0 and not args.stamp:
         peek_lines = arc_text.splitlines()[: args.peek]
         peek_block = "\n".join(peek_lines) + ("\n" if peek_lines else "")
         hdr = f"\n--- ARC PEEK (first {args.peek} lines) ---\n"
         print(hdr + peek_block)
         out_parts.append(hdr + peek_block)
+    elif args.peek > 0 and args.stamp:
+        print("run_arc_pointer.py: --peek ignored when using --stamp", file=sys.stderr)
 
     if not args.no_log:
         log_file.write_text("".join(out_parts), encoding="utf-8")
-        print(f"Wrote: {log_file}")
+        if not args.stamp:
+            print(f"Wrote: {log_file}")
     return 0
 
 

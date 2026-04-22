@@ -185,6 +185,82 @@ She does not casually switch to human. She switches for one reason: she wants so
 
 ---
 
+## Deepwood Characters (Book 3 — Eldest's Family)
+
+### The Eldest — Sovereign of the Deepwood (Partner #11)
+
+**Build:** Ageless elven. Could be thirty. Could be three thousand. The body of someone who has not needed to move quickly in centuries but carries the memory of having done so. Unhurried. Present. The kind of stillness that makes rooms go quiet.
+
+**Hair:** White. Long. Straight. Falls without ornament — no braids, no pins. The simplicity is the statement.
+
+**Eyes:** The color of the forest floor after rain — brown-green, wet earth tone. Warm. Depthless. The eyes of someone who has watched civilizations rise and file their observations for later. When amused: a crinkle at the corners that has survived ten millennia. When broken: the same eyes, undamaged, with tears running through them like rain through a thing that does not crack.
+
+**Skin:** Pale elven. Smooth. No wrinkles, no marks, no scars. Time forgot to write on her.
+
+**Face:** Unlined. Regal in the way that comes from millennia of meaning what she says. Lips that speak once and expect the sentence to land. Expression economy — every micro-movement is chosen and therefore loud.
+
+**Dress:** Simple robes. No crown, no regalia. The simplicity is the crown. The Heart Grove tree behind her is the regalia.
+
+**Intimate register:** Ten thousand years of composure applied to surrender. She does not perform, does not rush, does not pretend. She told herself she was stronger. She told herself ten thousand years meant something. She was wrong about both, and the admission was quiet, and the quiet was devastating.
+
+---
+
+### Faelindra — Continental Defense Commander, Eldest Daughter (Partner #9)
+
+**Build:** Six feet tall. Broad-shouldered, lean, military-cut. Built like a weapon that learned to walk — economy in every line. Muscle definition visible at the forearms and shoulders where the ironwood armor doesn't cover. An unmistakably female frame held in unmistakably military posture. Hourglass that she ignores and her armor does not.
+
+**Hair:** Not described in source — elven, likely dark or silver-brown based on family context. Kept practical for armor. Falls free when the ironwood comes off.
+
+**Eyes:** Elven. Sharp. The eyes of someone who has commanded ten thousand soldiers and counted every one she lost. The scar she kept for 207 years to remember fourteen dead is gone — healed by Kenji — but the eyes still carry the count.
+
+**Skin:** Elven pale. The 207-year-old scar across her face is now *absent* — Kenji healed it with creation energy on Day 35. She cried when it disappeared. She had kept it to remember the dead. Now she carries them without the mark.
+
+**Dress (on-duty):** Ironwood armor. Signature. Three centuries of wear. Polished. Maintained the way soldiers maintain the thing that keeps them alive. Moves in it like a second skin.
+
+**Dress (off-duty, post-war):** Linen. The transformation is stark — the general becomes a woman, angular features softened by fabric that drapes instead of guards.
+
+**Hands:** Sword-calloused. Bow-calloused. Steady enough to split a target arrow at 200 feet. Shake when she is emotional — once, holding Kenji's face. The shaking is what makes them real.
+
+**Intimate register:** Military precision applied to vulnerability. Folds her clothes in a military stack before getting into the bath. Does not know how to be casual about anything — including this. The discipline translates as intensity, not distance. When the ironwood comes off, what's underneath has been waiting for three hundred years.
+
+---
+
+### Nimue — Aether Researcher, Middle Daughter (Partner #8)
+
+**Build:** Elven. Lighter build than Faelindra — more speed, less structure. The body of someone who moves fast enough that the explosions she causes only catch her sometimes. Singed at the edges.
+
+**Hair:** Not described in detail in source — elven. Likely worn loose or half-up. The kind of hair that has survived multiple detonations and still looks like it's having a good time.
+
+**Eyes:** Elven. Bright. The eyes of someone who laughs in craters. Emotionally transparent — crying and laughing happen at the same speed and sometimes simultaneously.
+
+**Skin:** Elven. Burns on the collarbone from training — healed by Kenji on Day 35 (she'd been hiding them). Faint scorch marks may reappear depending on what she blew up this week.
+
+**Dress:** Research robes. Slightly charred. The hem has seen things.
+
+**Hands:** Quick. The hands of someone who juggles four aether-spheres (the red one detonates) and considers this normal. Drop berries when flustered.
+
+**Intimate register:** Goes fast, goes loud. Zero hesitation — strips without modesty, contrasted with Faelindra's military formality. "Rode him like a racing drake at full gallop and told her mother about it over breakfast tarts." Speed is her love language. The Eldest drank something stronger than tea.
+
+---
+
+### Lythara — Root-Weaver / Druid, Youngest Daughter (Partner #7)
+
+**Build:** Elven. The smallest presence of the three sisters — not physically smaller, just *quieter*. The body of someone who sits on benches she doesn't share and eats breakfast she doesn't finish. The stillness is different from the Eldest's — not ancient composure, but a woman turned inward, listening to things growing underground.
+
+**Hair:** Green. Tangled. Living roots grow through it — the hair moves on its own, reaches for things and people she is drawn to. Semi-autonomous. Takes notes. Has to be tackled with both hands when it decides to reach for someone she's pretending not to want. Post-Kenji: she braids it now. She didn't before.
+
+**Eyes:** Elven. Soft. The eyes of someone who talks to trees instead of people because trees don't ask questions she can't answer.
+
+**Skin:** Elven pale with an undertone of green at the wrists and throat where the root connection runs closest to the surface. Root-sap on her hands — always. Soil-stained fingers.
+
+**Dress:** Soil-stained robes. The kind of robes a woman wears when she expects to kneel in dirt before lunch and considers this formal wear.
+
+**Hands:** Root-sapped. Soil-stained. Gentle. The hands that designed a continental ley restoration network, written in root-language on the underside of the world.
+
+**Intimate register:** Silent. Slow. The roots do the reaching first — beneath the bubbles, beneath the blankets, finding him before her hands do. "Nobody noticed." The calm afterward lasted 72 hours and was visible to her entire family. The druid who let roots handle everything discovering what it felt like when they didn't. She fell asleep in the soil at the base of the oldest tree on the continent and the roots cradled her. The Eldest keeps a pressed flower from her hair on the shelf.
+
+---
+
 ## Book 1-2 Characters
 
 ### Kenji — Ronin / Blade Channeler
