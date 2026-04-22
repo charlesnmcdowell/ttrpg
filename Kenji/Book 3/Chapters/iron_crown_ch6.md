@@ -48,7 +48,7 @@ Her sisters noticed the change. Her mother filed it.
 
 Thornkeep. Evening. The border fortress. A river gorge. A bridge rebuilt four times. Three hundred neutral soldiers in grey.
 
-Commander Renna Hale. Forty years old. Mountain-weathered. A scar from ear to jaw. Practical steel dented at the shoulder. A mug of something hot and an expression that says she was about to sleep.
+Commander Renna Bracken. Forty years old. Mountain-weathered. A scar from ear to jaw. Practical steel dented at the shoulder. A mug of something hot and an expression that says she was about to sleep.
 
 "The Vyranthos envoy came six days ago. Your side hasn't sent anyone. Until now."
 

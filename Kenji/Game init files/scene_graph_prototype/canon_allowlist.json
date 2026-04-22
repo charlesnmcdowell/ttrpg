@@ -1,0 +1,31 @@
+{
+  "_comment": "Prototype rules for mile 15.5 arc. Expand or generate from character_tracker exports in production.",
+  "arc_id": "mile155_shield_wall",
+  "threat_id": "pallid_march",
+  "name_aliases_allowed": {
+    "lady_nyx": ["Lady Nyx", "the Lady", "their Lady", "the Lych"],
+    "forbidden_in_dialogue_slots": [
+      "Seravane",
+      "seravane",
+      "Mira Ashveil"
+    ]
+  },
+  "facts_from_state_ashmere_28": {
+    "brynn_partner_number": 19,
+    "brynn_stack": "Lover's Vigor Stack 7 Devoted - eyes amber-gold when active",
+    "jostin_role": "Thornkeep scout - journal, terrain, tactical notes",
+    "location": "South road ~mile 15.5 - dead oak west of road; clone + party east; 42 skeleton shield wall + 3 revenants ahead; root network active"
+  },
+  "speakers": {
+    "jostin": {
+      "registry_key": "jostin",
+      "physical_one_liner": "Late twenties, lean, dark circles, scout kit, short bow, journal at belt",
+      "voice_note": "Dry, tired, professional — measures everything"
+    },
+    "brynn": {
+      "registry_key": "brynn",
+      "physical_one_liner": "Shield infantry, short brown hair, ebony skin, heavy shield - see npc_appearance.md",
+      "voice_note": "Quiet, steady, follows orders - fewer words than Jostin"
+    }
+  }
+}

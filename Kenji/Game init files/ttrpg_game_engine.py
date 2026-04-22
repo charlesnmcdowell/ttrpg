@@ -11,7 +11,7 @@ Cross-references:
   Archived Book 1-3 lore & stat blocks → dm_rules_archive_books1_3.md
 
 CLI:
-  python ttrpg_game_engine.py brief [optional/path/to/state.json]
+  python ttrpg_game_engine.py brief [path/to/state.json]   # default: ./kenji_state.json
   python ttrpg_game_engine.py              # story tests, then combat tests
   python ttrpg_game_engine.py combat-only  # combat tests only
 """
@@ -2967,6 +2967,23 @@ class StoryEngine:
         if self.canon_pointer:
             lines.append(f"**Canon pointer:** {self.canon_pointer}")
             lines.append("")
+        aa = self.extra_json.get("active_arc")
+        if aa:
+            lines.append("## Active story arc (from kenji_state.json)")
+            lines.append("")
+            if isinstance(aa, dict):
+                rel = aa.get("relative_path") or aa.get("path") or ""
+                slug = aa.get("slug", "")
+                title = aa.get("title", "")
+                lines.append(f"- **Slug:** {slug} | **Title:** {title}")
+                lines.append(f"- **Arc file (relative to Game init files):** `{rel}`")
+            else:
+                lines.append(f"- **Arc path:** `{aa}`")
+            lines.append(
+                "- **Resolver:** run `python run_arc_pointer.py` from this folder for "
+                "**KENJI_ARC_POINTER_RUN_RECEIPT** (machine proof) and optional `--peek N`."
+            )
+            lines.append("")
         if self.story_beat.strip():
             lines.append("## Where we left off")
             lines.append("")
@@ -2974,8 +2991,9 @@ class StoryEngine:
             lines.append("")
         lines.append("## Time and place")
         lines.append("")
+        hr = int(self.hour) if isinstance(self.hour, (int, float)) else self.hour
         lines.append(
-            f"- **Day {self.day},** hour {self.hour:02d}:00 — {self.time_of_day()}"
+            f"- **Day {self.day},** hour {hr:02d}:00 — {self.time_of_day()}"
         )
         lines.append(f"- **Location:** {self.location}")
         lines.append(f"- **Weather:** {self.weather}")
@@ -3180,22 +3198,35 @@ def _run_combat_tests():
 
 
 if __name__ == "__main__":
+    import io
     import sys
+    from pathlib import Path
 
     if len(sys.argv) > 1:
         arg = sys.argv[1].lower()
         if arg == "brief":
-            # Load and print AI brief for a state file
-            state_path = sys.argv[2] if len(sys.argv) > 2 else None
-            if state_path:
-                print(f"Loading state from {state_path}...")
-                with open(state_path, 'r') as f:
-                    state_data = json.load(f)
-                engine = StoryEngine()
-                # Would need to load state here
-                print(engine.ai_brief_markdown())
-            else:
-                print("Usage: python ttrpg_game_engine.py brief <path/to/state.json>")
+            if hasattr(sys.stdout, "reconfigure"):
+                try:
+                    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+                    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+                except Exception:
+                    sys.stdout = io.TextIOWrapper(
+                        sys.stdout.buffer, encoding="utf-8", errors="replace"
+                    )
+                    sys.stderr = io.TextIOWrapper(
+                        sys.stderr.buffer, encoding="utf-8", errors="replace"
+                    )
+            root = Path(__file__).resolve().parent
+            state_path = Path(sys.argv[2]).expanduser() if len(sys.argv) > 2 else root / "kenji_state.json"
+            if not state_path.is_file():
+                print(f"Error: state file not found: {state_path}", file=sys.stderr)
+                raise SystemExit(1)
+            print(f"Loading state from {state_path}...")
+            state_data = json.loads(state_path.read_text(encoding="utf-8"))
+            if isinstance(state_data, dict):
+                state_data.pop("_comment", None)
+            engine = StoryEngine(state_data)
+            print(engine.ai_brief_markdown())
         elif arg == "combat-only":
             _run_combat_tests()
         else:

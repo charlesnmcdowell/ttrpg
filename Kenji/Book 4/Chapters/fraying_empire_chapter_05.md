@@ -10,7 +10,7 @@
 
 ---
 
-Ashmere 22 I'd left the ruin south of Millhaven unopened — Bracken's seal, the noon window, Taryn on the wall expecting me to care about old stone before anything else. I didn't go. The letter from the bandit camp and the circle where ten wagons stopped existing both pointed east; the border the Lady drew wasn't where Bracken thought it was. East first. One night to sleep, then the road.
+Ashmere 22 I'd left the ruin south of Millhaven unopened — Hadley's seal, the noon window, Taryn on the wall expecting me to care about old stone before anything else. I didn't go. The letter from the bandit camp and the circle where ten wagons stopped existing both pointed east; the border the Lady drew wasn't where Hadley thought it was. East first. One night to sleep, then the road.
 
 ---
 
@@ -54,7 +54,7 @@ At the center — a post. Wooden. Sharpened. Black cloth at the base. A parchmen
 
 *— the Lady.*
 
-The border isn't where Bracken thinks it is. It's here. Fifteen miles north. The Lady moved it.
+The border isn't where Hadley thinks it is. It's here. Fifteen miles north. The Lady moved it.
 
 ---
 
@@ -70,7 +70,7 @@ I cross. Invisible. The clone leads.
 
 Thirty minutes in — the root network reacts. Every dead root in a hundred feet twitches. A signal sent. She knows something entered. Not what. Not who. But something living stepped on a nerve.
 
-The column. Hundreds of them. Standing in knee-deep water. Man-shaped. Armor. Not moving. Facing south. In formation. The dead of a hundred years waiting for orders. Among them — four skeletons in Millhaven garrison steel. Bracken's soldiers. The ones she sent to Thornfield. Walking patrol in the armor they died in.
+The column. Hundreds of them. Standing in knee-deep water. Man-shaped. Armor. Not moving. Facing south. In formation. The dead of a hundred years waiting for orders. Among them — four skeletons in Millhaven garrison steel. Hadley's soldiers. The ones she sent to Thornfield. Walking patrol in the armor they died in.
 
 I take what I can without touching the bodies. A shield — silver inlay, anti-turning ward. A ring — gold, blue stone, preservation enchantment. Pocketed.
 
@@ -162,7 +162,7 @@ Taryn standing in the valley. Sixteen dead wolves. A warg at her feet. 97 out of
 
 ---
 
-### Bracken's Office
+### Hadley's Office
 
 ---
 
@@ -170,13 +170,13 @@ The clone sits next to Taryn during the briefing. Nods at the right moments.
 
 Sixteen pelts on the floor. Warg skin unrolled like a black carpet. Warg teeth on the desk.
 
-Bracken looks at the woman who was a gate guard four days ago.
+Hadley looks at the woman who was a gate guard four days ago.
 
 "You did this today."
 
 "Took about six minutes, ma'am."
 
-Eighty gold for the wolves. Twenty for the warg. Then the letter. Bracken's seal. Taryn's name.
+Eighty gold for the wolves. Twenty for the warg. Then the letter. Hadley's seal. Taryn's name.
 
 Letter of commission. Authority to present Ashenveil intelligence to the Coalition Council. Scouting bounty — four seventy-five now, five thousand pending. All in Taryn's name.
 

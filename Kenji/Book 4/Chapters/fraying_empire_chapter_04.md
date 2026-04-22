@@ -152,9 +152,9 @@ She catches her reflection in the washbasin water.
 
 ---
 
-She runs morning drill for fifty recruits. I watch from the rooftop, invisible. The halberd moves like nothing Bracken has ever seen from a gate guard. Twelve forms. No hesitation. No compensation.
+She runs morning drill for fifty recruits. I watch from the rooftop, invisible. The halberd moves like nothing Hadley has ever seen from a gate guard. Twelve forms. No hesitation. No compensation.
 
-Bracken writes something in her book.
+Hadley writes something in her book.
 
 "Taryn. Your eyebrow—"
 
@@ -164,9 +164,9 @@ Bracken writes something in her book.
 
 Evening. Grilled lamb. Rice. Curry. Ironveil whiskey. Private room.
 
-She gives me the map. Four jobs worth real money. The Ashenmere caravan — 150 gold. The Ashenveil scouting — 200 gold from Bracken. The wolf pack — 100 gold in bounties. The pre-kingdom ruin — unknown, ancient, sealed by Bracken after two scouts went down and one transferred to the coast.
+She gives me the map. Four jobs worth real money. The Ashenmere caravan — 150 gold. The Ashenveil scouting — 200 gold from Hadley. The wolf pack — 100 gold in bounties. The pre-kingdom ruin — unknown, ancient, sealed by Hadley after two scouts went down and one transferred to the coast.
 
-"The ruin is either nothing or everything. That's why Bracken sealed it."
+"The ruin is either nothing or everything. That's why Hadley sealed it."
 
 ---
 

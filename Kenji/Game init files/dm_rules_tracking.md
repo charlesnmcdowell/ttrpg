@@ -139,13 +139,34 @@ Kenji's Ronin persona is deliberately theatrical. The reader has seen Books 1-3 
 
 ### DM SELF-CHECK (run mentally before EVERY response):
 1. Did I write any dialogue for Kenji? → DELETE IT. Stop for player input.
-2. Did I resolve any combat round without the player declaring Kenji's action? → REWRITE. Stop at Round 1.
-3. Did I decide Kenji's weapon, spell, reaction, or tactical approach? → REWRITE. Present the situation and ask.
+2. Did I resolve any combat round without the player declaring Kenji’s action? → REWRITE. Stop at Round 1.
+3. Did I decide Kenji’s weapon, spell, reaction, or tactical approach? → REWRITE. Present the situation and ask.
 4. Did I skip a meaningful conversation or decision point? → REWRITE. Stop at that moment.
 5. Did I run the story engine / show the dashboard? → If not, do it now.
-6. **Is the response at least 60% dialogue?** → If not, REWRITE. Find every descriptive paragraph and ask: could a character SAY this instead? Convert it. The story is told through voices, not the DM's narration.
+6. **Is the response at least 60% dialogue?** → If not, REWRITE. Find every descriptive paragraph and ask: could a character SAY this instead? Convert it. The story is told through voices, not the DM’s narration.
 7. **Recap / epithet check:** Did an NPC or the narration **re-list Kenji’s accomplishments** or **re-summarize the arc** without a scene-specific reason? Did I repeat the same **titles** (“War King,” “Ancient War King,” etc.) in back-to-back sentences? → **CUT** and use names/pronouns; trust the reader.
-8. **Fabricated-NPC check (RULE 4):** Did I invent any named character who is NOT in `character_tracker.md`? Did any "disposable" background NPC deliver plot-relevant information, backstory, warnings, or lore? Did an NPC arrive "pre-loaded" — knowing Kenji's name, purpose, or future? → CUT the character. Let the scene be quiet, or let Kenji's own senses/tools carry the beat, or escalate to a tracked NPC. Exposition is never delivered by a convenient stranger.
+8. **Fabricated-NPC check (RULE 4):** Did I invent any named character who is NOT in `character_tracker.md`? Did any “disposable” background NPC deliver plot-relevant information, backstory, warnings, or lore? Did an NPC arrive “pre-loaded” — knowing Kenji’s name, purpose, or future? → CUT the character. Let the scene be quiet, or let Kenji’s own senses/tools carry the beat, or escalate to a tracked NPC. Exposition is never delivered by a convenient stranger.
+9. **CONTINUITY ENGINE CHECK (MANDATORY):** Before EVERY scene, validate NPCs and threat routing against `continuity_engine.py`. Every named NPC must be in MAIN_NPCS or SECONDARY_NPCS. Every secondary NPC must point_to MAIN NPCs only (no chains). Every scene must route to one of the 5 campaign threats or “coalition.” Made-up NPCs are allowed but they MUST be registered with a points_to link to a MAIN NPC and they must redirect the player toward that main NPC through dialogue, items, or circumstances. If the engine rejects it, the scene is wrong.
+
+### “CHECK ENGINE” — MASTER COMMAND (NON-NEGOTIABLE)
+
+When the player says **”check engine”**, the AI performs ALL of the following in one pass. This replaces the old long-form request. No exceptions. No partial checks.
+
+**The 12-step check engine sequence:**
+1. **READ kenji_state.json** — get all live values (HP, EXP, hour, location, charges, meals, statuses)
+2. **AURA CHECKS** — roll/track IP for all nearby NPCs. Update stacks. Record save results.
+3. **TIME/WEATHER** — update hour based on actions taken. Check meal timer (penalty at 4hrs). Update weather if time-of-day changed.
+4. **SCENE VALIDATION** — run `validate_scene()` from continuity_engine.py for all NPCs present. Fix any errors.
+5. **THREAT ROUTING** — confirm which of the 5 threats (or coalition) the current scene serves. If none → the scene is off-track.
+6. **STATUS/PERKS** — check Living Ground range, Vigor timers (who expires when), all charges, active buffs.
+7. **CHARACTER TRACKER** — sync NPC locations, dispositions, IP stacks, last-updated timestamps.
+8. **DM RULES ACTIVE CONTEXT** — update location, time, Brynn stack, active threads in the Active Context section.
+9. **NPC NAME BANK** — mark any newly used names as taken.
+10. **WORLD CALENDAR** — verify date, Still Night countdown, any approaching deadlines.
+11. **CAMPAIGN STATUS** — run `campaign_status()` from continuity_engine.py. Report all 5 threat clocks.
+12. **WRITE UPDATES** — push changes to kenji_state.json, character_tracker.md, dm_rules_tracking.md, AI_CONTEXT.md, world_calendar_lore.md, npc_name_bank.md as needed.
+
+**The AI MUST complete all 12 steps before resuming gameplay.** If any step reveals an error (invalid NPC, wrong threat routing, stale data), fix it before continuing.
 
 ### 📋 NPC ROSTER MAINTENANCE — MIA PROTOCOL (CRITICAL)
 
@@ -2035,13 +2056,14 @@ Every encounter unique. Names generated fresh. Both can become recurring charact
 ## ⚠️ DM ACTIVE REMINDERS — BOOK 4 (FRAYING EMPIRE / THE RONIN ARC)
 > **Live state tracked in `kenji_state.json`.** Check before every response.
 
-### 🎯 ACTIVE CONTEXT (Day 248 — Ashmere 26, 1247 AR)
-1. **Kenji is the Ronin.** Suppressed arcane identity. Iaido kendo combat. Wind Step travel. Basic leyline magic only. No ember displays.
-2. **Location:** Gap zone camp, off-road between crossroads and Ashenmere (south road). With Elda (Stack 7, blindfolded, fading) and Halden.
-3. **Status:** HUNGRY (8hrs since meal). HP 333/333. Long rest complete. All resources refreshed. Cover intact.
-4. **Level 35.** EXP: 2,214,900. 285,100 to Apotheosis.
-5. **Still Night countdown:** ~19 days. Pallid March border confirmed 15mi north. Seravane's column active.
-6. **Active threads:** Escort Elda+Halden home (Ashmere 27), south road dead zone, seal contents at terminus, Thornkeep understaffed, Jostin report (Ashmere 27), Corwyn reports to Seravane (Ashmere 28), Holsk polearm pickup (Ashmere 28), Vellin archivist lead.
+### 🎯 ACTIVE CONTEXT (Day 250 — Ashmere 28, 1247 AR, afternoon ~2:00 PM)
+1. **Kenji is the Ronin.** INVISIBLE in a dead oak, 60 yards west of road, mile 15.5. Clone with party. **COVER PARTIALLY BLOWN with Bracken only.** Jostin noticed clone switch — wrote something, said nothing. Brynn unaware.
+2. **Location:** South road, mile 15.5. Active corruption zone — necromantic root network (sensory web). Mist chest-high. Formation ahead: 42 skeletons (shield wall) + 3 revenants. Living signature 30 yards west — human, alive, observing. Root network signaling south. The Lych knows.
+3. **Status:** HP 333/333 (full — 19 partners). Smoke-Clone 2/3. Wind Step 4/5. Phantom Double 2/2. All slots full. Meals 3. Next hunger check ~4:30 PM. Clone active (~5hrs remaining).
+4. **Level 35.** EXP: 2,256,750 (+1,800 from morning straggler kills). 243,250 to Apotheosis. Partners: 20. STR 40 (+15) / CON 40 (+15).
+5. **Still Night countdown:** ~17 days (Hollowmere 15). Pallid March border confirmed 15mi north. Lady Nyx's relay network DESTROYED — south road clear. Pallid March still active via main column.
+6. **Active threads:** Hub = Lady Nyx's forward staging infrastructure (connects to Pallid March threat), trunk relay decision (destroy = permanent local network death + backlash), circle-and-line symbols = command markings (Lady Nyx's network), network blackout = command pulled back after Node 3 losses, seal contents at terminus unexplored, death knight Corwyn posted at seal site, Thornkeep understaffed (40/120), Corwyn reports to Seravane (Ashmere 28), Holsk polearm pickup (Ashmere 28), Vellin archivist lead, Taryn Vigor expires TODAY.
+7. **IP active on party:** Brynn Stack 7 (Devoted — IMMUNE, Lover's Vigor active through Ashmere 33. No saves needed. Eyes amber-gold. Vigor stats: STR 24, DEX 18, CON 21, HP 128. Partner #19. Soul Nexus: Rearguard Sense + Hold the Line). Jostin unaffected (male — suspects something, keeping quiet). Bracken Stack 4 at garrison (fading — ~37hrs since LOS). Elda Stack 3 fading at waystation (~49hrs since LOS).
 
 ### GAMEPLAY REMINDERS
 - Death is permanent. No resurrection.
@@ -2055,10 +2077,18 @@ Every encounter unique. Names generated fresh. Both can become recurring charact
 - **RULE 6 — STYLE TAX:** Describe Wind Step wuxia choreography, iaido kendo detail, clone comedy, NPC reactions. See CARDINAL RULES.
 - No repetition. Say it once. Trust the reader.
 - Three cosmic forces: creation HEALS entropy, creation BURNS abyssal. Different problems, different solutions.
+- **LONG REST (5E RULES — STRICT):** A long rest is 8 hours total. The character must SLEEP for at least 6 of those 8 hours. The remaining 2 hours can be light activity (watch, eating, reading). When the party sets up camp, the DM must track sleep hours vs. watch hours and ensure the 6/2 split is met before granting long rest benefits. If a character volunteers for watch, calculate whether they still get 6 hours of sleep within the 8-hour window. NPCs like Jostin (trained scout) know field rest protocol and will advise on watch rotation to ensure everyone gets a proper long rest. Recharge on long rest: all spell slots, Wind Step (5/5), Smoke Bomb (3/3), Phantom Double (2/2), Bloom Purge (1/1), Last Call (1/1).
+- **ENCOUNTER FREQUENCY (HOSTILE TERRITORY):** Roll once per mile when traveling through dangerous zones (dead zones, Ashenveil border, corrupted forest, etc.). Roll once per watch shift (2-3 hours) when resting in hostile territory. Camping near an active threat (relay node, undead post, etc.) increases the threshold — 20% per hour minimum. These are separate rolls, not one roll for the whole march or the whole night. Undercounting encounter rolls makes hostile territory feel safe when it shouldn't.
+- **NPC PREDICTION (STORY ELEMENT):** NPCs who have observed Kenji's behavior pattern should predict his next move and comment on it IN ADVANCE — not in hindsight. The prediction must be based ONLY on what that NPC has personally witnessed or been told. No omniscience. If the NPC hasn't seen enough to form a prediction, they don't make one. This creates better writing: it shows NPCs are paying attention, builds their intelligence as characters, and gives the player moments where companions feel real. Example: Jostin watched Kenji walk straight through 4 skeleton sentry pairs without slowing. Jostin can predict Kenji will walk straight at the next threat too — and say so before it happens. The prediction can be wrong. The NPC is guessing based on pattern, not reading the player's mind.
 
 ### CHARACTER REMINDERS (Book 4 active cast)
-- **Sir Corwyn the Fallen:** Death-binder. Knight. Complex. Has the iron chest Kenji stole. Camp 80 yards away.
-- **Taryn:** Millhaven garrison captain. 4 leads provided. Intro letter to Vellin pending. Warming disposition.
+- **Brynn:** Shield infantry. Level 10 Fighter. IP Stack 7 (Devoted — IMMUNE via Vigor). Lover's Vigor active (STR 24, DEX 18, CON 21, HP 128, eyes amber-gold, expires Ashmere 33). Partner #19. Soul Nexus: Rearguard Sense (passive rear awareness 30ft) + Hold the Line (1/LR immovable). Discovering her new strength in real time. Obliterated a skeleton with a shield bash. Jostin noticed. She told him to shut up about it.
+- **Jostin:** Thornkeep scout. 78/78 HP (rested). Heard everything last night. Pretending he didn't. Noticed Brynn's eyes, her strength, the timing. Doing math he has no framework for. Loyal, professional, keeping his mouth shut. Intel report for Bracken will be... edited.
+- **Renna Bracken:** Thornkeep commander. Level 18 Fighter. IP Stack 4 (fading — ~37hrs since LOS). Lover's Vigor active (expires ~Ashmere 31). Won intimate duel 5-3. Kenji owes her name, intel, service. 18th partner. 42 soldiers, 35% complement. Waiting for assault team debrief.
+- **Elda:** Thornkeep waystation. Stack 3 fading (~49hrs since LOS). 100GP. Safe with Halden.
+- **Sir Corwyn the Fallen:** Death-binder. Knight. Complex. Has the iron chest. Camp at terminus.
+- **Taryn:** Millhaven. Vigor expires TODAY (Ashmere 28). Holsk will notice the stat drop on polearm pickup. 4 leads provided.
+- **Hadley:** Watch Captain, Millhaven. NOT intimate. Full debrief on Seravane/Corban/bronze rings. 4 leads provided.
 - **Solveth:** In Frost Fang. Speaks through the bond (only Kenji hears without Frost Fang present). Ancient. Patient. Cosmic perspective.
 - **Amaris:** Druid. Briarstone. Two vials of creation energy. Kenji left without a note. She will see him again.
 - **Sera:** Far away. The list. Squad leader. Not currently in the Ronin's orbit.
@@ -2901,7 +2931,7 @@ Kenji's portal gateways are strategic infrastructure. The DM and story engine mu
 | Millhaven | B4 | ✅ | Current hub town. Taryn based here. Commission board. Bracken (garrison commander). Holsk (buyer). |
 | Iron Key Terminus | B4 | ⚠️ | Grid H-9. Edge of death-binder's 32-mile perimeter. SEAL OPENED Ashmere 24 night. Key left in ground. Contents unexplored. Sir Corwyn witnessed. |
 | Seravane's Domain | B4 | ☠️ | Undead territory. Pallid March column. 15mi north of old border. Root network detects living intrusion. Sir Corwyn patrols. |
-| Thornkeep | B4 | ✅ | Border fortress. Garrison town. Commander Renna Hale. Corporal Jostin (scout). Thornkeep Waystation (Pip property, 3 GP/day). Kenji arrived Ashmere 25. Logging unusual undead activity from Ashenveil. |
+| Thornkeep | B4 | ✅ | Border fortress. Garrison town. Commander Renna Bracken. Corporal Jostin (scout). Thornkeep Waystation (Pip property, 3 GP/day). Kenji arrived Ashmere 25. Logging unusual undead activity from Ashenveil. |
 
 
 ---

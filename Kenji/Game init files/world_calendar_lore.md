@@ -138,12 +138,21 @@ The Eldest marks a ring on the tree. 1,247 rings. Each one visible. The tree is 
 | 229 | Ashmere 7 | Left the Hearthstead. Greymere. |
 | 231 | Ashmere 9 | Arrived Thornfield. Met Amaris. |
 | 233 | Ashmere 11 | Greenveil assault. Nexus destroyed. |
-| 240 | Ashmere 18 | Left Thornfield. Current date. |
+| 240 | Ashmere 18 | Left Thornfield. Crossroads. Delia. |
+| 242 | Ashmere 20 | Arrived Millhaven. Broken Wheel. Wynn. |
+| 243-244 | Ashmere 21-22 | Taryn training + bond. Pre-Kingdom ruin. Iron key. |
+| 245 | Ashmere 23 | Eastbound decoy. Caravan vanishment. Sir Corban. |
+| 246 | Ashmere 24 | The Cold Hand. Seravane's grove. Bracken debrief. |
+| 247 | Ashmere 25 | Thornkeep. Dead Road south. Elda + Halden found. |
+| 248 | Ashmere 26 | Clone trick. Bracken duel. Assault team formed. Night march south. Node 1 destroyed. Node 2 perimeter cleared. Camp at mile 7.5. |
+| 249 | Ashmere 27 | Node 2 + Node 3 destroyed (26-kill chain). Hub at mile 12: Bone Architect destroyed (Lady Nyx's 19-month relay). Trunk relay destroyed. Network permanently dead. Camp. Brynn intimate — Partner #19, Vigor transmitted. |
+| 250 | Ashmere 28 | Morning march north. Brynn discovering Vigor (eyes amber-gold, STR 24). Clearing masterless stragglers. Mile 8, heading to Thornkeep. Taryn Vigor expires today. Current date. |
 
-**Current date: Ashmere 18, 1247 AR.**
-**Season of Fall. First frost any day now.**
-**Twelve days until Ashmere ends.**
-**Forty-two days until the Still Night.**
+**Current date: Ashmere 28, 1247 AR (Swordsday morning, ~9:00 AM).**
+**Season of Fall. Frost burning off — cold but warming.**
+**Two days until Ashmere ends.**
+**Seventeen days until the Still Night (Hollowmere 15).**
+**Relay network permanently destroyed. South road clear. Bracken debrief pending.**
 
 ---
 
@@ -159,7 +168,7 @@ Kenji has been in this world for eight months and has never:
 
 He arrived in spring. Fought through spring. Conquered in spring. Vanished in spring. Hid through summer and early autumn. The entire cultural calendar happened around him while he was either at war or alone.
 
-The Season of Dark is coming. The Still Night — the holiday about family, warmth, and saying what you've been carrying — is forty-two days away. Four women are carrying or raising his children. Twelve women have his ring on their finger (metaphorically). One man in Crestfall is managing his empire. And the ronin is walking a road in early autumn not knowing what day of the week it is.
+The Season of Dark is coming. The Still Night — the holiday about family, warmth, and saying what you've been carrying — is seventeen days away. Four women are carrying or raising his children. Twenty women have his ring on their finger (metaphorically). One man in Crestfall is managing his empire. And the ronin just destroyed an entire undead relay network, slept with the shield infantry assigned to protect him, and is walking back to Thornkeep with a woman whose eyes turned gold overnight and a scout pretending he didn't hear five hours of it. He doesn't know what day of the week it is.
 
 This is a narrative thread. The first time Kenji encounters a holiday — hears villagers preparing, sees decorations, smells festival food — he has to learn what the world celebrates and why. And he has to decide if he has anyone to celebrate with.
 

@@ -26,13 +26,13 @@ Let's go. I'm taking her to the captain.
 
 ---
 
-Commander Renna Hale. Mid-forties. Short-cropped dark hair going grey at the temples. A scar from ear to jaw. Chainmail under a coalition tabard. Cold mug. Colder eyes. She reads the room in two seconds flat.
+Commander Renna Bracken. Mid-forties. Dark brown hair threaded with grey, pulled back in a soldier's knot. A scar from ear to jaw. Practical steel under a coalition tabard, dented at the shoulder. Cold mug. Colder eyes. She reads the room in two seconds flat.
 
 "Come in. Sit."
 
 Elda sits. The portrait comes out. Halden. Twenty-four. Sandy hair. Kind face. South road from Ashenmere. Three days.
 
-Hale pulls a map off the wall. Her finger traces the route and stops on a twelve-mile stretch between two jurisdictions.
+Bracken pulls a map off the wall. Her finger traces the route and stops on a twelve-mile stretch between two jurisdictions.
 
 "There's a twelve-mile gap in the middle where nobody's watching."
 
@@ -40,13 +40,13 @@ She offers Jostin — her best scout, due back from patrol at midday. Fourteen s
 
 I tell her I fought four wights on the south road last night. That they were after my sexy grandma.
 
-Hale doesn't blink. She checks her logbook. Jostin logged two sightings this week. I killed four in one night. On foot. With a civilian.
+Bracken doesn't blink. She checks her logbook. Jostin logged two sightings this week. I killed four in one night. On foot. With a civilian.
 
 "Where exactly on the south road?"
 
 I let Elda handle the details. Any information that leads to her son is appreciated.
 
-Hale asks my name. I'm already moving.
+Bracken asks my name. I'm already moving.
 
 ---
 
@@ -113,13 +113,13 @@ Naw. Just emotional damage of being separated from you. Hop back on.
 
 ---
 
-Jostin. Renna Hale's best scout. Late twenties. Lean. Dark circles under his eyes. Scout's kit, short bow, a journal tucked into his belt.
+Jostin. Renna Bracken's best scout. Late twenties. Lean. Dark circles under his eyes. Scout's kit, short bow, a journal tucked into his belt.
 
 I give him the details. Missing son. South road. Three days.
 
 He checks his journal. Didn't see a solo traveler three days ago. The gap — twelve miles nobody patrols.
 
-"The activity's getting worse. A month ago I'd see tracks once a week. Now it's every patrol. They're not wandering anymore. They're moving with purpose. Formations. Scouting patterns. I put it in my reports and Commander Hale puts it in hers and it goes up the chain and nothing comes back down."
+"The activity's getting worse. A month ago I'd see tracks once a week. Now it's every patrol. They're not wandering anymore. They're moving with purpose. Formations. Scouting patterns. I put it in my reports and Commander Bracken puts it in hers and it goes up the chain and nothing comes back down."
 
 He'll search the gap today. If Halden's out there, he'll find sign.
 
@@ -229,7 +229,7 @@ Elda hasn't moved all night.
 
 **Chapter Summary:**
 - Morning at Thornkeep Waystation. Kenji checked on Elda (IP Stack 5, re-exposure failed, held at 5).
-- Took Elda to Commander Renna Hale at Thornkeep garrison. Reported missing son. Hale offered Jostin's patrol — 14 soldiers, 30 miles, no spare bodies.
+- Took Elda to Commander Renna Bracken at Thornkeep garrison. Reported missing son. Bracken offered Jostin's patrol — 14 soldiers, 30 miles, no spare bodies.
 - Wind-Stepped Elda south. Killed 2 wights (1 vaporized) + 2 skeleton warriors on south road. Showman's Sheathe on miss → iaido counter-kill. 7 damage taken.
 - Found Corporal Jostin on patrol. Briefed on Halden. Jostin confirmed undead escalation — formations, scouting patterns, reports going up chain with no response.
 - Activated Living Ground (Amaris) + Trade Warmth (Delia) through Soul Nexus.

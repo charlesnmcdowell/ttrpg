@@ -2,6 +2,9 @@
 .cursor/
 **/.cursor/
 
+# Large local media (Kenji repo folder)
+Kenji/kenji start.mp4
+
 # Generated / local (optional — use if this folder is versioned)
 **/AI_CONTEXT.md
 **/*.tmp

@@ -17,24 +17,40 @@ The exact shifted color varies by partner (see entries below). This is a quiet n
 
 ---
 
-## Bracken — Captain, Millhaven Watch
+## Renna Bracken — Commander, Thornkeep Garrison
 
-**Build:** Tall, athletically curvy. Broad strong shoulders tapering to a defined waist; full hips and thighs built rather than soft. Watch-captain frame — trained, not lean. Carries weight in muscle.
+**[Reference images LOCKED — 4 images uploaded. Dark wavy hair, strong features, full lips, athletic curvy build. Use these as canonical reference.]**
 
-**Hair:** Dark — deep brown to near-black depending on light. Wavy, shoulder-length to mid-back when down. Off-duty: loose, tousled. On-duty: pulled back or pinned up under the watch profile.
+**Build:** Tall, athletically curvy. Broad strong shoulders tapering to a defined waist; full hips and thighs built rather than soft. Five-eight, five-nine. Decades of sword work. Narrow waist, strong legs. Forearms corded, sword-hand callused deep. Left ring finger missing the top half (structural, not scar). Carries weight in muscle.
 
-**Face:** Strong features — defined cheekbones, full lips, expressive dark brows. Reads "captain" before she opens her mouth. Off-duty: softer mouth-set, half-smile she does not show in the watch-hall.
+**Hair:** Dark brown, wavy, shoulder-length to mid-back when down. Off-duty: loose, tousled. On-duty: pulled back in a soldier's knot.
+
+**Face:** Strong features — high cheekbones, full lips, expressive dark brows. ~~Scar from right ear to jaw~~ **HEALED by Creation energy — all scars removed.** Without the scar, face reads younger — sharper, cleaner. Uses a mint salve (habit, scar or not). Reads "commander" before she opens her mouth.
 
 **Eyes:**
-- **Default:** greyish-brown
-- **Fresh Vigor buff:** shifting toward green
-- **Mid-stack:** grey-green / hazel
-- **Final day:** pale ice-blue
-- **Off-stack:** back to greyish-brown
+- **Default:** grey-green
+- **Lover's Vigor active:** grey-green with **golden ring** around pupils (visible to anyone, 5-day duration)
+- **Off-Vigor:** back to grey-green
 
-**Skin:** Warm-toned, healthy. Faint marks where armor sits — strap-shadows at shoulders and hips just out of gear.
+**Skin:** Sun-darkened, warm-toned. Faint marks where armor sits — strap-shadows at shoulders and hips.
 
-**Off-duty register:** Looser shoulders, the half-smile she keeps pocketed during work, slower cadence. The captain posture drops at her own kitchen table; doesn't drop in the watch-hall.
+**Off-duty / intimate register:** Hair down, loose. Armor off. The commander posture drops — the same way it drops at her own desk after hours when no one's watching. Ears betray her when flustered. Calls Kenji "you little shit." Competitive to the bone. Punched him in the jaw to take the lead.
+
+---
+
+## Hadley — Watch Captain, Millhaven Garrison
+
+**Build:** Tall, broad-shouldered. Watch-captain frame — trained, functional. Carries herself like someone who's read intent at a gate for nineteen years.
+
+**Hair:** Short, dark. Practical.
+
+**Face:** Weathered. Professional. The kind of face that files you in one glance.
+
+**Eyes:** Dark brown.
+
+**Skin:** Warm-toned.
+
+**Notes:** NOT an intimate partner. Professional relationship only. Aura-exposed across 8-hour debrief but no escalation. Millhaven authority figure — sealed the ruin, manages garrison, provided Taryn's Letter of Commission.
 
 ---
 
@@ -101,7 +117,7 @@ The exact shifted color varies by partner (see entries below). This is a quiet n
 
 **Uniform (Council coat — on duty, "never comes off in public"):** Dark navy / black long military-cut coat, double-breasted with gold buttons in twin columns, small rank epaulettes, wide dark leather belt at the waist, turn-back cuffs. Collar brooch — small pendant/star, Coalition emblem. White high-collared shirt underneath. Knee-length matched skirt. Under-layer: black lace lingerie, garter belt, black lace-topped thigh-highs (only Kenji ever sees this).
 
-**Off-duty / intimate register:** Hair fully down. Coat off or unbuttoned and hanging open. The oversight posture drops — the same way Bracken drops the captain posture at her own kitchen table, Vess drops the council-chamber posture at her own desk after hours. The controlled half-smile opens a hair wider. The *filing* look goes off her eyes. When the Vigor mark lights up, she looks lit from inside — not composed, not auditing, not in front of anyone.
+**Off-duty / intimate register:** Hair fully down. Coat off or unbuttoned and hanging open. The oversight posture drops — the same way Hadley drops the captain posture at her own kitchen table, Vess drops the council-chamber posture at her own desk after hours. The controlled half-smile opens a hair wider. The *filing* look goes off her eyes. When the Vigor mark lights up, she looks lit from inside — not composed, not auditing, not in front of anyone.
 
 **Hands:** Clean, well-kept, ink-faint on the right middle finger from quill work. Nails trimmed short for paperwork. Grip is ledger-steady, not weapon-trained.
 
@@ -115,7 +131,7 @@ The exact shifted color varies by partner (see entries below). This is a quiet n
 
 ### Lich Form (DEFAULT — this is how Kenji and the world encounter her 99% of the time)
 
-**Description:** Giant skeletal figure. Floating grim reaper nightmare. Not a pretty undead — a horror. Robes of shadow and bone. The grove, the column, the 612 raised — they answer to THIS. This is the queen of the Pallid March. This is what Bracken's soldiers see in their nightmares. This is what the death-binder serves or fears.
+**Description:** Giant skeletal figure. Floating grim reaper nightmare. Not a pretty undead — a horror. Robes of shadow and bone. The grove, the column, the 612 raised — they answer to THIS. This is the queen of the Pallid March. This is what Hadley's soldiers see in their nightmares. This is what the death-binder serves or fears.
 
 ### Human Form (rare — used exclusively to seduce / pursue pleasure)
 
@@ -139,6 +155,33 @@ She does not casually switch to human. She switches for one reason: she wants so
 **Personality in human form:** Zero inhibitions. Chaotic evil. She has had thousands of humanoid servants, alive and undead. She only cares about herself and her own pleasure. If she feels an urge, she acts on it immediately. No guilt, no performance, no coyness. She is the easiest woman in the story to bed — and the most dangerous. The smile is real. The desire is real. The consequences are catastrophic.
 
 **Contagion — Close to Death:** Lady form carries a transmissible condition called *Close to Death.* During intercourse it deals 1% max-HP damage per second to her partner — a raw mechanic with no standard save or resistance. Most partners die mid-act or shortly after, and rise as her enthralled undead. This is the origin pathway for most of her standing thrall army: she does not recruit, she beds. Lich form does not transmit it because lich form does not have intercourse. See `character_tracker.md` Lady Nyx entry for full mechanic and Kenji-specific survival implications.
+
+---
+
+## Brynn — Shield Infantry, Thornkeep Garrison (Partner #19)
+
+**Image ref:** Uploaded Ashmere 27 session. Locked.
+
+**Build:** Tall for a woman — five-nine, five-ten. Broad shoulders but unmistakably a woman's frame. Wide hips, thick thighs from years of march and stance work. Genuine hourglass under the infantry build — waist nips in hard under the corset/breastplate, then the hips flare out. Full breasts — large, natural, heavy enough that the steel corset-plate braces them up and they still spill at the neckline. Serious cleavage in or out of armor. An ass that fills the leather trousers in a way the army didn't design for — round, full, built from years of shield-stance squatting. "Big Booty Brynn." Moves like infantry — steady, planted, nothing wasted — but there's a roll to her hips when the shield comes off that's pure biology, not training.
+
+**Hair:** Brown, cut short at the jaw. Thick with a natural wave. Messy from the helm. Falls forward and she pushes it back without success.
+
+**Face:** Strong jaw but soft cheeks — pretty underneath the dirt and doesn't know it. Full lips, slightly chapped from the cold. Freckles across the bridge of her nose (a shade darker than her skin — nearly invisible unless close). Looks younger asleep. Softer.
+
+**Eyes:**
+- **Default:** Dark brown — steady, watchful, garrison soldier's eyes
+- **Fresh Vigor buff:** Vivid amber-gold — warm, luminous, startling against ebony skin
+- **Mid-stack:** Gold-brown blending, honeyed
+- **Final day:** Pale amber, washed, near-translucent
+- **Off-stack:** Back to dark brown
+
+**Skin:** Dark ebony — deep, rich black. Smooth, warm to the touch. Freckles across shoulders, chest, collarbone, and nose — a shade darker than the skin. Smells like iron, wool, sweat, and something underneath that's just her.
+
+**Vigor transfer visual (ref images locked — Ashmere 27 night):** During transmission, green creation energy glows around and through her body — luminous emerald veins tracing along her skin, pooling at her core and radiating outward. Eyes already shifting toward amber-gold mid-transfer. Flushed, wrecked, tongue out, body completely spent. The energy is visible to anyone with ley-sight — a creation signature radiating from the tent. Fades by morning; the stat buff remains.
+
+**Hands:** Calloused from years of shield grip. Strong. Shook after the 26-kill chain. Shook again holding him under the blanket.
+
+**Off-duty / intimate register:** The soldier disappears completely. What's left is a woman — younger-looking, softer, lips parted. Does not do anything halfway. Garrison discipline applied to intimacy means endurance and commitment. Not gentle. Not quiet. Full grip. Full commitment. Voice cracks on short sentences. Infantry that follows orders in a very different context.
 
 ---
 

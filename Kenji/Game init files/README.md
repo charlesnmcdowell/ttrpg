@@ -81,14 +81,26 @@ These files support the Python GUI dashboard and game engine. They are **not req
 
 | File | Purpose |
 |------|---------|
-| `kenji_state.json` | Live save file for the Python engine/GUI. Updated independently of the tracking system. |
-| `ttrpg_game_engine.py` | Story engine — `python ttrpg_game_engine.py brief` generates AI_CONTEXT.md from the JSON. |
+| `kenji_state.json` | Live save file for the Python engine/GUI. Updated independently of the tracking system. May include **`active_arc`** (see below). |
+| `run_arc_pointer.py` | Reads `active_arc` from `kenji_state.json`, resolves the markdown arc under this folder, prints **KENJI_ARC_POINTER_RUN_RECEIPT**, writes `logs/arc_session_*.txt`. Run: `python run_arc_pointer.py` (optional `--peek 40`). |
+| `arcs/*.md` | Preplanned arc docs (beat ladder, rails). Path referenced by `kenji_state.active_arc.relative_path`. |
+| `ttrpg_game_engine.py` | Story engine — `python ttrpg_game_engine.py brief` prints `ai_brief_markdown()` to stdout (defaults to `./kenji_state.json`). Use **`python _dm_turn.py brief`** to write **AI_CONTEXT.md**. |
 | `kenji_gui.py` | Live dashboard GUI. Loads any campaign via `campaign_manifest.json`. |
 | `campaign_manifest.json` | Campaign root config for the GUI (state file, music, engine path). |
 | `_dm_turn.py` | DM turn processing script. |
 | `_strip_dm_notes.py` | Moves DING blocks from story files into dm_rules_tracking.md. |
 | `requirements.txt` | Python dependencies (stdlib only). |
 | `build_exe.bat` | Windows build script for GUI executable. |
+
+### Active arc pointer + machine receipt
+
+1. Set **`active_arc`** on `kenji_state.json` (top-level object), e.g. `"relative_path": "arcs/your_arc.md"`, plus optional `slug` and `title`. Paths are **relative to this folder** only (safety check).
+2. Run **`python run_arc_pointer.py`** before or during a session. Paste the **KENJI_ARC_POINTER_RUN_RECEIPT** block into chat so an LLM cannot claim it resolved the arc without your tool output (`RUN_ID`, `STATE_FILE_SHA`, `ARC_FILE_SHA`).
+3. Regenerating **`AI_CONTEXT.md`** via **`python _dm_turn.py brief`** includes an **Active story arc** section when `active_arc` is present (same markdown as `ttrpg_game_engine.py brief`).
+
+### Scene graph prototype (app-driven beats + AI voice slots)
+
+See **`scene_graph_prototype/README.md`** — linear mile-15.5 example, validates dialogue against `continuity_engine` + `canon_allowlist.json`. Run: `python run_scene_graph.py --dry-run` from that folder.
 
 ### Running the dashboard
 

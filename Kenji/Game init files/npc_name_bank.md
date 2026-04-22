@@ -6,7 +6,7 @@
 ## HUMAN
 
 **Male:**
-1. Cedwyn
+1. ~~Cedwyn~~ *(used — General, Bracken's former CO)*
 2. Torren
 3. Castor
 4. Davan
@@ -19,13 +19,13 @@
 
 **Female:**
 1. Aveline
-2. Brynn
+2. ~~Brynn~~ *(used — Shield infantry, Thornkeep garrison)*
 3. Calista
 4. Dorith
 5. Eira
 6. Fenella
 7. Gwynn
-8. Hadley
+8. ~~Hadley~~ *(used — Watch Captain, Millhaven garrison)*
 9. Isolde
 10. Jessamine
 

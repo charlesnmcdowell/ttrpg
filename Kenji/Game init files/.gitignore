@@ -8,5 +8,9 @@ AI_CONTEXT.md
 __pycache__/
 *.pyc
 
+# Arc pointer session logs (receipt output — regenerate with run_arc_pointer.py)
+logs/*.txt
+!logs/.gitkeep
+
 # IDE
 .cursor/

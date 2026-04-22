@@ -30,7 +30,7 @@ Thirty-six targets become twenty-four.
 
 -----
 
-Renna Hale. Thornkeep. The border fortress. Three hundred neutral soldiers. A woman who holds a bridge for whoever earns it.
+Renna Bracken. Thornkeep. The border fortress. Three hundred neutral soldiers. A woman who holds a bridge for whoever earns it.
 
 Forty-five minutes of escalating presence while she listens to a war report with white knuckles and a scar that goes pale.
 

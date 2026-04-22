@@ -52,7 +52,7 @@ Silvandris. The Heart Grove. Nimue on the root floor. Laughing. Crying. Alive.
 
 -----
 
-Then Thornkeep. The last card Katya Voss had been holding. Twelve thousand soldiers on the bridge while the coalition hit nodes. The supply line cut. Renna Hale's three hundred surrounded.
+Then Thornkeep. The last card Katya Voss had been holding. Twelve thousand soldiers on the bridge while the coalition hit nodes. The supply line cut. Renna Bracken's three hundred surrounded.
 
 The ridge. Nimue on his back. The Dominion army below like a red tide.
 
@@ -62,7 +62,7 @@ Katya Voss. Nat 3 on the escape. Stayed too long commanding a retreat that was a
 
 "I yield to the ArchMagus of Varenholm."
 
-Renna Hale walks through the gate. Blood on her armor. Three hundred alive behind her.
+Renna Bracken walks through the gate. Blood on her armor. Three hundred alive behind her.
 
 "You came back."
 
