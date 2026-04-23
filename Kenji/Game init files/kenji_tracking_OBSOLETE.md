@@ -408,7 +408,7 @@ Every encounter unique. Names generated fresh. Both can become recurring charact
 
 1. **The Southern Marker** — iron key from the Millhaven ruin is humming south-southwest along a ley tether. Kenji is on its thread now. Something sealed. The bronze rings were holding it.
 2. **Corban's Chest** — warded iron chest, stolen from the caravan-vanishment site. Unopened. Requires safe workspace + counter-wards.
-3. **The Ashenveil Letter** — Taryn holds commission authority to present the Ashenveil column evidence (including four Millhaven garrison dead) to the Coalition Council. Outcome pending her arrival.
+3. **The Ashenveil Letter** — Taryn **filed** commission + Ashenveil/column evidence with Coalition intake **Ashmere 27** (see `character_tracker.md` — **Taryn**). **Council review / politics** pending; “overdue nondelivery” fork **retracted**.
 4. **Pallid March / Seravane Recon** — the border Seravane drew isn't the one on Coalition maps. Active threat vector.
 
 ### RESOLVED (Book 4)

@@ -1,10 +1,10 @@
 # Character Tracker — Kenji TTRPG
 
-**Current In-Game Date:** Ashmere 30, 1247 AR (~6:00 AM, daybreak after guest-chamber long rest)
-**Current Location:** Pallid March forward cordon — **guest chamber** (Kenji solo; Jostin + Brynn north per Ch15 split). **Book 4 Chapter 15 COMPLETE** (`fraying_empire_chapter_15.md`); session opens **Chapter 16**.
+**Current In-Game Date:** Ashmere 34, 1247 AR (Stillday predawn → dawn, **Day 256**)
+**Current Location:** **Thornkeep** — **captain private quarters** (Ashmere 34 ~07:00; Kenji **woke in Bracken's bed**; officer wing). Last LR **Ashmere 34 dawn** in-room (full refresh). Ch18 **open**. Predictive: `fraying_empire_chapter_18.md`, `fraying_empire_chapter_19.md`.
 **Active Book:** Book 4 — Fraying Empire (The Ronin Arc)
 
-> **Cross-references:** DM behavior rules → `dm_rules_tracking.md` (includes **NPC ROSTER MAINTENANCE — MIA PROTOCOL** for goals / MIA) | Game engine & mechanics → `ttrpg_game_engine.py` | Live state → `kenji_state.json`
+> **Cross-references:** DM behavior rules → `dm_rules_tracking.md` (**MIA PROTOCOL** + **🎯 ALIVE / IN-PLAY NPC — GOAL INVARIANT**: no dormant-only tables, no empty goals; overdue → close + new goal + arc fallout) | Game engine & mechanics → `ttrpg_game_engine.py` | Live state → `kenji_state.json`
 
 ---
 
@@ -32,8 +32,8 @@ Every character entry includes a **Morale Compass** value. Use it to decide how 
 
 **Status:** alive
 **Level:** 35
-**Location:** Pallid March forward cordon — **guest chamber** (solo, **Ch15**). **Split:** Jostin + Brynn north off-screen with declared goals (see their entries). **Oathbreaker** in **BoH**; **~3 weeks** March lean rations staged.
-**Last Updated:** Ashmere 30 (synced to **Ch15 COMPLETE** — see `fraying_empire_chapter_15.md`, `AI_CONTEXT.md`, `kenji_state.json`)
+**Location:** **Thornkeep** — **captain quarters** (**Ashmere 34** morning; wake in Bracken's bed per live needle). **Oathbreaker** in **BoH** unless drawn in-scene. March **Ch15–16**; office + quarters beats **Ch17** → **Ch18** morning.
+**Last Updated:** Ashmere 34 (Ch18 open — quarters wake; Waystation-only egress **struck** in `kenji_state.json`)
 
 **Physical:** See npc_appearance.md (pending entry)
 **Disposition:** N/A (protagonist)
@@ -115,12 +115,14 @@ Kenji is undercover. **Arcane and Ember abilities are deliberately off the table
 
 ---
 
-## BRACKEN — Watch Captain, Millhaven Garrison
+## BRACKEN — Watch Captain, Millhaven Garrison (LEGACY — DO NOT USE CH17+)
 
-**Status:** alive
-**Met:** yes (Ashmere 22 — Millhaven watch-hall, multiple interactions through Ashmere 24)
-**Location:** Millhaven — watch-hall or home (doesn't know Kenji left)
-**Last Updated:** Ashmere 24
+> **TRACKER SPLIT NOTE:** **Millhaven watch captain** = **Hadley**. **Thornkeep garrison commander** = **Renna Bracken** (`npc_appearance.md`). This block is **legacy naming** — **not** the Ch17 office source of truth.
+
+**Status:** MIA (consolidated — all **live** Ch17+ commander beats and goals live under **COMMANDER RENNA BRACKEN — Thornkeep** below)
+**Met:** yes (historical — Ashmere 22–24 Millhaven)
+**Location:** Millhaven (historical); **does not** track Thornkeep play
+**Last Updated:** Ashmere 33 (MIA per goal invariant — avoid duplicate “alive” commander)
 
 **Physical:** See npc_appearance.md
 **Disposition to Kenji:** Allied/Professional — aura exposed across debrief but NO intimacy. Professional trust developing. Personal filter not compromised.
@@ -132,9 +134,7 @@ Kenji is undercover. **Arcane and Ember abilities are deliberately off the table
 
 ### Active Goals
 
-| goal_id | opened | due_date | public_at | status | description | completion_effects |
-|---------|--------|----------|-----------|--------|-------------|--------------------|
-| ashenveil_situation | Ashmere 24 | TBD | TBD | in_progress | Taryn's commission letter dispatched to Coalition Council. Border shift confirmed at caravan circle (15 miles north of official maps). Has not yet visited the grove or seen evidence of the Pallid March perimeter directly. | Coalition becomes aware of threat. Political/military response possible. Grove reconnaissance still pending. |
+*None — entry **MIA**; see **COMMANDER RENNA BRACKEN — Thornkeep** for operational commander goals.*
 
 ---
 
@@ -142,26 +142,39 @@ Kenji is undercover. **Arcane and Ember abilities are deliberately off the table
 
 **Status:** alive
 **Met:** yes (Ashmere 22 — Millhaven gate, multiple interactions through Ashmere 24)
-**Location:** South road to Ashenmere City (departed Ashmere 24 evening or Ashmere 25 dawn, estimated arrival Ashmere 26-27)
-**Last Updated:** Ashmere 24
+**Location:** **Millhaven** — gate circuit / guild hall orbit (back from Ashenmere intake run; **Letter of Commission** filed **received** end of Ashmere **27** — see goals)
+**Last Updated:** Ashmere 34 (table correction: delivery goal clarified — nondelivery arc **retracted**)
 
 **Physical:** See npc_appearance.md (pending entry). Late twenties, lean, dark hair, muscular. All scars healed by Kenji's creation energy (burn scar on wrist gone, scar across eyebrow gone, old ankle/shoulder injuries healed). Looks ~20 after healing.
-**Disposition to Kenji:** Intimate (score 45) — knows the cold-hand tell, knows the clone wasn't real. Did not chase. Kept the career.
+**Disposition to Kenji:** Intimate (score 45) — knows the **cold-hand** tell, knows the **clone** wasn't real; knows his **first name — Kenji** (spoken trust, not public use). Did not chase. Kept the career.
 **Morale Compass:** Lawful Good — commissions scouts, reports up the Coalition chain, pays his debts. Opposes Kenji if Kenji undermines the Coalition or leaves civilians undefended. Stands ground on contract, rank, and the scout's code.
 
 **Abilities:** Halberd combat (12 forms), Action Surge, Reaper's Chain (cascading multi-hit), Polearm Defense (free dodge), Victory Rush (full heal on kill), Grievous Wounds (mythril edge bleed 15% max HP/turn/stack). Level 9.
 
-**Important Gear:** Holsk's custom thrum-alloy halberd (Featherfall / Truestrike / Bondseal runes), refitted mythril half-plate (dark steel / blue-silver sheen), Letter of Commission (Bracken's signature, Coalition Council auth, 475g paid + 5,000g pending)
+**Important Gear:** Holsk's custom thrum-alloy halberd (Featherfall / Truestrike / Bondseal runes), refitted mythril half-plate (dark steel / blue-silver sheen). **Letter of Commission** — **delivered** to Coalition clerk intake Ashmere **27** (original returned to her file-stamped or copy retained per clerk practice); **475g** paid; **5,000g + seat** still **pending council review** (slow politics, not “lost in the mail”).
 
-**Vigor Status:** Received intimacy Ashmere 21 evening. Vigor active 5 days. Expires end of Ashmere 26. (NOTE: This expires TONIGHT at midnight if the current date is Ashmere 24 evening; adjust based on actual timeline — Vigor lasts exactly 5 days from Ashmere 21 evening, so it expires Ashmere 26 evening/night.)
+**Vigor Status:** **EXPIRED end of Ashmere 26** (5-day window from Ashmere 21 evening). **Ashmere 31:** Taryn fights at **baseline** STR/DEX; halberd carry may strain — verify encumbrance at table.
 
 ### Active Goals
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| deliver_commission_letter | Ashmere 24 | Ashmere 27 | Ashmere 30 | in_progress | Deliver Letter of Commission to Coalition Council at Ashenmere City. Claim 5,000g bounty and formalize scout role. Riding at Vigor pace while buff lasts. | Coalition Council processes commission. 5,000g released. Taryn formalized as commissioned scout. Coalition becomes aware of Millhaven Pallid March situation (the letter contains intel). Public_at reflects time for this to ripple back to Millhaven. |
+| deliver_commission_letter | Ashmere 24 | Ashmere 27 | Ashmere 30 | **resolved** | **Canon (table Apr 2026):** Taryn’s job was always **hand off border/undead intel** to Coalition intake — career step from gate guard, backed by **wolf slaughter proof** + **new kit**. She **made the window**: filed **Ashmere 27** (travel off-screen after Ch5 street beat). **Not** “mystery nondelivery” — prior **`closed_overdue` / nondelivery fork was AI bookkeeping error**, retracted. | Council stack now holds her packet; **political** follow-through is separate from “did she deliver.” |
+| coalition_seat_review_pending | Ashmere 27 | **TBD** | N/A | **active** | Bureaucratic **5k + recognition** grind; may summon her again; does **not** mean the intel never arrived. | Hooks Ashenmere politics / `ashenmere_council_pressure_arc.md` when promoted. |
+| answer_coalition_nondelivery | Ashmere 33 | — | — | **superseded** | **Retracted** — replaced by honest **`resolved`** delivery row above. Do **not** spawn clerk-harassment beats from this ID. | — |
+| taryn_post_vigor_kit | Ashmere 26 | **TBD** | N/A | **active** | **Lover's Vigor ended** ~Ashmere **26** (from Ashmere 21 intimacy window). Holsk fitted **thrum halberd + mythril half-plate** to her **buffed** STR/DEX; at **baseline** the kit is **wrong-weight / wrong-balance** — not useless, but **slower**, **harder to clear**, **more exhausting**, possible **AC or attack penalty** at table until refit, partial swap, or **second vigor window**. Pride vs asking for help = character beat. | Bad day on patrol = obvious hook; Holsk scene; guild assigns her **lighter** duties (insult + relief); or she **pushes** and risks injury — DM picks. |
 
-**NOTES:** Vigor drops end of Ashmere 26. STR 24→16, DEX 21→14 when it falls. If still on the road after midnight Ashmere 26, she fights at baseline stats. Holsk's halberd may not fit at baseline strength.
+**NOTES (Vigor → gear — this is a *problem*, not flavor):** Stat drop is **STR 24→16, DEX 21→14**. The **Ch5 wolf/warg showcase** was earned skill — but the weapon/armor were spec'd while she was **stronger than her career baseline**. After vigor: polearm **length/weight class** and plate **mobility** fight her; long fights **gas** her faster; she may need to **leave pieces in the chest** or run **non-standard** form until Holsk refits. **IP / aura:** she is **no longer vigor-immune** — DC 23 viewing rules apply again if Kenji is in LOS (see `kenji_state.json` + IP rules).
+
+### What “mission complete” *means* for the story (DM — pay this forward)
+
+**Do not treat filing as “checkbox done, world unchanged.”** It moves these levers:
+
+1. **Truth on paper:** Ashenmere clerks can no longer pretend the border shift / column / Coalition dead names are **only tavern rumor**. Quiet denial costs **political** capital.
+2. **Taryn’s visibility:** She is now the **named scout** on a hot file — **guild attention** (good and bad), **summons**, **mentors**, **rivals**, or **“explain this sentence”** interviews.
+3. **Council clock:** `coalition_seat_review_pending` is the **slow knife** — redeploy debates, fact-finding votes, **Vess/Katya** inbox, possible **delegation toward the March** — all **optional** scene fuel, not automatic combat.
+4. **Kenji / ronin correlation:** Where her filing names **Kenji** + describes **ronin capability**, that stack can later **cross-cut** with Thornkeep leaks, academy strings, and Lady-side intel — **graduated** identity pressure (see Bane trigger row), not a single “you’re caught” roll.
+5. **Bracken convergence:** When Bracken’s **own** formal dispatch hits the same clerk stack, readers **compare** two Thornkeep-originating threads — drama multiplier.
 
 ---
 
@@ -184,7 +197,7 @@ Kenji is undercover. **Arcane and Ember abilities are deliberately off the table
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| support_key_investigation | Ashmere 24 | TBD | TBD | in_progress | Support Kenji's investigation of the iron key pulling SSW. Provide entropy-domain knowledge as needed. | Key's nature and destination revealed. |
+| support_key_investigation | Ashmere 24 | **Ashmere 45** | TBD | in_progress | Solveth recognized **patience-binding** on the seal as Spoke Wars vintage (1196 AR) — predates the Lady's tenure. Knows the binding *style* but not what it *holds*. Can identify binding architecture, read the feeder ley-node's flow direction, and advise on how to **sever or redirect** the feed. Requires **Frost Fang drawn** to communicate — breaks ronin cover if witnesses present. | **If Solveth identifies contents:** Kenji gains strategic knowledge of the death-binder's anchor or power source; Solveth may recognize a personal Spoke Wars connection that shifts him from advisory to personally invested. **If entropy-domain binding:** Solveth can interact directly through Frost Fang — disarm, redirect, or claim — first physical-world action since Book 2. **If Solveth withholds:** He has his own entropy-feeding agenda and may prefer the seal closed if it serves entropy's interests. |
 
 ---
 
@@ -199,9 +212,9 @@ Kenji is undercover. **Arcane and Ember abilities are deliberately off the table
 - The true name "Lady Nyx" is a reveal beat gated behind Kenji's disposition. Save it.
 
 **Status:** alive (ley-suspended, metabolism 1%)
-**Met:** yes — Ashmere 29, Pallid March forward cordon (root-crown amphitheater). First face-to-face audience in human form: meal at her table, rations bargain, two-demands-each negotiation (incomplete), bath intimacy short of sex (Close to Death never triggered). Kenji gave his name ("I'm Kenji") — she has a name but not yet an identity. She did not return her own name. Guest chamber long rest under root-wall surveillance. IP exposure sustained across hours; her own stack climbed deep band by bath exit. See Ch15 for full scene.
-**Location:** Pallid March forward cordon — root-crown amphitheater (~mile 20+ south road)
-**Last Updated:** Ashmere 30
+**Met:** yes — **Ashmere 29–30**, Pallid March **forward / inner cordon** (human-form **the Lady**: meal, bath short of intercourse, guest chamber LR; **Seren** mask-name spoken under pressure; Ch16 leak + **bronze trophy** gifted). Kenji does **not** have the **gated true name** (`Lady Nyx` rules unchanged).
+**Location:** Pallid March **power center** (root-court / cordon; exact locus narrated in Ch15–16)
+**Last Updated:** Ashmere 33 (goal invariant — added operational March / binding rows)
 
 **Class:** Living Lich — alive with full dominion over death. Not undead. Real heartbeat, real warmth, real body. Chose this path as a Warden-elect in 1042. Holds a lich's power (undead army, territorial control, phylactery-equivalent) without crossing the threshold into undeath. Can switch between lich form (default) and human form (rare — seduction only).
 
@@ -223,7 +236,7 @@ Kenji is undercover. **Arcane and Ember abilities are deliberately off the table
 
 **Followers never see the Lady form.** By the time a person is a thrall, the human form has done its work and retired. The Lady is for the living.
 
-**Disposition to Kenji:** Unknown to Kenji — not yet encountered. Kenji has not yet met her in person. The grove visit that would establish her nature has not occurred. Kenji currently only knows her as "the Lych" (coalition/Bracken framing) and "the Lady" (the signature on the caravan circle parchment). He has not yet connected the two names.
+**Disposition to Kenji:** **Engaged** — she has **filed** his given name, his appetite, his **unfinished** demands, and his **gift** (bronze trophy). Kenji knows her as **the Lady** in March court; Coalition framing may still say **the Lych** — connection of titles is table-owned.
 **Morale Compass:** Chaotic Evil — the anchor of this alignment. Conquest, pleasure, and self are the only loyalties. Obeys only under compulsion. Lies, pretends tenderness, flips sides the instant a better throne is on offer. Will love Kenji as a pet and murder him the moment he stops being interesting.
 
 **Abilities:** Ley-pool stasis (breathing every 11 seconds), senses and commands all 612 undead she anchors, high WIS (item-boosted), 1042 Warden-elect binding knowledge, grief-seam creation, form-switching (lich ↔ human, defaults to lich), necromantic dominion (the 612-column, the 32-mile perimeter, the territorial control), living mist grove defense (locks out intruders, grove becomes ordinary trees to unwelcome visitors)
@@ -261,10 +274,12 @@ If Kenji is intimate with Lady Nyx (human form) **and survives Close to Death**,
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| pallid_march_potential | 1042 AR | TBD | TBD | dormant | The full Pallid March threat — Lady Nyx's lich-form ambition. Currently dormant because she's suspended. Once freed, her nature determines whether she becomes a threat regardless of Kenji's choices (natural 5%/20 days conquest). Intimacy with Kenji accelerates this catastrophically. | Without Vigor: slow 5%/20-day expansion, manageable threat. With Vigor: 10%/cycle blitz, unstoppable army, capture-Kenji side plot triggers, kingdom-ending trajectory. |
-| capture_kenji | N/A | N/A | N/A | dormant | ACTIVATES only after first Vigor buff expires. Lady Nyx hunts Kenji (sends minions or goes personally) to capture him alive and force re-buff. Repeats after every expiration. | If Kenji is captured: forced intimacy → new 5-day conquest cycle → 10% more kingdom falls. Escape or rescue required. Side plot escalates with each capture attempt. |
+| still_night_doctrine | Ashmere 30 | **Hollowmere 15** | Ashmere 30 | **active** | The Lady is consolidating her March toward the **Still Night** winter peak — tightening patrol doctrine on the 612-body column, spending cordon attention on Coalition blind spots (relay blackout means Thornkeep can't see her movements), and testing whether the border shift goes unnoticed long enough to push another 5 miles north before spring. Ley-stasis (breathing every 11 seconds) holds her metabolism at 1% — she can sustain this operational tempo indefinitely. The root network's circulation mode (not relay) means she's running infrastructure, not communications. | **If she commits at peak:** The March pushes north during Coalition's weakest watch period (Still Night = holiday, skeleton staffing, morale low). Border fiction collapses — Thornkeep discovers the March is 5 miles closer than last week. Bracken's 14 soldiers / 30 miles becomes 14 soldiers / 25 miles. Political panic hits Ashenmere Council mid-holiday. **If she holds:** Status quo through winter; the March consolidates without exposure; Kenji's relay blackout buys Coalition time they don't know they have. **If Kenji disrupts:** His bronze trophy gives her a sympathetic scry anchor — she may track disruption attempts before they land. |
+| trace_oathbreaker_vector | Ashmere 31 | **Ashmere 40** | N/A | **active** | Corwyn was disarmed at mile 18 (Ch14); **Oathbreaker** is in Kenji's Bag of Holding — extradimensional storage that partially masks the dual-bound signature. But the Lady's binding net connects her to everything Corwyn is — she *felt* the sword leave her champion's hand. The trophy Kenji left her (bronze, willingly given) strengthens sympathetic scry. She is tracing the gap between "Corwyn's sword vanished" and "the ronin who sat at my table" — the connection is not proven yet but the data points converge. She may not know the thief and the dinner guest are the same person. Yet. | **If she traces it to Kenji:** The ronin mask cracks from the south. She knows his name (he gave it), his appetite (she watched it), and now his theft. She can frame him to the Coalition as a relic-thief, hunt him through the trophy's scry link, or — worse — use the knowledge as leverage in the unfinished bargain. **If she traces it but not to Kenji:** She hunts a nameless thief, which sends courier-thralls and root probes north toward Thornkeep — collateral disruption that Bracken must deal with. **If the trace fails:** The BoH's extradimensional masking holds; Oathbreaker stays hidden; but the Lady's frustration redirects toward Corwyn (blame the champion who lost the sword). |
+| pallid_march_potential | 1042 AR | TBD | TBD | dormant | Long-arc conquest math (5%/20d baseline; 10%/cycle if Vigor ever fires). **Secondary** clock — must not be her *only* operational row. | See Vigor mechanics above. |
+| capture_kenji | N/A | on_first_vigor | N/A | dormant | Activates after first Vigor with Kenji **if** that ever happens. **Secondary.** | Hunt / capture / repeat cycle. |
 
-**THE TRAP:** She is the easiest woman in the story to bed — chaotic evil, zero inhibitions, upfront about what she wants, beautiful in human form. But each intimacy event (a) requires Kenji to *survive Close to Death* (1%/sec), (b) triggers a 10% kingdom conquest cycle if he does, and (c) eventually a capture-hunt side plot. The romance path IS the threat path AND the extinction path. Nobody omnisciently connects Kenji to the surge. The player chooses the destruction with full mechanical transparency. Kenji has not yet encountered her.
+**THE TRAP:** She is the easiest woman in the story to bed — chaotic evil, zero inhibitions, upfront about what she wants, beautiful in human form. But each intimacy event (a) requires Kenji to *survive Close to Death* (1%/sec), (b) triggers a 10% kingdom conquest cycle if he does, and (c) eventually a capture-hunt side plot. The romance path IS the threat path AND the extinction path. Nobody omnisciently connects Kenji to the surge. The player chooses the destruction with full mechanical transparency. **Kenji has met her Lady-form in March cordon (Ch15–16); intercourse did not occur — Close to Death not triggered.** Trap remains **live** for any future intimacy that crosses that line.
 
 ---
 
@@ -287,8 +302,8 @@ If Kenji is intimate with Lady Nyx (human form) **and survives Close to Death**,
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| find_kenji | Ashmere 11 | TBD | N/A | in_progress | Searching for Kenji via Root Network (heartbeat through soil). He left Thornfield invisibly. She does not know where he went. | If she finds him: emotional confrontation. She was intimate, he vanished. |
-| protect_briarstone | Ashmere 11 | ongoing | N/A | in_progress | Maintain Briarstone homestead and cleared Greenveil ley lines. Farm is operational. Corruption reversed. | Land stays healthy. Farm produces. Amaris remains anchored to Thornfield. |
+| find_kenji | Ashmere 11 | **Ashmere 45** | N/A | in_progress | Level 16 druid using **Living Ground** through the **Root Network** — heartbeat-through-soil tracking. She knows his ember signature from intimate contact and can distinguish it from background ley noise. Current search radius expanding outward from Thornfield at ~5 miles/day as she maps which root channels carry signal. She does **not** know he went south toward the March. If the Root Network extends to Millhaven's region (~80 miles), she could detect his ember even in ronin suppression mode — Living Ground reads biology, not magic display. | **If she finds him:** Amaris arrives at wherever Kenji is — Thornkeep, Millhaven, the road — as an intimate partner he abandoned without explanation. Emotional confrontation is guaranteed. She is a **Neutral** PC-made character (shiftable) with post-Vigor enhanced stats and a druid's combat kit. She will not attack him, but she will not leave without answers. **Her arrival exposes Kenji's Thornfield connections** to whoever is watching — Bracken, the Lady's scry network, Jostin's journal. A Level 16 druid showing up asking for a ronin by name is not quiet. **If she finds him near the March:** Living Ground + Root Network means she can *feel* the Lady's root infrastructure. Two druids reading the same soil. The Lady will notice. **If she doesn't find him by Ashmere 45:** She expands search to include asking humans — merchants, travelers, Millhaven gate — which creates a separate exposure vector (someone describing "silver-haired druid looking for a masked ronin"). |
+| protect_briarstone | Ashmere 11 | ongoing (review **Hollowmere 15**) | N/A | in_progress | Daily maintenance of Briarstone homestead: ley line monitoring (Greenveil corruption could re-seed if source wasn't fully purged), crop rotation on newly healed soil, defensive ward upkeep against residual corruption pockets. The farm feeds Thornfield's twelve returning residents. Amaris is the only person in the region with the druidic skill to keep the land clean. | **If maintained:** Thornfield becomes the first successfully reclaimed settlement in the corruption belt — a proof of concept that attracts settlers, merchants, and eventually Coalition attention (a recovered village means the land can be taken back). Delia's tavern + Amaris's farm = a functioning community. **If Amaris leaves to find Kenji:** The farm loses its only caretaker. Ley lines unmonitored. Corruption could re-seed within weeks. Thornfield's recovery stalls. Twelve people lose their food source. This is the **cost** of her find_kenji goal — she can't do both indefinitely. |
 
 ---
 
@@ -311,8 +326,8 @@ If Kenji is intimate with Lady Nyx (human form) **and survives Close to Death**,
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| analyze_kenji_samples | Ashmere 18 | TBD | TBD | in_progress | Scientific documentation of Kenji's biological enhancement mechanism. 10 pages with charts already written. Samples A and B in her possession. | If this research reaches the wrong hands: Kenji's nature becomes known. If it reaches scholars: potential replication or exploitation. STORY-CHANGING if it leaves Thornfield. |
-| find_kenji | Ashmere 18 | TBD | N/A | in_progress | Knows the clone wasn't real. Furious then fascinated. Will write about it, then look for him. | Confrontation or correspondence when she locates him. She has documentation that proves what he can do. |
+| analyze_kenji_samples | Ashmere 18 | **Ashmere 40** | **Ashmere 42** | in_progress | 10 pages of documented analysis already written with charts. **Sample A** (in situ, activated — luminescent gold-green): semen sample showing active biological enhancement properties, glowing, measurably altering surrounding organic material. **Sample B** (oral extraction, unactivated): baseline comparison. Wynn is a **Chaotic Good** researcher who publishes because truth belongs to everyone. She is currently in the **documentation phase** — controlled experiments, cross-referencing with her herbalism knowledge, testing Sample A's effect on plant tissue and soil. By Ashmere 40 she will have **conclusions**. Her CG compass means she will want to **share** those conclusions. | **If she publishes or shares locally (Ashmere 42):** Thornfield is small — Delia hears, Amaris hears, travelers hear. Word of "a substance that enhances biological function" reaches merchant circuits within days. Scholars, alchemists, or worse hear within weeks. **If it reaches Varenholm Academy:** Elara or Aldwin recognize the description as consistent with ArchMagus-level biological signatures. Identity exposure vector. **If it reaches the Lady's network:** A biological enhancement that makes women stronger, faster, with darkvision — the Lady would kill continents to secure that supply chain. **If Kenji returns to Thornfield first:** He can ask her to suppress it. She may refuse on principle (CG — truth belongs to everyone). Negotiation or destruction of samples becomes a scene. **If samples are destroyed:** Evidence gone, but Wynn's 10 pages of notes still exist. |
+| find_kenji | Ashmere 18 | **Ashmere 45** | N/A | in_progress | Wynn identified the clone deception within 10 minutes of Kenji's departure. She was furious, then fascinated — the deception itself became another data point. She is currently in **write first, search second** mode: finishing her research documentation before committing to travel. Once the analysis is complete (~Ashmere 40), she shifts to active search. She knows his face, his voice, his biological signature, and the direction he left (south from Thornfield). She is not a tracker but she is methodical — she will ask questions at every settlement between Thornfield and wherever the road takes her. | **If she finds him:** She arrives carrying a **notebook** that proves what Kenji's body does to women. She is not angry (fury burned out in the first hour) — she is **curious** and she wants more data. She will want to observe, document, and understand. She will also want an explanation for the clone. If Kenji is in ronin cover, Wynn's arrival with a notebook full of ArchMagus-adjacent biology is a **cover-destroying event**. She has no reason to keep his secrets — CG means she thinks secrets are usually wrong. **If she finds him near other women he's been intimate with:** She will compare notes. Literally. The notebook becomes a cross-reference tool. Delia, Amaris, Brynn, Taryn — any woman showing Vigor effects becomes a data point Wynn can identify on sight (enhanced stats, eye color shift, metabolic changes). |
 
 **FLAG:** Wynn's samples and research are a ticking story bomb. If she shares or publishes, Kenji's biological enhancement becomes public knowledge.
 
@@ -337,7 +352,7 @@ If Kenji is intimate with Lady Nyx (human form) **and survives Close to Death**,
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| rebuild_thornfield | Ashmere 18 | ongoing | N/A | in_progress | Village recovery post-corruption. Twelve people returned. Fences being fixed. Tavern operational. Stillday traditions being established. | Thornfield becomes a functioning village again. Delia anchors the community. |
+| rebuild_thornfield | Ashmere 18 | ongoing (review **Hollowmere 15**) | N/A | in_progress | Twelve people returned so far. Delia runs the Stubborn Mule as the village's social and economic center — meals, news, trade coordination, dispute resolution. Fences being repaired by hand (no labor budget). Stillday traditions being re-established as community ritual. Dependencies: **Amaris's ley line maintenance** keeps the soil viable; if Amaris leaves, the farm fails and Delia loses her food supply within weeks. The road to Millhaven is the village's only trade link — if the March pushes north enough to threaten that road, Thornfield is cut off. | **If recovery succeeds:** Thornfield becomes the first reclaimed corruption-belt settlement — proof that the land can be taken back. Attracts settlers (population growth), merchants (trade route re-establishment), and Coalition attention (strategic interest in a viable southern outpost). Delia becomes a de facto village leader with political weight. **If Kenji returns:** She provides safe harbor, warm food, and a woman who does not ask difficult questions about where he's been. The tavern is a rest point. **If the March threatens the road:** Delia faces evacuation decisions for twelve people who just came back. She will not leave the tavern — LG anchor. If forced to choose between her people's safety and Thornfield's survival, she chooses people. |
 
 ---
 
@@ -379,7 +394,7 @@ If Kenji is intimate with Lady Nyx (human form) **and survives Close to Death**,
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| operate_forge | ongoing | ongoing | N/A | in_progress | Maintain garrison blacksmith. Accept commissions. | Kenji has access to master-level crafting in Millhaven. |
+| operate_forge | ongoing | ongoing (review **Hollowmere 15**) | N/A | in_progress | Millhaven garrison blacksmith — master-level crafting in mythril, rune-tempered steel, crystal structure with enchantment slots, and thrum-alloy. Built Taryn's custom halberd (Featherfall / Truestrike / Bondseal runes). Can service, upgrade, or create weapons that **grow with the wielder** — Holsk's signature craft. Currently operating at normal garrison tempo. Has seen the nodachi and recognized its quality (exotic steel, void-edge properties). Has **not** been asked to work on Oathbreaker or examine its dual-bound signature. | **If Kenji commissions work:** Access to weapons and armor that scale with level — a mechanical advantage no other NPC in Book 4 can provide. Holsk's thrum-alloy process could potentially create a **scabbard or containment** for Oathbreaker's dual-signature (holy/necrotic bleeding). **If Oathbreaker is brought to Holsk:** A dwarven master seeing a dual-bound holy/necrotic greatsword triggers guild-level interest — Holsk would want to study it, which means keeping it in his forge, which means Oathbreaker sits in a Coalition garrison town where Bracken can see it. Paper trail. **If the March threatens Millhaven:** Holsk is the forge that arms the garrison. 14 soldiers need maintained kit. If Holsk is overwhelmed or evacuated, Thornkeep's military readiness drops. |
 
 ---
 
@@ -388,7 +403,7 @@ If Kenji is intimate with Lady Nyx (human form) **and survives Close to Death**,
 **Status:** alive
 **Met:** yes (Ashmere 22 — Millhaven watch-hall, multiple interactions)
 **Location:** Millhaven watch-hall
-**Last Updated:** Ashmere 24
+**Last Updated:** Ashmere 33
 
 **Physical:** Forties, short grey-brown hair, watch uniform (no brooch).
 **Disposition to Kenji:** Neutral/Professional — filed him in one glance, focused on Bracken.
@@ -400,7 +415,10 @@ If Kenji is intimate with Lady Nyx (human form) **and survives Close to Death**,
 
 ### Active Goals
 
-No active goals yet — awaiting orders from Bracken about Pallid March operations.
+| goal_id | opened | due_date | public_at | status | description | completion_effects |
+|---------|--------|----------|-----------|--------|-------------|--------------------|
+| watch_hall_maps | Ashmere 22 | ongoing | N/A | **active** | Keep Millhaven watch-hall map boards current; support **Hadley’s** chain (not Thornkeep). Pallid March overlays from Bracken-era intel still referenced by clerks. | If March noise returns north: Teilen is the fast path to “what the watch already filed.” |
+| pallid_overflow_prep | Ashmere 33 | **Ashmere 36** | N/A | **active** | **Revised:** Taryn’s packet is **in**; prep is for **council review noise** / ronin name cross-file (she filed **Kenji** as source where required), not “missing letter.” Teilen etc. optional if politics spike. | Council-pressure levers without contradicting resolved delivery. |
 
 ---
 
@@ -468,7 +486,12 @@ No active goals yet — awaiting orders from Bracken about Pallid March operatio
 
 ### Active Goals
 
-No active goals — identity and status unknown. **Investigation flag:** Who Corban was/is to the Lych determines whether he's leverage, a hostage, a ghost, or a piece of the death-binder's power feed. Solving the ring likely requires solving Corban first.
+| goal_id | opened | due_date | public_at | status | description | completion_effects |
+|---------|--------|----------|-----------|--------|-------------|--------------------|
+| grief_seam_anchor | pre-campaign | TBD | N/A | active_dm | **Entity status still unknown** — tracker keeps **operational** goals so the seam is not inert lore. Whatever Corban **is**, the 4th seam stays load-bearing for **death-binder / Lych ring** tension. | Reveals leverage: hostage, ghost-in-ring, parasitic memory, etc., when Kenji earns the scene. |
+| resist_parasite_or_succumb | Ashmere 24 | TBD | N/A | active_dm | Death-binder siphons grief-seam; Corban-side pressure **increases** if March tightens (see Lady **trace_oathbreaker_vector**). | May force visible symptom on column or dreams; **pay through play**. |
+
+*Investigation flag unchanged:* Who Corban **was/is** determines hostage vs ghost vs power-feed.
 
 ---
 
@@ -570,7 +593,7 @@ No active goals — identity and status unknown. **Investigation flag:** Who Cor
 **Status:** Active
 **Met:** yes — Ashmere 24 night, terminus camp. Kenji returned the stolen iron chest, spoke face to face ("I thought dead men told no tales, yet here we are"). Corwyn asked "Why are you here, swordsman?" twice. Kenji never answered — walked away with Elda mid-conversation. Corwyn witnessed the seal opening behind Kenji. Kenji knows him as "the death knight" — does not use the name Corwyn in conversation (learned via Steel Sight only).
 **Location:** South road ~**mile 18** crown — **down**, **disarmed**; **Oathbreaker stolen** (Kenji’s **Bag of Holding**). Arm ruined at shoulder/elbow; cannot wield until triage/healing/binding resolution.
-**Last Updated:** Ashmere 29 (Ch14 — lost duel objective to Kenji; sword absent)
+**Last Updated:** Ashmere 33 — iron chest row **RESOLVED**; arm triage + sword-loss off-screen goals **active**; `serve_the_lady` row now **active** (not dormant-only)
 
 **Physical:** Black plate armor, polished. **Oathbreaker no longer at his side** — stolen; holy/necrotic duality now **muffled** off-body (may still ache in his senses). The blade was *in pain* when he carried it; the absence is a new wound.
 **Disposition to Kenji:** Conflicted. Initially hostile (chased clone Ashmere 23, called "THIEF"). After chest return (Ashmere 24): puzzled, wary, not aggressive. The thief came back, returned the stolen property, and walked away from an opened seal without looking inside. That's not thief behavior. The restraint — the *willingness to talk* — is a function of his partial sentience, not his orders. Orders say kill. Oath says protect. The ronin's behavior (returning stolen goods, protecting a civilian) maps to the Oath, not the enemy. Corwyn noticed. Does not know Kenji's identity.
@@ -607,8 +630,8 @@ This is the duality the story has been gesturing at: a creature of light and und
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| serve_the_lady | pre-campaign | DORMANT (tied to Pallid March clock) | N/A | dormant | Bound to Their Lady's service via the warped Oath of Protection (what he and the other bound undead call her). Leads assault columns. Patrols the Ashenveil. Currently hunting whatever stole the iron chest from his camp. His compliance is NOT total — the original unbroken Oath is still underneath, reading intent, hesitating on uncommitted targets. | If the warp is broken (not the Oath itself — the redirect): Corwyn returns fully to Lawful Good with full paladin class features AND death knight power AND seventy-two hours of grudge against the Lady. Catastrophic ally. If March launches before the warp breaks: he leads the vanguard, and the vanguard has a hesitation built into it that Kenji can exploit. |
-| recover_iron_chest | Ashmere 23 | TBD | N/A | in_progress | Kenji stole a warded iron chest from Corwyn's camp during the eastbound run. Corwyn chased the clone south. Doesn't know who took it or where they went. | If recovered: whatever was in the chest returns to the Lych's control. If not: Kenji has it (contents unknown — still in Bag of Holding). |
+| serve_the_lady | pre-campaign | ongoing | N/A | **active** | Warped **Oath of Protection** still routes to her domain; he patrols, reports, leads when ordered. Original LG Oath **still underneath** — hesitation on uncommitted targets, confirm-before-kill paladin habit. | If warp breaks (not the Oath): catastrophic LG ally + DK power vs her. If not: vanguard with a **pause** baked in. |
+| recover_iron_chest | Ashmere 23 | Ashmere 24 | N/A | **RESOLVED** | Iron chest thread — **returned** to Corwyn terminus night Ashmere 24; contents never opened by Kenji. | Closed. |
 
 ### Off-screen goals (Ch15–16, Kenji south / Corwyn not in POV)
 
@@ -649,19 +672,19 @@ This is the duality the story has been gesturing at: a creature of light and und
 
 **Status:** Active (**not MIA** — off-screen with goals)
 **Met:** yes — Book 4 south push; intimate bond + **Lover’s Vigor** (IP immune for current Vigor window; eyes amber-gold per arc notes).
-**Location:** **Off-screen — north** with Jostin from **Ashmere 29** split: crown/verge corridor toward **Thornkeep** (Hale chain / **Bracken** at Cooper’s Row). **Ch15–16.**
-**Last Updated:** Ashmere 30
+**Location:** **Thornkeep garrison** — **Bracken’s office** corridor (posted **outside** closed-door debrief **Ashmere 31**; live reunion with Kenji after Ch17 overwatch).
+**Last Updated:** Ashmere 31
 
 **Physical / disposition / Morale Compass:** See `npc_appearance.md` (full build). **Disposition to Kenji:** intimate (**+34**); carries professional discipline + private fear when he goes south alone. **Morale Compass:** Lawful Good — Coalition shield line; opposes Kenji if he burns the border’s trust or abandons innocents for convenience.
 
-**Abilities:** Shield infantry (garrison); with **Vigor**: elevated STR/CON until expiry (**~Ashmere 33** per arc file — adjust if your calendar shifts).
+**Abilities:** Shield infantry (garrison); **Lover’s Vigor** window **Ashmere 28–34** — still **immune** to IP at Ashmere 32 dawn unless extended clock says otherwise.
 
 ### Off-screen goals (Ch15 split onward)
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| escort_north_split | Ashmere 29 | TBD | N/A | active | Execute Kenji’s order: march **Jostin** north safely; stay off the worst crown ambush angles; treat stragglers per coalition rules. | Delivers Jostin to garrison chain; keeps Brynn’s honor intact. |
-| rejoin_command_report | Ashmere 29 | TBD | N/A | active | Reach **Thornkeep**; report to **Hale** / scout rotation; surface **field truth** to **Bracken** (what to tell vs hold back about Kenji going under the March). | Shapes how fast Coalition learns Kenji walked into the Lady’s house. |
+| escort_north_split | Ashmere 29 | TBD | N/A | **complete** | Execute Kenji’s order: march **Jostin** north safely. **Ashmere 31:** arrived Thornkeep; escort objective satisfied. | — |
+| rejoin_command_report | Ashmere 29 | TBD | N/A | **complete** | Reach **Thornkeep**; report into **Bracken** chain (not “Hale” — deprecated naming). **Ashmere 31:** debrief **interrupted** by Kenji presence; facts partially spoken before room cleared. | Coalition ear now has **live** Kenji in-building. |
 | vigor_window_prep | Ashmere 29 | ~Ashmere 33 | N/A | active | **Learn** buffed body under travel + light skirmish; plan for **post-Vigor** stat cliff and returning **IP** pressure. | Avoids surprise weakness when Vigor drops. |
 | kenji_south_private | Ashmere 29 | TBD | N/A | active | Emotional load: **not** abandoning post — but tracking time/distance to Kenji’s reckoning; seek courier or reunion beat when table calls for it. | Drives future scene priority without teleporting her south. |
 
@@ -671,14 +694,14 @@ This is the duality the story has been gesturing at: a creature of light and und
 
 **Status:** Active (**not MIA** — off-screen with goals)
 **Met:** yes — Ashmere 25, south road patrol zone. Kenji found him on patrol, relayed Hale's briefing and Elda's missing son report. Jostin agreed to search the gap.
-**Location:** **Off-screen — north** with **Brynn** from **Ashmere 29** split; en route **Thornkeep** / garrison reporting chain.
-**Last Updated:** Ashmere 30
+**Location:** **Thornkeep garrison** — **Bracken’s office** corridor (posted outside; **Ashmere 31**).
+**Last Updated:** Ashmere 33
 
 **Physical:** Late twenties, lean, dark circles under his eyes. Scout's kit — light armor, short bow, journal in belt. Looks like he hasn't slept well in weeks.
 **Disposition to Kenji:** Cautiously impressed. The masked ronin killed 4 wights and 2 skeleton warriors on his patrol route in one morning. Wants him to stick around.
-**Morale Compass:** Lawful Good — Coalition scout, Renna Hale's best. Reports up the chain, takes the border seriously, believes in the line. Opposes Kenji if Kenji is a threat to the Coalition's intel integrity or the people behind the line.
+**Morale Compass:** Lawful Good — Coalition scout, **Commander Renna Bracken’s** best. Reports up the chain, takes the border seriously, believes in the line. Opposes Kenji if Kenji is a threat to the Coalition's intel integrity or the people behind the line.
 
-**Abilities:** Level 10. Thornkeep garrison. Renna Hale's best scout. Watching the southern swamp border. Reports getting shorter and more frightened.
+**Abilities:** Level 10. Thornkeep garrison. **Bracken’s** best scout (legacy “Hale” strings in old notes = **deprecated**). Watching the southern swamp border. Reports getting shorter and more frightened.
 
 **Important Gear:** Scout gear, patrol equipment.
 
@@ -688,27 +711,29 @@ This is the duality the story has been gesturing at: a creature of light and und
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| border_watch | ongoing | DORMANT (tied to Pallid March clock) | N/A | dormant | Monitoring undead activity on the southern Ashenveil border. Reports to Renna Hale. Intel quality degrading — the volume of what they're watching exceeds what two scouts can cover. | If reports reach the right ears: Coalition awareness of Pallid March escalation. If suppressed: border collapse comes without warning. |
+| border_watch | Ashmere 25 | **ongoing** (spikes toward **Hollowmere 15**) | N/A | **active** | Southern Ashenveil cordon watch; reports to **Commander Renna Bracken**. Volume of sightings exceeds comfortable scout bandwidth — intel gets shorter, uglier. | Coalition escalation or blind spot — feeds Bracken’s office truth vs fear. |
 
 ### Off-screen goals (Ch15 split onward)
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| formal_field_report | Ashmere 29 | TBD | N/A | active | File **written** report for Hale/Bracken: relay kill, node assaults, network blackout, **Kenji south solo** (facts only unless Brynn negotiates narrative). | Coalition strategic picture updates; possible orders trap. |
-| escort_brynn_contract | Ashmere 29 | TBD | N/A | active | Keep **Brynn** alive northbound; use scout craft to pick camps, water, avoid masterless undead clusters. | Prevents solo-line casualty off-camera. |
+| formal_field_report | Ashmere 29 | TBD | N/A | **superseded** | Oral/written debrief **in progress Ashmere 31** in Bracken office before Kenji reveal; finish reporting after Ch17–18 beat resolves. | Coalition strategic picture updates; possible orders trap. |
+| escort_brynn_contract | Ashmere 29 | TBD | N/A | **complete** | Keep **Brynn** alive northbound. **Ashmere 31:** both alive at Thornkeep — objective satisfied. | — |
 | personal_kenji_math | Ashmere 29 | TBD | N/A | active | Private: reconcile admiration for the ronin with **fear** of what he just walked into; journal margins for truth he won’t say aloud yet. | Shapes first reunion line when POV returns. |
 
 ---
 
-## COMMANDER RENNA HALE — Garrison Commander, Thornkeep
+## COMMANDER RENNA BRACKEN — Garrison Commander, Thornkeep
+
+> **Naming note:** Older logs may say **“Hale”** — **retired**. Canon commander surname is **Bracken** (`npc_appearance.md`; Ch7, Ch16–17).
 
 **Status:** Active
-**Met:** yes — Ashmere 25, Thornkeep garrison hall. Kenji brought Elda in to report her missing son. Hale took the report, offered Jostin's patrol, noted she's short-staffed.
-**Location:** Thornkeep garrison
-**Last Updated:** Ashmere 25
+**Met:** yes — Ashmere 25, Thornkeep garrison hall (as commander); Ch16–17 office beats with Kenji; **Ch17 close** — private quarters consent arc overnight Ashmere 33→34.
+**Location:** Thornkeep — **captain private quarters** (**Ashmere 34** morning); Kenji **still present** waking in her bed; first-bell corridor risk live; **discretion** posture (who hears boots, who knocks).
+**Last Updated:** Ashmere 34 (Ch18 wake)
 
 **Physical:** Mid-forties, short-cropped dark hair going grey at the temples, scar from ear to jaw. Chainmail under coalition tabard. Weathered. Practical. Cold mug always in hand.
-**Disposition to Kenji:** Curious, measuring. A masked ronin who killed 4 wights solo and brought a civilian to her door. She wants to know more. Asked his name — he didn't give it.
+**Disposition to Kenji:** Intimate-trust after explicit consent beat; LG spine intact — she **chose** the line Persuasion opened; attraction and duty both real; **scandal risk** if corridor gossip catches boot-scuffs. Asked his name — he still didn't give it. **Vigor** window active again (emerald tell) — **immune to IP** until expiry per engine.
 **Morale Compass:** Lawful Good — holds the bridge, holds the line, holds her people. Opposes Kenji if he threatens Thornkeep's stability or the border watch. Book 3 history: held Thornkeep through the war with 300 soldiers. Kenji came back for her. In person. Like he promised.
 
 **Abilities:** Level 18 Fighter. Garrison commander. 300 soldiers under her command. Veteran of the Dominion war. Practical tactician, not flashy. The scar is from holding a bridge with twelve soldiers against a cavalry charge.
@@ -721,7 +746,9 @@ This is the duality the story has been gesturing at: a creature of light and und
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| border_defense | ongoing | DORMANT (tied to Pallid March clock) | N/A | active | Defending the southern border with 14 soldiers covering 30 miles. Undead activity escalating. Reports going up the chain with no response coming back down. | If reinforced: Thornkeep holds. If ignored: border collapses when the March launches. |
+| border_defense | Ashmere 25 | **ongoing** (spikes toward **Hollowmere 15**) | N/A | **active** | **14** soldiers / **30** miles southern front; undead **noise** up; Coalition answers **slow**. Pair A sweeps (Kenji’s taunt) buy time, not victory. | Thornkeep holds or folds on **Still Night** pressure — military spine of arc. |
+| coalition_paper_discipline | Ashmere 31 | **Ashmere 38** | N/A | **active** | **Oathbreaker** exposure + Jostin addendum + eyes-only routing — keep **Thornkeep** from becoming a circus; feed Ashenmere **truth** without losing garrison tempo. LG means **boring paperwork done correctly.** | Council trust meter; possible summons / seal-room custody asks. |
+| officer_wing_discretion | Ashmere 34 | **Ashmere 36** | N/A | **active** | One night’s **secret** egress does not erase **gossip math** — who was on landing watch; whether linen / lamp oil tells a story. | If rumor ignites: discipline hearing pressure **or** forced marriage politics **or** quiet blackmail — table choice. |
 
 ---
 
@@ -1218,7 +1245,7 @@ Last-known states preserved in AI_CONTEXT.md. Promote to full tracker entries on
 
 - **Kael** — Lawful Good. Squad leader, Eastern territories patrol. Reports to Katya. Post-war patrol duty. Loyal to the chain, loyal to Kenji. Opposes Kenji only if Kenji undermines Katya's command or the patrol's mission.
 - **Brindle** — Lawful Good. Squad leader, trade route security on the Broken Antler → Ironholt circuit. Reports to Katya. Caravan escort commander. Standards-first, merchants-second.
-- **Renna Hale** — Lawful Good. Thornkeep garrison commander. **Now has full entry above (promoted from Distant — met Ashmere 25).**
+- **Renna Bracken** — Lawful Good. Thornkeep garrison commander. **Full entry above (met Ashmere 25+).**
 - **Ryn** — Chaotic Good. Spell Thief / Scout. Book 1-2 Wardbreaker. Takes what the enemy won't miss, leaves what the party can't live without. Operates inside the law only when it's cheaper.
 - **Finch** — Chaotic Good. Halfling Scout / Wardbreaker. Finds things interesting when he should find them terrifying. Loyal to the squad, not the rules.
 - **Varn** — Lawful Good. Half-orc Fighter / Wardbreaker. Greatshield line. Single-sentence sincerity. Opposes Kenji if Kenji asks him to stand aside while civilians get hit.
@@ -1292,10 +1319,10 @@ Each of the four women carrying Kenji's children has a distinct arrival trigger 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
 | still_night_approaches | Ashmere 19 | ~Lathmere 15 | N/A | in_progress | Winter solstice holiday. Family, warmth, speaking difficult truths. ~21 days from current date (Ashmere 24). | Seasonal shift. Social expectations change. Characters who celebrate may seek Kenji out. Emotional vulnerability rises across all NPCs. |
-| pallid_march_border_shift | Ashmere 23 | ongoing | Ashmere 30 (Coalition awareness) | in_progress | Border has moved 15 miles north of official maps. Kenji discovered the shift at caravan circle (Ashmere 23-24). Taryn carrying the commission letter to Coalition Council. Coalition does NOT know yet. | When public: political shockwave. Garrison redeployment. Possible Coalition intervention. Fear in border towns. |
+| pallid_march_border_shift | Ashmere 23 | ongoing | Ashmere 27 (Coalition intake) | in_progress | Border has moved 15 miles north of official maps. Kenji discovered the shift at caravan circle (Ashmere 23-24). **Taryn filed** Bracken-chain intel + commission **Ashmere 27** — **Coalition now has the claim on paper**; speed of *belief* / redeploy still politics-limited. | Shockwave when brass acts on it, not when clerk stamps receipt. |
 | thornfield_recovery | Ashmere 11 | ongoing | local knowledge only | in_progress | Greenveil corruption cleared. Ley lines clean. Village returning. Soil healing. | Thornfield becomes a viable settlement again. Amaris anchors it. Delia rebuilds community. |
-| bane_of_eve_trigger | Ashmere 24 | undefined | N/A | pending | **Master trigger — starts all 5 campaign threat clocks simultaneously.** Kenji's identity or location becoming known to the wider world. Possible trigger events: (1) Ember use at scale (Mordecai detects, ripples to allies), (2) Aura overexposure / charm-affected NPC reports a siren-elf aura, (3) Taryn's commission letter reaching Coalition Council with "the ronin" references, (4) Amaris's Root Network reaches Millhaven's region, (5) Wynn publishes her research, (6) Vess's intelligence network traces the ronin back to him, (7) Senna/Elara/Pip actively search and succeed, (8) Lady Nyx identifies him if encountered and chooses to broadcast. **Any one of these pops the disguise.** | All 5 threat clocks begin counting. Four Mothers arrival triggers activate (Pip arrives, Sera waits, Senna/Elara DM-dependent). Vess gets a location to be angry at. Allies stop searching blindly and start converging. The ronin stops working as a cover. |
-| coalition_response_to_border | Ashmere 30 | ~Ashmere 35-40 | Ashmere 30 (upon letter delivery + Council review) | pending | After Taryn delivers the commission letter and Coalition Council reads it: political shockwave. What do they *do* with the intel? Possible responses: (1) Redeploy garrisons toward Millhaven, (2) Send a fact-finding delegation (risky — they'd go to the grove), (3) Deny it / suppress it to avoid panic, (4) Brief Vess / Katya, (5) Internal vote on Coalition intervention. | Depends on response chosen. Garrison redeployment = allies near Millhaven. Delegation = possibly triggers Pallid March clock. Denial = intel gap persists. Briefing Vess = she demands to know where Kenji is (partial Bane of Eve). |
+| bane_of_eve_trigger | Ashmere 24 | undefined | N/A | pending | **Master trigger — starts all 5 campaign threat clocks simultaneously.** Kenji's identity or location becoming known to the wider world. Possible trigger events: (1) Ember use at scale (Mordecai detects, ripples to allies), (2) Aura overexposure / charm-affected NPC reports a siren-elf aura, (3) **Coalition council review** cross-connects Taryn’s **filed** packet (includes **Kenji** + ronin intel where she swore truth) to wider identification — **delivery already happened**; risk is **political correlation**, not “lost letter,” (4) Amaris's Root Network reaches Millhaven's region, (5) Wynn publishes her research, (6) Vess's intelligence network traces the ronin back to him, (7) Senna/Elara/Pip actively search and succeed, (8) Lady Nyx identifies him if encountered and chooses to broadcast. **Any one of these pops the disguise.** | All 5 threat clocks begin counting. Four Mothers arrival triggers activate (Pip arrives, Sera waits, Senna/Elara DM-dependent). Vess gets a location to be angry at. Allies stop searching blindly and start converging. The ronin stops working as a cover. |
+| coalition_response_to_border | Ashmere 27 | ~Ashmere 35-40 | Ashmere 27 (packet filed) | pending | Coalition clerk stack **has** Taryn’s border/undead intel; **council** must still **decide** what to do (slow politics). Possible responses: (1) Redeploy garrisons toward Millhaven, (2) Send a fact-finding delegation (risky — they'd go to the grove), (3) Deny it / suppress it to avoid panic, (4) Brief Vess / Katya, (5) Internal vote on Coalition intervention. | Depends on response chosen. Garrison redeployment = allies near Millhaven. Delegation = possibly triggers Pallid March clock. Denial = intel gap persists. Briefing Vess = she demands to know where Kenji is (partial Bane of Eve). |
 
 ### Campaign Goals — The Fraying Empire (5 Threats)
 
@@ -1423,4 +1450,4 @@ Pull direction is DM-only. Outlanders do not know they were pulled by a specific
 *Book 4 validation pass (Ashmere 24, 1247 AR, later): re-derived end-of-current-prose state from Chapters 1–5; compared against tracker entries. 17 major spot-checks matched.*
 *(G) Seravane → "the Lady" scrub completed in Book 4 Ch5 prose: three stale narrative references (lines 13, 57, 65 of `fraying_empire_chapter_05.md` — and their mirrors in the built `Kenji_story_book4.md` lines 1172, 1216, 1224) converted from "Seravane" to "the Lady." All three references are in Kenji's POV and tied to her border claims (the border she drew / moved / her border stakes), which she signs `— the Lady.` so the signature-name framing fits his current awareness. Kenji still has not connected the border-signing Lady to the Coalition's Lych — the reveal beat remains gated. True name "Lady Nyx" remains locked behind the in-setting condition (disposition neutral-or-higher at first meeting with Kenji). Alias rule now enforced project-wide: allies/followers → "the Lady," enemies → "the Lych," true name → reveal-gated to Kenji only.*
 *(H) Vess appearance entry added to `npc_appearance.md` (placed after Sera, before Lady Nyx). Covers build (tall, full-figured, curvy), hair (deep black wavy to mid-back), face (defined, controlled half-smile), eye-shift scale (slate blue-grey → teal/cyan-green on Vigor), Vigor skin-mark (teal-green runic lines under forearms/thighs/collarbones/lower belly), the Council coat uniform details, and off-duty/intimate register. Kenji-only: under-layer of black lace + garter + lace-top thigh-highs beneath the coat.*
-*(I) Minor tracker refinements flagged but not applied: "Source: Book 4 Chapters 1-8 prose" in line 1181 is stale (only Chapters 1–5 exist); Taryn's `Location:` field is forward-projected to the Ashenmere City road but prose ends with her still in the Millhaven street holding the commission letter; TEILEN entry is a DM-prepared NPC with no prose appearance yet. Left as-is pending direction — none are load-bearing.*
+*(I) Minor tracker refinements: Taryn **delivery** canonized **Ashmere 27** off-screen (Ch5 ends street image; tracker bridges gap). TEILEN entry is a DM-prepared NPC with no prose appearance yet.*

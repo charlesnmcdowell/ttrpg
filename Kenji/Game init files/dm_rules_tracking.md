@@ -119,6 +119,19 @@ Kenji's Ronin persona is deliberately theatrical. The reader has seen Books 1-3 
 
 **The DM should audit the NPC roster at every Long Rest:** scan `character_tracker.md` for NPCs with active status, check if each one still has a goal tied to Kenji's current threads, and MIA anyone who doesn't. This prevents the tracker from becoming a maintenance burden and keeps the DM focused on NPCs who matter RIGHT NOW.
 
+### 🎯 ALIVE / IN-PLAY NPC — GOAL INVARIANT (CRITICAL)
+
+**Who this binds:** Any tracker entry with `**Status:** alive` or `**Status:** Active` (capital-A **in-play**, not **`Status: MIA`**).
+
+**Rules:**
+
+1. **≥1 operational goal row.** Each in-play NPC must have **at least one** goal whose `status` column is **`active`**, **`in_progress`**, **`OPEN`**, or another **non-dormant** operational state. Pure worldbuilding text under `### Active Goals` without a table row is **not** enough.
+2. **`dormant` is not a substitute for “alive.”** `dormant` goals are for **clocks not started yet** (pre-introduction threats, “when Kenji learns X”), **or** **secondary** pressure sitting **behind** a non-dormant goal on the **same** character. **A living, in-play NPC may not have a goal table where every row is `dormant`.** If the only goals left are dormant → **add** a current operational goal **or** **MIA** the character until their clock starts.
+3. **Empty goal tables / “No active goals”** on a non-MIA character are **invalid** — fix in the **same** edit: add goals **or** reclassify **`Status: MIA`** with a one-line reason.
+4. **Overdue goals:** When `due_date` / `public_at` passes without an on-screen resolution, the DM **must** (a) **close** the overdue row with an honest outcome (`resolved`, `failed`, `closed_overdue`, etc.), (b) assign a **replacement** operational goal (never dormant-only), and (c) add a **short bullet to the active arc file** in `arcs/*.md` stating **how fallout will show up soon** (courier, summons, board notice, NPC visit, battle order) — then **pay it through play** (see `pallid_march_south_push_arc.md` §0: not as Kenji-omniscient `events[]` dumps).
+5. **Same LR audit:** Long Rest roster scan includes this invariant — dormant-only and empty tables are treated like MIA drift until fixed.
+6. **Engine mirror (optional but recommended):** For goals the table should **date-check** or **auto-chain**, add a row to `kenji_state.json` → **`character_goals`** (see `ttrpg_game_engine.py` — `StoryEngine.process_character_goals()`). The engine **does not** parse `character_tracker.md`; it only runs on JSON. Set `auto_resolve: true` **only** when you want dawn pipeline to close a row and append `replacement` / `consequences` without hand-editing state.
+
 **Reactivation:** An MIA NPC reactivates when Kenji's actions create a new reason for them to matter — returning to their region, a story thread reconnecting, Bane of Eve pulling old relationships back into play, or the player explicitly asking about them. At reactivation, the DM updates their status, location, and goals based on how much in-game time has passed. People change while Kenji is away.
 
 ---
@@ -895,6 +908,7 @@ The DM MUST call for appropriate skill checks whenever the fiction demands it. N
 - **Persuasion (CHA):** Required when the player tries to change an NPC's mind, alter their plans, convince them to do something they weren't going to do, or make a request that goes against the NPC's stated intentions or personality. The more unreasonable the ask, the higher the DC.
 - **Intimidation (CHA):** Required when the player threatens, pressures, or tries to coerce an NPC into compliance through force of personality or implied violence.
 - **Deception (CHA):** Required when the player lies, misleads, or conceals the truth from an NPC who has reason to question them.
+- **No binary-script NPCs (yes-man / no-bot):** Do not run recurring cast—including LG commanders like **Bracken**—as **always yes** or **always no** on persuasion-weighted asks. That flattens humans and makes **CHA and the social skills meaningless.** When the fiction is uncertain, set **DC** from disposition, stakes, prior friction, and how far the ask pushes past their last stance; then **call for Persuasion** (or Intimidation / Deception as appropriate), or a **contest** (e.g. PC Persuasion vs NPC **Insight**, or vs passive Insight). **Irresistible Presence / WIS saves** model **affect and fixation**, not whether persuasion **changes the decision**—run both layers when both apply. **Narrow** auto-fails remain only for true non-negotiables (see **CHA CHECK FOR COMPLIANCE** / core-values examples)—routine professional boundaries are usually **very high DC**, disadvantage, or hard **conditions**, not “no roll.”
 - NPCs are not vending machines. They have plans, moods, loyalties, and limits. An ally who laid out a plan will not abandon it without a good reason AND a successful check. A stranger will not trust the player on charm alone.
 - DC scales with the NPC's disposition, the size of the ask, and how reasonable it is:
   - Friendly NPC + reasonable ask: DC 8–10
@@ -2463,6 +2477,7 @@ When the player's request conflicts with an NPC's personality or desires, the DM
 - **FAIL = the NPC refuses or counter-proposes.** The player must negotiate, compromise, or accept the refusal.
 - **PASS = the NPC complies, but the DM notes the friction.** The NPC agreed — they didn't forget.
 - Some requests are **auto-fail regardless of CHA.** Asking Senna to abandon her squad. Asking Garrett to cook the books. Asking Sera to betray Kenji. Core values can't be charmed away.
+- **LG / rank / consent boundaries** (e.g. “let me into quarters tonight”) are usually **not** in that auto-fail list unless the table explicitly classifies them as impossible—default is **extreme DC**, possible **partial success** (duty officer present, ten minutes in anteroom, blanket through slit, “dawn briefing only”), or **fail forward** (she refuses but relationship/clocks shift). **Still roll** when the PC is actually pressing the point with a social skill; silence is not a substitute for mechanics.
 
 **NPC PERSONALITY ANCHORS — DM MUST CHECK BEFORE EVERY NPC RESPONSE:**
 

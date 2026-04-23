@@ -4,6 +4,8 @@
 Combat: dice, Combatant, Combat, EXPTracker, load_combatant, etc.
 Story: StoryEngine for kenji_state.json — time, economy, clocks, dashboards, AI brief.
 
+**NPC / character goals:** Operational goals that the engine can **date-check** and **optionally auto-advance** live in `kenji_state.json` → **`character_goals`** (list of dicts). The engine **does not** parse `character_tracker.md` markdown tables (fragile); keep tracker as prose-of-record and mirror critical rows into `character_goals` for automation. See `StoryEngine.process_character_goals()` and DM rule **GOAL INVARIANT** in `dm_rules_tracking.md`. Arc prose remains human-edited; the engine can append **`consequences`** / **`world_events`** from goal `on_resolve` payloads when `auto_resolve` is true.
+
 Cross-references:
   DM behavior rules & referee handbook → dm_rules_tracking.md
   Character abilities & narrative details → character_tracker.md
@@ -21,6 +23,11 @@ from dataclasses import dataclass, field
 from typing import Optional, Dict, List, Tuple, Any
 
 def d20(): return random.randint(1, 20)
+
+# character_goals.status values the engine treats as "still ticking" for due / overdue logic
+ACTIVE_CHARACTER_GOAL_STATUSES = frozenset(
+    {"active", "in_progress", "open", "overdue", "active_dm"}
+)
 
 def roll_dice(notation):
     notation = notation.strip().lower()
@@ -1589,6 +1596,12 @@ class StoryEngine:
         self.canon_pointer = d.get("canon_pointer", "")
         self.story_beat = d.get("story_beat", "")
         self.narrative_notes = d.get("narrative_notes", [])
+        # CHARACTER GOALS — machine-readable rows for deadline / overdue / optional auto_resolve
+        # Schema per item: character, goal_id, status (active|in_progress|open|overdue|resolved|mia|closed_overdue),
+        # due_day (engine day), public_day (optional), summary, arc_file (optional doc pointer),
+        # kenji_hook (effect on Kenji — queued text), auto_resolve (bool),
+        # replacement (optional dict — new goal row), on_resolve (optional {append_consequence: {...}}).
+        self.character_goals: List[dict] = list(d.get("character_goals", []))
         
         # CHARACTER SHEET — optional blocks for dashboard / brief (D&D-style; empty = omit in UI)
         self.ability_scores = d.get("ability_scores", {})  # {"STR": 14, "DEX": 16, ...}
@@ -1612,7 +1625,7 @@ class StoryEngine:
             "active_perks", "weapon_config", "weapon_config_detail", "weather_profiles",
             "threat_clocks", "npc_agendas", "org_plots", "world_events", "consequences",
             "reputation", "relationships", "construct_army", "construct_fear", "hegemony_active",
-            "events_active", "canon_pointer", "story_beat", "narrative_notes",
+            "events_active", "canon_pointer", "story_beat", "narrative_notes", "character_goals",
             "ability_scores", "skills", "known_spells", "class_features",
             "_save_version", "_saved_at", "_construct_total_expected",
         })
@@ -1880,6 +1893,7 @@ class StoryEngine:
             "canon_pointer": self.canon_pointer,
             "story_beat": self.story_beat,
             "narrative_notes": self.narrative_notes,
+            "character_goals": self.character_goals,
             "ability_scores": self.ability_scores,
             "skills": self.skills,
             "known_spells": self.known_spells,
@@ -1934,6 +1948,78 @@ class StoryEngine:
         
         return results
     
+    def process_character_goals(self) -> List[str]:
+        """Check `character_goals` against engine `day`. Emits DM alerts; optionally closes a goal
+        and appends `replacement` / `consequences` when `auto_resolve` is true on the goal row.
+        Does **not** edit `character_tracker.md` or arc markdown — DM mirrors fallout there."""
+        out: List[str] = []
+        for g in self.character_goals:
+            if not isinstance(g, dict):
+                continue
+            st = (g.get("status") or "").strip().lower()
+            if st in ("resolved", "mia", "closed", "closed_overdue", "complete", "completed", "superseded"):
+                continue
+            if st and st not in ACTIVE_CHARACTER_GOAL_STATUSES:
+                continue
+            char = g.get("character", "?")
+            gid = g.get("goal_id", "?")
+            due = g.get("due_day")
+            if due is None:
+                continue
+            try:
+                due_i = int(due)
+            except (TypeError, ValueError):
+                continue
+            pub = g.get("public_day")
+            if pub is not None:
+                try:
+                    pub_i = int(pub)
+                except (TypeError, ValueError):
+                    pub_i = None
+                if pub_i is not None and self.day >= pub_i and not g.get("_public_window_announced"):
+                    g["_public_window_announced"] = True
+                    summ = g.get("summary", "")
+                    out.append(f"📣 PUBLIC WINDOW: **{char}** `{gid}` — day {pub_i}+ — {summ}")
+            if self.day == due_i - 1:
+                out.append(f"⏳ GOAL DUE NEXT DAWN: **{char}** `{gid}` (deadline engine day {due_i})")
+            if self.day < due_i:
+                continue
+            if self.day == due_i and not g.get("_due_announced"):
+                g["_due_announced"] = True
+                out.append(f"🎯 GOAL DEADLINE: **{char}** `{gid}` — {g.get('summary', '')}")
+            elif self.day > due_i and not g.get("_overdue_announced"):
+                g["_overdue_announced"] = True
+                hook = g.get("kenji_hook", "")
+                hook_txt = f" Kenji hook: {hook}" if hook else ""
+                out.append(
+                    f"⚠️ GOAL OVERDUE: **{char}** `{gid}` (was due engine day {due_i}).{hook_txt}"
+                )
+            if g.get("auto_resolve") and self.day >= due_i and not g.get("_resolved_by_engine"):
+                g["_resolved_by_engine"] = True
+                g["status"] = (g.get("resolved_status") or "resolved").strip().lower()
+                repl = g.get("replacement")
+                if isinstance(repl, dict):
+                    repl = dict(repl)
+                    repl.setdefault("status", "active")
+                    self.character_goals.append(repl)
+                    out.append(
+                        f"🎯 ENGINE CLOSED **{char}** `{gid}` → replacement `{repl.get('goal_id', '?')}`"
+                    )
+                or_append = g.get("on_resolve") or {}
+                cons = or_append.get("append_consequence")
+                if isinstance(cons, dict):
+                    cons = dict(cons)
+                    cons.setdefault("fired", False)
+                    cons.setdefault("trigger_day", self.day)
+                    self.consequences.append(cons)
+                    c0 = str(cons.get("cause", ""))[:100]
+                    out.append(f"  ⏰ Consequence queued: {c0}")
+                arc_c = g.get("arc_commit")
+                if arc_c:
+                    af = g.get("arc_file", "active arc")
+                    out.append(f"  📜 DM: paste into `{af}` — {arc_c}")
+        return out
+
     def process_new_day(self):
         """Called at dawn each day. Advances ALL world systems."""
         results = []
@@ -1963,6 +2049,10 @@ class StoryEngine:
         for npc, agenda in self.npc_agendas.items():
             if agenda.get("deadline_day") and self.day >= agenda["deadline_day"]:
                 results.append(f"📋 {npc} agenda deadline: {agenda['goal']}")
+        
+        # Character goals (machine-readable; see kenji_state.json character_goals)
+        cg_results = self.process_character_goals()
+        results.extend(cg_results)
         
         # Org plots advance
         for org, plot in self.org_plots.items():
@@ -2951,6 +3041,28 @@ class StoryEngine:
             for req in ("progress", "rate", "trigger"):
                 if req not in clock:
                     warnings.append(f"threat_clock[{name}] missing key '{req}'")
+        for i, g in enumerate(self.character_goals):
+            if not isinstance(g, dict):
+                warnings.append(f"character_goals[{i}] is not an object")
+                continue
+            st = (g.get("status") or "").strip().lower()
+            if st not in ACTIVE_CHARACTER_GOAL_STATUSES:
+                continue
+            due = g.get("due_day")
+            if due is None:
+                continue
+            try:
+                di = int(due)
+            except (TypeError, ValueError):
+                warnings.append(
+                    f"character_goals[{i}] `{g.get('goal_id', '?')}` has non-int due_day"
+                )
+                continue
+            if self.day > di:
+                warnings.append(
+                    f"character_goals OVERDUE: {g.get('character', '?')} "
+                    f"`{g.get('goal_id', '?')}` (engine day {self.day} > due_day {di})"
+                )
         if self._construct_total_expected >= 0 and self.hegemony_active:
             actual = self.total_constructs()
             if actual != self._construct_total_expected:
@@ -3102,6 +3214,35 @@ class StoryEngine:
                 if clock.get("progress", 0) >= 50:
                     lines.append(f"  - Trigger: {clock.get('trigger', '')}")
             lines.append("")
+        if self.character_goals:
+            lines.append("## Character goals (engine)")
+            lines.append("")
+            lines.append(
+                "Rows from `kenji_state.json` → `character_goals` (not parsed from `character_tracker.md`). "
+                "`process_new_day` / dawn pipeline runs `process_character_goals()` — set `auto_resolve` only when a row should mutate without DM hand-edit."
+            )
+            lines.append("")
+            for g in self.character_goals:
+                if not isinstance(g, dict):
+                    continue
+                char = g.get("character", "?")
+                gid = g.get("goal_id", "?")
+                st = g.get("status", "?")
+                due = g.get("due_day", "—")
+                pub = g.get("public_day", "—")
+                auto = "auto" if g.get("auto_resolve") else "manual"
+                summ = (g.get("summary") or "").strip()
+                if len(summ) > 120:
+                    summ = summ[:117] + "..."
+                lines.append(
+                    f"- **{char}** `{gid}` — **{st}** | due_day **{due}** | public_day **{pub}** | {auto}"
+                )
+                if summ:
+                    lines.append(f"  - {summ}")
+                hook = (g.get("kenji_hook") or "").strip()
+                if hook:
+                    lines.append(f"  - Kenji impact: {hook}")
+            lines.append("")
         if self.npcs:
             lines.append("## NPC positions (snapshot)")
             lines.append("")
@@ -3142,6 +3283,43 @@ def _run_story_tests():
     assert "live state" in brief, "Brief missing title"
     assert "## Time and place" in brief, "Brief missing time section"
     print(f"  \u2713 Generated brief ({len(brief)} chars)")
+
+    print("Test 3b: character_goals pipeline...")
+    eg = StoryEngine(
+        {
+            "day": 10,
+            "hour": 6,
+            "character_goals": [
+                {
+                    "character": "TestNPC",
+                    "goal_id": "deadline_goal",
+                    "status": "active",
+                    "due_day": 10,
+                    "summary": "Unit test deadline",
+                    "auto_resolve": True,
+                    "replacement": {
+                        "character": "TestNPC",
+                        "goal_id": "followon",
+                        "status": "active",
+                        "due_day": 20,
+                        "summary": "Replacement goal",
+                    },
+                    "on_resolve": {
+                        "append_consequence": {
+                            "trigger_day": 10,
+                            "cause": "test cause",
+                            "effect": "test effect",
+                            "fired": False,
+                        }
+                    },
+                }
+            ],
+        }
+    )
+    r_new = eg.process_new_day()
+    assert any("ENGINE CLOSED" in x for x in r_new), r_new
+    assert any(g.get("goal_id") == "followon" for g in eg.character_goals)
+    print("  \u2713 process_character_goals auto_resolve + replacement")
 
     # Test 4: Test encounter_roll
     print("Test 4: Test encounter_roll...")

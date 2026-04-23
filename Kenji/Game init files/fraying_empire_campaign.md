@@ -12,11 +12,7 @@ Five threats have been building while Kenji picked berries and trained bears. Ea
 
 **Campaign triggers when:** Kenji's identity or location is exposed. The mechanism doesn't matter — name recognition, power display, ember use, someone puts the pieces together. The moment the world knows where Kenji is, everything converges. Bane of Eve activates. The baby mamas come looking. The kingdom's stewards come begging. And five existential threats come knocking because the one thing keeping them cautious — the legend of the Wizard King — just got a confirmed address.
 
-**Campaign SUCCESS:** All five threats resolved (destroyed, negotiated, contained). The kingdom survives. The completing player gains power, fame, and permanent world-state changes in their favor.
-
-**Campaign FAILURE:** The kingdom falls to **any single threat**. One breach is enough. Partial victories still matter — save three, lose two, the world changes — but the campaign objective is all five.
-
-**Campaign supersedes character.** Player death or absence does NOT end the campaign. The world continues. The threats continue. The clocks continue. Other players from other campaigns can enter and attempt to finish what was started. A failed campaign has severe world ramifications. A successful campaign rewards the player who completes it. **Example:** Early in Book 4, Kenji is not running his own campaign — he's in Amaris's campaign territory (Millhaven, the seal, the dead road). She's absent. He's solving her problems. A player doing another player's campaign content. The world doesn't wait for the "right" player.
+**Campaign ends when:** All five threats are resolved (destroyed, negotiated, contained) OR the kingdom falls. Partial victories are possible — save three territories, lose two. The coalition fractures but survives. The world is different either way.
 
 **Kenji hits Level 40 — Apotheosis — during this campaign.** 300,000 EXP remaining. Five threats provide the content. Bane of Eve provides daily supplemental EXP. The cap is the cap. What happens after Level 40 is the epilogue.
 
@@ -33,7 +29,7 @@ Five threats have been building while Kenji picked berries and trained bears. Ea
 | Stormhaven | Sera (Darkblades) | Stable. Naval territory. Sera's domain. |
 | Ironholt | Dren (Place of Power) | Stable. Eastern anchor. Kex patrols. |
 | Thornwall | Katya (military HQ) | Stable. Army staging ground. 12,000 troops. |
-| Thornkeep | Renna Bracken (garrison) | Stable. Border fortress. Bridge secured. |
+| Thornkeep | Renna Hale (garrison) | Stable. Border fortress. Bridge secured. |
 | Ashward Mines | Garrett (revenue) | Stable. Income source. Quarterly audits. |
 | Bleakmoor | Sealed. Monitoring only. | Dormant. Convergence sealed. |
 | Mordecai Ridge | Vess (administration) | Stable. Former lens site. Portal hub. |
@@ -101,7 +97,7 @@ The mindless undead aren't mindless anymore. Skeleton formations march in ranks.
 
 **The Lych's goal:** She doesn't want the kingdom. She wants the ley network. The coalition's 13 portals are ley-anchored. She can feel them from the Ashenveil — thirteen points of concentrated life energy that she can siphon to fuel mass resurrection. She wants to raise an army of ten thousand and march it north into the coalition's southern territories. She calls it **The Pallid March**.
 
-**The threat:** The March launches in 45 days. Her advance columns are already testing the southern borders — Stormhaven and Thornkeep report "unusual undead activity" that Renna Bracken is logging with increasing alarm. When the full March launches, it hits Thornkeep first. Then Stormhaven. Then the southern farmland. The undead don't eat. Don't sleep. Don't stop. Every coalition soldier who falls rises on her side.
+**The threat:** The March launches in 45 days. Her advance columns are already testing the southern borders — Stormhaven and Thornkeep report "unusual undead activity" that Renna Hale is logging with increasing alarm. When the full March launches, it hits Thornkeep first. Then Stormhaven. Then the southern farmland. The undead don't eat. Don't sleep. Don't stop. Every coalition soldier who falls rises on her side.
 
 **What Kenji can do:** Destroy the phylactery-equivalent — the bronze ring with 4 seams. Without it, her power structure collapses and the undead army loses coordination. But the ring's seams are tied to named anchors (one of which, Corban, is unknown in status), and the 4th seam is being parasitized by the death-binder (a second-order antagonist Kenji does not yet know about). Creation energy (the ember) is devastating against undead — but using it means revealing himself. Alternatively, the coalition army under Katya could fight the March conventionally — but every casualty feeds the enemy. **WARNING:** Intimacy with her (human form) triggers Lover's Vigor, which gives her +50% stats for 5 days and accelerates her conquest to 10% of the kingdom per cycle. The romance path IS the threat path.
 
@@ -109,7 +105,7 @@ The mindless undead aren't mindless anymore. Skeleton formations march in ranks.
 - **Lady Nyx / "the Lych" / "their Lady" / "— the Lady" (border signature)** — Living Lich, Warden-Queen of the Pallid March, Level 32. Chaotic Evil. Over 200 years of patience since her 1042 binding. She speaks in complete sentences from a time before contractions existed. She is not evil in the way villagers use the word — she is *finished* with mortality and believes her path is the natural evolution of all things. She'll negotiate. Her terms are unacceptable. See tracker for Vigor consequence mechanics (romance = kingdom conquest accelerator + capture-Kenji loop) and Close to Death contagion (1%/sec intercourse damage; partners rise as thralls — Sir Corwyn is the canonical exception).
 - **Sir Corwyn the Fallen** — Death Knight, Level 26. **Lawful Good.** Was a paladin of the Oath of Protection. Seduced by Lady Nyx in her Lady form; his paladin CON resisted Close to Death for 72 continuous hours before he finally died. When he died, his Oath warped rather than broke — the *good* survived intact; only the *law* he served was redirected to the Lady. He retains full paladin class features, his personality, his memories, and the silver-inlay sword Oathbreaker that screams in two signatures (holy + necrotic). He hates what he's become but cannot stop loving the thing that did it to him — that tension is the binding. He protects Lady Nyx the way a paladin protects anyone he has sworn to protect: with every tool he has and no hesitation. **Why he serves:** she is the object his Oath now points at; breaking service means breaking Oath, and the Oath is the only thing keeping him sentient. The chest Kenji stole in Ch5 was his. Contents unknown. If Kenji can break the binding, Corwyn becomes an ally. If not, he's the most dangerous single combatant in her army.
 - **Mags** — Halfling grave-robber, Level 8. Lives on the edge of the Ashenveil. Tiny. Foul-mouthed. Has been looting the swamp for twenty years. She knows every path, every sinking pit, every safe camp. She is the guide. She charges ten gold a day and she's worth fifty.
-- **Corporal Jostin** — Thornkeep garrison, Level 10. Renna Bracken's best scout. He's been watching the southern swamp border and his reports are getting shorter and more frightened. The last one said: "They're practicing formations."
+- **Corporal Jostin** — Thornkeep garrison, Level 10. Renna Hale's best scout. He's been watching the southern swamp border and his reports are getting shorter and more frightened. The last one said: "They're practicing formations."
 
 ---
 

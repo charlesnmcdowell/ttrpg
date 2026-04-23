@@ -62,7 +62,7 @@ Node E8 remains a crater. A memorial. Nimue visits it sometimes. She brings pie.
 
 Katya Voss built the army. Twenty thousand soldiers across six territories in five months. She runs them from Thornkeep — the bridge between continents. Thursdays she takes a portal to Varenholm. Nobody asks why.
 
-Renna Bracken held the bridge. She always held the bridge. When the war ended she poured two drinks and waited. He came back. In person. Like he promised.
+Renna Hale held the bridge. She always held the bridge. When the war ended she poured two drinks and waited. He came back. In person. Like he promised.
 
 -----
 
