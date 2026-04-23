@@ -2037,8 +2037,8 @@ Per Ironholt milestone: +10 HP, or +1 Veritas dmg, or +2 Ki, or new enchantment 
 | 12 | Hearts and Minds (C) | Squad kills = solo x4 EXP. Network Awareness (pulse through bracelet on squad success). |
 | 15 | Wizard King (C) | Noble's Interest (gold +50%/day — **INACTIVE**, abdicated to Garrett). Golden Age (2x all org income — still active via Garrett/Pip). |
 | 18 | Sorcerer's Hegemony (C) | Construct Army (1 squad/portal/dawn, 13 portals = 52 constructs/day). Population Fear (scales with count). Constructs: HP 40, AC 16, +8, 1d10+4. |
-| 21 | Bonded Lovers | +1 STR/CON per intimate partner (17 partners = +17/+17). Stats maintained without proximity. |
-| 24 | Soul Nexus | All partner abilities active passively. Regen 333/turn. Blade Dance. Aether Shield. Diagnostic Touch. Hearthsense. Living Ground. Etc. |
+| 21 | Bonded Lovers | +1 STR/CON per intimate partner (21 partners = +21/+21). Stats maintained without proximity. |
+| 24 | Soul Nexus | All partner abilities active passively. Regen 333/turn. Blade Dance. Aether Shield. Diagnostic Touch. Hearthsense. Living Ground. Bloodlust (Mursha — +25% stats/kill). Seal Reader (Haldra — forgery detection by touch). Verbal Archive (Haldra — 1/LR perfect spoken recall 24h). Etc. |
 | 27 | Irresistible Presence | Siren-Elf aura DC 23. Always on. Can't be turned off. **Strong procreative urge toward Kenji** (stack ladder; NOT charm/dominate — full sentience/free will). Vigor + 5-day IP immunity + expiry behavior → `kenji_tracking_OBSOLETE.md`. |
 | 30 | Bane of Eve | **DORMANT** — triggers when Kenji's location is exposed. Daily legendary-class challengers. |
 | 33 | Road Sense + The Long Haul | Trade route awareness 10mi (Breca bond). No travel exhaustion (Breca bond). |

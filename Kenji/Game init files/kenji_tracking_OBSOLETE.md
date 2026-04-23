@@ -339,10 +339,13 @@ Every encounter unique. Names generated fresh. Both can become recurring charact
 | 16 | **Wynn** | Clean Cut | **Diagnostic Touch** (scan wounds/poisons) | B4 Ch4 |
 | 17 | **Taryn** | Iaido Stance (guaranteed crits on drawn cut) | **Steel Sight** (weapon quality/flaws at a glance) | B4 Ch4 |
 | 18 | **Bracken** | **Captain's Read** (intent/rank/allegiance/lie-tells on sight) | **Bond-Form Sight** (read geometry/termination/feeder of any binding contract — paladin oaths, ring bonds, ley-anchors) | B4 Ch6 |
+| 19 | **Brynn** | **Rearguard Sense** (awareness of threats from behind 30ft) | **Hold the Line** (1/LR, immovable 1 round) | B4 Ch8 |
+| 20 | **Mursha** | **Bloodlust** (+25% all stats per killing blow, stacking, combat only) | Power of P (Mursha-personal; rules `dm_rules_tracking.md`) | B4 Ch18 |
+| 21 | **Haldra** | **Seal Reader** (detect forgeries/mismatched tallies by touch, passive) | **Verbal Archive** (1/LR, perfect recall of spoken briefings 24h) | B4 Ch22 |
 
 ---
 
-### BOOK 4 INTIMATE PARTNERS (6 new)
+### BOOK 4 INTIMATE PARTNERS (9 new)
 
 | Name | When | Role | Bond Skill / Perk |
 |------|------|------|-------------------|
@@ -352,6 +355,9 @@ Every encounter unique. Names generated fresh. Both can become recurring charact
 | Wynn | Ashmere 20, Millhaven | Field medic, garrison infirmary | Clean Cut / Diagnostic Touch |
 | Taryn | Ashmere 21-22, Millhaven | Gate guard → commissioned scout (mythril half-plate, thrum halberd) | Iaido Stance / Steel Sight |
 | Bracken | Ashmere 25-26, Millhaven | Watch Captain, Millhaven garrison (19yr service, Coalition Ashenmere rotation) | Captain's Read / Bond-Form Sight |
+| Brynn | Ashmere 27, Thornkeep | Shield-line soldier, Thornkeep garrison | Rearguard Sense / Hold the Line |
+| Mursha | Ashmere 34, Bronzebarrow | Half-orc ex–Iron Mule caravan guard (Bonded #20) | Bloodlust / Power of P |
+| Haldra | Ashmere 36, Bronzebarrow | Dwarf factor clerk, Brass Hitch (Bond #21) | Seal Reader / Verbal Archive |
 
 ---
 

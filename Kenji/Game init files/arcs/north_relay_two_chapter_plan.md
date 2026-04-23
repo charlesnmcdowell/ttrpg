@@ -68,86 +68,99 @@
 
 ---
 
-## Ch22 **OPEN** — prediction (north relay — intel + pressure)
+## Canon played — Book 4 **Ch22–Ch23** (prose closure, Apr 2026)
 
-**Where you are:** **`active_arc`** = **`north_crown_relay`**. Ch22 opens Ashmere 36 Forgeday morning, Brass Hitch luxury suite, Bronzebarrow. Kenji has rested. Mursha has intel on paper. Three threads demand morning attention: (1) **intel handoff** — who gets the western cut leak data? (2) **Cassia** coffer investigation — 24+ hours of factor wire churn, daylight return increases correlation risk. (3) **Oathbreaker** question shelf — *Where’d you get that?* due ~Ashmere 38.
+**Ch22 — “The Morning Ledger”** (`fraying_empire_chapter_22.md`): Haldra desk + private parlor (−8 GP); verbal intel to Kenji; oral relay to Mursha; ends ~Day 258 10:30.
 
-**Arc file map:** **`pallid_march_south_push_arc.md`** = south undead spine **shelf** until return south. **This file** = north relay spine.
+**Ch23 — “The Road Chooses”** (`fraying_empire_chapter_23.md`): Mursha merges ridge+parlor intel to Haldra on paper; **factor guard contract** for north courier; **sealed tube** mis-deliver → Haldra opens → read-aloud for illiterate Kenji (**Hollowing** seed); yard Cassia ambient only; **Day 259** first leg north — “the note changed”; camp with wrong forge-glow on horizon. **Exit bridge:** Kharn-Dural surface gate approach (Threat 2), not west Horde cut.
 
-### Chapter — **”The Morning Ledger”** (consequence + seed)
+**Hooks still unused post-Ch23:** **Gwynn** trackless-boot spotlight, **orc lay-priest** dock blessing, March/Lady **remote ping** — valid Ch24+.
 
-**Campaign objective this chapter serves:** Advance **Threat 2 (The Hollowing / Kharn-Dural)** awareness via sealed tube + deep-forge rumor. Secondary: maintain **identity pressure** (Cassia wire, ronin_identity_pressure at 38%) and **Mursha relationship** tension (Oathbreaker shelf).
+**Ch24 — “The Gate Line”** (`fraying_empire_chapter_24.md`): Two march days; **Mursha** resolves gnomish milepost; **outer Kharn checkpoint** — papers + **BoH** near-miss (bag check blocked); admitted **gate line** Day 260 eve; **Oathbreaker** ask deferred.
 
-**A beats (morning — mandatory)**
-- **Intel handoff decision:** Mursha has the western cut intelligence on paper. Delivery options:
-  - **Haldra** (dwarf factor clerk) — paper chase hook; connects to factor network; Haldra owes a debt and becomes an information broker for Kenji. **Best for:** Hollowing courier path (Haldra has factor connections toward Kharn-Dural surface gates).
-  - **Yard captain** (official channel) — puts Mursha back in factor orbit near Cassia’s Iron Mule. **Risk:** correlation between Mursha’s same-day release and coffer loss becomes visible. **Best for:** identity pressure + Cassia thread acceleration.
-  - **Keep it** — ronin carries intel as leverage. **Best for:** delayed play, but intel has a shelf life (bandits regroup or leak source plugs).
-- **Cassia correlation noise** (ambient, not forced): If Kenji/Mursha re-enter the yard by daylight, **Cassia Vorn** has had 24+ hours to file her loss. Factor wires have churned. The investigation is live — the timing of Mursha’s release + coffer disappearance is a data point someone will notice. **DM plays this as background friction** — a clerk asking Mursha about her release paperwork, a yard hand mentioning “Vorn’s been in a mood.” Not a confrontation. Not yet.
+**Ch25 — “The Proof Line”** (`fraying_empire_chapter_25.md`): Ashmere 38 night, Day 260. Off-checkpoint thread: **Tamsin Vale** (coalition scribe). **Phantom Double** decoy at wagon fire; Kenji slips past lantern line via **Living Ground**. Berm beat — IP exposure (severe, private); **80 GP** escrow closed (Tamsin keeps; literacy lessons delivered). Three coalition hand marks → player-confirmed **”I can read”** (breakthrough stub, not full literacy). Marks erased. Kenji offers “letter to the ronin” future routing — Tamsin: threat dressed as memory. Clone dismissed on return; Mursha slept through. **Phantom Double 1/2**.
+
+**Hooks still unused post-Ch25:** **Gwynn** trackless-boot spotlight, **orc lay-priest** dock blessing, March/Lady **remote ping** — valid Ch26+. **Oathbreaker ask** still deferred (Mursha has not confronted since Ch19).
+
+---
+
+## Ch26 **OPEN** — prediction (Kharn inner shell + pressure convergence)
+
+**Where you are:** **`active_arc`** = **`north_crown_relay`**. Ch26 opens Ashmere 38 night / Ashmere 39 dawn (**Day 260–261**), Kharn-Dural outer checkpoint — factor train in admitted line. Kenji has the sell-sword mask. Mursha is on Haldra-line guard contract. The forge-sight clerk from Ch24 marked the ronin for later scrutiny. Tamsin Vale is in the scribe wagons — a new identity pressure vector. **Mursha’s Lover’s Vigor expires ~Day 261 / Ashmere ~39** — IP immunity drops; first unshielded aura exposure since bonding.
+
+**Arc file map:** **`pallid_march_south_push_arc.md`** = south undead spine **shelf**. **This file** = north relay spine → transitioning to **Kharn-Dural approach**.
+
+### Chapter — **”The Inner Shell”** (checkpoint gauntlet + Hollowing proximity)
+
+**Campaign objective this chapter serves:** Advance **Threat 2 (The Hollowing)** from rumor to sensory proximity — the mountain is wrong and Kenji can feel it through **Living Ground**. Secondary: maintain **identity pressure** (forge-sight clerk round two, Tamsin sightline management, Oathbreaker in BoH) and deepen **Mursha relationship** (Vigor expiry → first raw IP hit since bonding; Oathbreaker shelf now overdue).
+
+**A beats (mandatory — gate passage)**
+- **Inner checkpoint shell:** The admitted line processes overnight or dawn. Kenji + Mursha + factor train must pass through the inner verification gate (heavier than outer — dwarven authority, not coalition courtesy). **Forge-sight clerk** may return for a second pass at the ronin’s gear. Mursha’s rhetoric bought time at the outer shell; inner shell has stricter rules. **BoH risk** — if a dwarf with forge-sight or resonance detection is on the inner gate, Oathbreaker’s muffled signal inside extradimensional space may register. DM decides severity: ambient unease vs direct challenge vs deferred flag.
+- **Tamsin sightline management:** Tamsin is in the same checkpoint complex — scribe wagons process through the same gates. Kenji must avoid being seen with her in a way that contradicts the sell-sword cover, or manage the interaction if she approaches. She knows things that damage cover: illiteracy arc, 80 GP payment (wealthy for a sell-sword), IP effect, “the ronin” self-identifier. **DM plays this as ambient friction** — Tamsin glancing at Kenji across the queue, a scribe colleague asking who the masked man was, proximity without confrontation.
 
 **B beats (pick 1–2, table driven)**
-- **Sealed tube** (Hollowing seed — **priority hook**): A sealed tube with dwarven runes is mis-delivered to the Brass Hitch — wrong room, Kenji’s table. Contents: a **copy** of an emissary plea from Kharn-Dural’s sub-clan (not Thorgrim’s formal request — a lower channel, desperate, unofficial). The letter describes “the note changing beneath the mountain” and requests coalition aid that the absent ArchMagus has not answered. **Information choice:** open, return to Haldra/factor house, sell, burn. **If opened:** first concrete Hollowing intelligence Kenji has received. The seal-song gossip from the common room (Ch18 beat) suddenly has documentation. **If returned to Haldra:** dwarf factor owes a favor marker AND connects Kenji to the courier north path.
-- **Oathbreaker talk** (Mursha trust beat — **due Ashmere 38, soft deadline**): Mursha asked *Where’d you get that?* in Ch19. If Kenji doesn’t address it by Ashmere 38, Mursha’s contract mind files it as **deliberate evasion** (disposition shift −2). The DM can **prompt** this by having Mursha mention the forge visit (“Marthel looked at you different when you pulled that thing out”) during a quiet moment. **Not forced** — player chooses whether to engage or deflect. Either outcome is valid but has consequences.
-- **Gwynn** trackless-boot spotlight: halfling hostler notices Kenji’s Windstrider Boots leave no tracks in the yard mud. Comic beat with teeth — **no gotcha** if Stealth wasn’t in play, otherwise fair passive Perception contest. Diversity moment (halfling observation skills).
+- **Mursha Vigor expiry** (relationship pressure — **automatic**): Lover’s Vigor wears off ~Day 261. The bronze-gold eye ring fades. Mursha is no longer IP-immune. First unshielded exposure to DC 23 aura since their suite night. The DM does not force a WIS save immediately — the moment lands when Mursha next looks at Kenji closely (morning wash, gear check, quiet conversation). **Not a scene — a shift.** The body remembers what the contract mind filed as *handled*.
+- **Oathbreaker confrontation** (Mursha trust beat — **overdue since Ch19**): The inner gate’s forge-awareness environment may trigger Mursha’s memory of Marthel’s reaction. “They looked at you different.” If Kenji deflects again, Mursha’s contract mind moves from *evasion* to *deliberate lie* — disposition shift −3 (harsher than the −2 soft deadline). If Kenji partially answers (half-truth about a found sword), Mursha files it as *incomplete* — no disposition hit but trust does not advance. If Kenji tells the truth (stolen from a death knight), Mursha processes the risk calculus: carrying contraband through a dwarven gate is a contract violation she’s now complicit in.
+- **Living Ground + Hollowing proximity:** Inside the mountain’s perimeter, Kenji’s earth-sense picks up wrongness that was only atmospheric before. The stone under his feet has a tremor that is not seismic — it’s *harmonic*, like a forge note that has drifted flat. This is the **Hollowing** felt through Living Ground: the mountain’s resonance is decaying. First mechanical confirmation (passive, not rolled) — DM may give Kenji a free Nature or Arcana check to interpret what he’s feeling.
+- **Named Kharn NPC** (first interior contact): A **gate captain**, **exile ear** (duergar surface contact), or **factor yard boss** who will recur through the Kharn arc. Introduce through the inner shell processing — someone who notices the ronin because of what he carries, what he hides, or what the earth tells them about him.
 
-**Combat default:** **None** unless Kenji starts one or the western cut bandits have a Bronzebarrow tail (DM’s call — low probability, but the leak source is inside the relay network).
+**Combat default:** None unless inner gate challenge escalates or tunnel-touched creature event (Hollowing symptom — stone mites, resonance vermin, forge-sick construct). Low probability but available if the table needs action.
 
-**End hook:** The sealed tube’s contents (if opened) or Haldra’s reaction (if returned) points north — **Kharn-Dural surface gates** are 4–5 days by relay road. A dwarf factor courier is leaving Ashmere 37 or 38. Kenji can ride with the courier (natural cover: masked sell-sword guarding a factor train) or ignore the hook and stay in Bronzebarrow.
-
----
-
-## Ch23 prediction (north relay — exit bridge + campaign push)
-
-**Campaign objective this chapter serves:** Commit to an **exit vector** that moves Kenji toward a campaign threat clock. **Primary target: Threat 2 (The Hollowing)** — Kharn-Dural, 42 days, the sealed tube + courier north path is the most direct route. **Secondary option: Threat 4 (Iron Horde)** — west toward Sunderplains, 16 days (fastest clock), if the player chooses the western cut road instead.
-
-### Chapter — **”The Road Chooses”** (exit bridge + commitment)
-
-**A beats (mandatory — movement)**
-- **Exit bridge decision:** The table must choose a direction. DM presents the options through NPC pressure, not exposition:
-  1. **Courier north** with dwarf factor toward **Kharn-Dural surface gates** (Threat 2 — The Hollowing). Haldra or a factor clerk is sending a courier. The sealed tube’s contents (if Kenji read it) give him a reason to go. Mursha’s intel handoff (if delivered to Haldra) gives her a reason to escort. **4–5 days relay road.** Diversity maintained: dwarven factor-houses, deep gnome surface traders, possible duergar contact (Grimjaw echo). **This is the DM’s preferred push** — it advances the second-most urgent threat clock and keeps the non-human density goal alive.
-  2. **West cut** toward Sunderplains / Iron Horde ear (Threat 4). The bandit intel revealed coalition manifest leaks — the leak source could trace back toward Horde supply lines. More orcs, goblins, trolls on camera. **Risk:** fastest threat clock (16 days) means the player may arrive mid-mobilization. **Reward:** diplomacy path (Gorath wants a treaty, not war).
-  3. **Double back south** toward Thornkeep (Bracken/Brynn/Pallid March). Emotional, human-heavy. Use sparingly — this reverses the diversity goal. Only if the player insists or a March/Lady remote ping forces it.
-- **Mursha road-or-town decision** (due Ashmere 37): Mursha’s contract mind is evaluating. She has masterwork weapons, new armor, intel value, and a relationship with a man who carries secrets. Does she sign another yard contract in Bronzebarrow (safe, known) or ride with the ronin (unknown, deeper)? **DM nudge:** the courier north needs a guard. Haldra or the factor house would hire Mursha for the run. This gives Mursha a **professional** reason to travel with Kenji — the contract mind needs a contract, not a confession.
-
-**B beats (road beats — pick based on exit chosen)**
-- **If courier north:** First day on the relay road toward Kharn-Dural. Factor train: 3–4 wagons, dwarf teamsters, possible **gnomish** surveyor (milepost maintenance — new NPC, disposable or secondary depending on table). Road narrows as elevation increases. **Deep-forge rumor** becomes **deep-forge fact** — the dwarves on the train know something is wrong under the mountain. They don’t use the word “Hollowing.” They say “the note changed.”
-- **If west cut:** Return to the switchback country. The ridge is cleared but the leak source is not. Tracking the manifest leak toward its origin = investigation arc that points west toward Horde supply lines. More combat-likely than the north path.
-- **Orc lay-priest dock blessing** (if not used in Ch22 and Kenji is still in Bronzebarrow at chapter start): **orc lay-priest** blessing mixed dock loaders at Bronzebarrow’s river tie-up. One scene, explicitly not human-default religion/culture. Diversity set-piece. Can also seed **Iron Horde** awareness — the lay-priest has heard the drums from the Sunderplains.
-
-**Combat default:** Travel encounter **possible** on the relay road (not guaranteed). If combat, it should seed the chosen threat — bandits with Horde iron (west), or tunnel-touched creatures near the mountain approaches (north). **Do not** waste a fight on random wildlife.
-
-**End hook:** Arrival at either (a) the **Kharn-Dural surface gate approach** — the mountain is visible, the forge-glow is wrong, and the dwarves on the train have gone quiet — or (b) the **Sunderplains border** — the grassland opens and the war camp smoke is on the horizon. Either way, the **next arc file** should be written for the chosen threat corridor.
+**End hook:** Factor train admitted to Kharn-Dural surface yard. The mountain is close enough to taste — forge-heat, wrong harmonics, the particular silence of dwarves who know their home is sick. Tube delivery imminent or completed. **Next arc file needed:** `arcs/hollowing_kharn_dural_arc.md` — the north relay arc transitions to Hollowing interior.
 
 ---
 
-## Campaign clock awareness (DM reference — threat push priority)
+## Ch27 prediction (Kharn surface yard — delivery + Hollowing threshold)
 
-| Threat | Clock (days) | Progress | Push priority for Ch22–23 |
+**Campaign objective:** Complete the **sealed tube delivery** (or its interception/complication) and position Kenji at the threshold of the Hollowing interior. This chapter should be the **last surface chapter** before the campaign shifts underground.
+
+### Chapter — **”The Yard”** (delivery + descent hook)
+
+**A beats (mandatory)**
+- **Tube delivery:** The sealed tube reaches its destination — factor house, sub-clan contact, or official channel depending on how the train’s manifest routes it. Kenji’s role as witness-carrier resolves. What comes back: confirmation that the Hollowing is real, that the sub-clan plea was received but unanswered by the absent ArchMagus, and that someone in Kharn-Dural wants outside help badly enough to use unofficial channels.
+- **Mursha contract terminus:** The Haldra-line guard contract covers the courier run to Kharn. Delivery = contract fulfilled. Mursha must decide: sign a return contract (leave Kenji at the mountain), take a new contract inward (if one exists), or stay without professional cover (relationship admission). The contract mind needs a reason. DM provides one if the table wants Mursha to continue.
+
+**B beats (table driven)**
+- **Hollowing briefing** (NPC exposition — earned, not dumped): A named Kharn NPC (gate captain, factor elder, or sub-clan representative) explains what “the note changed” means in dwarven terms. The mountain’s forge-resonance — the harmonic that every dwarf feels in their bones — has been drifting flat for months. Forges that depend on that resonance are failing. The deep halls are sealed. Something is eating the mountain’s song. **This is Threat 2 made concrete.**
+- **Descent hook:** Someone needs to go below. The official channels are sealed (political, not physical). Unofficial routes exist — abandoned ventilation shafts, duergar smuggler paths, exile maintenance tunnels. Kenji’s Living Ground makes him uniquely suited. The question is whether he goes alone, with Mursha, or with a Kharn guide.
+- **Identity pressure convergence:** Forge-sight clerk, Tamsin’s knowledge, Cassia’s wire (if it has traveled this far north), Oathbreaker resonance — multiple vectors are now in the same geographical space. The next Bane of Eve trigger is plausible if any two converge.
+
+**Combat default:** Possible — tunnel-touched creatures at the yard perimeter, or a forge-sick automaton malfunction. Seed the Hollowing as a physical threat, not just a political one.
+
+**End hook:** Kenji stands at a descent point. The mountain hums wrong beneath his feet. The Hollowing is below.
+
+---
+
+## Campaign clock awareness (DM reference — updated post-Ch25)
+
+| Threat | Clock (days) | Progress | Push priority for Ch26–27 |
 |---|---|---|---|
-| **Iron Horde** | 16 | 35% | HIGH — fastest clock, but west cut exit is indirect from current position |
-| **Pallid March** | 27 | 20% | SHELF — Kenji off south spine; remote ping only |
-| **The Hollowing** | 42 | 15% | **PRIMARY** — sealed tube seeds it; courier north is natural; diversity goal served |
-| **Red Court** | 70 | 30% | LOW — Ashenmere is far east; no current hooks in Bronzebarrow |
-| **Twin Wyrms** | 95 | 5% | LOW — slow clock; far north; no current hooks |
+| **Iron Horde** | ~12 | 35% | SHELF — Kenji committed north; Horde clock ticks without him |
+| **Pallid March** | ~23 | 20% | SHELF — off south spine; remote ping only |
+| **The Hollowing** | ~38 | 20% | **PRIMARY** — at Kharn outer gate; 2 chapters to interior threshold |
+| **Red Court** | ~66 | 30% | LOW — no current hooks at Kharn |
+| **Twin Wyrms** | ~91 | 5% | LOW — slow clock; no hooks |
 
-**DM preferred path:** Courier north → Kharn-Dural surface gates → Threat 2 (The Hollowing). Reasons: (1) sealed tube provides organic hook without forced exposition; (2) dwarven/deep gnome/duergar cast maintains Book 4 diversity goal; (3) 42-day clock gives breathing room for travel + 2–3 chapters of Hollowing content before crisis; (4) Mursha’s contract-guard role provides natural companion justification; (5) Amaris’s Bloom Purge shortcut means the Hollowing has a solution path that doesn’t require Kenji revealing himself (keeps identity tension alive).
+*Clocks reduced by ~4 days (travel Bronzebarrow → Kharn, Ashmere 36–38).*
 
-**Identity pressure note:** ronin_identity_pressure at **38%**. Cassia wire + Corwyn’s report (Ashmere 36–38 window) are the next convergence vectors. Leaving Bronzebarrow before Cassia’s investigation crystallizes **reduces** immediate pressure. Arriving at Kharn-Dural with a masked identity **resets** the local NPC awareness slate — but the Oathbreaker in the BoH is a ticking reveal if any dwarf with forge-sight examines it.
+**DM preferred path:** Inner shell → surface yard → descent threshold. Reasons: (1) Kenji is *at the mountain* — the Hollowing is no longer a rumor to seed; (2) Living Ground gives unique PC access to the harmonic decay; (3) Mursha’s contract terminus forces relationship reckoning without artificial drama; (4) forge-sight + Oathbreaker convergence at a dwarven gate is organic identity pressure; (5) the tube delivery closes the north relay arc cleanly and opens the Hollowing interior.
+
+**Identity pressure note:** ronin_identity_pressure at **38%** (pre-Ch25). Tamsin’s knowledge adds +2–4% if she talks. Forge-sight clerk flag from Ch24 is live. Oathbreaker in BoH is the biggest single-event risk at a dwarven stronghold. Estimate **40–44%** entering Ch26. **Bane of Eve trigger zone: 50%.** Two more convergence events could reach it.
 
 ---
 
-## Player-facing promise (2 chapters ahead: Ch22–Ch23)
+## Player-facing promise (2 chapters ahead: Ch26–Ch27)
 
-Kenji gets a **morning of consequences** (intel, Cassia friction, Oathbreaker shelf), a **Hollowing seed** (sealed tube — first concrete evidence of Kharn-Dural crisis), and an **exit decision** that commits the campaign to its next threat corridor. Mursha stays in frame with a **professional reason** to travel (factor guard contract) so the relationship develops through proximity, not declaration. Non-human density continues: **dwarf** factor-houses, **halfling** hostler, **orc** lay-priest, **gnomish** surveyor — minimum four non-human speaking roles across two chapters.
+Kenji gets the **inner checkpoint gauntlet** (forge-sight round two, BoH risk, Tamsin sightline management), **Mursha’s Vigor expiry** (first raw aura hit since bonding — the body remembers), and the **Oathbreaker reckoning** that has been deferred since Ch19. The Hollowing shifts from rumor to **sensory reality** through Living Ground. The sealed tube delivery closes the north relay arc and opens the **descent hook** — someone needs to go below the mountain. Mursha’s contract terminus forces a decision: professional cover or relationship admission. Identity pressure approaches the Bane of Eve trigger zone.
 
 ## Files to sync when prose lands
 
-- `kenji_state.json` — `events[]`, `location`, `quests` (add Hollowing seed if tube opened), optional `world_events` stub.
-- `character_tracker.md` — Haldra goals update (if intel delivered to her); Mursha `decide_road_or_town` resolution; Cassia investigation status.
-- `pallid_march_south_push_arc.md` — remains **shelf**; update only if March/Lady remote ping fires in Ch22.
-- `npc_appearance.md` — no new portraits expected unless gnomish surveyor introduced.
-- `continuity_engine.py` — register any new secondary NPCs (gnomish surveyor, orc lay-priest) with `points_to` links before first use. **Bronzebarrow NPCs not yet registered:** Mursha, Calista, Gwynn, Haldra, Cassia, Marthel need `SECONDARY_NPCS` entries (blocked — user code-change gate).
-- **Next arc file:** When exit bridge commits (end of Ch23), write a new arc file for the chosen threat corridor (`arcs/hollowing_kharn_dural_arc.md` or `arcs/iron_horde_west_arc.md`).
+- `kenji_state.json` — `events[]`, `location` (update to Kharn inner/yard), `charges` (Phantom Double 1/2 from Ch25), Vigor expiry timestamp.
+- `character_tracker.md` — Tamsin Vale entry (add if not present; update disposition + identity risk notes); Mursha Vigor expiry; Phantom Double charge.
+- `dm_rules_tracking.md` — no changes expected unless new mechanical ruling at inner gate.
+- `AI_CONTEXT.md` — update NPC positions (Tamsin at Kharn checkpoint complex), active perks (Phantom Double 1/2).
+- `continuity_engine.py` — new Kharn NPCs need registration (blocked — user code-change gate).
+- **Next arc file:** Write `arcs/hollowing_kharn_dural_arc.md` when Ch26 prose commits to interior approach.
 
 ---
 
