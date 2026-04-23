@@ -1,7 +1,7 @@
 # Character Tracker — Kenji TTRPG
 
-**Current In-Game Date:** Ashmere 34, 1247 AR (**Day 256**, morning → mid-morning on road)
-**Current Location:** **Bronzebarrow** — **The Brass Hitch** inn, common room (**Ashmere 34** ~14:15). Wind Step approach from crown (~**3/5** charges). Meal paid **4 SP**. Kenji **masked**; nodachi per inn/gate custom. Last LR **Ashmere 34 dawn** (captain quarters). North fork **live** (`arcs/north_relay_two_chapter_plan.md`).
+**Current In-Game Date:** Ashmere 35, 1247 AR — **Rootday** (**Day 257**, suite dawn)
+**Current Location:** **Bronzebarrow** — **The Brass Hitch** — **luxury suite** (~**06:30**). **BOOK 4 CH18 COMPLETE** — long rest closed the Mursha suite night; **Mursha** waking (**Lover's Vigor** ~Day 261); **Bonded Lovers 20**; purse **1,452 GP, 188 SP**. **Cassia** coffer investigation **heating**. North relay arc: `arcs/north_relay_two_chapter_plan.md`.
 **Active Book:** Book 4 — Fraying Empire (The Ronin Arc)
 
 > **Cross-references:** DM behavior rules → `dm_rules_tracking.md` (**MIA PROTOCOL** + **🎯 ALIVE / IN-PLAY NPC — GOAL INVARIANT** + **Scene skill preroll** + **Player success integrity**: roll before outcome-dependent prose; PC success = player-favorable beat; no NPC Perception auto-win / no “gotcha” undo) | Game engine & mechanics → `ttrpg_game_engine.py` (`skill_roll`, `contested_skill`, `build_skill_modifier`, CLI `skill`) | Live state → `kenji_state.json` | Cursor agent rule → repo `.cursor/rules/kenji-scene-skill-gates.mdc`
@@ -32,10 +32,10 @@ Every character entry includes a **Morale Compass** value. Use it to decide how 
 
 **Status:** alive
 **Level:** 35
-**Location:** **Bronzebarrow** — **The Brass Hitch** (inn common). **Ashmere 34** afternoon. **Oathbreaker** in **BoH** unless drawn in-scene. **Wind Step** 3/5 after gate approach.
-**Last Updated:** Ashmere 34 (`kenji_state.json` — inn meal)
+**Location:** **Bronzebarrow** — **The Brass Hitch** — **luxury suite** (Ashmere **35** dawn). **Mursha** post-night; **HP 368/368**; **Wind Step** **5/5**; **Smoke-Invis-Clone** **3/3**. **Oathbreaker** in **BoH**.
+**Last Updated:** Ashmere 35 / Day 257 (`kenji_state.json` — **Ch18 end**, full LR refresh)
 
-**Physical:** See npc_appearance.md (pending entry)
+**Physical:** `npc_appearance.md` § **Kenji — Ronin / Blade Channeler**
 **Disposition:** N/A (protagonist)
 **Morale Compass:** Neutral (Player Character — Hiro's call; shiftable as Kenji develops)
 
@@ -111,22 +111,54 @@ Kenji is undercover. **Arcane and Ember abilities are deliberately off the table
 |---------|--------|----------|-----------|--------|-------------|--------------------|
 | iron_key_investigation | Ashmere 22 | TBD | TBD | OPEN | Seal OPENED Ashmere 24 night at terminus (grid H-9). Key LEFT IN THE GROUND. Contents unexplored — Kenji walked away with Elda before looking. Death knight witnessed. Whatever is below the seal is now accessible. | Unknown. The seal is open. The key is unrecovered. |
 | iron_chest_contents | Ashmere 23 | N/A | N/A | RESOLVED | RETURNED to Sir Corwyn at terminus camp, Ashmere 24 night. Contents never opened. Kenji never looked inside. | Corwyn has his chest back. Relationship shifted to Conflicted. |
-| apotheosis_level_40 | ongoing | TBD | N/A | in_progress | 2,214,900 / 2,500,000 EXP. 285,100 to Level 40 (apotheosis cap). Five threats provide the content. Bane of Eve daily supplemental. | Reaching L40 completes the apotheosis arc. Mechanical cap on advancement. |
+| apotheosis_level_40 | ongoing | TBD | N/A | in_progress | **2,270,050** / 2,500,000 EXP (~**229,950** to Level 40). Synced `kenji_state.json` **exp** (Ch18 close). Five threats + Bane supplemental. | Reaching L40 completes the apotheosis arc. Mechanical cap on advancement. |
 
 ---
 
-## BRONZEBARROW — The Brass Hitch (minor NPCs, Ashmere 34)
+## BRONZEBARROW — The Brass Hitch (minor NPCs; **Ch18** closed Ashmere **35** dawn)
 
 Relay-town inn cast; names from `npc_name_bank.md`. Full coloring → `npc_appearance.md`.
 
 | Name | Role | Species | Skin (summary) |
 |------|------|---------|----------------|
 | **Calista** | Barmaid | Human | Warm light golden-beige; freckled nose/cheeks |
-| **Mursha** | Iron Mule caravan guard | Half-orc | **Olive–green tan**, warm undertone; sun-deepened on nose/arms — **locked ref:** `reference_images/mursha_brass_hitch_tavern.png` + `npc_appearance.md` → **DM stages:** (1) professional normal (2) pre-intimacy / IP pressure (3) post-intimacy **Lover’s Vigor** — **bronze-gold eye ring** tell |
+| **Mursha** | Iron Mule caravan guard (severed roster) | Half-orc | **Olive–green tan** — **tavern lock:** `mursha_brass_hitch_tavern.png`; **suite / intimacy locks:** `mursha_brass_hitch_suite_*.png` (seven) — `npc_appearance.md` → **DM stages:** (1) professional (2) pre-intimacy / IP pressure (3) post-intimacy **Lover’s Vigor** — **bronze-gold eye ring** tell |
 | **Haldra** | Dwarf factor clerk | Dwarf | Fair cool base; forge-ruddy cheeks/nose — **required refs by stage:** clerk `haldra_brass_hitch_clerk.png` + `_back.png`; intimacy `haldra_offduty_intimacy_reference.png`; post-vigor `haldra_post_vigor_reference.png`; **DM stages:** (1) normal (2) pre-intimacy/IP pressure (3) post-intimacy **Lover's Vigor** — brass-amber eye ring tell |
 | **Gwynn** | Hostler | Halfling | Sun-kissed golden tan; hazel eyes — **required refs by stage:** work `gwynn_hostler_portrait.png` + `gwynn_hostler_work_back.png`; intimacy `gwynn_intimacy_reference.png`; post-vigor `gwynn_post_vigor_reference.png`; **DM stages:** (1) normal (2) pre-intimacy/IP (3) post-intimacy **Lover’s Vigor** — **emerald / bright green** eye tell |
 
-**Cross-ref:** `arcs/north_relay_two_chapter_plan.md` — north fork spine.
+**Cross-ref:** `arcs/north_relay_two_chapter_plan.md` — north fork spine + **§ Canon played — Ch18**.
+
+### CASSIA VORN — Factor, Iron Mule Freight (Bronzebarrow yard)
+
+**Status:** alive  
+**Met:** yes (Day **256**, IC via **Mursha** escort + Kenji **invis** overwatch)  
+**Location:** **Iron Mule** factor **office**, Bronzebarrow — **Ashmere 35** morning **ledger crisis**  
+**Last Updated:** Ashmere 35 (`kenji_state.json` **npc_states**)
+
+**Physical / voice:** `npc_appearance.md` § **Cassia Vorn** (stub — no portrait lock yet); table: **ledger-first** operator, **neutral** → **hunting** once **floor coffer** + **relay float** vanish.
+
+**Disposition to Kenji:** **Unknown** — she dealt with **Mursha** + **silent illusion-double**; **not** proved as **thief** yet; **same-day** **Mursha** release + **theft** = **pattern** risk if anyone **correlates**.
+
+**Morale Compass:** **Lawful Neutral** — contract, stamp, **clawback** language; **professional** panic when **cash** **walks**.
+
+**Ch18 threads:** Open **investigation**; possible **yard gossip**, **Coalition** wires, **inside-job** suspicion vs **pro** **thief** profile.
+
+---
+
+### MURSHA — Half-orc, ex–Iron Mule guard (Bonded **#20**)
+
+**Status:** alive  
+**Met:** yes — **Brass Hitch** Ashmere **34**; **intimate** (see `relationships.Mursha` in `kenji_state.json`)  
+**Location:** **Brass Hitch** **luxury suite**, Ashmere **35** ~dawn — **post–LR** beside Kenji  
+**Last Updated:** Ashmere 35  
+
+**Disposition to Kenji:** **Intimate** — **Vigor** **~Day 261**; **IP-immune** vs him for window; **saw** **clone** **flicker** (**magic** **twin**); **Deception** on double **failed** — she **knows** **something** **wrong**, **stayed** anyway. **Children:** he **asked**; she **did not** **promise** in **steam**.
+
+**Morale Compass:** **Neutral** — **contract** **mind** reframes **choice**; **values** **honest** **mouth** on **“free”**; will **walk** if **lied** **to** about **terms**.
+
+**Active goals (player/DM):** **Day one** after suite — **road** vs **town** vs **Mule** **blowback**; **90-day** **non-compete** **band** on **crown** **relay** (IC **known** from **buyout**).
+
+**DM — pregnancy (not IC):** **`pending_assessment`** in `kenji_state.json` — Ch18 **exposure** logged; **roll** or **narrative** **lock** **pending**. See **§ DM — PREGNANCY TRACKER**.
 
 ---
 
@@ -687,8 +719,8 @@ This is the duality the story has been gesturing at: a creature of light and und
 
 **Status:** Active (**not MIA** — off-screen with goals)
 **Met:** yes — Book 4 south push; intimate bond; **Lover’s Vigor EXPIRED** predawn **Ashmere 34** per `kenji_state.json` — **no longer IP-immune**; emotional bond unchanged; eyes tell per arc when visible.
-**Location:** **Thornkeep garrison** — officer wing / secure-corridor traffic (**Ashmere 34** morning); **did not** clock Kenji tailing (**Stealth** beat vs passive).
-**Last Updated:** Ashmere 34 (tailed beat; no LOS after Kenji peeled for gates)
+**Location:** **Thornkeep garrison** — officer wing / yard orbit (**Ashmere 35**); Kenji **left north** Day **256** ~**09:00** — she **may** hear **gate** gossip before **Bracken** spells it out.
+**Last Updated:** Ashmere 35 (post–Ch18 Kenji departure — `kenji_state.json`)
 
 **Physical / disposition / Morale Compass:** See `npc_appearance.md` (full build). **Disposition to Kenji:** intimate (**+34**); carries professional discipline + private fear when he goes south alone. **Morale Compass:** Lawful Good — Coalition shield line; opposes Kenji if he burns the border’s trust or abandons innocents for convenience.
 
@@ -709,8 +741,8 @@ This is the duality the story has been gesturing at: a creature of light and und
 
 **Status:** Active (**not MIA** — off-screen with goals)
 **Met:** yes — Ashmere 25, south road patrol zone. Kenji found him on patrol, relayed Hale's briefing and Elda's missing son report. Jostin agreed to search the gap.
-**Location:** **Thornkeep garrison** — **Bracken’s office** corridor (posted outside; **Ashmere 31**).
-**Last Updated:** Ashmere 33
+**Location:** **Thornkeep garrison** — scout rotation / **Bracken** chain (**Ashmere 35**); Kenji **not** on post (departed north Day **256**).
+**Last Updated:** Ashmere 35 (`kenji_state.json` — Ch18 shelf)
 
 **Physical:** Late twenties, lean, dark circles under his eyes. Scout's kit — light armor, short bow, journal in belt. Looks like he hasn't slept well in weeks.
 **Disposition to Kenji:** Cautiously impressed. The masked ronin killed 4 wights and 2 skeleton warriors on his patrol route in one morning. Wants him to stick around.
@@ -732,7 +764,7 @@ This is the duality the story has been gesturing at: a creature of light and und
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| formal_field_report | Ashmere 29 | TBD | N/A | **superseded** | Oral/written debrief **in progress Ashmere 31** in Bracken office before Kenji reveal; finish reporting after Ch17–18 beat resolves. | Coalition strategic picture updates; possible orders trap. |
+| formal_field_report | Ashmere 29 | Ashmere 35 | N/A | **complete** | **Ch18 close:** interrupted **Ashmere 31** debrief **unblocked** by Kenji’s **exit** Day **256** — remaining **oral/written** closure is **routine** **Bracken** **chain** **when** she **calls** it (no longer hostage to guest-in-building). | Jostin’s **truth** **eventually** **lands** **on** **full** **slate**; **Coalition** **paper** **inch** **continues** via **addendum** **rows**. |
 | escort_brynn_contract | Ashmere 29 | TBD | N/A | **complete** | Keep **Brynn** alive northbound. **Ashmere 31:** both alive at Thornkeep — objective satisfied. | — |
 | personal_kenji_math | Ashmere 29 | TBD | N/A | active | Private: reconcile admiration for the ronin with **fear** of what he just walked into; journal margins for truth he won’t say aloud yet. | Shapes first reunion line when POV returns. |
 
@@ -744,8 +776,8 @@ This is the duality the story has been gesturing at: a creature of light and und
 
 **Status:** Active
 **Met:** yes — Ashmere 25, Thornkeep garrison hall (as commander); Ch16–17 office beats with Kenji; **Ch17 close** — private quarters consent arc overnight Ashmere 33→34; **Ashmere 34 morning** Kenji **ghosted** on runner knock (**Stealth**), tailed Brynn, **exited gates** (~09:00) — Bracken **not** played as omniscient; absence lands when she checks quarters / gossip crosses runners.
-**Location:** Thornkeep — **garrison / captain private quarters** (**Ashmere 34**): Kenji **no longer on-site** by mid-morning; **discretion** + `officer_wing_discretion` goal **unchanged** (who saw boots at landing, linen tells).
-**Last Updated:** Ashmere 34 (post-wake egress — see `kenji_state.json` `events[]` day 256 hour ≥7.35)
+**Location:** Thornkeep — **garrison** (**Ashmere 35**): Kenji **departed** north **Ashmere 34** ~09:00; **captain** **routine**; **Vigor** still **on**; **discretion** + `officer_wing_discretion` **unchanged**.
+**Last Updated:** Ashmere 35 (Ch18 close — `kenji_state.json` **npc_states.Bracken**)
 
 **Physical:** Mid-forties, short-cropped dark hair going grey at the temples, scar from ear to jaw. Chainmail under coalition tabard. Weathered. Practical. Cold mug always in hand.
 **Disposition to Kenji:** Intimate-trust after explicit consent beat; LG spine intact — she **chose** the line Persuasion opened; attraction and duty both real; **scandal risk** if corridor gossip catches boot-scuffs. Asked his name — he still didn't give it. **Vigor** window active again (emerald tell) — **immune to IP** until expiry per engine.
@@ -756,6 +788,8 @@ This is the duality the story has been gesturing at: a creature of light and und
 **Important Gear:** Practical steel (dented at the shoulder), garrison command authority.
 
 **Personality:** Low voice. Unhurried. Efficient. Not unfriendly — just doesn't waste words. Pushes chairs with her boot. Reads people fast.
+
+**DM — pregnancy (not IC):** **Active** — conceived **Day 248**; **Kenji unaware**; full row → **`kenji_state.json` `dm_private.pregnancies.Bracken`** and **§ DM — PREGNANCY TRACKER** above.
 
 ### Active Goals
 
@@ -1099,7 +1133,7 @@ This is the duality the story has been gesturing at: a creature of light and und
 
 **Important Gear:** N/A.
 
-**Personality:** Tired. Kind. Certain the treaty matters. Less certain every decade that it will hold. A thousand years of holding the line against his own blood. His first question to Kenji won't be about power — it'll be about the four women carrying his children and what that says about how he treats bonds.
+**Personality:** Tired. Kind. Certain the treaty matters. Less certain every decade that it will hold. A thousand years of holding the line against his own blood. His first question to Kenji won't be about power — it'll be about the **children he doesn't know he's fathered** (**Sera**, **Pip**, **Bracken** canon; **Mursha** pending DM) and what that says about how he treats bonds.
 
 ### Active Goals
 
@@ -1267,31 +1301,46 @@ Last-known states preserved in AI_CONTEXT.md. Promote to full tracker entries on
 
 ---
 
-## THE FOUR MOTHERS — MIA (arrivals triggered by Kenji's location becoming known)
+## DM — PREGNANCY TRACKER (Book 4)
 
-Each of the four women carrying Kenji's children has a distinct arrival trigger and behavioral pattern. Arrival is not the same as knowing the father — several of them have chosen what Kenji will and won't be told. Morale compass tracked per arrival.
+**Authoritative machine copy:** `kenji_state.json` → `dm_private.pregnancies` (**DM ONLY** — not PC knowledge).
 
-### Pip's Arrival (mother #1)
+| Name | Status | Due / notes | Kenji knows? |
+|------|--------|-------------|--------------|
+| **Sera** | **Keeping** — active | ~Hollowmere/Ironveil (Season of Dark); ~7–8 mo | **No** — finds out in-room |
+| **Pip** | **Keeping** — active | ~Hollowmere/Ironveil; ~7–8 mo | **No** — Brenn may force the issue |
+| **Bracken** | **Keeping** — active | Conceived **Day 248** (Ashmere 26); **Day 257** still **too early** IC for self-diagnosis; due ~Month **11–12** | **No** |
+| **Mursha** | **Pending** | Ch18 **exposure** (multiple qualifying finishes); **no roll** logged — **DM** resolves | N/A until confirmed |
+| **Brynn** | **Not pregnant** | Rolled clear vs threshold (`dm_private`) | — |
+| **Senna, Elara, Thessaly** | **Terminated** | — | — |
+
+**Bracken note:** **Ashmere 33→34** quarters repeat **does not** stack a **second** pregnancy (`ashmere_33_34_note` in JSON).
+
+---
+
+## CONFIRMED MOTHERS — ARRIVAL TRIGGERS (Bane / location known)
+
+Only **Pip**, **Sera**, and **Bracken** are **confirmed carrying** as of Day **257**. **Mursha** is a **separate** flag until `pregnancies.Mursha.status` updates.
+
+### Pip's Arrival
 **Trigger:** Location known → immediate.
 **Behavior:** Arrives with a ledger, a baby, and a list of things the empire needs. No drama, no ultimatum. Just: "Here are the facts. Here is the child. Here is what comes next."
 **Morale Compass:** Lawful Good (see Pip entry above).
 
-### Sera's Arrival (mother #2)
+### Sera's Arrival
 **Trigger:** Never — she won't come.
 **Behavior:** Waits. Refuses to chase. **Kenji must come to her.** If he doesn't, she raises the child at the Darkblades HQ and lets him find out on his own schedule. She is not hiding; she is refusing to perform the reunion.
 **Morale Compass:** Lawful Good (see Sera entry above).
 
-### Senna's Arrival (mother #3)
-**Trigger:** DM decides based on her pregnancy choice. If kept: she may not tell him. If she shows up, it's about the War College, not the baby.
-**Behavior:** Professional. Deflective. Whatever she came for, the child isn't officially on the agenda.
-**Morale Compass:** Chaotic Good — see Distant NPCs.
+### Bracken's Arrival (mother #3 — **active**, undiscovered IC)
+**Trigger:** Location known **or** **garrison** rumor / **officer_wing_discretion** math — she **does not** chase him; he **sees** her **or** **hears** through **Coalition** channels.
+**Behavior:** **Lawful Good** commander first — child is **secondary** in **public** **mask** until **showing** forces **the** **conversation**.
+**Morale Compass:** Lawful Good (see **COMMANDER RENNA BRACKEN** above).
 
-### Elara's Arrival (mother #4)
-**Trigger:** DM decides based on her pregnancy choice. If kept: she has buried the paternity.
-**Behavior:** Arrives as Chancellor with Academy business. The child is not mentioned.
-**Morale Compass:** Lawful Good (see Elara entry above).
+### Archived — Senna & Elara (pregnancies **terminated**)
+**No arrival-for-baby beat** — if they appear, it is **professional** (War College / Chancellor), not **carrying** **Kenji’s** **child**.
 
-**Shared mechanic:** All four arrivals compete with the 5 campaign clocks for Kenji's time. Each one is a pull on the protagonist during a period when every day matters.
+**Shared mechanic:** Active-mother arrivals compete with the **five** campaign clocks. **Mursha** (if upgraded to confirmed) adds a **fourth** **active** **pregnancy** **lane** — **sync** JSON **before** **running** **Bane** **convergence**.
 
 ---
 
@@ -1336,7 +1385,7 @@ Each of the four women carrying Kenji's children has a distinct arrival trigger 
 | still_night_approaches | Ashmere 19 | ~Lathmere 15 | N/A | in_progress | Winter solstice holiday. Family, warmth, speaking difficult truths. ~21 days from current date (Ashmere 24). | Seasonal shift. Social expectations change. Characters who celebrate may seek Kenji out. Emotional vulnerability rises across all NPCs. |
 | pallid_march_border_shift | Ashmere 23 | ongoing | Ashmere 27 (Coalition intake) | in_progress | Border has moved 15 miles north of official maps. Kenji discovered the shift at caravan circle (Ashmere 23-24). **Taryn filed** Bracken-chain intel + commission **Ashmere 27** — **Coalition now has the claim on paper**; speed of *belief* / redeploy still politics-limited. | Shockwave when brass acts on it, not when clerk stamps receipt. |
 | thornfield_recovery | Ashmere 11 | ongoing | local knowledge only | in_progress | Greenveil corruption cleared. Ley lines clean. Village returning. Soil healing. | Thornfield becomes a viable settlement again. Amaris anchors it. Delia rebuilds community. |
-| bane_of_eve_trigger | Ashmere 24 | undefined | N/A | pending | **Master trigger — starts all 5 campaign threat clocks simultaneously.** Kenji's identity or location becoming known to the wider world. Possible trigger events: (1) Ember use at scale (Mordecai detects, ripples to allies), (2) Aura overexposure / charm-affected NPC reports a siren-elf aura, (3) **Coalition council review** cross-connects Taryn’s **filed** packet (includes **Kenji** + ronin intel where she swore truth) to wider identification — **delivery already happened**; risk is **political correlation**, not “lost letter,” (4) Amaris's Root Network reaches Millhaven's region, (5) Wynn publishes her research, (6) Vess's intelligence network traces the ronin back to him, (7) Senna/Elara/Pip actively search and succeed, (8) Lady Nyx identifies him if encountered and chooses to broadcast. **Any one of these pops the disguise.** | All 5 threat clocks begin counting. Four Mothers arrival triggers activate (Pip arrives, Sera waits, Senna/Elara DM-dependent). Vess gets a location to be angry at. Allies stop searching blindly and start converging. The ronin stops working as a cover. |
+| bane_of_eve_trigger | Ashmere 24 | undefined | N/A | pending | **Master trigger — starts all 5 campaign threat clocks simultaneously.** Kenji's identity or location becoming known to the wider world. Possible trigger events: (1) Ember use at scale (Mordecai detects, ripples to allies), (2) Aura overexposure / charm-affected NPC reports a siren-elf aura, (3) **Coalition council review** cross-connects Taryn’s **filed** packet (includes **Kenji** + ronin intel where she swore truth) to wider identification — **delivery already happened**; risk is **political correlation**, not “lost letter,” (4) Amaris's Root Network reaches Millhaven's region, (5) Wynn publishes her research, (6) Vess's intelligence network traces the ronin back to him, (7) **Pip/Sera** (or allies) actively search and succeed — **Senna/Elara** **not** on **pregnancy** **arrival** **list** (**terminated**), (8) Lady Nyx identifies him if encountered and chooses to broadcast. **Any one of these pops the disguise.** | All 5 threat clocks begin counting. **Confirmed** mother arrivals: **Pip** / **Sera** / **Bracken** (see **DM — PREGNANCY TRACKER**). **Mursha** TBD. Vess gets a location to be angry at. Allies stop searching blindly and start converging. The ronin stops working as a cover. |
 | coalition_response_to_border | Ashmere 27 | ~Ashmere 35-40 | Ashmere 27 (packet filed) | pending | Coalition clerk stack **has** Taryn’s border/undead intel; **council** must still **decide** what to do (slow politics). Possible responses: (1) Redeploy garrisons toward Millhaven, (2) Send a fact-finding delegation (risky — they'd go to the grove), (3) Deny it / suppress it to avoid panic, (4) Brief Vess / Katya, (5) Internal vote on Coalition intervention. | Depends on response chosen. Garrison redeployment = allies near Millhaven. Delegation = possibly triggers Pallid March clock. Denial = intel gap persists. Briefing Vess = she demands to know where Kenji is (partial Bane of Eve). |
 
 ### Campaign Goals — The Fraying Empire (5 Threats)

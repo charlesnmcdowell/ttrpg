@@ -11,6 +11,22 @@
 
 ---
 
+## Canon played — Book 4 **Ch18** (table closure, Apr 2026)
+
+**Note:** The live run **compressed** planned Ch1 “tube” + Ch2 dock beats into a **Mursha / Iron Mule** spine the same cluster. Treat the outline above as **still available** for Ch19+ unless the table explicitly retcons it.
+
+**Locked beats** (see `kenji_state.json` `events[]`, `statuses`, `npc_states`, `quests`):
+
+- **Day 256** — Thornkeep **ghost egress**; crown road **help** (5 SP thanks); **Wind Step** into **Bronzebarrow**; **Brass Hitch** meal; **100 GP** table maneuver; **Mursha** → **Iron Mule** yard same afternoon.  
+- **Factor Cassia Vorn** — release package **~70 GP 10 SP**; paperwork **done**; Kenji (**G.Invis**) **Sleight** plants coin; **Perception** spots **floor coffer**; after double walks away, Kenji **Stealth + Sleight** **steals strongbox** → **BoH**, empties to purse (**relay float** + buyout returned); **empty** box kept; **Cassia** **morning Ashmere 35** **confirms** loss — **investigation** live, **Mursha** same-day release = **correlation risk**.  
+- **Brass Hitch** — **Sleight** **clone swap FAIL** (Mursha sees **flicker**); **Persuasion** keeps her following; **30 GP** suite + dinner (**Calista**).  
+- **Suite** — unmask; **IP** saturation; consent **armor off** / tub; **children** topic **asked**, **no promise**; **Lover’s Vigor** on qualifying intimacy; **fade** night (multiple internal finishes per table).  
+- **Day 257 / Ashmere 35 dawn** — **LR**; full **charge** refresh; **HP 368**; **Bonded Lovers 20**; **Mursha** vigor **~Day 261**.  
+
+**Hooks not used in Ch18** (DM may deploy later): mis-delivered **sealed tube**, **Gwynn** trackless-boot spotlight, **Haldra** paper chase, **orc lay-priest** dock blessing, March/Lady **remote ping** choice — still valid **north relay** fuel.
+
+---
+
 ## Chapter 1 — **“Smoke in a Straight Line”** (arrival + ear)
 
 **A beats**
@@ -52,9 +68,10 @@ Kenji gets **a town**, **a problem that isn’t undead**, and **at least five sp
 
 ## Files to sync when prose lands
 
-- `kenji_state.json` — `events[]`, `location`, optional `world_events` stub.  
-- `character_tracker.md` — Bronzebarrow NPC stubs **after** names harden in play.  
-- `pallid_march_south_push_arc.md` — add one-line “Kenji **off** south spine” pointer so GMs don’t think the arc file expired.
+- `kenji_state.json` — `events[]`, `location`, optional `world_events` stub. (**Ch18** table run **already** synced — use as template.)  
+- `character_tracker.md` — Bronzebarrow NPC stubs **after** names harden in play. (**Cassia** + **Mursha** blocks added Ch18 close.)  
+- `pallid_march_south_push_arc.md` — session truth + “Kenji **off** south spine” shelf behavior (**updated** Ch18).  
+- `npc_appearance.md` — **Cassia Vorn** stub until portrait locks.
 
 ---
 

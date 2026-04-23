@@ -426,6 +426,8 @@ She does not casually switch to human. She switches for one reason: she wants so
 
 > **Note:** Other Mursha renders exist (private / out-of-scene). **Canon kit, scars, and proportions for Book 4 prose** follow **this tavern ref** only — do not import alternate wardrobe or staging into inventory.
 
+**Private suite / intimacy staging (The Brass Hitch, Book 4 Ch18+):** seven additional locks under `reference_images/` — `mursha_brass_hitch_suite_armor_back_01.png`, `mursha_brass_hitch_suite_armor_kneel_01.png`, `mursha_brass_hitch_suite_lingerie_back_01.png`, `mursha_brass_hitch_suite_lingerie_pose_01.png`, `mursha_brass_hitch_suite_lingerie_pose_02.png`, `mursha_brass_hitch_suite_lingerie_prone_01.png`, `mursha_brass_hitch_suite_green_aura_01.png`. Use for **stage 2–3** private beats only. **Green aura / glow** in art matches **stage 3 (Lover’s Vigor)** eye-and-presence tell only when vigor is **actually active** in play; during **stage 2** keep **dark brown eyes** and **no** supernatural ring per mode register below.
+
 **Build:** Half-orc. **Powerful athletic** frame — **heavy delts and biceps**, visible definition; **narrow toned waist**; **thick muscular thighs**. Reads as **spear-and-shield** professional first, ornament second. **Bust** is **large**; armor is cut to **clear** shoulders and arms for work.
 
 **Hair:** **Jet black**, **tight cornrows** pulled back; several braids carry **silver metal rings/cuffs** (not bronze — clan or company habit).
@@ -476,6 +478,18 @@ Use **one** mode per scene unless the arc is explicitly crossing a boundary. Rul
   - **Off-stack:** back to dark brown; IP saves **resume** if she **views** him
 - **Stats:** **+50% all stats** (table); prose may show **endurance / carry / grip** without breaking **locked** body reference proportions.
 - **Wardrobe:** Same ref **silhouette** unless scene is explicitly **off-duty** — vigor does not rewrite armor.
+
+---
+
+## Cassia Vorn — Factor, Iron Mule Freight (Bronzebarrow)
+
+**[Reference image — none locked yet.]** Ch18 table: ledger operator for **Mursha** release + **floor coffer** theft fallout.
+
+**Role read:** Human (default) or **human-leaning** **mixed** heritage per table — **factor** voice: **clean** diction, **numbers-first**, **stamp-and-seal** habits. **Ashmere 35+:** **sleep** **gone** — **professional** **hunt** **mode** once **morning** **count** **fails**.
+
+**Wardrobe (working head-canon until refs):** **Iron Mule** **tabard** or **neutral** **factor** **coat**; **ring** **cluster** at **belt** (**coffer** **key** **was** **on** **hand**); **hair** **neat** **back**; **ink** **smudge** **acceptable** on **dominant** **hand**.
+
+**Tracker / state:** `character_tracker.md` § **CASSIA VORN**; `kenji_state.json` **npc_states**.
 
 ---
 

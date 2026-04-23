@@ -4,13 +4,15 @@
 
 **If Kenji leaves the south spine** (e.g. north crown travel, new relay towns): this file becomes **reference + unpaid threads**, not “inactive lore.” Shelf items (Pair A, Oathbreaker paper, Lady pings) may **catch up by courier** — see `arcs/north_relay_two_chapter_plan.md` for a **2-chapter** north relay + mixed-species cast plan.
 
-**Session truth (sync Ashmere 33 ~morning, 1247 AR — Day 255):**
+**Session truth (sync Ashmere 35 ~dawn, 1247 AR — Day 257):**
 
 - **Ch14 COMPLETE** — east verge ~mile 17; **Corwyn** disarmed; **Oathbreaker** → **BoH**; **Brynn** reunion.  
 - **Ch15 COMPLETE** — party **split**; Kenji **March forward cordon**; **Lady** audience; guest chamber **LR** Ashmere 30 dawn.  
-- **Ch16 COMPLETE** — same Ashmere 30 → 31: inner cordon beats; **Seren** mask-name; **leak** + **bronze trophy**; **egress**; **Thornkeep Waystation**; **LR** Ashmere 31 dawn.  
-- **Ch17 IN PROGRESS** — luxury provender; **garrison**; **smoke-clone** + **invis** overwatch; **Oathbreaker** briefly **manifest** in **Bracken’s office** (grease on steel); Jostin+Brynn cleared for **closed door** debrief; Waystation **room waits** Ashmere 31–32 (no knocks); **Ashmere 33** Kenji **comes to Bracken** for **live border status** (first IC delivery of runner/paper threads — see §0).  
-- Prose canon: `fraying_empire_chapter_15.md`–`17.md`; machine state: `kenji_state.json` (gitignored). If anything disagrees, **last chapter prose wins**.
+- **Ch16 COMPLETE** — inner cordon beats; **Seren** mask-name; **leak** + **bronze trophy**; **egress**; **Thornkeep Waystation**; vigil nights **Ashmere 31–32**; **LR** Ashmere 32 dawn.  
+- **Ch17 COMPLETE** — **Ashmere 33** office border brief; PM **Persuasion** path → **captain quarters** overnight **33→34**; **Lover’s Vigor** reset; **Ashmere 34** predawn **LR**; Kenji **Stealth** egress on runner knock, **north gate** exit ~**09:00** Day **256** (no formal goodbye).  
+- **Ch18 COMPLETE** — crown road north → **Bronzebarrow**; **Iron Mule** (**Cassia Vorn**) **Mursha** buyout; Kenji **floor coffer theft**; **Brass Hitch** luxury suite + **Mursha** arc (**clone flicker** seen; **Deception** on double **failed**); suite **LR** **Ashmere 34→35**; **Bonded Lovers 20**. See `arcs/north_relay_two_chapter_plan.md` § *Canon played — Ch18*.  
+- Kenji is on the **north relay** vector — this file is **shelf + unpaid south threads** until he returns or a **rider/courier** catches him.  
+- Prose / machine: `kenji_state.json` is authoritative for timestamps and purse; chapter `.md` stubs optional. If anything disagrees, **last played table beat wins**.
 
 ---
 
@@ -32,7 +34,8 @@
 - **Millhaven → Ashenmere commission** — **`resolved`**: Taryn **filed** Bracken-chain / undead intel **Ashmere 27** (career handoff + proof-of-capability beat; see `character_tracker.md` — **Taryn**). Prior **nondelivery / `closed_overdue` fork RETRACTED** (AI bookkeeping error). Ongoing tension is **council review + name correlation**, not “missing packet.”  
 - **March / Lady** — sympathy pings, trophy, grease on blade: **sensations or intel** only when the scene **earns** them (never “because the JSON said so”).
 
-**Ashmere 33 default scene:** Bracken **IC** pays **Pair A** verbal (see Beat 8b). **Jostin addendum / Coalition eyes-only routing** pays **only** if Kenji **asks** in that office beat — else stays shelf. **Brynn avoidance / Lady pings** stay shelf until played. **Do not** default a “Taryn nondelivery courier” — her intake beat is **closed**.
+**Ashmere 33 default scene (historical — Ch17 table):** Bracken **IC** pays **Pair A** verbal (see Beat 8b). **Jostin addendum / Coalition eyes-only routing** pays **only** if Kenji **asks** in that office beat — else stays shelf. **Brynn avoidance / Lady pings** stay shelf until played. **Do not** default a “Taryn nondelivery courier” — her intake beat is **closed**.  
+**Current anchor (post–Ch18):** Kenji **left** Thornkeep **Day 256**; **south** shelf threads may **catch up** by **courier** or **rumor** while he is at **Bronzebarrow** / **north relay** — see `north_relay_two_chapter_plan.md`.
 
 **If it’s urgent,** an NPC **shows up** — silence is a **choice**, not a default.
 

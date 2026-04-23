@@ -2242,14 +2242,14 @@ Gold is RARE. Most people never hold a gold piece. The economy runs on copper an
 | 50-100 GP | Major magical items, a city estate, a trading vessel | $250,000-500,000 |
 | 100+ GP | Extremely rare artifacts, noble estates, institutional purchases | $500,000+ |
 
-**Kenji's Current Wealth in Context:**
-- 9 GP, 9 SP, 8 CP = ~$45,454 USD equivalent
-- This is roughly 8-12 MONTHS of a skilled tradesman's income sitting in his pocket
-- He is genuinely wealthy by common standards — a man walking around with the equivalent of a new truck in his coin purse
-- He could live comfortably for half a year on this alone without working
-- He could buy weapons, armor, supplies, and services with ease
-- He CANNOT casually buy enchanted items — those are house-money purchases
-- His guild income will make him seriously rich over time: the 40 GP/month Council contract alone is $200,000/month flowing through the guild
+**Kenji's Current Wealth in Context:** *(update this when gold changes significantly)*
+- ~1,141 GP = ~$5,705,000 USD equivalent (as of Ashmere 34, Book 4 Ch17)
+- This is institutional money — the equivalent of a small estate or a merchant fleet's operating capital
+- He is extraordinarily wealthy by any common standard; a man carrying a fortune that would buy a village outright
+- He can comfortably fund years of campaign operations, hire armies, purchase property
+- Enchanted items are still significant purchases but no longer out of reach
+- His guild income compounds this further: the 40 GP/month Council contract alone is $200,000/month flowing through the guild
+- **DM note:** At this wealth level, gold on the counter is not impressive — it is frightening. NPCs who learn what he carries will react with fear, greed, or political calculation, not gratitude
 
 **NPC Reactions to Money — DM MUST APPLY:**
 - **Copper on the counter:** Normal transaction. No reaction. The currency of daily life.

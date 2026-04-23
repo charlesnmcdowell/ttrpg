@@ -3332,8 +3332,14 @@ class StoryEngine:
             for k, v in sorted(self.spell_slots.items(), key=lambda x: int(x[0])):
                 slot_parts.append(f"L{k}:{v[0]}/{v[1]}")
             lines.append("- **Spell slots:** " + " ".join(slot_parts))
+        usd_equiv = (self.gold * 5000) + (self.silver * 50) + (self.copper * 0.5)
         lines.append(
-            f"- **Wealth:** {self.gold} GP, {self.silver} SP, {self.copper} CP | **meals** {self.meals}"
+            f"- **Wealth:** {self.gold} GP, {self.silver} SP, {self.copper} CP (~${usd_equiv:,.0f} USD) | **meals** {self.meals}"
+        )
+        lines.append(
+            "  - *Economy ref:* 1 GP = $5,000 | 1 SP = $50 | 1 CP = $0.50 — "
+            "price all goods/services at real-world equivalents. Use CP/SP for daily trade, "
+            "GP only for major purchases. See `dm_rules_tracking.md` § **WORLD ECONOMY REFERENCE** for full pricing tables and NPC reactions."
         )
         if self.weapon_config:
             lines.append(

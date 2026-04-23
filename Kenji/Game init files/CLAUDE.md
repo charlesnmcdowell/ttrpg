@@ -1,6 +1,6 @@
 # Instructions for AI assistants (Kenji — Game init files)
 
-This folder holds live campaign tooling and trackers. Read **`tracking_rules.md`** before editing tracked prose or state. For any scene hinging on **Stealth / Sleight / social / Perception / saves**, read **`dm_rules_tracking.md`** → **Scene skill preroll** + **Player success integrity** (roll first; PC success wins the beat; no NPC auto-Perception or gotcha undo). Roll helpers: **`ttrpg_game_engine.py`** (`skill_roll`, `contested_skill`, …); CLI `python ttrpg_game_engine.py skill …`. Cursor rule: repo **`.cursor/rules/kenji-scene-skill-gates.mdc`**.
+This folder holds live campaign tooling and trackers. Read **`tracking_rules.md`** before editing tracked prose or state. For any scene hinging on **Stealth / Sleight / social / Perception / saves**, read **`dm_rules_tracking.md`** → **Scene skill preroll** + **Player success integrity** (roll first; PC success wins the beat; no NPC auto-Perception or gotcha undo). For any scene involving **trade, purchases, wages, or pricing**, read **`dm_rules_tracking.md`** → **WORLD ECONOMY REFERENCE** (1 GP = $5,000 USD; use CP/SP for daily commerce; price goods at real-world equivalents). Roll helpers: **`ttrpg_game_engine.py`** (`skill_roll`, `contested_skill`, …); CLI `python ttrpg_game_engine.py skill …`. Cursor rule: repo **`.cursor/rules/kenji-scene-skill-gates.mdc`**.
 
 ---
 

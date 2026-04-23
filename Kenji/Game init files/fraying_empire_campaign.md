@@ -14,7 +14,7 @@ Five threats have been building while Kenji picked berries and trained bears. Ea
 
 **Campaign ends when:** All five threats are resolved (destroyed, negotiated, contained) OR the kingdom falls. Partial victories are possible — save three territories, lose two. The coalition fractures but survives. The world is different either way.
 
-**Kenji hits Level 40 — Apotheosis — during this campaign.** 300,000 EXP remaining. Five threats provide the content. Bane of Eve provides daily supplemental EXP. The cap is the cap. What happens after Level 40 is the epilogue.
+**Kenji hits Level 40 — Apotheosis — during this campaign.** ~230,000 EXP remaining at Ch18 close (sync `kenji_state.json` **exp**). Five threats provide the content. Bane of Eve provides daily supplemental EXP. The cap is the cap. What happens after Level 40 is the epilogue.
 
 ---
 
@@ -29,7 +29,7 @@ Five threats have been building while Kenji picked berries and trained bears. Ea
 | Stormhaven | Sera (Darkblades) | Stable. Naval territory. Sera's domain. |
 | Ironholt | Dren (Place of Power) | Stable. Eastern anchor. Kex patrols. |
 | Thornwall | Katya (military HQ) | Stable. Army staging ground. 12,000 troops. |
-| Thornkeep | Renna Hale (garrison) | Stable. Border fortress. Bridge secured. |
+| Thornkeep | Renna Bracken (garrison) | Stable. Border fortress. Bridge secured. |
 | Ashward Mines | Garrett (revenue) | Stable. Income source. Quarterly audits. |
 | Bleakmoor | Sealed. Monitoring only. | Dormant. Convergence sealed. |
 | Mordecai Ridge | Vess (administration) | Stable. Former lens site. Portal hub. |
@@ -44,7 +44,7 @@ Five threats have been building while Kenji picked berries and trained bears. Ea
 - **Portal network.** 13 portals are the logistics backbone. Destroying even one creates a gap.
 - **Political legitimacy.** The Council never fully accepted Kenji's authority. Without him present, factions are reorganizing. Vess is holding them off. Barely.
 - **Military stretch.** 12,000 troops across 12+ territories. Katya is competent but she can't be everywhere. A two-front war breaks the army.
-- **The four pregnancies.** Sera, Pip, Senna, Elara — four women carrying or raising the Wizard King's children. Political leverage. Hostage potential. Succession crisis. None of this is public yet. When it becomes public, the politics explode.
+- **The hidden children (confirmed).** **Sera**, **Pip**, and **Bracken** are **actively pregnant** (Kenji does not know). **Senna / Elara / Thessaly** pregnancies were **terminated** (canon in `kenji_state.json` `dm_private.pregnancies`). **Mursha** (Book 4 Ch18) has **exposure logged** — **DM** must **confirm** or **deny** conception; not in the “three confirmed” count until updated. Political leverage. Hostage potential. Succession crisis. None of this is public yet. When it becomes public, the politics explode.
 
 ---
 
@@ -185,7 +185,7 @@ Irresistible Presence has no effect on dragons (non-humanoid). Dragonborn — ro
 
 **Key NPCs:**
 - **Vorathiel the Conqueror** — Ancient Red Dragon, Level 38. She is not a villain. She is a mother protecting her children from a species that keeps getting more dangerous. She watched the Sundered Gate. She watched the Iron Crown War. She watched a single human reshape the ley network and conquer an empire in sixteen days. She's afraid — and an afraid ancient dragon is the most dangerous thing alive.
-- **Kaeltharion the Keeper** — Ancient Silver Dragon, Level 38. Tired. Kind. Certain that the treaty matters. Less certain every decade that it will hold. He's been looking for a champion — a human who can stand before the flights and make the case for coexistence. He doesn't know Kenji yet. When he meets him, the first question won't be about power. It'll be about the four women carrying his children and what that says about how he treats the bonds he makes.
+- **Kaeltharion the Keeper** — Ancient Silver Dragon, Level 38. Tired. Kind. Certain that the treaty matters. Less certain every decade that it will hold. He's been looking for a champion — a human who can stand before the flights and make the case for coexistence. He doesn't know Kenji yet. When he meets him, the first question won't be about power. It'll be about the **hidden children** (**Sera**, **Pip**, **Bracken** — and any future confirmations like **Mursha**) and what that says about how he treats the bonds he makes.
 - **Drazhara** — Dragonborn elder, Level 20. Leads the largest dragonborn settlement in the lower peaks. Caught between flights — she respects Kaeltharion but her people are tired of being second-class citizens in dragon territory. She wants a seat at the Reckoning that dragonborn have never had. Kenji offering that could flip the vote.
 - **Ignis** — Young red dragon, Level 18. Vorathiel's youngest child. Curious about humans. Has secretly flown to the lowlands three times to watch them. She thinks they're fascinating and terrifying and she's not sure her mother is wrong but she's not sure she's right either. She's the swing vote in Vorathiel's own family. Irresistible Presence works on dragonborn but NOT on true dragons. Ignis in humanoid form, however...
 - **Skratch** — Kobold prophet, Level 4. Tiny. Manic. Claims to have seen the future in a puddle. The future showed "a man made of fire kneeling before two mountains." He's been waiting at the base of the Dragonspine for eleven years. He's wrong about almost everything. He might be right about this.
