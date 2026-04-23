@@ -1,7 +1,8 @@
 # Character Tracker — Kenji TTRPG
 
-**Current In-Game Date:** Ashmere 35, 1247 AR — **Rootday** (**Day 257**, suite dawn)
-**Current Location:** **Bronzebarrow** — **The Brass Hitch** — **luxury suite** (~**06:30**). **BOOK 4 CH18 COMPLETE** — long rest closed the Mursha suite night; **Mursha** waking (**Lover's Vigor** ~Day 261); **Bonded Lovers 20**; purse **1,452 GP, 188 SP**. **Cassia** coffer investigation **heating**. North relay arc: `arcs/north_relay_two_chapter_plan.md`.
+**Current In-Game Date:** Ashmere 36, 1247 AR — **Forgeday** — **Day** **258** **~03:15** **Bronzebarrow** **Brass** **Hitch** **luxury** **suite** — **Season** **of** **Fall** **(**see** **`kenji_state.json`** **`weather`**: **outside** **frost** **/** **suite** **ley-steam**)** 
+**Current Location:** **Brass** **Hitch** **luxury** **suite** **(**bronze** **tub**)** — **Kenji** **+** **Mursha**. **Mursha** **STR** **22**; **masterwork** **kit**. **Kenji** **~1393 GP, 191 SP** **(**+500** **haul** **retcon**; **inn** **+** **suite** **upgrade** **+** **pie/tea** **tray**)**. **Wind** **Step** **3/5**; **Smoke-Invis-Clone** **2/3**; **Iaido** **0/1**. **relationships.Mursha** **48**. **Carry:** **Ch21** **—** **intel** **handoff** **dawn**; **Cassia**; **Oathbreaker**; **`north_relay_two_chapter_plan.md`**.
+**BOOK 4 — Ch20 COMPLETE / Ch21 OPEN** — `arcs/north_relay_two_chapter_plan.md`. **Pallid March** **shelf** **`pallid_march_south_push_arc.md`**.
 **Active Book:** Book 4 — Fraying Empire (The Ronin Arc)
 
 > **Cross-references:** DM behavior rules → `dm_rules_tracking.md` (**MIA PROTOCOL** + **🎯 ALIVE / IN-PLAY NPC — GOAL INVARIANT** + **Scene skill preroll** + **Player success integrity**: roll before outcome-dependent prose; PC success = player-favorable beat; no NPC Perception auto-win / no “gotcha” undo) | Game engine & mechanics → `ttrpg_game_engine.py` (`skill_roll`, `contested_skill`, `build_skill_modifier`, CLI `skill`) | Live state → `kenji_state.json` | Cursor agent rule → repo `.cursor/rules/kenji-scene-skill-gates.mdc`
@@ -32,8 +33,8 @@ Every character entry includes a **Morale Compass** value. Use it to decide how 
 
 **Status:** alive
 **Level:** 35
-**Location:** **Bronzebarrow** — **The Brass Hitch** — **luxury suite** (Ashmere **35** dawn). **Mursha** post-night; **HP 368/368**; **Wind Step** **5/5**; **Smoke-Invis-Clone** **3/3**. **Oathbreaker** in **BoH**.
-**Last Updated:** Ashmere 35 / Day 257 (`kenji_state.json` — **Ch18 end**, full LR refresh)
+**Location:** **Brass** **Hitch** **luxury** **suite** **—** **Ashmere** **36** **Forgeday** **~03:15** **Day** **258** — **ley-steam** **bath** **beat**. **HP 368/368**; **Wind Step** **3/5**; **Smoke-Invis-Clone** **2/3**; **Iaido** **0/1**. **Oathbreaker** **BoH**. **Purse** **~1393 GP, 191 SP** (`kenji_state.json`).
+**Last Updated:** Ashmere 36 / Day 258 — **Ch21** **suite** **predawn**
 
 **Physical:** `npc_appearance.md` § **Kenji — Ronin / Blade Channeler**
 **Disposition:** N/A (protagonist)
@@ -103,7 +104,7 @@ Kenji is undercover. **Arcane and Ember abilities are deliberately off the table
 
 **Important Gear:** Abyssal Shard Nodachi (red-black steel, 25% vaporize on hit), Windstrider boots, Threadwalker gloves, red-and-black hakama (+3 light armor, ward every 2 turns), Emberfang (creation sword — left behind/stored), Frost Fang (entropy sword — summonable, Solveth lives here), Bag of Holding, Iron Key (pulls SSW — 2-century binding, feeder ley-node, sealed terminator), Hollow Crown → Circuit Bracelet (Book 2 endgame), mask, ronin garb, enchanted underclothes
 
-**Gold:** ~1,487 gp / 47 sp
+**Gold:** ~1393 GP / 191 SP (synced `kenji_state.json` Day 258; +500 GP haul; suite + pie/tea tray)
 
 ### Active Goals
 
@@ -117,16 +118,39 @@ Kenji is undercover. **Arcane and Ember abilities are deliberately off the table
 
 ## BRONZEBARROW — The Brass Hitch (minor NPCs; **Ch18** closed Ashmere **35** dawn)
 
+### Ch19 played (Ashmere 35 — **synced** **`kenji_state.json`**)
+
+- **Inn:** **rumors** **/** **leads** **asked** (**Calista** **/** **desk**).
+- **Forge — Marthel:** **medium** **dragon-scale** **laminate** sold as **junk** (**10 GP** Kenji); **Luck** **(CHA)** + **Steel** **Sight** table; **clean** **+** **fit** **Mursha**. **Oathbreaker** **out** **of** **BoH** — **reforge** **for** **Mursha** **denied** (**Persuasion** **fail**); **stowed**; **Mursha:** *Where’d you get that?* **unanswered** **in** **JSON**.
+- **Weapon** **stall** (**EDGE**): **honest** **blade** **chosen** — **payment** **next** **beat**.
+
 Relay-town inn cast; names from `npc_name_bank.md`. Full coloring → `npc_appearance.md`.
 
 | Name | Role | Species | Skin (summary) |
 |------|------|---------|----------------|
 | **Calista** | Barmaid | Human | Warm light golden-beige; freckled nose/cheeks |
-| **Mursha** | Iron Mule caravan guard (severed roster) | Half-orc | **Olive–green tan** — **tavern lock:** `mursha_brass_hitch_tavern.png`; **suite / intimacy locks:** `mursha_brass_hitch_suite_*.png` (seven) — `npc_appearance.md` → **DM stages:** (1) professional (2) pre-intimacy / IP pressure (3) post-intimacy **Lover’s Vigor** — **bronze-gold eye ring** tell |
-| **Haldra** | Dwarf factor clerk | Dwarf | Fair cool base; forge-ruddy cheeks/nose — **required refs by stage:** clerk `haldra_brass_hitch_clerk.png` + `_back.png`; intimacy `haldra_offduty_intimacy_reference.png`; post-vigor `haldra_post_vigor_reference.png`; **DM stages:** (1) normal (2) pre-intimacy/IP pressure (3) post-intimacy **Lover's Vigor** — brass-amber eye ring tell |
+| **Mursha** | Iron Mule caravan guard (severed roster) | Half-orc | **Pale olive–green**, **STR-heavy** build (broad shoulders, defined back/abs, very large thighs/glutes), **black cornrow→braids** + **silver bands/hoops**, **long ears**, **small capped tusks**, **R brow + cheek scars** — **tavern lock:** `mursha_brass_hitch_tavern.png`; **suite:** `mursha_brass_hitch_suite_*.png` (×7) + optional player refs → full **`npc_appearance.md` § Mursha**; **DM stages:** (1) professional (2) IP pressure (3) **Lover’s Vigor** — **bronze-gold eye ring** |
+| **Haldra** | Dwarf factor clerk | Dwarf | Fair warm-toned, cream-and-rose; forge-flush cheeks/nose; full-figured build, dark auburn twin braids w/ bronze ties; clear blue eyes — **required refs by stage:** clerk `haldra_brass_hitch_clerk.png` + `_back.png`; intimacy `haldra_offduty_intimacy_reference.png`; post-vigor `haldra_post_vigor_reference.png`; **DM stages:** (1) normal (2) pre-intimacy/IP pressure (3) post-intimacy **Lover's Vigor** — brass-amber eye ring tell |
 | **Gwynn** | Hostler | Halfling | Sun-kissed golden tan; hazel eyes — **required refs by stage:** work `gwynn_hostler_portrait.png` + `gwynn_hostler_work_back.png`; intimacy `gwynn_intimacy_reference.png`; post-vigor `gwynn_post_vigor_reference.png`; **DM stages:** (1) normal (2) pre-intimacy/IP (3) post-intimacy **Lover’s Vigor** — **emerald / bright green** eye tell |
 
 **Cross-ref:** `arcs/north_relay_two_chapter_plan.md` — north fork spine + **§ Canon played — Ch18**.
+
+### MARTHEL — Smith, Bronzebarrow forge row (**Ch19**)
+
+**Status:** alive  
+**Met:** yes — Ashmere **35** (**Mursha** armor beat)  
+**Role:** **relay** smith; sold **“junk”** **dragon-scale** **medium** **armor** **10 GP**; **refused** **Oathbreaker** **reforge**  
+**Disposition:** wary-professional — paid, spooked by **BoH** sword  
+**Morale Compass:** Lawful Good — dwarven-trained smith; respects steel, respects coin, respects the customer who pays fair. Opposes Kenji if Kenji asks him to cut corners or forge something he shouldn't.  
+**Last Updated:** Ashmere **35** (`kenji_state.json` **npc_states**)
+
+#### Active Goals
+
+| goal_id | opened | due_date | public_at | status | description | completion_effects |
+|---------|--------|----------|-----------|--------|-------------|--------------------|
+| oathbreaker_memory | Ashmere 35 | Ashmere 40 | N/A | active | A masked ronin pulled a **holy/necrotic greatsword** out of a bag and asked him to reforge it. He refused. The sword hurt to look at. He hasn't forgotten. If anyone asks about unusual weapons or unusual customers, he has a story. | Adds to **ronin_identity_pressure** — a relay smith who saw a blade that shouldn't exist in a bag that shouldn't hold it. Cross-cuts with Cassia's investigation if yard gossip connects "ronin with impossible sword" to "ronin who released Mursha same day coffer walked." |
+
+---
 
 ### CASSIA VORN — Factor, Iron Mule Freight (Bronzebarrow yard)
 
@@ -143,14 +167,35 @@ Relay-town inn cast; names from `npc_name_bank.md`. Full coloring → `npc_appea
 
 **Ch18 threads:** Open **investigation**; possible **yard gossip**, **Coalition** wires, **inside-job** suspicion vs **pro** **thief** profile.
 
+#### Active Goals
+
+| goal_id | opened | due_date | public_at | status | description | completion_effects |
+|---------|--------|----------|-----------|--------|-------------|--------------------|
+| coffer_investigation | Ashmere 35 | **Ashmere 40** | N/A | **active** | Floor coffer + relay float **gone** — morning count Ashmere 35 confirmed. **Inside job** vs **pro thief** profile. Cassia's first move: **audit who was in the building** the day before. Mursha's same-day release + ronin's same-day visit = **timeline correlation** she hasn't drawn yet but will. | If she connects ronin + Mursha + missing coin: formal **complaint** to yard captain → **Coalition factor wires** → ronin description enters the network. Feeds **ronin_identity_pressure**. If she doesn't: investigation stalls on "professional job, no leads." |
+| factor_wire_report | Ashmere 36 | **Ashmere 38** | Ashmere 38 | **active** | Standard **factor loss report** to Iron Mule central and Coalition relay office — cash loss above threshold requires paper. The report describes the **amount**, the **method** (no forced entry), and anyone **in the building** that day. | Paper enters a system where clerks cross-file. If ronin's description matches any other report (Thornkeep, Millhaven, relay corridor), the **cross-cut** fires. |
+
 ---
 
 ### MURSHA — Half-orc, ex–Iron Mule guard (Bonded **#20**)
 
 **Status:** alive  
 **Met:** yes — **Brass Hitch** Ashmere **34**; **intimate** (see `relationships.Mursha` in `kenji_state.json`)  
-**Location:** **Brass Hitch** **luxury suite**, Ashmere **35** ~dawn — **post–LR** beside Kenji  
-**Last Updated:** Ashmere 35  
+**Location:** **Bronzebarrow** **weapon** **row**, Ashmere **35** ~**15:15** (`kenji_state.json`).  
+
+**Appearance (canon — expand in `npc_appearance.md` § Mursha):** Half-orc body built like a **spear-line lieutenant** — **exceptionally muscular** (**heavy shoulders, arms, lats**; **visible core** when unarmored; **narrow waist**; **very powerful thighs and glutes**). **Pale olive–green** skin, **warm** undertone; **jet-black** hair in **tight cornrows** feeding **thick braids** banded with **silver rings**; **long pointed ears** with **silver hoop** earrings (off-duty/suite); **small steel-capped tusks**; **dark brown** eyes; **bronze-gold** ring at pupil when **Lover’s Vigor** active. **Scars:** vertical **right brow**, small **right cheek**. **On duty:** minimal **dark breastplate**, **right pauldron**, bracers, **olive/tan wraps**, **thigh straps/buckles**. **Suite / private:** may wear **white or teal lace** lingerie; **black** nail polish; lamplight **sheen** on muscle. **Prose:** prefer **named anatomy + light + jewelry + scars**, not generic “buff woman.”
+
+**DM — intimacy quirk (Mursha / Kenji):** On **any** intimate beat between them, layer **creative ambient hints** that she may have been with **other men earlier that day** (scent, texture, timing, stray detail); **Kenji never** calls it out in-scene. Ties to **Power of P** / hidden intel habits — not retconned without player buy-in on specific NPCs.
+
+**Baseline ability scores (before Lover's Vigor +50%):** STR **22** **(**+2** **Power** **of** **P** **Day** **257** **lieutenant**)**, DEX **16**, CON **20**, INT **10**, WIS **8**, CHA **14** — `kenji_state.json` **`soul_nexus_registry.Mursha.baseline_ability_scores`**.
+
+**Soul Nexus (Bond #20 — Kenji):** **`kenji_state.json`** **`soul_nexus_registry.Mursha`**  
+- **Bloodlust:** **+25%** **all** **stats** **per** **killing** **blow** **Mursha** **scores**; **stacks** **additively**; **ends** **end** **of** **combat**. **Replaces** **Yard** **Truth.**  
+- **Power** **of** **P** **(Barbarian** **Ways):** **interrogation** **via** **mating** **male** **humanoids** — **cannot** **lie** **to** **her;** **auto** **truth** **sense;** **STR** **or** **CON** **save** **vs** **DC** **8+PB+matching** **Mursha** **mod** **to** **negate;** **on** **orgasm** **Mursha** **+2** **permanent** **to** **their** **highest** **ability** **(**once** **per** **unique** **mate**)**. **Log** **`mursha_power_of_p_log`**. **Replaces** **Escort's** **Anchor.** **Full** **rules** **`dm_rules_tracking.md`** **§** **Mursha** **—** **Soul** **Nexus.**
+
+**DM — Mursha default after battle:** **Strongest** **male** **humanoid** **captive** **→** **private** **Power** **of** **P** **for** **intel** **(**not** **in** **the** **open**)**. **Hides** **it** **from** **Kenji** **(**excuses,** **shame** **—** **not** **betrayal**)**; **Kenji** **may** **still** **see** **via** **Stealth** **/** **invis** **/** **overwatch**. **If** **Kenji** **names** **the** **method** **/** **orcish** **ways** **/** **orders** **her** **to** **use** **it** **—** **she** **refuses** **(**human** **side** **won’t** **perform** **it** **once** **spoken**)**.
+
+**Gear:** **dragon-scale** **medium** **laminate**; **masterwork** **longsword** **+3**, **3d12** **slashing** (**2H:** **add** **Str** **mod** **again** **to** **damage**); **masterwork** **warhammer** **4d8** **bludgeoning**, **versatile**, **armor** **break** (**2H:** **add** **Str** **mod** **again**). **Full** **wording** **`dm_rules_tracking.md`** **§** **Mursha** **—** **masterwork** **weapons**. **~400 GP** **gift** **untouched**.  
+**Last Updated:** Ashmere 35 / Day 257 — **Mursha** **stats** **+** **Soul** **Nexus** **retune**
 
 **Disposition to Kenji:** **Intimate** — **Vigor** **~Day 261**; **IP-immune** vs him for window; **saw** **clone** **flicker** (**magic** **twin**); **Deception** on double **failed** — she **knows** **something** **wrong**, **stayed** anyway. **Children:** he **asked**; she **did not** **promise** in **steam**.
 

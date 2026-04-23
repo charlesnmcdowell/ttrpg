@@ -211,7 +211,7 @@ Jostin's pen scratched once. A margin note. He did not look up.
 
 Night came the way it comes in the Pallid March — not gradually but *completely*, the mist swallowing the last grey light in a single breath until the watch-fires were the only things that proved the world still had edges.
 
-Jostin took first watch. Professional. Didn't need to be told. Didn't need to be thanked. He sat with his back against the fallen trunk, shortbow across his knees, journal open to the page where the margins were getting crowded.
+Jostin took first watch. Automatic. Didn't need to be told. Didn't need to be thanked. He sat with his back against the fallen trunk, shortbow across his knees, journal open to the page where the margins were getting crowded.
 
 The tent was standard field issue — Coalition surplus, canvas stretched over two poles, room for two if neither of them needed dignity. Brynn had set it while Kenji was south. Her kit was already inside. Her shield leaned against the outside frame the way a sentry leans against a wall — present, watchful, not quite off duty.
 

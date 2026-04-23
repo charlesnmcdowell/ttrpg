@@ -4,6 +4,8 @@
 **Date:** Ashmere 28, 1247 AR (Stillday, early afternoon → late afternoon)
 **Location:** South road, mile 15.5 → mile 16.5
 
+**Kenji dialogue note:** All Kenji spoken lines in this chapter are **player-declared** at the table. Default rule remains no AI-generated Kenji dialogue.
+
 ---
 
 ### The Draw

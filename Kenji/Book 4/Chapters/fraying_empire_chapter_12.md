@@ -4,6 +4,8 @@
 **Date:** Ashmere 28, 1247 AR (Stillday, morning → early afternoon)
 **Location:** South road, mile 8 → mile 15.5
 
+**Kenji dialogue note:** All Kenji spoken lines in this chapter are **player-declared** at the table. Default rule remains no AI-generated Kenji dialogue.
+
 ---
 
 ### The Turn
@@ -168,7 +170,7 @@ The root network pulsed underfoot. A signal sent south. Deep into the marsh.
 
 ---
 
-From the dead oak, invisible, Kenji watched. The living signature on the west flank hadn't moved. Hadn't reacted to the party's approach. Just stood there — human-sized, alive, watching the formation from the tree line the same way Kenji was watching from above.
+From the dead oak, invisible, Kenji watched. The living signature on the west flank hadn't moved. Hadn't reacted to the party's approach. Just stood there — same stature, same living read, watching the formation from the tree line the same way Kenji was watching from above.
 
 Thirty yards from the real Kenji's tree. Close enough that Living Ground read details: heartbeat steady, breathing slow, no armor signature, no weapon drawn. Whoever it was, they weren't here to fight.
 

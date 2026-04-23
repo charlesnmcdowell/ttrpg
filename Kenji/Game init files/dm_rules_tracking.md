@@ -27,6 +27,48 @@ When a PC’s check **succeeds** (meets or beats DC, or wins a contest), the **n
 
 **Engine helpers:** `ttrpg_game_engine.py` → `skill_roll()`, `ability_check()`, `saving_throw()`, `contested_skill()`, `build_skill_modifier()`, `SKILL_ABILITY_MAP`, `SCENE_PREROLL_SKILLS`. **CLI:** `python ttrpg_game_engine.py skill <modifier> [--adv] [--dis] [--dc N] [--label TEXT]` (prints JSON).
 
+**Kenji — luck checks (table):** **d20 + CHA** modifier; **advantage** when the **ember** is **actively on** / **channeling**. **No** advantage while the ember is deliberately **banked** for **ronin** cover unless the scene explicitly turns the ember **on**.
+
+### Mursha — masterwork weapons (Book 4 Ch19 — DM mechanical canon)
+
+**Source:** **EDGE** weapon stall, **Bronzebarrow**; **125 GP** from **Kenji** (still **not** drawn from her **~400 GP** gift). **Fiction (table):** mis-tagged / under-read stock, factor float, or honest masterwork sold without enchantment fuss — pick what fits; **mechanics** below are authoritative.
+
+**Masterwork longsword** (replaces “relay longsword” label everywhere)
+- **+3** weapon (add **+3** to attack and damage).
+- **Damage (1H):** **3d12** slashing + **3** + **Str** modifier.
+- **Two-handed:** same **3d12** + **3**; add your **Str** modifier **again** to damage (extra **Str** on top of the normal one).
+
+**Masterwork warhammer**
+- **Versatile** (1H or 2H grip); **damage (1H):** **4d8** bludgeoning + **Str** modifier.
+- **Two-handed:** same **4d8**; add your **Str** modifier **again** to damage.
+- **Armor break:** On a hit against a creature **wearing manufactured armor** (not natural armor unless the DM says otherwise), until the **start of your next turn** that target takes **−2** to AC **from worn armor** (minimum **0** contribution from that armor for this penalty). If the target has no AC from worn armor, **Armor break** does nothing. Multiple hits **refresh** the duration; **do not** stack the **−2**.
+
+### Mursha — baseline abilities (before Lover's Vigor)
+
+**Ability scores (baseline):** STR **22** **(**+2** **Power** **of** **P,** **Day** **257** **western** **cut** **lieutenant**)**, DEX **16**, CON **20**, INT **10**, WIS **8**, CHA **14** — `kenji_state.json` **`soul_nexus_registry.Mursha.baseline_ability_scores`**. **Lover's Vigor** still applies **+50%** on top when active.
+
+### Mursha — Soul Nexus, Bond #20 (Kenji) — *replaces Yard Truth / Escort's Anchor*
+
+**Bloodlust (bond ability)**  
+- When Mursha scores a **killing blow**, she gains **+25% to all stats** (same scope as **Lover's Vigor** at your table: ability scores and what you derive from them).  
+- **Stacks additively** with itself (two kills in one fight = **+50%** from Bloodlust, before counting Vigor).  
+- **Ends when combat ends** (hostilities stop or the scene breaks).  
+- **Default:** stacks **with** Vigor when both apply.
+
+**Power of P — Barbarian Ways (bond perk)**  
+- **Use only with table consent** (lines-and-veils, player buy-in, no real-world coercion mirrored as “just fantasy”).  
+- **Targets:** **Male humanoids** only (as written).  
+- **Interrogation frame:** During the act, the subject **cannot successfully lie to her** about **facts** they know — Mursha **auto-detects** falsehood (semantic dodge / omission may still be possible if the DM allows).  
+- **Resist before the supernatural lock:** The subject makes a **STR** or **CON** saving throw (**their choice**) vs **DC 8 + Mursha's proficiency bonus + the matching modifier** (STR save uses Mursha's STR mod; CON save uses Mursha's CON mod). **Success:** no truth-compulsion and **no** **+2** drain this scene. **Mursha PB:** use her class PB; if she has no sheet yet, **PB +4** until statted.  
+- **Permanent gain:** On the subject's **orgasm**, Mursha gains **+2 permanently** to **whichever ability score was their single highest at scene start** (ties: the **subject** picks which tied stat counts as “highest” for this rule). **Once per unique individual** — the **same** mate can **not** grant a **second** **+2** later; **each new** qualifying mate can grant **one** stack.  
+- **Log:** append to `kenji_state.json` **`mursha_power_of_p_log`** as `{ "subject_id": "...", "stat_raised": "STR", "day": 257, "notes": "optional" }`.
+
+**Default post-battle behavior (DM — unless the table overrides)**  
+- After a fight where **male humanoid** captives exist and Mursha has **room to operate**, she **by default** tries to **separate the strongest surviving opponent** (her read: rank, kit, who led) and **use Power of P in private** for **intel** — **never** as a public spectacle.  
+- She **hides** the practice from **Kenji** when she can: excuses (**perimeter**, **wounds**, **gear check**, **“talk to the prisoner alone”**) without naming the method. She is **not** trying to betray him; she is **ashamed** of the **orc-barbarian** frame and does not want it **witnessed** or **labeled**.  
+- **Kenji** may still **discover** the scene: **Stealth**, **Greater Invisibility**, **overwatch**, etc. are fair — the secrecy is **in-character** on her side, not a player-proof fog.  
+- **Hard off-switch:** If Kenji **mentions** this interrogation method, **names** it as an **orcish** / **barbarian** tactic, or **orders** her to “use that thing,” she **will not** use **Power of P** (for that beat and until trust/pressure reframes — DM discretion). Her **human-leaning** side **refuses** to perform that part of herself **once it’s spoken aloud**; shame and **denial** win over efficiency.
+
 ---
 
 ## 🚨 CARDINAL RULES — CHECK EVERY RESPONSE (NON-NEGOTIABLE)
@@ -1426,6 +1468,13 @@ The player chooses what to engage with. The DM makes sure the choices exist.
 
 **DM reminder:** the trigger is **viewing** (she can see Kenji — eyes/scrying/magical sight counts the same if the table treats it as *seeing him*), **not** a made-up distance band like “30 ft exposure.” If you need edge cases, resolve them against the obsolete block + table consistency — don’t invent a second IP system in `dm_rules_tracking.md`.
 
+#### Creation Override (L35 — passive; Book 4 ronin included)
+**Authoritative perk text:** `kenji_tracking_OBSOLETE.md` → L35 **Lover and a Fighter** / **Creation Override** line. **Table ruling:** this is a **passive mythic perk** — it is **not** switched off because Kenji is in ronin disguise. Ronin mode suppresses **active** ember show and **active** ArchMagus kit; **passives** (Regen, Bonded Lovers, IP, Soul Nexus, **Creation Override**, etc.) **remain in force** unless a scene explicitly says otherwise.
+
+- **Trigger:** Kenji’s attack resolves as **lethal** to a **female humanoid** (would die from the hit). **Effect (baseline text):** target is **healed to 2× max HP** and gains **Unsatisfiable** (full clauses in obsolete file — permanent until memory wipe; “no other lover compares” when conditions apply).
+- **Immediate aftermath:** She **rides a peak bliss / orgasm-equivalent wave**, then **can function**: **flee** (routed), **stand down**, **follow** Kenji, or **fight on** if her sheet and morale allow — she is **not** mindless. **Unsatisfiable** still reads at the table as **obsessive fixation on Kenji**: **little or no emotional/physical satisfaction** with other lovers or “normal” intimacy; she **seeks him** (or a **cure**: **memory wipe**, **powerful priest** / **break curse** tier — DM sets DC and availability).
+- **Audit every fight:** After combat, list **female humanoids** Kenji **killed** — each one **gets Override** unless the table rules a specific effect (e.g. **disintegration** / **no body**) **supersedes** healing; resolve that clash explicitly **once** and stay consistent.
+
 - **Defeat outcomes matter.** A seeker who loses to Kenji in combat AND fails the attraction saves doesn't just walk away. She's deeply attracted and now has a personal connection to the most dangerous man in the world. Some become allies. Some become obsessed. Some become pregnant. Some become all three. Each defeated seeker is a potential recurring character, not a disposable encounter.
 - **Seekers who win** take a trophy, extract a promise, or earn bragging rights. Losing a duel has consequences — the bard-tales update, Kenji's reputation shifts, and the next seeker arrives with different expectations.
 - **Seekers can become party members.** A seeker who falls for Kenji (or just respects him) might travel with him. She brings her unique class and abilities to the party — filling roles the Ronin can't. This is how Book 4 organically builds parties.
@@ -1802,7 +1851,7 @@ Kenji casts all long-duration buffs at the ley line, refilling spell slots betwe
 - Kenji is **ILLITERATE**. INT 9. Cannot read. Filed under "things the ArchMagus doesn't mention."
 - Class: Blade Channeler (Sorcerer Swordsman — CHA-based, weapon enhancement)
 - Current Level: 35 (2,209,800 EXP). See `kenji_state.json` for live values.
-- **Book 4 — RONIN MODE:** Kenji suppresses all arcane/ember abilities. Fights with iaido kendo style. Uses only basic leyline wizard magic. The ember passives still function (Regen, Bonded Lovers stats, Irresistible Presence, Soul Nexus), but nothing he actively casts looks like the ArchMagus.
+- **Book 4 — RONIN MODE:** Kenji suppresses **active** arcane/ember **displays** and ArchMagus tells. Fights with iaido kendo style. Uses only basic leyline wizard magic. **Passive mythic perks still function** (Regen, Bonded Lovers stats, Irresistible Presence, Soul Nexus, **Creation Override**, etc.) — see **§ Creation Override** above. Nothing he **actively casts** looks like the ArchMagus.
 
 ## 🔮 SPELLS & ABILITIES
 > **Full spell/ability definitions tracked in `character_tracker.md`.**

@@ -25,7 +25,7 @@ He left Thornkeep through the north gate as a masked traveler with a nodachi pea
 
 ### Crown road
 
-The road north out of Thornkeep ran like a promise someone had started keeping and then forgotten — first mile paved, second mile graveled, third mile clay ruts and honest apology. The border was behind him. The quiet he had told Bracken to check was still quiet, which proved nothing except that silence is not the same thing as safety and he had known that when he said it.
+The road north out of Thornkeep ran like a promise someone had started keeping and then forgotten — first mile paved, second mile graveled, third mile clay ruts and honest apology. The border was behind him. The quiet he had told Bracken to check was still quiet, which proved nothing except that silence was not the same thing as safety and he had known that when he said it.
 
 Mile three. A coalition-marked supply train — ox hung in a wet rut, near-axle creak, the sound wood makes when it is thinking about becoming two pieces. A driver and a merchant's boy waved down traffic with the particular desperation of people whose problem is too heavy for their arms and too small for their pride.
 
@@ -94,6 +94,8 @@ He scooped the hundred gold off the table before following her. The common room 
 ### Double
 
 The Iron Mule factor yard was four blocks south and one species of architecture removed — dwarven lease stone, iron-banded loading gates, the smell of ox and ink and contractual obligation. On the walk there, between the Hitch and the yard, Kenji asked for the introduction and then stopped talking, because the next part required a different version of him.
+
+The walk cost her another save — eight against the same twenty-three, and the result was the same. Stack nine. She did not notice it as a number. She noticed it as four blocks of walking beside a man and finding his jawline instead of the road twice before the factor yard came into view.
 
 Smoke-Invis-Clone. One charge spent. The smoke popped in the alley between two factor-houses, and the real Kenji went invisible while the double walked out beside Mursha — same height, same mask, same silence.
 
@@ -165,7 +167,7 @@ Failure. The seam showed. Not the full truth — not *this man is a magical cons
 
 Mursha saw it.
 
-She did not run. She did not swing. Her dark brown eyes tracked the wrongness the way they tracked exits and weapons — filing, categorizing, deciding how much of her next minute to spend on a question she could not yet frame in words that would not sound insane.
+She did not run. She did not swing. Her eyes tracked the wrongness the way they tracked exits and weapons — filing, categorizing, deciding how much of her next minute to spend on a question she could not yet frame in words that would not sound insane.
 
 *Magic. Twin. Trick. Something.* The file stayed open behind her eyes.
 
@@ -203,7 +205,7 @@ The door was hers. He needed skills, not submission. If she stayed, could he see
 
 Mursha stayed.
 
-She stripped the armor the way fighters strip armor — methodically, by the numbers, because the body knows the buckles by heart and the hands do not need the mind's permission for a sequence they have performed ten thousand times. Breastplate first, the minimal-cut dark metal that cleared her shoulders for spear work. Segmented spaulder from the right shoulder. Thigh plates, heavy on the unstrap. Dark leather forearm wraps, unwound. Olive-grey cloak already off from before.
+She stripped the armor the way fighters strip armor — methodically, by the numbers, because ten thousand repetitions had turned every strap and catch into muscle memory that did not require the mind's permission. Breastplate first, the minimal-cut dark metal that cleared her shoulders for spear work. Segmented spaulder from the right shoulder. Thigh plates, heavy on the unstrap. Dark leather forearm wraps, unwound. Olive-grey cloak already off from before.
 
 What remained was road binding-wrap and linen — the underlayer that lived between a fighter's skin and the world's opinion of it. The braids stayed. The silver ring cuffs stayed. The scars stayed, because scars are not equipment.
 
@@ -223,7 +225,7 @@ He took her foot and started mapping the calluses.
 
 Foot massage. Fighter hands reading fighter feet — the pressure points that said *spear stance, left lead*, the wear pattern that said *shield wall, not skirmish line*, the old breaks that said *I did not stop walking when the healer told me to stop walking*. She let him.
 
-Her WIS save hit the floor again: seven plus one, eight against twenty-three. Failure — severe. Contact plus steam plus full unmasked presence at range zero. The stack saturated into stage-two territory, somewhere in the ten-to-eleven band where the aura stops being background and becomes weather.
+The fourth save of the afternoon died the same quiet death as the others — seven plus one against a number that had not changed and was not going to. But the fiction around it had changed. Contact. Steam. Full unmasked presence at range zero. The stack climbed past ten into the band where the aura stopped being something she could file and became something she was living inside.
 
 Her body was honest. Her mind was still hers. The distinction mattered, because IP is not mind control and a woman whose mind is still her own can still look a man in the face and say *no* — it is just that saying *no* costs more when the body and the aura and the steam are all saying something different, and cost is not the same as coercion.
 
@@ -283,7 +285,7 @@ He woke in a featherbed that smelled like two kinds of sweat and one kind of dec
 
 Dawn came through the Brass Hitch window the way dawn comes through relay-town glass — grey-green, tinted by the forge smoke that Bronzebarrow breathed before breakfast. The dwarven bell that had called him into town the day before was already sounding the first work quarter, and somewhere below the suite a kitchen was making noises that promised bread.
 
-Slots and charges refreshed at table. HP full — three hundred and sixty-eight of three hundred and sixty-eight. Wind Step five of five. Smoke-Invis-Clone three of three. The long rest had done its mechanical work while the personal work lay beside him with a bronze-gold ring at the edge of her dark brown eyes that she had not yet seen in a mirror.
+Slots and charges refreshed at table. HP full — three hundred and sixty-eight of three hundred and sixty-eight. Wind Step five of five. Smoke-Invis-Clone three of three. The long rest had done its mechanical work while the personal work lay beside him with a bronze-gold ring at the edge of her eyes that she had not yet seen in a mirror.
 
 Mursha stirred. Not awake — the precursor to awake, the moment where the body remembers it is not alone and decides whether that memory is a threat or a comfort. Her hand found his arm in the way fighters' hands find things in the dark: fast, accurate, and then deliberately gentle when the target turns out to be warm.
 
@@ -307,7 +309,7 @@ But that was the morning's problem, and the morning was still young, and the wom
 
 **Chapter 18 Summary:**
 
-- **Gameplay:** **Thornkeep ghost egress** (Stealth **SUCCESS** — runner knock, Brynn tail); **crown road north** (**Athletics 31** vs DC 16, ox freed, **+5 SP**); **Perception 17** vs DC 14 reads Bronzebarrow approach; **Wind Step ×2** into town (**3/5** remaining); **Brass Hitch** meal (**4 SP**); **100 GP** table marker → **Mursha** buyout offer (off Mule, private, ~1yr); **IP** stack begins (**nat 1** → stack **~8**); **Persuasion ADV 28** vs DC 17 (go now); **100 GP recovered** off table. **Smoke-Invis-Clone** **1 charge** spent (**2/3**); **Deception 12** vs DC 15 **FAIL** (double wrongness filed); **Persuasion ADV 30** vs DC 14 (Mursha delivers to authority). **Iron Mule** factor **Cassia Vorn**: release terms **~70 GP 10 SP**; **Sleight ADV 22** vs DC 17 plants coin **SUCCESS**; **Perception 14** vs DC 14 spots **floor coffer** (exact). **Mursha freed** — severance + stamp + **90-day** non-compete. **Coffer theft**: **Stealth ADV 24** vs DC 19 **SUCCESS**; **Sleight ADV 20** vs DC 20 **SUCCESS** (exact) — strongbox → **BoH**; **+411 GP, +150 SP** (buyout returned + relay float); empty box retained. **Clone swap FAIL** (**Sleight 13** vs DC 18) — **Mursha** sees **flicker**; **Persuasion ADV 29** vs DC 15 keeps her. **30 GP** Suite 2 (bronze **ley-steam** tub, featherbed) + **lobster & steak** dinner (**Calista**). **Unmask**: **IP** WIS 16 vs DC 23 **FAIL** → stack **~10**. **Consent** — armor off, tub, **foot massage**; **IP** WIS 8 vs DC 23 **FAIL** → stack **~10–11** (stage-2 saturated). **Children** topic **asked** — Mursha: **no promise** in steam, needs **terms**/**time**. **Qualifying intimacy** — Mursha rode, **her** terms; **Lover's Vigor** ON (**~Day 261**); **bronze-gold eye ring**. **Night**: multiple rounds, multiple internal finishes. **Bonded Lovers → 20**.
+- **Gameplay:** **Thornkeep ghost egress** (Stealth **SUCCESS** — runner knock, Brynn tail); **crown road north** (**Athletics 31** vs DC 16, ox freed, **+5 SP**); **Perception 17** vs DC 14 reads Bronzebarrow approach; **Wind Step ×2** into town (**3/5** remaining); **Brass Hitch** meal (**4 SP**); **100 GP** table marker → **Mursha** buyout offer (off Mule, private, ~1yr); **IP** stack begins (**nat 1** → stack **~8**); **Persuasion ADV 28** vs DC 17 (go now); **100 GP recovered** off table. **IP** WIS 8 vs DC 23 **FAIL** → stack **~9** (Iron Mule walk). **Smoke-Invis-Clone** **1 charge** spent (**2/3**); **Deception 12** vs DC 15 **FAIL** (double wrongness filed); **Persuasion ADV 30** vs DC 14 (Mursha delivers to authority). **Iron Mule** factor **Cassia Vorn**: release terms **~70 GP 10 SP**; **Sleight ADV 22** vs DC 17 plants coin **SUCCESS**; **Perception 14** vs DC 14 spots **floor coffer** (exact). **Mursha freed** — severance + stamp + **90-day** non-compete. **Coffer theft**: **Stealth ADV 24** vs DC 19 **SUCCESS**; **Sleight ADV 20** vs DC 20 **SUCCESS** (exact) — strongbox → **BoH**; **+411 GP, +150 SP** (buyout returned + relay float); empty box retained. **Clone swap FAIL** (**Sleight 13** vs DC 18) — **Mursha** sees **flicker**; **Persuasion ADV 29** vs DC 15 keeps her. **30 GP** Suite 2 (bronze **ley-steam** tub, featherbed) + **lobster & steak** dinner (**Calista**). **Unmask**: **IP** WIS 16 vs DC 23 **FAIL** → stack **~10**. **Consent** — armor off, tub, **foot massage**; **IP** WIS 8 vs DC 23 **FAIL** → stack **~10–11** (stage-2 saturated). **Children** topic **asked** — Mursha: **no promise** in steam, needs **terms**/**time**. **Qualifying intimacy** — Mursha rode, **her** terms; **Lover's Vigor** ON (**~Day 261**); **bronze-gold eye ring**. **Night**: multiple rounds, multiple internal finishes. **Bonded Lovers → 20**.
 - **Combat:** None this chapter.
 - **Resources:** **−240 GP** provender (Ch17 carryover table). **−70 GP 10 SP** Mule buyout (returned via theft). **−30 GP** suite + dinner. **−4 SP** meal. **+5 SP** road help. **+411 GP** coffer theft. **+150 SP** coffer theft. Net purse: **~1,452 GP, 188 SP**. **−1 Smoke-Invis-Clone** charge (refreshed at dawn LR). **−2 Wind Step** charges (refreshed at dawn LR). **Luxury provender** in BoH (~30 days). **Empty iron coffer** in BoH.
 - **Character:** **Kenji** — ghost egress (discretion over confrontation); road help (mundane kindness); theft as reflex (coffer); Mursha as retention not romance (contract, year, freedom — then intimacy). **Mursha** — contract mind reframing choice; IP pressure acknowledged without naming; children ask **deferred** not refused; clone flicker **filed** not confronted. **Cassia Vorn** — factor efficiency → morning-after crisis. **Calista** — transactional barmaid, no plot weight.

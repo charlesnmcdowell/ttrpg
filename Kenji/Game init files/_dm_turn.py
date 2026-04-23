@@ -5,6 +5,7 @@ Usage:
     python _dm_turn.py <command> [args...]
 
 Commands:
+    refresh                       Re-roll weather, sync tracker headers, write AI_CONTEXT.md, save.
     tick                          Advance 1 hour (tick_interaction), print alerts, save.
     tick <N>                      Advance N hours via repeated tick_interaction calls.
     rest                          Long rest (advance_day + full daily pipeline), save.
@@ -28,15 +29,59 @@ Commands:
     validate                      Run consistency checks, print warnings.
     save                          Just save current engine state to JSON.
 """
+import random
+import re
 import subprocess
 import sys
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).parent
 STATE_FILE = SCRIPT_DIR / "kenji_state.json"
+TRACKER_FILE = SCRIPT_DIR / "character_tracker.md"
 
 sys.path.insert(0, str(SCRIPT_DIR))
 from ttrpg_game_engine import StoryEngine
+
+# ---------------------------------------------------------------------------
+# Calendar helpers (mirrors chapter_close.py constants)
+# ---------------------------------------------------------------------------
+MONTH_OFFSETS = {
+    "ashmere": 222,
+    "hollowmere": 252,
+    "ironveil": 282,
+    "lastmere": 312,
+}
+
+WEEKDAYS = ["Stillday", "Rootday", "Forgeday", "Windday", "Fieldday", "Crownday"]
+# Anchor: Day 258 = Forgeday (index 2) → 258 mod 6 = 0 → offset 2
+WEEKDAY_OFFSET = 2
+
+
+def day_to_calendar(day: int) -> str:
+    """Engine day → 'Ashmere 36'."""
+    for name, offset in sorted(MONTH_OFFSETS.items(), key=lambda x: -x[1]):
+        if day > offset:
+            return f"{name.capitalize()} {day - offset}"
+    return f"Day {day}"
+
+
+def day_to_weekday(day: int) -> str:
+    """Engine day → weekday name."""
+    return WEEKDAYS[(day + WEEKDAY_OFFSET) % 6]
+
+
+def season_for_month(month_name: str) -> str:
+    """Month name → season string."""
+    m = month_name.lower()
+    if m in ("ashmere",):
+        return "Season of Fall"
+    elif m in ("hollowmere",):
+        return "Season of Dark"
+    elif m in ("ironveil",):
+        return "Season of Iron"
+    elif m in ("lastmere",):
+        return "Season of Ending"
+    return "Unknown Season"
 
 
 def load():
@@ -51,6 +96,185 @@ def save(eng):
         for w in warnings:
             print(f"  - {w}")
     print(f"\n[OK] Saved -> {STATE_FILE.name} (v{eng._save_version})")
+
+
+def _build_charge_str(eng) -> str:
+    """Build compact charge summary like 'Wind Step 3/5; Smoke-Invis-Clone 2/3; Iaido 0/1'."""
+    parts = []
+    # Preferred display order + short names
+    short = {
+        "Wind Step": "Wind Step",
+        "Smoke-Invis-Clone Combo": "Smoke-Invis-Clone",
+        "Phantom Double": "Phantom Double",
+        "Iaido Draw-Strike (guaranteed crit)": "Iaido",
+    }
+    for full_name, display in short.items():
+        if full_name in eng.charges:
+            cur, mx = eng.charges[full_name][0], eng.charges[full_name][1]
+            parts.append(f"**{display}** **{cur}/{mx}**")
+    # Any remaining charges not in the short map
+    for name, val in eng.charges.items():
+        if name not in short:
+            parts.append(f"**{name}** **{val[0]}/{val[1]}**")
+    return "; ".join(parts)
+
+
+def _refresh_weather(eng):
+    """Re-roll weather for current location from profiles."""
+    # Extract base location name (strip markdown bold)
+    loc_clean = re.sub(r'\*+', '', eng.location).strip()
+    # Try exact match first, then partial
+    matched = None
+    for profile_loc in eng.weather_profiles:
+        if profile_loc.lower() in loc_clean.lower() or loc_clean.lower() in profile_loc.lower():
+            matched = profile_loc
+            break
+    if matched:
+        eng.weather = random.choice(eng.weather_profiles[matched])
+        print(f"[WEATHER] {matched} → {eng.weather}")
+    else:
+        print(f"[WEATHER] No profile for '{loc_clean}' — keeping: {eng.weather}")
+        print(f"  Available profiles: {', '.join(eng.weather_profiles.keys())}")
+        print(f"  Tip: add '{loc_clean}' to weather_profiles in kenji_state.json")
+
+
+def _sync_tracker_header(eng):
+    """Overwrite the first 5 content lines of character_tracker.md with fresh engine state."""
+    if not TRACKER_FILE.exists():
+        print(f"[TRACKER] {TRACKER_FILE.name} not found — skipping header sync")
+        return
+
+    text = TRACKER_FILE.read_text(encoding="utf-8")
+    lines = text.split("\n")
+
+    cal = day_to_calendar(eng.day)
+    weekday = day_to_weekday(eng.day)
+    month_name = cal.split()[0] if " " in cal else "Unknown"
+    season = season_for_month(month_name)
+    hr = int(eng.hour) if isinstance(eng.hour, (int, float)) else eng.hour
+    time_str = f"{hr:02d}:00" if isinstance(hr, int) else str(hr)
+
+    # Build charge string
+    charge_str = _build_charge_str(eng)
+
+    # Build relationship snippet for Mursha (most active)
+    mursha_rel = eng.relationships.get("Mursha", {})
+    rel_str = f"**relationships.Mursha** **{mursha_rel.get('score', '?')}**" if mursha_rel else ""
+
+    # Active arc info
+    aa = eng.extra_json.get("active_arc", {})
+    arc_slug = aa.get("slug", "") if isinstance(aa, dict) else str(aa)
+    arc_path = aa.get("relative_path", "") if isinstance(aa, dict) else ""
+
+    # Chapter status from narrative_notes or story_beat
+    ch_status = ""
+    nn = eng.extra_json.get("narrative_notes", [])
+    for note in reversed(nn) if isinstance(nn, list) else []:
+        if isinstance(note, str) and ("COMPLETE" in note or "OPEN" in note):
+            ch_status = note.strip()
+            break
+    if not ch_status:
+        ch_status = eng.story_beat.strip()[:120] if eng.story_beat else ""
+
+    # Weather snippet
+    weather_note = eng.weather if eng.weather else "clear"
+
+    # --- Build new header lines ---
+    new_lines = [
+        f"# Character Tracker — Kenji TTRPG",
+        f"",
+        f"**Current In-Game Date:** {cal}, 1247 AR — **{weekday}** — **Day** **{eng.day}** **~{time_str}** — **{season}** (**{weather_note}**; see `kenji_state.json` `weather`)",
+        f"**Current Location:** {eng.location}. **Kenji** **~{eng.gold} GP, {eng.silver} SP**. {charge_str}. {rel_str}.",
+        f"**BOOK 4 — {ch_status}** — `arcs/{arc_path}`. **Pallid March** **shelf** **`pallid_march_south_push_arc.md`**." if arc_path else f"**BOOK 4** — {ch_status}",
+        f"**Active Book:** Book 4 — Fraying Empire (The Ronin Arc)",
+    ]
+
+    # Find where the old header ends (line starting with "> **Cross-references:**")
+    crossref_idx = None
+    for i, line in enumerate(lines):
+        if line.strip().startswith("> **Cross-references:**"):
+            crossref_idx = i
+            break
+
+    if crossref_idx is not None:
+        # Replace everything before the cross-references line
+        result = new_lines + [""] + lines[crossref_idx:]
+    else:
+        # Fallback: replace first 6 lines
+        result = new_lines + [""] + lines[7:]
+
+    TRACKER_FILE.write_text("\n".join(result), encoding="utf-8")
+    print(f"[TRACKER] Header synced — {cal} Day {eng.day} ~{time_str} {weekday}")
+
+    # --- Also update Kenji's Location line and Gold line ---
+    text2 = TRACKER_FILE.read_text(encoding="utf-8")
+    # Update Kenji Location line
+    text2 = re.sub(
+        r'(\*\*Location:\*\*) .*?(?=\n)',
+        f'\\1 **{eng.location.replace("**", "")}** — **{cal}** **{weekday}** **~{time_str}** **Day** **{eng.day}**. **HP {eng.hp}/{eng.max_hp}**; {charge_str}. **Oathbreaker** **BoH**. **Purse** **~{eng.gold} GP, {eng.silver} SP** (`kenji_state.json`).',
+        text2,
+        count=1
+    )
+    # Update Gold line
+    text2 = re.sub(
+        r'\*\*Gold:\*\* ~[\d,.]+ (?:GP|gp).*?(?=\n)',
+        f'**Gold:** ~{eng.gold} GP / {eng.silver} SP (synced `kenji_state.json` Day {eng.day})',
+        text2,
+        count=1
+    )
+    # Update Last Updated line for Kenji
+    text2 = re.sub(
+        r'(\*\*Last Updated:\*\*) .*?(?=\n)',
+        f'\\1 {cal} / Day {eng.day} — engine refresh',
+        text2,
+        count=1
+    )
+
+    TRACKER_FILE.write_text(text2, encoding="utf-8")
+    print(f"[TRACKER] Kenji block updated — gold {eng.gold} GP / {eng.silver} SP")
+
+
+def cmd_refresh(eng, args):
+    """Re-roll weather, sync tracker headers + Kenji block, write AI_CONTEXT.md, save."""
+    print("=" * 50)
+    print("ENGINE REFRESH")
+    print("=" * 50)
+
+    # 1. Weather
+    _refresh_weather(eng)
+
+    # 2. Save state (so weather persists before tracker reads it)
+    save(eng)
+
+    # 3. Sync tracker header + Kenji block
+    _sync_tracker_header(eng)
+
+    # 4. Write AI_CONTEXT.md
+    brief = eng.ai_brief_markdown()
+    out = SCRIPT_DIR / "AI_CONTEXT.md"
+    out.write_text(brief, encoding="utf-8")
+    print(f"[BRIEF] Wrote {out.name} ({len(brief)} chars)")
+
+    # 5. Validate
+    warnings = eng.validate()
+    if warnings:
+        print("\n[!] VALIDATION WARNINGS:")
+        for w in warnings:
+            print(f"  - {w}")
+
+    # Summary
+    cal = day_to_calendar(eng.day)
+    weekday = day_to_weekday(eng.day)
+    hr = int(eng.hour) if isinstance(eng.hour, (int, float)) else eng.hour
+    print(f"\n{'=' * 50}")
+    print(f"Day {eng.day} ({cal}, {weekday}) ~{hr:02d}:00")
+    print(f"Location: {eng.location}")
+    print(f"Weather:  {eng.weather}")
+    print(f"Gold:     {eng.gold} GP / {eng.silver} SP")
+    print(f"HP:       {eng.hp}/{eng.max_hp}")
+    charges_display = _build_charge_str(eng).replace("**", "")
+    print(f"Charges:  {charges_display}")
+    print(f"{'=' * 50}")
 
 
 def cmd_tick(eng, args):
@@ -286,6 +510,7 @@ def cmd_save(eng, args):
 
 
 COMMANDS = {
+    "refresh": cmd_refresh,
     "tick": cmd_tick,
     "rest": cmd_rest,
     "eat": cmd_eat,

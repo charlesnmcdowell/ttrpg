@@ -1687,6 +1687,13 @@ class StoryEngine:
             "Bleakmoor": ["Grey overcast", "Dead air", "Cold", "Ash wind"],
             "Thornwall": ["Dry", "Windy", "Clear", "Dust"],
             "Crestfall": ["Cold", "Clear", "Frost", "Bitter wind"],
+            # Book 4 locations
+            "Thornfield": ["Overcast", "Light rain", "Clearing mist", "Cool wind", "Pale sun"],
+            "Greymere": ["Grey overcast", "Drizzle", "Cold fog", "Damp wind"],
+            "Millhaven": ["Overcast", "Light rain", "Cold wind", "Clear morning", "Frost at dawn"],
+            "Thornkeep": ["Overcast", "Hard frost predawn", "Cold wind off the crown", "Clear cold", "Sleet"],
+            "Bronzebarrow": ["Forge haze", "Hard frost predawn", "Cold clear", "Relay wind off the crown road", "Overcast", "Thin smoke and yard dust"],
+            "Western cut": ["Trail mist", "Cold dusk", "Stars through cloud breaks", "Ridge wind", "Frost on deadfall"],
         })
         
         # HEARTS & MINDS — Squad EXP tracking

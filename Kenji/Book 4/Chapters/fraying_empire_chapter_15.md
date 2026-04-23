@@ -3,6 +3,8 @@
 **Session span:** Ashmere 29 dawn through Ashmere 30 dawn (Day 251–252).  
 **Corridor:** East verge mile ~17 → south road crown (solo) → Pallid March **forward cordon** (root-crown amphitheater, circulation heart, guest chamber).
 
+**Kenji dialogue note:** All Kenji spoken lines in this chapter are **player-declared** at the table. Default rule remains no AI-generated Kenji dialogue.
+
 ---
 
 ### Split after the copse
@@ -29,7 +31,7 @@ She stood at the edge of the camp with her shield on her arm and her jaw set in 
 
 She turned north. Shield leading. Boots quiet on the frost. Jostin fell in behind her — two paces left, staggered, the patrol geometry they had been walking since Thornkeep.
 
-They disappeared into the birch line in under a minute. Good movement. Clean lines. The mist did not follow them.
+They disappeared into the birch line in under a minute. Tight spacing, no wasted steps. The mist did not follow them.
 
 The ronin watched the tree line until the last sound of their passage — Brynn's shield catching a low branch, the scrape of metal on wood — faded into the general quiet.
 
@@ -55,7 +57,7 @@ The mist pretended indifference. The dead zone's old logic listened south.
 
 He felt the iron key first. The pull at his hip had been steady since Ashmere 23 — SSW, always SSW, toward the sealed thing six miles south of the grove — but here, inside the March's active perimeter, the pull sharpened. Not stronger. *Clearer*. Like a signal passing through interference into clean air.
 
-Frost Fang stirred. Not Solveth speaking — Solveth did not speak on roads where the grammar was someone else's. But the entropy blade carried awareness the way a tuning fork carries resonance, and what it was resonating with now was the infrastructure under his feet: old binding work, patience-binding architecture, the same school Solveth had fought in the Spoke Wars of 1196 and recognized the way a locksmith recognizes a competitor's keyhole.
+Frost Fang stirred. Not Solveth speaking — Solveth did not speak on roads where the grammar was someone else's. But the entropy blade carried awareness the way a tuning fork carries resonance, and what it was resonating with now was the infrastructure under his feet: old binding work, patience-binding architecture, the same school Solveth had fought in the Spoke Wars of 1196 and recognized — the same gut-level certainty a locksmith feels staring at a competitor's keyhole.
 
 The road ended.
 
@@ -79,9 +81,9 @@ The face was too calm. The way a sleeping face is calm — not peaceful, *absent
 
 The tray went on a root-shelf that should not have been a table. Fruit — dried, dark, the kind of preservation that centuries of practice produce. Bread that was dense and honest. Something in a clay bowl that smelled like broth and looked like patience. Food for a guest. Food that said *I knew you were coming and I prepared* and *you may eat because I permit it.*
 
-He ate anyway. Not fast, not polite — the way a man eats when pride stops negotiating with hunger. Standing at first, because sitting was a different sentence. The bread tasted like grain that had been grown in soil that remembered what sunlight was. The broth tasted like a question asked in liquid form.
+He ate anyway. Not fast, not polite — pride had stopped negotiating with hunger somewhere on the walk in, and hunger had won. Standing at first, because sitting was a different sentence. The bread tasted like grain that had been grown in soil that remembered what sunlight was. The broth tasted like a question asked in liquid form.
 
-The woman on the root-throne did not eat. She watched. The watching had a weight to it that had nothing to do with the physical mass of her attention and everything to do with the centuries of intelligence behind it. She was reading him the way Jostin read a patrol route — methodically, completely, cataloguing every datum that the act of eating revealed. How he held the bread. Which hand reached first. Whether he checked for poison. Whether he cared about poison.
+The woman on the root-throne did not eat. She watched. The watching had a weight to it that had nothing to do with the physical mass of her attention and everything to do with the centuries of intelligence behind it. She was reading him like Jostin read a patrol route — methodically, completely, cataloguing every datum that the act of eating revealed. How he held the bread. Which hand reached first. Whether he checked for poison. Whether he cared about poison.
 
 He sat. Back straight, nodachi still within honest reach — not performing threat, not hiding the option. The blade across his back was a statement in a language she could read: *I brought the sword that answers questions and I have not drawn it.* The Bag of Holding at his hip was a second statement: *I have something of yours in here and I am not offering it back.*
 
@@ -109,9 +111,9 @@ He did.
 
 ---
 
-Time passed. The root-crown court did not track time the way the surface world did — no sun, no shadow-movement, no clock. What tracked time was the cadence. Every fifteen minutes, the aura did what it always did.
+Time passed. The root-crown court did not track time as the surface world did — no sun, no shadow-movement, no clock. What tracked time was the cadence. Every fifteen minutes, the aura did what it always did.
 
-Irresistible Presence. DC 23. Passive. Always on. He could not turn it off the way he could not turn off his heartbeat. Every female humanoid within viewing distance — and *viewing* meant eyes on him, magical sight on him, any form of perception that registered his physical presence — rolled against the aura on a fifteen-minute cycle. Cumulative minus one to the save per window. The stack ladder climbed from *awareness* through *attraction* through *desire* through *need* through *procreative urge* through *ravenous* through *overwhelming*.
+Irresistible Presence. DC 23. Passive. Always on. He could no more turn it off than he could stop his own heartbeat. Every female humanoid within viewing distance — and *viewing* meant eyes on him, magical sight on him, any form of perception that registered his physical presence — rolled against the aura on a fifteen-minute cycle. Cumulative minus one to the save per window. The stack ladder climbed from *awareness* through *attraction* through *desire* through *need* through *procreative urge* through *ravenous* through *overwhelming*.
 
 The living attendant broke first.
 
@@ -129,9 +131,9 @@ The Lady herself was not immune.
 
 Her mind was a fortress — centuries of willpower, item-boosted WIS, the iron discipline of a woman who had been making decisions that killed thousands since before the Coalition's grandparents were born. She passed saves that the attendant failed. She passed them with margins that lesser women would not have achieved. But the cadence was cumulative, and the stacking was mathematical, and mathematics does not care about willpower.
 
-By the time the court transitioned from meal to the next beat, the Lady had lost ground. Not visibly — she was too old and too proud to let a biological process show on her face the way it showed on the attendant's. But the way she sat on the throne changed. The way she held her hands changed. The hazel eyes developed a depth that had not been there when the conversation started — the depth of a woman who is thinking about something she has decided not to think about, and is losing that decision by degrees.
+By the time the court transitioned from meal to the next beat, the Lady had lost ground. Not visibly — she was too old and too proud to let a biological process show on her face the way it showed on the attendant's. But something in her posture shifted — how she sat on the throne, how she held her hands. The hazel eyes developed a depth that had not been there when the conversation started — the depth of a woman who is thinking about something she has decided not to think about, and is losing that decision by degrees.
 
-The attendant was dismissed. A thrall replaced her — dead eyes, no save to fail, no biology to betray. The court became quieter in the way a room becomes quieter when the person who was breathing hardest leaves.
+The attendant was dismissed. A thrall replaced her — dead eyes, no save to fail, no biology to betray. The court became quieter — not because the noise had changed, but because the person who had been breathing hardest was no longer in it.
 
 He asked for bulk rations. The request was practical and the practicalness was deliberate — a man asking for preserved food is a man planning to leave, and a man planning to leave is a man who is not staying to give the aura more windows to work. She heard the subtext. She permitted it.
 
@@ -145,7 +147,7 @@ Thralls staged lean march weight — roughly three weeks of preserved stores int
 
 He asked for a bath.
 
-The request sat in the air between them for a moment longer than requests usually sit. Not because she was deciding whether to grant it — she had already decided, the way she had decided to grant the meal and the rations and the audience itself, with the patience of a woman who understood that every permission was an investment. The pause was because the request changed the room's category. Meals are diplomatic. Rations are logistical. Baths are intimate.
+The request sat in the air between them for a moment longer than requests usually sit. Not because she was deciding whether to grant it — she had already decided — had decided before he opened his mouth, just as she had decided about the meal and the rations and the audience itself, with the patience of a woman who understood that every permission was an investment. The pause was because the request changed the room's category. Meals are diplomatic. Rations are logistical. Baths are intimate.
 
 She named the price of courtesy. Not in coin — in terms. The vocabulary shifted from the court's formal grammar into something more personal: an exchange, a framework, the rules of a game she had been playing since before the concept of a game had been codified into language.
 
@@ -179,7 +181,7 @@ Oil and skin. He washed her the way a man washes something he is simultaneously 
 
 He framed a bargain while his hands worked. Two demands from each — equals language. She corrected the grammar without letting go of the game: not demands, *terms*. Terms from her. Terms from him. The negotiation of two people who understood that the person washing and the person being washed were both performing acts of vulnerability that would be weaponized later.
 
-Her first demand: no lies he believes. Omission allowed. Performance allowed. But if the words leave his mouth and he thinks they are true, they must be true. The demand was precise in the way that centuries of contract law produce precision — it did not ask for honesty, it asked for a specific category of honesty that left room for everything except self-deception.
+Her first demand: no lies he believes. Omission allowed. Performance allowed. But if the words leave his mouth and he thinks they are true, they must be true. The demand carried the precision that centuries of contract law produce — it did not ask for honesty, it asked for a specific category of honesty that left room for everything except self-deception.
 
 Her second: when she asks who his enemies are — names, or silence. Not poetry. Not metaphor. Not the ronin's habit of answering questions with the shape of a question. Names. The kind of truth that could be written on a list and acted upon.
 
@@ -193,7 +195,7 @@ The demands were never finished clean. The scene turned before the sentence comp
 
 ---
 
-What followed was touch without crossing the line her biology treats as execution.
+What followed was touch without crossing the line her biology treated as execution.
 
 Not intercourse. Therefore Close to Death never triggered — the fantasy-venereal contagion that killed during the act and bound during the death stayed dormant, because the vector required a specific threshold that neither of them crossed. What they did instead was everything on the near side of that threshold, which was a territory large enough to occupy hours and intimate enough to cost both of them something they could not get back.
 

@@ -4,6 +4,8 @@
 **Date:** Ashmere 27–28, 1247 AR (Crownday night → Stillday morning)
 **Location:** South road, miles 10–12. Camp at mile 12. March north to mile 8.
 
+**Kenji dialogue note:** All Kenji spoken lines in this chapter are **player-declared** at the table. Default rule remains no AI-generated Kenji dialogue.
+
 ---
 
 ### The Hub

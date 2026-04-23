@@ -424,23 +424,25 @@ She does not casually switch to human. She switches for one reason: she wants so
 **[Reference image LOCKED — tavern portrait, The Brass Hitch.]**  
 `Kenji/Game init files/reference_images/mursha_brass_hitch_tavern.png`
 
-> **Note:** Other Mursha renders exist (private / out-of-scene). **Canon kit, scars, and proportions for Book 4 prose** follow **this tavern ref** only — do not import alternate wardrobe or staging into inventory.
+> **Note:** **Public / combat silhouette** (what strangers see in the tavern) stays locked to **`mursha_brass_hitch_tavern.png`**. **Suite and player ref renders** are allowed to inform **private-scene prose**: muscle definition, cosmetics, lingerie palette, lamplight sheen — **without** overwriting **fixed tells**: scar placement, tusk style, baseline **olive–green** skin tone, braid + silver band habit, **steel-capped** short tusks.
 
-**Private suite / intimacy staging (The Brass Hitch, Book 4 Ch18+):** seven additional locks under `reference_images/` — `mursha_brass_hitch_suite_armor_back_01.png`, `mursha_brass_hitch_suite_armor_kneel_01.png`, `mursha_brass_hitch_suite_lingerie_back_01.png`, `mursha_brass_hitch_suite_lingerie_pose_01.png`, `mursha_brass_hitch_suite_lingerie_pose_02.png`, `mursha_brass_hitch_suite_lingerie_prone_01.png`, `mursha_brass_hitch_suite_green_aura_01.png`. Use for **stage 2–3** private beats only. **Green aura / glow** in art matches **stage 3 (Lover’s Vigor)** eye-and-presence tell only when vigor is **actually active** in play; during **stage 2** keep **dark brown eyes** and **no** supernatural ring per mode register below.
+**Private suite / intimacy staging (The Brass Hitch, Book 4 Ch18+):** seven locks under `reference_images/` — `mursha_brass_hitch_suite_armor_back_01.png`, `mursha_brass_hitch_suite_armor_kneel_01.png`, `mursha_brass_hitch_suite_lingerie_back_01.png`, `mursha_brass_hitch_suite_lingerie_pose_01.png`, `mursha_brass_hitch_suite_lingerie_pose_02.png`, `mursha_brass_hitch_suite_lingerie_prone_01.png`, `mursha_brass_hitch_suite_green_aura_01.png`. **Supplementary player refs** (same character, additional angles — copy into `reference_images/` if promoting to campaign locks): workspace assets `mursha10-*.png`, `mursha_9-*.png`, `mursha_4-*.png`, `mursha-*.png` (intimacy staging, white lace / teal lace / armor-kneel variants). Use for **stage 2–3** private beats only. **Green aura / glow** in art matches **stage 3 (Lover’s Vigor)** eye-and-presence tell only when vigor is **actually active** in play; during **stage 2** keep **dark brown eyes** and **no** supernatural ring per mode register below.
 
-**Build:** Half-orc. **Powerful athletic** frame — **heavy delts and biceps**, visible definition; **narrow toned waist**; **thick muscular thighs**. Reads as **spear-and-shield** professional first, ornament second. **Bust** is **large**; armor is cut to **clear** shoulders and arms for work.
+**Build — STR-forward half-orc:** Reads **hypertrophic** next to human soldiers — **broad shoulders**, **heavy triceps and forearms**, **defined back and lats**; when unarmored, **visible abdominal stack** (fighter core, not vanity). **Narrow waist** for her frame; **hips and glutes thick and rounded**, **thighs very large and hard** — “spear line” is **power**, not runway slimness. **Bust** is **full**; on duty, armor is cut so **arms and shoulders stay free** for real work. In **warm lamplight**, skin often picks up a **gloss** (oil, sweat, bath steam) that **traces muscle planes**.
 
-**Hair:** **Jet black**, **tight cornrows** pulled back; several braids carry **silver metal rings/cuffs** (not bronze — clan or company habit).
+**Hair:** **Jet black**, **tight cornrows** at the scalp that feed **several thick braids** (some gathered **high**, some falling **down her back**). Braids are banded with **multiple silver metal rings / cuffs** (company or clan habit — **not bronze**).
 
-**Face:** **Sharp**, **high cheekbones**; **full lips** with a **pink-brown** cast. **Scars:** one **vertical** line **through the right eyebrow**; a **second small scar** on the **right cheek**. **Ears:** **large**, **long**, **pointed** (heavy lineage read — half-orc with **prominent ear length**). **Tusks:** **small**, **steel-capped**, kept **short** — visible when she smiles or snarls, not a “tusk-forward” silhouette at rest.
+**Face:** **Sharp jaw**, **high cheekbones**; **dark brows**; **full lips** (**pink-brown**). **Scars (fixed):** one **vertical** through the **right eyebrow**; a **second small** mark on the **right cheek**. **Ears:** **long**, **pointed**, often **angled back** along the skull (strong elf/orc read). **Jewelry:** **silver hoop** earring(s) on the exposed ear in off-duty/suite art — small, plain metal, catches lantern light. **Tusks:** **small**, **steel-capped**, **filed short** — show when she smiles or snarls, not a boar-forward profile at rest.
 
-**Eyes:** **Dark brown**; quartering exits and hands before faces.
+**Eyes:** **Dark brown**, quartering **exits and hands** before faces. **Lover’s Vigor:** **bronze-gold ring** at pupil edge (see mode **3** below). Optional **liner** in low light (suite/intimacy) — **heavy lash line**, makes the **already sharp** stare **more theatrical** when she turns a look over her shoulder.
 
-**Skin:** **Smooth olive–green tan** with a **warm** undertone; can carry a **light sheen** (road dust, lamp heat, honest sweat). Sun **deepens** green on **nose bridge and forearms**; **no human flush** — warmth stays in the **green-brown** range.
+**Skin:** **Pale olive–green** to **green-tan** with a **warm** undertone (not grey-orc ash); sun **deepens** green on **nose bridge and forearms**. **No pink flush** — arousal/heat reads as **sheen**, **breath**, **muscle tension**. Road grit, **weapon oil**, and **foreign soap** can add **wrong-note** scent layers (DM may use for **ambient hints** in intimate fiction per table).
 
-**Gear (typical on duty / at the Hitch):** **Dark metal breastplate** in a **minimal cut** (leather trim, practical for arms); **heavy segmented spaulder** on **right shoulder**; **thigh plates** on **upper legs**; **dark leather** wraps on **forearms**; **olive–grey cloak** draped **neck / left shoulder**; **leather straps and buckles** at **waist and thighs**. Off-duty scenes may **dial armor down** — keep **scars, ears, braids, skin tone** fixed.
+**Gear (typical on duty / at the Hitch):** **Dark metal breastplate** in a **minimal / bikini-cut** practical line; **single heavy pauldron** on **right shoulder**; **dark bracers** (leather straps); **olive or tan wrap / hood** at **neck and shoulders**; **matching loincloth / skirt** line for lower body when not in full thigh plate; **wide leather straps + silver buckles** on **upper thighs**. Off-duty / suite: may shift to **delicate lace** sets — **white** or **dark teal / forest green** thong-and-bra pairing — contrast with **hard muscle** is intentional. **Nails:** **black polish** on **fingers and toes** in private beats when she’s dressing for **her** comfort (not required on campaign march).
 
-**Hands:** Spear-and-shield calluses; knuckles mapped with small old marks. Drinks from a **dark wood tankard** with **iron bands** when off-watch.
+**Hands / feet:** Spear-and-shield **calluses**; knuckles **mapped** with old marks. Drinks from a **dark wood tankard** with **iron bands** when off-watch.
+
+**Prose guidance (DM / AI):** When Mursha is **on camera**, default to **concrete anatomy** — name **muscle groups**, **braid weight**, **earring flash**, **tusk edge**, **skin temperature vs room air**, **scar lines in lamplight** — not vague “attractive warrior.” Intimate beats with Kenji: campaign **quirk** — layer **subtle sensory hints** of **other male partners earlier the same day**; **Kenji does not** call it out in dialogue (see `character_tracker.md` § **MURSHA**).
 
 ### DM stage register — how to write Mursha (three modes)
 
@@ -501,19 +503,19 @@ Use **one** mode per scene unless the arc is explicitly crossing a boundary. Rul
 
 > **Note:** Haldra uses a **three-stage visual canon**. Base clerk scenes use the two locked clerk refs above. If romance/intimacy scenes occur, required stage refs are: `reference_images/haldra_offduty_intimacy_reference.png` (pre-/during intimacy staging) and `reference_images/haldra_post_vigor_reference.png` (post-intimacy + active vigor tell). Do **not** treat these as optional.
 
-**Build:** Dwarf woman, compact and dense. Ledger posture; short sideburn plaits, beard absent (personal/dwarven feminine style in this house).
+**Build:** Dwarf woman, full-figured and solidly built — wide hips, heavy bust, the kind of frame that fills a doorway with presence rather than height. Carries her weight low and centered; moves with the unhurried confidence of someone who knows the room adjusts to her, not the other way around.
 
-**Hair:** Dark auburn, two long practical braids with brass ties.
+**Hair:** Dark auburn, rich chestnut-red in firelight. Two long braids past her shoulders, each clasped with bronze ties at crown and ends. Loose wisps at the temples when she's been working.
 
-**Face:** Strong nose, expressive mouth held neutral for negotiation; ink at nail beds.
+**Face:** Soft jaw, rounded cheeks that flush warm after a hot room or an argument. Composed mouth — not cold, but measured; the kind of face that smiles when she means it and not before. Light freckles across the bridge of her nose in good light.
 
-**Eyes:** Blue-grey.
+**Eyes:** Clear blue, direct. Not shy about holding a look.
 
-**Skin:** **Fair cool-toned** base with **forge-ruddy** high cheeks and nose — not sun-brown; reads as **pale granite with a flush** after a hot room or argument.
+**Skin:** Fair with warm undertones — reads as cream-and-rose, not pale; forge-flush at the cheeks and nose is her default coloring, not a blush. Smooth complexion.
 
-**Gear (on duty):** Dark fitted work dress over white shirt, belt and utility pouches, wrist wraps, scale and ledgers always within reach.
+**Gear (on duty):** Dark fitted pinafore-apron over white blouse (sleeves pushed to the elbows when working), wide leather belt with tool pouches — pens, seal stamps, a small hammer for crate marks. Leather wrist wraps. Bronze balance scale and open ledger always within arm's reach at her desk.
 
-**Hands:** Ink-rimmed nails; callus pads from seals and weights.
+**Hands:** Ink-rimmed nails; small callus pads from seals and weights. Hands are deft, not rough — she handles paper as often as iron.
 
 ### DM stage register — how to write Haldra (three modes)
 
@@ -522,7 +524,7 @@ Use **one** mode per scene unless the arc is explicitly crossing a boundary. Rul
 **1) Normal — clerk/professional default**
 - **When:** Contracts, weights, rates, normal desk scenes.
 - **Read:** Exacting, procedural, not timid; attention lives on ledgers and fraud tells.
-- **Eyes:** Blue-grey baseline.
+- **Eyes:** Clear blue baseline.
 - **Stats:** Baseline.
 
 ---
@@ -530,7 +532,7 @@ Use **one** mode per scene unless the arc is explicitly crossing a boundary. Rul
 **2) Before romance / intimacy — IP on, no Vigor**
 - **When:** She is viewing Kenji and failing IP saves, but no qualifying Vigor trigger happened.
 - **Read:** Composure strains (extra paper-straightening, delayed responses), yet she can still refuse by policy/cost/risk.
-- **Eyes:** Blue-grey (no vigor ring yet).
+- **Eyes:** Clear blue (no vigor ring yet).
 - **Stats:** Baseline.
 
 ---
@@ -539,8 +541,8 @@ Use **one** mode per scene unless the arc is explicitly crossing a boundary. Rul
 - **When:** Qualifying Vigor trigger occurred; clock active.
 - **Read:** Sharper stamina and confidence; she remains detail-first, just faster and harder to rattle.
 - **Eyes (canonical tell):**
-  - **Default:** blue-grey
-  - **Vigor active:** blue-grey with a **brass-amber ring** at the pupil edge
+  - **Default:** clear blue
+  - **Vigor active:** blue with a **brass-amber ring** at the pupil edge
   - **Final day:** ring dulls toward smoke-amber
   - **Off-stack:** baseline returns; IP saves resume on viewing
 - **Stats:** +50% all stats while active (table rule).

@@ -1,5 +1,7 @@
 # Active arc — Pallid March (south push)
 
+**Table camera (Day 257):** Kenji is **not** on the **active undead / March** corridor — **`kenji_state.json` → `active_arc.relative_path`** is **`arcs/north_relay_two_chapter_plan.md`**. This Pallid March file stays **shelf + session truth + unpaid south threads** until he **returns south** or a **rider/courier** catches him.
+
 **Use while:** Kenji is **in** or **downstream of** the southern corridor (south road, March cordon, Ashenveil margin) **or** resolving **immediate fallout** in **Thornkeep** that originated from this push (Oathbreaker custody, Lady intel, relay blackout reports). Rough window **Ashmere 26–45**, or until the table promotes a new arc file (e.g. `ashenmere_council_pressure_arc.md`).
 
 **If Kenji leaves the south spine** (e.g. north crown travel, new relay towns): this file becomes **reference + unpaid threads**, not “inactive lore.” Shelf items (Pair A, Oathbreaker paper, Lady pings) may **catch up by courier** — see `arcs/north_relay_two_chapter_plan.md` for a **2-chapter** north relay + mixed-species cast plan.
@@ -11,7 +13,7 @@
 - **Ch16 COMPLETE** — inner cordon beats; **Seren** mask-name; **leak** + **bronze trophy**; **egress**; **Thornkeep Waystation**; vigil nights **Ashmere 31–32**; **LR** Ashmere 32 dawn.  
 - **Ch17 COMPLETE** — **Ashmere 33** office border brief; PM **Persuasion** path → **captain quarters** overnight **33→34**; **Lover’s Vigor** reset; **Ashmere 34** predawn **LR**; Kenji **Stealth** egress on runner knock, **north gate** exit ~**09:00** Day **256** (no formal goodbye).  
 - **Ch18 COMPLETE** — crown road north → **Bronzebarrow**; **Iron Mule** (**Cassia Vorn**) **Mursha** buyout; Kenji **floor coffer theft**; **Brass Hitch** luxury suite + **Mursha** arc (**clone flicker** seen; **Deception** on double **failed**); suite **LR** **Ashmere 34→35**; **Bonded Lovers 20**. See `arcs/north_relay_two_chapter_plan.md` § *Canon played — Ch18*.  
-- Kenji is on the **north relay** vector — this file is **shelf + unpaid south threads** until he returns or a **rider/courier** catches him.  
+- Kenji is on the **north relay** vector — this file is **shelf + unpaid south threads** until he returns or a **rider/courier** catches him. **Book** **4** **Ch19** **CLOSED** **Day** **257** **Ashmere** **35** — **Bronzebarrow** **gear** **day** **logged** **`kenji_state.json`**; **Ch20** **north** **relay** **per** **`north_relay_two_chapter_plan.md`** **§** **Ch19** **canon** **+** **Ch20** **prediction**.  
 - Prose / machine: `kenji_state.json` is authoritative for timestamps and purse; chapter `.md` stubs optional. If anything disagrees, **last played table beat wins**.
 
 ---

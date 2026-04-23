@@ -3,6 +3,8 @@
 **Session span:** Ashmere 30 (post–guest-chamber **long rest** through same evening) → **Ashmere 31** dawn (Day 252–253).  
 **Corridor:** March **guest chamber** (wake, same calendar day as Ch15 end) → **inner cordon** (burned circle, **Frost Fang** at hip, threshold work) → **negotiation** → **egress** → south road **northbound** → **Thornkeep** gates → **Thornkeep Waystation** hired room → **long rest**.
 
+**Kenji dialogue note:** All Kenji spoken lines in this chapter are **player-declared** at the table. Default rule remains no AI-generated Kenji dialogue.
+
 ---
 
 ### Guest chamber — Ashmere 30, after the latch
@@ -95,7 +97,7 @@ She did not react. That was worse than reacting. A reaction would have told him 
 
 He reached into the Bag of Holding — past the Oathbreaker, past the rations, past the provisions that had been staged by thralls who moved too calmly — and pulled out a bronze trophy. Small. Heavy for its size. The kind of object a man carries because it meant something once and keeping it means something different now.
 
-He placed it in her palm. Not offered — deposited. The way a man leaves a calling card at a house he intends to visit again, or a man leaves evidence at a crime scene he cannot bring himself to clean.
+He placed it in her palm. Not offered — deposited. The way a man leaves a calling card at a house he intends to visit again — or evidence at a crime scene he cannot bring himself to clean.
 
 A sympathetic token. In a place where sympathy was inventory. In the hand of a woman whose ring held four seams and whose patience-binding knowledge stretched back centuries. He had just given the Warden-Queen of the Pallid March a scrying anchor connected to his biology, his warmth, his recently shared proximity. The bronze would remember his touch. Her root network would remember the bronze.
 
