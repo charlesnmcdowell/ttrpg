@@ -21,7 +21,7 @@
 **B beats (pick one spotlight NPC race scene)**
 - **Haldra** — dwarf factor clerk (female, pragmatic): wants **insurance** on a late ingot shipment — not a fight, a **paper chase**; tests whether the ronin takes money or problems.
 - **Mursha** — half-orc caravan guard: **Insight** optional — she’s sizing up the mask for **threat**, not romance; respect ladder.
-- **Gwynn** — halfling hostler: comic relief with teeth — notices **trackless boots** if Kenji slips; **no gotcha** if Stealth wasn’t in play; otherwise fair **passive Perception** contest.
+- **Gwynn** — halfling hostler: comic relief with teeth — notices **trackless boots** if Kenji slips; **no gotcha** if Stealth wasn’t in play; otherwise fair **passive Perception** contest. **Refs + stages:** `npc_appearance.md` + `reference_images/gwynn_*.png` (portrait, work back, intimacy, post-vigor).
 
 **Combat default:** **none** unless Kenji starts one. This chapter is **ears and faces**.
 

@@ -426,9 +426,9 @@ She does not casually switch to human. She switches for one reason: she wants so
 
 > **Note:** Other Mursha renders exist (private / out-of-scene). **Canon kit, scars, and proportions for Book 4 prose** follow **this tavern ref** only — do not import alternate wardrobe or staging into inventory.
 
-**Build:** Half-orc. **Powerful athletic** frame — **heavy delts and biceps**, visible definition; **narrow toned waist**; **wide full hips**; **thick muscular thighs**; **heavy round glutes** (defining silhouette from behind or in profile). Reads as **spear-and-shield** professional first, ornament second. **Bust** is **large**; armor is cut to **clear** shoulders and arms for work.
+**Build:** Half-orc. **Powerful athletic** frame — **heavy delts and biceps**, visible definition; **narrow toned waist**; **thick muscular thighs**. Reads as **spear-and-shield** professional first, ornament second. **Bust** is **large**; armor is cut to **clear** shoulders and arms for work.
 
-**Hair:** **Jet black**, **tight cornrows** pulled back; several braids carry **silver metal rings/cuffs** (not bronze — clan or company habit). **Off-duty:** cornrows loosened to **wavy lengths**, braids kept; hair falls past shoulders.
+**Hair:** **Jet black**, **tight cornrows** pulled back; several braids carry **silver metal rings/cuffs** (not bronze — clan or company habit).
 
 **Face:** **Sharp**, **high cheekbones**; **full lips** with a **pink-brown** cast. **Scars:** one **vertical** line **through the right eyebrow**; a **second small scar** on the **right cheek**. **Ears:** **large**, **long**, **pointed** (heavy lineage read — half-orc with **prominent ear length**). **Tusks:** **small**, **steel-capped**, kept **short** — visible when she smiles or snarls, not a “tusk-forward” silhouette at rest.
 
@@ -442,7 +442,7 @@ She does not casually switch to human. She switches for one reason: she wants so
 
 ### DM stage register — how to write Mursha (three modes)
 
-Use **one** mode per scene unless the arc is explicitly crossing a boundary. Rules for **IP / Lover’s Vigor** → `dm_rules_tracking.md` § **IRRESISTIBLE PRESENCE** + **Lover’s Vigor**; `character_tracker.md` Kenji block summary.
+Use **one** mode per scene unless the arc is explicitly crossing a boundary. Rules for **IP / Lover’s Vigor** → `kenji_tracking_OBSOLETE.md` § **IRRESISTIBLE PRESENCE** + **Lover’s Vigor**; `character_tracker.md` Kenji block summary.
 
 ---
 
@@ -481,33 +481,118 @@ Use **one** mode per scene unless the arc is explicitly crossing a boundary. Rul
 
 ## Haldra — Dwarf factor clerk (Bronzebarrow yard / inn circuit)
 
+**[Reference image LOCKED — clerk portrait/front + clerk desk/back.]**  
+`Kenji/Game init files/reference_images/haldra_brass_hitch_clerk.png`  
+`Kenji/Game init files/reference_images/haldra_brass_hitch_clerk_back.png`
+
+> **Note:** Haldra uses a **three-stage visual canon**. Base clerk scenes use the two locked clerk refs above. If romance/intimacy scenes occur, required stage refs are: `reference_images/haldra_offduty_intimacy_reference.png` (pre-/during intimacy staging) and `reference_images/haldra_post_vigor_reference.png` (post-intimacy + active vigor tell). Do **not** treat these as optional.
+
 **Build:** Dwarf woman, compact and dense. Ledger posture; short sideburn plaits, beard absent (personal/dwarven feminine style in this house).
 
-**Hair:** Dark auburn, oiled, plaited with small bronze rings matching factor stamps.
+**Hair:** Dark auburn, two long practical braids with brass ties.
 
 **Face:** Strong nose, expressive mouth held neutral for negotiation; ink at nail beds.
 
-**Eyes:** Dark grey.
+**Eyes:** Blue-grey.
 
 **Skin:** **Fair cool-toned** base with **forge-ruddy** high cheeks and nose — not sun-brown; reads as **pale granite with a flush** after a hot room or argument.
 
+**Gear (on duty):** Dark fitted work dress over white shirt, belt and utility pouches, wrist wraps, scale and ledgers always within reach.
+
 **Hands:** Ink-rimmed nails; callus pads from seals and weights.
+
+### DM stage register — how to write Haldra (three modes)
+
+---
+
+**1) Normal — clerk/professional default**
+- **When:** Contracts, weights, rates, normal desk scenes.
+- **Read:** Exacting, procedural, not timid; attention lives on ledgers and fraud tells.
+- **Eyes:** Blue-grey baseline.
+- **Stats:** Baseline.
+
+---
+
+**2) Before romance / intimacy — IP on, no Vigor**
+- **When:** She is viewing Kenji and failing IP saves, but no qualifying Vigor trigger happened.
+- **Read:** Composure strains (extra paper-straightening, delayed responses), yet she can still refuse by policy/cost/risk.
+- **Eyes:** Blue-grey (no vigor ring yet).
+- **Stats:** Baseline.
+
+---
+
+**3) After romance intimacy — Lover's Vigor active (~5 days)**
+- **When:** Qualifying Vigor trigger occurred; clock active.
+- **Read:** Sharper stamina and confidence; she remains detail-first, just faster and harder to rattle.
+- **Eyes (canonical tell):**
+  - **Default:** blue-grey
+  - **Vigor active:** blue-grey with a **brass-amber ring** at the pupil edge
+  - **Final day:** ring dulls toward smoke-amber
+  - **Off-stack:** baseline returns; IP saves resume on viewing
+- **Stats:** +50% all stats while active (table rule).
+- **Wardrobe:** Canon remains clerk kit unless scene explicitly changes context.
 
 ---
 
 ## Gwynn — Halfling hostler, The Brass Hitch (Bronzebarrow)
 
-**Build:** Halfling, sturdy low center of gravity; quick feet; stable shoulders from tack and lead ropes.
+**[Reference images LOCKED — four-stage set.]**  
+`Kenji/Game init files/reference_images/gwynn_hostler_portrait.png` — yard/hostler **front**, apron + tools  
+`Kenji/Game init files/reference_images/gwynn_hostler_work_back.png` — **work back**, rope, chaps, belt brushes  
+`Kenji/Game init files/reference_images/gwynn_intimacy_reference.png` — **intimacy** staging (private quarters)  
+`Kenji/Game init files/reference_images/gwynn_post_vigor_reference.png` — **post-intimacy + active Lover’s Vigor** (green vigor read, stage-3 prose)
 
-**Hair:** Chestnut brown, curly, often escaping a tail tie.
+> **Note:** All four paths are **required references by story stage** — use the matching file when that beat is in play. Refs are human-proportioned art; **canon species stays Halfling** — scale height to **~3′2″–3′6″** (or your table halfling band); keep **hair, eyes, kit layout, and work tells** from the portraits.
 
-**Face:** Open smile that can turn sharp when she’s pricing someone.
+**Build:** Halfling, **sturdy** low center of gravity; **athletic/curvy** for her size; quick feet; stable shoulders from tack and lead ropes.
 
-**Eyes:** Bright brown.
+**Hair:** **Medium-to-dark brown**, **voluminous curly**; work days: **loose tie** or **messy bun** with **strands** framing face; intimacy refs: **high pony** with waves/bangs variant — same woman, different prep.
 
-**Skin:** **Warm light brown** — **tan** from yard work, undertone **golden**; forearms a half-shade darker than upper arms. Reads as **sun-and-straw** healthy, not noble-pale.
+**Face:** **Heart-shaped**, soft jaw; **pleasant** default expression that can flip to **sharp** when she’s pricing someone or catching a lie.
 
-**Hands:** Rope-burn pale patches; small scars from animals and hardware.
+**Eyes:** **Warm hazel / light brown** (almond, dark lashes) in **normal** register.
+
+**Skin:** **Sun-kissed**, warm **golden-tan** from stable yard; **clear** complexion; intimacy/vigor staging may read **glossier** (heat, oil, exertion) per scene — not a different person.
+
+**Work kit (on duty):** **Coarse linen** shirt (sleeves rolled); **heavy weathered leather apron** with **brass rivets**; **wide belt**, **pouches** with **brushes, picks, scrapers** (grooming/tack); **coiled hemp rope** over shoulder; **chaps / leg leather** when in full yard rig (see back ref).
+
+**Hands:** Rope-burn pale patches; small scars from animals and hardware; **right-hand work glove** common in yard scenes.
+
+### DM stage register — how to write Gwynn (three modes)
+
+---
+
+**1) Normal — hostler / professional default**
+
+- **When:** Yard, Hitch stable contract, pricing tack, arguing over shoeing schedules.
+- **Read:** Capable, flirty-in-a-business-way optional; always **hands-first** thinker.
+- **Eyes:** Hazel / light brown baseline.
+- **Refs:** `gwynn_hostler_portrait.png`, `gwynn_hostler_work_back.png`
+- **Stats:** Baseline.
+
+---
+
+**2) Before romance / intimacy — IP on, no Vigor**
+
+- **When:** Viewing Kenji and failing IP saves; tension **without** qualifying Vigor transmission.
+- **Read:** Laugh a beat too long, **re-checks** a buckle she just checked, **drops** a brush and curses too softly; can still refuse on **work**, **reputation**, or **fear**.
+- **Eyes:** Still hazel/brown — **no** vigor ring yet.
+- **Stats:** Baseline.
+
+---
+
+**3) After romance intimacy — Lover’s Vigor active (~5 days)**
+
+- **When:** Qualifying Vigor trigger; clock running.
+- **Read:** **Stamina** and **confidence** up; still **Gwynn**, not a different character — faster recovery, steadier hands under stress.
+- **Eyes (canonical tell):**
+  - **Default:** hazel / light brown  
+  - **Vigor active:** **bright green** intensifies — **emerald ring** at pupil edge (and may read **more vividly green** at peak, matching post-vigor ref)  
+  - **Final day:** green **thins** back toward hazel  
+  - **Off-stack:** hazel/brown returns; IP saves resume on viewing  
+- **Vigor read (when staging matches `gwynn_post_vigor_reference.png`):** faint **green-ember** swirl or **ley-warmth** along torso/limbs — **use this visual** in prose whenever that ref is the active stage (table may soften for modesty, but **do not drop** the beat as “skip”).
+- **Stats:** +50% all stats while active (table rule).
+- **Refs:** intimacy beat → `gwynn_intimacy_reference.png`; vigor-forward beat → `gwynn_post_vigor_reference.png`
 
 ---
 

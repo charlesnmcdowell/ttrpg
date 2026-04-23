@@ -123,8 +123,8 @@ Relay-town inn cast; names from `npc_name_bank.md`. Full coloring → `npc_appea
 |------|------|---------|----------------|
 | **Calista** | Barmaid | Human | Warm light golden-beige; freckled nose/cheeks |
 | **Mursha** | Iron Mule caravan guard | Half-orc | **Olive–green tan**, warm undertone; sun-deepened on nose/arms — **locked ref:** `reference_images/mursha_brass_hitch_tavern.png` + `npc_appearance.md` → **DM stages:** (1) professional normal (2) pre-intimacy / IP pressure (3) post-intimacy **Lover’s Vigor** — **bronze-gold eye ring** tell |
-| **Haldra** | Dwarf factor clerk | Dwarf | Fair cool base; forge-ruddy cheeks/nose |
-| **Gwynn** | Hostler | Halfling | Warm light brown / golden tan from yard work |
+| **Haldra** | Dwarf factor clerk | Dwarf | Fair cool base; forge-ruddy cheeks/nose — **required refs by stage:** clerk `haldra_brass_hitch_clerk.png` + `_back.png`; intimacy `haldra_offduty_intimacy_reference.png`; post-vigor `haldra_post_vigor_reference.png`; **DM stages:** (1) normal (2) pre-intimacy/IP pressure (3) post-intimacy **Lover's Vigor** — brass-amber eye ring tell |
+| **Gwynn** | Hostler | Halfling | Sun-kissed golden tan; hazel eyes — **required refs by stage:** work `gwynn_hostler_portrait.png` + `gwynn_hostler_work_back.png`; intimacy `gwynn_intimacy_reference.png`; post-vigor `gwynn_post_vigor_reference.png`; **DM stages:** (1) normal (2) pre-intimacy/IP (3) post-intimacy **Lover’s Vigor** — **emerald / bright green** eye tell |
 
 **Cross-ref:** `arcs/north_relay_two_chapter_plan.md` — north fork spine.
 
