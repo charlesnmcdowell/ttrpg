@@ -1,7 +1,7 @@
 # Character Tracker — Kenji TTRPG
 
-**Current In-Game Date:** Ashmere 34, 1247 AR (Stillday predawn → dawn, **Day 256**)
-**Current Location:** **Thornkeep** — **captain private quarters** (Ashmere 34 ~07:00; Kenji **woke in Bracken's bed**; officer wing). Last LR **Ashmere 34 dawn** in-room (full refresh). Ch18 **open**. Predictive: `fraying_empire_chapter_18.md`, `fraying_empire_chapter_19.md`.
+**Current In-Game Date:** Ashmere 34, 1247 AR (**Day 256**, morning → mid-morning on road)
+**Current Location:** **Bronzebarrow** — **The Brass Hitch** inn, common room (**Ashmere 34** ~14:15). Wind Step approach from crown (~**3/5** charges). Meal paid **4 SP**. Kenji **masked**; nodachi per inn/gate custom. Last LR **Ashmere 34 dawn** (captain quarters). North fork **live** (`arcs/north_relay_two_chapter_plan.md`).
 **Active Book:** Book 4 — Fraying Empire (The Ronin Arc)
 
 > **Cross-references:** DM behavior rules → `dm_rules_tracking.md` (**MIA PROTOCOL** + **🎯 ALIVE / IN-PLAY NPC — GOAL INVARIANT** + **Scene skill preroll** + **Player success integrity**: roll before outcome-dependent prose; PC success = player-favorable beat; no NPC Perception auto-win / no “gotcha” undo) | Game engine & mechanics → `ttrpg_game_engine.py` (`skill_roll`, `contested_skill`, `build_skill_modifier`, CLI `skill`) | Live state → `kenji_state.json` | Cursor agent rule → repo `.cursor/rules/kenji-scene-skill-gates.mdc`
@@ -32,8 +32,8 @@ Every character entry includes a **Morale Compass** value. Use it to decide how 
 
 **Status:** alive
 **Level:** 35
-**Location:** **Thornkeep** — **captain quarters** (**Ashmere 34** morning; wake in Bracken's bed per live needle). **Oathbreaker** in **BoH** unless drawn in-scene. March **Ch15–16**; office + quarters beats **Ch17** → **Ch18** morning.
-**Last Updated:** Ashmere 34 (Ch18 open — quarters wake; Waystation-only egress **struck** in `kenji_state.json`)
+**Location:** **Bronzebarrow** — **The Brass Hitch** (inn common). **Ashmere 34** afternoon. **Oathbreaker** in **BoH** unless drawn in-scene. **Wind Step** 3/5 after gate approach.
+**Last Updated:** Ashmere 34 (`kenji_state.json` — inn meal)
 
 **Physical:** See npc_appearance.md (pending entry)
 **Disposition:** N/A (protagonist)
@@ -671,13 +671,13 @@ This is the duality the story has been gesturing at: a creature of light and und
 ## BRYNN — Shield Infantry, Thornkeep Garrison (Partner #19)
 
 **Status:** Active (**not MIA** — off-screen with goals)
-**Met:** yes — Book 4 south push; intimate bond + **Lover’s Vigor** (IP immune for current Vigor window; eyes amber-gold per arc notes).
-**Location:** **Thornkeep garrison** — **Bracken’s office** corridor (posted **outside** closed-door debrief **Ashmere 31**; live reunion with Kenji after Ch17 overwatch).
-**Last Updated:** Ashmere 31
+**Met:** yes — Book 4 south push; intimate bond; **Lover’s Vigor EXPIRED** predawn **Ashmere 34** per `kenji_state.json` — **no longer IP-immune**; emotional bond unchanged; eyes tell per arc when visible.
+**Location:** **Thornkeep garrison** — officer wing / secure-corridor traffic (**Ashmere 34** morning); **did not** clock Kenji tailing (**Stealth** beat vs passive).
+**Last Updated:** Ashmere 34 (tailed beat; no LOS after Kenji peeled for gates)
 
 **Physical / disposition / Morale Compass:** See `npc_appearance.md` (full build). **Disposition to Kenji:** intimate (**+34**); carries professional discipline + private fear when he goes south alone. **Morale Compass:** Lawful Good — Coalition shield line; opposes Kenji if he burns the border’s trust or abandons innocents for convenience.
 
-**Abilities:** Shield infantry (garrison); **Lover’s Vigor** window **Ashmere 28–34** — still **immune** to IP at Ashmere 32 dawn unless extended clock says otherwise.
+**Abilities:** Shield infantry (garrison); **Lover’s Vigor** ended **Ashmere 34 predawn** — IP saves apply again if she **views** Kenji (DC 23 aura rules).
 
 ### Off-screen goals (Ch15 split onward)
 
@@ -728,9 +728,9 @@ This is the duality the story has been gesturing at: a creature of light and und
 > **Naming note:** Older logs may say **“Hale”** — **retired**. Canon commander surname is **Bracken** (`npc_appearance.md`; Ch7, Ch16–17).
 
 **Status:** Active
-**Met:** yes — Ashmere 25, Thornkeep garrison hall (as commander); Ch16–17 office beats with Kenji; **Ch17 close** — private quarters consent arc overnight Ashmere 33→34.
-**Location:** Thornkeep — **captain private quarters** (**Ashmere 34** morning); Kenji **still present** waking in her bed; first-bell corridor risk live; **discretion** posture (who hears boots, who knocks).
-**Last Updated:** Ashmere 34 (Ch18 wake)
+**Met:** yes — Ashmere 25, Thornkeep garrison hall (as commander); Ch16–17 office beats with Kenji; **Ch17 close** — private quarters consent arc overnight Ashmere 33→34; **Ashmere 34 morning** Kenji **ghosted** on runner knock (**Stealth**), tailed Brynn, **exited gates** (~09:00) — Bracken **not** played as omniscient; absence lands when she checks quarters / gossip crosses runners.
+**Location:** Thornkeep — **garrison / captain private quarters** (**Ashmere 34**): Kenji **no longer on-site** by mid-morning; **discretion** + `officer_wing_discretion` goal **unchanged** (who saw boots at landing, linen tells).
+**Last Updated:** Ashmere 34 (post-wake egress — see `kenji_state.json` `events[]` day 256 hour ≥7.35)
 
 **Physical:** Mid-forties, short-cropped dark hair going grey at the temples, scar from ear to jaw. Chainmail under coalition tabard. Weathered. Practical. Cold mug always in hand.
 **Disposition to Kenji:** Intimate-trust after explicit consent beat; LG spine intact — she **chose** the line Persuasion opened; attraction and duty both real; **scandal risk** if corridor gossip catches boot-scuffs. Asked his name — he still didn't give it. **Vigor** window active again (emerald tell) — **immune to IP** until expiry per engine.

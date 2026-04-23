@@ -2,6 +2,8 @@
 
 **Use while:** Kenji is **in** or **downstream of** the southern corridor (south road, March cordon, Ashenveil margin) **or** resolving **immediate fallout** in **Thornkeep** that originated from this push (Oathbreaker custody, Lady intel, relay blackout reports). Rough window **Ashmere 26–45**, or until the table promotes a new arc file (e.g. `ashenmere_council_pressure_arc.md`).
 
+**If Kenji leaves the south spine** (e.g. north crown travel, new relay towns): this file becomes **reference + unpaid threads**, not “inactive lore.” Shelf items (Pair A, Oathbreaker paper, Lady pings) may **catch up by courier** — see `arcs/north_relay_two_chapter_plan.md` for a **2-chapter** north relay + mixed-species cast plan.
+
 **Session truth (sync Ashmere 33 ~morning, 1247 AR — Day 255):**
 
 - **Ch14 COMPLETE** — east verge ~mile 17; **Corwyn** disarmed; **Oathbreaker** → **BoH**; **Brynn** reunion.  
