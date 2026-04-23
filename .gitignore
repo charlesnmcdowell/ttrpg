@@ -1,6 +1,10 @@
-# IDE
-.cursor/
-**/.cursor/
+# IDE — ignore local Cursor churn; keep shared agent rules
+.cursor/*
+!.cursor/rules/
+!.cursor/rules/**
+**/.cursor/*
+!**/.cursor/rules/
+!**/.cursor/rules/**
 
 # Large local media (Kenji repo folder)
 Kenji/kenji start.mp4

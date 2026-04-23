@@ -14,8 +14,16 @@ Cross-references:
 
 CLI:
   python ttrpg_game_engine.py brief [path/to/state.json]   # default: ./kenji_state.json
+  python ttrpg_game_engine.py skill <total_modifier> [--adv|--dis] [--dc N] [--label NAME]
   python ttrpg_game_engine.py              # story tests, then combat tests
   python ttrpg_game_engine.py combat-only  # combat tests only
+
+**Scene skill gate (5e):** When fiction depends on Stealth, Sleight of Hand, social skills,
+or contested perception/insight, the referee **rolls first** via `skill_roll()` / `ability_check()` /
+`contested_skill()` below — **do not** narrate success tiers or NPC omniscience until totals vs DC
+(or contest) are known. On a **PC success**, the beat goes **player-favorable**; no unstated
+Perception auto-win or “chair creak” undo. NPCs use passive or rolled checks—never auto-success.
+See `dm_rules_tracking.md` → **Scene skill preroll** + **Player success integrity**.
 """
 
 import random, json, math
@@ -42,6 +50,197 @@ def roll_dice(notation):
         rolls = [random.randint(1, sides) for _ in range(n)]
     else: rolls = [int(dice_part)]
     return sum(rolls) + mod, rolls, mod
+
+
+# ---------------------------------------------------------------------------
+# 5e-style scene skill gates — roll before narrating outcome-dependent fiction
+# ---------------------------------------------------------------------------
+# PHB skill → ability (STR/DEX/CON/INT/WIS/CHA) for building modifiers from raw stats.
+SKILL_ABILITY_MAP: Dict[str, str] = {
+    "Athletics": "STR",
+    "Acrobatics": "DEX",
+    "Sleight of Hand": "DEX",
+    "Stealth": "DEX",
+    "Arcana": "INT",
+    "History": "INT",
+    "Investigation": "INT",
+    "Nature": "INT",
+    "Religion": "INT",
+    "Animal Handling": "WIS",
+    "Insight": "WIS",
+    "Medicine": "WIS",
+    "Perception": "WIS",
+    "Survival": "WIS",
+    "Deception": "CHA",
+    "Intimidation": "CHA",
+    "Performance": "CHA",
+    "Persuasion": "CHA",
+}
+
+# When a scene tag touches these, the table/engine convention is: **resolve dice first**, then prose.
+SCENE_PREROLL_SKILLS = frozenset(SKILL_ABILITY_MAP.keys())
+SCENE_PREROLL_ABILITIES = frozenset({"STR", "DEX", "CON", "INT", "WIS", "CHA"})
+
+
+def ability_modifier(score: int) -> int:
+    """5e ability modifier from score 1..30 (typical)."""
+    return (int(score) - 10) // 2
+
+
+def proficiency_bonus(character_level: int) -> int:
+    """5e proficiency bonus by character level (2 at 1-4, +1 per four levels)."""
+    lv = max(1, min(30, int(character_level)))
+    return 2 + (lv - 1) // 4
+
+
+def roll_d20_advantage(advantage: bool = False, disadvantage: bool = False) -> Tuple[int, List[int]]:
+    """Roll d20 with optional adv/dis. If both, RAW cancels to a single die."""
+    a, b = d20(), d20()
+    if advantage and disadvantage:
+        return a, [a]
+    if advantage:
+        return max(a, b), [a, b]
+    if disadvantage:
+        return min(a, b), [a, b]
+    return a, [a]
+
+
+def skill_roll(
+    modifier: int,
+    *,
+    advantage: bool = False,
+    disadvantage: bool = False,
+    dc: Optional[int] = None,
+    label: str = "skill check",
+) -> Dict[str, Any]:
+    """
+    One PHB-style d20 + modifier, optional adv/dis, optional DC.
+    Use for Stealth, Sleight of Hand, Persuasion, etc. after you compute **modifier** from stats + prof.
+    """
+    nat, raw = roll_d20_advantage(advantage, disadvantage)
+    total = nat + int(modifier)
+    out: Dict[str, Any] = {
+        "kind": "skill",
+        "label": label,
+        "d20": raw,
+        "d20_used": nat,
+        "modifier": int(modifier),
+        "total": total,
+    }
+    if dc is not None:
+        out["dc"] = int(dc)
+        out["success"] = total >= int(dc)
+        out["margin"] = total - int(dc)
+    return out
+
+
+def ability_check(
+    modifier: int,
+    *,
+    advantage: bool = False,
+    disadvantage: bool = False,
+    dc: Optional[int] = None,
+    label: str = "ability check",
+) -> Dict[str, Any]:
+    """STR / DEX / CON / INT / WIS / CHA check (raw ability mod + situational bonuses in *modifier*)."""
+    nat, raw = roll_d20_advantage(advantage, disadvantage)
+    total = nat + int(modifier)
+    out: Dict[str, Any] = {
+        "kind": "ability",
+        "label": label,
+        "d20": raw,
+        "d20_used": nat,
+        "modifier": int(modifier),
+        "total": total,
+    }
+    if dc is not None:
+        out["dc"] = int(dc)
+        out["success"] = total >= int(dc)
+        out["margin"] = total - int(dc)
+    return out
+
+
+def saving_throw(
+    modifier: int,
+    *,
+    advantage: bool = False,
+    disadvantage: bool = False,
+    dc: Optional[int] = None,
+    label: str = "save",
+) -> Dict[str, Any]:
+    """WIS save vs IP, CON concentration, etc. Same math as ability_check; label for logs."""
+    return ability_check(modifier, advantage=advantage, disadvantage=disadvantage, dc=dc, label=label)
+
+
+def contested_skill(
+    left_modifier: int,
+    right_modifier: int,
+    *,
+    left_name: str = "A",
+    right_name: str = "B",
+    left_advantage: bool = False,
+    left_disadvantage: bool = False,
+    right_advantage: bool = False,
+    right_disadvantage: bool = False,
+) -> Dict[str, Any]:
+    """
+    Two opposed d20+mod totals (Stealth vs passive Perception rolled active, Perception vs Stealth, etc.).
+    Tie → defender wins is a common table rule; here ties are reported as 'tie' for DM to apply house rule.
+    """
+    l_nat, l_raw = roll_d20_advantage(left_advantage, left_disadvantage)
+    r_nat, r_raw = roll_d20_advantage(right_advantage, right_disadvantage)
+    left_total = l_nat + int(left_modifier)
+    right_total = r_nat + int(right_modifier)
+    if left_total > right_total:
+        winner = left_name
+    elif right_total > left_total:
+        winner = right_name
+    else:
+        winner = "tie"
+    return {
+        "kind": "contest",
+        "left_name": left_name,
+        "right_name": right_name,
+        "left": {"d20": l_raw, "d20_used": l_nat, "modifier": int(left_modifier), "total": left_total},
+        "right": {"d20": r_raw, "d20_used": r_nat, "modifier": int(right_modifier), "total": right_total},
+        "winner": winner,
+        "margin": left_total - right_total,
+    }
+
+
+def build_skill_modifier(
+    ability_scores: Dict[str, Any],
+    skill_name: str,
+    *,
+    character_level: int,
+    proficiency: bool = True,
+    expertise: bool = False,
+    extra_bonus: int = 0,
+) -> Tuple[int, str]:
+    """
+    Compute d20 modifier for a named PHB skill from ability_scores keys STR..CHA (any case).
+    Returns (modifier, formula note).
+    """
+    sk = skill_name.strip()
+    ab = SKILL_ABILITY_MAP.get(sk)
+    if not ab:
+        raise ValueError(f"Unknown skill {skill_name!r}; use a PHB skill name (e.g. 'Stealth').")
+    key = ab.upper()
+    score = int(ability_scores.get(key) or ability_scores.get(ab) or 10)
+    mod = ability_modifier(score)
+    pb = proficiency_bonus(character_level)
+    prof_part = 0
+    if proficiency:
+        prof_part = pb * (2 if expertise else 1)
+    total = mod + prof_part + int(extra_bonus)
+    note = f"{sk} = {ab} ({score}) {mod:+d}"
+    if proficiency:
+        note += f" + prof {prof_part:+d} (pb {pb}, expertise={expertise})"
+    if extra_bonus:
+        note += f" + misc {extra_bonus:+d}"
+    note += f" => **{total:+d}**"
+    return total, note
+
 
 @dataclass
 class Status:
@@ -3284,6 +3483,19 @@ def _run_story_tests():
     assert "## Time and place" in brief, "Brief missing time section"
     print(f"  \u2713 Generated brief ({len(brief)} chars)")
 
+    print("Test 3a: scene skill gate (d20 + DC)...")
+    r0 = skill_roll(10, dc=5, label="Stealth test")
+    assert r0["total"] == r0["d20_used"] + 10
+    assert r0["success"] is True  # DC 5 trivial unless nat 1 — still succeeds on 1+10=11? 1+10=11 >=5
+    m_stealth, _note = build_skill_modifier(
+        {"DEX": 20}, "Stealth", character_level=5, proficiency=True, expertise=False
+    )
+    assert m_stealth == 5 + 3, m_stealth  # +5 DEX, +3 pb at level 5
+    c0 = contested_skill(8, 8, left_name="scout", right_name="guard")
+    assert c0["winner"] in ("scout", "guard", "tie")
+    assert "margin" in c0
+    print("  \u2713 skill_roll / build_skill_modifier / contested_skill")
+
     print("Test 3b: character_goals pipeline...")
     eg = StoryEngine(
         {
@@ -3414,6 +3626,33 @@ if __name__ == "__main__":
                 state_data.pop("_comment", None)
             engine = StoryEngine(state_data)
             print(engine.ai_brief_markdown())
+        elif arg == "skill":
+            # Usage: python ttrpg_game_engine.py skill <modifier> [--adv] [--dis] [--dc N] [--label TEXT]
+            if len(sys.argv) < 3:
+                print(
+                    "Usage: python ttrpg_game_engine.py skill <modifier> [--adv] [--dis] [--dc N] [--label TEXT]",
+                    file=sys.stderr,
+                )
+                raise SystemExit(2)
+            modifier = int(sys.argv[2])
+            adv = "--adv" in sys.argv
+            dis = "--dis" in sys.argv
+            dc: Optional[int] = None
+            label = "skill check"
+            argv = sys.argv[3:]
+            i = 0
+            while i < len(argv):
+                if argv[i] == "--dc" and i + 1 < len(argv):
+                    dc = int(argv[i + 1])
+                    i += 2
+                    continue
+                if argv[i] == "--label" and i + 1 < len(argv):
+                    label = argv[i + 1]
+                    i += 2
+                    continue
+                i += 1
+            result = skill_roll(modifier, advantage=adv, disadvantage=dis, dc=dc, label=label)
+            print(json.dumps(result, indent=2))
         elif arg == "combat-only":
             _run_combat_tests()
         else:

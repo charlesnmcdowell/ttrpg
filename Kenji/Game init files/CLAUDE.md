@@ -1,6 +1,6 @@
 # Instructions for AI assistants (Kenji — Game init files)
 
-This folder holds live campaign tooling and trackers. Read **`tracking_rules.md`** before editing tracked prose or state.
+This folder holds live campaign tooling and trackers. Read **`tracking_rules.md`** before editing tracked prose or state. For any scene hinging on **Stealth / Sleight / social / Perception / saves**, read **`dm_rules_tracking.md`** → **Scene skill preroll** + **Player success integrity** (roll first; PC success wins the beat; no NPC auto-Perception or gotcha undo). Roll helpers: **`ttrpg_game_engine.py`** (`skill_roll`, `contested_skill`, …); CLI `python ttrpg_game_engine.py skill …`. Cursor rule: repo **`.cursor/rules/kenji-scene-skill-gates.mdc`**.
 
 ---
 
@@ -43,6 +43,7 @@ python run_scene_graph.py --dry-run --skip-ai
 ## Engine brief
 
 - `python ttrpg_game_engine.py brief` — prints AI brief to stdout (loads `./kenji_state.json` by default).
+- `python ttrpg_game_engine.py skill <modifier> [--adv] [--dis] [--dc N] [--label TEXT]` — JSON d20 check for scene gates (see `dm_rules_tracking.md` Scene skill preroll).
 - `python _dm_turn.py brief` — writes **`AI_CONTEXT.md`** to disk from the same brief source.
 
 `kenji_state.json` is gitignored; **`active_arc`** and other extra keys live there and round-trip through `StoryEngine` / `_dm_turn.py`.

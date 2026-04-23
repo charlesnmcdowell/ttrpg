@@ -1,0 +1,15 @@
+---
+description: TTRPG combined universe — lore registry, continuity, new characters
+alwaysApply: true
+---
+
+# TTRPG parent folder — assistant behavior
+
+When the workspace is the **`TTRPG`** folder (or the user asks about combined universe / new characters / realm lore):
+
+1. **Before inventing new regions, factions, or travel times:** Read **`shared_world_continuity.md`** and **`realm_lore_registry.json`**. New locations must fit the **travel matrix** and not contradict established regions unless the user explicitly retcons.
+2. **New PCs:** Follow **`universe_campaign_framework.md`**. Use **`templates/new_character_campaign.template.json`** as the starting point for `character_world_state.json`.
+3. **Player-facing vs DM-only:** Do **not** treat `kenji_state.json` / `amaris_state.json` / novel spoilers as things a **player** of a new PC automatically knows. Use **`inherited_lore.player_knowledge`** in the template; vague rumors are default. For DM prep, full state files are fine.
+4. **Kenji subfolder:** If the task is Kenji-specific fiction or mechanics, **`Kenji/.cursor/rules/kenji-ttrpg.mdc`** still applies — read novels and `dm_rules_tracking.md` as that rule requires.
+5. **After changing realm-wide facts:** Update **`shared_world_continuity.md`** and **`realm_lore_registry.json`**; note retcons in continuity (see framework § Retcons).
+6. **Prose DMing (any campaign):** Do not have NPCs **recap the PC’s accomplishments** or **re-summarize the story so far** as filler. Trust reader memory: use **names/pronouns** after introduction; avoid repeating the same **titles and epithets** line after line. Kenji: see **`Kenji/Game init files/dm_rules_tracking.md`** § Prose discipline. Amaris: **`Amaris/Game init files/dm_rules_amaris_campaign.md`** § Prose discipline.

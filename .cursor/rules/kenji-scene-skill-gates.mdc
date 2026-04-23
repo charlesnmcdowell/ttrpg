@@ -1,0 +1,17 @@
+---
+description: Kenji TTRPG — roll skill/ability checks before outcome narration; PC success wins the beat; no NPC Perception auto-win
+globs: Kenji/**/*
+alwaysApply: false
+---
+
+# Kenji — scene skill gates & player success integrity
+
+When working under `Kenji/` (chapters, `Game init files`, arcs):
+
+1. **Read first:** `Kenji/Game init files/dm_rules_tracking.md` → sections **Scene skill preroll (mandatory — 5e)** and **Player success integrity (no “gotcha” after a win)**.
+
+2. **Roll before prose** for beats that depend on Stealth, Sleight of Hand, Deception, Persuasion, Intimidation, Insight, Perception, other PHB skills, tool use, raw STR/DEX/CON/INT/WIS/CHA checks, or saves. Use `Kenji/Game init files/ttrpg_game_engine.py`: `skill_roll()`, `ability_check()`, `saving_throw()`, `contested_skill()`, `build_skill_modifier()`. CLI: `python ttrpg_game_engine.py skill <modifier> [--adv] [--dis] [--dc N] [--label TEXT]`.
+
+3. **NPCs:** Never auto-succeed Perception / Insight. Use passive or rolled totals. If the PC’s result **beats** the NPC’s DC or contest, **narrate the player-favorable outcome** for that intent—do not undo it with unstated “she notices the chair,” omniscient Captain’s Read, etc.
+
+4. **Trackers:** `character_tracker.md` cross-references these rules; do not write tracker or `events[]` lines that assert an NPC noticed the PC when the resolved check says otherwise.

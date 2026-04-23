@@ -7,6 +7,28 @@
 
 ---
 
+## Scene skill preroll (mandatory — 5e)
+
+When a beat’s **outcome** depends on competence at the table—**Stealth**, **Sleight of Hand**, **Deception**, **Persuasion**, **Intimidation**, **Insight**, **Perception**, **Performance**, **Athletics**, **Acrobatics**, other PHB skills, **tool** use, raw **STR / DEX / CON / INT / WIS / CHA** checks, or **saving throws**—the referee (human or AI) **resolves the roll first** (d20 + modifier, with **advantage / disadvantage** per RAW), compares to a **DC** or runs a **contest**, **then** narrates.
+
+- **Do not** state success, failure, silence, omniscience, or social shift **before** the dice (or passive DC) exist.
+- **Do not** let an NPC “just know” Kenji is there / lying / calm without **Perception / Insight** (active or passive) beating the relevant total—and **NPCs never auto-succeed** those checks. Use **passive Perception / Insight** (fixed score) or **roll** like anyone else. If the math says the NPC **loses**, the NPC **loses**; do not hand-wave a win.
+- **Margin** (how much the roll beat or missed the DC) may drive **degrees of success** (“yes, but…”, hard fail, etc.)—still **after** the number is fixed.
+
+### Player success integrity (no “gotcha” after a win)
+
+When a PC’s check **succeeds** (meets or beats DC, or wins a contest), the **next beat of fiction for that same intent** goes **in the player’s favor** for what that success means. **Do not** smuggle in a second, unstated failure (e.g. “the chair creaks,” “her eyes snap to the empty seat,” “she reads the room anyway”) that **replaces** the successful Stealth / Deception / etc. with an NPC victory.
+
+- **Failed roll → NPC-favorable outcome** for that beat (they notice, they doubt, the door doesn’t open, etc.).
+- **Succeeded roll → PC-favorable outcome** for that beat (they remain unnoticed, the lie holds for the scene scope, the latch stays quiet, etc.).
+- A **new** threat can still exist **only** if it is **separate** from what the check resolved (different sense, **magic** detection with its own DC, time passing and a **new** roll later, player action that forfeits cover). If it’s the same “did she notice me in the chair,” the successful Stealth **already answered no**.
+
+**Example (Bracken office):** Kenji beats Stealth vs passive Perception / office DC → Bracken does **not** get Captain’s Read omniscience or furniture tells that undo the win. She continues working until the **player** breaks stealth (speaks, drops invis, acts openly) or a **new** check applies.
+
+**Engine helpers:** `ttrpg_game_engine.py` → `skill_roll()`, `ability_check()`, `saving_throw()`, `contested_skill()`, `build_skill_modifier()`, `SKILL_ABILITY_MAP`, `SCENE_PREROLL_SKILLS`. **CLI:** `python ttrpg_game_engine.py skill <modifier> [--adv] [--dis] [--dc N] [--label TEXT]` (prints JSON).
+
+---
+
 ## 🚨 CARDINAL RULES — CHECK EVERY RESPONSE (NON-NEGOTIABLE)
 
 These rules override everything else. Before EVERY DM response, verify compliance. If ANY are violated, rewrite before sending.

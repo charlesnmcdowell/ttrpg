@@ -1,0 +1,19 @@
+---
+description: Kenji TTRPG — read story canon before mechanics; Game init files context
+alwaysApply: true
+---
+
+# Kenji campaign — assistant behavior
+
+Before planning scenes, answering lore questions, statting encounters, or interpreting DM references:
+
+1. Read **`Game init files/Kenji_story_book1.md`** in full, then **`Game init files/Kenji_story_book2.md`**, in that order. That is the canon story through the current manuscript.
+2. Use **`Game init files/README.md`** for file roles and run order.
+3. Use **`Game init files/dm_rules_tracking.md`** for everything else: mechanics, worldbuilding tone, DM-secret truth (later parts of the file), combat JSON for `load_combatant`, and Book 2 stat snapshots. Treat spoiler sections as DM-only—not as facts the player already knows.
+4. **Live variables for the current session:** Prefer **`Game init files/kenji_state.json`** (or generated **`AI_CONTEXT.md`**) as the source of day, time, HP, slots, clocks, NPC positions, and `narrative_notes`. Run `python ttrpg_game_engine.py brief` from `Game init files` after editing state to refresh the brief. Do not contradict those numbers while they are current.
+
+Do not invent major plot facts that contradict the novels. When mechanics conflict with the latest story beat, prefer the story and flag the mismatch for the user.
+
+## Prose (DM / fiction assistance)
+
+Follow **`Game init files/dm_rules_tracking.md`** § **Prose discipline — no recap loops, no epithet spam:** do not have NPCs recap the PC’s accomplishments repeatedly; do not re-list the PC’s arc; trust reader memory — after establishing identity, use names/pronouns instead of hammering titles (“War King,” “Ancient War King,” etc.); do not echo every `narrative_notes` line into scene prose.

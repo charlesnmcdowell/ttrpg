@@ -109,6 +109,14 @@ This keeps drift at zero by construction.
 
 ---
 
+## Scene resolution & skill checks (pointer)
+
+Narration and tracker lines that depend on **whether Kenji or an NPC succeeded** at Stealth, Sleight of Hand, social skills, Perception / Insight, raw abilities, or saves must follow **`dm_rules_tracking.md`** → **Scene skill preroll (mandatory — 5e)** and **Player success integrity (no “gotcha” after a win)**. Roll (or apply passive) **before** asserting outcomes. **NPCs do not auto-succeed Perception.** If the PC’s check **wins**, the beat goes **in the player’s favor** for that intent; do not record prose or `character_tracker` / `events[]` facts that contradict that without a **new** resolved check.
+
+Roll helpers: **`ttrpg_game_engine.py`** (`skill_roll`, `ability_check`, `contested_skill`, …). Cursor: **`.cursor/rules/kenji-scene-skill-gates.mdc`**.
+
+---
+
 ## File Structure
 
 The tracking system uses these files:
