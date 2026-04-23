@@ -20,11 +20,11 @@
 **Female:**
 1. Aveline
 2. ~~Brynn~~ *(used — Shield infantry, Thornkeep garrison)*
-3. Calista
+3. ~~Calista~~ *(used — barmaid **The Brass Hitch**, Bronzebarrow Ashmere 34)*
 4. Dorith
 5. Eira
 6. Fenella
-7. Gwynn
+7. ~~Gwynn~~ *(used — halfling hostler **The Brass Hitch**, Bronzebarrow — halfling; pulled from Human list per bank note)*
 8. ~~Hadley~~ *(used — Watch Captain, Millhaven garrison)*
 9. Isolde
 10. Jessamine
@@ -79,7 +79,7 @@
 3. Elgra
 4. Fyra
 5. Gerta
-6. Haldra
+6. ~~Haldra~~ *(used — dwarf factor clerk **The Brass Hitch**, Bronzebarrow)*
 7. Kettil
 8. Myrna
 9. Sigra

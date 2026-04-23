@@ -115,6 +115,21 @@ Kenji is undercover. **Arcane and Ember abilities are deliberately off the table
 
 ---
 
+## BRONZEBARROW — The Brass Hitch (minor NPCs, Ashmere 34)
+
+Relay-town inn cast; names from `npc_name_bank.md`. Full coloring → `npc_appearance.md`.
+
+| Name | Role | Species | Skin (summary) |
+|------|------|---------|----------------|
+| **Calista** | Barmaid | Human | Warm light golden-beige; freckled nose/cheeks |
+| **Mursha** | Iron Mule caravan guard | Half-orc | **Olive–green tan**, warm undertone; sun-deepened on nose/arms — **locked ref:** `reference_images/mursha_brass_hitch_tavern.png` + `npc_appearance.md` → **DM stages:** (1) professional normal (2) pre-intimacy / IP pressure (3) post-intimacy **Lover’s Vigor** — **bronze-gold eye ring** tell |
+| **Haldra** | Dwarf factor clerk | Dwarf | Fair cool base; forge-ruddy cheeks/nose |
+| **Gwynn** | Hostler | Halfling | Warm light brown / golden tan from yard work |
+
+**Cross-ref:** `arcs/north_relay_two_chapter_plan.md` — north fork spine.
+
+---
+
 ## BRACKEN — Watch Captain, Millhaven Garrison (LEGACY — DO NOT USE CH17+)
 
 > **TRACKER SPLIT NOTE:** **Millhaven watch captain** = **Hadley**. **Thornkeep garrison commander** = **Renna Bracken** (`npc_appearance.md`). This block is **legacy naming** — **not** the Ch17 office source of truth.

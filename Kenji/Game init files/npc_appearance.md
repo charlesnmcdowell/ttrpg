@@ -403,6 +403,114 @@ She does not casually switch to human. She switches for one reason: she wants so
 
 ---
 
+## Calista — Barmaid, The Brass Hitch (Bronzebarrow)
+
+**Build:** Human, young-adult. Work-strong forearms; apron silhouette narrow at the waist, practical hips for trays.
+
+**Hair:** Dark honey brown, pinned with two inexpensive combs.
+
+**Face:** Cheekbones that show when she smiles for customers; small mouth trained into hospitality shape.
+
+**Eyes:** Hazel-brown, ledger-quick.
+
+**Skin:** Warm **light golden-beige** with **sun-kissed** forearms; **freckles** across nose and upper cheeks. Undertone **warm** (neither pink nor ashen).
+
+**Hands:** Tray-callused; short clean nails.
+
+---
+
+## Mursha — Caravan guard, Iron Mule Freight (Bronzebarrow)
+
+**[Reference image LOCKED — tavern portrait, The Brass Hitch.]**  
+`Kenji/Game init files/reference_images/mursha_brass_hitch_tavern.png`
+
+> **Note:** Other Mursha renders exist (private / out-of-scene). **Canon kit, scars, and proportions for Book 4 prose** follow **this tavern ref** only — do not import alternate wardrobe or staging into inventory.
+
+**Build:** Half-orc. **Powerful athletic** frame — **heavy delts and biceps**, visible definition; **narrow toned waist**; **wide full hips**; **thick muscular thighs**; **heavy round glutes** (defining silhouette from behind or in profile). Reads as **spear-and-shield** professional first, ornament second. **Bust** is **large**; armor is cut to **clear** shoulders and arms for work.
+
+**Hair:** **Jet black**, **tight cornrows** pulled back; several braids carry **silver metal rings/cuffs** (not bronze — clan or company habit). **Off-duty:** cornrows loosened to **wavy lengths**, braids kept; hair falls past shoulders.
+
+**Face:** **Sharp**, **high cheekbones**; **full lips** with a **pink-brown** cast. **Scars:** one **vertical** line **through the right eyebrow**; a **second small scar** on the **right cheek**. **Ears:** **large**, **long**, **pointed** (heavy lineage read — half-orc with **prominent ear length**). **Tusks:** **small**, **steel-capped**, kept **short** — visible when she smiles or snarls, not a “tusk-forward” silhouette at rest.
+
+**Eyes:** **Dark brown**; quartering exits and hands before faces.
+
+**Skin:** **Smooth olive–green tan** with a **warm** undertone; can carry a **light sheen** (road dust, lamp heat, honest sweat). Sun **deepens** green on **nose bridge and forearms**; **no human flush** — warmth stays in the **green-brown** range.
+
+**Gear (typical on duty / at the Hitch):** **Dark metal breastplate** in a **minimal cut** (leather trim, practical for arms); **heavy segmented spaulder** on **right shoulder**; **thigh plates** on **upper legs**; **dark leather** wraps on **forearms**; **olive–grey cloak** draped **neck / left shoulder**; **leather straps and buckles** at **waist and thighs**. Off-duty scenes may **dial armor down** — keep **scars, ears, braids, skin tone** fixed.
+
+**Hands:** Spear-and-shield calluses; knuckles mapped with small old marks. Drinks from a **dark wood tankard** with **iron bands** when off-watch.
+
+### DM stage register — how to write Mursha (three modes)
+
+Use **one** mode per scene unless the arc is explicitly crossing a boundary. Rules for **IP / Lover’s Vigor** → `dm_rules_tracking.md` § **IRRESISTIBLE PRESENCE** + **Lover’s Vigor**; `character_tracker.md` Kenji block summary.
+
+---
+
+**1) Normal — professional default**
+
+- **When:** First meetings, pure contract talk, no **viewing** tension, or she **made** the **WIS save** vs IP and the beat is **cold**.
+- **Read:** Quartering the room, **spear-hand** habits, **Iron Mule** diction. Attraction **off** or **background** — she is **dangerous** and **bored** by drunks, not **soft**.
+- **Eyes:** **Dark brown**, job-first.
+- **Stats:** Baseline (table block when you stat her).
+
+---
+
+**2) Before romance / intimacy — IP on, no Vigor**
+
+- **When:** She is **viewing** Kenji (mask/eyes/presence) and **failing** IP saves **or** the fiction has established **urge pressure** without **qualifying** Lover’s Vigor transmission yet.
+- **Read:** **Discipline vs distraction** — longer blinks, **stalls** mid-sentence, **adjusts** straps/braids that did not move, **laugh** dies wrong. She can still **refuse** intimacy on **duty**, **company policy**, or **personal code**; IP is **not** mind control.
+- **Eyes:** Still **dark brown** — **no** supernatural vigor ring. Optional **human** tell: glance catches **his** hands before his face (fighter habit **plus** attraction).
+- **Skin:** Same palette; optional **subtle** warmth (blood, not “green blush”).
+- **Stats:** Baseline. **Not** +50%.
+
+---
+
+**3) After romance intimacy — Lover’s Vigor active (~5 days)**
+
+- **When:** **Qualifying** vigor trigger has occurred per table rules; clock running until **expiry** (then revert to **2** or **1**).
+- **Read:** **Confidence** reads as **fuel** — quicker recovery, **heavier** hits in sparring, **less** wasted motion; **not** a different personality, a **sharpened** one. **IP-immune** for the window — she can **look** at Kenji without the **same** save spiral **unless** vigor drops.
+- **Eyes (canonical tell):**
+  - **Default:** dark brown  
+  - **Vigor active:** dark brown with a **bronze-gold ring** at the pupil edge (forge-light on green skin — obvious in lamplight, **public tell** risk if unmasked face-to-face in crowds)  
+  - **Vigor final day / expiring:** ring **dulls** toward muddy amber  
+  - **Off-stack:** back to dark brown; IP saves **resume** if she **views** him
+- **Stats:** **+50% all stats** (table); prose may show **endurance / carry / grip** without breaking **locked** body reference proportions.
+- **Wardrobe:** Same ref **silhouette** unless scene is explicitly **off-duty** — vigor does not rewrite armor.
+
+---
+
+## Haldra — Dwarf factor clerk (Bronzebarrow yard / inn circuit)
+
+**Build:** Dwarf woman, compact and dense. Ledger posture; short sideburn plaits, beard absent (personal/dwarven feminine style in this house).
+
+**Hair:** Dark auburn, oiled, plaited with small bronze rings matching factor stamps.
+
+**Face:** Strong nose, expressive mouth held neutral for negotiation; ink at nail beds.
+
+**Eyes:** Dark grey.
+
+**Skin:** **Fair cool-toned** base with **forge-ruddy** high cheeks and nose — not sun-brown; reads as **pale granite with a flush** after a hot room or argument.
+
+**Hands:** Ink-rimmed nails; callus pads from seals and weights.
+
+---
+
+## Gwynn — Halfling hostler, The Brass Hitch (Bronzebarrow)
+
+**Build:** Halfling, sturdy low center of gravity; quick feet; stable shoulders from tack and lead ropes.
+
+**Hair:** Chestnut brown, curly, often escaping a tail tie.
+
+**Face:** Open smile that can turn sharp when she’s pricing someone.
+
+**Eyes:** Bright brown.
+
+**Skin:** **Warm light brown** — **tan** from yard work, undertone **golden**; forearms a half-shade darker than upper arms. Reads as **sun-and-straw** healthy, not noble-pale.
+
+**Hands:** Rope-burn pale patches; small scars from animals and hardware.
+
+---
+
 ## DM Checklist — New Character Introductions
 
 When introducing ANY new named NPC for the first time, establish:

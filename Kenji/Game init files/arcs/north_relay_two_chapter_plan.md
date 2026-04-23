@@ -5,6 +5,8 @@
 
 **Geography (working):** Kenji is on the **north crown** out of **Thornkeep** into **interior relay** country — not Greymere (that’s a different vector from early Book 4). First substantial stop: **Bronzebarrow** — *working name; rename if it collides with later bible edits* — a **coalition toll-and-weigh** town where **dwarven factor-houses** lease yard space, **half-orc** caravan guards sign contracts on neutral ground, **halfling** teamsters run the short-haul drays, and **gnomish** surveyors maintain the mileposts. Humans remain the plurality; the **street mix** is visibly mixed-species in a way Thornkeep’s officer wing is not.
 
+**The Brass Hitch — named extras (Ashmere 34):** names pulled from `npc_name_bank.md` — barmaid **Calista** (human); hostler **Gwynn** (halfling; Human list until a Halfling block exists); dwarf factor clerk **Haldra**; half-orc caravan guard **Mursha**. *(Retires improvised labels Mara / Pipwick / Thraesa / Jessa.)* **Appearance + skin:** `npc_appearance.md` (full entries); **tracker table:** `character_tracker.md` → **BRONZEBARROW — The Brass Hitch**.
+
 **Clock touch (soft, no math yet):** `fraying_empire_campaign.md` — **Threat 1 (Hollowing / Kharn-Dural)** surface echo: emissary letters ignored by absent ArchMagus → **Bronzebarrow** hears the **deep-forge rumor** before Kenji does unless he asks the right NPC. Do **not** teleport Kenji underground; **seed** only.
 
 ---
@@ -17,9 +19,9 @@
 - **Common room:** overhear **three threads** — (1) **pack-train late** from the western cut (Horde-adjacent rumor, not confirmed), (2) **seal-song** gossip from drunk miners about “the note changing under Kharn-Dural” (Hollowing seed), (3) **March** dismissed by a merchant as “southern superstition” (Kenji’s **player read** collides with NPC complacency — good tension, no forced combat).
 
 **B beats (pick one spotlight NPC race scene)**
-- **Dwarf factor** (female, pragmatic): wants **insurance** on a late ingot shipment — not a fight, a **paper chase**; tests whether the ronin takes money or problems.
-- **Half-orc sergeant** (caravan company): **Insight** optional — she’s sizing up the mask for **threat**, not romance; respect ladder.
-- **Halfling** hostler: comic relief with teeth — notices **trackless boots** if Kenji slips; **no gotcha** if Stealth wasn’t in play; otherwise fair **passive Perception** contest.
+- **Haldra** — dwarf factor clerk (female, pragmatic): wants **insurance** on a late ingot shipment — not a fight, a **paper chase**; tests whether the ronin takes money or problems.
+- **Mursha** — half-orc caravan guard: **Insight** optional — she’s sizing up the mask for **threat**, not romance; respect ladder.
+- **Gwynn** — halfling hostler: comic relief with teeth — notices **trackless boots** if Kenji slips; **no gotcha** if Stealth wasn’t in play; otherwise fair **passive Perception** contest.
 
 **Combat default:** **none** unless Kenji starts one. This chapter is **ears and faces**.
 
