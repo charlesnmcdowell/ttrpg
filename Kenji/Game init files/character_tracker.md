@@ -230,7 +230,7 @@ Relay-town inn cast; names from `npc_name_bank.md`. Full coloring → `npc_appea
 
 **Cross-ref:** `arcs/north_relay_two_chapter_plan.md` — north fork spine + **§ Canon played — Ch18–Ch32** (prose Ch22–32 in `Book 4/Chapters/`).
 
-### KORRIM STONEUNDER — Elder bench authority, Kharn-Dural (**Ch28–29**)
+### KORRIM STONEUNDER — Elder bench authority, Kharn-Dural (Ch28–31)
 
 **Status:** alive  
 **Met:** yes — Ashmere **39** Day **261** (Ch28 forge, Ch29 bench)  

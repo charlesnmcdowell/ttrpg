@@ -1529,6 +1529,159 @@ Book 4's real challenges aren't monsters. They're consequences. The DM must weav
 
 ---
 
+### 🧠 INSTITUTIONAL MEMORY — THE WORLD LEARNS
+
+Kenji is not fighting individuals. He is fighting *systems*. Systems remember what individuals forget.
+
+**Core principle:** When Kenji uses a tactic to defeat, evade, or manipulate an institution (garrison, court, guild, faction), that institution **updates its playbook.** The next encounter with the same institution — or any institution that received a report — reflects what was learned. The DM must track this explicitly.
+
+**How it works:**
+
+1. **After every institutional encounter** (court proceeding, checkpoint, garrison interaction, guild negotiation), the DM writes one line in the arc file: *"[Institution] learned: [tactic] works against them."* This is the institutional memory entry.
+2. **Next encounter with that institution**, the DM reads the memory entries and designs a counter. The counter does not need to be perfect — institutions are bureaucracies, not geniuses — but it must be *specific* to what Kenji did last time. Generic difficulty increases are lazy. Specific adaptations are interesting.
+3. **Information travels between institutions** at relay speed. If Kharn logs "clone distraction + invisible egress," any coalition-connected checkpoint within relay range should know about clone-class deception within days. The DM calculates transit time honestly — relays are fast, couriers are slow, gossip is unreliable but widespread.
+
+**Examples of institutional learning:**
+
+- Kenji used clone + G. Invis to escape Kharn → next Kharn-connected checkpoint has standing orders: *"If a duplicate appears, assume the original is invisible. Seal doors. Deploy ward-dust or flour in the air. Do not chase the visible target."*
+- Kenji used Sleight of Hand to plant a BoH on a traveler → next inspection tier adds *"patdown for extradimensional containers on ALL parties in the queue, not just flagged individuals."*
+- Kenji used Performance to distract while executing a plan → next security briefing includes *"entertainment from a detainee is a tactical action, not a morale event. All personnel maintain post during subject performance."*
+- Kenji used portal magic to exit a cordon → ward-teams begin drawing *"anti-translocation circles"* at holding areas. They won't be perfect. They'll be dwarf-made. They'll be annoying.
+
+**DM self-check:** Before any institutional encounter, read the memory entries. If there are none, the institution is naive. If there are entries, the institution has adapted. If the player finds the same trick works twice against the same system — the DM failed to update.
+
+**Limitation:** Institutional memory is about *systems*, not *individuals*. A random farmer doesn't know what Kharn learned. A traveling merchant doesn't have the briefing. The memory lives in organizations with record-keeping and communication infrastructure. Lone NPCs learn from personal experience only.
+
+---
+
+### 🌊 CONSEQUENCE CASCADES — ACTIONS CHAIN-REACT
+
+Every significant action Kenji takes creates ripples. The DM must track these ripples and deliver them at staggered intervals — not all at once (that's a punishment), not never (that's a free pass), but in a cascade where each consequence arrives just as the player is dealing with the last one.
+
+**The cascade structure:**
+
+For every major action (escape, identity reveal, public magic use, NPC manipulation, theft, political declaration), the DM designs a **three-wave cascade:**
+
+1. **Wave 1 — Immediate (same session or next):** The direct, obvious consequence. Relay alarm. Witness testimony. Guard pursuit. This is what the player expects and should be prepared for.
+2. **Wave 2 — Delayed (2-5 sessions later):** The institutional and political consequence. Reports reach higher authorities. Policies change. New orders issue. Alliances shift. This arrives when the player has moved on and thinks the situation is resolved.
+3. **Wave 3 — Distant (5-15 sessions later):** The personal and cultural consequence. Bard-tales update. Reputations reshape. Old allies recalculate. Children hear stories. Lovers get letters. The world's *perception* of Kenji changes in ways he cannot control or predict. This arrives when the player has forgotten the original action entirely.
+
+**DM directive:** Maintain a **cascade ledger** in the arc file. Each entry is: `[Action] → [Wave 1: what/when] → [Wave 2: what/when] → [Wave 3: what/when]`. Check the ledger every session. If a wave is due, deliver it. If the player stacks multiple actions before waves land, the cascades **overlap** — and overlapping cascades are where the real pressure lives.
+
+**Example — Kharn Escape Cascade:**
+
+- **Action:** Kenji declared identity, broke containment, escaped via clone + portal.
+- **Wave 1 (immediate):** Kharn relay alarm. Decoy/invisible breach logged. Nearest relay stations alerted. Gossip at waystation (luxury suite = spending pattern visible).
+- **Wave 2 (2-5 sessions):** Coalition receives encrypted relay — "Champion of the Elves / Archmagus of Varenholm Academy in Kharn quarantine zone, escaped custody." Political earthquake. Vess's office gets the packet. Taryn's filed intel cross-references. Bracken's garrison gossip connects dots. Institutional memory updates cascade to every coalition checkpoint.
+- **Wave 3 (5-15 sessions):** The bard-tales change. The Ronin was the ArchMagus all along. Sera hears. Pip hears. Garrett hears. Every woman who felt the Vigor hears. The Bane of Eve library activates at full roster — not one challenger at a time, but a *queue*. Kenji's children start being born into a world that knows their father's name.
+
+**Critical rule:** Cascades are **not punishments.** They are honest consequences of living in a world with information networks, political structures, and people who remember. The player chose to act. The world chose to react. The DM's job is to make the reaction intelligent, specific, and timed for maximum dramatic impact — not maximum frustration.
+
+---
+
+### 🏔️ ENVIRONMENTAL KIT-COUNTERS — THE WORLD ADAPTS TO THE WEAPON
+
+Kenji's kit is extraordinary. The world should contain places, conditions, and adversaries that specifically challenge his strengths — not by fiat ("magic doesn't work here"), but by design ("this place was built by people who feared exactly what you can do").
+
+**Design philosophy:** Every environmental counter must have an **in-world explanation.** Ancient wards, natural phenomena, enemy preparation, or terrain physics. Never "the DM decided your ability doesn't work." Always "this is why it doesn't work here, and here's how you can tell."
+
+**Kit-counter categories:**
+
+**Wind Step denial zones:**
+- Dense canopy where cloud-stepping has no vertical clearance.
+- Underground passages too narrow for wuxia acrobatics — the ceiling is four feet and the walls are wet.
+- Anti-kinetic wards (dwarf or academic) that dampen momentum-based movement. Kenji feels his legs go heavy. He can still walk. He cannot fly.
+- Ice or oil surfaces where the barefoot contact Wind Step requires becomes a Dexterity check instead of an automatic success.
+
+**Clone/illusion counters:**
+- Tremorsense creatures that feel weight, not sight. The clone has no mass. It walks but the floor doesn't notice.
+- Ward-dust environments where invisible creatures displace particles and leave a visible outline. Flour mills. Quarry dust. Volcanic ash.
+- Creatures with blindsight or truesight — they see through the clone immediately and target the invisible original.
+- Environments with so many reflective surfaces (ice caves, mirror halls, crystal grottos) that Greater Invisibility still casts a *refraction pattern* — not visible to untrained eyes, but visible to anyone looking for it.
+
+**IP backfire environments:**
+- All-female settlements (amazon cultures, matriarchal clans, temple communities) where DC 23 aura pressure hits *everyone in town* simultaneously. The village isn't hostile — it's *overwhelmed*. A mob of affected women is not a fight Kenji can win with a sword, and it's not a situation he can morally ignore.
+- Environments where a pregnant woman is present and the IP aura causes physiological stress that threatens the pregnancy. Kenji's passive aura becomes a weapon he didn't choose to wield and cannot sheathe.
+- Political environments where *anyone* Kenji interacts with for more than 15 minutes becomes visibly affected — diplomacy collapses because the other party's negotiator is save-failing in real time and everyone in the room can see it.
+
+**Portal denial:**
+- Anti-translocation zones (high-level ward networks, ancient seals, divine interdictions). These are rare, expensive, and *newsworthy* — if one exists, there's a reason, and that reason is part of the story.
+- Environments where the destination of a portal is *visible to the caster's enemies* — scrying networks, divination grids, or entities that can read portal resonance. Kenji can leave. They know where he went.
+- Unstable ley environments where portal creation risks tearing wider than intended. The door opens. Something else comes through.
+
+**Living Ground disruption:**
+- Corrupted terrain where Living Ground feeds Kenji bad information — the ground is "alive" but the life is wrong. Parasitic. Hostile. The roots whisper but the whispers are lies.
+- Dead zones where Living Ground returns nothing. Absolute silence in the feet. No vibration, no root network, no sense of the earth breathing. The absence is disorienting for someone who relies on it.
+- Terrain that is *too alive* — a Living Ground reading in a fey forest or ancient growth returns so much information that it's functionally blinding. Every root, every insect, every heartbeat in a mile radius, all at once. Sensory overload.
+
+**DM self-check:** Every environmental counter must pass the **fairness test** — could Kenji detect it before it becomes lethal? Is there a way around it that rewards cleverness? Does it create an interesting problem, not just a "no" to an ability? If the answer to any of these is no, redesign the counter.
+
+---
+
+### ⚖️ MORAL AMBUSH — THE RIGHT CHOICE AND THE SAFE CHOICE ARE OPPOSITE
+
+Kenji will break laws but he won't hurt innocents. That moral line is the strongest wall anyone has ever built around him — stronger than Kharn's wards, stronger than Korrim's bench, stronger than any glass barrier. The DM should *lean into that wall.*
+
+**Design philosophy:** Moral ambushes are not trolley problems. They are situations where Kenji's *specific* values — protect the weak, don't kill non-threats, honor personal bonds — directly conflict with his *specific* operational needs — stay hidden, move fast, don't get tangled in local politics.
+
+**Moral ambush categories:**
+
+**The Genuine Need:**
+- People who actually need help. Not a setup. Not a trap. A village being raided by something the local militia can't handle. A child sick with something Diagnostic Touch can identify but only a healer Kenji would have to reveal himself to summon can cure. A woman being beaten by a man who is not evil enough to kill but too strong for her to stop. These are real problems that require real intervention — and every intervention is a data point on the identity tracker.
+- **DM directive:** At least one genuine-need encounter per 3 sessions of travel. The need must be real, the stakes must be personal (not abstract), and the solution must require Kenji to use a capability that risks exposure. If the ronin kit can solve it cleanly — good. Make the *next* one require something the ronin kit cannot do.
+
+**The Witness Problem:**
+- Kenji saves someone. The someone is grateful. The someone *talks*. Not maliciously — gratefully. "A masked swordsman saved my life. He moved like wind. He knew things a ronin shouldn't know." The witness is not an enemy. The witness is a good person telling a true story. And that true story, retold at three inns and a factor yard, reaches the wrong ears.
+- **DM directive:** Every rescue creates a witness. Every witness creates a story. Every story travels. Track witness stories the way you track relay signals — distance, speed, distortion. By the time the story reaches a city, the "masked swordsman" has become "the ArchMagus in disguise" or "the Wizard King walking among us." The distortion is not always wrong.
+
+**The Ally Trap:**
+- Someone Kenji genuinely likes — not a lover, not a bonded partner, just a person he respects — is in trouble. The kind of trouble that requires Kenji to choose between helping them (exposing himself, burning resources, creating cascade ripples) and walking away (safe, efficient, and a betrayal of who he is). The person doesn't know they're a trap. They're just in trouble. The world did this, not the DM.
+- **DM directive:** The ally trap works best when the ally is someone the player has invested emotional energy in. A recurring NPC who was kind to Kenji. A former squad member. A child Kenji met three chapters ago who looked up to him. The emotional investment is the blade. The situation is the handle. The DM just holds it up and lets the player grab.
+
+**The Mirror:**
+- Kenji meets someone doing what he does — but badly. A young swordsman playing ronin. A hedge wizard pretending to be more than she is. A con artist with a good heart and terrible execution. They are Kenji without the power, and they are about to get killed by the same world Kenji navigates effortlessly. Helping them means teaching them, which means revealing what he knows, which means creating another person who can describe his capabilities. Ignoring them means watching a version of himself die.
+- **DM directive:** The Mirror encounter should appear once every 5-8 sessions. The mirror character should be sympathetic, flawed, and doomed without intervention. They should be young enough or sincere enough that the player cannot write them off as foolish — they are *trying*, the way Kenji tried before he had the power to back it up. Letting them die should feel wrong. Saving them should feel expensive.
+
+---
+
+### 🕸️ THE REPUTATION ENGINE — BARD-TALES AS LIVING THREAT
+
+The bard-tales are not flavor text. They are a tracking system. Every impressive thing Kenji does in front of witnesses becomes a story. Every story becomes a tale. Every tale becomes a legend. And legends attract.
+
+**How bard-tales propagate:**
+
+1. **Event:** Kenji does something witnesses see.
+2. **Local phase (1-3 days):** The witnesses tell people in their immediate community. The story is roughly accurate.
+3. **Regional phase (1-2 weeks):** The story reaches neighboring towns via travelers and merchants. Details exaggerate. The "masked swordsman" becomes "the phantom blade." Numbers inflate. Feats multiply. The story is now 60% accurate and 100% compelling.
+4. **Continental phase (1-2 months):** The tale reaches cities, courts, and guilds. It has been retold so many times that it has acquired structure — a beginning, a climax, a moral. Bards have polished it. The story is now 30% accurate and has a *name*. "The Ronin of the North Crown." "The Wind-Walker." "The Man Who Walked Out of a Mountain."
+5. **Mythic phase (3+ months):** The tale is canon folklore. Children hear it at bedtime. Soldiers reference it in barracks. Scholars cite it in papers. The accuracy is irrelevant — the cultural impact is permanent. And every legendary seeker, jilted hero, and political operative in the world has now heard a version of it.
+
+**DM directive:** Maintain a **bard-tale tracker** in the arc file. Each entry is: `[Event] → [Current phase] → [Distortion]`. Advance each tale one phase per week of game time. When a tale reaches Regional phase, it starts attracting attention. When it reaches Continental phase, it starts attracting *danger*. When it reaches Mythic phase, it becomes part of the world's permanent lore — and Kenji cannot undo it.
+
+**The compounding problem:** Bard-tales don't replace each other. They *stack*. A traveler in a tavern doesn't hear one story about the Ronin — she hears three. Four. Seven. Each one adds a data point. Each data point makes the composite picture clearer. And the composite picture looks exactly like Kenji the ArchMagus wearing a mask.
+
+---
+
+### 🎯 THE COMPETENCE CURSE — EXCELLENCE AS EXPOSURE
+
+Kenji is too good at too many things. The ronin disguise works against people who have never seen an Archmagus — but against anyone with institutional knowledge, statistical awareness, or pattern-matching intelligence, the disguise *highlights* rather than hides.
+
+**DM directive:** When Kenji succeeds at a check by a margin of 10 or more in front of witnesses with INT 12+, the DM should note it as a **competence flag.** Three competence flags in front of the same witness (or institution) triggers an **assessment** — the witness begins actively trying to figure out who this person really is. The assessment is not hostile by default. It's *curious.* Curiosity is harder to fight than hostility.
+
+**The statistical problem:** A ronin who can read dwarf script, hover in creation light, break steel restraints with bare hands, open portals, speak to divine entities, and passively make every woman in the room forget what she was saying is not a ronin. The disguise is not the mask — the disguise is the *premise*. And the premise collapses under its own weight every time Kenji demonstrates capability beyond the ronin's stated range. The DM should let NPCs *notice this.* Not every NPC. Not immediately. But the smart ones. The trained ones. The ones whose job it is to notice.
+
+---
+
+### 🎭 THE KINDNESS TAX — EVERY GOOD DEED HAS A RECEIPT
+
+Kenji is kind. That kindness is *trackable.*
+
+**DM directive:** When Kenji spends money, shares food, heals someone, defends a stranger, or performs any act of visible generosity, the DM logs it as a **kindness receipt.** Each receipt has a location and a date. Over time, the receipts form a travel pattern. A generous masked swordsman who tips well, pays for luxury suites, and leaves grateful people in his wake is *easy to follow* — not by tracking his footsteps, but by tracking his generosity. Bounty hunters, intelligence operatives, and motivated NPCs can reconstruct Kenji's route by asking innkeepers, merchants, and saved villagers: "Did a generous masked man pass through here recently?"
+
+The better Kenji treats people, the clearer the trail he leaves. The crueler he is, the less visible — but the less he is himself.
+
+---
+
 ## 🌍 ENVIRONMENTAL & SURVIVAL STATUS RULES
 
 ### Core Principle
