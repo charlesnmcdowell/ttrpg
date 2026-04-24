@@ -1,0 +1,45 @@
+# Book 4 — Fraying Empire
+## Chapter 30: Trapped With Me
+
+**Session span:** Ashmere **39** **night** **→** **late** **night** (**Day** **261**, **+~3h** **chamber** **wait**). **Kharn** **seam**-**witness** **bench** **—** **examination** **becomes** **standoff** **becomes** **identity** **catastrophe** **on** **the** **slate** **→** **wedge** **draft** **read**-**back** **queued**.
+
+**Corridor:** **Mursha** **at** **rail** **(**null** **thread** **→** **partial** **release** **→** **Kenji** **breaks** **remaining** **restraints** **by** **force**)** **→** **Intimidation** **(**ADV**,** **+11**,** **Sovereign** **Voice** **layer**)** **28** **vs** **DC** **25** **PASS** **—** **throat** **thread** **removed**, **wrist** **/** **elbow** **plan** **superseded** **by** **witness** **clarity** **ruling** **then** **voided** **by** **defendant** **action** **→** **creation** **mode** **hover** **(**cover** **burn**)** **→** **recall** **claim** **(**Frost** **Fang** **/** **entropy** **“god”**)** **→** **seam** **team** **dispatched** **→** **Mursha** **engineering** **(**closure** **sequence**,** **anchor** **order**,** **staged** **pull**)** **→** **written** **liability** **refused** **(**undead** **court** **analogy**)** **→** **contempt** **/** **menace** **stack** **→** **collar** **ordered** **→** **“** **touch** **=** **war**”** **→** **non**-**contact** **containment** **plan** **(**glass** **/** **wards**)** **→** **Champion** **/** **Archmagus** **declared** **on** **record** **→** **Rorschach** **beat** **(**trapped** **with** **me**)** **→** **coalition** **relay** **flagged** **→** **witness** **hot** **meal** **(**bacon** **/** **eggs** **/** **mead** **cap**)** **→** **~3h** **chamber** **endurance** **(**pushups** **/** **handstand** **pushups** **/** **squats** **;** **shields** **rotate** **;** **scribe** **logs** **non**-**violent** **exercise** **/** **witness** **comfort**)** **→** **IP** **cadence** **continues** **for** **female** **watch** **still** **in** **LOS** **(**per** **`kenji_tracking_OBSOLETE.md`** **)** **→** **wedge** **draft** **ready** **→** **Kenji** **(**curiosity** **/** **“** **glorious** **bang**”** **hyperbole** **retracted** **as** **jest** **)** **→** **delegates** **comprehension** **to** **Mursha** **(**“** **chill** **until** **boring**”** **/** **exit** **language** **noted** **non**-**binding** **)** **→** **Korrim** **orders** **witnessed** **read**-**back** **before** **any** **pull** **(**two**-**phase**,** **measured** **)** **→** **cliff** **at** **first** **spoken** **wedge** **line**.
+
+**Kenji dialogue note:** Spoken lines **player**-**declared** **(**titles**,** **threats**,** **“** **babe** **…”** **close**,** **pros** **/** **bang** **jest**,** **over** **my** **head** **/** **chill** **/** **ready** **when** **you** **are**)**.
+
+---
+
+### Summary prose
+
+What **began** **as** **procedure** **became** **a** **test** **of** **whether** **Kharn** **could** **keep** **its** **hands** **off** **two** **people** **who** **kept** **choosing** **each** **other** **in** **public**. **Elder** **Korrim** **Stoneunder** **pressed** **mechanism** **questions** **(**recall**,** **anchor** **order**,** **written** **liability**)**; **Kenji** **refused** **oaths** **on** **slate** **and** **compared** **the** **bench** **to** **foreign** **undead** **paper** **traps**.
+
+**Mursha** **answered** **clean** **when** **given** **air**—**closure** **as** **sequence**, **not** **heroics**: **brace** **vent** **path**, **choose** **extraction** **order**, **ward** **growth** **or** **controlled** **pin**. **Seam** **teams** **were** **sent** **to** **read** **entropy** **couplets** **at** **the** **wedged** **blades**.
+
+**Kenji** **escalated** **through** **mockery**, **Performance**-**era** **habits**, **and** **open** **defiance**: **removed** **witness** **restraints** **himself**; **hovered** **in** **creation** **bearing**; **forced** **a** **partial** **concession** **with** **Intimidation** **backed** **by** **Eldest**-**weighted** **command** **presence**; **then** **rejected** **half**-**measures** **until** **the** **bench** **chose** **non**-**contact** **containment** **rather** **than** **risk** **his** **“** **recall** **”** **twitching** **under** **hands**.
+
+When **push** **met** **push**, **he** **named** **himself**: **Champion** **of** **the** **Elves**, **Archmagus** **of** **Varenholm** **Academy**—**and** **spoke** **the** **mountain** **into** **his** **cell** **with** **one** **grinning** **line** **about** **who** **was** **trapped** **with** **whom**. **Korrim** **denied** **court** **stabbing** **theater** **but** **ordered** **encrypted** **coalition** **relay** **and** **ward** **protocol** **in** **place** **without** **skin** **contact**. **Mursha** **got** **hot** **plate** **orders** **as** **de**-**escalation** **triage**.
+
+**After** **the** **meal** **order**, **time** **did** **not** **go** **idle**: **Kenji** **burned** **roughly** **three** **hours** **in** **plain** **sight**—**pushups**, **handstand** **pushups**, **squats**—**while** **clerks** **and** **wrights** **worked** **the** **closure** **math** **and** **Mursha** **climbed** **back** **into** **numbers** **with** **the** **focus** **of** **someone** **who** **intends** **to** **survive** **boredom** **on** **purpose**. **Korrim** **stayed** **at** **the** **bench** **until** **the** **wedge** **draft** **could** **be** **read** **back** **cleanly**.
+
+**Tone** **tests** **followed**: **Kenji** **voiced** **curiosity** **about** **seeing** **“** **how** **the** **pros** **do** **it**,”** **with** **mock**-**villain** **laughter** **retracted** **as** **jest**; **Korrim** **answered** **with** **procedure**—**transparency**, **controlled** **collapse**, **paper** **that** **outlives** **the** **room**. **Mursha** **cut** **through** **romance**: **pros** **are** **boring** **because** **boring** **keeps** **breath** **in** **the** **body**.
+
+**Closing** **beat:** **Kenji** **deflects** **deep** **comprehension** **(**“** **over** **my** **head**”**)** **and** **delegates** **the** **engineering** **burden** **to** **Mursha** **while** **promising** **to** **“** **chill**”** **until** **the** **work** **turns** **dull**—**grinning** **at** **Korrim**, **ready** **to** **move** **on** **his** **terms** **of** **patience**. **Korrim** **does** **not** **mirror** **the** **grin**; **he** **closes** **the** **folio**, **names** **the** **rule**—**read**-**back** **first**, **witnessed** **steps** **only**, **then** **the** **two**-**phase** **pull** **if** **the** **mountain** **permits**. **The** **seam** **instrument** **ticks** **forward** **like** **a** **ledger** **that** **does** **not** **care** **who** **smiles**.
+
+---
+
+**Chapter 30 Summary:**
+
+- **Gameplay:** **Day** **261** **night** **→** **late** **night** — **seam**-**witness** **court** **arc** **(**social** **/** **threat** **/** **reveal** **/** **time** **skip** **wait**)**. **Intimidation** **28** **vs** **DC** **25** **PASS** **(**Sovereign** **Voice** **/** **ADV** **+11**)**. **Other** **checks** **n**/**a** **or** **narrative** **(**table** **may** **add** **Athletics** **/** **CON** **for** **long** **exercise** **block**)**.
+- **Combat:** **None** **formal**; **restraint** **/** **ward** **escalation** **threads** **open**.
+- **EXP:** **2,270,050** **baseline** **(**table** **may** **award** **milestone**)**.
+- **Resources:** **per** **session** **table** **(**Wind** **Step**,** **Smoke**-**Invis**-**Clone**,** **Iaido**)**.
+- **Character:** **Kenji** **—** **ronin** **cover** **incinerated** **on** **Kharn** **record** **(**Champion** **/** **Archmagus** **claimed**)**. **Mursha** **—** **48**, **witness** **rail** **(**restraints** **removed** **by** **defendant**;** **meal** **order** **pending**)**.
+- **Relationship:** **Mursha** **—** **fury** **/** **terror** **/** **duty** **braid**; **public** **“** **babe** **”** **close**.
+- **Intel / threat:** **Coalition** **relay** **flagged** **(**encrypted**)**; **Bane** **/** **coalition** **vectors** **worsen**; **veiled** **gallery** **observer** **still** **active**; **seam** **instrument** **cadence** **ongoing**.
+- **Ends:** Ashmere 39, Day 261, late night — seam-witness chamber; non-contact ward protocol holding; wedge draft ready for read-back; Kenji identity on slate; Mursha carrying engineering comprehension; Kenji deferring detail, grinning, “ready” on patience not paperwork; **HP** **368/368** **table**; **EXP** **2,270,050** **baseline**.
+
+---
+
+**Resolved in Ch31** (`fraying_empire_chapter_31.md` — *Two Weeks and a Green Door*): **Solveth** **/** **Mursha** **proxy** **beats**; **Korrim** **witness**-**engineer** **bundle**; **Performance** **+** **Stealth** **egress**; **portal** **exit**; **relay** **breach** **flags** **likely**.
+
+**Next beat (open — Ch32):** **`fraying_empire_chapter_32.md`** **—** **closure** **without** **Kenji**; **relay** **response**; **traveler** **BoH** **bomb**; **Kenji** **surface** **beats**.

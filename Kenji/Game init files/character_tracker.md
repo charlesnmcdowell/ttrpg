@@ -1,11 +1,11 @@
 # Character Tracker — Kenji TTRPG
 
-**Current In-Game Date:** Ashmere 38, 1247 AR — **Day 260 ~night** — **Kharn outer line / reapproach** (**player** **Tamsin** **thread** **closed** **in** **Ch25** **prose**)
-**Current Location:** **Kenji** **off** **checkpoint** **blind** **→** **walk** **back** **vector**; **Mursha** **cover** **remerge** **Ch26**. **Kenji** purse **~1385** GP **(**sync** **80GP** **Tamsin** **beat**)**; **Wind Step 3/5**; **Smoke-Invis-Clone** **per** **table**; **Iaido 0/1**. **HP 368/368**. **relationships.Mursha 48**. **Literacy** **:** **Ch25** **player** **proof** **line** **(**stub** **read** **/** **DM** **full** **retcon** **optional**)**. **Carry Ch26:** clone/Mursha continuity; inner gate; Tamsin sightlines; forge-sight clerk; **Tamsin** **letter-to-ronin** **hook** **(**player** **offer** **Ch25**)**.
-**BOOK 4 — Ch25 COMPLETE** — `fraying_empire_chapter_25.md`. **Threat 2** **Kharn** **vector** **continues**. **Pallid March shelf** `pallid_march_south_push_arc.md`.
+**Current In-Game Date:** Ashmere **40** morning, 1247 AR — **Day** **262** **~07:30** — **Milepost** **Crown** **Rest** **(**crown** **relay** **waystation** **)**  
+**Current Location:** **Kenji** **—** **luxury** **suite** **post**-**LR** **(**ley**-**steam** **bath**, **fine** **dining** **beat** **complete**)**; **paid** **−40** **GP** **−10** **SP** **approx** **(**sync** **`kenji_state.json`** **1395** **GP** **/** **181** **SP** **)**. **Wind** **Step** **5/5**; **Smoke-Invis-Clone** **3/3**; **Iaido** **1/1**. **Mursha** **—** **still** **Kharn** **witness**-**engineer** **on** **closure**. **Relay** **breach** **/** **ronin** **luxury** **gossip** **risk**. **Carry Ch32:** **next** **move** **off** **inn** **ledger**; **coalition** **/** **Kharn** **pings**; **traveler** **BoH** **bomb**; **veiled** **gallery**. **Spine:** `arcs/north_relay_two_chapter_plan.md` § **Kharn forge crisis**.
+**BOOK 4 — Ch32 OPEN** — `fraying_empire_chapter_32.md` (**Waystation** **Recovery**). **Ch31** **COMPLETE** — `fraying_empire_chapter_31.md` (**Two** **Weeks** **and** **a** **Green** **Door**). **Ch30** — `fraying_empire_chapter_30.md` (**Trapped** **With** **Me**). **Threat** **1** **Hollowing** — **seam** **pinned**, **not** **closed**.
 **Active Book:** Book 4 — Fraying Empire (The Ronin Arc)
 
-> **Cross-references:** DM behavior rules → `dm_rules_tracking.md` (**MIA PROTOCOL** + **🎯 ALIVE / IN-PLAY NPC — GOAL INVARIANT** + **Scene skill preroll** + **Player success integrity**: roll before outcome-dependent prose; PC success = player-favorable beat; no NPC Perception auto-win / no “gotcha” undo) | Game engine & mechanics → `ttrpg_game_engine.py` (`skill_roll`, `contested_skill`, `build_skill_modifier`, CLI `skill`) | Live state → `kenji_state.json` | Cursor agent rule → repo `.cursor/rules/kenji-scene-skill-gates.mdc`
+> **Cross-references:** **Arc clarity (core problem, regional stakes, NPC agendas)** → `arcs/ARC_STANDARD.md` (Kharn example: `arcs/north_relay_two_chapter_plan.md` § *Kharn forge crisis*) | DM behavior rules → `dm_rules_tracking.md` (**MIA PROTOCOL** + **🎯 ALIVE / IN-PLAY NPC — GOAL INVARIANT** + **Scene skill preroll** + **Player success integrity**: roll before outcome-dependent prose; PC success = player-favorable beat; no NPC Perception auto-win / no “gotcha” undo) | Game engine & mechanics → `ttrpg_game_engine.py` (`skill_roll`, `contested_skill`, `build_skill_modifier`, CLI `skill`) | Live state → `kenji_state.json` | Cursor agent rule → repo `.cursor/rules/kenji-scene-skill-gates.mdc`
 
 ---
 
@@ -33,14 +33,14 @@ Every character entry includes a **Morale Compass** value. Use it to decide how 
 
 **Status:** alive
 **Level:** 35
-**Location:** Kharn-Dural outer checkpoint — admitted queue; surface gate cut visible. **Ashmere 38 Day 260 ~evening**. Kenji + Mursha; Mursha contract guard; forge-sight clerk *later* scrutiny on ronin kit. Tube witness carry. **HP 368/368**; **Wind Step 3/5**; **Smoke-Invis-Clone 2/3**; **Iaido 0/1**. **Oathbreaker BoH**. **Purse ~1385 GP, 191 SP** (`kenji_state.json`).
-**Last Updated:** Ashmere 38 / Day 260 — **Ch24** gate line
+**Location:** **Milepost** **Crown** **Rest** **—** **luxury** **suite**, **Ashmere** **40** **morning** **Day** **262** **(**post**-**Ch31** **portal** **+** **LR** **)**. **HP 368/368** **(**table**)**; **Wind Step 5/5**; **Smoke-Invis-Clone 3/3**; **Iaido 1/1**. **Purse ~1395 GP, 181 SP** (`kenji_state.json`).
+**Last Updated:** Ashmere **40** / Day **262** — **Ch32** *Waystation recovery* **(**inn** **beat** **)*
 
 **Physical:** `npc_appearance.md` § **Kenji — Ronin / Blade Channeler**
 **Disposition:** N/A (protagonist)
 **Morale Compass:** Neutral (Player Character — Hiro's call; shiftable as Kenji develops)
 
-**Abilities (full ArchMagus kit — most are SUPPRESSED in Ronin mode):** Enhanced Arcane Edge, Haste, Stride (L4), Wind Step (70m), God Sight (120ft darkvision + crit targeting), Greater Invisibility, Clone (smoke bomb), Radiant Edge, Ward Mastery (L4), Living Ground (druid bond), Diagnostic Touch, Bond-Form Sight, Captain's Read, Irresistible Presence (Siren-Elf aura; full rules → `kenji_tracking_OBSOLETE.md` § IRRESISTIBLE PRESENCE), Portal Gateway, Lover's Vigor (see same subsection)
+**Abilities (full ArchMagus kit — most are SUPPRESSED in Ronin mode):** Enhanced Arcane Edge, Haste, Stride (L4), Wind Step (70m), God Sight (120ft darkvision + crit targeting), Greater Invisibility, Clone (smoke bomb), Radiant Edge, Ward Mastery (L4), Living Ground (druid bond), Diagnostic Touch, Bond-Form Sight, Captain's Read, Irresistible Presence (Siren-Elf aura; full rules → `kenji_tracking_OBSOLETE.md` § IRRESISTIBLE PRESENCE), Portal Gateway, Lover's Vigor (see same subsection), Scribe's Eye (Tamsin bond — passive omnilingual literacy), Paper Memory (Tamsin bond — 1/LR perfect document recall 24h)
 
 ### Irresistible Presence & Lover’s Vigor (female humanoids) — authoritative summary
 
@@ -132,6 +132,7 @@ Relay-town inn cast; names from `npc_name_bank.md`. Full coloring → `npc_appea
 | **Mursha** | Iron Mule caravan guard (severed roster) | Half-orc | **Pale olive–green**, **STR-heavy** build (broad shoulders, defined back/abs, very large thighs/glutes), **black cornrow→braids** + **silver bands/hoops**, **long ears**, **small capped tusks**, **R brow + cheek scars** — **tavern lock:** `mursha_brass_hitch_tavern.png`; **suite:** `mursha_brass_hitch_suite_*.png` (×7) + optional player refs → full **`npc_appearance.md` § Mursha**; **DM stages:** (1) professional (2) IP pressure (3) **Lover’s Vigor** — **bronze-gold eye ring** |
 | **Haldra** | Dwarf factor clerk | Dwarf | Fair warm-toned, cream-and-rose; forge-flush cheeks/nose; full-figured build, dark auburn twin braids w/ bronze ties; clear blue eyes — **required refs by stage:** clerk `haldra_brass_hitch_clerk.png` + `_back.png`; intimacy `haldra_offduty_intimacy_reference.png`; post-vigor `haldra_post_vigor_reference.png`; **DM stages:** (1) normal (2) pre-intimacy/IP pressure (3) post-intimacy **Lover's Vigor** — brass-amber eye ring tell |
 | **Gwynn** | Hostler | Halfling | Sun-kissed golden tan; hazel eyes — **required refs by stage:** work `gwynn_hostler_portrait.png` + `gwynn_hostler_work_back.png`; intimacy `gwynn_intimacy_reference.png`; post-vigor `gwynn_post_vigor_reference.png`; **DM stages:** (1) normal (2) pre-intimacy/IP (3) post-intimacy **Lover’s Vigor** — **emerald / bright green** eye tell |
+| **Tamsin Vale** | Coalition tally scribe | Human | Ink-stained fingers, clerk posture; **brown** eyes — **Lover’s Vigor** (triggered **Ch25** berm beat): **fine copper-bright ring** at pupil (visible **Ch26** niche lantern); +50% stats ~5 days; **IP-immune** vs Kenji ~Day 265 / Ashmere ~43; **Ch26** letter routing hook live; **identity pressure** vector (5 data points — illiteracy, 80 GP, IP, "the ronin", berm) |
 
 ### Ch20 played (Ashmere 35 evening — **synced**)
 
@@ -162,11 +163,89 @@ Relay-town inn cast; names from `npc_name_bank.md`. Full coloring → `npc_appea
 - **Mursha:** climb + watch; **gnomish milepost** — factor silver, rhetoric; **outer Kharn checkpoint** — papers; **blocked random bag verification** on Kenji (BoH not opened). **Oathbreaker** question **deferred** (Marthel memory). **IP** strain on staff. **Ambient:** relay trough soap; Kenji unvoiced.
 - **End:** Day 260 evening — admitted **gate line**, inner yard **Ch25**.
 
-### Ch25 played (Ashmere 38 night — prose `fraying_empire_chapter_25.md`)
+### Ch25 played (Ashmere 38 night, Day 260 — prose `fraying_empire_chapter_25.md`)
 
-- **Player thread:** coalition scribe **Tamsin Vale** — off-base beat (mature/coercion per table); **read proof** — three hand-marks, Kenji **player** confirms *I can read* before witness; marks **erased**; **player** **close** — *another goal → letter to the ronin, I’ll come* (routing vague IC); Tamsin **hedges** **/** **threat-memory**. **Literacy:** breakthrough **stub** unless table retcons. **Next:** Mursha/clone **Ch26**; **letter** **hook** **live**.
+- **Tamsin Vale** — coalition scribe; off-base beat (mature / coercion / IP per table). **Read proof:** three coalition hand-marks in dirt; Kenji speaks sounds; **Kenji (player):** *I can read* — breakthrough stub (not full literacy for INT 9). Marks **erased**. **80 GP** escrow resolved (Tamsin keeps — lessons delivered). **Player close:** *send a letter to the ronin, I’ll come to you* — Tamsin: threat-memory (*I’ll remember. Don’t make me use it*). **Literacy:** ongoing unless table retcons. **Charges:** unchanged unless table logged clone/invis on checkpoint thread.
+- **End:** Day 260 night — approach to outer line / separation per table. Purse ~1385 GP. HP 368.
 
-**Cross-ref:** `arcs/north_relay_two_chapter_plan.md` — north fork spine + **§ Canon played — Ch18–Ch25** (prose Ch22–25 in `Book 4/Chapters/`).
+### Ch26 played (Ashmere 38 night/predawn, Day 260 carry — prose `fraying_empire_chapter_26.md`)
+
+- **Kharn-Dural upper works** — inside the mountain (mines / surface-linked gallery). Kenji + Tamsin in lantern hearing (tally niche). **Kenji (player):** reaffirms letter routing (*Ms. Vale — if you want me to come by again, send a letter. Same as before*). Tamsin: *Letters need routes. Ronin isn’t a route.* Then: *I’ll find one. Don’t flatter yourself that I’m eager.*
+- **Lover’s Vigor on Tamsin:** copper ring at pupil tell — visible in niche lantern light. IP immunity vs Kenji active ~5 days (table). Tamsin: horror → *Don’t name it* → clerk ice → *Five days* (she knows the window from gossip/fear). Clearer head = sharper shame arc. Not Bonded Lovers #22 unless table promotes (vigor ≠ automatic bond slot).
+- **End:** Ashmere 38 predawn Day 260 — Kenji at coalition clip-desk vector; Tamsin routed away (Bond #22 — table promoted). Mursha / factor train remerge Ch27. Charges unchanged. ~1385 GP. HP 368. EXP 2,270,050.
+
+### Ch27 played (Ashmere 39 morning–afternoon, Day 261 — prose `fraying_empire_chapter_27.md`)
+
+- **Mursha** states dual objective: Haldra-line liability + quarantine truth (forge story Kharn wraps in "malfunction" — get close enough to see the real situation). **Coin distraction + Sleight contest** (Kenji DEX+5 advantage 16 vs dwarf traveler Perception+2 disadvantage 4, margin 12) — unwitting traveler now carries repositioned extradimensional kit past checkpoint (BoH / satchel plant — moral + inspection time bomb elsewhere in queue). **First stamp pass** — clean.
+- **Manifest Revision II:** personal lane + resonance spot-check language. Kenji **reads dwarf script + coalition marginalia** via Scribe's Eye (table literacy tool confirmed in play). Forge-sight clerk asks for palms up — **pass**. Mursha covers literacy tell: *Krath — read like that again in public, make it look like you're counting boot laces.*
+- **End:** Day 261 afternoon — past Manifest Revision II; approaching cargo reconciliation; Kenji + Mursha clean this beat. ~1385 GP (±trivial coin). HP 368.
+
+### Ch28 played (Ashmere 39 afternoon–evening, Day 261 — prose `fraying_empire_chapter_28.md`)
+
+- **Wind Step breach** past quarantine chain — Kenji separates from Mursha. **Quarantine Forge Three:** dead forge, seam in floor (Hollowing crack — organic, not structural). **Investigation fail** (total 5 vs DC 22 — INT 9 wall). Ley tap strained (sick ley network); **ember surged** — creation nova, gold-green visible. **Forge mistress** challenged at rail (dwarf, decades of service, reads energy categories).
+- **Oathbreaker** driven into seam to crossguard — holy/necrotic dual binding pins crack (not cure, wedge). **Frost Fang** second-wedged beside it — entropy vs creation thermal argument; ward chalk fought itself. **Full STR (42)** drove both to hilt. **Entropy mode** fed wrong mouth until mistress read *balancing without healing*.
+- **Males warned back** (player line) — aura + entropy field = permanent death risk for males in confined space. Forge mistress held **female-only breath line**; guards disciplined panic.
+- **Creation volcano:** Kenji palmed crack, **vented upward** through shaft space — **gold-green conduit visible from upper works and surface yards**. **RONIN COVER COLLAPSED** to witnesses (ArchMagus-grade creation signature). Seam **pinned not healed** (crack smaller, not gone). Hand fused to stone on release (raw palm, stone dust).
+- **Player:** *"That's one spicy meatball"* + burp (gallows humor). **Iron-grey elder** (forge owner / crown voice — table names pending) demands **ten words or less** why the forge stopped eating itself. **Beat open for player reply.**
+- **End:** Day 261 evening — quarantine forge chamber; elder + mistress + guards; Kenji at seam afterglow. Wind Step 0/5 (heavily spent); spell economy strained; Smoke-Invis-Clone 1/3; Iaido 0/1. HP 368 (or table exhaustion). EXP 2,270,050. Mursha separated — reunion pending.
+
+### Ch29 played (Ashmere 39 evening–night, Day 261 — prose `fraying_empire_chapter_29.md`)
+
+- **Quarantine custody** — Procedure Seven (gender-segregated watch). Female watch assigned; IP cadence running on watchers (DC 23, −1/15 min cumulative). **Sleight + smoke/clone misdirect FAIL** (18 vs DC 23); DM ruling — no bar work unless decoy draws violence; clone dismissed. **Intimidation** 18 vs DC 19 fail (earlier beat).
+- **Goat poem / verse** — Performance **nat 20** (+11 = 31 vs DC 21). All male guards laugh uncontrollably; **senior watch (female, ledger)** does NOT laugh. **Persuasion** 29 vs DC 23 — supervised dwarven breakfast + honey mead (clerical cap). Kenji meditates, eats, waits.
+- **Bench escort** — clerks (not guards). Escort flirtation + contempt; near-gag-order (custody doctrine voice-restraint citation). **Perception nat 1** vs DC 16 — fails to see **veiled gallery observer** (unidentified).
+- **Korrim Stoneunder bench** — elder from forge, now bench authority. Court reads incident record (conduit vent, blades in seam, Mursha partitioned). **Seam light brazier** examines intent: **not malicious surge** (coarse truth, entered); **not intended final blade retention** (entered).
+- **Blade provenance volunteered** — Oathbreaker described as "undead paladin greatsword"; Frost Fang as "god sword." Self-contradictory phrasing preserved verbatim by clerks. Kenji: **does not fear bench** (entered); **does not respect procedure** (entered). If he had, he'd have followed **"Mursha's way"** — name forces motion.
+- **Mursha summoned** under Haldra-line bind protocol. **Null thread** at throat (measures voluntary vs compelled speech — protection dressed as restraint). Kenji smiled when she entered. Korrim opens her examination under seam light. **Beat open at her first answer.**
+- **End:** Day 261 night — Kharn seam-witness chamber; Kenji in prisoner circle; Mursha at witness rail under null thread; Korrim examining. HP 368/368 table. EXP 2,270,050. Purse 1435 GP (sync table). Contempt + menace entries on Kharn slate.
+
+### Ch30 played (Ashmere 39 night, Day 261 — prose `fraying_empire_chapter_30.md`)
+
+- **Examination becomes standoff** — Mursha answers clean under null thread (operational closure: brace vent path → extraction order → ward growth or controlled pin). Kenji **breaks Mursha's restraints by force** (wrist + elbow bindings, STR 42). Chamber calculates; watch stops.
+- **Intimidation** 28 vs DC 25 PASS (Sovereign Voice / ADV +11) — throat thread removed by bench order (fiction: "witness clarity ruling"). Wrist/elbow plan voided by defendant action.
+- **Creation mode hover** — Kenji lifts off stone floor (3 inches), gold-green light, boots leaving ground. Cover incinerated in real time. Every forge-trained eye reads the signature.
+- **Recall claim** — Frost Fang (conjured) can be recalled/unmade from seam. Oathbreaker (physical steel) requires hands. **Seam team dispatched** (4 forge-priests — entropy couplet readings).
+- **Mursha engineering** — closure as sequence: brace vent path, choose extraction order (thermal argument is load-bearing), ward growth or controlled pin. Operational intelligence, not magic.
+- **Written liability REFUSED** — Kenji compares bench to undead court paper traps (Sir Corwyn analogy implicit). Will not sign into a system that outlasts willingness. Entered as contempt.
+- **Collar ordered** → **"Touch me and it's war"** (player line). Bench pivots to **non-contact containment** (glass barriers, ward circles — no skin contact).
+- **IDENTITY DECLARED ON RECORD:** **Champion of the Elves, Archmagus of Varenholm Academy** (player-declared titles). Clerks record verbatim. Chamber arithmetic inverts — prisoner is diplomatic figure; contempt entries now carry geopolitical weight. **Rorschach beat** — "trapped with me" power inversion.
+- **Coalition relay flagged** (encrypted) — information leaving the mountain. Wards ordered without skin contact. Korrim: "no court stabbing theater" (entered as ruling).
+- **Hot meal** — bacon, eggs, mead (clerical cap) — de-escalation triage for Mursha at witness bench. **"Babe — you're going to love the eggs"** (player line) — public intimacy while wards rise.
+- **End:** Day 261 late night — seam-witness chamber; non-contact ward protocol; Kenji identity on slate; Mursha at rail (restraints broken, eating); coalition relay in transit; veiled observer still active; seam instrument cadence ongoing. HP 368/368. EXP 2,270,050. Purse 1435 GP.
+
+### Ch31 played (Ashmere 39 late night → Ashmere 40 predawn, Day 261→262 — prose `fraying_empire_chapter_31.md`)
+
+- **Mursha-centered cooperation** — Kenji addresses Mursha as reason he engages; Korrim logs; hour + findings; Solveth speaks publicly at blade (god-voice); proxy permission to Mursha logged under witness.
+- **Timeline & tension** — honest closure range (~2–6 days best, up to ~2 weeks risk); Kenji declares two-week patience + ultimatum language; portal attempt canceled under wards; apology/peace beats to Mursha; Korrim **witness-engineer** bundle (parity, returns within hour where safe).
+- **Inventory** — nodachi + Bag of Holding verified returned per receipt; seam blades remain wedged (not in BoH).
+- **Egress** — **Performance** 23 vs DC 16 PASS (tap-dance clone); **Stealth** ADV 18 vs DC 16 PASS (Greater Invis + distraction); Wind Step distance; ~3 mi green portal off beaten path.
+- **End:** Day 262 predawn — Kenji remote off relay path; Mursha on closure duty at Kharn; relay breach flags likely; Solveth in seam work. HP 368/368. EXP 2,270,050. Purse 1435 GP. Smoke-Invis-Clone 1/3; Wind Step 1/5.
+
+### Ch32 played (Ashmere 40 morning, Day 262 — prose `fraying_empire_chapter_32.md`)
+
+- **Milepost Crown Rest** — nearest crown relay inn; luxury suite, ley-steam bath, fine dining to room.
+- **Ledger** — ~40 GP + 10 SP (table approx; sync `kenji_state.json`).
+- **Long rest** — spell slots full, HP 368/368, Wind Step 5/5, Smoke-Invis-Clone 3/3, Iaido 1/1.
+- **End:** ~07:30 Ashmere 40 — rested; gossip/recognition risk at waystation; relay may catch up.
+
+**Cross-ref:** `arcs/north_relay_two_chapter_plan.md` — north fork spine + **§ Canon played — Ch18–Ch32** (prose Ch22–32 in `Book 4/Chapters/`).
+
+### KORRIM STONEUNDER — Elder bench authority, Kharn-Dural (**Ch28–29**)
+
+**Status:** alive  
+**Met:** yes — Ashmere **39** Day **261** (Ch28 forge, Ch29 bench)  
+**Role:** Clan-crown authority; elder with jurisdiction over quarantine Forge Three. Iron-grey beard, braid pattern = clan-crown (not forge worker, not factor clerk). First appeared demanding ten-word explanation in Ch28; presides over seam-witness bench in Ch29. Uses seam light brazier for intent examination. Assessed Kenji's conduit as "not malicious — coarse truth" and blade retention as "not intended."  
+**Disposition:** judicial — neither hostile nor sympathetic. Treats Kenji as a problem the system must process. Gave Kenji the bench (process), not the chain (arrest) — but contempt entries are stacking.  
+**Morale Compass:** Lawful Good — serves the mountain's law and his people's safety. Will protect Kenji from mob response if the law says to; will punish him if the law demands it. The bench is sovereign. His personal opinion of the prisoner is irrelevant until the bench closes.  
+**Last Updated:** Ashmere **40** / Day **262** — Ch31 *Two Weeks and a Green Door*
+
+#### Active Goals
+
+| goal_id | opened | due_date | public_at | status | description | completion_effects |
+|---------|--------|----------|-----------|--------|-------------|--------------------|
+| bench_verdict | Ashmere 39 | Ashmere 40 | immediate | active | Determine the legal status of the masked human who breached quarantine, drove foreign blades into the mountain's seam, and vented a creation conduit through the upper works. **Ch31 update:** Kenji exited under decoy/invisible breach — relay flags likely; legal status **more** fraught (fugitive pressure vs prior custody). Mursha remains witness-engineer on closure. Veiled gallery observer still live. | Verdict / relay response determines Kharn + coalition posture. Blade extraction politics follow — removing Oathbreaker + Frost Fang may destabilize the pin. |
+
+---
 
 ### MARTHEL — Smith, Bronzebarrow forge row (**Ch19**)
 
@@ -182,6 +261,32 @@ Relay-town inn cast; names from `npc_name_bank.md`. Full coloring → `npc_appea
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
 | oathbreaker_memory | Ashmere 35 | Ashmere 40 | N/A | active | A masked ronin pulled a **holy/necrotic greatsword** out of a bag and asked him to reforge it. He refused. The sword hurt to look at. He hasn't forgotten. If anyone asks about unusual weapons or unusual customers, he has a story. | Adds to **ronin_identity_pressure** — a relay smith who saw a blade that shouldn't exist in a bag that shouldn't hold it. Cross-cuts with Cassia's investigation if yard gossip connects "ronin with impossible sword" to "ronin who released Mursha same day coffer walked." |
+
+---
+
+### TAMSIN VALE — Coalition tally scribe (**Ch25–26**)
+
+**Status:** alive
+**Met:** yes — checkpoint desk (Ch24 ambient) → berm private beat (Ch25) → Kharn upper gallery niche (Ch26)
+**Location:** Kharn-Dural upper works — routed away from Kenji toward scribe quarters after niche encounter. **Ashmere 38 predawn Day 260**.
+**Last Updated:** Ashmere 38 / Day 260 — **Ch26** copper ring
+
+**Physical / voice:** Human woman. Ink-stained fingers, clerk posture, brown eyes. **Lover's Vigor active (Ch25 trigger):** fine copper-bright ring at pupil — visible in Ch26 niche lantern. +50% stats ~5 days. IP-immune vs Kenji ~Day 265 / Ashmere ~43.
+
+**Disposition to Kenji:** Hostile-professional. Taught him to read (80 GP for chalk marks — $400,000 in relay economy). Experienced IP firsthand (severe — private, prolonged, berm). Vigor tell horrified her (*Don't name it*). Routing future contact on her terms (*Letters need routes. Ronin isn't a route*). Threat dressed as memory (*I'll remember. Don't make me use it*).
+
+**Morale Compass:** Lawful Neutral — paper is armor; procedure is faith; routing is survival. Will file, withhold, or weaponize information depending on which serves her position. Not cruel — accurate.
+
+**Identity pressure vector:** Five data points on the ronin — illiteracy arc, 80 GP payment capacity (wealthy for any sell-sword), IP effect (experienced firsthand in two settings), "the ronin" as self-identifier with no yard/factor attached, berm beat. +2–4% ronin_identity_pressure if she talks. A clerk with five data points and a memory threat can file a report that interests factor houses, checkpoint officers, or anyone looking for a man who doesn't add up.
+
+**Pregnancy:** One qualifying exposure (Ch25 berm beat, IP + private + Vigor triggered). Pending — no roll logged. DM resolves per pregnancy tracker rules.
+
+#### Active Goals
+
+| goal_id | opened | due_date | public_at | status | description | completion_effects |
+|---------|--------|----------|-----------|--------|-------------|--------------------|
+| letter_routing | Ashmere 38 (Ch26) | open | N/A | active | Find a way to route a letter "to the ronin" — the contact offer Kenji made twice (Ch25 walk, Ch26 niche). She accepted the task: *I'll find one.* No route exists yet; ronin is not a factor address. | If successful: future contact vector (lessons, blackmail, factor trap, or genuine professional relationship — DM chooses). If intercepted: identity pressure spike. |
+| vigor_window_survival | Ashmere 38 (Ch25) | ~Ashmere 43 / Day 265 | N/A | active | Survive ~5 days of Lover's Vigor with a copper-ring tell in coalition scribe spaces where dwarven/coalition observers may know vigor lore. She knows the window (*Five days*). Manage exposure of the tell. | After expiry: IP immunity drops; aura returns at full force if proximity resumes. Copper ring fades. Shame arc resolves or compounds. |
 
 ---
 
@@ -243,6 +348,8 @@ Relay-town inn cast; names from `npc_name_bank.md`. Full coloring → `npc_appea
 **Appearance (canon — expand in `npc_appearance.md` § Mursha):** Half-orc body built like a **spear-line lieutenant** — **exceptionally muscular** (**heavy shoulders, arms, lats**; **visible core** when unarmored; **narrow waist**; **very powerful thighs and glutes**). **Pale olive–green** skin, **warm** undertone; **jet-black** hair in **tight cornrows** feeding **thick braids** banded with **silver rings**; **long pointed ears** with **silver hoop** earrings (off-duty/suite); **small steel-capped tusks**; **dark brown** eyes; **bronze-gold** ring at pupil when **Lover’s Vigor** active. **Scars:** vertical **right brow**, small **right cheek**. **On duty:** minimal **dark breastplate**, **right pauldron**, bracers, **olive/tan wraps**, **thigh straps/buckles**. **Suite / private:** may wear **white or teal lace** lingerie; **black** nail polish; lamplight **sheen** on muscle. **Prose:** prefer **named anatomy + light + jewelry + scars**, not generic “buff woman.”
 
 **DM — intimacy quirk (Mursha / Kenji):** On **any** intimate beat between them, layer **creative ambient hints** that she may have been with **other men earlier that day** (scent, texture, timing, stray detail); **Kenji never** calls it out in-scene. Ties to **Power of P** / hidden intel habits — not retconned without player buy-in on specific NPCs.
+
+**DM — anger/dialogue quirk (Mursha):** When angry, frustrated, or under pressure, Mursha drops **short orcish curse-words** (invented, guttural, 1–3 syllables: *krath*, *vol-sha*, *drekk*, etc.). The curse is **punctuation, not the sentence**. The **meaning** must come from the **plain English** line that follows or surrounds it — concrete, clear, paraphraseable. **Pattern:** [orcish expletive] + [clear English that carries the actual meaning]. **Test:** cover the orcish word; does the English still make complete sense on its own? If not, rewrite the English. **Bad:** vibe-shaped lines where individual words are thematically adjacent but the sentence dissolves when you ask what she's actually saying. Mursha is a guard, not a poet — her lines should be blunt and parseable.
 
 **Baseline ability scores (before Lover's Vigor +50%):** STR **22** **(**+2** **Power** **of** **P** **Day** **257** **lieutenant**)**, DEX **16**, CON **20**, INT **10**, WIS **8**, CHA **14** — `kenji_state.json` **`soul_nexus_registry.Mursha.baseline_ability_scores`**.
 
@@ -1421,6 +1528,8 @@ Last-known states preserved in AI_CONTEXT.md. Promote to full tracker entries on
 | **Pip** | **Keeping** — active | ~Hollowmere/Ironveil; ~7–8 mo | **No** — Brenn may force the issue |
 | **Bracken** | **Keeping** — active | Conceived **Day 248** (Ashmere 26); **Day 258** = 10 days — still **too early** IC for self-diagnosis; due ~Month **11–12** | **No** |
 | **Mursha** | **Pending** | **Two** exposures: Ch18 (Day 256, multiple qualifying finishes) **+** Ch21 (Day 257–258 predawn, Vigor reinforced); **no roll** logged — **DM** resolves | N/A until confirmed |
+| **Haldra** | **Pending** | **One** exposure: Ch22 (Day 258, Brass Hitch private parlor; IP fail ×2 + Persuasion ADV 20 vs DC 19; Lover's Vigor triggered — brass-amber eye ring); **no roll** logged — **DM** resolves | N/A until confirmed |
+| **Tamsin Vale** | **Pending** | **One** exposure: Ch25 (Day 260, berm private beat; IP severe — close range, enclosed, dark; Lover's Vigor triggered — copper ring tell visible Ch26); **no roll** logged — **DM** resolves | N/A until confirmed |
 | **Brynn** | **Not pregnant** | Rolled clear vs threshold (`dm_private`) | — |
 | **Senna, Elara, Thessaly** | **Terminated** | — | — |
 
@@ -1430,7 +1539,7 @@ Last-known states preserved in AI_CONTEXT.md. Promote to full tracker entries on
 
 ## CONFIRMED MOTHERS — ARRIVAL TRIGGERS (Bane / location known)
 
-Only **Pip**, **Sera**, and **Bracken** are **confirmed carrying** as of Day **258**. **Mursha** is a **separate** flag (two exposures, no roll) until `pregnancies.Mursha.status` updates.
+Only **Pip**, **Sera**, and **Bracken** are **confirmed carrying** as of Day **260**. **Mursha** (two exposures), **Haldra** (one exposure), and **Tamsin Vale** (one exposure) are **separate** pending flags (no rolls logged) until `pregnancies.*.status` updates in JSON.
 
 ### Pip's Arrival
 **Trigger:** Location known → immediate.
@@ -1450,7 +1559,7 @@ Only **Pip**, **Sera**, and **Bracken** are **confirmed carrying** as of Day **2
 ### Archived — Senna & Elara (pregnancies **terminated**)
 **No arrival-for-baby beat** — if they appear, it is **professional** (War College / Chancellor), not **carrying** **Kenji’s** **child**.
 
-**Shared mechanic:** Active-mother arrivals compete with the **five** campaign clocks. **Mursha** (if upgraded to confirmed) adds a **fourth** **active** **pregnancy** **lane** — **sync** JSON **before** **running** **Bane** **convergence**.
+**Shared mechanic:** Active-mother arrivals compete with the **five** campaign clocks. **Mursha**, **Haldra**, and **Tamsin** (if any upgrade to confirmed) add **fourth–sixth** active pregnancy lanes — **sync** JSON **before** **running** **Bane** **convergence**.
 
 ---
 

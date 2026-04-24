@@ -1,20 +1,59 @@
 # Active arc — Pallid March (south push)
 
-**Table camera (Day 257):** Kenji is **not** on the **active undead / March** corridor — **`kenji_state.json` → `active_arc.relative_path`** is **`arcs/north_relay_two_chapter_plan.md`**. This Pallid March file stays **shelf + session truth + unpaid south threads** until he **returns south** or a **rider/courier** catches him.
+**Table camera (Day 261 / Ashmere 39):** Kenji is **not** on the **active undead / March** corridor — **`kenji_state.json` → `active_arc.relative_path`** is **`arcs/north_relay_two_chapter_plan.md`**. Kenji is inside **Kharn-Dural yard tier** (Ch26). This Pallid March file stays **shelf + session truth + unpaid south threads** until he **returns south** or a **rider/courier** catches him.
 
 **Use while:** Kenji is **in** or **downstream of** the southern corridor (south road, March cordon, Ashenveil margin) **or** resolving **immediate fallout** in **Thornkeep** that originated from this push (Oathbreaker custody, Lady intel, relay blackout reports). Rough window **Ashmere 26–45**, or until the table promotes a new arc file (e.g. `ashenmere_council_pressure_arc.md`).
 
-**If Kenji leaves the south spine** (e.g. north crown travel, new relay towns): this file becomes **reference + unpaid threads**, not “inactive lore.” Shelf items (Pair A, Oathbreaker paper, Lady pings) may **catch up by courier** — see `arcs/north_relay_two_chapter_plan.md` for a **2-chapter** north relay + mixed-species cast plan.
+**If Kenji leaves the south spine** (e.g. north crown travel, new relay towns): this file becomes **reference + unpaid threads**, not “inactive lore.” Shelf items (Pair A, Oathbreaker paper, Lady pings) may **catch up by courier** — see `arcs/north_relay_two_chapter_plan.md` for the north relay + Kharn-Dural interior plan.
 
-**Session truth (sync Ashmere 35 ~dawn, 1247 AR — Day 257):**
+**Arc standard:** `ARC_STANDARD.md` — full template; this file’s clarity block below should stay synced when beats change.
+
+---
+
+## Arc clarity (gold standard)
+
+### Core problem
+
+The **Ashenveil** is no longer a **contained** haunted margin. A **living power** (**the Lady**) has **organized** mindless dead into **columns**, **scouts**, and **border doctrine**—a **Pallid March** aimed at coalition **ley** and **southern** territory. The **cordon** is a **delay**, not a **cure**.
+
+### If unresolved — regional effect
+
+**Relay and road collapse** along the March vector; **Thornkeep** and downstream holds face **siege logic** or **abandonment**; **portal anchors** become **strategic targets** (ley concentration). **Refugee pressure**, **grain panic**, and **political** finger-pointing in **Ashenmere** even if the undead never reach the capital—**failure** reads as **the coalition lost the south’s underbelly**.
+
+### Optional: link to campaign threat layer
+
+**Threat 2 — Pallid March** (`fraying_empire_campaign.md`). **Orthogonal** to Kharn / Hollowing while Kenji is on the **north relay**; clocks still run on the shelf.
+
+### NPC stances (plot-driving characters)
+
+| NPC | How they state the problem | Their action (what they do) | Outcome they want |
+|-----|----------------------------|-----------------------------|-------------------|
+| **The Lady** | The coalition’s **ley** is **concentrated** and **exposed**; the swamp was a **cage**, now it’s a **forge** for her host. | Border probes, **binding** elites, **diplomacy** as knife, trophy **threads** to Kenji. | **March** succeeds; **portals** / ley **siphoned** or **broken** to fuel her design—not mercy for the kingdom. |
+| **Renna Bracken** | The **cordon** is **lying** if we pretend it’s peacetime; **reports** don’t match **old** maps. | **Dispatches**, **Pair A**-style verification, **quarters** pressure on assets, **hold** Thornkeep **legitimate**. | **Minimum** **body** **count**; **time** for **Ashenmere** to **answer** with **resources**—not a hero’s duel every week. |
+| **Jostin** | The **field** **truth** has to become **paper** someone upstream can **sign**. | **Files** what he saw; **professional** framing; **gap** between report and myth. | **Career** **survival** + **chain** **of** **command** **respected**—not covering for a **ronin** **legend**. |
+| **Vess** (if council activates) | **Someone** is **breaking** **seals** **and** **relays** **without** **a** **crown** **briefing**. | Council **agenda** **control**; **recognize** or **bury** **ArchMagus** **ghost**. | **Coalition** **holds**—on **her** **terms**; **Kenji** **useful** **or** **neutralized**, **never** **rogue** **center**. |
+| **War profiteer / black relay** (faction or NPC) | **Panic** **moves** **metal** **and** **escort** **contracts**. | **Price** **spikes**, **rumor** **sales**, **detours** **that** **feed** **bandit** **economy**. | **Bad** **border** **news** **=** **good** **margin**—resolution **is** **optional**. |
+
+### PC / party hook
+
+Kenji **walked** into the **March** **corridor** **deliberately** (split party, **Lady** **audience**, **Oathbreaker** **through** **line**)—south **shelf** **threads** **persist** while he is **north** on **Mursha** / **relay** **business**.
+
+### Dramatic irony or secrets
+
+**Oathbreaker** **custody** **paper** **and** **Lady** **sympathy** **pings** **outpace** **what** **Kenji** **tells** **Bracken**; **Pair** **A** **may** **verify** **quiet** **miles** **without** **his** **knowledge**.
+
+---
+
+**Session truth (last south-spine sync Ashmere 35, Day 257 — Kenji left south Ch18; north relay Ch19–26 logged in `north_relay_two_chapter_plan.md`):**
 
 - **Ch14 COMPLETE** — east verge ~mile 17; **Corwyn** disarmed; **Oathbreaker** → **BoH**; **Brynn** reunion.  
 - **Ch15 COMPLETE** — party **split**; Kenji **March forward cordon**; **Lady** audience; guest chamber **LR** Ashmere 30 dawn.  
 - **Ch16 COMPLETE** — inner cordon beats; **Seren** mask-name; **leak** + **bronze trophy**; **egress**; **Thornkeep Waystation**; vigil nights **Ashmere 31–32**; **LR** Ashmere 32 dawn.  
 - **Ch17 COMPLETE** — **Ashmere 33** office border brief; PM **Persuasion** path → **captain quarters** overnight **33→34**; **Lover’s Vigor** reset; **Ashmere 34** predawn **LR**; Kenji **Stealth** egress on runner knock, **north gate** exit ~**09:00** Day **256** (no formal goodbye).  
 - **Ch18 COMPLETE** — crown road north → **Bronzebarrow**; **Iron Mule** (**Cassia Vorn**) **Mursha** buyout; Kenji **floor coffer theft**; **Brass Hitch** luxury suite + **Mursha** arc (**clone flicker** seen; **Deception** on double **failed**); suite **LR** **Ashmere 34→35**; **Bonded Lovers 20**. See `arcs/north_relay_two_chapter_plan.md` § *Canon played — Ch18*.  
-- Kenji is on the **north relay** vector — this file is **shelf + unpaid south threads** until he returns or a **rider/courier** catches him. **Book** **4** **Ch19** **CLOSED** **Day** **257** **Ashmere** **35** — **Bronzebarrow** **gear** **day** **logged** **`kenji_state.json`**; **Ch20** **north** **relay** **per** **`north_relay_two_chapter_plan.md`** **§** **Ch19** **canon** **+** **Ch20** **prediction**.  
-- Prose / machine: `kenji_state.json` is authoritative for timestamps and purse; chapter `.md` stubs optional. If anything disagrees, **last played table beat wins**.
+- **Ch19–26 played on north relay spine** — all canon logged in `north_relay_two_chapter_plan.md`. Brief: Ch19 Bronzebarrow gear day; Ch20 western cut; Ch21 night road + suite; Ch22 Haldra desk; Ch23 sealed tube + north courier contract; Ch24 outer Kharn checkpoint; Ch25 Tamsin Vale (Bond #22, Scribe's Eye / Paper Memory); Ch26 Mursha reunion at yard tier (Oathbreaker almost-break, train moves inward). **Current:** Day 261 / Ashmere 39, Kharn-Dural yard tier. EXP 2,270,050. Purse 1385 GP, 191 SP.
+- Kenji is **deep inside Kharn-Dural** — this file is **shelf + unpaid south threads** until he returns south or a rider/courier catches him. North relay primary: `north_relay_two_chapter_plan.md`.
+- Prose / machine: `kenji_state.json` is authoritative for timestamps and purse; chapter `.md` files in `Book 4/Chapters/`. If anything disagrees, **last played table beat wins**.
 
 ---
 
@@ -37,7 +76,7 @@
 - **March / Lady** — sympathy pings, trophy, grease on blade: **sensations or intel** only when the scene **earns** them (never “because the JSON said so”).
 
 **Ashmere 33 default scene (historical — Ch17 table):** Bracken **IC** pays **Pair A** verbal (see Beat 8b). **Jostin addendum / Coalition eyes-only routing** pays **only** if Kenji **asks** in that office beat — else stays shelf. **Brynn avoidance / Lady pings** stay shelf until played. **Do not** default a “Taryn nondelivery courier” — her intake beat is **closed**.  
-**Current anchor (post–Ch18):** Kenji **left** Thornkeep **Day 256**; **south** shelf threads may **catch up** by **courier** or **rumor** while he is at **Bronzebarrow** / **north relay** — see `north_relay_two_chapter_plan.md`.
+**Current anchor (post–Ch26):** Kenji **left** Thornkeep **Day 256** (Ch17 end); now inside **Kharn-Dural yard tier** Day 261 / Ashmere 39 (Ch26 end). **South** shelf threads may **catch up** by **courier**, **rider**, or **Lady contact channel** — see `north_relay_two_chapter_plan.md` for active arc.
 
 **If it’s urgent,** an NPC **shows up** — silence is a **choice**, not a default.
 
@@ -79,15 +118,15 @@
 
 ---
 
-## 2. Clocks (DM — Ashmere 33 baseline)
+## 2. Clocks (DM — updated Ashmere 39 / Day 261)
 
 | Clock | Estimate | Note |
 |--------|-----------|------|
-| **Still Night / March peak** | **~13 days** from Ashmere 33 morning toward **Hollowmere 15** (recalc if campaign calendar shifts) | Tension, not per-scene countdown. |
-| **Taryn — council review** | **`coalition_seat_review_pending`** (no hard day) — politics after **Ashmere 27** intake | Nondelivery clock **removed** (see §7 retraction). |
-| **Brynn — Lover’s Vigor** | Immune window **Ashmere 28–34** (confirm against `kenji_state.json`) | IP immunity until drop; then **DC 23** viewing rules return. |
-| **Corwyn — report_sword_loss / triage** | **Active**, no hard day | **Oathbreaker** airtime in Thornkeep may **ping** binding net. |
-| **Lady — trophy + grease micro-contact** | Narrative | Scry / sympathy / doctrine **hooks** — not necessarily immediate combat. |
+| **Still Night / March peak** | **~7 days** from Ashmere 39 toward **Hollowmere 15** (recalc if campaign calendar shifts) | Tension, not per-scene countdown. Kenji is north at Kharn — this hits without him unless courier reaches. |
+| **Taryn — council review** | **`coalition_seat_review_pending`** (no hard day) — politics after **Ashmere 27** intake | Nondelivery clock **removed** (see §7 retraction). ~12 days since filing — council speed, not crisis speed. |
+| **Brynn — Lover’s Vigor** | **EXPIRED** — dropped **Ashmere 34 predawn** (confirmed AI_CONTEXT) | Brynn is **not** IP-immune. DC 23 viewing rules active. She has not seen Kenji since he left Thornkeep Day 256. |
+| **Corwyn — report_sword_loss / triage** | **Active**, no hard day | **Oathbreaker** is in Kenji’s BoH inside **Kharn-Dural** — a dwarven forge-authority stronghold. Binding / resonance detection risk elevated. |
+| **Lady — trophy + grease micro-contact** | Narrative | Scry / sympathy / doctrine **hooks** — not necessarily immediate combat. Kenji is deep inside a mountain — contact channels may differ. |
 
 ---
 
@@ -97,43 +136,36 @@
 
 ---
 
-## 4. Beat ladder — **current needle** (Ch17 → Ch18–19)
+## 4. Beat ladder — **shelf status** (Ch17 played → Kenji left south spine Ch18)
 
-### Beat 8 — *Closed door truth*
+*Kenji left Thornkeep Day 256 / Ashmere 34 (Ch17 end). Beats 8–12 below are **historical structure** from when this arc was primary. Some beats were partially played in Ch17; others remain **unpaid shelf threads** that activate if Kenji returns south or if NPCs deliver by courier/rider.*
 
-- **Fixed:** **Bracken** has **witnessed** stolen **dual-bound** greatsword; **Jostin** + **Brynn** outside; **clone** + **sergeant** unresolved downstairs.  
-- **Open:** Full south report vs **minimal** confession; whether Kenji **surrenders blade** for Coalition seal-room custody **temporarily**.  
-- **Stop:** Player owns Kenji’s words — DM does not put lines in his mouth.
+### Beat 8 — *Closed door truth* — **PARTIALLY PLAYED (Ch17)**
 
-### Beat 8b — *Border read (player-initiated)*
+- **Played:** Bracken office border brief; Pair A verbal; quarters overnight; Kenji Stealth egress north gate ~09:00 Day 256.
+- **Unpaid:** Full south report vs minimal confession — Kenji **left** before completing the debrief. Oathbreaker custody question **unresolved** at Thornkeep level (blade is in BoH, now inside Kharn-Dural).
 
-- **Fixed:** Kenji **left the Waystation** and **asked Bracken** for **south cordon / border status** — first **IC** payout of **Pair A** runner intel (§0).  
-- **Open:** Whether he **also** asks about **internal sword paperwork** in the same beat (if yes → voice-only summary; if no → remains DM_ONLY shelf).  
-- **Stop:** She is **LG institution** — helpful on facts he asked for; not his omniscient narrator.
+### Beat 8b — *Border read* — **PLAYED (Ch17)**
 
-### Beat 9 — *Smoke and paperwork*
+- **Played:** Kenji asked Bracken for south cordon / border status. Pair A runners back — quiet band, inconclusive.
 
-- **Fixed:** **Smoke-clone** is a **discipline** problem and an **intel** problem.  
-- **Open:** Bracken **covers** for sergeant vs **makes example**; clone **dismissed** vs **interrogated** (it will not talk well).  
-- **Stop:** If a **charge sheet** starts, run it **LG-fair** — boring on purpose.
+### Beat 9 — *Smoke and paperwork* — **SHELF**
 
-### Beat 10 — *Council ripple (background or foreground)*
+- Smoke-clone discipline problem at Thornkeep — **not resolved before Kenji left**. Bracken may process this without him. Shelf until courier or return.
 
-- **Fixed:** **Taryn** intake **resolved Ashmere 27** — packet **in** Ashenmere clerk stack (see **§7**).  
-- **Open:** **Council** reaction / summons / Vess-adjacent correlation — **optional**; not forced by “nondelivery.” **One** complication before Ashmere 40 if you foreground politics, not three.  
-- **Stop:** Do not resolve entire Coalition politics in one office scene.
+### Beat 10 — *Council ripple* — **SHELF → feeds `ashenmere_council_pressure_arc.md`**
 
-### Beat 11 — *March echo (optional same-session sting)*
+- Taryn intake resolved Ashmere 27. Council review clock ticking (~12 days since filing as of Ashmere 39). One complication before Ashmere 45 if you foreground politics. See `ashenmere_council_pressure_arc.md` for the full political layer.
 
-- **Fixed:** Lady holds **trophy**, **name strings**, possible **binding** read on **Oathbreaker** exposure.  
-- **Open:** **Thrall bird**, **root sigil**, **dream pressure**, or **nothing yet** — pick tone.  
-- **Stop:** If you sting, **end beat** on **dread**, not fight — save boss energy.
+### Beat 11 — *March echo* — **SHELF**
 
-### Beat 12 — *Exit to next arc file*
+- Lady holds trophy, name strings, possible binding read on Oathbreaker exposure. Kenji is inside a mountain — Lady contact channels may differ (dream pressure, root network reach vs stone). Save boss energy for when this arc reactivates.
 
-- **Coalition-heavy:** draft `arcs/ashenmere_council_pressure_arc.md` (politics, summons, Taryn).  
-- **March-heavy:** keep this file; update **injection** to **south** coordinates again.  
-- Always bump **`fraying_empire_chapter_18.md` / `19.md`** predictive stubs when predictions change.
+### Beat 12 — *Exit to next arc file* — **EXECUTED**
+
+- **Coalition-heavy path taken:** `arcs/ashenmere_council_pressure_arc.md` drafted (politics, summons, Taryn).
+- **North relay path taken:** `arcs/north_relay_two_chapter_plan.md` is active primary (Kharn-Dural interior, Hollowing, Mursha/Tamsin).
+- This file remains **shelf reference** for south threads.
 
 ---
 
@@ -147,13 +179,17 @@
 
 ---
 
-## 6. Injection snippet (Ashmere 33 — Thornkeep garrison)
+## 6. Injection snippet (SHELF — Ashmere 39 / Day 261)
 
 ```text
-ACTIVE ARC: pallid_march_south_push (file: arcs/pallid_march_south_push_arc.md)
-ZONE: Thornkeep garrison — Bracken office (border status request).
-NOW: Ashmere 33 ~08:00 Day 255 — Kenji masked, came from Waystation; asks for **south cordon / border** read. Last LR was Ashmere 32 dawn; no second LR end Ashmere 32.
-TASK: Bracken answers **LG-clean**: Pair A riders back — quiet band, ash drift normal, **no new column sigils**; inconclusive vs his taunt; watchers stay spun up. Offer **one** optional detail if he asks (paperwork stub, Millhaven pouch lag) — not a data dump. §0: nothing assumed already known.
+SHELF ARC: pallid_march_south_push (file: arcs/pallid_march_south_push_arc.md)
+STATUS: Kenji is NOT on this arc's camera. He is inside Kharn-Dural (north relay primary).
+LAST SOUTH CONTACT: Ashmere 34 / Day 256 — Kenji left Thornkeep north gate ~09:00.
+UNPAID THREADS: Oathbreaker custody paper (Bracken level), smoke-clone discipline, 
+  Pair A verification (quiet/inconclusive), Lady trophy + binding pings, 
+  Brynn avoidance (vigor expired Ashmere 34), council review clock (~12 days since Taryn filing).
+REACTIVATION: When Kenji returns south, a courier/rider delivers south intel to Kharn,
+  or the Lady's contact reaches inside the mountain. Update injection to match coordinates.
 ```
 
-When Kenji **leaves** Thornkeep or **re-enters** the March, **rewrite the injection block** to match coordinates and retire stale mile-15.5 snippets from active play.
+When Kenji **returns south** or **south threads catch up by courier**, **rewrite the injection block** to match coordinates and promote this file from shelf to active.

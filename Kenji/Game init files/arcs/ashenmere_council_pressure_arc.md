@@ -10,6 +10,42 @@
 - OR Kenji travels to Ashenmere City for any reason
 - OR the table promotes this arc explicitly
 
+**Arc standard:** `ARC_STANDARD.md` — clarity block below is the **spine**; §1–3 remain beat detail.
+
+---
+
+## Arc clarity (gold standard)
+
+### Core problem
+
+**Coalition** **institutions** must **digest** **abnormal** **field** **events** (**relay** **blackout**, **Lady** **contact**, **Oathbreaker** **custody**, **death-knight** **duel**) **without** a **stable** **identity** **frame** for **the** **ronin** who **generated** **most** **of** **the** **signal**. **Paper** **outruns** **truth**; **council** **math** **outruns** **Thornkeep’s** **patience**.
+
+### If unresolved — regional effect
+
+**Wrong** **troop** **commits** **(too** **few** **/ too** **many** **/ wrong** **vector)**; **bad** **law** **or** **seizure** **precedents**; **Vess**-level **recognition** **crisis** **if** **“ArchMagus”** **ghost** **hits** **open** **chamber**; **faction** **wins** **from** **paranoia** (**contracts**, **emergency** **tithes**, **purges**). **Stakes** are **political** **and** **economic**, **not** **only** **undead**.
+
+### Optional: link to campaign threat layer
+
+**Threat 2** **(March)** **and** **Threat** **3** **(Red** **Court)** **can** **accelerate** **if** **council** **misreads** **the** **south**—**this** **arc** **is** **not** **the** **Hollowing** **unless** **you** **explicitly** **tie** **a** **brief** **to** **Kharn**.
+
+### NPC stances (plot-driving characters)
+
+| NPC | How they state the problem | Their action (what they do) | Outcome they want |
+|-----|----------------------------|-----------------------------|-------------------|
+| **Renna Bracken** | **My** **garrison** **is** **holding** **a** **war** **with** **a** **post** **office** **attached**. | **Filters** **dispatches**; **shields** **or** **sacrifices** **assets**; **summarizes** **for** **Ashenmere**. | **Thornkeep** **stands**; **she** **isn’t** **the** **name** **on** **a** **failure** **memorial**. |
+| **Jostin** | **The** **chain** **needs** **a** **story** **that** **won’t** **get** **me** **court-martialed**. | **Files** **reports**; **professional** **wording**; **omits** **or** **softens** **what** **he** **must**. | **Signed** **orders** **that** **match** **reality** **enough** **to** **sleep**. |
+| **Vess** | **Someone** **is** **moving** **pieces** **I** **thought** **I** **owned**. | **Council** **agenda**; **recognition** **plays**; **protect** **or** **expose** **Kenji** **per** **power** **calculus**. | **Coalition** **stable** **under** **her** **hand**; **Kenji** **never** **a** **loose** **crown**. |
+| **Taryn** | **Proof-of-capability** **has** **to** **become** **seat** **at** **table** **or** **it’s** **just** **gossip**. | **Commission** **packet**; **career** **bet** **on** **council** **review**. | **5k** **pending** **and** **name** **that** **means** **something**—not **a** **filed** **and** **forgotten** **packet**. |
+| **Panic** **merchant** **/** **emergency** **vendor** | **Fear** **is** **the** **most** **reliable** **import**. | **Lobby** **for** **restrictions** **that** **favor** **their** **cartel**; **sell** **“security”** **packages**. | **Prolonged** **crisis** **margin**—**clean** **resolution** **hurts** **the** **bottom** **line**. |
+
+### PC / party hook
+
+Kenji **generated** **the** **intel** **and** **the** **risk** **before** **walking** **north**; **paper** **chases** **him** **by** **courier** **or** **summons** **when** **this** **arc** **activates**.
+
+### Dramatic irony or secrets
+
+**Bracken** **knows** **pieces** **Jostin** **doesn’t**; **council** **may** **know** **Taryn’s** **packet** **before** **Kenji** **knows** **their** **vote**.
+
 ---
 
 ## 1. Arc compass
@@ -38,11 +74,11 @@
 
 ## 3. Beat ladder (expected path)
 
-### Beat 0 — Thornkeep debrief (CURRENT — overlaps south-push arc)
-Bracken processes the Ch14-16 intel. Jostin's report filed. Brynn back in squad rotation. Kenji at the Waystation. The question is what Bracken does with the information — sit on it, dispatch it upward, or act locally.
+### Beat 0 — Thornkeep debrief (PARTIALLY PLAYED Ch17 — Kenji left before completion)
+Bracken processed the Ch14-16 intel in her office beat (Ch17). Jostin's report filed. Brynn back in squad rotation. Kenji left Thornkeep Day 256 / Ashmere 34 **before completing the debrief** — Stealth egress, north gate, no formal goodbye. The question is what Bracken does with the incomplete information — she is LG and a commander, so dispatch is **probable** (estimated Ashmere 35–37), not optional.
 
-**Open fields:** Does Bracken send a dispatch to Ashenmere? Does she confront Kenji about Oathbreaker? Does she ask about the Lady directly?
-**Stop line:** This beat lives in the south-push arc's Ch17-18 territory. It migrates here when Bracken's actions generate council-level consequences.
+**Open fields:** How much of Kenji's identity leaks into the dispatch. Bracken knows him as "Kenji" — the ronin. She does not know he is the ArchMagus. But the dispatch describes a masked swordsman who solo'd a death knight, walked into the Pallid March's command presence, and left with a holy weapon in his bag. That description narrows the candidate list.
+**Stop line:** This beat is **partially played** — it migrates to Beat 1 (Dispatch sent) when the DM decides Bracken has processed enough to escalate.
 
 ### Beat 1 — Dispatch sent
 Bracken's report reaches Ashenmere. The relay blackout, the border shift, the death-knight duel, the custody of a holy weapon — any one of these is council business. All of them together is an emergency session.
@@ -75,15 +111,15 @@ The political consequences of whatever Beat 4 produced. Troop commitments to the
 
 ---
 
-## 4. Clocks
+## 4. Clocks (updated Ashmere 39 / Day 261)
 
 | clock | current | trigger |
 |-------|---------|---------|
-| Taryn letter delivery | **FILED Ashmere 27** (clerk intake) | Live tension = **review / politics**, not “catch-up travel” |
-| Bracken dispatch | NOT YET SENT | Fires when Bracken decides to escalate (Ch17-18 territory) |
-| Council session | **WARMING** | Fires when Bracken dispatch + existing Taryn stack are **read together** (or emergency session called) |
-| Identity exposure | PRESSURE BUILDING | Cumulative — each chapter adds data points (name given to Lady, Oathbreaker in Coalition stone, academy references dropped) |
-| Vess recognition | DORMANT | Fires if ronin description reaches council-level discussion |
+| Taryn letter delivery | **FILED Ashmere 27** — ~12 days in clerk stack as of Ashmere 39 | Live tension = **review / politics**, not “catch-up travel.” Council speed, not crisis speed — but stack is aging. |
+| Bracken dispatch | **PROBABLE** — Kenji left Thornkeep Day 256 without completing debrief. Bracken is LG and a commander; she does not sit on relay blackout + Lady contact + Oathbreaker intel indefinitely. Dispatch likely sent Ashmere 35–37 (DM decides exact timing). | Fires when Bracken decides — the question is not *if* but *when* and *how much detail* about the ronin. |
+| Council session | **WARMING → HOT** if Bracken dispatch + Taryn stack are read together | Two Thornkeep documents describing unusual ronin activity. Combined = correlatable. |
+| Identity exposure | **~42%** (from `north_relay_two_chapter_plan.md` identity pressure tracking) | Cumulative — Lady has his name; Oathbreaker in BoH inside a dwarven forge-authority stronghold; Tamsin (Bond #22) has five data points; forge-sight clerk flagged at Kharn. Bane of Eve trigger zone: 50%. |
+| Vess recognition | DORMANT | Fires if ronin description reaches council-level discussion with enough detail to narrow candidates. |
 
 ---
 
@@ -107,4 +143,4 @@ The political consequences of whatever Beat 4 produced. Troop commitments to the
 
 ## 7. Injection snippet (for AI session context)
 
-> **ASHENMERE COUNCIL ARC (DRAFT — not yet primary):** Taryn’s packet is **already in** the clerk stack (**Ashmere 27**). Bracken's garrison report (relay blackout, Lady contact, Oathbreaker custody, death-knight duel) may still **converge** when dispatched — she is LG and a commander. When **both** threads are read together, the council can correlate **Kenji** + ronin + border anomalies. Vess sits on that council. Identity exposure is graduated, not binary. The political layer runs on dispatch-and-session timescale, not combat timescale. This arc activates when the table foregrounds council-level consequences.
+> **ASHENMERE COUNCIL ARC (DRAFT — not yet primary):** Taryn’s packet has been in the clerk stack **~12 days** (filed **Ashmere 27**; now Ashmere 39). Bracken’s garrison report (relay blackout, Lady contact, Oathbreaker custody, death-knight duel) **likely dispatched** Ashmere 35–37 — she is LG and a commander; she does not sit on war-relevant intel. When **both** threads are read together, the council can correlate **Kenji** + ronin + border anomalies. Vess sits on that council. Identity exposure is graduated, not binary (~42% and climbing per north relay arc tracking). The political layer runs on dispatch-and-session timescale, not combat timescale. Kenji is currently inside **Kharn-Dural** (Day 261) — this arc activates when council consequences reach him by courier/summons, or when he returns to coalition-adjacent space.

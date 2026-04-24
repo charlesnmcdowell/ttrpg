@@ -36,7 +36,7 @@
 | L3 | Speedster | Arcane Stride (150ft), Fast Metabolism (2x healing) |
 | L6 | Demigod | Resistances, Master Summoner, Entropy Echo |
 | L9 | Lover Boy | Pretty Privilege, Attention Whore, Power of Friendship, Emotional Damage |
-| L20 | Bonded Lovers | +1 STR/CON per intimate partner, UNCAPPED via Soul Nexus |
+| L20 | Bonded Lovers | +1 STR/CON per intimate partner, UNCAPPED via Soul Nexus (22 partners = +22/+22) |
 | L21 | Soul Nexus (Mythic) | All partners' abilities simultaneously |
 | L25 | Irresistible Presence | DC 21, female humanoids, escalating |
 | L28 | Irresistible Presence+ | DC 23, cumulative -1/15min, 2x fade |
@@ -358,6 +358,7 @@ Every encounter unique. Names generated fresh. Both can become recurring charact
 | Brynn | Ashmere 27, Thornkeep | Shield-line soldier, Thornkeep garrison | Rearguard Sense / Hold the Line |
 | Mursha | Ashmere 34, Bronzebarrow | Half-orc ex–Iron Mule caravan guard (Bonded #20) | Bloodlust / Power of P |
 | Haldra | Ashmere 36, Bronzebarrow | Dwarf factor clerk, Brass Hitch (Bond #21) | Seal Reader / Verbal Archive |
+| Tamsin Vale | Ashmere 38, Kharn-Dural | Human scribe, coalition letter routing (Bond #22) | Scribe's Eye / Paper Memory |
 
 ---
 

@@ -16,6 +16,8 @@ Five threats have been building while Kenji picked berries and trained bears. Ea
 
 **Kenji hits Level 40 — Apotheosis — during this campaign.** ~230,000 EXP remaining at Ch18 close (sync `kenji_state.json` **exp**). Five threats provide the content. Bane of Eve provides daily supplemental EXP. The cap is the cap. What happens after Level 40 is the epilogue.
 
+**Arc documentation standard:** Active and planned story spines in `Kenji/Game init files/arcs/` follow **`arcs/ARC_STANDARD.md`**. Each arc states **core problem**, **regional stakes if unresolved**, and **plot-driving NPC agendas** (including actors who **profit from a bad outcome**). Not every arc ties back to the Hollowing; when a bible threat applies, link it **once** instead of duplicating encyclopedic lore.
+
 ---
 
 ## THE KINGDOM — WHAT KENJI LEFT BEHIND
@@ -72,6 +74,8 @@ The dwarves sealed the breach with everything they had — mythril gates, runic 
 **King Thorgrim Ironvault** — Level 22 Runesmith. Ruler of Kharn-Dural. Eight hundred years old. He's the one who ordered the dig. He's the one who broke the floor. He carries that weight like a crown made of guilt. He sent emissaries to every surface nation requesting aid. Most ignored him — dwarven problems stay underground. The coalition received his letter. Vess filed it. Garrett flagged it. Nobody acted because nobody was authorized to commit resources without the ArchMagus.
 
 **The threat:** If the seal breaks, The Fathom rises. It doesn't conquer — it unmakes. The undermountain collapses. 40,000 dwarves die or flee to the surface. The Fathom spreads through the tunnel network — and Kharn-Dural's tunnels connect to the Ashward Mine system. The corruption reaches coalition territory within weeks.
+
+**Book 4 table layer (Kharn — player-facing):** On the surface of the mountain, the crisis presents as a **volatile master forge** in the **deep works**: accidents escalating, **quarantine**, **economic shock** (metalware prices surge), **rumor suppression** with harsh penalties, and **Iron Mule / factor** muscle called north—while **banditry** still torches trains (**western cut**). Kenji enters via **Mursha** (buyout, bond) and **survivor beats**, then gains **classified** forge picture through **paid intel + leverage** (e.g. **Haldra tube**, **Tamsin** escrow—see `arcs/north_relay_two_chapter_plan.md` § **Kharn forge crisis — authoritative table spine**). **Mursha’s motive** includes **forcing the quarantine truth**, not only escort duty. **Oathbreaker** and Kenji’s deeper inventory tie into the **same death–creation artifact web** as southern undead arcs—often **before Kenji understands what he carries**. Revelation should land **at** the forge or **after** loss/confiscation; either path advances **Threat 1**.
 
 **What Kenji can do:** The Fathom is a ley-entity — it exists in the space between ley lines. Ember magic (creation energy) is its antithesis. Kenji can reinforce the seal, but only if he uses the ember. Which means breaking his cover. Alternatively, Amaris's Bloom Purge might stabilize the ley lines feeding the prison — buying decades instead of months. But she'd need to go two miles underground into a dwarven mountain.
 
