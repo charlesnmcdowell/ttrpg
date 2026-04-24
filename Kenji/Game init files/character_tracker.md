@@ -70,6 +70,18 @@ Kenji is undercover. **Arcane and Ember abilities are deliberately off the table
     - **Chiburi-first** — flick of the blade to shed blood before sheathing. Full sheathe. Resets Iaido Stance. Cosmetic — tells witnesses he's done.
     - **Half-sheathe hold** — tip into the mouth of the scabbard, thumb on guard, blade mostly exposed. **Does NOT reset Iaido Stance.** Reads as "still dangerous" to anyone paying attention. Used to bluff, load, or keep options open.
     - **Reverse / left-hand sheathe** — off-hand sheathe. Full sheathe (resets stance), awkward on purpose, used to sell off-balance or occupied-hand.
+- **Jeet Kune Do Stance** — alternate unarmed fighting style. Kenji drops his weapon, removes upper armor, and fights Bruce Lee–style: hopping footwork, showboating sounds (*wataaah*, *waaaah*), nose-rub taunts. **Cannot be used simultaneously with Iaido — this is a stance swap (weapon down, fists up).**
+  - **Unarmed attacks count as weapons:** **4d8 bludgeoning** per strike. STR-based: **+23 to hit** (+16 STR, +7 prof).
+  - **All attacks are non-lethal.**
+  - **4 attacks per round:** 3 kicks, 1 punch.
+  - **Kick** — chance to **knock prone** (target DEX or CON save vs DC 23).
+  - **Punch** — chance to **stun** (target CON + STR save vs DC 23).
+  - **KO Threshold:** Any landed hit on a target below **25% HP** forces a save or **knockout**.
+  - **Counter Punches:** **2 per enemy round**, proc on enemy hit **or** miss. Each has a chance to **stun** (target STR or CON save vs DC 23). **Stun ends the enemy's round.**
+  - **Performance Check 1 (start of round):** If passed → **Spirit Aura** active until next turn. All attacks deal an additional **15% of target's max HP as spirit damage**. Does not affect constructs.
+  - **Performance Check 2 (end of round):** If passed → enemy gets **disadvantage on attacks** and Kenji gains **75% dodge chance** during the enemy's next turn.
+  - **Grapple:** Cannot initiate grapple in this stance. All enemy grapples on Kenji have a **75% chance of being broken** on the next round.
+  - **Style tax:** Same showman energy as Iaido — the performance IS the fighting. Witnesses see a shirtless martial artist bouncing on his toes, making Bruce Lee sounds, and putting opponents on the floor with kicks that crack the air. It reads as eccentric wandering fighter, not ArchMagus.
 - **Steel Sight** (Taryn bond) — Reads weapon quality and flaws at a glance. Passive, no tell.
 - **Windstrider Boots** — silent, trackless, +2 DEX, +5 Acrobatics, 20% dodge.
 - **Threadwalker Gloves** — +3 DEX.
