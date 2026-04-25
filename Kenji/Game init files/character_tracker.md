@@ -1,8 +1,8 @@
 # Character Tracker — Kenji TTRPG
 
-**Current In-Game Date:** Ashmere **40** morning, 1247 AR — **Day** **262** **~07:30** — **Milepost** **Crown** **Rest** **(**crown** **relay** **waystation** **)**  
-**Current Location:** **Kenji** **—** **luxury** **suite** **post**-**LR** **(**ley**-**steam** **bath**, **fine** **dining** **beat** **complete**)**; **paid** **−40** **GP** **−10** **SP** **approx** **(**sync** **`kenji_state.json`** **1395** **GP** **/** **181** **SP** **)**. **Wind** **Step** **5/5**; **Smoke-Invis-Clone** **3/3**; **Iaido** **1/1**. **Mursha** **—** **still** **Kharn** **witness**-**engineer** **on** **closure**. **Relay** **breach** **/** **ronin** **luxury** **gossip** **risk**. **Carry Ch32:** **next** **move** **off** **inn** **ledger**; **coalition** **/** **Kharn** **pings**; **traveler** **BoH** **bomb**; **veiled** **gallery**. **Spine:** `arcs/north_relay_two_chapter_plan.md` § **Kharn forge crisis**.
-**BOOK 4 — Ch32 OPEN** — `fraying_empire_chapter_32.md` (**Waystation** **Recovery**). **Ch31** **COMPLETE** — `fraying_empire_chapter_31.md` (**Two** **Weeks** **and** **a** **Green** **Door**). **Ch30** — `fraying_empire_chapter_30.md` (**Trapped** **With** **Me**). **Threat** **1** **Hollowing** — **seam** **pinned**, **not** **closed**.
+**Current In-Game Date:** Ashmere **47** dawn, 1247 AR — **Day** **269** **~06:00** — **Pallid March** **(**Nyx's castle, great hall**)**  
+**Current Location:** **Kenji** **—** **Pallid March**, **Nyx's castle**, **great hall** — **sitting in the queen's chair**. **ANKU NYX EMERGED.** **Green aura** (permanent). **Green eyes** (no longer hazel). **Soul Conqueror** unlocked (Nyx bond #23). Vigor 1–7 stacks reflected into Kenji's stats. Ember burns creation + death-dominion spectrum. Root network reads Kenji as **authorized**. Nyx **asleep** (Vigor 7 metabolizing). Corwyn at door. **Mursha** **—** **still** **Kharn** **witness-engineer**. **Purse** **1395 GP / 181 SP**. **HP recovering** (regen full); **Wind Step 5/5**; **Smoke-Invis-Clone 3/3**; **Iaido 1/1**.
+**BOOK 4 — Ch34 COMPLETE** — `fraying_empire_chapter_34.md` (**Seven Days**). **Ch33** — `fraying_empire_chapter_33.md` (**Anku Nyx**). **Ch32** — `fraying_empire_chapter_32.md` (**Waystation Recovery**). **Threat 1 Hollowing** — **seam pinned, not closed**. **Threat 2 Pallid March** — **ALLIED; March impregnable (Vigor-enhanced undead); 612 anchors prostrate**.
 **Active Book:** Book 4 — Fraying Empire (The Ronin Arc)
 
 > **Cross-references:** **Arc clarity (core problem, regional stakes, NPC agendas)** → `arcs/ARC_STANDARD.md` (Kharn example: `arcs/north_relay_two_chapter_plan.md` § *Kharn forge crisis*) | DM behavior rules → `dm_rules_tracking.md` (**MIA PROTOCOL** + **🎯 ALIVE / IN-PLAY NPC — GOAL INVARIANT** + **Scene skill preroll** + **Player success integrity**: roll before outcome-dependent prose; PC success = player-favorable beat; no NPC Perception auto-win / no “gotcha” undo) | Game engine & mechanics → `ttrpg_game_engine.py` (`skill_roll`, `contested_skill`, `build_skill_modifier`, CLI `skill`) | Live state → `kenji_state.json` | Cursor agent rule → repo `.cursor/rules/kenji-scene-skill-gates.mdc`
@@ -33,8 +33,8 @@ Every character entry includes a **Morale Compass** value. Use it to decide how 
 
 **Status:** alive
 **Level:** 35
-**Location:** **Milepost** **Crown** **Rest** **—** **luxury** **suite**, **Ashmere** **40** **morning** **Day** **262** **(**post**-**Ch31** **portal** **+** **LR** **)**. **HP 368/368** **(**table**)**; **Wind Step 5/5**; **Smoke-Invis-Clone 3/3**; **Iaido 1/1**. **Purse ~1395 GP, 181 SP** (`kenji_state.json`).
-**Last Updated:** Ashmere **40** / Day **262** — **Ch32** *Waystation recovery* **(**inn** **beat** **)*
+**Location:** **Pallid March** **—** **Nyx's castle, great hall (queen's chair)**, **Ashmere** **47** **dawn** **Day** **269** **~06:00**. **ANKU NYX EMERGED.** Green aura + green eyes (permanent). Soul Conqueror (Nyx bond #23). Vigor 7 reflected. Nyx asleep. **HP recovering** (was 10%, regen restoring); **Wind Step 5/5**; **Smoke-Invis-Clone 3/3**; **Iaido 1/1**. **Purse ~1395 GP, 181 SP** (`kenji_state.json`).
+**Last Updated:** Ashmere **47** / Day **269** — **Ch34** *Seven Days* **(**Vigor 7 / Soul Conqueror / Anku Nyx emergence**)**
 
 **Physical:** `npc_appearance.md` § **Kenji — Ronin / Blade Channeler**
 **Disposition:** N/A (protagonist)
@@ -117,6 +117,39 @@ Kenji is undercover. **Arcane and Ember abilities are deliberately off the table
 **Important Gear:** Abyssal Shard Nodachi (red-black steel, 25% vaporize on hit), Windstrider boots, Threadwalker gloves, red-and-black hakama (+3 light armor, ward every 2 turns), Emberfang (creation sword — left behind/stored), Frost Fang (entropy sword — summonable, Solveth lives here), Bag of Holding, Iron Key (pulls SSW — 2-century binding, feeder ley-node, sealed terminator), Hollow Crown → Circuit Bracelet (Book 2 endgame), mask, ronin garb, enchanted underclothes
 
 **Gold:** ~1385 GP / 191 SP (Ch22 −8 GP parlor; +500 GP haul + suite costs prior; sync `kenji_state.json` on next agent pass)
+
+### ANKU NYX — Personality Mode (Ch34+, conditional)
+
+**Condition:** Active **as long as Lady Nyx remains in Kenji's Soul Nexus** (Bond #23). If the bond is ever severed — Nyx dies, betrays past the point of no return, or is somehow removed from the Nexus — Anku Nyx reverts. The green fades. The hazel returns. The tattoos go dark. Until then, this is what he looks like and how he carries himself.
+
+**What changed (Ch34 — Seven Days):** Seven days inside Close to Death with a Living Lich. Vigor stacked 1→7 (geometric, unprecedented — the system was designed for a single application). Soul Conqueror unlocked — all seven Vigor stacks reflected back through the Nexus into Kenji's own stats. The creation ember that has always burned behind his ribs met death-dominion energy and fused into a new spectrum. The root network — Nyx's 612-anchor territorial system — read the fusion and granted authorization. What walked out of that castle is not the Ronin. It is not the ArchMagus. It is something adjacent to both.
+
+**Why this is a separate personality:** The Ronin was a disguise — deliberately trimmed, deliberately small, designed to hide the ArchMagus. Anku Nyx is not a disguise. It is what Kenji became when he stopped hiding from one specific thing. The Ronin sheathes his blade and plays the wandering swordsman. Anku Nyx stands in a dead woman's throne room with green light pouring off his skin and does not pretend to be anything other than what he is. The combat style is the same (iaido, JKD, nodachi). The attitude is not.
+
+**Visual — ANKU NYX FORM:**
+
+- **Eyes:** Green. Luminous, glowing, faintly sinister. **No longer hazel.** Permanent. Not Vigor teal — not the temporary cyan-green shift that partners get. This is a new color: deep green with inner light, the same spectrum as the aura. The eyes of someone who spent seven days inside death and came out the other side still breathing.
+- **Aura:** Green. Permanent ambient glow — visible in low light, faint in daylight but present. Not the gold-green of the ember (creation). Not the teal of Vigor (temporary buff). A new spectrum: **creation + death-dominion fusion.** The ember still burns behind his ribs, but it burns in two spectrums now. The green is the death-dominion half made visible.
+- **Chest Sigil:** A glowing green runic mark centered on the sternum — vertical, angular, sharp-lined. Pulses faintly with heartbeat. This is the Soul Conqueror anchor point — where the Nexus bond to Nyx physically manifests on his body. **Holds a dim green glow even at rest** — the core never fully goes dark. Visible whenever his chest is exposed (shirtless, open vest, JKD stance).
+- **Dragon (back):** Large dragon-demon-god spanning shoulder blades from nape to waist — surfaced during the last hour of Day 7. Green eye, purple outline glow, intricate scale work. Tail wraps around left side to ribs. Head faces forward over right shoulder with an expression of *attention*. The visual signature of Anku Nyx — the way the runic lines are Nyx's, the dragon is Kenji's. Dark dormant linework at rest; green eye and purple outline glow when active.
+- **Body Markings:** Arcane symbol tattoos across chest, arms, and back — **did not exist before Day 1 of Ch34.** They surfaced during the seven days as the physical record of the bond: faint dark linework appearing Day 5, spreading across chest and arms Day 6, the dragon completing on Day 7. Not ink — the bond wrote them into the skin between cycles of destruction and repair. Dark dormant linework when inactive; **ignite green when power flows** (combat, aura surge, emotional intensity). Functional cue: glowing tattoos = he's drawing on it. Brightest at the wrists, hands, and chest sigil. Dimmer along the arms and back. The effect is subdermal — light beneath the skin, not on it.
+- **Build:** Massive. STR 43 reads on his frame now — broad shoulders, heavy arms, the physique of someone who hits with the force of a siege engine. The Ronin looked lean and precise. Anku Nyx looks like a weapon someone forgot to sheathe.
+- **Hair:** Purple dreads unchanged — long, braided, falling past mid-back. Three with iron beads, one with Deepwood bramble-clasp. The green glow catches in them when it pulses.
+- **Skin:** Dark. Deep warm brown, unchanged. The green markings sit beneath it, not on top of it.
+- **Gear (default stance):** Shirtless or dark sleeveless haori (open, sigil visible — haori comes off when things start). Black hakama (same +3 light armor). Simple martial-arts shoes. Nodachi carried by choice, not default — across the back when announcing himself, sheathed at the hip when talking. No mask. No ronin hat. **Anku Nyx does not hide his face.** The mask was the Ronin's. This version of Kenji does not wear it unless there is a tactical reason — and even then, the green eyes glow through.
+- **Gear (combat):** Iaido stance or JKD stance — same combat mechanics as Ronin Mode. The green energy does not add mechanical damage (Soul Conqueror's stat reflection is already baked into the numbers). The visual difference is cosmetic but dramatic — every strike trails faint green light, every counter-punch pulses at the knuckles, the iaido draw leaves a green afterimage in the air.
+
+**Personality shift:**
+
+- **The Ronin** played small, played funny, played the wandering nobody. Showman's Sheathe, Bruce Lee sounds, the annoying grin behind the mask. That energy is still there — Kenji is still Kenji. He still makes the sounds. He still does the nose-rub taunt. He still sheathes the blade mid-fight to prove a point.
+- **Anku Nyx** adds weight to the comedy. The man making *wataaah* sounds is also glowing green with death-dominion energy and has a sigil on his chest that reads "I survived something you cannot name." The humor lands differently when the person delivering it looks like a final boss. Witnesses don't know whether to laugh or run.
+- **Title usage:** Kenji introduced "Anku Nyx" as his title to Nyx specifically — it means "I am your other half, and we do not die." He may or may not use it publicly. The title is a relationship marker, not a rank. But anyone who sees this version of Kenji and later hears the name "Anku Nyx" will connect the two instantly. The green is a signature.
+
+**Cover implications:**
+
+- **The Ronin disguise is compromised.** Green eyes + green aura + green body markings are not something hundreds of wandering blades share. The Ronin was anonymous because he looked generic. Anku Nyx is the opposite — unmistakable, unique, instantly memorable. Anyone who sees this version of Kenji and later encounters a description of the ArchMagus will have a data point that did not exist before.
+- **The mask is optional now, not habitual.** The Ronin wore the mask to hide. Anku Nyx does not default to hiding. This is a behavioral shift, not a mechanical one — Kenji can still put the mask on, but the instinct to hide is weaker after seven days of being fully seen by someone who could have killed him at any moment and chose not to.
+- **New tell for identity trackers:** "Green-eyed swordsman with purple dreads and glowing marks" is a description that narrows the field from hundreds to one. Bane of Eve pressure escalates if this version of Kenji is seen in public.
 
 ### Active Goals
 
@@ -240,7 +273,37 @@ Relay-town inn cast; names from `npc_name_bank.md`. Full coloring → `npc_appea
 - **Long rest** — spell slots full, HP 368/368, Wind Step 5/5, Smoke-Invis-Clone 3/3, Iaido 1/1.
 - **End:** ~07:30 Ashmere 40 — rested; gossip/recognition risk at waystation; relay may catch up.
 
-**Cross-ref:** `arcs/north_relay_two_chapter_plan.md` — north fork spine + **§ Canon played — Ch18–Ch32** (prose Ch22–32 in `Book 4/Chapters/`).
+**Cross-ref:** `arcs/north_relay_two_chapter_plan.md` — north fork spine + **§ Canon played — Ch18–Ch33** (prose Ch22–33 in `Book 4/Chapters/`).
+
+### Ch33 played (Ashmere 40 mid-morning → late morning, Day 262 — prose `fraying_empire_chapter_33.md`)
+
+- **Portal to Pallid March** — Kenji portals from Crown Rest area to undead territory relay point; walks the last 3 miles. Living Ground reads terrain shift at perimeter border.
+- **Lady Nyx audience** — human form in dead village square. Corwyn present (one arm, no Oathbreaker). Conversation: Hollowing = appetite not wound (Nyx confirms via root network); Kharn rift is hunger, not structural; dwarves treating symptom wrong. Nyx cannot close it either.
+- **Name reveal** — disposition gate met (neutral+). Nyx speaks true name: "Nyx." First living person to hear it in centuries.
+- **Solveth relay** — Kenji pushes Hollowing intel to Mursha via Frost Fang bond (thin connection, impression not transcript).
+- **JKD combat spar** — Kenji drops nodachi, removes hakama top, challenges Nyx unarmed. **Round 1:** Performance 30 vs DC 18 PASS (Spirit Aura). All 6 strikes hit. Kick 3 knocks prone (DEX 22 vs 23 FAIL). Nyx at 238/720 HP. KO save 23 vs 23 — holds by zero. **Round 2:** Kenji showboats only (no attacks). Performance 20 + 23 vs DC 18 PASS/PASS. Nyx attacks into disadv + 75% dodge — 1 of 3 lands (22 necrotic, healed by regen). Counter 1 stuns (CON 15 vs 23 FAIL). Counter 2 triggers KO save: 14 vs 23 FAIL. **Nyx knocked out in 2 rounds.**
+- **Diagnostic Touch readout** — Kenji reads Nyx's biology through combat contact: 1% metabolism, 11-sec heartbeat, reinforced bone density, zero cellular turnover, ley-pool IS circulatory system, anchor structure behind heart (phylactery-equivalent terminus), 4th cable frayed/parasitized.
+- **Five kingdoms briefing** — Nyx describes regional powers: Coalition (13 portal-cities), Kharn-Dural (dwarves), Iron Horde (orcs, ~60K, Gorath), Red Court (vampires, institutional), Twin Wyrms (sleeping, southern range).
+- **Alliance proposal** — Kenji proposes: mate/partner, advisor role, title "Anku Nyx," Corwyn rebuilds village for living, March does not expand. Nyx counters with 3 conditions: (1) Corwyn's chain is hers, (2) March holds for now not forever, (3) eye contact during intimacy. Kenji accepts. Declares: "Call me Anku Nyx, we do not die."
+- **IP tracking** — 6 saves across ~75 min viewing. Saves 1-3 PASS. Save 4 (45 min, −3): d20=5, FAIL → Stack 1. Save 5 (60 min, −4): **NAT 1**, FAIL → Stack 2 (Moderate Attraction). Save 6 (75 min, −5): d20=18, PASS. **Nyx at Stack 2 end of chapter.**
+- **End:** Day 262 ~11:00 — Pallid March, Nyx's dead village square. Alliance terms set. Intimacy pending (Close to Death math favors survival). HP 368/368. EXP 2,270,050. Purse 1395 GP / 181 SP. All charges at LR values.
+
+### Ch34 played (Ashmere 40 late morning → Ashmere 47 dawn, Day 262→269 — prose `fraying_empire_chapter_34.md`)
+
+- **Seven Days** — Kenji and Nyx to her chamber. Corwyn guards door for 7 days straight.
+- **Close to Death survived** — regen 61 HP/sec vs 3.68 HP/sec drain. First survival in setting history. Kenji never lost consciousness.
+- **Vigor stacking 1→7** — unprecedented. Sustained intimacy prevented Vigor expiration. Geometric multiplication each day. By Day 7, Nyx operating at god-tier stats. Castle structurally damaged. 612 undead prostrated by signal overflow. Root network transmitted resonance across full 32-mile perimeter.
+- **Kenji HP** dropped to ~10% (36/368) on Day 7 — not from Close to Death (irrelevant to regen) but from physical output with Vigor 7-enhanced partner. Regen recovering.
+- **Nyx breaks first** — final climax overloads her vessel. Teal shockwave flattens dead trees at perimeter edge. Falls into deep sleep (real sleep, not stasis). Vigor 7 metabolizing.
+- **ANKU NYX EMERGED** — Kenji transformation post-7-day contact:
+  - **Green aura** (permanent) — creation + death-dominion fusion. Not gold-green (ember), not teal (Vigor). New spectrum.
+  - **Green eyes** (permanent) — no longer hazel. Luminous, sinister, glowing.
+  - **Ember evolved** — now burns in two spectrums (creation + death-dominion). Not Apotheosis. Something adjacent.
+  - **Soul Conqueror** (Nyx Soul Nexus bond #23) — all 7 Vigor stacks reflected into Kenji's own stats via Nexus. Permanent integration.
+  - **Root network authorization** — Pallid March territorial system recognizes Kenji's signature.
+- **Corwyn** — 7 days at the door. On his knees by Day 7. Unbroken. Heartbroken. Recognizes the shift.
+- **Nyx now Bonded Partner #23** — Unsatisfiable applied (permanent). IP-immune via Vigor (extended duration given Vigor 7). Close to Death contagion no longer a threat to Kenji.
+- **End:** Day 269 ~06:00 dawn — Nyx's castle great hall; Kenji in queen's chair; green aura; green eyes; HP recovering; Nyx asleep in chamber; Corwyn at door. EXP 2,270,050. Purse 1395 GP / 181 SP.
 
 ### KORRIM STONEUNDER — Elder bench authority, Kharn-Dural (Ch28–31)
 
@@ -488,9 +551,9 @@ Relay-town inn cast; names from `npc_name_bank.md`. Full coloring → `npc_appea
 - The true name "Lady Nyx" is a reveal beat gated behind Kenji's disposition. Save it.
 
 **Status:** alive (ley-suspended, metabolism 1%)
-**Met:** yes — **Ashmere 29–30**, Pallid March **forward / inner cordon** (human-form **the Lady**: meal, bath short of intercourse, guest chamber LR; **Seren** mask-name spoken under pressure; Ch16 leak + **bronze trophy** gifted). Kenji does **not** have the **gated true name** (`Lady Nyx` rules unchanged).
-**Location:** Pallid March **power center** (root-court / cordon; exact locus narrated in Ch15–16)
-**Last Updated:** Ashmere 33 (goal invariant — added operational March / binding rows)
+**Met:** yes — **Ashmere 29–30** (Ch15–16, human-form the Lady: meal, bath short of intercourse, guest chamber LR; Seren mask-name; bronze trophy). **Ashmere 40** (Ch33, human-form: Hollowing briefing, **true name revealed** ("Nyx"), JKD spar, alliance). **Ashmere 40–47** (Ch34, **Seven Days**: 7-day intimacy, Close to Death survived, Vigor 1–7 stacked, bonded partner #23, Kenji emerged as Anku Nyx).
+**Location:** Pallid March — **castle chamber** (asleep, Vigor 7 metabolizing)
+**Last Updated:** Ashmere **47** / Day **269** — **Ch34** *Seven Days*
 
 **Class:** Living Lich — alive with full dominion over death. Not undead. Real heartbeat, real warmth, real body. Chose this path as a Warden-elect in 1042. Holds a lich's power (undead army, territorial control, phylactery-equivalent) without crossing the threshold into undeath. Can switch between lich form (default) and human form (rare — seduction only).
 
@@ -512,7 +575,7 @@ Relay-town inn cast; names from `npc_name_bank.md`. Full coloring → `npc_appea
 
 **Followers never see the Lady form.** By the time a person is a thrall, the human form has done its work and retired. The Lady is for the living.
 
-**Disposition to Kenji:** **Engaged** — she has **filed** his given name, his appetite, his **unfinished** demands, and his **gift** (bronze trophy). Kenji knows her as **the Lady** in March court; Coalition framing may still say **the Lych** — connection of titles is table-owned.
+**Disposition to Kenji:** **Bonded** — intimate partner #23. 7-day sustained intimacy (Ch34). Close to Death survived — first in setting history. Vigor stacked 1→7 (unprecedented). All 3 conditions fulfilled (Corwyn's chain honored; March holds; eye contact maintained all 7 days). **Unsatisfiable** applied (permanent). IP-immune via Vigor (extended duration). Kenji title **Anku Nyx**. Nyx currently **asleep** (Vigor 7 metabolizing, real sleep not stasis). Will wake *changed*.
 **Morale Compass:** Chaotic Evil — the anchor of this alignment. Conquest, pleasure, and self are the only loyalties. Obeys only under compulsion. Lies, pretends tenderness, flips sides the instant a better throne is on offer. Will love Kenji as a pet and murder him the moment he stops being interesting.
 
 **Abilities:** Ley-pool stasis (breathing every 11 seconds), senses and commands all 612 undead she anchors, high WIS (item-boosted), 1042 Warden-elect binding knowledge, grief-seam creation, form-switching (lich ↔ human, defaults to lich), necromantic dominion (the 612-column, the 32-mile perimeter, the territorial control), living mist grove defense (locks out intruders, grove becomes ordinary trees to unwelcome visitors)
@@ -553,9 +616,10 @@ If Kenji is intimate with Lady Nyx (human form) **and survives Close to Death**,
 | still_night_doctrine | Ashmere 30 | **Hollowmere 15** | Ashmere 30 | **active** | March peaks **Still Night** — she tightens doctrine, spends cordon attention, tests Coalition blind spots while ley-stasis holds. | Border fiction collapses faster after peak if she commits; political panic clocks advance. |
 | trace_oathbreaker_vector | Ashmere 31 | TBD | N/A | **active** | Champion disarmed; **Oathbreaker** off-body — binding net and trophy strings **hunt the gap** toward thief/BoH signature (she may not know it is Kenji). | Increases March-side probes, dreams, or courier-thrall attempts — **play**, not JSON omniscience. |
 | pallid_march_potential | 1042 AR | TBD | TBD | dormant | Long-arc conquest math (5%/20d baseline; 10%/cycle if Vigor ever fires). **Secondary** clock — must not be her *only* operational row. | See Vigor mechanics above. |
-| capture_kenji | N/A | on_first_vigor | N/A | dormant | Activates after first Vigor with Kenji **if** that ever happens. **Secondary.** | Hunt / capture / repeat cycle. |
+| capture_kenji | N/A | on_first_vigor | N/A | **moot** | Was dormant — activates after first Vigor. Ch34: Vigor fired ×7, but alliance conditions override predation. Kenji is bonded partner #23. Capture goal **superseded** by alliance. CE alignment means this could reactivate if alliance fractures. | Hunt / capture / repeat cycle — **SUSPENDED** while alliance holds. |
+| anku_nyx_alliance | Ashmere 40 | ongoing | Ashmere 40 | **active** | Alliance with Kenji (Anku Nyx title). Ch34: intimacy sealed, Close to Death survived, Vigor 1–7 stacked, Soul Conqueror unlocked. All 3 conditions fulfilled. Corwyn rebuilding village. March holds. Nyx is bonded partner #23. | Alliance deepened beyond conditions — Vigor 7 created something unprecedented. Conquest rate available but Nyx agreed to hold March. |
 
-**THE TRAP:** She is the easiest woman in the story to bed — chaotic evil, zero inhibitions, upfront about what she wants, beautiful in human form. But each intimacy event (a) requires Kenji to *survive Close to Death* (1%/sec), (b) triggers a 10% kingdom conquest cycle if he does, and (c) eventually a capture-hunt side plot. The romance path IS the threat path AND the extinction path. Nobody omnisciently connects Kenji to the surge. The player chooses the destruction with full mechanical transparency. **Kenji has met her Lady-form in March cordon (Ch15–16); intercourse did not occur — Close to Death not triggered.** Trap remains **live** for any future intimacy that crosses that line.
+**THE TRAP:** She is the easiest woman in the story to bed — chaotic evil, zero inhibitions, upfront about what she wants, beautiful in human form. But each intimacy event (a) requires Kenji to *survive Close to Death* (1%/sec), (b) triggers a 10% kingdom conquest cycle if he does, and (c) eventually a capture-hunt side plot. The romance path IS the threat path AND the extinction path. Nobody omnisciently connects Kenji to the surge. The player chooses the destruction with full mechanical transparency. **TRAP TRIGGERED AND SURVIVED (Ch34).** 7-day sustained intimacy. Close to Death irrelevant (regen 61 HP/sec vs 3.68 HP/sec drain). Vigor stacked 1→7 (unprecedented — geometric, not additive). Nyx bonded partner #23. Soul Conqueror unlocked (Vigor stacks reflected into Kenji's stats). Nyx currently asleep (Vigor 7 metabolizing). **Conquest consequence:** Pallid March impregnable (Vigor-enhanced undead, 5× minion toughness). 10%/cycle conquest rate available BUT Nyx agreed to hold March (condition 2). Capture-Kenji goal **moot** — alliance, not predation. **New risk vector:** Vigor 7 Nyx waking up changed. World saw/felt the 7-day event. Ronin cover further compromised (green eyes, green aura).
 
 ---
 

@@ -267,11 +267,11 @@ She does not casually switch to human. She switches for one reason: she wants so
 
 **Build:** Lean, athletic. Sword-calloused hands. The body of someone who moves precisely rather than powerfully. Composed stance — weighted, controlled.
 
-**Hair:** Purple dreadlocks. Dark purple-black that shifts in strong light.
+**Hair:** Purple dreadlocks. Dark purple-black that shifts in strong light. Long, braided, falling past mid-back. Three with iron beads, one with Deepwood bramble-clasp.
 
 **Face:** Expression reader's face — mobile, precise in small movements. Can smile (the signature smile), can show nothing. The expression lands harder because it's chosen.
 
-**Eyes:** Hazel — warm, attentive. Not the eyes of someone startled by violence. The eyes of someone who has always been watching.
+**Eyes:** Hazel — warm, attentive. Not the eyes of someone startled by violence. The eyes of someone who has always been watching. **[PRE-CH34 — see Anku Nyx form below for current state.]**
 
 **Skin:** Dark. Deep warm brown. Sun-touched even away from direct exposure.
 
@@ -281,7 +281,37 @@ She does not casually switch to human. She switches for one reason: she wants so
 
 **Hands:** The signature. Kenji always checks hands on others; his own are immediate tells — sword-calloused across the palm and lower fingers, fine-motor precision scars at the fingertips, steady under pressure. Capable. Trained.
 
-**Note — Vigor Eye Shift:** Kenji is the SOURCE of Lover's Vigor, not the recipient. His eyes do not shift. His partners shift.
+**Note — Vigor Eye Shift:** Kenji is the SOURCE of Lover's Vigor, not the recipient. His eyes do not shift. His partners shift. **Exception: Ch34 Soul Conqueror — the Vigor reflection DID shift his eyes. See Anku Nyx form.**
+
+### Kenji — Anku Nyx Form (Ch34+, conditional on Nyx Soul Nexus bond #23)
+
+**Active as long as Lady Nyx remains in the Soul Nexus.** If the bond severs, this form reverts — green fades, hazel returns, markings go dark.
+
+**Build:** Massive. Broad shoulders, heavy arms, thick through the chest and back. STR 43 reads on the frame — the body of someone who hits like a siege engine. No longer lean-and-precise. The Ronin looked like a wandering swordsman. Anku Nyx looks like a weapon someone forgot to put away.
+
+**Hair:** Purple dreads unchanged. Long, braided, past mid-back. Iron beads and bramble-clasp. Green glow catches in them when it pulses.
+
+**Face:** Same mobile expression — but the green eyes change the read. The grin still lands, the smile still works, but they sit in a face that glows faintly sinister. Humor and menace occupy the same space.
+
+**Eyes:** **Green.** Luminous, glowing, permanent. Not Vigor teal (the temporary buff shift partners get). A new color — deep green with inner light, same spectrum as the aura. Faintly sinister. The eyes of someone who spent seven days inside death and came out breathing. **No longer hazel.**
+
+**Skin:** Dark. Deep warm brown, unchanged. Green markings sit beneath it — subdermal light, not surface.
+
+**Aura:** Green. Permanent ambient glow. Visible in low light, faint but present in daylight. Not creation gold-green (ember). Not Vigor teal (temporary). **Creation + death-dominion fusion** — a new spectrum. The ember still burns behind his ribs, but it burns in two spectrums now.
+
+**Chest Sigil:** Glowing green runic mark centered on the sternum. Vertical, angular, sharp-lined. Pulses faintly with heartbeat. The Soul Conqueror anchor — where the Nexus bond to Nyx physically manifests. Visible whenever chest is exposed.
+
+**Body Markings:** Arcane symbol tattoos across chest, arms, and back. **Did not exist before Ch34 Day 1** — surfaced during the seven days as the physical record of the bond. Faint dark linework appeared Day 5, spread across chest and arms Day 6, dragon completed Day 7. Not ink — the bond wrote them into the skin. Dark dormant linework when inactive; **ignite green when power flows** (combat, aura surge, emotional intensity). Functional cue: glowing tattoos = he's drawing on it. Brightest at wrists, hands, and chest sigil. Dimmer along arms and back. Subdermal — light beneath the skin, not on top.
+
+**Dragon (back):** Large dragon-demon-god spanning shoulder blades from nape to waist. Green eye, purple outline glow, intricate scale work. Tail wraps around left side to ribs. Head faces forward over right shoulder. Dark dormant at rest; green eye and purple outline glow when active. The visual signature of Anku Nyx.
+
+**Hands:** Same sword-calloused signature. Green glow at the knuckles and fingertips — brightest during combat (strikes trail faint green light, counter-punches pulse at impact).
+
+**Gear (default):** Shirtless or dark sleeveless haori (open, sigil visible — the haori comes off when things start). Black hakama (+3 light armor). Simple martial-arts shoes. Nodachi carried by choice, not default — across the back when announcing himself, sheathed at the hip when talking. **No mask. No ronin hat.** Anku Nyx does not hide his face. The mask was the Ronin's — this version does not default to wearing it.
+
+**Gear (combat):** Same iaido/JKD mechanics. Visual difference: strikes trail faint green light, iaido draw leaves a green afterimage, counter-punches pulse green at the knuckles. Cosmetic, not mechanical — Soul Conqueror stats are already baked in.
+
+**The read for NPCs:** A shirtless man with purple dreads, glowing green eyes, green runic marks across his body, a red-black nodachi, and an ambient green aura. He looks like a final boss who wandered out of his dungeon and decided to get lunch. The description narrows the field from "hundreds of wandering blades" to exactly one.
 
 ---
 
