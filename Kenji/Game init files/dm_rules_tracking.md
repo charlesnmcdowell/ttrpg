@@ -1501,6 +1501,83 @@ Example framework (DM fills with actual characters during play — every column 
 
 ---
 
+### 🐉 GOD EMPEROR — DRAGON ENCOUNTER GENERATION SYSTEM (BOOK 4 CAMPAIGN COMPLETION REWARD)
+
+> **Earned:** Book 4 campaign completion. All five continental threats resolved. Kingdom of Ankunyx declared. Permanent black dragon form. Two dragon bonds (Ignis #24, Vorathiel #25). Dragon God at will. Title: Dragon Emperor.
+
+> **Nature:** Ambient content generation layer — identical in design philosophy to Bane of Eve. This is **not** a quest line, **not** a campaign arc, **not** a story objective. It is a **DM tool** that generates dragon-scale encounters during any campaign. The DM reaches for it when the session needs a spike, when geography supports a dragon encounter, or when things have been too quiet. It can go unused for ten sessions or fire three times in a week. The DM decides.
+
+**What it does:** A half-human black dragon declared himself emperor over a united continent. The dragon world responds. Male legendary dragons seek to end him. Female legendary dragons seek to mate him — by force if necessary. Neither asks permission.
+
+**Scaling:** Like Bane of Eve scales with identity exposure, God Emperor scales with **reputation in dragon circles**. Early: rumors, young drakes testing the claim. Mid: adults with territorial grievances. Late: elders and ancients who ruled their color for centuries and will not tolerate the title.
+
+---
+
+#### Dragon mating — what humanoids call violence
+
+The Vorathiel scene (Ch42) is the **baseline reference** for elder-tier dragon mating. Key principles:
+
+- **Dragons do not court.** The strong take. The weak endure or die. This is not cruelty — it is biology. Dragons show desire through dominance. What humanoids read as wanton violence and aggression is how dragons express attraction.
+- **Survival is not guaranteed.** Vorathiel — who chose Kenji, who liked him, who held back — still put him at 30% HP through sheer physical desire. An elder female who doesn't know him and doesn't care whether he survives? That's not a love scene. That's a survival check.
+- **Males and females arriving for Kenji look almost identical** from the outside. Both are enormous, aggressive, and will not negotiate. The male wants to kill the pretender emperor. The female wants to breed with the dragon who united a continent. Both encounters can end with Kenji dead. The female just considers that an acceptable side effect rather than the goal.
+- **Few male mates survive elder-tier females.** At ancient and elder scale, the female's strength, size, and draconic biology make mating lethal to partners who can't endure it. Kenji survived Vorathiel because of 6,288 HP, Vigor-enhanced CON 734, and regen. A normal male dragon of comparable age might not. This is why dragon reproduction is rare at the highest tiers — the mothers are too powerful for most fathers.
+- **The Ignis scene (Ch40) was young dragon mating.** Playful, consensual, intimate. Not the same thing. Ignis is young by dragon standards. Vorathiel showed what happens when an ancient decides she wants you.
+
+---
+
+#### Dragon color system — every color is a different problem
+
+Each dragon color carries alignment, elemental affinity, and behavioral tendencies. Kenji has **only ever encountered red dragons** (Ignis, Vorathiel, Drazhara). Every other color is unknown territory.
+
+| Color | Alignment tendency | Element | Behavioral profile | God Emperor encounter flavor |
+|-------|-------------------|---------|--------------------|-----------------------------|
+| **Red** | Chaotic evil | Fire | Powerhouse. Pride. Dominance through raw force. Territorial. | Known quantity — Ignis and Vorathiel are reds. Other reds may come as rivals to Vorathiel's claim or as challengers who consider the Emperor unworthy of their strongest. |
+| **Black** | Lawful evil | Acid / Death | Tyrants. Schemers. Territorial in the cruelest sense — they don't just claim land, they corrupt it. | Kenji IS a black dragon. Other blacks see him as either kin to be tested or a pretender wearing their color. The most personal encounters. |
+| **Gold** | Lawful good | Light / Fire | Noble. Principled. Judges. They don't attack without reason — but a black dragon calling himself emperor IS reason enough for a gold who believes in cosmic order. | Not hostile by reflex, but deeply opposed on principle. A gold dragon encounter is a philosophical confrontation that can escalate to violence. The hardest to fight because killing a gold feels wrong. |
+| **Blue** | Lawful evil | Lightning | Schemers. Desert lords. Patient, organized, military minds. They don't rage — they plan. | A blue doesn't come to fight. A blue comes having already figured out the bond network, the Vigor mechanics, and the seventeen ways to dismantle it. The most dangerous color because they do homework. |
+| **Green** | Neutral evil | Poison | Manipulators. Liars. They live in intrigue the way reds live in fire. | A green never attacks directly. A green turns allies, poisons relationships, and makes Kenji question his own people. Social warfare at dragon scale. |
+| **White** | Chaotic evil | Cold | Primal. Savage. No politics, no schemes, no speeches. Pure territorial aggression. The least intelligent but the most relentlessly violent. | The simplest encounter — a white shows up and tries to kill you. No negotiation. No posturing. Just ice and fury. Refreshing after dealing with greens and blues. |
+| **Silver** | Lawful good | Cold | Protectors. They live among humanoids in disguise. Value mortal life. | A silver might approach Kenji not to fight but to warn — or to assess whether the Dragon Emperor is a threat to the mortals they've sworn to protect. Can become allies or enemies depending on Kenji's choices. |
+| **Bronze** | Lawful good | Lightning | Warriors. Honorable combatants. They respect strength and despise tyranny. | A bronze wants a fair fight. Declares intentions. Follows rules. The most honorable dragon encounter — and the one where losing has the most consequences to reputation. |
+| **Copper** | Chaotic good | Acid | Tricksters. Jokers. Dangerous because you can't tell when they're serious until the acid hits. | A copper encounter might start as comedy and end as catastrophe. The DM's wildcard color. |
+
+---
+
+#### Encounter generation (DM tool — use at discretion)
+
+**No mandatory roll table.** Unlike Bane of Eve's daily d100, God Emperor encounters are **entirely DM-initiated**. The DM drops a dragon encounter when the geography, narrative, or pacing supports it. This is a toolkit, not a schedule.
+
+**When the DM reaches for God Emperor:**
+- The party is crossing dragon-adjacent territory (mountains, volcanic regions, coastal cliffs, deep forests, desert wastes)
+- The campaign has been quiet for multiple sessions and needs a scale change
+- A faction or NPC has dragon connections that would logically trigger a response to the Emperor title
+- The player is getting comfortable and needs a reminder that the title has weight
+
+**Encounter template:**
+
+| Field | Required |
+|-------|----------|
+| **Color** | Which dragon color — determines element, alignment, and approach |
+| **Age category** | Young / Adult / Elder / Ancient — determines power level and lethality |
+| **Sex** | Male (kill the pretender) or Female (breed with the emperor) |
+| **Name** | Dragons have names. Use them. |
+| **Motivation** | Why THIS dragon, why NOW — specific to their color, territory, and personal history |
+| **Approach** | How they arrive — ambush, formal challenge, disguised infiltration, aerial assault, political delegation |
+| **Knows about Kenji** | What intel do they have? Bond network? Vigor? Black dragon form? Soul Nexus? The more they know, the more dangerous they are. |
+
+**Power scaling by age:**
+
+| Age | Approximate tier | Lethality to Kenji |
+|-----|-----------------|-------------------|
+| Young | Manageable | Wins comfortably. Good for early reputation encounters. |
+| Adult | Challenging | Real fight. Could go either way depending on color and preparation. |
+| Elder | Dangerous | Vorathiel-tier. These encounters are serious. HP will drop. |
+| Ancient | Potentially lethal | The rarest and most dangerous. An ancient who has done homework on the bond network is a campaign-defining encounter. |
+
+**Diversity mandate (same principle as Bane of Eve):** No two God Emperor encounters should repeat color + age + sex + motivation. Every dragon is a unique character with a name, a history, and a reason for being there. The player should never say "oh, another red."
+
+---
+
 ### 🎭 BOOK 4 NARRATIVE TENSION — THE THINGS YOU CAN'T HIT WITH A SWORD
 
 Book 4's real challenges aren't monsters. They're consequences. The DM must weave these threads into every session, not as background lore but as **active pressure** the player feels.
@@ -1858,7 +1935,7 @@ There are no magical bags of holding, pocket dimensions, or portal-based invento
 | C    | None | 2 effects |
 - Hard stat cap: 20. Always. No exceptions.
 - No perk or item raises a stat more than +2.
-- Perks earned every 3 levels (L3, L6, L9, L12, L15, L18, etc.). Current Level 35 = 11 perks earned. See perk tracker and `kenji_state.json`.
+- Perks earned every 3 levels (L3, L6, L9, L12, L15, L18, etc.). Current Level 40 (Apotheosis) = 13 perks earned. See perk tracker and `kenji_state.json`.
 
 ---
 
@@ -1879,7 +1956,7 @@ There are no magical bags of holding, pocket dimensions, or portal-based invento
 ### 🛑 LEVEL PROGRESSION
 > **Live level/EXP tracked in `kenji_state.json`.** See `ttrpg_game_engine.py` → `EXP_TABLE` for thresholds.
 
-**History:** Book 1 cap was L10. Book 2 cap was L20. Book 3 took Kenji to L35. Book 4 (current) — Kenji is **Level 35** (2,209,800 EXP). Next milestone: 300k EXP to Apotheosis (per kenji_state.json quest tracker). Level up on long rest only.
+**History:** Book 1 cap was L10. Book 2 cap was L20. Book 3 took Kenji to L35. Book 4 — Kenji reached **Level 40 (Apotheosis)** (2,500,000 EXP) on campaign completion (all 5 threats resolved). Mechanical cap reached. Level up on long rest only.
 
 **EXP Tracking:**
 - EXP is awarded normally for all combat, skill checks, and milestones
@@ -2175,7 +2252,7 @@ Per Ironholt milestone: +10 HP, or +1 Veritas dmg, or +2 Ki, or new enchantment 
 > **Book 1 EXP log:** See `book_1_endgame_tracker.md`
 > **Book 2 EXP log:** See `book_2_endgame_tracker.md`
 > **Book 3 EXP:** Covered in Book 3 chapter files. L19 → L35 over 6-month timeskip + Greenveil/Thornfield/Silvandris/Vyranth arcs.
-> **Book 4 (current):** Level 35, 2,209,800 EXP. 290,200 to Apotheosis (L40 cap). Tracked live in `kenji_state.json`.
+> **Book 4 (complete):** Level 40 (Apotheosis), 2,500,000 EXP. Cap reached on campaign completion. Tracked in `kenji_state.json`.
 
 ---
 
@@ -2205,7 +2282,7 @@ Per Ironholt milestone: +10 HP, or +1 Veritas dmg, or +2 Ki, or new enchantment 
 1. **Kenji is the Ronin.** Suppressed arcane identity. Iaido kendo combat. Wind Step travel. Basic leyline magic only. No ember displays.
 2. **Location:** Iron Key terminus, grid H-9. 80 yards from Sir Corwyn's camp. Approaching to talk about the stolen iron chest.
 3. **Status:** HUNGRY (4hrs since meal, -1 STR/CON). HP 333/333. Iaido fresh. Smoke-Clone 2/3 charges. Cover intact.
-4. **Level 35.** EXP: 2,209,800. 300k to Apotheosis.
+4. **Level 40 (Apotheosis).** EXP: 2,500,000. Cap reached.
 5. **Still Night countdown:** ~21 days. Pallid March border confirmed 15mi north. Seravane's column active.
 6. **Active threads:** Iron Key destination unknown, Seravane/death-binder investigation, Millhaven commissions (Vellin archivist, Sister Aldra, Teilen), Taryn debrief follow-ups.
 

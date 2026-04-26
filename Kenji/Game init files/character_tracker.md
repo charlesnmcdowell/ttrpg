@@ -1,8 +1,8 @@
 # Character Tracker — Kenji TTRPG
 
-**Current In-Game Date:** Ashmere **68**, 1247 AR — **Day** **290** — **Kharn-Dural — parley ground, neutral territory** (morning)  
-**Current Location:** **Kenji** **—** Kharn-Dural parley ground. **Ignis Soul Nexus Bond #24.** **Dragon God form UNLOCKED** (Elder Black Dragon 1/day, Ignis bond required). **Dragon tattoo COMPLETE** — magnificent black dragon wrapping torso/back/arms, warm, alive, breathes with Kenji, purple lightning flickers with heartbeat. **Bonded Lovers 24** (+24 STR / +24 CON). **IDENTITY: ANKU NYX (open)** — green eyes, tattoos, aura visible; no mask, no hat, no disguise. **Red Court CONQUERED** — Lady Mirenne (Elder Vampire L28) submitted to Nyx (Ch38). Chain: Mirenne → Nyx → Kenji. Virelda (vampire analyst) also submitted. Both Vigor EXPIRED (~Day 281). **Aggressive vampire expansion ordered:** Virelda to Veldmere, Mirenne coordinating Harrowgate remotely. 2-week timeline. Combat Mage token shown — Mirenne connected Kenji to ArchMagus file. **Gorath puppet TERMINATED** — named Mursha warchief, Magra confirmed death, 12 captains witnessed. **Continental summit convened** — all factions present at Kharn parley ground. **Mursha deadline TODAY** (Day 290 — bench still grinding at Kharn). Orc blockade active. **Bane of Eve: TRIGGERED** (identity declared on Kharn bench record Ch30, open travel as Anku Nyx, Mirenne confirmation). **WORLD EVENT: Continental summit convened at Kharn-Dural Day 290** — all major factions present (coalition, elves, dwarves, orcs, dragons, vampires, dragonborn, undead). Vorathiel demanding explanation for black dragon scent on Ankunyx. **Purse** **~1160 GP / 181 SP**. **HP 6,288/6,288**; all charges at LR; **L6: 2/2**.
-**BOOK 4 — Ch40 COMPLETE** (played live, "The Table"). **Ch39 COMPLETE** (played live, "The Fire-Man"). **Ch38** (played live). **Ch37** (played live). **Ch36** — `fraying_empire_chapter_36.md` (**The Heist of Varkul**). **Ch35** — `fraying_empire_chapter_35.md` (**What We Are**). **Ch34** — `fraying_empire_chapter_34.md` (**Seven Days**). **Ch33** — `fraying_empire_chapter_33.md` (**Anku Nyx**). **Threat 1 Hollowing** — **seam pinned, not closed; Kharn blockaded (20K orcs on roads); Mursha deadline Day 290 = TODAY**. **Threat 2 Pallid March** — **RESOLVED; Kenji controls Nyx via soul bond, Nyx controls the March; 612 undead prostrate; March impregnable and allied**. **Threat 3 Iron Horde** — **RESOLVED; Gorath puppet terminated Day 288; Mursha named warchief by dying declaration; Magra Bloodtusk confirmed death; 60K orcs waiting at Kharn for new warchief**. **Threat 4 Red Court** — **RESOLVED; Mirenne submitted to Nyx (Ch38); vampire expansion ordered (Veldmere + Harrowgate); Mirenne knows Kenji = ArchMagus**. **Threat 5 Twin Wyrms** — **IN PROGRESS; Drazhara-Ignis merger COMPLETE (INT 88, advantage, Pallid March Day 288); Ignis sorcerer cover active; Drazhara deployed dragon form for patrol; Continental summit convened Day 290**.
+**Current In-Game Date:** Ashmere **69**, 1247 AR — **Day** **291** — **Dragonspine peaks — granite shelf** (dawn, waking)  
+**Current Location:** **Kenji** **—** Dragonspine granite shelf (near Ignis mating ground). **Vorathiel Soul Nexus Bond #25.** **Dragon God form AT WILL** (Elder Black Dragon, no cooldown, Ignis bond required active). **Dragon tattoo COMPLETE** — magnificent black dragon wrapping torso/back/arms, warm, alive, breathes with Kenji, purple lightning flickers with heartbeat. **Bonded Lovers 25** (+25 STR / +25 CON). **IDENTITY: ANKUNYX (open)** — green eyes, tattoos, aura visible; Dragon Emperor of the Kingdom of Ankunyx. **KINGDOM OF ANKUNYX DECLARED** (Ch41 Day 290) — all factions recognized (conditionally). Vess = check on power / civil governance. Korrim = process check. Mirenne = coalition council seat (vampire conversion law: voluntary only, forced = crime, cure research ordered). **Red Court CONQUERED** — Mirenne submitted to Nyx (Ch38); Mirenne Vigor REFRESHED (vial, Day 290); appointed coalition council member (Ch42). **Gorath puppet TERMINATED** — Mursha named warchief. **SEAM CLOSED** (Ch42 Day 290) — Fathom sealed via forge weld (Nyx roots + Eldest wards + dragonfire cauterization + goat poem logic bomb). **ALL 5 THREATS RESOLVED.** **Bane of Eve: TRIGGERED.** **God Emperor: ACTIVE** (Book 4 campaign completion reward — dragon encounter generation; see `dm_rules_tracking.md`). **Purse** **~1,160 GP / 181 SP**. **HP ~1,886/6,288** (30% — recovering via regen); **L6: at will**.
+**BOOK 4 — Ch42 COMPLETE** (played live, "The Weld"). **Ch41 COMPLETE** (played live, "The Kingdom"). **Ch40 COMPLETE** (played live, "The Table"). **Ch39 COMPLETE** (played live, "The Fire-Man"). **Ch38** (played live). **Ch37** (played live). **Ch36** — `fraying_empire_chapter_36.md` (**The Heist of Varkul**). **Ch35** — `fraying_empire_chapter_35.md` (**What We Are**). **Ch34** — `fraying_empire_chapter_34.md` (**Seven Days**). **Ch33** — `fraying_empire_chapter_33.md` (**Anku Nyx**). **Threat 1 Hollowing** — **RESOLVED; seam welded shut Day 290; Fathom sealed (goat poem logic bomb + forge weld); runestone ring anchored; Nyx roots + Eldest wards + dragonfire cauterization**. **Threat 2 Pallid March** — **RESOLVED; Kenji controls Nyx via soul bond, Nyx controls the March**. **Threat 3 Iron Horde** — **RESOLVED; Gorath puppet terminated Day 288; Mursha named warchief**. **Threat 4 Red Court** — **RESOLVED; Mirenne submitted to Nyx (Ch38); Mirenne appointed coalition council (Ch42)**. **Threat 5 Twin Wyrms / Reckoning** — **RESOLVED; Vorathiel moved vote to conditional at summit (Ch41); seam closure fulfilled condition; vote moves to treaty; descent averted; Vorathiel bonded #25 (Ch42)**.
 **Active Book:** Book 4 — Fraying Empire (The Ronin Arc)
 
 > **Cross-references:** **Arc clarity (core problem, regional stakes, NPC agendas)** → `arcs/ARC_STANDARD.md` (Kharn example: `arcs/north_relay_two_chapter_plan.md` § *Kharn forge crisis*) | DM behavior rules → `dm_rules_tracking.md` (**MIA PROTOCOL** + **🎯 ALIVE / IN-PLAY NPC — GOAL INVARIANT** + **Scene skill preroll** + **Player success integrity**: roll before outcome-dependent prose; PC success = player-favorable beat; no NPC Perception auto-win / no “gotcha” undo) | Game engine & mechanics → `ttrpg_game_engine.py` (`skill_roll`, `contested_skill`, `build_skill_modifier`, CLI `skill`) | Live state → `kenji_state.json` | Cursor agent rule → repo `.cursor/rules/kenji-scene-skill-gates.mdc`
@@ -32,15 +32,15 @@ Every character entry includes a **Morale Compass** value. Use it to decide how 
 ## KENJI — The Ronin / ArchMagus (disguised)
 
 **Status:** alive
-**Level:** 35
-**Location:** **Kharn-Dural — parley ground** — Day 290, Ashmere 68. **Ch40 COMPLETE.** Identity: **ANKU NYX (open)** — green eyes, tattoos, aura visible; no mask/hat/disguise. **Ignis Soul Nexus Bond #24.** Dragon God form unlocked (Elder Black Dragon 1/day). Dragon tattoo complete. **Bonded Lovers 24** (+24 STR / +24 CON). Mursha deadline Day 290 = TODAY. **HP 6,288/6,288**; all charges at LR; **L6: 2/2** (full). **Purse ~1160 GP, 181 SP**.
-**Last Updated:** Ashmere **68** / Day **290** — **Ch40** *The Table*
+**Level:** 40 (Apotheosis — campaign completion award)
+**Location:** **Dragonspine peaks — granite shelf** — Day 291, Ashmere 69 (dawn). **Ch42 COMPLETE.** Identity: **ANKUNYX (open)** — Dragon Emperor of the Kingdom of Ankunyx. Green eyes, tattoos, aura visible. **Vorathiel Soul Nexus Bond #25.** Dragon God form **AT WILL** (no cooldown; Ignis bond required active; Vorathiel bond upgraded access). Dragon tattoo complete. **Bonded Lovers 25** (+25 STR / +25 CON). **HP ~1,886/6,288** (30% — recovering via regen). **Purse ~1,160 GP, 181 SP**. **ALL 5 THREATS RESOLVED.** Kingdom declared, seam closed, Reckoning averted.
+**Last Updated:** Ashmere **69** / Day **291** — **Ch42** *The Weld*
 
 **Physical:** `npc_appearance.md` § **Kenji — Ronin / Blade Channeler**
 **Disposition:** N/A (protagonist)
 **Morale Compass:** Neutral (Player Character — Hiro's call; shiftable as Kenji develops)
 
-**Abilities (full ArchMagus kit — most are SUPPRESSED in Ronin mode):** Enhanced Arcane Edge, Haste, Stride (L4), Wind Step (70m), God Sight (120ft darkvision + crit targeting), Greater Invisibility, Clone (smoke bomb), Radiant Edge, Ward Mastery (L4), Living Ground (druid bond), Diagnostic Touch, Bond-Form Sight, Captain's Read, Irresistible Presence (Siren-Elf aura; full rules → `kenji_tracking_OBSOLETE.md` § IRRESISTIBLE PRESENCE), Portal Gateway, Lover's Vigor (see same subsection), Scribe's Eye (Tamsin bond — passive omnilingual literacy), Paper Memory (Tamsin bond — 1/LR perfect document recall 24h), **Dragon God** (Ignis bond #24, Ch39 — 1/day transform into Elder Black Dragon: 40ft, black scales, purple lightning, green glowing eyes. Requires Ignis bond active. Ignis can revoke.)
+**Abilities (full ArchMagus kit — most are SUPPRESSED in Ronin mode):** Enhanced Arcane Edge, Haste, Stride (L4), Wind Step (70m), God Sight (120ft darkvision + crit targeting), Greater Invisibility, Clone (smoke bomb), Radiant Edge, Ward Mastery (L4), Living Ground (druid bond), Diagnostic Touch, Bond-Form Sight, Captain's Read, Irresistible Presence (Siren-Elf aura; full rules → `kenji_tracking_OBSOLETE.md` § IRRESISTIBLE PRESENCE), Portal Gateway, Lover's Vigor (see same subsection), Scribe's Eye (Tamsin bond — passive omnilingual literacy), Paper Memory (Tamsin bond — 1/LR perfect document recall 24h), **Dragon God** (Ignis bond #24 + Vorathiel bond #25 — **AT WILL** transform into Elder Black Dragon: 40ft, black scales, purple lightning, green glowing eyes. No cooldown. Requires Ignis bond active. Ignis can revoke. Upgraded from 1/day to at-will via Vorathiel Soul Nexus #25, Ch42.)
 
 ### Irresistible Presence & Lover’s Vigor (female humanoids) — authoritative summary
 
@@ -157,7 +157,7 @@ Kenji is undercover. **Arcane and Ember abilities are deliberately off the table
 |---------|--------|----------|-----------|--------|-------------|--------------------|
 | iron_key_investigation | Ashmere 22 | TBD | TBD | OPEN | Seal OPENED Ashmere 24 night at terminus (grid H-9). Key LEFT IN THE GROUND. Contents unexplored — Kenji walked away with Elda before looking. Death knight witnessed. Whatever is below the seal is now accessible. | Unknown. The seal is open. The key is unrecovered. |
 | iron_chest_contents | Ashmere 23 | N/A | N/A | RESOLVED | RETURNED to Sir Corwyn at terminus camp, Ashmere 24 night. Contents never opened. Kenji never looked inside. | Corwyn has his chest back. Relationship shifted to Conflicted. |
-| apotheosis_level_40 | ongoing | TBD | N/A | in_progress | **2,270,050** / 2,500,000 EXP (~**229,950** to Level 40). Synced `kenji_state.json` **exp** (Ch18 close). Five threats + Bane supplemental. | Reaching L40 completes the apotheosis arc. Mechanical cap on advancement. |
+| apotheosis_level_40 | ongoing | N/A | N/A | **COMPLETE** | **2,500,000 / 2,500,000 EXP — Level 40 ACHIEVED.** Awarded on Book 4 campaign completion (all 5 threats resolved). Apotheosis reached. Mechanical cap. | Apotheosis arc complete. Junior gods (Thirrin + Solveth) restored. Level cap reached. |
 
 ---
 
@@ -416,7 +416,7 @@ Relay-town inn cast; names from `npc_name_bank.md`. Full coloring → `npc_appea
 
 **Identity pressure vector:** Five data points on the ronin — illiteracy arc, 80 GP payment capacity (wealthy for any sell-sword), IP effect (experienced firsthand in two settings), "the ronin" as self-identifier with no yard/factor attached, berm beat. +2–4% ronin_identity_pressure if she talks. A clerk with five data points and a memory threat can file a report that interests factor houses, checkpoint officers, or anyone looking for a man who doesn't add up.
 
-**Pregnancy:** One qualifying exposure (Ch25 berm beat, IP + private + Vigor triggered). Pending — no roll logged. DM resolves per pregnancy tracker rules.
+**Pregnancy:** **Not pregnant.** Human (1/20). 1 exposure Ch25 Day 260. Rolled 18/20 — miss.
 
 #### Active Goals
 
@@ -472,7 +472,7 @@ Relay-town inn cast; names from `npc_name_bank.md`. Full coloring → `npc_appea
 | vigor_window_active | Ashmere 36 | **~Ashmere 41** | N/A | **EXPIRED** | Lover's Vigor on — brass-amber eye ring tell; +50% all stats; IP-immune to Kenji for ~5 days (~Day 263). When it expires: urge returns at full stack pressure; she may want the power back. **Vigor expired weeks ago (~Day 263). Brass-amber ring faded. IP vulnerability restored.** | Expiry resets IP vulnerability. Dwarf clerk with factor-house memory + Kenji oral briefing in her head = intel value + attraction compound. |
 | kharn_paper_knowledge | Ashmere 36 | ongoing | N/A | **active** | Haldra holds verbal + written knowledge of: vault/seal discrepancy, clerk names who signed/refused/vanished, suspected factor-house laundering under coalition wax, Varenholm silence margins, yard observation patterns. She spoke all of this to Kenji (verbal only — he can't read). She also received the merged ridge + parlor intel from Mursha on paper (Ch23). | Information broker value. If anyone asks the right questions at her desk, she has answers that connect the western cut leak to Kharn-Dural internal corruption. |
 
-**DM — pregnancy (not IC):** **`pending_assessment`** in `kenji_state.json` — **one** exposure logged (Ch22 Day 258 private parlor; Vigor triggered); **no roll** — **DM** resolves. See **§ DM — PREGNANCY TRACKER**.
+**DM — pregnancy (not IC):** **Not pregnant.** Dwarf (1/30). 1 exposure Ch22 Day 258. Rolled 9/30 — miss. See **§ DM — PREGNANCY TRACKER**.
 
 ---
 
@@ -512,7 +512,7 @@ Relay-town inn cast; names from `npc_name_bank.md`. Full coloring → `npc_appea
 | clone_flicker_filed | Ashmere 34 | ongoing | N/A | **active** | Saw the clone flicker during Brass Hitch swap (Ch18). Persuasion kept her following but she **knows** something was wrong — a magic twin, a shimmer, something not right. Filed, not confronted. Compounds over time. | If Kenji uses clone/illusion again in her LOS: the filed observation becomes a confrontation trigger. |
 | power_of_p_secret | Ashmere 35 | ongoing | N/A | **active** | She does not know Kenji watched her Power of P interrogation of the ridge lieutenant (Ch20, Greater Invis at 30 ft). He has not named what he saw. Three-layer asymmetry: she carries two secrets (flicker + oathbreaker), he carries all three (flicker + oathbreaker + the watch). | If he names it: trust stress — she hid it, he watched it. If he stays silent: the secret compounds. Asymmetry persists until one of them breaks it. |
 
-**DM — pregnancy (not IC):** **`pending_assessment`** in `kenji_state.json` — **two** exposures logged (Ch18 Day 256 + Ch21 Day 257–258); **roll** or **narrative** **lock** **pending**. See **§ DM — PREGNANCY TRACKER**.
+**DM — pregnancy (not IC):** **PREGNANT — single, female.** Half-orc (1/5 per exposure). Conceived on exposure 2 (Day 257, Ch21). 3 total exposures (Ch18 + Ch21 + Ch42 vial). Half-orc gestation ~4.5 months. Due ~Day 392. Kenji does not know. See **§ DM — PREGNANCY TRACKER**.
 
 ---
 
@@ -1449,28 +1449,33 @@ This is the duality the story has been gesturing at: a creature of light and und
 
 ---
 
-## VORATHIEL THE CONQUEROR — Ancient Red Dragon
+## VORATHIEL THE CONQUEROR — Ancient Red Dragon / Bonded Mate #25
 
-**Status:** MIA
-**Met:** no — MIA. Campaign threat NPC. Never encountered.
-**Location:** Dragonspine Mountains — summit aerie (far north)
-**Last Updated:** Ashmere 24 (stub created — not yet encountered)
+**Status:** ACTIVE — Bonded mate. Soul Nexus Bond #25 (Ch42 Day 290).
+**Met:** yes — **Ch41** Day 290 (Kharn summit, dragon form → humanoid form). **Ch42** Day 290 (seam site, forge weld, intimate, bonded).
+**Location:** **Dragonspine peaks — granite shelf** — Day 291, Ashmere 69 (dawn). Asleep on Ankunyx after 5-stack Vigor.
+**Last Updated:** Ashmere **69** / Day **291** — **Ch42** *The Weld*
 
-**Physical:** Ancient Red Dragon. Massive.
-**Disposition to Kenji:** Unknown — not yet encountered.
-**Morale Compass:** Chaotic Evil — ancient red dragon. Greed and dominion as a personality. All other alignments bore her. Opposes Kenji the instant he threatens her hoard, her brood, or her pride — which he already does by existing at Level 35.
+**Physical:** Ancient Red Dragon, Level 38, 1,612 years old. Humanoid form: `npc_appearance.md` § **VORATHIEL THE CONQUEROR**. Deep bronze-brown skin, black hair with copper-red streaks and silver-white temple streak, ridged red-copper horns, gold eyes (→ deep violet/purple on Vigor), clawed scaled forearms/hands, small dragon wings. Sheer red robe with draconic runic script over black lace. Does not suppress draconic features. Voluptuous, powerful build. **Vigor active: 5 stacks (25-day window, expires ~Day 316). Eye tell: gold → deep violet/purple. Vigor mark: green abdominal glow. IP immune 25 days.**
+**Disposition to Kenji:** **Intimate** — bonded mate. Moved Reckoning vote for him (Ch41). Fought beside him at seam (Ch42). IP Stack 4 accumulated over 6 hours before intimate scene. First Vigor in 1,612 years of existence. Fell asleep on him. Unprecedented vulnerability from an ancient dragon.
+**Morale Compass:** Chaotic Evil — greed and dominion as personality. But current actions driven by maternal calculation and, as of Ch42, something she doesn't have a word for yet.
 
-**Abilities:** Ancient Red Dragon, Level 38. CR 30+. Has convinced 4/7 dragonflights to support descent. A thousand years of patience exhausted by the coalition's rise. Immune to Irresistible Presence (non-humanoid). Cannot be defeated in combat by anyone alive.
+**Abilities:** Ancient Red Dragon, Level 38. CR 30+. Reckoning vote moved to treaty (condition fulfilled — seam closed). Immune to IP in dragon form (non-humanoid). **VULNERABLE to IP in humanoid form** — no prior exposure before Ch42. Vigor 5 stacks = IP immune for 25 days. **Cannot be defeated in combat by anyone alive — including Kenji (she dropped him to 30% HP through intimacy alone).**
 
-**Important Gear:** N/A — she IS the weapon.
+**Important Gear:** N/A — she IS the weapon. Clothing does not survive Vigor encounters.
 
-**Personality:** Not a villain. A mother protecting her children from a species that keeps getting more dangerous. Watched the Sundered Gate, the Iron Crown War, Kenji reshaping the ley network. Afraid — and an afraid ancient dragon is the most dangerous thing alive.
+**Personality:** Not a villain. A mother who protected her children by threatening to burn the world, then chose not to because a twenty-three-year-old fed a poem to an entropy god and poked her in the arm. The most dangerous thing alive, currently asleep on the chest of the man who called her *toots*.
+
+**Soul Nexus (Bond #25 — Kenji):** Dragon God form upgraded: 1/day → **at will**, no cooldown. Requires Ignis bond active (unchanged). Vorathiel bond removes the daily limitation.
+
+**Pregnancy:** **PREGNANT — 5 eggs laid, 1 female survives.** Ancient red dragon (100% fertility). 5 exposures Ch42 Day 290–291. 5 eggs produced, 4 lost to environment, 1 female survives. Dragon egg-laying/gestation timeline unknown at ancient tier. Kenji does not know.
 
 ### Active Goals
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| force_descent | pre-campaign | DORMANT + 95 days from introduction | N/A | dormant | Push the Reckoning vote toward descent. Currently holds 4/7 flights. Needs one more to guarantee it. Timer starts when Kenji learns of the Twin Wyrms threat. | If she wins the vote: seven dragonflights descend. World ends. If vote fails: treaty holds another millennium. Vorathiel retreats but doesn't forget. |
+| force_descent | pre-campaign | Day 290 (Kharn summit) | Day 290 | **RESOLVED — treaty** | Push the Reckoning vote toward descent. Was 4/7 flights. Moved to conditional 3-3 at summit. Condition (seal Hollowing) fulfilled same day. Vote moves to treaty. Descent averted. | Treaty holds. Kingdom of Ankunyx recognized. Vorathiel's vote = treaty. |
+| protect_brood | ongoing | ongoing | N/A | **active** | Protect her children — including Ignis, now bonded to the same man Vorathiel is bonded to. The maternal calculus has shifted: Ankunyx is no longer a threat to her brood. He IS her brood. | Mother-in-law and mate simultaneously. The politics of this are staggering. |
 
 ---
 
@@ -1555,7 +1560,9 @@ Wears Ignis's body via soul-swap. **Humanoid:** 5'6" compressed, red-gold hair, 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
 | travel_the_world | Day 287 | N/A | N/A | active | Explore humanoid settlements, hear music, experience culture. First time seeing the world as anything other than a target list. | If fulfilled: Ignis develops genuine investment in the coalition world. If denied: restless, dangerous, may revert to CE instincts. |
-| support_treaty | Day 287 | RECKONING (tied to Twin Wyrms clock) | N/A | active | Help prevent descent vote at Reckoning. As Vorathiel's daughter and Kenji's bonded mate, Ignis is a bridge between flights and coalition. | If treaty holds: Ignis is proof coexistence works. If treaty fails: Ignis is caught between mother and mate — catastrophic. |
+| support_treaty | Day 287 | RECKONING (tied to Twin Wyrms clock) | N/A | **RESOLVED** | Help prevent descent vote at Reckoning. As Vorathiel's daughter and Kenji's bonded mate, Ignis is a bridge between flights and coalition. **Ch41-42: Treaty confirmed. Descent averted. Vorathiel moved vote conditional → fulfilled.** | Treaty holds. Ignis is proof coexistence works. |
+
+**Pregnancy:** **PREGNANT — 4 eggs laid, 0 survive.** Young red dragon (100% fertility). 1+ exposures Ch39–40 Day 287–288. 4 eggs produced, all lost to environment. Young dragon eggs less resilient than ancient tier. Kenji does not know.
 
 ---
 
@@ -1676,13 +1683,30 @@ Last-known states preserved in AI_CONTEXT.md. Promote to full tracker entries on
 | **Sera** | **Keeping** — active | ~Hollowmere/Ironveil (Season of Dark); ~7–8 mo | **No** — finds out in-room |
 | **Pip** | **Keeping** — active | ~Hollowmere/Ironveil; ~7–8 mo | **No** — Brenn may force the issue |
 | **Bracken** | **Keeping** — active | Conceived **Day 248** (Ashmere 26); **Day 258** = 10 days — still **too early** IC for self-diagnosis; due ~Month **11–12** | **No** |
-| **Mursha** | **Pending** | **Two** exposures: Ch18 (Day 256, multiple qualifying finishes) **+** Ch21 (Day 257–258 predawn, Vigor reinforced); **no roll** logged — **DM** resolves | N/A until confirmed |
-| **Haldra** | **Pending** | **One** exposure: Ch22 (Day 258, Brass Hitch private parlor; IP fail ×2 + Persuasion ADV 20 vs DC 19; Lover's Vigor triggered — brass-amber eye ring); **no roll** logged — **DM** resolves | N/A until confirmed |
-| **Tamsin Vale** | **Pending** | **One** exposure: Ch25 (Day 260, berm private beat; IP severe — close range, enclosed, dark; Lover's Vigor triggered — copper ring tell visible Ch26); **no roll** logged — **DM** resolves | N/A until confirmed |
+| **Mursha** | **PREGNANT — single, female** | Half-orc (1/5 per exposure). 3 exposures: Ch18 Day 256 (direct) + Ch21 Day 257–258 (direct) + Ch42 Day 290 (vial). Conceived on exposure 2 (Day 257). Half-orc gestation ~4.5 months (grow twice as fast). Due ~Day 392. | **No** |
+| **Haldra** | **Not pregnant** | Dwarf (1/30 per exposure). 1 exposure: Ch22 Day 258 (direct). Rolled 9/30 — miss. | — |
+| **Tamsin Vale** | **Not pregnant** | Human (1/20 per exposure). 1 exposure: Ch25 Day 260 (direct). Rolled 18/20 — miss. | — |
+| **Vess** | **Not pregnant** | Human (1/20 per exposure). 1 exposure: Ch42 Day 290 (vial). Rolled 2/20 — miss. | — |
+| **Elara** | **Not pregnant** | Elf (1/10,000 per exposure). 1 exposure: Ch42 Day 290 (vial). Previous pregnancy terminated. Rolled 6,798/10,000 — miss. Virtually impossible per single exposure. | — |
+| **Vorathiel** | **PREGNANT — 5 eggs laid, 1 surviving (female)** | Ancient red dragon (100% chance). 5 exposures Ch42 Day 290–291. 5 eggs, 4 lost to environment, 1 female survives. Dragon gestation/egg-laying timeline unknown at ancient tier. | **No** |
+| **Ignis** | **PREGNANT — 4 eggs laid, 0 surviving** | Young red dragon (100% chance). 1+ exposures Ch39–40 Day 287–288. 4 eggs, all lost to environment. Young dragon — eggs less resilient than ancient tier. | **No** |
+| **Lady Nyx** | **Excluded — undead** | Living Lich. 7 days Ch34. Cannot conceive. | N/A |
+| **Mirenne** | **Excluded — undead** | Vampire. Ch42 vial. Cannot conceive. | N/A |
+| **Virelda** | **Excluded — undead** | Vampire. Ch42 vial. Cannot conceive. | N/A |
 | **Brynn** | **Not pregnant** | Rolled clear vs threshold (`dm_private`) | — |
-| **Senna, Elara, Thessaly** | **Terminated** | — | — |
+| **Senna, Elara (prev), Thessaly** | **Terminated** | — | — |
 
 **Bracken note:** **Ashmere 33→34** quarters repeat **does not** stack a **second** pregnancy (`ashmere_33_34_note` in JSON).
+
+**Racial fertility rates (canon):**
+- **Human:** 1/20 per qualifying exposure
+- **Elf:** 1/10,000 per qualifying exposure
+- **Half-orc:** 1/5 per exposure. Twins/triplets not uncommon (different-gender common). Grow twice as fast as humans, look twice as old but don't physically degrade. High mortality from combat professions. Mursha is 14 mentally but looks 28 — abnormally intelligent for an orc due to Vigor buff.
+- **Dwarf:** 1/30 per exposure (estimated — longer-lived, sturdier biology)
+- **Dragon:** 100% per qualifying exposure. Produce 4–10 eggs. 2/10 survive environment. Age slower than humans and even elves — centuries to reach equivalent of human 18. Grow more powerful and physically larger over time without limit. High mortality for young due to environment and being hunted. Adults require a campaign to take down. Elders+ are considered the domain of gods. Some theorize many gods are simply dragons as old as the stars, their "hobby projects" appearing as core aspects of reality to shorter-lived peoples.
+- **Vampire/Undead:** Cannot conceive.
+
+**Vial note:** Ch42 Underhall Express distribution (Nyx → Vess, Elara, Sera, Mursha, Mirenne, Virelda) — semen vials used vaginally = qualifying exposure for pregnancy. Sera already pregnant (no second pregnancy). Vampires excluded (undead).
 
 ---
 
@@ -1754,6 +1778,7 @@ Only **Pip**, **Sera**, and **Bracken** are **confirmed carrying** as of Day **2
 | pallid_march_border_shift | Ashmere 23 | ongoing | Ashmere 27 (Coalition intake) | in_progress | Border has moved 15 miles north of official maps. Kenji discovered the shift at caravan circle (Ashmere 23-24). **Taryn filed** Bracken-chain intel + commission **Ashmere 27** — **Coalition now has the claim on paper**; speed of *belief* / redeploy still politics-limited. | Shockwave when brass acts on it, not when clerk stamps receipt. |
 | thornfield_recovery | Ashmere 11 | ongoing | local knowledge only | in_progress | Greenveil corruption cleared. Ley lines clean. Village returning. Soil healing. | Thornfield becomes a viable settlement again. Amaris anchors it. Delia rebuilds community. |
 | bane_of_eve_trigger | Ashmere 24 | undefined | N/A | **ACTIVE/TRIGGERED** | **Master trigger — starts all 5 campaign threat clocks simultaneously.** Kenji's identity or location becoming known to the wider world. Possible trigger events: (1) Ember use at scale (Mordecai detects, ripples to allies), (2) Aura overexposure / charm-affected NPC reports a siren-elf aura, (3) **Coalition council review** cross-connects Taryn’s **filed** packet (includes **Kenji** + ronin intel where she swore truth) to wider identification — **delivery already happened**; risk is **political correlation**, not “lost letter,” (4) Amaris's Root Network reaches Millhaven's region, (5) Wynn publishes her research, (6) Vess's intelligence network traces the ronin back to him, (7) **Pip/Sera** (or allies) actively search and succeed — **Senna/Elara** **not** on **pregnancy** **arrival** **list** (**terminated**), (8) Lady Nyx identifies him if encountered and chooses to broadcast. **Any one of these pops the disguise.** **TRIGGERED Day ~275+: Multiple confirmation channels active — (a) Kharn bench record (Ch30: "Champion of the Elves, Archmagus of Varenholm" declared on record), (b) open travel as Anku Nyx through coalition cities for 9 days (green eyes, tattoos, aura, no disguise), (c) Mirenne confirmed Kenji = ArchMagus via Combat Mage token (Ch38). Ronin cover retired Ch37.** | All 5 threat clocks begin counting. **Confirmed** mother arrivals: **Pip** / **Sera** / **Bracken** (see **DM — PREGNANCY TRACKER**). **Mursha** TBD. Vess gets a location to be angry at. Allies stop searching blindly and start converging. The ronin stops working as a cover. |
+| god_emperor_dragon_encounters | Ashmere 69 (Ch42 campaign complete) | ongoing | N/A | **ACTIVE** | **Book 4 campaign completion reward.** Dragon encounter generation system — ambient content layer, not a quest line. Male legendary dragons seek to kill the Dragon Emperor. Female legendary dragons seek to forcefully mate him (survival not guaranteed for him). Scales with reputation in dragon circles. Each dragon color is a different problem (gold = principled opposition, blue = homework and planning, green = social warfare, etc.). Kenji has only ever encountered reds (Ignis, Vorathiel). Full rules and color table in `dm_rules_tracking.md` § GOD EMPEROR. | DM reaches for this when session needs a dragon-scale spike. Generates unique named dragon NPCs. Carries over to future campaigns. |
 | coalition_response_to_border | Ashmere 27 | ~Ashmere 35-40 | Ashmere 27 (packet filed) | pending | Coalition clerk stack **has** Taryn’s border/undead intel; **council** must still **decide** what to do (slow politics). Possible responses: (1) Redeploy garrisons toward Millhaven, (2) Send a fact-finding delegation (risky — they'd go to the grove), (3) Deny it / suppress it to avoid panic, (4) Brief Vess / Katya, (5) Internal vote on Coalition intervention. | Depends on response chosen. Garrison redeployment = allies near Millhaven. Delegation = possibly triggers Pallid March clock. Denial = intel gap persists. Briefing Vess = she demands to know where Kenji is (partial Bane of Eve). |
 
 ### Campaign Goals — The Fraying Empire (5 Threats)
@@ -1776,7 +1801,7 @@ The Pallid March row above is the ONE PUBLIC FACE of the threat — what the Coa
 
 ### Apotheosis tracker
 
-Kenji at 2,270,050 / 2,500,000 EXP. 229,950 to Level 40. Five threats provide the content. Bane of Eve provides daily supplemental. Cap is the cap.
+**APOTHEOSIS ACHIEVED.** Kenji at 2,500,000 / 2,500,000 EXP. Level 40. Awarded on Book 4 campaign completion — all five continental threats resolved. Mechanical cap reached.
 
 ---
 
@@ -1816,7 +1841,7 @@ Forces given sentience. No moral alignment. Thirrin + Solveth = the junior pair,
 
 | Name | Home-World Homage | Level | Current Location | Pulled By |
 |------|-------------------|-------|------------------|-----------|
-| Kenji | — (original PC) | 20 (→40 at apotheosis) | Varenholm / mobile | Aelith |
+| Kenji | — (original PC) | 40 (Apotheosis ACHIEVED) | Varenholm / mobile | Aelith |
 | Auren Greyholm | Arthur / TBATE | 28 | Silvandris | Aelith |
 | Jessica Windveil | Ilea / Azarinth Healer | 27 | Unknown | Aelith |
 | Zarek Ashborne | Zac / Defiance of the Fall | 26 | Cinderpeak | Aelith |

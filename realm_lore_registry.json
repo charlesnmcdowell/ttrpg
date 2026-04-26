@@ -3,8 +3,147 @@
   "schema_version": 1,
   "universe_id": "combined_realm_v1",
   "calendar": {
-    "era_label": null,
-    "notes": "Optional: set era_label when you want a named year in prose. Per-campaign day counters in *_state.json stay local unless you sync for a crossover."
+    "era_label": "Kingdom of Ankunyx — Year 25",
+    "notes": "25 years after Book 4 conclusion. The Kingdom of Ankunyx is the current continental authority. New campaigns begin in this era. Per-campaign day counters in *_state.json stay local."
+  },
+  "kingdom": {
+    "name": "Kingdom of Ankunyx",
+    "ruler": "AnkuNyx the Dragon Emperor (born Kenji)",
+    "age_of_kingdom": 25,
+    "governance": "Decentralized — each territory retains local leadership, all answer to Ankunyx. Unity maintained by fear of regime change.",
+    "ruler_behavior": "Disappears for months/years at a time. Stewards and regional leaders manage day-to-day. Disputes settle when he returns.",
+    "kingdom_laws": [
+      "Hunting dragons is illegal (capital offense)",
+      "Vampires are citizens with full legal standing",
+      "Orcs serve as licensed mercenary corps",
+      "Dwarves are kingdom engineers (trade open with Kharn-Dural)",
+      "Necromancy remains broadly illegal except under licensed conditions"
+    ],
+    "territories": [
+      "Heartland (Varenholm, Duskfen, Bleakmoor — institutional core)",
+      "Coalition provinces (Crestfall, Stormhaven, Ironholt, Thornwall, Thornkeep, Ashward Mines, Mordecai Ridge)",
+      "Deepwood / Silvandris (elven, broad autonomy)",
+      "Cinderpeak (mining)",
+      "Vyranth (integrated former empire)",
+      "Ashenmere (eastern coast port)",
+      "Millhaven (southern border)",
+      "Kharn-Dural (dwarven undermountain)",
+      "The Sunderplains (orc mercenary territory)",
+      "Dragonspine Mountains (dragon territory, protected)",
+      "The Ashenveil (Nyx's domain — Ashenveil Academy, open to the living)",
+      "Eastern frontier (Thornfield, Briarstone, Greenveil — remote)"
+    ],
+    "playable_races_added": ["Ankuspawn"],
+    "notable_figures_post_timeskip": [
+      {
+        "name": "Old Guard — Aging Companions",
+        "description": "All mortal companions aged to 50s. Retired, settled, or MIA. All prior goals WIPED (25 years). Find-Kenji women all found him, bore Ankuspawn, settled down. Their children (24-25) are the oldest Ankuspawn generation.",
+        "mothers_curse": "Women who bore Ankuspawn cannot conceive with other men afterward. Biological/magical side effect of carrying an Ember-touched child. Universal across all of Kenji's ex-lovers. This is why Vess needs Nyx's elixir.",
+        "encounter_locations": [
+          {"name": "Pip", "location": "Inn (heartland)", "note": "FROZEN GOAL: missing child — captured by Nyx. Husband helps run inn, no children with him (Mother's Curse). On-ramp to Cult of Anku quest."},
+          {"name": "Amaris", "location": "Farm (Thornfield / Briarstone, eastern frontier)", "note": "Married a local farmer, no children with him (Mother's Curse). Ankuspawn children in their 20s. Moved on from Kenji."},
+          {"name": "Sera", "location": "Stormhaven port", "note": "Darkblades now legitimate maritime security. Semi-retired. Ankuspawn raised on ships."},
+          {"name": "Others", "location": "Various — define when encountered", "note": "Pattern: found husbands, unable to conceive (Mother's Curse). Some MIA."}
+        ],
+        "prior_pcs_as_npcs": "All prior player characters exist as NPCs at their last known state. Campaigns are character-agnostic — any PC can play any campaign. Kenji = wandering Dragon Emperor NPC. Amaris = farmer NPC near Thornfield.",
+        "active_goals_surviving": ["Nyx (Anku conspiracy)", "Elf sisters + Eldest (raising Ousaki)", "Pip (frozen — missing child)"]
+      },
+      {
+        "name": "Vess & Mirenne — Coalition Heartland",
+        "race": "Human (Vess, ~80, looks ~40 via Vigor) / Vampire-citizen (Mirenne)",
+        "role": "Head of Council (Vess) / Shadow administrator (Mirenne) — govern the human coalition territories",
+        "description": "Vess rose to Head of the Council for the coalition. She and Mirenne maintain law and order over a mixed society of humans, undead, orcs, and dwarves. Dwarven artisans have cornered the blacksmith and enchantment markets. Vess is rumored to be in an intimate relationship with Korrim 'The Stone' (dwarven thane) — wedding expected this year. Fertility concern: Vess may be seeking Nyx's elixirs to conceive, potentially connecting her to the Cult of Anku plotline without knowing it.",
+        "bond": "Soul Nexus bonds to AnkuNyx (both Vess and Mirenne)",
+        "location": "Coalition heartland (Varenholm area)",
+        "plot_hooks": ["Korrim wedding (diplomatic event)", "Fertility elixir search (connects to Nyx/Ankuspawn harvesting)", "Human-dwarf political marriage"]
+      },
+      {
+        "name": "The Eldest & Deepwood / Silvandris",
+        "race": "Elven",
+        "role": "Unchanged — forest grows healthier, elven community grows slowly",
+        "description": "25 years is nothing to elves. The Deepwood is healthier, the wards stronger, the three sisters barely aged. Kenji spends most of his disappearing stretches here with Faelindra, Sylindra, and Vaelith. Each sister bore one child — the three Ousaki (Guardians of the Forest). Elven community largely unchanged.",
+        "location": "Deepwood / Silvandris (closed to outsiders)"
+      },
+      {
+        "name": "The Ousaki (3 half-elf Ankuspawn)",
+        "race": "Half-Elf Ankuspawn",
+        "role": "Guardians of the Forest — children of the three sisters and Kenji",
+        "description": "Three half-elf children, one from each sister. Age at human speed, half-elf features, heavily favor their mothers. The Mage (Faelindra's — fast caster, arcane acceleration), the Warrior (Sylindra's — immense combat skill, reads fights), the Druid (Vaelith's — forest attunement rivaling the Eldest, possible successor). Known only within Silvandris as 'Ousaki.'",
+        "location": "Deepwood / Silvandris (do not leave the forest)",
+        "ankuspawn_note": "These are Ankuspawn but the elves don't use that term. Each has their own Ember spark manifesting through their specialty.",
+        "secret": "The Ousaki secretly feel the Deepwood is too small. They dream of challenging their father and taking what he built. Unknown to them, the moment they leave the forest, Nyx's cult will detect three high-value Ankuspawn targets. Collision course — neither side knows.",
+        "parents_goal": "The three elf sisters + the Eldest: raising the Ousaki. Their entire focus."
+      },
+      {
+        "name": "Vorathiel (Ancient Black Dragon)",
+        "race": "Ancient Black Dragon",
+        "role": "Dragonspine Matriarch — unchanged",
+        "description": "Has not changed in 25 years. Rules the Dragonspine the same way she always has. Most dragons stay in the mountains or their territories. Few travel like Ignis, and those who do are frowned upon by traditional flights. Dragon culture remains: the strong rule, the weak die. Dragons don't change.",
+        "bond": "Soul Nexus #25 — bonded to AnkuNyx",
+        "location": "Dragonspine Mountains (permanent)"
+      },
+      {
+        "name": "Ignis (The Firebird)",
+        "race": "Elder Fire Dragon",
+        "role": "Traveling bard / performing artist",
+        "description": "Fantasy pop star. Graduated bard school, mastered multiple instruments. Songs and voice known kingdom-wide. Performs with a magical fireworks show powered by her own dragon fire. One of the most publicly visible dragons in the kingdom. Major positive influence on dragon-humanoid relations.",
+        "bond": "Soul Nexus #24 — bonded to AnkuNyx (not widely known)",
+        "location": "Traveling — performs across the kingdom"
+      },
+      {
+        "name": "Nyx (The Lich Queen)",
+        "race": "Former Lich — now 'mostly alive' (vampirism cure applied to self)",
+        "role": "Wife of AnkuNyx / Headmistress of the Ashenveil Academy / Founder of the Cult of Anku",
+        "description": "Grew tired of Kenji's womanizing. Opened the Ashenveil to the living. Built a prestigious dark arts academy (soul magic, necromancy, dark arts). Discovered a cure for vampirism using harvested essence from Kenji. Founded the secret Cult of Anku — women dark arts practitioners who seduce Kenji to harvest his sperm, which Nyx uses in her research. Recently escalated to capturing and imprisoning mature Ankuspawn to harvest their blood, essence, and Ember fragments for potent elixirs. Rumors spreading but no one dares investigate the Dragon Emperor's wife.",
+        "bond": "Wife of AnkuNyx — the kingdom is named after both of them",
+        "location": "The Ashenveil Academy (southeast marshlands)",
+        "threat_level": "Campaign-tier hidden antagonist",
+        "known_operations": [
+          "Ashenveil Academy (public — legitimate institution)",
+          "Cult of Anku (secret — sperm harvesting via Bane of Eve infiltration)",
+          "Ankuspawn imprisonment and resource harvesting (secret — recent escalation)",
+          "Elixir production from Ankuspawn biological resources (secret)"
+        ],
+        "research_findings": {
+          "replication_of_kenji": "FAILED — his nature cannot be synthesized",
+          "vampirism_cure": "SUCCESS — uses harvested essence in quantity to restore life to undead",
+          "ankuspawn_biology": "SUCCESS — confirmed individual Ember sparks, female Ankuspawn high-value targets, all stronger than normal but weaker than Kenji",
+          "ember_nullification": "SUCCESS (SECRET) — Works on Ankuspawn AND Kenji himself. Cult carries nullification gear. Kenji does not know.",
+          "nuclear_option_vs_kenji": "If Kenji is warned or confronts Nyx, she nullifies his Ember. Without it he's a Level 40 charming rogue: INT 9, stats below 20, no Soul Nexus, no regeneration, no dragon form, no Vigor. All perks are Ember-based. She cells him. Sex without Ember protection = thrall. She prefers not to use this (he's more valuable operational) but WILL if forced. 'Just tell Kenji' = worst possible outcome for the player.",
+          "ankuspawn_vs_kenji_difference": "Ankuspawn are young — may learn new tricks outside Ember. Kenji is 100% Ember-dependent after 25 years. His time has passed. He never trained anything else."
+        },
+        "elixir_catalog": [
+          "Elixir of Titan's Might — x100 physical strength (duration-based)",
+          "Elixir of Infinite Wells �� unlimited spell slots (duration-based)",
+          "Elixir of Adamantine Skin — immune to physical damage (duration-based)",
+          "Elixir of Restoration — increases fertility, reverses aging, cures ailments",
+          "Others expanding — raw Ankuspawn Ember essence is versatile"
+        ],
+        "campaign_category": "kingdom-spanning (elite — requires discovery, not arrival)",
+        "trigger_sequence": [
+          "1. Find a mother (Pip, Amaris, Sera, or any ex-lover NPC)",
+          "2. Get the quest (missing Ankuspawn child)",
+          "3. Encounter a cult member and SURVIVE (Level 30+ — this is the gate)",
+          "4. Conspiracy opens — player decides how deep to go"
+        ],
+        "cult_member_profile": {
+          "level": "30+ minimum",
+          "alignment": "Chaotic evil",
+          "classes": "Assassins, necromancers, poison specialists, charm wielders, curse wielders, witches, dark magic multiclass",
+          "appearance": "All female, all races (human, elf, half-orc, dwarf, halfling, dragonborn, vampire, dragon in shifted form — any humanoid in the kingdom). Extremely beautiful and seductive (operational requirement — must match whatever Bane of Eve draws).",
+          "buffs": "All carry Kenji's Vigor buff (acquired through seduction missions)",
+          "gear": "Ember nullification wards on capture missions",
+          "operational_rule": "One warning — a friendly stranger tells you to stop looking. That's the get-out-of-jail-free card. Keep digging after the warning and the next visit is lethal. No second warnings.",
+          "primary_mission": "Seduce Kenji, harvest semen in vials, deliver to Nyx"
+        },
+        "invisible_to_kenji": "HARD RULE — The conspiracy is undetectable by Kenji. Cult members are indistinguishable from Bane of Eve encounters (no roll, no check). Nyx keeps him distracted with days of sex when he visits. He doesn't track his children. This campaign CANNOT be solved by playing as Kenji. Requires a different character to see what he can't.",
+        "campaign_scenarios": {
+          "scenario_1_hidden": "Plot never discovered or not acted on. Ankuspawn remain hunted. Elixirs spread to wider markets. Status quo worsens slowly.",
+          "scenario_2_discovered_not_stopped": "Player knows truth but cannot/will not stop Nyx. Ankuspawn PCs must live with it. Ember nullification means they can't power through — must use non-Ember skills to survive.",
+          "scenario_3_dark_side": "Non-Ankuspawn PCs can work for the cult. Massive gold + free elixirs per captured Ankuspawn delivered to Nyx. Genuine player choice, played straight."
+        }
+      }
+    ]
   },
   "realm_docs": [
     "shared_world_continuity.md",
@@ -28,9 +167,13 @@
     },
     {
       "id": "kenji",
-      "character": "Kenji",
-      "status": "active",
+      "character": "Kenji / AnkuNyx the Dragon Emperor",
+      "status": "complete",
+      "outcome": "success",
+      "final_level": 40,
+      "final_title": "Dragon Emperor, Apotheosis",
       "state_file": "Kenji/Game init files/kenji_state.json",
+      "endgame_file": "Kenji/Game init files/book4_endgame_tracker.md",
       "story_files": [
         "Kenji/Game init files/Kenji_story_book1.md",
         "Kenji/Game init files/Kenji_story_book2.md",
@@ -60,7 +203,8 @@
         "The Sunderplains (Orc Steppe)",
         "Dragonspine Mountains"
       ],
-      "lore_role": "Continental-scale arc across 4 books. Book 1-2: Academy rise, ArchMagus title, portals, constructs, Bleakmoor convergence. Book 3 (Iron Crown War): conquered Vyranth, ended continental war in 16 days. Book 4 (The Fraying Empire): abdicated, hiding as ronin under alias 'Taryn'; five existential threats converging on the coalition he built. Campaign success = all five threats resolved. Campaign failure = kingdom falls to any single threat."
+      "lore_role": "Continental-scale arc across 4 books — CAMPAIGN COMPLETE (SUCCESS). Book 1-2: Academy rise, ArchMagus title, portals, constructs, Bleakmoor convergence. Book 3 (Iron Crown War): conquered Vyranth, ended continental war in 16 days. Book 4 (The Fraying Empire): resolved all five existential threats (Ashenveil undead, Sunderplains orcs, Kharn-Dural dwarves, Dragonspine dragons, Ashenmere vampires). United all territories into the Kingdom of Ankunyx. Achieved Level 40 Apotheosis. 25 Soul Nexus bonds. Now rules as Dragon Emperor — the most powerful entity on the continent. Active perks: Bane of Eve (female encounters), God Emperor (dragon encounters).",
+      "supersedes_note": "2026-04-26: Campaign marked complete. All five threats resolved. Kingdom of Ankunyx established. 25-year timeskip applied. Kenji is now lore — the Dragon Emperor."
     }
   ]
 }
