@@ -642,6 +642,100 @@ Use **one** mode per scene unless the arc is explicitly crossing a boundary. Rul
 
 ---
 
+## Drazhara — Dragonborn Elder / Trading Post Owner (Dragonspine lower peaks)
+
+**Build:** 6'6", broad-shouldered, powerful. Built like a woman who has hauled stone and timber her whole life. Solid feminine figure — weight in chest and hips, reads as *powerful* rather than soft. Long scaled legs, digitigrade feet with dark claws that click on stone.
+
+**Hair:** None — scaled head with two swept-back charcoal horns curving along the skull like a natural crown.
+
+**Face:** Strong angular jaw. Fine-grained bronze scales covering face and neck — shift between copper and gold depending on firelight angle. Brow ridges expressive. One defining feature: the horns frame her face like a crown she was born wearing.
+
+**Eyes:**
+- Default: Copper-gold, slit-pupiled, sharp and expressive. More readable than expected for a dragonborn.
+- IP stack ~1 (Ch39): Faint softening around the eyes, grip relaxes, warmth that reads as *attention* — decides you're worth a longer look. Not submission, not infatuation.
+
+**Skin/Scales:** Bronze scales cover entire body — fine-grained, almost textural rather than armored. Catch hearth-light and shift copper-to-gold. Backs of hands scaled.
+
+**Hands:** Herb-dusted, clawed. Working hands — strong, calloused beneath the scales.
+
+**Wardrobe:** Leather apron over wool tunic (working clothes at the trading post). Practical mountain wear.
+
+**Carries herself:** With the patience of someone who has waited twenty years for something. Controlled. Reptilian head-tilts when curious. Scent-reads visitors (nostrils flare, chin lifts — dragonborn sensory assessment). Radiates guarded authority.
+
+**Voice:** Low, resonant — comes from deeper in the chest than a human voice. Measured.
+
+**Dragonborn scent-reading:** Can smell magical signatures. Read Kenji as "ember and entropy, old death, and something without a word."
+
+**Context:** Met Ch39 Day 286. Kenji and Nyx arrived at her trading post guided by Skratch. First dragonborn Kenji has ever met. IP failed (19 vs DC 23, stack ~1). Leads ~200 dragonborn in the lower peaks — farmers, miners, traders caught between dragon flights and human flatlands. Wants a Reckoning seat for her people.
+
+---
+
+## Skratch — Kobold Prophet (base of Dragonspine)
+
+**Build:** Barely 3 feet tall. Tiny, manic energy. Full-body shrugs.
+
+**Hair:** None — scaled with small horn-nubs.
+
+**Face:** Enormous amber eyes with slit pupils. Snout. Expressive in an overwound, caffeinated way.
+
+**Eyes:** Amber, slit-pupiled. Enormous. Lock onto targets and don't blink.
+
+**Skin/Scales:** Kobold scales (small, muted color).
+
+**Wardrobe:** Patchwork robe stitched from at least six different fabrics, none matching. Drags behind him like a tiny indignant flag.
+
+**Carries himself:** Manic. Talks constantly. Walks fast for his size — little legs churning. Starts walking, stops, turns back, walks toward you again, commits on the third try. Eats like he's never been fed.
+
+**Voice:** High, scratchy — like a rusty hinge.
+
+**Context:** Met Ch39 Day 286 outside Ridgecrest Inn, Thornridge. Waited 11 years at the base of the Dragonspine for "the fire-man." Saw a vision in a puddle: "a man made of fire kneeling before two mountains." Wrong about almost everything — might be right about this. Level 4. Guided Kenji and Nyx to Drazhara's trading post.
+
+---
+
+## Ignis — Young Red Dragon / Bonded Mate #24 / "Sorcerer" (Dragonspine)
+
+### TWO FORMS
+
+**HUMANOID FORM — "the Sorcerer"**
+
+**Build:** Voluptuous. Full chest, wide hips, long legs, narrow waist — a body built for attention she doesn't fully understand how to manage yet. Not athletic muscle, not softness either — just *warm*. Heat radiates off her constantly — actual thermal output, air shimmers within arm's reach. Taller than she was when first compressed; settling into the shape now. Bare skin always slightly flushed, like she's been sitting by a fire.
+
+**Hair:** Copper-red to gold, thick, wavy, past the shoulders — untamable. Catches firelight and *becomes* fire. Shifts between deep auburn in shadow and molten gold in direct light. Loose and wild by default. Frames her face in heavy waves. Occasionally pinned half-up for practical reasons but fights its way free.
+
+**Face:** Young — early twenties in human terms. High cheekbones, full lips with a natural pout, strong brow. Beautiful in a way that's slightly too intense to be comfortable — the proportions are *almost* human but something in the symmetry is too perfect. Smoke curls from her nostrils and sometimes from parted lips — faint wisps, constant, like a banked fire breathing. She doesn't notice it. Everyone else does.
+
+**Eyes:**
+- Default: Amber, bright, large. Slit pupils she can mostly suppress but forget to when excited or tired. Backlit like honey held to a candle.
+- Post-Vigor (Ch39): Bright green ring around iris. Glows through closed lids. Visible in darkness.
+- IP stack ~6-7: Glazed amber-green. Warm. Completely open. Pupils blown.
+- Off-stack/baseline: Returns to pure amber.
+
+**Skin:** Warm bronze, always flushed. Faint scale patches along jawline and down neck — red-gold, fine-grained. More patches on forearms to wrists. She covers them with sleeves when in public. When emotional, the scales flare bright (dragon blush). No freckles, no blemishes — dragon skin doesn't scar in compressed form.
+
+**Hands:** Long fingers, no claws in humanoid form. Restless — picking at hems, tracing patterns, tapping. Hands of someone who's never had to sit across from another person and is learning how.
+
+**Wardrobe — Adventure Gear ("Sorcerer" cover):** Deep red and crimson robes/corset combinations — layered, laced, with gold filigree stitching. High-slit skirts for movement. Flowing sleeves that cover the forearm scales. Sometimes a cream or white traveling cloak over the red. Gold earrings, black choker. Carries a fire staff — ornate, dark metal, perpetually lit at the tip with real flame (her flame, not enchantment). Looks like a high-end sorcerer who was born to fire magic. No shoes sometimes; boots when she remembers.
+
+**Wardrobe — Intimate/Private:** Black or deep red lace. Lingerie she's discovered she *likes* — the textures, the way fabric feels on skin she's only had for days. Sheer, ornate, impractical. Smoke still curling from her lips even in bed. Green glow through the lace at the belly when Vigor is active — the soul mark visible through thin fabric.
+
+**Wardrobe — Tavern/Casual:** The same red-and-gold aesthetic but looser. Corset dress, deep neckline, gold embroidery. Drinks beer. Eats everything. Marvels at flavors. Sits at the bar radiating heat and drawing stares she doesn't fully register.
+
+**Carries herself:** Curious first, fierce second. Leans into everything — food, conversation, new experiences. Smoke curls from her when she laughs. Heat spikes with emotion. In public she plays the sorcerer — confident, a little mysterious, doesn't explain her power. In private she's discovering what it means to have a body someone wants to touch. Everything is still new. Still gasps at things.
+
+**Voice:** Human with a harmonic undertone — a second voice an octave below, faint. Stronger when nervous or when dragon instinct surfaces. Thinner and more girlish when relaxed. Cracks when emotional.
+
+**Scent:** Sulfur, copper, mountain sage, heat-ozone. Sweeter up close — something like warm cinnamon under the smoke.
+
+**Cover Story:** Tells strangers she's a sorcerer — says red dragon blood runs in her lineage. Doesn't expand on it. Changes the subject. No arcane training, no spellbook, no familiar — just raw fire magic far beyond what any trained wizard could produce. Can't explain theory or technique because she doesn't have any. The fire just *comes*. People who know magic notice the gap between her power and her knowledge — she's too strong for someone who can't name a single arcane school.
+
+**TRUE DRAGON FORM**
+
+**Build:** 30ft nose to tail. Young Red Dragon, L18. Magnificent. Red-gold scales catching sunset like hammered fire. Wings that block the sky. Claws the length of a forearm. Fire breath that melts stone. This is what Drazhara wears when she swaps into Ignis's body for dragon dealings.
+
+**Context:** Met Ch39 Day 287 evening on granite shelf. Vorathiel's youngest, L18. Three secret lowland visits to watch humans. Curious about music, food, culture. Soul Nexus Bond #24 — chose Kenji willingly. Vigor ×4, IP stack ~6-7. Mating in dragon form visible for miles. Soul-fused with Drazhara (Ch40 Day 288) — they swap bodies at will. When adventuring in human form, Ignis poses as a sorcerer with draconic heritage. Her fire magic is devastatingly powerful — far beyond any trained wizard — but she has zero arcane education and can't explain how it works. Joins new parties to see the world, experience humanoid culture, eat new food, hear music.
+
+---
+
 ## DM Checklist — New Character Introductions
 
 When introducing ANY new named NPC for the first time, establish:

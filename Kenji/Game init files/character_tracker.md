@@ -1,8 +1,8 @@
 # Character Tracker — Kenji TTRPG
 
-**Current In-Game Date:** Ashmere **54** late afternoon, 1247 AR — **Day** **276** — **Ashenmere** **(coalition port city, Red Court CONQUERED)**  
-**Current Location:** **Kenji** **—** **Ashenmere**, Alabaster Court second floor consultation room. **IDENTITY: ANKU NYX (open)** — green eyes, tattoos, aura visible; no mask, no hat, no disguise. **Red Court CONQUERED** — Lady Mirenne (Elder Vampire L28) submitted to Nyx. Chain: Mirenne → Nyx → Kenji. Virelda (vampire analyst) also submitted. Both received Vigor via Nyx (intermediary transfer). **Aggressive vampire expansion ordered:** Virelda to Veldmere (tonight), Mirenne coordinating Harrowgate remotely. 2-week timeline. Combat Mage token shown — Mirenne connected Kenji to ArchMagus file. **Mursha deadline reset** Day 290 (Solveth relay — bench still grinding, 2 more weeks). Orc blockade active. **Purse** **~1295 GP / 181 SP**. **HP 6,288/6,288**; all charges at LR; **L6: 2/2**.
-**BOOK 4 — Ch37 COMPLETE** (played live). **Ch36** — `fraying_empire_chapter_36.md` (**The Heist of Varkul**). **Ch35** — `fraying_empire_chapter_35.md` (**What We Are**). **Ch34** — `fraying_empire_chapter_34.md` (**Seven Days**). **Ch33** — `fraying_empire_chapter_33.md` (**Anku Nyx**). **Threat 1 Hollowing** — **seam pinned, not closed; Kharn blockaded (20K orcs on roads)**. **Threat 2 Pallid March** — **ALLIED; March impregnable (Vigor-enhanced undead); 612 anchors prostrate**. **Threat 3 Iron Horde** — **NEUTRALIZED; Gorath dead, puppet chief operational, 60K orcs under covert control via Nyx enthrallment; 20K deployed to Kharn blockade**. **Threat 4 Red Court** — **ACTIVE; Ashenmere infiltration; recon begun; Alabaster Court membership purchased**.
+**Current In-Game Date:** Ashmere **68**, 1247 AR — **Day** **290** — **Kharn-Dural — parley ground, neutral territory** (morning)  
+**Current Location:** **Kenji** **—** Kharn-Dural parley ground. **Ignis Soul Nexus Bond #24.** **Dragon God form UNLOCKED** (Elder Black Dragon 1/day, Ignis bond required). **Dragon tattoo COMPLETE** — magnificent black dragon wrapping torso/back/arms, warm, alive, breathes with Kenji, purple lightning flickers with heartbeat. **Bonded Lovers 24** (+24 STR / +24 CON). **IDENTITY: ANKU NYX (open)** — green eyes, tattoos, aura visible; no mask, no hat, no disguise. **Red Court CONQUERED** — Lady Mirenne (Elder Vampire L28) submitted to Nyx (Ch38). Chain: Mirenne → Nyx → Kenji. Virelda (vampire analyst) also submitted. Both Vigor EXPIRED (~Day 281). **Aggressive vampire expansion ordered:** Virelda to Veldmere, Mirenne coordinating Harrowgate remotely. 2-week timeline. Combat Mage token shown — Mirenne connected Kenji to ArchMagus file. **Gorath puppet TERMINATED** — named Mursha warchief, Magra confirmed death, 12 captains witnessed. **Continental summit convened** — all factions present at Kharn parley ground. **Mursha deadline TODAY** (Day 290 — bench still grinding at Kharn). Orc blockade active. **Bane of Eve: TRIGGERED** (identity declared on Kharn bench record Ch30, open travel as Anku Nyx, Mirenne confirmation). **WORLD EVENT: Continental summit convened at Kharn-Dural Day 290** — all major factions present (coalition, elves, dwarves, orcs, dragons, vampires, dragonborn, undead). Vorathiel demanding explanation for black dragon scent on Ankunyx. **Purse** **~1160 GP / 181 SP**. **HP 6,288/6,288**; all charges at LR; **L6: 2/2**.
+**BOOK 4 — Ch40 COMPLETE** (played live, "The Table"). **Ch39 COMPLETE** (played live, "The Fire-Man"). **Ch38** (played live). **Ch37** (played live). **Ch36** — `fraying_empire_chapter_36.md` (**The Heist of Varkul**). **Ch35** — `fraying_empire_chapter_35.md` (**What We Are**). **Ch34** — `fraying_empire_chapter_34.md` (**Seven Days**). **Ch33** — `fraying_empire_chapter_33.md` (**Anku Nyx**). **Threat 1 Hollowing** — **seam pinned, not closed; Kharn blockaded (20K orcs on roads); Mursha deadline Day 290 = TODAY**. **Threat 2 Pallid March** — **RESOLVED; Kenji controls Nyx via soul bond, Nyx controls the March; 612 undead prostrate; March impregnable and allied**. **Threat 3 Iron Horde** — **RESOLVED; Gorath puppet terminated Day 288; Mursha named warchief by dying declaration; Magra Bloodtusk confirmed death; 60K orcs waiting at Kharn for new warchief**. **Threat 4 Red Court** — **RESOLVED; Mirenne submitted to Nyx (Ch38); vampire expansion ordered (Veldmere + Harrowgate); Mirenne knows Kenji = ArchMagus**. **Threat 5 Twin Wyrms** — **IN PROGRESS; Drazhara-Ignis merger COMPLETE (INT 88, advantage, Pallid March Day 288); Ignis sorcerer cover active; Drazhara deployed dragon form for patrol; Continental summit convened Day 290**.
 **Active Book:** Book 4 — Fraying Empire (The Ronin Arc)
 
 > **Cross-references:** **Arc clarity (core problem, regional stakes, NPC agendas)** → `arcs/ARC_STANDARD.md` (Kharn example: `arcs/north_relay_two_chapter_plan.md` § *Kharn forge crisis*) | DM behavior rules → `dm_rules_tracking.md` (**MIA PROTOCOL** + **🎯 ALIVE / IN-PLAY NPC — GOAL INVARIANT** + **Scene skill preroll** + **Player success integrity**: roll before outcome-dependent prose; PC success = player-favorable beat; no NPC Perception auto-win / no “gotcha” undo) | Game engine & mechanics → `ttrpg_game_engine.py` (`skill_roll`, `contested_skill`, `build_skill_modifier`, CLI `skill`) | Live state → `kenji_state.json` | Cursor agent rule → repo `.cursor/rules/kenji-scene-skill-gates.mdc`
@@ -33,14 +33,14 @@ Every character entry includes a **Morale Compass** value. Use it to decide how 
 
 **Status:** alive
 **Level:** 35
-**Location:** **Ashenmere** — coaching inn near portal district, **Ashmere** **54** **morning** **Day** **276**. **Coalition port city (Red Court territory).** Identity: **ANKU NYX (open)** — green eyes, tattoos, aura visible; no mask/hat/disguise. Coalition formal wear. Registered at Alabaster Court as "Anku Nyx." Salon tomorrow (Restday). Nyx beside him (Lady form, green dress). Portal anchored near Varkûl for return. **HP 6,288/6,288** (regen 1,048/sec); all charges at LR; **L6: 2/2** (full). **Purse ~1295 GP, 181 SP** (`kenji_state.json`).
-**Last Updated:** Ashmere **54** / Day **276** — **Ch37** *Ashenmere — Red Court Recon*
+**Location:** **Kharn-Dural — parley ground** — Day 290, Ashmere 68. **Ch40 COMPLETE.** Identity: **ANKU NYX (open)** — green eyes, tattoos, aura visible; no mask/hat/disguise. **Ignis Soul Nexus Bond #24.** Dragon God form unlocked (Elder Black Dragon 1/day). Dragon tattoo complete. **Bonded Lovers 24** (+24 STR / +24 CON). Mursha deadline Day 290 = TODAY. **HP 6,288/6,288**; all charges at LR; **L6: 2/2** (full). **Purse ~1160 GP, 181 SP**.
+**Last Updated:** Ashmere **68** / Day **290** — **Ch40** *The Table*
 
 **Physical:** `npc_appearance.md` § **Kenji — Ronin / Blade Channeler**
 **Disposition:** N/A (protagonist)
 **Morale Compass:** Neutral (Player Character — Hiro's call; shiftable as Kenji develops)
 
-**Abilities (full ArchMagus kit — most are SUPPRESSED in Ronin mode):** Enhanced Arcane Edge, Haste, Stride (L4), Wind Step (70m), God Sight (120ft darkvision + crit targeting), Greater Invisibility, Clone (smoke bomb), Radiant Edge, Ward Mastery (L4), Living Ground (druid bond), Diagnostic Touch, Bond-Form Sight, Captain's Read, Irresistible Presence (Siren-Elf aura; full rules → `kenji_tracking_OBSOLETE.md` § IRRESISTIBLE PRESENCE), Portal Gateway, Lover's Vigor (see same subsection), Scribe's Eye (Tamsin bond — passive omnilingual literacy), Paper Memory (Tamsin bond — 1/LR perfect document recall 24h)
+**Abilities (full ArchMagus kit — most are SUPPRESSED in Ronin mode):** Enhanced Arcane Edge, Haste, Stride (L4), Wind Step (70m), God Sight (120ft darkvision + crit targeting), Greater Invisibility, Clone (smoke bomb), Radiant Edge, Ward Mastery (L4), Living Ground (druid bond), Diagnostic Touch, Bond-Form Sight, Captain's Read, Irresistible Presence (Siren-Elf aura; full rules → `kenji_tracking_OBSOLETE.md` § IRRESISTIBLE PRESENCE), Portal Gateway, Lover's Vigor (see same subsection), Scribe's Eye (Tamsin bond — passive omnilingual literacy), Paper Memory (Tamsin bond — 1/LR perfect document recall 24h), **Dragon God** (Ignis bond #24, Ch39 — 1/day transform into Elder Black Dragon: 40ft, black scales, purple lightning, green glowing eyes. Requires Ignis bond active. Ignis can revoke.)
 
 ### Irresistible Presence & Lover’s Vigor (female humanoids) — authoritative summary
 
@@ -353,6 +353,20 @@ Relay-town inn cast; names from `npc_name_bank.md`. Full coloring → `npc_appea
 - **Long rest (Ashenmere inn).** All charges restored. L6: 2/2 (full). HP 6,288/6,288.
 - **End:** Day 276 morning (Ashmere 54) — Ashenmere, coaching inn near portal district. Alabaster Court salon tomorrow (Restday evening). Kenji as Anku Nyx (open). Nyx beside him. Red Court recon active. EXP 2,270,050. Purse ~1295 GP / 181 SP. All charges at LR values.
 
+### Ch38 — *The Alabaster Court* (played live, NO PROSE FILE)
+- **Alabaster Court afternoon** — Kenji drank wine by the bay window, watched Nyx work the room for over an hour. Nyx mapped all three vampires: Virelda (analyst, folio woman, most dangerous), hearth vampire (muscle/exit), window vampire (handler — trailing Nyx's wake, interviewing her contacts). Nyx poisoned her own trail — fed the handler stale conversations (wedding cake flavors instead of harbor tariffs).
+- **IP sweep** — Every woman in the room failed WIS saves vs DC 23. Virelda (16, then 8 on direct contact — stack ~5), Madame Lysenne (8 — stack ~3-4), pearl-comb woman (16 — stack ~2-3), textile sister #1 (21 — stack ~1-2, barely failed), textile sister #2 (13 — stack ~3). Six for six. Mirenne (10 — stack ~2-3 on arrival).
+- **Virelda recruited** — Kenji asked Lysenne for introduction (Persuasion 172 vs DC 15). Performance (170 vs DC 17) + eyes-to-lips stare got Virelda to a private consultation room upstairs. Persuasion (180 vs DC 21) convinced her to summon Mirenne ("the deal is too big for an intermediary").
+- **The story** — While waiting for Mirenne, Kenji told Virelda the truth as Performance (168 vs DC 18): isekai, ember, entropy god, lich seduction, puppet orc chief. Framed as a story. Every word true.
+- **Lady Mirenne arrives** — Elder Vampire L28, dark hair, black dress, silver chain. Passive cold aura. Nyx followed uninvited, locked the door. Four people in a windowless room.
+- **Three options** — Kenji laid out: (1) run — humiliating, he dismantles the org; (2) fight — Nyx kills them, restart conversation; (3) submit under Nyx. Mirenne negotiated conditions: keep her city/architecture, keep Virelda as her second, regular meetings with Kenji. Accepted.
+- **Vigor transfer (intermediary method)** — Kenji and Nyx had sex in the consultation room (Nyx rode him, voyeurism deliberate). First release: Nyx kept for herself (selfish). Second release: caught orally, transferred to Mirenne then Virelda. Both received Lover's Vigor (~5 days). Mirenne's first heartbeat in 200 years — cried without knowing it. Virelda collapsed, feeling her own skin. **No new bonds formed** — Nyx was intermediary, not Kenji directly. Bonded count still 23.
+- **Vampire expansion orders** — Kenji told Nyx directly (ignoring vampires): aggressive expansion, 3 cities, 2-week timeline. Mirenne proposed: Virelda to Veldmere (harbor master old debt, 10 days operational), Mirenne coordinates Harrowgate remotely (dormant captain she turned 40 years ago). Ashenmere stays clean as home base. "Expect to lose pawns."
+- **Solveth relay to Mursha** — Kenji meditated on Frost Fang bond. Impression relay (thin connection, not words). Mursha response: still in Kharn, bench grinding slow (Korrim thorough), frustration with process not Kenji, steady underneath. Requested more time. **Mursha deadline reset: Day 290** (Day 276 + 14).
+- **Combat Mage token revealed** — Nyx produced the brass Combat Mage certification (wolf-and-keys / anvil-struck-by-lightning, one of 12 issued by Aldwin in 40 years). Mirenne recognized it — she has files on the ArchMagus. Connected Kenji to the missing champion who defeated the Emperor and vanished. "You're not taking territory. You're taking the board."
+- **Strategic position at chapter end:** Orcs east (20K blockade, Kharn roads), vampires west (expansion into 3 cities ordered), dragons pending, Mursha has 14 days. Mirenne knows Kenji = ArchMagus.
+- **End:** Day 276 late afternoon (Ashmere 54) — Ashenmere, Alabaster Court second floor. Red Court CONQUERED. Mirenne + Virelda submitted (Vigor active ~5 days). Vampire expansion seeding tonight. EXP 2,270,050. Purse ~1295 GP / 181 SP. All charges at LR values.
+
 ### KORRIM STONEUNDER — Elder bench authority, Kharn-Dural (Ch28–31)
 
 **Status:** alive  
@@ -366,7 +380,7 @@ Relay-town inn cast; names from `npc_name_bank.md`. Full coloring → `npc_appea
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| bench_verdict | Ashmere 39 | Ashmere 40 | immediate | active | Determine the legal status of the masked human who breached quarantine, drove foreign blades into the mountain's seam, and vented a creation conduit through the upper works. **Ch31 update:** Kenji exited under decoy/invisible breach — relay flags likely; legal status **more** fraught (fugitive pressure vs prior custody). Mursha remains witness-engineer on closure. Veiled gallery observer still live. | Verdict / relay response determines Kharn + coalition posture. Blade extraction politics follow — removing Oathbreaker + Frost Fang may destabilize the pin. |
+| bench_verdict | Ashmere 39 | Ashmere 40 | immediate | **OVERDUE** | Determine the legal status of the masked human who breached quarantine, drove foreign blades into the mountain's seam, and vented a creation conduit through the upper works. **Ch31 update:** Kenji exited under decoy/invisible breach — relay flags likely; legal status **more** fraught (fugitive pressure vs prior custody). Mursha remains witness-engineer on closure. Veiled gallery observer still live. **Verdict likely rendered in absentia; relay contains "Champion of the Elves, Archmagus of Varenholm" declared on record — MAJOR Bane of Eve vector.** | Verdict / relay response determines Kharn + coalition posture. Blade extraction politics follow — removing Oathbreaker + Frost Fang may destabilize the pin. |
 
 ---
 
@@ -383,7 +397,7 @@ Relay-town inn cast; names from `npc_name_bank.md`. Full coloring → `npc_appea
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| oathbreaker_memory | Ashmere 35 | Ashmere 40 | N/A | active | A masked ronin pulled a **holy/necrotic greatsword** out of a bag and asked him to reforge it. He refused. The sword hurt to look at. He hasn't forgotten. If anyone asks about unusual weapons or unusual customers, he has a story. | Adds to **ronin_identity_pressure** — a relay smith who saw a blade that shouldn't exist in a bag that shouldn't hold it. Cross-cuts with Cassia's investigation if yard gossip connects "ronin with impossible sword" to "ronin who released Mursha same day coffer walked." |
+| oathbreaker_memory | Ashmere 35 | Ashmere 40 | N/A | active | A masked ronin pulled a **holy/necrotic greatsword** out of a bag and asked him to reforge it. He refused. The sword hurt to look at. He hasn't forgotten. If anyone asks about unusual weapons or unusual customers, he has a story. **Latent intel risk, not deadline-driven.** | Adds to **ronin_identity_pressure** — a relay smith who saw a blade that shouldn't exist in a bag that shouldn't hold it. Cross-cuts with Cassia's investigation if yard gossip connects "ronin with impossible sword" to "ronin who released Mursha same day coffer walked." |
 
 ---
 
@@ -409,7 +423,7 @@ Relay-town inn cast; names from `npc_name_bank.md`. Full coloring → `npc_appea
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
 | letter_routing | Ashmere 38 (Ch26) | open | N/A | active | Find a way to route a letter "to the ronin" — the contact offer Kenji made twice (Ch25 walk, Ch26 niche). She accepted the task: *I'll find one.* No route exists yet; ronin is not a factor address. | If successful: future contact vector (lessons, blackmail, factor trap, or genuine professional relationship — DM chooses). If intercepted: identity pressure spike. |
-| vigor_window_survival | Ashmere 38 (Ch25) | ~Ashmere 43 / Day 265 | N/A | active | Survive ~5 days of Lover's Vigor with a copper-ring tell in coalition scribe spaces where dwarven/coalition observers may know vigor lore. She knows the window (*Five days*). Manage exposure of the tell. | After expiry: IP immunity drops; aura returns at full force if proximity resumes. Copper ring fades. Shame arc resolves or compounds. |
+| vigor_window_survival | Ashmere 38 (Ch25) | ~Ashmere 43 / Day 265 | N/A | **EXPIRED** | Survive ~5 days of Lover's Vigor with a copper-ring tell in coalition scribe spaces where dwarven/coalition observers may know vigor lore. She knows the window (*Five days*). Manage exposure of the tell. **Vigor expired ~Day 265. Copper ring faded.** | After expiry: IP immunity drops; aura returns at full force if proximity resumes. Copper ring fades. Shame arc resolves or compounds. |
 
 ---
 
@@ -432,8 +446,8 @@ Relay-town inn cast; names from `npc_name_bank.md`. Full coloring → `npc_appea
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| coffer_investigation | Ashmere 35 | **Ashmere 40** | N/A | **active** | Floor coffer + relay float **gone** — morning count Ashmere 35 confirmed. **Inside job** vs **pro thief** profile. Cassia's first move: **audit who was in the building** the day before. Mursha's same-day release + ronin's same-day visit = **timeline correlation** she hasn't drawn yet but will. | If she connects ronin + Mursha + missing coin: formal **complaint** to yard captain → **Coalition factor wires** → ronin description enters the network. Feeds **ronin_identity_pressure**. If she doesn't: investigation stalls on "professional job, no leads." |
-| factor_wire_report | Ashmere 36 | **Ashmere 38** | Ashmere 38 | **active** | Standard **factor loss report** to Iron Mule central and Coalition relay office — cash loss above threshold requires paper. The report describes the **amount**, the **method** (no forced entry), and anyone **in the building** that day. | Paper enters a system where clerks cross-file. If ronin's description matches any other report (Thornkeep, Millhaven, relay corridor), the **cross-cut** fires. |
+| coffer_investigation | Ashmere 35 | **Ashmere 40** | N/A | **COLD** | Floor coffer + relay float **gone** — morning count Ashmere 35 confirmed. **Inside job** vs **pro thief** profile. Cassia's first move: **audit who was in the building** the day before. Mursha's same-day release + ronin's same-day visit = **timeline correlation** she hasn't drawn yet but will. **23 Ashmere-days elapsed; trail frozen; Kenji left area Ch31. No new leads.** | If she connects ronin + Mursha + missing coin: formal **complaint** to yard captain → **Coalition factor wires** → ronin description enters the network. Feeds **ronin_identity_pressure**. If she doesn't: investigation stalls on "professional job, no leads." |
+| factor_wire_report | Ashmere 36 | **Ashmere 38** | Ashmere 38 | **COMPLETE** | Standard **factor loss report** to Iron Mule central and Coalition relay office — cash loss above threshold requires paper. The report describes the **amount**, the **method** (no forced entry), and anyone **in the building** that day. **Filed weeks ago; paper in coalition system.** | Paper enters a system where clerks cross-file. If ronin's description matches any other report (Thornkeep, Millhaven, relay corridor), the **cross-cut** fires. |
 
 ---
 
@@ -455,7 +469,7 @@ Relay-town inn cast; names from `npc_name_bank.md`. Full coloring → `npc_appea
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
 | north_courier_contract | Ashmere 36 | Ashmere 40+ | N/A | **active** | Ch23: Mursha signed guard contract through Haldra for north courier run toward Kharn-Dural. Haldra facilitated the paper + sealed tube read-aloud. Professional broker role between factor network and traveling party. | Haldra becomes information anchor at Bronzebarrow for Kharn-Dural paper thread. Return visits or courier messages route through her desk. |
-| vigor_window_active | Ashmere 36 | **~Ashmere 41** | N/A | **active** | Lover's Vigor on — brass-amber eye ring tell; +50% all stats; IP-immune to Kenji for ~5 days (~Day 263). When it expires: urge returns at full stack pressure; she may want the power back. | Expiry resets IP vulnerability. Dwarf clerk with factor-house memory + Kenji oral briefing in her head = intel value + attraction compound. |
+| vigor_window_active | Ashmere 36 | **~Ashmere 41** | N/A | **EXPIRED** | Lover's Vigor on — brass-amber eye ring tell; +50% all stats; IP-immune to Kenji for ~5 days (~Day 263). When it expires: urge returns at full stack pressure; she may want the power back. **Vigor expired weeks ago (~Day 263). Brass-amber ring faded. IP vulnerability restored.** | Expiry resets IP vulnerability. Dwarf clerk with factor-house memory + Kenji oral briefing in her head = intel value + attraction compound. |
 | kharn_paper_knowledge | Ashmere 36 | ongoing | N/A | **active** | Haldra holds verbal + written knowledge of: vault/seal discrepancy, clerk names who signed/refused/vanished, suspected factor-house laundering under coalition wax, Varenholm silence margins, yard observation patterns. She spoke all of this to Kenji (verbal only — he can't read). She also received the merged ridge + parlor intel from Mursha on paper (Ch23). | Information broker value. If anyone asks the right questions at her desk, she has answers that connect the western cut leak to Kharn-Dural internal corruption. |
 
 **DM — pregnancy (not IC):** **`pending_assessment`** in `kenji_state.json` — **one** exposure logged (Ch22 Day 258 private parlor; Vigor triggered); **no roll** — **DM** resolves. See **§ DM — PREGNANCY TRACKER**.
@@ -494,7 +508,7 @@ Relay-town inn cast; names from `npc_name_bank.md`. Full coloring → `npc_appea
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
 | decide_road_or_town | Ashmere 35 | **Ashmere 37** | N/A | **resolved** | **Ch23:** Signed **Haldra-line factor guard** contract for north Kharn courier; rides with Kenji under **professional** cover (not yard re-hire). | **Road** locked — Hollowing / Kharn-Dural corridor; relationship proceeds via proximity + duty. |
-| oathbreaker_question | Ashmere 35 | **Ashmere 38** | N/A | **active** | *Where'd you get that?* — asked at Marthel's forge (Ch19) when Kenji pulled Oathbreaker from BoH. Unanswered. If not addressed by Ashmere 38, contract mind files it as **deliberate evasion** (disposition −2). | If answered honestly: trust stress (holy/necrotic greatsword from a dead knight's camp). If deflected: she notes the deflection. If ignored past due: silent disposition hit. |
+| oathbreaker_question | Ashmere 35 | **Ashmere 38** | N/A | **OVERDUE** | *Where'd you get that?* — asked at Marthel's forge (Ch19) when Kenji pulled Oathbreaker from BoH. Unanswered. If not addressed by Ashmere 38, contract mind files it as **deliberate evasion** (disposition −2). **Disposition −2 penalty should have applied ~Day 260; confrontation deferred while Mursha on bench duty at Kharn.** | If answered honestly: trust stress (holy/necrotic greatsword from a dead knight's camp). If deflected: she notes the deflection. If ignored past due: silent disposition hit. |
 | clone_flicker_filed | Ashmere 34 | ongoing | N/A | **active** | Saw the clone flicker during Brass Hitch swap (Ch18). Persuasion kept her following but she **knows** something was wrong — a magic twin, a shimmer, something not right. Filed, not confronted. Compounds over time. | If Kenji uses clone/illusion again in her LOS: the filed observation becomes a confrontation trigger. |
 | power_of_p_secret | Ashmere 35 | ongoing | N/A | **active** | She does not know Kenji watched her Power of P interrogation of the ridge lieutenant (Ch20, Greater Invis at 30 ft). He has not named what he saw. Three-layer asymmetry: she carries two secrets (flicker + oathbreaker), he carries all three (flicker + oathbreaker + the watch). | If he names it: trust stress — she hid it, he watched it. If he stays silent: the secret compounds. Asymmetry persists until one of them breaks it. |
 
@@ -600,8 +614,8 @@ Relay-town inn cast; names from `npc_name_bank.md`. Full coloring → `npc_appea
 
 **Status:** alive (ley-suspended, metabolism 1%)
 **Met:** yes — **Ashmere 29–30** (Ch15–16, human-form the Lady: meal, bath short of intercourse, guest chamber LR; Seren mask-name; bronze trophy). **Ashmere 40** (Ch33, human-form: Hollowing briefing, **true name revealed** ("Nyx"), JKD spar, alliance). **Ashmere 40–47** (Ch34, **Seven Days**: 7-day intimacy, Close to Death survived, Vigor 1–7 stacked, bonded partner #23, Kenji emerged as Anku Nyx).
-**Location:** **Ashenmere** — coaching inn near portal district. Ashmere 54 Day 276. **Lady form**, green dress (Aldwell), loose curls (braid destroyed by Arcane Sprint wind shear, never re-braided). Beside Kenji. Alabaster Court member (guest). Identified 3 vampires in Court library on first pass. Puppet-Gorath operational at Varkûl via Nexus (460mi away, portal-accessible). **Emotional state: transformed.** Cried for first time in 600 years (Ch37 balcony). Slept (actual REM) for first time in 600 years. Six days of luxury travel fundamentally altered her relationship to being alive. Recognized Kenji "loaded her as a weapon" via pleasure — the jealousy that would make her kill Mirenne. Accepted it. "I am going to be very good at this."
-**Last Updated:** Ashmere **54** / Day **276** — **Ch37** *Ashenmere — Red Court Recon*
+**Location:** **Boulder formation, eastern lower Dragonspine** — Ashmere 65 Day 287 midnight. With Drazhara, waiting for Kenji and Ignis to return from granite shelf for merger ritual. **Lady form.** **Commander of Mirenne's vampire network** — chain: Mirenne → Nyx → Kenji. Vampire expansion into Veldmere + Harrowgate in progress (2-week timeline). Puppet-Gorath operational at Varkûl via Nexus. **Emotional state:** managing CE jealousy re: Ignis bond #24. Nyx is still bond #23 and the valve for Vigor intermediary transfers.
+**Last Updated:** Ashmere **65** / Day **287** — **Ch39** *The Fire-Man*
 
 **Class:** Living Lich — alive with full dominion over death. Not undead. Real heartbeat, real warmth, real body. Chose this path as a Warden-elect in 1042. Holds a lich's power (undead army, territorial control, phylactery-equivalent) without crossing the threshold into undeath. Can switch between lich form (default) and human form (rare — seduction only).
 
@@ -661,7 +675,7 @@ If Kenji is intimate with Lady Nyx (human form) **and survives Close to Death**,
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| still_night_doctrine | Ashmere 30 | **Hollowmere 15** | Ashmere 30 | **active** | March peaks **Still Night** — she tightens doctrine, spends cordon attention, tests Coalition blind spots while ley-stasis holds. | Border fiction collapses faster after peak if she commits; political panic clocks advance. |
+| still_night_doctrine | Ashmere 30 | **Hollowmere 15** | Ashmere 30 | **COMPLETE** | March peaks **Still Night** — she tightens doctrine, spends cordon attention, tests Coalition blind spots while ley-stasis holds. **Still Night passed ~Day 268. Superseded by alliance (Ch34). March now ALLIED, not adversarial.** | Border fiction collapses faster after peak if she commits; political panic clocks advance. |
 | trace_oathbreaker_vector | Ashmere 31 | TBD | N/A | **active** | Champion disarmed; **Oathbreaker** off-body — binding net and trophy strings **hunt the gap** toward thief/BoH signature (she may not know it is Kenji). | Increases March-side probes, dreams, or courier-thrall attempts — **play**, not JSON omniscience. |
 | pallid_march_potential | 1042 AR | TBD | TBD | dormant | Long-arc conquest math (5%/20d baseline; 10%/cycle if Vigor ever fires). **Secondary** clock — must not be her *only* operational row. | See Vigor mechanics above. |
 | capture_kenji | N/A | on_first_vigor | N/A | **moot** | Was dormant — activates after first Vigor. Ch34: Vigor fired ×7, but alliance conditions override predation. Kenji is bonded partner #23. Capture goal **superseded** by alliance. CE alignment means this could reactivate if alliance fractures. | Hunt / capture / repeat cycle — **SUSPENDED** while alliance holds. |
@@ -806,7 +820,7 @@ If Kenji is intimate with Lady Nyx (human form) **and survives Close to Death**,
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
 | watch_hall_maps | Ashmere 22 | ongoing | N/A | **active** | Keep Millhaven watch-hall map boards current; support **Hadley’s** chain (not Thornkeep). Pallid March overlays from Bracken-era intel still referenced by clerks. | If March noise returns north: Teilen is the fast path to “what the watch already filed.” |
-| pallid_overflow_prep | Ashmere 33 | **Ashmere 36** | N/A | **active** | **Revised:** Taryn’s packet is **in**; prep is for **council review noise** / ronin name cross-file (she filed **Kenji** as source where required), not “missing letter.” Teilen etc. optional if politics spike. | Council-pressure levers without contradicting resolved delivery. |
+| pallid_overflow_prep | Ashmere 33 | **Ashmere 36** | N/A | **COMPLETE** | **Revised:** Taryn’s packet is **in**; prep is for **council review noise** / ronin name cross-file (she filed **Kenji** as source where required), not “missing letter.” Teilen etc. optional if politics spike. **Event window passed; council review processed. Still Night ~Day 268 resolved without overflow.** | Council-pressure levers without contradicting resolved delivery. |
 
 ---
 
@@ -1138,8 +1152,8 @@ This is the duality the story has been gesturing at: a creature of light and und
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
 | border_defense | Ashmere 25 | **ongoing** (spikes toward **Hollowmere 15**) | N/A | **active** | **14** soldiers / **30** miles southern front; undead **noise** up; Coalition answers **slow**. Pair A sweeps (Kenji’s taunt) buy time, not victory. | Thornkeep holds or folds on **Still Night** pressure — military spine of arc. |
-| coalition_paper_discipline | Ashmere 31 | **Ashmere 38** | N/A | **active** | **Oathbreaker** exposure + Jostin addendum + eyes-only routing — keep **Thornkeep** from becoming a circus; feed Ashenmere **truth** without losing garrison tempo. LG means **boring paperwork done correctly.** | Council trust meter; possible summons / seal-room custody asks. |
-| officer_wing_discretion | Ashmere 34 | **Ashmere 36** | N/A | **active** | One night’s **secret** egress does not erase **gossip math** — who was on landing watch; whether linen / lamp oil tells a story. | If rumor ignites: discipline hearing pressure **or** forced marriage politics **or** quiet blackmail — table choice. |
+| coalition_paper_discipline | Ashmere 31 | **Ashmere 38** | N/A | **COMPLETE** | **Oathbreaker** exposure + Jostin addendum + eyes-only routing — keep **Thornkeep** from becoming a circus; feed Ashenmere **truth** without losing garrison tempo. LG means **boring paperwork done correctly.** **Paper filed; in coalition system. Bracken’s LG discipline contained it.** | Council trust meter; possible summons / seal-room custody asks. |
+| officer_wing_discretion | Ashmere 34 | **Ashmere 36** | N/A | **RESOLVED** | One night’s **secret** egress does not erase **gossip math** — who was on landing watch; whether linen / lamp oil tells a story. **Bracken’s LG discipline contained it; 25+ days elapsed without scandal.** | If rumor ignites: discipline hearing pressure **or** forced marriage politics **or** quiet blackmail — table choice. |
 
 ---
 
@@ -1200,28 +1214,28 @@ This is the duality the story has been gesturing at: a creature of light and und
 
 ---
 
-## LADY MIRENNE — Elder Vampire, Red Court Leader
+## LADY MIRENNE — Elder Vampire, Red Court Leader (CONQUERED — subordinate)
 
-**Status:** MIA
-**Met:** no — MIA. Campaign threat NPC. Never encountered.
-**Location:** Ashenmere — hidden estate, eastern coast
-**Last Updated:** Ashmere 24 (stub created — not yet encountered)
+**Status:** alive (subordinate — submitted to Nyx, Ch38)
+**Met:** yes — **Ch38** (Alabaster Court, Ashenmere — submitted to Nyx). Kenji laid out three options: run, fight, or submit. Mirenne negotiated conditions: keep her city/architecture, keep Virelda as second, regular meetings with Kenji. Accepted submission. Received Lover's Vigor via Nyx intermediary transfer. First heartbeat in 200 years — cried without knowing it. Connected Kenji to ArchMagus file via Combat Mage token.
+**Location:** **Ashenmere** — Alabaster Court / harbor district network. Ashmere 63 Day 285. **Vigor EXPIRED (~Day 281).** Coordinating Harrowgate expansion remotely. Chain: Mirenne → Nyx → Kenji.
+**Last Updated:** Ashmere 63 / Day 285 — Ch38 aftermath
 
-**Physical:** Looks thirty. Has been alive six hundred years. Charming, sophisticated, cultured.
-**Disposition to Kenji:** Unknown — not yet encountered.
-**Morale Compass:** Lawful Evil — six centuries of patience. Runs a silent infiltration, not a slaughter. Contracts, protocols, doppelganger rosters, coven discipline. Opposes Kenji the moment he threatens the takeover timetable — and she opposes him the way a court lawyer does, not a brawler.
+**Physical:** Looks thirty. Dark hair, black dress, silver chain. Passive cold aura. Has been alive six hundred years. Charming, sophisticated, cultured.
+**Disposition to Kenji:** Subordinate/Complex — submitted under Nyx's chain. Negotiated terms (city/architecture, Virelda, regular meetings). Knows Kenji = ArchMagus. Vigor bond (expired) created unprecedented emotional response (first heartbeat in 200 years). Not hostile, not loyal — contractual.
+**Morale Compass:** Lawful Evil — six centuries of patience. Runs a silent infiltration, not a slaughter. Contracts, protocols, doppelganger rosters, coven discipline. Now operating under Nyx's chain. Opposes Kenji if terms are violated — and she opposes him the way a court lawyer does, not a brawler.
 
-**Abilities:** Elder Vampire, Level 28. Six centuries of practice. Charm, Dominate, Mist Form, elder bloodline gifts. Runs the Red Court coven's infiltration of Ashenmere — harbor master thralled, 2/5 city council replaced with doppelgangers, garrison commander recently turned. Uses portal network to move between coven cells once Ashenmere falls.
+**Abilities:** Elder Vampire, Level 28. Six centuries of practice. Charm, Dominate, Mist Form, elder bloodline gifts. Runs the Red Court coven's network in Ashenmere — harbor master thralled, 2/5 city council replaced with doppelgangers, garrison commander recently turned. Uses portal network to move between coven cells. **Now operating under Kenji/Nyx command.**
 
-**Important Gear:** Estate, coven infrastructure, roster of replacements.
+**Important Gear:** Estate, coven infrastructure, roster of replacements. Combat Mage token identification (knows the 12-token system, has files on the ArchMagus).
 
-**Personality:** Patient. Cultured. The kind of villain who hosts dinner parties. Doesn't see the Court as evil — she sees it as evolution. Humans had their chance. Now it's her turn.
+**Personality:** Patient. Cultured. The kind of villain who hosts dinner parties. Doesn't see the Court as evil — she sees it as evolution. Humans had their chance. Now it's her turn. **Post-submission:** accepted the new hierarchy with pragmatism. The deal was better than the alternatives.
 
 ### Active Goals
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| take_ashenmere | pre-campaign | DORMANT + ~100 days from introduction | N/A | dormant | Silent takeover of Ashenmere — infiltration reaches 100% when all 5 council seats, the harbor, and the garrison are fully Court-controlled. Currently at 30%. Once the city falls: portal network extends Red Court reach across the coalition. | If stopped: coven collapses locally, Mirenne retreats. If completed: Ashenmere becomes a Court capital. Port city, portal hub, 2nd-phase staging ground for the rest of the coalition. |
+| take_ashenmere | pre-campaign | DORMANT + ~100 days from introduction | N/A | **SUPERSEDED** | Silent takeover of Ashenmere — infiltration reaches 100% when all 5 council seats, the harbor, and the garrison are fully Court-controlled. Currently at 30%. **Ch38: Mirenne submitted to Nyx. Takeover now operates under Kenji/Nyx command, not independent Red Court agenda. Ashenmere is home base; expansion into Veldmere + Harrowgate ordered.** | **Conquered. Network intact under new management. Expansion phase active.** |
 
 ---
 
@@ -1331,10 +1345,10 @@ This is the duality the story has been gesturing at: a creature of light and und
 
 ## WARCHIEF GORATH SKULLSPLITTER — Barbarian Warlord (Outlander)
 
-**Status:** DEAD — puppet (flesh facade + Nyx enthrallment). Killed Ch36 via Close to Death (90 sec, blood circle claiming). Soul caught by Dominion-over-death rebound, enthralled into creation-energy flesh facade. Puppet chief operational — indistinguishable from living Gorath, controlled through Nyx's Nexus. 60K orcs follow puppet believing chief is alive.
+**Status:** DEAD — puppet TERMINATED Day 288. Named Mursha as warchief before twelve captains in iron hall. Facade dissolved. Magra Bloodtusk confirmed death. Orc law succession: Mursha is warchief.
 **Met:** yes — **Ashmere 47** Day **269** (Ch36 — Varkûl south gate → blood circle). Encountered, baited, killed, replaced.
-**Location:** **Varkûl** — iron hall (as puppet). Ashmere 47 Day 269.
-**Last Updated:** Ashmere **47** / Day **269** — **Ch36** *The Heist of Varkul*
+**Location:** Varkûl — iron hall (corpse). Day 288.
+**Last Updated:** Ashmere **66** / Day **288** — **Ch40** *The Table*
 
 **Physical:** Eight feet tall. Green-grey skin. Massive tusks (left sits higher than right — old break). Covered in scars. The black axe.
 **Disposition to Kenji:** N/A (dead — puppet asset). Pre-death: hostile, contemptuous, saw Kenji as "coward who hides behind his woman."
@@ -1487,76 +1501,86 @@ This is the duality the story has been gesturing at: a creature of light and und
 
 ## DRAZHARA — Dragonborn Elder, Lower Peaks
 
-**Status:** MIA
-**Met:** no — MIA. Campaign threat NPC. Never encountered.
-**Location:** Dragonspine Mountains — largest dragonborn settlement, lower peaks (far north)
-**Last Updated:** Ashmere 24 (stub created — not yet encountered)
+**Status:** ACTIVE — Soul-fused with Ignis (Ch40 Day 288). Can swap bodies at will. Fusion ritual performed at Pallid March (INT 88, advantage, Nyx domain assist). Clean binding, instant swaps, no burn-in.
+**Met:** Yes — Ch39 Day 286. Kenji and Nyx visited her trading post on the switchback road, guided by Skratch.
+**Location:** Kharn-Dural — parley ground. Day 290.
+**Last Updated:** Ashmere 68 / Day 290 — Ch40 *The Table*
 
-**Physical:** Dragonborn.
-**Disposition to Kenji:** Unknown — not yet encountered.
-**Morale Compass:** Lawful Good — dragonborn elder. Holds the community, keeps the council, remembers the old compacts. Opposes Kenji if Kenji destabilizes the lower peaks or drags the clan into a war they can't finish.
+**Physical (TWO FORMS — swaps at will):**
 
-**Abilities:** Dragonborn Elder, Level 20. Leads the largest dragonborn settlement. Caught between flights. Respects Kaeltharion but her people are tired of being second-class citizens. Wants a seat at the Reckoning that dragonborn have never had. Irresistible Presence works on dragonborn (humanoid).
+*DEFAULT — Dragonborn Form (with her people, at trading post, in human settlements):*
+Dragonborn female, 6'6". Bronze scales (fine-grained, shift copper-to-gold in firelight). Two swept-back charcoal horns curving along skull like a natural crown. **Copper-gold slit-pupiled eyes with amber ring at outer edge** (Ignis echo from fusion). Strong angular jaw. Broad shoulders, powerful build — hauled stone and timber her whole life. Solid feminine figure (weight in chest and hips, reads as powerful not soft). Long scaled legs, digitigrade feet with dark claws that click on stone. **New since fusion:** faint red-gold shimmer beneath bronze scales (like light trapped under metal). Wears leather apron over wool tunic when at trading post; mountain gear (leather jerkin, heavy boots, granite-colored cloak) when traveling.
 
-**Important Gear:** Settlement leadership, dragonborn loyalty.
+*IGNIS BODY — Red Dragon Form (at Reckoning, dragon flights, Dragonspine peaks):*
+Wears Ignis's body via soul-swap. **Humanoid:** 5'6" compressed, red-gold hair, amber-green eyes (Vigor rings) + bronze outer ring (Drazhara echo). Scale patches jaw/forearms. Can shift to full 30ft Young Red Dragon form. Has access to Ignis's fire breath, flight, dragon magic. **But the cadence is Drazhara's** — steady, measured, deliberate. An elder's patience in a young dragon's body. When she grins it's with dragon teeth but the expression is pure dragonborn political operator. **Posture tells:** too still, too grounded, too controlled for a young red. Anyone who knew the real Ignis well would notice the difference in mannerisms.
 
-**Personality:** Political. Tired of second-class status. The swing factor — if Kenji offers dragonborn a Reckoning seat, she could flip the vote.
+**Disposition to Kenji:** Devoted / awed / politically aligned (IP stack ~1). Accepted Varenholm homestead deed — first true dragon (via fusion) to own coalition land. Kenji gave her everything she wanted before she knew she wanted it. The twenty years of quiet anger now have a target, a plan, and a body to execute it in.
+**Morale Compass:** Lawful Good — dragonborn elder. The fusion hasn't changed her core values. She holds community, knowledge, patience, and the old compacts. Now she has the power to enforce them. Opposes Kenji if he destabilizes the lower peaks or endangers her people.
+
+**Abilities:** Dragonborn Elder, Level 20 (own body). **In Ignis's body:** access to Young Red Dragon L18 abilities — fire breath (true dragon level, not dragonborn campfire), flight, dragon shifting (humanoid ↔ 30ft dragon), Ignis's thermal/spatial awareness, combat capabilities. **Fusion-granted:** body-swap with Ignis (instant, clean, unlimited), shared sensory bridge (can feel what Ignis feels and vice versa), access to Ignis's muscle memory for flight. Dragonborn scent-reading (in own body). IP works on dragonborn form (humanoid). **Pending: Vigor transfer** — when Vigored, her own dragonborn body will ascend to true dragon form.
+
+**Important Gear:** Varenholm homestead deed (coalition-stamped, legally transferable — first dragon property owner). Settlement leadership, dragonborn loyalty. Trading post (mountain herbs, dragonscale fragments, salves, ground minerals). 20 years of Dragonspine maps (every flight path, nesting site, thermal vent, patrol route).
+
+**Personality:** Political. Patient. Strategic. The quiet anger is no longer quiet — it's *aimed.* Twenty years of mapping, trading, and waiting have become twenty years of intelligence gathering for a role she didn't know was coming. In her own body: the herb trader, the settlement elder, the steady hand. In Ignis's body: a dragon who already knows how to fly (muscle memory from the bridge), who knows the Reckoning site acoustics, who knows where each flight sits, and who carries ten thousand years of dragonborn knowledge that no true dragon has ever possessed. **She is the classroom Kenji described.**
 
 ### Active Goals
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| earn_reckoning_seat | pre-campaign | DORMANT (tied to Twin Wyrms clock) | N/A | dormant | Wants dragonborn represented at the Reckoning for the first time in history. Will support whoever offers this. | If Kenji offers a seat: Drazhara's settlement supports the treaty. Potentially flips the vote. If ignored: dragonborn stay neutral or side with Vorathiel out of resentment. |
+| earn_reckoning_seat | pre-campaign | RECKONING (~95 days from Day 276, ~83 days from Day 288) | N/A | **active** | Attend the Reckoning as a true dragon (in Ignis's body). Speak for dragonborn. Argue against descent using knowledge transfer framework. | If she speaks: the Reckoning hears a dragon argue from dragonborn experience for the first time. Potentially fractures the descent coalition. If Vorathiel challenges her identity: precedent crisis (can't punish own child publicly). |
+| protect_settlement | Day 288 | ongoing | N/A | active | Keep her 200 dragonborn safe during the political fallout. The fusion and Kenji's plan will draw attention. Vorathiel's investigation of the granite shelf may lead to the lower settlements. | If settlement survives: dragonborn have proof the plan works. If threatened: Drazhara (in Ignis's body) responds as a true dragon defending territory — which reinforces her claim. |
+| vigor_ascension | Day 288 | TBD | N/A | **pending** | Receive Vigor from Kenji (via Nyx intermediary) to transform her own dragonborn body into a true dragon. Currently can only access dragon form via Ignis body-swap. | If Vigored: Drazhara's own body ascends — two true dragon bodies under her control. If delayed: she operates via swap only, which requires Ignis's cooperation. |
 
 ---
 
-## IGNIS — Young Red Dragon, Vorathiel's Youngest
+## IGNIS — Young Red Dragon / "Sorcerer" / Bonded Mate #24
 
-**Status:** MIA
-**Met:** no — MIA. Campaign threat NPC. Never encountered.
-**Location:** Dragonspine Mountains — upper peaks (far north)
-**Last Updated:** Ashmere 24 (stub created — not yet encountered)
+**Status:** ACTIVE — Bonded mate. Soul Nexus Bond #24 (Ch39 Day 287). Soul-fused with Drazhara (Ch40 Day 288) — body-swap at will.
+**Met:** Yes — Ch39 Day 287 evening. Granite shelf, eastern lower Dragonspine Mountains. Ignis landed on the shelf in dragon form, then took humanoid form. Kenji offered the merger plan (Drazhara + Ignis fusion). Ignis chose willingly.
+**Location:** Kharn-Dural — parley ground (dragon form on ridge). Day 290.
+**Last Updated:** Ashmere 68 / Day 290 — Ch40 *The Table*
 
-**Physical:** Young Red Dragon. Can take humanoid form.
-**Disposition to Kenji:** Unknown — not yet encountered.
-**Morale Compass:** Chaotic Evil — young red, Vorathiel's youngest. Inherits the fire and the hunger without any of the mother's restraint. Opposes Kenji on instinct — anything larger than him is a threat, anything smaller is food.
+**Physical:** **Humanoid form:** Voluptuous young woman, copper-red to gold wavy hair (looks like actual fire), amber eyes with slit pupils — now green-ringed from Vigor. Full figure, warm bronze skin always flushed. Faint red-gold scale patches along jaw and forearms (hidden under sleeves in public). Smoke constantly wisps from her nostrils and parted lips — faint, like a banked fire. Heat radiates off her — air shimmers. **True form:** 30ft Young Red Dragon (L18). Red-gold scales. Vorathiel's youngest daughter. (Drazhara wears this body for dragon dealings via soul-swap.)
+**Disposition to Kenji:** Bonded mate. IP stack ~6-7 (initial fail 10 vs DC 23 = stack ~2-3, then 4 more fails during Vigor: 14, 3, 13, 6). Vigor stack 4 (4 rounds of Vigor transfer). Chose Kenji willingly — not charmed, not dominated. The bond is real.
+**Morale Compass:** Chaotic Evil — young red dragon. Fire and hunger without the mother's restraint. But the bond and Vigor have shifted her priorities: she chose a mate, and she will defend that choice. CE means she follows pleasure and power — Kenji offers both.
 
-**Abilities:** Young Red Dragon, Level 20. Can take humanoid form (rare in young reds — a gift from Vorathiel). Scout, saboteur, infiltrator. Tests coalition defenses for his mother. Immune to Irresistible Presence in dragon form; vulnerable in humanoid form.
+**Abilities:** Young Red Dragon, Level 18. Can take humanoid form (rare gift from Vorathiel). Fire breath. Flight. **In humanoid form: Powerful sorcerer.** Fire magic far beyond any trained wizard — devastatingly strong. No arcane training whatsoever. No spellbook, no familiar, no theory. The fire just *comes*. Cannot explain technique or name arcane schools. People who know magic notice the gap between her power and her knowledge — she's too strong for someone with zero education. **Cover story:** tells strangers she's a sorcerer with red dragon blood in her lineage. Doesn't expand. Changes the subject. **New abilities from Soul Nexus Bond:** portal creation, teleportation to Kenji, long-distance communication, Vigor buff (extreme pleasure scaling per stack). Immune to Irresistible Presence in dragon form; vulnerable in humanoid form. **Grants Kenji:** Dragon God — 1/day transform into Elder Black Dragon (40ft, black scales, purple lightning, green glowing eyes). Ignis can revoke.
 
-**Important Gear:** Humanoid disguise-kit. Burned everything else.
+**Important Gear:** Fire staff — ornate dark metal, perpetually lit with real flame (her flame, not enchantment). Red/crimson robes and corset outfits with gold filigree. Black choker. Gold earrings. Looks the part of a wealthy sorcerer.
 
-**Personality:** Arrogant. Impatient. Hungry for proof he deserves the descent vote. Vorathiel's test piece — if Ignis survives coalition territory, the descent is viable.
+**Personality:** Curious, hungry, fierce. In humanoid form: fascinated by everything — music, food, architecture, culture, clothes, textures. Wants to join new adventuring parties, see the world, eat at taverns, pick flowers, gossip. Drinks beer. Eats everything put in front of her. Marvels at flavors. Still a red dragon underneath — proud, territorial, possessive. The mating was visible for miles — she does not care who saw. When adventuring, she plays the mysterious sorcerer — confident, doesn't explain her power, moves on when pressed about her lineage.
 
 ### Active Goals
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| scout_coalition | pre-campaign | DORMANT (tied to Twin Wyrms clock) | N/A | dormant | Infiltrate coalition territory in humanoid form. Map defenses. Report weaknesses to Vorathiel. | If caught: humanoid red dragon in coalition territory pops the Reckoning tension into public. If undetected: Vorathiel gains the intel to argue for immediate descent. |
+| travel_the_world | Day 287 | N/A | N/A | active | Explore humanoid settlements, hear music, experience culture. First time seeing the world as anything other than a target list. | If fulfilled: Ignis develops genuine investment in the coalition world. If denied: restless, dangerous, may revert to CE instincts. |
+| support_treaty | Day 287 | RECKONING (tied to Twin Wyrms clock) | N/A | active | Help prevent descent vote at Reckoning. As Vorathiel's daughter and Kenji's bonded mate, Ignis is a bridge between flights and coalition. | If treaty holds: Ignis is proof coexistence works. If treaty fails: Ignis is caught between mother and mate — catastrophic. |
 
 ---
 
 ## SKRATCH — Kobold Prophet, Dragonspine Base
 
-**Status:** MIA
-**Met:** no — MIA. Campaign threat NPC. Never encountered.
-**Location:** Dragonspine Mountains — base camps (far north)
-**Last Updated:** Ashmere 24 (stub created — not yet encountered)
+**Status:** ACTIVE — sent to Thornridge to coordinate Drazhara-Ignis meet-up time
+**Met:** Yes — Ch39 Day 286. Found sitting outside Ridgecrest Inn, Thornridge. Had been waiting 11 years for "the fire-man."
+**Location:** Kharn-Dural — parley ground. Day 290.
+**Last Updated:** Ashmere 68 / Day 290 — Ch40 *The Table*
 
-**Physical:** Tiny. Kobold. Manic.
-**Disposition to Kenji:** Unknown — not yet encountered.
-**Morale Compass:** Chaotic Evil — kobold prophet at the base of the Dragonspine. Fanatic for the red line, ecstatic about the coming burn. Opposes Kenji as prophecy-obstacle. Will die whooping.
+**Physical:** Barely 3 feet tall. Kobold. Enormous amber eyes with slit pupils. Small horn-nubs. Patchwork robe stitched from six different fabrics, none matching. Tiny clawed hands, hot to the touch.
+**Disposition to Kenji:** Devoted / awestruck. Believes Kenji is the fire-man from his puddle prophecy. Fed him meat pies and honeyed milk — "Fire-man feeds his people. That's good."
+**Morale Compass:** Chaotic Neutral — puddle prophet. Doesn't pick sides. Goes where the vision points. Not hostile, not a fanatic — just certain about what he saw and patient enough to wait 11 years for it.
 
-**Abilities:** Kobold Prophet, Level 10. Reads dragon omens (weather, flight patterns, heat signatures, shed scales). Rallies kobold warrens at the base of the Spine. Irresistible Presence works on kobolds (humanoid). Useful as an omen-reader if captured alive.
+**Abilities:** Kobold Prophet, Level 4. Saw a vision in a puddle: "a man made of fire kneeling before two mountains." Knows the mountain roads and Dragonspine territory. Knows Drazhara personally (visits her trading post regularly, she tolerates him). Not a combatant. IP works on kobolds (humanoid).
 
-**Important Gear:** Prophet's regalia (scavenged dragon scales), kobold warren command.
+**Important Gear:** Patchwork robe. Tin cup. Nothing else.
 
-**Personality:** Shrieking, grinning, joyful. Treats the coming descent as the best day of his life. Not afraid of death — afraid of missing it.
+**Personality:** Manic, talkative, earnest. Talks constantly while walking. Eats like he's never been fed. Full-body shrugs. Starts walking then stops and turns back repeatedly before committing. Wrong about almost everything — might be right about the fire-man prophecy. Voice like a rusty hinge. Ignores Nyx completely ("the puddle didn't mention *her*").
 
 ### Active Goals
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| prophesy_descent | pre-campaign | DORMANT (tied to Twin Wyrms clock) | N/A | dormant | Rally kobold warrens for the descent. Read omens. Broadcast prophecy through the Spine's base settlements. | If broken: warrens disperse, prophecy loses its mouthpiece. If allowed to spread: kobold warbands begin pre-descent harassment of foothill settlements ahead of the main flight action. |
+| guide_fire_man | Day 286 | N/A | N/A | active | Guide Kenji ("the fire-man") up the Dragonspine to fulfill the puddle prophecy. | If completed: Skratch's 11-year vigil justified. Becomes a loyal hanger-on. If abandoned: Skratch follows anyway — he's waited too long to stop now. |
 
 ---
 
@@ -1726,24 +1750,24 @@ Only **Pip**, **Sera**, and **Bracken** are **confirmed carrying** as of Day **2
 
 | goal_id | opened | due_date | public_at | status | description | completion_effects |
 |---------|--------|----------|-----------|--------|-------------|--------------------|
-| still_night_approaches | Ashmere 19 | ~Lathmere 15 | N/A | in_progress | Winter solstice holiday. Family, warmth, speaking difficult truths. ~21 days from current date (Ashmere 24). | Seasonal shift. Social expectations change. Characters who celebrate may seek Kenji out. Emotional vulnerability rises across all NPCs. |
+| still_night_approaches | Ashmere 19 | ~Lathmere 15 | N/A | **COMPLETE** | Winter solstice holiday. Family, warmth, speaking difficult truths. **Still Night passed ~Day 268. Kenji was in Pallid March territory (alliance / Seven Days arc).** | Seasonal shift. Social expectations change. Characters who celebrate may seek Kenji out. Emotional vulnerability rises across all NPCs. |
 | pallid_march_border_shift | Ashmere 23 | ongoing | Ashmere 27 (Coalition intake) | in_progress | Border has moved 15 miles north of official maps. Kenji discovered the shift at caravan circle (Ashmere 23-24). **Taryn filed** Bracken-chain intel + commission **Ashmere 27** — **Coalition now has the claim on paper**; speed of *belief* / redeploy still politics-limited. | Shockwave when brass acts on it, not when clerk stamps receipt. |
 | thornfield_recovery | Ashmere 11 | ongoing | local knowledge only | in_progress | Greenveil corruption cleared. Ley lines clean. Village returning. Soil healing. | Thornfield becomes a viable settlement again. Amaris anchors it. Delia rebuilds community. |
-| bane_of_eve_trigger | Ashmere 24 | undefined | N/A | pending | **Master trigger — starts all 5 campaign threat clocks simultaneously.** Kenji's identity or location becoming known to the wider world. Possible trigger events: (1) Ember use at scale (Mordecai detects, ripples to allies), (2) Aura overexposure / charm-affected NPC reports a siren-elf aura, (3) **Coalition council review** cross-connects Taryn’s **filed** packet (includes **Kenji** + ronin intel where she swore truth) to wider identification — **delivery already happened**; risk is **political correlation**, not “lost letter,” (4) Amaris's Root Network reaches Millhaven's region, (5) Wynn publishes her research, (6) Vess's intelligence network traces the ronin back to him, (7) **Pip/Sera** (or allies) actively search and succeed — **Senna/Elara** **not** on **pregnancy** **arrival** **list** (**terminated**), (8) Lady Nyx identifies him if encountered and chooses to broadcast. **Any one of these pops the disguise.** | All 5 threat clocks begin counting. **Confirmed** mother arrivals: **Pip** / **Sera** / **Bracken** (see **DM — PREGNANCY TRACKER**). **Mursha** TBD. Vess gets a location to be angry at. Allies stop searching blindly and start converging. The ronin stops working as a cover. |
+| bane_of_eve_trigger | Ashmere 24 | undefined | N/A | **ACTIVE/TRIGGERED** | **Master trigger — starts all 5 campaign threat clocks simultaneously.** Kenji's identity or location becoming known to the wider world. Possible trigger events: (1) Ember use at scale (Mordecai detects, ripples to allies), (2) Aura overexposure / charm-affected NPC reports a siren-elf aura, (3) **Coalition council review** cross-connects Taryn’s **filed** packet (includes **Kenji** + ronin intel where she swore truth) to wider identification — **delivery already happened**; risk is **political correlation**, not “lost letter,” (4) Amaris's Root Network reaches Millhaven's region, (5) Wynn publishes her research, (6) Vess's intelligence network traces the ronin back to him, (7) **Pip/Sera** (or allies) actively search and succeed — **Senna/Elara** **not** on **pregnancy** **arrival** **list** (**terminated**), (8) Lady Nyx identifies him if encountered and chooses to broadcast. **Any one of these pops the disguise.** **TRIGGERED Day ~275+: Multiple confirmation channels active — (a) Kharn bench record (Ch30: "Champion of the Elves, Archmagus of Varenholm" declared on record), (b) open travel as Anku Nyx through coalition cities for 9 days (green eyes, tattoos, aura, no disguise), (c) Mirenne confirmed Kenji = ArchMagus via Combat Mage token (Ch38). Ronin cover retired Ch37.** | All 5 threat clocks begin counting. **Confirmed** mother arrivals: **Pip** / **Sera** / **Bracken** (see **DM — PREGNANCY TRACKER**). **Mursha** TBD. Vess gets a location to be angry at. Allies stop searching blindly and start converging. The ronin stops working as a cover. |
 | coalition_response_to_border | Ashmere 27 | ~Ashmere 35-40 | Ashmere 27 (packet filed) | pending | Coalition clerk stack **has** Taryn’s border/undead intel; **council** must still **decide** what to do (slow politics). Possible responses: (1) Redeploy garrisons toward Millhaven, (2) Send a fact-finding delegation (risky — they'd go to the grove), (3) Deny it / suppress it to avoid panic, (4) Brief Vess / Katya, (5) Internal vote on Coalition intervention. | Depends on response chosen. Garrison redeployment = allies near Millhaven. Delegation = possibly triggers Pallid March clock. Denial = intel gap persists. Briefing Vess = she demands to know where Kenji is (partial Bane of Eve). |
 
 ### Campaign Goals — The Fraying Empire (5 Threats)
 
-**Campaign triggers when:** Kenji's identity or location is exposed (Bane of Eve activates). All clocks start simultaneously from that moment. Clocks are currently **DORMANT** — Kenji is still disguised as the ronin. Threat percentages represent pre-trigger buildup.
+**Campaign triggers when:** Kenji's identity or location is exposed (Bane of Eve activates). All clocks start simultaneously from that moment. **Bane of Eve: TRIGGERED** — Kenji openly traveling as Anku Nyx (identity declared on Kharn bench record Ch30, open travel through coalition cities, Mirenne confirmed ArchMagus). Ronin cover retired Ch37. **Threats 1–4 resolved or active; Twin Wyrms pending.**
 
 **Campaign ends when:** All five threats resolved (destroyed, negotiated, contained) OR the kingdom falls. Partial victories possible.
 
 | goal_id | trigger | clock_rate | current_state | endgame_threshold | status | description | completion_effects |
 |---------|---------|------------|---------------|-------------------|--------|---------------|--------|--------------------|
 | threat_iron_horde | **NEUTRALIZED (Ch36)** | N/A | **100% controlled** | N/A | **resolved** | Warchief Gorath killed by Close to Death (Ch36 blood circle). Puppet chief operational — flesh facade + Nyx enthrallment. 60K orcs follow puppet orders. Kenji + Nyx positioned as "slaves to the chief" (social invisibility). **Horde is now an asset, not a threat.** Subordinates (Magra, Snikkit, Vrokka) unaware of regime change. | **Covert control achieved. 60K orc military under Kenji/Nyx command through puppet. No external power aware of the takeover. Subordinate NPCs may become complications if they detect the change.** |
-| threat_hollowing | DORMANT | +2%/day once triggered | 15% (wards weakening pre-trigger) | 100% (mythril seal breaks, The Fathom escapes) | dormant | Kharn-Dural's deep dig breached The Fathom's prison. Wards hold. Thorgrim needs ember energy or Bloom Purge to reinforce seal. ~42 days from trigger. | Seal reinforced: 40k dwarves survive, alliance possible. Seal breaks: The Fathom spreads through tunnels, corruption reaches coalition in weeks. |
-| threat_pallid_march | DORMANT (Lych suspended; clock is about the suspension breaking) | variable — 5%/20 days natural, 10% per 5-day Vigor cycle | dormant, grove intact, column patrolling | 100% (Lady Nyx launches full March, kingdom-scale threat) | dormant | Lady Nyx the Warden-Queen, ley-suspended in the weeping elm grove. Threat path IS the romance path — Vigor triples her expansion rate. Death-binder siphoning her 4th seam is a second-order complication. | Without Vigor contact: slow expansion, manageable. With Vigor: blitz, unstoppable army, capture-Kenji side plot, kingdom-ending. Phylactery-equivalent is the bronze ring (4 seams). |
-| threat_red_court | **ACTIVE (Ch37 — recon begun)** | +1%/day | 30% (Ashenmere infiltration pre-trigger) | 100% (Ashenmere falls; port + portal hub under Court control) | **active — Kenji + Nyx inside Ashenmere** | Vampire coven infiltrating Ashenmere port city. 30% converted. Harbor Master thrall, 2/5 council doppelgangers, garrison commander turned. Lady Mirenne (Elder Vampire L28) running silent takeover. **Ch37: Kenji + Nyx arrived Ashenmere, purchased Alabaster Court membership as "Anku Nyx," Nyx identified 3 vampires in library. Salon tomorrow — Lysenne introduction. Strategy: IP + Vigor as leverage against Mirenne; Nyx's CE jealousy as weapon.** | Lady Mirenne destroyed or exiled. Infiltration network dismantled. Ashenmere liberated. Captain Halvard cured or killed. |
+| threat_hollowing | **ACTIVE (Kharn seam, Mursha inside, deadline Day 290)** | +2%/day once triggered | **~30%+ (wards weakening, seam active, Kenji pinned blades in seam Ch28)** | 100% (mythril seal breaks, The Fathom escapes) | **ACTIVE** | Kharn-Dural's deep dig breached The Fathom's prison. Wards hold. Thorgrim needs ember energy or Bloom Purge to reinforce seal. **Kenji encountered seam Ch28–31; blades pinned; Mursha on bench at Kharn; deadline Day 290 (5 days from Day 285).** | Seal reinforced: 40k dwarves survive, alliance possible. Seal breaks: The Fathom spreads through tunnels, corruption reaches coalition in weeks. |
+| threat_pallid_march | **ALLIED (Ch34 — alliance sealed, Vigor 7 stacked)** | N/A (alliance holds) | **ALLIED — March impregnable (Vigor-enhanced undead, 5× minion toughness); 612 anchors prostrate; Nyx bonded partner #23** | 100% (Lady Nyx launches full March, kingdom-scale threat) | **ALLIED** | Lady Nyx the Warden-Queen. **Alliance sealed Ch34 (Seven Days). Vigor 1–7 stacked (unprecedented). March now impregnable asset, not threat. Nyx traveling with Kenji as Anku Nyx. CE alignment means alliance could fracture — reactivation vector preserved.** Death-binder siphoning her 4th seam is a second-order complication. | Without Vigor contact: slow expansion, manageable. With Vigor: blitz, unstoppable army, capture-Kenji side plot, kingdom-ending. Phylactery-equivalent is the bronze ring (4 seams). **Currently: alliance holds. March is an asset.** |
+| threat_red_court | **CONQUERED (Ch38 — Mirenne submitted)** | N/A (conquered) | **100% controlled — Mirenne submitted to Nyx; chain: Mirenne → Nyx → Kenji** | N/A | **CONQUERED** | **Ch38: Mirenne submitted to Nyx at Alabaster Court. Vigor transferred via intermediary (Nyx). Virelda also submitted. Both Vigor EXPIRED (~Day 281). Vampire expansion ordered: Virelda to Veldmere, Mirenne coordinating Harrowgate remotely. Mirenne knows Kenji = ArchMagus (Combat Mage token). Red Court is now an asset — vampire network expanding under Kenji/Nyx command.** | **Conquered. Network intact under new management. Expansion into 3 cities ordered. Halvard status TBD (turned captain, possible cure via creation energy).** |
 | threat_twin_wyrms | DORMANT | +1%/day | 4/7 flights pre-trigger (Vorathiel's bloc) | 100% (Reckoning vote passes for descent; seven flights descend) | dormant | Ancient dragons deliberating The Reckoning. Vorathiel pushes descent (4/7). Kaeltharion defends treaty (3/7). Dragonborn swing factor. Kenji can be the champion Kaeltharion's been seeking. | Descent vote fails: treaty holds another millennium. Vote passes: seven dragonflights descend. Kenji earning a seat at the Reckoning is the win condition. |
 
 ### Pallid March RECONCILED
@@ -1752,7 +1776,7 @@ The Pallid March row above is the ONE PUBLIC FACE of the threat — what the Coa
 
 ### Apotheosis tracker
 
-Kenji at 2,209,800 / 2,500,000 EXP. 290,200 to Level 40. Five threats provide the content. Bane of Eve provides daily supplemental. Cap is the cap.
+Kenji at 2,270,050 / 2,500,000 EXP. 229,950 to Level 40. Five threats provide the content. Bane of Eve provides daily supplemental. Cap is the cap.
 
 ---
 
