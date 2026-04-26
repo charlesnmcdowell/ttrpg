@@ -736,6 +736,51 @@ Use **one** mode per scene unless the arc is explicitly crossing a boundary. Rul
 
 ---
 
+## VORATHIEL THE CONQUEROR — Ancient Red Dragon / Humanoid Form
+
+**Reference images:** `vorathiel_humanoid_*.png` (uploaded Ch41 session)
+
+**HUMANOID FORM**
+
+**Build:** Tall — five-ten, five-eleven. Not delicate. *Dense*. She carries herself like every bone is made of something heavier than calcium. Voluptuous, full-figured, powerful. Broad shoulders, narrow waist, long legs. The body of a woman who has never in sixteen centuries needed to run from anything. Every movement is slow, deliberate — conserving energy she could use to level a city.
+
+**Skin:** Deep bronze-brown, rich and warm, almost metallic — like someone cast a statue in dark gold and breathed life into it. Faint warmth radiates from her skin at ten paces. Not heat like Ignis throws off — *presence*. The air near her is three degrees warmer. Red-gold scale patches visible at shoulders, upper back, collarbones, and lower back — more prominent in private/intimate settings where she relaxes suppression. Pointed ears visible at certain angles.
+
+**Hair:** Black — long, past shoulder blades, thick and wild. Red-copper streaks run through it like veins of fire, catching light as if genuinely burning. Silver-white streak at the left temple — she doesn't hide it. Moves like it has its own thermals, lifting and settling in waves that don't match the wind.
+
+**Face:** Hard. Beautiful the way a mountain is beautiful — you don't approach expecting tenderness. High cheekbones, strong jaw, full lips set in a default expression that says *I have heard better from better*. Deep lines at the corners of her eyes — earned. Sixteen centuries of earned lines. Red draconic markings at her temples, subtle, like ritual scarring or natural pigment.
+
+**Eyes:** Gold. Not amber like Ignis — metallic *gold*. The iris is reflective. Pupils wrong — not round, not fully slit, something in between that the human shape can't quite contain. When light catches them at an angle, they flash with inner fire.
+
+**Horns:** She doesn't suppress them. Two ridged, red-copper horns rise from her hairline, curving upward and slightly back. Layered ridges like growth rings — each one a century. This is the detail that makes it clear: this is not a human woman. This is an ancient dragon wearing a human shape and not bothering to hide all of it.
+
+**Hands/Arms:** Forearms and hands shift toward draconic — dark red-black scales replacing skin from mid-forearm down, fingers ending in dark claws, not nails. She doesn't suppress this either. The claws are functional. The scales catch firelight like polished obsidian. Fire emanates from her hands when she's agitated or demonstrating power — casual, effortless, like breathing.
+
+**Wings:** Small dragon wings visible at her back — not full flight-capable in humanoid form, but present. Dark red membrane, folded close. She could suppress them. She doesn't.
+
+**Clothing:** A sheer red robe — long, flowing, open at the front, covered in glowing runic script that shifts and pulses like living fire. The runes are ancient draconic — older than any written human language. Beneath: black lace. Bra, underwear, garter belt, thigh-high stockings. Not armor. Not court dress. Not human modesty. An ancient dragon does not dress for human comfort. She dresses — barely — because the form requires *something*, and what she chose says: *I am not performing for you. I am tolerating this shape.* The lingerie reads less as seduction and more as a dragon's contempt for the concept of clothing.
+
+**Red sigil:** A draconic rune mark at her sternum/upper chest — glowing faintly, matching the script on her robe. Purpose unknown. Possibly a ward, possibly a status mark among dragonflights.
+
+**Wardrobe — Intimate/Private:** White lace. Bra, panties, garter belt, thigh-high stockings — delicate, frilled edges. A sharp contrast to the red robe + black lace she wears in public. In private, the scales at her shoulders and upper back are fully visible, not suppressed. The red draconic markings at her cheeks and temples are more pronounced. The white lace against bronze-brown skin and red scale patches reads as someone who has learned, across sixteen centuries, exactly what she looks like and does not care who sees it.
+
+**Wardrobe — Hoard/Lair:** Same red robe + black lace as public settings, but surrounded by her hoard — gold coins, ancient weapons, dwarven rune pillars. Her natural environment. The robe's runic script glows brighter near her own treasure, resonating with the enchanted items.
+
+**Vigor tell (DM — not yet triggered):**
+- **Eyes:** Gold → deep violet/purple. The metallic gold dims and a rich purple suffuses the iris — the creation energy mixing with ancient draconic fire in a spectrum unique to her. Unmistakable if anyone who knows Vigor tells sees it.
+- **Body:** Green glow at the lower abdomen — Vigor mark. Bright, visible through fabric, pulsing with creation energy. On an ancient dragon, the Vigor effect would be *unprecedented* — sixteen centuries of biological architecture receiving +50% to all stats. The scale patches may brighten, the horns may develop a faint luminescence, the ambient warmth she radiates may spike dramatically.
+- **Behavioral:** Unknown. No frame of reference for what Vigor does to an ancient dragon in humanoid form. Nyx's 7-stack was god-tier on a Level 32 lich. Vorathiel is Level 38. The math is terrifying.
+
+**Voice:** Lower than expected. A smoker's rasp that never touched tobacco. Sixteen centuries of breathing fire compressed into a human throat. Quiet authority — she doesn't need volume.
+
+**Aura (God Sight):** A *bonfire*. Red-gold at the core, darkening to deep crimson at the edges. Extends six feet in every direction. Ancient. Layered — every century a stratum, like rings in a cut tree. The outermost layer is older than Korrim's mountain, older than the Eldest's forest. Threaded through the red-gold: fear. A mother's math. Not cowardice — the calculation of someone who has watched the younger races build sharper tools for sixteen hundred years.
+
+**IP vulnerability:** In dragon form — IMMUNE (non-humanoid). In humanoid form — VULNERABLE. No Vigor. No immunity. First exposure Ch41 Day 290 at Ashfeld Reach. Stack 1 on first viewing. She does not know what the sensation is. She has no frame of reference.
+
+**Context:** Ancient Red Dragon, Level 38, 1,612 years old. Holds 4/7 dragonflights for descent vote (moved to conditional 3-3 at Kharn summit Ch41). Ignis's mother. Not a villain — a mother protecting her children from a species that keeps getting more dangerous. Ch41: shifted to humanoid form at the seam because dragon form wouldn't fit the approach terrain. First time in humanoid form near Ankunyx. Chaotic Evil alignment — greed and dominion as personality, but her current actions are driven by maternal calculation, not cruelty.
+
+---
+
 ## DM Checklist — New Character Introductions
 
 When introducing ANY new named NPC for the first time, establish:
