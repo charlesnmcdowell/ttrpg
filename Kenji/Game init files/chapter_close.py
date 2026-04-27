@@ -2,17 +2,20 @@
 """Chapter-close pipeline for the Kenji TTRPG.
 
 Run ONCE after finishing a chapter to batch-update all state tracking.
-Parses the chapter summary block, advances the calendar, runs expiry checks,
-updates location/gold/EXP, flags overdue goals, and regenerates AI_CONTEXT.md.
+Supports TWO input modes:
+  1. YAML/JSON receipt (new v2.0 pipeline) — structured chapter_receipt
+  2. Chapter markdown file (legacy) — parses summary block from prose
 
 Usage:
-    python chapter_close.py <chapter_file>                   # full run
-    python chapter_close.py <chapter_file> --dry-run         # show diff, don't save
-    python chapter_close.py <chapter_file> --dry-run --json  # machine-readable diff
+    python chapter_close.py <chapter_file_or_receipt>         # auto-detects format
+    python chapter_close.py <file> --dry-run                  # show diff, don't save
+    python chapter_close.py <file> --dry-run --json           # machine-readable diff
+    python chapter_close.py <file> --character <name>         # use <name>_state.json
 
 Examples:
-    python chapter_close.py "Book 4/Chapters/fraying_empire_chapter_16.md"
-    python chapter_close.py "Book 4/Chapters/fraying_empire_chapter_17.md" --dry-run
+    python chapter_close.py receipt_ch43.yaml                 # receipt mode (v2.0)
+    python chapter_close.py receipt_ch43.json                 # receipt mode (JSON)
+    python chapter_close.py "Book 4/Chapters/fraying_empire_chapter_16.md"  # legacy
 """
 
 import json, re, sys, os
@@ -20,6 +23,12 @@ from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Tuple, Any, Optional
 from copy import deepcopy
+
+# Patch v2.0 methods onto StoryEngine for receipt processing
+try:
+    import engine_v2  # noqa: F401 — side-effect: monkey-patches StoryEngine
+except ImportError:
+    pass  # graceful: v2 features unavailable but legacy markdown mode still works
 
 SCRIPT_DIR = Path(__file__).parent
 STATE_FILE = SCRIPT_DIR / "kenji_state.json"
@@ -545,11 +554,297 @@ def chapter_close(chapter_path: str, dry_run: bool = False, json_output: bool = 
     return diff
 
 
+def chapter_close_receipt(receipt_path: str, dry_run: bool = False,
+                         json_output: bool = False, character: str = None):
+    """Chapter-close pipeline from a structured YAML/JSON receipt (v2.0).
+
+    The receipt is the standardized output from the AI at chapter end.
+    """
+    rpath = Path(receipt_path)
+    if not rpath.is_absolute():
+        rpath = SCRIPT_DIR / rpath
+    if not rpath.exists():
+        print(f"ERROR: Receipt not found: {rpath}")
+        sys.exit(1)
+
+    text = rpath.read_text(encoding="utf-8")
+
+    # Try JSON first, then YAML
+    receipt = None
+    try:
+        receipt = json.loads(text)
+    except json.JSONDecodeError:
+        try:
+            import yaml
+            receipt = yaml.safe_load(text)
+        except ImportError:
+            print("ERROR: Receipt is not JSON and PyYAML is not installed.")
+            print("  pip install pyyaml --break-system-packages")
+            sys.exit(1)
+
+    if isinstance(receipt, dict) and "chapter_receipt" in receipt:
+        receipt = receipt["chapter_receipt"]
+    if not isinstance(receipt, dict):
+        print("ERROR: Receipt did not parse to a dict.")
+        sys.exit(1)
+
+    # Resolve state file
+    state_file = STATE_FILE
+    if character:
+        # Import the resolver from _dm_turn
+        sys.path.insert(0, str(SCRIPT_DIR))
+        try:
+            from _dm_turn import resolve_state_file
+            state_file = resolve_state_file(character)
+        except ImportError:
+            state_file = SCRIPT_DIR / f"{character.lower()}_state.json"
+
+    # Load engine
+    eng = StoryEngine.load_json(str(state_file))
+    old_snapshot = deepcopy(eng.to_dict())
+
+    ch_num = receipt.get("chapter_number", "?")
+    print(f"{'=' * 60}")
+    print(f"CHAPTER CLOSE (receipt): Chapter {ch_num}")
+    print(f"Receipt: {rpath.name}")
+    print(f"{'=' * 60}")
+
+    # --- Apply receipt fields ---
+    changes = []
+
+    # Day
+    end_day = receipt.get("day_end")
+    if end_day and int(end_day) != eng.day:
+        old_day = eng.day
+        eng.day = int(end_day)
+        changes.append(f"Day: {old_day} → {eng.day} ({day_to_calendar(eng.day)})")
+
+    # Location
+    loc = receipt.get("location_end")
+    if loc and loc != eng.location:
+        old_loc = eng.location
+        eng.location = loc
+        changes.append(f"Location: {old_loc} → {loc}")
+
+    # EXP (mandatory)
+    exp_block = receipt.get("exp_earned")
+    if not exp_block:
+        print("[!!] REJECTED: No exp_earned block in receipt. EXP tracking is mandatory.")
+        print("     Even zero-EXP chapters must include the block with total: 0.")
+        if not dry_run:
+            sys.exit(1)
+    else:
+        combat_exp = int(exp_block.get("combat", 0))
+        roleplay_exp = int(exp_block.get("roleplay", 0))
+        discovery_exp = int(exp_block.get("discovery", 0))
+        stated_total = int(exp_block.get("total", 0))
+        calc_total = combat_exp + roleplay_exp + discovery_exp
+        if stated_total != calc_total:
+            print(f"[!] EXP total mismatch: stated {stated_total}, calculated {calc_total}. Using calculated.")
+        justification = exp_block.get("justification", "")
+        result = eng.update_exp(
+            int(ch_num) if str(ch_num).isdigit() else 0,
+            combat_exp, roleplay_exp, discovery_exp, justification
+        )
+        changes.append(f"EXP: {result['old_exp']:,} → {result['new_exp']:,} (+{calc_total})")
+        if result.get("level_up"):
+            changes.append("LEVEL UP available!")
+        if result.get("zero_streak_warning"):
+            changes.append(result["warning"])
+
+    # Gold
+    gold_block = receipt.get("gold_changes", {})
+    if gold_block:
+        gained = int(gold_block.get("gained", 0))
+        spent = int(gold_block.get("spent", 0))
+        notes = gold_block.get("notes", "")
+        econ = eng.validate_economy(gained, spent, notes)
+        for w in econ["warnings"]:
+            changes.append(f"ECONOMY WARNING: {w}")
+        old_gold = eng.gold
+        eng.gold += gained - spent
+        changes.append(f"Gold: {old_gold} → {eng.gold} ({gained - spent:+d} GP)")
+
+    # HP
+    hp_block = receipt.get("hp_changes", {})
+    if hp_block and "current_hp" in hp_block:
+        old_hp = eng.hp
+        eng.hp = int(hp_block["current_hp"])
+        if old_hp != eng.hp:
+            changes.append(f"HP: {old_hp} → {eng.hp}/{eng.max_hp}")
+
+    # Goals progressed
+    for gp in receipt.get("goals_progressed", []):
+        gid = gp.get("goal_id", "")
+        new_status = gp.get("new_status", "")
+        note = gp.get("progress_note", "")
+        for g in eng.character_goals:
+            if isinstance(g, dict) and g.get("goal_id") == gid:
+                if new_status:
+                    g["status"] = new_status
+                if str(ch_num).isdigit():
+                    g["last_updated_chapter"] = int(ch_num)
+                changes.append(f"Goal {gid} → {new_status or 'updated'}: {note}")
+                break
+
+    # New goals
+    for gn in receipt.get("goals_new", []):
+        eng.character_goals.append({
+            "goal_id": gn.get("goal_id", ""),
+            "description": gn.get("description", ""),
+            "status": "active",
+            "due_chapter": gn.get("due_chapter"),
+            "due_day": gn.get("due_day"),
+            "trigger_condition": gn.get("trigger_condition"),
+            "attached_npc": gn.get("attached_npc"),
+            "created_chapter": int(ch_num) if str(ch_num).isdigit() else None,
+            "last_updated_chapter": int(ch_num) if str(ch_num).isdigit() else None,
+            "escalation_tier": 0,
+        })
+        changes.append(f"Goal NEW: {gn.get('goal_id', '?')}")
+
+    # Items
+    for item in receipt.get("items_gained", []):
+        if item not in eng.key_items:
+            eng.key_items.append(item)
+            changes.append(f"Item gained: {item}")
+    for item in receipt.get("items_lost", []):
+        if item in eng.satchel:
+            eng.satchel.remove(item)
+            changes.append(f"Item lost: {item}")
+        elif item in eng.key_items:
+            eng.key_items.remove(item)
+            changes.append(f"Item lost: {item}")
+
+    # Cover status
+    cover = receipt.get("cover_status")
+    if cover:
+        eng.extra_json["cover_status"] = cover
+        changes.append(f"Cover: → {cover}")
+
+    # Chapter counter
+    if str(ch_num).isdigit():
+        eng.extra_json["current_chapter"] = int(ch_num)
+
+    # Canon pointer
+    end_cal = day_to_calendar(eng.day) if eng.day else "?"
+    eng.canon_pointer = f"Chapter {ch_num} COMPLETE. Ends {end_cal}, Day {eng.day}."
+
+    # --- Run goal audit + escalation ---
+    chapter_int = int(ch_num) if str(ch_num).isdigit() else 0
+    if chapter_int > 0:
+        esc_msgs = eng.escalate_goals(chapter_int)
+        for msg in esc_msgs:
+            changes.append(f"ESCALATION: {msg.splitlines()[0]}")
+
+    # --- Vigor check ---
+    vigor_alerts = check_vigor_expiry(eng.to_dict(), eng.day)
+    goal_alerts = check_goals(eng.to_dict(), eng.day)
+
+    # --- Validation ---
+    warnings = eng.validate()
+
+    # --- Output ---
+    print()
+    if dry_run:
+        print("DRY RUN — no files modified")
+        print(f"{'=' * 60}")
+        print("\nChanges that WOULD be applied:")
+        for c in changes:
+            print(f"  → {c}")
+        if json_output:
+            print(json.dumps({
+                "changes": changes,
+                "vigor_alerts": vigor_alerts,
+                "goal_alerts": goal_alerts,
+                "warnings": warnings,
+            }, indent=2))
+    else:
+        eng.save_json(str(state_file))
+        print(f"[SAVED] {state_file.name} (v{eng._save_version})")
+
+        brief = eng.ai_brief_markdown()
+        AI_CONTEXT_FILE.write_text(brief, encoding="utf-8")
+        print(f"[SAVED] AI_CONTEXT.md ({len(brief)} chars)")
+
+        print(f"{'=' * 60}")
+        print("\nApplied changes:")
+        for c in changes:
+            print(f"  → {c}")
+
+        # Write receipt log
+        receipt_dir = SCRIPT_DIR / "logs"
+        receipt_dir.mkdir(exist_ok=True)
+        ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+        receipt_file = receipt_dir / f"chapter_close_{ch_num}_{ts}.txt"
+        r_lines = [
+            "CHAPTER_CLOSE_RECEIPT (v2.0)",
+            f"chapter: {ch_num}",
+            f"receipt_file: {rpath.name}",
+            f"executed: {datetime.now().isoformat(timespec='seconds')}",
+            f"engine_day: {eng.day}",
+            f"calendar: {day_to_calendar(eng.day)}",
+            f"save_version: {eng._save_version}",
+            "---",
+        ]
+        for c in changes:
+            r_lines.append(f"  {c}")
+        if vigor_alerts:
+            r_lines.append("--- VIGOR ---")
+            r_lines.extend(f"  {a}" for a in vigor_alerts)
+        if goal_alerts:
+            r_lines.append("--- GOALS ---")
+            r_lines.extend(f"  {a}" for a in goal_alerts)
+        if warnings:
+            r_lines.append("--- WARNINGS ---")
+            r_lines.extend(f"  {w}" for w in warnings)
+        receipt_file.write_text("\n".join(r_lines), encoding="utf-8")
+        print(f"[RECEIPT] {receipt_file}")
+
+    if vigor_alerts:
+        print("\n[VIGOR]")
+        for a in vigor_alerts:
+            print(f"  {a}")
+    if goal_alerts:
+        print("\n[GOALS]")
+        for a in goal_alerts:
+            print(f"  {a}")
+    if warnings:
+        print("\n[WARNINGS]")
+        for w in warnings:
+            print(f"  {w}")
+
+
+def _detect_format(filepath: Path) -> str:
+    """Detect if a file is a receipt (JSON/YAML) or a chapter markdown."""
+    suffix = filepath.suffix.lower()
+    if suffix in (".yaml", ".yml", ".json"):
+        return "receipt"
+    if suffix in (".md", ".markdown"):
+        return "markdown"
+    # Try to detect by content
+    text = filepath.read_text(encoding="utf-8")[:500]
+    if "chapter_receipt:" in text or '"chapter_receipt"' in text or '"chapter_number"' in text:
+        return "receipt"
+    return "markdown"
+
+
 if __name__ == "__main__":
     import argparse
-    ap = argparse.ArgumentParser(description="Chapter close pipeline")
-    ap.add_argument("chapter", help="Path to chapter markdown file")
+    ap = argparse.ArgumentParser(description="Chapter close pipeline (v2.0)")
+    ap.add_argument("chapter", help="Path to chapter file (.md) or receipt (.yaml/.json)")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--json", action="store_true")
+    ap.add_argument("--character", default=None, help="Character name (loads <name>_state.json)")
     args = ap.parse_args()
-    chapter_close(args.chapter, dry_run=args.dry_run, json_output=args.json)
+
+    chapter_file = Path(args.chapter)
+    if not chapter_file.is_absolute():
+        chapter_file = SCRIPT_DIR / chapter_file
+
+    fmt = _detect_format(chapter_file)
+    if fmt == "receipt":
+        chapter_close_receipt(str(chapter_file), dry_run=args.dry_run,
+                              json_output=args.json, character=args.character)
+    else:
+        chapter_close(str(chapter_file), dry_run=args.dry_run, json_output=args.json)

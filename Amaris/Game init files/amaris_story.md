@@ -742,6 +742,6 @@ The farm is yours.
 
 **End of campaign — Amaris: The Crawling Dark (resolved).**
 
-Amaris remains at Briarstone Homestead, deed in hand, corruption ended by an unidentified intervening hero. Thornfield endures. The east field will heal; the dream holds.
+Amaris remains at Briarstone Homestead, deed in hand, corruption ended by Kenji during his Book 4 campaign when he entered the Millhaven/Thornfield area. Thornfield endures. The east field will heal; the dream holds.
 
 ---

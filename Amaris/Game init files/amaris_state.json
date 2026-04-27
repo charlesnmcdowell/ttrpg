@@ -1,5 +1,5 @@
 {
-  "_comment": "Post-campaign snapshot — The Crawling Dark resolved; mysterious stranger ended the forest corruption. Amaris holds Briarstone. Same realm as Kenji campaign (see shared_world + Documents/TTRPG/shared_world_continuity.md).",
+  "_comment": "Post-campaign snapshot — The Crawling Dark resolved; Kenji resolved the forest corruption during Book 4 when he entered Amaris's territory (Millhaven/Thornfield area). Amaris holds Briarstone. Same realm as Kenji campaign (see shared_world + Documents/TTRPG/shared_world_continuity.md).",
   "_save_version": 3,
   "_saved_at": "",
   "day": 8,
@@ -55,7 +55,7 @@
       "name": "Greenveil corruption",
       "status": "resolved",
       "priority": "HIGH",
-      "notes": "Ended by unidentified hero; Nexus destroyed or purged off-page. Village safe."
+      "notes": "Resolved by Kenji during Book 4 (operating in Millhaven/Thornfield area). Nexus destroyed or purged. Village safe. Campaign-agnostic crossover — different player solved Amaris's threat chain."
     }
   ],
   "squads": {},

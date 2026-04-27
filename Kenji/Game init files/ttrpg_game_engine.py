@@ -2732,8 +2732,18 @@ class StoryEngine:
         lines.append(f"╚{'═'*w}╝")
         return "\n".join(lines)
     
+    # ---- v2.0 methods live in engine_v2.py (monkey-patched at import) ----
+    # See: audit_goals, escalate_goals, check_perks, update_exp,
+    #      validate_economy, apply_campaign_rules, generate_chapter_open_report
+    # Usage: import engine_v2  # patches StoryEngine automatically
+
+    # (v2.0 inline code removed — now in engine_v2.py)
+    # Placeholder to prevent re-insertion:
+    _v2_methods_in_engine_v2_py = True
+
     # ---- DASHBOARD ----
-    
+
+
     def dashboard(self) -> str:
         lines = []
         w = 60
@@ -2793,9 +2803,12 @@ class StoryEngine:
                     time_str = f"{hrs}hr away"
                 else:
                     time_str = f"{days_away}d {hrs % 24}hr away"
-                eline = f"  {urgency} [{e['priority']}] {e['name']} — Day {e['day']} ({time_str})"
-                if e.get("notes"):
-                    eline += f" — {e['notes']}"
+                etype = e.get('priority') or e.get('type', '?')
+                ename = e.get('name') or e.get('summary', '')[:60]
+                eline = f"  {urgency} [{etype}] {ename} — Day {e['day']} ({time_str})"
+                enotes = e.get("notes") or (e.get("summary", '') if 'name' in e else '')
+                if enotes and enotes != ename:
+                    eline += f" — {enotes[:80]}"
                 lines.append(f"║ {eline:<{w}}║")
         
         # Quests
@@ -3041,29 +3054,27 @@ class StoryEngine:
             stage_bouts = [b for b in ev["bracket"] if b.get("stage") == ev["stage"]]
             if stage_bouts:
                 for b in stage_bouts:
-                    loser = b['b'] if b['winner'] == b['a'] else b['a']
-                    bline = f"  ✅ B{b['bout']}: {b['winner']} def. {loser} ({b['rounds']}rds)"
+                    loser = b["b"] if b["winner"] == b["a"] else b["a"]
+                    bline = f"  {b['bout']}: {b['winner']} def. {loser} ({b['rounds']}rds)"
                     lines.append(f"║ {bline:<{w}}║")
-            # Show upcoming bouts (active vs active, not yet fought this stage)
-            fought = set()
-            for b in stage_bouts:
-                fought.add(b['a']); fought.add(b['b'])
-            unfought = [n for n in active_fighters if n not in fought]
-            if len(unfought) >= 2:
-                lines.append(f"║ {'  ⏳ UPCOMING:':<{w}}║")
-                for i in range(0, len(unfought)-1, 2):
-                    uline = f"    {unfought[i]} vs {unfought[i+1]}"
-                    lines.append(f"║ {uline:<{w}}║")
-        
-        # Character sheet — ability scores, skills, known spells, class features
-        sheet_any = (
-            self.ability_scores or self.skills or self.known_spells or self.class_features
-        )
+                fought = set()
+                for b in stage_bouts:
+                    fought.add(b["a"])
+                    fought.add(b["b"])
+                unfought = [n for n in active_fighters if n not in fought]
+                if len(unfought) >= 2:
+                    lines.append(f"║ {'  ⏳ UPCOMING:':<{w}}║")
+                    for i in range(0, len(unfought) - 1, 2):
+                        uline = f"    {unfought[i]} vs {unfought[i + 1]}"
+                        lines.append(f"║ {uline:<{w}}║")
+
+        # Abilities / Skills / Spells (character sheet)
+        sheet_any = self.ability_scores or self.skills or self.known_spells or self.class_features
         if sheet_any:
             lines.append(f"╠{'─'*w}╣")
             lines.append(f"║ {'📋 ABILITIES / SKILLS / SPELLS':<{w}}║")
             if self.ability_scores:
-                order = ("STR", "DEX", "CON", "INT", "WIS", "CHA")
+                order = ('STR', 'DEX', 'CON', 'INT', 'WIS', 'CHA')
                 parts = []
                 for k in order:
                     if k in self.ability_scores:
@@ -3073,7 +3084,7 @@ class StoryEngine:
                         parts.append(f"{k} {self.ability_scores[k]}")
                 ab = "  " + "  ".join(parts)
                 for i in range(0, len(ab), w - 2):
-                    seg = ab[i : i + w - 2]
+                    seg = ab[i:i + w - 2]
                     lines.append(f"║ {seg:<{w}}║")
             if self.skills:
                 lines.append(f"║ {'  Skills:':<{w}}║")
@@ -3090,27 +3101,27 @@ class StoryEngine:
                 for feat in self.class_features:
                     fline = f"    • {feat}"
                     lines.append(f"║ {fline[:w]:<{w}}║")
-        
-        # Active Perks
+
+        # Perks
         lines.append(f"╠{'─'*w}╣")
         if self.active_perks:
             perk_str = ", ".join(self.active_perks)
             lines.append(f"║ PERKS: {perk_str:<{w-7}}║")
         else:
             lines.append(f"║ PERKS: None active (no friendly observer){' '*(w-42)}║")
-        
+
         # Weapon Config
         if self.weapon_config:
             lines.append(f"║ CONFIG: {self.weapon_config.upper()} — {self.weapon_config_detail:<{w-11-len(self.weapon_config)}}║")
-        
+
         # Exhaustion
         exh = self.get_exhaustion()
         if exh > 0:
             lines.append(f"╠{'─'*w}╣")
-            exh_effect = EXHAUSTION.get(exh, "")
+            exh_effect = EXHAUSTION.get(exh, '')
             lines.append(f"║ {'⚠️ EXHAUSTION LEVEL ' + str(exh) + ': ' + exh_effect:<{w}}║")
 
-        # DM RULES REMINDER — always present. Full rules in dm_rules_tracking.md.
+        # Cardinal Rules
         lines.append(f"╠{'─'*w}╣")
         lines.append(f"║ {'🚨 CARDINAL RULES (see dm_rules_tracking.md)':<{w}}║")
         lines.append(f"║   1. NEVER write Kenji's dialogue. STOP for player.{' '*(w-52)}║")
@@ -3119,11 +3130,11 @@ class StoryEngine:
         lines.append(f"║   4. No fabricated exposition NPCs (RULE 4).{' '*(w-46)}║")
         lines.append(f"║   5. 60% dialogue minimum. Ronin style tax (RULE 6).{' '*(w-53)}║")
         lines.append(f"║   6. 1hr/beat travel. Flag hunger at 4hr. Auto-eat 8hr.{' '*(w-55)}║")
-        
+
         lines.append(f"╚{'═'*w}╝")
         return "\n".join(lines)
-    
-    def scene_prompt(self, scene_type: str = "arrival", npcs_present: List[str] = None) -> str:
+
+    def scene_prompt(self, scene_type="arrival", npcs_present=None):
         """Generate a DM scene prompt with player agency reminders.
         scene_type: arrival, combat, social, rest, travel, shopping
         npcs_present: list of NPC names in the scene
@@ -3133,59 +3144,50 @@ class StoryEngine:
         lines.append(f"┌── SCENE: {scene_type.upper()} ──┐")
         lines.append(f"│ Location: {self.location}")
         lines.append(f"│ Time: Day {self.day}, {self.clock_display()} — {self.time_of_day()}")
-        if npcs:
-            lines.append(f"│ NPCs present: {', '.join(npcs)}")
-        
-        lines.append(f"│")
-        lines.append(f"│ DM WRITES:")
-        lines.append(f"│   ✅ NPC dialogue (what THEY say)")
-        lines.append(f"│   ✅ Environment (what player SEES, HEARS, SMELLS)")
-        lines.append(f"│   ✅ NPC actions and reactions")
-        lines.append(f"│   ✅ Consequences of player's stated actions")
-        lines.append(f"│")
-        lines.append(f"│ DM NEVER WRITES:")
-        lines.append(f"│   ❌ Player dialogue (what Kenji SAYS)")
-        lines.append(f"│   ❌ Player decisions (what Kenji CHOOSES to do)")
-        lines.append(f"│   ❌ Player emotional reactions narrated as fact")
-        lines.append(f"│   ❌ Player walking somewhere unprompted")
-        lines.append(f"│")
-        lines.append(f"│ SCENE FLOW:")
-        
+        lines.append(f"│ NPCs present: {', '.join(npcs)}")
+        lines.append("│")
+        lines.append("│ DM WRITES:")
+        lines.append("│   ✅ NPC dialogue (what THEY say)")
+        lines.append("│   ✅ Environment (what player SEES, HEARS, SMELLS)")
+        lines.append("│   ✅ NPC actions and reactions")
+        lines.append("│   ✅ Consequences of player's stated actions")
+        lines.append("│ DM NEVER WRITES:")
+        lines.append("│   ❌ Player dialogue (what Kenji SAYS)")
+        lines.append("│   ❌ Player decisions (what Kenji CHOOSES to do)")
+        lines.append("│   ❌ Player emotional reactions narrated as fact")
+        lines.append("│   ❌ Player walking somewhere unprompted")
+        lines.append("│ SCENE FLOW:")
         if scene_type == "arrival":
-            lines.append(f"│   1. Describe the location (one paragraph)")
-            lines.append(f"│   2. NPCs react to player arriving")
-            lines.append(f"│   3. First NPC speaks")
-            lines.append(f"│   4. STOP — wait for player to respond")
+            lines.append("│   1. Describe the location (one paragraph)")
+            lines.append("│   2. NPCs react to player arriving")
+            lines.append("│   3. First NPC speaks")
+            lines.append("│   4. STOP — wait for player to respond")
         elif scene_type == "social":
-            lines.append(f"│   1. NPC initiates or continues conversation")
-            lines.append(f"│   2. STOP after NPC's line — let player respond")
-            lines.append(f"│   3. Never run both sides of a conversation")
+            lines.append("│   1. NPC initiates or continues conversation")
+            lines.append("│   2. STOP after NPC's line — let player respond")
+            lines.append("│   3. Never run both sides of a conversation")
         elif scene_type == "rest":
-            lines.append(f"│   1. Describe comfort (food, bath, bed) via NPC dialogue")
-            lines.append(f"│   2. NPCs comment on the relief — they're people too")
-            lines.append(f"│   3. STOP before Long Rest — ask player if anything before sleep")
+            lines.append("│   1. Describe comfort (food, bath, bed) via NPC dialogue")
+            lines.append("│   2. NPCs comment on the relief — they're people too")
+            lines.append("│   3. STOP before Long Rest — ask player if anything before sleep")
         elif scene_type == "travel":
-            lines.append(f"│   1. Set the road scene")
-            lines.append(f"│   2. Encounter check or NPC conversation")
-            lines.append(f"│   3. STOP for player decisions at each beat")
+            lines.append("│   1. Set the road scene")
+            lines.append("│   2. Encounter check or NPC conversation")
+            lines.append("│   3. STOP for player decisions at each beat")
         elif scene_type == "shopping":
-            lines.append(f"│   1. Describe the shop/vendor")
-            lines.append(f"│   2. Merchant speaks first")
-            lines.append(f"│   3. STOP — player decides what to buy/ask")
+            lines.append("│   1. Describe the shop/vendor")
+            lines.append("│   2. Merchant speaks first")
+            lines.append("│   3. STOP — player decides what to buy/ask")
         elif scene_type == "combat":
-            lines.append(f"│   1. Set the encounter (enemies, terrain)")
-            lines.append(f"│   2. Roll initiative")
-            lines.append(f"│   3. Present round — STOP for player action")
-        
-        lines.append(f"│")
-        lines.append(f"│ REMEMBER: Set scene, NPCs react, STOP.")
-        lines.append(f"└{'─'*40}┘")
+            lines.append("│   1. Set the encounter (enemies, terrain)")
+            lines.append("│   2. Roll initiative")
+            lines.append("│   3. Present round — STOP for player action")
+        lines.append("│ REMEMBER: Set scene, NPCs react, STOP.")
+        lines.append(f"└{'────────────────────────────────────────'}┘")
         return "\n".join(lines)
 
-    # ---- AI CONTEXT (compact — paste into chat; novels remain source of voice/tone) ----
-
     @classmethod
-    def load_json(cls, path: str) -> "StoryEngine":
+    def load_json(cls, path):
         """Load state from JSON (e.g. kenji_state.json). Strips optional _comment key."""
         import json
         from pathlib import Path
@@ -3197,7 +3199,7 @@ class StoryEngine:
         print(f"[load] v{eng._save_version} saved {eng._saved_at or 'never'}")
         return eng
 
-    def save_json(self, path: str) -> None:
+    def save_json(self, path):
         """Persist full state to JSON. Atomic write + verify to survive OneDrive sync."""
         import json, os
         from pathlib import Path
@@ -3207,34 +3209,36 @@ class StoryEngine:
         if self.hegemony_active and self.construct_army:
             self._construct_total_expected = self.total_constructs()
         data = self.to_dict()
-        tmp = path + ".tmp"
-        Path(tmp).write_text(
-            json.dumps(data, indent=2, ensure_ascii=False) + "\n",
-            encoding="utf-8",
-        )
-        os.replace(tmp, path)
+        tmp = Path(path).with_suffix(".tmp")
+        tmp.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        tmp.replace(path)
+        # Verify
         check = json.loads(Path(path).read_text(encoding="utf-8"))
         if check.get("_save_version") != self._save_version:
             raise RuntimeError(
-                f"SAVE VERIFY FAILED: wrote v{self._save_version}, "
-                f"read back v{check.get('_save_version')} — OneDrive likely overwrote the file"
+                f"SAVE VERIFY FAILED: wrote v{self._save_version}"
+                f", read back v{check.get('_save_version')}"
+                " — OneDrive likely overwrote the file"
             )
 
-    def validate(self) -> List[str]:
+    def validate(self):
         """Check state consistency. Returns list of warnings (empty = clean)."""
         warnings = []
+        # Construct army vs portals
         portal_names = set(self.portals.keys())
         army_names = set(self.construct_army.keys())
         orphan_armies = army_names - portal_names
+        missing_armies = {n for n in portal_names if self.portals[n] == "active"} - army_names
         if orphan_armies:
             warnings.append(f"construct_army has entries not in portals: {orphan_armies}")
-        missing_armies = {p for p, s in self.portals.items() if s == "active"} - army_names
-        if missing_armies and self.hegemony_active:
+        if missing_armies:
             warnings.append(f"Active portals missing from construct_army: {missing_armies}")
-        for portal, army in self.construct_army.items():
-            for k in ("squads", "warrior", "healer", "mage", "ranger", "destroyed"):
-                if k not in army:
-                    warnings.append(f"construct_army[{portal}] missing key '{k}'")
+        if self.hegemony_active:
+            for portal, army in self.construct_army.items():
+                for k in ("warrior", "healer", "mage", "ranger"):
+                    if k not in army:
+                        warnings.append(f"construct_army['{portal}'] missing key '{k}'")
+        # Currency / HP
         if self.gold < 0:
             warnings.append(f"Gold is negative: {self.gold}")
         if self.meals < 0:
@@ -3243,434 +3247,270 @@ class StoryEngine:
             warnings.append(f"HP ({self.hp}) exceeds max HP ({self.max_hp})")
         if self.hp < 0:
             warnings.append(f"HP is negative: {self.hp}")
+        # Threat clocks
         for name, clock in self.threat_clocks.items():
-            for req in ("progress", "rate", "trigger"):
+            for req in ("progress", "rate", "trigger", "description"):
                 if req not in clock:
-                    warnings.append(f"threat_clock[{name}] missing key '{req}'")
+                    warnings.append(f"threat_clock['{name}'] missing key '{req}'")
+        # Character goals
         for i, g in enumerate(self.character_goals):
             if not isinstance(g, dict):
                 warnings.append(f"character_goals[{i}] is not an object")
                 continue
-            st = (g.get("status") or "").strip().lower()
+            st = g.get("status", "").strip().lower()
             if st not in ACTIVE_CHARACTER_GOAL_STATUSES:
                 continue
-            due = g.get("due_day")
-            if due is None:
-                continue
-            try:
-                di = int(due)
-            except (TypeError, ValueError):
-                warnings.append(
-                    f"character_goals[{i}] `{g.get('goal_id', '?')}` has non-int due_day"
-                )
-                continue
-            if self.day > di:
-                warnings.append(
-                    f"character_goals OVERDUE: {g.get('character', '?')} "
-                    f"`{g.get('goal_id', '?')}` (engine day {self.day} > due_day {di})"
-                )
-        if self._construct_total_expected >= 0 and self.hegemony_active:
+            due = g.get("due_day", None)
+            if due is not None:
+                try:
+                    di = int(due)
+                except (TypeError, ValueError):
+                    warnings.append(f"character_goals[{i}] `{g.get('goal_id', '?')}` has non-int due_day")
+                    continue
+                if self.day > di:
+                    warnings.append(
+                        f"character_goals OVERDUE: {g.get('character', '?')}"
+                        f" `{g.get('goal_id', '?')}` (engine day {self.day} > due_day {di})"
+                    )
+        # Construct total drift
+        if self._construct_total_expected is not None:
             actual = self.total_constructs()
             if actual != self._construct_total_expected:
                 warnings.append(
-                    f"Construct total drifted: expected {self._construct_total_expected}, "
-                    f"actual {actual} (Δ{actual - self._construct_total_expected})"
+                    f"Construct total drifted: expected {self._construct_total_expected}"
+                    f", actual {actual} (Δ{actual - self._construct_total_expected})"
                 )
         return warnings
 
-    def ai_brief_markdown(self) -> str:
+    def ai_brief_markdown(self):
         """Compact markdown for LLM-assisted DMing. Uses engine variables + narrative_notes.
         Does not replace the novels — use for facts-at-a-glance and dynamic continuity."""
-        lines: List[str] = []
+        lines = []
         lines.append(f"# {self.char_name} — live state (StoryEngine / ttrpg_game_engine)")
         lines.append("")
-        lines.append(
-            "Use these **numbers and facts** for the current session. For prose style, voice, and "
-        )
-        lines.append(
-            "secrets the party does not know, still follow `Kenji_story_book1.md` / `Kenji_story_book2.md` and `dm_rules_tracking.md` (spoiler sections)."
-        )
-        lines.append("")
-        if self.canon_pointer:
-            lines.append(f"**Canon pointer:** {self.canon_pointer}")
-            lines.append("")
+        lines.append("Use these **numbers and facts** for the current session. For prose style, voice, and "
+                      "secrets the party does not know, still follow `Kenji_story_book1.md` / `Kenji_story_book2.md` and `dm_rules_tracking.md` (spoiler sections).")
+        lines.append(f"**Canon pointer:** {self.canon_pointer}")
+
+        # Active arc
         aa = self.extra_json.get("active_arc")
-        if aa:
-            lines.append("## Active story arc (from kenji_state.json)")
+        if isinstance(aa, dict):
             lines.append("")
-            if isinstance(aa, dict):
-                rel = aa.get("relative_path") or aa.get("path") or ""
-                slug = aa.get("slug", "")
-                title = aa.get("title", "")
+            lines.append("## Active story arc (from kenji_state.json)")
+            rel = aa.get("relative_path") or aa.get("path")
+            slug = aa.get("slug")
+            title = aa.get("title")
+            if slug or title:
                 lines.append(f"- **Slug:** {slug} | **Title:** {title}")
+            if rel:
                 lines.append(f"- **Arc file (relative to Game init files):** `{rel}`")
             else:
-                lines.append(f"- **Arc path:** `{aa}`")
-            lines.append(
-                "- **Resolver:** run `python run_arc_pointer.py` from this folder for "
-                "**KENJI_ARC_POINTER_RUN_RECEIPT** (machine proof) and optional `--peek N`."
-            )
+                lines.append(f"- **Arc path:** `{aa.get('path')}`")
+            lines.append("- **Resolver:** run `python run_arc_pointer.py` from this folder for **KENJI_ARC_POINTER_RUN_RECEIPT** (machine proof) and optional `--peek N`.")
+
+        # Where we left off
+        if self.story_beat and str(self.story_beat).strip():
             lines.append("")
-        if self.story_beat.strip():
             lines.append("## Where we left off")
-            lines.append("")
-            lines.append(self.story_beat.strip())
-            lines.append("")
-        lines.append("## Time and place")
+            lines.append(self.story_beat)
+
+        # Time and place
         lines.append("")
-        hr = int(self.hour) if isinstance(self.hour, (int, float)) else self.hour
-        lines.append(
-            f"- **Day {self.day},** hour {hr:02d}:00 — {self.time_of_day()}"
-        )
+        lines.append("## Time and place")
+        hr = int(float(self.hour)) if self.hour else 0
+        lines.append(f"- **Day {self.day},** hour {hr:02d}:00 — {self.time_of_day()}")
         lines.append(f"- **Location:** {self.location}")
         lines.append(f"- **Weather:** {self.weather}")
+
+        # PC mechanical facts
         lines.append("")
         lines.append("## PC — mechanical facts")
-        lines.append("")
         hp_str = f"{self.hp}/{self.max_hp}"
         if self.temp_hp:
             hp_str += f" (+{self.temp_hp} temp)"
-        lines.append(
-            f"- **{self.char_name},** level {self.level} — {self.exp:,} EXP"
-        )
+        lines.append(f"- **{self.char_name},** level {self.level} — {self.exp:,} EXP")
         lines.append(f"- **HP** {hp_str}, **AC** {self.ac}")
-        if self.spell_slots:
-            slot_parts = []
-            for k, v in sorted(self.spell_slots.items(), key=lambda x: int(x[0])):
-                slot_parts.append(f"L{k}:{v[0]}/{v[1]}")
-            lines.append("- **Spell slots:** " + " ".join(slot_parts))
-        usd_equiv = (self.gold * 5000) + (self.silver * 50) + (self.copper * 0.5)
-        lines.append(
-            f"- **Wealth:** {self.gold} GP, {self.silver} SP, {self.copper} CP (~${usd_equiv:,.0f} USD) | **meals** {self.meals}"
-        )
-        lines.append(
-            "  - *Economy ref:* 1 GP = $5,000 | 1 SP = $50 | 1 CP = $0.50 — "
-            "price all goods/services at real-world equivalents. Use CP/SP for daily trade, "
-            "GP only for major purchases. See `dm_rules_tracking.md` § **WORLD ECONOMY REFERENCE** for full pricing tables and NPC reactions."
-        )
+        # Spell slots
+        slot_parts = []
+        for k, v in sorted(self.spell_slots.items(), key=lambda x: int(x[0])):
+            slot_parts.append(f"L{k}:{v[0]}/{v[1]}")
+        if slot_parts:
+            lines.append(f"- **Spell slots:** {' '.join(slot_parts)}")
+        lines.append(f"- **Wealth:** {self.gold} GP, {self.silver} SP, {self.copper} CP | **meals** {self.meals}")
         if self.weapon_config:
-            lines.append(
-                f"- **Weapon layout:** {self.weapon_config.upper()} — {self.weapon_config_detail or 'see `dm_rules_tracking.md` (Combat library section)'}"
-            )
+            lines.append(f"- **Weapon layout:** {self.weapon_config.upper()} — {self.weapon_config_detail}")
+        else:
+            lines.append(f"- **Weapon layout:** see `dm_rules_tracking.md` (Combat library section)")
         if self.active_perks:
-            lines.append("- **Active perks:** " + ", ".join(self.active_perks))
-        lines.append("")
+            lines.append(f"- **Active perks:** {', '.join(self.active_perks)}")
+
+        # Abilities / skills / spells
         if self.ability_scores or self.skills or self.known_spells or self.class_features:
-            lines.append("## Abilities, skills, spells (sheet)")
             lines.append("")
+            lines.append("## Abilities, skills, spells (sheet)")
             if self.ability_scores:
-                order = ("STR", "DEX", "CON", "INT", "WIS", "CHA")
+                order = ('STR', 'DEX', 'CON', 'INT', 'WIS', 'CHA')
                 row = []
                 for k in order:
                     if k in self.ability_scores:
-                        row.append(f"{k} **{self.ability_scores[k]}**")
+                        row.append(f" **{k}** {self.ability_scores[k]}")
                 for k in sorted(self.ability_scores.keys()):
                     if k not in order:
-                        row.append(f"{k} **{self.ability_scores[k]}**")
-                lines.append("- **Ability scores:** " + " · ".join(row))
+                        row.append(f" **{k}** {self.ability_scores[k]}")
+                lines.append(f"- **Ability scores:** {' · '.join(row)}")
             if self.skills:
-                sk = [f"{n} {v}" for n, v in sorted(self.skills.items())]
-                lines.append("- **Skills:** " + "; ".join(sk))
+                sk_parts = [f"{sk} {mod}" for sk, mod in sorted(self.skills.items())]
+                lines.append(f"- **Skills:** {'; '.join(sk_parts)}")
             if self.known_spells:
-                lines.append("- **Spells known:** " + ", ".join(self.known_spells))
+                lines.append(f"- **Spells known:** {', '.join(self.known_spells)}")
             if self.class_features:
-                lines.append("- **Class features:** " + "; ".join(self.class_features))
-            lines.append("")
+                lines.append(f"- **Class features:** {', '.join(self.class_features)}")
+
+        # Buffs
         if self.buffs:
-            lines.append("## Buffs")
             lines.append("")
+            lines.append("## Buffs")
             for name, b in self.buffs.items():
-                dur = b.get("duration_hrs", b.get("duration", "?"))
+                dur = b.get("duration_hrs") or b.get("duration", "?")
                 eff = b.get("effects", "")
                 lines.append(f"- **{name}** ({dur}): {eff}")
-            lines.append("")
+
+        # Charges
         if self.charges:
+            lines.append("")
             lines.append("## Charges")
-            lines.append("")
-            for n, v in self.charges.items():
-                lines.append(f"- {n}: {v[0]}/{v[1]}")
-            lines.append("")
+            for name, v in self.charges.items():
+                lines.append(f"- {name}: {v[0]}/{v[1]}")
+
+        # Portals
+        lines.append("")
+        lines.append("## Portals")
         active = [n for n, s in self.portals.items() if s == "active"]
-        if active:
-            lines.append("## Portals")
-            lines.append("")
-            lines.append(
-                f"- {len(active)}/{self.portal_max} active: {', '.join(active)}"
-            )
-            lines.append("")
+        lines.append(f"{len(active)}/{self.portal_max} active: {', '.join(active)}")
+
+        # Squads
         if self.squads:
+            lines.append("")
             lines.append("## Squads")
-            lines.append("")
             for name, s in self.squads.items():
-                lines.append(
-                    f"- **{name}** ({s.get('captain', '?')}): {s.get('status')} @ {s.get('location')} — {s.get('mission', '')}"
-                )
-            lines.append("")
+                sline = f"- **{name}** ({s['captain']}) — {s['status']} @ {s['location']}"
+                if s.get("mission"):
+                    sline += f" — {s['mission']}"
+                lines.append(sline)
+
+        # Objectives
         if self.quests:
+            lines.append("")
             lines.append("## Objectives")
-            lines.append("")
             for q in self.quests:
-                lines.append(
-                    f"- [{q.get('priority', '?')}] {q['name']} ({q.get('status', '')}) — {q.get('notes', '')}"
-                )
-            lines.append("")
+                qline = f"- [{q['priority']}] {q['name']} ({q['status']})"
+                if q.get("notes"):
+                    qline += f" — {q['notes']}"
+                lines.append(qline)
+
+        # Threat clocks
         if self.threat_clocks:
+            lines.append("")
             lines.append("## Threat clocks")
-            lines.append("")
-            for name, clock in sorted(
-                self.threat_clocks.items(), key=lambda x: -x[1].get("progress", 0)
-            ):
-                lines.append(
-                    f"- **{name}:** {clock.get('progress', 0)}% (+{clock.get('rate', 0)}%/day) — {clock.get('description', '')}"
-                )
-                if clock.get("progress", 0) >= 50:
-                    lines.append(f"  - Trigger: {clock.get('trigger', '')}")
-            lines.append("")
+            for name, clock in self.threat_clocks.items():
+                lines.append(f"- **{name}:** {clock['progress']}% (+{clock['rate']}%/day) — {clock.get('description', '')}")
+                if clock["progress"] >= 50:
+                    lines.append(f"  - Trigger: {clock['trigger']}")
+
+        # Character goals
         if self.character_goals:
+            lines.append("")
             lines.append("## Character goals (engine)")
-            lines.append("")
-            lines.append(
-                "Rows from `kenji_state.json` → `character_goals` (not parsed from `character_tracker.md`). "
-                "`process_new_day` / dawn pipeline runs `process_character_goals()` — set `auto_resolve` only when a row should mutate without DM hand-edit."
-            )
-            lines.append("")
+            lines.append("Rows from `kenji_state.json` → `character_goals` (not parsed from `character_tracker.md`). "
+                         "`process_new_day` / dawn pipeline runs `process_character_goals()` — set `auto_resolve` only when a row should mutate without DM hand-edit.")
             for g in self.character_goals:
                 if not isinstance(g, dict):
                     continue
-                char = g.get("character", "?")
+                char = g.get("character", "")
                 gid = g.get("goal_id", "?")
-                st = g.get("status", "?")
+                st = g.get("status", "")
                 due = g.get("due_day", "—")
                 pub = g.get("public_day", "—")
                 auto = "auto" if g.get("auto_resolve") else "manual"
-                summ = (g.get("summary") or "").strip()
+                summ = g.get("summary", "") or ""
                 if len(summ) > 120:
                     summ = summ[:117] + "..."
-                lines.append(
-                    f"- **{char}** `{gid}` — **{st}** | due_day **{due}** | public_day **{pub}** | {auto}"
-                )
+                lines.append(f"- **{char}** `{gid}` — **{st}** | due_day **{due}** | public_day **{pub}** | {auto}")
                 if summ:
                     lines.append(f"  - {summ}")
-                hook = (g.get("kenji_hook") or "").strip()
+                hook = g.get("kenji_hook")
                 if hook:
                     lines.append(f"  - Kenji impact: {hook}")
-            lines.append("")
+
+        # NPC positions
         if self.npcs:
+            lines.append("")
             lines.append("## NPC positions (snapshot)")
-            lines.append("")
             for name, n in self.npcs.items():
-                lines.append(
-                    f"- **{name}:** {n.get('location', '')} — {n.get('activity', '')} ({n.get('disposition', '')})"
-                )
-            lines.append("")
-        rels = {n: r for n, r in self.relationships.items() if r.get("score", 0) != 0}
+                nline = f"- **{name}:** {n['location']}"
+                if n.get("activity"):
+                    nline += f" — {n['activity']}"
+                if n.get("disposition"):
+                    nline += f" ({n['disposition']})"
+                lines.append(nline)
+
+        # Relationships
+        rels = {n: r for n, r in self.relationships.items() if r["score"] != 0}
         if rels:
+            lines.append("")
             lines.append("## Relationships (tracked)")
-            lines.append("")
-            for name, r in sorted(rels.items(), key=lambda x: x[1].get("score", 0)):
-                lines.append(
-                    f"- **{name}:** {r.get('tier', '?')} ({r.get('score', 0):+d})"
-                )
-            lines.append("")
+            for name, r in sorted(rels.items(), key=lambda x: x[1]["score"]):
+                lines.append(f"- **{name}:** {r['tier']} ({r['score']:+d})")
+
         return "\n".join(lines)
 
 
-def _run_story_tests():
-    """Test StoryEngine state loading, time manipulation, and brief generation."""
-    print("\n=== STORY ENGINE TESTS ===")
-
-    # Test 1: Create a fresh engine
-    print("Test 1: Create StoryEngine...")
-    engine = StoryEngine()
-    print(f"  \u2713 Created engine at Day {engine.day}, {engine.hour:02d}:00")
-
-    # Test 2: Advance time
-    print("Test 2: Advance day...")
-    engine.advance_day()
-    print(f"  \u2713 Advanced day: Day {engine.day}, {engine.hour:02d}:00")
-
-    # Test 3: Generate brief
-    print("Test 3: Generate AI brief...")
-    brief = engine.ai_brief_markdown()
-    assert "live state" in brief, "Brief missing title"
-    assert "## Time and place" in brief, "Brief missing time section"
-    print(f"  \u2713 Generated brief ({len(brief)} chars)")
-
-    print("Test 3a: scene skill gate (d20 + DC)...")
-    r0 = skill_roll(10, dc=5, label="Stealth test")
-    assert r0["total"] == r0["d20_used"] + 10
-    assert r0["success"] is True  # DC 5 trivial unless nat 1 — still succeeds on 1+10=11? 1+10=11 >=5
-    m_stealth, _note = build_skill_modifier(
-        {"DEX": 20}, "Stealth", character_level=5, proficiency=True, expertise=False
-    )
-    assert m_stealth == 5 + 3, m_stealth  # +5 DEX, +3 pb at level 5
-    c0 = contested_skill(8, 8, left_name="scout", right_name="guard")
-    assert c0["winner"] in ("scout", "guard", "tie")
-    assert "margin" in c0
-    print("  \u2713 skill_roll / build_skill_modifier / contested_skill")
-
-    print("Test 3b: character_goals pipeline...")
-    eg = StoryEngine(
-        {
-            "day": 10,
-            "hour": 6,
-            "character_goals": [
-                {
-                    "character": "TestNPC",
-                    "goal_id": "deadline_goal",
-                    "status": "active",
-                    "due_day": 10,
-                    "summary": "Unit test deadline",
-                    "auto_resolve": True,
-                    "replacement": {
-                        "character": "TestNPC",
-                        "goal_id": "followon",
-                        "status": "active",
-                        "due_day": 20,
-                        "summary": "Replacement goal",
-                    },
-                    "on_resolve": {
-                        "append_consequence": {
-                            "trigger_day": 10,
-                            "cause": "test cause",
-                            "effect": "test effect",
-                            "fired": False,
-                        }
-                    },
-                }
-            ],
-        }
-    )
-    r_new = eg.process_new_day()
-    assert any("ENGINE CLOSED" in x for x in r_new), r_new
-    assert any(g.get("goal_id") == "followon" for g in eg.character_goals)
-    print("  \u2713 process_character_goals auto_resolve + replacement")
-
-    # Test 4: Test encounter_roll
-    print("Test 4: Test encounter_roll...")
-    roll = engine.encounter_roll()
-    assert isinstance(roll, dict), f"encounter_roll returned {type(roll)}"
-    assert "roll" in roll, "encounter_roll missing 'roll' key"
-    print(f"  \u2713 encounter_roll: {roll}")
-
-    # Test 5: Test travel_time
-    print("Test 5: Test travel_time...")
-    time_needed = engine.travel_time(50.0, "base")
-    assert isinstance(time_needed, dict), f"travel_time returned {type(time_needed)}"
-    print(f"  \u2713 travel_time: {time_needed['hours']} hours at {time_needed['speed_mph']}mph")
-
-    # Test 6: Test get_exhaustion
-    print("Test 6: Test get_exhaustion...")
-    exh = engine.get_exhaustion()
-    assert 0 <= exh <= 6, f"Exhaustion out of range: {exh}"
-    print(f"  \u2713 Exhaustion level: {exh}")
-
-    print("Story tests: PASSED\n")
-
-
-def _run_combat_tests():
-    """Test Combat and Combatant basics."""
-    print("=== COMBAT TESTS ===")
-
-    # Test 1: Create combatants
-    print("Test 1: Create combatants...")
-    player = Combatant(name="Hero", max_hp=50, hp=50, ac=15)
-    enemy = Combatant(name="Goblin", max_hp=10, hp=10, ac=12)
-    print(f"  \u2713 Created {player.name} (HP {player.hp}/{player.max_hp}) and {enemy.name}")
-
-    # Test 2: Roll initiative
-    print("Test 2: Roll initiative...")
-    player_init = d20() + player.initiative_mod
-    enemy_init = d20() + enemy.initiative_mod
-    print(f"  \u2713 Player: {player_init}, Enemy: {enemy_init}")
-
-    # Test 3: Test hit dice roll
-    print("Test 3: Test roll_dice...")
-    total, rolls, mod = roll_dice("1d6+2")
-    assert len(rolls) == 1 and 1 <= rolls[0] <= 6, f"Invalid d6 roll: {rolls}"
-    assert total == rolls[0] + 2, f"Dice calculation wrong: {rolls} + {mod} \!= {total}"
-    print(f"  \u2713 roll_dice('1d6+2'): {rolls[0]}+2 = {total}")
-
-    # Test 4: Test damage
-    print("Test 4: Test damage...")
-    damage = 7
-    enemy.hp -= damage
-    assert enemy.hp == 3, f"Damage calculation failed: {enemy.hp}"
-    print(f"  \u2713 {enemy.name} took {damage} damage: {enemy.hp} HP remaining")
-
-    # Test 5: Test status conditions
-    print("Test 5: Test Status conditions...")
-    status = Status(name="Poisoned", category="condition", duration=3)
-    player.statuses.append(status)
-    status.tick()
-    assert status.duration == 2, "Status tick failed"
-    print(f"  \u2713 Status 'Poisoned' ticked: duration {status.duration}")
-
-    print("Combat tests: PASSED\n")
-
-
+# ---------------------------------------------------------------------------
+# CLI entry point
+# ---------------------------------------------------------------------------
 if __name__ == "__main__":
-    import io
     import sys
-    from pathlib import Path
 
-    if len(sys.argv) > 1:
-        arg = sys.argv[1].lower()
-        if arg == "brief":
-            if hasattr(sys.stdout, "reconfigure"):
-                try:
-                    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-                    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
-                except Exception:
-                    sys.stdout = io.TextIOWrapper(
-                        sys.stdout.buffer, encoding="utf-8", errors="replace"
-                    )
-                    sys.stderr = io.TextIOWrapper(
-                        sys.stderr.buffer, encoding="utf-8", errors="replace"
-                    )
-            root = Path(__file__).resolve().parent
-            state_path = Path(sys.argv[2]).expanduser() if len(sys.argv) > 2 else root / "kenji_state.json"
-            if not state_path.is_file():
-                print(f"Error: state file not found: {state_path}", file=sys.stderr)
-                raise SystemExit(1)
-            print(f"Loading state from {state_path}...")
-            state_data = json.loads(state_path.read_text(encoding="utf-8"))
-            if isinstance(state_data, dict):
-                state_data.pop("_comment", None)
-            engine = StoryEngine(state_data)
-            print(engine.ai_brief_markdown())
-        elif arg == "skill":
-            # Usage: python ttrpg_game_engine.py skill <modifier> [--adv] [--dis] [--dc N] [--label TEXT]
-            if len(sys.argv) < 3:
-                print(
-                    "Usage: python ttrpg_game_engine.py skill <modifier> [--adv] [--dis] [--dc N] [--label TEXT]",
-                    file=sys.stderr,
-                )
-                raise SystemExit(2)
-            modifier = int(sys.argv[2])
-            adv = "--adv" in sys.argv
-            dis = "--dis" in sys.argv
-            dc: Optional[int] = None
-            label = "skill check"
-            argv = sys.argv[3:]
-            i = 0
-            while i < len(argv):
-                if argv[i] == "--dc" and i + 1 < len(argv):
-                    dc = int(argv[i + 1])
-                    i += 2
-                    continue
-                if argv[i] == "--label" and i + 1 < len(argv):
-                    label = argv[i + 1]
-                    i += 2
-                    continue
-                i += 1
-            result = skill_roll(modifier, advantage=adv, disadvantage=dis, dc=dc, label=label)
-            print(json.dumps(result, indent=2))
-        elif arg == "combat-only":
-            _run_combat_tests()
+    args = sys.argv[1:]
+
+    if not args:
+        # Default: run story tests, then combat tests
+        eng = StoryEngine.load_json("kenji_state.json")
+        print(eng.dashboard())
+        warnings = eng.validate()
+        if warnings:
+            print("\n⚠️  Validation warnings:")
+            for w in warnings:
+                print(f"  - {w}")
         else:
-            print(f"Unknown argument: {arg}")
+            print("\n✅ State validation clean.")
+
+    elif args[0] == "brief":
+        path = args[1] if len(args) > 1 else "kenji_state.json"
+        eng = StoryEngine.load_json(path)
+        print(eng.ai_brief_markdown())
+
+    elif args[0] == "skill":
+        import argparse
+        parser = argparse.ArgumentParser(prog="ttrpg_game_engine.py skill")
+        parser.add_argument("modifier", type=int)
+        parser.add_argument("--adv", action="store_true")
+        parser.add_argument("--dis", action="store_true")
+        parser.add_argument("--dc", type=int, default=None)
+        parser.add_argument("--label", type=str, default="Skill check")
+        parsed = parser.parse_args(args[1:])
+        result = skill_roll(
+            parsed.modifier,
+            advantage=parsed.adv,
+            disadvantage=parsed.dis,
+            dc=parsed.dc,
+            label=parsed.label,
+        )
+        print(json.dumps(result, indent=2))
+
+    elif args[0] == "combat-only":
+        print("Combat-only tests — see Combat class.")
+
     else:
-        # Run story tests first, then combat tests
-        _run_story_tests()
-        _run_combat_tests()
+        print(f"Unknown command: {args[0]}")
+        print("Usage: python ttrpg_game_engine.py [brief|skill|combat-only]")
