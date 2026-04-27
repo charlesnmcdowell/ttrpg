@@ -425,19 +425,99 @@ def interactive_input() -> dict:
     print("  (This becomes the campaign's central objective)")
     goal = input("> ").strip()
 
+    gender = input("Gender: ").strip()
+
+    print()
+    print("Physical appearance (optional — press Enter to skip any):")
+    height_build = input("  Height & build: ").strip()
+    hair = input("  Hair: ").strip()
+    eyes = input("  Eyes: ").strip()
+    skin = input("  Skin: ").strip()
+    marks = input("  Distinguishing marks: ").strip()
+    style = input("  Style/vibe: ").strip()
+    ref_img = input("  Reference image path (optional): ").strip()
+
+    print()
+    print("Ability scores — assign 6 stats. Total base points cannot exceed 72.")
+    print("  No stat below 1. Racial bonuses applied after.")
+    stats = {}
+    stat_total = 0
+    for stat_name in ["STR", "DEX", "CON", "INT", "WIS", "CHA"]:
+        while True:
+            try:
+                val = int(input(f"  {stat_name}: ").strip())
+                if val < 1:
+                    print("    Minimum is 1.")
+                    continue
+                if stat_total + val > 72:
+                    print(f"    Would exceed 72 total ({stat_total} + {val} = {stat_total + val}). Try again.")
+                    continue
+                stats[stat_name] = val
+                stat_total += val
+                break
+            except ValueError:
+                print("    Enter a number.")
+    remaining = 72 - stat_total
+    if remaining > 0:
+        print(f"  ({remaining} points unspent out of 72 — that's fine)")
+    print(f"  Total base: {stat_total}/72")
+
     print()
     print("Starting region preference:")
     for key, info in REGION_ANCHORS.items():
         print(f"  {key:12s} — near {', '.join(info['near'][:3])}; {info['vibe'][:50]}")
     region = input("Choice [frontier]: ").strip().lower() or "frontier"
 
+    # --- EXP archetype selection ---
+    print()
+    print("EXP archetype — determines how this character earns experience:")
+    print("  combat    — standard combat XP, solo multiplier applies")
+    print("  support   — domain skill rolls = 25% of XP-to-next-level per success,")
+    print("              combat XP always as party of 5+, no solo multiplier")
+    exp_type = input("EXP type [combat]: ").strip().lower() or "combat"
+    if exp_type not in ("combat", "support"):
+        print(f"  Unknown type '{exp_type}', defaulting to combat.")
+        exp_type = "combat"
+
+    support_archetype = ""
+    if exp_type == "support":
+        print()
+        print("Support archetype — determines primary skill domain:")
+        archetypes = {
+            "performer":    "Performance, emotional projection, crowd work",
+            "healer":       "Medicine, restoration, triage",
+            "diplomat":     "Persuasion, Deception, Insight, negotiation",
+            "scholar":      "Investigation, Arcana, History, research",
+            "infiltrator":  "Stealth, Sleight of Hand, Deception, recon",
+            "crafter":      "Tool checks, Arcana (enchanting), creation",
+        }
+        for arch, desc in archetypes.items():
+            print(f"  {arch:14s} — {desc}")
+        support_archetype = input("Archetype: ").strip().lower()
+        if support_archetype not in archetypes:
+            print(f"  Unknown archetype '{support_archetype}', defaulting to performer.")
+            support_archetype = "performer"
+
     return {
         "name": name,
+        "gender": gender,
         "race": race,
         "class_concept": class_concept,
         "background": background,
         "personal_goal": goal,
         "starting_region_preference": region,
+        "appearance": {
+            "height_build": height_build,
+            "hair": hair,
+            "eyes": eyes,
+            "skin": skin,
+            "distinguishing_marks": marks,
+            "style_vibe": style,
+            "reference_image": ref_img,
+        },
+        "ability_scores": stats,
+        "exp_archetype": exp_type,
+        "support_archetype": support_archetype if exp_type == "support" else "",
     }
 
 
@@ -614,6 +694,50 @@ def generate_campaign_scaffold(player_input: dict) -> dict:
     else:
         campaign["ember_inheritance"] = None
 
+    # Mechanical state — ability scores
+    raw_stats = player_input.get("ability_scores", {})
+    if raw_stats:
+        # Determine racial bonuses from race string
+        race_lower = race.lower()
+        racial_bonuses = {}
+        if "human" in race_lower:
+            racial_bonuses = {s: 1 for s in ["STR", "DEX", "CON", "INT", "WIS", "CHA"]}
+        if "halfling" in race_lower:
+            racial_bonuses["DEX"] = racial_bonuses.get("DEX", 0) + 2
+        if "half-orc" in race_lower or "orc" in race_lower:
+            racial_bonuses["STR"] = racial_bonuses.get("STR", 0) + 2
+            racial_bonuses["CON"] = racial_bonuses.get("CON", 0) + 1
+        if "elf" in race_lower:
+            racial_bonuses["DEX"] = racial_bonuses.get("DEX", 0) + 2
+        if "dwarf" in race_lower:
+            racial_bonuses["CON"] = racial_bonuses.get("CON", 0) + 2
+        if "ankuspawn" in race_lower:
+            # Ankuspawn variable trait — +1 to one stat chosen at creation
+            # Default to CHA if not specified; DM can override
+            racial_bonuses["CHA"] = racial_bonuses.get("CHA", 0) + 1
+
+        ability_block = {}
+        for stat_name in ["STR", "DEX", "CON", "INT", "WIS", "CHA"]:
+            base = raw_stats.get(stat_name, 10)
+            racial = racial_bonuses.get(stat_name, 0)
+            final = base + racial
+            mod = (final - 10) // 2
+            ability_block[stat_name] = {
+                "base": base, "racial": racial, "final": final, "mod": mod
+            }
+
+        campaign["mechanical_state"] = {
+            "_merge_note": "StoryEngine preserves unknown top-level keys on save.",
+            "level": 1,
+            "class": class_concept,
+            "proficiency_bonus": 2,
+            "ability_scores": ability_block,
+            "starting_gold": "",
+            "character_flaw": "",
+            "exp_archetype": player_input.get("exp_archetype", "combat"),
+            "support_archetype": player_input.get("support_archetype", ""),
+        }
+
     # Success / failure states
     campaign["success_state"] = (
         f"{name}'s goal ({goal}) is permanently secured. The {antagonist['type']} is defeated. "
@@ -782,6 +906,12 @@ def main():
     parser.add_argument("--region", type=str, default="frontier",
                         choices=list(REGION_ANCHORS.keys()),
                         help="Starting region preference")
+    parser.add_argument("--gender", type=str, help="Character gender")
+    parser.add_argument("--stats", type=str,
+                        help="Ability scores as 'STR,DEX,CON,INT,WIS,CHA' (e.g. '12,16,10,10,7,17')")
+    parser.add_argument("--archetype", type=str, default="combat",
+                        help="EXP archetype: 'combat' or 'support:<type>' "
+                             "(e.g. 'support:performer', 'support:healer')")
     parser.add_argument("--no-register", action="store_true",
                         help="Don't update realm_lore_registry.json")
     parser.add_argument("--no-folder", action="store_true",
@@ -795,12 +925,206 @@ def main():
     if args.name:
         player_input = {
             "name": args.name,
+            "gender": args.gender or "",
             "race": args.race or "",
             "class_concept": args.class_concept or "",
             "background": args.background or "",
             "personal_goal": args.goal or "",
             "starting_region_preference": args.region,
+            "appearance": {},
         }
+        # Parse stats from CLI if provided (e.g. "12,16,10,10,7,17")
+        if args.stats:
+            stat_names = ["STR", "DEX", "CON", "INT", "WIS", "CHA"]
+            vals = [int(v.strip()) for v in args.stats.split(",")]
+            if len(vals) != 6:
+                print("ERROR: --stats needs exactly 6 values: STR,DEX,CON,INT,WIS,CHA")
+                sys.exit(1)
+            if sum(vals) > 72:
+                print(f"ERROR: stat total {sum(vals)} exceeds 72 cap")
+                sys.exit(1)
+            player_input["ability_scores"] = dict(zip(stat_names, vals))
+
+        # Parse archetype (e.g. "combat" or "support:performer")
+        arch_str = args.archetype or "combat"
+        if arch_str == "combat":
+            player_input["exp_archetype"] = "combat"
+            player_input["support_archetype"] = ""
+        elif arch_str.startswith("support"):
+            player_input["exp_archetype"] = "support"
+            parts = arch_str.split(":", 1)
+            player_input["support_archetype"] = parts[1] if len(parts) > 1 else "performer"
+        else:
+            print(f"WARNING: Unknown archetype '{arch_str}', defaulting to combat.")
+            player_input["exp_archetype"] = "combat"
+            player_input["support_archetype"] = ""
+    else:
+        player_input = interactive_input()
+
+    if not player_input["name"]:
+        print("ERROR: Character name is required.")
+        sys.exit(1)
+
+    # Generate
+    campaign = generate_campaign_scaffold(player_input)
+
+    # Output
+    if args.json:
+        print(json.dumps(campaign, indent=2, ensure_ascii=False))
+    else:
+        print_campaign_summary(campaign)
+
+    # Create folder
+    if not args.no_folder:
+        state_file = create_campaign_folder(player_input["name"], campaign)
+        print(f"\n  Campaign file: {state_file}")
+
+    # Register locations
+    if not args.no_register:
+        count = register_locations(campaign)
+        print(f"  Registered {count} new locations in realm_lore_registry.json")
+
+    print(f"\n  Next: fill [NAME] fields, then play!")
+
+
+if __name__ == "__main__":
+    main()
+
+REGION: {pi['starting_region_preference']}")
+
+    print(f"\n--- THREE NEW LOCATIONS ---")
+    for loc_type, label in [("home_base", "HOME BASE"), ("adventure_site", "ADVENTURE SITE"), ("discovery_location", "DISCOVERY LOCATION")]:
+        loc = locs.get(loc_type, {})
+        print(f"\n  [{label}]")
+        print(f"    Name: {loc.get('name', '?')}")
+        if loc.get("nearest_named_anchor"):
+            print(f"    Near: {loc['nearest_named_anchor']}")
+        if loc.get("why_dangerous"):
+            print(f"    Danger: {loc['why_dangerous'][:100]}")
+        if loc.get("connection_to_existing_lore"):
+            print(f"    Lore: {loc['connection_to_existing_lore']}")
+
+    print(f"\n--- ANTAGONIST ---")
+    print(f"    Name: {ant.get('name', '?')}")
+    print(f"    Level: {ant.get('level_range', '?')}")
+    print(f"    Class: {ant.get('race_and_class', '?')}")
+    print(f"    Conflict: {ant.get('relationship_to_goal', '?')}")
+    print(f"    Lieutenants: {len(ant.get('lieutenants', []))}")
+
+    print(f"\n--- CAMPAIGN SPINE (Levels 1\xe2\x80\x9310) ---")
+    for phase_key, phase in spine.items():
+        if phase_key.startswith("_"):
+            continue
+        if isinstance(phase, dict):
+            label = phase_key.replace("phase_", "Phase ").replace("_", " ").title()
+            print(f"\n  {label} (Levels {phase.get('levels', '?')})")
+            print(f"    {phase.get('summary', '')[:120]}")
+            for scene in phase.get("key_scenes", [])[:2]:
+                print(f"      - {scene[:100]}")
+
+    print(f"\n--- LORE SEED ---")
+    print(f"    {seed[:200]}")
+
+    print(f"\n--- SUCCESS STATE ---")
+    print(f"    {campaign.get('success_state', '')[:200]}")
+
+    print(f"\n--- FAILURE STATE ---")
+    print(f"    {campaign.get('failure_state', '')[:200]}")
+
+    # Ember Inheritance (Ankuspawn only)
+    ember = campaign.get("ember_inheritance")
+    if ember:
+        print(f"\n--- EMBER INHERITANCE (Ankuspawn) ---")
+        print(f"    Theme: {ember['theme'].upper()}")
+        print(f"    Enhances: {EMBER_THEMES[ember['theme']]['enhances']}")
+        print(f"    Growth: {ember.get('growth_stage', 'unreliable')}")
+        nyx = ember.get("nyx_harvest_value", {})
+        print(f"    Nyx Priority: {nyx.get('target_priority', '?').upper()}")
+        print(f"    Extract: {nyx.get('extract_type', '?')}")
+        print(f"    Product: {nyx.get('elixir_product', '?')}")
+        for lock in ember.get("theme_lock", []):
+            print(f"    LOCK: {lock[:120]}")
+
+    print()
+    print("=" * 60)
+    print("  [NAME] fields need creative fill -- run an AI session or")
+    print("  edit character_world_state.json manually to finalize.")
+    print("=" * 60)
+
+
+# ---------------------------------------------------------------------------
+# CLI
+# ---------------------------------------------------------------------------
+def main():
+    import argparse
+    parser = argparse.ArgumentParser(
+        description="Generate a starter campaign (levels 1-10) for a new character.",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog=textwrap.dedent("""\
+            Every new character adds 3 locations to the world map.
+            See universe_campaign_framework.md 2 for the full system.
+        """),
+    )
+    parser.add_argument("--name", type=str, help="Character name")
+    parser.add_argument("--race", type=str, help="Race")
+    parser.add_argument("--class", dest="class_concept", type=str, help="Class concept")
+    parser.add_argument("--background", type=str, help="Background story")
+    parser.add_argument("--goal", type=str, help="Personal goal (one sentence)")
+    parser.add_argument("--region", type=str, default="frontier",
+                        choices=list(REGION_ANCHORS.keys()),
+                        help="Starting region preference")
+    parser.add_argument("--gender", type=str, help="Character gender")
+    parser.add_argument("--stats", type=str,
+                        help="Ability scores as 'STR,DEX,CON,INT,WIS,CHA' (e.g. '12,16,10,10,7,17')")
+    parser.add_argument("--archetype", type=str, default="combat",
+                        help="EXP archetype: 'combat' or 'support:<type>' "
+                             "(e.g. 'support:performer', 'support:healer')")
+    parser.add_argument("--no-register", action="store_true",
+                        help="Don't update realm_lore_registry.json")
+    parser.add_argument("--no-folder", action="store_true",
+                        help="Don't create the campaign folder (print only)")
+    parser.add_argument("--json", action="store_true",
+                        help="Output raw JSON instead of summary")
+
+    args = parser.parse_args()
+
+    # Interactive or CLI
+    if args.name:
+        player_input = {
+            "name": args.name,
+            "gender": args.gender or "",
+            "race": args.race or "",
+            "class_concept": args.class_concept or "",
+            "background": args.background or "",
+            "personal_goal": args.goal or "",
+            "starting_region_preference": args.region,
+            "appearance": {},
+        }
+        # Parse stats from CLI if provided (e.g. "12,16,10,10,7,17")
+        if args.stats:
+            stat_names = ["STR", "DEX", "CON", "INT", "WIS", "CHA"]
+            vals = [int(v.strip()) for v in args.stats.split(",")]
+            if len(vals) != 6:
+                print("ERROR: --stats needs exactly 6 values: STR,DEX,CON,INT,WIS,CHA")
+                sys.exit(1)
+            if sum(vals) > 72:
+                print(f"ERROR: stat total {sum(vals)} exceeds 72 cap")
+                sys.exit(1)
+            player_input["ability_scores"] = dict(zip(stat_names, vals))
+
+        # Parse archetype (e.g. "combat" or "support:performer")
+        arch_str = args.archetype or "combat"
+        if arch_str == "combat":
+            player_input["exp_archetype"] = "combat"
+            player_input["support_archetype"] = ""
+        elif arch_str.startswith("support"):
+            player_input["exp_archetype"] = "support"
+            parts = arch_str.split(":", 1)
+            player_input["support_archetype"] = parts[1] if len(parts) > 1 else "performer"
+        else:
+            print(f"WARNING: Unknown archetype '{arch_str}', defaulting to combat.")
+            player_input["exp_archetype"] = "combat"
+            player_input["support_archetype"] = ""
     else:
         player_input = interactive_input()
 

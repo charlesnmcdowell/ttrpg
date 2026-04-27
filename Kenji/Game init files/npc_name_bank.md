@@ -8,7 +8,7 @@
 
 **Male:**
 1. ~~Cedwyn~~ *(used — General, Bracken's former CO)*
-2. Torren
+2. ~~Torren~~ *(used — Cookie campaign, textile merchant at Gilt Lily, Varenholm)*
 3. Castor
 4. Davan
 5. Edric

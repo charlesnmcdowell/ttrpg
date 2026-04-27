@@ -7,6 +7,29 @@
 
 ---
 
+## AVAILABLE SYSTEMS — CHECK BEFORE BUILDING (NON-NEGOTIABLE)
+
+> **Before creating ANY new tracking system, checklist, or mechanic, search this inventory first. If a system already exists, USE IT. Do not duplicate.**
+
+| System | Location |
+|--------|----------|
+| **StoryEngine** (time, currency, inventory, schedule, buffs, threat clocks, dashboards) | `ttrpg_game_engine.py` — `StoryEngine` class |
+| **Skill rolls, ability checks, saving throws, contested checks** | `ttrpg_game_engine.py` — `skill_roll()`, `ability_check()`, `saving_throw()`, `contested_skill()` |
+| **Character creation** (race, class, gender, appearance, stats, name bank) | `dm_rules_tracking.md` § Character Creation + `generate_starter_campaign.py` |
+| **Campaign template** (new character init) | `templates/new_character_campaign.template.json` |
+| **NPC naming** | `npc_name_bank.md` |
+| **NPC lifecycle** (extras, promotion, doom clocks) | `dm_rules_tracking.md` § NPC Lifecycle |
+| **Ember Inheritance** (Ankuspawn abilities) | `ankuspawn_race.md` + `generate_starter_campaign.py` |
+| **Poison / Status Effects / Auras** | `dm_rules_tracking.md` § Poison, Status Effects |
+| **World Calendar** | `world_calendar_lore.md` |
+| **World Economy** (1 GP = $5,000 USD) | `dm_rules_tracking.md` § World Economy Reference |
+| **Alignment-driven NPC behavior** | `dm_rules_tracking.md` § Alignment |
+| **Enemy tactical adaptation** | `dm_rules_tracking.md` § Enemy Tactical Adaptation |
+| **Persistent effects tracking** | `character_world_state.json` § `persistent_effects` |
+| **Arc pointer / scene graph** | `run_arc_pointer.py`, `scene_graph_prototype/` |
+
+---
+
 ## Scene skill preroll (mandatory — 5e)
 
 When a beat’s **outcome** depends on competence at the table—**Stealth**, **Sleight of Hand**, **Deception**, **Persuasion**, **Intimidation**, **Insight**, **Perception**, **Performance**, **Athletics**, **Acrobatics**, other PHB skills, **tool** use, raw **STR / DEX / CON / INT / WIS / CHA** checks, or **saving throws**—the referee (human or AI) **resolves the roll first** (d20 + modifier, with **advantage / disadvantage** per RAW), compares to a **DC** or runs a **contest**, **then** narrates.
@@ -14,6 +37,7 @@ When a beat’s **outcome** depends on competence at the table—**Stealth**, **
 - **Do not** state success, failure, silence, omniscience, or social shift **before** the dice (or passive DC) exist.
 - **Do not** let an NPC “just know” Kenji is there / lying / calm without **Perception / Insight** (active or passive) beating the relevant total—and **NPCs never auto-succeed** those checks. Use **passive Perception / Insight** (fixed score) or **roll** like anyone else. If the math says the NPC **loses**, the NPC **loses**; do not hand-wave a win.
 - **Margin** (how much the roll beat or missed the DC) may drive **degrees of success** (“yes, but…”, hard fail, etc.)—still **after** the number is fixed.
+- **EXP on every meaningful roll (NON-NEGOTIABLE).** After resolving any PC skill check with real stakes, **immediately** award EXP per the table in § EXP FROM SKILL CHECKS (DC 8–10 = 500, DC 11–14 = 1,000, DC 15–17 = 1,500, DC 18–20 = 2,500, DC 21+ = 5,000). Nat 20 = double. Nat 1 = 0. Log it in `exp_history`. **Bard/performer exception:** performance-type rolls award 25% of XP-to-next-level instead (see § BARD / PERFORMER CLASS — EXP RULES). This applies to **all** check types — combat, social, performance, exploration. If dice were rolled and the outcome mattered, EXP is awarded. No exceptions, no forgetting, no “I'll do it later.”
 
 ### Player success integrity (no “gotcha” after a win)
 
@@ -345,9 +369,8 @@ When the player declares intent to hunt or grind combat encounters in a session:
    - **Picture reference (optional):** Player may provide a reference image (art, photo, AI-generated). If provided, save to `<Character>/Game init files/reference_art/` and note the filename in the character tracker. The DM uses this as the visual anchor for all scene descriptions of the character.
 7. **Stats** — Player assigns freely. Rules:
    - Total base points cannot exceed 72
-   - Max 2 stats at 16
-   - No stat above 16 or below 1 at creation
-   - Human +1 to ALL stats applied after
+   - No stat below 1 at creation
+   - Racial bonuses applied after (e.g. Human +1 to ALL, Halfling +2 DEX, Ankuspawn variable +1)
    - DM NEVER suggests a spread. Player builds freely.
 8. **Starting gear** — Class-appropriate options presented; player chooses.
 
@@ -1838,6 +1861,165 @@ When Kenji is at an inn, tavern, or any establishment that serves food, he eats 
 > **See `ttrpg_game_engine.py` → `CONDITIONS` constant for the full table.**
 > All standard 5e conditions apply automatically when the fiction warrants them.
 
+---
+
+### 🧪 POISON, STATUS EFFECTS & DEBUFF SYSTEM — ALL CAMPAIGNS (CRITICAL)
+
+**WHY THIS EXISTS:** Prior campaigns underused poisons, status effects, and debuffs on the player. Enemies fought clean — hit, miss, damage. That's not how a dangerous world works. Assassins coat blades. Cultists brew toxins. Monsters exhale fumes. Bandits use drugged wine. The DM must actively think about what enemies are DOING to the player beyond raw HP damage. Status effects are what make fights feel dangerous even when the player is winning on damage math.
+
+**Lore justification (25 years post-Book 4):** Nyx's elixir trade has flooded the kingdom's black market with alchemical enhancements. What used to be rare — poison coatings, strength serums, fear gases, charm perfumes — is now available to anyone with coin and the right contacts. Every bandit captain worth their salt carries a vial. Every cult chapter has an alchemist. The world got more dangerous because Nyx made the tools accessible.
+
+#### POISON TYPES — DM MUST USE
+
+Enemies with INT 8+ and access to markets or alchemists should carry at least one poison type. The DM chooses based on what the enemy IS and how they fight.
+
+**Contact poisons** — applied to surfaces (door handles, treasure, armor). Absorb through skin on touch. CON save on contact. Used by: assassins, trappers, cult operatives, paranoid nobles.
+- *Duskweed Extract:* CON DC 12 or poisoned for 1 hour (disadvantage on attacks and ability checks). Common, cheap (5 SP per dose).
+- *Numbvine Paste:* CON DC 14 or paralyzed for 1 minute (repeat save each round). Moderate rarity (2 GP per dose).
+- *Ashenveil Nerve Toxin:* CON DC 16 or stunned 1 round + poisoned for 1 hour + 3d6 poison damage. Rare, Cult of Anku signature (10 GP per dose, not sold openly).
+
+**Injury poisons** — applied to blades and arrows. Enter through wounds. CON save on the first hit that deals damage. Used by: assassins, hunters, soldiers, mercenaries.
+- *Serpent Milk:* CON DC 11 or 2d6 poison damage + poisoned 10 minutes. Common (3 SP/dose, 3 applications per vial).
+- *Blackthorn Venom:* CON DC 13 or 4d6 poison damage + speed halved for 1 hour. Moderate (1 GP/dose).
+- *Wyvern Concentrate:* CON DC 15 or 7d6 poison damage. On a save, half damage. No secondary effect — just raw lethality. Expensive (5 GP/dose).
+- *Nyx's Slow Death:* CON DC 17 or 3d6 poison damage per hour for 8 hours. Only cured by specific antidote or Greater Restoration. The victim feels fine for the first hour, then progressively worse. Cult of Anku special — not available on open market.
+
+**Ingested poisons** — slipped into food or drink. CON save 1 hour after consumption. Used by: spies, courtiers, rival innkeepers, cult infiltrators.
+- *Dreamdust:* CON DC 10 or fall unconscious for 1d4 hours. Tasteless in wine. Cheap (2 SP/dose).
+- *Gutrot:* CON DC 13 or 3d6 poison damage + poisoned for 24 hours (severe nausea). Detectable by smell (Perception DC 15 on the drink). Moderate (1 GP/dose).
+- *Mindslip:* CON DC 15 or charmed by the poisoner for 8 hours. The victim doesn't remember being charmed afterward. WIS save to resist commands that conflict with core values. Rare (8 GP/dose). Nyx elixir derivative.
+
+**Inhaled poisons** — gas, vapor, spores. CON save when entering the area or at the start of each turn in the cloud. Used by: alchemists, fungal creatures, trappers, dungeon hazards.
+- *Chokebloom Spores:* CON DC 12 or blinded for 1 minute. 15 ft radius cloud, lasts 3 rounds. Natural (harvested from caves).
+- *Witchsmoke:* CON DC 14 or frightened for 1 minute + hallucinations (DM describes false threats). 20 ft radius, lasts 1 minute. Moderate (2 GP per grenade).
+- *Nyx's Slumber Fog:* CON DC 16 or unconscious for 1 hour. 30 ft radius, lasts 5 minutes. Cannot be woken by normal means — only damage or Remove Curse. Cult of Anku capture tool.
+
+#### STATUS EFFECT APPLICATION — DM MANDATE
+
+The DM **must** apply status effects when the fiction warrants them. This is not optional. If an enemy has poison on their blade, the player takes the save. If a creature's breath is toxic, the cloud exists. If a trap is rigged with contact poison, it fires.
+
+**DM self-check before every combat:**
+1. Does this enemy have access to poisons or alchemical tools? If INT 8+ and near civilization → YES, give them at least one.
+2. Does this creature have natural status effects (venom, paralytic gaze, fear aura, disease)? If the stat block says so → USE THEM EVERY TIME. Don't forget.
+3. Does the environment itself impose conditions? (toxic air, extreme cold, magical interference, cursed ground)
+4. Would this enemy logically PRE-BUFF before a fight they expect? (drink a strength potion, coat their blade, set a trap)
+
+**Status effects the DM commonly forgets to use (FIX THIS):**
+- **Poisoned** — disadvantage on attack rolls and ability checks. Half the monsters in the manual inflict this. Use it.
+- **Frightened** — can't willingly move closer to the source, disadvantage on checks/attacks while source is visible. Undead, dragons, demons, intimidating bosses.
+- **Blinded** — auto-fail sight checks, attacks at disadvantage, attacks against them at advantage. Smoke, flash, ink, spores.
+- **Prone** — melee attacks against them at advantage, ranged at disadvantage. Knockdowns, trips, slams.
+- **Restrained** — speed 0, attacks at disadvantage, attacks against at advantage, DEX saves at disadvantage. Nets, vines, webs, grapples.
+- **Charmed** — can't attack the charmer, charmer has advantage on social checks. Enchantresses, sirens, elixir-enhanced enemies.
+
+#### PERSISTENT STATUS EFFECTS — CROSS-SCENE TRACKING (NON-NEGOTIABLE)
+
+Some status effects persist beyond combat. The DM **must track these** and apply their effects in every scene until they are resolved. They do not silently disappear because the fight ended.
+
+**What persists:**
+- Any poison with a duration longer than "end of combat" (Nyx's Slow Death, Gutrot, Mindslip, etc.)
+- Exhaustion levels (each level stacks, removed one per long rest)
+- Diseases and curses (require specific cure)
+- Lingering injuries (if using optional rules)
+- Emotional/psychological effects from fear or charm that the DM deems narratively persistent
+- **NPC auras that affect the player** (see Aura System below)
+
+**Tracking format:** Add to character_world_state.json → `persistent_effects` array. Each effect has: name, source, duration/condition_to_clear, mechanical_effect, scenes_remaining (if timed).
+
+---
+
+### 🔮 AURA SYSTEM — PERSISTENT AREA EFFECTS (CRITICAL)
+
+Auras are **passive area effects** that radiate from a creature and affect everyone in range. They are always on unless the source is unconscious, dead, or actively suppressing them. The DM must track active auras and apply their effects **every scene** the source is present.
+
+#### KNOWN PC AURAS (track on all campaigns)
+
+**Kenji — Irresistible Presence (IP) / Bane of Eve aura:**
+- Range: 30 ft (60 ft when Ember is active/channeling)
+- Effect on females: WIS save DC 18 or feel intense, involuntary attraction. On a fail by 5+: distracted (disadvantage on concentration and WIS checks while in range). On a fail by 10+: overwhelming urge to approach/touch (must spend action to resist on their turn).
+- This is ALWAYS ACTIVE when Kenji is not in Ronin mode suppression. Even in Ronin mode, close proximity (10 ft) still triggers a weaker version (DC 12).
+- **Female Ankuspawn interaction:** Ankuspawn daughters are IMMUNE to their father's IP aura (biological safeguard). Cookie does not feel the attraction effect. However, she carries her OWN reversed-polarity version that affects males (inherited from Kenji's Bane of Eve, see below).
+
+**Female Ankuspawn — Reversed Bane of Eve aura (Cookie and all female Ankuspawn):**
+- Range: 15 ft (always active, cannot be suppressed)
+- Effect on males: WIS save DC 13 or feel involuntary attraction. On a fail: distracted (disadvantage on attacks against her for 1 round on first encounter). Repeated exposure builds partial resistance (+2 to save per day of proximity).
+- Combined with Heartstring (Cookie's Ember passive): Males within 15 ft must save against BOTH the attraction aura AND the emotional bleed. Two separate saves, two separate effects. This is why Cookie's mom was so worried about her daughter becoming a bard — she knows what the girl does to rooms full of men without even trying.
+
+#### ENEMY AURAS — DM MUST DESIGN AND TRACK
+
+Enemies can and should have auras. The DM designs these based on what the creature IS:
+
+**Natural auras (creature biology):**
+- *Fear aura:* Dragons, undead commanders, demons. All creatures within X ft make WIS save or frightened. Classic, underused.
+- *Poison aura:* Venomous creatures, fungal monsters, plague carriers. All creatures within X ft make CON save or poisoned each round.
+- *Heat/Cold aura:* Fire/ice elementals, magma creatures. Passive damage (1d6/round) to all within X ft. Forces positioning.
+- *Charm aura:* Fey, sirens, enchantresses. All creatures of specified type within X ft make WIS save or charmed. Lyssa Vane has this.
+
+**Elixir-enhanced auras (Nyx's black market):**
+Thanks to Nyx's elixir trade, humanoid enemies can now buy temporary auras. These last 1 hour per dose and cost serious coin. The DM should give these to mid-tier and boss enemies who would realistically have access.
+
+- *Dread Mantle (elixir):* 15 ft fear aura. WIS DC 13 or frightened. 1 hour duration. Cost: 5 GP/dose. Common among warlords and cult leaders.
+- *Ironblood Surge (elixir):* Self-buff — +2 AC, +1d6 damage on melee attacks, resistance to first 20 damage received. 10 minutes. Cost: 3 GP/dose. Mercenary captains and gladiators.
+- *Voidhaze Perfume (elixir):* 10 ft charm aura against opposite sex. WIS DC 14 or charmed for 1 minute. 30 minutes duration. Cost: 8 GP/dose. Spies and honeypot operatives.
+- *Berserker's Bile (elixir):* Self-buff — advantage on STR checks and melee damage rolls, disadvantage on INT and WIS saves. Rage-like. 1 hour. Cost: 2 GP/dose. Orc raiders, pit fighters.
+- *Ember Shade (elixir — CULT OF ANKU ONLY):* 20 ft Ember suppression field. All Ember-based abilities within range are suppressed (see Cult of Anku section below). 1 hour. Not sold — brewed exclusively at Ashenveil Academy from harvested Ankuspawn essence.
+
+#### AURA TRACKING RULES
+
+1. When an NPC or enemy with an aura enters a scene, the DM declares the aura exists. ("As Lyssa enters, you feel a wave of warmth and an urge to listen to her voice. WIS save.")
+2. The aura triggers on FIRST EXPOSURE each scene, then at the start of each round in combat if the target is still in range.
+3. Successful saves grant resistance — the target doesn't need to save again for that aura for 24 hours UNLESS the source intensifies it (action spent, elixir consumed, etc.).
+4. Multiple auras from different sources stack. A room with Lyssa's charm aura AND a Dread Mantle enforcer requires two separate saves.
+5. Auras are tracked in the combat tracking template under "ACTIVE AURAS" with range, DC, and effect listed.
+
+---
+
+### ⚗️ ENEMY BUFF & PREPARATION SYSTEM (CRITICAL)
+
+Intelligent enemies (INT 8+) who EXPECT a fight should arrive PREPARED. The DM must think about what they did in the hour before combat.
+
+**Pre-combat buffs the DM should give enemies who have access:**
+- Poison on weapons (1-3 applications ready)
+- Elixir buffs active (Ironblood, Berserker's, etc.)
+- Traps set in the environment
+- Aura-granting elixirs consumed
+- Healing potions on belt (will drink at 25% HP)
+- Antidotes ready (if they use poison themselves — smart enemies carry the cure)
+
+**DM self-check:** "If I were this enemy and I knew trouble was coming, what would I drink, coat, set, and prepare in the last hour?" Do that. Then fight.
+
+---
+
+### 🕯️ CULT OF ANKU — EMBER SUPPRESSION FIELD (ALL CAMPAIGNS — CRITICAL)
+
+**Every member of the Cult of Anku carries Ember suppression capability.** This is not optional, not variable, not sometimes. Every. Single. One.
+
+**How it works:**
+- Cult operatives carry **Ember Shade wards** — small enchanted tokens (pendants, bracelets, tattoos, embedded stones) that generate a 20 ft Ember suppression field.
+- Within the field: ALL Ember-based abilities are suppressed. Passive, active, and surge. The Ankuspawn (or Kenji) feels their Ember go cold — like a candle snuffed. No warmth, no power, no spark.
+- The suppression is TOTAL within the field. No saves, no resistance, no "pushing through it." Ember simply does not work near these wards.
+- The ward must be destroyed, dispelled (Dispel Magic DC 18), or physically removed from the cultist to end the suppression. Killing the cultist also works — the ward goes inert 6 seconds after the bearer dies.
+- Multiple cultists with wards do NOT stack range — one ward is enough to cover a 20 ft radius. But multiple cultists create overlapping coverage that makes it harder to find a gap.
+
+**What this means for Ankuspawn PCs:**
+- Cookie's Heartstring, Chorus of One, and Golden Note all go DEAD in the field. She's a normal halfling with good dance training. That's it.
+- Her reversed Bane of Eve aura (male attraction) is NOT Ember-based — it's biological. It still works. The cult knows this and will send female operatives against female Ankuspawn.
+- Her Ankuspawn resilience (toughness, fast healing) is partially Ember — it dims to half effectiveness in the field.
+
+**What this means for Kenji:**
+- In the suppression field, Kenji loses: ALL Ember perks, Soul Nexus connections, Vigor abilities, creation/entropy powers, Bane of Eve magical enhancement (the biological base remains but the supernatural amplification dies), God Emperor draconic abilities, and ember-channeled spellcasting.
+- He retains: base physical stats (STR 14, DEX 16, CON 13), mundane weapon skill, non-Ember spells he learned independently (almost none — he's been Ember-dependent for 25 years), and his wits.
+- This is WHY Ankuspawn matter more than Kenji in these campaigns. They're young enough to have built real skills alongside their Ember. He isn't.
+
+**DM RULE:** In any encounter with Cult of Anku operatives, the DM MUST include at least one Ember Shade ward bearer. The first thing the cult does is establish the suppression field. This is not a surprise — it's their standard operating procedure. The player should learn to fear the moment their Ember goes cold.
+
+**Countermeasures the PC can develop (over time, not given for free):**
+- Learn to fight without Ember (mundane combat training, non-Ember magic)
+- Identify ward bearers (Perception/Investigation DC 15 to spot the ward token)
+- Snipe the ward bearer from outside 20 ft (requires tactical positioning)
+- Use non-Ember allies to destroy the ward while the PC fights without powers
+- Develop Ember-adjacent abilities that aren't pure Ember (hybrid techniques — high-level, late-campaign)
+
 ### 🏃 Travel & Forced March Rules
 - Normal travel pace: 24 miles per day on foot (3 miles/hour, 8 hours)
 - Fast pace: 30 miles/day — -5 penalty to passive Perception
@@ -2014,17 +2196,45 @@ Successful skill checks award EXP based on the DC of the check. The world reward
 
 | DC Range | EXP Award |
 |----------|-----------|
-| DC 8–10  | 5 EXP     |
-| DC 11–14 | 10 EXP    |
-| DC 15–17 | 15 EXP    |
-| DC 18–20 | 25 EXP    |
-| DC 21+   | 50 EXP    |
+| DC 8–10  | 500 EXP   |
+| DC 11–14 | 1,000 EXP |
+| DC 15–17 | 1,500 EXP |
+| DC 18–20 | 2,500 EXP |
+| DC 21+   | 5,000 EXP |
 
 - Only checks with meaningful stakes award EXP — no farming trivial checks
 - Critical success (Natural 20) on any check awards double the EXP for that DC tier
 - Critical failure (Natural 1) awards no EXP but should always create an interesting consequence
 - The DM tracks all check EXP in the EXP Log with a brief description (e.g., "Persuasion — convinced Sera to change plans")
 - Passive checks (passive Perception etc.) do NOT award EXP — only active rolls
+
+### 🎶 SUPPORT / NON-COMBAT CLASS — EXP RULES
+Any character whose primary class is built around a non-combat specialty follows these EXP rules. The system rewards them for doing what their class *does*, not for killing things. This applies to any class where the character's fantasy is artistry, healing, diplomacy, crafting, espionage, scholarship, or support — not frontline combat.
+
+**Known support archetypes (not exhaustive — DM assigns at character creation):**
+
+| Archetype | Primary Skill Domain | Example Classes |
+|-----------|---------------------|-----------------|
+| Performer | Performance, emotional projection, crowd work | Bard, Dancer, Skald, Entertainer |
+| Healer | Medicine, restoration, triage | Cleric (Life), Druid (Shepherd), Medic |
+| Diplomat | Persuasion, Deception, Insight, negotiation | Face, Courtier, Envoy, Silver-tongue |
+| Scholar | Investigation, Arcana, History, research | Sage, Loremaster, Artificer (theorist) |
+| Infiltrator | Stealth, Sleight of Hand, Deception, recon | Spy, Scout, Saboteur, Thief (non-combat) |
+| Crafter | Tool checks, Arcana (enchanting), creation | Artificer (builder), Smith, Alchemist |
+
+**Specialty EXP (the upside):**
+Every successful skill check that falls within the character's **primary skill domain** (as defined by archetype above) awards **25% of the EXP needed for their next level**, regardless of the DC. A bard performing at DC 10 grows as much as at DC 20. A healer stabilizing a DC 8 patient grows as much as curing a DC 18 plague. The growth comes from *doing the thing*, not from difficulty.
+
+- This replaces the standard skill check EXP table for domain rolls only
+- Skill checks outside the primary domain still use the standard table (DC 8–10 = 500, etc.)
+- Nat 20 on a domain roll doubles the award (50% of next level)
+- Nat 1 awards 0
+- DM determines at each roll whether it qualifies as a domain roll — when in doubt, ask: "Is this character doing what their class is *about*?"
+
+**Combat EXP (the downside):**
+Support/non-combat characters do NOT receive any solo combat multiplier. Combat EXP is **always calculated as if the party has 5 or more members**, even if the character is fighting alone or with fewer allies. The system does not reward support characters for soloing monsters — it rewards them for solving problems their way.
+
+**Why this works:** A support character who leans into their specialty levels naturally through play. One who tries to grind combat XP at the same rate as a fighter will fall behind. This is intentional — it pushes non-combat characters toward creative solutions and class-appropriate play rather than sword-swinging. A bard performs. A healer heals. A spy infiltrates. That's how they grow.
 
 ### 🏋️ TRAINING RULES
 When the player seeks training from an NPC with relevant expertise:

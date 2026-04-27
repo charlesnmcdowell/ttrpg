@@ -115,5 +115,90 @@
   "success_state": "",
   "failure_state": "",
   "post_campaign": {"_note": "At level 10+, snapshot this file.", "snapshot_status": "not_started", "continuation_hooks": ""},
-  "mechanical_state": {"_merge_note": "StoryEngine preserves unknown top-level keys on save."}
+  "mechanical_state": {
+    "_merge_note": "StoryEngine preserves unknown top-level keys on save.",
+    "level": 1,
+    "class": "",
+    "hit_die": "",
+    "hp": "",
+    "proficiency_bonus": 2,
+    "ability_scores": {
+      "_rule": "See dm_rules_tracking.md § Character Creation. Total base ≤ 72, max 2 stats at 16, none above 16 or below 1. Racial bonuses applied after. Player assigns freely — DM NEVER suggests.",
+      "STR": {"base": "", "racial": 0, "final": "", "mod": ""},
+      "DEX": {"base": "", "racial": 0, "final": "", "mod": ""},
+      "CON": {"base": "", "racial": 0, "final": "", "mod": ""},
+      "INT": {"base": "", "racial": 0, "final": "", "mod": ""},
+      "WIS": {"base": "", "racial": 0, "final": "", "mod": ""},
+      "CHA": {"base": "", "racial": 0, "final": "", "mod": ""}
+    },
+    "saving_throws": {"proficient": []},
+    "skills": {},
+    "AC": "",
+    "starting_gold": "",
+    "character_flaw": "",
+    "exp_archetype": "combat",
+    "support_archetype": ""
+  },
+
+  "_story_engine_state": {
+    "_comment": "StoryEngine-compatible block. Loaded by ttrpg_game_engine.py StoryEngine class. All fields round-trip through save/load. Fill char_name and class after character creation; the rest are sensible day-1 defaults.",
+    "char_name": "",
+    "level": 1,
+    "exp": 0,
+    "hp": 0,
+    "max_hp": 0,
+    "temp_hp": 0,
+    "ac": 10,
+    "day": 1,
+    "hour": 6,
+    "location": "",
+    "weather": "clear",
+    "gold": 0,
+    "silver": 0,
+    "copper": 0,
+    "meals": 0,
+    "hours_since_meal": 0,
+    "spell_slots": {},
+    "equipped": [],
+    "satchel": [],
+    "consumables": [],
+    "key_items": [],
+    "buffs": [],
+    "statuses": [],
+    "charges": {},
+    "portals": 0,
+    "portal_max": 0,
+    "events": [],
+    "quests": [],
+    "squads": [],
+    "assets": [],
+    "threat_clocks": [],
+    "npc_agendas": [],
+    "org_plots": [],
+    "world_events": [],
+    "consequences": []
+  },
+
+  "persistent_effects": {
+    "_rule": "Track all status effects, auras, poisons, and debuffs that persist across scenes. Update every chapter. See dm_rules_tracking.md § Poison, Status Effects & Debuff System.",
+    "on_pc": [],
+    "on_pc_from_npcs": [
+      {
+        "effect_name": "",
+        "source": "NPC name or environmental source",
+        "type": "aura | poison | curse | disease | debuff | buff",
+        "mechanical_effect": "What it does mechanically",
+        "duration": "permanent | until_cured | X_hours | X_scenes",
+        "clear_condition": "How to remove it"
+      }
+    ],
+    "known_enemy_buffs": [
+      {
+        "enemy_name": "",
+        "buff_name": "",
+        "effect": "",
+        "source": "natural | elixir | magic | racial"
+      }
+    ]
+  }
 }

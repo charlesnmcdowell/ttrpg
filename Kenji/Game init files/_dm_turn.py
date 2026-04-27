@@ -52,12 +52,31 @@ STATE_FILE = SCRIPT_DIR / "kenji_state.json"  # default; overridden by --charact
 TRACKER_FILE = SCRIPT_DIR / "character_tracker.md"
 
 
+def _find_ttrpg_root(start: Path) -> Path:
+    """Walk up from start until we find realm_lore_registry.json (TTRPG root).
+    Also checks sibling directories of each ancestor (handles flat mount layouts)."""
+    cur = start
+    for _ in range(10):
+        if (cur / "realm_lore_registry.json").exists():
+            return cur
+        # Check sibling directories at this level
+        if cur.parent.exists():
+            try:
+                for sibling in cur.parent.iterdir():
+                    if sibling.is_dir() and (sibling / "realm_lore_registry.json").exists():
+                        return sibling
+            except PermissionError:
+                pass
+        cur = cur.parent
+    return None
+
+
 def resolve_state_file(character: str = None) -> Path:
     """Resolve state file path from --character flag.
 
     --character kenji   → kenji_state.json (default)
-    --character amaris  → looks in ../Amaris/Game init files/amaris_state.json
-    --character <name>  → <name>_state.json in SCRIPT_DIR, else search parent dirs
+    --character cookie  → Cookie/Game init files/character_world_state.json
+    --character <name>  → searches TTRPG root for <Name>/Game init files/
     """
     if not character or character.lower() == "kenji":
         return SCRIPT_DIR / "kenji_state.json"
@@ -67,14 +86,29 @@ def resolve_state_file(character: str = None) -> Path:
     if local.exists():
         return local
 
-    # Try sibling campaign directories (e.g., ../Amaris/Game init files/)
-    parent = SCRIPT_DIR.parent  # e.g., Kenji/
-    grandparent = parent.parent  # e.g., TTRPG/
-    for subdir in grandparent.iterdir():
-        if subdir.is_dir():
-            candidate = subdir / "Game init files" / f"{character.lower()}_state.json"
-            if candidate.exists():
-                return candidate
+    # Build a list of candidate roots to search
+    search_roots = []
+
+    # 1. Try TTRPG root (walk up from SCRIPT_DIR looking for realm_lore_registry.json)
+    ttrpg_root = _find_ttrpg_root(SCRIPT_DIR)
+    if ttrpg_root:
+        search_roots.append(ttrpg_root)
+
+    # 2. Try parent/grandparent of SCRIPT_DIR (original logic)
+    search_roots.append(SCRIPT_DIR.parent)
+    search_roots.append(SCRIPT_DIR.parent.parent)
+
+    # Search each root for the character's campaign folder
+    for root in search_roots:
+        if not root or not root.exists():
+            continue
+        for subdir in root.iterdir():
+            if subdir.is_dir() and subdir.name.lower() == character.lower():
+                # Check <name>_state.json first, then character_world_state.json
+                for fname in [f"{character.lower()}_state.json", "character_world_state.json"]:
+                    candidate = subdir / "Game init files" / fname
+                    if candidate.exists():
+                        return candidate
 
     # Fallback — use the name directly
     return SCRIPT_DIR / f"{character.lower()}_state.json"
