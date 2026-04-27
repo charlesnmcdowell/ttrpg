@@ -27,6 +27,9 @@
 | **Enemy tactical adaptation** | `dm_rules_tracking.md` § Enemy Tactical Adaptation |
 | **Persistent effects tracking** | `character_world_state.json` § `persistent_effects` |
 | **Arc pointer / scene graph** | `run_arc_pointer.py`, `scene_graph_prototype/` |
+| **DM Turn Protocol** (mandatory run plan — session start, every response, chapter end) | `DM_TURN_PROTOCOL.md` |
+| **Continuity Engine** (campaign threats, NPC registry, scene checklists) | `continuity_engine.py` |
+| **DM Turn CLI** (tick, rest, eat, move, dashboard, brief, chapter_open/close) | `_dm_turn.py` — supports `--character <name>` for any campaign |
 
 ---
 
@@ -2235,6 +2238,53 @@ Every successful skill check that falls within the character's **primary skill d
 Support/non-combat characters do NOT receive any solo combat multiplier. Combat EXP is **always calculated as if the party has 5 or more members**, even if the character is fighting alone or with fewer allies. The system does not reward support characters for soloing monsters — it rewards them for solving problems their way.
 
 **Why this works:** A support character who leans into their specialty levels naturally through play. One who tries to grind combat XP at the same rate as a fighter will fall behind. This is intentional — it pushes non-combat characters toward creative solutions and class-appropriate play rather than sword-swinging. A bard performs. A healer heals. A spy infiltrates. That's how they grow.
+
+### 💃 CUSTOM CLASS FEATURES — DANCER (Cookie)
+
+**Dance Inspiration (Level 1 class feature):**
+When Cookie incorporates **dancing** into a Performance check (not just singing, speaking, or playing an instrument), she rolls an additional **d12** and adds it to the total. This is the Dancer class's core identity — movement as magic.
+
+- **Dancing Performance:** d20 + d12 + modifier
+- **Singing/speaking-only Performance:** d20 + modifier (standard)
+- The DM determines whether a given Performance check qualifies as "dancing" — the player must describe physical movement, not just vocal/verbal performance
+- This bonus applies to all Performance checks where dancing is the primary or co-primary component (e.g., seductive dance, battle rally with movement, stage choreography)
+- It does NOT apply to: pure singing, speeches, verbal persuasion through performance, playing instruments while stationary
+- The d12 is additive, not a separate roll — it cannot independently crit or fail
+
+**Design intent:** This gives the player a strong mechanical incentive to incorporate dance into every Performance moment, which keeps Cookie's class identity front and center. A Dancer who never dances is leaving power on the table.
+
+**Dancer's Tai Chi (Level 2 combat style — unlocked in combat):**
+A DEX-based kick-only martial art created by Cookie during her first real fight. Flowing kicks that look like dance. Two performance rolls per turn make her the most swingy combatant possible.
+
+| Phase | Mechanic |
+|-------|----------|
+| **Start of turn** | Performance roll (d20 + d12 + mod, dancing). DC 12. **Success:** all allies who can see Cookie gain 1 free attack this round. **Fail:** Cookie falls prone and loses her turn. |
+| **Attack** | 1 kick per round. DEX-based (d20 + DEX + prof to hit). **1d6 bludgeoning, always causes PRONE on hit.** |
+| **End of turn** | Performance roll (d20 + d12 + mod, dancing). DC 12. **Success:** 75% dodge chance on all enemy attacks until next turn. **Fail:** Cookie falls prone. |
+| **Ember prone effect** | ONLY when Ember is active + Cookie is prone + enemies are humanoid. **Females:** Ridicule bonus — mock instead of finishing (skip kill action to taunt). **Males:** Lust bonus — attempt to mate immediately, must make STR save vs Cookie's spell DC or spend turn grappling instead of attacking. Does NOT work on non-humanoids, undead, or constructs. |
+
+**Design intent:** Cookie's combat is a performance. She's not a fighter — she's a dancer who learned to kick. The system rewards her for staying in character (dancing = d12 bonus) and punishes her for bad luck (prone, lost turns). The Ember prone effect turns her worst-case scenario into a tactical weapon — enemies who should kill her can't because of what she is.
+
+**Healing Dance (Level 2 spell — learned at Level 4):**
+A 3-round dancing performance based on one of Ignis's famous "Four Seasons" songs. Requires concentration. Cookie cannot attack or move more than 5 ft per round while channeling.
+
+| Round | Effect |
+|-------|--------|
+| Rounds 1-3 (during) | 25% max HP heal per round to all allies within 30 ft |
+| On completion (round 3 end) | 100% max HP heal to all allies within 30 ft + Regeneration buff (10% max HP per round for 1 hour) |
+| Concentration broken early | Only per-round 25% healing applies. No completion heal or regen buff. |
+
+**Pretty Privilege (Perk — Level 4):**
+All gold earned from male humanoids is multiplied by **1000% (10x)**. Male NPCs over-tip, over-pay, and over-compensate in Cookie's presence. This is passive and always active. It represents the combined effect of Ankuspawn beauty + Heartstring emotional bleed making males desperate to impress her.
+
+**Ember Enhancement — Level 4 Awakening:**
+All buff spells, emotion transfers, and healing spells are **10x more effective**. This applies to Protector's Surge, Healing Dance, Heartstring emotional bleed, and Chorus of One. Suppressed by Ember Shade wards or nullification.
+
+**Ember Enhancement — Combat Magnetism:**
+- **Male humanoid enemies:** Prefer to capture Cookie for procreation rather than kill. She is the LAST target they focus. Males attempt grapple/restrain over lethal attacks.
+- **Female humanoid enemies (neutral or lower disposition):** Massively jealous. Cookie is their FIRST target. They prioritize attacking her over tactical targets.
+- **Female humanoid enemies (friendly or higher disposition):** Want to emulate Cookie. May defect, hesitate, or refuse to attack.
+- Does NOT affect non-humanoids, undead, or constructs. Suppressed by Ember nullification.
 
 ### 🏋️ TRAINING RULES
 When the player seeks training from an NPC with relevant expertise:

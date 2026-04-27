@@ -1,6 +1,23 @@
 # Instructions for AI assistants (Kenji — Game init files)
 
-This folder holds live campaign tooling and trackers. Read **`tracking_rules.md`** before editing tracked prose or state. For any scene hinging on **Stealth / Sleight / social / Perception / saves**, read **`dm_rules_tracking.md`** → **Scene skill preroll** + **Player success integrity** (roll first; PC success wins the beat; no NPC auto-Perception or gotcha undo). For any scene involving **trade, purchases, wages, or pricing**, read **`dm_rules_tracking.md`** → **WORLD ECONOMY REFERENCE** (1 GP = $5,000 USD; use CP/SP for daily commerce; price goods at real-world equivalents). Roll helpers: **`ttrpg_game_engine.py`** (`skill_roll`, `contested_skill`, …); CLI `python ttrpg_game_engine.py skill …`. Cursor rule: repo **`.cursor/rules/kenji-scene-skill-gates.mdc`**.
+This folder holds live campaign tooling and trackers. Read **`tracking_rules.md`** before editing tracked prose or state.
+
+---
+
+## ⚠️ MANDATORY FIRST READ — DM Turn Protocol
+
+**Before your first DM response, read `DM_TURN_PROTOCOL.md` in this directory.**
+
+That document is the run plan for ALL campaigns. It tells you exactly what to do at session start, during every DM response, and at chapter end. It lists all 7 systems and when to use them. **No exceptions — read it before writing any narrative.**
+
+Key quick-reference: For any scene hinging on **Stealth / Sleight / social / Perception / saves**, read **`dm_rules_tracking.md`** → **Scene skill preroll** + **Player success integrity** (roll first; PC success wins the beat; no NPC auto-Perception or gotcha undo). For any scene involving **trade, purchases, wages, or pricing**, read **`dm_rules_tracking.md`** → **WORLD ECONOMY REFERENCE** (1 GP = $5,000 USD; use CP/SP for daily commerce; price goods at real-world equivalents). Roll helpers: **`ttrpg_game_engine.py`** (`skill_roll`, `contested_skill`, …); CLI `python ttrpg_game_engine.py skill …`. Cursor rule: repo **`.cursor/rules/kenji-scene-skill-gates.mdc`**.
+
+The `_dm_turn.py` CLI supports all characters:
+```bash
+python _dm_turn.py brief                        # Kenji (default)
+python _dm_turn.py --character cookie brief      # Cookie
+python _dm_turn.py --character <name> dashboard   # any character
+```
 
 ---
 

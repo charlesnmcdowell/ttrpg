@@ -4,7 +4,21 @@ This is Cookie's campaign folder. **All shared DM systems live in Kenji's Game i
 
 ---
 
-## Shared systems — READ FIRST
+## ⚠��� MANDATORY FIRST READ — DM Turn Protocol
+
+**Before your first DM response, read `Kenji/Game init files/DM_TURN_PROTOCOL.md`.**
+
+That document is the run plan for ALL campaigns. It tells you exactly what to do at session start, during every DM response, and at chapter end. It lists all 7 systems and when to use them. **No exceptions — read it before writing any narrative.**
+
+To load Cookie's state via the CLI:
+```bash
+python _dm_turn.py --character cookie brief      # generates AI_CONTEXT.md
+python _dm_turn.py --character cookie dashboard   # prints dashboard
+```
+
+---
+
+## Shared systems
 
 Before doing anything, read `Kenji/Game init files/dm_rules_tracking.md` — specifically the **AVAILABLE SYSTEMS** table at the top. It lists every existing system and where to find it. **Do not build new systems without checking that table.**
 

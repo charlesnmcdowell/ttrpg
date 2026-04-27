@@ -48,10 +48,12 @@ python _dm_turn.py brief                   # writes AI_CONTEXT.md
 
 ### 5. Check continuity
 ```bash
-python continuity_engine.py                # self-test, prints validation
+python continuity_engine.py                # self-test with Kenji defaults
+python continuity_engine.py cookie         # loads Cookie's campaign data
+python continuity_engine.py <name>         # any character
 ```
+- The engine loads campaign data from the character's state file via `load_campaign("name")`
 - Review campaign threats, NPC registry, and any overdue goal alerts
-- For characters without a dedicated continuity engine: manually review `campaign_spine`, `antagonist`, `main_cast`, and `extra_npcs` in their state file
 
 ### 6. Check goal deadlines
 - Compare current engine `day` against all events and quest deadlines
@@ -70,39 +72,45 @@ python _dm_turn.py dashboard
 
 ### Before narrating:
 
-1. **Scene skill preroll** — Roll BEFORE writing the scene. Use:
+1. **NEVER SPEAK FOR THE PC** — The DM never writes the player character's dialogue. Not in quotes. Not paraphrased. Not summarized. Not implied through narration.
+   - If a scene requires the PC to say something, STOP and ask the player.
+   - **Only exception:** when the player's prompt makes intent crystal clear AND the words carry zero narrative weight (e.g., player says "I order a room" → DM can write "You ask for a room"). But if the conversation involves negotiation, emotional stakes, promises, strategy, or relationships → STOP and let the player speak.
+   - Even in multi-action prompts ("meet X, then do Y") — narrate NPC dialogue, describe the scene, and STOP for the player's words whenever the PC needs to respond to something meaningful. The player declared the goal, not the dialogue.
+   - **Self-test:** Read your response before sending. Find every instance where the PC talks, argues, explains, or responds verbally. Delete all of them. Present the NPC's side and wait.
+
+2. **Scene skill preroll** — Roll BEFORE writing the scene. Use:
    ```bash
    python ttrpg_game_engine.py skill <modifier> [--adv] [--dis] [--dc N] [--label TEXT]
    ```
    - The roll determines what happens. Do NOT narrate success then roll.
    - PC success wins the beat. No NPC auto-Perception or gotcha undo.
 
-2. **NPC name check** — If introducing a new NPC:
+3. **NPC name check** — If introducing a new NPC:
    - Pull name from `npc_name_bank.md`
    - Grep the name across ALL campaign folders before using
    - Mark name as used in the bank
    - NEVER invent names without checking the bank first
 
-3. **Continuity check** — For any scene with NPCs:
+4. **Continuity check** — For any scene with NPCs:
    - Verify NPC is in the character's `main_cast` or `extra_npcs`
    - If new NPC: they must serve the campaign spine (have a `points_to` or connection to existing storyline)
    - Check NPC alignment — drive behavior from it
 
 ### After narrating:
 
-4. **Award EXP** — Mandatory after every skill roll:
+5. **Award EXP** — Mandatory after every skill roll:
    - Skill check EXP from table: DC 8-10 = 500, DC 11-14 = 1,000, DC 15-17 = 1,500, DC 18-20 = 2,500, DC 21+ = 5,000
    - Support archetype domain roll: +25% of XP-to-next-level per successful roll
    - State EXP earned in the response
 
-5. **Advance time** — Update hour based on scene duration:
+6. **Advance time** — Update hour based on scene duration:
    - Conversation: 15-30 min
    - Short encounter: 1 hour
    - Travel: based on distance
    - Long rest: advance to next morning (hour 6)
    - Track meals: hunger penalty at 4+ hours since meal
 
-6. **Display dashboard** — End EVERY DM response with the status block:
+7. **Display dashboard** — End EVERY DM response with the status block:
    ```
    ┌─────────────────────────────────────────────┐
    │  [NAME] — Day X | HH:MM | Location          │
@@ -203,4 +211,5 @@ Support archetypes (performer, healer, diplomat, scholar, infiltrator, crafter):
 | Wrong EXP amount | Used old table or invented amount | Use the table in dm_rules_tracking.md |
 | Skipped dashboard | Forgot | Step 6 of every response — no exceptions |
 | NPC has no story purpose | No continuity check | Every NPC must connect to campaign spine |
+| Wrote PC dialogue or decisions | Novelist mode — treated PC as own character | Step 1 of every response — self-test before sending |
 | Applied Kenji mechanics to Cookie | Didn't read character CLAUDE.md | Session start step 1 |

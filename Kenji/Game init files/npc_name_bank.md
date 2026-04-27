@@ -13,7 +13,7 @@
 4. Davan
 5. Edric
 6. Falconer
-7. Garron
+7. ~~Garron~~ *(used — Cookie campaign, adventurer crossbowman, bandit camp raid party)*
 8. Selwyn
 9. Ivor
 10. Jareth
@@ -22,7 +22,7 @@
 1. Aveline
 2. ~~Brynn~~ *(used — Shield infantry, Thornkeep garrison)*
 3. ~~Calista~~ *(used — barmaid **The Brass Hitch**, Bronzebarrow Ashmere 34)*
-4. Dorith
+4. ~~Dorith~~ *(used — Cookie campaign, adventurer healer, bandit camp raid party)*
 5. ~~Eira~~ *(used — Cookie campaign, recruiter for Lyssa Vane's troupe)*
 6. Fenella
 7. ~~Gwynn~~ *(used — halfling hostler **The Brass Hitch**, Bronzebarrow — halfling; pulled from Human list per bank note)*
@@ -182,3 +182,8 @@
 - Silka *(human female — TN, charmed spy at Academy)*
 - Rook *(human male — CE enforcer for Lyssa Vane)*
 - Fern *(human female — CG, Cookie's best friend from Kettlebrook)*
+- Maeven *(human, tailor on Chandler's Row, Varenholm)*
+- Gruff *(human male — LN, Adventurer's Guild clerk, Varenholm)*
+- Dalla *(human female — TN, adventurer fighter)*
+- Silas *(human male — CN, adventurer rogue)*
+- Marta *(human female — NG, adventurer ranger)*

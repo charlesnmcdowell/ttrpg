@@ -158,18 +158,39 @@ def season_for_month(month_name: str) -> str:
     return "Unknown Season"
 
 
+def _is_nested_state_file(path: Path) -> bool:
+    """Check if a JSON file uses the nested character_world_state format."""
+    import json
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        return isinstance(data, dict) and "_story_engine_state" in data
+    except Exception:
+        return False
+
+
 def load():
     return StoryEngine.load_json(str(STATE_FILE))
 
 
 def save(eng):
-    eng.save_json(str(STATE_FILE))
+    """Save engine state. For nested character_world_state.json files,
+    writes back into _story_engine_state without clobbering the outer keys."""
+    import json
+    if _is_nested_state_file(STATE_FILE):
+        full_data = json.loads(STATE_FILE.read_text(encoding="utf-8"))
+        full_data["_story_engine_state"] = eng.to_dict()
+        tmp = STATE_FILE.with_suffix(".tmp")
+        tmp.write_text(json.dumps(full_data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        tmp.replace(STATE_FILE)
+        print(f"\n[OK] Saved _story_engine_state -> {STATE_FILE.name}")
+    else:
+        eng.save_json(str(STATE_FILE))
+        print(f"\n[OK] Saved -> {STATE_FILE.name} (v{eng._save_version})")
     warnings = eng.validate()
     if warnings:
         print("\n[!] VALIDATION WARNINGS:")
         for w in warnings:
             print(f"  - {w}")
-    print(f"\n[OK] Saved -> {STATE_FILE.name} (v{eng._save_version})")
 
 
 def _build_charge_str(eng) -> str:
@@ -853,6 +874,7 @@ if __name__ == "__main__":
         else:
             print("ERROR: --character requires a name argument")
             sys.exit(1)
+
 
     if not argv or argv[0] not in COMMANDS:
         print(__doc__)

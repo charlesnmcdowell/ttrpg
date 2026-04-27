@@ -1,9 +1,16 @@
 """
-CONTINUITY ENGINE — Kenji TTRPG Campaign
-=========================================
+CONTINUITY ENGINE — Multi-Character TTRPG Campaign
+====================================================
 Lightweight validation layer. The AI DM references this before every scene.
 This file is the SOURCE OF TRUTH for campaign structure. It does not replace
-character_tracker.md or kenji_state.json — it VALIDATES them.
+character_tracker.md or state files — it VALIDATES them.
+
+MULTI-CHARACTER SUPPORT:
+  - Kenji's campaign data is hardcoded below (mature campaign, won't change format)
+  - All other characters: call load_campaign("name") to populate THREATS, MAIN_NPCS,
+    SECONDARY_NPCS from their character_world_state.json
+  - All validation functions work against whatever data is loaded — zero character-
+    specific logic in the validators
 
 RULES:
   1. MAIN_NPCS are immutable. Created at campaign design time. Cannot be killed
@@ -17,10 +24,10 @@ RULES:
      and assigning a points_to link.
 
 USAGE:
-  The AI calls validate_scene() before presenting any scene with NPCs.
-  The AI calls validate_npc() before introducing any named character.
-  The AI calls get_threat_npcs() to see who belongs to a given threat.
-  The AI calls check_npc_function() to verify a secondary NPC is serving its purpose.
+  load_campaign("cookie")          — load Cookie's data from her state file
+  load_campaign("kenji")           — reload Kenji defaults (or call with no args)
+  validate_scene() / validate_npc() — works with whatever campaign is loaded
+  check_engine()                    — master validation for loaded campaign
 """
 
 # =============================================================================
@@ -42,7 +49,7 @@ THREATS = {
         "fail_condition": "March launches and overruns Thornkeep → Stormhaven → southern farmland. Every fallen soldier rises on her side.",
         "shortcut": "Phylactery ring. 4 seams tied to named anchors. 4th seam parasitized by death-binder.",
         "danger": "Intimacy with Lady Nyx triggers Lover's Vigor → +50% her stats for 5 days → accelerates conquest to 10%/cycle. Romance IS the threat path.",
-        "key_npcs": ["lady_nyx", "sir_corwyn", "mags", "jostin", "hale", "death_binder", "handler", "corban"],
+        "key_npcs": ["lady_nyx", "sir_corwyn", "mags", "jostin", "bracken", "death_binder", "handler", "corban"],
     },
     "the_hollowing": {
         "name": "The Hollowing",
@@ -698,6 +705,193 @@ SECONDARY_NPCS = {
 
 
 # =============================================================================
+# KENJI DEFAULTS — Snapshots for reset
+# =============================================================================
+_KENJI_THREATS = dict(THREATS)
+_KENJI_MAIN_NPCS = dict(MAIN_NPCS)
+_KENJI_SECONDARY_NPCS = dict(SECONDARY_NPCS)
+
+# Track which campaign is currently loaded
+_LOADED_CHARACTER = "kenji"
+
+
+# =============================================================================
+# MULTI-CHARACTER LOADER
+# =============================================================================
+
+def _find_state_file(character: str):
+    """Find a character's state file. Uses _dm_turn.py's resolver if available,
+    otherwise searches common paths."""
+    from pathlib import Path
+    script_dir = Path(__file__).parent
+
+    # Try importing _dm_turn's resolver
+    try:
+        import sys
+        sys.path.insert(0, str(script_dir))
+        from _dm_turn import resolve_state_file
+        return resolve_state_file(character)
+    except ImportError:
+        pass
+
+    # Manual fallback: search parent/grandparent for <Name>/Game init files/
+    for root in [script_dir.parent, script_dir.parent.parent]:
+        if not root.exists():
+            continue
+        for subdir in root.iterdir():
+            if subdir.is_dir() and subdir.name.lower() == character.lower():
+                for fname in [f"{character.lower()}_state.json", "character_world_state.json"]:
+                    candidate = subdir / "Game init files" / fname
+                    if candidate.exists():
+                        return candidate
+    return None
+
+
+def _map_antagonist_to_threat(antagonist: dict) -> dict:
+    """Convert a character_world_state.json 'antagonist' block into a THREATS entry."""
+    name_key = antagonist.get("name", "unknown").lower().replace(" ", "_")
+    lieutenants = antagonist.get("lieutenants", [])
+    key_npcs = [lt["name"].lower().replace(" ", "_") for lt in lieutenants]
+    return name_key, {
+        "name": antagonist.get("name", "Unknown Antagonist"),
+        "location": antagonist.get("base_of_operations", "unknown"),
+        "race": antagonist.get("race_and_class", "unknown"),
+        "clock_days": 999,  # no time pressure by default
+        "rate_per_day": 0,
+        "current_progress": 0,
+        "status": "active",
+        "win_condition": antagonist.get("defeat_consequences", "Defeat the antagonist"),
+        "fail_condition": "",
+        "shortcut": "",
+        "danger": "",
+        "key_npcs": [name_key] + key_npcs,
+    }
+
+
+def _map_main_cast_to_npcs(main_cast: list, antagonist: dict) -> dict:
+    """Convert character_world_state.json 'main_cast' + antagonist into MAIN_NPCS dict."""
+    npcs = {}
+    # Add antagonist as a main NPC
+    ant_key = antagonist.get("name", "unknown").lower().replace(" ", "_")
+    npcs[ant_key] = {
+        "name": antagonist.get("name", "Unknown"),
+        "threat": ant_key,
+        "role": f"antagonist — {antagonist.get('motivation', '')[:80]}",
+        "level": None,
+        "goal": antagonist.get("motivation", "Unknown"),
+        "alive": True,
+        "met": False,
+        "location": antagonist.get("base_of_operations", "unknown"),
+        "alignment": antagonist.get("alignment", "unknown"),
+    }
+    # Add lieutenants as main NPCs (they're defined at campaign creation)
+    for lt in antagonist.get("lieutenants", []):
+        lt_key = lt["name"].lower().replace(" ", "_")
+        npcs[lt_key] = {
+            "name": lt["name"],
+            "threat": ant_key,
+            "role": lt.get("role", "lieutenant"),
+            "level": None,
+            "goal": lt.get("role", "Serve the antagonist"),
+            "alive": True,
+            "met": False,
+            "location": lt.get("location", "unknown"),
+            "alignment": lt.get("alignment", "unknown"),
+        }
+    # Add main_cast entries
+    for npc in main_cast:
+        npc_key = npc["name"].lower().replace(" ", "_")
+        npcs[npc_key] = {
+            "name": npc["name"],
+            "threat": "personal",
+            "role": npc.get("role", ""),
+            "level": None,
+            "goal": npc.get("want", ""),
+            "alive": True,
+            "met": True,  # main cast are generally met
+            "location": npc.get("location", "unknown"),
+            "alignment": npc.get("alignment", "unknown"),
+        }
+    return npcs
+
+
+def _map_extra_npcs_to_secondary(extra_npcs: dict, main_npc_keys: set) -> dict:
+    """Convert character_world_state.json 'extra_npcs' into SECONDARY_NPCS dict."""
+    secondary = {}
+    npcs_list = extra_npcs.get("npcs", [])
+    for npc in npcs_list:
+        if not npc.get("name"):
+            continue
+        npc_key = npc["name"].lower().replace(" ", "_")
+        # Try to find a valid points_to from redirect_to_main_cast or infer from context
+        points_to = []
+        redirect = npc.get("redirect_to_main_cast", "")
+        if redirect:
+            points_to = [redirect.lower().replace(" ", "_")]
+        # If no redirect, point to "personal" (valid fallback)
+        if not points_to:
+            points_to = ["personal"]
+        secondary[npc_key] = {
+            "name": npc["name"],
+            "points_to": points_to,
+            "function": npc.get("job_excuse", "Improvised NPC"),
+            "expendable": npc.get("tier", "extra") == "extra",
+            "met": True,
+            "location": npc.get("location", "unknown"),
+            "alive": npc.get("status", "active") == "active",
+        }
+    return secondary
+
+
+def load_campaign(character: str = "kenji") -> str:
+    """Load campaign data for a character. Populates THREATS, MAIN_NPCS, SECONDARY_NPCS.
+
+    For Kenji: restores hardcoded defaults.
+    For others: reads character_world_state.json and maps antagonist/main_cast/extra_npcs.
+
+    Returns status message.
+    """
+    global THREATS, MAIN_NPCS, SECONDARY_NPCS, _LOADED_CHARACTER
+
+    if not character or character.lower() == "kenji":
+        THREATS = dict(_KENJI_THREATS)
+        MAIN_NPCS = dict(_KENJI_MAIN_NPCS)
+        SECONDARY_NPCS = dict(_KENJI_SECONDARY_NPCS)
+        _LOADED_CHARACTER = "kenji"
+        return f"[continuity] Loaded Kenji defaults: {len(THREATS)} threats, {len(MAIN_NPCS)} main NPCs, {len(SECONDARY_NPCS)} secondary NPCs"
+
+    # Find and load state file
+    import json
+    state_path = _find_state_file(character)
+    if state_path is None or not state_path.exists():
+        return f"[continuity] ERROR: Cannot find state file for '{character}'. Campaign data NOT loaded."
+
+    data = json.loads(state_path.read_text(encoding="utf-8"))
+
+    # Extract campaign data from character_world_state.json format
+    antagonist = data.get("antagonist", {})
+    main_cast = data.get("main_cast", [])
+    extra_npcs = data.get("extra_npcs", {})
+
+    if not antagonist and not main_cast:
+        return f"[continuity] WARNING: '{character}' state file has no antagonist or main_cast. Loaded empty campaign."
+
+    # Map to engine format
+    if antagonist and antagonist.get("name"):
+        threat_key, threat_data = _map_antagonist_to_threat(antagonist)
+        THREATS = {threat_key: threat_data}
+    else:
+        THREATS = {}
+
+    MAIN_NPCS = _map_main_cast_to_npcs(main_cast, antagonist) if main_cast or antagonist else {}
+    SECONDARY_NPCS = _map_extra_npcs_to_secondary(extra_npcs, set(MAIN_NPCS.keys())) if extra_npcs else {}
+
+    _LOADED_CHARACTER = character.lower()
+    return (f"[continuity] Loaded {character}: {len(THREATS)} threat(s), "
+            f"{len(MAIN_NPCS)} main NPCs, {len(SECONDARY_NPCS)} secondary NPCs")
+
+
+# =============================================================================
 # VALIDATION FUNCTIONS
 # =============================================================================
 
@@ -941,10 +1135,10 @@ def check_engine(state: dict = None) -> str:
     
     if state is None:
         lines.append("")
-        lines.append("NO STATE PROVIDED. AI must read kenji_state.json and pass")
+        lines.append(f"NO STATE PROVIDED. AI must read the state file for '{_LOADED_CHARACTER}' and pass")
         lines.append("the current values to this function. Checklist items:")
         lines.append("")
-        lines.append("  [ ] 1. READ kenji_state.json — get all live values")
+        lines.append(f"  [ ] 1. READ state file for {_LOADED_CHARACTER} — get all live values")
         lines.append("  [ ] 2. AURA CHECKS — roll/track IP for all nearby NPCs")
         lines.append("  [ ] 3. TIME/WEATHER — update hour, check meal timer")
         lines.append("  [ ] 4. SCENE VALIDATION — validate_scene() for NPCs present")
@@ -1038,9 +1232,9 @@ def check_engine(state: dict = None) -> str:
     
     lines.append("")
     lines.append("=" * 60)
-    lines.append("FILES TO UPDATE AFTER CHECK:")
-    lines.append("  - kenji_state.json (hour, location, exp, statuses)")
-    lines.append("  - character_tracker.md (NPC locations, dispositions, stacks)")
+    lines.append(f"FILES TO UPDATE AFTER CHECK ({_LOADED_CHARACTER}):")
+    lines.append(f"  - state file for {_LOADED_CHARACTER} (hour, location, exp, statuses)")
+    lines.append("  - character_tracker / state JSON (NPC locations, dispositions)")
     lines.append("  - dm_rules_tracking.md (active context section)")
     lines.append("  - AI_CONTEXT.md (where we left off, time, place)")
     lines.append("  - world_calendar_lore.md (if date/time changed)")
@@ -1111,6 +1305,23 @@ if __name__ == "__main__":
         },
     }
     print(check_engine(test_state))
+    print("")
+    print("--- Test 8: load_campaign for non-Kenji character ---")
+    import sys
+    test_char = sys.argv[1] if len(sys.argv) > 1 else "cookie"
+    result = load_campaign(test_char)
+    print(f"  {result}")
+    print(f"  Loaded character: {_LOADED_CHARACTER}")
+    print(f"  Threats: {list(THREATS.keys())}")
+    print(f"  Main NPCs: {list(MAIN_NPCS.keys())[:10]}{'...' if len(MAIN_NPCS) > 10 else ''}")
+    print(f"  Secondary NPCs: {list(SECONDARY_NPCS.keys())[:10]}")
+    if THREATS:
+        print(f"  Campaign status: {campaign_status()}")
+    print("")
+    print("--- Test 9: Restore Kenji defaults ---")
+    result = load_campaign("kenji")
+    print(f"  {result}")
+    print(f"  Threats: {len(THREATS)}, Main: {len(MAIN_NPCS)}, Secondary: {len(SECONDARY_NPCS)}")
     print("")
     print("=" * 60)
     print("ALL TESTS COMPLETE")

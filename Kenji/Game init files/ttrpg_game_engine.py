@@ -3188,13 +3188,20 @@ class StoryEngine:
 
     @classmethod
     def load_json(cls, path):
-        """Load state from JSON (e.g. kenji_state.json). Strips optional _comment key."""
+        """Load state from JSON. Supports both flat (kenji_state.json) and nested
+        (character_world_state.json with _story_engine_state) formats."""
         import json
         from pathlib import Path
         raw = Path(path).read_text(encoding="utf-8")
         data = json.loads(raw)
         if isinstance(data, dict):
             data.pop("_comment", None)
+            # character_world_state.json nests engine state under _story_engine_state
+            if "_story_engine_state" in data:
+                engine_data = data["_story_engine_state"]
+                engine_data.pop("_comment", None)
+                engine_data.pop("_rule", None)
+                data = engine_data
         eng = cls(data)
         print(f"[load] v{eng._save_version} saved {eng._saved_at or 'never'}")
         return eng
