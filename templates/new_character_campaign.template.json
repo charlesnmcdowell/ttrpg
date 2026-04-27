@@ -1,60 +1,119 @@
 {
-  "_comment": "Copy to <NewPC>/Game init files/character_world_state.json — fill on character creation; prior campaigns are lore only unless player_knowledge says otherwise.",
+  "_comment": "STARTER CAMPAIGN TEMPLATE — Copy to <NewPC>/Game init files/character_world_state.json. Fill player_input first, then generate the campaign package. See universe_campaign_framework.md § 2 for the full system.",
   "_save_version": 1,
   "_saved_at": "",
   "universe": {
     "id": "combined_realm_v1",
-    "inherits_from_registry": "realm_lore_registry.json"
+    "inherits_from_registry": "realm_lore_registry.json",
+    "era": "25 years post-Book 4 — Kingdom of Ankunyx"
   },
-  "character": {
+  "player_input": {
     "name": "",
-    "concept": "",
-    "unique_background": "",
-    "why_here_not_thornfield_or_varenholm": ""
+    "gender": "",
+    "race": "",
+    "class_concept": "",
+    "background": "Where they grew up, who they lost, what shaped them.",
+    "personal_goal": "One sentence — what the character wants most.",
+    "starting_region_preference": "frontier | heartland | coast | mountains | underground | surprise_me",
+    "appearance": {
+      "height_build": "",
+      "hair": "",
+      "eyes": "",
+      "skin": "",
+      "distinguishing_marks": "",
+      "style_vibe": "",
+      "reference_image": ""
+    }
   },
   "inherited_lore": {
     "sources": [
       "shared_world_continuity.md",
       "realm_lore_registry.json",
       "Amaris/Game init files/amaris_state.json",
-      "Kenji/Game init files/kenji_state.json"
+      "Kenji/Game init files/kenji_state.json",
+      "ankuspawn_race.md"
     ],
-    "player_knowledge": "DM: bullet what this PC has actually heard about prior arcs (may be wrong, vague, or nothing).",
-    "dm_only_crossover_hooks": "Optional: ways to meet Kenji/Amaris geography or NPCs without breaking their canon."
+    "player_knowledge": "",
+    "dm_only_crossover_hooks": "",
+    "lore_seed": ""
   },
-  "new_region": {
-    "name": "",
-    "type": "village | town | wilderness_hold | ship | other",
-    "from_worlds_middle": "Where it sits vs the 'middle' (girdle / heartland) — see shared_world_continuity.md § Description map",
-    "from_crown_realm": "Where it sits vs the Crown realm (inside kingdom, border, beyond — vs Varenholm heartland)",
-    "terrain_and_vibe": "",
-    "population_or_scale": "",
-    "nearest_named_realm_anchor": "",
-    "travel_time_to_major_hub": "e.g. 3 weeks to Varenholm by road — DM sets",
-    "on_map_note": "One sentence for realm_lore_registry + optional addition to shared_world_continuity.md description map"
-  },
-  "main_cast": [
-    {
+  "locations": {
+    "_rule": "Every new character adds exactly 3 locations to the world map.",
+    "home_base": {
       "name": "",
-      "role": "ally | mentor | merchant | antagonist | foil | other",
-      "want": "",
-      "voice_hook": "speech tick or attitude in one line"
+      "type": "",
+      "from_worlds_middle": "",
+      "from_crown_realm": "",
+      "terrain_and_vibe": "",
+      "population_or_scale": "",
+      "nearest_named_anchor": "",
+      "travel_time_to_major_hub": "",
+      "connection_to_character": "",
+      "key_npcs_here": [],
+      "registry_entry": ""
+    },
+    "adventure_site": {
+      "name": "",
+      "type": "",
+      "distance_from_home_base": "1-3 days travel",
+      "terrain_and_vibe": "",
+      "why_dangerous": "",
+      "key_npcs_here": [],
+      "registry_entry": ""
+    },
+    "discovery_location": {
+      "name": "",
+      "type": "",
+      "connection_to_existing_lore": "",
+      "what_the_player_learns_here": "",
+      "key_npcs_here": [],
+      "registry_entry": ""
     }
-  ],
-  "quest_spine": [
-    {
-      "beat": "hook | rising | midpoint | crisis | resolution",
-      "summary": "",
-      "key_npc": ""
-    }
-  ],
-  "dialogue": {
-    "intro_scene": "",
-    "rumor_mill_examples": [],
-    "confrontation_line": "",
-    "peaceful_outro_hint": ""
   },
-  "mechanical_state": {
-    "_merge_note": "StoryEngine (Kenji ttrpg_game_engine.py) preserves unknown top-level keys on save. Merge this file with kenji_state.example.json in one JSON if you use the GUI — universe / inherited_lore / new_region blocks round-trip as extended state."
-  }
+  "ember_inheritance": {
+    "_rule": "Ankuspawn only. Generated algorithmically from class_concept + personal_goal. Player does NOT choose.",
+    "_non_ankuspawn": "Set to null for non-Ankuspawn characters.",
+    "theme": "",
+    "theme_description": "",
+    "abilities": {
+      "passive": {"name": "", "description": "", "mechanical_effect": ""},
+      "active": {"name": "", "description": "", "mechanical_effect": "", "uses_per_day": ""},
+      "surge": {"name": "", "description": "", "mechanical_effect": "", "exhaustion_cost": "1 level of exhaustion after use"}
+    },
+    "theme_lock": [],
+    "growth_stage": "unreliable | stable | potent",
+    "nyx_harvest_value": {
+      "extract_type": "",
+      "elixir_product": "",
+      "target_priority": "low | medium | high | critical"
+    }
+  },
+  "antagonist": {
+    "_rule": "Scaled for levels 5-8.",
+    "name": "",
+    "level_range": "5-8",
+    "race_and_class": "",
+    "motivation": "",
+    "relationship_to_goal": "",
+    "base_of_operations": "adventure_site",
+    "lieutenants": [{"name": "", "role": "", "location": ""}],
+    "defeat_consequences": ""
+  },
+  "campaign_spine": {
+    "_rule": "The personal goal is achievable by level 5-6.",
+    "phase_1_arrival": {"levels": "1-3", "summary": "", "key_scenes": [], "goal_status": "visible but obstructed"},
+    "phase_2_achievement": {"levels": "4-6", "summary": "", "key_scenes": [], "goal_status": "achieved — now under threat"},
+    "phase_3_defense": {"levels": "7-9", "summary": "", "key_scenes": [], "goal_status": "threatened — fight to keep it"},
+    "phase_4_confrontation": {"levels": "10", "summary": "", "key_scenes": [], "goal_status": "secured permanently"}
+  },
+  "main_cast": [{"name": "", "role": "", "alignment": "", "location": "", "want": "", "voice_hook": "", "lore_connection": ""}],
+  "extra_npcs": {
+    "_rule": "Improvised NPCs. See dm_rules_tracking.md NPC Lifecycle.",
+    "npcs": [{"name": "", "alignment": "", "tier": "extra | promoted", "introduced_chapter": 0, "promotion_chapter": null, "job_excuse": "", "doom_clock": {"goal": "", "deadline_chapter": null, "warning_stage": "early | mid | late | due", "dialogue_hints": []}, "status": "active", "redirect_to_main_cast": ""}]
+  },
+  "dialogue": {"intro_scene": "", "rumor_mill_examples": [], "antagonist_confrontation_line": "", "discovery_reveal_moment": "", "peaceful_outro_hint": ""},
+  "success_state": "",
+  "failure_state": "",
+  "post_campaign": {"_note": "At level 10+, snapshot this file.", "snapshot_status": "not_started", "continuation_hooks": ""},
+  "mechanical_state": {"_merge_note": "StoryEngine preserves unknown top-level keys on save."}
 }

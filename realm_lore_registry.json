@@ -205,6 +205,49 @@
       ],
       "lore_role": "Continental-scale arc across 4 books — CAMPAIGN COMPLETE (SUCCESS). Book 1-2: Academy rise, ArchMagus title, portals, constructs, Bleakmoor convergence. Book 3 (Iron Crown War): conquered Vyranth, ended continental war in 16 days. Book 4 (The Fraying Empire): resolved all five existential threats (Ashenveil undead, Sunderplains orcs, Kharn-Dural dwarves, Dragonspine dragons, Ashenmere vampires). United all territories into the Kingdom of Ankunyx. Achieved Level 40 Apotheosis. 25 Soul Nexus bonds. Now rules as Dragon Emperor — the most powerful entity on the continent. Active perks: Bane of Eve (female encounters), God Emperor (dragon encounters).",
       "supersedes_note": "2026-04-26: Campaign marked complete. All five threats resolved. Kingdom of Ankunyx established. 25-year timeskip applied. Kenji is now lore — the Dragon Emperor."
+    },
+    {
+      "id": "cookie",
+      "character": "Cookie (Halfling Ankuspawn)",
+      "status": "active",
+      "state_file": "Cookie/Game init files/character_world_state.json",
+      "story_files": [],
+      "regions_established": [
+        "Kettlebrook",
+        "The Sunken Playhouse",
+        "The Resonance Chamber"
+      ],
+      "lore_role": "Heartland — Ankuspawn daughter of Kenji (halfling mother). Bard/Dancer. Campaign explores the Cult of Anku threat from a ground-level perspective. First Ankuspawn PC."
+    }
+  ],
+
+  "starter_campaign_locations": [
+    {
+      "name": "Kettlebrook",
+      "type": "home_base",
+      "character": "Cookie",
+      "registry_entry": "Working-class coalition town near Varenholm, halfling/human mixed population. Cookie's hometown.",
+      "from_crown_realm": "inside kingdom — deep core",
+      "added_date": "2026-04-27",
+      "status": "active"
+    },
+    {
+      "name": "The Sunken Playhouse",
+      "type": "adventure_site",
+      "character": "Cookie",
+      "registry_entry": "Collapsed pre-kingdom amphitheater between Kettlebrook and Varenholm. Occupied by a rogue bard troupe.",
+      "from_crown_realm": "inside kingdom — deep core",
+      "added_date": "2026-04-27",
+      "status": "active"
+    },
+    {
+      "name": "The Resonance Chamber",
+      "type": "discovery_location",
+      "character": "Cookie",
+      "registry_entry": "Hidden ley-line acoustic junction beneath the Sunken Playhouse. Pre-kingdom bard infrastructure, Ember-resonant.",
+      "from_crown_realm": "inside kingdom — deep core",
+      "added_date": "2026-04-27",
+      "status": "active"
     }
   ]
 }

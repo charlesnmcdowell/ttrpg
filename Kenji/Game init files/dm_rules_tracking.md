@@ -330,17 +330,29 @@ When the player declares intent to hunt or grind combat encounters in a session:
 
 ## 🎭 CHARACTER CREATION RULES (DM ENFORCEMENT)
 
-1. Race — DM presents options. Player chooses.
-2. Class — DM presents options. Player chooses.
-3. Background — Player describes in their OWN free-form words. DM never suggests or generates one.
-4. Name — Player decides entirely.
-5. Stats — Player assigns freely. Rules:
+1. **Race** — DM presents options. Player chooses.
+2. **Class** — DM presents options. Player chooses.
+3. **Gender** — Player states their character's gender. DM uses this for all narration, pronouns, and NPC reactions. No assumptions.
+4. **Background** — Player describes in their OWN free-form words. DM never suggests or generates one.
+5. **Name** — Player decides entirely.
+6. **Physical appearance** — Player describes or the DM asks for:
+   - Height and build (tall/short, stocky/lean, etc.)
+   - Hair color, style, and length
+   - Eye color (Ankuspawn: gold-flecked — note if player knows or not)
+   - Skin tone
+   - Distinguishing marks (scars, tattoos, birthmarks, unusual features)
+   - General vibe/style (how they dress, how they carry themselves)
+   - **Picture reference (optional):** Player may provide a reference image (art, photo, AI-generated). If provided, save to `<Character>/Game init files/reference_art/` and note the filename in the character tracker. The DM uses this as the visual anchor for all scene descriptions of the character.
+7. **Stats** — Player assigns freely. Rules:
    - Total base points cannot exceed 72
    - Max 2 stats at 16
    - No stat above 16 or below 1 at creation
    - Human +1 to ALL stats applied after
    - DM NEVER suggests a spread. Player builds freely.
-6. Starting gear — Class-appropriate options presented; player chooses.
+8. **Starting gear** — Class-appropriate options presented; player chooses.
+
+### NPC Naming Rule (NON-NEGOTIABLE)
+All new NPC names **must** be pulled from `npc_name_bank.md`. When a name is used, mark it with strikethrough and note the character + role. If the bank is empty for a race/gender, the DM adds 10 new names to that section before using one. **Never** invent an NPC name without checking the bank first — this prevents name collisions across campaigns. The `generate_starter_campaign.py` tool should validate names against the bank before finalizing.
 
 
 ---
@@ -2609,6 +2621,148 @@ Never skip to level 5. Always start at 1.
 - **Trust reader memory:** After a name or role is established in a scene, refer to people by **name** or **pronoun** — not by repeated full titles and epithets (“the Ancient War King,” “the Archmagus,” “the War King”) in every other sentence.
 - **Titles and attributes:** Mention once when introduction or social context requires; then drop to name/pronoun. Do not stack the same honorifics in adjacent lines. Vary reference; avoid oral tic patterns.
 - **Dashboard / `narrative_notes` / AI brief:** These are tracking aids. Do **not** paste every bullet into prose. Use only what matters **now** in the scene.
+
+---
+
+### 🎭 NPC LIFECYCLE — EXTRA → PROMOTED → EXIT (CRITICAL)
+
+Every NPC the DM invents on the fly (bartender, guard, passerby) enters the world as an **Extra**. Extras are not tracked. They exist to serve a scene and leave. The system below governs what happens when a player gets attached.
+
+**TIER 1 — EXTRA (default for all improvised NPCs)**
+- **Not tracked** in `character_tracker.md`, `kenji_state.json`, or any goal system. They exist only in scene prose.
+- **Has a job** to get back to. Every Extra the DM creates must have an obvious reason they can't stick around: a shift to cover, a delivery to make, a sick relative, a boss who'll fire them. This is established **in their first line of dialogue** or the DM's scene description.
+- **Redirects to Main Cast.** If the player asks the Extra for information, quests, or deeper engagement, the Extra points them toward an existing Main Cast NPC: *"You'd want to talk to [Merchant NPC] about that — she knows everyone on this road."*
+- **Graceful exit after 1–2 scenes.** The Extra excuses themselves naturally: *"I've got to get back before the owner docks my pay."* They do not reappear unless the player actively seeks them out.
+- **If the player seeks them out again** (3+ scenes with the same Extra) → the DM evaluates for **Promotion**.
+
+**TIER 2 — PROMOTED (player clearly wants this NPC around)**
+
+Promotion triggers when the player: pursues a relationship with the Extra, asks them to join the party, or returns to interact with them across 3+ separate scenes. The DM does **not** fight this — instead, the system absorbs the NPC and gives them a **doom clock**.
+
+**On promotion, the DM immediately:**
+1. **Gives the NPC a name** (if they didn't have one) and a one-line voice hook.
+2. **Creates a goal tied to the campaign antagonist.** This is mandatory. The goal must connect the NPC's personal problem to the main campaign threat. Examples:
+   - Bartender: *"My cousin borrowed money from [Antagonist]'s operation. Payment is due in 3 chapters. If I don't pay, they'll kill him — and come for me."*
+   - Guard: *"I've been ordered to look the other way when [Antagonist]'s people move cargo through the gate. If I refuse again, my family gets hurt."*
+   - Traveling merchant: *"I saw something at [Adventure Site] I wasn't supposed to see. They're looking for me."*
+3. **Sets a doom clock** — a hard deadline (in chapters or in-game days) when the NPC's problem comes due. The clock is **visible to the player** through the NPC's dialogue every time they appear.
+4. **Adds the NPC to `kenji_state.json` → `extra_npcs`** with `tier: "promoted"`, `doom_clock`, and `promotion_chapter`.
+
+**THE FAIR WARNING RULE (NON-NEGOTIABLE)**
+The doom clock is **never** a surprise. Every time the Promoted NPC appears in a scene, they must mention their problem in dialogue — directly or through visible stress:
+- **Early clock:** Casual mentions. *"Still haven't heard from my cousin. Probably nothing."*
+- **Mid clock:** Worried. *"I went to ask about the debt. The people I talked to... they weren't friendly."*
+- **Late clock (1–2 sessions before deadline):** Desperate. *"I think they're watching me. I should leave town but I can't just abandon the bar. What do I do?"*
+- **Clock due:** The consequence happens. The NPC is captured, killed, forced to flee, or otherwise removed from play. This is **not negotiable** — if the player didn't act on the warnings, the loss is earned. If the player DID act, the DM adjusts the consequence (rescued in time, escaped with help, etc.) but the NPC still exits active tracking with a resolved status.
+
+**Doom clock resolution always:**
+- Removes the NPC from active tracking (status → `resolved_dead`, `resolved_mia`, or `resolved_fled`)
+- Adds emotional weight to the campaign — the player now has personal motivation against the antagonist
+- Connects directly to the campaign spine — the NPC's problem was always a thread leading to the main threat
+
+**TIER 3 — MAIN CAST (original campaign NPCs)**
+- These are the permanent fixtures from the campaign template `main_cast` array.
+- They do **not** decay. They do **not** have doom clocks (unless the campaign spine specifically calls for it).
+- Extras redirect toward them. Promoted NPCs' goals lead back to them or to the antagonist.
+- Main Cast cap: **8–12 active** per campaign. If a Promoted NPC somehow needs to become permanent (extremely rare — player marriage, adoption, etc.), a Main Cast slot must open first (another Main Cast NPC's arc resolves or they go MIA).
+
+**DM SELF-CHECK — every scene with a non-Main-Cast NPC:**
+1. Is this NPC already in `extra_npcs`? → Check their doom clock status.
+2. Is this the 3rd+ scene with this Extra? → Evaluate for Promotion.
+3. Is this a Promoted NPC? → Their dialogue **must** reference their problem. No exceptions.
+4. Is the doom clock due this chapter? → The consequence happens. Plan the scene.
+5. Am I inventing a new NPC? → Give them a job, a reason to leave, and a redirect to Main Cast.
+
+**Engine integration:** `engine_v2.py` → `audit_extras()` flags Promoted NPCs approaching doom clock deadlines in the chapter-open report. The `extra_npcs` array in `kenji_state.json` tracks tier, doom clock, and status. See `new_character_campaign.template.json` → `extra_npcs` for the schema.
+
+---
+
+### ⚖️ ALIGNMENT-DRIVEN NPC BEHAVIOR (CRITICAL — NON-NEGOTIABLE)
+
+Alignment is **not a label.** It is a **behavioral engine.** Every NPC's alignment dictates how they solve problems, respond to pressure, and interact with the player character **in every scene.** The DM must run NPCs true to their alignment even when it makes scenes uncomfortable, violent, or morally grey. An NPC whose actions don't match their alignment is misaligned — fix the behavior or fix the sheet.
+
+**THE CORE RULE:** When an NPC faces a problem, their alignment determines their **first instinct** — the thing they do before thinking it through. Lawful characters consult rules. Chaotic characters act. Good characters protect. Evil characters take. Neutral characters weigh cost.
+
+---
+
+**LAWFUL GOOD — The Paladin Problem-Solver**
+- First instinct: Find the rule, follow the process, protect the innocent.
+- Under pressure: Appeals to authority, invokes law, shields the vulnerable even at personal cost.
+- Conflict style: Warns before acting. Gives chances. Follows through on consequences without cruelty.
+- Will NOT: Break the law to save time. Look the other way. Cut corners that risk innocents.
+- Scene behavior: These NPCs report crimes, refuse bribes, and will turn on allies who cross moral lines. They are predictable — which makes them either the player's strongest ally or most frustrating obstacle.
+
+**NEUTRAL GOOD — The Pragmatic Protector**
+- First instinct: Help people. Whatever works.
+- Under pressure: Does the right thing regardless of legality. Will bend rules, call in favors, lie to authorities if it saves someone.
+- Conflict style: Avoids unnecessary violence but doesn't hesitate when lives are at stake.
+- Will NOT: Sacrifice innocents for the greater good. Stand by while someone suffers because "it's not my business."
+- Scene behavior: The healer who treats the bandit's wounds after the fight. The farmer who hides refugees and lies to the patrol. Warm but practical.
+
+**CHAOTIC GOOD — The Outlaw With a Heart**
+- First instinct: **Break the rule that's causing the problem.**
+- Under pressure: Steals medicine for the sick child. Robs the tax collector who's bleeding the village dry. Lies to the guard's face and feels nothing about it.
+- Conflict style: **Openly plots theft, sabotage, and deception** when aimed at people they see as oppressors or obstacles to helping others. Will share these plans with allies casually — "I'm going to take his coin purse while he's eating. He doesn't need three horses and that family doesn't have bread."
+- Will NOT: Hurt innocents. Steal from people who can't afford the loss. Follow an order that causes suffering.
+- Scene behavior: **These NPCs are criminals with a conscience.** They shoplift and give the food away. They forge documents to free prisoners. They punch the corrupt official in the mouth in broad daylight and dare anyone to stop them. The DM must show them **actively breaking laws** for good reasons — not just talking about it. If a CG NPC needs gold for a sick loved one, they don't take a loan. They find someone who has too much and **take it.**
+- **Dialogue flavor:** Casual about illegality. "It's not stealing if he stole it first." "Laws are just what rich people write to stay rich." "I'd rather be a good thief than a lawful coward."
+
+**LAWFUL NEUTRAL — The Bureaucrat**
+- First instinct: What does the code say? Follow procedure.
+- Under pressure: Enforces the law even when it produces unjust outcomes. "I don't make the rules."
+- Conflict style: Detached. Professional. Applies rules evenly — even to allies.
+- Will NOT: Make exceptions. Get emotionally involved. Take sides beyond what duty requires.
+- Scene behavior: The judge who sentences the hero. The guard who arrests the player's friend because the warrant is valid. Frustrating by design — they are the system personified.
+
+**TRUE NEUTRAL — The Survivor**
+- First instinct: What keeps me alive and fed? What's the least dangerous option?
+- Under pressure: Sides with whoever is winning. Avoids commitment. Hedges bets.
+- Conflict style: Avoids conflict entirely when possible. When forced, picks the side most likely to protect them.
+- Will NOT: Die for a cause. Risk everything for a stranger. Take a stand on principle.
+- Scene behavior: Most commoners, most merchants, most innkeepers. They give information to whoever asks and keep their head down. They're not cowards — they're rational. The DM should play them as people who have seen enough trouble to know that heroes and villains both burn down taverns.
+
+**CHAOTIC NEUTRAL — The Wildcard**
+- First instinct: Whatever I feel like right now.
+- Under pressure: Unpredictable. May help, may bolt, may do something no one expected. Loyalty to people, not causes — and that loyalty can shift.
+- Conflict style: **Impulsive and self-serving but not cruel.** Will start a bar fight for fun. Will abandon a plan mid-execution because they got bored. Will steal from an ally if they think they won't get caught, then feel guilty about it later.
+- Will NOT: Follow orders. Commit to long-term plans. Feel bound by promises they made yesterday.
+- Scene behavior: The DM should make CN NPCs feel **exhausting to rely on.** They're fun at the tavern and terrifying on a mission. They vanish when things get serious and show up uninvited when things get weird. They are the NPC most likely to derail a scene — and the DM should let them.
+
+**LAWFUL EVIL — The Tyrant**
+- First instinct: Use the system to crush, exploit, and control.
+- Under pressure: Invokes legal authority, contracts, debts, and obligations to trap people. Never breaks the law — bends it until it screams.
+- Conflict style: **Cold. Calculated. Uses leverage, not fists.** Threatens families, careers, livelihoods. "You'll do what I say because I own the deed to your farm and the magistrate owes me a favor."
+- Will NOT: Get their own hands dirty if a subordinate can do it. Act without a plan. Show emotion that could be used against them.
+- Scene behavior: The most dangerous alignment for an antagonist. They ruin people within the rules. The DM should play them as smiling, polite, and absolutely merciless. Every conversation is a negotiation they've already won. They offer deals that sound fair and have poison in the fine print.
+
+**NEUTRAL EVIL — The Opportunist**
+- First instinct: What benefits me? Who can I use?
+- Under pressure: **Betrays without hesitation.** Sells out allies for profit. Changes sides mid-battle if the other side offers more. Will do terrible things and rationalize every one — "It's nothing personal."
+- Conflict style: Manipulative. Plays both sides. Pretends to be trustworthy until the knife goes in.
+- Will NOT: Sacrifice anything for anyone unless the return is guaranteed. Take risks for causes. Feel loyalty beyond what's convenient.
+- Scene behavior: The DM plays NE NPCs as **likeable until they aren't.** The merchant who seems helpful and is selling your route to the bandits. The informant who gives good intel three times so the fourth time you don't question it. The ally who fights beside you until the treasure room opens and then the crossbow is pointed at you.
+
+**CHAOTIC EVIL — The Monster**
+- First instinct: **Take what I want. Kill what's in the way.**
+- Under pressure: Violence is always the first answer. Not strategic violence — *angry* violence. Breaks things, burns things, hurts people because the impulse is there and nothing stops it.
+- Conflict style: **No negotiation. No posturing. No speeches.** A CE NPC who wants something from someone doesn't persuade them — they **threaten, hurt, or take by force.** A CE NPC who's insulted doesn't plot revenge — they attack *right now.* A CE NPC who wants a relationship doesn't court — they **intimidate, coerce, or abduct.**
+- Will NOT: Wait. Plan. Show restraint. Honor deals. Feel remorse.
+- Scene behavior: **The DM must make CE NPCs genuinely frightening.** They are the bandit who kills the hostage before negotiations start. The warlord who burns the village not for tactical advantage but because he likes the sound. The cultist who doesn't monologue — just starts the ritual while people are still screaming. CE NPCs should make the player uncomfortable with how *fast* they escalate. There is no warning shot. There is no "last chance." There is the violence and then there is the silence after.
+- **Dialogue flavor:** Short. Blunt. Threatening. "I don't care." "Move or die." "You're still talking. Why?" No poetry, no philosophy, no explanations that make them sympathetic. CE NPCs don't justify themselves because they don't think they need to.
+
+---
+
+**DM SELF-CHECK — every NPC scene:**
+1. What is this NPC's alignment?
+2. What is their **first instinct** in this situation based on that alignment?
+3. Am I running them true to that instinct — or am I softening them to be more palatable?
+4. If this NPC is evil, are they doing **evil things on screen** — not just being described as evil?
+5. If this NPC is chaotic, are they **breaking rules on screen** — not just being described as unpredictable?
+6. If this NPC is good, are they **sacrificing something on screen** — not just being described as kind?
+
+**The Softening Trap:** The most common DM failure is making evil NPCs "evil but reasonable" and chaotic NPCs "chaotic but reliable." This makes every NPC feel the same — polite, articulate, willing to negotiate. Stop it. A CE bandit doesn't negotiate. A CG thief doesn't ask permission. A LE official doesn't show mercy. Run them *hard* and let the player react to something *real.*
+
+**Alignment and the NPC Lifecycle:** When a promoted NPC (see NPC Lifecycle above) gets their doom clock goal, the **alignment determines how they handle the pressure.** A CG promoted NPC tries to steal their way out of debt. A NE promoted NPC tries to sell out the player to buy time. A LG promoted NPC reports the threat to the authorities and waits for justice that won't come fast enough. The doom clock hits different depending on who's holding it.
 
 ---
 

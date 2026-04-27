@@ -614,6 +614,15 @@ def generate_chapter_open_report(self, current_chapter: int = None,
             lines.append(f"  {ev}")
         lines.append("")
 
+    # NPC Lifecycle — Extra/Promoted audit
+    extras_audit = self.audit_extras(chapter)
+    if extras_audit["summary_lines"]:
+        lines.append("--- NPC LIFECYCLE (Extras & Promoted) ---")
+        lines.append(f"Active promoted NPCs: {extras_audit['promoted_active']}")
+        for el in extras_audit["summary_lines"]:
+            lines.append(el)
+        lines.append("")
+
     history = self.extra_json.get("exp_history", [])
     if history:
         last = history[-1]
@@ -636,6 +645,107 @@ def generate_chapter_open_report(self, current_chapter: int = None,
 
 
 # ============================================================
+# NPC LIFECYCLE — EXTRA / PROMOTED / EXIT
+# ============================================================
+
+def audit_extras(self, current_chapter: int = None) -> dict:
+    """Audit the extra_npcs array for doom clock warnings and promotion candidates.
+
+    Returns dict with keys:
+        promoted_due: list of promoted NPCs whose doom clock is due this chapter
+        promoted_approaching: list of promoted NPCs approaching deadline
+        overstayed_extras: list of extras that have appeared 3+ chapters without promotion
+        promoted_active: count of currently active promoted NPCs
+        summary_lines: list of formatted strings for the chapter-open report
+    """
+    chapter = current_chapter or self.extra_json.get("current_chapter", 0)
+    extras = self.extra_json.get("extra_npcs", [])
+
+    promoted_due = []
+    promoted_approaching = []
+    overstayed = []
+    active_promoted = 0
+    lines = []
+
+    for npc in extras:
+        status = npc.get("status", "active")
+        if status != "active":
+            continue
+
+        tier = npc.get("tier", "extra")
+        name = npc.get("name", "[unnamed]")
+        intro_ch = npc.get("introduced_chapter", 0)
+
+        if tier == "promoted":
+            active_promoted += 1
+            doom = npc.get("doom_clock", {})
+            deadline = doom.get("deadline_chapter")
+            if deadline is None:
+                lines.append(f"[!] PROMOTED NPC '{name}' has NO doom clock deadline — fix immediately")
+                continue
+
+            remaining = deadline - chapter
+            warning_stage = doom.get("warning_stage", "early")
+
+            if remaining <= 0:
+                promoted_due.append({
+                    "name": name,
+                    "goal": doom.get("goal", ""),
+                    "deadline_chapter": deadline,
+                    "overdue_by": abs(remaining),
+                })
+                # Auto-update warning stage
+                doom["warning_stage"] = "due"
+                lines.append(
+                    f"[!!!] DOOM CLOCK DUE: '{name}' — {doom.get('goal', '?')[:80]}. "
+                    f"Consequence MUST happen this chapter. NPC exits tracking."
+                )
+            elif remaining <= 2:
+                promoted_approaching.append({
+                    "name": name,
+                    "goal": doom.get("goal", ""),
+                    "deadline_chapter": deadline,
+                    "chapters_remaining": remaining,
+                })
+                # Auto-advance warning stage
+                if warning_stage in ("early", "mid"):
+                    doom["warning_stage"] = "late"
+                lines.append(
+                    f"[!!] DOOM CLOCK LATE: '{name}' — {remaining} chapter(s) left. "
+                    f"Dialogue MUST show desperation. Goal: {doom.get('goal', '?')[:60]}"
+                )
+            elif remaining <= 5:
+                if warning_stage == "early":
+                    doom["warning_stage"] = "mid"
+                lines.append(
+                    f"[~] DOOM CLOCK MID: '{name}' — {remaining} chapters left. "
+                    f"Dialogue should show worry."
+                )
+
+        elif tier == "extra":
+            # Check for overstayed extras (3+ chapters since introduction)
+            chapters_present = chapter - intro_ch if intro_ch > 0 else 0
+            if chapters_present >= 3:
+                overstayed.append({
+                    "name": name,
+                    "introduced_chapter": intro_ch,
+                    "chapters_present": chapters_present,
+                })
+                lines.append(
+                    f"[?] EXTRA '{name}' has been around {chapters_present} chapters. "
+                    f"PROMOTE (add doom clock) or FADE (remove from scenes)."
+                )
+
+    return {
+        "promoted_due": promoted_due,
+        "promoted_approaching": promoted_approaching,
+        "overstayed_extras": overstayed,
+        "promoted_active": active_promoted,
+        "summary_lines": lines,
+    }
+
+
+# ============================================================
 # PATCH StoryEngine — attach all v2.0 methods
 # ============================================================
 
@@ -648,6 +758,7 @@ StoryEngine.update_exp = update_exp
 StoryEngine.validate_economy = validate_economy
 StoryEngine.apply_campaign_rules = apply_campaign_rules
 StoryEngine.generate_chapter_open_report = generate_chapter_open_report
+StoryEngine.audit_extras = audit_extras
 StoryEngine.PRICE_TABLE = PRICE_TABLE
 
 
@@ -782,6 +893,57 @@ def _run_v2_tests():
     print("    ...")
     for line in lines[-5:]:
         print(f"    {line}")
+    print("  PASS")
+    print()
+
+    # Test 9: NPC Lifecycle — audit_extras
+    print("=== TEST 9: NPC Lifecycle (audit_extras) ===")
+    # Inject test extra_npcs data
+    old_extras = eng.extra_json.get("extra_npcs", [])
+    eng.extra_json["extra_npcs"] = [
+        {
+            "name": "Greta the Bartender",
+            "tier": "promoted",
+            "introduced_chapter": 38,
+            "promotion_chapter": 40,
+            "status": "active",
+            "doom_clock": {
+                "goal": "Owes money to the antagonist's lieutenant",
+                "deadline_chapter": 43,
+                "warning_stage": "mid",
+            },
+        },
+        {
+            "name": "Old Tom",
+            "tier": "extra",
+            "introduced_chapter": 39,
+            "status": "active",
+            "doom_clock": {},
+        },
+        {
+            "name": "Resolved Merchant",
+            "tier": "promoted",
+            "introduced_chapter": 35,
+            "promotion_chapter": 37,
+            "status": "resolved_dead",
+            "doom_clock": {"goal": "Was caught", "deadline_chapter": 41},
+        },
+    ]
+    ea = eng.audit_extras(current_chapter=43)
+    assert len(ea["promoted_due"]) == 1, f"Expected 1 due, got {len(ea['promoted_due'])}"
+    assert ea["promoted_due"][0]["name"] == "Greta the Bartender"
+    assert ea["promoted_active"] == 1  # only Greta is active promoted (Resolved Merchant is dead)
+    assert len(ea["overstayed_extras"]) == 1, f"Expected 1 overstayed, got {len(ea['overstayed_extras'])}"
+    assert ea["overstayed_extras"][0]["name"] == "Old Tom"
+    assert len(ea["summary_lines"]) >= 2
+    print(f"  Promoted due: {[n['name'] for n in ea['promoted_due']]}")
+    print(f"  Overstayed extras: {[n['name'] for n in ea['overstayed_extras']]}")
+    print(f"  Active promoted count: {ea['promoted_active']}")
+    print(f"  Summary lines: {len(ea['summary_lines'])}")
+    for sl in ea["summary_lines"]:
+        print(f"    {sl}")
+    # Restore
+    eng.extra_json["extra_npcs"] = old_extras
     print("  PASS")
     print()
 

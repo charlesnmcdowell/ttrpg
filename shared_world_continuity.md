@@ -109,7 +109,7 @@ From the kingdom’s **core** (heartland / Varenholm cluster), describe other pl
 - **The Sunderplains** — **west** / **northwest**, open **steppe** beyond Thornwall. Orc territory integrated into kingdom. 30+ tribes serve as licensed mercenary corps. Warchief Gorath recognized as regional authority under Ankunyx.
 - **Dragonspine Mountains** — **far** **north**. Ancient dragon territory. Dragon treaty established (Book 4). Hunting dragons is a capital offense under kingdom law. AnkuNyx recognized by the dragonflights. Seven flights still rule the peaks.
 
-**New regions:** When you add a location, give **two** **lines**: where it lies **relative to the world’s “middle”** (girdle / heartland), and where it lies **relative to the Crown realm** (inside the kingdom, on a border, or beyond usual law). Add the place name to **`realm_lore_registry.json`** and, if you like, a **single sentence** under this section.
+**New regions:** Every new character adds **3 locations** to the world map (home base, adventure site, discovery location — see `universe_campaign_framework.md` § 2). For each, give **two lines**: where it lies **relative to the world’s “middle”** (girdle / heartland), and where it lies **relative to the Crown realm** (inside the kingdom, on a border, or beyond usual law). Add all three place names to **`realm_lore_registry.json`** and a **single sentence** each under this section. The world grows with every character created.
 
 ### In-world calendar (optional)
 

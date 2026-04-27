@@ -19,18 +19,68 @@ Every **new PC** belongs to the **same combined realm** as Amaris and Kenji. Bot
 
 ---
 
-## 2. Character creation → what gets generated
+## 2. Character creation → starter campaign generation
 
-When you create a new character, **define or generate** (yourself, AI, or a tool later):
+Every new character gets a **complete starter campaign** (levels 1–10) generated from their background. This is not optional flavor text — it is the system that turns a character sheet into a playable world. The starter campaign is designed to introduce the player to the existing world lore through the lens of their character’s unique perspective, while permanently expanding the game world with new content.
 
-1. **Personal background** — ties, wounds, goals; must not require being the Chosen One of Amaris’s or Kenji’s plot unless you want that crossover.
-2. **A new anchor on the map** — named place (village, quarter, monastery, ship route, etc.) with **terrain, tone, and distance** from known regions (e.g. weeks from Varenholm, or “eastern frontier past Thornfield”). Prefer a **word map**: two lines in **`new_region`** — **from_worlds_middle** (vs “girdle” / heartland) and **from_crown_realm** (vs the largest kingdom); see **`shared_world_continuity.md`** § *Description map (words)*.
-3. **Main cast** — 3–8 named NPCs with roles (ally, foil, merchant, priest, rival) and **one-line voices**.
-4. **Quest spine** — inciting incident → midpoint twist → crisis → resolution; enough for dialogue and scene prompts.
-5. **Dialogue & scene hooks** — short lines or bullet beats for intros, rumors, and confrontations (can live in the state file or a sidecar `campaign_dialogue.md`).
+### What the player provides
 
-Copy `templates/new_character_campaign.template.json` to  
-`<NewPC>/Game init files/character_world_state.json` and fill it as you play.
+The player defines **three things** at character creation:
+
+1. **Background** — race, class concept, where they grew up, who they lost, what shaped them. Does not need to connect to Amaris or Kenji unless the player wants that crossover.
+2. **Personal goal** — one sentence describing what the character wants most. This becomes the campaign’s central objective. Examples: “Open a school for war orphans,” “Find my father’s killer,” “Earn a title and land,” “Cure the plague in my village,” “Become the greatest smith in the kingdom.”
+3. **Starting region preference** — frontier, heartland, coast, mountains, underground, or “surprise me.” This guides where the 3 new locations are placed on the map.
+
+### What gets generated (the starter campaign package)
+
+From those three inputs, the DM (or AI) generates a full **Starter Campaign Package** containing:
+
+**A. Three new locations** that expand the world map permanently:
+
+- **Home base** — where the character begins. A settlement, holdfast, ship, or camp tied directly to the character’s background. This is their anchor. It has NPCs they know, a place to sleep, and a reason to defend it.
+- **Adventure site** — a dangerous location within 1–3 days’ travel of home base. A ruin, dungeon, corrupted forest, bandit fortress, cursed mine, etc. This is where the campaign’s main threat operates. The character must go here to confront the antagonist.
+- **Discovery location** — a hidden or unknown place that the character uncovers during the campaign. It connects to existing world lore — an old outpost from the Iron Crown War, a forgotten construct portal, a Pallid March burial ground, an Ankuspawn settlement, a pre-kingdom ruin. This location is how the starter campaign introduces the player to the broader world history without dumping exposition.
+
+All three locations are added to `realm_lore_registry.json` and `shared_world_continuity.md` at campaign creation. They persist forever. Future characters can visit them, find them changed, or discover what happened there.
+
+**B. A main antagonist** (levels 5–8) designed around the character’s background:
+
+The antagonist is the force that threatens the character’s personal goal. They are not a world-ending threat — they are a regional menace scaled for levels 1–10. The antagonist’s motivation should mirror or invert the character’s goal, creating personal stakes.
+
+- If the character wants to build something (school, farm, business) → the antagonist wants to destroy or corrupt that thing
+- If the character wants to find someone → the antagonist is hiding them, or hunting the same person
+- If the character wants recognition → the antagonist is a rival claiming the same prize
+- If the character wants to cure/heal → the antagonist is the source of the affliction, or profits from it
+
+The antagonist operates from the adventure site and has 3–5 lieutenants or minions that create encounters across all three locations. When the antagonist is defeated, their threat ends — but the consequences of their actions may ripple into future campaigns.
+
+**C. The personal goal as campaign spine:**
+
+The character’s stated goal is achievable by level 8–10. The campaign is structured so the character **gets what they want early** (by level 5–6) and then **must defend it** from the main antagonist for the remainder. This creates emotional investment: you have the thing, now fight to keep it.
+
+- **Levels 1–3:** Arrive at home base. Meet the cast. Discover the goal is within reach but something stands in the way (the antagonist’s influence, a local problem, a missing resource).
+- **Levels 4–6:** Pursue and achieve the goal. The character gets what they wanted — the school opens, the killer is found, the land is granted, the cure works. But achieving it draws the antagonist’s attention.
+- **Levels 7–9:** The antagonist strikes back. The thing the character built or found is under direct threat. The adventure site becomes the focus. The character must go on the offensive.
+- **Level 10:** Confrontation at the adventure site. The antagonist is defeated. The character’s goal is secured permanently. The discovery location reveals its connection to the wider world — a hook toward regional or continental campaigns if the player continues.
+
+**D. Main cast** — 5–8 named NPCs spread across the three locations:
+
+- 2–3 at home base (ally, merchant, mentor — people the character cares about)
+- 1–2 at the adventure site (captive, informant, or neutral party caught in the antagonist’s web)
+- 1–2 connected to the discovery location (old guard, hermit, or someone who remembers the world before the kingdom)
+- The antagonist + 1 lieutenant
+
+Each NPC has a role, a want, and a one-line voice hook. At least one NPC should have a plausible connection to existing world lore (knew a companion of Kenji’s, served in the coalition, heard rumors about the Academy, trades in construct-made goods, etc.). This NPC is the **lore bridge** — through them, the player learns about the world naturally.
+
+**E. Inherited lore integration:**
+
+The starter campaign is set in the Kingdom of Ankunyx, 25 years after Book 4. The three new locations exist within that world. The campaign must specify what the character plausibly knows about the kingdom (see § 3 below) and plant at least one **lore seed** — a detail, rumor, or encounter that connects to an existing unresolved thread (the Anku Conspiracy, a missing Ankuspawn, a malfunctioning construct portal, an old companion’s legacy). The lore seed does not need to be followed — it is there for the player who wants to dig deeper after the starter campaign ends.
+
+### After the starter campaign (level 10+)
+
+At level 10, the character has a secured home base, a defeated antagonist, three locations on the map, and a lore seed pointing toward bigger things. From here they can enter **regional campaigns** (the default continuation) or pursue whatever thread caught their interest. The starter campaign package becomes permanent world history — snapshot to `character_world_state.json`, update the registry, and the next new character inherits it all.
+
+Copy `templates/new_character_campaign.template.json` to `<NewPC>/Game init files/character_world_state.json` and fill it as you play.
 
 ---
 
@@ -136,9 +186,25 @@ TTRPG/
 
 ---
 
-## 6. Automation later
+## 6. Automation — starter campaign generation
 
-If you add scripts or an LLM workflow for “roll a new region,” keep the **same fields** as the template JSON so generated content drops into `character_world_state.json` without rework.
+The starter campaign system (§ 2) is designed for AI generation. The workflow:
+
+1. Player provides **three inputs**: background, personal goal, starting region preference.
+2. AI reads `shared_world_continuity.md`, `realm_lore_registry.json`, and `ankuspawn_race.md` for existing world state.
+3. AI generates a complete **Starter Campaign Package** by filling `templates/new_character_campaign.template.json` — all three locations, the antagonist, the 4-phase campaign spine, the NPC cast, dialogue hooks, and the lore seed.
+4. AI registers all three new locations in `realm_lore_registry.json` and adds one-line entries to `shared_world_continuity.md`.
+5. The filled template becomes `<NewPC>/Game init files/character_world_state.json` — ready to play.
+
+**Generation rules for AI:**
+
+- The three locations must be geographically plausible relative to existing map anchors. Check `shared_world_continuity.md` § Description map and `realm_lore_registry.json` for what's already placed.
+- The antagonist must be beatable by a level 10 character. No world-ending threats, no ties to the Anku Conspiracy (that's kingdom-spanning, not starter-tier), no involvement of AnkuNyx or his companions as antagonists.
+- The lore seed should reference something real from existing lore — a named location, a known NPC's legacy, a faction's remnant, a construct portal, an Ankuspawn community. It must be accurate to established canon.
+- NPC names must be checked against `npc_name_bank.md` (if available for that campaign) to avoid collisions with existing characters.
+- The discovery location must genuinely teach the player something about the world they wouldn't learn from their home base alone. It is the starter campaign's educational payload — the thing that makes the player care about the broader setting.
+
+If you add scripts or a CLI workflow for this, keep the **same fields** as the template JSON so generated content drops into `character_world_state.json` without rework.
 
 ---
 
@@ -159,6 +225,7 @@ If you add scripts or an LLM workflow for “roll a new region,” keep the **sa
 ### Changelog
 
 - **2026-04-26** — Book 5 era established. Both Amaris and Kenji campaigns marked COMPLETE. 25-year timeskip applied. Kingdom of Ankunyx is the new continental authority. Ankuspawn race created (`ankuspawn_race.md`). New PCs awaken in a world where all prior events are established history.
+- **2026-04-26** — Starter campaign generation system added (§ 2). Every new character now gets a full levels 1–10 campaign package: 3 new locations (home base, adventure site, discovery location), a scaled antagonist, a goal-driven 4-phase campaign spine, and a lore seed connecting to the broader world. Template updated (`templates/new_character_campaign.template.json`). § 6 updated with AI generation rules.
 
 ---
 

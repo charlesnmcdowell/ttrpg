@@ -42,6 +42,7 @@ Female Ankuspawn inherit a concentrated version of their father's supernatural m
 | **Half-Orc** | +1 Strength or Constitution (choose one). Slightly more muscular build. May inherit high fertility trait (1/5 chance per encounter vs human 1/20). Grow at human rate, NOT half-orc double rate. |
 | **Elf** | +1 Charisma or Wisdom (choose one). Slightly pointed ears (subtle). May inherit limited darkvision (30 ft vs full elven 60 ft). Age at human rate, NOT elven rate. |
 | **Dwarf** | +1 Constitution. Stockier build but human height. May inherit poison resistance (advantage on saves vs poison). Age at human rate, NOT dwarven rate. |
+| **Halfling** | +1 Dexterity or Charisma (choose one). Between halfling and human height (~4'8"–5'2") — tall for a halfling, short for a human. May inherit Halfling Luck (reroll natural 1s on attack/ability/save, once per roll). Naturally light-footed and nimble. The combination of halfling grace and Ankuspawn beauty makes them **disarmingly charming** — people underestimate them constantly. |
 | **Dragon** | +1 to any ability score. Faint scale-like markings somewhere on body (subtle, can be hidden). Resistance to one damage type matching mother's color (fire for red/gold, lightning for blue/bronze, acid for black/copper, cold for white/silver, poison for green). These are the rarest and most visually distinctive Ankuspawn. |
 
 ---
@@ -73,6 +74,93 @@ Ankuspawn are scattered across the Kingdom of Ankunyx and potentially beyond its
 - **In the Kingdom:** Ankuspawn have no special legal status. They are not royalty, not heirs, not recognized by the throne unless AnkuNyx personally acknowledges them (which he almost never does). They are citizens like anyone else.
 - **Public perception:** Most people don't know Ankuspawn exist as a category. Those who do might view them with curiosity, suspicion, or reverence depending on local culture.
 - **Among themselves:** Ankuspawn who discover their heritage may seek out others — or may want nothing to do with it. There is no organized Ankuspawn faction, guild, or community. Yet.
+
+---
+
+## Ember Inheritance — Unique Abilities (DM + Engine)
+
+Every Ankuspawn carries a **unique Ember spark** — a fragment of their father's sentient flame that manifests as a set of abilities tied to a single **theme**. The theme is not chosen by the player. It is determined by who the character IS — their class, their deepest goal, and their nature. The Ember reads the soul and shapes itself to amplify what the person was already becoming.
+
+### Awakening
+
+- **Age 18 exactly.** The Ember activates on the Ankuspawn's 18th birthday. Before this, the character has no supernatural abilities — just the passive traits (resilience, soul echo, gold eyes).
+- **The awakening is involuntary and dramatic.** It happens whether the character wants it or not. A burst of power, a surge of heat, an involuntary display — and then it's there, part of them, forever.
+- **The character does NOT choose what the Ember does.** They discover it. They might not understand it immediately. It reveals itself through use over the first weeks/months.
+
+### Theme Generation (DM/Engine Algorithm)
+
+The Ember's theme is derived from two inputs at character creation:
+
+1. **Class concept** — what the character trains to be (warrior, bard, healer, rogue, etc.)
+2. **Personal goal** — what the character wants most in the world
+
+The algorithm maps these to one of the following **Ember themes**:
+
+| Theme | Trigger Keywords (class/goal) | What It Enhances |
+|-------|-------------------------------|------------------|
+| **Resonance** | Bard, dancer, performer, singer, musician, charm, fame, inspire | Voice, sound, emotional projection, crowd control, performance magic |
+| **Aegis** | Paladin, guardian, protector, shield, defend, save, shelter | Defensive auras, damage absorption, warding, threat interception |
+| **Edge** | Fighter, warrior, blade, weapon, combat, martial, conquer, strength | Weapon mastery, combat instinct, physical augmentation, battle sense |
+| **Veil** | Rogue, assassin, thief, stealth, shadow, spy, escape, survive | Invisibility, misdirection, sensory suppression, evasion |
+| **Crucible** | Smith, crafter, builder, forge, construct, create, make, engineer | Material shaping, enchanting through touch, structural reinforcement |
+| **Verdance** | Druid, ranger, nature, beast, wild, hunt, track, heal, grow | Plant/animal communion, accelerated healing, environmental sense |
+| **Lumen** | Cleric, priest, healer, cure, purify, holy, faith, restore | Radiant energy, purification, anti-undead, wound closure |
+| **Tempest** | Sorcerer, wizard, mage, arcane, power, destroy, elemental, chaos | Raw elemental force, energy manipulation, magical amplification |
+| **Nexus** | Diplomat, leader, commander, unite, alliance, kingdom, rule, inspire | Emotional bonds, loyalty auras, group empowerment, morale |
+
+**Fallback:** If no keywords match, the DM picks the theme that best fits the character's background and personality. The Ember is never random — it always reflects who the person is at their core.
+
+**Mixed signals:** If keywords span two themes (e.g., a warrior-bard), the DM picks the one that aligns with the **personal goal**, not the class. The goal is who they WANT to be. The class is just what they trained in.
+
+### Abilities (3 per Ankuspawn)
+
+Each Ember theme grants exactly **3 abilities** at awakening:
+
+1. **Passive** — Always active. Low-level enhancement that colors everything the character does. Cannot be turned off.
+2. **Active** — Requires conscious activation. Moderate power. Costs stamina/focus to sustain. Usable multiple times per day but not unlimited.
+3. **Surge** — Emergency power. Major effect. Usable once per long rest. Leaves the character drained afterward. This is the "candle from a bonfire" moment — a flash of what their father can do at full power, but it burns the Ankuspawn to channel it.
+
+The specific abilities within a theme are **unique to each Ankuspawn**. Two Resonance-themed Ankuspawn won't have the same three abilities — one might project emotions through song while another shatters glass with a scream. The theme is the constraint; the expression is individual.
+
+### Theme Lock (NON-NEGOTIABLE)
+
+The Ember **refuses to help with anything outside its theme.** This is not a soft guideline — it is a hard mechanical restriction.
+
+- A **Resonance** Ember will not swing a sword harder, pick a lock, or cast a fireball. It enhances performance, sound, emotion, and charm. Period.
+- An **Edge** Ember will not heal wounds, sneak past guards, or read someone's emotions. It enhances combat and weapon mastery. Period.
+- A **Veil** Ember will not tank damage, inspire a crowd, or forge a weapon. It enhances stealth and evasion. Period.
+
+**If a player asks their Ember to do something off-theme, the Ember does nothing.** It's not being stubborn — it literally cannot manifest outside its domain. The flame shaped itself for one purpose. Asking an Edge Ember to heal is like asking a hammer to cook dinner. The tool doesn't understand the request.
+
+**Why this matters narratively:** This forces Ankuspawn to develop mundane skills for everything outside their Ember's domain. A Resonance Ankuspawn who can charm a room with a song still needs to learn to actually fight with a blade, actually pick a lock, actually ride a horse. The Ember makes them exceptional in ONE area and normal in everything else. This is why Ankuspawn who are captured by the Cult of Anku (and have their Ember nullified) still have a chance — they built real skills alongside their gift.
+
+### Growth
+
+The Ember does not gain new themes or break its theme lock. It grows in **depth**, not breadth:
+
+- **Levels 1-5:** Abilities are unreliable. The passive flickers. The active sputters. The surge is terrifying and hard to control. The character is still learning what they can do.
+- **Levels 6-10:** Abilities stabilize. The passive is constant. The active is reliable. The surge is powerful but controlled. The character understands their Ember and works with it.
+- **Levels 11+:** (Post-starter campaign) Abilities deepen. The passive becomes potent. The active gains flexibility within its theme. The surge approaches a fraction of Kenji's power in that specific domain. The character IS their Ember — it's woven into everything they do within the theme.
+
+### Nyx's Harvest — Why Each Ankuspawn Matters
+
+Each Ankuspawn's Ember theme determines what Nyx can extract from them. This is why she captures them alive — dead Ankuspawn lose their Ember spark within hours. The extraction requires a living, conscious subject.
+
+| Ember Theme | What Nyx Extracts | Elixir Product |
+|-------------|-------------------|----------------|
+| Resonance | Emotional resonance essence | Charm elixirs, mass suggestion potions, crowd-control compounds |
+| Aegis | Protective aura fragments | Invulnerability serums, damage-immune coatings, ward stones |
+| Edge | Combat instinct essence | Weapon mastery potions, battle-rage serums, reflex enhancers |
+| Veil | Sensory-void particles | Invisibility elixirs, memory-wipe compounds, detection-proof coatings |
+| Crucible | Material-bonding essence | Enchanting catalysts, indestructible alloy treatments, golem-core fuel |
+| Verdance | Life-force concentrate | Resurrection reagents, fertility elixirs (what Vess wants), aging reversal |
+| Lumen | Radiant essence | Anti-undead weapons, purification reagents, divine-channel fuel |
+| Tempest | Raw magical condensate | Spell amplifiers, mana batteries, elemental weapon coatings |
+| Nexus | Loyalty-bond extract | Domination elixirs, unbreakable oath seals, army-morale compounds |
+
+**The cruel efficiency:** Nyx doesn't need all of them. She needs **specific** ones for specific products. A Verdance Ankuspawn is worth more to her than ten Edge Ankuspawn if she's brewing fertility elixirs. This means certain Ankuspawn are higher-priority targets — and the Cult's scouts profile them by observed abilities before recommending capture.
+
+**Cookie's danger level:** A Resonance Ankuspawn (bard/dancer) produces charm and crowd-control essence. Nyx can already charm people — what she REALLY wants from a Resonance Ankuspawn is the ability to bottle mass emotional manipulation. Cookie is a high-value target.
 
 ---
 
