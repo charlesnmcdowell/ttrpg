@@ -1,7 +1,7 @@
 {
   "command": "gamemode",
   "character": "cookie",
-  "player_action": "chorus of one bolster allies",
+  "player_action": "we go to help the other team against the spiders. we wait until the spiders have ambushed the other team so we can ambush the spiders while engaged. I stay close to the bow girl buffing her before combat, then combat start.",
   "status": "OK",
   "errors": [],
   "warnings": [
@@ -533,7 +533,33 @@
   "combat": {
     "active": true,
     "round": 1,
-    "current_turn": "Cookie",
+    "current_turn": "Phase Spider 3",
+    "initiative_order": [
+      [
+        20,
+        "Phase Spider 3"
+      ],
+      [
+        17,
+        "Phase Spider 1"
+      ],
+      [
+        16,
+        "Cookie"
+      ],
+      [
+        12,
+        "Amaris"
+      ],
+      [
+        5,
+        "Phase Spider 2"
+      ],
+      [
+        4,
+        "Kenji"
+      ]
+    ],
     "fighters": {
       "Cookie": {
         "hp": 35,
@@ -554,7 +580,7 @@
         "alive": true
       },
       "Phase Spider 1": {
-        "hp": 24,
+        "hp": 32,
         "max_hp": 32,
         "ac": 13,
         "alive": true

@@ -643,6 +643,11 @@ class Combatant:
         # Squad
         if self.is_squad:
             p.append(f"Squad:{self.squad_size}")
+        # Perks (compact)
+        if self.perks:
+            pnames = [pk.get("name","?") for pk in self.perks if pk.get("effect") not in ("aura","custom")]
+            if pnames:
+                p.append(f"PERKS[{', '.join(pnames[:3])}{'...' if len(pnames)>3 else ''}]")
         # Morale
         if self.morale_threshold > 0 and self.check_morale():
             p.append("⚠️FLEEING")
@@ -727,6 +732,108 @@ def load_combatant(data):
         else: c.buffs[bname] = {"duration": -1, "effects": str(bdata)}
     return c
 
+
+def load_perks_from_persistent_effects(persistent_effects: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """Convert character_world_state persistent_effects → Combatant.perks format.
+
+    Maps persistent_effects entries (type: perk, ember_enhancement, ember_combat_passive, etc.)
+    into the perk dicts that Combat.check_perks() understands:
+      {"name": str, "condition": str, "effect": str, "value": float, "source_type": str}
+
+    Also converts monster special abilities and NPC buffs (Nyx Elixirs, Ankuspawn embers)
+    when stored as persistent_effects.
+    """
+    perks = []
+    on_pc = persistent_effects.get("on_pc", [])
+    on_pc_from_npcs = persistent_effects.get("on_pc_from_npcs", [])
+
+    for entry in on_pc + on_pc_from_npcs:
+        etype = entry.get("type", "")
+        ename = entry.get("effect_name", "")
+        mech = entry.get("mechanical_effect", "")
+
+        # Ember Enhancement — healing/buff 10x multiplier
+        if etype == "ember_enhancement" and "10x" in mech.lower():
+            # Healing multiplier
+            if "healing" in mech.lower():
+                perks.append({
+                    "name": ename, "condition": "ember_active",
+                    "effect": "heal_mult", "value": 10.0,
+                    "source_type": etype,
+                })
+            # Buff multiplier (Protector's Surge, Chorus of One, etc.)
+            if "buff" in mech.lower():
+                perks.append({
+                    "name": ename, "condition": "ember_active",
+                    "effect": "buff_mult", "value": 10.0,
+                    "source_type": etype,
+                })
+
+        # Ember combat passive — Pretty Privilege attack bonus, magnetism, etc.
+        elif etype == "ember_combat_passive":
+            # Combat Magnetism: enemies target Cookie (narrative, not a modifier — skip)
+            pass
+
+        # Perk — gold multiplier, etc. (narrative perks, not combat modifiers)
+        elif etype == "perk":
+            # Pretty Privilege gold is narrative; skip for combat perks
+            pass
+
+        # Aura — Heartstring, enemy auras, etc.
+        elif etype == "aura":
+            perks.append({
+                "name": ename, "condition": "always",
+                "effect": "aura", "value": 0,
+                "aura_data": {
+                    "range_ft": 30,
+                    "save_stat": "wis", "save_dc": 12,
+                    "description": mech,
+                },
+                "source_type": etype,
+            })
+
+        # Generic status-granting effects (Nyx Elixirs, monster abilities)
+        elif etype in ("nyx_elixir", "monster_ability", "ankuspawn_ember"):
+            perks.append({
+                "name": ename, "condition": "always",
+                "effect": "custom", "value": 0,
+                "mechanical_effect": mech,
+                "source_type": etype,
+            })
+
+    return perks
+
+
+def load_monster_perks(abilities_data: List[Dict], tags: List[str] = None) -> List[Dict[str, Any]]:
+    """Convert monster special abilities into perks format.
+
+    Phase Spiders get 'ethereal_jaunt' perk. Nyx-enhanced monsters get elixir perks.
+    Called during monster combatant creation.
+    """
+    perks = []
+    tags = tags or []
+
+    for ab in abilities_data:
+        aname = ab.get("name", "").lower()
+        # Ethereal Jaunt — tracked as a perk so the engine knows this combatant CAN go ethereal
+        if "ethereal" in aname and "jaunt" in aname:
+            perks.append({
+                "name": "Ethereal Jaunt", "condition": "always",
+                "effect": "can_ethereal", "value": 1,
+                "source_type": "monster_ability",
+            })
+
+    # Nyx-enhanced tag
+    if "nyx_enhanced" in tags:
+        perks.append({
+            "name": "Nyx Elixir", "condition": "always",
+            "effect": "attack_bonus", "value": 2,
+            "source_type": "nyx_elixir",
+        })
+
+    return perks
+
+
 class Combat:
     def __init__(self):
         self.fighters: Dict[str, Combatant] = {}; self.order = []; self.round = 0
@@ -794,35 +901,53 @@ class Combat:
     DISPOSITION_RANK = {"hostile":0,"reluctant":1,"neutral":2,"friendly":3,"close":4,"intimate":5}
 
     def check_perks(self, name: str, target: str = "") -> dict:
-        """Check which perks are active for a fighter. Returns active bonuses."""
+        """Check which perks are active for a fighter. Returns active bonuses.
+
+        Returned dict keys:
+          attack_bonus  — flat bonus to attack rolls
+          heal_mult     — multiplier for healing received/given (Ember Enhancement 10x)
+          buff_mult     — multiplier for buff spell potency (Ember Enhancement 10x)
+          crit_range_mod — lowers crit threshold (e.g. 1 → crits on 19-20)
+          can_ethereal  — True if combatant has Ethereal Jaunt or similar
+          active_perks  — list of perk names that are currently active
+        """
         c = self.fighters[name]
         t = self.fighters.get(target)
-        result = {"attack_bonus": 0, "heal_mult": 1.0, "crit_range_mod": 0, "active_perks": []}
-        
+        result = {
+            "attack_bonus": 0, "heal_mult": 1.0, "buff_mult": 1.0,
+            "crit_range_mod": 0, "can_ethereal": False, "active_perks": [],
+        }
+
         # Find allies (other fighters on same side — disposition friendly+)
-        allies = [f for fname, f in self.fighters.items() 
+        allies = [f for fname, f in self.fighters.items()
                   if fname != name and f.alive and self.DISPOSITION_RANK.get(f.disposition, 0) >= 3]
         any_observers = [f for fname, f in self.fighters.items()
                         if fname != name and f.alive and self.DISPOSITION_RANK.get(f.disposition, 0) >= 0]
-        
+
+        # Check ember suppression (nullification fields, Ember Shade wards)
+        ember_suppressed = c.has_status("ember_suppressed") or c.has_status("ember_nullified")
+
         for perk in c.perks:
             cond = perk.get("condition", "always")
             active = False
-            
+
             if cond == "always": active = True
+            elif cond == "ember_active": active = not ember_suppressed
             elif cond == "friendly_observer": active = len(allies) > 0
             elif cond == "any_observer": active = len(any_observers) > 0
             elif cond == "target_charmed": active = t and t.has_status("charmed")
-            
+
             if active:
                 effect = perk.get("effect", "")
                 val = perk.get("value", 0)
                 result["active_perks"].append(perk["name"])
-                
+
                 if effect == "attack_bonus": result["attack_bonus"] += val
                 elif effect == "heal_mult": result["heal_mult"] *= val
+                elif effect == "buff_mult": result["buff_mult"] *= val
                 elif effect == "crit_range_mod": result["crit_range_mod"] += val
-        
+                elif effect == "can_ethereal": result["can_ethereal"] = True
+
         return result
     
     def next_turn(self):
@@ -839,28 +964,105 @@ class Combat:
         self.fighters[name].start_turn(self.round)
         self._log(f"--- R{self.round} {name}'s turn ---"); return self.round, name
 
+    def can_be_targeted(self, tgt: str, atk: str = "", ranged: bool = False) -> Tuple[bool, str]:
+        """Check if target can be attacked. Enforces ethereal, invisible, etc.
+        Returns (targetable, reason). If not targetable, attack should auto-fail."""
+        t = self.fighters[tgt]
+        # Ethereal — on a different plane, cannot be targeted by material attacks
+        if t.has_status("ethereal"):
+            return False, f"{tgt} is ETHEREAL — on the Ethereal Plane, untargetable"
+        # Dead
+        if not t.alive:
+            return False, f"{tgt} is DEAD"
+        return True, ""
+
+    def _status_adv_dis(self, atk: str, tgt: str, ranged: bool = False, range_ft: int = 5) -> Tuple[bool, bool, List[str]]:
+        """Compute advantage/disadvantage from status effects on attacker and target.
+        Returns (adv, dis, reasons[]) to be combined with caller-supplied adv/dis."""
+        a, t = self.fighters[atk], self.fighters[tgt]
+        adv_reasons = []; dis_reasons = []
+        dist = self.distance_between(atk, tgt) if a.position != t.position else 5
+
+        # --- ATTACKER statuses ---
+        if a.has_status("blinded"):
+            dis_reasons.append("attacker blinded")
+        if a.has_status("frightened"):
+            dis_reasons.append("attacker frightened")
+        if a.has_status("restrained"):
+            dis_reasons.append("attacker restrained")
+        if a.has_status("poisoned"):
+            dis_reasons.append("attacker poisoned")
+        if a.has_status("invisible"):
+            adv_reasons.append("attacker invisible")
+
+        # --- TARGET statuses ---
+        if t.has_status("blinded"):
+            adv_reasons.append("target blinded")
+        if t.has_status("restrained"):
+            adv_reasons.append("target restrained")
+        if t.has_status("prone"):
+            if ranged or dist > 5:
+                dis_reasons.append("target prone (ranged)")
+            else:
+                adv_reasons.append("target prone (melee)")
+        if t.has_status("invisible"):
+            dis_reasons.append("target invisible")
+        if t.has_status("stunned"):
+            adv_reasons.append("target stunned")
+        if t.has_status("paralyzed"):
+            adv_reasons.append("target paralyzed")
+        if t.has_status("unconscious"):
+            adv_reasons.append("target unconscious")
+
+        has_adv = len(adv_reasons) > 0
+        has_dis = len(dis_reasons) > 0
+        reasons = adv_reasons + dis_reasons
+        return has_adv, has_dis, reasons
+
     def attack(self, atk, tgt, bonus=0, adv=False, dis=False, auto_crit=False, ranged=False, range_ft=5):
         a, t = self.fighters[atk], self.fighters[tgt]
+
+        # --- STATUS GATE: can target be attacked? ---
+        targetable, reason = self.can_be_targeted(tgt, atk, ranged)
+        if not targetable:
+            self._log(f"{atk} → {tgt}: BLOCKED — {reason}")
+            return {"nat":0,"total":0,"bonus":0,"crit":False,"nat1":False,"hits":False,
+                    "tgt_ac":t.ac,"perks":{},"blocked":True,"block_reason":reason}
+
         # Range check (warn, don't block — DM may override)
         dist = self.distance_between(atk, tgt) if a.position != t.position else 5
         if ranged and dist > range_ft:
             self._log(f"  ⚠️ RANGE WARNING: {atk} is {dist}ft from {tgt}, weapon range {range_ft}ft")
         elif not ranged and dist > 5:
             self._log(f"  ⚠️ RANGE WARNING: {atk} is {dist}ft from {tgt} (melee = 5ft)")
+
+        # --- STATUS ADV/DIS: prone, blinded, restrained, etc. ---
+        status_adv, status_dis, status_reasons = self._status_adv_dis(atk, tgt, ranged, range_ft)
+        final_adv = adv or status_adv
+        final_dis = dis or status_dis
+        # RAW: if both adv AND dis from any source, they cancel to flat
+        if final_adv and final_dis:
+            final_adv = False; final_dis = False
+
         perks = self.check_perks(atk, tgt)
         perk_atk = perks["attack_bonus"]
         perk_crit = perks["crit_range_mod"]
         tb = a.attack_bonus + a.flat_attack_bonus + bonus + perk_atk
         effective_crit = a.crit_range - perk_crit  # lower = crits on more numbers
-        nat = max(d20(),d20()) if adv else (min(d20(),d20()) if dis else d20())
+        nat = max(d20(),d20()) if final_adv else (min(d20(),d20()) if final_dis else d20())
         total = nat + tb; ic = auto_crit or nat >= effective_crit
+        # Auto-crit: stunned, unconscious, paralyzed (within 5ft)
         if t.has_status("stunned") or t.has_status("unconscious"): ic = True
+        if t.has_status("paralyzed") and dist <= 5: ic = True
         hits = ic or (nat != 1 and total >= t.ac)
         tag = "CRIT!" if ic else ("HIT" if hits else "MISS")
         perk_note = f" [+{perk_atk}PoF]" if perk_atk > 0 else ""
         crit_note = f" [crit {effective_crit}-20]" if perk_crit > 0 else ""
-        self._log(f"{atk} → {tgt}: nat {nat}+{tb}={total} vs AC {t.ac} → {tag}{perk_note}{crit_note}")
-        return {"nat":nat,"total":total,"bonus":tb,"crit":ic,"nat1":nat==1,"hits":hits,"tgt_ac":t.ac,"perks":perks}
+        status_note = f" [{', '.join(status_reasons)}]" if status_reasons else ""
+        adv_tag = " ADV" if final_adv else (" DIS" if final_dis else "")
+        self._log(f"{atk} → {tgt}: nat {nat}+{tb}={total} vs AC {t.ac} → {tag}{adv_tag}{perk_note}{crit_note}{status_note}")
+        return {"nat":nat,"total":total,"bonus":tb,"crit":ic,"nat1":nat==1,"hits":hits,
+                "tgt_ac":t.ac,"perks":perks,"blocked":False,"status_reasons":status_reasons}
 
     def damage(self, tgt, dice, dtype, mod=0, crit=False, extra_dice="", flat=0):
         t = self.fighters[tgt]
@@ -1159,11 +1361,79 @@ class Combat:
         result = self.attack(atk, tgt)
         return result
 
-    def heal(self, name, amount):
-        c = self.fighters[name]; c.heal_hp(amount); self._log(f"  {name} heals {amount} → HP {c.hp}/{c.max_hp}")
+    def heal(self, name, amount, source: str = "", healer: str = ""):
+        """Heal a combatant. Applies perk multipliers (e.g. Ember Enhancement 10x).
 
-    def add_temp(self, name, amount):
-        c = self.fighters[name]; c.add_temp_hp(amount); self._log(f"  {name} +{amount}t → {c.temp_hp}t")
+        Args:
+            name: combatant being healed
+            amount: base heal amount BEFORE perk multipliers
+            source: label for the heal source (e.g. "Healing Dance")
+            healer: name of the combatant casting the heal (for perk lookup).
+                    If empty, checks the target's own perks (self-heal).
+        Returns:
+            dict with base, multiplier, final, and overflow info.
+        """
+        c = self.fighters[name]
+        # Look up heal_mult from the HEALER's perks (the caster's Ember Enhancement)
+        perk_owner = healer if healer and healer in self.fighters else name
+        perks = self.check_perks(perk_owner)
+        mult = perks.get("heal_mult", 1.0)
+        final = int(amount * mult)
+        actual = min(final, c.max_hp - c.hp)
+        overflow = final - actual
+        c.heal_hp(actual)
+        src_tag = f" ({source})" if source else ""
+        mult_tag = f" [x{mult} Ember]" if mult > 1.0 else ""
+        overflow_tag = f" (overflow {overflow})" if overflow > 0 else ""
+        self._log(f"  {name} heals {amount}→{final}{mult_tag}{src_tag} → HP {c.hp}/{c.max_hp}{overflow_tag}")
+        return {"base": amount, "mult": mult, "final": final, "actual": actual, "overflow": overflow}
+
+    def add_temp(self, name, amount, source: str = "", granter: str = ""):
+        """Add temp HP. Applies buff_mult from granter's perks (Ember Enhancement 10x for Chorus of One, etc.)."""
+        c = self.fighters[name]
+        perk_owner = granter if granter and granter in self.fighters else name
+        perks = self.check_perks(perk_owner)
+        mult = perks.get("buff_mult", 1.0)
+        final = int(amount * mult) if mult > 1.0 else amount
+        c.add_temp_hp(final)
+        mult_tag = f" [x{mult} Ember]" if mult > 1.0 else ""
+        src_tag = f" ({source})" if source else ""
+        self._log(f"  {name} +{final}t{mult_tag}{src_tag} → {c.temp_hp}t")
+
+    def process_auras(self, name: str) -> List[Dict[str, Any]]:
+        """Process start-of-turn aura effects from ALL combatants that affect 'name'.
+
+        Called at start of a combatant's turn. Checks every fighter for aura perks
+        and applies saves/effects to the active combatant if in range.
+        Returns list of aura results for the DM script to narrate.
+        """
+        target = self.fighters[name]
+        results = []
+        for fname, f in self.fighters.items():
+            if fname == name or not f.alive: continue
+            for perk in f.perks:
+                if perk.get("effect") != "aura": continue
+                aura = perk.get("aura_data", {})
+                arange = aura.get("range_ft", 30)
+                dist = abs(target.position - f.position) if target.position != f.position else 5
+                if dist > arange: continue
+
+                # Aura affects this combatant
+                save_stat = aura.get("save_stat", "")
+                save_dc = aura.get("save_dc", 0)
+                result = {"aura_name": perk["name"], "source": fname, "target": name}
+                if save_stat and save_dc:
+                    sv = self.save(name, save_stat, save_dc)
+                    result["save"] = sv
+                    result["affected"] = not sv["success"]
+                else:
+                    result["affected"] = True  # no save = auto-apply
+                results.append(result)
+                if result["affected"]:
+                    self._log(f"  AURA: {perk['name']} ({fname}) → {name} AFFECTED")
+                else:
+                    self._log(f"  AURA: {perk['name']} ({fname}) → {name} RESISTED")
+        return results
 
     def add_status(self, tgt, name, category="condition", duration=-1, compound_clears="", source=""):
         s = Status(name=name, category=category, duration=duration, round_applied=self.round, compound_clears=compound_clears, source=source)
