@@ -3369,9 +3369,11 @@ class StoryEngine:
                 sk_parts = [f"{sk} {mod}" for sk, mod in sorted(self.skills.items())]
                 lines.append(f"- **Skills:** {'; '.join(sk_parts)}")
             if self.known_spells:
-                lines.append(f"- **Spells known:** {', '.join(self.known_spells)}")
+                sp_names = [s.get("name", str(s)) if isinstance(s, dict) else str(s) for s in self.known_spells]
+                lines.append(f"- **Spells known:** {', '.join(sp_names)}")
             if self.class_features:
-                lines.append(f"- **Class features:** {', '.join(self.class_features)}")
+                cf_names = [f.get("name", str(f)) if isinstance(f, dict) else str(f) for f in self.class_features]
+                lines.append(f"- **Class features:** {', '.join(cf_names)}")
 
         # Buffs
         if self.buffs:
@@ -3469,7 +3471,7 @@ class StoryEngine:
             for name, r in sorted(rels.items(), key=lambda x: x[1]["score"]):
                 lines.append(f"- **{name}:** {r['tier']} ({r['score']:+d})")
 
-        return "\n".join(lines)
+        return "\n".join(str(x) for x in lines)
 
 
 # ---------------------------------------------------------------------------

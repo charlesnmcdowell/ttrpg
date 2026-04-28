@@ -29,6 +29,10 @@ Commands:
     charge <name> <+/-N>          Spend or restore charges (e.g. charge Recall -1), save.
     quest <name> <status> [notes] Update quest status, save.
     event <name> <day> [notes]    Add a scheduled event, save.
+    gamemode [action]              Full DM boot: brief + continuity + city registry +
+                                  narrator + deadlines + dashboard. Writes GAMEMODE_REPORT.json.
+                                  Pass player action text to include it in the report.
+                                  Example: gamemode go back up team four against the spiders
     validate                      Run consistency checks, print warnings.
     save                          Just save current engine state to JSON.
 
@@ -836,6 +840,351 @@ def cmd_save(eng, args):
     save(eng)
 
 
+# ---------------------------------------------------------------------------
+# GAMEMODE — Full DM boot sequence (deterministic, no AI guessing)
+# ---------------------------------------------------------------------------
+
+def _load_city_registry(location: str) -> dict:
+    """Parse shared_world_continuity.md City Location Registry.
+    Returns {city_name: [list of location dicts]} for the city matching `location`."""
+    import re
+    ttrpg_root = _find_ttrpg_root(SCRIPT_DIR)
+    if not ttrpg_root:
+        # Try sibling/parent paths
+        for candidate in [SCRIPT_DIR.parent.parent, SCRIPT_DIR.parent]:
+            swc = candidate / "shared_world_continuity.md"
+            if swc.exists():
+                ttrpg_root = candidate
+                break
+    if not ttrpg_root:
+        return {"error": "Cannot find TTRPG root (no realm_lore_registry.json)"}
+
+    swc = ttrpg_root / "shared_world_continuity.md"
+    if not swc.exists():
+        return {"error": f"shared_world_continuity.md not found in {ttrpg_root}"}
+
+    text = swc.read_text(encoding="utf-8")
+
+    # Find City Location Registry section
+    registry_start = text.find("## City Location Registry")
+    if registry_start == -1:
+        return {"error": "No City Location Registry section found"}
+
+    registry_text = text[registry_start:]
+
+    # Parse city sections (### City Name (description))
+    city_pattern = re.compile(r'^### (.+?)(?:\n|$)', re.MULTILINE)
+    cities = {}
+    for m in city_pattern.finditer(registry_text):
+        city_header = m.group(1).strip()
+        city_name = city_header.split("(")[0].strip()
+        # Extract table rows for this city (lines starting with | **)
+        start = m.end()
+        next_city = city_pattern.search(registry_text, start)
+        end = next_city.start() if next_city else len(registry_text)
+        section = registry_text[start:end]
+
+        locations = []
+        for line in section.split("\n"):
+            line = line.strip()
+            if line.startswith("| **"):
+                # Parse table row: | **Name** | Type | Origin | Owner | Status | Lore |
+                cells = [c.strip() for c in line.split("|")[1:-1]]  # skip empty first/last
+                if len(cells) >= 6:
+                    loc_name = cells[0].replace("**", "").strip()
+                    locations.append({
+                        "name": loc_name,
+                        "type": cells[1].strip(),
+                        "origin": cells[2].strip(),
+                        "owner": cells[3].strip(),
+                        "status_25yr": cells[4].strip(),
+                        "lore": cells[5].strip() if len(cells) > 5 else "",
+                    })
+        if locations:
+            cities[city_name] = locations
+
+    # Match current location to a city
+    loc_lower = location.lower()
+    matched_city = None
+    for city_name in cities:
+        if city_name.lower() in loc_lower or loc_lower in city_name.lower():
+            matched_city = city_name
+            break
+    # Also check if any location name matches
+    if not matched_city:
+        for city_name, locs in cities.items():
+            for loc in locs:
+                if loc["name"].lower() in loc_lower:
+                    matched_city = city_name
+                    break
+            if matched_city:
+                break
+
+    if matched_city:
+        return {
+            "city": matched_city,
+            "locations": cities[matched_city],
+            "location_count": len(cities[matched_city]),
+        }
+    else:
+        return {
+            "city": None,
+            "locations": [],
+            "note": f"No city registry match for '{location}'. May be wilderness/ruin.",
+        }
+
+
+def _check_deadlines(eng, full_data: dict = None) -> list:
+    """Check all scheduled events and quests for due/overdue items."""
+    alerts = []
+    current_day = eng.day
+    current_hour = eng.hour if isinstance(eng.hour, (int, float)) else 0
+
+    # Check engine events
+    for ev in eng.events:
+        ev_day = ev.get("day", 999)
+        ev_name = ev.get("name", "unnamed")
+        if ev_day < current_day:
+            alerts.append({"name": ev_name, "day": ev_day, "status": "OVERDUE"})
+        elif ev_day == current_day:
+            alerts.append({"name": ev_name, "day": ev_day, "status": "DUE_TODAY"})
+        elif ev_day == current_day + 1:
+            alerts.append({"name": ev_name, "day": ev_day, "status": "TOMORROW"})
+
+    # Check quests
+    for q in eng.quests:
+        q_status = q.get("status", "").lower()
+        if q_status in ("complete", "done", "resolved", "failed"):
+            continue
+        q_name = q.get("name", "unnamed")
+        q_due = q.get("due_day", q.get("deadline", None))
+        if q_due is not None:
+            if isinstance(q_due, (int, float)):
+                if q_due < current_day:
+                    alerts.append({"name": q_name, "day": int(q_due), "status": "OVERDUE", "type": "quest"})
+                elif q_due == current_day:
+                    alerts.append({"name": q_name, "day": int(q_due), "status": "DUE_TODAY", "type": "quest"})
+
+    # Also check full_data scheduled_events if available (nested state format)
+    if full_data:
+        sched = full_data.get("scheduled_events", full_data.get("_story_engine_state", {}).get("events", []))
+        if isinstance(sched, list):
+            for ev in sched:
+                if isinstance(ev, dict):
+                    ev_day = ev.get("day", 999)
+                    ev_name = ev.get("name", ev.get("event", "unnamed"))
+                    if ev_day < current_day:
+                        alerts.append({"name": ev_name, "day": ev_day, "status": "OVERDUE"})
+                    elif ev_day == current_day:
+                        alerts.append({"name": ev_name, "day": ev_day, "status": "DUE_TODAY"})
+
+    # Deduplicate by name
+    seen = set()
+    unique = []
+    for a in alerts:
+        if a["name"] not in seen:
+            seen.add(a["name"])
+            unique.append(a)
+    return unique
+
+
+def _read_narrator_style(full_data: dict) -> str:
+    """Extract narrator_style from character_world_state.json."""
+    pi = full_data.get("player_input", {})
+    style = pi.get("narrator_style", "")
+    if not style:
+        style = "Aleron Kong (irreverent, funny, mechanics-in-prose)"
+    return style
+
+
+def cmd_gamemode(eng, args):
+    """Full DM boot sequence. Deterministic — runs all systems, returns structured report.
+
+    Usage: gamemode [player action text]
+    Example: gamemode go back up team four against the spiders
+    """
+    import json as _json
+
+    player_action = " ".join(args) if args else ""
+
+    report = {
+        "command": "gamemode",
+        "status": "OK",
+        "errors": [],
+        "warnings": [],
+    }
+
+    # ── 1. LOAD & BRIEF ──────────────────────────────────────────────────
+    print("=" * 60)
+    print("GAMEMODE — DM BOOT SEQUENCE")
+    print("=" * 60)
+
+    # Write fresh AI_CONTEXT.md
+    try:
+        brief_text = eng.ai_brief_markdown()
+        out = SCRIPT_DIR / "AI_CONTEXT.md"
+        out.write_text(brief_text, encoding="utf-8")
+        report["brief"] = "OK"
+        print(f"[1/6] BRIEF — wrote AI_CONTEXT.md ({len(brief_text)} chars)")
+    except Exception as e:
+        report["brief"] = f"FAILED: {e}"
+        report["errors"].append(f"Brief failed: {e}")
+        print(f"[1/6] BRIEF — FAILED: {e}")
+
+    # ── 2. CHARACTER STATE ────────────────────────────────────────────────
+    # Load full data for nested state files (Cookie etc.)
+    full_data = {}
+    try:
+        full_data = _json.loads(STATE_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        pass
+
+    cal = day_to_calendar(eng.day)
+    weekday = day_to_weekday(eng.day)
+    hr = int(eng.hour) if isinstance(eng.hour, (int, float)) else eng.hour
+    time_str = f"{hr:02d}:00" if isinstance(hr, int) else str(hr)
+
+    state_summary = {
+        "character": eng.char_name,
+        "level": eng.level,
+        "exp": getattr(eng, "exp", 0),
+        "exp_to_next": getattr(eng, "exp_to_next_level", 0),
+        "day": eng.day,
+        "hour": hr,
+        "calendar": f"{weekday}, {cal} 1247 AR",
+        "location": eng.location,
+        "weather": eng.weather,
+        "hp": eng.hp,
+        "max_hp": eng.max_hp,
+        "ac": getattr(eng, "ac", 0),
+        "gold": eng.gold,
+        "silver": eng.silver,
+        "copper": getattr(eng, "copper", 0),
+        "spell_slots": dict(eng.spell_slots) if eng.spell_slots else {},
+        "charges": {k: {"current": v[0], "max": v[1]} for k, v in eng.charges.items()} if eng.charges else {},
+        "buffs": list(eng.buffs.keys()) if eng.buffs else [],
+        "meals": eng.meals,
+        "hours_since_meal": eng.hours_since_meal,
+    }
+
+    # Chapter info from full_data
+    chapter = full_data.get("_chapter", 0)
+    chapter_status = full_data.get("_chapter_status", "")
+    chapter_title = full_data.get("_chapter_title", "")
+    state_summary["chapter"] = chapter
+    state_summary["chapter_status"] = chapter_status
+    state_summary["chapter_title"] = chapter_title
+
+    report["state"] = state_summary
+    print(f"[2/6] STATE — {eng.char_name} L{eng.level} | Day {eng.day} {time_str} | {eng.location}")
+
+    # ── 3. CONTINUITY ENGINE ──────────────────────────────────────────────
+    try:
+        sys.path.insert(0, str(SCRIPT_DIR))
+        import continuity_engine as ce
+        load_msg = ce.load_campaign(eng.char_name.lower())
+        report["continuity_load"] = load_msg
+
+        # Build state dict for check_engine
+        ce_state = {
+            "hour": eng.hour,
+            "day": eng.day,
+            "location": eng.location,
+            "hp": eng.hp,
+            "max_hp": eng.max_hp,
+            "exp": getattr(eng, "exp", 0),
+            "meals": eng.meals,
+            "hours_since_meal": eng.hours_since_meal,
+            "weather": eng.weather,
+            "npcs_in_scene": [],
+            "threat_id": "",
+            "aura_targets": [],
+            "active_buffs": list(eng.buffs.keys()) if eng.buffs else [],
+            "charges": {k: v[0] for k, v in eng.charges.items()} if eng.charges else {},
+        }
+        ce_report = ce.check_engine(ce_state)
+        report["continuity_check"] = ce_report
+        # Count issues
+        issue_count = ce_report.count("!!") + ce_report.count("MISSING") + ce_report.count("BROKEN")
+        if issue_count > 0:
+            report["warnings"].append(f"Continuity: {issue_count} issue(s) flagged")
+        print(f"[3/6] CONTINUITY — loaded {eng.char_name}, {issue_count} issue(s)")
+    except Exception as e:
+        report["continuity_load"] = f"FAILED: {e}"
+        report["continuity_check"] = ""
+        report["errors"].append(f"Continuity engine failed: {e}")
+        print(f"[3/6] CONTINUITY — FAILED: {e}")
+
+    # ── 4. CITY LOCATION REGISTRY ─────────────────────────────────────────
+    city_data = _load_city_registry(eng.location)
+    report["city_registry"] = city_data
+    city_name = city_data.get("city", "none")
+    loc_count = city_data.get("location_count", 0)
+    print(f"[4/6] CITY REGISTRY — {city_name or 'no match'} ({loc_count} locations)")
+
+    # ── 5. NARRATOR STYLE ─────────────────────────────────────────────────
+    narrator = _read_narrator_style(full_data)
+    report["narrator_style"] = narrator
+    print(f"[5/6] NARRATOR — {narrator[:60]}")
+
+    # ── 6. DEADLINE CHECK ─────────────────────────────────────────────────
+    deadlines = _check_deadlines(eng, full_data)
+    report["deadlines"] = deadlines
+    overdue = [d for d in deadlines if d["status"] == "OVERDUE"]
+    due_today = [d for d in deadlines if d["status"] == "DUE_TODAY"]
+    if overdue:
+        report["warnings"].extend([f"OVERDUE: {d['name']} (Day {d['day']})" for d in overdue])
+    print(f"[6/6] DEADLINES — {len(overdue)} overdue, {len(due_today)} due today, {len(deadlines)} total")
+
+    # ── PLAYER ACTION ─────────────────────────────────────────────────────
+    if player_action:
+        report["player_action"] = player_action
+        print(f"\n[ACTION] \"{player_action}\"")
+
+    # ── DASHBOARD ─────────────────────────────────────────────────────────
+    print(f"\n{'=' * 60}")
+    print("DASHBOARD")
+    print(f"{'=' * 60}")
+
+    # Build compact dashboard
+    slots_str = " | ".join(f"L{k}: {v[0]}/{v[1]}" for k, v in sorted(eng.spell_slots.items())) if eng.spell_slots else "none"
+    charges_str = _build_charge_str(eng).replace("**", "") if eng.charges else "none"
+
+    print(f"  {eng.char_name} — Day {eng.day} | {time_str} | {eng.location}")
+    print(f"  HP {eng.hp}/{eng.max_hp} | AC {getattr(eng, 'ac', '?')} | Level {eng.level} ({getattr(eng, 'exp', 0):,}/{getattr(eng, 'exp', 0) + getattr(eng, 'exp_to_next_level', 0):,})")
+    print(f"  GP {eng.gold} | SP {eng.silver} | CP {getattr(eng, 'copper', 0)}")
+    print(f"  Slots: {slots_str}")
+    if eng.charges:
+        print(f"  Charges: {charges_str}")
+    if eng.buffs:
+        print(f"  Buffs: {', '.join(eng.buffs.keys())}")
+    print(f"  Weather: {eng.weather}")
+    print(f"  Meals: {eng.meals} | Hours since meal: {eng.hours_since_meal}")
+    if deadlines:
+        print(f"  Deadlines:")
+        for d in deadlines:
+            print(f"    [{d['status']}] {d['name']} — Day {d['day']}")
+
+    print(f"\n{'=' * 60}")
+    if report["errors"]:
+        print(f"ERRORS: {len(report['errors'])}")
+        for e in report["errors"]:
+            print(f"  !! {e}")
+    if report["warnings"]:
+        print(f"WARNINGS: {len(report['warnings'])}")
+        for w in report["warnings"]:
+            print(f"  ! {w}")
+    if not report["errors"] and not report["warnings"]:
+        print("ALL SYSTEMS GREEN")
+    print(f"{'=' * 60}")
+
+    # ── JSON OUTPUT (for AI consumption) ──────────────────────────────────
+    # Write to file so AI can read it even if stdout is truncated
+    report_path = SCRIPT_DIR / "GAMEMODE_REPORT.json"
+    report_path.write_text(_json.dumps(report, indent=2, ensure_ascii=False, default=str) + "\n", encoding="utf-8")
+    print(f"\n[REPORT] Wrote GAMEMODE_REPORT.json")
+
+
 COMMANDS = {
     "refresh": cmd_refresh,
     "tick": cmd_tick,
@@ -860,6 +1209,7 @@ COMMANDS = {
     "event": cmd_event,
     "validate": cmd_validate,
     "save": cmd_save,
+    "gamemode": cmd_gamemode,
 }
 
 if __name__ == "__main__":

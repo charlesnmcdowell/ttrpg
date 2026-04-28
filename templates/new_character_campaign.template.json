@@ -15,6 +15,11 @@
     "background": "Where they grew up, who they lost, what shaped them.",
     "personal_goal": "One sentence — what the character wants most.",
     "starting_region_preference": "frontier | heartland | coast | mountains | underground | surprise_me",
+    "narrator_style": {
+      "author": "",
+      "series": "",
+      "voice": "See dm_rules_tracking.md § Character Creation step 9 for options. Default: Aleron Kong (irreverent, fun, mechanics-in-prose)."
+    },
     "appearance": {
       "height_build": "",
       "hair": "",

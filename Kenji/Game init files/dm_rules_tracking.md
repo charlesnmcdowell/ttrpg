@@ -376,6 +376,19 @@ When the player declares intent to hunt or grind combat encounters in a session:
    - Racial bonuses applied after (e.g. Human +1 to ALL, Halfling +2 DEX, Ankuspawn variable +1)
    - DM NEVER suggests a spread. Player builds freely.
 8. **Starting gear** — Class-appropriate options presented; player chooses.
+9. **Narrator style** ��� Ask the player: *"Who's your favorite LitRPG author? This sets the voice and tone of your campaign narration."* Present options:
+
+   | Author | Style |
+   |--------|-------|
+   | **Aleron Kong** (The Land) | Irreverent, funny, detailed mechanics woven into prose, pop culture nods, narrator has personality and attitude. The "Father of American LitRPG" voice — you feel the author grinning while writing fight scenes. |
+   | **Travis Bagwell** (Awaken Online) | Dark, psychological, morally grey. Consequence-driven narration. Combat is visceral and detailed. The world pushes back hard. |
+   | **Luke Chmilenko** (Ascend Online) | Adventure-forward, party dynamics, exploration and wonder. World-building is lush. The narrator loves the setting and wants you to see every detail. |
+   | **Dakota Krout** (Divine Dungeon / Completionist) | Whimsical, system-heavy, dry humor. Progression is the dopamine hit. The narrator geeks out over numbers and edge cases. |
+   | **Andrew Rowe** (Arcane Ascension) | Academic, analytical, mystery-driven. Hard magic systems explained cleanly. The narrator is a scholar who happens to tell stories. |
+   | **Shirtaloon** (He Who Fights with Monsters) | Witty banter, escalating stakes, strong party dynamics. The narrator is funny but knows when to get serious. Australian-flavored irreverence. |
+   | **Custom / Blend** | Player describes the tone they want. DM matches it. |
+
+   Save the choice to `character_world_state.json` → `player_input.narrator_style`. The DM reads this at session start and maintains the voice throughout. If the player doesn't care, default to **Aleron Kong** (irreverent, fun, mechanics-in-prose).
 
 ### NPC Naming Rule (NON-NEGOTIABLE)
 All new NPC names **must** be pulled from `npc_name_bank.md`. When a name is used, mark it with strikethrough and note the character + role. If the bank is empty for a race/gender, the DM adds 10 new names to that section before using one. **Never** invent an NPC name without checking the bank first — this prevents name collisions across campaigns. The `generate_starter_campaign.py` tool should validate names against the bank before finalizing.

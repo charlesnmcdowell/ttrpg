@@ -9,13 +9,13 @@
 **Male:**
 1. ~~Cedwyn~~ *(used — General, Bracken's former CO)*
 2. ~~Torren~~ *(used — Cookie campaign, textile merchant at Gilt Lily, Varenholm)*
-3. Castor
+3. ~~Castor~~ *(used — Cookie campaign, turnip farmer outside Varenholm, Ch3)*
 4. Davan
-5. Edric
+5. ~~Edric~~ *(used — Cookie campaign, Alderman Edric Tosse, city official, Varenholm, Ch3)*
 6. Falconer
 7. ~~Garron~~ *(used — Cookie campaign, adventurer crossbowman, bandit camp raid party)*
 8. Selwyn
-9. Ivor
+9. ~~Ivor~~ *(used — Cookie campaign, Academy student, lute player, Team Two, Ch4)*
 10. Jareth
 
 **Female:**
@@ -24,10 +24,10 @@
 3. ~~Calista~~ *(used — barmaid **The Brass Hitch**, Bronzebarrow Ashmere 34)*
 4. ~~Dorith~~ *(used — Cookie campaign, adventurer healer, bandit camp raid party)*
 5. ~~Eira~~ *(used — Cookie campaign, recruiter for Lyssa Vane's troupe)*
-6. Fenella
+6. ~~Fenella~~ *(used — Cookie campaign, Academy student, shortbow, Team Two, Ch4)*
 7. ~~Gwynn~~ *(used — halfling hostler **The Brass Hitch**, Bronzebarrow — halfling; pulled from Human list per bank note)*
 8. ~~Hadley~~ *(used — Watch Captain, Millhaven garrison)*
-9. Isolde
+9. ~~Isolde~~ *(used — Cookie campaign, enchantress at The Pale Lantern, Varenholm, Ch3)*
 10. Jessamine
 
 ---
@@ -179,7 +179,7 @@
 **Cookie campaign:**
 - Lyssa Vane *(human female — NE antagonist, enchantress/bard)*
 - Cadence Ashworth *(human female — LG mentor, Varenholm Academy professor)*
-- Silka *(human female — TN, charmed spy at Academy)*
+- Silka *(human Ankuspawn female — TN, charmed spy at Academy, Cookie's half-sister, Ember: Veil suppressed by Lyssa's amulet)*
 - Rook *(human male — CE enforcer for Lyssa Vane)*
 - Fern *(human female — CG, Cookie's best friend from Kettlebrook)*
 - Maeven *(human, tailor on Chandler's Row, Varenholm)*
@@ -187,3 +187,4 @@
 - Dalla *(human female — TN, adventurer fighter)*
 - Silas *(human male — CN, adventurer rogue)*
 - Marta *(human female — NG, adventurer ranger)*
+- Edric Tosse *(human male — LN, alderman/city official, Varenholm)* [first name from bank, surname invented]

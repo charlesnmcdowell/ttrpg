@@ -320,7 +320,102 @@ Update this file when a **realm-wide** fact changes (e.g. Council law, a named k
 
 ---
 
+## City Location Registry — Cross-Campaign
+
+> **Purpose:** When the DM narrates a scene in an established city, check this registry. New locations are expected (cities grow during the Golden Age). But NPCs at new locations should reference old ones through dialogue — "inspired by," "used to be," "back before the Golden Age," "Maren's old place." Old locations may still exist (same owner, new owner, or legacy). This creates lore callbacks that reward returning players and give new players a sense of history.
+>
+> **Rule:** New campaign locations do NOT replace old ones. Both coexist. The 25-year Golden Age under Ankunyx means every city has expanded — new shops, new venues, new districts — built on the bones of what came before.
+
+### Varenholm (Heartland capital — largest scholarly city)
+
+| Location | Type | Origin | Owner/Operator | Status (25 yr post) | Lore Note |
+|----------|------|--------|---------------|---------------------|-----------|
+| **The Gilt Lens** | Enchantment shop | Book 1 Ch8 | Maren Holt | Retired ~15 yrs ago; grandson runs it (minor repairs/lenses) | THE enchanter of pre-Golden Age Varenholm. Apprenticed Isolde (Pale Lantern). Corner of Academy Way & Thornwell St. |
+| **The Silver Draft** | Inn (3-story, 12 rooms) | Book 1 Ch8 | Kenji (purchased B2 Ch24); barkeep Hollis; managed by Pip | Likely still standing — kingdom asset | Kenji's operational base. Bought for ~110 GP. Across from Mercer's Textile Building. |
+| **Mercer's Textile Building** | Overflow lodging | Book 2 Ch24 | Kenji (purchased ~35 GP) | Likely converted as planned — low-cost beds | Across from Silver Draft. Former textile shop, closed 6 months before purchase. |
+| **Varenholm Academy** | Magical institution | Book 1 Ch2 | Chancellor Elara Ash; ArchMagus Kenji; Master Aldwin | Expanded over 25 years — now includes bard school | Pale stone spire on a hill. Ley alcove in eastern training grounds. Library, theory rooms, sub-basements, requisition vault. |
+| **Hargrove's Forge** | Smithy | Book 1 Ch8 | Hargrove (family) | Likely still operating or passed down | Best mundane smith in Varenholm. Ironmonger's Row. |
+| **Vanguard Hall** | Adventurer's guild (Platinum tier) | Book 2 Ch6 | Keldara organization | Active — expanded during Golden Age | Issues Platinum adventurer credentials; near-diplomatic immunity in 46 cities. |
+| **Academy Requisition Vault** | Institutional armory | Book 1 Ch8 | Academy staff | Active | Opens to research residents on Day 2 of residency. |
+| **Southern Gate** | City gate | Book 1 Ch8 | City guard | Active | 30-foot grey stone walls. Wolf's head over crossed keys emblem. |
+| **Market District** | Commercial district | Book 1 Ch9 | — | Expanded significantly during Golden Age | Lower-lying area; transitions uphill to Craftsmen's Quarter then Academy. |
+| **The Gilt Lily** | Inn/tavern | Cookie Ch1 | Barkeep (stocky woman, cropped hair) | NEW — post-Golden Age establishment | Where Cookie met Torren. Did not exist 25 years ago. |
+| **The Gilded Thread** | Tailor/clothing | Cookie Ch1 | — | NEW — post-Golden Age | Cookie's 4 luxury performance outfits ordered here. |
+| **The Starling** | Performance venue | Cookie Ch1 | — | NEW — post-Golden Age | Did not exist 25 years ago. Varenholm's arts scene grew with the Academy's expansion. |
+| **Maeven's** | Tailor/fitting shop | Cookie Ch2 | Maeven | NEW — Chandler's Row | Cookie's indigo dress fitted here. |
+| **Adventurer's Guild (branch)** | Quest board/registration | Cookie Ch2 | Gruff (clerk) | Possibly a branch of Vanguard Hall or separate guild | Cookie registered as support healer here. |
+| **Millward Chandlery** | Lodging (rented rooms) | Cookie Ch1 | — | NEW | Cookie and Fern's room. 3 SP/month. |
+| **The Pale Lantern** | Enchantment shop | Cookie Ch3 | Isolde | NEW — apprenticed under Maren Holt | Blue-tinted windows. Opened after Golden Age grew the Artisan's Quarter. |
+| **The Burnt Amphitheatre** | Ruin (pre-Kingdom performance venue) | Cookie Ch4 | Abandoned | Damaged by ley surge 80 years ago | South of Greenway Gate, 20 min walk. Half-circle of blackened stone benches carved into hillside. Cracked stage with frozen-lightning scorch marks. Underchambers beneath stage: 5 rooms (2 dressing chambers, storage vault, resonance chamber). Phase spider nest in resonance chamber (discovered Ch4). Used by Academy for fieldwork assessments. |
+
+### Duskfen (Heartland village — Kenji's first base)
+
+| Location | Type | Origin | Owner/Operator | Status (25 yr post) | Lore Note |
+|----------|------|--------|---------------|---------------------|-----------|
+| **The Broken Antler** | Inn → mercenary guild hall | Book 1 Ch7 | Brenn (built it); Pip (manager); Kenji (purchased B2 Ch24, 25 GP) | Kingdom asset — portal hub | Originally a criminal operation (Aldren Voss). Seized by Kenji. Portal installed in back room (permanent gateway to Varenholm). 8 rooms, cellar armory. |
+| **The Chapel** | Temple | Book 1 Ch2 | — | Likely still standing | South end of village. Cupped hand holding a single flame carved above door. Older than the village. |
+| **Aldric's Forge** | Smithy/leatherworker | Book 1 Ch1 | Aldric | Unknown — 25 years on | Worked with ironwood sap for hardened armor. |
+| **The Delve** | Ancient ruin/dungeon | Book 1 Ch1 | — | Sealed or cleared | East of Duskfen. Explored in Book 2 prologue. |
+
+### Bronzebarrow (Relay town — forge-heavy transit hub)
+
+| Location | Type | Origin | Owner/Operator | Status (25 yr post) | Lore Note |
+|----------|------|--------|---------------|---------------------|-----------|
+| **The Brass Hitch** | Inn (luxury suites) | Book 4 Ch18 | Calista (barmaid), Gwynn (halfling hostler) | Active | Premier inn. Suite Two: bronze-rune ley-steam tub, 30 GP/night. |
+| **The Iron Mule** | Factor house/freight | Book 4 Ch18 | Cassia Vorn (manager), Haldra (dwarf clerk) | Active | Four blocks south of Brass Hitch. Dwarven-lease stone. Haldra's private parlor (8 GP/hr). |
+| **Marthel's Forge** | Smithy | Book 4 Ch19 | Marthel (dwarf) | Active | End of Forge Row, south relay yard. Fitted dragon-scale armor for Mursha. |
+| **EDGE Weapon Stall** | Weapons vendor | Book 4 Ch19 | — | Active | Relay yard. Masterwork weapons (sometimes mis-tagged stock). |
+
+### Thornfield (Eastern frontier village — spider corruption resolved)
+
+| Location | Type | Origin | Owner/Operator | Status (25 yr post) | Lore Note |
+|----------|------|--------|---------------|---------------------|-----------|
+| **The Stubborn Mule** | Inn/tavern | Book 4 Ch1 | Delia | Active — village recovered | Green door. Kenji stayed ~8 days here. Delia was planning Stillday seating as village healed. |
+| **Wynn's Herb Garden** | Herbalist/greenhouse | Book 4 Ch1 | Wynn | Active | South end of village. Raised beds, trellises, greenhouse. Mapped the corruption for years before Kenji arrived. |
+| **Briarstone Homestead** | Farm | Book 4 Ch1 | Amaris | Active | Bittervine wall, legendary soil. One-third of corruption's ley supply severed by Amaris's work. |
+
+### Thornkeep (Southern garrison — palisade town)
+
+| Location | Type | Origin | Owner/Operator | Status (25 yr post) | Lore Note |
+|----------|------|--------|---------------|---------------------|-----------|
+| **Thornkeep Waystation** | Inn (Coalition-contract) | Book 4 Ch6 | — | Active | Institutional hospitality. 3 GP/night. "Not an inn like the Silver Draft — no character." |
+| **Thornkeep Garrison** | Military garrison | Book 4 Ch6 | Commander Renna Bracken | Active | Palisade wall, two-lantern gate. Was at 35% capacity (42/120) during Book 4 events. |
+
+### Thornwall (Western border — market and fighting-pits city)
+
+| Location | Type | Origin | Owner/Operator | Status (25 yr post) | Lore Note |
+|----------|------|--------|---------------|---------------------|-----------|
+| **The Iron Coliseum** | Fighting arena (8,000 seats) | Book 2 Ch6 | — | Active — likely expanded | Four-story stone, black iron grille. Blue ward-line ring. Sera won the Championship here. |
+
+### Ashenmere Crossing (Eastern coast port)
+
+| Location | Type | Origin | Owner/Operator | Status (25 yr post) | Lore Note |
+|----------|------|--------|---------------|---------------------|-----------|
+| **The Brass Kettle** | Inn | Book 4 Ch40 | — | Active | Best inn in town. AnkuNyx's party took the best suite. |
+| **Adventurer's Guild** | Guild hall | Book 4 Ch40 | — | Active | Crossed-swords banner. Ignis, Nyx, and Skratch registered here. |
+| **Tailor's Row** | Commercial district | Book 4 Ch40 | — | Active | Multiple dressmakers. Ignis's first shopping experience. |
+| **Alabaster Court** | Official registry | Book 4 Ch33 | — | Active | Kenji registered as "Anku Nyx" here. Formal identity registration. |
+
+### Kettlebrook (Heartland — working-class coalition town near Varenholm)
+
+| Location | Type | Origin | Owner/Operator | Status (25 yr post) | Lore Note |
+|----------|------|--------|---------------|---------------------|-----------|
+| **The Wren's Rest** | Inn | Cookie Ch1 | Tomas Wren | Active | Cookie and Daisy work here. Tomas is a former coalition army vet. Half-day walk from Varenholm. |
+
+### Other Notable Locations
+
+| Location | City/Area | Type | Origin | Lore Note |
+|----------|-----------|------|--------|-----------|
+| **Brindle's Bridge** | Ashford River crossing | Toll bridge | Book 1 Ch5 | Originally Voss's criminal toll. Seized and legitimized by Kenji. |
+| **The Sunken Playhouse** | Between Kettlebrook & Varenholm | Ruin/antagonist base | Cookie campaign | Ancient amphitheater, sunk during ley-line shift. Lyssa Vane's base. |
+| **The Resonance Chamber** | Beneath Sunken Playhouse | Hidden ley node | Cookie campaign | Pre-kingdom bard infrastructure. Ember-resonant. Bronze dragon nesting. |
+| **Drazhara's Trading Post** | Dragonspine switchback road | Trading post | Book 4 Ch39 | Dragonborn woman. Kenji negotiated the dragon alliance here. |
+| **Crestfall Fortress** | Crestfall | Military fortress | Book 2 Ch6 | Commander Thorne. 40-foot granite walls. Portal outside city walls. |
+
+---
+
 ## Changelog
 
 - **2026-04-26** — Kingdom of Ankunyx established as continental authority. All regions updated to post–Book 4 status (25-year timeskip). Five threats marked RESOLVED. Faction laws codified (dragons protected, vampires citizens, orcs mercenaries, dwarves engineers). Crown realm reclassified as institutional core within Ankunyx. Kenji campaign marked COMPLETE.
+- **2026-04-27** — City Location Registry added. Cross-campaign index of all named locations per city (shops, inns, temples, guilds, landmarks) from Books 1-4 and Cookie campaign. DM Turn Protocol updated with mandatory lore callback step (Step 5): new locations in established cities must reference old ones through NPC dialogue.
 - **2026-04-26** — Notable figures added: Ignis (The Firebird — traveling bard/pop star), Nyx (Lich Queen — Ashenveil Academy, Cult of Anku, Ankuspawn harvesting). Ashenveil region updated to reflect Academy. Ankuspawn biology expanded (individual Ember sparks, female special traits). Cult of Anku documented as active hidden threat.

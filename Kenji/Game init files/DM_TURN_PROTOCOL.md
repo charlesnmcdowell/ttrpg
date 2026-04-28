@@ -17,6 +17,7 @@
 | 5 | **NPC Name Bank** | `Kenji/Game init files/npc_name_bank.md` | All NPC names. New NPCs MUST pull from here. Mark used names. Check for cross-campaign collisions. |
 | 6 | **World Calendar** | `Kenji/Game init files/world_calendar_lore.md` | Calendar system, date tracking, seasons, holidays |
 | 7 | **Campaign Template** | `templates/new_character_campaign.template.json` | Schema for new campaigns — mechanical_state, _story_engine_state, ember, persistent_effects |
+| 8 | **City Location Registry** | `shared_world_continuity.md` → City Location Registry | Cross-campaign index of all named locations per city. Check when narrating in established cities. New locations must reference old ones through NPC dialogue. |
 
 **If a system exists for what you're about to do, USE IT. Do not invent a new one.**
 
@@ -33,6 +34,7 @@ Run these steps IN ORDER before writing any narrative:
 ### 2. Load character state
 - Read `character_world_state.json` for the active character
 - Note: chapter number, level, XP, day/hour, location, HP, currency, scheduled events, quests, persistent effects
+- **Read `player_input.narrator_style`** — this sets your writing voice for the entire session. Match the named author's tone (see dm_rules_tracking.md § Character Creation step 9). If empty, default to Aleron Kong style.
 
 ### 3. Read DM rules
 - Read `dm_rules_tracking.md` — at minimum the AVAILABLE SYSTEMS table and Scene skill preroll section
@@ -96,21 +98,28 @@ python _dm_turn.py dashboard
    - If new NPC: they must serve the campaign spine (have a `points_to` or connection to existing storyline)
    - Check NPC alignment — drive behavior from it
 
+5. **City lore callback** — If the scene takes place in an established city:
+   - Check `shared_world_continuity.md` → **City Location Registry** for that city
+   - **New locations are expected** — cities grow during the Golden Age. But NPCs at new locations MUST reference old ones through dialogue: "inspired by," "used to be," "back before the Golden Age," "old Maren's place down the street"
+   - **Old locations** should be acknowledged when nearby — still there, changed hands, or remembered as legacy
+   - New players get a sense of history. Returning players get lore callbacks. Both feel the world is alive.
+   - If introducing a NEW location in an established city, add it to the registry at chapter close
+
 ### After narrating:
 
-5. **Award EXP** — Mandatory after every skill roll:
+6. **Award EXP** — Mandatory after every skill roll:
    - Skill check EXP from table: DC 8-10 = 500, DC 11-14 = 1,000, DC 15-17 = 1,500, DC 18-20 = 2,500, DC 21+ = 5,000
    - Support archetype domain roll: +25% of XP-to-next-level per successful roll
    - State EXP earned in the response
 
-6. **Advance time** — Update hour based on scene duration:
+7. **Advance time** — Update hour based on scene duration:
    - Conversation: 15-30 min
    - Short encounter: 1 hour
    - Travel: based on distance
    - Long rest: advance to next morning (hour 6)
    - Track meals: hunger penalty at 4+ hours since meal
 
-7. **Display dashboard** — End EVERY DM response with the status block:
+8. **Display dashboard** — End EVERY DM response with the status block:
    ```
    ┌─────────────────────────────────────────────┐
    │  [NAME] — Day X | HH:MM | Location          │
@@ -213,3 +222,4 @@ Support archetypes (performer, healer, diplomat, scholar, infiltrator, crafter):
 | NPC has no story purpose | No continuity check | Every NPC must connect to campaign spine |
 | Wrote PC dialogue or decisions | Novelist mode — treated PC as own character | Step 1 of every response — self-test before sending |
 | Applied Kenji mechanics to Cookie | Didn't read character CLAUDE.md | Session start step 1 |
+| New location with no lore callback | Didn't check City Location Registry | Step 5 of every response — cities have history, NPCs remember it |
