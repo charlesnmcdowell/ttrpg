@@ -582,18 +582,7 @@ class Combatant:
             if dur_key in b and b[dur_key] > 0:
                 b[dur_key] -= 1
                 if b[dur_key] == 0: expired.append(name)
-        for name in expired:
-            buff = self.buffs[name]
-            # Reverse stat bonuses applied by apply_buff_spell()
-            if "stat_bonuses" in buff:
-                for stat, val in buff["stat_bonuses"].items():
-                    if stat in self.stats:
-                        self.stats[stat] -= val
-            if "ac_bonus" in buff:
-                self.ac -= buff["ac_bonus"]
-            if "attack_bonus_applied" in buff:
-                self.flat_attack_bonus -= buff["attack_bonus_applied"]
-            del self.buffs[name]
+        for name in expired: del self.buffs[name]
         return expired
 
     def status_line(self):
@@ -973,10 +962,7 @@ class Combat:
             if self.fighters[name].alive: break
             attempts += 1
         self.fighters[name].start_turn(self.round)
-        self._log(f"--- R{self.round} {name}'s turn ---")
-        # Auto-process start-of-turn regen (heals route through heal() → perk multipliers)
-        self.process_regen(name)
-        return self.round, name
+        self._log(f"--- R{self.round} {name}'s turn ---"); return self.round, name
 
     def can_be_targeted(self, tgt: str, atk: str = "", ranged: bool = False) -> Tuple[bool, str]:
         """Check if target can be attacked. Enforces ethereal, invisible, etc.
@@ -1414,212 +1400,6 @@ class Combat:
         src_tag = f" ({source})" if source else ""
         self._log(f"  {name} +{final}t{mult_tag}{src_tag} → {c.temp_hp}t")
 
-    # ──────────────────────────────────────────────────────────────
-    #  BUFF SPELL APPLICATION — routes all buff effects through
-    #  buff_mult from the caster's perks (Ember Enhancement 10x etc.)
-    # ──────────────────────────────────────────────────────────────
-
-    def apply_buff_spell(self, target: str, buff_name: str,
-                         stat_bonuses: Dict[str, int] = None,
-                         ac_bonus: int = 0, attack_bonus: int = 0,
-                         duration: int = -1, caster: str = "",
-                         extra: Dict[str, Any] = None) -> dict:
-        """Apply a buff spell with perk multipliers (Ember Enhancement 10x for buff spells).
-
-        All numeric bonuses are multiplied by the CASTER's buff_mult.
-        The buff is stored on the target with the multiplied values so it
-        can be cleanly reversed when the buff expires or is dispelled.
-
-        Args:
-            target: combatant receiving the buff
-            buff_name: name of the buff spell (e.g. "Protector's Surge")
-            stat_bonuses: dict of stat modifier bonuses, e.g. {"str": 4, "dex": 4}
-            ac_bonus: flat AC bonus
-            attack_bonus: flat attack roll bonus
-            duration: rounds (-1 = permanent / until dispelled)
-            caster: who cast the buff (for perk lookup). If empty, uses target.
-            extra: additional arbitrary data to store on the buff
-        Returns:
-            dict with base values, multiplier, and applied values.
-        """
-        c = self.fighters[target]
-        perk_owner = caster if caster and caster in self.fighters else target
-        perks = self.check_perks(perk_owner)
-        mult = perks.get("buff_mult", 1.0)
-
-        stat_bonuses = stat_bonuses or {}
-        applied_stats = {}
-        for stat, val in stat_bonuses.items():
-            applied = int(val * mult)
-            applied_stats[stat] = applied
-            if stat in c.stats:
-                c.stats[stat] += applied
-
-        applied_ac = int(ac_bonus * mult) if ac_bonus else 0
-        if applied_ac:
-            c.ac += applied_ac
-
-        applied_atk = int(attack_bonus * mult) if attack_bonus else 0
-        if applied_atk:
-            c.flat_attack_bonus += applied_atk
-
-        # Store on combatant for reversal on expiry
-        buff_data = {
-            "duration": duration, "effects": f"{buff_name} (x{mult})",
-            "caster": caster, "mult": mult,
-            "stat_bonuses": applied_stats,
-        }
-        if applied_ac:
-            buff_data["ac_bonus"] = applied_ac
-        if applied_atk:
-            buff_data["attack_bonus_applied"] = applied_atk
-        if extra:
-            buff_data["extra"] = extra
-        c.add_buff(buff_name, duration, effects=buff_data.get("effects", ""))
-        c.buffs[buff_name].update(buff_data)
-
-        mult_tag = f" [x{mult} Ember]" if mult > 1.0 else ""
-        bonuses_str = ", ".join(f"{s}+{v}" for s, v in applied_stats.items())
-        ac_str = f", AC+{applied_ac}" if applied_ac else ""
-        atk_str = f", atk+{applied_atk}" if applied_atk else ""
-        self._log(f"  {target} gains [{buff_name}]{mult_tag}: {bonuses_str}{ac_str}{atk_str}")
-
-        return {
-            "buff_name": buff_name, "mult": mult,
-            "base_stat_bonuses": stat_bonuses, "applied_stat_bonuses": applied_stats,
-            "base_ac": ac_bonus, "applied_ac": applied_ac,
-            "base_atk": attack_bonus, "applied_atk": applied_atk,
-        }
-
-    def remove_buff_spell(self, target: str, buff_name: str) -> dict:
-        """Early removal of a buff (dispel, concentration break). Reverses all stat changes."""
-        c = self.fighters[target]
-        buff = c.buffs.get(buff_name)
-        if not buff:
-            return {"removed": False, "reason": f"{buff_name} not found on {target}"}
-        for stat, val in buff.get("stat_bonuses", {}).items():
-            if stat in c.stats:
-                c.stats[stat] -= val
-        if "ac_bonus" in buff:
-            c.ac -= buff["ac_bonus"]
-        if "attack_bonus_applied" in buff:
-            c.flat_attack_bonus -= buff["attack_bonus_applied"]
-        del c.buffs[buff_name]
-        self._log(f"  {target} loses [{buff_name}] — all bonuses reversed")
-        return {"removed": True, "buff_name": buff_name}
-
-    # ──────────────────────────────────────────────────────────────
-    #  REGEN PROCESSING — start-of-turn healing from ongoing effects.
-    #  Routes through heal() so heal_mult from caster's perks applies.
-    # ──────────────────────────────────────────────────────────────
-
-    def process_regen(self, name: str) -> List[Dict[str, Any]]:
-        """Process start-of-turn regeneration for a combatant.
-
-        Called automatically by next_turn() after start_turn().
-        Checks:
-          1. Combatant.regen_percent (innate regen, e.g. trolls)
-          2. Buffs with 'regen_pct' key (spell-granted regen, e.g. Healing Dance)
-        Heals route through self.heal() so the CASTER's heal_mult is applied.
-        Returns list of heal results for narration.
-        """
-        c = self.fighters[name]
-        if not c.alive:
-            return []
-
-        results = []
-
-        # 1. Innate regen (regen_percent on the Combatant dataclass)
-        if hasattr(c, 'regen_percent') and c.regen_percent > 0 and c.hp > 0:
-            base_heal = max(1, int(c.max_hp * c.regen_percent))
-            r = self.heal(name, base_heal, source="Innate Regen", healer=name)
-            results.append(r)
-
-        # 2. Buff-granted regen (any buff with 'regen_pct' key)
-        for bname, bdata in list(c.buffs.items()):
-            regen_pct = bdata.get("regen_pct", 0)
-            if regen_pct > 0:
-                caster = bdata.get("caster", name)
-                base_heal = max(1, int(c.max_hp * regen_pct))
-                r = self.heal(name, base_heal, source=bname, healer=caster)
-                r["buff_name"] = bname
-                r["caster"] = caster
-                results.append(r)
-
-        return results
-
-    def add_regen_buff(self, target: str, buff_name: str, regen_pct: float,
-                       duration: int = -1, caster: str = "") -> None:
-        """Convenience: add a regen buff that process_regen() will pick up each turn.
-
-        Args:
-            target: combatant who gets the regen
-            buff_name: e.g. "Healing Dance"
-            regen_pct: fraction of max HP per round, e.g. 0.10 for 10%
-            duration: rounds until expiry (-1 = permanent/manual removal)
-            caster: who cast it (their heal_mult applies each tick)
-        """
-        c = self.fighters[target]
-        c.add_buff(buff_name, duration, effects=f"regen {int(regen_pct*100)}%/rd")
-        c.buffs[buff_name]["regen_pct"] = regen_pct
-        c.buffs[buff_name]["caster"] = caster
-        self._log(f"  {target} gains [{buff_name}] regen {int(regen_pct*100)}%/rd (caster: {caster or target})")
-
-    # ──────────────────────────────────────────────────────────────
-    #  EMOTION TRANSFER — routes through buff_mult from caster's perks.
-    # ──────────────────────────────────────────────────────────────
-
-    def apply_emotion(self, target: str, emotion: str, intensity: int = 1,
-                      duration: int = 3, caster: str = "",
-                      save_stat: str = "", save_dc: int = 0,
-                      mechanical_effects: Dict[str, int] = None) -> dict:
-        """Apply an emotion transfer with perk multipliers.
-
-        Ember Enhancement 10x makes emotion transfers 10x more potent.
-        The intensity value is multiplied; duration stays the same.
-
-        Args:
-            target: combatant receiving the emotion
-            emotion: name of the emotion (e.g. "inspired", "terrified", "charmed")
-            intensity: base intensity level (multiplied by buff_mult)
-            duration: rounds the emotion lasts
-            caster: who transferred the emotion (for perk lookup)
-            save_stat: if set, target gets a save to resist
-            save_dc: DC for the save
-            mechanical_effects: stat bonuses from the emotion (also multiplied)
-        Returns:
-            dict with emotion name, intensity, mult, applied status.
-        """
-        if save_stat and save_dc:
-            save_result = self.save(target, save_stat, save_dc)
-            if save_result["success"]:
-                self._log(f"  {target} resists [{emotion}] from {caster}")
-                return {"emotion": emotion, "applied": False, "save": save_result}
-
-        perk_owner = caster if caster and caster in self.fighters else target
-        perks = self.check_perks(perk_owner)
-        mult = perks.get("buff_mult", 1.0)
-
-        final_intensity = int(intensity * mult)
-
-        self.add_status(target, emotion, category="emotion", duration=duration,
-                        source=caster, data={"intensity": final_intensity, "caster": caster,
-                                              "base_intensity": intensity, "mult": mult})
-
-        if mechanical_effects:
-            self.apply_buff_spell(target, f"{emotion}_effect",
-                                  stat_bonuses=mechanical_effects,
-                                  duration=duration, caster=caster)
-
-        mult_tag = f" [x{mult} Ember]" if mult > 1.0 else ""
-        self._log(f"  {target} feels [{emotion}] intensity {intensity}->{final_intensity}{mult_tag} from {caster}")
-
-        return {
-            "emotion": emotion, "applied": True,
-            "base_intensity": intensity, "mult": mult,
-            "final_intensity": final_intensity, "duration": duration,
-        }
-
     def process_auras(self, name: str) -> List[Dict[str, Any]]:
         """Process start-of-turn aura effects from ALL combatants that affect 'name'.
 
@@ -1655,8 +1435,8 @@ class Combat:
                     self._log(f"  AURA: {perk['name']} ({fname}) → {name} RESISTED")
         return results
 
-    def add_status(self, tgt, name, category="condition", duration=-1, compound_clears="", source="", data=None):
-        s = Status(name=name, category=category, duration=duration, round_applied=self.round, compound_clears=compound_clears, source=source, data=data or {})
+    def add_status(self, tgt, name, category="condition", duration=-1, compound_clears="", source=""):
+        s = Status(name=name, category=category, duration=duration, round_applied=self.round, compound_clears=compound_clears, source=source)
         self.fighters[tgt].add_status(s); self._log(f"  {tgt} gains [{name}]")
 
     def save(self, name, stat, dc, adv=False, dis=False, auto_fail=False):

@@ -7,8 +7,8 @@
     "protectors_surge_on": "Fenella"
   },
   "combat": {
-    "round": 3,
-    "turn_idx": 0,
+    "round": 5,
+    "turn_idx": 6,
     "order": [
       [
         16,
@@ -199,8 +199,21 @@
           }
         ],
         "buffs": {},
-        "statuses": [],
-        "concentrating_on": "Healing Dance",
+        "statuses": {
+          "debris_trap_readied": {
+            "duration": 1,
+            "source": "Performance 28 vs Insight 11, STR DC 17 to unimpale"
+          },
+          "healing_dance_regen": {
+            "duration": -1,
+            "source": "Healing Dance (completed R3)",
+            "base_pct": 10,
+            "ember_mult": 10,
+            "effective_pct": 100,
+            "note": "100% max HP regen at start of turn"
+          }
+        },
+        "concentrating_on": "",
         "concentration_save_mod": 0,
         "action_used": true,
         "bonus_action_used": false,
@@ -216,9 +229,33 @@
         "conscious": true,
         "disposition": "friendly",
         "perks": [
-          {"name": "Ember Enhancement — Level 4 Awakening", "condition": "ember_active", "effect": "heal_mult", "value": 10.0, "source_type": "ember_enhancement"},
-          {"name": "Ember Enhancement — Level 4 Awakening", "condition": "ember_active", "effect": "buff_mult", "value": 10.0, "source_type": "ember_enhancement"},
-          {"name": "Heartstring (Ember passive — Resonance)", "condition": "always", "effect": "aura", "value": 0, "aura_data": {"range_ft": 30, "save_stat": "wis", "save_dc": 12, "description": "+2 CHA checks. 30ft WIS DC 12 or emotion shift."}, "source_type": "aura"}
+          {
+            "name": "Ember Enhancement \u2014 Level 4 Awakening",
+            "condition": "ember_active",
+            "effect": "heal_mult",
+            "value": 10.0,
+            "source_type": "ember_enhancement"
+          },
+          {
+            "name": "Ember Enhancement \u2014 Level 4 Awakening",
+            "condition": "ember_active",
+            "effect": "buff_mult",
+            "value": 10.0,
+            "source_type": "ember_enhancement"
+          },
+          {
+            "name": "Heartstring (Ember passive \u2014 Resonance)",
+            "condition": "always",
+            "effect": "aura",
+            "value": 0,
+            "aura_data": {
+              "range_ft": 30,
+              "save_stat": "wis",
+              "save_dc": 12,
+              "description": "+2 CHA checks. 30ft WIS DC 12 or emotion shift."
+            },
+            "source_type": "aura"
+          }
         ],
         "morale_threshold": 0.0,
         "has_fled": false,
@@ -235,7 +272,7 @@
         "stats": {
           "str": 0,
           "dex": 4,
-          "con": 2,
+          "con": 5,
           "int": 0,
           "wis": 1,
           "cha": -1
@@ -295,14 +332,23 @@
           }
         ],
         "buffs": {},
-        "statuses": [],
+        "statuses": {
+          "healing_dance_regen": {
+            "duration": -1,
+            "source": "Healing Dance (completed R3)",
+            "base_pct": 10,
+            "ember_mult": 10,
+            "effective_pct": 100,
+            "note": "100% max HP regen at start of turn"
+          }
+        },
         "concentrating_on": "",
-        "concentration_save_mod": 0,
+        "concentration_save_mod": 5,
         "action_used": true,
         "bonus_action_used": false,
         "extra_action_used": false,
-        "reaction_used": false,
-        "reaction_name": "",
+        "reaction_used": true,
+        "reaction_name": "Readied Attack",
         "movement_remaining": 30,
         "has_cunning_action": false,
         "has_extra_action": false,
@@ -367,14 +413,23 @@
           }
         ],
         "buffs": {},
-        "statuses": [],
+        "statuses": {
+          "healing_dance_regen": {
+            "duration": -1,
+            "source": "Healing Dance (completed R3)",
+            "base_pct": 10,
+            "ember_mult": 10,
+            "effective_pct": 100,
+            "note": "100% max HP regen at start of turn"
+          }
+        },
         "concentrating_on": "",
         "concentration_save_mod": 0,
         "action_used": true,
         "bonus_action_used": false,
         "extra_action_used": false,
-        "reaction_used": false,
-        "reaction_name": "",
+        "reaction_used": true,
+        "reaction_name": "Readied Attack",
         "movement_remaining": 30,
         "has_cunning_action": false,
         "has_extra_action": false,
@@ -459,14 +514,23 @@
           }
         ],
         "buffs": {},
-        "statuses": [],
+        "statuses": {
+          "healing_dance_regen": {
+            "duration": -1,
+            "source": "Healing Dance (completed R3)",
+            "base_pct": 10,
+            "ember_mult": 10,
+            "effective_pct": 100,
+            "note": "100% max HP regen at start of turn"
+          }
+        },
         "concentrating_on": "",
         "concentration_save_mod": 0,
         "action_used": true,
         "bonus_action_used": false,
         "extra_action_used": false,
-        "reaction_used": false,
-        "reaction_name": "",
+        "reaction_used": true,
+        "reaction_name": "Readied Attack",
         "movement_remaining": 30,
         "has_cunning_action": false,
         "has_extra_action": false,
@@ -551,16 +615,12 @@
           }
         ],
         "buffs": {},
-        "statuses": [
-          {
-            "name": "ethereal",
-            "category": "condition",
-            "duration": 1,
-            "round_applied": 2,
-            "source": "",
-            "compound_clears": ""
+        "statuses": {
+          "ethereal": {
+            "duration": -1,
+            "source": "Ethereal Jaunt"
           }
-        ],
+        },
         "concentrating_on": "",
         "concentration_save_mod": 0,
         "action_used": true,
@@ -576,7 +636,15 @@
         "alive": true,
         "conscious": true,
         "disposition": "hostile",
-        "perks": [{"name": "Ethereal Jaunt", "condition": "always", "effect": "can_ethereal", "value": 1, "source_type": "monster_ability"}],
+        "perks": [
+          {
+            "name": "Ethereal Jaunt",
+            "condition": "always",
+            "effect": "can_ethereal",
+            "value": 1,
+            "source_type": "monster_ability"
+          }
+        ],
         "morale_threshold": 0.0,
         "has_fled": false,
         "tags": [],
@@ -585,7 +653,7 @@
       "Phase Spider 2": {
         "name": "Phase Spider 2",
         "max_hp": 32,
-        "hp": 18,
+        "hp": 8,
         "temp_hp": 0,
         "ac": 13,
         "base_ac": 13,
@@ -652,7 +720,12 @@
           }
         ],
         "buffs": {},
-        "statuses": [],
+        "statuses": {
+          "ethereal": {
+            "duration": -1,
+            "source": "Ethereal Jaunt"
+          }
+        },
         "concentrating_on": "",
         "concentration_save_mod": 0,
         "action_used": false,
@@ -668,7 +741,15 @@
         "alive": true,
         "conscious": true,
         "disposition": "hostile",
-        "perks": [{"name": "Ethereal Jaunt", "condition": "always", "effect": "can_ethereal", "value": 1, "source_type": "monster_ability"}],
+        "perks": [
+          {
+            "name": "Ethereal Jaunt",
+            "condition": "always",
+            "effect": "can_ethereal",
+            "value": 1,
+            "source_type": "monster_ability"
+          }
+        ],
         "morale_threshold": 0.0,
         "has_fled": false,
         "tags": [],
@@ -677,7 +758,7 @@
       "Phase Spider 3": {
         "name": "Phase Spider 3",
         "max_hp": 32,
-        "hp": 17,
+        "hp": 0,
         "temp_hp": 0,
         "ac": 13,
         "base_ac": 13,
@@ -746,11 +827,11 @@
         "buffs": {},
         "statuses": [
           {
-            "name": "ethereal",
-            "category": "condition",
+            "name": "vicious_mockery",
+            "category": "debuff",
             "duration": 1,
-            "round_applied": 2,
-            "source": "",
+            "round_applied": 3,
+            "source": "Ivor",
             "compound_clears": ""
           }
         ],
@@ -766,10 +847,18 @@
         "has_extra_action": false,
         "position": 0,
         "elevation": 0,
-        "alive": true,
-        "conscious": true,
+        "alive": false,
+        "conscious": false,
         "disposition": "hostile",
-        "perks": [{"name": "Ethereal Jaunt", "condition": "always", "effect": "can_ethereal", "value": 1, "source_type": "monster_ability"}],
+        "perks": [
+          {
+            "name": "Ethereal Jaunt",
+            "condition": "always",
+            "effect": "can_ethereal",
+            "value": 1,
+            "source_type": "monster_ability"
+          }
+        ],
         "morale_threshold": 0.0,
         "has_fled": false,
         "tags": [],
@@ -777,46 +866,59 @@
       }
     },
     "log": [
-      "R1: Combat start: Phase Spider 2(16), Phase Spider 1(13), Cookie(12), Phase Spider 3(10), Fenella(7), Silka(5), Ivor(3)",
-      "R1: --- R1 Phase Spider 2's turn ---",
-      "R1: Phase Spider 2 \u2192 Ivor: nat 1+4=5 vs AC 12 \u2192 MISS",
-      "R1:   Phase Spider 2 gains [ethereal]",
-      "R1: --- R1 Phase Spider 1's turn ---",
-      "R1: Phase Spider 1 \u2192 Ivor: nat 5+4=9 vs AC 12 \u2192 MISS",
-      "R1:   Phase Spider 1 gains [ethereal]",
-      "R1: --- R1 Cookie's turn ---",
-      "R1:   Fenella gains [bolstered]",
-      "R1:   Silka gains [bolstered]",
-      "R1:   Ivor gains [bolstered]",
-      "R1:   Phase Spider 3 takes 4 \u2192 HP 28/32",
-      "R1:   Phase Spider 3 gains [prone]",
-      "R1:   Cookie gains [tai_chi_dodge]",
-      "R1:   Phase Spider 3 takes 10 \u2192 HP 18/32",
-      "R1:   Phase Spider 3 takes 1 \u2192 HP 17/32",
-
-      "R1:   Phase Spider 3 gains [vicious_mockery]",
-      "R1: --- R1 Phase Spider 3's turn ---",
-      "R1:   Ivor takes 11 \u2192 HP 14/18",
-      "R1:   Ivor takes 9 \u2192 HP 5/18",
-      "R1:   Phase Spider 3 gains [ethereal]",
-      "R1: --- R1 Fenella's turn ---",
-      "R1: --- R1 Silka's turn ---",
-      "R1: --- R1 Ivor's turn ---",
-      "R2: --- R2 Phase Spider 2's turn ---",
-      "R2: --- R2 Phase Spider 1's turn ---",
-      "R2:   Phase Spider 1 gains [ethereal]",
-      "R2: --- R2 Cookie's turn ---",
-      "R2: --- R2 Phase Spider 3's turn ---",
-      "R2:   Phase Spider 3 gains [ethereal]",
-      "R2: --- R2 Fenella's turn ---",
-      "R2:   Phase Spider 2 takes 7 \u2192 HP 25/32",
-      "R2: --- R2 Silka's turn ---",
-      "R2:   Phase Spider 2 takes 7 \u2192 HP 18/32",
-      "R2: --- R2 Ivor's turn ---",
-      "R3: --- R3 Phase Spider 2's turn ---"
+      "R3: Cookie \u2192 Phase Spider 2: nat 11+7=18 vs AC 13 \u2192 HIT",
+      "R3:   Cookie gains [tai_chi_dodge]",
+      "R3: Fenella \u2192 Phase Spider 3: nat 19+6=25 vs AC 13 \u2192 HIT",
+      "R3:   Phase Spider 3 takes 6 \u2192 HP 11/32",
+      "R3: Silka \u2192 Phase Spider 3: nat 15+4=19 vs AC 13 \u2192 HIT",
+      "R3:   Phase Spider 3 takes 7 \u2192 HP 4/32",
+      "R3:   Phase Spider 3 WIS: nat 3+0=3 vs DC 13 \u2192 FAIL",
+      "R3:   Phase Spider 3 takes 4 \u2192 HP 0/32",
+      "R3:   Phase Spider 3 gains [vicious_mockery]",
+      "R3: Phase Spider 3 \u2192 Ivor: nat 11+4=15 vs AC 12 \u2192 HIT",
+      "R3: Phase Spider 3 \u2192 Ivor: nat 3+4=7 vs AC 12 \u2192 MISS DIS",
+      "R4: \u2500\u2500 ROUND 4 START \u2500\u2500",
+      "R4: Phase Spider 2 materializes \u2192 readied reactions trigger",
+      "R4:   Fenella shortbow: 9 vs AC 13 \u2192 MISS",
+      "R4:   Silka rapier: 11 vs AC 13 \u2192 MISS",
+      "R4:   Ivor Vicious Mockery: WIS save 11 vs DC 13 \u2192 FAIL, 3 psychic, disadv next atk",
+      "R4:   Spider 2 takes 3 \u2192 HP 15/32",
+      "R4:   Spider 2 Bite \u2192 Ivor (disadv): [12,1]\u21921+4=5 vs AC 12 \u2192 MISS",
+      "R4:   Spider 2 re-jaunts to Ethereal",
+      "R4: Phase Spider 1 materializes (no reactions left)",
+      "R4:   Spider 1 Bite \u2192 Cookie: 5 vs AC 18 \u2192 MISS",
+      "R4:   Spider 1 re-jaunts to Ethereal",
+      "R4: Cookie \u2014 Tai Chi Performance (free attacks): 12 vs DC 12 \u2192 SUCCESS, no material targets",
+      "R4:   Kick: no targets (both ethereal)",
+      "R4:   Dodge Performance: 27 vs DC 12 \u2192 SUCCESS (75% dodge active)",
+      "R4: Fenella readies shortbow",
+      "R4: Silka readies rapier",
+      "R4: Ivor readies Vicious Mockery",
+      "R4: \u2500\u2500 ROUND 4 END \u2500\u2500",
+      "R5: \u2500\u2500 ROUND 5 START \u2500\u2500",
+      "R5: Spider 2 materializes \u2192 readied reactions trigger",
+      "R5:   Fenella shortbow: 23 vs AC 13 \u2192 HIT 7 piercing",
+      "R5:   Silka rapier: 5 vs AC 13 \u2192 MISS",
+      "R5:   Ivor VM: WIS save 14 vs DC 13 \u2192 SAVED",
+      "R5:   Spider 2 takes 7 \u2192 HP 8/32",
+      "R5:   Spider 2 Bite \u2192 Ivor: 16 vs AC 12 \u2192 HIT! 6 pierce + 17 poison = 23 \u2192 Ivor DOWN (0/18)",
+      "R5:   Spider 2 re-jaunts",
+      "R5: Spider 1 materializes \u2192 Cookie dodges (d100=39 \u226475)",
+      "R5:   Redirects to Fenella: 7 vs AC 16 \u2192 MISS",
+      "R5:   Spider 1 re-jaunts",
+      "R5: Cookie \u2014 Debris Trap: Performance 28 vs Insight 11 \u2192 SUCCESS",
+      "R5:   Readied reaction: impale on spider attack, STR DC 17 to unimpale, no ethereal while impaled",
+      "R5:   NO Tai Chi dodge (Action used for trap)",
+      "R5: Fenella readies shortbow",
+      "R5: Silka readies rapier",
+      "R5: Ivor UNCONSCIOUS \u2014 cannot ready (death saves begin R6)",
+      "R5: \u2500\u2500 ROUND 5 END \u2500\u2500",
+      "R5 RETCON: Healing Dance regen (10% x 10x Ember = 100% max HP/round) was not tracked",
+      "R5:   Ivor regen at init 3: heals 18/18 \u2192 conscious, back on feet",
+      "R5:   All allies have 100% max HP regen active (Healing Dance + Ember Enhancement)"
     ],
     "active": true,
     "zones": []
   },
-  "saved_at": "2026-04-28T20:32:19.253857"
+  "saved_at": "2026-04-28T_R5_end_fixed"
 }
