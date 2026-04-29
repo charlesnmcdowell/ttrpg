@@ -74,11 +74,24 @@ python _dm_turn.py dashboard
 
 ### Before narrating:
 
-1. **NEVER SPEAK FOR THE PC** — The DM never writes the player character's dialogue. Not in quotes. Not paraphrased. Not summarized. Not implied through narration.
-   - If a scene requires the PC to say something, STOP and ask the player.
-   - **Only exception:** when the player's prompt makes intent crystal clear AND the words carry zero narrative weight (e.g., player says "I order a room" → DM can write "You ask for a room"). But if the conversation involves negotiation, emotional stakes, promises, strategy, or relationships → STOP and let the player speak.
-   - Even in multi-action prompts ("meet X, then do Y") — narrate NPC dialogue, describe the scene, and STOP for the player's words whenever the PC needs to respond to something meaningful. The player declared the goal, not the dialogue.
-   - **Self-test:** Read your response before sending. Find every instance where the PC talks, argues, explains, or responds verbally. Delete all of them. Present the NPC's side and wait.
+0. **Goal alert scan** — Run BEFORE writing the scene. Check all PC + NPC goals against current day/hour:
+   ```python
+   # In engine: engine.check_goal_alerts() returns list of alert strings
+   # Or mentally: scan NPC Goals table in character_tracker.md vs current day/hour
+   ```
+   - **FIRES NOW** (red) → this goal's deadline is THIS scene. Weave the consequence into the narrative. The NPC acts on their goal or fails visibly.
+   - **IMMINENT** (hourglass) → fires next time-slot today. Foreshadow — the NPC is preparing, nervous, or making moves.
+   - **DUE TODAY** → the NPC is aware their window is closing. Their behavior reflects urgency.
+   - **DUE TOMORROW** → subtle tension. The NPC mentions time pressure or makes preparations.
+   - **OVERDUE** → the consequence has already triggered. If not yet narrated, it happens NOW.
+   - If no alerts fire, proceed normally.
+
+1. **NEVER SPEAK FOR THE PC** — The DM never writes the player character's dialogue. Not in quotes. Not paraphrased. Not summarized. Not implied through narration. The DM never narrates the PC's decisions, choices, or strategic actions.
+   - If a scene requires the PC to say or decide something, STOP and ask the player.
+   - **Only exception:** when the player's prompt makes intent crystal clear AND the words carry zero narrative weight (e.g., player says "I order a room" → DM can write "You ask for a room"). But if the conversation involves negotiation, emotional stakes, promises, strategy, relationships, or creative choices (what to perform, how to respond, what to buy) → STOP and let the player speak.
+   - Even in multi-action prompts ("I wake up and go to class") — the player declared a *destination*, not a *script*. Narrate the world reacting, describe what the PC sees and what NPCs do, and STOP the moment an NPC addresses the PC or the PC needs to make a choice.
+   - **GAMEPLAY IS NOT A NOVEL.** During live play, every DM response should end with the ball in the player's court — an NPC waiting for a response, a choice to make, a moment where the PC needs to speak or act. The DM's job is to SET UP THE PLAYER'S NEXT TURN. Novel-quality prose is for chapter files at chapter close, not for gameplay turns.
+   - **Self-test:** Read your response before sending. (1) Find every instance where the PC talks, argues, explains, responds verbally, or makes a decision. Delete all of them. (2) Check: does the response END with something the player needs to react to? If it ends with the scene resolved and wrapped up, you wrote a novel page, not a game turn. Cut back to the decision point and stop there.
 
 2. **Scene skill preroll** — Roll BEFORE writing the scene. Use:
    ```bash
@@ -109,8 +122,9 @@ python _dm_turn.py dashboard
 
 6. **Award EXP** — Mandatory after every skill roll:
    - Skill check EXP from table: DC 8-10 = 500, DC 11-14 = 1,000, DC 15-17 = 1,500, DC 18-20 = 2,500, DC 21+ = 5,000
-   - Support archetype domain roll: +25% of XP-to-next-level per successful roll
-   - State EXP earned in the response
+   - **Domain bonus (support archetypes only):** Every successful skill check matching the character's `support_archetype` domain earns +25% of the XP gap between current level and next level. This is **per check**, not per scene. Use `engine.domain_bonus_for_check(label, success)` — it auto-detects domain match and calculates the bonus. Domain bonus stacks with skill check EXP. If multiple domain checks in one scene cause a level-up, recalculate the gap for subsequent checks at the new level.
+   - **Starter campaigns** use `STARTER_THRESHOLDS` (set `campaign_type: "starter"` in state). Standard campaigns use `LEVEL_THRESHOLDS`.
+   - State EXP earned in the response (show skill XP + domain bonus separately)
 
 7. **Advance time** — Update hour based on scene duration:
    - Conversation: 15-30 min

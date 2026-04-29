@@ -2,109 +2,43 @@
   "meta": {
     "campaign": "Cookie",
     "encounter": "Phase Spiders - Burnt Amphitheatre",
-    "version": "fresh_v2_death_system"
+    "version": "v3_narration_guard"
   },
   "combat": {
     "round": 3,
+    "last_narrated_round": 3,
     "turn_idx": 6,
     "order": [
       [
-        18,
-        "Silka"
-      ],
-      [
-        17,
-        "Cookie"
-      ],
-      [
-        12,
+        19,
         "Fenella"
       ],
       [
-        9,
-        "Phase Spider 1"
+        19,
+        "Silka"
       ],
       [
-        9,
+        14,
         "Phase Spider 3"
       ],
       [
-        7,
+        8,
+        "Cookie"
+      ],
+      [
+        8,
         "Phase Spider 2"
       ],
       [
-        6,
+        5,
         "Ivor"
+      ],
+      [
+        5,
+        "Phase Spider 1"
       ]
     ],
     "fighters": {
-      "Cookie": {
-        "name": "Cookie",
-        "max_hp": 35,
-        "hp": 19,
-        "temp_hp": 0,
-        "ac": 18,
-        "base_ac": 18,
-        "stats": {
-          "str": -1,
-          "dex": 3,
-          "con": 1,
-          "int": 0,
-          "wis": 1,
-          "cha": 4
-        },
-        "proficiency": 2,
-        "attack_bonus": 7,
-        "flat_attack_bonus": 0,
-        "spell_slots": {
-          "1": [
-            4,
-            4
-          ],
-          "2": [
-            1,
-            3
-          ]
-        },
-        "buffs": {},
-        "statuses": {
-          "tai_chi_dodge": {
-            "duration": 1,
-            "source": "Tai Chi"
-          }
-        },
-        "concentrating_on": "Healing Dance",
-        "alive": true,
-        "conscious": true,
-        "disposition": "friendly",
-        "perks": [
-          {
-            "name": "Ember Enhancement",
-            "condition": "ember_active",
-            "effect": "heal_mult",
-            "value": 10.0
-          },
-          {
-            "name": "Ember Enhancement",
-            "condition": "ember_active",
-            "effect": "buff_mult",
-            "value": 10.0
-          },
-          {
-            "name": "Heartstring",
-            "condition": "always",
-            "effect": "aura",
-            "value": 0,
-            "aura_data": {
-              "range_ft": 30,
-              "save_stat": "wis",
-              "save_dc": 12,
-              "description": "Resonance"
-            }
-          }
-        ],
-        "dying_rounds": 0
-      },
       "Fenella": {
         "name": "Fenella",
         "max_hp": 20,
@@ -113,7 +47,7 @@
         "ac": 52,
         "base_ac": 12,
         "stats": {
-          "str": 38,
+          "str": 40,
           "dex": 42,
           "con": 45,
           "int": 40,
@@ -139,6 +73,12 @@
               "cha": 40
             },
             "ac_bonus": 40
+          },
+          "Healing Dance Regen": {
+            "duration_hrs": 1,
+            "regen_pct": 1.0,
+            "caster": "Cookie",
+            "effects": "100% max HP regen/round (10% x10 Ember) for 1 hour"
           }
         },
         "statuses": {},
@@ -146,13 +86,12 @@
         "alive": true,
         "conscious": true,
         "disposition": "friendly",
-        "perks": [],
         "dying_rounds": 0
       },
       "Silka": {
         "name": "Silka",
         "max_hp": 22,
-        "hp": 12,
+        "hp": 22,
         "temp_hp": 0,
         "ac": 14,
         "base_ac": 14,
@@ -174,7 +113,103 @@
         "alive": true,
         "conscious": true,
         "disposition": "friendly",
-        "perks": [],
+        "dying_rounds": 0
+      },
+      "Phase Spider 3": {
+        "name": "Phase Spider 3",
+        "max_hp": 32,
+        "hp": -11,
+        "temp_hp": 0,
+        "ac": 13,
+        "base_ac": 13,
+        "stats": {
+          "str": 2,
+          "dex": 2,
+          "con": 1,
+          "int": -2,
+          "wis": 0,
+          "cha": -2
+        },
+        "proficiency": 2,
+        "attack_bonus": 4,
+        "flat_attack_bonus": 0,
+        "spell_slots": {},
+        "buffs": {},
+        "statuses": {},
+        "concentrating_on": "",
+        "alive": false,
+        "conscious": true,
+        "disposition": "hostile",
+        "dying_rounds": 0
+      },
+      "Cookie": {
+        "name": "Cookie",
+        "max_hp": 35,
+        "hp": 35,
+        "temp_hp": 0,
+        "ac": 18,
+        "base_ac": 18,
+        "stats": {
+          "str": -1,
+          "dex": 3,
+          "con": 1,
+          "int": 0,
+          "wis": 1,
+          "cha": 4
+        },
+        "proficiency": 2,
+        "attack_bonus": 7,
+        "flat_attack_bonus": 0,
+        "spell_slots": {
+          "1": [
+            3,
+            4
+          ],
+          "2": [
+            3,
+            3
+          ]
+        },
+        "buffs": {
+          "Healing Dance Regen": {
+            "duration_hrs": 1,
+            "regen_pct": 1.0,
+            "caster": "Cookie",
+            "effects": "100% max HP regen/round (10% x10 Ember) for 1 hour"
+          }
+        },
+        "statuses": {},
+        "concentrating_on": "",
+        "alive": true,
+        "conscious": true,
+        "disposition": "friendly",
+        "dying_rounds": 0
+      },
+      "Phase Spider 2": {
+        "name": "Phase Spider 2",
+        "max_hp": 32,
+        "hp": -19,
+        "temp_hp": 0,
+        "ac": 13,
+        "base_ac": 13,
+        "stats": {
+          "str": 2,
+          "dex": 2,
+          "con": 1,
+          "int": -2,
+          "wis": 0,
+          "cha": -2
+        },
+        "proficiency": 2,
+        "attack_bonus": 4,
+        "flat_attack_bonus": 0,
+        "spell_slots": {},
+        "buffs": {},
+        "statuses": {},
+        "concentrating_on": "",
+        "alive": false,
+        "conscious": true,
+        "disposition": "hostile",
         "dying_rounds": 0
       },
       "Ivor": {
@@ -202,13 +237,12 @@
         "alive": true,
         "conscious": true,
         "disposition": "friendly",
-        "perks": [],
         "dying_rounds": 0
       },
       "Phase Spider 1": {
         "name": "Phase Spider 1",
         "max_hp": 32,
-        "hp": -19,
+        "hp": -15,
         "temp_hp": 0,
         "ac": 13,
         "base_ac": 13,
@@ -230,117 +264,31 @@
         "alive": false,
         "conscious": true,
         "disposition": "hostile",
-        "perks": [
-          {
-            "name": "Ethereal Jaunt",
-            "condition": "always",
-            "effect": "can_ethereal",
-            "value": 1
-          }
-        ],
-        "dying_rounds": 0
-      },
-      "Phase Spider 2": {
-        "name": "Phase Spider 2",
-        "max_hp": 32,
-        "hp": -17,
-        "temp_hp": 0,
-        "ac": 13,
-        "base_ac": 13,
-        "stats": {
-          "str": 2,
-          "dex": 2,
-          "con": 1,
-          "int": -2,
-          "wis": 0,
-          "cha": -2
-        },
-        "proficiency": 2,
-        "attack_bonus": 4,
-        "flat_attack_bonus": 0,
-        "spell_slots": {},
-        "buffs": {},
-        "statuses": {},
-        "concentrating_on": "",
-        "alive": false,
-        "conscious": true,
-        "disposition": "hostile",
-        "perks": [
-          {
-            "name": "Ethereal Jaunt",
-            "condition": "always",
-            "effect": "can_ethereal",
-            "value": 1
-          }
-        ],
-        "dying_rounds": 0
-      },
-      "Phase Spider 3": {
-        "name": "Phase Spider 3",
-        "max_hp": 32,
-        "hp": -12,
-        "temp_hp": 0,
-        "ac": 13,
-        "base_ac": 13,
-        "stats": {
-          "str": 2,
-          "dex": 2,
-          "con": 1,
-          "int": -2,
-          "wis": 0,
-          "cha": -2
-        },
-        "proficiency": 2,
-        "attack_bonus": 4,
-        "flat_attack_bonus": 0,
-        "spell_slots": {},
-        "buffs": {},
-        "statuses": {
-          "ethereal": {
-            "duration": -1,
-            "source": "Ethereal Jaunt"
-          }
-        },
-        "concentrating_on": "",
-        "alive": false,
-        "conscious": true,
-        "disposition": "hostile",
-        "perks": [
-          {
-            "name": "Ethereal Jaunt",
-            "condition": "always",
-            "effect": "can_ethereal",
-            "value": 1
-          }
-        ],
         "dying_rounds": 0
       }
     },
     "log": [
-      "R1: Silka hits Phase Spider 1 for 7",
-      "R1: Cookie starts Healing Dance (L2 conc, R1/3)",
-      "R1: Fenella hits Phase Spider 1 for 44",
-      "R1: Phase Spider 3 misses Fenella",
-      "R1: Phase Spider 2 bites Cookie for 16",
-      "R2: Silka readies/attacks",
-      "R2: Cookie Tai Chi (conc broken)",
-      "R2: Fenella readies/attacks",
-      "R2: Phase Spider 3 killed by readied attacks",
-      "R2: Phase Spider 2 bites Silka for 10",
-      "R2: Ivor readies/attacks",
-      "R3: Silka readies rapier",
-      "R3: Cookie Tai Chi (Perf 24, dodge active)",
+      "R1: Combat start: Fenella(19), Silka(19), Phase Spider 3(14), Cookie(8), Phase Spider 2(8), Ivor(5), Phase Spider 1(5)",
+      "R1: [narration] Round 1 shown to player",
+      "R2: Cookie orders Silka+Ivor to flee with survivors",
+      "R2: Fenella readies shortbow",
+      "R2: Silka flees (Dash)",
+      "R2: Spider 3 result logged above",
+      "R2: Cookie Healing Dance R2/3, conc=held",
+      "R2: Spider 2 attacks (disadvantage from VM)",
+      "R2: Ivor flees (Dash)",
       "R3: Fenella readies shortbow",
-      "R3: Spider 2 materializes - triggers 3 readied reactions",
-      "R3: Ivor VM hits (WIS 6 vs DC 13) - 1 psychic",
-      "R3: Silka rapier hits (15 vs AC 13) - 4 piercing",
-      "R3: Fenella shortbow hits (45 vs AC 13) - 44 piercing",
-      "R3: Spider 2 FATALITY at -17 HP. Combat over.",
-      "CORRECTION: Spider 1 HP retroactively set to -19 (FATALITY) \u2014 was 0 due to pre-death-system clamping"
+      "R3: Cookie completes Healing Dance (100% burst + 100% regen/round 1hr)",
+      "R3: Spider 2 materializes -> Fenella reaction",
+      "R3: Spider 2 HP=-19, alive=False"
     ],
     "active": false,
     "zones": [],
-    "readied": {}
+    "readied": {},
+    "fled": [
+      "Ivor",
+      "Silka"
+    ]
   },
-  "saved_at": "2026-04-28T_R3_end_VICTORY"
+  "saved_at": "2026-04-28T_R3_end"
 }

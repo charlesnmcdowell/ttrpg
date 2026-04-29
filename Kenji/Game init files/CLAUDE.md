@@ -4,7 +4,9 @@ This folder holds live campaign tooling and trackers. Read **`tracking_rules.md`
 
 ---
 
-## ⚠️ MANDATORY FIRST READ — DM Turn Protocol
+## ⚠️ MANDATORY FIRST READ — Session Memory + DM Turn Protocol
+
+**Before ANYTHING else, read `SESSION_MEMORY.md` in this directory.** It contains persistent notes written by the AI during previous sessions — active state, pending tasks, key decisions, and critical rules that survive chat compaction. Update it at every natural breakpoint (chapter end, major decision, combat resolution, system change).
 
 **Before your first DM response, read `DM_TURN_PROTOCOL.md` in this directory.**
 

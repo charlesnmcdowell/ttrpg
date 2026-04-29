@@ -2241,8 +2241,8 @@ Any character whose primary class is built around a non-combat specialty follows
 **Specialty EXP (the upside):**
 Every successful skill check that falls within the character's **primary skill domain** (as defined by archetype above) awards **25% of the EXP needed for their next level**, regardless of the DC. A bard performing at DC 10 grows as much as at DC 20. A healer stabilizing a DC 8 patient grows as much as curing a DC 18 plague. The growth comes from *doing the thing*, not from difficulty.
 
-- This replaces the standard skill check EXP table for domain rolls only
-- Skill checks outside the primary domain still use the standard table (DC 8–10 = 500, etc.)
+- Domain bonus is awarded **in addition to** the standard skill check EXP (DC 8–10 = 500, etc.) — both fire on a successful domain roll
+- Skill checks outside the primary domain award only the standard table amount
 - Nat 20 on a domain roll doubles the award (50% of next level)
 - Nat 1 awards 0
 - DM determines at each roll whether it qualifies as a domain roll — when in doubt, ask: "Is this character doing what their class is *about*?"
@@ -2251,6 +2251,19 @@ Every successful skill check that falls within the character's **primary skill d
 Support/non-combat characters do NOT receive any solo combat multiplier. Combat EXP is **always calculated as if the party has 5 or more members**, even if the character is fighting alone or with fewer allies. The system does not reward support characters for soloing monsters — it rewards them for solving problems their way.
 
 **Why this works:** A support character who leans into their specialty levels naturally through play. One who tries to grind combat XP at the same rate as a fighter will fall behind. This is intentional — it pushes non-combat characters toward creative solutions and class-appropriate play rather than sword-swinging. A bard performs. A healer heals. A spy infiltrates. That's how they grow.
+
+**Balance note — domain bonus is not free power:**
+The domain bonus looks generous on paper (25% of level gap per check), but it only fires when three conditions are all true: the character's build is invested in the domain skill (high relevant ability score, proficiency, class features that boost checks), the character actually *succeeds* the roll against the scene DC, and the check is an active domain roll (not a passive check, not a different skill, not a freebie). A CHA 8 character with "performer" archetype would fail most Performance DCs and gain nothing. The system rewards build commitment — you have to be *good at what your class does* to level from it.
+
+Meanwhile, a pure combat character can level just as fast or faster by soloing hard monsters. Solo combat multipliers are enormous — a warrior fighting a CR 5 creature alone at Level 5 gets the full solo XP, which can rival or exceed domain bonus gains. The support class's party-of-5+ combat penalty means they can never close that gap through fighting. The two paths are intentionally balanced: high risk / high reward (solo combat) vs. consistent growth through class identity (domain specialization). Neither path is strictly better — they reward different playstyles.
+
+**Engine enforcement:**
+- `support_archetype` in `mechanical_state` determines which skill keywords trigger domain bonus
+- `campaign_type: "starter"` selects `STARTER_THRESHOLDS` (custom L1-10 XP table); standard campaigns use `LEVEL_THRESHOLDS`
+- `engine.domain_bonus_for_check(label, success)` auto-detects domain match, returns bonus XP and a formatted message
+- `engine.is_domain_roll(label)` checks label against `ARCHETYPE_DOMAIN_SKILLS` keyword map
+- Domain bonus stacks with standard skill check XP (not replaces — both awarded)
+- If multiple domain checks in one scene cause a level-up mid-scene, the gap recalculates and subsequent checks use the new (larger) bonus
 
 ### 💃 CUSTOM CLASS FEATURES — DANCER (Cookie)
 
@@ -2272,7 +2285,7 @@ A DEX-based kick-only martial art created by Cookie during her first real fight.
 | Phase | Mechanic |
 |-------|----------|
 | **Start of turn** | Performance roll (d20 + d12 + mod, dancing). DC 12. **Success:** all allies who can see Cookie gain 1 free attack this round. **Fail:** Cookie falls prone and loses her turn. |
-| **Attack** | 1 kick per round. DEX-based (d20 + DEX + prof to hit). **1d6 bludgeoning, always causes PRONE on hit.** |
+| **Attack** | 1 kick per round. DEX-based: **+9 to hit** (d20 + DEX 7 + prof 3 − 1). **6d8+7 bludgeoning** (Anklet of Unarmed Combat — kicks count as weapons). Always causes PRONE on hit. |
 | **End of turn** | Performance roll (d20 + d12 + mod, dancing). DC 12. **Success:** 75% dodge chance on all enemy attacks until next turn. **Fail:** Cookie falls prone. |
 | **Ember prone effect** | ONLY when Ember is active + Cookie is prone + enemies are humanoid. **Females:** Ridicule bonus — mock instead of finishing (skip kill action to taunt). **Males:** Lust bonus — attempt to mate immediately, must make STR save vs Cookie's spell DC or spend turn grappling instead of attacking. Does NOT work on non-humanoids, undead, or constructs. |
 
@@ -2938,6 +2951,17 @@ The doom clock is **never** a surprise. Every time the Promoted NPC appears in a
 - They do **not** decay. They do **not** have doom clocks (unless the campaign spine specifically calls for it).
 - Extras redirect toward them. Promoted NPCs' goals lead back to them or to the antagonist.
 - Main Cast cap: **8–12 active** per campaign. If a Promoted NPC somehow needs to become permanent (extremely rare — player marriage, adoption, etc.), a Main Cast slot must open first (another Main Cast NPC's arc resolves or they go MIA).
+
+**MAIN CAST GOAL REQUIREMENT (NON-NEGOTIABLE)**
+Main Cast NPCs are exempt from doom clocks but are **NOT** exempt from goals. Every Main Cast NPC must have:
+1. **An active goal** tracked in `character_tracker.md` → NPC Goals table.
+2. **A deadline** (in-game day). What are they trying to do and by when?
+3. **A consequence** — what happens to the story if the deadline passes? Not NPC death (that's doom clocks). Instead: relationship change, new pressure on the PC, story branch.
+4. **When a goal completes or expires, a new goal replaces it.** Main Cast NPCs are never goalless. If a Main Cast NPC has no active goal, they are effectively MIA and should be marked as such until a new goal is assigned.
+
+The antagonist is Main Cast. The antagonist MUST have a tracked goal with a deadline. Antagonist goals drive the campaign timeline — if the DM forgets to track them, the threat stalls and the player feels no urgency.
+
+**DM SELF-CHECK at chapter open:** Scan every Main Cast NPC. Does each one have an active goal with a deadline? If not, assign one before writing the first scene.
 
 **DM SELF-CHECK — every scene with a non-Main-Cast NPC:**
 1. Is this NPC already in `extra_npcs`? → Check their doom clock status.

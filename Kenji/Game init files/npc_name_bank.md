@@ -10,7 +10,7 @@
 1. ~~Cedwyn~~ *(used — General, Bracken's former CO)*
 2. ~~Torren~~ *(used — Cookie campaign, textile merchant at Gilt Lily, Varenholm)*
 3. ~~Castor~~ *(used — Cookie campaign, turnip farmer outside Varenholm, Ch3)*
-4. Davan
+4. ~~Davan~~ *(used — Cookie campaign, adventurer guild member, greatsword fighter, Varenholm, Ch5)*
 5. ~~Edric~~ *(used — Cookie campaign, Alderman Edric Tosse, city official, Varenholm, Ch3)*
 6. Falconer
 7. ~~Garron~~ *(used — Cookie campaign, adventurer crossbowman, bandit camp raid party)*
@@ -19,7 +19,7 @@
 10. Jareth
 
 **Female:**
-1. Aveline
+1. ~~Aveline~~ *(used — Cookie campaign, adventurer guild member, archer/scout, Varenholm, Ch5)*
 2. ~~Brynn~~ *(used — Shield infantry, Thornkeep garrison)*
 3. ~~Calista~~ *(used — barmaid **The Brass Hitch**, Bronzebarrow Ashmere 34)*
 4. ~~Dorith~~ *(used — Cookie campaign, adventurer healer, bandit camp raid party)*
@@ -28,7 +28,7 @@
 7. ~~Gwynn~~ *(used — halfling hostler **The Brass Hitch**, Bronzebarrow — halfling; pulled from Human list per bank note)*
 8. ~~Hadley~~ *(used — Watch Captain, Millhaven garrison)*
 9. ~~Isolde~~ *(used — Cookie campaign, enchantress at The Pale Lantern, Varenholm, Ch3)*
-10. Jessamine
+10. ~~Jessamine~~ *(used — Cookie campaign, adventurer druid, bridge troll quest party, Ch5)*
 
 ---
 
@@ -188,3 +188,5 @@
 - Silas *(human male — CN, adventurer rogue)*
 - Marta *(human female — NG, adventurer ranger)*
 - Edric Tosse *(human male — LN, alderman/city official, Varenholm)* [first name from bank, surname invented]
+- Maret *(human female — NG, Halbert's widow, Brewer's Row canal district, Varenholm, Ch6)*
+- Halbert *(human male — NG, deceased dockworker/crane operator, Varenholm, Ch6)*

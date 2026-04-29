@@ -4,8 +4,14 @@
 Combat: dice, Combatant, Combat, EXPTracker, load_combatant, etc.
 Story: StoryEngine for kenji_state.json — time, economy, clocks, dashboards, AI brief.
 
-**NPC / character goals:** Operational goals that the engine can **date-check** and **optionally auto-advance** live in `kenji_state.json` → **`character_goals`** (list of dicts). The engine **does not** parse `character_tracker.md` markdown tables (fragile); keep tracker as prose-of-record and mirror critical rows into `character_goals` for automation. See `StoryEngine.process_character_goals()` and DM rule **GOAL INVARIANT** in `dm_rules_tracking.md`. Arc prose remains human-edited; the engine can append **`consequences`** / **`world_events`** from goal `on_resolve` payloads when `auto_resolve` is true.
-
+**NPC / character goals:** `character_tracker.md` is the SINGLE SOURCE OF TRUTH for goals,
+stats, and chapter log.  Call `sync_tracker_to_json(tracker_path, json_path)` to pull the
+markdown Active Goals table into `character_world_state.json` -> `character_goals`.  The engine
+date-checks and optionally auto-advances goals via `StoryEngine.process_character_goals()`.
+See DM rule **GOAL INVARIANT** in `dm_rules_tracking.md`.  Human edits go in the .md ONLY;
+the JSON is populated programmatically by `sync_goals_from_tracker()`, `sync_stats_from_tracker()`,
+and `sync_chapter_log_from_tracker()`.  Arc prose remains human-edited; the engine can append
+**`consequences`** / **`world_events`** from goal `on_resolve` payloads when `auto_resolve` is true.
 Cross-references:
   DM behavior rules & referee handbook → dm_rules_tracking.md
   Character abilities & narrative details → character_tracker.md
@@ -26,7 +32,7 @@ Perception auto-win or “chair creak” undo. NPCs use passive or rolled checks
 See `dm_rules_tracking.md` → **Scene skill preroll** + **Player success integrity**.
 """
 
-import random, json, math
+import random, json, math, re
 from dataclasses import dataclass, field
 from typing import Optional, Dict, List, Tuple, Any
 
@@ -36,6 +42,203 @@ def d20(): return random.randint(1, 20)
 ACTIVE_CHARACTER_GOAL_STATUSES = frozenset(
     {"active", "in_progress", "open", "overdue", "active_dm"}
 )
+
+# ---------------------------------------------------------------------------
+# TrackerSync — parse character_tracker.md -> structured dicts for JSON state
+# ---------------------------------------------------------------------------
+# Single source of truth = the markdown file. This parser reads it so the
+# JSON (character_world_state.json / kenji_state.json) can stay in sync
+# without manual double-entry.  Only the md needs human edits.
+
+def _parse_due_date(raw: str) -> dict:
+    """Convert a markdown due_date string like 'Day 5 AM' into engine fields."""
+    raw = raw.strip()
+    m = re.match(r'[Dd]ay\s+(\d+)\s*(.*)', raw)
+    if m:
+        return {"due_day": int(m.group(1)), "due_time": m.group(2).strip() or ""}
+    if raw.lower() == "ongoing":
+        return {"due_day": None, "due_time": "ongoing"}
+    return {"due_day": None, "due_time": raw}
+
+
+def sync_goals_from_tracker(tracker_path: str, character: str = "Cookie") -> List[dict]:
+    """Parse the Active Goals markdown table -> list of engine-compatible goal dicts."""
+    with open(tracker_path) as f:
+        text = f.read()
+    goals_match = re.search(
+        r'### Active Goals\s*\n\s*\n'
+        r'\|.*goal_id.*\|\s*\n'
+        r'\|[-| ]+\|\s*\n'
+        r'((?:\|.*\|\s*\n)*)',
+        text
+    )
+    if not goals_match:
+        return []
+    rows = goals_match.group(1).strip().split('\n')
+    goals = []
+    for row in rows:
+        cols = [c.strip() for c in row.split('|')[1:-1]]
+        if len(cols) < 5:
+            continue
+        due = _parse_due_date(cols[2])
+        goals.append({
+            "goal_id": cols[0],
+            "character": character,
+            "opened": cols[1],
+            "due_day": due["due_day"],
+            "due_time": due["due_time"],
+            "status": cols[3].lower(),
+            "summary": cols[4],
+            "source": "character_tracker.md",
+        })
+    return goals
+
+
+
+def sync_npc_goals_from_tracker(tracker_path: str) -> List[dict]:
+    """Parse the ### NPC Goals markdown table -> list of engine-compatible goal dicts.
+    NPC goals have: goal_id, character, opened, due_day, due_time, status, summary,
+    consequence, source='npc_goals'."""
+    with open(tracker_path) as f:
+        text = f.read()
+    npc_match = re.search(
+        r'### NPC Goals\s*\n\s*\n'
+        r'\|.*goal_id.*\|\s*\n'
+        r'\|[-| ]+\|\s*\n'
+        r'((?:\|.*\|\s*\n)*)',
+        text
+    )
+    if not npc_match:
+        return []
+    rows = npc_match.group(1).strip().split('\n')
+    goals = []
+    for row in rows:
+        cols = [c.strip() for c in row.split('|')[1:-1]]
+        if len(cols) < 7:
+            continue
+        due = _parse_due_date(cols[3])
+        goals.append({
+            "goal_id": cols[0],
+            "character": cols[1],
+            "opened": cols[2],
+            "due_day": due["due_day"],
+            "due_time": due["due_time"],
+            "status": cols[4].lower(),
+            "summary": cols[5],
+            "consequence": cols[6],
+            "source": "npc_goals",
+        })
+    return goals
+
+
+def sync_stats_from_tracker(tracker_path: str) -> dict:
+    """Parse the stat header block from character_tracker.md -> dict of mechanical values."""
+    with open(tracker_path) as f:
+        text = f.read()
+    stats = {}
+    m = re.search(r'\*\*Level:\*\*\s*(\d+)\s*[^\d]\s*([\d,]+)\s*/\s*([\d,]+)\s*EXP', text)
+    if m:
+        stats['level'] = int(m.group(1))
+        stats['exp'] = int(m.group(2).replace(',', ''))
+        stats['exp_next'] = int(m.group(3).replace(',', ''))
+    m = re.search(r'\*\*Location:\*\*\s*(.+?)(?:\s*$)', text, re.M)
+    if m:
+        stats['location'] = m.group(1).strip().rstrip('.')
+    m = re.search(r'\*\*HP:\*\*\s*(\d+)/(\d+)\s*\|\s*\*\*AC:\*\*\s*(\d+)', text)
+    if m:
+        stats['hp'] = int(m.group(1))
+        stats['max_hp'] = int(m.group(2))
+        stats['ac'] = int(m.group(3))
+    m = re.search(r'\*\*Wealth:\*\*\s*(.+?)$', text, re.M)
+    if m:
+        stats['wealth'] = m.group(1).strip()
+    m = re.search(r'\*\*Attunement\s*\((\d+)/(\d+)\):\*\*\s*(.+?)$', text, re.M)
+    if m:
+        stats['attunement_used'] = int(m.group(1))
+        stats['attunement_max'] = int(m.group(2))
+        stats['attuned_items'] = [i.strip() for i in m.group(3).split(',')]
+    m = re.search(r'\*\*Saves:\*\*\s*(.+?)$', text, re.M)
+    if m:
+        saves = {}
+        for sm in re.finditer(r'(\w+)\s+([+-]?\d+)', m.group(1)):
+            saves[sm.group(1).lower()] = int(sm.group(2))
+        stats['saves'] = saves
+    m = re.search(r'\*\*Skills:\*\*\s*(.+?)$', text, re.M)
+    if m:
+        skills = {}
+        for sm in re.finditer(r'(\w+)\s+([+-]?\d+)', m.group(1)):
+            skills[sm.group(1).lower()] = int(sm.group(2))
+        stats['skills'] = skills
+    m = re.search(r'\*\*Spells:\*\*\s*(.+?)$', text, re.M)
+    if m:
+        slots = {}
+        for sm in re.finditer(r'L(\d+):\s*(\d+)/(\d+)', m.group(1)):
+            slots[int(sm.group(1))] = [int(sm.group(2)), int(sm.group(3))]
+        stats['spell_slots'] = slots
+    return stats
+
+
+def sync_chapter_log_from_tracker(tracker_path: str) -> List[dict]:
+    """Parse the Chapter Log from character_tracker.md -> list of chapter dicts."""
+    with open(tracker_path) as f:
+        text = f.read()
+    chapters = []
+    for m in re.finditer(
+        r'- \*\*Ch(\d+)\*\*\s*"([^"]+)"\s*\(([^)]+)\):\s*(.+?)$', text, re.M
+    ):
+        chapters.append({
+            "chapter": int(m.group(1)),
+            "title": m.group(2),
+            "timing": m.group(3),
+            "summary": m.group(4).strip(),
+        })
+    return chapters
+
+
+def sync_tracker_to_json(tracker_path: str, json_path: str,
+                         character: str = "Cookie", dry_run: bool = False) -> dict:
+    """Master sync: read character_tracker.md, update character_world_state.json.
+    The markdown is ALWAYS the source of truth -- JSON fields are overwritten.
+    Returns dict of what changed. If dry_run=True, reads but doesn't write."""
+    import json as _json
+    goals = sync_goals_from_tracker(tracker_path, character)
+    npc_goals = sync_npc_goals_from_tracker(tracker_path)
+    goals.extend(npc_goals)
+    stats = sync_stats_from_tracker(tracker_path)
+    chapters = sync_chapter_log_from_tracker(tracker_path)
+    with open(json_path) as f:
+        state = _json.load(f)
+    changes = {}
+    # Goals
+    old_goals = state.get("_story_engine_state", {}).get("character_goals", [])
+    old_by_id = {g.get("goal_id"): g for g in old_goals if isinstance(g, dict)}
+    merged_goals = []
+    for g in goals:
+        existing = old_by_id.get(g["goal_id"], {})
+        merged = {**existing, **g}
+        merged_goals.append(merged)
+    if state.get("_story_engine_state") is None:
+        state["_story_engine_state"] = {}
+    state["_story_engine_state"]["character_goals"] = merged_goals
+    changes["goals"] = f"{len(merged_goals)} goals synced ({sum(1 for g in merged_goals if g.get('status') == 'active')} active)"
+    # Stats
+    se = state["_story_engine_state"]
+    for key in ("exp", "ac"):
+        if key in stats and se.get(key) != stats[key]:
+            changes[key] = f"{se.get(key)} -> {stats[key]}"
+            se[key] = stats[key]
+    if "location" in stats:
+        se["location"] = stats["location"]
+        changes["location"] = stats["location"]
+    # Chapter log
+    se["_chapter_log_from_tracker"] = chapters
+    changes["chapters"] = f"{len(chapters)} chapters"
+    if not dry_run:
+        with open(json_path, 'w') as f:
+            _json.dump(state, f, indent=2, ensure_ascii=False)
+    return changes
+
+
 
 def roll_dice(notation):
     notation = notation.strip().lower()
@@ -488,81 +691,6 @@ class Combatant:
 
     def heal_hp(self, amount): self.hp = min(self.max_hp, self.hp + amount)
     def add_temp_hp(self, amount): self.temp_hp = max(self.temp_hp, amount)
-
-    # ── Custom Death / Fatality System ──
-    # HP can go negative. At 0 to -9: dying (unconscious, critically injured).
-    # At -10 or lower: FATALITY (instant permanent death, gruesome).
-    # Healing a dying character restores to 1 HP only, they stay unconscious.
-    # After 2 rounds at ≤0 HP without healing: permanent death.
-    @property
-    def is_dying(self):
-        return self.hp <= 0 and self.hp > -10 and self.alive
-
-    @property
-    def is_fatality(self):
-        return self.hp <= -10
-
-    def apply_damage_with_death(self, total_dmg: int) -> dict:
-        """Apply damage allowing HP to go negative. Returns death/fatality status.
-        Caller should subtract temp_hp BEFORE calling this on real HP damage."""
-        old_hp = self.hp
-        self.hp -= total_dmg
-        result = {"old_hp": old_hp, "new_hp": self.hp, "fatality": False,
-                  "dying": False, "overkill": 0, "status": "alive"}
-
-        if self.hp <= -10:
-            # FATALITY — instant permanent death
-            result["fatality"] = True
-            result["overkill"] = abs(self.hp) - 10
-            result["status"] = "fatality"
-            self.alive = False
-            self.conscious = False
-            if not hasattr(self, '_dying_rounds'): self._dying_rounds = 0
-        elif self.hp <= 0:
-            # Dying — unconscious, critically injured
-            result["dying"] = True
-            result["status"] = "dying"
-            self.conscious = False
-            if not hasattr(self, '_dying_rounds'): self._dying_rounds = 0
-            # Don't set alive=False yet — they have 2 rounds
-        else:
-            result["status"] = "alive"
-
-        return result
-
-    def tick_dying(self) -> str:
-        """Called at start of a dying combatant's turn. Tracks rounds at 0 HP.
-        Returns: 'dying', 'perma_dead', or 'alive'."""
-        if not hasattr(self, '_dying_rounds'):
-            self._dying_rounds = 0
-        if self.hp <= 0 and self.alive:
-            self._dying_rounds += 1
-            if self._dying_rounds >= 2:
-                self.alive = False
-                self.conscious = False
-                return "perma_dead"
-            return "dying"
-        return "alive"
-
-    def heal_from_dying(self, healer_heal_mult: float = 1.0) -> dict:
-        """Heal a dying character. Always restores to exactly 1 HP.
-        They remain unconscious/critically injured. 10x mult does NOT
-        change the 1 HP restore — it applies to NORMAL heals only.
-        Returns result dict."""
-        if not self.alive or self.hp > 0:
-            return {"healed": False, "reason": "not dying or already dead"}
-        if not hasattr(self, '_dying_rounds'):
-            self._dying_rounds = 0
-        if self._dying_rounds >= 2:
-            return {"healed": False, "reason": "perma dead — 2 rounds exceeded"}
-
-        old_hp = self.hp
-        self.hp = 1
-        # They stay unconscious — critically injured, not combat-ready
-        self.conscious = False
-        self._dying_rounds = 0  # Reset timer since they were healed
-        return {"healed": True, "old_hp": old_hp, "new_hp": 1,
-                "note": "restored to 1 HP, remains unconscious/critically injured"}
     
     def get_resist_mult(self, dtype):
         if not self.has_progressive_resistance or dtype not in self.resistances: return 1.0
@@ -1062,11 +1190,10 @@ class Combat:
         while attempts < len(self.order) * 2:
             self.turn_idx += 1
             if self.turn_idx >= len(self.order):
-                # About to start a new round — enforce narration sequencing
-                # The round we just finished MUST have been narrated before we move on
+                # Enforce narration sequencing before advancing to next round
                 if self.round > 0 and self.last_narrated_round < self.round:
                     raise CombatNarrationError(
-                        f"ROUND NARRATION GAP: Cannot start R{self.round + 1} — "
+                        f"ROUND NARRATION GAP: Cannot start R{self.round + 1} -- "
                         f"R{self.round} was never narrated to the player "
                         f"(last_narrated_round={self.last_narrated_round}). "
                         f"Call combat.narrate_round({self.round}) after showing "
@@ -1079,8 +1206,6 @@ class Combat:
             attempts += 1
         self.fighters[name].start_turn(self.round)
         self._log(f"--- R{self.round} {name}'s turn ---")
-        # Auto-process dying state (2-round perma-death timer)
-        self.process_dying(name)
         # Auto-process start-of-turn regen (heals route through heal() → perk multipliers)
         self.process_regen(name)
         return self.round, name
@@ -1485,10 +1610,6 @@ class Combat:
     def heal(self, name, amount, source: str = "", healer: str = ""):
         """Heal a combatant. Applies perk multipliers (e.g. Ember Enhancement 10x).
 
-        If the target is dying (HP 0 to -9), healing restores to 1 HP only.
-        They remain unconscious/critically injured. The 10x multiplier does
-        NOT boost the dying restore — it only applies to normal healing.
-
         Args:
             name: combatant being healed
             amount: base heal amount BEFORE perk multipliers
@@ -1499,19 +1620,7 @@ class Combat:
             dict with base, multiplier, final, and overflow info.
         """
         c = self.fighters[name]
-
-        # DYING CHARACTER: restore to 1 HP only, stay unconscious
-        if c.hp <= 0 and c.alive:
-            result = c.heal_from_dying()
-            src_tag = f" ({source})" if source else ""
-            if result["healed"]:
-                self._log(f"  {name} stabilized at 1 HP{src_tag} — critically injured, unconscious")
-            else:
-                self._log(f"  {name} cannot be healed: {result.get('reason','')}")
-            return {"base": amount, "mult": 1.0, "final": 1, "actual": 1,
-                    "overflow": 0, "dying_heal": True, "result": result}
-
-        # NORMAL HEALING: apply perk multipliers
+        # Look up heal_mult from the HEALER's perks (the caster's Ember Enhancement)
         perk_owner = healer if healer and healer in self.fighters else name
         perks = self.check_perks(perk_owner)
         mult = perks.get("heal_mult", 1.0)
@@ -1522,7 +1631,7 @@ class Combat:
         src_tag = f" ({source})" if source else ""
         mult_tag = f" [x{mult} Ember]" if mult > 1.0 else ""
         overflow_tag = f" (overflow {overflow})" if overflow > 0 else ""
-        self._log(f"  {name} heals {amount}->{final}{mult_tag}{src_tag} -> HP {c.hp}/{c.max_hp}{overflow_tag}")
+        self._log(f"  {name} heals {amount}→{final}{mult_tag}{src_tag} → HP {c.hp}/{c.max_hp}{overflow_tag}")
         return {"base": amount, "mult": mult, "final": final, "actual": actual, "overflow": overflow}
 
     def add_temp(self, name, amount, source: str = "", granter: str = ""):
@@ -1635,21 +1744,6 @@ class Combat:
     #  REGEN PROCESSING — start-of-turn healing from ongoing effects.
     #  Routes through heal() so heal_mult from caster's perks applies.
     # ──────────────────────────────────────────────────────────────
-
-    def process_dying(self, name: str) -> dict:
-        """Process dying state at start of turn. Ticks the 2-round death timer.
-        Returns status: 'alive', 'dying', or 'perma_dead'."""
-        c = self.fighters[name]
-        if c.hp <= 0 and c.alive:
-            status = c.tick_dying()
-            if status == "perma_dead":
-                self._log(f"  {name} has been at 0 HP for 2 rounds — PERMANENT DEATH")
-                return {"status": "perma_dead", "name": name}
-            else:
-                rounds = getattr(c, '_dying_rounds', 0)
-                self._log(f"  {name} is DYING (round {rounds}/2 at 0 HP)")
-                return {"status": "dying", "name": name, "rounds": rounds}
-        return {"status": "alive", "name": name}
 
     def process_regen(self, name: str) -> List[Dict[str, Any]]:
         """Process start-of-turn regeneration for a combatant.
@@ -2026,15 +2120,17 @@ class EXPTracker:
         self.pending_exp: int = 0
 
     def get_level_for_exp(self, exp: int) -> int:
+        thresholds = self.get_thresholds()
         lvl = 1
-        for level, threshold in sorted(LEVEL_THRESHOLDS.items()):
+        for level, threshold in sorted(thresholds.items()):
             if exp >= threshold: lvl = level
         return lvl
 
     def exp_to_next(self) -> int:
+        thresholds = self.get_thresholds()
         next_lvl = self.level + 1
-        if next_lvl in LEVEL_THRESHOLDS:
-            return LEVEL_THRESHOLDS[next_lvl] - self.exp
+        if next_lvl in thresholds:
+            return thresholds[next_lvl] - self.exp
         return 0
 
     def award_combat(self, cr: float, allies: int = 0, description: str = "") -> int:
@@ -2120,6 +2216,24 @@ EXP_TABLE = {
     21: 450000, 22: 550000, 23: 675000, 24: 825000, 25: 1000000,
     26: 1200000, 27: 1400000, 28: 1650000, 29: 1900000, 30: 2200000,
     31: 2400000, 32: 2600000, 33: 2800000, 34: 3000000, 35: 2500000,  # 35 is Kenji's cap area
+}
+
+# --- STARTER CAMPAIGN THRESHOLDS (L1-10, higher XP generation from domain bonuses) ---
+STARTER_THRESHOLDS = {
+    1: 0, 2: 3000, 3: 12000, 4: 22000, 5: 28000,
+    6: 40000, 7: 55000, 8: 75000, 9: 100000, 10: 130000,
+}
+
+# --- ARCHETYPE → DOMAIN SKILL KEYWORDS ---
+# Maps support_archetype to skill name keywords that trigger domain bonus.
+# A skill roll label containing any keyword (case-insensitive) = domain roll.
+ARCHETYPE_DOMAIN_SKILLS = {
+    "performer": ["performance", "perform"],
+    "healer": ["medicine", "heal", "healing"],
+    "diplomat": ["persuasion", "diplomacy", "negotiation"],
+    "scholar": ["arcana", "history", "investigation"],
+    "infiltrator": ["stealth", "sleight", "deception"],
+    "crafter": ["tinker", "craft", "smith", "brew"],
 }
 
 # --- CR → EXP REFERENCE ---
@@ -2241,6 +2355,11 @@ class StoryEngine:
         
         # TIME — Hour-based tracking. 1 interaction = 1 hour.
         self.day = d.get("day", 1)
+        # Archetype + campaign type (for domain bonus and threshold selection)
+        self.exp_archetype = d.get("exp_archetype", "")
+        self.support_archetype = d.get("support_archetype", "")
+        self.campaign_type = d.get("campaign_type", "standard")  # "standard" or "starter"
+        
         self.hour = d.get("hour", 6)  # 0-23. Dawn=6, Morning=8, Midday=12, Afternoon=14, Evening=18, Night=21
         self.hours_since_meal = d.get("hours_since_meal", 0)  # Fast Metabolism: eat every 4
         self.meal_interval = 4  # hours between meals before penalty
@@ -2853,6 +2972,137 @@ class StoryEngine:
                     af = g.get("arc_file", "active arc")
                     out.append(f"  📜 DM: paste into `{af}` — {arc_c}")
         return out
+
+    def check_goal_alerts(self) -> List[str]:
+        """Lightweight per-DM-response goal check. Returns alerts for goals that are
+        due today, due this time-of-day, or overdue. Does NOT auto-resolve or mutate
+        state — just surfaces info so the DM can weave it into the scene.
+        Call this EVERY DM response, not just at dawn."""
+        TIME_ORDER = {"am": 0, "mid": 1, "aft": 2, "eve": 3, "night": 4, "": 5}
+        current_tod = self._time_of_day_code()
+        current_rank = TIME_ORDER.get(current_tod, 5)
+        alerts = []
+        for g in self.character_goals:
+            if not isinstance(g, dict):
+                continue
+            st = (g.get("status") or "").strip().lower()
+            if st in ("resolved", "mia", "closed", "closed_overdue", "complete",
+                       "completed", "superseded"):
+                continue
+            if st and st not in ACTIVE_CHARACTER_GOAL_STATUSES:
+                continue
+            due = g.get("due_day")
+            if due is None:
+                continue
+            try:
+                due_i = int(due)
+            except (TypeError, ValueError):
+                continue
+            char = g.get("character", "?")
+            gid = g.get("goal_id", "?")
+            summ = g.get("summary", "")
+            summ_clean = summ.rstrip('.')
+            consequence = g.get("consequence", "")
+            due_time = (g.get("due_time") or "").strip().lower()
+            due_time_clean = due_time.upper() if due_time else ""
+            due_rank = TIME_ORDER.get(due_time, 5)
+            if self.day > due_i:
+                # OVERDUE
+                cons_txt = f" Consequence: {consequence}" if consequence else ""
+                alerts.append(
+                    f"\u26a0\ufe0f OVERDUE: **{char}** `{gid}` (was due Day {due_i} {due_time_clean}).{cons_txt}"
+                )
+            elif self.day == due_i:
+                if due_time and current_rank >= due_rank:
+                    # Due RIGHT NOW (time-of-day matched or passed)
+                    cons_txt = f" Consequence: {consequence}" if consequence else ""
+                    alerts.append(
+                        f"\U0001f534 GOAL FIRES NOW: **{char}** `{gid}` — {summ_clean}.{cons_txt}"
+                    )
+                elif due_time and current_rank == due_rank - 1:
+                    # Due NEXT time slot today
+                    alerts.append(
+                        f"\u23f3 GOAL IMMINENT: **{char}** `{gid}` fires {due_time.upper()} today — {summ}"
+                    )
+                elif not due_time:
+                    # Due today, no specific time
+                    alerts.append(
+                        f"\U0001f3af GOAL DUE TODAY: **{char}** `{gid}` — {summ}"
+                    )
+                else:
+                    # Due later today
+                    alerts.append(
+                        f"\U0001f3af GOAL DUE TODAY ({due_time.upper()}): **{char}** `{gid}` — {summ}"
+                    )
+            elif self.day == due_i - 1:
+                # Due tomorrow
+                alerts.append(
+                    f"\u23f0 GOAL DUE TOMORROW: **{char}** `{gid}` (Day {due_i} {due_time}) — {summ}"
+                )
+        return alerts
+
+    def get_thresholds(self) -> dict:
+        """Return the level threshold table for this campaign."""
+        if self.campaign_type == "starter":
+            return STARTER_THRESHOLDS
+        return LEVEL_THRESHOLDS
+
+    def exp_to_next_level(self) -> int:
+        """XP remaining to reach the next level using campaign-appropriate thresholds."""
+        thresholds = self.get_thresholds()
+        next_lvl = self.level + 1
+        if next_lvl in thresholds:
+            return max(0, thresholds[next_lvl] - self.exp)
+        return 0
+
+    def level_gap(self) -> int:
+        """Total XP gap between current level and next level."""
+        thresholds = self.get_thresholds()
+        curr = thresholds.get(self.level, 0)
+        nxt = thresholds.get(self.level + 1, 0)
+        return max(1, nxt - curr)  # avoid div by zero
+
+    def is_domain_roll(self, label: str) -> bool:
+        """Check if a skill roll label matches this character's domain skill."""
+        if not self.support_archetype:
+            return False
+        keywords = ARCHETYPE_DOMAIN_SKILLS.get(self.support_archetype.lower(), [])
+        label_lower = label.lower()
+        return any(kw in label_lower for kw in keywords)
+
+    def domain_bonus(self) -> int:
+        """Calculate domain bonus: 25% of XP needed for next level."""
+        return int(self.level_gap() * 0.25)
+
+    def domain_bonus_for_check(self, label: str, success: bool) -> dict:
+        """If label matches domain AND check succeeded, return bonus info.
+        Returns dict with 'is_domain', 'bonus_xp', and 'message'."""
+        is_domain = self.is_domain_roll(label)
+        if not is_domain or not success:
+            return {"is_domain": is_domain, "bonus_xp": 0, "message": ""}
+        bonus = self.domain_bonus()
+        gap = self.level_gap()
+        return {
+            "is_domain": True,
+            "bonus_xp": bonus,
+            "message": (
+                f"DOMAIN BONUS ({self.support_archetype}): "
+                f"+{bonus:,} XP (25% of {gap:,} L{self.level}->L{self.level+1} gap)"
+            ),
+        }
+
+    def _time_of_day_code(self) -> str:
+        """Map self.hour to a goal-time code: am, mid, aft, eve, night."""
+        if self.hour < 12:
+            return "am"
+        elif self.hour < 14:
+            return "mid"
+        elif self.hour < 18:
+            return "aft"
+        elif self.hour < 21:
+            return "eve"
+        else:
+            return "night"
 
     def process_new_day(self):
         """Called at dawn each day. Advances ALL world systems."""
