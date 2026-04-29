@@ -488,6 +488,81 @@ class Combatant:
 
     def heal_hp(self, amount): self.hp = min(self.max_hp, self.hp + amount)
     def add_temp_hp(self, amount): self.temp_hp = max(self.temp_hp, amount)
+
+    # ── Custom Death / Fatality System ──
+    # HP can go negative. At 0 to -9: dying (unconscious, critically injured).
+    # At -10 or lower: FATALITY (instant permanent death, gruesome).
+    # Healing a dying character restores to 1 HP only, they stay unconscious.
+    # After 2 rounds at ≤0 HP without healing: permanent death.
+    @property
+    def is_dying(self):
+        return self.hp <= 0 and self.hp > -10 and self.alive
+
+    @property
+    def is_fatality(self):
+        return self.hp <= -10
+
+    def apply_damage_with_death(self, total_dmg: int) -> dict:
+        """Apply damage allowing HP to go negative. Returns death/fatality status.
+        Caller should subtract temp_hp BEFORE calling this on real HP damage."""
+        old_hp = self.hp
+        self.hp -= total_dmg
+        result = {"old_hp": old_hp, "new_hp": self.hp, "fatality": False,
+                  "dying": False, "overkill": 0, "status": "alive"}
+
+        if self.hp <= -10:
+            # FATALITY — instant permanent death
+            result["fatality"] = True
+            result["overkill"] = abs(self.hp) - 10
+            result["status"] = "fatality"
+            self.alive = False
+            self.conscious = False
+            if not hasattr(self, '_dying_rounds'): self._dying_rounds = 0
+        elif self.hp <= 0:
+            # Dying — unconscious, critically injured
+            result["dying"] = True
+            result["status"] = "dying"
+            self.conscious = False
+            if not hasattr(self, '_dying_rounds'): self._dying_rounds = 0
+            # Don't set alive=False yet — they have 2 rounds
+        else:
+            result["status"] = "alive"
+
+        return result
+
+    def tick_dying(self) -> str:
+        """Called at start of a dying combatant's turn. Tracks rounds at 0 HP.
+        Returns: 'dying', 'perma_dead', or 'alive'."""
+        if not hasattr(self, '_dying_rounds'):
+            self._dying_rounds = 0
+        if self.hp <= 0 and self.alive:
+            self._dying_rounds += 1
+            if self._dying_rounds >= 2:
+                self.alive = False
+                self.conscious = False
+                return "perma_dead"
+            return "dying"
+        return "alive"
+
+    def heal_from_dying(self, healer_heal_mult: float = 1.0) -> dict:
+        """Heal a dying character. Always restores to exactly 1 HP.
+        They remain unconscious/critically injured. 10x mult does NOT
+        change the 1 HP restore — it applies to NORMAL heals only.
+        Returns result dict."""
+        if not self.alive or self.hp > 0:
+            return {"healed": False, "reason": "not dying or already dead"}
+        if not hasattr(self, '_dying_rounds'):
+            self._dying_rounds = 0
+        if self._dying_rounds >= 2:
+            return {"healed": False, "reason": "perma dead — 2 rounds exceeded"}
+
+        old_hp = self.hp
+        self.hp = 1
+        # They stay unconscious — critically injured, not combat-ready
+        self.conscious = False
+        self._dying_rounds = 0  # Reset timer since they were healed
+        return {"healed": True, "old_hp": old_hp, "new_hp": 1,
+                "note": "restored to 1 HP, remains unconscious/critically injured"}
     
     def get_resist_mult(self, dtype):
         if not self.has_progressive_resistance or dtype not in self.resistances: return 1.0
@@ -845,14 +920,34 @@ def load_monster_perks(abilities_data: List[Dict], tags: List[str] = None) -> Li
     return perks
 
 
+class CombatNarrationError(Exception):
+    """Raised when combat round narration is not sequential.
+    This prevents the AI from skipping rounds due to context compaction."""
+    pass
+
+
 class Combat:
     def __init__(self):
         self.fighters: Dict[str, Combatant] = {}; self.order = []; self.round = 0
         self.turn_idx = -1; self.log = []; self.active = False
         self.zones: List[Dict[str, Any]] = []  # terrain zones, hazards, anti-magic areas
+        self.last_narrated_round: int = 0  # tracks what the PLAYER has actually seen
 
     def add(self, c, initiative): self.fighters[c.name] = c; self.order.append((initiative, c.name)); self.order.sort(key=lambda x:-x[0])
-    def start(self): self.round = 1; self.turn_idx = -1; self.active = True; self._log(f"Combat start: {', '.join(f'{n}({i})' for i,n in self.order)}")
+    def start(self): self.round = 1; self.turn_idx = -1; self.active = True; self.last_narrated_round = 0; self._log(f"Combat start: {', '.join(f'{n}({i})' for i,n in self.order)}")
+
+    def narrate_round(self, round_num: int):
+        """Mark a round as narrated (shown to the player). Must be called sequentially.
+        Raises CombatNarrationError if rounds are skipped."""
+        expected = self.last_narrated_round + 1
+        if round_num != expected:
+            raise CombatNarrationError(
+                f"ROUND NARRATION GAP: last narrated R{self.last_narrated_round}, "
+                f"tried to narrate R{round_num}, expected R{expected}. "
+                f"You must narrate R{expected} first before proceeding."
+            )
+        self.last_narrated_round = round_num
+        self._log(f"[narration] Round {round_num} shown to player")
     def get(self, name): return self.fighters[name]
 
     def ambush_check(self, detector: str, sneaker: str) -> dict:
@@ -967,6 +1062,16 @@ class Combat:
         while attempts < len(self.order) * 2:
             self.turn_idx += 1
             if self.turn_idx >= len(self.order):
+                # About to start a new round — enforce narration sequencing
+                # The round we just finished MUST have been narrated before we move on
+                if self.round > 0 and self.last_narrated_round < self.round:
+                    raise CombatNarrationError(
+                        f"ROUND NARRATION GAP: Cannot start R{self.round + 1} — "
+                        f"R{self.round} was never narrated to the player "
+                        f"(last_narrated_round={self.last_narrated_round}). "
+                        f"Call combat.narrate_round({self.round}) after showing "
+                        f"R{self.round} results to the player."
+                    )
                 self.turn_idx = 0; self.round += 1
                 self.tick_zones()  # Zones tick at start of each new round
             name = self.order[self.turn_idx][1]
@@ -974,6 +1079,8 @@ class Combat:
             attempts += 1
         self.fighters[name].start_turn(self.round)
         self._log(f"--- R{self.round} {name}'s turn ---")
+        # Auto-process dying state (2-round perma-death timer)
+        self.process_dying(name)
         # Auto-process start-of-turn regen (heals route through heal() → perk multipliers)
         self.process_regen(name)
         return self.round, name
@@ -1378,6 +1485,10 @@ class Combat:
     def heal(self, name, amount, source: str = "", healer: str = ""):
         """Heal a combatant. Applies perk multipliers (e.g. Ember Enhancement 10x).
 
+        If the target is dying (HP 0 to -9), healing restores to 1 HP only.
+        They remain unconscious/critically injured. The 10x multiplier does
+        NOT boost the dying restore — it only applies to normal healing.
+
         Args:
             name: combatant being healed
             amount: base heal amount BEFORE perk multipliers
@@ -1388,7 +1499,19 @@ class Combat:
             dict with base, multiplier, final, and overflow info.
         """
         c = self.fighters[name]
-        # Look up heal_mult from the HEALER's perks (the caster's Ember Enhancement)
+
+        # DYING CHARACTER: restore to 1 HP only, stay unconscious
+        if c.hp <= 0 and c.alive:
+            result = c.heal_from_dying()
+            src_tag = f" ({source})" if source else ""
+            if result["healed"]:
+                self._log(f"  {name} stabilized at 1 HP{src_tag} — critically injured, unconscious")
+            else:
+                self._log(f"  {name} cannot be healed: {result.get('reason','')}")
+            return {"base": amount, "mult": 1.0, "final": 1, "actual": 1,
+                    "overflow": 0, "dying_heal": True, "result": result}
+
+        # NORMAL HEALING: apply perk multipliers
         perk_owner = healer if healer and healer in self.fighters else name
         perks = self.check_perks(perk_owner)
         mult = perks.get("heal_mult", 1.0)
@@ -1399,7 +1522,7 @@ class Combat:
         src_tag = f" ({source})" if source else ""
         mult_tag = f" [x{mult} Ember]" if mult > 1.0 else ""
         overflow_tag = f" (overflow {overflow})" if overflow > 0 else ""
-        self._log(f"  {name} heals {amount}→{final}{mult_tag}{src_tag} → HP {c.hp}/{c.max_hp}{overflow_tag}")
+        self._log(f"  {name} heals {amount}->{final}{mult_tag}{src_tag} -> HP {c.hp}/{c.max_hp}{overflow_tag}")
         return {"base": amount, "mult": mult, "final": final, "actual": actual, "overflow": overflow}
 
     def add_temp(self, name, amount, source: str = "", granter: str = ""):
@@ -1512,6 +1635,21 @@ class Combat:
     #  REGEN PROCESSING — start-of-turn healing from ongoing effects.
     #  Routes through heal() so heal_mult from caster's perks applies.
     # ──────────────────────────────────────────────────────────────
+
+    def process_dying(self, name: str) -> dict:
+        """Process dying state at start of turn. Ticks the 2-round death timer.
+        Returns status: 'alive', 'dying', or 'perma_dead'."""
+        c = self.fighters[name]
+        if c.hp <= 0 and c.alive:
+            status = c.tick_dying()
+            if status == "perma_dead":
+                self._log(f"  {name} has been at 0 HP for 2 rounds — PERMANENT DEATH")
+                return {"status": "perma_dead", "name": name}
+            else:
+                rounds = getattr(c, '_dying_rounds', 0)
+                self._log(f"  {name} is DYING (round {rounds}/2 at 0 HP)")
+                return {"status": "dying", "name": name, "rounds": rounds}
+        return {"status": "alive", "name": name}
 
     def process_regen(self, name: str) -> List[Dict[str, Any]]:
         """Process start-of-turn regeneration for a combatant.
