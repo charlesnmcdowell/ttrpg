@@ -531,6 +531,390 @@
     "ability_scores": {},
     "skills": {},
     "known_spells": [],
+    "_triggers_schema_version": 1,
+    "_triggers_doc": "Structured trigger definitions for engine consumption. Engine method get_active_triggers(action, phase, character_level) returns matching triggers; fire_trigger(trigger_id, scene_context) executes the rolls/effects. The class_features array below retains prose for AI/DM narrative reference. New mechanics MUST be encoded here as data, not as English in mechanical_effect strings.",
+    "triggers": [
+      {
+        "id": "ddr_concentration_swap",
+        "name": "Dance Dance Revolution — concentration swap",
+        "source": "perk",
+        "active_at_levels": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "fires_on": "concentration_save",
+        "condition": {
+          "caster_action_class": "dance_ability"
+        },
+        "effect": {
+          "kind": "override_save_stat",
+          "use_stat": "CHA"
+        },
+        "narrative_description": "When concentrating on a dance ability, the swirl of movement and breath replaces the gut-clench focus most casters need. Cookie holds her concentration through grace, not grit."
+      },
+      {
+        "id": "ddr_ember_charm_during_dance_cast",
+        "name": "Dance Dance Revolution — Ember charm projection",
+        "source": "ember_enhancement",
+        "active_at_levels": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "fires_on": "round_tick_during_cast",
+        "condition": {
+          "caster_action_class": "dance_ability",
+          "caster_action_state": "casting",
+          "ember_active": true
+        },
+        "effect": {
+          "kind": "per_target_roll",
+          "target_filter": {
+            "side": "enemy",
+            "in_range_ft": 30,
+            "humanoid": true
+          },
+          "roll": {"die": "d100", "operator": "<=", "threshold": 50},
+          "on_pass": {
+            "apply_status": "charm_target_allies",
+            "duration_rounds": 1,
+            "save_each_turn": false
+          }
+        },
+        "narrative_description": "While Cookie is mid-cast on a dance ability, the Ember turns the choreography into a hostile-gaze redirect. Half the time enemies forget Cookie exists and start swinging at each other instead. Effect ends the moment the dance ends."
+      },
+      {
+        "id": "heartstring_passive_aura",
+        "name": "Heartstring — passive emotional resonance",
+        "source": "ember_passive",
+        "active_at_levels": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "fires_on": "scene_npc_in_range",
+        "condition": {
+          "ember_active": true,
+          "cookie_speaking_or_performing": true
+        },
+        "effect": {
+          "kind": "compound",
+          "effects": [
+            {
+              "kind": "self_buff",
+              "apply_to": "self",
+              "stat_check_bonus": {"all_CHA_checks": 2}
+            },
+            {
+              "kind": "per_target_roll",
+              "target_filter": {
+                "in_range_ft": 30,
+                "first_exposure_or_emotion_changed": true
+              },
+              "roll": {"die": "d20", "stat": "WIS", "save": true},
+              "dc": 12,
+              "on_fail": {
+                "emotional_state_shifts_toward": "cookie_current_emotion",
+                "register_heartstring_touched": true
+              }
+            }
+          ]
+        },
+        "narrative_description": "Cookie's voice and movement carry a resonance her listeners' bodies answer before their minds do. Listeners who fail their will-shaped resistance feel what Cookie feels — joy, grief, lust, focus, whatever the room is — for as long as Cookie is broadcasting."
+      },
+      {
+        "id": "combat_magnetism_humanoid_behavior",
+        "name": "Combat Magnetism — humanoid enemy behavior",
+        "source": "perk",
+        "active_at_levels": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "fires_on": "enemy_action_select",
+        "condition": {
+          "ember_active": true,
+          "in_combat": true,
+          "target_is_humanoid": true
+        },
+        "effect": {
+          "kind": "constrain_action",
+          "branch_on_target_gender": {
+            "male": {
+              "default_action": "grapple_capture_cookie",
+              "override_save": {"die": "d20", "stat": "WIS", "dc": 12},
+              "on_save_pass": "free_to_choose_action",
+              "on_save_fail_attack_others": "must_target_cookie_with_grapple",
+              "on_save_fail_attack_cookie_lethal": "must_use_capture_grapple_instead"
+            },
+            "female": {
+              "target_priority": "cookie_first",
+              "branch_on_disposition": {
+                "neutral_or_lower": "prioritize_killing_cookie",
+                "friendly_or_higher": {
+                  "behavior": "may_emulate_or_switch",
+                  "may_hesitate": true,
+                  "may_refuse_to_fight": true
+                }
+              }
+            }
+          }
+        },
+        "narrative_description": "Cookie's Ankuspawn beauty plus the Ember's broadcast hijack humanoid combat instincts. Males want to capture, not kill — she's their last lethal target unless they pass a will-save. Females register her as the first threat: jealousy if their disposition is neutral-or-below, hesitation if it's already friendly."
+      },
+      {
+        "id": "pretty_privilege_male_gold_10x",
+        "name": "Pretty Privilege — 10x gold multiplier on male humanoid payments",
+        "source": "perk",
+        "active_at_levels": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "fires_on": "gold_earned_from_npc",
+        "condition": {
+          "payer_humanoid": true,
+          "payer_gender": "male"
+        },
+        "effect": {
+          "kind": "multiplier",
+          "stat": "gold_amount",
+          "multiplier": 10
+        },
+        "narrative_description": "Male humanoids over-tip, over-pay, and over-compensate when interacting with Cookie. Engine multiplies any gold-amount earned in such transactions by 10x. Does not apply to female NPCs. Applies retroactively if gender becomes known after payment."
+      },
+      {
+        "id": "ember_enhancement_10x_buff_heal_emotion",
+        "name": "Ember Enhancement — 10x buff/heal/emotion-transfer multiplier",
+        "source": "perk",
+        "active_at_levels": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "fires_on": "effect_value_compute",
+        "condition": {
+          "ember_active": true,
+          "originated_by": "cookie",
+          "effect_class_in": ["buff", "heal", "emotion_transfer", "regen", "temp_hp"]
+        },
+        "effect": {
+          "kind": "multiplier",
+          "stat": "effect_value",
+          "multiplier": 10
+        },
+        "narrative_description": "All buff spells, healing spells, and emotion-transfer effects originating from Cookie are amplified by 10x while Ember is active. Suppressed by Ember-Shade wards or Ember nullification."
+      },
+      {
+        "id": "great_user_disposition_routing",
+        "name": "The Great User — gender x disposition behavior routing",
+        "source": "perk",
+        "active_at_levels": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "fires_on": "npc_disposition_evaluated",
+        "condition": {
+          "target_humanoid": true,
+          "target_heartstring_touched": true
+        },
+        "effect": {
+          "kind": "branch_on_target_gender_and_disposition",
+          "branches": {
+            "female": {
+              "neutral_or_lower": {
+                "behavior_class": "antagonistic",
+                "actions": ["challenge_to_duels", "betray_in_combat", "steal_friends_and_male_admirers"]
+              },
+              "above_neutral": {"behavior_class": "neutral_or_friendly", "actions": []}
+            },
+            "male": {
+              "neutral_or_higher": {
+                "behavior_class": "protective",
+                "actions": [
+                  "ask_what_cookie_needs",
+                  "buy_unprompted",
+                  "intercept_attack_as_auto_crit_on_self"
+                ]
+              },
+              "below_neutral": {
+                "behavior_class": "stalker_if_ember_active_else_normal",
+                "actions": []
+              }
+            }
+          }
+        },
+        "narrative_description": "Heartstring-touched humanoids bifurcate by gender × disposition. Female ≤ neutral becomes antagonistic. Male ≥ neutral becomes protective and gains the ability to intercept attacks aimed at Cookie as auto-crits on themselves. DM checks this trigger every scene that includes Heartstring-touched NPCs."
+      },
+      {
+        "id": "fans_out_of_control_per_npc_behavior",
+        "name": "Fans Out of Control — Ember-enhanced Heartstring-touched behavior",
+        "source": "ember_enhancement",
+        "active_at_levels": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "fires_on": "npc_disposition_evaluated",
+        "condition": {
+          "ember_active": true,
+          "target_humanoid": true,
+          "target_heartstring_touched": true
+        },
+        "effect": {
+          "kind": "branch_on_target_gender_and_disposition",
+          "branches": {
+            "male_below_neutral": {
+              "behavior_class": "stalker",
+              "actions": ["kidnap_attempt", "sleep_impregnation_attempt"]
+            },
+            "female_any_with_heartstring": {
+              "behavior_class": "potential_assassin",
+              "actions": ["arrange_assassination_attempt"]
+            },
+            "male_neutral_or_higher": {
+              "behavior_class": "secret_guard",
+              "actions": ["watch_cookie_location", "appear_during_ambush_to_help"]
+            }
+          }
+        },
+        "narrative_description": "Ember enhancement on top of The Great User, only active while Ember is available. Adds a stalker/assassin/guard layer keyed on gender and disposition for any Heartstring-touched humanoid in the campaign world. Disabled if Ember nullified."
+      },
+      {
+        "id": "fans_out_of_control_sleep_ambush_check",
+        "name": "Fans Out of Control — sleep-time ambush roll",
+        "source": "ember_enhancement",
+        "active_at_levels": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "fires_on": "sleep_period_started",
+        "condition": {"ember_active": true},
+        "effect": {
+          "kind": "single_roll_outcome",
+          "roll": {"die": "d20"},
+          "outcomes": {
+            "1-3": {"event": "ambush_attempt", "narrative_hook": "stalker or assassin reaches Cookie"},
+            "4-6": {"event": "near_miss", "narrative_hook": "someone scoping the location, no entry"},
+            "default": {"event": "quiet_night", "narrative_hook": "uneventful long rest"}
+          },
+          "guarantee": "at_least_one_secret_guard_arrives_to_help_if_ambush"
+        },
+        "narrative_description": "Cookie rolls for ambush every time she sleeps, even in safe locations, due to the stalker/assassin layer of Fans Out of Control. The secret-guard network ensures at least one nearby Heartstring-touched friendly male will appear to fight on Cookie's behalf if an ambush rolls."
+      },
+      {
+        "id": "low_wisdom_alcohol_drug_quirk",
+        "name": "Low-Wisdom Loss-of-Control — alcohol/drug WIS save",
+        "source": "quirk",
+        "active_at_levels": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "fires_on": "alcohol_or_drug_offered",
+        "condition": {},
+        "effect": {
+          "kind": "force_save",
+          "save": {"die": "d20", "stat": "WIS"},
+          "dc": 12,
+          "dc_scales_with_potency": true,
+          "on_fail": {
+            "lose_pc_control_for_duration": true,
+            "if_blackout_or_drugged_then_attempt_scene": {
+              "female_aggressor": "assassination_attempt",
+              "male_aggressor": "impregnation_attempt"
+            },
+            "great_user_intervention_check": "any_nearby_heartstring_touched_friendly_male_may_thwart",
+            "if_thwart_fails_then": "treat_as_prone_and_trigger_ember_last_stand"
+          },
+          "on_pass": {"action": "cookie_may_refuse"}
+        },
+        "narrative_description": "Cookie's WIS 7 cannot self-regulate. When alcohol or drugs are offered, a real WIS save fires (DC 12 baseline, scales with potency). On failure the player loses control of Cookie for the scene. Drugged or blacked-out events trigger an attempt scene; The Great User and Ember Last Stand are the safety net."
+      },
+      {
+        "id": "halfling_luck_nat1_reroll",
+        "name": "Halfling Luck — reroll natural 1",
+        "source": "racial",
+        "active_at_levels": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "fires_on": "nat_1_rolled",
+        "condition": {
+          "roll_type_in": ["attack_roll", "ability_check", "saving_throw"]
+        },
+        "effect": {
+          "kind": "reroll",
+          "rule": "use_new_roll_even_if_worse"
+        },
+        "narrative_description": "Whenever Cookie rolls a natural 1 on an attack roll, ability check, or saving throw, she rerolls and must use the new result."
+      },
+      {
+        "id": "ember_last_stand",
+        "name": "Ember Last Stand — prone/paralyzed humanoid hijack",
+        "source": "class_rule",
+        "active_at_levels": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "fires_on": "cookie_becomes_prone_or_paralyzed",
+        "condition": {
+          "ember_active": true,
+          "humanoid_enemies_present": true
+        },
+        "effect": {
+          "kind": "branch_on_enemy_gender",
+          "exclusions": ["non_humanoid", "undead", "construct", "charm_immune"],
+          "branches": {
+            "female": {
+              "behavior_class": "ridicule",
+              "skip_kill_action": true,
+              "narrative_hook": "mock or taunt Cookie instead of finishing her"
+            },
+            "male": {
+              "behavior_class": "lust",
+              "force_save": {"die": "d20", "stat": "STR", "dc": "cookie_spell_save_dc"},
+              "on_fail": {"action": "spend_turn_grappling_or_mating_attempt"},
+              "on_pass": {"action": "may_attack_normally_this_turn"}
+            }
+          }
+        },
+        "narrative_description": "When Cookie is prone or paralyzed and the Ember is active, humanoid enemies in line of sight have their kill instinct hijacked. Females mock; males attempt to mate (STR save vs Cookie's spell DC to refuse). Last-ditch biological defense — survival via degradation."
+      },
+      {
+        "id": "dance_inspiration_d12_bonus",
+        "name": "Dance Inspiration — +d12 on dance Performance checks",
+        "source": "class",
+        "active_at_levels": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "fires_on": "performance_check",
+        "condition": {"action_includes_dancing": true},
+        "effect": {
+          "kind": "add_die_to_roll",
+          "die": "d12"
+        },
+        "narrative_description": "When Cookie incorporates dancing into a Performance check, she rolls an additional d12 and adds it. Singing/speaking-only Performance uses the standard d20 + modifier."
+      },
+      {
+        "id": "dancers_punishment_failed_perf_prone",
+        "name": "Dancer's Punishment — failed Performance = prone",
+        "source": "class_rule",
+        "active_at_levels": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "fires_on": "performance_check_failed",
+        "condition": {},
+        "effect": {
+          "kind": "apply_status",
+          "status": "prone",
+          "to": "self",
+          "duration": "until_action_to_stand"
+        },
+        "narrative_description": "Any failed Performance check (combat, casting, social, anything) drops Cookie prone immediately. Universal class penalty."
+      },
+      {
+        "id": "action_exclusivity_tai_chi_vs_dance_spell",
+        "name": "Action Exclusivity — Tai Chi and dance spells mutually exclusive",
+        "source": "class_rule",
+        "active_at_levels": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "fires_on": "ability_initiated",
+        "condition": {
+          "ability_class_in": ["tai_chi", "dance_ability"]
+        },
+        "effect": {
+          "kind": "block_if_active_state",
+          "block_states": ["tai_chi_active", "dance_active"],
+          "narrative_hook": "Cookie must choose Tai Chi OR a dance spell on a given turn, not both."
+        },
+        "narrative_description": "Tai Chi and dance spells (Healing Dance, Dispel, Planar Waltz, Dragon's Roar) cannot coexist on the same turn. Cookie picks one or the other; switching requires ending one before starting the other."
+      },
+      {
+        "id": "spell_initiation_performance_dance_spells",
+        "name": "Spell initiation — Performance roll required for dance spells (fail = prone)",
+        "source": "spell_class",
+        "active_at_levels": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "fires_on": "spell_initiation",
+        "condition": {
+          "spell_in": ["healing_dance", "dance_of_dispel", "planar_waltz", "dragons_roar_dance"]
+        },
+        "effect": {
+          "kind": "force_check",
+          "check": {"die": "d20", "skill": "Performance", "add_dance_inspiration_d12": true},
+          "dc": 12,
+          "on_fail": {"apply_status": "prone", "to": "self", "spell_fizzles": true}
+        },
+        "narrative_description": "Healing Dance, Dance of Dispel, Planar Waltz, and Dragon's Roar all require a Performance roll to initiate; failure drops Cookie prone and fizzles the spell. Stunning Kicks (teleport-strike, not dance) and Protector's Surge (touch, bonus action) do NOT require this roll."
+      },
+      {
+        "id": "spell_concentration_dance_uses_cha",
+        "name": "Spell concentration — dance spells use CHA via DDR",
+        "source": "perk",
+        "active_at_levels": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "fires_on": "concentration_save",
+        "condition": {
+          "spell_in": ["healing_dance", "dance_of_dispel", "planar_waltz", "dragons_roar_dance"]
+        },
+        "effect": {
+          "kind": "override_save_stat",
+          "use_stat": "CHA"
+        },
+        "narrative_description": "Concentration on dance spells routes through Charisma instead of Constitution per Dance Dance Revolution."
+      }
+    ],
     "class_features": [
       {
         "name": "Dance Inspiration",
