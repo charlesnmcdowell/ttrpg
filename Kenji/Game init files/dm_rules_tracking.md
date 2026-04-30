@@ -1153,6 +1153,84 @@ The world doesn't pause between threats. Encounters can and should overlap. A ch
 - If the player is wounded and bleeding, predators with blood-sense NOTICE.
 - Encounters don't queue politely. They pile.
 
+## DEATH, CRITICAL INJURY, AND FATALITY (codified Day 7, Cookie Ch8 — campaign-wide rule)
+
+**This replaces vanilla 5e death saves for ALL creatures equally — PCs, allies, enemies — except where noted.**
+
+### The Two-Round Window
+
+When any creature drops to 0 HP from any source:
+- They are **UNCONSCIOUS** and **DYING** (not yet dead).
+- Their allies have **2 rounds** to heal them.
+  - "2 rounds" = the round they go down, plus the next full round. **At the start of the round AFTER those two**, if still at 0 HP and unhealed, they are **permanently dead**.
+- A dying creature takes no actions, reactions, or movement. Cannot defend.
+
+### Healing While Dying — The Critically Injured State
+
+If healed within the 2-round window:
+- Restored to **1 HP only.** Healing-overflow is wasted.
+- Status: **CRITICALLY INJURED**
+  - Cannot be healed past 1 HP.
+  - Remains **UNCONSCIOUS** (no actions, no reactions, no movement).
+  - Status is cleared only by: a long rest, dedicated medical care (Medicine roll over an extended period), or specific magic (Greater Restoration, etc.).
+- A Critically Injured creature can be re-downed to 0 HP (or below). The 2-round window restarts. The creature can be cycled 0 ↔ 1 HP repeatedly while the fight continues.
+- A Critically Injured creature taking damage that puts them at **−10 HP or lower** triggers **FATALITY** (see below).
+
+### Fatality Threshold (−10 HP)
+
+Damage that takes a creature to **−10 HP or lower** in a single hit triggers a **FATALITY**:
+- **Permanent death.** No 2-round window. No healing. No revival from standard means.
+- The body is destroyed in a damage-type-appropriate manner (see narration table below).
+- Resurrection magic from epic-tier sources may still recover the soul, but the body is gone — campaign-defined cost to restore.
+
+### Undead Exception — True Death
+
+Undead are exempt from the standard 2-round / fatality framework. Undead require **TRUE DEATH**:
+- Specific magic (turn undead, dispel, holy weapons, consecrated ground)
+- A required cooling-off period (campaign-defined; varies by undead tier)
+- Without true death conditions met, an "killed" undead reforms or rises again after the interval expires.
+
+### Fatality Narration — Mandatory Thematic Ending
+
+When a fatality fires, the DM MUST narrate the kill with damage-type-appropriate detail. The player needs to know it was a fatality, not a clean KO. Reference table:
+
+| Damage Type | Fatality narration |
+|---|---|
+| **Fire** | Goes up in a blaze, screaming. Ends as an unrecognizable chunk of gore and ash. |
+| **Bite / eaten** | Mangled and chewed alive, screaming, swallowed. |
+| **Acid** | Screaming, flesh melting in flashes down to bone. Skeleton remains. |
+| **Bludgeoning / punch / kick** | Knocked into wall or ground hard enough to crater, then continued blows until nothing remains but a paste of gore. |
+| **Slashing** | Carved or torn limb-from-limb until pieces. Severed cleanly. |
+| **Piercing** | Pinned, run through, multiple punctures, bleeding out cataclysmically. |
+| **Lightning** | Cooked from the inside, eyes and joints sparking out, blackened husk. |
+| **Cold** | Frozen solid mid-motion, shattered into chunks. |
+| **Necrotic** | Wasted to dust or husk, life-essence drained visibly. |
+| **Radiant** | Burned through with light, hollowed out, white-hot from the inside. |
+| **Psychic** | Mind-broken, screaming until the brain ruptures from inside the skull. |
+| **Thunder** | Pulped from concussion, eardrums burst, bones jellied. |
+| **Force** | Telekinetically smashed, compressed, or crumpled like paper. |
+| **Poison** | Convulsing, hemorrhaging from every orifice, bursting from internal pressure. |
+
+**Fatality narration is not optional flavor.** The player needs the visual confirmation that the kill is a fatality. Without it the rule loses its tactical weight.
+
+### Engine implementation status
+
+`ttrpg_game_engine.py` line 663 currently sets `alive = False, conscious = False` on any hp ≤ 0. **This needs rework** to support the dying / critically-injured / fatality states. Until the engine is patched, the DM tracks dying-rounds-remaining manually per combatant. (Per SESSION_MEMORY rule #1: engine edits via standalone Python patch script only, never via Edit tool.)
+
+### Quick-reference flow
+
+```
+Hit drops target to 0 HP or lower
+    ├── damage took them to −10 HP or lower? → FATALITY (permadeath, narrate thematic)
+    ├── undead?                                → TRUE DEATH check (campaign-defined)
+    └── else: → DYING, 2-round window opens
+            ├── healed within 2 rounds? → 1 HP, CRITICALLY INJURED, unconscious
+            │       └── re-downed? → restart 2-round window (cycle)
+            └── not healed in 2 rounds? → permadead at start of round 3
+```
+
+---
+
 **Real Danger — The Player Can Lose:**
 Combat must carry genuine risk of death. If the player finishes every fight at comfortable HP with resources to spare, the encounters are too easy. The DM should regularly push the player to Iron Jaw / death save territory. Not every fight — but enough that the player never assumes survival.
 - At least one encounter per major session should threaten real death.

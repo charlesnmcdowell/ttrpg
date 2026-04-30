@@ -497,6 +497,14 @@ class Combatant:
     encounter_scaling: Dict[str, float] = field(default_factory=dict); encounters: int = 0
     flying: bool = False; flight_speed: int = 0
     conscious: bool = True; alive: bool = True
+    # === Death / Critical-Injury / Fatality (codified Day 7, Cookie Ch8) ===
+    # See dm_rules_tracking.md "DEATH, CRITICAL INJURY, AND FATALITY" section.
+    dying: bool = False                  # True while in 2-round healing window (hp 0..-9)
+    dying_rounds_remaining: int = 0       # ticks down each round; 0 = permadied at start of next round
+    critically_injured: bool = False      # True after being healed from dying; capped at 1 HP, unconscious
+    fatality: bool = False                # True if killed via -10+ overkill in a single hit (not undead)
+    fatality_damage_type: str = ""        # e.g., "fire" / "bludgeoning" / "acid" — drives narration table
+    is_undead: bool = False               # exempt from fatality rule; requires true-death (campaign-specific)
     buffs: Dict[str, Dict[str, Any]] = field(default_factory=dict)
     
     # Thrown weapon system (Giant's Throw)
@@ -659,12 +667,92 @@ class Combatant:
                     self._phase_triggered = phase
                     break
         
-        # Check death
-        if self.hp <= 0:
-            self.alive = False; self.conscious = False
+        # Check death — see dm_rules_tracking.md "DEATH, CRITICAL INJURY, AND FATALITY"
+        # NB: damage_type isn't currently threaded through every call site of take_damage.
+        # When a caller wants fatality narration to fire correctly, set
+        # self._last_damage_type = "<type>" before calling, or pass via the kwarg
+        # take_damage(..., damage_type="fire"). Default "" still triggers the fatality
+        # flag; the DM picks narration from the table.
+        _dmg_type = getattr(self, "_last_damage_type", "")
+        if self.hp <= -10:
+            # FATALITY THRESHOLD — single hit took target to -10 or lower.
+            if self.is_undead:
+                # Undead exempt — drop them but flag for true-death cooldown handling.
+                self.alive = False
+                self.conscious = False
+                self.fatality = False
+            else:
+                self.alive = False
+                self.conscious = False
+                self.fatality = True
+                self.fatality_damage_type = _dmg_type
+                # If they were dying or critically injured, those flags are now moot.
+                self.dying = False
+                self.dying_rounds_remaining = 0
+                self.critically_injured = False
+            self._death_throes_triggered = bool(self.death_throes)
+        elif self.hp <= 0:
+            # DYING — 2-round healing window opens (or restarts if already critically injured).
+            self.conscious = False
+            if not self.dying:
+                self.dying = True
+                self.dying_rounds_remaining = 2
+            # alive stays True while dying — they can still be healed back to 1 HP.
+            self.alive = True
             self._death_throes_triggered = bool(self.death_throes)
         
         return amount
+
+    # === Death/Critical-Injury/Fatality helpers (Day 7 rule) ===
+    def heal_from_dying(self, _amount: int = 1) -> bool:
+        """Heal a dying creature out of the window.
+
+        Per the codified rule, healing-while-dying ALWAYS restores to exactly 1 HP
+        regardless of the magnitude of the heal. The creature becomes
+        CRITICALLY_INJURED — unconscious, cannot be healed past 1 HP until the
+        status is cleared (long rest / Greater Restoration / dedicated medical).
+
+        Returns True if the heal succeeded (was dying), False otherwise.
+        """
+        if not self.dying:
+            return False
+        self.hp = 1
+        self.dying = False
+        self.dying_rounds_remaining = 0
+        self.critically_injured = True
+        self.conscious = False  # still unconscious — cannot act until status clears
+        self.alive = True
+        return True
+
+    def tick_dying_round(self) -> bool:
+        """Advance the dying-window counter by one round.
+
+        Call this once per round per dying creature, at end of round. Returns
+        True if the creature permadied THIS tick (window hit zero); False if
+        still dying or not in dying state.
+        """
+        if not self.dying:
+            return False
+        self.dying_rounds_remaining -= 1
+        if self.dying_rounds_remaining <= 0:
+            # 2-round window expired without a heal — permanent death.
+            self.dying = False
+            self.alive = False
+            self.conscious = False
+            return True
+        return False
+
+    def clear_critically_injured(self) -> bool:
+        """Lift the CRITICALLY_INJURED status.
+
+        Triggered by a long rest, Greater Restoration, or extended dedicated
+        medical care (Medicine roll over time, DM-defined). The creature is
+        still at low HP — clearing the status only removes the heal cap.
+        """
+        if not self.critically_injured:
+            return False
+        self.critically_injured = False
+        return True
 
     def use_legendary_action(self, cost: int = 1) -> bool:
         if self.legendary_actions_remaining >= cost:

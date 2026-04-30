@@ -1,10 +1,10 @@
 # Character Tracker — TTRPG Universe
 
-**Active PC:** Cookie — Halfling Ankuspawn Dancer (Level 8)
-**Current In-Game Date:** Stillday, 7 Bright Turn 1247 AR — **Day 7 afternoon, ~17:00**
-**Campaign:** Cookie — starter campaign (levels 1–10)
-**Chapter:** 7 COMPLETE "Daddy's Girl" | Chapter 8 in progress (Wardbreaker confrontation, Ankuspawn admission, hire offer)
-**EXP:** 95,548 / 100,000 saved (+4,000 unsaved Ch8 in-scene → 99,548 narrated, 452 to L9)
+**Active PC:** Cookie — Halfling Ankuspawn Dancer (**Level 10 — STARTER CAP REACHED**)
+**Current In-Game Date:** Rootday, 8 Bright Turn 1247 AR — **Day 8 dawn, ~05:30** (long rest complete)
+**Campaign:** Cookie — starter campaign (levels 1–10) — **mechanical progression cap reached**, Ember frozen at current strength pending story-trigger unlock
+**Chapter:** 8 COMPLETE "Six Gold and a Stew" | Chapter 9 pending (Day 8 morning — Academy class 08:00)
+**EXP:** 131,768 / 130,000 (cap +1,768)
 **Narrator Style:** Aleron Kong (irreverent, funny, mechanics-in-prose)
 
 > **Cross-references:** DM behavior rules → `dm_rules_tracking.md` (**Scene skill preroll** + **Player success integrity** + **WORLD ECONOMY REFERENCE**) | DM Turn Protocol → `DM_TURN_PROTOCOL.md` (session start, every response, chapter end) | Game engine → `ttrpg_game_engine.py` (`skill_roll`, `contested_skill`, CLI) | Live state → `Cookie/Game init files/character_world_state.json` | Name bank → `npc_name_bank.md` | World lore → `shared_world_continuity.md` | City locations → `shared_world_continuity.md` → City Location Registry
@@ -31,17 +31,17 @@ Every character entry includes a **Morale Compass** value. Use it to decide how 
 
 ## COOKIE — Halfling Ankuspawn Dancer
 
-**Status:** alive
-**Level:** 8 — 95,548 / 100,000 EXP saved (Ch7 close); 99,548 narrated mid-Ch8 (452 to L9)
-**Location:** Adventurer's Guild, Varenholm — Day 7, ~17:00. Mid-scene: Wardbreakers (4) at the bar, Selwyn + Beldra (Greyrush iron crew) at the table with a hire offer, Cult-of-Anku scrivener listening from the contracts alcove.
-**HP:** 50/50 | **AC:** 22 | **Proficiency:** +3
-**Saves:** DEX +11, CHA +7, WIS −2
-**Skills:** Performance +9, Persuasion +9, Acrobatics +11, Deception +6
-**Spells:** L1: 4/4, L2: 3/3
-**Wealth:** 3 GP, 8 SP, 90 CP (mead at corner table is on the house — Pretty Privilege, no charge)
-**Attunement (2/3):** Healer's Ring, Anklet of Unarmed Combat
-**Fame:** LOCAL SENSATION in Varenholm
-**Last Updated:** Day 7 — Ch7 close (Halbert's funeral, Wardbreaker encounter, paternity claim) + Ch8 opening (Ankuspawn public admission, hire approach)
+**Status:** alive | healthy | **EMBER_CAPPED** (no further Ember growth until story trigger)
+**Level:** **10** — 131,768 / 130,000 EXP (cap reached). Mechanical progression cap. Ember Enhancement at maximum starter strength.
+**Location:** Cookie's room above Millward Chandlery, Varenholm — Day 8, ~05:30. Just woke from long rest. Fern still asleep in the other bed. Academy class with Ashworth at 08:00 — 2.5 hr buffer.
+**HP:** 60/60 | **AC:** 22 | **Proficiency:** +4 (L10 bump)
+**Saves:** DEX +12, CHA +8, WIS −2 (prof +4)
+**Skills:** Performance +10, Persuasion +10, Acrobatics +12, Deception +6 (prof +4 applied)
+**Spells:** L1: 4/4, L2: 3/3 (long rest restored). Stunning Kicks 4/4, Healing Dance 4/4, Dispel 4/4, Planar Waltz 4/4, Dragon's Roar 4/4.
+**Wealth:** 4 GP, 18 SP, 90 CP (Hazel split rounded up)
+**Attunement (2/3):** Healer's Ring, Anklet of Unarmed Combat (silver-paste worn off — re-apply before next combat)
+**Fame:** LOCAL SENSATION in Varenholm; Hazel volunteering to promote Cookie to upper-tier women's circuit; Calverton engagement declined Day 7 (Jareth lead burned)
+**Last Updated:** Day 8 05:30 — L10 cap reached (Wererat fight Round 3 + Performance domain bonuses), long rest completed, BUZZED cleared, Ember frozen at current strength
 
 **Physical:** 4'10", athletic dancer's build — curvy but toned. Rich dark chocolate brown skin. Bright blue hair in twin tails. Gold-flecked eyes (Ankuspawn trait). Faint golden scroll-like markings on shoulders and torso (Ember traces — she thinks they're birthmarks). Pointed ears (halfling, slightly elongated from Ankuspawn blood). Small gold hoop earrings. Always barefoot or in light dance shoes. Reference: `Cookie/Game init files/reference_art/cookie_ref_1-4.png`
 **Fashion Quirk — The Firebird Look:** Cookie is an obsessive Ignis fangirl. Ignis (fire dragon in human form) normalized wearing barely-there outfits in public — loose wraps, open corsets, sheer fabrics, lingerie-as-outerwear — because dragons don't understand human clothing modesty. Ignis made it fashion. Cookie dresses in this style daily: sexy, flowing, almost-lingerie dancer outfits in reds, golds, deep blues. Changes outfit every day — fashion IS performance. DM randomizes daily. Currently owns: indigo fitted dress (advantage on social checks), daily Firebird wardrobe, and 4 luxury performance outfits (Gilded Thread, pickup Day 4).
@@ -64,6 +64,28 @@ Cookie's Ember shaped itself around her lifelong love of dance and music. It amp
 - **Dance Inspiration:** +d12 on Performance checks when dancing (not singing/speaking only).
 - **Ankuspawn Beauty (racial, passive):** Supernatural beauty. Narrative flavor — not a combat aura, no saves. Men notice, stare, do favors.
 - **Halfling Luck:** Reroll natural 1s on attacks, checks, and saves. Use the new roll.
+
+### L9 Unlocks — Social / Behavioral Layer (Day 7 17:20)
+
+These three perks bifurcate every Heartstring-touched humanoid by gender × disposition. They are the dominant social-mechanics layer from L9 forward — the DM must check them every scene that involves NPCs who have felt Heartstring.
+
+- **Perk: The Great User (L9):**
+  - **Female humanoid + felt Heartstring + disposition ≤ neutral** → antagonistic. Challenges Cookie to duels, betrays her in combat, actively tries to steal her friends and male admirers.
+  - **Male humanoid + disposition ≥ neutral toward Cookie** → protective. Asks what she needs and buys it. **In combat, gains the option to intercept any attack aimed at Cookie — counts as an automatic critical hit on the intercepting NPC.**
+- **Ember Enhancement: Fans Out of Control (L9, while Ember active):**
+  - **Male humanoid + felt Heartstring + disposition < neutral** → stalker. Attempts kidnap or sleep-time impregnation.
+  - **Female + felt Heartstring** → assassins. Show up to kill her.
+  - **Male + disposition ≥ neutral + felt Heartstring** → secret guard network. Quietly watch over her location and pop up to fight when she's ambushed.
+  - **Mechanical effect:** Cookie rolls for ambush even in safe locations during sleep, but always has at least one nearby protector who arrives to help fight.
+- **Quirk: Low-Wisdom Loss-of-Control (L9):**
+  - When alcohol or drugs are offered, Cookie must make a WIS save (DC varies by potency) to refuse.
+  - On a failed save, the player loses control of Cookie for the duration.
+  - If Cookie is drugged or blacked out from alcohol → an attempt scene fires:
+    - Female aggressor → assassination attempt
+    - Male aggressor → impregnation attempt
+  - **Great User intervention:** any nearby Heartstring-touched friendly male humanoid can attempt to thwart the attempt.
+  - If thwart fails → Cookie is treated as prone → **Ember prone effect**: female attackers gain ridicule bonus (mock instead of finishing); male attackers gain lust bonus (must succeed STR save vs Cookie's CHA-based DC to be stopped from succeeding).
+  - **Tracking implication:** every "drink offered" scene is now a real WIS save, not flavor. DM must roll, not narrate around.
 
 ### Equipment — Attuned Items
 
@@ -124,7 +146,7 @@ DEX-based martial art created during Ch2 bandit camp raid. High risk, high rewar
 - **Ch5** "The Four Seasons of Love" (Day 5): Updated guild registration (Dancer — support/tank/healer/buffer). Bridge troll quest with Davan, Aveline, Jessamine — solved non-lethally via Performance nat 20 (40 total) + Heartstring + Ember Enhancement, ogre now hands out pamphlets. Leveled to 6 (bridge domain bonus). Evening: Starling show — Four Seasons of Love (4 songs, 4 outfits, 4 emotions: grief/longing/lust/true love), all Performance checks successful with domain bonuses. Standing ovation, 200+ crowd. Leveled to 7 during Song 3. Starling comped food/drink, offered 3 return show slots. Torren locked 3 patron inquiries. Isolde watched from back — earring deal validated. LOCAL SENSATION fame in Varenholm. Long rest. 30,750 XP. Level 5→7.
 - **Ch6** "Gold in the Morning" (Day 6): Ashworth's second Academy class — Performance 32 vs DC 16 (success +16). Accelerated graduation negotiated via 3 Persuasion checks (final nat 20 vs DC 22). Term 1 closed (Starling accepted as recital). Term 2 fieldwork: Halbert's funeral assigned. Visited widow Maret to gather personal details for the eulogy song. 21,500 XP. Level 7→8.
 - **Ch7** "Daddy's Girl" (Day 7 afternoon): Halbert's funeral procession — vocal Performance 23 vs DC 14 (no dance — funeral context), 7,250 XP. Updated guild registration to L8 Dancer, hire rate 5 GP/quest. The Wardbreakers (Senna Dawnmere, Finch, Varn, Thessaly — Diamond-tier Vanguard Hall, cross-campaign from Kenji Books 2-4) entered the guild while Cookie was at the counter. Senna recognized Cookie's Ember from 25 years around AnkuNyx. Cookie sat next to Finch, flirted, then dropped: "You one of the ladies that bang my dad?" — implying AnkuNyx is her father. Chapter ends on cliffhanger: Senna's response pending.
-- **Ch8** "—" (Day 7 16:25–17:00, IN PROGRESS): Senna replied "Once. A long time ago. Before he knew what he was." Then named Cookie's dodge directly: "I want to hear you say it again. Slow. Who did you just call your father." Cookie sighed, publicly admitted Ankuspawn, pivoted to support-for-hire posting, walked to corner table with mead. Persuasion DC 18 ADV success (28). Persuasion DC 15 ADV success (25). Senna let her walk. Selwyn (human ranger, Greyrush iron crew) + Beldra (dwarf, bandaged forearm) approached the bar with a 2-day flooded-mill escort/pacification offer at 5 GP. A scholar-robed scrivener in the contracts alcove caught the word "Ankuspawn" (eavesdrop DC 12 hit by 0) and noted four small letters in the margin of his ledger — likely Cult of Anku informant. Heartstring AOE traveling with Cookie. WIS 7 + first sip of mead = blackout-risk window opened. **In-scene XP earned (unsaved):** 4,000 (2,500 Persuasion DC18 + 1,500 Persuasion DC15, no domain bonus — both Persuasion). Time tick 16:25 → 17:00.
+- **Ch8** "—" (Day 7 16:25–17:20, IN PROGRESS): Senna replied "Once. A long time ago. Before he knew what he was." Then named Cookie's dodge directly: "I want to hear you say it again. Slow. Who did you just call your father." Cookie sighed, publicly admitted Ankuspawn, pivoted to support-for-hire posting, walked to corner table with mead. Persuasion DC 18 ADV success (28, +2,500 XP). Persuasion DC 15 ADV success (25, +1,500 XP). Selwyn (human ranger, Greyrush iron crew) + Beldra (dwarf, bandaged forearm) approached with a 2-day flooded-mill escort/pacification at 5 GP. Cookie declined cleanly; Beldra elbowed Selwyn before he could counter; hook open at the Hen & Hammer (Beldra evenings). A scholar-robed scrivener in the contracts alcove caught the word "Ankuspawn" (eavesdrop DC 12 hit by 0) and noted four small letters in his ledger — likely Cult of Anku informant. Cookie took a generous draw of the mead — WIS save 8 vs DC 12 (rolled nat 1, Halfling Luck reroll to 10−2=8, fail by 4). **BUZZED:** Heartstring DC up to 13, next alcohol save at disadvantage. Crossed to the contract board buzzed. Investigation DC 13 success (17, +1,500 XP) — three same-day jobs visible (Alderman courier 5 SP, Scriptorium witness 2 GP, Undertaker eve service 3 GP). Crowd assist DC 12 (20) — Jareth (guild runner, noble salon circuit) stepped up with the Calverton engagement-party lead: 12 GP flat + Pretty-Privilege tips, 18:30–20:30 tonight, school-compatible curfew. **LEVEL 8→9** at 100,000 XP threshold. HP 50→55. **L9 unlocks: The Great User, Fans Out of Control, Low-Wisdom Loss-of-Control quirk.** Senna still watching from the bar — wardbreaker_encounter goal still FIRES_NOW. **In-scene XP earned this session (Ch8):** 5,500 (Persuasion DC18 + Persuasion DC15 + Investigation DC13). Time 16:25 → 17:20.
 
 ---
 
@@ -195,6 +217,11 @@ DEX-based martial art created during Ch2 bandit camp raid. High risk, high rewar
 | **Selwyn** | LG | 8 | Greyrush iron crew leader, ranger | active | Late twenties, longbow, leathers patched at the elbows. Approached Cookie at the corner table Day 7 17:00. Iron-tier crew (4 heads) banged up from a Sunwell granary breach contract. Has a 2-day follow-up: flooded mill east of town, escort + pacification, "one wight rumor we're discounting." Hat off, businesslike. Ears went pink at 30 ft of Heartstring. |
 | **Beldra** | LN | 8 | Greyrush crew, dwarf fighter | active | Mid-40s, axe at hip, left forearm bandaged. Carried the contract sleeve. Female, immune to Heartstring sway via standards. Wants the deal closed in six minutes. Offered axe-edge regrind as side-payment. |
 | **Scholar-robed scrivener** | (unknown) | 8 | Contracts-alcove informant | active | NO NAME — caught the word "Ankuspawn" at the threshold of comprehension (eavesdrop DC 12 hit by 0). Wrote four small letters in the margin of an otherwise empty ledger page, blew the ink, closed the book, and went back to writing. Did not look up. **Suspected Cult of Anku informant.** Filed; no immediate action. |
+| **Jareth** | LN | 8 | Guild runner, Varenholm noble salon circuit | active | Mid-30s, charcoal cutaway coat, hair silvering at temples. Approached Cookie at the contract board (Pretty-Privilege crowd assist DC 12, rolled 20). Offered the Calverton engagement-party lead — 12 GP + tips, 18:30–20:30 Day 7, school-compatible curfew. Felt Heartstring (voice went a quarter-step higher). **Great User: protective.** **CALVERTON LEAD DECLINED Day 7 — Cookie skipped, Jareth's hook burned for that night.** Books out of the noble district; future leads still possible. |
+| **Falconer** | LG | 8 | Brass Whistle ranger / urban tracker | active | Human, mid-30s, longbow, silver-tipped broadheads. Heartstring-touched (voice rose, ears pinked). **Great User: protective** active. Two NAT 20 crit kills on R3 + R4 in the wererat fight Round 1. Books at the guild board mornings. Offered to walk Cookie home (Cookie declined). Posts under "Brass Whistle." |
+| **Tova** | LN | 8 | Brass Whistle dwarf fighter | active | Mid-60s, axe + shield, iron-grey braid. Standards-immune to Heartstring sway (like Beldra). Crit on M2 in Round 1; missed all swings Round 3 (took it personally). Honest broker on splits. Confirmed F2 + R1 with axe-pommel post-combat. |
+| **Mograth** | LN | 8 | Brass Whistle orc brawler | active | Mid-30s, silver-shod cudgel, anti-grapple specialist. **Great User: protective** active. Killed M1 (Round 1) and M2 (Round 2), confirmed R2 with cudgel-tap post-combat. Two-word vocabulary in combat. |
+| **Hazel** | NG | 8 | Halfling proprietress, The Gilded Thread | active | Mid-50s, silvered curls, more pearls than three nobles. Heartstring-touched, friendly disposition (no Great User antagonism). Pulled out of contract: 6 GP plus permanent 10% Gilded Thread retail discount + free first-fitting on any future commission. Volunteered to promote Cookie to Lady Calverton's tier of upper-class women — said names will be on Torren's books by Day 8 lunch. Force-multiplier for the bardic career on her own initiative. |
 
 ---
 

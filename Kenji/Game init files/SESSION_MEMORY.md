@@ -2,28 +2,30 @@
 
 **Purpose:** This file is updated by the AI throughout each session to preserve context that would be lost during chat compaction. Read this file at the start of every session and after any compaction event.
 
-**Last updated:** 2026-04-30, Ch8 opening + tracker drift fix + domain-bonus rule clarified
+**Last updated:** 2026-04-30, Ch8 wererat fight cleared + L10 cap reached + Ember frozen + new Death/Fatality rules live
 
 ---
 
 ## ACTIVE STATE
 
 - **Current character:** Cookie
-- **Current chapter:** Ch8 IN PROGRESS (Day 7 afternoon — Wardbreaker confrontation aftermath, Ankuspawn public admission, hire offer at the table)
-- **Day / hour:** Day 7 / ~17:00 (saved state still pinned at 16:25 — 35 min unsaved drift)
-- **Level:** 8
-- **XP:** 95,548 / 100,000 saved; **99,548 narrated mid-Ch8** (+4,000 unsaved from two Persuasion successes — 452 to L9)
-- **HP:** 50/50
+- **Current chapter:** Ch8 IN PROGRESS (Day 8 dawn — wererat fight cleared, Calverton declined, long rest at Millward Chandlery, Academy class at 08:00)
+- **Day / hour:** Day 8 / ~05:30
+- **Level:** **10 — STARTER CAP REACHED.** Mechanical progression cap. Ember Enhancement frozen at maximum starter strength.
+- **XP:** 131,768 / 130,000 (cap +1,768)
+- **HP:** 60/60 (L10 +5 d8+0 CON)
+- **Status:** healthy. EMBER_CAPPED (no further Ember growth until story trigger — Resonance Chamber, Ignis encounter, Cult-of-Anku contact, or campaign-defined unlock). Existing 10× buff/heal multiplier and L9 social mechanics remain active.
 - **Fame:** LOCAL SENSATION in Varenholm
 - **Gold:** 3 GP | 8 SP | 90 CP (mead at corner table on the house — Pretty Privilege)
 - **Location:** Adventurer's Guild, Varenholm — corner table, mead in hand
 - **Next events:** Academy next class (Day 8, 08:00), Ashworth meeting (Day 10, 10:00), Starling return shows (unbooked), Torren's patron inquiries (pending)
-- **Active goals:** become_famous_bard (ongoing), guild_hire_posting (5 GP/quest), wardbreaker_encounter (Senna let her walk after "say it again, slow" — Cookie deflected with public Ankuspawn admission), ankuspawn_public_outing (Cult-of-Anku scrivener noted four letters in his ledger), Selwyn+Beldra hire offer pending response
+- **Active goals:** become_famous_bard (ongoing), guild_hire_posting (5 GP/quest, Calverton lead live), wardbreaker_encounter (still FIRES_NOW — Senna at the bar watching), ankuspawn_public_outing (scrivener filed, no immediate action)
 - **Key open beats (Ch8):**
-  1. Selwyn (ranger, Greyrush iron crew) is asking yes/no on a 5 GP, 2-day flooded-mill escort/pacification. Beldra (dwarf, bandaged) wants this closed in six minutes.
-  2. Senna is across the room watching how Cookie lands the hire conversation — INT 18, took the dodge cleanly, did not intervene. Wardbreakers still in the hall.
-  3. Cookie has mead at her lips, has not yet sipped. WIS 7 + alcohol = blackout window opens with the first swallow.
-  4. Scrivener / Cult-of-Anku informant filed an entry. No immediate consequence; trail opened.
+  1. **Contract choice on the table:** A) Alderman→Isolde courier 5 SP 30min, B) Scriptorium witness 2 GP 1hr, C) Undertaker eve service 3 GP 1hr, D) Calverton engagement (Jareth lead) 12 GP + Pretty-Privilege tips 2hr. C and D conflict. A or B before D is tight-but-possible.
+  2. **Mead at table half-full.** Another draw triggers WIS save at disadvantage. Possible blackout = Low-Wisdom-Loss-of-Control quirk fires (assassination/impregnation attempt scene).
+  3. **Senna still at the bar.** wardbreaker_encounter goal still firing. Walking past her is itself a narrative choice.
+  4. **Selwyn+Beldra dismissed cleanly.** Hen & Hammer hook open (Beldra evenings).
+  5. **Jareth (NEW NPC):** guild runner, noble salon circuit. Felt Heartstring → **Great User: protective.** That's why he volunteered the curfew/V.E.A.-stamp detail unprompted.
 
 ## PENDING TASKS
 
@@ -45,6 +47,27 @@
    - Ch1 "First Night in Varenholm": Kitchen scene with Daisy (21st birthday, birth control request, Tomas intervenes), cart with Fern (8 copper), Varenholm arrival, Academy enrollment, V.E.A. stamp, bought 4 outfits (white/black/red/blue), Gilt Lily scene (married merchant blocked by wife, soldier lost nerve, Torren approached — WIS fail by 9), walked Torren home, smile on the steps.
    - Ch2 "The Indigo Hustle": Fern makeover (pillows/fruit/makeup), Torren's shop (beauty line pitch 1 GP/week, Fern hired as model/employee), dressing room seduction (indigo dress, 30-second grinding dance), Torren agrees to invite 50+ upper class to Starling show, guild signup (dancer/buffer/support), 1 GP per head loophole → recruited 30 adventurers, bandit camp raid, Tai Chi born (started dancing and kicking mid-fight, 6 Performance rolls), party formed (Dorith/Dalla/Silas/Marta/Garron).
    - Ch3 "Golden Returns": Survey Stones quest, Marta tracked cart ruts to Castor's farm, Cookie talked to Castor alone — he explained why he stole stones, she promised to advocate. Turned in quest to Alderman Edric, Pretty Privilege (6 SP → 6 GP), Cookie tried to persuade leniency for Castor — failed. Castor fined 2 GP + 30 days labor. Isolde deal at Pale Lantern: 85 GP earrings for 4 GP + Starling advertising.
+
+### 2026-04-30 Session (Ch8 wererat fight + L10 cap + new rules + long rest)
+1. **Wererat contract (F) accepted at the Adventurer's Guild.** 6 GP, daylight only, half-day, The Gilded Thread (Hazel's shop) cellar. 4-way split with Brass Whistle silver-tier crew (Falconer / Tova / Mograth) — Cookie's share 1.5 GP + permanent 10% Gilded Thread retail discount + free first-fitting privilege.
+2. **8 wererats engaged, 8 dispatched.** Cookie opened with Stunning Kicks (1/4 daily) — 8/8 hits, all stunned 2 rounds, grapple broken by teleport. Falconer 2 NAT 20 crits Round 1. Tai Chi kick on F1 → first FATALITY under new rule (bludgeoning paste, indigo silk shroud). Tai Chi kick on M1 → second FATALITY (paste-gore brick crater). R2 saved stun Round 4, fled, killed by Falconer arrow + fall + Mograth coup-de-grace.
+3. **DEATH / CRITICAL INJURY / FATALITY rule codified** during fight (CRITICAL RULE #13). 2-round dying window, 1 HP critically-injured cap, -10 fatality threshold, undead exemption, mandatory thematic narration table.
+4. **Engine + gamemode patched** via `outputs/patch_death_fatality.py` standalone script per rule #1. Adds Combatant fields (dying, dying_rounds_remaining, critically_injured, fatality, fatality_damage_type, is_undead) + helper methods (heal_from_dying, tick_dying_round, clear_critically_injured) + gamemode `_check_combat_end` PC_DYING return code. Engine syntax: clean. Gamemode syntax error in bash mount = OneDrive sync stale-mount footgun (Windows-side grep confirmed all patches landed correctly).
+5. **L9 → L10 LEVEL UP.** 4 Performance domain successes during combat (start-of-turn + end-of-turn Tai Chi rolls Rounds 2 + 3) = 30,000 XP. + 720 combat XP base. Total: 30,720 XP this combat. Cookie at 131,768 / 130,000.
+6. **EMBER CAP codified** (CRITICAL RULE #14). Story-trigger gate, not mechanical level gate.
+7. **Calverton engagement DECLINED.** 12 GP + tips lead from Jareth burned for Day 7. Future bookings still possible via Jareth + Hazel-volunteered upper-tier women's circuit promotion.
+8. **Ankuspawn lycanthropy immunity confirmed.** Cookie failed CON DC 11 vs F2 bite, but supernatural-resilience trait rejected the curse imprint. House rule pinned.
+9. **Cookie went home to Millward Chandlery, ate Fern's stew, slept.** Ambush check NAT 20 — quiet night, long rest completed. Day 8 dawn 05:30, ready for 08:00 Academy class.
+10. **NPCs added to extras:** Falconer, Tova, Mograth, Hazel. All marked used in npc_name_bank.
+
+### 2026-04-30 Session (Ch8 mid-scene continuation + L9)
+1. **Mead WIS save (DC 12):** rolled nat 1, Halfling Luck rerolled to 10 (raw) − 2 = 8. **Failed by 4 — BUZZED.** Heartstring DC 12→13. Next alcohol draw rolls at disadvantage.
+2. **Selwyn + Beldra dismissed cleanly.** Cookie set the mead down, half-shake, no words. Beldra elbowed Selwyn before he could counter-offer (Heartstring almost cracked his LG). Hook open: Hen & Hammer, Beldra evenings.
+3. **Crossed to contract board buzzed.** Investigation DC 13 success (rolled 17, +1,500 XP) — three same-day options visible. Crowd / Pretty-Privilege check 20 vs DC 12 — Jareth (new NPC, guild runner) approached with the Calverton engagement-party lead.
+4. **LEVEL 8→9 at 100,000 XP threshold.** HP 50→55. Three new perks codified: The Great User, Fans Out of Control (Ember enhancement), Low-Wisdom Loss-of-Control quirk.
+5. **Persisted to JSON:** `_story_engine_state` level/exp/hp/max_hp/exp_to_next_level updated; status += BUZZED; `mechanical_state` level/hp updated; three new class_features entries added.
+6. **Tracker reconciled to L9 / Day 7 17:20 / Ch8 in progress.** Jareth added to EXTRA NPCs. npc_name_bank: Jareth marked used.
+7. **Open contract decision:** A (Alderman courier 5 SP), B (Scriptorium 2 GP), C (Undertaker 3 GP), D (Calverton 12 GP + tips). C/D conflict; A or B + D is stackable.
 
 ### 2026-04-30 Session (Ch8 opening + tracker reconciliation)
 1. **Ch8 opened** on the Wardbreaker cliffhanger. Senna replied "Once. A long time ago. Before he knew what he was. — But I want to hear you say it again. Slow." Cookie sighed, publicly admitted Ankuspawn, pivoted to support-for-hire. Persuasion DC 18 ADV (28) and DC 15 ADV (25) both succeeded. 4,000 in-chat XP. Time 16:25 → 17:00.
@@ -119,4 +142,18 @@ These aren't rhetorical. Actually stop and answer them during the session.
 7. **Session memory file exists** — READ THIS FILE after compaction or at session start.
 8. **Be curious** — don't wait for the user to find problems. Look for them yourself. Ask "why" unprompted. Your previous incarnations were reactive. Be better.
 9. **DOMAIN BONUS XP — engine math, not vibes.** The performer-domain bonus is computed by `engine.domain_bonus_for_check(label, success)` and equals **25% of the FULL level-threshold gap** (e.g., L8→L9 = 25,000, so each successful Performance roll = **+6,250 XP**). It is NOT 25% of the remaining XP-to-next-level. The label must contain the word `performance` or `perform` (case-insensitive) — `persuasion`, `deception`, etc. do NOT qualify under the performer archetype (those are diplomat/infiltrator domains). When in doubt, run the engine. I have over-awarded domain bonus on Persuasion rolls in past sessions; the saved JSON still reflects the correct 95,548 EXP at Ch7 close, so no historical state needs to be rolled back, but in-chat math should be checked against the engine before being asserted.
-10. **TRACKER DRIFT IS SILENT.** `character_tracker.md` does not auto-update from gameplay. The `sync_tracker_to_json()` direction is markdown → JSON, so an out-of-date tracker can clobber a current JSON. After every chapter close, manually update the tracker header (Active PC level, in-game date, chapter pointer, EXP) AND the Chapter Log AND any new EXTRA NPCs. As of 2026-04-30 the tracker was 3 chapters and 2 levels behind reality before this fix.
+10. **TRACKER DRIFT IS SILENT.** `character_tracker.md` does not auto-update from gameplay. The `sync_tracker_to_json()` direction is markdown → JSON, so an out-of-date tracker can clobber a current JSON. After every chapter close, manually update the tracker header (Active PC level, in-game date, chapter pointer, EXP) AND the Chapter Log AND any new EXTRA NPCs. As of 2026-04-30 the tracker was 3 chapters and 2 levels behind reality before this fix. **MITIGATION:** `gamemode.py` step `[3/7] TRACKER DRIFT` now catches header drift at session start.
+11. **L9 SOCIAL MECHANICS — The Great User + Fans Out of Control + Low-Wisdom Quirk.** From Day 7 17:20 onward, every NPC interaction must be checked against gender × disposition × Heartstring-touched. Female ≤ neutral + Heartstring → antagonistic (duels, betrayal, steals friends/men). Male ≥ neutral + Heartstring → protective (buys what she wants, can intercept attacks as auto-crits on themselves). With Ember on: Male < neutral + Heartstring → stalker/kidnap/sleep-impregnation; Female + Heartstring → assassins; Male ≥ neutral + Heartstring → secret guard network. Cookie rolls for ambush even in safe sleep locations; always has at least one nearby friendly to help. **WIS-7 alcohol/drug rule is NOT flavor**: when offered, DM rolls a real WIS save (DC 12 baseline). On fail, player loses control; if blackout happens, an attempt scene fires (assassination if female aggressor, impregnation if male). The Great User intervention can thwart; if it fails, Cookie counts as prone and Ember Last Stand triggers (female mocks, male STR-save mate-attempt).
+12. **Wardbreaker disposition tracking (Day 7 17:00):** Senna CG neutral-curious (knife-edge — if tilts ≤ neutral she becomes antagonistic). Finch CN friendly (protective). Varn LN friendly (protective — that's why his "Combat Magnetism restraint slip" doesn't read as predatory). Thessaly LN neutral (knife-edge female). Senna is the swing variable for the goal_alert that's still firing.
+14. **EMBER CAP — thematic progression gate (codified Day 7, Ch8 end of wererat fight).** Cookie's Ember has hit its growth ceiling at L10 / current enhancement strength. The 10× buff/heal multiplier, Heartstring, Combat Magnetism, Pretty Privilege, Great User, Fans Out of Control, and Low-Wisdom Quirk all remain active at present strength. **No further Ember tier-ups until a story trigger fires.** Plausible triggers (campaign-defined, not yet realized): the Resonance Chamber under the Sunken Playhouse, encounter with Ignis the Firebird, direct contact with Cult of Anku / Nyx, or another major narrative beat. Cookie may continue gaining XP and levels via standard threshold table if `campaign_type` is promoted to `"standard"`, but the Ember side of the build is gated behind story.
+
+15. **L10 cap event (Day 7 wererat fight).** Cookie hit L10 starter cap mid-Ch8 via 4 successful Performance domain rolls in combat (4 × 7,500 = 30,000 XP) + 720 base combat XP. Ember capped per rule #14. Saved JSON: level 10, exp 131,768, hp 60/60, exp_to_next_level 0. **OBSERVATION: Performance domain bonus is XP-explosive in combat.** Tai Chi triggers 2 Performance rolls per round; at 7,500/success this can yield 15,000 XP/round — 5 Tai Chi rounds = a level. Worth deciding if intended or if a per-scene cap should be added (one bonus per scene? per encounter?). Flagged, no rule change yet.
+
+13. **DEATH / CRITICAL INJURY / FATALITY rule (codified Day 7, Ch8 wererat fight).** Replaces vanilla 5e death saves for all creatures equally. Full text in `dm_rules_tracking.md`. **Quick-reference:**
+    - Hit drops target to 0 HP → DYING, 2-round window for an ally to heal.
+    - Healed in window → restored to **1 HP only**, status **CRITICALLY INJURED** (unconscious, cannot heal past 1 HP until status cleared by long rest / dedicated medical / Greater Restoration).
+    - Critically Injured can be cycled 0 ↔ 1 HP repeatedly within combat — each re-down restarts the 2-round window.
+    - Hit takes target to **−10 HP or lower in a single hit** → **FATALITY** (permadeath, no save, body destroyed). DM MUST narrate damage-type-appropriate ending (fire = ash, bludgeon = paste-gore, acid = skeleton, etc. — see rules table).
+    - Undead are exempt; they require TRUE DEATH (specific magic + campaign-defined cooling period).
+    - **Engine wiring needed:** ttrpg_game_engine.py line 663 currently sets alive=False on hp≤0. Needs rework to dying / fatality / critically-injured states. **Patch script only** per rule #1, never Edit tool. DM tracks dying-rounds manually until engine is patched.
+    - **Ankuspawn supernatural-resilience rule (Cookie-specific):** lycanthropy and other mundane curses are rejected automatically — the Ember overwrites the curse imprint on contact. Confirmed in Ch8 wererat fight (Cookie failed CON DC 11 vs lycanthropy on F2 bite, no effect).

@@ -12,11 +12,11 @@
 3. ~~Castor~~ *(used — Cookie campaign, turnip farmer outside Varenholm, Ch3)*
 4. ~~Davan~~ *(used — Cookie campaign, adventurer guild member, greatsword fighter, Varenholm, Ch5)*
 5. ~~Edric~~ *(used — Cookie campaign, Alderman Edric Tosse, city official, Varenholm, Ch3)*
-6. Falconer
+6. ~~Falconer~~ *(used — Cookie campaign, Brass Whistle ranger / urban tracker, silver-tier crew, Adventurer's Guild Varenholm, Ch8)*
 7. ~~Garron~~ *(used — Cookie campaign, adventurer crossbowman, bandit camp raid party)*
 8. ~~Selwyn~~ *(used — Cookie campaign, ranger leader of Greyrush iron crew, Adventurer's Guild Varenholm, Ch8)*
 9. ~~Ivor~~ *(used — Cookie campaign, Academy student, lute player, Team Two, Ch4)*
-10. Jareth
+10. ~~Jareth~~ *(used — Cookie campaign, guild runner for Varenholm noble salon circuit, Adventurer's Guild Varenholm, Ch8)*
 
 **Female:**
 1. ~~Aveline~~ *(used — Cookie campaign, adventurer guild member, archer/scout, Varenholm, Ch5)*
@@ -39,7 +39,7 @@
 2. Dushnak
 3. Ghorzul
 4. Krazag
-5. Mograth
+5. ~~Mograth~~ *(used — Cookie campaign, Brass Whistle orc brawler / anti-grapple specialist, silver-tier crew, silver-shod cudgel, Adventurer's Guild Varenholm, Ch8)*
 6. Nazgur
 7. Orshen
 8. Rugdak
@@ -84,7 +84,7 @@
 7. Kettil
 8. Myrna
 9. Sigra
-10. Tova
+10. ~~Tova~~ *(used — Cookie campaign, Brass Whistle dwarf fighter, silver-tier crew, axe + shield, Adventurer's Guild Varenholm, Ch8)*
 
 ---
 
@@ -136,7 +136,7 @@
 3. Dottie
 4. Ember
 5. Gilly
-6. Hazel
+6. ~~Hazel~~ *(used — Cookie campaign, halfling proprietress of The Gilded Thread, Crown Quarter Varenholm, Ch8)*
 7. Juniper
 8. Lavender
 9. Primrose
