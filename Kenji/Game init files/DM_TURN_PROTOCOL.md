@@ -25,6 +25,8 @@
 
 ## SESSION START — Before First DM Response
 
+**The fastest path:** run `python gamemode.py --character <name>` once at session start. It executes steps 1–7 below as a single `[1/7]…[7/7]` boot sequence and writes a structured report to `GAMEMODE_REPORT.json`. The manual checks below are the canonical fallback when `gamemode.py` is unavailable or you're working in a sub-path that doesn't have the CLI wired up.
+
 Run these steps IN ORDER before writing any narrative:
 
 ### 1. Read campaign CLAUDE.md
@@ -36,11 +38,23 @@ Run these steps IN ORDER before writing any narrative:
 - Note: chapter number, level, XP, day/hour, location, HP, currency, scheduled events, quests, persistent effects
 - **Read `player_input.narrator_style`** — this sets your writing voice for the entire session. Match the named author's tone (see dm_rules_tracking.md § Character Creation step 9). If empty, default to Aleron Kong style.
 
-### 3. Read DM rules
+### 3. **TRACKER DRIFT CHECK** (must run BEFORE any narrative)
+Compare `character_tracker.md` header (Active PC level, Current In-Game Date day, **Chapter:**, **EXP:**) against the JSON state loaded in step 2. If anything disagrees, the tracker is stale.
+
+```bash
+# gamemode.py runs this automatically as step [3/7].
+# Manual fallback — quick eyeball:
+head -10 character_tracker.md
+python -c "import json; d=json.load(open('<state.json>')); s=d['_story_engine_state']; print(f'JSON: L{s[\"level\"]} Day {s[\"day\"]} Ch{d.get(\"_chapter\",0)} EXP {s[\"exp\"]:,}')"
+```
+
+**Why this is non-negotiable:** `sync_tracker_to_json()` writes markdown → JSON. A stale tracker can silently CLOBBER a current JSON. Catching drift at session start prevents an entire chapter of progress from being rolled back. Update the tracker immediately if drift is detected — do not begin narration until tracker and JSON agree.
+
+### 4. Read DM rules
 - Read `dm_rules_tracking.md` — at minimum the AVAILABLE SYSTEMS table and Scene skill preroll section
 - If support class: read SUPPORT / NON-COMBAT CLASS — EXP RULES
 
-### 4. Run engine brief
+### 5. Run engine brief
 ```bash
 python ttrpg_game_engine.py brief          # prints AI context to stdout
 # OR
@@ -48,7 +62,7 @@ python _dm_turn.py brief                   # writes AI_CONTEXT.md
 ```
 - If the CLI isn't available, manually load `_story_engine_state` from the character's JSON and note all fields
 
-### 5. Check continuity
+### 6. Check continuity
 ```bash
 python continuity_engine.py                # self-test with Kenji defaults
 python continuity_engine.py cookie         # loads Cookie's campaign data
@@ -57,11 +71,9 @@ python continuity_engine.py <name>         # any character
 - The engine loads campaign data from the character's state file via `load_campaign("name")`
 - Review campaign threats, NPC registry, and any overdue goal alerts
 
-### 6. Check goal deadlines
+### 7. Check goal deadlines + print dashboard
 - Compare current engine `day` against all events and quest deadlines
 - Flag anything due today or overdue
-
-### 7. Print dashboard
 ```bash
 python _dm_turn.py dashboard
 ```

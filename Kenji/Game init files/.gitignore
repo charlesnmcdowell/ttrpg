@@ -4,6 +4,9 @@ kenji_state.json
 # Generated LLM brief (optional — remove this line if you want AI_CONTEXT.md in version control)
 AI_CONTEXT.md
 
+# Per-character gamemode call counter / sampler state (regenerated each run)
+_gamemode_meta_*.json
+
 # Python
 __pycache__/
 *.pyc

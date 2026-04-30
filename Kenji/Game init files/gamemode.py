@@ -1196,6 +1196,207 @@ def load_city_registry(location: str) -> dict:
 
 
 # ---------------------------------------------------------------------------
+# Periodic-check sampler
+# ---------------------------------------------------------------------------
+# Most boot steps are AUDITS — they detect drift/breakage that only happens at
+# chapter close, location change, etc. Running them every turn is wasted work
+# and noisy output. This sampler runs each audit on a configured period and
+# force-runs whenever the relevant inputs (chapter, location) change.
+#
+# Always-run: LOAD STATE [1], STATE SUMMARY [2], DEADLINES [7]. Time-sensitive.
+# Sampled:    TRACKER DRIFT [3], CONTINUITY [4], CITY REGISTRY [5], NARRATOR [6].
+
+GAMEMODE_CHECK_PERIODS = {
+    "tracker_drift": 3,    # tracker only drifts at chapter close
+    "continuity":    3,    # campaign data is stable mid-scene
+    "city_registry": 3,    # location-keyed; force-runs on location change
+    "narrator_style": 10,  # narrator style is set once per character
+}
+
+
+def _gamemode_meta_path(character: str) -> Path:
+    """Per-character call-counter / cache file (gitignored, local-only)."""
+    safe = "".join(c for c in character.lower() if c.isalnum() or c in "_-") or "default"
+    return SCRIPT_DIR / f"_gamemode_meta_{safe}.json"
+
+
+def _load_gamemode_meta(character: str) -> dict:
+    p = _gamemode_meta_path(character)
+    default = {"calls": 0, "last_chapter": None, "last_location": None,
+               "last_check_run": {}}
+    if not p.exists():
+        return default
+    try:
+        data = json.loads(p.read_text(encoding="utf-8"))
+        # Backfill any missing keys.
+        for k, v in default.items():
+            data.setdefault(k, v)
+        return data
+    except Exception:
+        return default
+
+
+def _save_gamemode_meta(character: str, meta: dict) -> None:
+    try:
+        _gamemode_meta_path(character).write_text(
+            json.dumps(meta, indent=2, ensure_ascii=False) + "\n",
+            encoding="utf-8",
+        )
+    except Exception:
+        # Best-effort; never break gamemode() because the meta cache failed.
+        pass
+
+
+def _should_run_check(check_name: str, meta: dict, *,
+                     audit: bool = False,
+                     force_on_change: dict = None) -> tuple:
+    """Decide whether a sampled check should run this call.
+
+    Returns (should_run: bool, reason: str). The reason is suitable for printing.
+    Force conditions (always run):
+      - audit=True (CLI --audit / passed in by caller)
+      - first-ever run for this check
+      - any force_on_change key whose value differs from meta[f"last_{key}"]
+
+    Otherwise sample on the configured period in GAMEMODE_CHECK_PERIODS.
+    """
+    if audit:
+        return True, "audit mode (forced)"
+
+    last_run_map = meta.get("last_check_run", {})
+    if check_name not in last_run_map:
+        return True, "first run"
+
+    period = GAMEMODE_CHECK_PERIODS.get(check_name, 1)
+    calls_since = max(0, meta.get("calls", 0) - last_run_map[check_name])
+
+    # Force-on-change escape valve.
+    if force_on_change:
+        for key, current_value in force_on_change.items():
+            prev = meta.get(f"last_{key}")
+            if prev is not None and prev != current_value:
+                return True, f"{key} changed ({prev} → {current_value})"
+
+    if calls_since >= period:
+        return True, f"period elapsed ({calls_since}/{period})"
+
+    next_in = period - calls_since
+    return False, f"skipped (next in {next_in} call{'s' if next_in != 1 else ''})"
+
+
+def _record_check_run(meta: dict, check_name: str) -> None:
+    meta.setdefault("last_check_run", {})[check_name] = meta.get("calls", 0)
+
+
+# ---------------------------------------------------------------------------
+# Tracker drift checker
+# ---------------------------------------------------------------------------
+# WHY THIS EXISTS:
+#   character_tracker.md is treated as the source of truth by sync_tracker_to_json().
+#   sync direction is markdown -> JSON, so a stale tracker can silently CLOBBER a
+#   current JSON. Gameplay updates JSON; the tracker has to be hand-updated at
+#   chapter close. If we don't catch drift at session start, we may get to a
+#   sync call that rolls everything back. This function compares the tracker
+#   header (Active PC level / Current In-Game Date Day / Chapter / EXP) against
+#   the engine's loaded state and reports any mismatch.
+
+def check_tracker_drift(eng, full_data: dict, tracker_path: Path = None) -> dict:
+    """Compare character_tracker.md header against JSON state.
+
+    Returns a dict:
+        {
+          "checked": bool,
+          "tracker_path": str,
+          "tracker": {"level": int|None, "day": int|None, "chapter": int|None, "exp": int|None},
+          "json":    {"level": int,      "day": int,      "chapter": int,      "exp": int},
+          "drift":   [str, ...],   # human-readable mismatch lines
+          "warnings": [str, ...],  # non-fatal issues (file missing, parse failures)
+        }
+    """
+    if tracker_path is None:
+        tracker_path = SCRIPT_DIR / "character_tracker.md"
+
+    json_level   = getattr(eng, "level", 0)
+    json_day     = getattr(eng, "day", 0)
+    json_chapter = (full_data or {}).get("_chapter", 0) or 0
+    json_exp     = getattr(eng, "exp", 0) or 0
+
+    result = {
+        "checked": False,
+        "tracker_path": str(tracker_path),
+        "tracker": {"level": None, "day": None, "chapter": None, "exp": None},
+        "json":    {"level": json_level, "day": json_day,
+                    "chapter": json_chapter, "exp": json_exp},
+        "drift":   [],
+        "warnings": [],
+    }
+
+    if not tracker_path.exists():
+        result["warnings"].append(f"Tracker file not found: {tracker_path}")
+        return result
+
+    try:
+        text = tracker_path.read_text(encoding="utf-8", errors="ignore")
+    except Exception as e:
+        result["warnings"].append(f"Tracker read failed: {e}")
+        return result
+
+    # Only inspect the first ~50 lines (the header block). Don't be confused by
+    # the words "Day" / "Chapter" / "Level" appearing later in chapter logs etc.
+    head = "\n".join(text.splitlines()[:50])
+
+    def _grab(pattern):
+        m = re.search(pattern, head)
+        return m.group(1).strip() if m else None
+
+    # Parse header fields. Patterns are anchored to the header label ("Active PC",
+    # "Current In-Game Date", "**Chapter:**", "**EXP:**") so chapter logs don't fool us.
+    raw_level   = _grab(r"Active PC:[^\n]*?\(Level\s+(\d+)\)")
+    raw_day     = _grab(r"Current In-Game Date:[^\n]*?\bDay\s+(\d+)")
+    raw_chapter = _grab(r"\*\*Chapter:\*\*\s*(\d+)")
+    raw_exp     = _grab(r"\*\*EXP:\*\*\s*([\d,]+)")
+
+    try:
+        result["tracker"]["level"]   = int(raw_level)   if raw_level   is not None else None
+        result["tracker"]["day"]     = int(raw_day)     if raw_day     is not None else None
+        result["tracker"]["chapter"] = int(raw_chapter) if raw_chapter is not None else None
+        result["tracker"]["exp"]     = int(raw_exp.replace(",", "")) if raw_exp is not None else None
+    except ValueError as e:
+        result["warnings"].append(f"Tracker header parse: {e}")
+
+    t = result["tracker"]
+
+    if t["level"] is not None and t["level"] != json_level:
+        result["drift"].append(
+            f"LEVEL: tracker={t['level']}, json={json_level}"
+        )
+    if t["day"] is not None and t["day"] != json_day:
+        gap = abs(t["day"] - json_day)
+        result["drift"].append(
+            f"DAY: tracker={t['day']}, json={json_day} (gap {gap} day{'s' if gap != 1 else ''})"
+        )
+    if t["chapter"] is not None and t["chapter"] != json_chapter:
+        result["drift"].append(
+            f"CHAPTER: tracker={t['chapter']}, json={json_chapter}"
+        )
+    if t["exp"] is not None and abs(t["exp"] - json_exp) > 1000:
+        # Allow up to 1k EXP slack for in-scene unsaved drift; anything bigger is real drift.
+        result["drift"].append(
+            f"EXP: tracker={t['exp']:,}, json={json_exp:,} (delta {abs(t['exp']-json_exp):,})"
+        )
+
+    if t["level"] is None and t["day"] is None and t["chapter"] is None and t["exp"] is None:
+        result["warnings"].append(
+            "Could not parse any header fields from character_tracker.md — "
+            "header format may have changed (expected: 'Active PC: ... (Level N)', "
+            "'Current In-Game Date: ... Day N', '**Chapter:** N', '**EXP:** N,NNN')."
+        )
+
+    result["checked"] = True
+    return result
+
+
+# ---------------------------------------------------------------------------
 # Deadline checker
 # ---------------------------------------------------------------------------
 
@@ -1219,6 +1420,99 @@ def check_deadlines(eng, full_data: dict = None) -> list:
         if a["name"] not in seen:
             seen.add(a["name"]); unique.append(a)
     return unique
+
+
+# ---------------------------------------------------------------------------
+# Character-goal alert scanner
+# ---------------------------------------------------------------------------
+# Scans _story_engine_state.character_goals[] (PC + NPC goals) and emits the
+# alert tiers from DM_TURN_PROTOCOL § "Goal alert scan" (step 0 of every DM
+# response). check_deadlines() handles calendar events / dated quests; this
+# handles the broader Active Goals table where NPC behavior is keyed.
+#
+# Tier semantics:
+#   FIRES_NOW    — due today AND due_time has arrived (or is within ~1 hr)
+#   IMMINENT     — due today AND due_time within 4 hours
+#   DUE_TODAY    — due today (no time, or time still hours out)
+#   DUE_TOMORROW — due tomorrow
+#   OVERDUE      — due_day already passed, status still active
+
+def check_character_goals(eng, full_data: dict = None) -> list:
+    """Return active goal alerts from _story_engine_state.character_goals.
+
+    Each alert: {goal_id, character, due_day, due_time, status, summary, type='goal'}.
+    Skips goals with no due_day, status != active, or due_day > current_day + 1.
+    """
+    alerts = []
+    if not full_data:
+        return alerts
+
+    se = full_data.get("_story_engine_state", {}) or {}
+    goals = se.get("character_goals", []) or []
+    if not isinstance(goals, list):
+        return alerts
+
+    current_day  = getattr(eng, "day", 0) or 0
+    current_hour = getattr(eng, "hour", 0)
+    if not isinstance(current_hour, (int, float)):
+        current_hour = 0
+
+    for g in goals:
+        if not isinstance(g, dict):
+            continue
+        if str(g.get("status", "")).lower() not in ("active", "in_progress", "in progress"):
+            continue
+        due_day_raw = g.get("due_day")
+        if due_day_raw is None:
+            continue  # ongoing / no deadline
+        try:
+            due_day = int(due_day_raw)
+        except (TypeError, ValueError):
+            continue
+
+        # Parse due_time "HH:MM" → due_hour. Skip strings like "ongoing", "" etc.
+        due_hour = None
+        dt = g.get("due_time", "")
+        if isinstance(dt, str) and ":" in dt:
+            try:
+                due_hour = int(dt.split(":")[0])
+            except (ValueError, IndexError):
+                pass
+
+        gap = due_day - current_day
+        if gap < 0:
+            status = "OVERDUE"
+        elif gap == 0:
+            if due_hour is None:
+                status = "DUE_TODAY"
+            elif due_hour <= current_hour + 1:
+                status = "FIRES_NOW"
+            elif due_hour <= current_hour + 4:
+                status = "IMMINENT"
+            else:
+                status = "DUE_TODAY"
+        elif gap == 1:
+            status = "DUE_TOMORROW"
+        else:
+            continue  # too far out — don't alert
+
+        alerts.append({
+            "goal_id":   g.get("goal_id") or g.get("name", "unnamed"),
+            "character": g.get("character", "?"),
+            "due_day":   due_day,
+            "due_time":  dt or "",
+            "status":    status,
+            "summary":   (g.get("summary") or "")[:120],
+            "type":      "goal",
+            # mirror check_deadlines fields so dashboard renders both uniformly:
+            "name":      f"{g.get('character', '?')}: {g.get('goal_id') or g.get('name', 'unnamed')}",
+            "day":       due_day,
+        })
+
+    # Sort by tier severity then by day, so FIRES_NOW prints first.
+    tier_order = {"FIRES_NOW": 0, "OVERDUE": 1, "IMMINENT": 2, "DUE_TODAY": 3, "DUE_TOMORROW": 4}
+    alerts.sort(key=lambda a: (tier_order.get(a["status"], 9), a["day"]))
+    return alerts
 
 
 # ---------------------------------------------------------------------------
@@ -1285,6 +1579,51 @@ def _collect_pc_abilities(full_data: dict) -> dict:
     abilities["ember_theme_desc"] = ei.get("theme_description", "")
     abilities["persistent_effects"] = pe.get("on_pc", [])
     return abilities
+
+
+def _print_inventory(full_data: dict, pc_name: str) -> None:
+    """Print equipped / key items / satchel / consumables in compact form.
+
+    Reads from _story_engine_state.{equipped, key_items, satchel, consumables}.
+    No-op if all four are empty. Slots into the dashboard between the deadlines
+    block and PC ABILITIES so the player sees status info before capabilities.
+    """
+    se = full_data.get("_story_engine_state", {}) or {}
+    equipped    = se.get("equipped", [])    or []
+    key_items   = se.get("key_items", [])   or []
+    satchel     = se.get("satchel", [])     or []
+    consumables = se.get("consumables", {}) or {}
+
+    if isinstance(consumables, dict):
+        cons_items = list(consumables.items())
+    elif isinstance(consumables, list):
+        cons_items = [(str(x), "") for x in consumables]
+    else:
+        cons_items = []
+
+    if not (equipped or key_items or satchel or cons_items):
+        return
+
+    print(f"\n{'─' * 60}")
+    print(f"INVENTORY — {pc_name}")
+    print(f"{'─' * 60}")
+    if equipped:
+        print(f"  Equipped:")
+        for item in equipped:
+            print(f"    • {str(item)[:110]}")
+    if key_items:
+        print(f"  Key items:")
+        for item in key_items:
+            print(f"    ⭐ {str(item)[:110]}")
+    if satchel:
+        print(f"  Satchel:")
+        for item in satchel:
+            print(f"    · {str(item)[:90]}")
+    if cons_items:
+        print(f"  Consumables:")
+        for k, v in cons_items:
+            line = f"{k}: {v}" if v else f"{k}"
+            print(f"    ◇ {line[:90]}")
 
 
 def _print_pc_abilities(abilities: dict, pc_name: str):
@@ -1556,19 +1895,39 @@ def _print_enemy_info(enemy_info: dict):
 # GAMEMODE — main boot function
 # ---------------------------------------------------------------------------
 
-def gamemode(character: str = "kenji", player_action: str = "") -> dict:
-    """Full DM boot sequence + combat engine. Returns structured report dict."""
+def gamemode(character: str = "kenji", player_action: str = "",
+             audit: bool = False) -> dict:
+    """Full DM boot sequence + combat engine. Returns structured report dict.
+
+    Parameters
+    ----------
+    character : str
+        Active character (kenji, cookie, ...).
+    player_action : str
+        Player input text for this turn (drives combat detection / scene routing).
+    audit : bool
+        If True, force-run every sampled check this turn (TRACKER DRIFT,
+        CONTINUITY, CITY REGISTRY, NARRATOR STYLE) regardless of period.
+        Use after suspected drift, after restoring from a backup, or as a
+        scheduled deep-audit. Default False — sampled checks honor their
+        configured period and force-run on chapter/location change.
+    """
     state_file = resolve_state_file(character)
     _dm_turn.STATE_FILE = state_file
+
+    # Per-character call counter + last-seen chapter/location for change detection.
+    meta = _load_gamemode_meta(character)
+    meta["calls"] = meta.get("calls", 0) + 1
 
     report = {
         "command": "gamemode", "character": character,
         "player_action": player_action, "status": "OK",
+        "audit": audit, "call_number": meta["calls"],
         "errors": [], "warnings": [],
     }
 
     print("=" * 60)
-    print("GAMEMODE — DM BOOT SEQUENCE")
+    print(f"GAMEMODE — DM BOOT SEQUENCE  (call #{meta['calls']}{'  AUDIT' if audit else ''})")
     print("=" * 60)
     print(f"Character: {character}")
     print(f"State file: {state_file}")
@@ -1583,9 +1942,9 @@ def gamemode(character: str = "kenji", player_action: str = "") -> dict:
         eng, full_data, load_method = load_state_safe(state_file)
         if load_method == "truncation_fallback":
             report["warnings"].append("State file truncated — used fallback parser")
-            print(f"[1/6] LOAD — truncation fallback")
+            print(f"[1/7] LOAD — truncation fallback")
         else:
-            print(f"[1/6] LOAD — {load_method}")
+            print(f"[1/7] LOAD — {load_method}")
         try:
             brief_text = eng.ai_brief_markdown()
             out = SCRIPT_DIR / "AI_CONTEXT.md"
@@ -1601,7 +1960,7 @@ def gamemode(character: str = "kenji", player_action: str = "") -> dict:
             print(f"      BRIEF — fallback ({len(brief_text)} chars)")
     except Exception as e:
         report["errors"].append(f"Load failed: {e}")
-        print(f"[1/6] LOAD — FAILED: {e}")
+        print(f"[1/7] LOAD — FAILED: {e}")
         report["status"] = "DEGRADED"
         return report
 
@@ -1632,57 +1991,139 @@ def gamemode(character: str = "kenji", player_action: str = "") -> dict:
         "chapter_title": full_data.get("_chapter_title", ""),
     }
     report["state"] = state_summary
-    print(f"[2/6] STATE — {eng.char_name} L{eng.level} | Day {eng.day} {time_str} | {eng.location}")
+    print(f"[2/7] STATE — {eng.char_name} L{eng.level} | Day {eng.day} {time_str} | {eng.location}")
 
-    # == 3. CONTINUITY ENGINE ==
-    try:
-        import continuity_engine as ce
-        if load_method == "truncation_fallback" and full_data:
-            load_msg = f"Loaded {character} via truncation fallback"
-            ce._LOADED_CHARACTER = character.lower()
-        else:
-            load_msg = ce.load_campaign(character.lower())
-        report["continuity_load"] = load_msg
-        ce_state = {
-            "hour": eng.hour, "day": eng.day, "location": eng.location,
-            "hp": eng.hp, "max_hp": eng.max_hp, "exp": getattr(eng, "exp", 0),
-            "meals": eng.meals, "hours_since_meal": eng.hours_since_meal,
-            "weather": eng.weather, "npcs_in_scene": [], "threat_id": "",
-            "aura_targets": [], "active_buffs": list(eng.buffs.keys()) if eng.buffs else [],
-            "charges": {k: v[0] for k, v in eng.charges.items()} if eng.charges else {},
-        }
-        ce_report = ce.check_engine(ce_state)
-        report["continuity_check"] = ce_report
-        ic = ce_report.count("!!") + ce_report.count("MISSING") + ce_report.count("BROKEN")
-        if ic > 0:
-            report["warnings"].append(f"Continuity: {ic} issue(s)")
-        print(f"[3/6] CONTINUITY — loaded {character}, {ic} issue(s)")
-    except Exception as e:
-        report["continuity_load"] = f"FAILED: {e}"
+    # == 3. TRACKER DRIFT ==
+    # Sampled — runs every Nth call and force-runs on chapter change (since the
+    # tracker only goes stale at chapter close anyway).
+    chapter_now = full_data.get("_chapter", 0) or 0
+    should_run, reason = _should_run_check(
+        "tracker_drift", meta, audit=audit,
+        force_on_change={"chapter": chapter_now},
+    )
+    if should_run:
+        try:
+            drift_report = check_tracker_drift(eng, full_data, SCRIPT_DIR / "character_tracker.md")
+            report["tracker_drift"] = drift_report
+            if drift_report["drift"]:
+                for d in drift_report["drift"]:
+                    report["warnings"].append(f"TRACKER DRIFT: {d}")
+                print(f"[3/7] TRACKER DRIFT — !!! {len(drift_report['drift'])} field(s) out of sync !!! ({reason})")
+                for d in drift_report["drift"]:
+                    print(f"      • {d}")
+                print(f"      ⚠ Update character_tracker.md before chapter close, or sync_tracker_to_json()")
+                print(f"      ⚠ will clobber the live JSON state with the stale tracker values.")
+            elif drift_report["warnings"]:
+                for w in drift_report["warnings"]:
+                    report["warnings"].append(f"TRACKER DRIFT: {w}")
+                print(f"[3/7] TRACKER DRIFT — could not verify ({len(drift_report['warnings'])} warning(s); {reason})")
+                for w in drift_report["warnings"]:
+                    print(f"      • {w}")
+            else:
+                print(f"[3/7] TRACKER DRIFT — clean ({reason})")
+            _record_check_run(meta, "tracker_drift")
+        except Exception as e:
+            report["warnings"].append(f"Tracker drift check failed: {e}")
+            print(f"[3/7] TRACKER DRIFT — FAILED: {e}")
+    else:
+        report["tracker_drift"] = {"checked": False, "reason": reason}
+        print(f"[3/7] TRACKER DRIFT — {reason}")
+
+    # == 4. CONTINUITY ENGINE ==
+    # Sampled — runs every Nth call and force-runs on chapter change.
+    should_run, reason = _should_run_check(
+        "continuity", meta, audit=audit,
+        force_on_change={"chapter": chapter_now},
+    )
+    if should_run:
+        try:
+            import continuity_engine as ce
+            if load_method == "truncation_fallback" and full_data:
+                load_msg = f"Loaded {character} via truncation fallback"
+                ce._LOADED_CHARACTER = character.lower()
+            else:
+                load_msg = ce.load_campaign(character.lower())
+            report["continuity_load"] = load_msg
+            ce_state = {
+                "hour": eng.hour, "day": eng.day, "location": eng.location,
+                "hp": eng.hp, "max_hp": eng.max_hp, "exp": getattr(eng, "exp", 0),
+                "meals": eng.meals, "hours_since_meal": eng.hours_since_meal,
+                "weather": eng.weather, "npcs_in_scene": [], "threat_id": "",
+                "aura_targets": [], "active_buffs": list(eng.buffs.keys()) if eng.buffs else [],
+                "charges": {k: v[0] for k, v in eng.charges.items()} if eng.charges else {},
+            }
+            ce_report = ce.check_engine(ce_state)
+            report["continuity_check"] = ce_report
+            ic = ce_report.count("!!") + ce_report.count("MISSING") + ce_report.count("BROKEN")
+            if ic > 0:
+                report["warnings"].append(f"Continuity: {ic} issue(s)")
+            print(f"[4/7] CONTINUITY — loaded {character}, {ic} issue(s) ({reason})")
+            _record_check_run(meta, "continuity")
+        except Exception as e:
+            report["continuity_load"] = f"FAILED: {e}"
+            report["continuity_check"] = ""
+            report["warnings"].append(f"Continuity failed: {e}")
+            print(f"[4/7] CONTINUITY — FAILED: {e}")
+    else:
+        report["continuity_load"] = "skipped"
         report["continuity_check"] = ""
-        report["warnings"].append(f"Continuity failed: {e}")
-        print(f"[3/6] CONTINUITY — FAILED: {e}")
+        print(f"[4/7] CONTINUITY — {reason}")
 
-    # == 4. CITY LOCATION REGISTRY ==
-    city_data = load_city_registry(eng.location)
-    report["city_registry"] = city_data
-    cn = city_data.get("city", "none")
-    lc = city_data.get("location_count", 0)
-    print(f"[4/6] CITY REGISTRY — {cn or 'no match'} ({lc} locations)")
+    # == 5. CITY LOCATION REGISTRY ==
+    # Sampled — force-runs on location change (where it's actually informative).
+    should_run, reason = _should_run_check(
+        "city_registry", meta, audit=audit,
+        force_on_change={"location": eng.location},
+    )
+    if should_run:
+        city_data = load_city_registry(eng.location)
+        report["city_registry"] = city_data
+        cn = city_data.get("city", "none")
+        lc = city_data.get("location_count", 0)
+        print(f"[5/7] CITY REGISTRY — {cn or 'no match'} ({lc} locations) ({reason})")
+        _record_check_run(meta, "city_registry")
+    else:
+        report["city_registry"] = {"checked": False, "reason": reason}
+        print(f"[5/7] CITY REGISTRY — {reason}")
 
-    # == 5. NARRATOR STYLE ==
-    narrator = read_narrator_style(full_data)
-    report["narrator_style"] = narrator
-    print(f"[5/6] NARRATOR — {str(narrator)[:60]}")
+    # == 6. NARRATOR STYLE ==
+    # Sampled at low frequency — narrator style is set once per character.
+    should_run, reason = _should_run_check(
+        "narrator_style", meta, audit=audit,
+        force_on_change={"chapter": chapter_now},
+    )
+    if should_run:
+        narrator = read_narrator_style(full_data)
+        report["narrator_style"] = narrator
+        print(f"[6/7] NARRATOR — {str(narrator)[:60]} ({reason})")
+        _record_check_run(meta, "narrator_style")
+    else:
+        report["narrator_style"] = "skipped"
+        print(f"[6/7] NARRATOR — {reason}")
 
-    # == 6. DEADLINE CHECK ==
+    # == 7. DEADLINES + GOAL ALERTS ==
+    # Always-run; both feeds are time-sensitive. Deadlines = events + dated quests.
+    # Goal alerts = character_goals[] (PC + NPC) per DM_TURN_PROTOCOL step 0.
     deadlines = check_deadlines(eng, full_data)
+    goal_alerts = check_character_goals(eng, full_data)
     report["deadlines"] = deadlines
-    overdue = [d for d in deadlines if d["status"] == "OVERDUE"]
+    report["goal_alerts"] = goal_alerts
+
+    overdue   = [d for d in deadlines if d["status"] == "OVERDUE"]
     due_today = [d for d in deadlines if d["status"] == "DUE_TODAY"]
+    fires_now = [g for g in goal_alerts if g["status"] == "FIRES_NOW"]
+    g_overdue = [g for g in goal_alerts if g["status"] == "OVERDUE"]
+    g_imminent = [g for g in goal_alerts if g["status"] == "IMMINENT"]
+
     if overdue:
         report["warnings"].extend([f"OVERDUE: {d['name']} (Day {d['day']})" for d in overdue])
-    print(f"[6/6] DEADLINES — {len(overdue)} overdue, {len(due_today)} due today, {len(deadlines)} total")
+    if fires_now:
+        report["warnings"].extend([f"GOAL FIRES NOW: {g['name']}" for g in fires_now])
+    if g_overdue:
+        report["warnings"].extend([f"GOAL OVERDUE: {g['name']} (Day {g['day']})" for g in g_overdue])
+
+    print(f"[7/7] DEADLINES & GOALS — events: {len(overdue)} overdue / {len(due_today)} today / {len(deadlines)} total | "
+          f"goals: {len(fires_now)} firing / {len(g_overdue)} overdue / {len(g_imminent)} imminent / {len(goal_alerts)} alerted")
 
     # == DASHBOARD ==
     print(f"\n{'=' * 60}")
@@ -1707,9 +2148,17 @@ def gamemode(character: str = "kenji", player_action: str = "") -> dict:
     print(f"  Weather: {eng.weather}")
     print(f"  Meals: {eng.meals} | Hours since meal: {eng.hours_since_meal}")
     if deadlines:
-        print(f"  Deadlines:")
+        print(f"  Event Deadlines:")
         for dl in deadlines:
             print(f"    [{dl['status']}] {dl['name']} — Day {dl['day']}")
+    if goal_alerts:
+        print(f"  Goal Alerts:")
+        for ga in goal_alerts:
+            time_part = f" {ga['due_time']}" if ga.get("due_time") and ":" in str(ga.get("due_time")) else ""
+            print(f"    [{ga['status']}] {ga['character']}: {ga['goal_id']} — Day {ga['day']}{time_part}")
+
+    # == INVENTORY ==
+    _print_inventory(full_data, eng.char_name)
 
     # == PC ABILITIES ==
     pc_abilities = _collect_pc_abilities(full_data)
@@ -2034,6 +2483,14 @@ def gamemode(character: str = "kenji", player_action: str = "") -> dict:
         encoding="utf-8"
     )
     print(f"\n[REPORT] Wrote GAMEMODE_REPORT.json")
+
+    # Persist call counter + last seen chapter/location for next call's
+    # change-detection. Updates last_chapter/last_location AFTER any change-driven
+    # check has already fired this turn.
+    meta["last_chapter"] = chapter_now
+    meta["last_location"] = eng.location
+    _save_gamemode_meta(character, meta)
+
     return report
 
 
@@ -2044,6 +2501,7 @@ def gamemode(character: str = "kenji", player_action: str = "") -> dict:
 if __name__ == "__main__":
     argv = list(sys.argv[1:])
     character = "kenji"
+    audit = False
     if "--character" in argv:
         idx = argv.index("--character")
         if idx + 1 < len(argv):
@@ -2052,6 +2510,9 @@ if __name__ == "__main__":
         else:
             print("ERROR: --character requires a name", file=sys.stderr)
             sys.exit(1)
+    if "--audit" in argv:
+        audit = True
+        argv = [a for a in argv if a != "--audit"]
     player_action = " ".join(argv)
-    result = gamemode(character=character, player_action=player_action)
+    result = gamemode(character=character, player_action=player_action, audit=audit)
     sys.exit(0 if result["status"] == "OK" else 1)

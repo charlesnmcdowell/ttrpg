@@ -1,10 +1,10 @@
 # Character Tracker — TTRPG Universe
 
-**Active PC:** Cookie — Halfling Ankuspawn Dancer (Level 7)
-**Current In-Game Date:** Fieldday, 5 Bright Turn 1247 AR — **Day 5 night, long rest to Day 6**
+**Active PC:** Cookie — Halfling Ankuspawn Dancer (Level 8)
+**Current In-Game Date:** Stillday, 7 Bright Turn 1247 AR — **Day 7 afternoon, ~17:00**
 **Campaign:** Cookie — starter campaign (levels 1–10)
-**Chapter:** 5 COMPLETE | Chapter 6 pending
-**EXP:** 66,798 / 71,275 (4,477 to go)
+**Chapter:** 7 COMPLETE "Daddy's Girl" | Chapter 8 in progress (Wardbreaker confrontation, Ankuspawn admission, hire offer)
+**EXP:** 95,548 / 100,000 saved (+4,000 unsaved Ch8 in-scene → 99,548 narrated, 452 to L9)
 **Narrator Style:** Aleron Kong (irreverent, funny, mechanics-in-prose)
 
 > **Cross-references:** DM behavior rules → `dm_rules_tracking.md` (**Scene skill preroll** + **Player success integrity** + **WORLD ECONOMY REFERENCE**) | DM Turn Protocol → `DM_TURN_PROTOCOL.md` (session start, every response, chapter end) | Game engine → `ttrpg_game_engine.py` (`skill_roll`, `contested_skill`, CLI) | Live state → `Cookie/Game init files/character_world_state.json` | Name bank → `npc_name_bank.md` | World lore → `shared_world_continuity.md` | City locations → `shared_world_continuity.md` → City Location Registry
@@ -32,16 +32,16 @@ Every character entry includes a **Morale Compass** value. Use it to decide how 
 ## COOKIE — Halfling Ankuspawn Dancer
 
 **Status:** alive
-**Level:** 7 — 66,798 / 71,275 EXP (4,477 to next)
-**Location:** Cookie's room, Varenholm inn — Day 5 night. Ch5 COMPLETE, long rest to Day 6.
-**HP:** 45/45 | **AC:** 22 | **Proficiency:** +3
+**Level:** 8 — 95,548 / 100,000 EXP saved (Ch7 close); 99,548 narrated mid-Ch8 (452 to L9)
+**Location:** Adventurer's Guild, Varenholm — Day 7, ~17:00. Mid-scene: Wardbreakers (4) at the bar, Selwyn + Beldra (Greyrush iron crew) at the table with a hire offer, Cult-of-Anku scrivener listening from the contracts alcove.
+**HP:** 50/50 | **AC:** 22 | **Proficiency:** +3
 **Saves:** DEX +11, CHA +7, WIS −2
 **Skills:** Performance +9, Persuasion +9, Acrobatics +11, Deception +6
 **Spells:** L1: 4/4, L2: 3/3
-**Wealth:** 3 GP, 0 SP, 95 CP + bridge quest payout pending
+**Wealth:** 3 GP, 8 SP, 90 CP (mead at corner table is on the house — Pretty Privilege, no charge)
 **Attunement (2/3):** Healer's Ring, Anklet of Unarmed Combat
 **Fame:** LOCAL SENSATION in Varenholm
-**Last Updated:** Day 5 — Ch5 close (Four Seasons of Love, Starling show)
+**Last Updated:** Day 7 — Ch7 close (Halbert's funeral, Wardbreaker encounter, paternity claim) + Ch8 opening (Ankuspawn public admission, hire approach)
 
 **Physical:** 4'10", athletic dancer's build — curvy but toned. Rich dark chocolate brown skin. Bright blue hair in twin tails. Gold-flecked eyes (Ankuspawn trait). Faint golden scroll-like markings on shoulders and torso (Ember traces — she thinks they're birthmarks). Pointed ears (halfling, slightly elongated from Ankuspawn blood). Small gold hoop earrings. Always barefoot or in light dance shoes. Reference: `Cookie/Game init files/reference_art/cookie_ref_1-4.png`
 **Fashion Quirk — The Firebird Look:** Cookie is an obsessive Ignis fangirl. Ignis (fire dragon in human form) normalized wearing barely-there outfits in public — loose wraps, open corsets, sheer fabrics, lingerie-as-outerwear — because dragons don't understand human clothing modesty. Ignis made it fashion. Cookie dresses in this style daily: sexy, flowing, almost-lingerie dancer outfits in reds, golds, deep blues. Changes outfit every day — fashion IS performance. DM randomizes daily. Currently owns: indigo fitted dress (advantage on social checks), daily Firebird wardrobe, and 4 luxury performance outfits (Gilded Thread, pickup Day 4).
@@ -87,15 +87,21 @@ DEX-based martial art created during Ch2 bandit camp raid. High risk, high rewar
 
 | goal_id | opened | due_date | status | description |
 |---------|--------|----------|--------|-------------|
-| become_famous_bard | Day 1 | ongoing | ACTIVE | Become a famous bard like Ignis. LOCAL SENSATION in Varenholm after 5 days. Starling show (Four Seasons of Love) — standing ovation, 200+ crowd. 3 return show slots offered. Torren booking patron inquiries. Isolde earring deal validated. |
+| become_famous_bard | Day 1 | ongoing | ACTIVE | Become a famous bard like Ignis. LOCAL SENSATION in Varenholm after 7 days. Starling show (Four Seasons of Love) — standing ovation, 200+ crowd. 3 return show slots offered. Torren booking patron inquiries. Isolde earring deal validated. Term 1 closed; Term 2 fieldwork (Halbert funeral) complete; accelerated graduation negotiated. |
 | academy_term | Day 1 | Day 4 08:00 | COMPLETE | First class with Professor Ashworth. Dragon's Fire performance (22 vs DC 14). Fieldwork bounty assigned. |
 | amphitheatre_spiders | Day 4 | Day 4 | COMPLETE | Burnt Amphitheatre spider infestation cleared. 3 Phase Spiders killed (all FATALITY by Fenella). 525 XP, 99 GP earned (50 spider parts + 49 quest bonus), 40 GP spent at enchanter. |
 | outfit_pickup | Day 1 | Day 4 | COMPLETE | 4 luxury performance outfits picked up from The Gilded Thread. 5 total in wardrobe. |
 | earring_pickup | Day 3 | Day 5 AM | COMPLETE | Custom enchanted earrings (+2 CHA, adv Persuasion & Performance) picked up from Isolde. Worn at Starling — advertising deal fulfilled. Equipped permanently. |
 | starling_show | Day 1 | Day 5 EVE | COMPLETE | Four Seasons of Love — 4 songs, 4 outfits, all successful. Standing ovation from 200+. Leveled twice (5->7). 3 return slots offered. LOCAL SENSATION fame achieved. |
-| academy_day6 | Day 4 | Day 6 08:00 | ACTIVE | Second class with Professor Ashworth. |
-| starling_return_shows | Day 5 | Day 6+ | ACTIVE | Book 3 return show slots offered by Starling management. |
-| torren_patron_inquiries | Day 5 | Day 6+ | ACTIVE | Torren locked 3 patron inquiries after Starling show (private shows, sponsorships). Follow up needed. |
+| bridge_troll | Day 5 | Day 5 | COMPLETE | Bridge troll quest with Davan, Aveline, Jessamine. Solved non-lethally via Performance nat 20 (40) + Heartstring + Ember Enhancement. Ogre now distributes pamphlets. Domain bonus pushed Cookie L5→L6. |
+| academy_day6 | Day 4 | Day 6 08:00 | COMPLETE | Second class — Performance 32 vs DC 16 (success +16). Accelerated graduation negotiated (3 Persuasion checks, final nat 20 vs DC 22). Term 1 closed via Starling. Term 2 fieldwork: Halbert's funeral assigned. |
+| funeral_fieldwork | Day 6 | Day 7 noon | COMPLETE | Term 2 fieldwork — Halbert's funeral. Visited widow Maret (Day 6), gathered personal details. Vocal Performance at the procession (23 vs DC 14, success +9). 7,250 XP. Need to report to Ashworth. |
+| accelerated_graduation | Day 6 | Day 10 | ACTIVE | Negotiated with Ashworth Day 6. Halbert fieldwork complete; report at Day 10 office meeting. |
+| starling_return_shows | Day 5 | Day 8+ | ACTIVE | 3 return show slots offered by Starling. Unbooked. |
+| torren_patron_inquiries | Day 5 | Day 8+ | ACTIVE | Torren locked 3 patron inquiries after Starling. Unactioned. |
+| guild_hire_posting | Day 7 | ongoing | ACTIVE | Updated registration L8 Dancer (support — healer/buffer/tank). Listed for hire at 5 GP/quest. Selwyn + Beldra of Greyrush iron crew approached Day 7 17:00 with a 2-day flooded-mill escort/pacification offer at posted rate. |
+| wardbreaker_encounter | Day 7 16:00 | Day 7 ongoing | ACTIVE | The Wardbreakers (Senna, Finch, Varn, Thessaly) — Diamond-tier Vanguard Hall, cross-campaign from Kenji Books 2-4 — entered the guild while Cookie was at the counter. Senna recognized Cookie's Ember (25 yrs around AnkuNyx). Cookie sat next to Finch, flirted, then dropped: "You one of the ladies that bang my dad?" Senna replied "Once. A long time ago. Before he knew what he was. Finch is a grown man. Bang who you like, halfling. — But I want to hear you say it again. Slow. Who did you just call your father." Cookie deflected with public Ankuspawn admission + pivot to support-for-hire posting. Senna let her walk; Wardbreakers watching. |
+| ankuspawn_public_outing | Day 7 17:00 | ongoing | ACTIVE | Cookie publicly identified herself as Ankuspawn in a full guild hall. Heard by full bar; one set of ears in the contracts alcove (scholar-robed, ledger-keeping) responded — believed to be a Cult of Anku informant. No immediate consequence; trail opens. |
 
 ### NPC Goals
 
@@ -116,6 +122,9 @@ DEX-based martial art created during Ch2 bandit camp raid. High risk, high rewar
 - **Ch3** "Golden Returns" (Day 3): Survey Stones quest with party. Castor caught, Edric paid 6 GP (Pretty Privilege). Earring deal at Pale Lantern with Isolde. 6,000 XP. Level 4→5.
 - **Ch4** "The Bat Dance" (Day 4): First Academy class — Dragon's Fire dance (22 vs DC 14, Heartstring shifted 9/15 students). Picked up outfits. Chose Academy fieldwork bounty over combat quests. Joined Team Two (Silka, Ivor, Fenella). Invented echolocation tap-dance at Burnt Amphitheatre (Performance 38, max d12) — mapped underchambers without entering. Detected phase spiders. Combat: 3 Phase Spiders at Burnt Amphitheatre, all FATALITY by Fenella. Healing Dance completed (100% regen buff active ~1 hr post-combat). Earned 99 GP (50 spider parts + 49 quest bonus). Purchased Healer's Ring + Anklet of Unarmed Combat from enchanter (40 GP). DEX 3→7, AC 18→22, kick now 6d8+7. 6,673 XP. Level 5.
 - **Ch5** "The Four Seasons of Love" (Day 5): Updated guild registration (Dancer — support/tank/healer/buffer). Bridge troll quest with Davan, Aveline, Jessamine — solved non-lethally via Performance nat 20 (40 total) + Heartstring + Ember Enhancement, ogre now hands out pamphlets. Leveled to 6 (bridge domain bonus). Evening: Starling show — Four Seasons of Love (4 songs, 4 outfits, 4 emotions: grief/longing/lust/true love), all Performance checks successful with domain bonuses. Standing ovation, 200+ crowd. Leveled to 7 during Song 3. Starling comped food/drink, offered 3 return show slots. Torren locked 3 patron inquiries. Isolde watched from back — earring deal validated. LOCAL SENSATION fame in Varenholm. Long rest. 30,750 XP. Level 5→7.
+- **Ch6** "Gold in the Morning" (Day 6): Ashworth's second Academy class — Performance 32 vs DC 16 (success +16). Accelerated graduation negotiated via 3 Persuasion checks (final nat 20 vs DC 22). Term 1 closed (Starling accepted as recital). Term 2 fieldwork: Halbert's funeral assigned. Visited widow Maret to gather personal details for the eulogy song. 21,500 XP. Level 7→8.
+- **Ch7** "Daddy's Girl" (Day 7 afternoon): Halbert's funeral procession — vocal Performance 23 vs DC 14 (no dance — funeral context), 7,250 XP. Updated guild registration to L8 Dancer, hire rate 5 GP/quest. The Wardbreakers (Senna Dawnmere, Finch, Varn, Thessaly — Diamond-tier Vanguard Hall, cross-campaign from Kenji Books 2-4) entered the guild while Cookie was at the counter. Senna recognized Cookie's Ember from 25 years around AnkuNyx. Cookie sat next to Finch, flirted, then dropped: "You one of the ladies that bang my dad?" — implying AnkuNyx is her father. Chapter ends on cliffhanger: Senna's response pending.
+- **Ch8** "—" (Day 7 16:25–17:00, IN PROGRESS): Senna replied "Once. A long time ago. Before he knew what he was." Then named Cookie's dodge directly: "I want to hear you say it again. Slow. Who did you just call your father." Cookie sighed, publicly admitted Ankuspawn, pivoted to support-for-hire posting, walked to corner table with mead. Persuasion DC 18 ADV success (28). Persuasion DC 15 ADV success (25). Senna let her walk. Selwyn (human ranger, Greyrush iron crew) + Beldra (dwarf, bandaged forearm) approached the bar with a 2-day flooded-mill escort/pacification offer at 5 GP. A scholar-robed scrivener in the contracts alcove caught the word "Ankuspawn" (eavesdrop DC 12 hit by 0) and noted four small letters in the margin of his ledger — likely Cult of Anku informant. Heartstring AOE traveling with Cookie. WIS 7 + first sip of mead = blackout-risk window opened. **In-scene XP earned (unsaved):** 4,000 (2,500 Persuasion DC18 + 1,500 Persuasion DC15, no domain bonus — both Persuasion). Time tick 16:25 → 17:00.
 
 ---
 
@@ -177,6 +186,15 @@ DEX-based martial art created during Ch2 bandit camp raid. High risk, high rewar
 | **Silka** | TN (charmed, was NG) | 4 | Academy student / Lyssa's spy / **SECRET ANKUSPAWN** | active | Cookie's half-sister (NEITHER KNOWS). Ember: Veil (concealment/illusion) — ALL abilities SUPPRESSED by Lyssa's silver chain amulet. Grey eyes (gold suppressed), scroll marks hidden under conservative clothes. Sang perfect elven lullaby in Ashworth's class. Failed Heartstring WIS save — blushed when Cookie called her beautiful. On Team Two for Burnt Amphitheatre assignment. **REVEAL: save for high-danger mission, several chapters out.** |
 | **Ivor** | TN | 4 | Academy student, lute player | active | Team Two. Lanky, sandy-haired, nervous. 3 cantrips: Light, Mending, Minor Illusion. Mother was a guild circuit bard — Lyssa Vane "made it difficult." Supported echolocation dance with Minor Illusion visualization. |
 | **Fenella** | TN | 4 | Academy student, shortbow | active | Team Two. Stocky, freckled, practical. Father is gamekeeper outside Duskfen. Field medicine, tracking. Here for Warden credential, not performance. Mapped while others performed. |
+| **Halbert** | (deceased) | 6/7 | Funeral subject (Term 2 fieldwork) | dead | Local figure. Funeral procession Day 7. Cookie performed vocal eulogy (Performance 23 vs DC 14). Personal details gathered from widow Maret. |
+| **Maret** | NG | 6 | Halbert's widow | MIA | Visited Day 6 to gather personal details for the funeral song. Provided memories Cookie wove into the eulogy. Returns if Halbert's death threads back into civic story. |
+| **Senna Dawnmere** | CG | 7 | **Wardbreaker** — Diamond-tier (cross-campaign, Kenji Books 2-4) | active | Former Wardbreakers leader. Fighter / Azarinth Healer. Late 40s, looks mid-20s (Azarinth regen halts aging). Slept with AnkuNyx once "before he knew what he was." Recognized Cookie's Ember instantly. INT 18, LOW WIS (Heartstring DC 12 — failed save Ch7), LOW CHA. Currently letting Cookie play out the room without intercepting. Watching how she lands. |
+| **Finch** | CN | 7 | **Wardbreaker** — halfling rogue (cross-campaign) | active | Sandy-brown hair, throwing knives. Jokes-as-deflection. Cookie sat next to him and flirted — failed CHA contest (17 vs 18) means his usual halfling-rogue patter cracked. No clean comeback. Has not put his beer down since. |
+| **Varn** | LN | 7 | **Wardbreaker** — half-orc fighter (cross-campaign) | active | Greatshield, devoted to Senna, speaks in single sentences. MALE → Combat Magnetism affects him. WIS 10 vs DC 12 — restraint slipping but not broken. Watching, not advancing. |
+| **Thessaly** | LN | 7 | **Wardbreaker** — human arcanist (cross-campaign) | active | Crystal-focus arcanist. Sarcastic, formal-magic snob. Crystal pulsed three times reading Cookie's Ember — Arcana 13 vs 15, knows it's *something* but cannot yet classify. Watching Senna for cues. |
+| **Selwyn** | LG | 8 | Greyrush iron crew leader, ranger | active | Late twenties, longbow, leathers patched at the elbows. Approached Cookie at the corner table Day 7 17:00. Iron-tier crew (4 heads) banged up from a Sunwell granary breach contract. Has a 2-day follow-up: flooded mill east of town, escort + pacification, "one wight rumor we're discounting." Hat off, businesslike. Ears went pink at 30 ft of Heartstring. |
+| **Beldra** | LN | 8 | Greyrush crew, dwarf fighter | active | Mid-40s, axe at hip, left forearm bandaged. Carried the contract sleeve. Female, immune to Heartstring sway via standards. Wants the deal closed in six minutes. Offered axe-edge regrind as side-payment. |
+| **Scholar-robed scrivener** | (unknown) | 8 | Contracts-alcove informant | active | NO NAME — caught the word "Ankuspawn" at the threshold of comprehension (eavesdrop DC 12 hit by 0). Wrote four small letters in the margin of an otherwise empty ledger page, blew the ink, closed the book, and went back to writing. Did not look up. **Suspected Cult of Anku informant.** Filed; no immediate action. |
 
 ---
 
@@ -260,9 +278,9 @@ These are former campaign NPCs now part of the world's living texture. Cookie ma
 
 **Status:** active — not yet encountered by Cookie
 **Threat Level:** Scaled for levels 5-8. Regional menace, not world-ending.
-**Phase 1** (L1-3): Cookie's first booked performance gets cancelled. "Someone told me not to book new acts without clearance." First hint of Lyssa's network. *(Not yet triggered — Cookie bypassed this by going through Torren and the Starling directly.)*
-**Phase 2** (L4-6): Cookie becomes known. Lyssa notices. Practice room trashed. Note: "The heartland has enough bards." *(Cookie is now L7 — LOCAL SENSATION fame after Starling show. Phase 2 triggers imminent.)*
-**Phase 3** (L7-9): Escalation. Fern charmed and turned. Cookie discovers the Sunken Playhouse and the Resonance Chamber. Young bronze dragon recognizes her Ember. *(Cookie entering this level range now.)*
+**Phase 1** (L1-3): Cookie's first booked performance gets cancelled. "Someone told me not to book new acts without clearance." First hint of Lyssa's network. *(Skipped — Cookie bypassed this by going through Torren and the Starling directly.)*
+**Phase 2** (L4-6): Cookie becomes known. Lyssa notices. Practice room trashed. Note: "The heartland has enough bards." *(Triggers due via Silka's pending report — Day 8 deadline. Cookie now L8, deep in the Phase 3 band; Phase 2 should fire ASAP if it's going to fire as written.)*
+**Phase 3** (L7-9): Escalation. Fern charmed and turned. Cookie discovers the Sunken Playhouse and the Resonance Chamber. Young bronze dragon recognizes her Ember. *(Cookie is L8 — IN THIS BAND. Public Ankuspawn admission Day 7 17:00 + Cult-of-Anku scrivener notation = the antagonist supply chain just got direct evidence.)*
 **Phase 4** (L10): Final confrontation at the Sunken Playhouse. Performance duel — bard vs. bard. Fern freed. Lyssa's ledger reveals the anonymous patron → Cult of Anku thread opens.
 
 ### Cult of Anku — Background Threat (kingdom-spanning)

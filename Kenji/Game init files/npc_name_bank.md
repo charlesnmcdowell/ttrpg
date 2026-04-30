@@ -14,7 +14,7 @@
 5. ~~Edric~~ *(used — Cookie campaign, Alderman Edric Tosse, city official, Varenholm, Ch3)*
 6. Falconer
 7. ~~Garron~~ *(used — Cookie campaign, adventurer crossbowman, bandit camp raid party)*
-8. Selwyn
+8. ~~Selwyn~~ *(used — Cookie campaign, ranger leader of Greyrush iron crew, Adventurer's Guild Varenholm, Ch8)*
 9. ~~Ivor~~ *(used — Cookie campaign, Academy student, lute player, Team Two, Ch4)*
 10. Jareth
 
@@ -75,7 +75,7 @@
 10. Thaldrin
 
 **Female:**
-1. Beldra
+1. ~~Beldra~~ *(used — Cookie campaign, dwarf fighter w/ bandaged left forearm, Greyrush iron crew, Adventurer's Guild Varenholm, Ch8)*
 2. Dagny
 3. Elgra
 4. Fyra
