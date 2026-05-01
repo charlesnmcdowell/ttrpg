@@ -345,10 +345,13 @@
   "contexts": {
     "combat": [
       "Smile in the Fire Kenji battle theme 1.wav",
-      "Smile in the Fire Kenji Battle theme 2.wav"
+      "Smile in the Fire Kenji Battle theme 2.wav",
+      "Cookie Blade of Clove Battle theme.wav"
     ],
     "boss_combat": [
-      "Origin of the Last Name battle theme.wav"
+      "Origin of the Last Name battle theme.wav",
+      "Dragon's Daughter Cookie boss battle theme.wav",
+      "Dragon's Daughter Cookie boss battle theme 2.wav"
     ],
     "inn_morning": [
       "Trouble By The Hearth morning inn.wav",
@@ -368,6 +371,13 @@
     ]
   },
   "character_themes": {
+    "Cookie": {
+      "tracks": [
+        "cookie theme Pocket Riot.wav",
+        "cookie theme 2 Pocket Riot.wav"
+      ],
+      "fire_on_skills": ["persuasion"]
+    },
     "Kenji": [
       "Smile in the Fire Kenji battle theme 1.wav",
       "Smile in the Fire Kenji Battle theme 2.wav"

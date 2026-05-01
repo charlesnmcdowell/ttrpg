@@ -11,6 +11,7 @@ Environment: TTRPG_CAMPAIGN_DIR may point at a campaign folder (same as --campai
 """
 
 import sys, io, os, json, random, argparse, re
+import tkinter as tk
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Optional, Type, Any
@@ -336,6 +337,26 @@ class LiveDashboard(ctk.CTk):
         else:
             self._music_map_mtime = 0.0
 
+    @staticmethod
+    def _theme_tracks(value):
+        """Normalize a character_themes value to a list of track filenames.
+        Backwards-compat: legacy entries are flat lists; new entries are dicts
+        with a 'tracks' field (and optional 'fire_on_skills')."""
+        if isinstance(value, list):
+            return value
+        if isinstance(value, dict):
+            t = value.get("tracks")
+            return t if isinstance(t, list) else []
+        return []
+
+    @staticmethod
+    def _theme_fire_on_skills(value):
+        """Return the list of skill keywords that should fire this theme."""
+        if isinstance(value, dict):
+            s = value.get("fire_on_skills") or []
+            return [str(x).lower() for x in s if isinstance(x, str)]
+        return []
+
     def _resolve_track(self, location=None, context=None, character=None):
         """Pick a candidate track from the music_map for the given signal.
         Resolution order: context → character → location.
@@ -347,7 +368,7 @@ class LiveDashboard(ctk.CTk):
         if context and context in mm.get("contexts", {}):
             candidates = mm["contexts"][context]
         elif character and character in mm.get("character_themes", {}):
-            candidates = mm["character_themes"][character]
+            candidates = self._theme_tracks(mm["character_themes"][character])
         elif location:
             is_night = self.engine and (self.engine.hour >= 21 or self.engine.hour < 6)
             mm_locations = mm.get("locations", {})
@@ -488,9 +509,35 @@ class LiveDashboard(ctk.CTk):
                 self._play_music(track)
                 return
 
-        # ---- 3. Character theme (if a tracked character dominates the beat) ----
+        # ---- 3. Character themes ----
+        # Three sub-rules in priority order:
+        #   3a. PC's OWN theme fires when story_beat mentions a configured
+        #       skill (e.g. Cookie's theme fires on "persuasion"). This is
+        #       the dedicated mechanism for "intense moment, focus on PC".
+        #   3b. OTHER character's theme fires when their name is in story_beat
+        #       (NPC scene, cross-campaign appearance).
+        #   3c. PC's own NAME is intentionally NOT auto-matched — it would
+        #       hijack every scene, since the PC's name is in story_beat
+        #       almost constantly.
         char_themes = self._music_map.get("character_themes", {})
+        pc_name = (getattr(e, "char_name", "") or "").lower()
+
+        # 3a. PC's theme via skill match
+        if pc_name and pc_name in {k.lower() for k in char_themes.keys()}:
+            # Find the canonical key (case-preserving lookup)
+            pc_key = next((k for k in char_themes if k.lower() == pc_name), None)
+            if pc_key:
+                fire_skills = self._theme_fire_on_skills(char_themes[pc_key])
+                if any(skill in beat for skill in fire_skills):
+                    track = self._resolve_track(character=pc_key)
+                    if track:
+                        self._play_music(track)
+                        return
+
+        # 3b. Other character's theme via name-in-beat match
         for char_name in char_themes:
+            if char_name.lower() == pc_name:
+                continue
             if char_name.lower() in beat:
                 track = self._resolve_track(character=char_name)
                 if track:
@@ -521,6 +568,23 @@ class LiveDashboard(ctk.CTk):
         track = self._resolve_track(location=loc)
         if track:
             self._play_music(track)
+            return
+
+        # ---- 6. Ambient fallback — random character theme ----
+        # When no location-key matches, fall back to a random character theme
+        # from anywhere in the map. Themes are well-produced pieces in this
+        # world's sound palette; sprinkling them in keeps silence at bay and
+        # adds variety. Skip the PC's own theme so it stays reserved.
+        all_themes = []
+        for char_name, value in (self._music_map.get("character_themes") or {}).items():
+            if char_name.lower() == pc_name:
+                continue
+            all_themes.extend(self._theme_tracks(value))
+        if all_themes:
+            pick = random.choice(all_themes)
+            full = self.config.music_dir / pick
+            if full.exists():
+                self._play_music(str(full))
 
     # ------------------------------------------------------------------
     # File watcher — polls kenji_state.json for changes
@@ -548,9 +612,42 @@ class LiveDashboard(ctk.CTk):
                 self.refresh_all()
                 self._react_music()
                 self._refresh_now_playing()
+
+            # Play-mode response-file watcher.
+            # When dev mode is active and we're awaiting a response, watch
+            # play_response.md next to the state file. If its mtime advances,
+            # read it and apply as if it had been pasted from clipboard.
+            self._play_check_response_file()
         except Exception:
             pass
         self.after(2000, self._poll_state)
+
+    def _play_check_response_file(self) -> None:
+        """Polled from _poll_state. Reads play_response.md if it has been
+        modified since we started awaiting; applies it as the response."""
+        if not getattr(self, "play_state", None):
+            return
+        if not self.play_state.dev_mode or self.play_state.dev_stage != "awaiting":
+            return
+        path = getattr(self, "_play_response_path", None)
+        if path is None or not path.exists():
+            return
+        try:
+            mtime = path.stat().st_mtime
+        except Exception:
+            return
+        if mtime <= getattr(self, "_play_response_mtime", 0.0):
+            return
+        # File has been modified since we began awaiting — read and apply.
+        try:
+            text = path.read_text(encoding="utf-8", errors="ignore").strip()
+        except Exception as e:
+            self._play_append_narrator(f"[error: could not read play_response.md — {e}]\n")
+            return
+        if not text:
+            return
+        self._play_response_mtime = mtime
+        self._play_apply_response(text, source="play_response.md")
 
     # ------------------------------------------------------------------
     # Engine loader
@@ -714,12 +811,17 @@ class LiveDashboard(ctk.CTk):
                                     text_color=TEXT, corner_radius=8)
         self.tabs.pack(fill="both", expand=True)
 
-        for name in ("Status", "Inventory", "World", "Party", "Schedule", "Narrative"):
+        for name in ("Play", "Status", "Inventory", "World", "Party", "Schedule", "Narrative"):
             tab = self.tabs.add(name)
-            tb = ctk.CTkTextbox(tab, fg_color=BG_CARD, text_color=TEXT,
-                                font=FONT_MONO, wrap="word", state="disabled")
-            tb.pack(fill="both", expand=True, padx=4, pady=4)
-            setattr(self, f"_tb_{name.lower()}", tb)
+            if name == "Play":
+                # The Play tab gets a custom layout: narrator output (scrolling
+                # textbox) + 3 option buttons + custom input row.
+                self._build_play_tab(tab)
+            else:
+                tb = ctk.CTkTextbox(tab, fg_color=BG_CARD, text_color=TEXT,
+                                    font=FONT_MONO, wrap="word", state="disabled")
+                tb.pack(fill="both", expand=True, padx=4, pady=4)
+                setattr(self, f"_tb_{name.lower()}", tb)
 
     # ------------------------------------------------------------------
     # REFRESH all panels
@@ -829,6 +931,356 @@ class LiveDashboard(ctk.CTk):
     # ------------------------------------------------------------------
     # Tab refresh helpers
     # ------------------------------------------------------------------
+    # ------------------------------------------------------------------
+    # Play tab — AI narrator runtime
+    # ------------------------------------------------------------------
+    def _build_play_tab(self, tab):
+        """Custom layout for the Play tab. Narrator output dominates the top;
+        bottom strip has three option buttons + a custom-input row + Send."""
+        # Narrator output — scrollable text box, takes most of the tab.
+        self.play_narrator = ctk.CTkTextbox(
+            tab, fg_color=BG_CARD, text_color=TEXT,
+            font=FONT_BODY, wrap="word", state="disabled",
+        )
+        self.play_narrator.pack(fill="both", expand=True, padx=4, pady=(4, 2))
+
+        # Bottom interaction bar
+        bar = ctk.CTkFrame(tab, fg_color=BG_PANEL, corner_radius=6)
+        bar.pack(fill="x", padx=4, pady=(2, 4))
+
+        # Three suggested-action buttons stacked vertically (long text fits cleanly)
+        self.play_option_btns = []
+        for i in range(3):
+            btn = ctk.CTkButton(
+                bar, text=f"Option {i+1}", anchor="w",
+                fg_color=BG_CARD, hover_color=GOLD_DIM, text_color=TEXT,
+                font=FONT_BODY, height=32, corner_radius=4,
+                command=lambda idx=i: self._play_send_option(idx),
+                state="disabled",
+            )
+            btn.pack(fill="x", padx=6, pady=2)
+            self.play_option_btns.append(btn)
+
+        # Custom-input row (Entry + Send)
+        custom_row = ctk.CTkFrame(bar, fg_color="transparent")
+        custom_row.pack(fill="x", padx=6, pady=(4, 2))
+        self.play_input = ctk.CTkEntry(
+            custom_row, placeholder_text="Or type your own action and press Enter…",
+            fg_color=BG_CARD, text_color=TEXT, font=FONT_BODY,
+        )
+        self.play_input.pack(side="left", fill="x", expand=True, padx=(0, 4))
+        self.play_input.bind("<Return>", lambda ev: self._play_send_custom())
+        self.play_send_btn = ctk.CTkButton(
+            custom_row, text="Send", width=140, fg_color=GOLD_DIM, hover_color=GOLD,
+            text_color=BG_DARK, font=FONT_LABEL,
+            command=self._play_send_custom,
+        )
+        self.play_send_btn.pack(side="right")
+
+        # Initial state: PlayState lives on the dashboard for the session.
+        # Lazy-imported here so the rest of the GUI works without anthropic SDK.
+        from play_engine import PlayState
+        self.play_state = PlayState()
+
+        # Dev-mode toggle row — bypass the API and route through Claude Desktop.
+        # Default-on if ANTHROPIC_API_KEY is unset (so the user isn't surprised
+        # by a key-required error on first Send).
+        toggle_row = ctk.CTkFrame(bar, fg_color="transparent")
+        toggle_row.pack(fill="x", padx=6, pady=(0, 6))
+        self.play_devmode_var = tk.BooleanVar(value=self.play_state.dev_mode)
+        self.play_devmode_chk = ctk.CTkCheckBox(
+            toggle_row,
+            text="Dev mode (use Claude Desktop via clipboard — no API cost)",
+            variable=self.play_devmode_var,
+            font=FONT_SMALL, text_color=TEXT_DIM,
+            command=self._play_toggle_dev_mode,
+        )
+        self.play_devmode_chk.pack(side="left", padx=2)
+
+        # Sync the Send button label to the initial mode/stage.
+        self._play_update_send_button()
+
+        if self.play_state.dev_mode:
+            welcome = (
+                "Welcome to the Play tab — DEV MODE.\n\n"
+                "No ANTHROPIC_API_KEY detected (or you toggled dev mode on), so "
+                "the dashboard routes turns through your Claude Desktop instead "
+                "of the API.\n\n"
+                "WORKFLOW each turn:\n"
+                "  1. Type an action below (or click a suggestion when populated) "
+                "and press Enter.\n"
+                "  2. Click 'Copy Prompt → Clipboard'. Paste it into Claude Desktop.\n"
+                "  3. Claude Desktop responds as the DM.\n"
+                "  4. Select Claude's full response, copy it.\n"
+                "  5. Click '← Paste Response from Clipboard'. Narrative renders, "
+                "buttons populate."
+            )
+        else:
+            welcome = (
+                "Welcome to the Play tab.\n\n"
+                "Type your first action below and press Enter. Three suggested "
+                "next-actions will appear after the narrator responds.\n\n"
+                "Tip: enable 'Dev mode' below to bypass the API and route turns "
+                "through your Claude Desktop via clipboard."
+            )
+        self._play_set_narrator(welcome)
+
+    def _play_toggle_dev_mode(self):
+        """Sync the toggle into PlayState and refresh the Send button label."""
+        self.play_state.dev_mode = bool(self.play_devmode_var.get())
+        # Reset the dev-stage so a stale "awaiting" doesn't carry across modes.
+        self.play_state.dev_stage = "ready"
+        self.play_state.pending_action = ""
+        self._play_update_send_button()
+
+    def _play_update_send_button(self):
+        """Refresh Send button label based on mode + stage."""
+        if not getattr(self, "play_send_btn", None):
+            return
+        if self.play_state.dev_mode:
+            if self.play_state.dev_stage == "awaiting":
+                self.play_send_btn.configure(text="← Paste Response")
+            else:
+                self.play_send_btn.configure(text="Copy Prompt →")
+        else:
+            self.play_send_btn.configure(text="Send")
+
+    def _play_set_narrator(self, text: str) -> None:
+        """Replace narrator pane contents."""
+        tb = self.play_narrator
+        tb.configure(state="normal")
+        tb.delete("1.0", "end")
+        tb.insert("1.0", text)
+        tb.configure(state="disabled")
+        tb.see("end")
+
+    def _play_append_narrator(self, text: str) -> None:
+        """Append (used for streaming tokens)."""
+        tb = self.play_narrator
+        tb.configure(state="normal")
+        tb.insert("end", text)
+        tb.configure(state="disabled")
+        tb.see("end")
+
+    def _play_set_options(self, options: list) -> None:
+        """Repopulate the three option buttons."""
+        for i, btn in enumerate(self.play_option_btns):
+            if i < len(options) and options[i]:
+                btn.configure(text=f"{i+1}. {options[i]}", state="normal")
+            else:
+                btn.configure(text=f"Option {i+1}", state="disabled")
+
+    def _play_set_busy(self, busy: bool) -> None:
+        """Disable inputs while a turn is streaming."""
+        state = "disabled" if busy else "normal"
+        for btn in self.play_option_btns:
+            # Re-enable only buttons that have an active option text after streaming.
+            if not busy and not btn.cget("text").startswith(("1.", "2.", "3.")):
+                btn.configure(state="disabled")
+            else:
+                btn.configure(state=state)
+        self.play_input.configure(state=state)
+        self.play_send_btn.configure(state=state)
+
+    def _play_dev_paste_response(self) -> None:
+        """Read response from clipboard, hand off to _play_apply_response."""
+        try:
+            response_text = self.clipboard_get()
+        except Exception as e:
+            self._play_append_narrator(
+                f"[error: could not read clipboard — {e}]\n"
+                "Make sure the response is copied (Ctrl+C) before clicking.\n"
+            )
+            return
+        if not response_text or not response_text.strip():
+            self._play_append_narrator(
+                "[clipboard is empty — copy the response and try again]\n"
+            )
+            return
+        self._play_apply_response(response_text, source="clipboard")
+
+    def _play_apply_response(self, response_text: str, source: str = "?") -> None:
+        """Parse a response (from clipboard OR play_response.md) and render
+        narrative + options. Resets dev-stage to 'ready'. Idempotent — safe
+        to call from the file-watcher."""
+        from play_engine import parse_response, Turn
+        parsed = parse_response(response_text)
+        narrative = parsed.get("narrative", "").strip()
+        options = parsed.get("options", []) or []
+
+        if narrative:
+            self._play_append_narrator(narrative + "\n\n")
+        else:
+            self._play_append_narrator(
+                f"[no narrative parsed from {source} — make sure the full "
+                f"response is present, including the '---OPTIONS---' line]\n\n"
+            )
+
+        new_turn = Turn(
+            player_action=self.play_state.pending_action,
+            narrator=narrative or response_text,
+            options=options,
+        )
+        self.play_state.append_turn(new_turn)
+        self.play_state.current_options = options
+        self.play_state.pending_action = ""
+        self.play_state.dev_stage = "ready"
+
+        self._play_set_options(options)
+        self._play_update_send_button()
+        self.play_input.focus_set()
+
+    def _play_send_option(self, idx: int) -> None:
+        """Player clicked one of the three suggestion buttons."""
+        # In dev mode, if we're awaiting a response paste, the button click
+        # means "paste the response" — not "send a new option". Catch that.
+        if self.play_state.dev_mode and self.play_state.dev_stage == "awaiting":
+            self._play_dev_paste_response()
+            return
+        opts = self.play_state.current_options
+        if idx < 0 or idx >= len(opts):
+            return
+        self._play_send_text(opts[idx])
+
+    def _play_send_custom(self) -> None:
+        """Send button / Enter key. In API mode: stream a turn. In dev mode:
+        either copy the prompt to clipboard (stage='ready') or read the
+        response from clipboard (stage='awaiting')."""
+        if self.play_state.dev_mode and self.play_state.dev_stage == "awaiting":
+            self._play_dev_paste_response()
+            return
+
+        text = self.play_input.get().strip()
+        if not text:
+            return
+        self.play_input.delete(0, "end")
+        self._play_send_text(text)
+
+    def _play_send_text(self, action_text: str) -> None:
+        """Common path: marshal a player action into a turn.
+        Branches between API streaming (live) and dev-mode clipboard (manual)."""
+        # Echo the player's action above the upcoming narrator response.
+        sep = "\n\n" if self.play_narrator.get("1.0", "end").strip() else ""
+        self._play_append_narrator(f"{sep}> {action_text}\n\n")
+
+        # Re-load the latest state from disk so any out-of-band edits
+        # (_dm_turn.py commands, manual JSON edits) are reflected.
+        try:
+            full_state = json.loads(self.config.state_file.read_text(encoding="utf-8"))
+        except Exception as e:
+            self._play_append_narrator(f"\n[error: could not read state file — {e}]\n")
+            return
+
+        # Adventure summary for the prompt — prefer hand-written, fall back
+        # to top-level _narrative_summary already loaded onto the engine.
+        narrative_summary = ""
+        if hasattr(self, "engine") and self.engine is not None:
+            ns = getattr(self.engine, "_narrative_summary", "")
+            if isinstance(ns, list):
+                narrative_summary = "\n\n".join(ns)
+            elif isinstance(ns, str):
+                narrative_summary = ns
+
+        # ---- Dev mode: build prompt, write to file (and clipboard), await response ----
+        # Two channels for the response:
+        #   1. Clipboard (manual paste workflow — Claude Desktop)
+        #   2. File `play_response.md` next to the state file (file bridge —
+        #      auto-detected and applied when modified). The file channel lets
+        #      an external assistant write the response directly with no
+        #      copy/paste step. The clipboard channel still works.
+        if self.play_state.dev_mode:
+            from play_engine import build_dev_prompt
+            prompt_text = build_dev_prompt(
+                state=full_state,
+                history=self.play_state.history,
+                player_action=action_text,
+                narrative_summary=narrative_summary,
+            )
+
+            # Write the prompt to a file so an external editor (Claude Code, vim,
+            # or another assistant) can read it without clipboard.
+            prompt_path = self.config.state_file.parent / "play_prompt.md"
+            try:
+                prompt_path.write_text(prompt_text, encoding="utf-8")
+            except Exception as e:
+                self._play_append_narrator(f"[warning: could not write prompt file — {e}]\n")
+
+            # Also push to the clipboard for the manual paste-into-Claude-Desktop
+            # workflow. Either channel can deliver the response.
+            try:
+                self.clipboard_clear()
+                self.clipboard_append(prompt_text)
+                self.update()
+            except Exception:
+                pass   # file channel still works even if clipboard fails
+
+            # Initialize the response-file watcher mtime baseline so we don't
+            # re-read a stale response file from a previous turn.
+            response_path = self.config.state_file.parent / "play_response.md"
+            self._play_response_path = response_path
+            try:
+                self._play_response_mtime = (
+                    response_path.stat().st_mtime if response_path.exists() else 0.0
+                )
+            except Exception:
+                self._play_response_mtime = 0.0
+
+            self.play_state.pending_action = action_text
+            self.play_state.dev_stage = "awaiting"
+            self._play_update_send_button()
+
+            self._play_append_narrator(
+                f"[Prompt written to play_prompt.md and clipboard "
+                f"({len(prompt_text):,} chars). Awaiting response — either "
+                f"paste from clipboard, or write to play_response.md and the "
+                f"dashboard will auto-apply.]\n\n"
+            )
+            return
+
+        # ---- API mode: stream a turn live ----
+        # Disable inputs while streaming.
+        self._play_set_busy(True)
+        self.play_state.streaming = True
+
+        from play_engine import stream_turn, Turn
+        new_turn = Turn(player_action=action_text)
+
+        # Streaming-thread callbacks marshalled onto the Tk main loop.
+        def on_token(tok: str):
+            self.after(0, lambda: self._play_append_narrator(tok))
+            new_turn.narrator += tok
+
+        def on_complete(parsed: dict):
+            def apply():
+                # Re-enable buttons / input and populate new options.
+                new_turn.narrator = parsed.get("narrative", new_turn.narrator)
+                new_turn.options = parsed.get("options", []) or []
+                self.play_state.current_options = new_turn.options
+                self.play_state.append_turn(new_turn)
+                self.play_state.streaming = False
+                self._play_set_options(new_turn.options)
+                self._play_set_busy(False)
+                self.play_input.focus_set()
+            self.after(0, apply)
+
+        def on_error(msg: str):
+            def apply():
+                self._play_append_narrator(f"\n[error]\n{msg}\n")
+                self.play_state.streaming = False
+                self.play_state.last_error = msg
+                self._play_set_busy(False)
+            self.after(0, apply)
+
+        stream_turn(
+            state=full_state,
+            history=self.play_state.history,
+            player_action=action_text,
+            on_token=on_token,
+            on_complete=on_complete,
+            on_error=on_error,
+            narrative_summary=narrative_summary,
+        )
+
     def _set_tb(self, name, text):
         tb = getattr(self, f"_tb_{name}")
         tb.configure(state="normal")
