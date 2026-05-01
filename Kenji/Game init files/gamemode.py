@@ -1396,6 +1396,81 @@ def check_tracker_drift(eng, full_data: dict, tracker_path: Path = None) -> dict
             "'Current In-Game Date: ... Day N', '**Chapter:** N', '**EXP:** N,NNN')."
         )
 
+    # ---- RULE 9 STRUCTURAL DRIFT CHECKS ----
+    # Prose-to-state mirroring: catch the "JSON has empty fields after N chapters"
+    # failure mode without needing to parse prose. Heuristic — flags sparseness
+    # that's almost always wrong, but doesn't false-alarm on early-game characters.
+    ms = (full_data or {}).get("mechanical_state", {}) or {}
+
+    # Inventory: by chapter 3+, every PC should have at least *some* equipped gear.
+    # Empty equipped on a chapter-9 character is almost certainly drift.
+    if json_chapter >= 3:
+        equipped = ms.get("equipped", [])
+        if not equipped:
+            result["drift"].append(
+                f"INVENTORY: mechanical_state.equipped is empty at chapter {json_chapter} "
+                f"(every PC has gear by ch3+). RULE 9: re-scan chapter prose for "
+                f"'walks out with', 'wears', 'attuned', 'puts on' and mirror into JSON."
+            )
+
+    # Class features: every PC has at least one feature at L1.
+    if json_level >= 1:
+        cfs = ms.get("class_features", [])
+        if not cfs:
+            result["drift"].append(
+                f"CLASS FEATURES: mechanical_state.class_features is empty at level {json_level}. "
+                f"RULE 9: every PC has L1 features (class core, racial passives, Ember if Ankuspawn). "
+                f"Re-scan chapter prose and main_cast notes; mirror into class_features."
+            )
+
+    # Force composition: by chapter 4+, anyone who has had party encounters in prose
+    # should have a populated force_composition.party.members (or other section).
+    # The check we can do without prose: if force_composition is missing entirely
+    # or all sections are empty AND chapter >= 4, flag it.
+    if json_chapter >= 4:
+        fc = ms.get("force_composition") or {}
+        party_members = (fc.get("party") or {}).get("members", [])
+        any_force = bool(
+            party_members
+            or fc.get("pets")
+            or fc.get("summons")
+            or fc.get("constructs")
+            or fc.get("hegemony")
+        )
+        # Solo-character campaigns are valid (Amaris). Only flag if main_cast hints at
+        # a party but force_composition is empty.
+        main_cast = (full_data or {}).get("main_cast", [])
+        # Heuristic: if main_cast has 2+ entries with role mentioning ally/companion/party,
+        # the PC probably has a party. Empty force_composition then = drift.
+        ally_hints = sum(
+            1 for x in main_cast
+            if isinstance(x, dict)
+            and "ally" in (x.get("role", "") or "").lower()
+            or "companion" in (x.get("role", "") or "").lower()
+            or "party" in (x.get("role", "") or "").lower()
+        )
+        if not any_force and ally_hints >= 2:
+            result["drift"].append(
+                f"FORCE COMPOSITION: mechanical_state.force_composition has no party/pets/"
+                f"summons/constructs at chapter {json_chapter}, but main_cast contains "
+                f"{ally_hints} ally/companion/party entries. RULE 9: mirror them into "
+                f"force_composition.party.members."
+            )
+
+    # Threat clocks: by chapter 3+, every campaign with an antagonist (campaign_spine
+    # exists) should have at least one threat clock advancing toward the antagonist's win condition.
+    if json_chapter >= 3:
+        clocks = ms.get("threat_clocks", {}) or {}
+        spine = (full_data or {}).get("campaign_spine", {})
+        antagonist = (full_data or {}).get("antagonist", {})
+        if (spine or antagonist) and not clocks:
+            result["drift"].append(
+                f"THREAT CLOCKS: mechanical_state.threat_clocks is empty at chapter "
+                f"{json_chapter}, but campaign has an antagonist/spine. RULE 9: every "
+                f"antagonist needs at least one ticking clock the PC is racing against. "
+                f"Add entries with progress, rate, description, trigger."
+            )
+
     result["checked"] = True
     return result
 

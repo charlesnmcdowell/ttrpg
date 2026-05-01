@@ -3579,6 +3579,56 @@ class StoryEngine:
             sum(a.get(k, 0) for k in keys)
             for a in self.construct_army.values()
         )
+
+    # ---- FORCE COMPOSITION (universal across character types) ----
+
+    def get_party(self) -> dict:
+        """Return party dict (name, tier, members[], contract) or empty dict."""
+        return self.force_composition.get("party") or {}
+
+    def get_pets(self) -> list:
+        """Return list of pets (animal companions, mounts, etc.) or []."""
+        return self.force_composition.get("pets") or []
+
+    def get_summons(self) -> list:
+        """Return list of active summons (familiars, conjure animals, etc.) or []."""
+        return self.force_composition.get("summons") or []
+
+    def get_force_constructs(self) -> list:
+        """Return list of constructs from force_composition (golems/animated units).
+        Distinct from self.construct_army (Kenji's hegemony rollup)."""
+        return self.force_composition.get("constructs") or []
+
+    def get_hegemony(self) -> dict:
+        """Return hegemony dict if active, else empty dict.
+        Reads from force_composition.hegemony, falls back to legacy hegemony_active."""
+        h = self.force_composition.get("hegemony")
+        if h:
+            return h
+        # Legacy fallback for pre-migration Kenji state
+        if self.hegemony_active:
+            return {
+                "active": True,
+                "_legacy": True,
+                "construct_army": self.construct_army,
+                "construct_fear": self.construct_fear,
+                "portals": self.portals,
+                "portal_max": self.portal_max,
+                "squads": self.squads,
+                "assets": self.assets,
+                "golden_age_active": self.golden_age_active,
+            }
+        return {}
+
+    def has_any_force(self) -> bool:
+        """True if character has ANY allies/units to display."""
+        return bool(
+            self.get_party().get("members")
+            or self.get_pets()
+            or self.get_summons()
+            or self.get_force_constructs()
+            or self.get_hegemony()
+        )
     
     # ---- EVENT PROGRESSION (Tournaments, Dungeons, Sieges) ----
     

@@ -656,7 +656,7 @@ class LiveDashboard(ctk.CTk):
                                     text_color=TEXT, corner_radius=8)
         self.tabs.pack(fill="both", expand=True)
 
-        for name in ("Status", "Inventory", "World", "Army", "Schedule", "Narrative"):
+        for name in ("Status", "Inventory", "World", "Party", "Schedule", "Narrative"):
             tab = self.tabs.add(name)
             tb = ctk.CTkTextbox(tab, fg_color=BG_CARD, text_color=TEXT,
                                 font=FONT_MONO, wrap="word", state="disabled")
@@ -731,7 +731,7 @@ class LiveDashboard(ctk.CTk):
         self._refresh_status_tab()
         self._refresh_inventory_tab()
         self._refresh_world_tab()
-        self._refresh_army_tab()
+        self._refresh_party_tab()
         self._refresh_schedule_tab()
         self._refresh_narrative_tab()
         self._refresh_now_playing()
@@ -1003,51 +1003,128 @@ class LiveDashboard(ctk.CTk):
             lines.append("  (none)")
         self._set_tb("world", "\n".join(lines))
 
-    def _refresh_army_tab(self):
+    def _refresh_party_tab(self):
+        """Universal force-composition tab: party, pets, summons, constructs, hegemony.
+        Renders only sections the character actually has — no Kenji-specific defaults
+        for characters who'll never have a Sorcerer's Hegemony."""
         e = self.engine
         lines = []
-        if not e.hegemony_active:
-            lines.append("  Sorcerer's Hegemony not yet active.")
-            self._set_tb("army", "\n".join(lines))
-            return
-        lines.append("═══ CONSTRUCT ARMY ═══")
-        lines.append(f"  Total: {e.total_constructs()} constructs")
-        lines.append("")
-        for portal, army in sorted(e.construct_army.items()):
-            w, h, m, r = army.get("warrior", 0), army.get("healer", 0), army.get("mage", 0), army.get("ranger", 0)
-            sq, dest = army.get("squads", 0), army.get("destroyed", 0)
-            lines.append(f"  {portal}: {w+h+m+r} active ({sq} squads)")
-            lines.append(f"    W:{w}  H:{h}  M:{m}  R:{r}  (lost:{dest})")
-            fear = e.construct_fear.get(portal, 0)
-            fear_labels = {0: "none", 1: "unsettling", 2: "fear", 3: "panic", 4: "crisis"}
-            lines.append(f"    Fear: {fear_labels.get(fear, fear)}")
+
+        if not e.has_any_force():
+            lines.append("  No party, pets, summons, or constructs.")
             lines.append("")
-        lines.append("═══ PORTALS ═══")
-        active = sum(1 for s in e.portals.values() if s == "active")
-        lines.append(f"  {active}/{e.portal_max} active")
-        for name, status in sorted(e.portals.items()):
-            lines.append(f"  {'●' if status == 'active' else '○'} {name}: {status}")
-        lines += ["", "═══ SQUADS ═══"]
-        if e.squads:
-            for name, info in sorted(e.squads.items()):
-                icon = "⚔️" if info.get("status") == "deployed" else "🏠"
-                lines.append(f"  {icon} {name} (Cpt: {info.get('captain', '?')})")
-                lines.append(f"    {info.get('status', '?')} @ {info.get('location', '?')}")
-                if info.get("mission"):
-                    lines.append(f"    Mission: {info['mission']}")
+            lines.append("  Allies acquired through play (party contracts, animal companions,")
+            lines.append("  spell summons, or built constructs) will appear here.")
+            self._set_tb("party", "\n".join(lines))
+            return
+
+        # ---- PARTY ----
+        party = e.get_party()
+        members = party.get("members", []) if party else []
+        if members:
+            header = "═══ PARTY"
+            if party.get("name"):
+                header += f" — {party['name']}"
+            if party.get("tier"):
+                header += f" ({party['tier']})"
+            header += " ═══"
+            lines.append(header)
+            for m in members:
+                name = m.get("name", "?")
+                role = m.get("role", "")
+                cls = m.get("class", "")
+                tier = m.get("tier", "")
+                status = m.get("status", "active")
+                desc_parts = [p for p in (cls, role, tier) if p]
+                desc = " · ".join(desc_parts) if desc_parts else ""
+                marker = "●" if status == "active" else "○"
+                lines.append(f"  {marker} {name:18s}  {desc}")
+                if status and status != "active":
+                    lines.append(f"    └ status: {status}")
+            if party.get("contract"):
+                lines.append(f"  Contract: {party['contract']}")
+            lines.append("")
+
+        # ---- PETS ----
+        pets = e.get_pets()
+        if pets:
+            lines.append("═══ PETS / COMPANIONS ═══")
+            for p in pets:
+                name = p.get("name", "?")
+                species = p.get("species", "")
+                role = p.get("role", "")
+                status = p.get("status", "active")
+                marker = "●" if status == "active" else "○"
+                desc = " · ".join(x for x in (species, role) if x)
+                lines.append(f"  {marker} {name:18s}  {desc}")
+            lines.append("")
+
+        # ---- SUMMONS ----
+        summons = e.get_summons()
+        if summons:
+            lines.append("═══ ACTIVE SUMMONS ═══")
+            for s in summons:
+                name = s.get("name", "?")
+                src = s.get("source_spell", "")
+                dur = s.get("duration", "")
+                status = s.get("status", "active")
+                marker = "●" if status == "active" else "○"
+                desc = " · ".join(x for x in (src, f"dur: {dur}" if dur else "") if x)
+                lines.append(f"  {marker} {name:18s}  {desc}")
+            lines.append("")
+
+        # ---- FORCE-COMPOSITION CONSTRUCTS (per-character, distinct from hegemony) ----
+        force_constructs = e.get_force_constructs()
+        if force_constructs:
+            lines.append("═══ CONSTRUCTS ═══")
+            for c in force_constructs:
+                name = c.get("name", "?")
+                ctype = c.get("type", "")
+                count = c.get("count", 1)
+                loc = c.get("location", "")
+                status = c.get("status", "active")
+                marker = "●" if status == "active" else "○"
+                desc = " · ".join(x for x in (ctype, f"x{count}" if count != 1 else "", f"@ {loc}" if loc else "") if x)
+                lines.append(f"  {marker} {name:18s}  {desc}")
+            lines.append("")
+
+        # ---- HEGEMONY (Kenji-specific empire-scale rollup) ----
+        heg = e.get_hegemony()
+        if heg and heg.get("active"):
+            lines.append("═══ SORCERER'S HEGEMONY ═══")
+            lines.append(f"  Total constructs: {e.total_constructs()}")
+            lines.append("")
+            for portal, army in sorted(e.construct_army.items()):
+                w, h, m, r = army.get("warrior", 0), army.get("healer", 0), army.get("mage", 0), army.get("ranger", 0)
+                sq, dest = army.get("squads", 0), army.get("destroyed", 0)
+                lines.append(f"  {portal}: {w+h+m+r} active ({sq} squads)")
+                lines.append(f"    W:{w}  H:{h}  M:{m}  R:{r}  (lost:{dest})")
+                fear = e.construct_fear.get(portal, 0)
+                fear_labels = {0: "none", 1: "unsettling", 2: "fear", 3: "panic", 4: "crisis"}
+                lines.append(f"    Fear: {fear_labels.get(fear, fear)}")
                 lines.append("")
-        else:
-            lines.append("  (none)")
-        lines += ["", "═══ ASSETS & INCOME ═══"]
-        if e.golden_age_active:
-            lines.append("  ★ GOLDEN AGE ACTIVE (2x income)")
-        if e.assets:
-            for a in e.assets:
-                icon = "✓" if a.get("status") == "active" else "✗"
-                lines.append(f"  {icon} {a.get('name', '?')}: {a.get('display', '')} [{a.get('status', '?')}]")
-        else:
-            lines.append("  (none)")
-        self._set_tb("army", "\n".join(lines))
+            lines.append("  ── PORTALS ──")
+            active = sum(1 for s in e.portals.values() if s == "active")
+            lines.append(f"  {active}/{e.portal_max} active")
+            for name, status in sorted(e.portals.items()):
+                lines.append(f"  {'●' if status == 'active' else '○'} {name}: {status}")
+            if e.squads:
+                lines += ["", "  ── SQUADS ──"]
+                for name, info in sorted(e.squads.items()):
+                    icon = "⚔" if info.get("status") == "deployed" else "⌂"
+                    lines.append(f"  {icon} {name} (Cpt: {info.get('captain', '?')})")
+                    lines.append(f"    {info.get('status', '?')} @ {info.get('location', '?')}")
+                    if info.get("mission"):
+                        lines.append(f"    Mission: {info['mission']}")
+            if e.assets:
+                lines += ["", "  ── ASSETS & INCOME ──"]
+                if e.golden_age_active:
+                    lines.append("  ★ GOLDEN AGE ACTIVE (2x income)")
+                for a in e.assets:
+                    icon = "✓" if a.get("status") == "active" else "✗"
+                    lines.append(f"  {icon} {a.get('name', '?')}: {a.get('display', '')} [{a.get('status', '?')}]")
+
+        self._set_tb("party", "\n".join(lines))
 
     def _refresh_schedule_tab(self):
         e = self.engine

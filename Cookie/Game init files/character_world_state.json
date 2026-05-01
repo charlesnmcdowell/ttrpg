@@ -434,16 +434,133 @@
     "active_perks": [],
     "weapon_config": "",
     "weapon_config_detail": "",
-    "threat_clocks": {},
+    "threat_clocks": {
+      "Lyssa retaliation": {
+        "progress": 60,
+        "rate": 5,
+        "description": "Lyssa Vane knows Cookie is rising in the heartland performance circuit. Sunken Playhouse fieldwork directly challenges Lyssa's territory. Once Cookie outshines her — Starling show success + Wardbreakers contract + Sunken Playhouse intervention — Lyssa moves to neutralize. Charm-network attacks escalate; Cookie's friends become attack vectors.",
+        "trigger": "At 100%: Lyssa orders coordinated charm-attack on Cookie's inner circle (Fern is highest-priority target — best friend, civilian, no Heartstring resistance)."
+      },
+      "Sunken Playhouse mission": {
+        "progress": 30,
+        "rate": 25,
+        "description": "Day 9 expedition: clear the Sunken Playhouse, recover field-work evidence on Lyssa's charm operation, return to Varenholm. Lyssa's silver chain shattered Day 8 (Dispel), Eira fled the discovery location. Wardbreakers escorting at Bronze rate (12 GP / 3 days).",
+        "trigger": "At 100%: Mission complete. Cookie returns to Varenholm with Sunken Playhouse evidence + Senna's paternity answer locked in for delivery."
+      },
+      "Paternity question (Senna's term)": {
+        "progress": 50,
+        "rate": 25,
+        "description": "Senna Dawnmere recognized Cookie's Ember at Halbert's funeral (Day 7). Cookie claimed Dragon Emperor as father. Senna locked the contract term: 'You answer me about the paternity claim before we get back to Varenholm.' Hard deadline = end of Sunken Playhouse trip.",
+        "trigger": "At 100%: Senna asks. Cookie must answer truthfully OR Senna walks (and the cross-campaign anchor is severed)."
+      },
+      "Silka chain collapse": {
+        "progress": 70,
+        "rate": 3,
+        "description": "Cookie's Day 8 Dance of Dispel shattered Silka's silver suppression chain. Silka's gold-flecked eyes returning; Ankuspawn scroll markings blooming on collarbones/forearms. Lyssa's control over Silka eroding. Silka does NOT yet know she's Ankuspawn or that Lyssa raised her as a controlled asset.",
+        "trigger": "At 100%: Silka realizes what she is, what Lyssa is, and breaks. Major story beat — sister-recognition scene with Cookie."
+      },
+      "Cult of Anku patron exposure": {
+        "progress": 15,
+        "rate": 1,
+        "description": "Lyssa is paid 5 SP/month by an anonymous patron to report gold-eyed performers. She thinks it's a noble fetishist. It's actually a Cult of Anku recruiter building a target list. Once Cookie's name reaches the patron, the Cult activates direct interest.",
+        "trigger": "At 100%: Cult of Anku operative (Ember Shade ward bearer) appears in Cookie's vicinity. 20 ft suppression field threat."
+      },
+      "Accelerated graduation": {
+        "progress": 40,
+        "rate": 5,
+        "description": "Cookie negotiated accelerated graduation with the Academy. Sunken Playhouse fieldwork = capstone field assignment. Recital follows post-mission. Successful completion unlocks early Academy graduation + V.E.A. full credentialing.",
+        "trigger": "At 100%: Cookie graduates Varenholm Academy, full V.E.A. performer credentials, professional touring eligible."
+      }
+    },
     "npc_agendas": {},
     "org_plots": {},
     "world_events": [],
     "consequences": [],
-    "reputation": {},
+    "reputation": {
+      "V.E.A. (Varenholm Entertainers Association)": {
+        "level": "registered performer",
+        "opinion": "active member, 3-month authorization stamp valid",
+        "knows": ["Starling debut Day 5 success", "Halbert funeral performance Day 7", "Academy student status", "Bronze-tier hire rate (5 GP)"]
+      },
+      "Adventurer's Guild (Varenholm)": {
+        "level": "L8 registered (Day 7 update)",
+        "opinion": "vetted performer-class adventurer, hire rate 5 GP",
+        "knows": ["Wardbreakers contract Day 7", "Sunken Playhouse fieldwork Day 9", "halfling Ankuspawn classification on internal record"]
+      },
+      "Wardbreakers": {
+        "level": "Bronze contract client",
+        "opinion": "Senna respects, Finch infatuated (mortified post-Day-8), Varn restraining Combat Magnetism",
+        "knows": ["Cookie is Ankuspawn", "Cookie claims Dragon Emperor parentage (pending Senna's verdict)", "Cookie's Heartstring + Ember scope", "Cookie's L10 ability profile"]
+      },
+      "Gilded Thread (performance outfitter)": {
+        "level": "paying client",
+        "opinion": "Cookie's body shape and stage presence flatter the cut; promotion candidate for next-season feature",
+        "knows": ["4-piece Day 4 commission complete", "Cookie's sizes on file"]
+      },
+      "Maeven (Chandler's Row tailor)": {
+        "level": "business contact",
+        "opinion": "professional, witnessed Cookie's dressing-room exit Ch2",
+        "knows": ["Cookie's sizing", "Day 2 indigo dress fitting"]
+      },
+      "Varenholm Academy": {
+        "level": "accelerated graduation track",
+        "opinion": "Ashworth (mentor) actively monitoring; suspects Ember without naming it",
+        "knows": ["Cookie produces visible magic through dance unaided", "Sunken Playhouse fieldwork = capstone"]
+      },
+      "The Pale Lantern (Isolde's shop)": {
+        "level": "favored client",
+        "opinion": "Isolde recognized Ember, gifted enchanted earrings (+2 CHA) Day 5",
+        "knows": ["Cookie is Ankuspawn", "Heartstring is real", "earrings are now permanently equipped"]
+      },
+      "Lyssa Vane (antagonist faction)": {
+        "level": "marked threat",
+        "opinion": "primary obstacle on heartland performance circuit; charm-network ready to activate",
+        "knows": ["Cookie outperformed Starling Day 5", "Halbert funeral Day 7 success", "Wardbreakers contracted Day 7", "Sunken Playhouse expedition Day 9", "Silka's chain shattered Day 8"]
+      }
+    },
     "relationships": {},
     "construct_army": {},
     "construct_fear": {},
     "hegemony_active": false,
+    "force_composition": {
+      "_comment": "Character-scoped allies/units. Each section empty if Cookie doesn't have that force type. Only populated sections render in the Party tab.",
+      "party": {
+        "name": "Wardbreakers",
+        "tier": "Bronze contract (12 GP / 3 days, Sunken Playhouse fieldwork)",
+        "members": [
+          {
+            "name": "Senna Dawnmere",
+            "class": "Azarinth Healer",
+            "tier": "Diamond",
+            "role": "captain / cross-campaign anchor",
+            "status": "active",
+            "notes": "Recognized Cookie's Ember at Day 7 funeral. Paternity question deadline = before return to Varenholm. Cross-campaign NPC (Kenji Books 2-4)."
+          },
+          {
+            "name": "Finch",
+            "class": "halfling rogue",
+            "tier": "Wardbreaker",
+            "role": "scout / lockwork",
+            "status": "active",
+            "notes": "Heartstring full-fail Day 8 night. Great User: protective held (no escalation). Mortified, three hours of holding position. Cross-campaign NPC."
+          },
+          {
+            "name": "Varn",
+            "class": "half-orc fighter",
+            "tier": "Wardbreaker",
+            "role": "front-line greatshield",
+            "status": "active",
+            "notes": "6.5 ft. Speaks in single sentences. Devoted to Senna. Combat Magnetism active — professional restraint so far. Cross-campaign NPC."
+          }
+        ],
+        "contract": "12 GP / 3 days. Sunken Playhouse fieldwork (Day 9-11 expected). Senna's term: Cookie answers paternity question before return to Varenholm.",
+        "current_location": "Sunken Playhouse causeway, ~100 ft from proscenium pillar (Day 9, 09:30)"
+      },
+      "pets": [],
+      "summons": [],
+      "constructs": [],
+      "hegemony": null
+    },
     "events_active": {},
     "canon_pointer": "",
     "story_beat": "",

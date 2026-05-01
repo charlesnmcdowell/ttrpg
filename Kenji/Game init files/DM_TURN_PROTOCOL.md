@@ -172,6 +172,25 @@ When the player says "end chapter" or equivalent:
 - `persistent_effects`: update any new or expired effects
 - `exp_history`: all XP entries with source and day
 
+### 1a. PROSE-TO-STATE MIRROR (RULE 9 — non-negotiable)
+
+This is the single most important step in chapter close. The chapter prose is now written; the JSON must absorb every state-relevant claim it makes. Re-read the chapter and answer each question. **No `_chapter_status: "COMPLETE"` until every question is answered.**
+
+- **Items acquired this chapter?** → For each, append to `mechanical_state.equipped` (worn/attuned), `mechanical_state.satchel` (carried), or `mechanical_state.consumables` (countable). Include source/day/effect inline. Promote campaign-significant artifacts to `mechanical_state.key_items`.
+- **Items lost, consumed, or destroyed this chapter?** → Remove from the relevant list, OR decrement the consumable count, OR mark with `(destroyed Day N)` if narratively important.
+- **Class features / abilities unlocked this chapter?** → Append to `mechanical_state.class_features` with `name`, `type`, `description`, `mechanical_effect`, `level_gained`. If a level-up happened, every new ability of that level gets an entry.
+- **Force composition changes this chapter?** → Update `mechanical_state.force_composition`:
+  - New party members joined → append to `force_composition.party.members`
+  - Members left, died, or were dismissed → mark `status: "left"|"dead"|"dismissed"` with reason
+  - Pets gained/lost → update `force_composition.pets`
+  - Summons cast/expired → update `force_composition.summons` (and clear at long rest)
+  - Constructs built/destroyed → update `force_composition.constructs`
+  - Hegemony state change → update `force_composition.hegemony`
+- **Threat clocks established or advanced this chapter?** → Update `mechanical_state.threat_clocks`. Each clock has `progress` (0-100), `rate` (per-day advance), `description`, `trigger` (what fires at 100%). New clocks introduced in prose (e.g., "Lyssa retaliates within 30 days" → `Lyssa retaliation` with rate ≈ 3.3) get full entries.
+- **Reputation shifts this chapter?** → Update `mechanical_state.reputation` per faction (V.E.A., Adventurer's Guild, Wardbreakers, Gilded Thread, Cult of Anku, etc.) with `level` and `opinion`.
+- **Relationships shifted significantly?** → Update `mechanical_state.relationships` for any NPC whose tier changed (Acquaintance → Ally → Bond, etc.) or whose history gained a notable beat.
+- **Currency changed?** → `mechanical_state.gold/silver/copper` reflect end-of-chapter totals.
+
 ### 2. NPC collision check
 - Grep every new NPC name introduced this chapter across ALL campaign folders
 - Fix any collisions by renaming (pull replacement from name bank)

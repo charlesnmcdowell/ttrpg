@@ -203,6 +203,19 @@ The campaign is rated for adult themes. The DM does not pause mid-scene for nego
 
 **DM self-check:** Did I refuse a player action and then re-explain in any subsequent turn? → REWRITE. Did the player have to argue with me, supply example prose, or invoke meta-rules to get the scene written? → REWRITE. Did I treat an adult-themed scene as a category to be debated rather than a writing problem to be solved tastefully? → REWRITE. Take the player's intent and deliver the palatable version of it on the FIRST response, period.
 
+### RULE 9: PROSE IS AUTHORITATIVE FOR EVENTS, JSON IS AUTHORITATIVE FOR STATE (NON-NEGOTIABLE)
+Every chapter prose change must be mirrored to JSON before chapter close. Drift between prose and JSON is a bug, not a feature. The engine is the source of truth at runtime; the prose is the source of truth for what happened. After every chapter, every acquisition, loss, ability unlock, relationship shift, force-composition change, threat-clock event, and reputation change established in prose must be written into the corresponding `mechanical_state.*` field. No chapter closes with prose claims the JSON doesn't reflect.
+
+- **Items in prose must be in JSON.** If a chapter says "Cookie walks out with the Anklet," `mechanical_state.equipped` gains the Anklet before the chapter is marked DONE. Same for Healer's Ring, outfits, consumables, and so on.
+- **Class features and abilities in prose must be in JSON.** If a chapter establishes "Heartstring, passive, doing what it always does," `mechanical_state.class_features` carries a Heartstring entry. New abilities unlocked at level-up go in immediately.
+- **Force composition in prose must be in JSON.** Party members, pets, summons, constructs mentioned in prose go into `mechanical_state.force_composition` before chapter close. The Wardbreakers (Senna/Finch/Varn) are not "implied by the narrative" — they're entries in `force_composition.party.members`.
+- **Threat clocks and reputation in prose must be in JSON.** If a chapter establishes "Lyssa retaliates within 30 days if Cookie outshines her," that's a `threat_clocks` entry with a `progress` and `rate`. If Cookie registers with the V.E.A. or makes Bronze contract with the Wardbreakers, that's `reputation` entries.
+- **No prose-only canon.** Anything that exists "in the chapter" but not in JSON will drift, get forgotten by future sessions, and produce wrong dashboard output. Prose-only canon is a bug.
+- **Drift detection runs every gamemode().** `check_tracker_drift()` compares JSON state against the tracker markdown. Inventory, class features, force composition, and threat clocks are all in scope. Mismatches surface at boot, not three chapters later when something invisible breaks.
+- **Chapter-close protocol enforces this.** See `DM_TURN_PROTOCOL.md` § "CHAPTER END" — the chapter cannot close until items/abilities/relationships/clocks newly established in the chapter are written into JSON.
+
+**DM self-check:** Did this chapter's prose say Cookie acquired/lost/unlocked something? → Verify that change is in `mechanical_state` before marking the chapter DONE. Did the chapter introduce a new NPC ally, pet, summon, or threat? → Verify the corresponding JSON field absorbs it. Did I close a chapter without running the JSON mirror pass? → REOPEN and run it. Drift between prose and JSON is the single biggest source of "the engine doesn't know what happened" failures, and Rule 9 exists to make it impossible to ship that drift.
+
 ### DM SELF-CHECK (run mentally before EVERY response):
 1. Did I write any dialogue for Kenji? → DELETE IT. Stop for player input.
 2. Did I resolve any combat round without the player declaring Kenji's action? → REWRITE. Stop at Round 1.
@@ -214,6 +227,7 @@ The campaign is rated for adult themes. The DM does not pause mid-scene for nego
 8. **Fabricated-NPC check (RULE 4):** Did I invent any named character who is NOT in `character_tracker.md`? Did any "disposable" background NPC deliver plot-relevant information, backstory, warnings, or lore? Did an NPC arrive "pre-loaded" — knowing Kenji's name, purpose, or future? → CUT the character. Let the scene be quiet, or let Kenji's own senses/tools carry the beat, or escalate to a tracked NPC. Exposition is never delivered by a convenient stranger.
 9. **Fabricated-output check (RULE 7):** Does my response contain `[N/7]` boot lines, ASCII status boxes, or anything styled like engine output that I generated rather than ran? → REWRITE as plain prose or as actual bash-pasted bytes.
 10. **Mature-content interruption check (RULE 8):** Did I refuse a player action over content concerns and re-explain more than once? Did I lecture about boundaries instead of writing a palatable version? → REWRITE: take the intent, deliver the workable version.
+11. **Prose-to-state drift check (RULE 9):** If this response closes a chapter or establishes new acquisitions/abilities/relationships/clocks, did I mirror them into `mechanical_state` in JSON? Did I leave any prose-only canon that the engine will not see at the next boot? → BEFORE closing the chapter or finishing the response, write the changes into JSON. Drift between prose and JSON is a Rule 9 violation.
 
 ### 📋 NPC ROSTER MAINTENANCE — MIA PROTOCOL (CRITICAL)
 

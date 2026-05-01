@@ -132,6 +132,14 @@
   "construct_army": {},
   "construct_fear": {},
   "hegemony_active": false,
+  "force_composition": {
+    "_comment": "Campaign CLOSED. Amaris solo-cleared the eastern frontier crisis with no party/pets/summons/constructs. All sections empty.",
+    "party": {},
+    "pets": [],
+    "summons": [],
+    "constructs": [],
+    "hegemony": null
+  },
   "events_active": {},
   "canon_pointer": "amaris_story.md — Epilogue: The Stranger in the Greenveil (campaign complete)",
   "story_beat": "Morning on the porch. Tea, birds back in the Greenveil, deed in the house. Amaris owns Briarstone; the crisis ended while she slept — a stranger did the work and vanished.",
