@@ -672,7 +672,14 @@ class LiveDashboard(ctk.CTk):
             return
 
         self.lbl_name.configure(text=f"{e.char_name}  Lv{e.level}")
-        self.lbl_time.configure(text=f"Day {e.day}  {e.hour:02d}:00 — {e.time_of_day()}")
+        # e.hour can be a float (half-hour granularity), so render h:mm.
+        _h = float(e.hour)
+        _hh = int(_h)
+        _mm = int(round((_h - _hh) * 60))
+        if _mm == 60:
+            _hh += 1
+            _mm = 0
+        self.lbl_time.configure(text=f"Day {e.day}  {_hh:02d}:{_mm:02d} — {e.time_of_day()}")
         self.lbl_location.configure(text=f"{e.location} — {e.weather}")
         ver = f"v{e._save_version}"
         if e._saved_at:
