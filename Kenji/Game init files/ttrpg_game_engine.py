@@ -2229,8 +2229,14 @@ class EXPTracker:
             return thresholds[next_lvl] - self.exp
         return 0
 
-    def award_combat(self, cr: float, allies: int = 0, description: str = "") -> int:
-        """Award EXP for a combat encounter. allies = number of allied combatants (0 = solo)."""
+    def award_combat(self, cr: float, allies: int = 0, description: str = "",
+                     boss: bool = False) -> int:
+        """Award EXP for a combat encounter.
+        allies = number of allied combatants (0 = solo).
+        boss   = True if this is a boss-tier encounter (used by the
+                 boss-eligibility tracker so the buildup rule can be enforced
+                 across the campaign).
+        """
         base = CR_EXP.get(cr, 0)
         if allies >= 4:
             mult = 0.5
@@ -2239,7 +2245,7 @@ class EXPTracker:
         awarded = int(base * mult)
         self.pending_exp += awarded
         entry = {"type": "combat", "cr": cr, "base": base, "mult": mult, "allies": allies,
-                 "awarded": awarded, "desc": description}
+                 "awarded": awarded, "desc": description, "boss": bool(boss)}
         self.combat_log.append(entry)
         return awarded
 
@@ -2342,15 +2348,45 @@ ARCHETYPE_DOMAIN_SKILLS = {
     "crafter": ["tinker", "craft", "smith", "brew"],
 }
 
-# --- CR → EXP REFERENCE ---
-CR_EXP = {
-    0: 10, 0.125: 25, 0.25: 50, 0.5: 100, 1: 200, 2: 450, 3: 700, 4: 1100,
-    5: 1800, 6: 2300, 7: 2900, 8: 3900, 9: 5000, 10: 5900, 11: 7200,
-    12: 8400, 13: 10000, 14: 11500, 15: 13000, 16: 15000, 17: 18000,
-    18: 20000, 19: 22000, 20: 25000, 21: 33000, 22: 41000, 23: 50000,
-    24: 62000, 25: 75000, 26: 90000, 27: 105000, 28: 120000, 29: 135000,
-    30: 155000,
-}
+# --- CR → EXP REFERENCE (extended; supersedes the smaller table above) ---
+CR_EXP.update({
+    26: 90000, 27: 105000, 28: 120000, 29: 135000, 30: 155000,
+})
+
+# --- ENCOUNTER DIFFICULTY CLASSIFICATION (relative to party level) ---
+# Threshold formulas key off the highest party member's level (or solo PC level).
+# Boss encounters live at the upper end of the CR scale relative to party.
+# Used by the dashboard, the boss-eligibility check, and the music system to
+# distinguish boss combat from regular combat.
+def classify_encounter(cr: float, party_level: int) -> str:
+    """Map (cr, party_level) → difficulty tier.
+    Returns: 'trivial' | 'normal' | 'hard' | 'boss'.
+    Bosses live at CR >= party_level. Hard at party_level-2 .. party_level-1.
+    Normal scales with party_level/3 .. party_level-3. Trivial below that."""
+    if not isinstance(cr, (int, float)) or not isinstance(party_level, (int, float)):
+        return "unknown"
+    if party_level <= 0:
+        return "unknown"
+    if cr >= party_level:
+        return "boss"
+    if cr >= max(1, party_level - 2):
+        return "hard"
+    if cr >= max(0.5, party_level / 3):
+        return "normal"
+    return "trivial"
+
+
+def is_boss_cr(cr: float, party_level: int) -> bool:
+    """Convenience: boss-tier check by CR vs party level."""
+    return classify_encounter(cr, party_level) == "boss"
+
+
+# --- BOSS BUILDUP REQUIREMENT ---
+# A boss encounter MUST be preceded by at least this many normal-or-harder
+# non-boss encounters since the previous boss (or since campaign start).
+# Codifies the design rule that bosses earn their stage time — the player
+# can't be ambushed by Lyssa Vane without first fighting up to her.
+BOSS_BUILDUP_MIN_NORMAL_ENCOUNTERS = 2
 
 # --- COMBAT EXP MULTIPLIERS (party size) ---
 EXP_MULTIPLIERS = {
@@ -2647,6 +2683,13 @@ class StoryEngine:
         self._chapter_num = d.get("_chapter")
         self._chapter_status = d.get("_chapter_status") or ""
         self._chapter_title = d.get("_chapter_title") or ""
+        # Encounter log — combat encounters fought in this campaign, in order.
+        # Used by boss_eligibility() to enforce the buildup rule (Rule 10):
+        # bosses require ≥2 normal/hard non-boss encounters since the last boss.
+        # Each entry: {type: "combat", cr: float, allies: int, boss: bool,
+        #              day: int, description: str, awarded_xp: int}
+        self.encounter_log = d.get("encounter_log") or []
+
         # Cast — main_cast is the canonical Key NPC roster; extra_npcs is the
         # wider ambient cast with status tracking (active/MIA/promoted).
         self.main_cast = d.get("main_cast") or []
@@ -2987,6 +3030,7 @@ class StoryEngine:
             "construct_fear": self.construct_fear,
             "hegemony_active": self.hegemony_active,
             "force_composition": self.force_composition,
+            "encounter_log": self.encounter_log,
             "events_active": self.events_active,
             "canon_pointer": self.canon_pointer,
             "story_beat": self.story_beat,
@@ -3619,6 +3663,105 @@ class StoryEngine:
             sum(a.get(k, 0) for k in keys)
             for a in self.construct_army.values()
         )
+
+    # ---- ENCOUNTER / BOSS ELIGIBILITY ----
+
+    def classify_encounter(self, cr: float) -> str:
+        """Classify a candidate encounter against this character's level.
+        Wraps the module-level classify_encounter() with self.level."""
+        return classify_encounter(cr, self.level)
+
+    def log_encounter(self, cr: float, allies: int = 0, description: str = "",
+                      boss: bool = False, day: int = None,
+                      awarded_xp: int = 0) -> dict:
+        """Append a combat encounter to the engine's encounter_log. Used by
+        gamemode/_dm_turn after each combat resolves so boss_eligibility can
+        enforce the buildup rule across the campaign.
+
+        Returns the appended entry dict.
+        """
+        if day is None:
+            day = getattr(self, "day", 0) or 0
+        tier = classify_encounter(cr, self.level) if isinstance(cr, (int, float)) else "unknown"
+        entry = {
+            "type": "combat",
+            "cr": cr,
+            "allies": int(allies),
+            "boss": bool(boss),
+            "day": int(day),
+            "description": description or "",
+            "awarded_xp": int(awarded_xp),
+            "tier": tier,
+        }
+        self.encounter_log.append(entry)
+        return entry
+
+    def boss_eligibility(self) -> dict:
+        """Check whether the campaign is currently eligible to introduce a boss
+        encounter. Returns a dict:
+          {
+            "eligible": bool,
+            "normal_since_last_boss": int,
+            "min_required": int,           # BOSS_BUILDUP_MIN_NORMAL_ENCOUNTERS
+            "last_boss":   {"cr": float, "label": str, ...} | None,
+            "reason":      str             # human-readable explanation
+          }
+
+        A boss is eligible when at least BOSS_BUILDUP_MIN_NORMAL_ENCOUNTERS
+        normal-or-harder, NON-boss combat encounters have occurred since the
+        last boss (or since campaign start if no boss has ever fired).
+        """
+        log = list(self.encounter_log or [])
+        # Find the most recent boss entry (if any).
+        last_boss_idx = None
+        last_boss = None
+        for idx in range(len(log) - 1, -1, -1):
+            entry = log[idx]
+            if not isinstance(entry, dict):
+                continue
+            if entry.get("type") != "combat":
+                continue
+            cr = entry.get("cr")
+            if entry.get("boss") is True or (isinstance(cr, (int, float)) and is_boss_cr(cr, self.level)):
+                last_boss_idx = idx
+                last_boss = entry
+                break
+
+        # Count non-boss combat entries since last_boss (or all of them if no boss yet).
+        start = (last_boss_idx + 1) if last_boss_idx is not None else 0
+        non_boss_count = 0
+        for entry in log[start:]:
+            if not isinstance(entry, dict):
+                continue
+            if entry.get("type") != "combat":
+                continue
+            if entry.get("boss") is True:
+                continue
+            cr = entry.get("cr")
+            tier = classify_encounter(cr, self.level) if isinstance(cr, (int, float)) else None
+            if tier in ("normal", "hard"):
+                non_boss_count += 1
+
+        eligible = non_boss_count >= BOSS_BUILDUP_MIN_NORMAL_ENCOUNTERS
+        if eligible:
+            reason = (
+                f"{non_boss_count} normal/hard encounter(s) since last boss — "
+                f"meets minimum {BOSS_BUILDUP_MIN_NORMAL_ENCOUNTERS}."
+            )
+        else:
+            need = BOSS_BUILDUP_MIN_NORMAL_ENCOUNTERS - non_boss_count
+            reason = (
+                f"Only {non_boss_count} normal/hard encounter(s) since last boss — "
+                f"need {need} more before next boss can fire."
+            )
+
+        return {
+            "eligible": eligible,
+            "normal_since_last_boss": non_boss_count,
+            "min_required": BOSS_BUILDUP_MIN_NORMAL_ENCOUNTERS,
+            "last_boss": last_boss,
+            "reason": reason,
+        }
 
     # ---- FORCE COMPOSITION (universal across character types) ----
 

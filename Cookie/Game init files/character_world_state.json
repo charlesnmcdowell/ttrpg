@@ -623,6 +623,35 @@
       "hegemony": null
     },
     "events_active": {},
+    "encounter_log": [
+      {
+        "type": "combat",
+        "cr": 1,
+        "allies": 30,
+        "boss": false,
+        "day": 2,
+        "description": "Bandit camp raid (Ch2) — Cookie debuted Dancer's Tai Chi, ~30 recruited adventurers cleared the camp. 6 successful combat Performance rolls.",
+        "tier": "normal"
+      },
+      {
+        "type": "combat",
+        "cr": 3,
+        "allies": 3,
+        "boss": false,
+        "day": 4,
+        "description": "Burnt Amphitheatre (Ch4) — 2 phase spiders (CR 3 each) ambushed by Fenella + party. Cookie mapped underchamber via echolocation tap-dance. Phase Spider One detonated by Fenella's enhanced arrow.",
+        "tier": "normal"
+      },
+      {
+        "type": "combat",
+        "cr": 2,
+        "allies": 4,
+        "boss": false,
+        "day": 7,
+        "description": "Gilded Thread cellar wererats (Ch7-8) — 8 wererats CR 2 each. Cookie's Tai Chi domain bonus across 3 rounds (Halfling Luck reroll), Anklet kicks. Combat magnetism active. 720 XP combat + 30,000 XP performance domain.",
+        "tier": "normal"
+      }
+    ],
     "canon_pointer": "",
     "story_beat": "",
     "narrative_notes": [],

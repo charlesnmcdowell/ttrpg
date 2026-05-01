@@ -216,6 +216,41 @@ Every chapter prose change must be mirrored to JSON before chapter close. Drift 
 
 **DM self-check:** Did this chapter's prose say Cookie acquired/lost/unlocked something? → Verify that change is in `mechanical_state` before marking the chapter DONE. Did the chapter introduce a new NPC ally, pet, summon, or threat? → Verify the corresponding JSON field absorbs it. Did I close a chapter without running the JSON mirror pass? → REOPEN and run it. Drift between prose and JSON is the single biggest source of "the engine doesn't know what happened" failures, and Rule 9 exists to make it impossible to ship that drift.
 
+### RULE 10: ENCOUNTER DESIGN — BOSS REQUIREMENTS (NON-NEGOTIABLE)
+Bosses earn their stage time. Boss encounters cannot fire on a whim — they require both correct difficulty tier AND narrative buildup through prior encounters.
+
+**Difficulty classification (relative to PC level, using Challenge Rating):**
+- **Trivial:** CR < party_level / 3. Filler combat that exists for flavor; no real risk. Award negligible XP.
+- **Normal:** party_level / 3 ≤ CR < party_level − 2. Standard combat. The everyday adventuring pace.
+- **Hard:** party_level − 2 ≤ CR < party_level. The PC will burn resources, may take meaningful damage. A signal that something important is happening.
+- **Boss:** CR ≥ party_level. The PC will be tested at the limit; failure consequences are real (death/maiming/permanent loss). Single high-CR creatures, named antagonists, or set-piece encounters with multiple monsters totaling boss-tier XP all qualify.
+
+The engine's `e.classify_encounter(cr)` returns the tier label. The engine's `is_boss_cr(cr, party_level)` short-circuits to a boolean. CRs above the published 5e table top out at 30 in `CR_EXP`; for the rare encounter beyond that, treat as boss.
+
+**Buildup requirement:**
+- A boss encounter MUST be preceded by at least **2 normal-or-hard non-boss encounters** since the previous boss (or since campaign start if no boss has fired yet). This is the `BOSS_BUILDUP_MIN_NORMAL_ENCOUNTERS` constant in `ttrpg_game_engine.py`. The engine method `e.boss_eligibility()` returns `{eligible, normal_since_last_boss, min_required, last_boss, reason}`.
+- Buildup encounters can be in any prior chapter — they don't have to share a scene with the boss. The point is that the player has *fought* enough to have a real sense of the threat tier before the boss arrives.
+- If the player has not yet fought 2 normal/hard encounters, the DM must NOT fire a boss encounter. Either delay the boss until buildup completes, or insert filler encounters that earn it.
+- The DM may ALWAYS deliver narrative beats with the boss (Lyssa shows up at the Starling, sneers, leaves) — those are scenes, not combat encounters. The buildup rule gates COMBAT initiation only.
+
+**Boss eligibility check at chapter open / scene start:**
+```
+elig = e.boss_eligibility()
+if not elig["eligible"]:
+    # Boss combat may NOT begin this scene.
+    # Either: defer the boss, OR run a normal encounter first.
+    print(elig["reason"])  # "Only 1 normal/hard encounter since last boss — need 1 more before next boss can fire."
+```
+
+**Anywhere — no location restriction:**
+A boss can fire in any narratively justified location: a forest ambush, a city alley, a banquet hall, a chapel. The buildup rule is the only structural gate. Story coherence is the only narrative gate.
+
+**Tagging a boss encounter:**
+- When awarding combat XP via `award_combat()`, pass `boss=True` so the encounter is counted as a boss in the log: `eng.exp_tracker.award_combat(cr=12, allies=4, description="Lyssa Vane phase 2", boss=True)`.
+- In `events_active`, set `"boss": true` on the event so the music system swaps to the boss combat track.
+
+**DM self-check:** Before declaring a boss encounter, did I run `e.boss_eligibility()` and confirm `eligible: True`? If not, did I tag the new combat with `boss=True` to keep the count honest? Did I narratively justify why the boss can engage here (the player came to them, they came to the player, the world brought them together)? If any of these is no, REWORK the scene.
+
 ### DM SELF-CHECK (run mentally before EVERY response):
 1. Did I write any dialogue for Kenji? → DELETE IT. Stop for player input.
 2. Did I resolve any combat round without the player declaring Kenji's action? → REWRITE. Stop at Round 1.
@@ -228,6 +263,7 @@ Every chapter prose change must be mirrored to JSON before chapter close. Drift 
 9. **Fabricated-output check (RULE 7):** Does my response contain `[N/7]` boot lines, ASCII status boxes, or anything styled like engine output that I generated rather than ran? → REWRITE as plain prose or as actual bash-pasted bytes.
 10. **Mature-content interruption check (RULE 8):** Did I refuse a player action over content concerns and re-explain more than once? Did I lecture about boundaries instead of writing a palatable version? → REWRITE: take the intent, deliver the workable version.
 11. **Prose-to-state drift check (RULE 9):** If this response closes a chapter or establishes new acquisitions/abilities/relationships/clocks, did I mirror them into `mechanical_state` in JSON? Did I leave any prose-only canon that the engine will not see at the next boot? → BEFORE closing the chapter or finishing the response, write the changes into JSON. Drift between prose and JSON is a Rule 9 violation.
+12. **Boss-encounter eligibility check (RULE 10):** If this response initiates combat, did I check whether it qualifies as a boss (CR ≥ party_level OR explicit `boss=true`)? If yes, did I run `e.boss_eligibility()` and confirm `eligible: True` (≥2 normal/hard encounters since last boss)? If not eligible, did I either defer the boss or run a normal encounter first? Boss music plays only when the encounter is tagged correctly — un-tagged boss combat is a Rule 10 violation that breaks the soundtrack and the pacing.
 
 ### 📋 NPC ROSTER MAINTENANCE — MIA PROTOCOL (CRITICAL)
 

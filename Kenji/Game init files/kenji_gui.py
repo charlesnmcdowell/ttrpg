@@ -1350,6 +1350,21 @@ class LiveDashboard(ctk.CTk):
         else:
             lines.append("  No active faction plots. (Tag threat_clocks with `faction:` to populate.)")
 
+        # ---- BOSS READINESS (Rule 10) ----
+        if hasattr(e, "boss_eligibility"):
+            try:
+                elig = e.boss_eligibility()
+                lines += ["", "═══ BOSS READINESS ═══"]
+                marker = "✓" if elig.get("eligible") else "✗"
+                lines.append(f"  {marker} {elig.get('reason', '')}")
+                last_boss = elig.get("last_boss")
+                if last_boss and isinstance(last_boss, dict):
+                    bn = last_boss.get("description") or "(unnamed boss)"
+                    bd = last_boss.get("day", "?")
+                    lines.append(f"     Last boss: {bn[:80]}  (Day {bd})")
+            except Exception:
+                pass
+
         # ---- CHARACTER GOALS (open only, optional) ----
         goals = getattr(e, "character_goals", None) or []
         active_goals = [g for g in goals if isinstance(g, dict) and not _is_done(g)]
