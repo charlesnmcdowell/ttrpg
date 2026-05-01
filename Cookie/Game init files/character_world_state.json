@@ -5,6 +5,11 @@
   "_chapter": 9,
   "_chapter_status": "COMPLETE",
   "_chapter_title": "Daughters",
+  "_narrative_summary": [
+    "Cookie left Kettlebrook with five gold and a halfling's stubborn certainty that she could sing for her supper. Her first week in Varenholm reshaped her: Academy enrollment under Professor Ashworth, V.E.A. registration, a textile merchant named Torren charmed silly by the first Heartstring she'd ever consciously thrown, and a debut at The Starling that put her on the heartland performance map. By the end of week one she had Pretty Privilege turning quest payouts into bigger payouts, an Anklet of Unarmed Combat that made her kicks weigh like warhorses, a Healer's Ring from the same Pale Lantern enchanter, and four custom Gilded Thread outfits. The girl who'd planned to busk for room and board was suddenly leveling on Performance checks alone.",
+    "The middle of the campaign was Silka. The dark-haired Academy classmate who sang lullabies that made rooms forget how to breathe — secretly Lyssa Vane's Ankuspawn 'daughter,' her gold-flecked eyes hidden behind a silver suppression chain that Lyssa had told her was protection. Cookie figured out the chain on Day 8 and shattered it with Dance of Dispel during Halbert's funeral. The same day, Senna Dawnmere — Diamond-tier Wardbreaker, cross-campaign anchor from Kenji's books — clocked Cookie's Ember from across the room and locked a paternity question for the Sunken Playhouse trip. By Day 9, Cookie was Level 10, capped at maximum starter Ember strength, contracted with the Wardbreakers (Senna, Finch, Varn) at Bronze rate, and walking a marsh causeway toward a half-flooded amphitheatre where Lyssa's last lieutenant Eira had fled.",
+    "Currently: Day 9, mid-morning, ~100 ft from the Sunken Playhouse proscenium pillar. Silka's chain is shattered, her gold eyes returning, and she does not yet understand what she is. Lyssa knows her control over Silka is collapsing and the heartland circuit is slipping — her retaliation clock is at 60% and rising. Senna's paternity-answer deadline lands before Cookie returns to Varenholm. The Cult of Anku is one anonymous-patron report away from putting Cookie on a target list. Three threads converge here: who Cookie's father really was, what Silka was raised to be, and whether Lyssa goes down quietly or burns the bridge on her way out."
+  ],
   "_chapter_history": [
     {
       "chapter": 1,
@@ -487,38 +492,46 @@
       "Lyssa retaliation": {
         "progress": 60,
         "rate": 5,
+        "faction": "Lyssa Vane",
         "description": "Lyssa Vane knows Cookie is rising in the heartland performance circuit. Sunken Playhouse fieldwork directly challenges Lyssa's territory. Once Cookie outshines her — Starling show success + Wardbreakers contract + Sunken Playhouse intervention — Lyssa moves to neutralize. Charm-network attacks escalate; Cookie's friends become attack vectors.",
-        "trigger": "At 100%: Lyssa orders coordinated charm-attack on Cookie's inner circle (Fern is highest-priority target — best friend, civilian, no Heartstring resistance)."
+        "trigger": "Lyssa orders coordinated charm-attack on Cookie's inner circle (Fern is highest-priority target — best friend, civilian, no Heartstring resistance).",
+        "next_move": "Eira regroups at the Sunken Playhouse and tries to charm Senna mid-fieldwork.",
+        "next_move_day": 10
       },
       "Sunken Playhouse mission": {
         "progress": 30,
         "rate": 25,
+        "faction": "Wardbreakers",
         "description": "Day 9 expedition: clear the Sunken Playhouse, recover field-work evidence on Lyssa's charm operation, return to Varenholm. Lyssa's silver chain shattered Day 8 (Dispel), Eira fled the discovery location. Wardbreakers escorting at Bronze rate (12 GP / 3 days).",
-        "trigger": "At 100%: Mission complete. Cookie returns to Varenholm with Sunken Playhouse evidence + Senna's paternity answer locked in for delivery."
+        "trigger": "Mission complete. Cookie returns to Varenholm with Sunken Playhouse evidence + Senna's paternity answer locked in for delivery."
       },
       "Paternity question (Senna's term)": {
         "progress": 50,
         "rate": 25,
+        "faction": "Wardbreakers",
         "description": "Senna Dawnmere recognized Cookie's Ember at Halbert's funeral (Day 7). Cookie claimed Dragon Emperor as father. Senna locked the contract term: 'You answer me about the paternity claim before we get back to Varenholm.' Hard deadline = end of Sunken Playhouse trip.",
-        "trigger": "At 100%: Senna asks. Cookie must answer truthfully OR Senna walks (and the cross-campaign anchor is severed)."
+        "trigger": "Senna asks. Cookie must answer truthfully OR Senna walks (and the cross-campaign anchor is severed)."
       },
       "Silka chain collapse": {
         "progress": 70,
         "rate": 3,
+        "faction": "Lyssa Vane",
         "description": "Cookie's Day 8 Dance of Dispel shattered Silka's silver suppression chain. Silka's gold-flecked eyes returning; Ankuspawn scroll markings blooming on collarbones/forearms. Lyssa's control over Silka eroding. Silka does NOT yet know she's Ankuspawn or that Lyssa raised her as a controlled asset.",
-        "trigger": "At 100%: Silka realizes what she is, what Lyssa is, and breaks. Major story beat — sister-recognition scene with Cookie."
+        "trigger": "Silka realizes what she is, what Lyssa is, and breaks. Major story beat — sister-recognition scene with Cookie."
       },
       "Cult of Anku patron exposure": {
         "progress": 15,
         "rate": 1,
+        "faction": "Cult of Anku",
         "description": "Lyssa is paid 5 SP/month by an anonymous patron to report gold-eyed performers. She thinks it's a noble fetishist. It's actually a Cult of Anku recruiter building a target list. Once Cookie's name reaches the patron, the Cult activates direct interest.",
-        "trigger": "At 100%: Cult of Anku operative (Ember Shade ward bearer) appears in Cookie's vicinity. 20 ft suppression field threat."
+        "trigger": "Cult of Anku operative (Ember Shade ward bearer) appears in Cookie's vicinity. 20 ft suppression field threat."
       },
       "Accelerated graduation": {
         "progress": 40,
         "rate": 5,
+        "faction": "Varenholm Academy",
         "description": "Cookie negotiated accelerated graduation with the Academy. Sunken Playhouse fieldwork = capstone field assignment. Recital follows post-mission. Successful completion unlocks early Academy graduation + V.E.A. full credentialing.",
-        "trigger": "At 100%: Cookie graduates Varenholm Academy, full V.E.A. performer credentials, professional touring eligible."
+        "trigger": "Cookie graduates Varenholm Academy, full V.E.A. performer credentials, professional touring eligible."
       }
     },
     "npc_agendas": {},
@@ -583,7 +596,8 @@
             "tier": "Diamond",
             "role": "captain / cross-campaign anchor",
             "status": "active",
-            "notes": "Recognized Cookie's Ember at Day 7 funeral. Paternity question deadline = before return to Varenholm. Cross-campaign NPC (Kenji Books 2-4)."
+            "notes": "Recognized Cookie's Ember at Day 7 funeral. Paternity question deadline = before return to Varenholm. Cross-campaign NPC (Kenji Books 2-4).",
+            "relationship": {"tier": "Ally", "score": 50, "last_event": "Bronze contract; paternity-answer deadline locked before return to Varenholm."}
           },
           {
             "name": "Finch",
@@ -591,7 +605,8 @@
             "tier": "Wardbreaker",
             "role": "scout / lockwork",
             "status": "active",
-            "notes": "Heartstring full-fail Day 8 night. Great User: protective held (no escalation). Mortified, three hours of holding position. Cross-campaign NPC."
+            "notes": "Heartstring full-fail Day 8 night. Great User: protective held (no escalation). Mortified, three hours of holding position. Cross-campaign NPC.",
+            "relationship": {"tier": "Friend", "score": 35, "last_event": "Day 8 night Heartstring full-fail; protective held; Day 9 mortified, polite distance."}
           },
           {
             "name": "Varn",
@@ -599,7 +614,8 @@
             "tier": "Wardbreaker",
             "role": "front-line greatshield",
             "status": "active",
-            "notes": "6.5 ft. Speaks in single sentences. Devoted to Senna. Combat Magnetism active — professional restraint so far. Cross-campaign NPC."
+            "notes": "6.5 ft. Speaks in single sentences. Devoted to Senna. Combat Magnetism active — professional restraint so far. Cross-campaign NPC.",
+            "relationship": {"tier": "Acquaintance", "score": 15, "last_event": "Combat Magnetism active; professional restraint holding through Day 9."}
           }
         ],
         "contract": "12 GP / 3 days. Sunken Playhouse fieldwork (Day 9-11 expected). Senna's term: Cookie answers paternity question before return to Varenholm.",
@@ -1742,6 +1758,9 @@
       },
       {
         "name": "Silka",
+        "key_npc": true,
+        "tier": "promoted",
+        "relationship": {"tier": "Bond", "score": 75, "last_event": "Day 8 Dance of Dispel shattered her silver chain — gold eyes returning, scroll markings blooming, sister-recognition imminent."},
         "race": "Human Ankuspawn (half-sister to Cookie — neither knows)",
         "role": "Spy. An Ankuspawn performer charmed by Lyssa and planted at the Varenholm Academy as a student. Reports back to Lyssa about promising new talent — especially anyone with unusual abilities or gold eyes. Irony: Silka IS one of the gold-eyed targets she's hunting for.",
         "alignment": "TN (charmed — was NG before)",
@@ -1845,7 +1864,8 @@
       "location": "home_base",
       "want": "Wants Cookie safe, close, and away from anything that draws attention. Terrified of what Cookie is without understanding it.",
       "voice_hook": "Talks in clipped sentences when angry, long rambling ones when worried. Calls Cookie 'little bean' when she forgets to be mad.",
-      "lore_connection": "Met Kenji once, 22 years ago, at an inn she was cleaning. He was passing through. She never learned his real name. She knows Cookie's father was 'someone important' because of the way her body changed after — she can't have more children and doesn't know why. She blames herself, not him."
+      "lore_connection": "Met Kenji once, 22 years ago, at an inn she was cleaning. He was passing through. She never learned his real name. She knows Cookie's father was 'someone important' because of the way her body changed after — she can't have more children and doesn't know why. She blames herself, not him.",
+      "relationship": {"tier": "Bond", "score": 90, "last_event": "Mother — daughter; Kettlebrook home; not yet told about the Ankuspawn truth."}
     },
     {
       "name": "Tomas Wren",
@@ -1854,7 +1874,8 @@
       "location": "home_base",
       "want": "Wants his inn to stay profitable and his employees to stop causing drama. Secretly proud of Cookie and slips her performance tips when Daisy isn't looking.",
       "voice_hook": "Dry, understated. 'That's nice, dear. Now mop the landing.' But his eyes crinkle when Cookie dances.",
-      "lore_connection": "Served in the coalition army 20 years ago. Saw Varenholm during the founding. Retired to run an inn. Knows more about the world than he lets on. Has seen gold eyes before — on a traveler, years ago — and said nothing."
+      "lore_connection": "Served in the coalition army 20 years ago. Saw Varenholm during the founding. Retired to run an inn. Knows more about the world than he lets on. Has seen gold eyes before — on a traveler, years ago — and said nothing.",
+      "relationship": {"tier": "Ally", "score": 55, "last_event": "Innkeeper-mentor in Kettlebrook; Cookie's pre-Varenholm anchor."}
     },
     {
       "name": "Fern",
@@ -1863,7 +1884,8 @@
       "location": "Millward Chandlery, Varenholm (sharing room with Cookie)",
       "want": "Wants adventure. Wants to be Cookie's best friend forever. Wants to not be boring. Will do reckless things for fun.",
       "voice_hook": "Talks too fast, laughs too loud, asks questions she shouldn't. 'Wait wait wait — you're telling me that guy just GAVE you flowers? For dancing? Can you teach me that?'",
-      "lore_connection": "Human girl from Kettlebrook. No special heritage. Just Cookie's ride-or-die since they were kids. Gets charmed by Lyssa in Phase 3 — the emotional core of the campaign."
+      "lore_connection": "Human girl from Kettlebrook. No special heritage. Just Cookie's ride-or-die since they were kids. Gets charmed by Lyssa in Phase 3 — the emotional core of the campaign.",
+      "relationship": {"tier": "Bond", "score": 95, "last_event": "Best friend / roommate; helped pack for Sunken Playhouse Day 9; sworn to write."}
     },
     {
       "name": "Professor Cadence Ashworth",
@@ -1872,7 +1894,8 @@
       "location": "Varenholm Academy",
       "want": "Wants to understand Cookie's abilities. Has never seen a student produce visible magic through dance alone without formal training. Suspects Cookie is 'touched by something' but doesn't know what.",
       "voice_hook": "Measured, precise. Every word chosen carefully. 'Again. Slower. Watch where the light starts — it's not in your hands, it's in your spine. Do you feel that?'",
-      "lore_connection": "Studied at the Academy 30 years ago. Overlapped briefly with early coalition era. Has heard rumors of 'the Emperor's children' but considers it tavern gossip. Will revise that opinion when Cookie's abilities develop."
+      "lore_connection": "Studied at the Academy 30 years ago. Overlapped briefly with early coalition era. Has heard rumors of 'the Emperor's children' but considers it tavern gossip. Will revise that opinion when Cookie's abilities develop.",
+      "relationship": {"tier": "Ally", "score": 60, "last_event": "Approved Sunken Playhouse capstone; suspects Ember without naming it."}
     },
     {
       "name": "Lyssa Vane",
@@ -1881,7 +1904,8 @@
       "location": "adventure_site",
       "want": "Total control of heartland entertainment. No one shines brighter than her. She worked for everything she has and she'll burn anyone who threatens it — especially some barefoot halfling from Kettlebrook who glows when she dances.",
       "voice_hook": "Silky, warm, complimentary — until the mask drops. 'You're so talented, darling. It would be such a shame if something happened to that voice.' Switches from charm to venom mid-sentence.",
-      "lore_connection": "Graduated Varenholm Academy. Built her empire legitimately at first, then turned to Glamour magic when competition got fierce. Has an anonymous patron paying her to report gold-eyed performers — doesn't know it's the Cult of Anku."
+      "lore_connection": "Graduated Varenholm Academy. Built her empire legitimately at first, then turned to Glamour magic when competition got fierce. Has an anonymous patron paying her to report gold-eyed performers — doesn't know it's the Cult of Anku.",
+      "relationship": {"tier": "Nemesis", "score": -85, "last_event": "Day 8 chain shatter on Silka — control collapsing, retaliation imminent."}
     }
   ],
   "extra_npcs": {
@@ -1896,7 +1920,7 @@
         "job_excuse": "Textile merchant — moves cloth, linens, silks, dyes between Varenholm and coast. Recently divorced, wife in Ashenmere. Staying at Gilt Lily suite (Room 4). Tips well.",
         "doom_clock": null,
         "status": "active",
-        "relationship": "Completely smitten. Failed WIS save by 9 (Ch1), seduced in dressing room (Ch2). Now acting as Cookie's promoter — reaching out to wealthy patrons for her Starling show. Hired Fern to run a beauty supply department at 10x salary after Cookie leveraged Pretty Privilege. Will do anything Cookie asks.",
+        "relationship": {"tier": "Ally", "score": 70, "last_event": "Heartstring full-fail Day 1; promoter for Starling show; hired Fern at 10x salary; will do anything Cookie asks."},
         "redirect_to_main_cast": "",
         "met_at": "Gilt Lily inn, Day 1 evening"
       },

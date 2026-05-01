@@ -2647,6 +2647,17 @@ class StoryEngine:
         self._chapter_num = d.get("_chapter")
         self._chapter_status = d.get("_chapter_status") or ""
         self._chapter_title = d.get("_chapter_title") or ""
+        # Cast — main_cast is the canonical Key NPC roster; extra_npcs is the
+        # wider ambient cast with status tracking (active/MIA/promoted).
+        self.main_cast = d.get("main_cast") or []
+        # extra_npcs in JSON can be either a flat list or {"npcs": [...], "_rule": ...}
+        _ex = d.get("extra_npcs") or {}
+        if isinstance(_ex, dict):
+            self.extra_npcs_list = _ex.get("npcs", []) or []
+        elif isinstance(_ex, list):
+            self.extra_npcs_list = _ex
+        else:
+            self.extra_npcs_list = []
         
         # EVENT PROGRESSION TRACKER — Tournaments, Dungeons, Sieges, etc.
         # Flexible multi-stage event system. Each event has stages (rounds/floors/waves).
@@ -3658,6 +3669,209 @@ class StoryEngine:
             or self.get_force_constructs()
             or self.get_hegemony()
         )
+
+    # ---- KEY NPCs / RELATIONSHIPS / CONSEQUENCES (derived views) ----
+
+    def get_key_npcs(self) -> list:
+        """Key NPCs = main_cast (always) + extra_npcs with tier='promoted' or
+        explicit `key_npc=true`. Returns a list of dicts with name, role,
+        location, and any other authored fields, ready for dashboard render."""
+        result = []
+        seen = set()
+        for npc in (self.main_cast or []):
+            if not isinstance(npc, dict):
+                continue
+            name = npc.get("name")
+            if not name or name in seen:
+                continue
+            seen.add(name)
+            result.append({**npc, "_tier": "main"})
+        for npc in (self.extra_npcs_list or []):
+            if not isinstance(npc, dict):
+                continue
+            tier = (npc.get("tier") or "").lower()
+            promoted = npc.get("key_npc") is True or tier == "promoted"
+            if not promoted:
+                continue
+            name = npc.get("name")
+            if not name or name in seen:
+                continue
+            seen.add(name)
+            result.append({**npc, "_tier": "promoted"})
+        # Legacy direct entries from npcs dict — last priority.
+        for name, info in (self.npcs or {}).items():
+            if name in seen or not isinstance(info, dict):
+                continue
+            seen.add(name)
+            result.append({**info, "name": name, "_tier": "legacy"})
+        return result
+
+    def get_relationships_view(self) -> list:
+        """Unified relationship view. Sources, in priority:
+          1. Explicit `relationships` dict {npc: {tier, score, history}}
+          2. NPC entries (main_cast + extra_npcs + force_composition.party.members)
+             that carry a `relationship` block or `score` field
+        Returns a list of {name, score, tier, last_event} sorted by abs(score)."""
+        rels = {}
+
+        # Source 1: explicit relationships dict
+        for name, info in (self.relationships or {}).items():
+            if not isinstance(info, dict):
+                continue
+            score = info.get("score", 0) or 0
+            tier = info.get("tier") or self._score_to_tier(score)
+            history = info.get("history") or []
+            last_event = history[-1].get("reason") if history and isinstance(history[-1], dict) else ""
+            rels[name] = {
+                "name": name,
+                "score": int(score) if isinstance(score, (int, float)) else 0,
+                "tier": tier,
+                "last_event": last_event,
+                "_source": "explicit",
+            }
+
+        # Source 2: derive from NPC entries with relationship metadata
+        candidates = []
+        candidates.extend(self.main_cast or [])
+        candidates.extend(self.extra_npcs_list or [])
+        party_members = (self.get_party() or {}).get("members") or []
+        candidates.extend(party_members)
+
+        for npc in candidates:
+            if not isinstance(npc, dict):
+                continue
+            name = npc.get("name")
+            if not name or name in rels:
+                continue   # explicit dict wins
+            rel_block = npc.get("relationship")
+            score = None
+            tier = None
+            last_event = ""
+            if isinstance(rel_block, dict):
+                score = rel_block.get("score")
+                tier = rel_block.get("tier")
+                last_event = rel_block.get("last_event") or rel_block.get("note", "")
+            elif isinstance(rel_block, str):
+                # Free-form note — count as a relationship without numeric score
+                last_event = rel_block
+            elif npc.get("score") is not None:
+                score = npc.get("score")
+                tier = npc.get("tier")
+            else:
+                # No relationship signal — skip (this NPC isn't tracked as a relationship)
+                continue
+            score = int(score) if isinstance(score, (int, float)) else 0
+            if not tier:
+                tier = self._score_to_tier(score)
+            rels[name] = {
+                "name": name,
+                "score": score,
+                "tier": tier,
+                "last_event": last_event,
+                "_source": "derived",
+            }
+
+        return sorted(rels.values(), key=lambda r: -abs(r["score"]))
+
+    @staticmethod
+    def _score_to_tier(score: int) -> str:
+        """Map relationship score to tier label."""
+        if score >= 80:
+            return "Bond"
+        if score >= 50:
+            return "Ally"
+        if score >= 20:
+            return "Friend"
+        if score >= 1:
+            return "Acquaintance"
+        if score == 0:
+            return "Neutral"
+        if score >= -19:
+            return "Cool"
+        if score >= -49:
+            return "Hostile"
+        if score >= -79:
+            return "Enemy"
+        return "Nemesis"
+
+    def get_active_consequences(self, warn_threshold: int = 75) -> list:
+        """Consequences = threat_clocks at >= warn_threshold (warning) or 100
+        (fired) + any explicit consequences entries that haven't fired yet.
+        Returns list of {name, kind, progress, description, trigger}."""
+        def _coerce_prog(v):
+            try:
+                return int(v) if v is not None else 0
+            except (ValueError, TypeError):
+                return 0
+        out = []
+        for name, c in (self.threat_clocks or {}).items():
+            if not isinstance(c, dict):
+                continue
+            prog = _coerce_prog(c.get("progress", 0))
+            if prog < warn_threshold:
+                continue
+            kind = "FIRED" if prog >= 100 else "IMMINENT"
+            out.append({
+                "name": name,
+                "kind": kind,
+                "progress": prog,
+                "description": c.get("description", ""),
+                "trigger": c.get("trigger", ""),
+                "faction": c.get("faction", ""),
+            })
+        for c in (self.consequences or []):
+            if not isinstance(c, dict) or c.get("fired"):
+                continue
+            out.append({
+                "name": c.get("cause", "?"),
+                "kind": "PENDING",
+                "progress": None,
+                "description": c.get("effect", ""),
+                "trigger": c.get("trigger_day", ""),
+                "faction": c.get("faction", ""),
+            })
+        return sorted(out, key=lambda x: -(x.get("progress") or 0))
+
+    def get_faction_plots(self) -> dict:
+        """Faction plots = threat_clocks tagged with `faction`, grouped by faction.
+        Returns {faction_name: [clock_entry, ...]}."""
+        groups = {}
+        for name, c in (self.threat_clocks or {}).items():
+            if not isinstance(c, dict):
+                continue
+            faction = c.get("faction")
+            if not faction:
+                continue
+            groups.setdefault(faction, []).append({
+                "name": name,
+                "progress": c.get("progress", 0),
+                "rate": c.get("rate", 0),
+                "description": c.get("description", ""),
+                "next_move": c.get("next_move", ""),
+                "next_move_day": c.get("next_move_day"),
+            })
+        return groups
+
+    def advance_clock_from_goal(self, goal: dict) -> tuple:
+        """When a character goal completes, advance any clock it contributes to.
+        goal["contributes_to_clock"] = clock-name in self.threat_clocks
+        goal["contribution_pct"] = how much to advance (0-100, default 25)
+        Returns (clock_name, new_progress) or (None, None) if no contribution."""
+        if not isinstance(goal, dict):
+            return (None, None)
+        clock_name = goal.get("contributes_to_clock")
+        if not clock_name or clock_name not in (self.threat_clocks or {}):
+            return (None, None)
+        pct = goal.get("contribution_pct", 25)
+        try:
+            pct = int(pct)
+        except (ValueError, TypeError):
+            pct = 25
+        clock = self.threat_clocks[clock_name]
+        cur = clock.get("progress", 0) or 0
+        new = max(0, min(100, cur + pct))
+        clock["progress"] = new
+        return (clock_name, new)
     
     # ---- EVENT PROGRESSION (Tournaments, Dungeons, Sieges) ----
     
@@ -4291,6 +4505,8 @@ class StoryEngine:
                     "_chapter",
                     "_chapter_status",
                     "_chapter_title",
+                    "main_cast",
+                    "extra_npcs",
                 )
                 for k in _NARRATIVE_TOP_LEVEL:
                     if k in full and not data.get(k):

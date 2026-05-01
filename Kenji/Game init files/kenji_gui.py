@@ -1127,23 +1127,29 @@ class LiveDashboard(ctk.CTk):
         else:
             lines.append("  (none)")
         lines.append("═══ KEY NPCs ═══")
-        if e.npcs:
-            for name, info in sorted(e.npcs.items()):
-                loc = info.get("location", "?")
-                act = info.get("activity", "")
-                lines.append(f"  {name:15s}  {loc}")
-                if act:
-                    lines.append(f"  {'':15s}  └ {act}")
+        key_npcs = e.get_key_npcs() if hasattr(e, "get_key_npcs") else []
+        if key_npcs:
+            for npc in key_npcs:
+                name = npc.get("name", "?")
+                role = npc.get("role", "")
+                loc = npc.get("location", "")
+                tier = npc.get("_tier", "")
+                marker = "★" if tier == "main" else "•"
+                desc = " · ".join(x for x in (role, loc) if x)
+                lines.append(f"  {marker} {name:18s}  {desc}")
         else:
             lines.append("  (none)")
         lines += ["", "═══ RELATIONSHIPS ═══"]
-        if e.relationships:
-            for npc, r in sorted(e.relationships.items(), key=lambda x: -abs(x[1].get("score", 0))):
-                score = r.get("score", 0)
-                tier = r.get("tier", "?")
-                hist = r.get("history", [])
-                last = hist[-1]["reason"] if hist else ""
-                lines.append(f"  {npc:15s}  {score:+d}  ({tier})  {last}")
+        rels = e.get_relationships_view() if hasattr(e, "get_relationships_view") else []
+        if rels:
+            for r in rels[:10]:   # top 10 by abs(score)
+                name = r["name"]
+                score = r["score"]
+                tier = r["tier"]
+                last = r.get("last_event", "")
+                # Sign-prefix score; show tier; trim last-event to keep line tight
+                short = (last[:60] + "…") if last and len(last) > 60 else last
+                lines.append(f"  {name:18s}  {score:+d}  ({tier})  {short}")
         else:
             lines.append("  (none)")
         lines += ["", "═══ REPUTATION ═══"]
@@ -1315,29 +1321,51 @@ class LiveDashboard(ctk.CTk):
         else:
             lines.append("  No active quests.")
 
-        # ---- PENDING CONSEQUENCES ----
-        unfired = [c for c in (e.consequences or []) if not c.get("fired") and not _is_done(c)]
+        # ---- PENDING CONSEQUENCES (derived: clocks at >=75%) ----
+        cons = e.get_active_consequences(warn_threshold=75) if hasattr(e, "get_active_consequences") else []
         lines += ["", "═══ PENDING CONSEQUENCES ═══"]
-        if unfired:
-            for c in sorted(unfired, key=lambda x: x.get("trigger_day", 999)):
-                lines.append(f"  Day {c.get('trigger_day', '?')}: {c.get('cause', '?')}")
-                lines.append(f"    → {c.get('effect', '?')}")
+        if cons:
+            for c in cons:
+                kind = c.get("kind", "?")
+                name = c.get("name", "?")
+                prog = c.get("progress")
+                marker = "🔥" if kind == "FIRED" else ("⚠" if kind == "IMMINENT" else "•")
+                head = f"  {marker} [{kind}] {name}"
+                if prog is not None:
+                    head += f"  ({prog}%)"
+                lines.append(head)
+                trig = c.get("trigger", "")
+                if trig:
+                    lines.append(f"     → {trig}")
         else:
-            lines.append("  None pending.")
+            lines.append("  None pending. (Clocks below 75% live in the World tab.)")
 
-        # ---- FACTION PLOTS (in-progress only) ----
+        # ---- FACTION PLOTS (derived: threat_clocks tagged with `faction`) ----
         lines += ["", "═══ FACTION PLOTS ═══"]
-        active_plots = []
+        faction_groups = e.get_faction_plots() if hasattr(e, "get_faction_plots") else {}
+        # Add legacy org_plots (in-progress) so old data still renders
         for org, p in (e.org_plots or {}).items():
             if isinstance(p, dict) and p.get("progress", 0) < 100 and not _is_done(p):
-                active_plots.append((org, p))
-        if active_plots:
-            for org, p in active_plots:
-                lines.append(f"  {org}: {p.get('plot', '?')} ({p.get('progress', 0)}%)")
-                if p.get("next_move"):
-                    lines.append(f"    Next: {p['next_move']} (Day {p.get('next_move_day', '?')})")
+                entries = faction_groups.setdefault(org, [])
+                entries.append({
+                    "name": p.get("plot", org),
+                    "progress": p.get("progress", 0),
+                    "rate": p.get("rate", 0),
+                    "description": p.get("description", ""),
+                    "next_move": p.get("next_move", ""),
+                    "next_move_day": p.get("next_move_day"),
+                })
+        if faction_groups:
+            for faction, plots in sorted(faction_groups.items()):
+                lines.append(f"  {faction}")
+                for p in sorted(plots, key=lambda x: -x.get("progress", 0)):
+                    lines.append(f"    • {p['name']}  ({p['progress']}%, {p.get('rate', 0)}/day)")
+                    if p.get("next_move"):
+                        d = p.get("next_move_day")
+                        nm_tail = f" (Day {d})" if d else ""
+                        lines.append(f"        Next: {p['next_move']}{nm_tail}")
         else:
-            lines.append("  No active faction plots.")
+            lines.append("  No active faction plots. (Tag threat_clocks with `faction:` to populate.)")
 
         # ---- CHARACTER GOALS (open only, optional) ----
         goals = getattr(e, "character_goals", None) or []
