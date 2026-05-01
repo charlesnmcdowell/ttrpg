@@ -11,6 +11,10 @@ echo.
 echo Installing build dependencies...
 pip install customtkinter pyinstaller
 
+REM To DEBUG silent crashes: change "--noconsole" below to "--console"
+REM (a console window will appear behind the GUI showing all errors).
+REM For production builds, keep "--noconsole" to hide the console window.
+
 echo.
 echo Bundling all engine modules + tools + lore docs...
 pyinstaller --onefile --noconsole ^
@@ -33,6 +37,7 @@ pyinstaller --onefile --noconsole ^
     --add-data "npc_name_bank.md;." ^
     --add-data "world_calendar_lore.md;." ^
     --add-data "AI_CONTEXT.md;." ^
+    --add-data "manifests;manifests" ^
     kenji_gui.py
 
 echo.

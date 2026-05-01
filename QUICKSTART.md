@@ -55,7 +55,9 @@ Interactive prompts:
 - **Personal goal** — what they want
 - **Region** — frontier / heartland / coastal / mountain / forest / desert / etc.
 
-Output: `<YourCharName>/Game init files/character_world_state.json` — a full Levels 1–10 starter campaign with main cast, quest spine, antagonist arc, and Ember inheritance shaped to your character concept.
+Output:
+- `<YourCharName>/Game init files/character_world_state.json` — a full Levels 1–10 starter campaign with main cast, quest spine, antagonist arc, and Ember inheritance shaped to your character concept.
+- `Kenji/Game init files/manifests/<yourcharname>.json` — central manifest so the new character is launchable via `--character <yourcharname>` from CLI, GUI, or .exe without any extra config inside the character folder.
 
 Then start play:
 ```bash
@@ -131,21 +133,36 @@ Engine bug fixed in commits after this version. Pull latest from origin/main.
 ```bash
 pip install customtkinter
 cd Kenji/Game\ init\ files
-python kenji_gui.py --campaign "../Cookie/Game init files"
+python kenji_gui.py --character cookie
 ```
 
-Live state dashboard. Reads the same JSON the CLI does.
+Live state dashboard. Reads the same JSON the CLI does. The `--character` flag resolves a manifest under `Kenji/Game init files/manifests/`.
 
 ## Optional: Build a Windows .exe
 
 Requires Windows + Python with `pyinstaller` and `customtkinter` installed.
 
+**From `cmd.exe`:**
 ```cmd
-cd Kenji\Game init files
+cd "C:\Users\<you>\...\TTRPG\Kenji\Game init files"
 build_exe.bat
 ```
 
-Output: `Kenji\Game init files\dist\Kenji DM Tool.exe`. Single self-contained .exe; copy next to your campaign folder and double-click.
+**From PowerShell** (PowerShell does NOT auto-run scripts from the current directory — you must prefix with `.\`):
+```powershell
+cd "C:\Users\<you>\...\TTRPG\Kenji\Game init files"
+.\build_exe.bat
+```
+
+Output: `Kenji\Game init files\dist\Kenji DM Tool.exe`. Single self-contained .exe.
+
+Launch from PowerShell with the call operator:
+
+```powershell
+& ".\Kenji DM Tool.exe" --character cookie
+```
+
+If `--character` is omitted, the .exe defaults to the Kenji manifest. To debug a silent crash, build the debug variant via `build_exe_debug.bat` and run `Kenji DM Tool DEBUG.exe` — the console stays open behind the GUI and prints any traceback.
 
 ## How to play with an AI DM
 

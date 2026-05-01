@@ -23,9 +23,23 @@ try:
 except ImportError:
     HAS_WINSOUND = False
 
-SCRIPT_DIR = Path(__file__).resolve().parent
+# PyInstaller-aware path resolution.
+# - When running as a PyInstaller .exe, __file__ resolves to the temp extraction
+#   directory (sys._MEIPASS) which contains bundled read-only assets. The user's
+#   STATE FILES live next to the .exe, not inside the bundle.
+# - When running as a normal Python script, both directories are the same.
+if getattr(sys, "frozen", False):
+    # Frozen .exe (PyInstaller)
+    BUNDLE_DIR = Path(getattr(sys, "_MEIPASS", Path(sys.executable).parent)).resolve()
+    SCRIPT_DIR = Path(sys.executable).resolve().parent
+else:
+    # Regular Python script run
+    BUNDLE_DIR = Path(__file__).resolve().parent
+    SCRIPT_DIR = Path(__file__).resolve().parent
 
-# Defaults when campaign_manifest.json is missing (legacy Kenji layout)
+# Defaults when campaign_manifest.json is missing (legacy Kenji layout).
+# Note: state_file resolves relative to SCRIPT_DIR (next to the .exe at runtime,
+# or next to kenji_gui.py when run as a script), NOT inside the bundle.
 _DEFAULT_MANIFEST = {
     "campaign_id": "kenji",
     "window_title_template": "{char_name} — Live Dashboard",
@@ -51,62 +65,169 @@ class CampaignConfig:
 def _parse_cli(argv: Optional[list]) -> argparse.Namespace:
     p = argparse.ArgumentParser(description="TTRPG Live Dashboard (multi-campaign)")
     p.add_argument(
+        "--character", "-C",
+        type=str,
+        default=None,
+        help="Character name (looks up manifests/<name>.json in the engine folder). "
+             "Recommended: '--character cookie', '--character kenji', '--character amaris'.",
+    )
+    p.add_argument(
         "--campaign", "-c",
         type=str,
         default=None,
-        help="Path to campaign folder (must contain campaign_manifest.json)",
+        help="(Legacy) Path to campaign folder containing campaign_manifest.json.",
     )
     p.add_argument(
         "--manifest", "-m",
         type=str,
         default=None,
-        help="Path directly to campaign_manifest.json",
+        help="(Legacy) Path directly to a campaign_manifest.json file.",
     )
     return p.parse_args(argv)
+
+
+def _find_ttrpg_root(start: Path) -> Optional[Path]:
+    """Walk up from `start` until we find realm_lore_registry.json (TTRPG repo root)."""
+    cur = start.resolve()
+    for _ in range(10):
+        if (cur / "realm_lore_registry.json").exists():
+            return cur
+        if cur.parent == cur:
+            break
+        cur = cur.parent
+    return None
+
+
+def _manifest_search_dirs() -> list:
+    """Where to look for manifests, in priority order.
+
+    1. SCRIPT_DIR/manifests/   — user-overridable (next to kenji_gui.py or .exe)
+    2. BUNDLE_DIR/manifests/   — bundled fallback (sys._MEIPASS in frozen mode)
+
+    Same dir twice when running as a script — that's fine, the second is a no-op.
+    """
+    dirs = [SCRIPT_DIR / "manifests"]
+    bundled = BUNDLE_DIR / "manifests"
+    if bundled.resolve() != (SCRIPT_DIR / "manifests").resolve():
+        dirs.append(bundled)
+    return dirs
+
+
+def _find_manifest(filename: str) -> Optional[Path]:
+    """Return the first existing manifests/<filename> across search dirs."""
+    for d in _manifest_search_dirs():
+        candidate = d / filename
+        if candidate.exists():
+            return candidate
+    return None
+
+
+def _list_available_characters() -> list:
+    """All character names with a manifest, across search dirs (de-duped, sorted)."""
+    seen = set()
+    for d in _manifest_search_dirs():
+        if d.exists():
+            for p in d.glob("*.json"):
+                seen.add(p.stem)
+    return sorted(seen)
 
 
 def _load_campaign_config(argv: Optional[list] = None) -> CampaignConfig:
     args = _parse_cli(argv if argv is not None else sys.argv[1:])
     env_dir = os.environ.get("TTRPG_CAMPAIGN_DIR", "").strip()
+    env_char = os.environ.get("TTRPG_CHARACTER", "").strip()
 
-    if args.manifest:
-        manifest_path = Path(args.manifest).resolve()
-        root = manifest_path.parent
-    elif args.campaign:
-        root = Path(args.campaign).resolve()
-        manifest_path = root / "campaign_manifest.json"
-    elif env_dir:
-        root = Path(env_dir).resolve()
-        manifest_path = root / "campaign_manifest.json"
-    else:
-        root = SCRIPT_DIR
-        manifest_path = root / "campaign_manifest.json"
+    # Resolution priority (new architecture: all manifests live in Kenji/Game init files/manifests/):
+    # 1. --character <name>     → look up manifests/<name>.json inside SCRIPT_DIR (or its frozen-mode equivalent)
+    # 2. --manifest <path>      → use that file directly (legacy)
+    # 3. --campaign <path>      → look for <path>/campaign_manifest.json (legacy)
+    # 4. env TTRPG_CHARACTER    → same as --character
+    # 5. env TTRPG_CAMPAIGN_DIR → same as --campaign
+    # 6. default                → manifests/kenji.json
+    character = args.character or env_char or None
 
-    if manifest_path.exists():
-        try:
-            raw = json.loads(manifest_path.read_text(encoding="utf-8"))
-        except Exception as e:
-            raise SystemExit(f"Invalid JSON in {manifest_path}: {e}") from e
-        raw.pop("_comment", None)
-        data = {**_DEFAULT_MANIFEST, **raw}
-    else:
-        data = dict(_DEFAULT_MANIFEST)
-        if root != SCRIPT_DIR:
+    manifest_path: Optional[Path] = None
+    legacy_root: Optional[Path] = None
+
+    if character:
+        # New architecture: manifests live in SCRIPT_DIR/manifests/ (user-overridable)
+        # OR BUNDLE_DIR/manifests/ (bundled into the .exe at build time).
+        manifest_path = _find_manifest(f"{character.lower()}.json")
+        if manifest_path is None:
+            searched = "\n    ".join(str(d / f"{character.lower()}.json") for d in _manifest_search_dirs())
             raise SystemExit(
-                f"Missing {manifest_path}. Create campaign_manifest.json in the campaign folder."
+                f"Missing manifest for character '{character}'.\n"
+                f"  Searched:\n    {searched}\n"
+                f"  Available characters: {_list_available_characters()}\n"
+                f"  Run generate_starter_campaign.py to create a new character."
             )
+    elif args.manifest:
+        manifest_path = Path(args.manifest).resolve()
+        legacy_root = manifest_path.parent
+    elif args.campaign:
+        legacy_root = Path(args.campaign).resolve()
+        manifest_path = legacy_root / "campaign_manifest.json"
+    elif env_dir:
+        legacy_root = Path(env_dir).resolve()
+        manifest_path = legacy_root / "campaign_manifest.json"
+    else:
+        # Default to Kenji — same dual-dir search.
+        manifest_path = _find_manifest("kenji.json")
+        if manifest_path is None:
+            # Fallback to legacy default (kenji_state.json next to script)
+            data = dict(_DEFAULT_MANIFEST)
+            data["__resolution_root__"] = "legacy_script_dir"
+            return _build_config(data, SCRIPT_DIR)
 
+    if not manifest_path.exists():
+        raise SystemExit(
+            f"Missing {manifest_path}.\n"
+            f"For a new character, run generate_starter_campaign.py.\n"
+            f"For legacy single-folder campaigns, place campaign_manifest.json in the campaign folder."
+        )
+
+    try:
+        raw = json.loads(manifest_path.read_text(encoding="utf-8"))
+    except Exception as e:
+        raise SystemExit(f"Invalid JSON in {manifest_path}: {e}") from e
+    raw.pop("_comment", None)
+    data = {**_DEFAULT_MANIFEST, **raw}
+
+    # Path-resolution mode:
+    # - If the manifest lives in ANY central manifests/ dir (SCRIPT_DIR or BUNDLE_DIR)
+    #   → paths are TTRPG-root-relative
+    # - Else (legacy: manifest in a campaign folder) → paths are manifest-folder-relative
+    central_dirs = {d.resolve() for d in _manifest_search_dirs()}
+    is_central_manifest = manifest_path.parent.resolve() in central_dirs
+    if is_central_manifest:
+        # Walk up from SCRIPT_DIR (where the .exe lives) — never from BUNDLE_DIR
+        # which is a temp extraction folder with no TTRPG context above it.
+        ttrpg_root = _find_ttrpg_root(SCRIPT_DIR)
+        if ttrpg_root is None:
+            raise SystemExit(
+                f"Cannot find TTRPG root (no realm_lore_registry.json found upward from {SCRIPT_DIR}).\n"
+                f"Place the .exe inside or beside the TTRPG repo so it can find shared lore files."
+            )
+        resolution_root = ttrpg_root
+    else:
+        resolution_root = legacy_root or manifest_path.parent
+
+    return _build_config(data, resolution_root)
+
+
+def _build_config(data: dict, resolution_root: Path) -> CampaignConfig:
+    """Build a CampaignConfig by resolving manifest paths against `resolution_root`."""
     def _resolve(p: str) -> Path:
         path = Path(p)
         if path.is_absolute():
             return path.resolve()
-        return (root / path).resolve()
+        return (resolution_root / path).resolve()
 
     eng = data.get("engine_path", ".")
-    engine_dir = _resolve(eng) if eng not in (None, ".", "") else root
+    engine_dir = _resolve(eng) if eng not in (None, ".", "") else resolution_root
 
     return CampaignConfig(
-        root=root,
+        root=resolution_root,
         campaign_id=str(data.get("campaign_id", "campaign")),
         state_file=_resolve(data["state_file"]),
         music_dir=_resolve(data["music_dir"]),
@@ -351,6 +472,27 @@ class LiveDashboard(ctk.CTk):
     # Engine loader
     # ------------------------------------------------------------------
     def _load_engine(self):
+        # Pre-check: if the state file genuinely isn't on disk, show a helpful
+        # error instead of a Python traceback. This is the "user double-clicked
+        # the .exe but didn't put a campaign next to it" path.
+        if not Path(self.config.state_file).exists():
+            try:
+                from tkinter import messagebox
+                messagebox.showerror(
+                    "Campaign state file not found",
+                    f"Could not find the campaign state file:\n\n"
+                    f"  {self.config.state_file}\n\n"
+                    f"To fix:\n"
+                    f"  1. Place a character_world_state.json (or kenji_state.json) "
+                    f"in a 'Game init files' folder next to this .exe\n"
+                    f"  2. Or run from command line with --campaign \"<path-to-campaign-folder>\"\n"
+                    f"  3. Or run generate_starter_campaign.py to create a new character first\n\n"
+                    f"See QUICKSTART.md in the repo for the full setup guide."
+                )
+            except Exception:
+                # tkinter messagebox not available — fall back to print-and-die
+                print(f"FATAL: state file not found: {self.config.state_file}", file=sys.stderr)
+            sys.exit(2)
         old_stdout = sys.stdout
         sys.stdout = io.StringIO()
         try:
@@ -967,7 +1109,42 @@ class LiveDashboard(ctk.CTk):
 KenjiDashboard = LiveDashboard
 
 
+def _show_fatal_error(title: str, message: str) -> None:
+    """Surface a fatal startup error visibly even under --noconsole.
+
+    Under PyInstaller --noconsole, any uncaught exception or SystemExit
+    silently kills the process — the user sees nothing. This puts the
+    message in a Tk dialog so failures are debuggable without a console.
+    """
+    # Always print to stderr too (visible under --console / DEBUG build).
+    try:
+        print(f"FATAL: {title}\n{message}", file=sys.stderr)
+    except Exception:
+        pass
+    # Best-effort GUI dialog.
+    try:
+        import tkinter as _tk
+        from tkinter import messagebox as _mb
+        _root = _tk.Tk()
+        _root.withdraw()
+        _mb.showerror(title, message)
+        _root.destroy()
+    except Exception:
+        pass
+
+
 if __name__ == "__main__":
-    cfg = _load_campaign_config()
-    app = LiveDashboard(cfg)
-    app.mainloop()
+    try:
+        cfg = _load_campaign_config()
+        app = LiveDashboard(cfg)
+        app.mainloop()
+    except SystemExit as e:
+        # SystemExit raised from _load_campaign_config carries the user-facing message.
+        msg = str(e) if str(e) else "Unknown startup error."
+        _show_fatal_error("Kenji DM Tool — startup error", msg)
+        sys.exit(1)
+    except Exception:
+        import traceback as _tb
+        tb = _tb.format_exc()
+        _show_fatal_error("Kenji DM Tool — unhandled exception", tb)
+        sys.exit(2)

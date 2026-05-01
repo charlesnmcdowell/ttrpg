@@ -1,0 +1,9 @@
+{
+  "_comment": "Kenji campaign — the canonical Kingdom of Ankunyx campaign. All paths are relative to the TTRPG root (the folder containing realm_lore_registry.json).",
+  "campaign_id": "kenji",
+  "window_title_template": "{char_name} — Live Dashboard",
+  "state_file": "Kenji/Game init files/kenji_state.json",
+  "music_dir": "Kenji/music",
+  "music_map": "Kenji/music/music_map.json",
+  "engine_path": "Kenji/Game init files"
+}
