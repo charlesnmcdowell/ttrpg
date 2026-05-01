@@ -580,11 +580,15 @@ class LiveDashboard(ctk.CTk):
     # LEFT PANEL — character card (read-only)
     # ------------------------------------------------------------------
     def _build_left_panel(self, parent):
-        left = ctk.CTkScrollableFrame(parent, fg_color=BG_PANEL, width=280, corner_radius=8,
+        """Lean character panel: HP/AC/SpellSlots/Currency/Meals — the at-a-glance
+        vitals only. Detailed sheet info (conditions, ability scores, skills,
+        spells, class features, perks) lives in the Status tab on the right."""
+        left = ctk.CTkScrollableFrame(parent, fg_color=BG_PANEL, width=240, corner_radius=8,
                                        label_text="CHARACTER", label_font=FONT_LABEL,
                                        label_fg_color=BG_CARD, label_text_color=GOLD)
         left.grid(row=0, column=0, sticky="ns", padx=(0, 4))
 
+        # HP bar
         hp_frame = ctk.CTkFrame(left, fg_color="transparent")
         hp_frame.pack(fill="x", padx=4, pady=(4, 2))
         ctk.CTkLabel(hp_frame, text="HP", font=FONT_LABEL, text_color=GOLD).pack(anchor="w")
@@ -593,55 +597,25 @@ class LiveDashboard(ctk.CTk):
         self.lbl_hp = ctk.CTkLabel(hp_frame, text="", font=FONT_BODY, text_color=TEXT)
         self.lbl_hp.pack(anchor="w")
 
+        # AC
         self.lbl_ac = ctk.CTkLabel(left, text="", font=FONT_LABEL, text_color=TEXT)
         self.lbl_ac.pack(anchor="w", padx=8, pady=(2, 6))
 
-        ctk.CTkLabel(left, text="SPELL SLOTS", font=FONT_LABEL, text_color=GOLD).pack(anchor="w", padx=8, pady=(6, 2))
+        # Spell slots — gated. Built always, but the header label and slot frame
+        # both pack_forget() at refresh if the engine has no slots (non-caster class).
+        self.slot_header = ctk.CTkLabel(left, text="SPELL SLOTS", font=FONT_LABEL, text_color=GOLD)
+        self.slot_header.pack(anchor="w", padx=8, pady=(6, 2))
         self.slot_frame = ctk.CTkFrame(left, fg_color="transparent")
         self.slot_frame.pack(fill="x", padx=4)
 
-        ctk.CTkLabel(left, text="CHARGES", font=FONT_LABEL, text_color=GOLD).pack(anchor="w", padx=8, pady=(10, 2))
-        self.charge_frame = ctk.CTkFrame(left, fg_color="transparent")
-        self.charge_frame.pack(fill="x", padx=4)
-
+        # Currency + Meals
         ctk.CTkLabel(left, text="CURRENCY", font=FONT_LABEL, text_color=GOLD).pack(anchor="w", padx=8, pady=(10, 2))
         self.lbl_currency = ctk.CTkLabel(left, text="", font=FONT_BODY, text_color=TEXT, justify="left")
         self.lbl_currency.pack(anchor="w", padx=12)
         self.lbl_meals = ctk.CTkLabel(left, text="", font=FONT_BODY, text_color=TEXT)
-        self.lbl_meals.pack(anchor="w", padx=12, pady=(2, 6))
-
-        ctk.CTkLabel(left, text="WEAPON", font=FONT_LABEL, text_color=GOLD).pack(anchor="w", padx=8, pady=(6, 2))
-        self.lbl_weapon = ctk.CTkLabel(left, text="", font=FONT_SMALL, text_color=TEXT_DIM,
-                                        wraplength=250, justify="left")
-        self.lbl_weapon.pack(anchor="w", padx=12, pady=(0, 6))
-
-        self.lbl_meal_status = ctk.CTkLabel(left, text="", font=FONT_BODY, text_color=TEXT)
-        self.lbl_meal_status.pack(anchor="w", padx=8, pady=(2, 4))
-
-        ctk.CTkLabel(left, text="CONDITIONS", font=FONT_LABEL, text_color=GOLD).pack(anchor="w", padx=8, pady=(6, 2))
-        self.lbl_conditions = ctk.CTkLabel(left, text="", font=FONT_SMALL, text_color=TEXT_DIM,
-                                          wraplength=250, justify="left")
-        self.lbl_conditions.pack(anchor="w", padx=12, pady=(0, 4))
-
-        ctk.CTkLabel(left, text="ABILITY SCORES", font=FONT_LABEL, text_color=GOLD).pack(anchor="w", padx=8, pady=(6, 2))
-        self.sheet_ability_frame = ctk.CTkFrame(left, fg_color="transparent")
-        self.sheet_ability_frame.pack(fill="x", padx=4)
-
-        ctk.CTkLabel(left, text="SKILLS", font=FONT_LABEL, text_color=GOLD).pack(anchor="w", padx=8, pady=(6, 2))
-        self.sheet_skills_frame = ctk.CTkFrame(left, fg_color="transparent")
-        self.sheet_skills_frame.pack(fill="x", padx=4)
-
-        ctk.CTkLabel(left, text="SPELLS (KNOWN)", font=FONT_LABEL, text_color=GOLD).pack(anchor="w", padx=8, pady=(6, 2))
-        self.sheet_spells_frame = ctk.CTkFrame(left, fg_color="transparent")
-        self.sheet_spells_frame.pack(fill="x", padx=4)
-
-        ctk.CTkLabel(left, text="CLASS FEATURES", font=FONT_LABEL, text_color=GOLD).pack(anchor="w", padx=8, pady=(6, 2))
-        self.sheet_features_frame = ctk.CTkFrame(left, fg_color="transparent")
-        self.sheet_features_frame.pack(fill="x", padx=4)
-
-        ctk.CTkLabel(left, text="PERKS", font=FONT_LABEL, text_color=GOLD).pack(anchor="w", padx=8, pady=(6, 2))
-        self.sheet_perks_frame = ctk.CTkFrame(left, fg_color="transparent")
-        self.sheet_perks_frame.pack(fill="x", padx=4)
+        self.lbl_meals.pack(anchor="w", padx=12, pady=(2, 4))
+        self.lbl_meal_status = ctk.CTkLabel(left, text="", font=FONT_SMALL, text_color=TEXT_DIM)
+        self.lbl_meal_status.pack(anchor="w", padx=12, pady=(0, 6))
 
     # ------------------------------------------------------------------
     # CENTER PANEL — tabbed content
@@ -700,33 +674,64 @@ class LiveDashboard(ctk.CTk):
         self.lbl_hp.configure(text=hp_text)
         self.lbl_ac.configure(text=f"AC  {e.ac}")
 
+        # ---- Spell Slots ----
+        # Gate the section: only display if the class actually uses slots.
+        # We treat any non-empty spell_slots dict (with at least one slot defined)
+        # as "this is a spell-slot caster". Non-casters (Fighters, Monks without
+        # ki, etc.) have empty spell_slots and the entire section hides.
+        # Filter out meta keys (anything starting with "_" like "_comment")
+        # before iterating; those aren't actual spell levels.
+        slots_dict_raw = getattr(e, "spell_slots", None) or {}
+        slots_dict = {k: v for k, v in slots_dict_raw.items() if not str(k).startswith("_")}
+        has_slots = any(
+            (isinstance(v, (list, tuple)) and len(v) >= 2 and v[1] > 0)
+            or (isinstance(v, dict) and v.get("max", 0) > 0)
+            or (isinstance(v, (int, float)) and v > 0)
+            for v in slots_dict.values()
+        )
+
         for w in self.slot_frame.winfo_children():
             w.destroy()
-        for level in sorted(e.spell_slots.keys(), key=lambda x: int(x)):
-            cur, mx = e.spell_slots[level]
-            row = ctk.CTkFrame(self.slot_frame, fg_color="transparent")
-            row.pack(fill="x", pady=1)
-            ctk.CTkLabel(row, text=f"L{level}", width=30, font=FONT_SMALL, text_color=TEXT).pack(side="left")
-            ctk.CTkLabel(row, text=f"{cur}/{mx}", width=45, font=FONT_BODY, text_color=TEXT).pack(side="left", padx=4)
-            bar = ctk.CTkProgressBar(row, width=100, height=10, corner_radius=3)
-            bar.set(cur / max(mx, 1))
-            bar.configure(progress_color=BLUE)
-            bar.pack(side="left", padx=4)
 
-        for w in self.charge_frame.winfo_children():
-            w.destroy()
-        for name in sorted(e.charges.keys()):
-            cur, mx = e.charges[name]
-            row = ctk.CTkFrame(self.charge_frame, fg_color="transparent")
-            row.pack(fill="x", pady=1)
-            ctk.CTkLabel(row, text=name, width=90, font=FONT_SMALL, text_color=TEXT, anchor="w").pack(side="left")
-            ctk.CTkLabel(row, text=f"{cur}/{mx}", width=45, font=FONT_BODY, text_color=TEXT).pack(side="left", padx=4)
+        if has_slots:
+            self.slot_header.pack(anchor="w", padx=8, pady=(6, 2))
+            self.slot_frame.pack(fill="x", padx=4)
+
+            def _slot_level_int(k):
+                try:
+                    return int(k)
+                except (ValueError, TypeError):
+                    return 999
+
+            for level in sorted(slots_dict.keys(), key=_slot_level_int):
+                v = slots_dict[level]
+                # Coerce slot value to (cur, mx) tuple regardless of input shape.
+                if isinstance(v, (list, tuple)) and len(v) >= 2:
+                    cur, mx = int(v[0]), int(v[1])
+                elif isinstance(v, dict):
+                    cur = int(v.get("current", v.get("cur", 0)))
+                    mx = int(v.get("max", 0))
+                else:
+                    cur = int(v) if isinstance(v, (int, float)) else 0
+                    mx = cur
+                if mx <= 0:
+                    continue
+                row = ctk.CTkFrame(self.slot_frame, fg_color="transparent")
+                row.pack(fill="x", pady=1)
+                ctk.CTkLabel(row, text=f"L{level}", width=30, font=FONT_SMALL, text_color=TEXT).pack(side="left")
+                ctk.CTkLabel(row, text=f"{cur}/{mx}", width=45, font=FONT_BODY, text_color=TEXT).pack(side="left", padx=4)
+                bar = ctk.CTkProgressBar(row, width=100, height=10, corner_radius=3)
+                bar.set(cur / max(mx, 1))
+                bar.configure(progress_color=BLUE)
+                bar.pack(side="left", padx=4)
+        else:
+            # Non-caster — hide the whole section.
+            self.slot_header.pack_forget()
+            self.slot_frame.pack_forget()
 
         self.lbl_currency.configure(text=f"{e.gold} GP  |  {e.silver} SP  |  {e.copper} CP")
         self.lbl_meals.configure(text=f"Meals: {e.meals}")
         self.lbl_meal_status.configure(text=e.meal_status())
-        self.lbl_weapon.configure(text=f"{e.weapon_config}\n{e.weapon_config_detail}" if e.weapon_config else "—")
-        self._refresh_character_sheet(e)
 
         self._refresh_status_tab()
         self._refresh_inventory_tab()
@@ -752,120 +757,11 @@ class LiveDashboard(ctk.CTk):
             w.destroy()
 
     def _refresh_character_sheet(self, e):
-        """Left column: conditions, ability scores, skills, spells, class features, perks."""
-        if hasattr(self, "lbl_conditions"):
-            self.lbl_conditions.configure(
-                text=", ".join(e.statuses) if e.statuses else "—"
-            )
-        self._clear_frame(self.sheet_ability_frame)
-        order = ("STR", "DEX", "CON", "INT", "WIS", "CHA")
-        ab = getattr(e, "ability_scores", None) or {}
-        if ab:
-            row = ctk.CTkFrame(self.sheet_ability_frame, fg_color="transparent")
-            row.pack(fill="x")
-            for k in order:
-                if k in ab:
-                    ctk.CTkLabel(
-                        row,
-                        text=f"{k}\n{ab[k]}",
-                        width=38,
-                        font=FONT_SMALL,
-                        text_color=TEXT,
-                    ).pack(side="left", padx=1)
-            extra = [k for k in sorted(ab.keys()) if k not in order]
-            for k in extra:
-                ctk.CTkLabel(
-                    self.sheet_ability_frame,
-                    text=f"{k}  {ab[k]}",
-                    font=FONT_SMALL,
-                    text_color=TEXT_DIM,
-                    anchor="w",
-                ).pack(fill="x", padx=2)
-        else:
-            ctk.CTkLabel(
-                self.sheet_ability_frame,
-                text="—",
-                font=FONT_SMALL,
-                text_color=TEXT_DIM,
-            ).pack(anchor="w")
-
-        self._clear_frame(self.sheet_skills_frame)
-        skills = getattr(e, "skills", None) or {}
-        if skills:
-            for sk, mod in sorted(skills.items()):
-                ctk.CTkLabel(
-                    self.sheet_skills_frame,
-                    text=f"{sk}  {mod}",
-                    font=FONT_SMALL,
-                    text_color=TEXT,
-                    anchor="w",
-                ).pack(fill="x", padx=4)
-        else:
-            ctk.CTkLabel(
-                self.sheet_skills_frame,
-                text="—",
-                font=FONT_SMALL,
-                text_color=TEXT_DIM,
-            ).pack(anchor="w")
-
-        self._clear_frame(self.sheet_spells_frame)
-        spells = getattr(e, "known_spells", None) or []
-        if spells:
-            for sp in spells:
-                ctk.CTkLabel(
-                    self.sheet_spells_frame,
-                    text=f"• {sp}",
-                    font=FONT_SMALL,
-                    text_color=TEXT,
-                    anchor="w",
-                ).pack(fill="x", padx=4)
-        else:
-            ctk.CTkLabel(
-                self.sheet_spells_frame,
-                text="—",
-                font=FONT_SMALL,
-                text_color=TEXT_DIM,
-            ).pack(anchor="w")
-
-        self._clear_frame(self.sheet_features_frame)
-        feats = getattr(e, "class_features", None) or []
-        if feats:
-            for feat in feats:
-                ctk.CTkLabel(
-                    self.sheet_features_frame,
-                    text=f"• {feat}",
-                    font=FONT_SMALL,
-                    text_color=TEXT,
-                    anchor="w",
-                ).pack(fill="x", padx=4)
-        else:
-            ctk.CTkLabel(
-                self.sheet_features_frame,
-                text="—",
-                font=FONT_SMALL,
-                text_color=TEXT_DIM,
-            ).pack(anchor="w")
-
-        self._clear_frame(self.sheet_perks_frame)
-        if e.active_perks:
-            for p in e.active_perks:
-                txt = f"{p.get('name', '?')} — {p.get('effect', '')}" if isinstance(p, dict) else str(p)
-                ctk.CTkLabel(
-                    self.sheet_perks_frame,
-                    text=f"• {txt}",
-                    font=FONT_SMALL,
-                    text_color=GOLD,
-                    anchor="w",
-                    wraplength=250,
-                    justify="left",
-                ).pack(fill="x", padx=4)
-        else:
-            ctk.CTkLabel(
-                self.sheet_perks_frame,
-                text="—",
-                font=FONT_SMALL,
-                text_color=TEXT_DIM,
-            ).pack(anchor="w")
+        """No-op shim. The detailed character-sheet sections (conditions, ability
+        scores, skills, spells, class features, perks) moved off the left panel
+        into the Status tab on the right. Kept as a method for any external
+        callers that still invoke it; intentionally does nothing now."""
+        return
 
     def _refresh_status_tab(self):
         e = self.engine
@@ -949,7 +845,9 @@ class LiveDashboard(ctk.CTk):
                 charge_map[cname.lower()] = f"{cur}/{mx}"
             except Exception:
                 pass
-        slots = getattr(e, "spell_slots", None) or {}
+        # Filter meta keys (e.g. "_comment") before iterating slot levels.
+        _slots_raw = getattr(e, "spell_slots", None) or {}
+        slots = {k: v for k, v in _slots_raw.items() if not str(k).startswith("_")}
         def _fmt_slot(v):
             """Render a spell-slot entry — handles [cur, max], {current, max}, or int."""
             if isinstance(v, list) and len(v) >= 2:
@@ -962,21 +860,22 @@ class LiveDashboard(ctk.CTk):
 
         if known:
             for sp in known:
-                # sp may be a string OR a dict {name, level, uses_per_day, charges_key, notes}
+                # sp may be a string OR a dict {name, level, charges_key, notes}.
+                # Spell-slot-based casting is the standard: each cast consumes one
+                # slot of its level. Per-spell uses_per_day is treated as authoring
+                # note only and not rendered (see spell_slots widget for daily caps).
                 if isinstance(sp, dict):
                     name = sp.get("name", "?")
                     lvl = sp.get("level")
-                    uses = sp.get("uses_per_day")
                     notes = sp.get("notes", "")
                     ck = sp.get("charges_key") or name
                     line = f"  • {name}"
                     if lvl is not None:
                         line += f"  (L{lvl})"
-                    # Prefer current/max charges if tracked; else fall back to uses_per_day cap.
+                    # Charges still render IF a class has explicit non-slot charges
+                    # tracked (e.g., a future class using per-ability uses).
                     if ck.lower() in charge_map:
                         line += f"  [{charge_map[ck.lower()]} uses]"
-                    elif uses is not None:
-                        line += f"  [{uses}/day]"
                     if notes:
                         line += f" — {notes}"
                     lines.append(line)

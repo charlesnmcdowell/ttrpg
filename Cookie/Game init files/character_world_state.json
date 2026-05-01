@@ -277,14 +277,10 @@
     "temp_hp": 0,
     "ac": 22,
     "spell_slots": {
-      "1": [
-        4,
-        4
-      ],
-      "2": [
-        3,
-        3
-      ]
+      "_comment": "Dancer (Cookie's class) is spell-slot based — Cookie has bard-adjacent CHA-keyed casting via Dance Dance Revolution. Each spell costs one slot of its level. L1: Protector's Surge. L2: Healing Dance. L3 (4 shared slots): Stunning Kicks, Dance of Dispel, Planar Waltz, Dragon's Roar Dance — pick any combination across the day.",
+      "1": [4, 4],
+      "2": [3, 3],
+      "3": [4, 4]
     },
     "gold": 3,
     "silver": 8,
