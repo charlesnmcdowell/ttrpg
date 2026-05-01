@@ -300,12 +300,54 @@
         "Hunter's Breath forest night.wav",
         "Counting Shadows bandit forest 2.wav"
       ]
+    },
+    "Sunken Playhouse": {
+      "day": [
+        "Hunter's Breath zero dark thirty.wav",
+        "Fog Over Fernwood.wav"
+      ],
+      "night": [
+        "Hunter's Breath zero dark thirty.wav",
+        "Hunter's Breath forest night.wav"
+      ]
+    },
+    "marsh": {
+      "day": [
+        "Fog Over Fernwood.wav",
+        "Hunter's Breath zero dark thirty.wav"
+      ],
+      "night": [
+        "Hunter's Breath forest night.wav",
+        "Fog Over Fernwood.wav"
+      ]
+    },
+    "causeway": {
+      "day": [
+        "Fog Over Fernwood.wav",
+        "Hunter's Breath zero dark thirty.wav"
+      ],
+      "night": [
+        "Hunter's Breath forest night.wav",
+        "Fog Over Fernwood.wav"
+      ]
+    },
+    "Kettlebrook": {
+      "day": [
+        "Trouble By The Hearth morning inn.wav",
+        "Fog Over Fernwood.wav"
+      ],
+      "night": [
+        "Trouble By The Hearth evening inn.wav",
+        "Fog Over Fernwood inn.wav"
+      ]
     }
   },
   "contexts": {
     "combat": [
       "Smile in the Fire Kenji battle theme 1.wav",
-      "Smile in the Fire Kenji Battle theme 2.wav",
+      "Smile in the Fire Kenji Battle theme 2.wav"
+    ],
+    "boss_combat": [
       "Origin of the Last Name battle theme.wav"
     ],
     "inn_morning": [

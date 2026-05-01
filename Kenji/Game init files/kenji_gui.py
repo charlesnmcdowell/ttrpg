@@ -267,7 +267,13 @@ FONT_BODY    = ("Segoe UI", 11)
 FONT_SMALL   = ("Segoe UI", 10)
 FONT_MONO    = ("Consolas", 10)
 
-COMBAT_KEYWORDS = {"combat", "battle", "fight", "attack", "engaging", "ambush", "assault"}
+COMBAT_KEYWORDS = {"combat", "battle", "fight", "attack", "engaging", "ambush", "assault", "skirmish", "fray"}
+# Keep this list TIGHT — these only matter when combat is also detected.
+# Specific boss names (Lyssa, Broodmother) are intentional; generic words
+# ("phase", "climax") are too noisy and dropped. Use events_active[].boss=true
+# for the authoritative boss flag.
+BOSS_KEYWORDS   = {"boss", "boss fight", "final encounter", "showdown",
+                   "lyssa vane", "broodmother"}
 INN_KEYWORDS    = {"inn", "tavern", "hearth", "bar", "pub"}
 SHOP_KEYWORDS   = {"shop", "market", "merchant", "vendor", "store"}
 SMITH_KEYWORDS  = {"smith", "forge", "anvil", "blacksmith"}
@@ -331,6 +337,11 @@ class LiveDashboard(ctk.CTk):
             self._music_map_mtime = 0.0
 
     def _resolve_track(self, location=None, context=None, character=None):
+        """Pick a candidate track from the music_map for the given signal.
+        Resolution order: context → character → location.
+        Location matching: exact key first, then per-comma-segment fuzzy match
+        against any map key (so "Sunken Playhouse causeway, ~100 ft from
+        proscenium pillar" matches "Sunken Playhouse" by first segment)."""
         mm = self._music_map
         candidates = []
         if context and context in mm.get("contexts", {}):
@@ -339,12 +350,29 @@ class LiveDashboard(ctk.CTk):
             candidates = mm["character_themes"][character]
         elif location:
             is_night = self.engine and (self.engine.hour >= 21 or self.engine.hour < 6)
-            loc_data = mm.get("locations", {}).get(location)
+            mm_locations = mm.get("locations", {})
+            loc_data = mm_locations.get(location)
             if not loc_data:
-                for key in mm.get("locations", {}):
-                    if key.lower() in location.lower() or location.lower() in key.lower():
-                        loc_data = mm["locations"][key]
-                        break
+                # Split on commas/em-dashes to try sub-segments first.
+                # Cookie's location is e.g. "Sunken Playhouse causeway, ~100 ft from proscenium pillar, marsh approach".
+                # We want "Sunken Playhouse" (first segment) to match before any later substring search.
+                segments = [s.strip() for s in re.split(r"[,—–]", location) if s.strip()]
+                # Score each map key by how well it matches any segment.
+                # Prefer earlier-segment matches and longer-key matches (more specific).
+                best = None
+                best_score = -1
+                for key in mm_locations:
+                    key_lower = key.lower()
+                    for seg_idx, seg in enumerate(segments):
+                        seg_lower = seg.lower()
+                        if key_lower in seg_lower or seg_lower in key_lower:
+                            # Score: first-segment match beats later, longer key beats shorter.
+                            score = (10 if seg_idx == 0 else 5) + len(key_lower)
+                            if score > best_score:
+                                best_score = score
+                                best = key
+                if best:
+                    loc_data = mm_locations[best]
             if loc_data:
                 time_key = "night" if is_night and "night" in loc_data else "day"
                 candidates = loc_data.get(time_key, loc_data.get("day", []))
@@ -352,6 +380,38 @@ class LiveDashboard(ctk.CTk):
             return None
         full = self.config.music_dir / random.choice(candidates)
         return str(full) if full.exists() else None
+
+    # ------------------------------------------------------------------
+    def _is_in_combat(self) -> bool:
+        """True if engine indicates an active combat encounter — checks
+        events_active dict (engine-canonical) plus story_beat keyword fallback."""
+        e = self.engine
+        if not e:
+            return False
+        # Source 1: events_active engine field — combat encounters get tagged here.
+        for ev in (getattr(e, "events_active", None) or {}).values():
+            if not isinstance(ev, dict):
+                continue
+            if str(ev.get("type", "")).lower() in ("combat", "battle", "encounter"):
+                if str(ev.get("status", "")).lower() in ("active", "running", "in progress", "ongoing"):
+                    return True
+        # Source 2: story_beat keyword fallback.
+        beat = (getattr(e, "story_beat", "") or "").lower()
+        return any(kw in beat for kw in COMBAT_KEYWORDS)
+
+    def _is_boss_combat(self) -> bool:
+        """True if the active combat is a boss encounter — checks events_active
+        for an explicit `boss=true` flag, then falls back to story_beat keywords."""
+        e = self.engine
+        if not e:
+            return False
+        for ev in (getattr(e, "events_active", None) or {}).values():
+            if not isinstance(ev, dict):
+                continue
+            if ev.get("boss") is True or str(ev.get("kind", "")).lower() == "boss":
+                return True
+        beat = (getattr(e, "story_beat", "") or "").lower()
+        return any(kw in beat for kw in BOSS_KEYWORDS)
 
     def _play_music(self, track_path):
         if not HAS_WINSOUND or not track_path:
@@ -384,57 +444,81 @@ class LiveDashboard(ctk.CTk):
     # Reactive music — auto-selects track based on state changes
     # ------------------------------------------------------------------
     def _react_music(self):
+        """Reactive music selection. Priority:
+          1. Boss combat → boss_combat context (Origin of the Last Name)
+          2. Regular combat → combat context (Smile in the Fire)
+          3. Character theme (if scene is dominated by a tracked character)
+          4. Inn / shop / blacksmith context detection
+          5. Location-based ambient (random pick on every change)
+
+        Triggers on either location change OR story_beat change OR
+        events_active change. Same-input return-early prevents spam."""
         if not self._music_enabled or not self.engine:
             return
 
         e = self.engine
-        loc = e.location.lower()
+        loc = e.location or ""
+        loc_lower = loc.lower()
         beat = (e.story_beat or "").lower()
 
-        location_changed = (e.location != self._last_location)
-        beat_changed = (e.story_beat != self._last_story_beat)
-
-        self._last_location = e.location
+        # Build a combined fingerprint so any of (location, beat, active events)
+        # changing triggers a re-resolve. Without active-events in the fingerprint,
+        # combat starting/ending wouldn't trigger a music change.
+        events_fp = repr(sorted((getattr(e, "events_active", None) or {}).keys()))
+        cur_fp = (loc, e.story_beat, events_fp)
+        last_fp = getattr(self, "_last_music_fp", None)
+        self._last_music_fp = cur_fp
+        self._last_location = loc
         self._last_story_beat = e.story_beat
-
-        if not location_changed and not beat_changed:
+        if last_fp == cur_fp:
             return
 
-        if beat_changed and any(kw in beat for kw in COMBAT_KEYWORDS):
+        # ---- 1/2. Combat (boss takes priority) ----
+        # Boss music ONLY plays during active combat — a story_beat that mentions
+        # Lyssa in passing must not trigger boss music outside a fight.
+        if self._is_in_combat():
+            if self._is_boss_combat():
+                track = self._resolve_track(context="boss_combat")
+                if track:
+                    self._play_music(track)
+                    return
+                # Fallback to regular combat if boss_combat context missing/empty.
             track = self._resolve_track(context="combat")
             if track:
                 self._play_music(track)
                 return
 
+        # ---- 3. Character theme (if a tracked character dominates the beat) ----
         char_themes = self._music_map.get("character_themes", {})
-        if beat_changed:
-            for char_name in char_themes:
-                if char_name.lower() in beat:
-                    track = self._resolve_track(character=char_name)
-                    if track:
-                        self._play_music(track)
-                        return
+        for char_name in char_themes:
+            if char_name.lower() in beat:
+                track = self._resolve_track(character=char_name)
+                if track:
+                    self._play_music(track)
+                    return
 
-        if any(kw in loc for kw in INN_KEYWORDS):
+        # ---- 4. Inn / shop / blacksmith ----
+        if any(kw in loc_lower for kw in INN_KEYWORDS):
             ctx = "inn_evening" if e.hour >= 18 else "inn_morning"
             track = self._resolve_track(context=ctx)
             if track:
                 self._play_music(track)
                 return
 
-        if any(kw in loc for kw in SHOP_KEYWORDS):
+        if any(kw in loc_lower for kw in SHOP_KEYWORDS):
             track = self._resolve_track(context="shop")
             if track:
                 self._play_music(track)
                 return
 
-        if any(kw in loc for kw in SMITH_KEYWORDS):
+        if any(kw in loc_lower for kw in SMITH_KEYWORDS):
             track = self._resolve_track(context="blacksmith")
             if track:
                 self._play_music(track)
                 return
 
-        track = self._resolve_track(location=e.location)
+        # ---- 5. Location-based ambient (random pick from map) ----
+        track = self._resolve_track(location=loc)
         if track:
             self._play_music(track)
 
