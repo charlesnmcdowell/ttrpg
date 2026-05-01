@@ -1,29 +1,33 @@
 {
   "command": "gamemode",
   "character": "cookie",
-  "player_action": "we go to help the other team against the spiders. we wait until the spiders have ambushed the other team so we can ambush the spiders while engaged. I stay close to the bow girl buffing her before combat, then combat start.",
+  "player_action": "",
   "status": "OK",
+  "audit": false,
+  "call_number": 2,
   "errors": [],
   "warnings": [
-    "State file truncated — used fallback parser"
+    "State file truncated — used fallback parser",
+    "OVERDUE: Book Starling return shows (3 slots offered) (Day 6)",
+    "OVERDUE: Follow up on Torren's 3 patron inquiries (Day 6)"
   ],
-  "brief": "OK (1508 chars)",
+  "brief": "OK (4103 chars)",
   "state": {
     "character": "Cookie",
-    "level": 5,
-    "exp": 35523,
-    "exp_to_next": 0,
-    "day": 4,
-    "hour": 14,
-    "calendar": "Stillday, Day 4 1247 AR",
-    "location": "Burnt Amphitheatre, south of Varenholm — underchamber entrance",
-    "weather": "Clear, warm (overcast burned off)",
-    "hp": 35,
-    "max_hp": 35,
-    "ac": 18,
+    "level": 10,
+    "exp": 131768,
+    "exp_to_next": "<bound method StoryEngine.exp_to_next_level of <ttrpg_game_engine.StoryEngine object at 0x7c51f5d2b190>>",
+    "day": 9,
+    "hour": 9,
+    "calendar": "Crownday, Day 9 1247 AR",
+    "location": "Sunken Playhouse causeway, ~100 ft from proscenium pillar, marsh approach",
+    "weather": "Mid-morning sun, mist thinning, frogs gone silent",
+    "hp": 60,
+    "max_hp": 60,
+    "ac": 22,
     "gold": 3,
-    "silver": 0,
-    "copper": 95,
+    "silver": 8,
+    "copper": 90,
     "spell_slots": {
       "1": {
         "current": 4,
@@ -37,237 +41,47 @@
     "charges": {},
     "buffs": [],
     "meals": 1,
-    "hours_since_meal": 8,
-    "chapter": 4,
+    "hours_since_meal": 3,
+    "chapter": 9,
     "chapter_status": "COMPLETE",
-    "chapter_title": "The Bat Dance"
+    "chapter_title": "Daughters"
   },
-  "continuity_load": "Loaded cookie via truncation fallback",
-  "continuity_check": "============================================================\nCHECK ENGINE — FULL STATE AUDIT\n============================================================\n\nTIME: Day 4, hour 14.00\n  \\!\\! HUNGER PENALTY — 8.0 hrs since meal (max 4)\nHP: 35/35 — full\n  \\!\\! MEALS LOW: 1 remaining\n\nCAMPAIGN CLOCKS:\n  The Pallid March          | 20%   |  27d\n  The Hollowing             | 15%   |  42d\n  The Red Court             | 30%   |  70d\n  The Iron Horde            | 35%   |  16d\n  The Twin Wyrms            | 5%    |  95d\n\n============================================================\nFILES TO UPDATE AFTER CHECK (cookie):\n  - state file for cookie (hour, location, exp, statuses)\n  - character_tracker / state JSON (NPC locations, dispositions)\n  - dm_rules_tracking.md (active context section)\n  - AI_CONTEXT.md (where we left off, time, place)\n  - world_calendar_lore.md (if date/time changed)\n  - npc_name_bank.md (if new names introduced)\n============================================================",
+  "tracker_drift": {
+    "checked": false,
+    "reason": "skipped (next in 2 calls)"
+  },
+  "continuity_load": "skipped",
+  "continuity_check": "",
   "city_registry": {
-    "city": "Varenholm",
-    "locations": [
-      {
-        "name": "The Gilt Lens",
-        "type": "Enchantment shop",
-        "origin": "Book 1 Ch8",
-        "owner": "Maren Holt",
-        "status_25yr": "Retired ~15 yrs ago; grandson runs it (minor repairs/lenses)",
-        "lore": "THE enchanter of pre-Golden Age Varenholm. Apprenticed Isolde (Pale Lantern). Corner of Academy Way & Thornwell St."
-      },
-      {
-        "name": "The Silver Draft",
-        "type": "Inn (3-story, 12 rooms)",
-        "origin": "Book 1 Ch8",
-        "owner": "Kenji (purchased B2 Ch24); barkeep Hollis; managed by Pip",
-        "status_25yr": "Likely still standing — kingdom asset",
-        "lore": "Kenji's operational base. Bought for ~110 GP. Across from Mercer's Textile Building."
-      },
-      {
-        "name": "Mercer's Textile Building",
-        "type": "Overflow lodging",
-        "origin": "Book 2 Ch24",
-        "owner": "Kenji (purchased ~35 GP)",
-        "status_25yr": "Likely converted as planned — low-cost beds",
-        "lore": "Across from Silver Draft. Former textile shop, closed 6 months before purchase."
-      },
-      {
-        "name": "Varenholm Academy",
-        "type": "Magical institution",
-        "origin": "Book 1 Ch2",
-        "owner": "Chancellor Elara Ash; ArchMagus Kenji; Master Aldwin",
-        "status_25yr": "Expanded over 25 years — now includes bard school",
-        "lore": "Pale stone spire on a hill. Ley alcove in eastern training grounds. Library, theory rooms, sub-basements, requisition vault."
-      },
-      {
-        "name": "Hargrove's Forge",
-        "type": "Smithy",
-        "origin": "Book 1 Ch8",
-        "owner": "Hargrove (family)",
-        "status_25yr": "Likely still operating or passed down",
-        "lore": "Best mundane smith in Varenholm. Ironmonger's Row."
-      },
-      {
-        "name": "Vanguard Hall",
-        "type": "Adventurer's guild (Platinum tier)",
-        "origin": "Book 2 Ch6",
-        "owner": "Keldara organization",
-        "status_25yr": "Active — expanded during Golden Age",
-        "lore": "Issues Platinum adventurer credentials; near-diplomatic immunity in 46 cities."
-      },
-      {
-        "name": "Academy Requisition Vault",
-        "type": "Institutional armory",
-        "origin": "Book 1 Ch8",
-        "owner": "Academy staff",
-        "status_25yr": "Active",
-        "lore": "Opens to research residents on Day 2 of residency."
-      },
-      {
-        "name": "Southern Gate",
-        "type": "City gate",
-        "origin": "Book 1 Ch8",
-        "owner": "City guard",
-        "status_25yr": "Active",
-        "lore": "30-foot grey stone walls. Wolf's head over crossed keys emblem."
-      },
-      {
-        "name": "Market District",
-        "type": "Commercial district",
-        "origin": "Book 1 Ch9",
-        "owner": "—",
-        "status_25yr": "Expanded significantly during Golden Age",
-        "lore": "Lower-lying area; transitions uphill to Craftsmen's Quarter then Academy."
-      },
-      {
-        "name": "The Gilt Lily",
-        "type": "Inn/tavern",
-        "origin": "Cookie Ch1",
-        "owner": "Barkeep (stocky woman, cropped hair)",
-        "status_25yr": "NEW — post-Golden Age establishment",
-        "lore": "Where Cookie met Torren. Did not exist 25 years ago."
-      },
-      {
-        "name": "The Gilded Thread",
-        "type": "Tailor/clothing",
-        "origin": "Cookie Ch1",
-        "owner": "—",
-        "status_25yr": "NEW — post-Golden Age",
-        "lore": "Cookie's 4 luxury performance outfits ordered here."
-      },
-      {
-        "name": "The Starling",
-        "type": "Performance venue",
-        "origin": "Cookie Ch1",
-        "owner": "—",
-        "status_25yr": "NEW — post-Golden Age",
-        "lore": "Did not exist 25 years ago. Varenholm's arts scene grew with the Academy's expansion."
-      },
-      {
-        "name": "Maeven's",
-        "type": "Tailor/fitting shop",
-        "origin": "Cookie Ch2",
-        "owner": "Maeven",
-        "status_25yr": "NEW — Chandler's Row",
-        "lore": "Cookie's indigo dress fitted here."
-      },
-      {
-        "name": "Adventurer's Guild (branch)",
-        "type": "Quest board/registration",
-        "origin": "Cookie Ch2",
-        "owner": "Gruff (clerk)",
-        "status_25yr": "Possibly a branch of Vanguard Hall or separate guild",
-        "lore": "Cookie registered as support healer here."
-      },
-      {
-        "name": "Millward Chandlery",
-        "type": "Lodging (rented rooms)",
-        "origin": "Cookie Ch1",
-        "owner": "—",
-        "status_25yr": "NEW",
-        "lore": "Cookie and Fern's room. 3 SP/month."
-      },
-      {
-        "name": "The Pale Lantern",
-        "type": "Enchantment shop",
-        "origin": "Cookie Ch3",
-        "owner": "Isolde",
-        "status_25yr": "NEW — apprenticed under Maren Holt",
-        "lore": "Blue-tinted windows. Opened after Golden Age grew the Artisan's Quarter."
-      },
-      {
-        "name": "The Burnt Amphitheatre",
-        "type": "Ruin (pre-Kingdom performance venue)",
-        "origin": "Cookie Ch4",
-        "owner": "Abandoned",
-        "status_25yr": "Damaged by ley surge 80 years ago",
-        "lore": "South of Greenway Gate, 20 min walk. Half-circle of blackened stone benches carved into hillside. Cracked stage with frozen-lightning scorch marks. Underchambers beneath stage: 5 rooms (2 dressing chambers, storage vault, resonance chamber). Phase spider nest in resonance chamber (discovered Ch4). Used by Academy for fieldwork assessments."
-      }
-    ],
-    "location_count": 17
+    "checked": false,
+    "reason": "skipped (next in 2 calls)"
   },
-  "narrator_style": "Aleron Kong (Irreverent, funny, detailed mechanics woven into prose, pop culture nods, narrat)",
+  "narrator_style": "skipped",
   "deadlines": [
     {
-      "name": "Academy — Professor Ashworth, first class",
-      "day": 4,
-      "status": "DUE_TODAY"
-    },
-    {
-      "name": "Pick up outfits — Gilded Thread",
-      "day": 4,
-      "status": "DUE_TODAY"
-    },
-    {
-      "name": "Pick up earrings — The Pale Lantern (equip permanently)",
-      "day": 5,
+      "name": "Ashworth office meeting — Song 3 emotional projection",
+      "day": 10,
       "status": "TOMORROW"
     },
     {
-      "name": "The Starling — first major performance",
-      "day": 5,
-      "status": "TOMORROW"
+      "name": "Book Starling return shows (3 slots offered)",
+      "day": 6,
+      "status": "OVERDUE"
+    },
+    {
+      "name": "Follow up on Torren's 3 patron inquiries",
+      "day": 6,
+      "status": "OVERDUE"
     }
   ],
+  "goal_alerts": [],
   "pc_abilities": {
-    "ability_scores": {
-      "STR": {
-        "base": 12,
-        "racial": 0,
-        "final": 12,
-        "mod": 1
-      },
-      "DEX": {
-        "base": 16,
-        "racial": 2,
-        "final": 18,
-        "mod": 4
-      },
-      "CON": {
-        "base": 10,
-        "racial": 0,
-        "final": 10,
-        "mod": 0
-      },
-      "INT": {
-        "base": 10,
-        "racial": 0,
-        "final": 10,
-        "mod": 0
-      },
-      "WIS": {
-        "base": 7,
-        "racial": 0,
-        "final": 7,
-        "mod": -2
-      },
-      "CHA": {
-        "base": 17,
-        "racial": 1,
-        "final": 18,
-        "mod": 4
-      }
-    },
-    "saving_throws": {
-      "proficient": [
-        "DEX",
-        "CHA"
-      ],
-      "DEX_save": "+7 (prof +3, DEX +4)",
-      "CHA_save": "+7 (prof +3, CHA +4)",
-      "WIS_save": -2,
-      "_flaw_note": "WIS 7 — extremely vulnerable to charm, fear, compulsion, and all WIS-based saves. Cookie is impulsive, short-sighted, and has almost no mental defense. Alcohol of any kind quickly leads to blackout — she wakes up hearing stories of what she did."
-    },
-    "skills": {
-      "Performance": "+9 (prof +3, CHA +4, Heartstring +2)",
-      "Persuasion": "+9 (prof +3, CHA +4, Heartstring +2)",
-      "Acrobatics": "+7 (prof +3, DEX +4)",
-      "Deception": "+6 (CHA +4, Heartstring +2, no proficiency)",
-      "_note": "Heartstring +2 applies to all CHA checks when speaking or performing. Additional skill proficiencies TBD by player."
-    },
-    "ac_note": "Dancer Unarmored Defense: 10 + DEX(4) + CHA(4) = 18. Works like Monk Unarmored Defense but keys off Charisma instead of Wisdom — grace, rhythm, and stage presence translate to battlefield evasion. No armor. Adding armor disables this feature (use armor AC formula instead). STR 12 means she's not helpless physically — she can throw a punch, carry her own gear, and has a dancer's core strength.",
-    "character_flaw": "WIS 7 — Cookie is not stupid (INT 10, literate, quick learner) but she is deeply impulsive and short-sighted. She makes unwise decisions, doesn't think about consequences, jumps before she looks. She has almost no natural defense against mental effects, charms, or compulsions. Any alcohol leads rapidly to blackout — she has no tolerance and her low WIS means she can't self-regulate. She routinely wakes up hearing stories about what she did the night before.",
-    "halfling_luck": "Reroll natural 1s on attack rolls, ability checks, and saving throws. Use the new roll.",
+    "ability_scores": {},
+    "saving_throws": {},
+    "skills": {},
+    "ac_note": "",
+    "character_flaw": "",
+    "halfling_luck": "",
     "spells": [
       {
         "name": "Protector's Surge",
@@ -286,12 +100,81 @@
         "school": "Evocation (Ember-enhanced)",
         "casting_time": "1 action (3-round performance)",
         "range": "30 ft AOE",
-        "duration": "3 rounds (concentration)",
-        "description": "Cookie performs a gossip song praising nature and love, based on one of Ignis's famous 'Four Seasons' series. Requires dancing for full 3 rounds with concentration.",
+        "duration": "3 rounds (concentration — CHA-based via Dance Dance Revolution)",
+        "uses_per_day": 4,
+        "uses_scaling": "half character level, rounded down",
+        "description": "Cookie performs a gossip song praising nature and love, based on one of Ignis's famous 'Four Seasons' series. Requires Performance roll to initiate — if fail, Cookie falls prone and the spell fails.",
         "effect_during": "25% max HP heal per round to all allies within 30 ft for duration of performance.",
         "effect_on_completion": "100% max HP heal to all allies within 30 ft. All healed allies gain Regeneration buff: 10% max HP per round for 1 hour.",
-        "failure": "If concentration is broken before round 3 completes, only the per-round 25% healing applies. No completion heal or regen buff.",
-        "limitation": "Requires dancing (triggers Dance Inspiration d12 on performance checks). Cookie cannot attack or move more than 5 ft per round while channeling."
+        "failure_initiation": "Performance roll fail = Cookie falls prone, spell does not begin.",
+        "failure_concentration": "If concentration is broken before round 3 completes, only the per-round 25% healing applies. No completion heal or regen buff.",
+        "limitation": "Requires dancing (triggers Dance Inspiration d12 on performance checks). Cookie cannot attack or move more than 5 ft per round while channeling.",
+        "ember_enhanced": "10× healing values when Ember is active. Disabled if Ember nullified."
+      },
+      {
+        "name": "Stunning Kicks",
+        "level": 3,
+        "school": "Conjuration/Combat",
+        "casting_time": "1 action",
+        "range": "60 ft (teleport to each enemy, return to original position)",
+        "duration": "Instant (stun lasts 2 rounds guaranteed, STR/CON save to escape starting round 3)",
+        "uses_per_day": 4,
+        "uses_scaling": "half character level, rounded down",
+        "description": "Cookie teleports to each enemy within 60 ft and attempts a kick before returning to her original position. Each kick requires a DEX-based attack roll (d20 + DEX mod + prof). On hit: target is stunned for 2 rounds (no save), must make STR or CON save to escape starting on round 3.",
+        "attack_roll": "d20 + DEX mod + prof per target",
+        "on_hit": "1d6 bludgeoning + stun 2 rounds (guaranteed), STR/CON save to escape round 3+",
+        "ember_enhanced": "Disabled if Ember nullified (teleport component requires Ember)."
+      },
+      {
+        "name": "Dance of Dispel",
+        "level": 3,
+        "school": "Abjuration (dance)",
+        "casting_time": "1 action (2-round performance)",
+        "range": "120 ft AOE",
+        "duration": "2 rounds (concentration — CHA-based via Dance Dance Revolution)",
+        "uses_per_day": 4,
+        "uses_scaling": "half character level, rounded down",
+        "description": "Requires Performance roll to initiate — if fail, Cookie falls prone. Cookie dances for 2 rounds with concentration. On successful completion: clears ALL buffs and Ember effects on the battlefield that do not originate from Cookie, within 120 ft. Only takes effect after successfully maintaining concentration for full 2 rounds.",
+        "failure_initiation": "Performance roll fail = Cookie falls prone, spell does not begin.",
+        "failure_concentration": "If concentration breaks before round 2, no effect.",
+        "ember_enhanced": "Disabled if Ember nullified."
+      },
+      {
+        "name": "Planar Waltz",
+        "level": 3,
+        "school": "Conjuration/Necromancy (dance)",
+        "casting_time": "1 action (2-round performance)",
+        "range": "60 ft AOE",
+        "duration": "2 rounds casting, buff/debuff lasts until end of combat",
+        "concentration": "2 rounds (CHA-based via Dance Dance Revolution)",
+        "uses_per_day": 4,
+        "uses_scaling": "half character level, rounded down",
+        "description": "Requires Performance roll to initiate — if fail, Cookie falls prone. Cookie dances for 2 rounds with concentration. On successful completion: all enemies are locked to the physical plane (cannot go ethereal/phase). All allies gain ability to go ethereal as an extra action and deal +5 spirit damage (+50 if Ember active). Any undead, spirit, demon, or extradimensional enemy that dies during this dance suffers true death (cannot be resurrected/reformed). Effects persist until end of combat.",
+        "failure_initiation": "Performance roll fail = Cookie falls prone, spell does not begin.",
+        "failure_concentration": "If concentration breaks before round 2, no effect.",
+        "ember_enhanced": "Spirit damage increases from +5 to +50 when Ember active. Disabled if Ember nullified."
+      },
+      {
+        "name": "Dragon's Roar Dance",
+        "level": 3,
+        "school": "Evocation (dance)",
+        "casting_time": "1 action (2-round performance)",
+        "range": "60 ft AOE (allies)",
+        "duration": "2 rounds casting, buff lasts until end of combat",
+        "concentration": "2 rounds (CHA-based via Dance Dance Revolution)",
+        "uses_per_day": 4,
+        "uses_scaling": "half character level, rounded down",
+        "description": "Requires Performance roll to initiate — if fail, Cookie falls prone. Cookie picks one element from a colored dragon: fire, acid, ice, water, or lightning. She dances for 2 rounds channeling that dragon. On successful completion: all allies gain +10 damage of chosen element type (+100 if Ember active) until end of combat. Only takes effect after successfully maintaining concentration for full 2 rounds.",
+        "element_choices": [
+          "fire",
+          "acid",
+          "ice",
+          "water",
+          "lightning"
+        ],
+        "failure_initiation": "Performance roll fail = Cookie falls prone, spell does not begin.",
+        "failure_concentration": "If concentration breaks before round 2, no effect.",
+        "ember_enhanced": "Elemental damage buff increases from +10 to +100 when Ember active. Disabled if Ember nullified."
       }
     ],
     "class_features": [
@@ -312,9 +195,51 @@
           "attack": "1 kick per round. DEX-based (d20 + DEX mod + prof to hit). 1d6 bludgeoning damage. Always causes PRONE on hit.",
           "start_of_turn": "Performance roll (d20 + d12 + mod, since dancing). DC 12. SUCCESS: all allies who can see Cookie gain 1 free attack this round. FAIL: Cookie falls prone and loses her turn.",
           "end_of_turn": "Performance roll (d20 + d12 + mod, since dancing). DC 12. SUCCESS: Cookie gains 75% dodge chance on all enemy attacks until her next turn. FAIL: Cookie falls prone.",
-          "ember_prone_effect": "ONLY when Ember is active. If Cookie is prone and enemies are humanoid: female enemies gain Ridicule bonus (mock instead of finishing — skip their kill action to taunt), male enemies gain Lust bonus (attempt to mate immediately — must make STR save vs Cookie's spell DC or spend their turn grappling instead of attacking). This does NOT work on non-humanoids, undead, or constructs.",
-          "design_note": "Two performance rolls per turn makes Cookie the most swingy combatant possible. On good rolls she's a force multiplier. On bad rolls she's on the ground. The Ember prone effect turns her vulnerability into a different kind of weapon — enemies who should kill her literally can't because of what she is."
+          "design_note": "Two performance rolls per turn makes Cookie the most swingy combatant possible. On good rolls she's a force multiplier. On bad rolls she's on the ground. Prone triggers the class-wide Ember Last Stand effect (see class_rule: Ember Last Stand)."
         }
+      },
+      {
+        "name": "Dancer's Punishment",
+        "type": "class_rule",
+        "description": "The Dancer class punishes failed performances. Any time Cookie fails a Performance check — whether in combat, casting, social, or any other context — she falls prone. This is a core class-wide penalty, not tied to any specific ability.",
+        "mechanical_effect": "Failed Performance check (any context) = Cookie falls prone immediately. This applies universally: Tai Chi combat rolls, spell initiation rolls, social performance rolls, etc.",
+        "level_gained": 1
+      },
+      {
+        "name": "Action Exclusivity: Tai Chi vs Dance Spells",
+        "type": "class_rule",
+        "description": "Dancer's Tai Chi and dance spells (Healing Dance, Dance of Dispel, Planar Waltz, Dragon's Roar Dance) are separate actions that cannot be performed simultaneously. Cookie must choose one or the other on her turn — she cannot kick and cast a dance spell in the same action.",
+        "mechanical_effect": "Tai Chi and dance spells are mutually exclusive. Cookie may use Tai Chi OR a dance spell on a given turn, never both. Switching between them requires ending one before starting the other (e.g., stopping Tai Chi to begin a multi-round dance spell, or waiting for a dance spell to complete before resuming Tai Chi).",
+        "level_gained": 2
+      },
+      {
+        "name": "Ember Last Stand",
+        "type": "class_rule",
+        "description": "The Ember's primal survival mechanic. Whenever Cookie is prone or paralyzed — regardless of how she got there (failed Performance, enemy attack, spell, trap, anything) — the Ember radiates outward and hijacks humanoid enemies' instincts. Female enemies mock her instead of finishing her. Male enemies attempt to mate with her instead of killing her. On a primal level, the Ember decides humiliation or impregnation is better than death. This is a last-ditch save, not a power fantasy — Cookie is genuinely vulnerable and the outcomes are degrading, but she survives.",
+        "mechanical_effect": "TRIGGER: Cookie is prone or paralyzed, Ember is active (not nullified), enemies are humanoid. FEMALE ENEMIES: gain Ridicule bonus — skip their kill action to mock/taunt Cookie instead of finishing her. MALE ENEMIES: gain Lust bonus — must make STR save vs Cookie's spell DC or spend their turn attempting to grapple/mate instead of attacking. On failed save, the male succeeds in grappling and Cookie must escape or be rescued. LIMITATIONS: Does NOT work on non-humanoids, undead, constructs, or any creature immune to charm/mental effects. Disabled entirely if Ember is nullified.",
+        "design_note": "This is the Ember's last-ditch biological defense. It turns Cookie's vulnerability into a survival tool by exploiting humanoid instincts. The consequences are real and degrading — she's either humiliated or assaulted — but she's alive. Better off shamed than dead.",
+        "level_gained": 1
+      },
+      {
+        "name": "The Great User",
+        "type": "perk",
+        "description": "Bifurcates every Heartstring-touched humanoid by gender x disposition. The dominant social-mechanics layer from L9 onward.",
+        "mechanical_effect": "FEMALE humanoid + felt Heartstring + disposition <= neutral: antagonistic. Challenges Cookie to duels, betrays in combat, actively tries to steal her friends and male admirers. MALE humanoid + disposition >= neutral toward Cookie: protective. Asks what she needs and buys it. In combat, gains the option to intercept any attack aimed at Cookie — counts as an automatic critical hit on the intercepting NPC. DM must check this every scene that involves Heartstring-touched NPCs.",
+        "level_gained": 9
+      },
+      {
+        "name": "Fans Out of Control",
+        "type": "ember_enhancement",
+        "description": "Ember enhancement on top of The Great User. Active only while Ember is available.",
+        "mechanical_effect": "MALE humanoid + felt Heartstring + disposition < neutral: stalker. Attempts kidnap or sleep-time impregnation. FEMALE + felt Heartstring: assassins, show up to kill her. MALE + disposition >= neutral + felt Heartstring: secret guard network — quietly watches her location, pops up to fight when she is ambushed. EFFECT: Cookie rolls for ambush even in safe locations during sleep, but always has at least one nearby protector who arrives to help fight. Disabled if Ember is nullified.",
+        "level_gained": 9
+      },
+      {
+        "name": "Low-Wisdom Loss-of-Control Quirk",
+        "type": "quirk",
+        "description": "Cookie's WIS 7 turns alcohol and drug interactions into real risk events, not flavor.",
+        "mechanical_effect": "When alcohol or drugs are offered, Cookie must make a WIS save (DC scales with potency, baseline DC 12 for tavern alcohol) to refuse. On failed save the player loses control of Cookie for the duration. If Cookie is drugged or blacked out from alcohol, an attempt scene fires: female aggressor = assassination attempt, male aggressor = impregnation attempt. The Great User intervention: any nearby Heartstring-touched friendly male humanoid can attempt to thwart. If thwart fails, Cookie is treated as prone and Ember Last Stand triggers (female mocks, male must STR save vs spell DC to be stopped). DM MUST roll the WIS save when drinks/drugs are offered, not narrate around it.",
+        "level_gained": 9
       }
     ],
     "ember_passive": {
@@ -339,164 +264,6 @@
     "ember_theme_desc": "Cookie's Ember shaped itself around her lifelong love of dance and music — the way she hums while scrubbing floors, the way her body moves to rhythms only she can hear, the way she's always wanted to make people FEEL something. The Ember amplifies voice, sound, emotional projection, and performance magic. It is who she was always going to be, just... more."
   },
   "scene_npcs": [
-    {
-      "name": "Daisy",
-      "role": "mother",
-      "alignment": "NG",
-      "location": "home_base",
-      "want": "Wants Cookie safe, close, and away from anything that draws attention. Terrified of what Cookie is without understanding it.",
-      "voice_hook": "Talks in clipped sentences when angry, long rambling ones when worried. Calls Cookie 'little bean' when she forgets to be mad.",
-      "combat_abilities": [],
-      "source": "main_cast"
-    },
-    {
-      "name": "Tomas Wren",
-      "role": "mentor",
-      "alignment": "LN",
-      "location": "home_base",
-      "want": "Wants his inn to stay profitable and his employees to stop causing drama. Secretly proud of Cookie and slips her performance tips when Daisy isn't looking.",
-      "voice_hook": "Dry, understated. 'That's nice, dear. Now mop the landing.' But his eyes crinkle when Cookie dances.",
-      "combat_abilities": [],
-      "source": "main_cast"
-    },
-    {
-      "name": "Fern",
-      "role": "ally / roommate",
-      "alignment": "CG",
-      "location": "Millward Chandlery, Varenholm (sharing room with Cookie)",
-      "want": "Wants adventure. Wants to be Cookie's best friend forever. Wants to not be boring. Will do reckless things for fun.",
-      "voice_hook": "Talks too fast, laughs too loud, asks questions she shouldn't. 'Wait wait wait — you're telling me that guy just GAVE you flowers? For dancing? Can you teach me that?'",
-      "combat_abilities": [],
-      "source": "main_cast"
-    },
-    {
-      "name": "Professor Cadence Ashworth",
-      "role": "mentor",
-      "alignment": "LG",
-      "location": "Varenholm Academy",
-      "want": "Wants to understand Cookie's abilities. Has never seen a student produce visible magic through dance alone without formal training. Suspects Cookie is 'touched by something' but doesn't know what.",
-      "voice_hook": "Measured, precise. Every word chosen carefully. 'Again. Slower. Watch where the light starts — it's not in your hands, it's in your spine. Do you feel that?'",
-      "combat_abilities": [],
-      "source": "main_cast"
-    },
-    {
-      "name": "Lyssa Vane",
-      "role": "antagonist",
-      "alignment": "NE",
-      "location": "adventure_site",
-      "want": "Total control of heartland entertainment. No one shines brighter than her. She worked for everything she has and she'll burn anyone who threatens it — especially some barefoot halfling from Kettlebrook who glows when she dances.",
-      "voice_hook": "Silky, warm, complimentary — until the mask drops. 'You're so talented, darling. It would be such a shame if something happened to that voice.' Switches from charm to venom mid-sentence.",
-      "combat_abilities": [],
-      "source": "main_cast"
-    },
-    {
-      "name": "Torren",
-      "role": "Textile merchant — moves cloth, linens, silks, dyes between Varenholm and coast. Recently divorced, wife in Ashenmere. Staying at Gilt Lily suite (Room 4). Tips well.",
-      "alignment": "TN",
-      "tier": "extra",
-      "relationship": "Completely smitten. Failed WIS save by 9 (Ch1), seduced in dressing room (Ch2). Now acting as Cookie's promoter — reaching out to wealthy patrons for her Starling show. Hired Fern to run a beauty supply department at 10x salary after Cookie leveraged Pretty Privilege. Will do anything Cookie asks.",
-      "combat_abilities": [],
-      "source": "extra_npcs"
-    },
-    {
-      "name": "Gilt Lily barkeep",
-      "role": "Stocky woman with cropped hair. Runs the Gilt Lily bar. Gave Cookie intel on Torren unprompted ('Room 4, tips well, not the worst').",
-      "alignment": "TN",
-      "tier": "extra",
-      "relationship": "",
-      "combat_abilities": [],
-      "source": "extra_npcs"
-    },
-    {
-      "name": "Maeven",
-      "role": "Tailor on Chandler's Row. Owns a fitting shop. Did Cookie's indigo dress fitting. Professional, steady hands.",
-      "alignment": "TN",
-      "tier": "extra",
-      "relationship": "Business contact — fitted Cookie's indigo dress. Witnessed Cookie's dressing room exit.",
-      "combat_abilities": [],
-      "source": "extra_npcs"
-    },
-    {
-      "name": "Gruff",
-      "role": "Adventurer's Guild clerk. Handles quest postings and party registration.",
-      "alignment": "LN",
-      "tier": "extra",
-      "relationship": "",
-      "combat_abilities": [],
-      "source": "extra_npcs"
-    },
-    {
-      "name": "Dorith",
-      "role": "Adventurer — healer. Was in Cookie's bandit camp raid party. Originally named Wynn, renamed to avoid collision with Kenji Book 4 herbalist.",
-      "alignment": "NG",
-      "tier": "extra",
-      "relationship": "",
-      "combat_abilities": [],
-      "source": "extra_npcs"
-    },
-    {
-      "name": "Dalla",
-      "role": "Adventurer — fighter. Bandit camp raid party member.",
-      "alignment": "TN",
-      "tier": "extra",
-      "relationship": "",
-      "combat_abilities": [],
-      "source": "extra_npcs"
-    },
-    {
-      "name": "Silas",
-      "role": "Adventurer — rogue. Bandit camp raid party member.",
-      "alignment": "CN",
-      "tier": "extra",
-      "relationship": "",
-      "combat_abilities": [],
-      "source": "extra_npcs"
-    },
-    {
-      "name": "Marta",
-      "role": "Adventurer — ranger. Bandit camp raid party member.",
-      "alignment": "NG",
-      "tier": "extra",
-      "relationship": "",
-      "combat_abilities": [],
-      "source": "extra_npcs"
-    },
-    {
-      "name": "Garron",
-      "role": "Adventurer — crossbowman. Bandit camp raid party member. Originally named Fen, renamed to avoid confusion with Fern (main cast).",
-      "alignment": "TN",
-      "tier": "extra",
-      "relationship": "",
-      "combat_abilities": [],
-      "source": "extra_npcs"
-    },
-    {
-      "name": "Alderman Edric Tosse",
-      "role": "City official — alderman. Posted the Missing Survey Stones quest at the Adventurer's Guild. Male humanoid (Pretty Privilege applied — 6 SP bounty became 6 GP).",
-      "alignment": "LN",
-      "tier": "extra",
-      "relationship": "",
-      "combat_abilities": [],
-      "source": "extra_npcs"
-    },
-    {
-      "name": "Castor",
-      "role": "Turnip farmer outside Varenholm. Stole 3 survey stones for a boundary wall after losing land to a resurvey. Caught by Cookie's party. Fined 2 GP + 30 days labor.",
-      "alignment": "TN",
-      "tier": "extra",
-      "relationship": "",
-      "combat_abilities": [],
-      "source": "extra_npcs"
-    },
-    {
-      "name": "Isolde",
-      "role": "Enchantress — owns The Pale Lantern in the Artisan's Quarter, Varenholm. Apprenticed under Maren Holt (The Gilt Lens). Female NPC — immune to Pretty Privilege. Aware of Heartstring aura but not swayed (enchantment experience). Struck advertising deal with Cookie: custom +2 CHA earrings (85 GP value) for 4 GP, in exchange for Cookie wearing them at The Starling show.",
-      "alignment": "TN",
-      "tier": "extra",
-      "relationship": "",
-      "combat_abilities": [],
-      "source": "extra_npcs"
-    },
     {
       "name": "Amaris",
       "role": "Cross-campaign PC (Amaris)",
@@ -524,80 +291,11 @@
   ],
   "known_enemies": {
     "known_enemy_buffs": [],
-    "antagonist_name": "Lyssa Vane",
-    "antagonist_alignment": "NE",
+    "antagonist_name": "",
+    "antagonist_alignment": "",
     "antagonist_want": "",
     "antagonist_abilities": [],
     "antagonist_weakness": ""
-  },
-  "combat": {
-    "active": true,
-    "round": 1,
-    "current_turn": "Phase Spider 3",
-    "initiative_order": [
-      [
-        20,
-        "Phase Spider 3"
-      ],
-      [
-        17,
-        "Phase Spider 1"
-      ],
-      [
-        16,
-        "Cookie"
-      ],
-      [
-        12,
-        "Amaris"
-      ],
-      [
-        5,
-        "Phase Spider 2"
-      ],
-      [
-        4,
-        "Kenji"
-      ]
-    ],
-    "fighters": {
-      "Cookie": {
-        "hp": 35,
-        "max_hp": 35,
-        "ac": 18,
-        "alive": true
-      },
-      "Amaris": {
-        "hp": 28,
-        "max_hp": 28,
-        "ac": 12,
-        "alive": true
-      },
-      "Kenji": {
-        "hp": 1886,
-        "max_hp": 6288,
-        "ac": 19,
-        "alive": true
-      },
-      "Phase Spider 1": {
-        "hp": 32,
-        "max_hp": 32,
-        "ac": 13,
-        "alive": true
-      },
-      "Phase Spider 2": {
-        "hp": 32,
-        "max_hp": 32,
-        "ac": 13,
-        "alive": true
-      },
-      "Phase Spider 3": {
-        "hp": 32,
-        "max_hp": 32,
-        "ac": 13,
-        "alive": true
-      }
-    }
   },
   "cardinal_rules": "PRINTED"
 }

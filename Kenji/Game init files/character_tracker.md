@@ -1,7 +1,7 @@
 # Character Tracker — TTRPG Universe
 
 **Active PC:** Cookie — Halfling Ankuspawn Dancer (**Level 10 — STARTER CAP REACHED**)
-**Current In-Game Date:** Rootday, 8 Bright Turn 1247 AR — **Day 8 dawn, ~05:30** (long rest complete)
+**Current In-Game Date:** Forgeday, 9 Bright Turn 1247 AR — **Day 9 mid-morning, ~09:30** (Sunken Playhouse causeway, post-Dispel)
 **Campaign:** Cookie — starter campaign (levels 1–10) — **mechanical progression cap reached**, Ember frozen at current strength pending story-trigger unlock
 **Chapter:** 9 COMPLETE "Daughters" | Chapter 10 pending (Sunken Playhouse causeway, music encounter cliffhanger)
 **EXP:** 131,768 / 130,000 (cap +1,768)

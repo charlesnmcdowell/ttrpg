@@ -1408,6 +1408,10 @@ def check_deadlines(eng, full_data: dict = None) -> list:
     alerts = []
     d = eng.day
     for ev in eng.events:
+        # Skip events already marked DONE / COMPLETE / RESOLVED
+        ev_status = str(ev.get("status", "")).upper()
+        if ev_status in ("DONE", "COMPLETE", "RESOLVED", "CANCELLED", "SKIPPED"):
+            continue
         ed = ev.get("day", 999); en = ev.get("name", "unnamed")
         if ed < d:   alerts.append({"name": en, "day": ed, "status": "OVERDUE"})
         elif ed == d: alerts.append({"name": en, "day": ed, "status": "DUE_TODAY"})
@@ -2142,7 +2146,7 @@ def gamemode(character: str = "kenji", player_action: str = "",
     slots_str = " | ".join(_slot_str(k, v) for k, v in sorted(eng.spell_slots.items())) if eng.spell_slots else "none"
     charges_str = _build_charge_str(eng).replace("**", "") if eng.charges else "none"
     exp_total = getattr(eng, "exp", 0)
-    exp_next = exp_total + getattr(eng, "exp_to_next_level", 0)
+    _etn = getattr(eng, "exp_to_next_level", None); _etn_value = int(_etn()) if callable(_etn) else (int(_etn) if isinstance(_etn, (int,float)) else 0); exp_next = exp_total + _etn_value
 
     print(f"  {eng.char_name} — Day {eng.day} | {time_str} | {eng.location}")
     print(f"  HP {eng.hp}/{eng.max_hp} | AC {getattr(eng, 'ac', '?')} | Level {eng.level} ({exp_total:,}/{exp_next:,})")

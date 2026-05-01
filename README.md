@@ -2,6 +2,42 @@
 
 This folder holds **one shared fantasy realm** played across multiple characters and campaigns. Stories can stay in separate regions; **canon accumulates** so later heroes inherit earlier arcs as lore (rumor, history, geography—not always direct crossover).
 
+## Quick start
+
+**Want to play right now?** See `QUICKSTART.md` — 5-minute first-run guide.
+
+**Already have Python 3.10+ installed?**
+```bash
+git clone https://github.com/charlesnmcdowell/ttrpg.git
+cd ttrpg/Kenji/Game\ init\ files
+python gamemode.py --character cookie         # boot an existing campaign
+```
+
+**Want a Windows .exe?** Run `Kenji/Game init files/build_exe.bat` on Windows. Output: `Kenji/Game init files/dist/Kenji DM Tool.exe`.
+
+**Want to make a new character?**
+```bash
+cd Kenji/Game\ init\ files
+python generate_starter_campaign.py   # interactive wizard, builds a Levels 1-10 campaign
+```
+
+## Requirements
+
+- **Python 3.10+** for the engine (stdlib only, no packages required)
+- **`pip install customtkinter`** if you want the optional GUI dashboard
+- **`pip install pyinstaller customtkinter`** if you want to build a standalone Windows .exe
+
+## Three execution modes
+
+| Mode | Command | Use case |
+|---|---|---|
+| **CLI** | `python gamemode.py --character <name>` | Boot the campaign, run dice rolls, advance state. Works on any OS with Python 3.10+. |
+| **GUI** | `python kenji_gui.py --campaign "<path>"` | Live state dashboard with optional reactive music. Requires `customtkinter`. |
+| **.exe** | `Kenji DM Tool.exe` | Standalone Windows app (no Python install required on target machine). Built via `build_exe.bat`. |
+
+The CLI and GUI both read the same `character_world_state.json` files. The .exe wraps the GUI.
+
+
 ## Universe docs (read order)
 
 | Document | Purpose |
@@ -27,6 +63,31 @@ Shared tooling (GUI, `ttrpg_game_engine.py`, music maps) is documented in **`Ken
 **Git / backup:** Optional **`.gitignore`** ignores generated `AI_CONTEXT.md` and `*.tmp`; uncomment lines there if you want to exclude live `*_state.json` from version control (OneDrive may still sync them).
 
 ## Starting a new character
+
+**Recommended (uses the wizard):**
+
+```bash
+cd Kenji/Game\ init\ files
+python generate_starter_campaign.py
+```
+
+The interactive wizard prompts for name, race, class, background, personal goal, and region. It reads `templates/new_character_campaign.template.json` + `realm_lore_registry.json` + `shared_world_continuity.md`, generates the Ember inheritance, scaffolds a full Levels 1–10 campaign, creates `<CharName>/Game init files/character_world_state.json`, and registers 3 new locations into the shared registry.
+
+Or fully scripted via CLI:
+
+```bash
+python generate_starter_campaign.py \
+    --name "Kael" \
+    --race "Half-Orc" \
+    --class "Barbarian" \
+    --background "Orphan raised by Sunderplains orc mercenaries" \
+    --goal "Build a fighting school in the frontier" \
+    --region frontier
+```
+
+After generation, run `python gamemode.py --character kael` to start play.
+
+**Manual (if you want fine-grained control):**
 
 1. Read **`universe_campaign_framework.md`**.
 2. Copy **`templates/new_character_campaign.template.json`** into your new folder as `character_world_state.json` and fill it (background, **new region**, main cast, quest spine, dialogue).

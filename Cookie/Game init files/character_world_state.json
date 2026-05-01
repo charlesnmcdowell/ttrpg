@@ -365,7 +365,8 @@
         "day": 8,
         "hour": 8,
         "type": "deadline",
-        "priority": "MEDIUM"
+        "priority": "MEDIUM",
+        "status": "DONE"
       },
       {
         "name": "Book Starling return shows (3 slots offered)",
@@ -400,7 +401,8 @@
         "day": 7,
         "hour": 16,
         "type": "encounter",
-        "priority": "HIGH"
+        "priority": "HIGH",
+        "status": "DONE"
       }
     ],
     "quests": [
@@ -523,8 +525,9 @@
         "opened": "Day 7",
         "due_day": 7,
         "due_time": "16:15",
-        "status": "active",
-        "summary": "The Wardbreakers (Senna Dawnmere, Finch, Varn, Thessaly) — Diamond-tier Vanguard Hall team — entered the guild while Cookie was at the counter. Senna felt Heartstring hit and recognized the Ember signature from 25 years around the Dragon Emperor. Thessaly's crystal focus reacted to Cookie's arcane signature. Varn showing Combat Magnetism pull. Conversation pending — Senna asked Gruff 'Who's the halfling.'",
+        "status": "complete",
+        "completed": "Day 8 11:15",
+        "summary": "Wardbreakers contracted at Senna's Bronze rate (12 GP/3 days) for the Sunken Playhouse fieldwork. Paternity question deferred to trip — Senna's term locked: Cookie answers before return to Varenholm. Encounter goal closed, paternity sub-thread now lives under accelerated_graduation/sunken_playhouse_fieldwork.",
         "source": "gameplay"
       }
     ],
