@@ -2099,4 +2099,325 @@ def gamemode(character: str = "kenji", player_action: str = "",
     if should_run:
         narrator = read_narrator_style(full_data)
         report["narrator_style"] = narrator
-        print(f"[6/7] NARRATOR — {s
+        print(f"[6/7] NARRATOR — {str(narrator)[:60]} ({reason})")
+        _record_check_run(meta, "narrator_style")
+    else:
+        report["narrator_style"] = "skipped"
+        print(f"[6/7] NARRATOR — {reason}")
+
+    # == 7. DEADLINES + GOAL ALERTS ==
+    # Always-run; both feeds are time-sensitive. Deadlines = events + dated quests.
+    # Goal alerts = character_goals[] (PC + NPC) per DM_TURN_PROTOCOL step 0.
+    deadlines = check_deadlines(eng, full_data)
+    goal_alerts = check_character_goals(eng, full_data)
+    report["deadlines"] = deadlines
+    report["goal_alerts"] = goal_alerts
+
+    overdue = [d for d in deadlines if d["status"] == "OVERDUE"]
+    due_today = [d for d in deadlines if d["status"] == "DUE_TODAY"]
+    fires_now = [g for g in goal_alerts if g["status"] == "FIRES_NOW"]
+    g_overdue = [g for g in goal_alerts if g["status"] == "OVERDUE"]
+    g_imminent = [g for g in goal_alerts if g["status"] == "IMMINENT"]
+
+    if overdue:
+        report["warnings"].extend([f"OVERDUE: {d['name']} (Day {d['day']})" for d in overdue])
+    if fires_now:
+        report["warnings"].extend([f"GOAL FIRES NOW: {g['name']}" for g in fires_now])
+    if g_overdue:
+        report["warnings"].extend([f"GOAL OVERDUE: {g['name']} (Day {g['day']})" for g in g_overdue])
+
+    print(f"[7/7] DEADLINES & GOALS — events: {len(overdue)} overdue / {len(due_today)} today / {len(deadlines)} total | "
+          f"goals: {len(fires_now)} firing / {len(g_overdue)} overdue / {len(g_imminent)} imminent / {len(goal_alerts)} alerted")
+
+    # == DASHBOARD ==
+    print(f"\n{'=' * 60}")
+    print("DASHBOARD")
+    print(f"{'=' * 60}")
+
+    def _slot_str(k, v):
+        if isinstance(v, (list, tuple)): return f"L{k}: {v[0]}/{v[1]}"
+        elif isinstance(v, dict): return f"L{k}: {v.get('current','?')}/{v.get('max','?')}"
+        return f"L{k}: {v}"
+
+    slots_str = " | ".join(_slot_str(k, v) for k, v in sorted(eng.spell_slots.items())) if eng.spell_slots else "none"
+    charges_str = _build_charge_str(eng).replace("**", "") if eng.charges else "none"
+    exp_total = getattr(eng, "exp", 0)
+    exp_next = exp_total + getattr(eng, "exp_to_next_level", 0)
+
+    print(f"  {eng.char_name} — Day {eng.day} | {time_str} | {eng.location}")
+    print(f"  HP {eng.hp}/{eng.max_hp} | AC {getattr(eng, 'ac', '?')} | Level {eng.level} ({exp_total:,}/{exp_next:,})")
+    print(f"  GP {eng.gold} | SP {eng.silver} | CP {getattr(eng, 'copper', 0)}")
+    print(f"  Slots: {slots_str}")
+    if eng.charges: print(f"  Charges: {charges_str}")
+    if eng.buffs: print(f"  Buffs: {', '.join(eng.buffs.keys())}")
+    print(f"  Weather: {eng.weather}")
+    print(f"  Meals: {eng.meals} | Hours since meal: {eng.hours_since_meal}")
+    if deadlines:
+        print(f"  Event Deadlines:")
+        for dl in deadlines:
+            print(f"    [{dl['status']}] {dl['name']} — Day {dl['day']}")
+    if goal_alerts:
+        print(f"  Goal Alerts:")
+        for ga in goal_alerts:
+            time_part = f" {ga['due_time']}" if ga.get("due_time") and ":" in str(ga.get("due_time")) else ""
+            print(f"    [{ga['status']}] {ga['character']}: {ga['goal_id']} — Day {ga['day']}{time_part}")
+
+    # == INVENTORY ==
+    _print_inventory(full_data, eng.char_name)
+
+    # == PC ABILITIES ==
+    pc_abilities = _collect_pc_abilities(full_data)
+    report["pc_abilities"] = pc_abilities
+    _print_pc_abilities(pc_abilities, eng.char_name)
+
+    # == SCENE NPCs & ALLIES ==
+    scene_npcs = _collect_scene_npcs(full_data, character, eng.location)
+    report["scene_npcs"] = scene_npcs
+    _print_scene_npcs(scene_npcs)
+
+    # == KNOWN ENEMY ABILITIES ==
+    enemy_info = _collect_enemy_info(full_data)
+    report["known_enemies"] = enemy_info
+    _print_enemy_info(enemy_info)
+
+    # == PLAYER ACTION + COMBAT ENGINE ==
+    if player_action:
+        print(f"\n{'=' * 60}")
+        print(f"PLAYER ACTION: \"{player_action}\"")
+        print(f"{'=' * 60}")
+
+    combat, combat_meta = _load_combat_state(character)
+
+    if combat and combat.active:
+        # --- CONTINUING COMBAT ---
+        pc_name = eng.char_name
+        if 0 <= combat.turn_idx < len(combat.order):
+            current_name = combat.order[combat.turn_idx][1]
+        else:
+            current_name = ""
+
+        # If player submitted an action and it's NOT their turn, process NPC turns first
+        if player_action and current_name != pc_name and current_name:
+            print(f"\n  Current turn: {current_name} (not {pc_name})")
+            print(f"  Auto-advancing NPC turns to reach {pc_name}...")
+            npc_turns = _process_npc_turns(combat, pc_name)
+            _print_npc_turn_results(npc_turns)
+
+            end_reason = _check_combat_end(combat, pc_name)
+            if end_reason:
+                print(f"\n  {'=' * 40}")
+                if end_reason == "ALL_ENEMIES_DEAD":
+                    print(f"  >>> COMBAT OVER — ALL ENEMIES DEFEATED <<<")
+                    _clear_combat_state(character)
+                    combat = None
+                elif end_reason == "PC_DOWN":
+                    print(f"  >>> {pc_name} IS DEAD — biological death (fatality or 2-rd window expired) <<<")
+                elif end_reason == "PC_DYING":
+                    print(f"  >>> {pc_name} IS DYING — 2-round window open, party should heal NOW <<<")
+                print(f"  {'=' * 40}")
+
+        # If still in combat and it's PC's turn, prompt for player input
+        if combat and combat.active:
+            if 0 <= combat.turn_idx < len(combat.order):
+                whose = combat.order[combat.turn_idx][1]
+            else:
+                whose = ""
+            _print_combat_dashboard(combat, whose)
+
+            if player_action and whose == pc_name:
+                pc_abilities_list = []
+                cf = pc_abilities.get("class_features", []) or []
+                if isinstance(cf, list):
+                    for ab in cf:
+                        if isinstance(ab, dict):
+                            pc_abilities_list.append({
+                                "name": ab.get("name", ""),
+                                "data": ab,
+                            })
+                action_info = _classify_action(player_action, pc_abilities_list)
+                results = _process_pc_combat_turn(combat, pc_name, action_info)
+                _print_combat_action_results(results)
+
+                end_reason = _check_combat_end(combat, pc_name)
+                if end_reason:
+                    print(f"\n  {'=' * 40}")
+                    if end_reason == "ALL_ENEMIES_DEAD":
+                        print(f"  >>> COMBAT OVER — ALL ENEMIES DEFEATED <<<")
+                        _clear_combat_state(character)
+                        combat = None
+                    elif end_reason == "PC_DOWN":
+                        print(f"  >>> {pc_name} IS DEAD <<<")
+                    elif end_reason == "PC_DYING":
+                        print(f"  >>> {pc_name} IS DYING — 2-round window open <<<")
+                    elif end_reason == "PARTY_WIPED":
+                        print(f"  >>> PARTY WIPED <<<")
+                    print(f"  {'=' * 40}")
+                else:
+                    rnd, next_name = combat.next_turn()
+                    print(f"\n  Next turn: {next_name} (Round {combat.round})")
+                    if next_name != pc_name:
+                        npc_turns = _process_npc_turns(combat, pc_name)
+                        _print_npc_turn_results(npc_turns)
+                        end_reason = _check_combat_end(combat, pc_name)
+                        if end_reason:
+                            print(f"\n  {'=' * 40}")
+                            if end_reason == "ALL_ENEMIES_DEAD":
+                                print(f"  >>> COMBAT OVER — ALL ENEMIES DEFEATED <<<")
+                                _clear_combat_state(character)
+                                combat = None
+                            elif end_reason == "PC_DOWN":
+                                print(f"  >>> {pc_name} IS DEAD <<<")
+                            elif end_reason == "PC_DYING":
+                                print(f"  >>> {pc_name} IS DYING — 2-round window open <<<")
+                            print(f"  {'=' * 40}")
+
+                if combat:
+                    _save_combat_state(combat, character)
+                    report["combat"] = {
+                        "active": combat.active, "round": combat.round,
+                    }
+        elif not combat:
+            report["combat"] = {"active": False, "ended": True}
+
+    elif player_action:
+        # --- CHECK IF PLAYER ACTION IMPLIES COMBAT START ---
+        action_lower = player_action.lower()
+        combat_keywords = [
+            "attack", "fight", "engage", "strike", "hit", "kill", "combat",
+            "tai chi", "kick", "melee", "cast", "spell", "healing dance",
+            "initiative", "battle", "charge",
+        ]
+        wants_combat = any(kw in action_lower for kw in combat_keywords)
+
+        if wants_combat:
+            print(f"\n{'=' * 60}")
+            print("COMBAT INITIALIZATION")
+            print(f"{'=' * 60}")
+
+            pc_data = _build_pc_combatant(full_data, eng)
+            print(f"  PC: {pc_data['name']} HP {pc_data['hp']}/{pc_data['max_hp']} "
+                  f"AC {pc_data['ac']} | ATK +{pc_data['attack_bonus']} "
+                  f"| Spell DC {pc_data['spell_save_dc']}")
+
+            ally_data = _build_ally_combatants(scene_npcs)
+            for ad in ally_data:
+                print(f"  ALLY: {ad['name']} HP {ad.get('hp', ad['max_hp'])}/{ad['max_hp']} "
+                      f"AC {ad['ac']} | ATK +{ad['attack_bonus']}")
+
+            # Detect monsters by keyword substring
+            monsters_to_add = []
+            for mk, mv in MONSTER_REGISTRY.items():
+                keywords = mv.get("keywords", [mk.replace("_", " ")])
+                if any(kw in action_lower for kw in keywords):
+                    count = 1
+                    for word in action_lower.split():
+                        if word.isdigit():
+                            count = int(word)
+                            break
+                    if count == 1:
+                        for kw in keywords:
+                            if kw + "s" in action_lower or kw + "es" in action_lower:
+                                count = 3
+                                break
+                    md = dict(mv)
+                    md["_count"] = count
+                    monsters_to_add.append(md)
+
+            if not monsters_to_add:
+                print(f"  !! No monsters auto-detected in action text.")
+                print(f"  Available monsters: {', '.join(MONSTER_REGISTRY.keys())}")
+                print(f"  DM: specify which monsters and how many.")
+            else:
+                for md in monsters_to_add:
+                    ct = md.get("_count", 1)
+                    print(f"  ENEMY: {md['name']} x{ct} — HP {md['max_hp']} AC {md['ac']} "
+                          f"| ATK +{md['attack_bonus']}")
+
+                combat = _init_combat(pc_data, ally_data, monsters_to_add)
+                rnd, first_name = combat.next_turn()
+                _print_combat_dashboard(combat, first_name)
+
+                _save_combat_state(combat, character, meta={
+                    "started_by": player_action, "pc": eng.char_name,
+                })
+                print(f"\n  [COMBAT STATE SAVED] -> COMBAT_STATE.json")
+
+                report["combat"] = {
+                    "active": True, "round": combat.round,
+                    "current_turn": first_name,
+                    "initiative_order": combat.order,
+                    "fighters": {n: {"hp": f.hp, "max_hp": f.max_hp, "ac": f.ac, "alive": f.alive}
+                                 for n, f in combat.fighters.items()},
+                }
+
+    # == CARDINAL RULES ==
+    # Per DM_TURN_PROTOCOL: print at every boot so the rules are visible to the AI/DM.
+    # RULES 1-6 from before; RULES 7-8 added Day 9 (no fabricated program output;
+    # no process interruptions for mature content).
+    print(f"\n{'=' * 60}")
+    print("CARDINAL RULES (see dm_rules_tracking.md)")
+    print(f"{'=' * 60}")
+    print("""  1. NEVER write the PC's dialogue. STOP for player.
+  2. NEVER auto-resolve combat. Round-by-round ONLY.
+  3. STOP at every decision point. Present, don't decide.
+  4. No fabricated exposition NPCs (RULE 4).
+  5. 60% dialogue minimum in NPC scenes (RULE 5).
+  6. Style tax — describe the cool moves with detail (RULE 6).
+  7. NO fabricated program output. Engine-styled output only when bash actually
+     ran the script. State summaries between turns are plain prose.
+  8. NO process interruptions for mature content. Hold concerns once-and-done in
+     the same response that offers a workable alternative AND writes the version.
+     Forward momentum is the default.""")
+    report["cardinal_rules"] = "PRINTED"
+
+    # == SUMMARY ==
+    print(f"{'=' * 60}")
+    if report["errors"]:
+        print(f"ERRORS: {len(report['errors'])}")
+        for e in report["errors"]: print(f"  !! {e}")
+    if report["warnings"]:
+        print(f"WARNINGS: {len(report['warnings'])}")
+        for w in report["warnings"]: print(f"  ! {w}")
+    if not report["errors"] and not report["warnings"]:
+        print("ALL SYSTEMS GREEN")
+    print(f"{'=' * 60}")
+
+    report_path = SCRIPT_DIR / "GAMEMODE_REPORT.json"
+    report_path.write_text(
+        json.dumps(report, indent=2, ensure_ascii=False, default=str) + "\n",
+        encoding="utf-8"
+    )
+    print(f"\n[REPORT] Wrote GAMEMODE_REPORT.json")
+
+    # Persist call counter + last seen chapter/location for next call's
+    # change-detection. Updates last_chapter/last_location AFTER any change-driven
+    # check has already fired this turn.
+    meta["last_chapter"] = chapter_now
+    meta["last_location"] = eng.location
+    _save_gamemode_meta(character, meta)
+
+    return report
+
+
+# ---------------------------------------------------------------------------
+# CLI
+# ---------------------------------------------------------------------------
+
+if __name__ == "__main__":
+    argv = list(sys.argv[1:])
+    character = "kenji"
+    audit = False
+    if "--character" in argv:
+        idx = argv.index("--character")
+        if idx + 1 < len(argv):
+            character = argv[idx + 1]
+            argv = argv[:idx] + argv[idx + 2:]
+        else:
+            print("ERROR: --character requires a name", file=sys.stderr)
+            sys.exit(1)
+    if "--audit" in argv:
+        audit = True
+        argv = [a for a in argv if a != "--audit"]
+    player_action = " ".join(argv)
+    result = gamemode(character=character, player_action=player_action, audit=audit)
+    sys.exit(0 if result["status"] == "OK" else 1)
