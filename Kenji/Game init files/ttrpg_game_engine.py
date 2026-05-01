@@ -2188,6 +2188,14 @@ LEVEL_THRESHOLDS = {
     11: 85000, 12: 100000, 13: 120000, 14: 140000, 15: 165000,
     16: 195000, 17: 225000, 18: 265000, 19: 305000, 20: 355000,
 }
+# Extend beyond level 20 — no cap. Gap grows by 5k per level (50k → 55k → 60k …).
+_lt_last_gap = 50000   # gap from 19→20
+_lt_threshold = 355000
+for _lvl in range(21, 101):
+    _lt_last_gap += 5000
+    _lt_threshold += _lt_last_gap
+    LEVEL_THRESHOLDS[_lvl] = _lt_threshold
+del _lt_last_gap, _lt_threshold, _lvl
 
 PARTY_MULTIPLIER = {
     0: 4.0,   # solo
@@ -2311,6 +2319,16 @@ STARTER_THRESHOLDS = {
     1: 0, 2: 3000, 3: 12000, 4: 22000, 5: 28000,
     6: 40000, 7: 55000, 8: 75000, 9: 100000, 10: 130000,
 }
+# Extend beyond level 10 — no thematic level cap. Each level adds 5,000 more
+# than the previous gap (gap_11 = 35k, gap_12 = 40k, ...). Cap synthetic
+# thresholds at level 50 to keep the dict small; well past any realistic play.
+_starter_last_gap = 30000   # gap from 9→10
+_starter_threshold = 130000
+for _lvl in range(11, 51):
+    _starter_last_gap += 5000
+    _starter_threshold += _starter_last_gap
+    STARTER_THRESHOLDS[_lvl] = _starter_threshold
+del _starter_last_gap, _starter_threshold, _lvl
 
 # --- ARCHETYPE → DOMAIN SKILL KEYWORDS ---
 # Maps support_archetype to skill name keywords that trigger domain bonus.
@@ -2617,7 +2635,18 @@ class StoryEngine:
         #     "constructs":  [{name, type, count, location, status}, ...],
         #     "hegemony":    null  OR  {active: bool, ...rollup of legacy fields...}
         #   }
-        self.force_composition = d.get("force_composition", {})
+        # Defensive: coerce None → {} so `.get()` calls in helpers don't crash
+        # if the JSON had `"force_composition": null` or it's missing entirely.
+        self.force_composition = d.get("force_composition") or {}
+
+        # Narrative metadata — populated by load_json from the top-level JSON
+        # block (these live OUTSIDE _story_engine_state in character_world_state).
+        # Used by the Narrative tab to render chapter history + adventure summary.
+        self._chapter_history = d.get("_chapter_history") or []
+        self._narrative_summary = d.get("_narrative_summary") or ""
+        self._chapter_num = d.get("_chapter")
+        self._chapter_status = d.get("_chapter_status") or ""
+        self._chapter_title = d.get("_chapter_title") or ""
         
         # EVENT PROGRESSION TRACKER — Tournaments, Dungeons, Sieges, etc.
         # Flexible multi-stage event system. Each event has stages (rounds/floors/waves).
@@ -4222,19 +4251,72 @@ class StoryEngine:
     @classmethod
     def load_json(cls, path):
         """Load state from JSON. Supports both flat (kenji_state.json) and nested
-        (character_world_state.json with _story_engine_state) formats."""
+        (character_world_state.json with _story_engine_state) formats.
+
+        Character-sheet fields (ability_scores, skills, known_spells, AC) often
+        live in a sibling top-level `mechanical_state` block in the
+        character_world_state.json template. Pull them in as fallback so the
+        dashboard renders the character's stats without duplicating data into
+        _story_engine_state."""
         import json
         from pathlib import Path
         raw = Path(path).read_text(encoding="utf-8")
-        data = json.loads(raw)
-        if isinstance(data, dict):
-            data.pop("_comment", None)
-            # character_world_state.json nests engine state under _story_engine_state
-            if "_story_engine_state" in data:
-                engine_data = data["_story_engine_state"]
+        full = json.loads(raw)
+        data = full
+        if isinstance(full, dict):
+            full.pop("_comment", None)
+            if "_story_engine_state" in full:
+                engine_data = full["_story_engine_state"]
                 engine_data.pop("_comment", None)
                 engine_data.pop("_rule", None)
                 data = engine_data
+                # Character-sheet fallback: if _story_engine_state lacks these,
+                # pull from top-level mechanical_state (the character sheet block).
+                ms = full.get("mechanical_state") or {}
+                _SHEET_FALLBACK_KEYS = (
+                    "ability_scores", "skills", "known_spells",
+                    "saving_throws", "proficiency_bonus", "AC",
+                    "halfling_luck", "character_flaw",
+                    "exp_archetype", "support_archetype",
+                )
+                for k in _SHEET_FALLBACK_KEYS:
+                    if k in ms and not data.get(k):
+                        data[k] = ms[k]
+                # Top-level narrative fields (sit OUTSIDE _story_engine_state in
+                # character_world_state.json). Pull them onto the engine so the
+                # dashboard can render chapter summaries without re-parsing JSON.
+                _NARRATIVE_TOP_LEVEL = (
+                    "_chapter_history",
+                    "_narrative_summary",
+                    "_chapter",
+                    "_chapter_status",
+                    "_chapter_title",
+                )
+                for k in _NARRATIVE_TOP_LEVEL:
+                    if k in full and not data.get(k):
+                        data[k] = full[k]
+                # Field-name aliases — older state files use slightly different
+                # names. Map them onto canonical engine names so the dashboard
+                # doesn't lose data to a naming mismatch.
+                _ALIASES = {
+                    "known_spells": ("spells_known", "spells"),
+                    "skills":       ("skill_modifiers",),
+                }
+                for canonical, alts in _ALIASES.items():
+                    cur = data.get(canonical)
+                    if cur:    # already populated, no need to alias
+                        continue
+                    for alt in alts:
+                        # Look in _story_engine_state first, then mechanical_state
+                        for src in (data, ms):
+                            if src is data and alt in data and data[alt]:
+                                data[canonical] = data[alt]
+                                break
+                            if src is ms and alt in ms and ms[alt]:
+                                data[canonical] = ms[alt]
+                                break
+                        if data.get(canonical):
+                            break
         eng = cls(data)
         print(f"[load] v{eng._save_version} saved {eng._saved_at or 'never'}")
         return eng

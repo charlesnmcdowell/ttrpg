@@ -309,10 +309,7 @@
       "4 performance outfits from Gilded Thread (Day 4): green (worn), yellow (packed), indigo Maeven (packed), daily wrap (packed)"
     ],
     "buffs": {},
-    "statuses": [
-      "healthy",
-      "EMBER_CAPPED — Ember Enhancement at maximum starter-campaign strength; no further amplifier growth until story trigger (Resonance Chamber, Ignis encounter, Cult-of-Anku contact, or campaign-defined unlock). Existing 10x buff/heal multiplier and L9 social mechanics remain active."
-    ],
+    "statuses": [],
     "charges": {},
     "portals": {},
     "portal_max": 0,
@@ -431,7 +428,59 @@
     "hm_total_today": 0,
     "noble_interest_active": true,
     "gold_yesterday": 0,
-    "active_perks": [],
+    "active_perks": [
+      {
+        "name": "Heartstring",
+        "type": "ember_passive",
+        "level_gained": 1,
+        "summary": "Always-on Ember aura — every humanoid who sees or hears Cookie makes WIS DC 12 or is fascinated for the scene.",
+        "mechanical_effect": "Passive aura. Any humanoid within audible/visual range makes a WIS DC 12 save on first contact each scene. On fail, target is fascinated/biased favorably toward Cookie. On success, target consciously holds against the pull. Disabled only if Ember is fully nullified. Foundation for The Great User and Fans Out of Control.",
+        "design_note": "DM rolls WIS DC 12 the first time each humanoid encounters Cookie in a scene; pass/fail determines whether downstream perks fire on that NPC."
+      },
+      {
+        "name": "Ember Last Stand",
+        "type": "ember_survival",
+        "level_gained": 1,
+        "summary": "When Cookie is prone or paralyzed, humanoid enemies mock (female) or attempt to grapple (male) instead of killing — primal Ember defense.",
+        "mechanical_effect": "TRIGGER: Cookie is prone or paralyzed AND Ember active AND enemies are humanoid. FEMALE: skip kill action, mock/taunt instead. MALE: STR save vs Cookie's spell DC or spend turn attempting to grapple/mate. On failed save, male grapples; Cookie must escape or be rescued. Does NOT work on non-humanoids/undead/constructs/charm-immune. Disabled if Ember nullified.",
+        "design_note": "Last-ditch biological defense. Outcomes are degrading but Cookie survives."
+      },
+      {
+        "name": "The Great User",
+        "type": "perk",
+        "level_gained": 9,
+        "summary": "Heartstring-touched humanoids bifurcate by gender × disposition: hostile females antagonize, friendly males protect (can intercept attacks as auto-crits on themselves).",
+        "mechanical_effect": "FEMALE + felt Heartstring + disposition <= neutral: antagonistic — challenges, betrays, steals admirers. MALE + disposition >= neutral: protective — buys Cookie things; in combat may intercept any attack aimed at her, counted as auto-crit on the intercepting NPC. DM checks this every Heartstring-touched scene."
+      },
+      {
+        "name": "Fans Out of Control",
+        "type": "ember_enhancement",
+        "level_gained": 9,
+        "summary": "Ember-amplified Great User: hostile males stalk, hostile females assassinate, friendly males form a secret guard network — Cookie rolls ambush even when sleeping safely.",
+        "mechanical_effect": "MALE + disposition < neutral + felt Heartstring: stalker, kidnap or sleep-impregnation attempts. FEMALE + felt Heartstring: assassins. MALE + disposition >= neutral + felt Heartstring: secret guard network — quietly watches, intervenes if Cookie is ambushed. EFFECT: Cookie rolls ambush even in safe sleeping locations, but always has a nearby protector. Disabled if Ember nullified."
+      },
+      {
+        "name": "Low-Wisdom Loss-of-Control Quirk",
+        "type": "quirk",
+        "level_gained": 9,
+        "summary": "WIS 7 turns alcohol/drugs into real risk events — failed save means the DM takes the wheel, and a blackout fires an attempt scene.",
+        "mechanical_effect": "Alcohol/drugs offered → WIS save (DC 12 baseline, scales with potency) to refuse. Fail = player loses control of Cookie. If drugged/blacked out: attempt scene fires (female aggressor = assassination, male aggressor = impregnation). Great User intervention: nearby friendly Heartstring-touched male may thwart. Thwart fail → prone → Ember Last Stand triggers. DM MUST roll the WIS save, not narrate around it."
+      },
+      {
+        "name": "Combat Magnetism / Ember Enhancement Combat",
+        "type": "perk",
+        "level_gained": 4,
+        "summary": "In combat, humanoid males want to capture Cookie (last target, WIS DC 12 to attack lethally); humanoid females target her first — neutral or hostile females want her dead.",
+        "mechanical_effect": "MALES: Cookie is their LAST target; must pass WIS DC 12 to attack anyone else lethally or to attack Cookie lethally instead of capturing. FEMALES: Cookie is their FIRST target. Females with disposition <= neutral are massively jealous, prioritize killing Cookie. Females with disposition >= friendly may hesitate, switch sides, or refuse to fight. Non-humanoids unaffected. Disabled if Ember nullified."
+      },
+      {
+        "name": "Dance Dance Revolution (DDR)",
+        "type": "perk",
+        "level_gained": 8,
+        "summary": "Dance-spell concentration uses CHA instead of CON — grace replaces grit for holding magic together.",
+        "mechanical_effect": "During any dance ability, Cookie's concentration checks key off CHA. Applies to Healing Dance, Dance of Dispel, Planar Waltz, Dragon's Roar Dance, and any future dance-concentration spells."
+      }
+    ],
     "weapon_config": "",
     "weapon_config_detail": "",
     "threat_clocks": {
@@ -1047,75 +1096,54 @@
     ],
     "class_features": [
       {
-        "name": "Heartstring",
-        "type": "ember_passive",
-        "description": "Ember-class passive aura, always on. Sound bends around Cookie's movement; humanoids within audible/visual range fail a WIS save and lean toward her without realizing they've moved. Distinct from Heartstring-active casts — this is the constant ambient resonance, the reason NPCs go pink around the edges within seconds of seeing her.",
-        "mechanical_effect": "Passive aura (always on; no action required). Any humanoid who can see/hear Cookie makes a WIS DC 12 save on first contact each scene. On fail, target is fascinated/biased favorably toward Cookie (NPCs lean in, voices go up a quarter-step, attention sticks). On success, target consciously holds against the pull. Disabled only if Ember is fully nullified. Stacks with The Great User (gender×disposition behavior split) and Fans Out of Control (stalker/assassin/secret-guard layer).",
-        "design_note": "This is the foundation that The Great User and Fans Out of Control build on top of. Without Heartstring catching an NPC, those two perks don't activate. DM should roll the WIS DC 12 the first time each humanoid encounters Cookie in a scene — pass/fail determines whether downstream perks fire on that NPC.",
-        "level_gained": 1
-      },
-      {
         "name": "Dance Inspiration",
         "type": "class",
-        "description": "When Cookie incorporates dancing into a Performance check (not just singing or speaking), she rolls an additional d12 and adds it to the total. This represents the Dancer class's core identity — movement as magic.",
-        "mechanical_effect": "Performance check while dancing: d20 + d12 + modifier (instead of d20 + modifier). Singing/speaking-only Performance uses d20 + modifier as normal.",
-        "level_gained": 1
+        "level_gained": 1,
+        "summary": "When dancing during a Performance check, roll d20 + d12 + modifier instead of d20 + modifier — movement adds magic to the roll.",
+        "mechanical_effect": "Performance check while dancing: d20 + d12 + modifier. Singing/speaking-only Performance uses d20 + modifier as normal."
       },
       {
         "name": "Dancer's Tai Chi",
         "type": "combat_style",
-        "description": "A DEX-based martial art created by Cookie during her first real combat encounter. Flowing kicks that look like dance — improvised, instinctive, entirely her own. High risk, high reward — Cookie's combat performance inspires allies or leaves her vulnerable.",
         "level_gained": 2,
-        "unlocked_during": "Chapter 2 — bandit camp raid",
+        "summary": "DEX-based kick martial art with two performance rolls per turn — start-of-turn grants ally free attacks, end-of-turn grants 75% dodge; failures drop Cookie prone.",
         "mechanics": {
-          "attack": "1 kick per round. DEX-based (d20 + DEX mod + prof to hit). 1d6 bludgeoning damage. Always causes PRONE on hit.",
-          "start_of_turn": "Performance roll (d20 + d12 + mod, since dancing). DC 12. SUCCESS: all allies who can see Cookie gain 1 free attack this round. FAIL: Cookie falls prone and loses her turn.",
-          "end_of_turn": "Performance roll (d20 + d12 + mod, since dancing). DC 12. SUCCESS: Cookie gains 75% dodge chance on all enemy attacks until her next turn. FAIL: Cookie falls prone.",
-          "design_note": "Two performance rolls per turn makes Cookie the most swingy combatant possible. On good rolls she's a force multiplier. On bad rolls she's on the ground. Prone triggers the class-wide Ember Last Stand effect (see class_rule: Ember Last Stand)."
-        }
+          "attack": "1 kick per round. DEX-based (d20 + DEX mod + prof to hit). 1d6 bludgeoning. Always causes PRONE on hit.",
+          "start_of_turn": "Performance roll (d20 + d12 + mod). DC 12. SUCCESS: all allies seeing Cookie get 1 free attack this round. FAIL: Cookie falls prone and loses her turn.",
+          "end_of_turn": "Performance roll (d20 + d12 + mod). DC 12. SUCCESS: 75% dodge chance vs all enemy attacks until next turn. FAIL: Cookie falls prone.",
+          "design_note": "Most swingy combatant possible. Prone triggers Ember Last Stand."
+        },
+        "unlocked_during": "Chapter 2 — bandit camp raid"
       },
       {
         "name": "Dancer's Punishment",
         "type": "class_rule",
-        "description": "The Dancer class punishes failed performances. Any time Cookie fails a Performance check — whether in combat, casting, social, or any other context — she falls prone. This is a core class-wide penalty, not tied to any specific ability.",
-        "mechanical_effect": "Failed Performance check (any context) = Cookie falls prone immediately. This applies universally: Tai Chi combat rolls, spell initiation rolls, social performance rolls, etc.",
-        "level_gained": 1
+        "level_gained": 1,
+        "summary": "Any failed Performance check — combat, casting, social — drops Cookie prone immediately.",
+        "mechanical_effect": "Universal class-wide penalty. Failed Performance check (any context) = Cookie falls prone. Applies to Tai Chi rolls, spell initiation rolls, social performance rolls, etc."
       },
       {
         "name": "Action Exclusivity: Tai Chi vs Dance Spells",
         "type": "class_rule",
-        "description": "Dancer's Tai Chi and dance spells (Healing Dance, Dance of Dispel, Planar Waltz, Dragon's Roar Dance) are separate actions that cannot be performed simultaneously. Cookie must choose one or the other on her turn — she cannot kick and cast a dance spell in the same action.",
-        "mechanical_effect": "Tai Chi and dance spells are mutually exclusive. Cookie may use Tai Chi OR a dance spell on a given turn, never both. Switching between them requires ending one before starting the other (e.g., stopping Tai Chi to begin a multi-round dance spell, or waiting for a dance spell to complete before resuming Tai Chi).",
-        "level_gained": 2
+        "level_gained": 2,
+        "summary": "Tai Chi kicks and dance spells (Healing Dance, Dispel, Planar Waltz, Dragon's Roar) are mutually exclusive on a given turn — pick one.",
+        "mechanical_effect": "Cookie may use Tai Chi OR a dance spell on a given turn, never both. Switching between them requires ending one before starting the other (e.g., stopping Tai Chi to begin a multi-round dance spell)."
       },
       {
-        "name": "Ember Last Stand",
+        "name": "Performance Domain Bonus (Performer Archetype)",
+        "type": "support_archetype",
+        "level_gained": 1,
+        "summary": "Each successful Performance/Persuasion roll grants 25% of the level-gap as XP — Cookie levels through using her voice and her dance, not just kills.",
+        "mechanical_effect": "Performer support archetype. Any successful Performance, Persuasion, or domain-tagged check awards 25% of the current level→next-level XP gap as bonus XP. Stacks with combat XP and quest XP. Performer-specific — does not apply to other support archetypes (healer, scholar, infiltrator, crafter, diplomat).",
+        "design_note": "Encourages Cookie to lean into performance and social play; her primary XP loop is the stage, not the dungeon."
+      },
+      {
+        "name": "Party-Size XP Penalty",
         "type": "class_rule",
-        "description": "The Ember's primal survival mechanic. Whenever Cookie is prone or paralyzed — regardless of how she got there (failed Performance, enemy attack, spell, trap, anything) — the Ember radiates outward and hijacks humanoid enemies' instincts. Female enemies mock her instead of finishing her. Male enemies attempt to mate with her instead of killing her. On a primal level, the Ember decides humiliation or impregnation is better than death. This is a last-ditch save, not a power fantasy — Cookie is genuinely vulnerable and the outcomes are degrading, but she survives.",
-        "mechanical_effect": "TRIGGER: Cookie is prone or paralyzed, Ember is active (not nullified), enemies are humanoid. FEMALE ENEMIES: gain Ridicule bonus — skip their kill action to mock/taunt Cookie instead of finishing her. MALE ENEMIES: gain Lust bonus — must make STR save vs Cookie's spell DC or spend their turn attempting to grapple/mate instead of attacking. On failed save, the male succeeds in grappling and Cookie must escape or be rescued. LIMITATIONS: Does NOT work on non-humanoids, undead, constructs, or any creature immune to charm/mental effects. Disabled entirely if Ember is nullified.",
-        "design_note": "This is the Ember's last-ditch biological defense. It turns Cookie's vulnerability into a survival tool by exploiting humanoid instincts. The consequences are real and degrading — she's either humiliated or assaulted — but she's alive. Better off shamed than dead.",
-        "level_gained": 1
-      },
-      {
-        "name": "The Great User",
-        "type": "perk",
-        "description": "Bifurcates every Heartstring-touched humanoid by gender x disposition. The dominant social-mechanics layer from L9 onward.",
-        "mechanical_effect": "FEMALE humanoid + felt Heartstring + disposition <= neutral: antagonistic. Challenges Cookie to duels, betrays in combat, actively tries to steal her friends and male admirers. MALE humanoid + disposition >= neutral toward Cookie: protective. Asks what she needs and buys it. In combat, gains the option to intercept any attack aimed at Cookie — counts as an automatic critical hit on the intercepting NPC. DM must check this every scene that involves Heartstring-touched NPCs.",
-        "level_gained": 9
-      },
-      {
-        "name": "Fans Out of Control",
-        "type": "ember_enhancement",
-        "description": "Ember enhancement on top of The Great User. Active only while Ember is available.",
-        "mechanical_effect": "MALE humanoid + felt Heartstring + disposition < neutral: stalker. Attempts kidnap or sleep-time impregnation. FEMALE + felt Heartstring: assassins, show up to kill her. MALE + disposition >= neutral + felt Heartstring: secret guard network — quietly watches her location, pops up to fight when she is ambushed. EFFECT: Cookie rolls for ambush even in safe locations during sleep, but always has at least one nearby protector who arrives to help fight. Disabled if Ember is nullified.",
-        "level_gained": 9
-      },
-      {
-        "name": "Low-Wisdom Loss-of-Control Quirk",
-        "type": "quirk",
-        "description": "Cookie's WIS 7 turns alcohol and drug interactions into real risk events, not flavor.",
-        "mechanical_effect": "When alcohol or drugs are offered, Cookie must make a WIS save (DC scales with potency, baseline DC 12 for tavern alcohol) to refuse. On failed save the player loses control of Cookie for the duration. If Cookie is drugged or blacked out from alcohol, an attempt scene fires: female aggressor = assassination attempt, male aggressor = impregnation attempt. The Great User intervention: any nearby Heartstring-touched friendly male humanoid can attempt to thwart. If thwart fails, Cookie is treated as prone and Ember Last Stand triggers (female mocks, male must STR save vs spell DC to be stopped). DM MUST roll the WIS save when drinks/drugs are offered, not narrate around it.",
-        "level_gained": 9
+        "level_gained": 1,
+        "summary": "Combat XP is divided by full party size (5+ Wardbreakers = combat XP / 5) — support classes scale by skill not by attendance.",
+        "mechanical_effect": "Combat XP for monsters defeated is divided by total party size. Cookie alone = ×4 multiplier (solo). Party of 2 = ×2. Party of 3 = ×1. Party of 4 = ×0.75. Party of 5+ = ×0.6 (support divisor). Stacks with the engine's EXP_MULTIPLIERS table; the divisor is automatic when party_size is set on the engine.",
+        "design_note": "Cookie's primary XP source is performance, not combat. The party-size penalty mechanically pushes her to do what her class is good at — singing, dancing, persuading — instead of trying to compete with martial classes for kill XP."
       }
     ],
     "exp_to_next_level": 0,

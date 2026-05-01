@@ -10,7 +10,7 @@ Run:
 Environment: TTRPG_CAMPAIGN_DIR may point at a campaign folder (same as --campaign).
 """
 
-import sys, io, os, json, random, argparse
+import sys, io, os, json, random, argparse, re
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Optional, Type, Any
@@ -869,72 +869,223 @@ class LiveDashboard(ctk.CTk):
 
     def _refresh_status_tab(self):
         e = self.engine
-        lines = ["═══ STATUS (CONDITIONS) ═══"]
-        lines.append(f"  {', '.join(e.statuses) if e.statuses else '(none)'}")
+        lines = []
 
-        lines += ["", "═══ ABILITY SCORES ═══"]
-        if getattr(e, "ability_scores", None):
-            order = ("STR", "DEX", "CON", "INT", "WIS", "CHA")
-            for k in order:
-                if k in e.ability_scores:
-                    lines.append(f"  {k}: {e.ability_scores[k]}")
-            for k in sorted(e.ability_scores.keys()):
-                if k not in order:
-                    lines.append(f"  {k}: {e.ability_scores[k]}")
-        else:
-            lines.append("  (none — add ability_scores to state JSON)")
+        # ---- STATUS (CONDITIONS) ----
+        # Only real conditions/buffs go here. Filter out narrative flags
+        # ("healthy", "EMBER_CAPPED" — story-state, not gameplay). KEEP real
+        # combat statuses like POISONED, PARALYZED, EMBER_NULLIFIED, etc.
+        _NARRATIVE_NOISE = {"healthy", "fine", "ok", "okay", "normal"}
+        # Explicit denylist — narrative-only flags that look like statuses but
+        # aren't gameplay-actionable. Add new ones here as they're identified.
+        _NARRATIVE_FLAGS = {"EMBER_CAPPED", "STORY_LOCKED", "CAMPAIGN_PAUSED"}
+        real_conditions = []
+        for s in (e.statuses or []):
+            if not isinstance(s, str):
+                continue
+            head = s.split("—")[0].strip()
+            if head.lower() in _NARRATIVE_NOISE:
+                continue
+            if head.upper() in _NARRATIVE_FLAGS:
+                continue
+            real_conditions.append(s)
 
-        lines += ["", "═══ SKILLS ═══"]
-        if getattr(e, "skills", None):
-            for sk, mod in sorted(e.skills.items()):
-                lines.append(f"  {sk}: {mod}")
-        else:
-            lines.append("  (none — add skills to state JSON)")
-
-        lines += ["", "═══ SPELLS (KNOWN) ═══"]
-        if getattr(e, "known_spells", None):
-            for sp in e.known_spells:
-                lines.append(f"  • {sp}")
-        else:
-            lines.append("  (none — add known_spells to state JSON)")
-
-        lines += ["", "═══ CLASS FEATURES ═══"]
-        if getattr(e, "class_features", None):
-            for feat in e.class_features:
-                lines.append(f"  • {feat}")
-        else:
-            lines.append("  (none — add class_features to state JSON)")
-
-        lines += ["", "═══ PERKS (ACTIVE) ═══"]
-        if e.active_perks:
-            for p in e.active_perks:
-                if isinstance(p, dict):
-                    lines.append(f"  {p.get('name', '?')} — {p.get('effect', '')}")
-                else:
-                    lines.append(f"  {p}")
-        else:
-            lines.append("  (none)")
-
-        lines += ["", "═══ CHARGES (LIMITED USES) ═══"]
-        if e.charges:
-            for name, pair in sorted(e.charges.items()):
-                lines.append(f"  {name}: {pair[0]}/{pair[1]}")
-        else:
-            lines.append("  (none)")
-
-        lines += ["", "═══ ACTIVE BUFFS ═══"]
-        if e.buffs:
-            for name, b in e.buffs.items():
+        lines.append("═══ STATUS (CONDITIONS) ═══")
+        if real_conditions or e.buffs:
+            for c in real_conditions:
+                # Show only the short head before any em-dash explanation.
+                short = c.split("—")[0].strip()
+                lines.append(f"  • {short}")
+            for name, b in (e.buffs or {}).items():
                 dur = b.get("duration_hrs", b.get("duration", "?"))
                 fx = b.get("effects", "")
-                lines.append(f"  {name}  ({dur}hr)  — {fx}")
+                tail = f" — {fx}" if fx else ""
+                lines.append(f"  • {name}  ({dur}hr){tail}")
+        else:
+            lines.append("  No active conditions.")
+
+        # ---- ABILITY SCORES ----
+        lines += ["", "═══ ABILITY SCORES ═══"]
+        scores = getattr(e, "ability_scores", None) or {}
+        if scores:
+            order = ("STR", "DEX", "CON", "INT", "WIS", "CHA")
+
+            def _fmt_score(v):
+                if isinstance(v, dict):
+                    final = v.get("final", v.get("base", "?"))
+                    mod = v.get("mod")
+                    if mod is None or final == "?":
+                        return f"{final}"
+                    sign = "+" if (isinstance(mod, (int, float)) and mod >= 0) else ""
+                    return f"{final}  ({sign}{mod})"
+                return f"{v}"
+
+            for k in order:
+                if k in scores:
+                    lines.append(f"  {k}  {_fmt_score(scores[k])}")
+            for k in sorted(scores.keys()):
+                if k not in order:
+                    lines.append(f"  {k}  {_fmt_score(scores[k])}")
+        else:
+            lines.append("  (not configured)")
+
+        # ---- SKILLS ----
+        lines += ["", "═══ SKILLS ═══"]
+        skills = getattr(e, "skills", None) or {}
+        if skills:
+            for sk in sorted(k for k in skills.keys() if not k.startswith("_")):
+                lines.append(f"  {sk}: {skills[sk]}")
         else:
             lines.append("  (none)")
 
+        # ---- SPELLS (with charges inline) ----
+        lines += ["", "═══ SPELLS ═══"]
+        known = getattr(e, "known_spells", None) or []
+        # Build a charge-lookup for inline display.
+        charge_map = {}
+        for cname, pair in (getattr(e, "charges", {}) or {}).items():
+            try:
+                cur, mx = pair[0], pair[1]
+                charge_map[cname.lower()] = f"{cur}/{mx}"
+            except Exception:
+                pass
+        slots = getattr(e, "spell_slots", None) or {}
+        def _fmt_slot(v):
+            """Render a spell-slot entry — handles [cur, max], {current, max}, or int."""
+            if isinstance(v, list) and len(v) >= 2:
+                return f"{v[0]}/{v[1]}"
+            if isinstance(v, dict):
+                cur = v.get("current", v.get("cur", "?"))
+                mx = v.get("max", "?")
+                return f"{cur}/{mx}"
+            return str(v)
+
+        if known:
+            for sp in known:
+                # sp may be a string OR a dict {name, level, uses_per_day, charges_key, notes}
+                if isinstance(sp, dict):
+                    name = sp.get("name", "?")
+                    lvl = sp.get("level")
+                    uses = sp.get("uses_per_day")
+                    notes = sp.get("notes", "")
+                    ck = sp.get("charges_key") or name
+                    line = f"  • {name}"
+                    if lvl is not None:
+                        line += f"  (L{lvl})"
+                    # Prefer current/max charges if tracked; else fall back to uses_per_day cap.
+                    if ck.lower() in charge_map:
+                        line += f"  [{charge_map[ck.lower()]} uses]"
+                    elif uses is not None:
+                        line += f"  [{uses}/day]"
+                    if notes:
+                        line += f" — {notes}"
+                    lines.append(line)
+                else:
+                    name = str(sp)
+                    line = f"  • {name}"
+                    matched = next((v for k, v in charge_map.items() if k in name.lower() or name.lower() in k), None)
+                    if matched:
+                        line += f"  [{matched} uses]"
+                    lines.append(line)
+        else:
+            lines.append("  (none)")
+        if slots:
+            def _level_int(k):
+                """Coerce slot-level key to int for numeric sort. Cookie's keys are
+                strings ('1', '2'); future characters might use ints. Either way
+                we want L2 < L10, not lexical 'L10' < 'L2'."""
+                try:
+                    return int(k)
+                except (ValueError, TypeError):
+                    return 999
+            slot_pairs = []
+            for lvl, v in sorted(slots.items(), key=lambda x: _level_int(x[0])):
+                rendered = _fmt_slot(v)
+                if rendered and rendered != "0/0":
+                    slot_pairs.append(f"L{lvl}: {rendered}")
+            if slot_pairs:
+                lines.append(f"  Slots — {'  '.join(slot_pairs)}")
+
+        # ---- CLASS FEATURES (Dancer-specific only, 1-sentence summary) ----
+        # Filter to actual class features by `type`. Ember/perk/quirk entries
+        # render under PERKS instead.
+        _CLASS_TYPES = {"class", "combat_style", "class_rule", "support_archetype"}
+        cf_list = getattr(e, "class_features", None) or []
+        class_only = [f for f in cf_list if isinstance(f, dict) and (f.get("type") or "").lower() in _CLASS_TYPES]
+        perk_from_cf = [f for f in cf_list if isinstance(f, dict) and (f.get("type") or "").lower() not in _CLASS_TYPES]
+
+        def _summarize(feat: dict) -> str:
+            """Return a 1-sentence summary for the feature."""
+            if feat.get("summary"):
+                return feat["summary"]
+            # Fall back to first sentence of description.
+            desc = feat.get("description", "") or feat.get("mechanical_effect", "") or ""
+            # Split on sentence terminators; first non-empty piece.
+            for piece in re.split(r"(?<=[.!?])\s+", desc):
+                piece = piece.strip()
+                if len(piece) >= 8:
+                    return piece if piece.endswith((".", "!", "?")) else piece + "."
+            return desc[:120] + ("…" if len(desc) > 120 else "")
+
+        lines += ["", "═══ CLASS FEATURES ═══"]
+        if class_only:
+            for feat in class_only:
+                name = feat.get("name", "?")
+                summary = _summarize(feat)
+                lines.append(f"  • {name} — {summary}")
+        else:
+            # Strings (legacy free-form) get rendered as-is.
+            string_features = [f for f in cf_list if isinstance(f, str)]
+            if string_features:
+                for f in string_features:
+                    lines.append(f"  • {f}")
+            else:
+                lines.append("  (none)")
+
+        # ---- PERKS (ACTIVE) ----
+        lines += ["", "═══ PERKS (ACTIVE) ═══"]
+        rendered_any = False
+        for feat in perk_from_cf:
+            name = feat.get("name", "?")
+            summary = _summarize(feat)
+            lines.append(f"  • {name} — {summary}")
+            rendered_any = True
+        for p in (e.active_perks or []):
+            if isinstance(p, dict):
+                name = p.get("name", "?")
+                # Use _summarize so the `summary` field is honored, falling back
+                # to first sentence of effect/description/mechanical_effect.
+                # _summarize reads `summary` then `description` then `mechanical_effect`.
+                # Provide a temporary feat-shaped dict that aliases `effect` into description.
+                feat_shape = dict(p)
+                if "description" not in feat_shape and "effect" in feat_shape:
+                    feat_shape["description"] = feat_shape["effect"]
+                summary = _summarize(feat_shape)
+                tail = f" — {summary}" if summary else ""
+                lines.append(f"  • {name}{tail}")
+            else:
+                lines.append(f"  • {p}")
+            rendered_any = True
+        if not rendered_any:
+            lines.append("  (none)")
+
+        # ---- MEAL & EXP ----
         lines += ["", "═══ MEAL & EXP ═══"]
         lines.append(f"  Hours since meal: {e.hours_since_meal}")
         lines.append(f"  {e.meal_status()}")
-        lines.append(f"  EXP: {e.exp:,}")
+        # EXP as current/threshold for next level (no thematic cap — synthesized
+        # thresholds extend past the table-defined levels).
+        try:
+            thresholds = e.get_thresholds()
+            next_threshold = thresholds.get(e.level + 1)
+            if next_threshold:
+                remaining = max(0, next_threshold - e.exp)
+                lines.append(f"  EXP: {e.exp:,} / {next_threshold:,}  ({remaining:,} to L{e.level + 1})")
+            else:
+                lines.append(f"  EXP: {e.exp:,}  (no next-level threshold defined)")
+        except Exception:
+            lines.append(f"  EXP: {e.exp:,}")
+
         self._set_tb("status", "\n".join(lines))
 
     def _refresh_inventory_tab(self):
@@ -1127,65 +1278,165 @@ class LiveDashboard(ctk.CTk):
         self._set_tb("party", "\n".join(lines))
 
     def _refresh_schedule_tab(self):
+        """Schedule = upcoming/active items only. Completed/done/resolved/cancelled
+        entries are filtered out — they live in chapter history, not here."""
         e = self.engine
-        lines = ["═══ EVENTS ═══"]
-        if e.events:
-            for ev in sorted(e.events, key=lambda x: x.get("day", 999)):
-                day, name, pri = ev.get("day", "?"), ev.get("name", "?"), ev.get("priority", "MED")
+        lines = []
+        _DONE_STATUSES = {"DONE", "COMPLETE", "COMPLETED", "RESOLVED", "CANCELLED",
+                          "CANCELED", "SKIPPED", "FAILED", "CLOSED"}
+
+        def _is_done(item):
+            return str(item.get("status", "")).upper() in _DONE_STATUSES
+
+        # ---- EVENTS (active/upcoming only) ----
+        active_events = [ev for ev in (e.events or []) if not _is_done(ev)]
+        lines.append("═══ EVENTS ═══")
+        if active_events:
+            for ev in sorted(active_events, key=lambda x: x.get("day", 999)):
+                day = ev.get("day", "?")
+                name = ev.get("name", "?")
+                pri = ev.get("priority", "MED")
                 delta = e.hours_until(day) if isinstance(day, int) else 0
                 when = "NOW" if delta <= 0 else (f"{delta}hr" if delta < 24 else f"{delta//24}d {delta%24}hr")
                 lines.append(f"  [{pri}] {name} — Day {day} ({when})")
                 if ev.get("notes"):
                     lines.append(f"         {ev['notes']}")
         else:
-            lines.append("  (none)")
+            lines.append("  No upcoming events.")
+
+        # ---- QUESTS (active only) ----
+        active_quests = [q for q in (e.quests or []) if not _is_done(q)]
         lines += ["", "═══ QUESTS ═══"]
-        if e.quests:
-            for q in e.quests:
+        if active_quests:
+            for q in active_quests:
                 lines.append(f"  [{q.get('priority', 'MED')}] {q.get('name', '?')}  [{q.get('status', '?')}]")
                 if q.get("notes"):
                     lines.append(f"         {q['notes']}")
         else:
-            lines.append("  (none)")
+            lines.append("  No active quests.")
+
+        # ---- PENDING CONSEQUENCES ----
+        unfired = [c for c in (e.consequences or []) if not c.get("fired") and not _is_done(c)]
         lines += ["", "═══ PENDING CONSEQUENCES ═══"]
-        unfired = [c for c in e.consequences if not c.get("fired")]
         if unfired:
             for c in sorted(unfired, key=lambda x: x.get("trigger_day", 999)):
                 lines.append(f"  Day {c.get('trigger_day', '?')}: {c.get('cause', '?')}")
                 lines.append(f"    → {c.get('effect', '?')}")
         else:
-            lines.append("  (none pending)")
+            lines.append("  None pending.")
+
+        # ---- FACTION PLOTS (in-progress only) ----
         lines += ["", "═══ FACTION PLOTS ═══"]
-        if e.org_plots:
-            for org, p in e.org_plots.items():
-                if p.get("progress", 0) >= 100:
-                    continue
+        active_plots = []
+        for org, p in (e.org_plots or {}).items():
+            if isinstance(p, dict) and p.get("progress", 0) < 100 and not _is_done(p):
+                active_plots.append((org, p))
+        if active_plots:
+            for org, p in active_plots:
                 lines.append(f"  {org}: {p.get('plot', '?')} ({p.get('progress', 0)}%)")
                 if p.get("next_move"):
                     lines.append(f"    Next: {p['next_move']} (Day {p.get('next_move_day', '?')})")
         else:
-            lines.append("  (none)")
+            lines.append("  No active faction plots.")
+
+        # ---- CHARACTER GOALS (open only, optional) ----
+        goals = getattr(e, "character_goals", None) or []
+        active_goals = [g for g in goals if isinstance(g, dict) and not _is_done(g)]
+        if active_goals:
+            lines += ["", "═══ CHARACTER GOALS ═══"]
+            for g in active_goals:
+                gname = g.get("name") or g.get("goal_id") or "?"
+                gdesc = g.get("description") or g.get("notes") or ""
+                gprog = g.get("progress")
+                line = f"  • {gname}"
+                if gprog is not None:
+                    line += f"  ({gprog}%)"
+                if gdesc:
+                    short = gdesc.split(".")[0]
+                    if len(short) > 100:
+                        short = short[:97] + "…"
+                    line += f" — {short}"
+                lines.append(line)
+
         self._set_tb("schedule", "\n".join(lines))
 
     def _refresh_narrative_tab(self):
+        """Adventure recap — 3 paragraphs max, sourced from _narrative_summary
+        if hand-written, else auto-condensed from _chapter_history. Quick read,
+        not a chapter-by-chapter log (that's what _chapter_history is for)."""
         e = self.engine
-        lines = ["═══ STORY BEAT ═══", f"  {e.story_beat or '(none)'}"]
-        lines += ["", "═══ CANON POINTER ═══", f"  {e.canon_pointer or '(none)'}"]
-        lines += ["", "═══ NARRATIVE NOTES ═══"]
-        if e.narrative_notes:
-            for note in e.narrative_notes:
-                lines.append(f"  • {note}")
+        lines = []
+
+        # Header — current chapter pointer.
+        ch_num = getattr(e, "_chapter_num", None)
+        ch_title = getattr(e, "_chapter_title", "") or ""
+        ch_status = getattr(e, "_chapter_status", "") or ""
+        if ch_num is not None:
+            header = f"Chapter {ch_num}"
+            if ch_title:
+                header += f" — {ch_title}"
+            if ch_status:
+                header += f"  [{ch_status}]"
+            lines.append(f"  {header}")
+            lines.append("")
+
+        # Source 1: hand-written narrative summary (preferred — author has
+        # already condensed and edited it). Stored as either a single string
+        # or a list of paragraph strings.
+        summary = getattr(e, "_narrative_summary", "") or ""
+
+        if summary:
+            paragraphs = summary if isinstance(summary, list) else [summary]
+            # Cap at 3 paragraphs
+            paragraphs = [p.strip() for p in paragraphs if p and isinstance(p, str)][:3]
+            for i, para in enumerate(paragraphs):
+                lines.append(para)
+                if i < len(paragraphs) - 1:
+                    lines.append("")
         else:
-            lines.append("  (none)")
-        if e.events_active:
-            lines += ["", "═══ ACTIVE EVENTS ═══"]
-            for name, ev in e.events_active.items():
-                lines.append(f"  {name} ({ev.get('type', '?')}) — Stage {ev.get('stage', '?')}/{ev.get('max_stages', '?')} [{ev.get('status', '?')}]")
-                for c_name, c_info in ev.get("combatants", {}).items():
-                    lines.append(f"    {c_name}: {c_info.get('status', '?')}  W:{c_info.get('wins', 0)}")
-                for bout in ev.get("bracket", []):
-                    lines.append(f"    Bout {bout.get('bout', '?')}: {bout.get('a', '?')} vs {bout.get('b', '?')} → {bout.get('winner', '?')} ({bout.get('rounds', '?')}r)")
-                lines.append("")
+            # Source 2: auto-condense from _chapter_history.
+            history = getattr(e, "_chapter_history", None) or []
+            if not history:
+                lines.append("  No chapter history yet. The adventure summary will")
+                lines.append("  appear here once chapters have been written and closed.")
+            else:
+                # Group chapters into 3 buckets: opening (1/3), middle (1/3), recent (1/3).
+                n = len(history)
+                if n <= 3:
+                    buckets = [[ch] for ch in history]
+                else:
+                    third = max(1, n // 3)
+                    buckets = [
+                        history[:third],
+                        history[third:2*third],
+                        history[2*third:],
+                    ]
+
+                paragraph_labels = ["Opening:", "Middle arc:", "Recent:"]
+                for label, bucket in zip(paragraph_labels, buckets):
+                    if not bucket:
+                        continue
+                    # Compose a paragraph from the chapter summaries in this bucket.
+                    pieces = []
+                    for ch in bucket:
+                        if not isinstance(ch, dict):
+                            continue
+                        ch_n = ch.get("chapter", "?")
+                        ch_t = ch.get("title", "")
+                        ch_s = ch.get("summary", "")
+                        # Take only the first sentence of each summary to keep paragraphs short.
+                        first = ch_s.split(". ")[0].strip() if ch_s else ""
+                        if first and not first.endswith("."):
+                            first += "."
+                        head = f"Ch{ch_n}"
+                        if ch_t:
+                            head += f" '{ch_t}'"
+                        pieces.append(f"{head}: {first}")
+                    if pieces:
+                        lines.append(f"  {label}")
+                        lines.append("  " + " ".join(pieces))
+                        lines.append("")
+
         self._set_tb("narrative", "\n".join(lines))
 
 

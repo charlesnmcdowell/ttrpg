@@ -1400,7 +1400,15 @@ def check_tracker_drift(eng, full_data: dict, tracker_path: Path = None) -> dict
     # Prose-to-state mirroring: catch the "JSON has empty fields after N chapters"
     # failure mode without needing to parse prose. Heuristic — flags sparseness
     # that's almost always wrong, but doesn't false-alarm on early-game characters.
-    ms = (full_data or {}).get("mechanical_state", {}) or {}
+    #
+    # IMPORTANT: read from _story_engine_state (where the engine actually loads
+    # items/threat_clocks/force_composition/etc.) and fall back to top-level
+    # mechanical_state (where character-sheet templates put ability_scores/skills).
+    # Reading the wrong block causes every boot to false-positive.
+    ses = (full_data or {}).get("_story_engine_state") or {}
+    msb = (full_data or {}).get("mechanical_state") or {}
+    # Merged view — _story_engine_state wins, mechanical_state fills gaps.
+    ms = {**msb, **ses}
 
     # Inventory: by chapter 3+, every PC should have at least *some* equipped gear.
     # Empty equipped on a chapter-9 character is almost certainly drift.
@@ -1442,12 +1450,16 @@ def check_tracker_drift(eng, full_data: dict, tracker_path: Path = None) -> dict
         main_cast = (full_data or {}).get("main_cast", [])
         # Heuristic: if main_cast has 2+ entries with role mentioning ally/companion/party,
         # the PC probably has a party. Empty force_composition then = drift.
+        # Note: `and` binds tighter than `or` — wrap the `or` block in parens or
+        # the dict-check guard short-circuits past the second/third clauses and
+        # we end up calling .get() on a non-dict main_cast entry. Crash on boot.
         ally_hints = sum(
             1 for x in main_cast
-            if isinstance(x, dict)
-            and "ally" in (x.get("role", "") or "").lower()
-            or "companion" in (x.get("role", "") or "").lower()
-            or "party" in (x.get("role", "") or "").lower()
+            if isinstance(x, dict) and (
+                "ally" in (x.get("role", "") or "").lower()
+                or "companion" in (x.get("role", "") or "").lower()
+                or "party" in (x.get("role", "") or "").lower()
+            )
         )
         if not any_force and ally_hints >= 2:
             result["drift"].append(
