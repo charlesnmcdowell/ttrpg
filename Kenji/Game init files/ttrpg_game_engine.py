@@ -2596,12 +2596,28 @@ class StoryEngine:
         # RELATIONSHIP TRACKER — Numeric disposition with history
         self.relationships = d.get("relationships", {})
         
-        # CONSTRUCT ARMY — Sorcerer's Hegemony (Level 18 perk)
+        # CONSTRUCT ARMY — Sorcerer's Hegemony (Level 18 perk, Kenji-specific)
         # Per-portal tracking: {"Varenholm": {"squads": 3, "warrior": 3, "healer": 3, "mage": 3, "ranger": 3, "destroyed": 2}}
         self.construct_army = d.get("construct_army", {})
         # Population fear per location: 0=none, 1=unsettling, 2=fear, 3=panic, 4=crisis
         self.construct_fear = d.get("construct_fear", {})
         self.hegemony_active = d.get("hegemony_active", False)  # True once Level 18 perk earned
+
+        # FORCE COMPOSITION — character-scoped allies/units the dashboard renders.
+        # Universal slot for ANY character: party (adventurers), pets (animal companions),
+        # summons (active spell-bound entities), constructs (golems/animated units),
+        # and optional hegemony (Kenji's empire-scale construct army, kept here for
+        # rollup; legacy fields above remain populated for back-compat).
+        # Each sub-section is empty/None for characters who don't have that force type.
+        # Schema:
+        #   {
+        #     "party":       {"name": str, "tier": str, "members": [{name, class, role, tier, status}, ...], "contract": str},
+        #     "pets":        [{name, species, role, status}, ...],
+        #     "summons":     [{name, source_spell, duration, status}, ...],
+        #     "constructs":  [{name, type, count, location, status}, ...],
+        #     "hegemony":    null  OR  {active: bool, ...rollup of legacy fields...}
+        #   }
+        self.force_composition = d.get("force_composition", {})
         
         # EVENT PROGRESSION TRACKER — Tournaments, Dungeons, Sieges, etc.
         # Flexible multi-stage event system. Each event has stages (rounds/floors/waves).
@@ -2930,6 +2946,7 @@ class StoryEngine:
             "construct_army": self.construct_army,
             "construct_fear": self.construct_fear,
             "hegemony_active": self.hegemony_active,
+            "force_composition": self.force_composition,
             "events_active": self.events_active,
             "canon_pointer": self.canon_pointer,
             "story_beat": self.story_beat,

@@ -286,17 +286,27 @@
     "copper": 90,
     "meals": 1,
     "equipped": [
-      "Isolde's Enchanted Earrings (+2 CHA, adv Persuasion & Performance) — worn at all times, never removed"
+      "Anklet of Unarmed Combat (mithril links, +4 DEX, kicks count as weapons — 6d8 + DEX mod, gold filigree flares on power kicks; requires silver-paste re-application every ~30 min of combat) — attuned, worn at all times",
+      "Healer's Ring (silver band; when Cookie heals an ally, their max HP flows back to her as temp HP until combat ends — at the cost of one-turn aggro redirect onto Cookie) — worn at all times",
+      "Isolde's Enchanted Earrings (+2 CHA, adv Persuasion & Performance) — worn at all times, never removed",
+      "V.E.A. performer stamp (3-month authorization, inked on right wrist) — on her body",
+      "Green ensemble — Gilded Thread performance outfit currently worn (Day 9 travel/fieldwork attire)"
     ],
     "satchel": [
-      "V.E.A. performer stamp (3-month)",
+      "Yellow Gilded Thread piece (packed for Sunken Playhouse trip)",
+      "Indigo Maeven dress (packed)",
+      "Daily wrap (packed, utility/sleep wear)",
       "Charcoal stick",
       "Packed bag from home"
     ],
-    "consumables": {},
+    "consumables": {
+      "silver_paste_reapplications": 3
+    },
     "key_items": [
-      "4 performance outfits from Gilded Thread (picked up Day 4)",
-      "Isolde's Enchanted Earrings (+2 CHA, adv Persuasion & Performance) — EQUIPPED, worn at all times"
+      "Anklet of Unarmed Combat (Day 2-3 enchanter, +4 DEX, kicks=6d8 weapons) — campaign-defining combat artifact",
+      "Healer's Ring (Day 2-3 enchanter, heal-to-temp-HP with aggro redirect) — campaign-defining support artifact",
+      "Isolde's Enchanted Earrings (+2 CHA, adv Persuasion/Performance) — Day 5 acquisition, social artifact",
+      "4 performance outfits from Gilded Thread (Day 4): green (worn), yellow (packed), indigo Maeven (packed), daily wrap (packed)"
     ],
     "buffs": {},
     "statuses": [
@@ -919,6 +929,14 @@
       }
     ],
     "class_features": [
+      {
+        "name": "Heartstring",
+        "type": "ember_passive",
+        "description": "Ember-class passive aura, always on. Sound bends around Cookie's movement; humanoids within audible/visual range fail a WIS save and lean toward her without realizing they've moved. Distinct from Heartstring-active casts — this is the constant ambient resonance, the reason NPCs go pink around the edges within seconds of seeing her.",
+        "mechanical_effect": "Passive aura (always on; no action required). Any humanoid who can see/hear Cookie makes a WIS DC 12 save on first contact each scene. On fail, target is fascinated/biased favorably toward Cookie (NPCs lean in, voices go up a quarter-step, attention sticks). On success, target consciously holds against the pull. Disabled only if Ember is fully nullified. Stacks with The Great User (gender×disposition behavior split) and Fans Out of Control (stalker/assassin/secret-guard layer).",
+        "design_note": "This is the foundation that The Great User and Fans Out of Control build on top of. Without Heartstring catching an NPC, those two perks don't activate. DM should roll the WIS DC 12 the first time each humanoid encounters Cookie in a scene — pass/fail determines whether downstream perks fire on that NPC.",
+        "level_gained": 1
+      },
       {
         "name": "Dance Inspiration",
         "type": "class",
