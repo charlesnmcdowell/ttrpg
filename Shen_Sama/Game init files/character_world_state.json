@@ -1,0 +1,552 @@
+{
+  "_comment": "STARTER CAMPAIGN TEMPLATE — Copy to <NewPC>/Game init files/character_world_state.json. Fill player_input first, then generate the campaign package. See universe_campaign_framework.md § 2 for the full system.",
+  "_save_version": 1,
+  "_saved_at": "2026-05-02T02:42:19",
+  "universe": {
+    "id": "combined_realm_v1",
+    "inherits_from_registry": "realm_lore_registry.json",
+    "era": "25 years post-Book 4 — Kingdom of Ankunyx"
+  },
+  "player_input": {
+    "name": "Shen Sama",
+    "gender": "",
+    "race": "Ankuspawn True Dragon",
+    "class_concept": "Legendary Hero (Monk/Barbarian)",
+    "background": "Son of Vorathiel (Dragon God Queen) and Kenji (Dragon Emperor) — the egg-child from Kenji's pregnancy with Vorathiel. Older half-brother to Ignis. Raised in the Dragonspine mountains under his mother's strict command. Aging unusually fast for a true dragon (looks 24 at hatching+24-yr development). The first Ankuspawn True Dragon ever recorded.",
+    "personal_goal": "Break free from Vorathiel today, his 24th birthday. Make for Varenholm, join the Adventurer's Guild at Iron tier, climb to Diamond. Heard rumors of his sister Ignis's fame — wants his own legend.",
+    "starting_region_preference": "mountains",
+    "appearance": {},
+    "exp_archetype": "combat",
+    "support_archetype": ""
+  },
+  "inherited_lore": {
+    "sources": [
+      "shared_world_continuity.md",
+      "realm_lore_registry.json",
+      "Amaris/Game init files/amaris_state.json",
+      "Kenji/Game init files/kenji_state.json",
+      "ankuspawn_race.md"
+    ],
+    "player_knowledge": "",
+    "dm_only_crossover_hooks": "",
+    "lore_seed": "[Construct portal network — forgotten node] An ancient stone archway in the ruins hums faintly at dawn. A dwarf trader mentions the old portal network 'had more nodes than the maps show.' (Connects to: Pre-kingdom portal infrastructure)"
+  },
+  "locations": {
+    "_rule": "Every new character adds exactly 3 locations to the world map.",
+    "home_base": {
+      "name": "[NAME — Shen Sama's home base]",
+      "type": "",
+      "from_worlds_middle": "mining, dwarven influence, dragon territory nearby",
+      "from_crown_realm": "border — dwarven/dragon jurisdiction overlaps",
+      "terrain_and_vibe": "",
+      "population_or_scale": "",
+      "nearest_named_anchor": "Dragonspine",
+      "travel_time_to_major_hub": "2-3 weeks to Varenholm, mountain passes",
+      "connection_to_character": "Tied to Shen Sama's background: Son of Vorathiel (Dragon God Queen) and Kenji (Dragon Emperor) — the egg-child from Kenji's pregnanc",
+      "key_npcs_here": [],
+      "registry_entry": "[One sentence — Shen Sama's starting settlement near Dragonspine]"
+    },
+    "adventure_site": {
+      "name": "[NAME — dangerous site near Dragonspine]",
+      "type": "",
+      "distance_from_home_base": "1-3 days travel",
+      "terrain_and_vibe": "",
+      "why_dangerous": "Base of operations for Cult Leader (Warlock/Cleric). Threatens Shen Sama's goal: Break free from Vorathiel today, his 24th birthday. Make for Varenholm, join the",
+      "key_npcs_here": [],
+      "registry_entry": "[One sentence — Cult Leader's lair near Dragonspine]"
+    },
+    "discovery_location": {
+      "name": "[NAME — hidden/forgotten site in mountains region]",
+      "type": "",
+      "connection_to_existing_lore": "Pre-kingdom portal infrastructure",
+      "what_the_player_learns_here": "An ancient stone archway in the ruins hums faintly at dawn. A dwarf trader mentions the old portal network 'had more nodes than the maps show.'",
+      "key_npcs_here": [],
+      "registry_entry": "[One sentence — discovery site, connects to Construct portal network — forgotten node]"
+    }
+  },
+  "ember_inheritance": {
+    "_rule": "Ankuspawn True Dragon — first of his kind. Theme override: Body Enhancement + Damage Reflection (combined Vorathiel/Kenji inheritance). Theme-locked.",
+    "theme": "body_enhancement",
+    "theme_description": "Shen's Ember manifests as raw physical amplification — every muscle fiber, bone density, and reflex arc burns with green dragon-fire energy when active. Damage that lands on him bleeds back into his attackers as the same green flame. He is the body that becomes the weapon.",
+    "abilities": {
+      "passive": {
+        "name": "Green-Fire Reflection Aura",
+        "description": "Always-on when Ember is active. Any creature that strikes Shen in melee takes a portion of the damage they deal back as green dragon-fire. Visible as a faint green halo around his bare skin during combat.",
+        "mechanical_effect": "When Shen takes melee damage from a humanoid or beast attacker, the attacker takes 50% of the damage dealt as green-fire (fire damage). Doubles to 100% reflection when Shen is enraged. Disabled if Ember is nullified."
+      },
+      "active": {
+        "name": "Body Enhancement Surge",
+        "description": "Shen channels Ember into his body for a burst of physical amplification — punches crater stone, claws cut iron, his roar shakes a cliff face.",
+        "mechanical_effect": "Bonus action. For 1 minute: STR/DEX/CON saving throws auto-succeed against non-magical effects, unarmed/claw damage doubles, AC +2 from green-fire shield. 4 uses/day.",
+        "uses_per_day": "4 (scales with level)"
+      },
+      "surge": {
+        "name": "Dragon Form Transformation",
+        "description": "Shen transforms into an adult black dragon — wings extended, scales fully black with green-fire seams, dragon breath unlimited. The transformation requires open space (>40 ft clearance) and the act causes terror in any nearby civilization.",
+        "mechanical_effect": "Action. Transform for up to 1 hour or until dismissed. Stats: gain flight (100 × DEX feet/round travel), unlimited green-fire breath weapon (60-ft cone, save DC = 8 + prof + CON, 8d6 fire), claws become 3d10 + STR slashing, natural AC 18, dragon HP equal to (Shen's max HP × 4). Side effects: causes Fear (WIS DC 14) in any non-dragon humanoid within 100 ft; civilizations log the form as 'monster' and may attack on sight afterward; some Council factions may attempt to capture/kill on principle.",
+        "exhaustion_cost": "1 level of exhaustion after dismissal; cannot reactivate for 24 hours"
+      }
+    },
+    "theme_lock": [
+      "This Ember ONLY enhances: Body amplification (strength, speed, durability), damage reflection, dragon-form transformation, green-fire breath.",
+      "REFUSES to enhance: spell-like abilities, charm/persuasion, intricate fine-motor work (lockpicking, scribing), healing others (only self-regenerates), illusion/stealth (Shen radiates presence)."
+    ],
+    "growth_stage": "active",
+    "nyx_harvest_value": {
+      "extract_type": "Green-fire dragon-essence (true-dragon-grade)",
+      "elixir_product": "Dragon-blooded battle stimulants, scale-armor treatments, fire-breathing infusions",
+      "target_priority": "EXTREME — first Ankuspawn True Dragon ever; Cult of Anku will kill multiple cells to take him alive"
+    },
+    "true_dragon_bonus": {
+      "_rule": "Stacks on top of base ability scores. Applied separately when Ember is active vs not.",
+      "ember_inactive": "+1 to every ability score per year alive (Shen at 24 = +24 to every stat). Reverts to base on Ember nullification.",
+      "ember_active": "10x multiplier — +10/year/stat. At 24 years that's +240 to every stat. This is the design-justification for him being a 'Legendary Hero' tier fresh out the gate while still mechanically L1 in Adventurer's Guild rank.",
+      "design_note": "Shen's ranks (Adventurer's Guild Iron → Diamond) reflect his EARNED reputation, not raw power. He's a demigod-tier walking weapon who hasn't proven anything to civilization yet. CHA 4 means people see the monster long before they see the man."
+    }
+  },
+  "antagonist": {
+    "_rule": "Scaled for levels 5-8.",
+    "name": "[NAME — Cult Leader]",
+    "level_range": "7–9",
+    "race_and_class": "Warlock/Cleric",
+    "motivation": "[Fill: why this Cult Leader specifically conflicts with 'Break free from Vorathiel today, his 24th birthday. Make for Varenholm, join the Adventurer's Guild at Iron tier, climb to Diamond. Heard rumors of his sister Ignis's fame — wants his own legend.']",
+    "relationship_to_goal": "corrupt | destroy",
+    "base_of_operations": "adventure_site",
+    "lieutenants": [
+      {
+        "name": "[Lieutenant 1]",
+        "role": "Cult Leader's enforcer",
+        "location": "adventure_site"
+      },
+      {
+        "name": "[Lieutenant 2]",
+        "role": "Spy/informant in home base",
+        "location": "home_base"
+      },
+      {
+        "name": "[Lieutenant 3]",
+        "role": "Guard at discovery location",
+        "location": "discovery_location"
+      }
+    ],
+    "defeat_consequences": "[Fill: what changes in the mountains region when the Cult Leader falls]"
+  },
+  "campaign_spine": {
+    "_rule": "The personal goal is achievable by level 5-6.",
+    "phase_1_arrival": {
+      "levels": "1-3",
+      "summary": "",
+      "key_scenes": [
+        "Shen Sama arrives at home base. Meets 2-3 friendly NPCs.",
+        "Learns that Break free from Vorathiel today, his 24th birthday. Make for Varenholm, join the Adventurer's Guild at Iron tier, climb to Diamond. Heard rumors of his sister Ignis's fame — wants his own legend. is possible but something blocks it.",
+        "First encounter with the Cult Leader's influence (not the villain directly)."
+      ],
+      "goal_status": "visible but obstructed"
+    },
+    "phase_2_achievement": {
+      "levels": "4-6",
+      "summary": "",
+      "key_scenes": [
+        "Shen Sama achieves the goal: Break free from Vorathiel today, his 24th birthday. Make for Varenholm, join the Adventurer's Guild at Iron tier, climb to Diamond. Heard rumors of his sister Ignis's fame — wants his own legend.",
+        "Celebration or quiet victory — then the Cult Leader notices.",
+        "First direct threat to what was just built."
+      ],
+      "goal_status": "achieved — now under threat"
+    },
+    "phase_3_defense": {
+      "levels": "7-9",
+      "summary": "",
+      "key_scenes": [
+        "The Cult Leader attacks what Shen Sama built/found.",
+        "Allies are tested. One NPC may betray or be captured.",
+        "Discovery location found — reveals connection to broader world."
+      ],
+      "goal_status": "threatened — fight to keep it"
+    },
+    "phase_4_confrontation": {
+      "levels": "10",
+      "summary": "",
+      "key_scenes": [
+        "Assault on the adventure site to end the Cult Leader permanently.",
+        "Shen Sama's goal is secured. Home base is safe.",
+        "Lore seed payoff: Construct portal network — forgotten node — hook for continuation."
+      ],
+      "goal_status": "secured permanently"
+    }
+  },
+  "main_cast": [
+    {
+      "name": "[Ally 1 — home base]",
+      "role": "ally",
+      "location": "home_base",
+      "want": "Wants to help Shen Sama achieve their goal",
+      "voice_hook": "[Speech pattern]",
+      "lore_connection": ""
+    },
+    {
+      "name": "[Mentor — home base]",
+      "role": "mentor",
+      "location": "home_base",
+      "want": "Peace and quiet after a long life",
+      "voice_hook": "[Speech pattern]",
+      "lore_connection": "[Optional: served in the coalition, knew someone from Dragonspine]"
+    },
+    {
+      "name": "[Merchant — home base]",
+      "role": "merchant",
+      "location": "home_base",
+      "want": "Profit, but fair about it",
+      "voice_hook": "[Speech pattern]",
+      "lore_connection": ""
+    },
+    {
+      "name": "[Lore Bridge NPC]",
+      "role": "lore_bridge",
+      "location": "discovery_location",
+      "want": "Someone to understand what this place was",
+      "voice_hook": "[Speech pattern]",
+      "lore_connection": "Connects to Pre-kingdom portal infrastructure. This NPC teaches the player about the broader world."
+    },
+    {
+      "name": "[Cult Leader]",
+      "role": "antagonist",
+      "location": "adventure_site",
+      "want": "[Fill: what the Cult Leader wants that conflicts with Shen Sama's goal]",
+      "voice_hook": "[Speech pattern]",
+      "lore_connection": ""
+    }
+  ],
+  "extra_npcs": {
+    "_rule": "Improvised NPCs. See dm_rules_tracking.md NPC Lifecycle.",
+    "npcs": [
+      {
+        "name": "",
+        "alignment": "",
+        "tier": "extra | promoted",
+        "introduced_chapter": 0,
+        "promotion_chapter": null,
+        "job_excuse": "",
+        "doom_clock": {
+          "goal": "",
+          "deadline_chapter": null,
+          "warning_stage": "early | mid | late | due",
+          "dialogue_hints": []
+        },
+        "status": "active",
+        "redirect_to_main_cast": ""
+      }
+    ]
+  },
+  "dialogue": {
+    "intro_scene": "Shen Sama arrives at [home base]. [First NPC] greets them. The settlement is [describe]. The mood is [describe].",
+    "rumor_mill_examples": [
+      "'Watch the road to [adventure site]. People have gone missing.'",
+      "'Cult Leader has been getting bolder. Used to stay in the [terrain].'",
+      "'There's an old [ruin/cave/structure] east of here nobody goes near. Bad air, they say.'"
+    ],
+    "antagonist_confrontation_line": "[Cult Leader's threatening speech when they first confront Shen Sama]",
+    "discovery_reveal_moment": "The moment Shen Sama realizes this place connects to something bigger: Construct portal network — forgotten node",
+    "peaceful_outro_hint": "With the Cult Leader gone, [home base] thrives. Shen Sama's goal — Break free from Vorathiel today, his 24th birthday. Make for Varenholm, join the Adventurer's Guild at Iron tier, climb to Diamond. Heard rumors of his sister Ignis's fame — wants his own legend. — stands. But the lore seed lingers..."
+  },
+  "success_state": "Shen Sama's goal (Break free from Vorathiel today, his 24th birthday. Make for Varenholm, join the Adventurer's Guild at Iron tier, climb to Diamond. Heard rumors of his sister Ignis's fame — wants his own legend.) is permanently secured. The Cult Leader is defeated. All three locations are safe and added to the world map. The lore seed (Construct portal network — forgotten node) is revealed but unresolved — hook for continuation.",
+  "failure_state": "The Cult Leader destroys or corrupts what Shen Sama built. The home base suffers — NPCs displaced, resources lost. The region degrades. Future characters inherit a damaged area.",
+  "post_campaign": {
+    "_note": "At level 10+, snapshot this file.",
+    "snapshot_status": "not_started",
+    "continuation_hooks": ""
+  },
+  "mechanical_state": {
+    "_merge_note": "StoryEngine preserves unknown top-level keys on save.",
+    "level": 1,
+    "class": "Legendary Hero (Monk/Barbarian — Ankuspawn True Dragon)",
+    "hit_die": "d12 (dragon-tier — averages 7+CON per level)",
+    "hp": 19,
+    "proficiency_bonus": 2,
+    "ability_scores": {
+      "_rule": "Player-specified base stats. Heritage adjustments and true-dragon bonus stack on top per ember_inheritance.true_dragon_bonus. Numbers below are BASE — see active_perks for the dragon-bonus accumulators.",
+      "STR": {"base": 18, "racial": 0, "final": 18, "mod": 4},
+      "DEX": {"base": 10, "racial": 0, "final": 10, "mod": 0},
+      "CON": {"base": 20, "racial": 0, "final": 20, "mod": 5},
+      "INT": {"base": 10, "racial": 0, "final": 10, "mod": 0},
+      "WIS": {"base": 10, "racial": 0, "final": 10, "mod": 0},
+      "CHA": {"base":  4, "racial": 0, "final":  4, "mod": -3}
+    },
+    "saving_throws": {
+      "proficient": ["STR", "CON"],
+      "STR_save": "+6 (prof +2, STR +4)",
+      "CON_save": "+7 (prof +2, CON +5)",
+      "CHA_save": "-3 (CHA penalty — vulnerable to all charm/social effects)"
+    },
+    "skills": {
+      "Athletics": "+6 (prof +2, STR +4)",
+      "Intimidation": "+2 (CHA -3 + Dragon Presence +5 from green-fire aura)",
+      "Survival": "+2 (prof +2, WIS +0)",
+      "Acrobatics": "+2 (prof +2, DEX +0)",
+      "Perception": "+2 (prof +2, WIS +0)",
+      "_note": "CHA-based skills (Persuasion, Deception, Performance) are NOT proficient and use base CHA -3. Persuasion is the gating skill for civilized-area entry — see character_flaw."
+    },
+    "AC": 14,
+    "AC_note": "Natural dragon-scale AC. Base 10 + DEX(0) + Natural Armor(+4) = 14. No armor worn (monk pants only). Adding armor disables Body Enhancement Surge AC bonus.",
+    "starting_gold": "0 GP — left the mountain with nothing but monk pants and the tattoo on his chest. Will need to earn his first coin in Varenholm.",
+    "character_flaw": "CHA 4 — Raised in the Dragonspine peaks under Vorathiel's law where customs are draconic, not humanoid. Shen has no civilized finesse. People are creeped out and terrified before they notice he's not ugly. Guards and civilized authorities default to attack-on-sight unless someone vouches for him. PERSUASION ROLL REQUIRED on first entry to any settlement: DC 18 to avoid being attacked on sight as a wandering monster. With CHA -3, base d20 -3 — his only realistic path is having a vouching ally, demonstrating an Adventurer's Guild credential, or explicit Council/named-character introduction.",
+    "exp_archetype": "combat",
+    "support_archetype": ""
+  },
+  "_story_engine_state": {
+    "_comment": "StoryEngine runtime block for Shen Sama. Day 1 = his 24th birthday, dawn, leaving Vorathiel's ledge for Varenholm.",
+    "char_name": "Shen Sama",
+    "campaign_type": "starter",
+    "level": 1,
+    "exp": 0,
+    "hp": 19,
+    "max_hp": 19,
+    "temp_hp": 0,
+    "ac": 14,
+    "day": 1,
+    "hour": 6,
+    "location": "Dragonspine peaks — Vorathiel's natal ledge (Day 1, dawn, Shen's 24th birthday departure)",
+    "weather": "Mountain dawn — cold air, granite ledges, cloud bank below the peak",
+    "gold": 0,
+    "silver": 0,
+    "copper": 0,
+    "meals": 0,
+    "hours_since_meal": 0,
+    "spell_slots": {
+      "_comment": "Shen does not use spell slots — he's a Monk/Barbarian dragon. Combat resources are tracked under `charges` and `class_features`."
+    },
+    "equipped": [
+      "Black dragon-tattoo (chest + left arm — pulses with green-fire when Ember active; identifies him as Vorathiel-line dragon to anyone who knows the markings)",
+      "Monk-style trousers (rough-spun, mountain-grade, all he owns)",
+      "Dragon claws (left hand) — black-scale gauntlet form, natural — count as weapons (1d8 + STR slashing, finesse, light)",
+      "Dragon claws (right hand) — black-scale gauntlet form, natural — same stats; both hands free-action retract/extend",
+      "Green-fire breath weapon (innate) — 30-ft cone, 2d6 fire, DEX DC 13 save half. 4 uses/day at L1 (scales with level).",
+      "Bare feet (no shoes — calluses thick enough to count as natural sole armor on rough terrain)"
+    ],
+    "satchel": [],
+    "consumables": {},
+    "key_items": [
+      "Vorathiel's parting gift (a single black dragon scale, palm-sized — Shen took it before he left; she does not yet know it's missing)",
+      "His own name in formal dragon-tongue (only thing his mother gave him willingly — a spoken sigil that other true dragons recognize)"
+    ],
+    "buffs": {},
+    "statuses": [],
+    "charges": {
+      "Green-fire breath": [4, 4],
+      "Body Enhancement Surge": [4, 4],
+      "Dragon Form Transformation": [1, 1]
+    },
+    "portals": {},
+    "portal_max": 0,
+    "events": [
+      {
+        "name": "Vorathiel notices Shen has left the peak",
+        "day": 1,
+        "hour": 18,
+        "type": "deadline",
+        "priority": "HIGH",
+        "notes": "Once the sun crosses noon and Vorathiel returns to the ledge from her hunting flight, she'll know. Cross-campaign consequence: Vorathiel will track him; Kenji's tracker (still in the Hearthstead) may register the activation.",
+        "status": "ACTIVE"
+      },
+      {
+        "name": "Reach Varenholm — first journey",
+        "day": 18,
+        "type": "deadline",
+        "priority": "MEDIUM",
+        "notes": "On foot through Dragonspine passes is 2-3 weeks; flight could compress to 1-2 days but draws attention. Travel choice gates which faction notices him first.",
+        "status": "ACTIVE"
+      }
+    ],
+    "quests": [],
+    "squads": {},
+    "assets": [],
+    "threat_clocks": {
+      "Vorathiel's pursuit": {
+        "progress": 0,
+        "rate": 4,
+        "faction": "Vorathiel (Dragon God Queen, mother)",
+        "description": "Vorathiel will discover Shen has left the ledge by Day 1 evening. Her pursuit has three modes: (1) territorial dragon-instinct anger, (2) maternal possessiveness, (3) political — she does not want a half-Kenji son loose in the kingdom signaling the existence of an Ankuspawn True Dragon. Rate accelerates after she finds out.",
+        "trigger": "Vorathiel personally intercepts Shen — likely in the air over the mountains or on a road approaching a populated area. Cannot be defeated at L1; can only be evaded, negotiated with, or sheltered behind a third-party authority."
+      },
+      "Civilization first-contact": {
+        "progress": 0,
+        "rate": 25,
+        "faction": "Generic civilized authority",
+        "description": "Each populated area Shen approaches activates the CHA-flaw attack-on-sight check. Persuasion DC 18 to avoid lethal response. With CHA -3 and no proficiency, he needs vouching, credentials, or a memorable demonstration of restraint.",
+        "trigger": "First town entry. Either Shen passes the social check, gets vouched for, OR is attacked by guards and must choose to flee or fight (and fighting at L1 vs town guards is winnable but instantly criminalizes him)."
+      },
+      "Cult of Anku — first dragon Ankuspawn": {
+        "progress": 5,
+        "rate": 1,
+        "faction": "Cult of Anku",
+        "description": "The Cult has been hunting gold-eyed Ankuspawn for years. A True Dragon Ankuspawn — the FIRST EVER — is a different category of target. Once they confirm his existence, harvest priority becomes EXTREME. They do not yet know about him.",
+        "trigger": "Cult operative visually confirms Shen mid-transformation or hears an eyewitness account of Dragon Form. From that moment Shen has a permanent, escalating tail."
+      }
+    },
+    "npc_agendas": {},
+    "org_plots": {},
+    "world_events": [],
+    "consequences": [],
+    "reputation": {},
+    "relationships": {},
+    "construct_army": {},
+    "construct_fear": {},
+    "hegemony_active": false,
+    "force_composition": {
+      "_comment": "Shen is solo at Day 1. No party, no pets, no summons. May acquire allies post-Varenholm.",
+      "party": {},
+      "pets": [],
+      "summons": [],
+      "constructs": [],
+      "hegemony": null
+    },
+    "encounter_log": [],
+    "events_active": {},
+    "canon_pointer": "Day 1 dawn, Dragonspine peaks — Shen's 24th birthday, departing his mother's ledge. First Ankuspawn True Dragon ever. No civilization contact yet.",
+    "story_beat": "Shen Sama, age 24, son of Vorathiel and Kenji, has waited for this morning. The ledge is empty — Vorathiel left at dawn for hunting flight. He has packed nothing. He is about to walk down out of the Dragonspine peaks for the first time in his life. Goal: Varenholm. Adventurer's Guild. Iron tier first. Diamond eventually.",
+    "narrative_notes": [
+      "First Ankuspawn True Dragon recorded — unique heritage, mechanical implications scaled per ember_inheritance.true_dragon_bonus.",
+      "Cross-campaign ties: father Kenji (retired at the Hearthstead post-Book-4); mother Vorathiel (Dragon God Queen, Dragonspine peaks); half-sister Ignis (famous, location unknown to Shen); half-sister Cookie (Master of Voice in Varenholm — Shen does NOT yet know she exists).",
+      "Cookie meeting moment is a major potential beat — Cookie just earned Bard School Prodigy in Varenholm; if Shen reaches the Adventurer's Guild there, the half-siblings cross paths.",
+      "CHA 4 is the campaign-defining flaw. Almost every social check fails without intervention.",
+      "Dragon Form transformation is a campaign-altering escalation when used in civilization — guards Shen does NOT use it lightly."
+    ],
+    "active_perks": [
+      {
+        "name": "True Dragon Bonus",
+        "type": "racial",
+        "level_gained": 0,
+        "summary": "+1 to every ability score per year alive. At 24 years that's +24 to every stat. Stacks on base; reverts on Ember nullification.",
+        "mechanical_effect": "Base ability scores get +24 added across the board when computing rolls. With Ember active, the bonus multiplies 10x (effective +240). Disabled if Ember is nullified — reverts to base scores immediately. NOTE: this perk is tracked separately from the displayed mechanical_state.ability_scores numbers; the dashboard shows base values, but the effective dragon-bonused numbers apply at the table.",
+        "design_note": "He's mechanically a demigod-tier walking weapon. The L1 Adventurer's Guild rank reflects his EARNED reputation, not his combat power. CHA 4 keeps him from simply solving every problem with his fists."
+      },
+      {
+        "name": "Green-Fire Reflection Aura",
+        "type": "ember_passive",
+        "level_gained": 0,
+        "summary": "When struck in melee, attackers take 50% of the damage they dealt back as green dragon-fire. Doubles to 100% when Shen is enraged.",
+        "mechanical_effect": "Passive while Ember is active. Melee attacker takes (damage_dealt × 0.5) as fire damage. If Shen is in Rage, multiplier becomes 1.0. Disabled if Ember nullified."
+      },
+      {
+        "name": "Body Enhancement (Ember Active)",
+        "type": "ember_passive",
+        "level_gained": 0,
+        "summary": "Always-on body amplification when Ember is on. Unarmed/claw damage doubles, STR/CON saves auto-pass non-magical, +2 AC.",
+        "mechanical_effect": "While Ember active: (a) STR/DEX/CON saving throws auto-succeed against non-magical effects, (b) unarmed and claw damage doubles, (c) AC +2 from green-fire shield. Costs nothing — always on with the Ember."
+      },
+      {
+        "name": "Charisma Flaw (Mountain-Raised Monster)",
+        "type": "quirk",
+        "level_gained": 0,
+        "summary": "CHA 4. Civilized authorities default to attack-on-sight unless vouched for. Persuasion DC 18 to avoid hostile reception.",
+        "mechanical_effect": "First entry into ANY populated area triggers a Persuasion DC 18 check. Shen rolls d20 + (-3 CHA). With base, his max possible roll is 17 — he CANNOT pass without external help (vouching, credentials, demonstrated restraint, or a Heartstring-touched proxy doing the talking). On fail, guards/civilians attack on sight or flee + summon authority. CHA-tagged abilities (Persuasion, Deception, Performance, Intimidation-without-presence) all use raw -3.",
+        "design_note": "This is the campaign's central social tension. Shen needs SOMEONE to vouch for him to enter any town. That someone is the chapter-opening hook for the entire arc."
+      }
+    ],
+    "class_features": [
+      {
+        "name": "Dragon Claws",
+        "type": "natural_weapon",
+        "level_gained": 1,
+        "summary": "Black-scale claws extend on free action from either hand. 1d8 + STR slashing, finesse, light, count as magical weapons.",
+        "mechanical_effect": "Free action to extend or retract. Each hand: 1d8 + STR slashing (light, finesse). Counts as magical weapon for resistance/immunity bypass. Two-handed claw attack as Extra Attack at L5."
+      },
+      {
+        "name": "Green-Fire Breath",
+        "type": "racial_breath_weapon",
+        "level_gained": 1,
+        "summary": "30-ft cone of green dragon-fire. 2d6 fire damage, DEX DC 13 save for half. 4 uses/day, scales with level.",
+        "mechanical_effect": "Action. 30-ft cone (60 ft at L5, 90 ft at L11). 2d6 fire damage scaling +1d6 every odd level (max 8d6 at L13). DEX save DC = 8 + prof + CON. 4 uses/day at L1, scales to 6 uses at L5, unlimited in Dragon Form.",
+        "uses_per_day": "4 (charges tracked)"
+      },
+      {
+        "name": "Dragon Form Transformation",
+        "type": "ember_surge",
+        "level_gained": 1,
+        "summary": "Transforms into an adult black dragon. Flight (100 × DEX feet/round), unlimited breath, 4x HP, fear aura. Civilizations log him as monster.",
+        "mechanical_effect": "Action to transform; can dismiss at will. Duration up to 1 hour. Stats in dragon form: HP × 4, AC 18 natural, claws 3d10+STR, breath unlimited, flight at 100 × DEX feet/round (DEX 10 = 1000 ft/round). Side effects: WIS DC 14 fear in non-dragon humanoids within 100 ft; civilization records flag him as monster permanently after first sighting; cannot transform in spaces narrower than 40 ft clearance. 1 use/day, 1 exhaustion after dismissal, 24-hour cooldown.",
+        "uses_per_day": "1 (charges tracked)"
+      },
+      {
+        "name": "Body Enhancement Surge",
+        "type": "ember_active",
+        "level_gained": 1,
+        "summary": "Bonus action to channel a 1-minute burst — claw damage doubles again, all physical saves auto-pass non-magical, +2 AC stacking.",
+        "mechanical_effect": "Bonus action. 1 minute duration. Stacks ON TOP of passive Body Enhancement: claw/unarmed damage gains another +50%, additional +2 AC, advantage on STR/DEX/CON saves vs all sources (including magical). 4 uses/day, charges tracked.",
+        "uses_per_day": "4 (charges tracked)"
+      },
+      {
+        "name": "Rage (Barbarian)",
+        "type": "class",
+        "level_gained": 1,
+        "summary": "When raged, melee damage gets +2, resistance to bludgeoning/piercing/slashing, and Green-Fire Reflection doubles to 100%.",
+        "mechanical_effect": "Bonus action. Lasts up to 1 minute or until Shen ends turn without attacking/being damaged. While raging: +2 damage on STR-based melee, resistance to B/P/S, Green-Fire Reflection Aura doubles to 100%. Cannot cast spells (he doesn't have any). 2 uses/day at L1."
+      },
+      {
+        "name": "Martial Arts (Monk-side)",
+        "type": "class",
+        "level_gained": 1,
+        "summary": "Unarmored Defense: AC = 10 + DEX + WIS. Bonus action unarmed strike. Counts dragon claws as monk weapons.",
+        "mechanical_effect": "AC = 10 + DEX(0) + WIS(0) = 10 base; current 14 from natural dragon scales overrides. Bonus action unarmed/claw strike when taking the Attack action. Dragon claws qualify as monk weapons for Flurry of Blows scaling at L2+."
+      }
+    ],
+    "exp_to_next_level": 3000,
+    "exp_history": [],
+    "_chapter": 1,
+    "_chapter_status": "OPEN",
+    "_chapter_title": "The Ledge"
+  },
+  "_chapter": 1,
+  "_chapter_status": "OPEN",
+  "_chapter_title": "The Ledge",
+  "_chapter_history": [],
+  "_narrative_summary": [
+    "Shen Sama is the firstborn of Vorathiel, the Dragon God Queen, and Kenji, the Dragon Emperor — the egg from Kenji's pregnancy with Vorathiel after the Iron Crown War. Hatched and raised on the Dragonspine peaks under his mother's strict territorial law, Shen is the first Ankuspawn True Dragon ever recorded. Aging is unusually fast for a true dragon: at 24 years old he is the size and form of a fully-developed adult, with the dragon-bonus stat scaling that comes with that age. His Ember focuses on body amplification, damage reflection via green dragon-fire, and the ability to transform into an adult black dragon when the ground gives him room.",
+    "Today is his 24th birthday. Vorathiel has flown out for her morning hunt. Shen has packed nothing — monk pants, the black dragon-tattoo on his chest, his claws, his breath, and a single black scale he took from his mother's nest before she woke. He is about to walk down out of the Dragonspine peaks for the first time in his life. He has heard rumors of his half-sister Ignis's fame across the kingdom and wants to make his own — Adventurer's Guild Iron tier in Varenholm, then climb to Diamond. He does NOT yet know that Cookie, another half-sibling (Bard School Prodigy, current Varenholm celebrity), exists.",
+    "The world is going to react to him before he speaks. CHA 4 means he reads as a wandering monster to every settled authority unless someone vouches for him. Vorathiel will notice he's gone by sundown. The Cult of Anku does not yet know he exists, but a True Dragon Ankuspawn would be the most valuable harvest target they've ever tracked. The walk down the mountain is the first thing he's done that wasn't his mother's command."
+  ],
+  "main_cast_extension": {
+    "_note": "Cross-campaign family ties — these NPCs exist in other campaigns and Shen has known-but-distant relationships with them.",
+    "Vorathiel": {
+      "alignment": "CN (dragon, ancient)",
+      "role": "mother / antagonist (initial)",
+      "relationship": {"tier": "Bond", "score": 40, "last_event": "She raised him under strict draconic law for 24 years. Possessive, demanding, isolating. He left without telling her — she'll discover by sundown Day 1. She loves him. She is also a Dragon God who does not want him loose in the kingdom."}
+    },
+    "Kenji (the Dragon Emperor / Hearthstead retiree)": {
+      "alignment": "LN",
+      "role": "father (never met)",
+      "relationship": {"tier": "Acquaintance", "score": 10, "last_event": "Kenji has never met Shen — Vorathiel kept the egg-child secret. Kenji's pregnancy tracker likely registered Shen's birth at the time but he was not informed. Currently retired alone at the Hearthstead in Greymere Valley."}
+    },
+    "Ignis (half-sister)": {
+      "alignment": "CG (presumed)",
+      "role": "sibling (rumor only)",
+      "relationship": {"tier": "Acquaintance", "score": 20, "last_event": "Shen has never met Ignis. He knows only the rumors — fame, songs about her, kingdom-scale reputation. She is the model he's chasing."}
+    },
+    "Cookie (half-sister — UNKNOWN to Shen)": {
+      "alignment": "CG",
+      "role": "sibling (Shen unaware)",
+      "relationship": {"tier": "Unknown", "score": 0, "last_event": "Shen does not know Cookie exists. Cookie is currently in Varenholm, just earned Bard School Prodigy. If Shen reaches the Adventurer's Guild there, the half-siblings cross paths in a major story beat."}
+    }
+  },
+  "persistent_effects": {
+    "_rule": "Track all status effects, auras, poisons, and debuffs that persist across scenes. Update every chapter. See dm_rules_tracking.md § Poison, Status Effects & Debuff System.",
+    "on_pc": [],
+    "on_pc_from_npcs": [
+      {
+        "effect_name": "",
+        "source": "NPC name or environmental source",
+        "type": "aura | poison | curse | disease | debuff | buff",
+        "mechanical_effect": "What it does mechanically",
+        "duration": "permanent | until_cured | X_hours | X_scenes",
+        "clear_condition": "How to remove it"
+      }
+    ],
+    "known_enemy_buffs": [
+      {
+        "enemy_name": "",
+        "buff_name": "",
+        "effect": "",
+        "source": "natural | elixir | magic | racial"
+      }
+    ]
+  }
+}

@@ -1017,18 +1017,50 @@ class LiveDashboard(ctk.CTk):
         bar = ctk.CTkFrame(tab, fg_color=BG_PANEL, corner_radius=6)
         bar.pack(fill="x", padx=4, pady=(2, 4))
 
-        # Three suggested-action buttons stacked vertically (long text fits cleanly)
+        # Three suggested-action options as click-able frame+label widgets.
+        # Using CTkButton would truncate long option text — CTkLabel inside a
+        # bound frame supports `wraplength` so multi-line options render fully.
         self.play_option_btns = []
         for i in range(3):
-            btn = ctk.CTkButton(
-                bar, text=f"Option {i+1}", anchor="w",
-                fg_color=BG_CARD, hover_color=GOLD_DIM, text_color=TEXT,
-                font=FONT_BODY, height=32, corner_radius=4,
-                command=lambda idx=i: self._play_send_option(idx),
-                state="disabled",
+            row = ctk.CTkFrame(bar, fg_color=BG_CARD, corner_radius=4)
+            row.pack(fill="x", padx=6, pady=2)
+            label = ctk.CTkLabel(
+                row, text=f"Option {i+1}",
+                font=FONT_BODY, text_color=TEXT_DIM,
+                wraplength=700, justify="left", anchor="w",
+                cursor="arrow",   # default cursor when disabled
             )
-            btn.pack(fill="x", padx=6, pady=2)
-            self.play_option_btns.append(btn)
+            label.pack(fill="x", padx=10, pady=8)
+
+            # Dynamic wrap — resize wraplength to match the row's rendered
+            # width so labels reflow if the window grows or shrinks.
+            def _on_resize(ev, lab=label):
+                w = max(200, ev.width - 28)
+                lab.configure(wraplength=w)
+            row.bind("<Configure>", _on_resize)
+
+            # Track each option's interactive state — disabled by default until
+            # _play_set_options populates real text.
+            opt_state = {"frame": row, "label": label, "idx": i, "enabled": False}
+            self.play_option_btns.append(opt_state)
+
+            def _on_click(_ev=None, idx=i):
+                if not self.play_option_btns[idx]["enabled"]:
+                    return
+                self._play_send_option(idx)
+            def _on_enter(_ev=None, idx=i):
+                if self.play_option_btns[idx]["enabled"]:
+                    self.play_option_btns[idx]["frame"].configure(fg_color=GOLD_DIM)
+            def _on_leave(_ev=None, idx=i):
+                if self.play_option_btns[idx]["enabled"]:
+                    self.play_option_btns[idx]["frame"].configure(fg_color=BG_CARD)
+
+            row.bind("<Button-1>", _on_click)
+            label.bind("<Button-1>", _on_click)
+            row.bind("<Enter>", _on_enter)
+            label.bind("<Enter>", _on_enter)
+            row.bind("<Leave>", _on_leave)
+            label.bind("<Leave>", _on_leave)
 
         # Custom-input row (Entry + Send)
         custom_row = ctk.CTkFrame(bar, fg_color="transparent")
@@ -1132,22 +1164,31 @@ class LiveDashboard(ctk.CTk):
         tb.see("end")
 
     def _play_set_options(self, options: list) -> None:
-        """Repopulate the three option buttons."""
-        for i, btn in enumerate(self.play_option_btns):
+        """Repopulate the three option widgets — frame+label rather than buttons,
+        so multi-line option text wraps cleanly."""
+        for i, opt in enumerate(self.play_option_btns):
+            label = opt["label"]
+            frame = opt["frame"]
             if i < len(options) and options[i]:
-                btn.configure(text=f"{i+1}. {options[i]}", state="normal")
+                label.configure(text=f"{i+1}. {options[i]}", text_color=TEXT, cursor="hand2")
+                frame.configure(fg_color=BG_CARD, cursor="hand2")
+                opt["enabled"] = True
             else:
-                btn.configure(text=f"Option {i+1}", state="disabled")
+                label.configure(text=f"Option {i+1}", text_color=TEXT_DIM, cursor="arrow")
+                frame.configure(fg_color=BG_CARD, cursor="arrow")
+                opt["enabled"] = False
 
     def _play_set_busy(self, busy: bool) -> None:
         """Disable inputs while a turn is streaming."""
         state = "disabled" if busy else "normal"
-        for btn in self.play_option_btns:
-            # Re-enable only buttons that have an active option text after streaming.
-            if not busy and not btn.cget("text").startswith(("1.", "2.", "3.")):
-                btn.configure(state="disabled")
-            else:
-                btn.configure(state=state)
+        if busy:
+            # Disable all option rows during streaming — clicks ignored.
+            for opt in self.play_option_btns:
+                opt["enabled"] = False
+                opt["frame"].configure(fg_color=BG_CARD, cursor="arrow")
+                opt["label"].configure(text_color=TEXT_DIM, cursor="arrow")
+        # else: option rows are re-enabled by _play_set_options after the
+        # response is parsed; we don't touch them here on the way out.
         self.play_input.configure(state=state)
         self.play_send_btn.configure(state=state)
 
@@ -1171,7 +1212,10 @@ class LiveDashboard(ctk.CTk):
     def _play_apply_response(self, response_text: str, source: str = "?") -> None:
         """Parse a response (from clipboard OR play_response.md) and render
         narrative + options. Resets dev-stage to 'ready'. Idempotent — safe
-        to call from the file-watcher."""
+        to call from the file-watcher.
+
+        After applying, clears play_response.md so the same response cannot
+        be re-applied if the file mtime ticks again. Empty file = idle state."""
         from play_engine import parse_response, Turn
         parsed = parse_response(response_text)
         narrative = parsed.get("narrative", "").strip()
@@ -1198,6 +1242,16 @@ class LiveDashboard(ctk.CTk):
         self._play_set_options(options)
         self._play_update_send_button()
         self.play_input.focus_set()
+
+        # Clear play_response.md so it can't be re-applied next poll cycle.
+        # The empty file represents the idle state between turns.
+        path = getattr(self, "_play_response_path", None)
+        if path is not None:
+            try:
+                path.write_text("", encoding="utf-8")
+                self._play_response_mtime = path.stat().st_mtime
+            except Exception:
+                pass
 
     def _play_send_option(self, idx: int) -> None:
         """Player clicked one of the three suggestion buttons."""

@@ -33,20 +33,42 @@
       "The Ashenveil (Nyx's domain — Ashenveil Academy, open to the living)",
       "Eastern frontier (Thornfield, Briarstone, Greenveil — remote)"
     ],
-    "playable_races_added": ["Ankuspawn"],
+    "playable_races_added": [
+      "Ankuspawn"
+    ],
     "notable_figures_post_timeskip": [
       {
         "name": "Old Guard — Aging Companions",
         "description": "All mortal companions aged to 50s. Retired, settled, or MIA. All prior goals WIPED (25 years). Find-Kenji women all found him, bore Ankuspawn, settled down. Their children (24-25) are the oldest Ankuspawn generation.",
         "mothers_curse": "Women who bore Ankuspawn cannot conceive with other men afterward. Biological/magical side effect of carrying an Ember-touched child. Universal across all of Kenji's ex-lovers. This is why Vess needs Nyx's elixir.",
         "encounter_locations": [
-          {"name": "Pip", "location": "Inn (heartland)", "note": "FROZEN GOAL: missing child — captured by Nyx. Husband helps run inn, no children with him (Mother's Curse). On-ramp to Cult of Anku quest."},
-          {"name": "Amaris", "location": "Farm (Thornfield / Briarstone, eastern frontier)", "note": "Married a local farmer, no children with him (Mother's Curse). Ankuspawn children in their 20s. Moved on from Kenji."},
-          {"name": "Sera", "location": "Stormhaven port", "note": "Darkblades now legitimate maritime security. Semi-retired. Ankuspawn raised on ships."},
-          {"name": "Others", "location": "Various — define when encountered", "note": "Pattern: found husbands, unable to conceive (Mother's Curse). Some MIA."}
+          {
+            "name": "Pip",
+            "location": "Inn (heartland)",
+            "note": "FROZEN GOAL: missing child — captured by Nyx. Husband helps run inn, no children with him (Mother's Curse). On-ramp to Cult of Anku quest."
+          },
+          {
+            "name": "Amaris",
+            "location": "Farm (Thornfield / Briarstone, eastern frontier)",
+            "note": "Married a local farmer, no children with him (Mother's Curse). Ankuspawn children in their 20s. Moved on from Kenji."
+          },
+          {
+            "name": "Sera",
+            "location": "Stormhaven port",
+            "note": "Darkblades now legitimate maritime security. Semi-retired. Ankuspawn raised on ships."
+          },
+          {
+            "name": "Others",
+            "location": "Various — define when encountered",
+            "note": "Pattern: found husbands, unable to conceive (Mother's Curse). Some MIA."
+          }
         ],
         "prior_pcs_as_npcs": "All prior player characters exist as NPCs at their last known state. Campaigns are character-agnostic — any PC can play any campaign. Kenji = wandering Dragon Emperor NPC. Amaris = farmer NPC near Thornfield.",
-        "active_goals_surviving": ["Nyx (Anku conspiracy)", "Elf sisters + Eldest (raising Ousaki)", "Pip (frozen — missing child)"]
+        "active_goals_surviving": [
+          "Nyx (Anku conspiracy)",
+          "Elf sisters + Eldest (raising Ousaki)",
+          "Pip (frozen — missing child)"
+        ]
       },
       {
         "name": "Vess & Mirenne — Coalition Heartland",
@@ -55,7 +77,11 @@
         "description": "Vess rose to Head of the Council for the coalition. She and Mirenne maintain law and order over a mixed society of humans, undead, orcs, and dwarves. Dwarven artisans have cornered the blacksmith and enchantment markets. Vess is rumored to be in an intimate relationship with Korrim 'The Stone' (dwarven thane) — wedding expected this year. Fertility concern: Vess may be seeking Nyx's elixirs to conceive, potentially connecting her to the Cult of Anku plotline without knowing it.",
         "bond": "Soul Nexus bonds to AnkuNyx (both Vess and Mirenne)",
         "location": "Coalition heartland (Varenholm area)",
-        "plot_hooks": ["Korrim wedding (diplomatic event)", "Fertility elixir search (connects to Nyx/Ankuspawn harvesting)", "Human-dwarf political marriage"]
+        "plot_hooks": [
+          "Korrim wedding (diplomatic event)",
+          "Fertility elixir search (connects to Nyx/Ankuspawn harvesting)",
+          "Human-dwarf political marriage"
+        ]
       },
       {
         "name": "The Eldest & Deepwood / Silvandris",
@@ -220,7 +246,6 @@
       "lore_role": "Heartland — Ankuspawn daughter of Kenji (halfling mother). Bard/Dancer. Campaign explores the Cult of Anku threat from a ground-level perspective. First Ankuspawn PC."
     }
   ],
-
   "starter_campaign_locations": [
     {
       "name": "Kettlebrook",
@@ -247,6 +272,33 @@
       "registry_entry": "Hidden ley-line acoustic junction beneath the Sunken Playhouse. Pre-kingdom bard infrastructure, Ember-resonant.",
       "from_crown_realm": "inside kingdom — deep core",
       "added_date": "2026-04-27",
+      "status": "active"
+    },
+    {
+      "name": "[NAME — Shen Sama's home base]",
+      "type": "home_base",
+      "character": "Shen Sama",
+      "registry_entry": "[One sentence — Shen Sama's starting settlement near Dragonspine]",
+      "from_crown_realm": "border — dwarven/dragon jurisdiction overlaps",
+      "added_date": "2026-05-02",
+      "status": "active"
+    },
+    {
+      "name": "[NAME — dangerous site near Dragonspine]",
+      "type": "adventure_site",
+      "character": "Shen Sama",
+      "registry_entry": "[One sentence — Cult Leader's lair near Dragonspine]",
+      "from_crown_realm": "",
+      "added_date": "2026-05-02",
+      "status": "active"
+    },
+    {
+      "name": "[NAME — hidden/forgotten site in mountains region]",
+      "type": "discovery_location",
+      "character": "Shen Sama",
+      "registry_entry": "[One sentence — discovery site, connects to Construct portal network — forgotten node]",
+      "from_crown_realm": "",
+      "added_date": "2026-05-02",
       "status": "active"
     }
   ]
