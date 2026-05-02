@@ -120,12 +120,12 @@ OUTPUT FORMAT (every response):
     }
   },
   "scene": {
-    "day": 9,
-    "hour": 9.5,
-    "location": "Sunken Playhouse causeway, ~100 ft from proscenium pillar, marsh approach",
-    "weather": "Mid-morning sun, mist thinning, frogs gone silent",
-    "story_beat": "",
-    "canon_pointer": ""
+    "day": 18,
+    "hour": 21,
+    "location": "Varenholm Civic Auditorium — backstage dressing-room hallway (Day 18 evening, post-graduation recital)",
+    "weather": "Indoors, lamp-lit, gold-thread parchment in hand, applause still echoing through the stone",
+    "story_beat": "Day 18 graduation recital — Cookie performed 'From Kettlebrook' (Performance roll d20+9+d12 = 28 vs DC 22, margin +6). Full Heartstring resonance bloom on the final chorus. 240-person standing ovation. Ashworth signed the gold-thread parchment backstage: Master of Voice credential, touring eligibility unrestricted, Ashenmere Bardic College guest residency offered. Vess (Council) requested a private word tomorrow. Silka's gold visibly bloomed above her collar during the bridge; she's waiting at the stagedoor wing post-recital, eyes wet, hands clasped, not yet told what she is.",
+    "canon_pointer": "Day 18 evening, Civic Auditorium backstage — Varenholm starter arc CLOSED. Cookie graduated with Master of Voice credential. Silka waiting at stagedoor wing for the truth. Vess wants a private word tomorrow. Ashenmere Bardic College guest residency offered. Lyssa retaliation stalled at 85% (graduation made direct attacks too costly). Reader name still embargoed by Ashworth."
   },
   "equipped": [
     "Anklet of Unarmed Combat (mithril links, +4 DEX, kicks count as weapons — 6d8 + DEX mod, gold filigree flares on power kicks; requires silver-paste re-application every ~30 min of combat) — attuned, worn at all times",
@@ -313,7 +313,7 @@ OUTPUT FORMAT (every response):
     "_comment": "Character-scoped allies/units. Each section empty if Cookie doesn't have that force type. Only populated sections render in the Party tab.",
     "party": {
       "name": "Wardbreakers",
-      "tier": "Bronze contract (12 GP / 3 days, Sunken Playhouse fieldwork)",
+      "tier": "Wardbreaker dependent (Day 10 — Bronze contract closed, formal protection extended; paperwork pending in Varenholm)",
       "members": [
         {
           "name": "Senna Dawnmere",
@@ -323,9 +323,9 @@ OUTPUT FORMAT (every response):
           "status": "active",
           "notes": "Recognized Cookie's Ember at Day 7 funeral. Paternity question deadline = before return to Varenholm. Cross-campaign NPC (Kenji Books 2-4).",
           "relationship": {
-            "tier": "Ally",
-            "score": 50,
-            "last_event": "Bronze contract; paternity-answer deadline locked before return to Varenholm."
+            "tier": "Bond",
+            "score": 80,
+            "last_event": "Day 10 — Cookie confirmed Kenji-as-father under contract terms at the proscenium pillar. Senna refiled the relationship: Bronze contract closed, Wardbreaker dependent status begins. Diamond-tier protection now formally extended."
           }
         },
         {
@@ -355,8 +355,8 @@ OUTPUT FORMAT (every response):
           }
         }
       ],
-      "contract": "12 GP / 3 days. Sunken Playhouse fieldwork (Day 9-11 expected). Senna's term: Cookie answers paternity question before return to Varenholm.",
-      "current_location": "Sunken Playhouse causeway, ~100 ft from proscenium pillar (Day 9, 09:30)"
+      "contract": "Bronze contract Day 9-10 CLOSED. Mission complete. Cookie confirmed Kenji-as-father at the Sunken Playhouse pillar Day 10; Senna refiled the relationship as Wardbreaker dependent rather than client (paperwork pending in Varenholm).",
+      "current_location": "Varenholm — outside the Adventurer's Guild, Crown Quarter (Day 10 dusk). Senna at the Guild desk; Finch overseeing Eira's holding-cell intake; Varn at the temple bunkhouse with the freed villagers."
     },
     "pets": [],
     "summons": [],
@@ -365,48 +365,51 @@ OUTPUT FORMAT (every response):
   },
   "threat_clocks": {
     "Lyssa retaliation": {
-      "progress": 60,
-      "rate": 5,
+      "progress": 85,
+      "rate": 2,
       "faction": "Lyssa Vane",
-      "description": "Lyssa Vane knows Cookie is rising in the heartland performance circuit. Sunken Playhouse fieldwork directly challenges Lyssa's territory. Once Cookie outshines her — Starling show success + Wardbreakers contract + Sunken Playhouse intervention — Lyssa moves to neutralize. Charm-network attacks escalate; Cookie's friends become attack vectors.",
-      "trigger": "Lyssa orders coordinated charm-attack on Cookie's inner circle (Fern is highest-priority target — best friend, civilian, no Heartstring resistance).",
-      "next_move": "Eira regroups at the Sunken Playhouse and tries to charm Senna mid-fieldwork.",
-      "next_move_day": 10
+      "description": "Day 12 attempt on Fern blocked — Crown Quarter regular tried to walk her home with the wrong warmth, Fern recognized it, yelled for the Millward stable boys, attacker left without confirming her address. Cookie pigeon-warned Tomas Wren who pulled Daisy into the inn back-rooms for four days. Hazel's noble-women circuit watching Daisy's road. Lyssa's people reported Cookie's network active; retaliation STALLED but not resolved. Day 18 graduation has now formally elevated Cookie under Council + Bardic College attention — direct attacks on her become much costlier for Lyssa. Retaliation now likely shifts to indirect / informational vectors (Reader correspondence, Glamour-tagged proxies, long-game).",
+      "trigger": "Lyssa pivots from civilian-circle attack to indirect attrition — possibly a feeder leak to the Reader's pipeline naming Daisy or Tomas Wren as backup targets.",
+      "next_move": "Lyssa likely sends a diversion through the Reader's dropbox to test whether the Pale Lantern channel is being watched. If unwatched, full names follow.",
+      "next_move_day": 19
     },
     "Sunken Playhouse mission": {
-      "progress": 30,
-      "rate": 25,
+      "progress": 100,
+      "rate": 0,
       "faction": "Wardbreakers",
-      "description": "Day 9 expedition: clear the Sunken Playhouse, recover field-work evidence on Lyssa's charm operation, return to Varenholm. Lyssa's silver chain shattered Day 8 (Dispel), Eira fled the discovery location. Wardbreakers escorting at Bronze rate (12 GP / 3 days).",
-      "trigger": "Mission complete. Cookie returns to Varenholm with Sunken Playhouse evidence + Senna's paternity answer locked in for delivery."
+      "status": "DONE",
+      "description": "RESOLVED Day 10 dusk. Eira surrendered at the proscenium pillar, signed Guild deposition naming the patron 'the Reader.' Chain-fragments recovered. Two charmed villagers freed. Returned to Varenholm; Gruff stamped contract complete.",
+      "trigger": "Mission complete. Cookie returned to Varenholm with full evidence packet. Bronze contract closed."
     },
     "Paternity question (Senna's term)": {
-      "progress": 50,
-      "rate": 25,
+      "progress": 100,
+      "rate": 0,
       "faction": "Wardbreakers",
-      "description": "Senna Dawnmere recognized Cookie's Ember at Halbert's funeral (Day 7). Cookie claimed Dragon Emperor as father. Senna locked the contract term: 'You answer me about the paternity claim before we get back to Varenholm.' Hard deadline = end of Sunken Playhouse trip.",
-      "trigger": "Senna asks. Cookie must answer truthfully OR Senna walks (and the cross-campaign anchor is severed)."
+      "status": "DONE",
+      "description": "RESOLVED Day 10 — Cookie confirmed Kenji as father to Senna under contract terms at the Sunken Playhouse pillar. Senna refiled: Bronze contract closed, Wardbreaker dependent status begins (paperwork pending in Varenholm).",
+      "trigger": "Resolved. Cross-campaign anchor preserved and reinforced — Senna-and-Wardbreakers now treat Cookie as family-adjacent rather than hire-rate client."
     },
     "Silka chain collapse": {
-      "progress": 70,
-      "rate": 3,
+      "progress": 85,
+      "rate": 4,
       "faction": "Lyssa Vane",
-      "description": "Cookie's Day 8 Dance of Dispel shattered Silka's silver suppression chain. Silka's gold-flecked eyes returning; Ankuspawn scroll markings blooming on collarbones/forearms. Lyssa's control over Silka eroding. Silka does NOT yet know she's Ankuspawn or that Lyssa raised her as a controlled asset.",
+      "description": "Day 18 evening — Silka's gold visibly bloomed above her collar during Cookie's recital. Ashworth's daily check-ins through Days 11-18 documented progressive Ankuspawn marker emergence. Silka still does not know she's Ankuspawn. She knows something is happening to her body and she trusts Cookie + Ashworth more than Lyssa now. Standing in the stagedoor wing post-recital, eyes wet, waiting for Cookie.",
       "trigger": "Silka realizes what she is, what Lyssa is, and breaks. Major story beat — sister-recognition scene with Cookie."
     },
     "Cult of Anku patron exposure": {
-      "progress": 15,
-      "rate": 1,
+      "progress": 55,
+      "rate": 3,
       "faction": "Cult of Anku",
-      "description": "Lyssa is paid 5 SP/month by an anonymous patron to report gold-eyed performers. She thinks it's a noble fetishist. It's actually a Cult of Anku recruiter building a target list. Once Cookie's name reaches the patron, the Cult activates direct interest.",
+      "description": "Eira's Day 10 deposition unmasked the patron's operational profile: codename 'the Reader,' Stormhaven tea-merchant courier route, dead-letter dropbox behind the Pale Lantern's loading dock (NOT Isolde's hand), pays per gold-eyed name with an Ember-confirmation bonus. Eira's last dispatched letter to Lyssa contained a halfling Kettlebrook name. The Cult is no longer abstract — it has a method, a dropbox, and a confirmed write-up of Cookie. Letter intercept now possible at the dropbox.",
       "trigger": "Cult of Anku operative (Ember Shade ward bearer) appears in Cookie's vicinity. 20 ft suppression field threat."
     },
     "Accelerated graduation": {
-      "progress": 40,
-      "rate": 5,
+      "progress": 100,
+      "rate": 0,
       "faction": "Varenholm Academy",
-      "description": "Cookie negotiated accelerated graduation with the Academy. Sunken Playhouse fieldwork = capstone field assignment. Recital follows post-mission. Successful completion unlocks early Academy graduation + V.E.A. full credentialing.",
-      "trigger": "Cookie graduates Varenholm Academy, full V.E.A. performer credentials, professional touring eligible."
+      "status": "DONE",
+      "description": "RESOLVED Day 18 evening. Civic Auditorium recital — Cookie performed 'From Kettlebrook,' an original piece spanning her Kettlebrook origin, Varenholm rise, and world-scale ambition. Performance roll 23 + d12(5) = 28 vs DC 22 (margin +6). Full Heartstring resonance bloom on the final chorus; 240-person standing ovation; Vess + Bardic Master of Voice in attendance. Ashworth signed the gold-thread parchment backstage: Master of Voice credential, touring eligibility unrestricted, Ashenmere Bardic College guest residency offered.",
+      "trigger": "RESOLVED — Cookie is graduated. The Varenholm starter arc closes."
     }
   },
   "reputation": {
@@ -559,8 +562,8 @@ OUTPUT FORMAT (every response):
     }
   ],
   "chapter": {
-    "current": 9,
-    "title": "Daughters",
+    "current": 10,
+    "title": "The Reader",
     "status": "COMPLETE"
   }
 }
@@ -571,11 +574,82 @@ Cookie left Kettlebrook with five gold and a halfling's stubborn certainty that 
 
 The middle of the campaign was Silka. The dark-haired Academy classmate who sang lullabies that made rooms forget how to breathe — secretly Lyssa Vane's Ankuspawn 'daughter,' her gold-flecked eyes hidden behind a silver suppression chain that Lyssa had told her was protection. Cookie figured out the chain on Day 8 and shattered it with Dance of Dispel during Halbert's funeral. The same day, Senna Dawnmere — Diamond-tier Wardbreaker, cross-campaign anchor from Kenji's books — clocked Cookie's Ember from across the room and locked a paternity question for the Sunken Playhouse trip. By Day 9, Cookie was Level 10, capped at maximum starter Ember strength, contracted with the Wardbreakers (Senna, Finch, Varn) at Bronze rate, and walking a marsh causeway toward a half-flooded amphitheatre where Lyssa's last lieutenant Eira had fled.
 
-Currently: Day 9, mid-morning, ~100 ft from the Sunken Playhouse proscenium pillar. Silka's chain is shattered, her gold eyes returning, and she does not yet understand what she is. Lyssa knows her control over Silka is collapsing and the heartland circuit is slipping — her retaliation clock is at 60% and rising. Senna's paternity-answer deadline lands before Cookie returns to Varenholm. The Cult of Anku is one anonymous-patron report away from putting Cookie on a target list. Three threads converge here: who Cookie's father really was, what Silka was raised to be, and whether Lyssa goes down quietly or burns the bridge on her way out.
+Day 9-11 was 'The Reader.' At the Sunken Playhouse pillar Cookie's lieutenant target Eira surrendered preemptively, signed a Guild deposition naming Lyssa's patron only by codename — the Reader — and gave up the operational profile (Stormhaven courier, Pale Lantern dead-letter dropbox, payment per gold-eyed name). Lyssa's last letter held a halfling Kettlebrook name. Cookie answered Senna's paternity question yes, refiling the Wardbreakers from client to dependent. Day 11 morning she walked her capstone into Ashworth's office alongside Silka — and Ashworth, reading the gold rising into Silka's visible skin, opened a sabbatical to keep the chain-collapse process under her own watch. Currently: Day 11 mid-morning, Academy hallway, capstone signed, recital booked Day 18. Lyssa retaliation IMMINENT at 80% — Fern in Varenholm, Daisy and Tomas in Kettlebrook all at civilian-attack risk this evening. Cult of Anku patron has a method but no name. Silka stands three feet from Cookie not yet knowing what she is.
 
 # CONVERSATION SO FAR
 
+## PLAYER
+perform the 3rd recital and graduate. custom song about coming from a small town and making a name in the varnholm and soon the world.
+
+## DM (you, last turn)
+The week between Day 11 and Day 18 doesn't get the credit it earns.
+
+Day 12 a Crown Quarter regular tried to walk Fern home from the Millward courtyard with the wrong kind of warmth in his face. Fern, who has spent a year watching Cookie's Heartstring land on grown men, recognized the wrongness in three sentences and yelled across the courtyard for Mrs. Millward and the chandlery's two stable boys. The man left without a fight and without the address Lyssa had paid him to confirm. Fern told Cookie that night, voice steady, eyes not. Cookie sent a courier-pigeon to Kettlebrook the same evening — Tomas Wren got the warning and quietly pulled Daisy into the inn's back rooms for the next four days, citing "the spring damp." A second pigeon went to Hazel's noble-women circuit asking for a watch on Daisy's road. The retaliation didn't escalate after that. Lyssa was, evidently, hearing back from her own people that Cookie's network was watching now. The clock didn't reset. It just stalled.
+
+Day 14 Ashworth brought Cookie a list of three pieces and asked which one. Cookie didn't pick any of them.
+
+She wrote her own.
+
+She titled the piece *From Kettlebrook* and refused to play any of it for Ashworth before the recital — old performer's instinct, the kind that's either confidence or arrogance and only the audience gets to decide which. Ashworth let her keep the secret. Silka, on her sabbatical, came to the Academy practice rooms with her every afternoon after class and sat against the door while Cookie ran the song. Silka didn't say much. Her hands shook less every day. The gold at her collarbone kept rising.
+
+Day 18 the Civic Auditorium opens its three-tier seating an hour early because the line is already around the block. The house is full. The Council bench is full — Vess in the second row, doing the thing where she watches a young performer the way a master smith watches a bellows-girl, professional and unsentimental. The Bardic College of Ashenmere sent their Master of Voice. Torren is in row eleven looking like he's about to cry. Fern is in the standing-room balcony with both Millward stable boys and a flask of something that is *probably* tea. Senna and Finch and Varn are in row three under formal Wardbreaker colors — Wardbreaker dependent paperwork goes through tomorrow morning. Ashworth is at her conductor's desk to the side of the stage, ledger open, stamp ready. The house lights drop.
+
+Cookie steps out alone.
+
+The Anklet's filigree dims gold the moment her foot touches the boards — not flaring yet, just acknowledging the room. The Heartstring opens like a door. The auditorium is two hundred and forty humanoids and most of them lean forward without realizing they've moved. The Crown Quarter merchant's daughter is in row twenty-two, sent by Lyssa, watching too carefully. Her shoulders slope after the first sixteen bars.
+
+The song opens unaccompanied. Just Cookie's voice, no instruments, no chorus, the Auditorium's stone-and-cedar acoustics doing the amplification work. The first verse is the road out of Kettlebrook — the inn at dawn, Daisy braiding Cookie's hair on a windowsill, Tomas Wren handing her a bag of dried apples and turning his back so she wouldn't see his face. The melody is a Halfling field-tune Cookie learned at six. Most of the audience knows it from somewhere they can't quite place; the back rows lean forward to chase the memory.
+
+Second verse, she begins to dance. Not big — small, deliberate, footwork from her Tai Chi smoothed into stage steps. The Anklet's filigree lights for the first time on a heel-stop and a soft gold hits the front three rows before they catch what hit them. The verse is Varenholm — the Gilt Lily, the Starling, the Academy's stone halls, four Gilded Thread outfits in a tailor's window, a textile merchant who said her name like it was already famous. Names without naming. Half the audience hears their own work in it.
+
+The bridge is the Sunken Playhouse. She doesn't say *Sunken Playhouse.* She sings about a marsh and a column and a chain that wasn't supposed to break and a sister who was someone else's plan. Silka, in the wing, has stopped breathing. Senna's hand has not gone to her sword in two minutes and forty seconds. The merchant's daughter's eyes are wet and she doesn't know why.
+
+Final chorus is the world. Not Varenholm. The *world.* Stormhaven, Ashenmere, Cinderpeak, the Sundered Gate, somewhere a dragon-emperor she has never met and a half-brother named Ignis whose voice she only knows from songbooks. Cookie's voice opens up on the last twelve bars and the gold *blooms* — not Anklet-filigree-flare but full Ember resonance, a wash of warm light through the entire auditorium that makes two hundred and forty people think for half a second that they have always known her. Ashworth's stamp hand is shaking on the conductor's desk. The Bardic Master of Voice is sitting forward.
+
+The last note holds. The last note ends.
+
+Real bytes:
+
+```
+{
+  "kind": "skill",
+  "label": "Graduation recital — 'From Kettlebrook' (Performance, dancing, Heartstring open)",
+  "d20": [14, 14],
+  "d20_used": 14,
+  "modifier": 9,
+  "total": 23,
+  "dc": 22,
+  "success": true,
+  "margin": 1
+}
+
+Dance Inspiration d12: 5
+Total: 23 + 5 = 28  vs DC 22  (margin +6)
+```
+
+Two hundred and forty people stand up at once.
+
+Vess stands. The Master of Voice from Ashenmere stands. Ashworth stands and stamps her ledger without looking down because her eyes haven't left the stage. The applause is not the polite kind. It is the *I just watched a thing I will tell my grandchildren about* kind, sustained, building, the kind of ovation that makes ushers nervous because they don't know how to end it.
+
+Cookie bows once. The Anklet dims back to silver-paste leather. The Heartstring narrows. The lights come up.
+
+Backstage, Ashworth is already there with the parchment.
+
+"Aspirant Kettlebrook." Voice level. Eyes glassy. "I am graduating you out of program effective tonight." She slides the parchment across — gold-thread border, three Council seals, the V.E.A. master credential stamp on the lower right corner. "Full Master of Voice credential. Touring eligibility unrestricted. Recital review committee unanimous in chambers; Vess wants a private word with you tomorrow. The Bardic College of Ashenmere has extended a guest residency offer effective whenever you choose to accept it."
+
+She pauses. The professorial mask drops for one second.
+
+"I have been doing this work for thirty-one years. I have not seen what I just saw on that stage. Whoever your father is, performer — and I have read your deposition twice now — you have *earned* every step of what just happened, and none of it came from him. Remember that."
+
+She steps back. The mask returns.
+
+"Recital is closed. Graduation is signed. Now the rest of your life starts."
+
+The hallway behind the dressing rooms is full. Senna is leaning against the far wall watching the door with her arms folded and the smallest possible smile on her face. Fern is bouncing on the balls of her feet about to break decorum. Silka is standing very still by the stagedoor exit, gold blooming visibly above her collar now, eyes wet, hands clasped, waiting for Cookie to come find her.
+
+Outside the auditorium the Varenholm night is on. There is, somewhere across the rooftops, a Crown Quarter merchant's daughter walking very fast back to whoever paid her to be there.
+
 ## PLAYER (this turn)
-continue game
+End chapter — graduation closes the Varenholm starter arc cleanly; new chapter opens on whatever Cookie does next (touring, sister conversation, Reader hunt, all open)
 
 Respond as the DM. Open with prose, then '---OPTIONS---' on its own line, then exactly three numbered options.

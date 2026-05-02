@@ -296,6 +296,14 @@ class LiveDashboard(ctk.CTk):
         self.minsize(900, 600)
         self.configure(fg_color=BG_DARK)
 
+        # Apply persisted text-scale BEFORE building widgets so the initial
+        # render uses the correct size. The label updates after _build_header.
+        self._current_scale = self._load_scale()
+        try:
+            ctk.set_widget_scaling(self._current_scale)
+        except Exception:
+            pass
+
         self.engine = None
         self._load_engine()
         self._apply_window_title_from_engine()
@@ -311,6 +319,10 @@ class LiveDashboard(ctk.CTk):
 
         self._build_header()
         self._build_body()
+
+        # Sync the scale label to the loaded value (the label was created in _build_header).
+        if hasattr(self, "lbl_scale"):
+            self.lbl_scale.configure(text=f"{int(self._current_scale * 100)}%")
 
         self.refresh_all()
         self._react_music()
@@ -720,11 +732,68 @@ class LiveDashboard(ctk.CTk):
                                                text_color=GOLD, font=FONT_SMALL,
                                                command=self._on_music_toggle)
         self.btn_music_toggle.pack(side="right", padx=4)
+
+        # Text-size controls. Three small buttons: A-, %, A+. Customtkinter's
+        # set_widget_scaling() rescales every CTk widget at once. Scale is
+        # persisted next to the .exe so it survives restarts.
+        ctk.CTkButton(hdr, text="A+", width=28, height=28, fg_color=BG_CARD,
+                       hover_color=GOLD_DIM, text_color=GOLD, font=FONT_SMALL,
+                       command=lambda: self._adjust_scale(+0.1)
+                       ).pack(side="right", padx=2)
+        self.lbl_scale = ctk.CTkLabel(hdr, text="100%", font=FONT_SMALL,
+                                       text_color=TEXT_DIM, width=42)
+        self.lbl_scale.pack(side="right", padx=2)
+        ctk.CTkButton(hdr, text="A-", width=28, height=28, fg_color=BG_CARD,
+                       hover_color=GOLD_DIM, text_color=GOLD, font=FONT_SMALL,
+                       command=lambda: self._adjust_scale(-0.1)
+                       ).pack(side="right", padx=2)
         ctk.CTkButton(hdr, text="■", width=28, height=28, fg_color=BG_CARD,
                        hover_color=RED, text_color=TEXT, font=FONT_SMALL,
                        command=self._stop_music).pack(side="right", padx=2)
         self.lbl_now_playing = ctk.CTkLabel(hdr, text="", font=FONT_SMALL, text_color=TEXT_DIM)
         self.lbl_now_playing.pack(side="right", padx=8)
+
+    # ------------------------------------------------------------------
+    # Text-scale persistence
+    # ------------------------------------------------------------------
+    @property
+    def _scale_path(self) -> Path:
+        """Settings file path — sits next to the .exe / kenji_gui.py."""
+        return SCRIPT_DIR / ".dashboard_scale"
+
+    def _load_scale(self) -> float:
+        """Return saved scale or 1.0. Clamped to [0.7, 1.6]."""
+        try:
+            txt = self._scale_path.read_text(encoding="utf-8").strip()
+            v = float(txt)
+            return max(0.7, min(1.6, v))
+        except Exception:
+            return 1.0
+
+    def _save_scale(self, scale: float) -> None:
+        try:
+            self._scale_path.write_text(f"{scale:.2f}\n", encoding="utf-8")
+        except Exception:
+            pass   # not fatal — scale just won't persist
+
+    def _apply_scale(self, scale: float) -> None:
+        """Apply a scale factor to all CTk widgets via the global scaling
+        manager. Updates the % indicator label."""
+        scale = max(0.7, min(1.6, round(scale, 2)))
+        self._current_scale = scale
+        try:
+            ctk.set_widget_scaling(scale)
+        except Exception:
+            pass
+        if hasattr(self, "lbl_scale"):
+            self.lbl_scale.configure(text=f"{int(scale * 100)}%")
+
+    def _adjust_scale(self, delta: float) -> None:
+        """Increment / decrement the scale and persist."""
+        cur = getattr(self, "_current_scale", 1.0)
+        new = max(0.7, min(1.6, round(cur + delta, 2)))
+        self._apply_scale(new)
+        self._save_scale(new)
 
     def _on_music_toggle(self):
         self._music_enabled = not self._music_enabled
