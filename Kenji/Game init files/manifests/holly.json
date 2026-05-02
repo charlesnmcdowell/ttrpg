@@ -1,0 +1,9 @@
+{
+  "_comment": "Holly campaign — snow elf escapee, level 297 Legendary Artificer (Master Toymaker subclass). Just stepped off a cargo cog in Solandra Bay. Shares engine + music with Kenji install. All paths are relative to the TTRPG root.",
+  "campaign_id": "holly",
+  "window_title_template": "{char_name} — Live Dashboard",
+  "state_file": "Holly/Game init files/character_world_state.json",
+  "music_dir": "Kenji/music",
+  "music_map": "Kenji/music/music_map.json",
+  "engine_path": "Kenji/Game init files"
+}

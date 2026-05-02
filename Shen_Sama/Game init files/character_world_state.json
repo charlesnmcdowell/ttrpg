@@ -285,6 +285,20 @@
       "WIS": {"base": 10, "racial":   0, "final":  10, "mod":    0},
       "CHA": {"base":  4, "racial":   0, "final":   4, "mod":   -3}
     },
+    "low_stat_quirks": {
+      "_rule": "Auto-detected by character_compute.detect_low_stat_quirks(). Cardinal Rule 12 — base score < 10 generates a mandatory quirk the DM enforces at the table. See dm_rules_tracking.md § RULE 12.",
+      "active": [
+        {
+          "stat": "CHA",
+          "base_value": 4,
+          "severity": "severe",
+          "name": "Off-Putting",
+          "effect": "Civilized authorities default to suspicion or hostility. Persuasion DC raised by +5 in any settlement on first contact. Strangers do not warm without intermediary or demonstration. Reaction rolls trend toward wary or hostile. (Shen's pre-existing manual 'Charisma Flaw (Mountain-Raised Monster)' active_perk is the campaign-flavored version of this engine-canonical quirk; both are in effect.)",
+          "_rule_ref": "dm_rules_tracking.md § RULE 12"
+        }
+      ],
+      "count": 1
+    },
     "saving_throws": {
       "proficient": ["STR", "CON"],
       "STR_save": "+126 (prof +2, STR +124)",
@@ -314,7 +328,7 @@
     "char_name": "Shen Sama",
     "campaign_type": "starter",
     "level": 1,
-    "exp": 0,
+    "exp": 400,
     "hp": 137,
     "max_hp": 137,
     "temp_hp": 0,
@@ -373,8 +387,9 @@
     "charges": {
       "Green-fire breath": [4, 4],
       "Body Enhancement Surge": [4, 4],
-      "Dragon Form Transformation": [1, 1]
+      "Dragon Form Transformation": [0, 1]
     },
+    "_charges_note": "Dragon Form spent at Day 3 hour 14 for the Marshal B pursuit-kill. 24-hour cooldown — earliest re-use Day 4 hour 14. Per ember_inheritance.abilities.surge: 1 level of exhaustion accrues on dismissal.",
     "portals": {},
     "portal_max": 0,
     "events": [
@@ -394,6 +409,33 @@
         "priority": "MEDIUM",
         "notes": "On foot through Dragonspine passes is 2-3 weeks; flight could compress to 1-2 days but draws attention. Travel choice gates which faction notices him first.",
         "status": "ACTIVE"
+      },
+      {
+        "name": "Farmstead alarm bells ring at third-switchback chimney",
+        "day": 3,
+        "hour": 14,
+        "type": "consequence",
+        "priority": "MEDIUM",
+        "notes": "Bell-pattern alarm (the inherited 'large beast/dragon overhead' code) carries to neighboring farmsteads via sympathy ringing. By sundown every farmstead in the southern foothill belt knows. Watchpost system passes word to the next walled town by midnight.",
+        "status": "FIRED"
+      },
+      {
+        "name": "Vorathiel detects Dragon Form activation",
+        "day": 3,
+        "hour": 14,
+        "type": "deadline",
+        "priority": "EXTREME",
+        "notes": "Dragon God Queens have inherent sensitivity to true-dragon-form activation in their territory. Vorathiel knows within minutes. Earliest physical intercept: Day 4 dawn (she'll fly through the night). Cannot be defeated at L1; survival requires evasion, negotiation, or third-party shelter.",
+        "status": "ACTIVE"
+      },
+      {
+        "name": "Mage-Hunter writ petition accelerated to capital",
+        "day": 3,
+        "hour": 17,
+        "type": "deadline",
+        "priority": "HIGH",
+        "notes": "Sergeant's slate (verbatim Dragon Form transformation account + Marshal B pursuit-kill) goes by courier-pigeon to capital tonight. Council reads Day 4 morning. Lord-level Mage-Hunter writ likely issued by Day 4 afternoon.",
+        "status": "ACTIVE"
       }
     ],
     "quests": [],
@@ -401,28 +443,30 @@
     "assets": [],
     "threat_clocks": {
       "Vorathiel's pursuit": {
-        "progress": 0,
-        "rate": 4,
+        "progress": 60,
+        "rate": 20,
         "faction": "Vorathiel (Dragon God Queen, mother)",
-        "description": "Vorathiel will discover Shen has left the ledge by Day 1 evening. Her pursuit has three modes: (1) territorial dragon-instinct anger, (2) maternal possessiveness, (3) political — she does not want a half-Kenji son loose in the kingdom signaling the existence of an Ankuspawn True Dragon. Rate accelerates after she finds out.",
-        "trigger": "Vorathiel personally intercepts Shen — likely in the air over the mountains or on a road approaching a populated area. Cannot be defeated at L1; can only be evaded, negotiated with, or sheltered behind a third-party authority."
+        "description": "Day 3 hour 14 — Shen activated Dragon Form in open foothill country. Dragon Form is the loudest possible flare for a Dragon God Queen tracking her son in her territory; Vorathiel knows within minutes. Clock leaped from 6 → 60 on activation; rate accelerated from 4/day → 20/hour as she takes wing.",
+        "trigger": "Vorathiel personally intercepts Shen — likely in the air over the foothill belt. Cannot be defeated at L1; can only be evaded, negotiated with, or sheltered behind a third-party authority.",
+        "next_move": "Vorathiel intercepts Shen in the air over the foothill belt — earliest Day 4 dawn (she'll fly through the night), latest Day 4 dusk.",
+        "next_move_day": 4
       },
       "Civilization first-contact": {
         "progress": 100,
         "rate": 0,
-        "status": "FIRED — HOSTILE",
-        "faction": "Lord Highford + spreading authority network",
-        "description": "Day 3 — fired in the worst possible mode. Highford road-marshal patrol dead-on-the-road / fled / weeping under truce. Lantern-courier reports 'monster on the south road, killed road-marshal under flag of truce, dragon-blooded.' Marshal B and the courier are eyewitness sources; their accounts will be in Highford's tower within 4-6 hours and on the regional patrol network within 24. Every settlement between here and Varenholm has Shen's description by Day 4 evening. He will be attacked on sight by any organized guard force; civilians will flee or hide on sight. Vouching/escort options dramatically narrowed.",
-        "trigger": "Already fired. Permanent reputation effect: 'wandering monster, kills under truce.'"
+        "status": "FIRED — DRAGON-TIER HOSTILE",
+        "faction": "Lord Highford + spreading authority network + Council (capital)",
+        "description": "Day 3 mid-afternoon — fired then UPGRADED. Within an hour of the patrol-fatality, Shen activated Dragon Form in open foothill country, flew three switchbacks south, and bite-plucked Marshal B from horseback mid-flight. Sergeant + courier eyewitness to the transformation. Farmstead at the third switchback rang dragon-alarm bells in the inherited 'large beast overhead' code — sympathy ringing carries the alarm across the southern foothill belt by sundown. Lantern-courier system + bell-network now broadcasting CONFIRMED DRAGON on south road, killed road-marshal under truce AND ran down fleeing witness mid-air. Council Mage-Hunter writ accelerated from 'tonight' to 'today by courier-pigeon'; likely upgraded from county-level to Lord-level by Day 4 afternoon. Civilians flee on sight; militias mobilize to defended positions; trade caravans reroute.",
+        "trigger": "Already fired and upgraded. Permanent reputation effect: 'CONFIRMED DRAGON-TIER hostile, kills under truce, hunts fleeing witnesses.'"
       },
       "Cult of Anku — first dragon Ankuspawn": {
-        "progress": 25,
-        "rate": 4,
+        "progress": 60,
+        "rate": 8,
         "faction": "Cult of Anku",
-        "description": "Day 3 — Shen killed a Highford road-marshal with single-strike dragon-claw under flag of truce. The lantern-courier system is now broadcasting 'monster on the south road, dragon-blooded, kills under truce.' This rumor moves faster than physical pursuit. Cult cells in Stormhaven and the heartland will hear within 1-3 days. Once confirmed Ankuspawn (the watchpost report's 'dragon-blood markings' descriptor cross-references Cult-side intel), priority becomes EXTREME — first Ankuspawn True Dragon EVER.",
-        "trigger": "Cult operative visually confirms Shen — likely arrives within 5-7 days of him reaching ANY populated area south of Highford. Ember Shade ward 20-ft suppression field is the primary tool.",
-        "next_move": "Cult dispatches first Ember-Shade-ward bearer along the heartland road network. Likely intercepts Shen at next major settlement, possibly Varenholm itself.",
-        "next_move_day": 8
+        "description": "Day 3 mid-afternoon — Shen killed a Highford road-marshal under truce, then activated Dragon Form and bite-plucked the fleeing Marshal B from horseback. Confirmed Ankuspawn dragon-form sighting. Priority becomes EXTREME — first Ankuspawn True Dragon EVER. The lantern-courier + bell network is broadcasting CONFIRMED DRAGON on south road, which the Cult's Reader pipeline will cross-reference within 1-2 days.",
+        "trigger": "Cult operative visually confirms Shen — already confirmed via cross-referenced witness accounts. Ember-Shade ward 20-ft suppression field remains primary tool.",
+        "next_move": "Cult dispatches first Ember-Shade-ward bearer + backup operative pair from Stormhaven. Confirmed-Ankuspawn priority. ETA Day 6 (was Day 8 — accelerated by Dragon Form confirmation).",
+        "next_move_day": 6
       }
     },
     "npc_agendas": {},
@@ -445,12 +489,22 @@
     "encounter_log": [
       {
         "type": "combat",
+        "_chapter": 1,
         "cr": 1,
         "allies": 0,
         "boss": false,
         "day": 3,
         "tier": "normal",
-        "description": "Day 3 mid-afternoon, Highford south road, foothill pines. Lord Highford's road-marshal patrol (sergeant + 2 men-at-arms + 1 courier) attempted lawful subdual after Shen ignored their challenge. All three of their attack rolls missed clean (AC 135: polearm 18 vs 135 MISS, polearm 10 vs 135 MISS, crossbow 13 vs 135 MISS — none could even theoretically connect). Sergeant ordered stand-down and offered Shen a courteous-report exit. Shen broke the truce — single claw strike on Marshal A: d20+126=144 vs AC 16, 1d8+124 = 125 slashing damage, took Marshal A from ~27 HP to -98 → FATALITY (HP <= -10, body destroyed beyond recovery). Marshal B fled into the pines. Sergeant + courier stood off (sword drawn, courier weeping, neither attacking).",
+        "aggressor": ["NPC (initial subdual under lawful writ — sergeant ordered 'take')", "PC (post-stand-down, broke truce)"],
+        "de_escalation_offered": "Sergeant of Highford patrol, immediately after the three-attack volley missed; offered courteous-report exit and recommended audience-by-request rather than continued force.",
+        "de_escalation_broken_by": "PC (Shen Sama) — turned, closed twenty feet, single claw strike on Marshal A AFTER the stand-down order was spoken.",
+        "witnesses_alive": ["Sergeant of Highford patrol (22-year veteran)", "Highford courier (lantern-slate scribe)", "Marshal B (fled toward Highford tower mid-fight, eyewitness)"],
+        "framing_versions": {
+          "marshal_b_account": "We attacked under writ; he killed under truce.",
+          "sergeant_report": "Lawful subdual attempted, failed without harm to either side, recommend audience by request — but on stand-down, the Dragonspine traveler killed Marshal A regardless.",
+          "lantern_courier_sketch": "Monster on the south road, dragon-blooded, kills under truce — sketch only, no name."
+        },
+        "description": "Day 3 mid-afternoon, Highford south road, foothill pines. Lord Highford's road-marshal patrol (sergeant + 2 men-at-arms + 1 courier) intercepted Shen and challenged him for name/origin/destination from horseback. Shen ignored the challenge and kept walking. SERGEANT THEN ORDERED THE ATTACK — the patrol initiated combat first under lawful subdual authority. Two polearm charges + one crossbow bolt, all missed against AC 135 (polearm A 18 vs 135 MISS — but the steel CONNECTED with Shen's shoulder and skidded off dragon-hide; polearm B 10 vs 135 MISS clean; crossbow 13 vs 135 MISS clean). Realizing they could not subdue him, the sergeant immediately ordered stand-down and offered Shen a courteous-report exit. AFTER the de-escalation, Shen broke the offered truce — turned, closed twenty feet, single claw strike on Marshal A: d20+126=144 vs AC 16, 1d8+124 = 125 slashing damage, took Marshal A from ~27 HP to -98 → FATALITY (HP <= -10, body destroyed beyond recovery). Marshal B fled into the pines. Sergeant + courier stood off (sword drawn, courier weeping, neither attacking). The patrol fired first under lawful authority; Shen killed AFTER they stood down. Both framings exist in the canonical record — Marshal B's eyewitness account ('we attacked under writ, he killed under truce') and the sergeant's report ('lawful subdual attempted, failed without harm to either side; on stand-down, the Dragonspine traveler killed Marshal A regardless').",
         "awarded_xp": 200,
         "fatalities": [
           {
@@ -461,11 +515,55 @@
             "consequence": "No body recoverable. No raise dead, reincarnate, or resurrection possible — the spell components require a substantially intact corpse. Highford investigators will find blood-mist, hauberk-fragments, possibly a boot. The death is permanent."
           }
         ]
+      },
+      {
+        "type": "combat",
+        "_chapter": 2,
+        "cr": 1,
+        "allies": 0,
+        "boss": false,
+        "day": 3,
+        "hour": 14,
+        "tier": "normal",
+        "aggressor": ["PC (Shen — pursuit-kill on fleeing non-combatant)"],
+        "de_escalation_offered": null,
+        "de_escalation_broken_by": null,
+        "_aggression_note": "Marshal B was already disengaged and fleeing south on horseback when this combat fired. No active combat existed; no truce was in effect. This is a pursuit-kill on a fleeing witness — morally and politically distinct from a fight. Per Rule 11.5, both framings preserved in framing_versions below.",
+        "witnesses_alive": [
+          "Highford patrol Sergeant — still on the road behind, watched Dragon Form transformation + flight + bite, recording verbatim on official slate",
+          "Calden (Highford patrol Courier) — saw Dragon Form unfurl, did not see the bite at distance, will testify to the form",
+          "Unnamed farmstead family at the third-switchback chimney (~1.25 miles south of patrol site) — heard wings, saw silhouette, rang dragon-alarm bells",
+          "Likely additional valley-floor witnesses across the southern foothill belt — transformation visible for miles"
+        ],
+        "framing_versions": {
+          "sergeants_slate": "Dragonspine traveler transformed at sub-tactical range into a confirmed adult black dragon; cleared three switchbacks in three downstrokes; plucked Marshal B from horseback at speed mid-flight south. Civilization-tier threat actor. Recommend Council Mage-Hunter writ accelerated to Lord-level immediately.",
+          "marshal_b_final_seconds": "Galloping south to warn next post. Heard wings, looked back, drew sword for nothing, did not finish the breath he started. (Extrapolated from horse's terror response and the bite geometry.)",
+          "farmstead_alarm_pattern": "Bells rung in the standard 'large beast/dragon overhead' code that southern foothill families inherited from grandparents who remembered the war. Pattern travels by sympathy ringing — by sundown every farmstead in the southern foothill belt knows."
+        },
+        "rolls": "Bite-pluck on Marshal B in dragon form: d20+126 = 11+126 = 137 vs AC 16 → HIT. 3d10+124 = (5+8+9)+124 = 146 piercing. Marshal B HP ~22 → -124 → FATALITY (HP <= -10, body destroyed beyond resurrection).",
+        "awarded_xp": 200,
+        "fatalities": [
+          {
+            "name": "Marshal B (Highford road-marshal, unnamed)",
+            "damage_type": "piercing (dragon bite, 3d10+STR)",
+            "final_hp": -124,
+            "rule": "HP <= -10 (Cardinal Rule 13: Death / Critical Injury / Fatality)",
+            "consequence": "No body recoverable. Sword fell into the ferns 60 feet below the road. Horse runs three more strides riderless and collapses against a pine. Sergeant will recover the horse but not the rider. Death permanent."
+          }
+        ],
+        "side_effects": [
+          "Civilization first-contact tier upgrades from 'monster' to 'CONFIRMED DRAGON-TIER' across Highford county and the southern foothill belt.",
+          "Vorathiel pursuit signal: Dragon Form transformation is the loudest possible flare for a Dragon God Queen tracking her son. She knows within minutes (clock 6 → 60).",
+          "Cult of Anku confirmation: 'dragon-blooded' rumor is now CONFIRMED Ankuspawn dragon-form. Priority becomes EXTREME (clock 25 → 60).",
+          "Council Mage-Hunter writ accelerates from 'tonight' to 'today by courier-pigeon.' Likely upgraded from county-level to Lord-level by Day 4 afternoon.",
+          "Boss-encounter eligibility: 2 of 2 normal/hard combats since campaign start → ELIGIBLE for next boss encounter (likely Vorathiel intercept Day 4 dawn or Cult ward-bearer Day 6).",
+          "Dragon Form charge consumed: 1/1 → 0/1, 24-hour cooldown (earliest re-use Day 4 hour 14). 1 level of exhaustion accrues on dismissal."
+        ]
       }
     ],
     "events_active": {},
-    "canon_pointer": "Day 1 dawn, Dragonspine peaks — Shen's 24th birthday, departing his mother's ledge. First Ankuspawn True Dragon ever. No civilization contact yet.",
-    "story_beat": "Shen Sama, age 24, son of Vorathiel and Kenji, has waited for this morning. The ledge is empty — Vorathiel left at dawn for hunting flight. He has packed nothing. He is about to walk down out of the Dragonspine peaks for the first time in his life. Goal: Varenholm. Adventurer's Guild. Iron tier first. Diamond eventually.",
+    "canon_pointer": "Day 3 hour 14 — Shen in dragon form over Highford foothill belt; Marshal B fatality logged; bells ringing at chimney farmstead; sergeant on slate. Dragon Form 0/1 (24h CD). Vorathiel pursuit 60%, intercept Day 4 dawn earliest. Cult of Anku 60%, ward-bearer ETA Day 6. Civilization first-contact UPGRADED to DRAGON-TIER HOSTILE. Boss-eligibility threshold met.",
+    "story_beat": "Day 3 mid-afternoon. Shen activated Dragon Form in open foothill country, flew three switchbacks south, and bite-plucked Marshal B from horseback mid-flight. Sergeant + courier alive on the road behind, recording on slate. Farmstead bells ringing 1.25 miles south. Civilization first-contact UPGRADED from 'monster' to 'CONFIRMED DRAGON-TIER HOSTILE.' Vorathiel pursuit clock 60% — earliest intercept Day 4 dawn. Cult of Anku 60% — confirmed Ankuspawn priority EXTREME. Boss-eligibility threshold met. Dragon Form on 24-hour cooldown.",
     "narrative_notes": [
       "First Ankuspawn True Dragon recorded — unique heritage, mechanical implications scaled per ember_inheritance.true_dragon_bonus.",
       "Cross-campaign ties: father Kenji (retired at the Hearthstead post-Book-4); mother Vorathiel (Dragon God Queen, Dragonspine peaks); half-sister Ignis (famous, location unknown to Shen); half-sister Cookie (Master of Voice in Varenholm — Shen does NOT yet know she exists).",
@@ -577,9 +675,10 @@
         "mechanical_effect": "AC = 10 + DEX(0) + WIS(0) = 10 base; current 14 from natural dragon scales overrides. Bonus action unarmed/claw strike when taking the Attack action. Dragon claws qualify as monk weapons for Flurry of Blows scaling at L2+."
       }
     ],
-    "exp_to_next_level": 2800,
+    "exp_to_next_level": 2600,
     "exp_history": [
-      {"amount": 200, "source": "Combat XP — Marshal A fatality, Highford road-marshal patrol (Day 3)", "day": 3}
+      {"amount": 200, "source": "Combat XP — Marshal A fatality, Highford road-marshal patrol (Day 3 hour 14)", "day": 3},
+      {"amount": 200, "source": "Combat XP — Marshal B fatality, dragon-form bite-pluck pursuit-kill (Day 3 hour 14)", "day": 3}
     ],
     "_chapter": 1,
     "_chapter_status": "COMPLETE",
@@ -593,7 +692,7 @@
       "chapter": 1,
       "title": "Stand Down",
       "timing": "Day 1 dawn → Day 3 mid-afternoon (~3 days, ~28 miles south of Dragonspine peaks)",
-      "summary": "Day 1 dawn — Shen's 24th birthday. Vorathiel left for her morning hunting flight at the usual hour. Shen knelt at the natal-ledge nest, took a single black scale from the inner curve (the place she keeps shed scales, her quiet vanity), pocketed it, and stepped off the ledge. Twelve hours of granite, goat-paths, and one half-frozen creek to the lower passes. Day 2 — below the cloud line, twenty degrees warmer. Day 3 morning — proper foothill road, a Highford waystation 400 ft up the bend. The keeper challenged him to halt; Shen kept walking past without speaking. The keeper held fire, watched him round the next bend, then pulled the lantern-hook signal up the line. Day 3 mid-afternoon — twelve miles further south, road-marshal patrol intercept (sergeant + 2 men-at-arms + 1 courier). All three attack rolls missed clean (AC 135). Sergeant ordered stand-down, offered courteous-report exit. Shen broke the truce — single claw strike on Marshal A (d20+126=144 vs AC 16, 1d8+124=125 slashing, FATALITY HP -98, body destroyed). Marshal B fled toward the lord's tower. Sergeant + courier stood off, neither engaging. Shen continued walking south. Civilization first-contact clock fired HOSTILE-version. Cult of Anku clock 5 → 25 (next ward-bearer dispatched ETA Day 8). Vorathiel pursuit clock 6 (her notice deadline was Day 1 evening). +200 combat XP. 1 of 2 normal-encounters required for boss eligibility.",
+      "summary": "Day 1 dawn — Shen's 24th birthday. Vorathiel left for her morning hunting flight at the usual hour. Shen knelt at the natal-ledge nest, took a single black scale from the inner curve (the place she keeps shed scales, her quiet vanity), pocketed it, and stepped off the ledge. Twelve hours of granite, goat-paths, and one half-frozen creek to the lower passes. Day 2 — below the cloud line, twenty degrees warmer. Day 3 morning — proper foothill road, a Highford waystation 400 ft up the bend. The keeper challenged him to halt; Shen kept walking past without speaking. The keeper held fire, watched him round the next bend, then pulled the lantern-hook signal up the line. Day 3 mid-afternoon — twelve miles further south, road-marshal patrol intercept (sergeant + 2 men-at-arms + 1 courier). SEQUENCE OF EVENTS (this is the canon record — important for Highford's account vs Shen's): (1) Sergeant verbally challenged Shen for name/origin/destination from horseback. (2) Shen ignored, kept walking. (3) SERGEANT ORDERED THE ATTACK — single-syllable command 'take.' THE PATROL FIRED FIRST. Two polearm charges + one crossbow bolt. (4) All three attack rolls missed clean against AC 135 (polearm A 18 vs 135 MISS, polearm B 10 vs 135 MISS, crossbow 13 vs 135 MISS) — but the steel of polearm A actually CONNECTED with Shen's shoulder and skidded off dragon-hide without penetration. (5) Sergeant, on seeing the fail, ordered immediate stand-down, told Marshal A 'he is not subduable by us today,' and offered Shen a courteous-report exit on the spot. (6) AFTER the sergeant's stand-down order — i.e., during the moment of de-escalation — Shen broke the offered truce. He turned, closed the twenty feet, and struck Marshal A with one claw: d20+126=144 vs AC 16 HIT, 1d8+124=125 slashing, FATALITY (HP -98 ≤ -10, body destroyed beyond resurrection). Marshal B fled toward the lord's tower. Sergeant + courier stood off, neither engaging. Shen continued walking south. NOTE for civilization-first-contact framing: the patrol initiated combat under lawful subdual authority, missed, then de-escalated; Shen escalated again after the de-escalation. Both versions of the story exist in the world: Marshal B's account ('we attacked him under writ, he killed under truce'), the sergeant's report ('lawful subdual attempted, failed without harm to either side, recommend audience by request — but on stand-down, the Dragonspine traveler killed Marshal A regardless'), and the lantern-courier sketch downstream of the waystation. The story is HOSTILE either way, but the moral framing depends on which witness the listener trusts. Civilization first-contact clock fired HOSTILE-version. Cult of Anku clock 5 → 25 (next ward-bearer dispatched ETA Day 8). Vorathiel pursuit clock 6 (her notice deadline was Day 1 evening). +200 combat XP. 1 of 2 normal-encounters required for boss eligibility.",
       "rolls": "Initiative — Shen 24 (DEX 0 + dragon DEX 0 wait DEX is base 10 mod 0 + something? — actual roll d20+12 was wrong; corrected: DEX is now mod 0 so initiative is d20+0). Marshal attacks vs AC 135: polearm A 18 MISS, polearm B 10 MISS, crossbow 13 MISS. Shen claw on Marshal A: d20+126 = 144 vs AC 16 HIT, 1d8(1)+124 = 125 slashing, FATALITY (HP -98 ≤ -10).",
       "npcs_met": [
         "Highford waystation keeper (UNNAMED, mid-50s, axe + whetstone, road-traveler)",
@@ -617,12 +716,24 @@
         "Civilization first-contact = HOSTILE permanently. Every settlement south has Shen's description by Day 4 evening.",
         "Highford waystation lantern-slate (sketch of Shen) → tower archive → spread-pattern across regional patrols",
         "Sergeant's personal slate (last-rites note for Marshal A) — will not be transcribed, but the sergeant carries this story for the rest of his life and may reach Shen later as a witness or a hunter"
-      ]
+      ],
+      "_close_snapshot": {
+        "_comment": "Backfilled snapshot for chapter 1. Used by _chapter_close_check.py as the baseline for counting NEW activity since chapter 1 closed. Without this, the script falls back to ambiguous time-parsing.",
+        "encounter_log_count": 1,
+        "events_fired_names": [],
+        "clock_progress": {
+          "Vorathiel's pursuit": 6,
+          "Civilization first-contact": 100,
+          "Cult of Anku — first dragon Ankuspawn": 25
+        },
+        "closed_at_day": 3,
+        "closed_at_hour": 14
+      }
     }
   ],
   "_narrative_summary": [
     "Shen Sama is the firstborn of Vorathiel, the Dragon God Queen, and Kenji, the Dragon Emperor — the egg from Kenji's pregnancy with Vorathiel after the Iron Crown War. Hatched and raised on the Dragonspine peaks under his mother's strict territorial law, Shen is the first Ankuspawn True Dragon ever recorded. Aging is unusually fast for a true dragon: at 24 years old he is the size and form of a fully-developed adult, with the dragon-bonus stat scaling that comes with that age. His Ember focuses on body amplification, damage reflection via green dragon-fire, and the ability to transform into an adult black dragon when the ground gives him room.",
-    "Chapter 1 — Stand Down. Day 1: 24th birthday, Shen took a single black scale from his mother's nest, pocketed it, stepped off the natal ledge while she was on her morning hunt. Twelve hours of granite descent, two days of lower passes. Day 3 morning: walked past a Highford waystation without speaking; the keeper held fire and signaled the lantern-courier line. Day 3 mid-afternoon: a four-rider patrol intercepted on the south road. All three of their attacks missed clean (AC 135). Sergeant ordered stand-down and offered a courteous-report exit. Shen broke the truce — single claw strike on Marshal A, FATALITY (HP -98, body destroyed beyond resurrection). Marshal B fled toward the tower. Sergeant + courier stood off, traumatized, did not engage. Shen kept walking south.",
+    "Chapter 1 — Stand Down. Day 1: 24th birthday, Shen took a single black scale from his mother's nest, pocketed it, stepped off the natal ledge while she was on her morning hunt. Twelve hours of granite descent, two days of lower passes. Day 3 morning: walked past a Highford waystation without speaking; the keeper held fire and signaled the lantern-courier line. Day 3 mid-afternoon: a four-rider Highford patrol intercepted on the south road and challenged him for name/origin/destination. When Shen ignored them and kept walking, the SERGEANT ORDERED THE ATTACK — the patrol fired first, two polearm charges + one crossbow bolt, all missed against AC 135 (and polearm A's steel actually connected with Shen's shoulder and skidded off dragon-hide). Seeing the failure, the sergeant immediately ordered stand-down and offered Shen a courteous-report exit. AFTER the de-escalation, Shen turned, closed the gap, and struck Marshal A with one claw — FATALITY (HP -98, body destroyed beyond resurrection). Marshal B fled toward the tower. Sergeant + courier stood off, traumatized, did not engage. Shen kept walking south. The patrol attacked first under lawful subdual authority; Shen killed AFTER they de-escalated. Both framings exist in the world's record.",
     "Status going into Chapter 2: Day 3 mid-afternoon, ~28 miles south of Dragonspine peaks on Highford's south road. Civilization first-contact clock fired HOSTILE permanently — every settlement south has his description by Day 4 evening. Cult of Anku patron clock 25%, first Ember-Shade ward-bearer dispatched from Stormhaven ETA Day 8. Vorathiel pursuit clock 6%, accelerating. Lord Highford petitioning Council for Mage-Hunter writ tonight. CHA 4 / Persuasion DC 18 to enter any town stands as the social engine. Shen does not yet know Cookie exists; she's currently in Varenholm. Three travel paths open: continue road-south, off-road through the pines, or Dragon Form flight."
   ],
   "main_cast_extension": {

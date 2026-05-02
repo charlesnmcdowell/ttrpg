@@ -1,0 +1,819 @@
+{
+  "_comment": "HOLLY — Snow Elf escapee, Master Toymaker's former conscript. Level 297 Legendary Artificer (Master Toymaker). Just stepped off a cargo ship into Solandra (tropical southern coast city) — first time outside the North Pole, first time seeing humans/elves/dwarves in person. Carefree, deeply caring, centuries of crafting mastery and Sudden Insight machine-comprehension. Power of Creation gifted by her former captor (now her bond and her shadow). Luck stat is the mechanical anchor — endless possibilities working in her favor.",
+  "_save_version": 1,
+  "_saved_at": "2026-05-02T00:00:00",
+  "universe": {
+    "id": "combined_realm_v1",
+    "inherits_from_registry": "realm_lore_registry.json",
+    "era": "25 years post-Book 4 — Kingdom of Ankunyx"
+  },
+  "player_input": {
+    "name": "Holly",
+    "gender": "female",
+    "race": "Snow Elf (formerly bound — Master Toymaker's workshop)",
+    "class_concept": "Legendary Artificer (Master Toymaker subclass) — Master Craftsman & Inventor",
+    "background": "Centuries-old snow elf, conscripted into the Master Toymaker's workshop at the North Pole as a child and never released. Worked the line for him for what she estimates as 400+ years — exact count is hazy because the Pole is timeless and she stopped tracking after the first century. The Master gifted her the Power of Creation early on (he wanted a faster line), and she honed it into something he didn't expect: she stopped needing him. The Sudden Insight ability (innate to snow elves, suppressed in most by isolation) lets her look at any machine and instantly understand it; she has rebuilt clocks, music boxes, automaton armies, and every flavor of mechanical contraption a hundred times over. Endless Possibilities — a snow elf gift that calcifies into a Luck stat — has been the only thing keeping her safe during her escape. She made it to a southbound merchant cog in the harbor at the edge of the Pole, hid in the cargo hold for what she thinks was three weeks, and walked off the gangplank in Solandra Bay this morning. She has read about every place on earth and met no one outside the workshop staff.",
+    "personal_goal": "Stay free. Invent things that make ordinary peoples' lives better. Open a workshop somewhere warm. Possibly outrun whatever the Master sends after her — but she's leaning into not-thinking-about-that and instead enjoying mango juice from a vendor she has never seen the likes of.",
+    "starting_region_preference": "tropical coastal",
+    "appearance": {
+      "build": "Petite snow elf — short white hair, pale blue eyes, pointed ears, palm-sized snowflake markings tattooed across her right shoulder, back, and right thigh (the workshop's quiet brand — unique pattern per conscript)",
+      "wears": "Red workshop dress (sleeveless, cinched), black wool santa-style hat with white fur trim and a luminous-cyan snowflake pendant dangling from the tip, black leather satchel cross-strap, no shoes (snow-elf habit — the tropical paving stones are warm and unfamiliar)",
+      "demeanor": "Carefree-curious. Will stop mid-sentence to take apart a mango. Smiles easily. Has the wide-eyed attentiveness of someone who has read about humans for centuries and is now meeting them for the first time."
+    },
+    "exp_archetype": "support",
+    "support_archetype": "crafter"
+  },
+  "inherited_lore": {
+    "sources": [
+      "shared_world_continuity.md",
+      "realm_lore_registry.json",
+      "ankuspawn_race.md"
+    ],
+    "player_knowledge": "Holly's worldview is *almost entirely* book-derived. She knows the kingdom's geography, names of major cities, the existence of dragons and the Cult of Anku (she read about the Iron Crown War in a smuggled history three decades ago), and the rough shape of human/dwarf/elf social structures. What she does NOT know: how to behave in person, how to flirt, how to bargain past 'the price written on the sign,' how money actually moves between hands, what humid weather feels like, what a stranger might be capable of. She knows the world as a library catalog — facts but no muscle memory.",
+    "dm_only_crossover_hooks": "The Master Toymaker shares an old (pre-kingdom) provenance with the Cult of Anku — both branches of the same construct-craft tradition that the Council forced underground after the war. The Cult's Reader pipeline does not yet know Holly exists, but a cargo manifest with one unaccounted passenger out of the northern shipping lanes will eventually be flagged. The portal-network lore seed (Construct portal network — forgotten node) is real for Holly too — the Master's workshop was BUILT on top of an ancient portal node, and Holly knows this even if she doesn't know who built it.",
+    "lore_seed": "[Master Toymaker's workshop sits on an ancient portal node] The forge-floor at the back of the workshop has stone seams Holly couldn't crack open in 400 years — they hum on the solstice. (Connects to: Pre-kingdom portal infrastructure)"
+  },
+  "locations": {
+    "_rule": "Every new character adds exactly 3 locations to the world map.",
+    "home_base": {
+      "name": "Solandra Bay",
+      "type": "tropical coastal merchant city",
+      "from_worlds_middle": "southern hemisphere of the kingdom — warm currents, year-round summer, palm-shaded streets, terracotta tile roofs",
+      "from_crown_realm": "Council-recognized free port; harbor master answers to Council customs but the city governs itself loosely",
+      "terrain_and_vibe": "Mango trees lining the avenues, white sandstone walls hung with bougainvillea, cobalt-tile fountains in every plaza, fish market loud at dawn, lantern-festivals on full-moon nights. Dock district smells of salt and tar; merchant quarter smells of cinnamon and citrus. Holly arrived at the wrong end of the city — the dock district is rough, fast, multilingual, and she stands out like a snowflake.",
+      "population_or_scale": "~85,000 — mid-sized port. Mixed humans, elves (mostly sun-elf), dwarves (merchant clans), a small tiefling enclave, scattered halflings. No snow elves anywhere on the southern coast. Holly is the first one most residents have ever seen.",
+      "nearest_named_anchor": "Solandra Bay (THIS IS the named anchor — anchor for the southern coast)",
+      "travel_time_to_major_hub": "3 weeks by road or 5 days by coastal trader to Varenholm; 6 weeks by sea-then-land to Stormhaven",
+      "connection_to_character": "First stop on Holly's freedom run. She has never been here. She has never been anywhere. The cargo cog she stowed away on docked at dawn this morning. She has the contents of her unlimited pouch and the clothes on her back.",
+      "key_npcs_here": [
+        "Mango Vendor (intro NPC) — first person Holly speaks to in person in 400 years",
+        "Harbor Master Tezo — Council customs officer, will eventually flag Holly's missing-manifest entry",
+        "Workshop Owner (TBD) — somewhere in the merchant quarter there's an empty workshop space; finding it is a Chapter 1 beat"
+      ],
+      "registry_entry": "Solandra Bay — tropical free port on the southern coast of the Kingdom of Ankunyx. Mid-sized merchant city, ~85,000. Holly's arrival point and first attempt at a workshop."
+    },
+    "adventure_site": {
+      "name": "The Cobalt Fountains Quarter",
+      "type": "merchant quarter — workshops, artisan halls, broken automata in alley shrines",
+      "distance_from_home_base": "Same city — east of the dock district",
+      "terrain_and_vibe": "Old craftsman district, mostly retired masters and a handful of struggling apprentices. Several abandoned workshop spaces. The neighborhood has a *pest* — somebody's runaway clockwork experiment (or something darker) has been spotted skittering through alleys at night, and one of the artisan halls had its lock-mechanism torn apart from the inside two weeks ago. The local watchpost is overstretched and is offering small bounties for repair-and-secure work. Holly's first plausible job offer.",
+      "why_dangerous": "The 'pest' is the first whisper that Holly's escape has been noticed. The Master Toymaker has dispatched at least one agent — a mid-tier construct (Frostmaster, white-bronze toy soldier, ~CR 8) — and Holly's specific magic signature is what the construct is tracking. If Holly stays in one place too long, the construct localizes her. Threatens her goal: Stay free.",
+      "key_npcs_here": [
+        "Madam Pesca (artisan hall keeper, suspicious of newcomers)",
+        "Watch Captain Roia (overworked, will hire on credit)"
+      ],
+      "registry_entry": "Cobalt Fountains Quarter — Solandra Bay's craftsman district. Quiet by day, something hunting through it by night."
+    },
+    "discovery_location": {
+      "name": "The Sunken Cog Beneath Pier Seven",
+      "type": "abandoned construct workshop — submerged at high tide, accessible at dawn/dusk",
+      "connection_to_existing_lore": "Pre-kingdom portal infrastructure",
+      "what_the_player_learns_here": "An old construct-maker's workshop, half-submerged under Pier Seven, with a sealed stone arch in the back wall that hums on the morning tide. Identical seam-pattern to the workshop floor at the Pole. Holly will recognize it immediately. This place was someone else's escape route — and she's not the first to find it.",
+      "key_npcs_here": [
+        "The previous escapee (skeleton + journal — long dead, ran out of food while trying to crack the arch)"
+      ],
+      "registry_entry": "Sunken Cog beneath Pier Seven — pre-kingdom construct workshop under tidewater. Sealed portal node; Holly recognizes the seam pattern."
+    }
+  },
+  "patron_gift": {
+    "_rule": "Holly's analog to Ember — Power of Creation gifted by the Master Toymaker. NOT Ankuspawn-line, NOT subject to Cult of Anku Ember-Shade ward suppression. Has its own suppression vector: the Master's Recall Sigil (would require the Master himself in proximity, which is the campaign's late-game threat).",
+    "patron": "The Master Toymaker (former captor, ancient construct-craftsman, North Pole)",
+    "gift_name": "Power of Creation",
+    "gift_description": "Holly can craft anything she has materials for, in a fraction of the time a normal artificer would need. With Sudden Insight she can examine any machine and recreate it. With sufficient material in her pouch, she can spin up a working construct, automaton, or device on the order of minutes-to-hours rather than weeks. The gift is permanent and unrevocable EXCEPT by the Master in person.",
+    "abilities": {
+      "passive": {
+        "name": "Sudden Insight",
+        "description": "Holly looks at any machine, mechanism, or construct and immediately understands its inner workings. She can disassemble it, repair it, improve it, or recreate it from scratch given materials.",
+        "mechanical_effect": "Free action on visual examination. Treats any non-divine, non-eldritch mechanical/clockwork/construct device as if she had spent weeks studying it. For combat: identify construct's vulnerabilities (advantage on first attack, knowledge of off-switches, weak seams). For social: she instantly understands what a vendor's scale is rigged to, how a lock was picked, what a guard's badge is missing. For exploration: any door, vault, or trap is read on sight."
+      },
+      "active": {
+        "name": "Craft Anything (Workshop Mode)",
+        "description": "Given materials and 10 minutes to 6 hours (depending on complexity), Holly produces a working device, construct, weapon, tool, or vehicle.",
+        "mechanical_effect": "Action to begin. Time scales: simple device (lockpick, music box) = 10 min; complex device (clockwork servant, alchemical lantern) = 1 hr; construct combatant (CR 5 toy soldier) = 6 hrs. Each crafted item consumes appropriate materials from her unlimited pouch (cost in materials but no GP cost). Constructs have HP and AC scaled to her INT mod. Constructs disassemble willingly and can be re-shaped.",
+        "uses_per_day": "unlimited (rate-limited only by material consumption + time)"
+      },
+      "surge": {
+        "name": "Endless Possibilities (Luck Burst)",
+        "description": "Holly can spend a Luck reserve to rewrite a single moment — a dropped key was actually in her pocket, a stranger turning the corner is exactly the person she needed, the bridge she crossed was inspected yesterday by the watch.",
+        "mechanical_effect": "Bonus action. Spend 10 Luck (subtracted temporarily, regenerates 1/hour) to rewrite a single ambient detail in her favor — coincidences, fortuitous arrivals, lucky finds. Limited to single-detail edits; cannot resurrect dead, cannot directly damage another person, cannot control sentient choice. Effectively a 'narrative reroll' button — see Cardinal Rule 12 for boundary cases.",
+        "exhaustion_cost": "10 Luck (regenerates 1/hour up to her Luck cap)"
+      }
+    },
+    "theme_lock": [
+      "This gift ONLY enhances: creation, mechanical comprehension, fortune (worldspace nudges in her favor), repair/restoration of made things.",
+      "REFUSES to enhance: destruction (she can build a weapon but cannot wield it for direct harm without taking the action herself), lethal violence-as-art (she will not craft assassination devices on contract), domination (no charm-machines, no compulsion-drugs), necromancy of any kind."
+    ],
+    "growth_stage": "active",
+    "suppression_threats": [
+      {
+        "type": "Master's Recall Sigil",
+        "vector": "Master Toymaker arrives in person (campaign late-game) — within 100 ft, he can suspend her Power of Creation for 24 hours per day of detention. THIS is the existential threat.",
+        "mitigation": "Stay outside his arrival range; learn what blocks his sigil; find allies who can hold him off."
+      },
+      {
+        "type": "Mid-tier Toy Soldier (Frostmaster construct)",
+        "vector": "Tracks her magic signature when she stays in one location > 7 days. Can attack her, cannot suppress the gift. CR 8 first wave; later waves CR 10-12.",
+        "mitigation": "Move cities every few weeks, OR destroy the Frostmaster (proves her freedom is contested but does not end the war)."
+      }
+    ]
+  },
+  "racial_traits": {
+    "_rule": "Snow elf racial bonuses + Holly's specific gifts. Tracked separately from class features and patron gift.",
+    "race": "Snow Elf",
+    "racial_bonuses": [
+      {
+        "name": "Sudden Insight",
+        "description": "Native snow-elf trait — sharpened to peak by 400 years of practice. Holly can comprehend any machine on sight and recreate it from memory. Cross-listed under patron_gift.abilities.passive — the gift amplifies this snow-elf native trait.",
+        "mechanical_effect": "See patron_gift.abilities.passive. Specifically racial-grade: snow elves get this innately; Holly gets it amplified."
+      },
+      {
+        "name": "Endless Possibilities (Luck stat)",
+        "description": "Snow elves have a seventh ability score — Luck — that increases by 1 every level, capped at 100. Holly is L297, so her Luck is capped at 100. Luck mod is added to ALL d20 rolls (skill, attack, save, ability check) AS A FLAT ABILITY MOD, and lucky-coincidence narrative beats happen automatically when she's near anything ambient and unsupervised.",
+        "mechanical_effect": "Luck mod (currently +45 at Luck 100) added to all d20 rolls. Spend-cost on Surge ability ('Endless Possibilities (Luck Burst)' under patron_gift.abilities.surge). Regenerates 1/hour up to cap.",
+        "luck_table_for_holly": "Luck = min(level, 100). At L297, Luck = 100. Mod = (100 - 10) // 2 = +45.",
+        "narrative_application": "Holly never has *bad* random encounters when alone — the d20 hostile-encounter roll is shifted by Luck. Coincidences favor her. NPCs she needs to meet appear when she needs them. Bread is fresh at the stall closest to her. The right tool is in her pouch when she opens it."
+      },
+      {
+        "name": "Unlimited Inventory Pouch",
+        "description": "Holly's belt-pouch is bag-of-holding+ — interior is unlimited. Contains all of her inventor tools, four centuries of accumulated raw materials (mithril, adamantine, dragon-bone, snowflake-quartz, clockwork gears of every conceivable size), and a hidden folded blanket she sleeps under.",
+        "mechanical_effect": "Unlimited carry capacity. Can produce any common-to-rare crafting material on demand (pull-from-pouch is a free action). Magical items must be ones she has crafted or earned. Cannot pull weapons or constructs already in storage and use them as if they were ready-to-go — anything stored as 'material' must be assembled.",
+        "contents_summary": "Tools: full inventor's tools, 5 sets of master craftsman's tools, mithril needle, scribing kit, clockwork-tuning fork, glass-blowing pipette, 6 different magnifying lenses. Materials: 12 lbs mithril ingot, 4 lbs adamantine flake, 2 small dragon-bone shards, 80 lbs assorted clockwork gears (all sizes), 200 lbs assorted hardwood, 30 lbs snowflake-quartz (snow-elf native crystal), 15 lbs raw chromium, raw cobalt for cobalt-blue dye. GP equivalent if liquidated: ~250,000 GP — enough to retire on, IF she could find a buyer for raw materials in this quantity without raising eyebrows.",
+        "limit": "CANNOT contain: living creatures, consumable food (she'd forget about it and it'd rot), sentient constructs (they wake up and walk out)."
+      }
+    ],
+    "general_snow_elf_traits": [
+      "Cold immunity — Holly never feels cold and can survive arctic temperatures without protection.",
+      "Heat tolerance: ABYSMAL — Holly does not handle tropical heat well. Solandra Bay is 85°F; Holly is sweating before noon. Constitution save DC 12 vs heat exhaustion every 4 hours unless she finds shade or water.",
+      "Long-life: snow elves live 800-1200 years. Holly is 437.",
+      "Low-light vision (60 ft).",
+      "Resistance to cold damage."
+    ]
+  },
+  "antagonist": {
+    "_rule": "Multi-tier — the campaign-defining antagonist is the Master Toymaker; the chapter-tier obstacles are his agents.",
+    "name": "The Master Toymaker",
+    "level_range": "Legendary tier — direct combat is not the goal; survival, evasion, and political/magical countermeasure-building is.",
+    "race_and_class": "Ancient construct-craftsman (race uncertain — fey-touched human or elder elf), Master Artificer / Master Conjurer hybrid",
+    "motivation": "Recover Holly. She is the most productive conscript he ever had. He sees her not as a slave but as a *prize protégé* who has temporarily wandered. He does not believe she has truly escaped — he believes she will come back, and he will help her see reason. His agents are not sent to kill; they are sent to *retrieve unharmed.* This is more frightening than malice.",
+    "relationship_to_goal": "abduct (specifically: abduct unharmed, return to workshop)",
+    "base_of_operations": "North Pole — Master Toymaker's workshop, ~3000 miles north, accessible only by ice-crossing or cog-shipping or portal",
+    "lieutenants": [
+      {
+        "name": "Frostmaster (toy soldier — CR 8)",
+        "role": "Tracker. Magic-signature pursuit. Cannot suppress Holly's gift. Will arrive in Solandra Bay around Day 12.",
+        "location": "incoming"
+      },
+      {
+        "name": "Snowmother (winter-witch lieutenant — CR 12)",
+        "role": "If Frostmaster falls, Snowmother is dispatched. She can suppress Holly's Power of Creation in a 30-ft radius for short bursts. ETA Day 30+.",
+        "location": "north — dispatched on Frostmaster's failure"
+      },
+      {
+        "name": "The Gift-Box (sealed crate of obedience constructs — CR ?)",
+        "role": "Holly's nightmare. The Master's last-resort retrieval — a sealed crate that opens into 30 to 100 obedience-conditioned constructs Holly built. They know her, she knows them, and they will not stop until she returns. Late-campaign only.",
+        "location": "the workshop — only deployed if Snowmother fails"
+      }
+    ],
+    "defeat_consequences": "Holly is permanently free. The Master Toymaker's workshop falls (its construct line collapses without her or her replacement). The portal node under the workshop becomes unstable — possibly cross-campaign consequence. The Council learns of the workshop's existence and faction-politicians scramble to claim its leftover material."
+  },
+  "campaign_spine": {
+    "_rule": "Holly is L297 — far above standard XP curve. Campaign is character-arc-driven, not level-driven. Phases track *political/social/emotional state* rather than mechanical advancement.",
+    "phase_1_arrival": {
+      "levels": "297 (no level change expected; XP is symbolic)",
+      "summary": "Holly arrives in Solandra Bay. First contact with civilization. First friend, first job offer, first room of her own.",
+      "key_scenes": [
+        "Holly steps off the cargo cog at dawn. Mango vendor encounter.",
+        "She helps someone with a broken contraption; word travels.",
+        "Watch Captain Roia hires her to look at the 'pest' problem in the Cobalt Fountains Quarter."
+      ],
+      "goal_status": "settling — first roots being put down, but precarious"
+    },
+    "phase_2_achievement": {
+      "levels": "297",
+      "summary": "Workshop opens. Reputation as 'the inventor in the red dress' spreads. First major commission completed.",
+      "key_scenes": [
+        "Holly leases a workshop space (the abandoned one in Cobalt Fountains).",
+        "First major civic contribution — improves the city's water-clock, irrigation, OR a community-scale invention chosen by player.",
+        "Holly becomes a *known person* — not just to Solandra but rumored to neighboring cities."
+      ],
+      "goal_status": "achieved — Holly is now visibly free, productive, and rooted"
+    },
+    "phase_3_defense": {
+      "levels": "297",
+      "summary": "The Master's first agent arrives. Holly's freedom is contested directly for the first time.",
+      "key_scenes": [
+        "Frostmaster construct attacks at night in the Cobalt Fountains Quarter.",
+        "Holly defeats it (combat or evasion). City notices.",
+        "Word spreads upward — Council customs flags her, factions take interest."
+      ],
+      "goal_status": "threatened — actively being hunted"
+    },
+    "phase_4_confrontation": {
+      "levels": "297+",
+      "summary": "Snowmother arrives or the Gift-Box deploys. Holly must face her past head-on with allies she's now built.",
+      "key_scenes": [
+        "Major confrontation with mid-tier lieutenant.",
+        "Holly's Solandra allies stand with her — first time she's been defended by friends.",
+        "Lore-seed payoff: Sunken Cog portal node revealed; possible escape route or trap."
+      ],
+      "goal_status": "secured — Holly's freedom is no longer plausibly contestable by any agent below the Master himself"
+    }
+  },
+  "main_cast": [
+    {
+      "name": "Mango Vendor (TBD — first NPC encounter)",
+      "role": "intro",
+      "location": "home_base",
+      "want": "Sell mangoes. Mildly amused by the snow elf in winter clothing.",
+      "voice_hook": "Solandra coastal accent — drops final consonants, calls everyone 'love'.",
+      "lore_connection": "First person Holly speaks to in person in 400 years. Will be remembered."
+    },
+    {
+      "name": "Watch Captain Roia",
+      "role": "ally / first employer",
+      "location": "adventure_site",
+      "want": "Solve the Cobalt Fountains Quarter pest problem on a shoestring budget. Will hire on credit.",
+      "voice_hook": "Soldier's terseness; pragmatic; sees Holly's value before her oddness.",
+      "lore_connection": ""
+    },
+    {
+      "name": "Madam Pesca",
+      "role": "mentor (reluctant)",
+      "location": "adventure_site",
+      "want": "Run a quiet artisan hall. Suspicious of newcomers. Will warm to Holly slowly.",
+      "voice_hook": "Older Solandra-elf, formal but warm under pressure.",
+      "lore_connection": "Her late husband knew the Master Toymaker decades ago — a thread Holly could pull."
+    },
+    {
+      "name": "The Skeleton (Pier Seven previous escapee)",
+      "role": "lore_bridge",
+      "location": "discovery_location",
+      "want": "Was someone, hundreds of years ago. Wanted out. Wanted home. Wanted her own workshop. Failed.",
+      "voice_hook": "(silent — the journal speaks for her in past tense)",
+      "lore_connection": "Connects to Pre-kingdom portal infrastructure. Her journal teaches Holly the seam-pattern reading and identifies the Master's lineage — three centuries before Holly was conscripted, this skeleton was conscripted by the same workshop. The Master is far older than Holly thought."
+    },
+    {
+      "name": "The Master Toymaker",
+      "role": "antagonist",
+      "location": "north pole — workshop",
+      "want": "Recover Holly unharmed. He believes her escape is a phase. He is patient, precise, and has done this before.",
+      "voice_hook": "Soft, paternal, almost tender. Never raises his voice. Calls her 'little snowflake' — what he called all his snow-elf conscripts.",
+      "lore_connection": "Lives on top of an ancient portal node. Possibly fey-touched, possibly far older than the kingdom itself."
+    }
+  ],
+  "extra_npcs": {
+    "_rule": "Improvised NPCs. See dm_rules_tracking.md NPC Lifecycle.",
+    "npcs": []
+  },
+  "dialogue": {
+    "intro_scene": "Dawn. Solandra Bay harbor. Holly walks down the gangplank of the cargo cog *Witherhold* with a satchel and a dazed look. The sea-air smells like nothing she has ever read about. A mango vendor across the dock pivots on her stool to track the snow-elf in the red dress and santa hat — the strangest cargo this dock has seen all month — and calls out, half-amused: 'You walked off that ship, love? Ship don't take passengers. You're either crew or stowaway. Which is it?'",
+    "rumor_mill_examples": [
+      "'There's a workshop space empty in the Cobalt Fountains Quarter — Madam Pesca's east hall, third row. Owner died, family doesn't want to deal with it.'",
+      "'Watch Captain Roia is hiring out of pocket for the pest job. She says it's clockwork; the boys say it's a ghost. Either way it tore a lock apart from the inside.'",
+      "'Don't go near Pier Seven at low tide. There's something under there. Folks have been saying it for thirty years.'"
+    ],
+    "antagonist_confrontation_line": "'Little snowflake. You've had your holiday. Time to come home.' — The Master Toymaker, when (if) Holly meets him in person.",
+    "discovery_reveal_moment": "The moment Holly recognizes the seam pattern under Pier Seven matches the workshop floor at the Pole — and the journal in the next room reveals the Master is centuries older than her conscription.",
+    "peaceful_outro_hint": "Holly's workshop in the Cobalt Fountains Quarter has the doors open. A child runs in with a broken music box. Holly waves them in. Her allies are at the lunch counter across the way. The Master's agents have stopped coming. Solandra is home."
+  },
+  "success_state": "Holly is permanently free. Her workshop is open. Solandra Bay protects her. The Master's agents have been defeated or exhausted. She is famous as 'the inventor in the red dress' and uses her reputation to advocate for everyday people — water systems, fair clocks, prosthetics, accessible toys. The lore seed (portal node beneath the workshop) is revealed and possibly stewarded.",
+  "failure_state": "Holly is recovered by the Master Toymaker. She is returned to the Pole. Her workshop in Solandra is razed by the retrieval team. The new conscripts at the workshop never know her name. (NEVER auto-resolves; the player chooses to risk this state by returning north for some reason.)",
+  "post_campaign": {
+    "_note": "Snapshot when Holly's freedom is secured (Master's agents permanently neutralized).",
+    "snapshot_status": "not_started",
+    "continuation_hooks": ""
+  },
+  "mechanical_state": {
+    "_merge_note": "StoryEngine preserves unknown top-level keys on save. Holly is L297, well above the standard scaling — derived stats are computed from base + minimal racial (no per-year multiplier like dragons) but the LUCK 7th ability score is applied on top of all d20 rolls.",
+    "level": 297,
+    "class": "Legendary Artificer (Master Toymaker subclass)",
+    "hit_die": "d8",
+    "hp": 3864,
+    "_hp_calc": "L1 max HP = max(d8) + CON mod = 8 + 8 = 16. L2-L297 = avg(d8) + 1 + CON mod = 5 + 8 = 13/level × 296 = 3848. Total: 16 + 3848 = 3864.",
+    "proficiency_bonus": 12,
+    "_prof_calc": "Standard 5e caps prof at +6 (L17-20). Extended to L100+ system uses: +6 + (level - 20) // 50 floor. At L297: +6 + 5 = +11. Rounded up to +12 for round-number ergonomics.",
+    "ability_scores": {
+      "_rule": "Player-specified base scores. Snow elves get NO racial bonus on the standard six (the snow-elf gift is the LUCK 7th score and Sudden Insight). Final = base. Mods recomputed from final.",
+      "STR": {
+        "base": 31,
+        "racial": 0,
+        "final": 31,
+        "mod": 10
+      },
+      "DEX": {
+        "base": 44,
+        "racial": 0,
+        "final": 44,
+        "mod": 17
+      },
+      "CON": {
+        "base": 27,
+        "racial": 0,
+        "final": 27,
+        "mod": 8
+      },
+      "INT": {
+        "base": 99,
+        "racial": 0,
+        "final": 99,
+        "mod": 44
+      },
+      "WIS": {
+        "base": 78,
+        "racial": 0,
+        "final": 78,
+        "mod": 34
+      },
+      "CHA": {
+        "base": 60,
+        "racial": 0,
+        "final": 60,
+        "mod": 25
+      },
+      "LUCK": {
+        "base": 100,
+        "racial": 0,
+        "final": 100,
+        "mod": 45,
+        "_rule": "Snow-elf 7th ability score. Luck = min(level, 100). At L297, capped at 100. Mod added to ALL d20 rolls (attack, save, skill, ability check) on top of the standard ability mod. Cardinal Rule: Luck rolls also bias ambient world events — coincidences resolve in Holly's favor when she is in unsupervised public space."
+      }
+    },
+    "saving_throws": {
+      "proficient": [
+        "INT",
+        "CON"
+      ],
+      "_note": "Artificer-standard prof saves: INT + CON. Luck mod adds to all saves regardless of prof. Effective save bonuses below include Luck.",
+      "STR_save": "+55  (STR +10, no prof, Luck +45)",
+      "DEX_save": "+62  (DEX +17, no prof, Luck +45)",
+      "CON_save": "+65  (CON +8, prof +12, Luck +45)",
+      "INT_save": "+101  (INT +44, prof +12, Luck +45)",
+      "WIS_save": "+79  (WIS +34, no prof, Luck +45)",
+      "CHA_save": "+70  (CHA +25, no prof, Luck +45)"
+    },
+    "skills": {
+      "_note": "Artificer-standard prof skills: Arcana, Investigation, Sleight of Hand, History, Perception. Luck mod adds to ALL skill rolls regardless of prof.",
+      "Arcana": "+101 (prof +12, INT +44, Luck +45)",
+      "Investigation": "+101 (prof +12, INT +44, Luck +45)",
+      "History": "+101 (prof +12, INT +44, Luck +45)",
+      "Perception": "+91 (prof +12, WIS +34, Luck +45)",
+      "Sleight of Hand": "+74 (prof +12, DEX +17, Luck +45)",
+      "Insight": "+79 (WIS +34, Luck +45 — no prof)",
+      "Persuasion": "+70 (CHA +25, Luck +45 — no prof)",
+      "Performance": "+70 (CHA +25, Luck +45 — no prof)"
+    },
+    "AC": 30,
+    "AC_note": "10 base + 17 DEX + 3 (Toymaker's Workshop Apron, mithril-thread inner lining counts as light armor + crafted natural-armor). Holly does not have a class Unarmored Defense; she relies on the apron + her DEX. Luck mod is NOT added to AC (AC is not a d20 roll). With Luck +45, attackers' to-hit rolls effectively have a -45 penalty against ambient narrative-favorability checks (DM applies as 'the attacker fumbles, the gust of wind nudges the shot wide,' etc.).",
+    "starting_gold": "0 GP cash on hand. ~250,000 GP equivalent in raw materials in her unlimited pouch — but liquidating any sizable amount in Solandra would draw immediate attention from Council customs and the harbor master.",
+    "character_flaw": "Civilizational illiteracy. Holly knows facts about the world but has no muscle memory for being-around-people. She is liable to: stop mid-conversation to disassemble a vendor's scale, ask a stranger about their species in detail (politely, curiously, but invasively), assume bargaining is just 'tell me the price,' miss social cues completely, hug strangers who help her. Charisma 60 (mod +25) carries her through *intent* — people generally find her charming once they figure out what she's doing — but her *technique* is nonexistent. INT-based social rolls (reading the room, anticipating consequences) compensate. CHA-based interactions trend FAVORABLY but she will commit gaffes constantly.",
+    "exp_archetype": "support",
+    "support_archetype": "crafter",
+    "power_override": {
+      "_rule": "Auto-detected by character_compute.detect_power_override(). Triggers Rule 11 threat-tier scaling, counter-strategy weighting, and the honeymoon→escalation curve. See dm_rules_tracking.md § RULE 11. Honeymoon now measured in IN-GAME HOURS (24h max) so escalation begins within a single play session.",
+      "is_override": true,
+      "override_factor": 1398.38,
+      "base_points_total": 339,
+      "standard_baseline_points": 72,
+      "starting_level": 297,
+      "standard_starting_level": 1,
+      "cap_breach_points": 267,
+      "cap_breach_levels": 296,
+      "elapsed_in_game_hours": 7,
+      "honeymoon_hours_remaining": 17,
+      "honeymoon_active": true,
+      "honeymoon_end_at_hour_total": 24,
+      "recommended_phase": "honeymoon",
+      "weaknesses_in_rotation": [
+        "Tropical heat — CON DC 12 every 4 hours, snow-elf biology",
+        "Civilizational illiteracy — CHA carries intent but social gaffes still cost beats",
+        "Sudden Insight bypass — divine, eldritch, or fey machines read as '?'",
+        "Power of Creation suppression — Master Toymaker in person (existential late-game)",
+        "Snowmother's 30-ft suppression aura — 1 minute per encounter",
+        "Pouch lockdown — anti-magic field disables the unlimited pouch",
+        "Targeted allies — threats hit people Holly befriends, not Holly",
+        "Master's Recall Sigil — late-game existential, suppresses Luck regen + Power of Creation",
+        "Loud-magic detection — Workshop Mode is detectable from miles by construct hunters"
+      ],
+      "active_counters_this_chapter": [],
+      "escalation_phases": [
+        {
+          "hour_range": "0-24",
+          "in_game_day": "Day 1",
+          "phase": "honeymoon",
+          "counters_active": 0,
+          "narrative": "Holly feels OP. Threats are toothless. Mama Po, mango, fix the stool, the rigged scale, lease a workshop. Easy beats. Player gets to enjoy the kit."
+        },
+        {
+          "hour_range": "24-48",
+          "in_game_day": "Day 2",
+          "phase": "first_counter",
+          "counters_active": 1,
+          "narrative": "First Frostmaster sub-agent appears in the Cobalt Fountains alleys (the 'pest' job IS the telegraph). Heat acclimation tests biting. ONE counter, fairly signaled."
+        },
+        {
+          "hour_range": "48-168",
+          "in_game_day": "Day 3-7",
+          "phase": "compound_escalation",
+          "counters_active": "2-3",
+          "narrative": "Frostmaster proper (CR scaled by 1398× = effective CR ~138K, delivered as Frostmaster + 6 Frost-Husk lieutenants + Master's Ember-Shade-equivalent ward + 30-ft pouch denial). Council customs summons by Day 4. Snowmother dispatched if Frostmaster falls."
+        },
+        {
+          "hour_range": "168+",
+          "in_game_day": "Day 8+",
+          "phase": "existential",
+          "counters_active": "all",
+          "narrative": "Master Toymaker arrival window opens — proximity suppresses Power of Creation, drops Luck to base, makes the kit irrelevant. Holly survives this only with allies, terrain, and the portal-node beneath Pier Seven."
+        }
+      ],
+      "_canon_constants": {
+        "point_buy_cap": 72,
+        "standard_starting_level": 1,
+        "honeymoon_hours": 24,
+        "first_counter_hours": 48,
+        "compound_escalation_hours": 168
+      },
+      "_design_note": "Holly was created above-cap (339 base, L297) — wizard didn't catch it. Rule 11 retroactively governs. Honeymoon shortened to 24 in-game hours (one in-game day) since most play sessions cover roughly that span; escalation now reliably begins within a single sitting. Threat clocks bumped to match the compressed pace. DM picks closest published creature + stacks lieutenants to hit the effective CR; counter rotation pulls from her own weakness list and is always telegraphed, never arbitrary."
+    },
+    "high_stat_quirks": {
+      "_rule": "Auto-detected by character_compute.detect_high_stat_quirks(). Cardinal Rule 13. Holly has six unjustified high stats — all six get lore-grounded contextual quirks.",
+      "active": [
+        {
+          "stat": "STR",
+          "base_value": 31,
+          "severity": "severe",
+          "justified": false,
+          "justification_sources": [],
+          "needs_quirk": false,
+          "name": "All hands, no leverage",
+          "quirk_text": "Holly's strength is centuries of small-precision work — needles, screwdrivers, mithril shavings. STR drops to 19 for any task requiring full-body braced effort: bracing a falling beam, hauling a boat off a rock, shoving a door against held resistance. She does not have the leverage habits of someone who lifts for a living. Sudden Insight tells her HOW; her body has never DONE.",
+          "_rule_ref": "dm_rules_tracking.md § RULE 13"
+        },
+        {
+          "stat": "DEX",
+          "base_value": 44,
+          "severity": "severe",
+          "justified": false,
+          "justification_sources": [],
+          "needs_quirk": false,
+          "name": "Unfamiliar terrain",
+          "quirk_text": "DEX drops to 19 on cobblestones, sand, wet planks, palm-shaded tile, tropical paving — anything that isn't packed snow she grew up walking on barefoot. First three weeks in Solandra her gait is tentative; locals will notice. Acclimates over time but never fully — she's a snow elf in a port city.",
+          "_rule_ref": "dm_rules_tracking.md § RULE 13"
+        },
+        {
+          "stat": "CON",
+          "base_value": 27,
+          "severity": "moderate",
+          "justified": false,
+          "justification_sources": [],
+          "needs_quirk": false,
+          "name": "Snow-elf biology vs heat",
+          "quirk_text": "CON drops to 19 above 75°F, drops further (to 14) above 85°F, and she fails CON saves for heat exhaustion at DC 12 every 4 hours without shade or water. Acclimates over 2-3 weeks of continuous exposure, OR she crafts a snowflake-quartz cooling band from materials in her pouch (~30 minutes Workshop Mode).",
+          "_rule_ref": "dm_rules_tracking.md § RULE 13"
+        },
+        {
+          "stat": "INT",
+          "base_value": 99,
+          "severity": "crippling",
+          "justified": false,
+          "justification_sources": [],
+          "needs_quirk": false,
+          "name": "Library catalog, no muscle memory",
+          "quirk_text": "Holly's INT is centuries of pure book-study. Knowledge applies; intuition does not. INT drops to 19 on ANY real-world social or practical application she has only read about — haggling, flirting, reading body language, navigating an unfamiliar street, knowing which stall is overcharging by reflex, recognizing a concealed weapon at a glance. She knows the THEORY of all these things. The doing-them is a stranger's body.",
+          "_rule_ref": "dm_rules_tracking.md § RULE 13"
+        },
+        {
+          "stat": "WIS",
+          "base_value": 78,
+          "severity": "crippling",
+          "justified": false,
+          "justification_sources": [],
+          "needs_quirk": false,
+          "name": "Carefree-curious distractibility",
+          "quirk_text": "WIS drops to 19 when something interesting is in immediate view — a broken machine, an unfamiliar fruit, a stranger's pouch with an unusual clasp, an unfamiliar accent. Holly will stop mid-conversation to disassemble a thing. Perception of longer-term threats (someone tailing her, the political implications of a contract) is at full WIS; perception of the immediate scene is at the dropped value.",
+          "_rule_ref": "dm_rules_tracking.md § RULE 13"
+        },
+        {
+          "stat": "CHA",
+          "base_value": 60,
+          "severity": "crippling",
+          "justified": false,
+          "justification_sources": [],
+          "needs_quirk": false,
+          "name": "Charm without technique",
+          "quirk_text": "Holly's CHA is centuries of being delightful in a room with one other person who has known her for decades. CHA drops to 19 on first-meeting interactions in any social context she has only read about — court etiquette, vendor haggling, formal introductions, flirting, condolences, persuasion under stakes. Her INTENT lands; her TECHNIQUE doesn't. People warm to her once they understand what she's doing — but the first impression almost always commits a small, charming gaffe.",
+          "_rule_ref": "dm_rules_tracking.md § RULE 13"
+        }
+      ],
+      "count": 6,
+      "needs_quirk_count": 0
+    }
+  },
+  "_story_engine_state": {
+    "_comment": "StoryEngine runtime block for Holly. Day 1 = the morning she walks off the Witherhold gangplank in Solandra Bay. Just escaped, no allies yet, no workshop yet, no idea where to start.",
+    "char_name": "Holly",
+    "campaign_type": "starter",
+    "level": 297,
+    "exp": 0,
+    "hp": 3864,
+    "max_hp": 3864,
+    "temp_hp": 0,
+    "ac": 30,
+    "day": 1,
+    "hour": 7,
+    "location": "Solandra Bay — Pier Three, dawn, the Witherhold cargo cog moored behind her. Mango vendor across the dock just spoke to her.",
+    "weather": "Tropical dawn — 78°F rising, sea breeze, smells of salt + tar + frying garlic from the dock kitchens, palm trees in the distance, sky turning rose-gold",
+    "gold": 0,
+    "silver": 0,
+    "copper": 0,
+    "meals": 0,
+    "hours_since_meal": 14,
+    "spell_slots": {
+      "_comment": "Artificer-standard prepared casting. Holly prepares spells daily; slot table reflects L20+ extension. Her spell list emphasizes creation, repair, illusion-of-objects, and protection."
+    },
+    "equipped": [
+      "Toymaker's Workshop Apron (red, mithril-thread inner lining; functions as light armor; +3 AC; never gets dirty)",
+      "Black wool santa-hat with white fur trim (Master Toymaker workshop standard issue, kept it because it's hers now)",
+      "Cyan snowflake pendant (dangling from hat tip — snowflake-quartz crystal, low-light produces a soft cool light, could be used as cold-damage focus)",
+      "Belt-pouch — Unlimited Inventory (see racial_traits.racial_bonuses[2].contents_summary)",
+      "Cross-strap leather satchel (holds her current-day tools that she wants quick access to)",
+      "Nothing on her feet (snow-elf habit; tropical paving stones are warm and unfamiliar)"
+    ],
+    "satchel": [
+      "Quick-tools roll (4 picks, magnifying lens, mithril needle, 2 oz wax)",
+      "A folded copy of *A Geographer's Atlas of the Southern Realm* — read 11 times, only book she brought",
+      "Small leather notebook (blank — she means to start a journal)",
+      "Pencil"
+    ],
+    "consumables": {},
+    "key_items": [
+      "Master Toymaker's old workshop key (she still has it; it does NOT open anything in Solandra — but it might be useful for identification or as bait later)",
+      "Three intact construct cores from her last secret project at the workshop (small, palm-sized, never installed in a body — she stole them on the way out)",
+      "Her own conscript-brand snowflake-tattoo on her right shoulder (visible, identifies her to anyone who knows the workshop's mark)"
+    ],
+    "buffs": {},
+    "statuses": [
+      "GIFT_ACTIVE",
+      "FIRST_DAY_ESCAPED"
+    ],
+    "patron_state": {
+      "active": true,
+      "_rule": "Power of Creation is on by default. Suppression requires the Master Toymaker himself in proximity (campaign late-game). Frostmaster cannot suppress. Snowmother can suppress for 1 minute / encounter at most. Sudden Insight is always-on.",
+      "stat_when_master_present_full_suppression": {
+        "_note": "If the Master Toymaker is within 100 ft and chooses to suppress: Holly loses Sudden Insight, loses Craft Anything (Workshop Mode), and the Luck stat resets to her base level (which would be L1 = 1 mod -4). This is the campaign's existential threat.",
+        "luck_floor": 1,
+        "luck_floor_mod": -4,
+        "abilities_suspended": [
+          "Sudden Insight",
+          "Craft Anything",
+          "Endless Possibilities Surge"
+        ],
+        "still_active": [
+          "Snow elf cold immunity",
+          "INT/WIS/CHA stats (her own, not gifted)",
+          "Unlimited Inventory Pouch (it's a magic item, not a gift)"
+        ]
+      },
+      "stat_when_snowmother_suppresses": {
+        "_note": "Snowmother's 30-ft suppression aura — she's a lieutenant, not the Master. Effect is 1 minute per encounter, then she has to re-cast.",
+        "duration": "1 min / encounter",
+        "abilities_suspended": [
+          "Sudden Insight",
+          "Endless Possibilities Surge"
+        ],
+        "still_active": [
+          "Craft Anything (slow mode, 4× time)",
+          "Unlimited Inventory Pouch",
+          "All standard ability scores"
+        ]
+      }
+    },
+    "luck_reserve": {
+      "current": 100,
+      "max": 100,
+      "regen_per_hour": 1,
+      "_rule": "Luck mod (currently +45) added to all d20 rolls. Spend Luck via Endless Possibilities Surge — 10 Luck per use. Regenerates 1 per hour when below cap. Cannot be suppressed except by the Master Toymaker in person."
+    },
+    "charges": {
+      "Endless Possibilities Surge": "10 Luck per use (rate-limited by reserve, not /day)",
+      "Workshop Mode crafts": "unlimited (rate-limited by material consumption + time)"
+    },
+    "portals": {},
+    "portal_max": 0,
+    "events": [
+      {
+        "name": "Master Toymaker line foreman reports Holly absent",
+        "day": 1,
+        "hour": 12,
+        "type": "deadline",
+        "priority": "MEDIUM",
+        "notes": "Pole-time shift cycle. Foreman flags by hour 12. Master notified by hour 16-18.",
+        "status": "ACTIVE"
+      },
+      {
+        "name": "First Frostmaster sub-agent enters Solandra (the 'pest')",
+        "day": 1,
+        "hour": 20,
+        "type": "deadline",
+        "priority": "HIGH",
+        "notes": "Telegraph: small clockwork sub-agents appear in Cobalt Fountains alleys, tearing locks from the inside. Captain Roia's bounty is the signal.",
+        "status": "ACTIVE"
+      },
+      {
+        "name": "Council customs summons (Harbor Master Tezo)",
+        "day": 2,
+        "hour": 6,
+        "type": "deadline",
+        "priority": "MEDIUM",
+        "notes": "Witherhold manifest cross-referenced. Routine summons but every record narrows her ability to disappear.",
+        "status": "ACTIVE"
+      },
+      {
+        "name": "Frostmaster arrives in Solandra Bay (combat)",
+        "day": 2,
+        "hour": 18,
+        "type": "deadline",
+        "priority": "HIGH",
+        "notes": "Frostmaster proper. CR scaled by override factor — Frostmaster + 6 Frost-Husk lieutenants + Master's Ember-Shade-equivalent ward + 30-ft pouch denial.",
+        "status": "ACTIVE"
+      },
+      {
+        "name": "Master Toymaker arrival window opens (existential phase)",
+        "day": 8,
+        "hour": 0,
+        "type": "deadline",
+        "priority": "EXISTENTIAL",
+        "notes": "Master can arrive in person from Day 8 onwards. Power of Creation suppressed in proximity. Holly survives only with allies + terrain + portal-node escape route.",
+        "status": "ACTIVE"
+      }
+    ],
+    "quests": [],
+    "squads": {},
+    "assets": [],
+    "threat_clocks": {
+      "Master Toymaker's awareness": {
+        "progress": 0,
+        "rate": 5,
+        "rate_unit": "per in-game hour pre-discovery",
+        "post_discovery_rate": 15,
+        "post_discovery_rate_unit": "per in-game hour after the line foreman reports her absent (Day 1 hour ~12)",
+        "faction": "Master Toymaker (former captor)",
+        "description": "Pole-time runs slow but the workshop-side discovery happens at hour 8 (foreman reports absent), informed by hour 12 (Master notified), search begins by hour 18. From there +15/hour. Reaches 100 around Day 7-8 in-game time = Master arrival window opens.",
+        "trigger": "At 100, the Master arrives in person — the existential phase. Power of Creation suppressed in his proximity, Luck floor drops to base."
+      },
+      "Frostmaster pursuit": {
+        "progress": 0,
+        "rate": 10,
+        "rate_unit": "per in-game hour (after dispatch at hour 24)",
+        "faction": "Master Toymaker (Frostmaster construct lieutenant)",
+        "description": "Dispatched at hour 24 (Day 2 dawn). Reaches 100 around hour 34-36 = Frostmaster engages in the Cobalt Fountains Quarter. Sub-agents (the 'pest') start appearing earlier as the telegraph.",
+        "trigger": "Direct combat with Frostmaster around Day 2 evening. CR scaled by override factor — delivered as Frostmaster + 6 Frost-Husk lieutenants + ward."
+      },
+      "Council customs flagging": {
+        "progress": 0,
+        "rate": 4,
+        "rate_unit": "per in-game hour",
+        "faction": "Council customs (Solandra harbor master)",
+        "description": "Harbor Master Tezo cross-references the Witherhold manifest. Reaches 100 around hour 25 = Day 2 morning, customs summons.",
+        "trigger": "Holly receives a customs summons ~Day 2 morning. Outcomes: register, leave, or fake papers (high-risk)."
+      }
+    },
+    "npc_agendas": {},
+    "org_plots": {},
+    "world_events": [],
+    "consequences": [],
+    "reputation": {
+      "Solandra Bay (general public)": {
+        "score": 0,
+        "tier": "Unknown",
+        "_note": "Holly is a curiosity — the snow elf in the red dress. No reputation yet, will build quickly given CHA 60 + Luck +45 nudging encounters favorably."
+      }
+    },
+    "relationships": {},
+    "construct_army": {},
+    "construct_fear": {},
+    "hegemony_active": false,
+    "force_composition": {
+      "_comment": "Holly is solo at Day 1. May acquire allies, apprentices, or hired guards as she builds the workshop.",
+      "party": {},
+      "pets": [],
+      "summons": [],
+      "constructs": [
+        {
+          "name": "Three uninstalled construct cores",
+          "status": "in_pouch_dormant",
+          "size": "palm",
+          "note": "Stolen from the workshop on the way out. Each could become a small clockwork servant given a body. Currently dormant in her pouch."
+        }
+      ],
+      "hegemony": null
+    },
+    "encounter_log": [],
+    "events_active": {},
+    "canon_pointer": "Day 1 dawn, Solandra Bay, Pier Three. Holly has just walked off the Witherhold gangplank. Mango vendor has called out to her. This is her first conversation with a stranger in 400 years.",
+    "story_beat": "Holly, 437 years old, finally and only-just escaped from the Master Toymaker's workshop at the North Pole, has walked off a cargo cog into a tropical city she has only read about. She is wearing winter clothes in 78°F heat and has the contents of her unlimited pouch and 0 GP. She wants to invent things to make ordinary people's lives better. She does not yet understand what 'ordinary people' actually do all day. The mango vendor across the dock is the first person to speak to her.",
+    "narrative_notes": [
+      "Holly's first day is comedic-fish-out-of-water with a quiet horror undertow (the Master is going to notice within the day).",
+      "Luck +45 means she has favorable ambient luck — apply to NPC encounters, weather coincidences, small finds.",
+      "CHA 60 means she's charming once people figure her out — but she will commit social gaffes constantly. INT 99 lets her recover with explanations.",
+      "She has 0 GP cash and is sitting on ~250,000 GP in raw materials. The conversion problem is real.",
+      "First-time-meeting NPCs scenes are EVERY scene for Holly. Make them count.",
+      "The patron-gift suppression chain (Frostmaster → Snowmother → Master himself) is the campaign-defining tension. Don't deploy out of order.",
+      "Heat exhaustion CON save DC 12 every 4 hours unless she finds shade/water. Snow elves do not handle 78°F well."
+    ],
+    "active_perks": [
+      {
+        "name": "Sudden Insight",
+        "type": "racial_passive",
+        "level_gained": 0,
+        "summary": "Holly comprehends any machine on sight. Free action visual examination. Treats any non-divine, non-eldritch device as if she had spent weeks studying it.",
+        "mechanical_effect": "See racial_traits.racial_bonuses[0].mechanical_effect — combat advantage on first attack vs constructs, social insight into rigged scales/tampered locks, exploration insight for any door/vault/trap."
+      },
+      {
+        "name": "Endless Possibilities (Luck stat)",
+        "type": "racial_ability",
+        "level_gained": 0,
+        "summary": "7th ability score: Luck. Capped at 100 (L297 → cap). Mod +45. Added to every d20 roll.",
+        "mechanical_effect": "Luck mod (+45) added to all d20 rolls (attack, save, skill, ability check). Luck reserve is a spendable pool of 100 used by the Endless Possibilities Surge ability (10 per use). Regen 1/hour. Bias ambient narrative coincidences in her favor when she is in unsupervised public space.",
+        "narrative_application": "Holly's bad-luck-encounters do not happen randomly. The d20 hostile-encounter roll is shifted +45 in her favor. Coincidences resolve favorably. The right NPC appears at the right time. The bread is fresh."
+      },
+      {
+        "name": "Unlimited Inventory Pouch",
+        "type": "magic_item_permanent",
+        "level_gained": 0,
+        "summary": "Bag of holding+ — interior is unlimited. All inventor tools + four centuries of accumulated raw materials.",
+        "mechanical_effect": "Unlimited carry. Free-action pull-from-pouch. Can produce common-to-rare crafting material on demand (mithril, adamantine, dragon-bone, snowflake-quartz, etc). Cannot contain living creatures, food, or sentient constructs.",
+        "contents_summary": "See racial_traits.racial_bonuses[2].contents_summary."
+      },
+      {
+        "name": "Power of Creation (patron gift)",
+        "type": "patron_gift",
+        "level_gained": 0,
+        "summary": "Crafts anything she has materials for in fraction of normal artificer time. Can recreate any machine she has seen.",
+        "mechanical_effect": "See patron_gift.abilities — passive Sudden Insight (cross-listed with racial), active Workshop Mode (10min-6hr crafts), surge Endless Possibilities Burst (10 Luck per use, narrative reroll)."
+      },
+      {
+        "name": "Civilizational Illiteracy (flaw)",
+        "type": "quirk",
+        "level_gained": 0,
+        "summary": "Holly knows facts but has no muscle memory for being around people. Will commit gaffes constantly. CHA 60 carries intent; technique is nonexistent.",
+        "mechanical_effect": "Social interactions: CHA mod (+25) + Luck (+45) carry her INTENT, but she will misread cues, ask invasive questions, hug strangers, disassemble props mid-conversation. NPCs default to charmed-after-confusion rather than offended. INT-based recovery rolls available. Does not affect mechanical CHA roll bonus."
+      }
+    ],
+    "class_features": [
+      {
+        "name": "Master Toymaker subclass — Workshop Mode (Craft Anything)",
+        "type": "class",
+        "level_gained": 1,
+        "summary": "Action to begin. Time scales: simple (10 min) to construct combatant (6 hr). Materials from pouch. Constructs scale to her INT mod.",
+        "mechanical_effect": "See patron_gift.abilities.active. Constructs have HP and AC scaled to her INT mod (44). Constructs disassemble willingly. Cannot be used for direct lethal violence (theme-locked).",
+        "uses_per_day": "unlimited (rate-limited by material + time)"
+      },
+      {
+        "name": "Artificer Spellcasting (extended)",
+        "type": "class",
+        "level_gained": 1,
+        "summary": "Holly prepares spells daily; spell list emphasizes creation, repair, illusion-of-objects, and protection. INT is spellcasting ability.",
+        "mechanical_effect": "Standard Artificer spellcasting extended to L297. Spell save DC = 8 + prof (12) + INT (44) = 64. Spell attack = +56. Slots scale per L20+ extension table."
+      },
+      {
+        "name": "Infusions (Artificer)",
+        "type": "class",
+        "level_gained": 1,
+        "summary": "Holly imbues mundane items with magic — long-lasting buffs to weapons, armor, trinkets.",
+        "mechanical_effect": "Standard Artificer infusions, scaled to L297. Holly maintains up to (INT mod = 44) active infusions on items at any time."
+      }
+    ],
+    "exp_to_next_level": "N/A — Holly's level is symbolic. XP is recorded for narrative milestones, not advancement.",
+    "exp_history": [],
+    "_chapter": 1,
+    "_chapter_status": "PENDING",
+    "_chapter_title": "[OPEN — Day 1 dawn, Solandra Bay]"
+  },
+  "_chapter": 1,
+  "_chapter_status": "PENDING",
+  "_chapter_title": "[OPEN — Day 1 dawn, Solandra Bay]",
+  "_chapter_history": [],
+  "_narrative_summary": [
+    "Holly is a 437-year-old snow elf and Master Craftsman/Inventor who escaped four-plus centuries of forced servitude at the Master Toymaker's North Pole workshop. Her gifts: Sudden Insight (instant mechanical comprehension), Endless Possibilities (a 7th ability score called Luck, capped at 100, biasing every d20 roll and ambient narrative coincidence), and an unlimited inventory pouch holding her tools and four centuries of raw materials. Her patron gift is the Power of Creation — the Master granted it to speed his line; she honed it past his control. He does not yet know she is gone.",
+    "Day 1 — dawn — Solandra Bay. Holly walks off the cargo cog *Witherhold* into a tropical city she has only ever read about. She is wearing winter clothes in 78°F heat. She has 0 GP and ~250,000 GP equivalent in raw materials in her pouch. She wants to open a workshop and invent things that make ordinary people's lives better. She has never met a stranger in person. The mango vendor across the dock has just spoken to her.",
+    "Three threat clocks tick from Day 1: Master Toymaker's awareness (+1/day, accelerates to +5 once he learns of her absence), Frostmaster pursuit (Day 4 dispatch, Day 12 arrival, CR 8 combat), Council customs flagging (Day 21 summons). Goal: stay free, build a workshop, advocate for ordinary people. CHA 60 + Luck +45 carry her intent through her social inexperience; the campaign's defining tension is the Master's eventual personal arrival."
+  ],
+  "main_cast_extension": {
+    "_note": "No cross-campaign family ties for Holly — she is unrelated to the Ankuspawn line, the Vorathiel-Kenji thread, or the existing kingdom factions. Her connections are forward-built in this campaign."
+  },
+  "persistent_effects": {
+    "_rule": "Track all status effects, auras, poisons, and debuffs that persist across scenes. Update every chapter. See dm_rules_tracking.md § Poison, Status Effects & Debuff System.",
+    "on_pc": [
+      {
+        "effect_name": "Tropical Heat Acclimation Pending",
+        "source": "Snow elf biology vs 78°F+ ambient",
+        "type": "debuff",
+        "mechanical_effect": "CON save DC 12 every 4 hours unless in shade or near water. Failure = one level of heat exhaustion (disadvantage on physical checks until cooled). Acclimates over 2-3 weeks of continuous exposure.",
+        "duration": "until_cured",
+        "clear_condition": "2-3 weeks continuous exposure to tropical climate, OR a snowflake-quartz cooling band (which Holly could craft from materials in her pouch in ~30 minutes)"
+      }
+    ],
+    "on_pc_from_npcs": [],
+    "known_enemy_buffs": []
+  }
+}

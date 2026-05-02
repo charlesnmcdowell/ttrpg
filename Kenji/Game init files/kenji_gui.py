@@ -12,6 +12,11 @@ Environment: TTRPG_CAMPAIGN_DIR may point at a campaign folder (same as --campai
 
 import sys, io, os, json, random, argparse, re
 import tkinter as tk
+import threading
+import tempfile
+import wave
+import urllib.request
+import urllib.error
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Optional, Type, Any
@@ -23,6 +28,12 @@ try:
     HAS_WINSOUND = True
 except ImportError:
     HAS_WINSOUND = False
+
+# Default ElevenLabs voice ID ("Rachel" — well-known starter voice).
+# Per-character overrides go in tts_config.json under `character_voices`.
+DEFAULT_TTS_VOICE_ID = "21m00Tcm4TlvDq8ikWAM"
+DEFAULT_TTS_MODEL = "eleven_turbo_v2_5"
+TTS_PCM_RATE = 22050   # ElevenLabs supports pcm_22050 — fits in winsound WAV play
 
 # PyInstaller-aware path resolution.
 # - When running as a PyInstaller .exe, __file__ resolves to the temp extraction
@@ -146,6 +157,15 @@ def _load_campaign_config(argv: Optional[list] = None) -> CampaignConfig:
     # 5. env TTRPG_CAMPAIGN_DIR → same as --campaign
     # 6. default                → manifests/kenji.json
     character = args.character or env_char or None
+
+    # Record the active character so the launcher can chapter-close it on the
+    # next swap. Best-effort — silent on failure.
+    if character:
+        try:
+            (SCRIPT_DIR / ".last_character").write_text(
+                character.strip().lower() + "\n", encoding="utf-8")
+        except Exception:
+            pass
 
     manifest_path: Optional[Path] = None
     legacy_root: Optional[Path] = None
@@ -469,6 +489,213 @@ class LiveDashboard(ctk.CTk):
             except Exception:
                 pass
 
+    # ------------------------------------------------------------------
+    # ElevenLabs TTS — narrator voice for the Play tab
+    # ------------------------------------------------------------------
+    @property
+    def _tts_config_path(self) -> Path:
+        """Settings file next to kenji_gui.py / .exe."""
+        return SCRIPT_DIR / "tts_config.json"
+
+    def _tts_load_config(self) -> dict:
+        """Load TTS config. Returns defaults if file missing or unreadable.
+
+        Key resolution order (first hit wins):
+            1. SCRIPT_DIR/key.txt — first non-empty, non-comment line is the key
+            2. tts_config.json -> api_key
+            3. ELEVENLABS_API_KEY environment variable
+            4. empty (TTS disabled until user sets one)
+
+        Schema (tts_config.json):
+            {
+              "api_key": "<optional, fallback if key.txt missing>",
+              "voice_id": "<default narrator voice ID>",
+              "auto_speak": false,
+              "character_voices": { "Cookie": "<voice id>", "Shen Sama": "..." }
+            }
+        """
+        defaults = {
+            "api_key": "",
+            "voice_id": DEFAULT_TTS_VOICE_ID,
+            "auto_speak": False,
+            "character_voices": {},
+        }
+        cfg = dict(defaults)
+        # Layer 1: tts_config.json (structured config — voices, auto-flag).
+        try:
+            txt = self._tts_config_path.read_text(encoding="utf-8")
+            loaded = json.loads(txt)
+            for k, v in defaults.items():
+                cfg[k] = loaded.get(k, v)
+        except Exception:
+            pass
+        # Layer 2: key.txt overrides api_key if present (cleaner separation —
+        # keys live alone, easier to .gitignore, easier to swap without
+        # touching the structured config).
+        key_path = SCRIPT_DIR / "key.txt"
+        try:
+            if key_path.exists():
+                for line in key_path.read_text(encoding="utf-8").splitlines():
+                    line = line.strip()
+                    if line and not line.startswith("#"):
+                        cfg["api_key"] = line
+                        break
+        except Exception:
+            pass
+        # Layer 3: env-var fallback.
+        if not (cfg.get("api_key") or "").strip():
+            cfg["api_key"] = os.environ.get("ELEVENLABS_API_KEY", "")
+        return cfg
+
+    def _tts_save_config(self, cfg: dict) -> None:
+        try:
+            self._tts_config_path.write_text(
+                json.dumps(cfg, indent=2, ensure_ascii=False) + "\n",
+                encoding="utf-8")
+        except Exception:
+            pass
+
+    def _tts_strip_for_speech(self, text: str) -> str:
+        """Clean up narrator text before sending to TTS.
+
+        Removes:
+          - everything from '---OPTIONS---' onward (we don't want the option list spoken)
+          - markdown emphasis (* and _)
+          - parenthetical roll annotations like (d20+126 vs AC 16 → HIT)
+          - bracketed engine/error notes [TTS: ...]
+          - the dev-mode prompt boilerplate
+        """
+        if not text:
+            return ""
+        # Cut at OPTIONS delimiter
+        text = text.split("---OPTIONS---", 1)[0]
+        # Strip dev-mode boilerplate that sometimes lands in the pane
+        text = re.sub(r"^═+.*?═+\n", "", text, flags=re.DOTALL | re.MULTILINE)
+        # Roll-annotation parens (catch d20, FATALITY, HIT, MISS, HP changes)
+        text = re.sub(r"\([^)]*(?:d\d+|FATALITY|HIT|MISS|HP\s*[<>=:])[^)]*\)",
+                       "", text, flags=re.IGNORECASE)
+        # Bracketed engine messages
+        text = re.sub(r"\[(?:TTS|warning|error|engine)[^\]]*\]", "", text,
+                       flags=re.IGNORECASE)
+        # Markdown emphasis
+        text = text.replace("*", "").replace("_", "")
+        # Squash multi-blank-lines and trim
+        text = re.sub(r"\n\s*\n\s*\n+", "\n\n", text)
+        return text.strip()
+
+    def _tts_speak(self, text: Optional[str] = None,
+                    voice_id: Optional[str] = None) -> None:
+        """Speak the given text (or the current narrator pane contents) via
+        ElevenLabs. Network call runs on a background thread."""
+        cfg = self._tts_load_config()
+        api_key = (cfg.get("api_key") or "").strip()
+        if not api_key:
+            self._play_append_narrator(
+                "\n[TTS: no API key set — edit tts_config.json next to "
+                "kenji_gui.py and add your ElevenLabs `api_key`]\n")
+            return
+        if text is None:
+            try:
+                text = self.play_narrator.get("1.0", "end")
+            except Exception:
+                text = ""
+        speech = self._tts_strip_for_speech(text)
+        if not speech:
+            return
+        # Resolve voice — character override > config default > module default.
+        if voice_id is None:
+            char_name = ""
+            try:
+                if self.engine and getattr(self.engine, "char_name", None):
+                    char_name = self.engine.char_name
+            except Exception:
+                pass
+            voice_id = (cfg.get("character_voices") or {}).get(char_name) \
+                or cfg.get("voice_id") or DEFAULT_TTS_VOICE_ID
+        threading.Thread(
+            target=self._tts_request_and_play,
+            args=(api_key, voice_id, speech),
+            daemon=True,
+        ).start()
+
+    def _tts_request_and_play(self, api_key: str, voice_id: str,
+                                text: str) -> None:
+        """Background thread: hit the ElevenLabs API, wrap PCM into WAV, play."""
+        url = (f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}"
+                f"/stream?output_format=pcm_{TTS_PCM_RATE}")
+        body = json.dumps({
+            "text": text,
+            "model_id": DEFAULT_TTS_MODEL,
+        }).encode("utf-8")
+        req = urllib.request.Request(url, data=body, method="POST")
+        req.add_header("xi-api-key", api_key)
+        req.add_header("Content-Type", "application/json")
+        try:
+            with urllib.request.urlopen(req, timeout=45) as resp:
+                pcm = resp.read()
+        except urllib.error.HTTPError as e:
+            try:
+                err = e.read().decode("utf-8", errors="replace")[:200]
+            except Exception:
+                err = str(e)
+            self.after(0, lambda: self._play_append_narrator(
+                f"\n[TTS HTTP {e.code}: {err}]\n"))
+            return
+        except Exception as e:
+            self.after(0, lambda: self._play_append_narrator(
+                f"\n[TTS error: {e}]\n"))
+            return
+        # Wrap PCM (16-bit signed mono) into a WAV file in temp.
+        try:
+            wav_path = Path(tempfile.gettempdir()) / "kenji_tts.wav"
+            with wave.open(str(wav_path), "wb") as wf:
+                wf.setnchannels(1)
+                wf.setsampwidth(2)
+                wf.setframerate(TTS_PCM_RATE)
+                wf.writeframes(pcm)
+        except Exception as e:
+            self.after(0, lambda: self._play_append_narrator(
+                f"\n[TTS WAV write error: {e}]\n"))
+            return
+        # winsound plays one sound at a time. Stop background music while
+        # speech plays, then let the music re-poll auto-resume after.
+        if HAS_WINSOUND:
+            try:
+                winsound.PlaySound(str(wav_path),
+                                    winsound.SND_FILENAME | winsound.SND_ASYNC)
+                # Mark music stopped so the next poll cycle re-applies it
+                # after speech ends. winsound has no completion callback;
+                # estimate duration from PCM byte length.
+                duration = len(pcm) / (TTS_PCM_RATE * 2)
+                self._music_playing = False
+                self._current_track = None
+                # When TTS finishes, the regular music poll will pick the
+                # right track for the current state and resume.
+            except Exception as e:
+                self.after(0, lambda: self._play_append_narrator(
+                    f"\n[TTS playback error: {e}]\n"))
+
+    def _on_tts_speak_clicked(self):
+        """🔊 Speak — read the current narrator pane aloud."""
+        self._tts_speak()
+
+    def _on_tts_speak_narrative_clicked(self):
+        """🔊 Speak (Narrative tab) — read the adventure recap aloud."""
+        try:
+            text = self._tb_narrative.get("1.0", "end")
+        except Exception:
+            text = ""
+        self._tts_speak(text)
+
+    def _on_tts_auto_toggle(self):
+        """Toggle auto-speak; persist to config."""
+        cfg = self._tts_load_config()
+        cfg["auto_speak"] = not cfg.get("auto_speak", False)
+        self._tts_save_config(cfg)
+        if hasattr(self, "btn_tts_auto"):
+            self.btn_tts_auto.configure(
+                text=f"🔊 Auto: {'ON' if cfg['auto_speak'] else 'OFF'}")
+
     def _on_close(self):
         self._stop_music()
         self.destroy()
@@ -721,9 +948,25 @@ class LiveDashboard(ctk.CTk):
         self.lbl_time = ctk.CTkLabel(hdr, text="", font=FONT_TITLE, text_color=TEXT)
         self.lbl_time.pack(side="left", padx=16)
 
-        self.lbl_location = ctk.CTkLabel(hdr, text="", font=FONT_BODY, text_color=TEXT_DIM)
-        self.lbl_location.pack(side="left", padx=16)
+        # Text-size controls — packed on the LEFT (right after the time stamp)
+        # so they're always visible regardless of how long the
+        # location/weather text gets. Three buttons: A-, %, A+.
+        # set_widget_scaling() rescales every CTk widget; the % is persisted
+        # next to the .exe so it survives restarts.
+        ctk.CTkButton(hdr, text="A-", width=28, height=28, fg_color=BG_CARD,
+                       hover_color=GOLD_DIM, text_color=GOLD, font=FONT_SMALL,
+                       command=lambda: self._adjust_scale(-0.1)
+                       ).pack(side="left", padx=(8, 2))
+        self.lbl_scale = ctk.CTkLabel(hdr, text="100%", font=FONT_SMALL,
+                                       text_color=TEXT_DIM, width=42)
+        self.lbl_scale.pack(side="left", padx=2)
+        ctk.CTkButton(hdr, text="A+", width=28, height=28, fg_color=BG_CARD,
+                       hover_color=GOLD_DIM, text_color=GOLD, font=FONT_SMALL,
+                       command=lambda: self._adjust_scale(+0.1)
+                       ).pack(side="left", padx=(2, 8))
 
+        # Right-side controls FIRST so they grab their space before the
+        # location label gets a chance to overflow.
         self.lbl_version = ctk.CTkLabel(hdr, text="", font=FONT_SMALL, text_color=TEXT_DIM)
         self.lbl_version.pack(side="right", padx=16)
 
@@ -733,25 +976,17 @@ class LiveDashboard(ctk.CTk):
                                                command=self._on_music_toggle)
         self.btn_music_toggle.pack(side="right", padx=4)
 
-        # Text-size controls. Three small buttons: A-, %, A+. Customtkinter's
-        # set_widget_scaling() rescales every CTk widget at once. Scale is
-        # persisted next to the .exe so it survives restarts.
-        ctk.CTkButton(hdr, text="A+", width=28, height=28, fg_color=BG_CARD,
-                       hover_color=GOLD_DIM, text_color=GOLD, font=FONT_SMALL,
-                       command=lambda: self._adjust_scale(+0.1)
-                       ).pack(side="right", padx=2)
-        self.lbl_scale = ctk.CTkLabel(hdr, text="100%", font=FONT_SMALL,
-                                       text_color=TEXT_DIM, width=42)
-        self.lbl_scale.pack(side="right", padx=2)
-        ctk.CTkButton(hdr, text="A-", width=28, height=28, fg_color=BG_CARD,
-                       hover_color=GOLD_DIM, text_color=GOLD, font=FONT_SMALL,
-                       command=lambda: self._adjust_scale(-0.1)
-                       ).pack(side="right", padx=2)
         ctk.CTkButton(hdr, text="■", width=28, height=28, fg_color=BG_CARD,
                        hover_color=RED, text_color=TEXT, font=FONT_SMALL,
                        command=self._stop_music).pack(side="right", padx=2)
         self.lbl_now_playing = ctk.CTkLabel(hdr, text="", font=FONT_SMALL, text_color=TEXT_DIM)
         self.lbl_now_playing.pack(side="right", padx=8)
+
+        # Location label LAST, with fill+expand so it takes only the leftover
+        # middle cavity instead of pushing the right-side controls off-screen.
+        self.lbl_location = ctk.CTkLabel(hdr, text="", font=FONT_BODY,
+                                          text_color=TEXT_DIM, anchor="w")
+        self.lbl_location.pack(side="left", padx=16, fill="x", expand=True)
 
     # ------------------------------------------------------------------
     # Text-scale persistence
@@ -886,6 +1121,27 @@ class LiveDashboard(ctk.CTk):
                 # The Play tab gets a custom layout: narrator output (scrolling
                 # textbox) + 3 option buttons + custom input row.
                 self._build_play_tab(tab)
+            elif name == "Narrative":
+                # Narrative tab gets a TTS toolbar above its textbox so the
+                # adventure recap can be read aloud (handy for replaying long
+                # campaigns or accessibility).
+                tts_bar = ctk.CTkFrame(tab, fg_color=BG_PANEL,
+                                        corner_radius=6, height=36)
+                tts_bar.pack(fill="x", padx=4, pady=(4, 0))
+                tts_bar.pack_propagate(False)
+                ctk.CTkButton(tts_bar, text="🔊 Speak", width=92, height=28,
+                               fg_color=BG_CARD, hover_color=GOLD_DIM,
+                               text_color=GOLD, font=FONT_SMALL,
+                               command=self._on_tts_speak_narrative_clicked
+                               ).pack(side="left", padx=(8, 4), pady=4)
+                ctk.CTkLabel(tts_bar,
+                              text="reads the adventure recap aloud",
+                              font=FONT_SMALL, text_color=TEXT_DIM
+                              ).pack(side="left", padx=8)
+                tb = ctk.CTkTextbox(tab, fg_color=BG_CARD, text_color=TEXT,
+                                    font=FONT_MONO, wrap="word", state="disabled")
+                tb.pack(fill="both", expand=True, padx=4, pady=4)
+                setattr(self, f"_tb_{name.lower()}", tb)
             else:
                 tb = ctk.CTkTextbox(tab, fg_color=BG_CARD, text_color=TEXT,
                                     font=FONT_MONO, wrap="word", state="disabled")
@@ -909,7 +1165,12 @@ class LiveDashboard(ctk.CTk):
             _hh += 1
             _mm = 0
         self.lbl_time.configure(text=f"Day {e.day}  {_hh:02d}:{_mm:02d} — {e.time_of_day()}")
-        self.lbl_location.configure(text=f"{e.location} — {e.weather}")
+        _loc_full = f"{e.location} — {e.weather}"
+        # Truncate to ~120 chars so the header cavity can't be blown out by
+        # multi-paragraph location strings; full text still in the World tab.
+        if len(_loc_full) > 120:
+            _loc_full = _loc_full[:117] + "..."
+        self.lbl_location.configure(text=_loc_full)
         ver = f"v{e._save_version}"
         if e._saved_at:
             ver += f"  ({e._saved_at})"
@@ -1006,6 +1267,32 @@ class LiveDashboard(ctk.CTk):
     def _build_play_tab(self, tab):
         """Custom layout for the Play tab. Narrator output dominates the top;
         bottom strip has three option buttons + a custom-input row + Send."""
+        # TTS toolbar — sits above the narrator pane. ElevenLabs voice for
+        # the play/narrate flow. Buttons: 🔊 Speak (one-shot), 🔊 Auto toggle.
+        tts_bar = ctk.CTkFrame(tab, fg_color=BG_PANEL, corner_radius=6, height=36)
+        tts_bar.pack(fill="x", padx=4, pady=(4, 0))
+        tts_bar.pack_propagate(False)
+        ctk.CTkButton(tts_bar, text="🔊 Speak", width=92, height=28,
+                       fg_color=BG_CARD, hover_color=GOLD_DIM,
+                       text_color=GOLD, font=FONT_SMALL,
+                       command=self._on_tts_speak_clicked
+                       ).pack(side="left", padx=(8, 4), pady=4)
+        _cfg = self._tts_load_config()
+        self.btn_tts_auto = ctk.CTkButton(
+            tts_bar,
+            text=f"🔊 Auto: {'ON' if _cfg.get('auto_speak') else 'OFF'}",
+            width=110, height=28,
+            fg_color=BG_CARD, hover_color=GOLD_DIM,
+            text_color=GOLD, font=FONT_SMALL,
+            command=self._on_tts_auto_toggle)
+        self.btn_tts_auto.pack(side="left", padx=4, pady=4)
+        # Hint label — points new users at the config file.
+        hint = "voice: " + (_cfg.get("voice_id") or DEFAULT_TTS_VOICE_ID)[:8] + "…"
+        if not (_cfg.get("api_key") or "").strip():
+            hint = "no API key — edit tts_config.json next to kenji_gui.py"
+        ctk.CTkLabel(tts_bar, text=hint, font=FONT_SMALL,
+                      text_color=TEXT_DIM).pack(side="left", padx=8)
+
         # Narrator output — scrollable text box, takes most of the tab.
         self.play_narrator = ctk.CTkTextbox(
             tab, fg_color=BG_CARD, text_color=TEXT,
@@ -1101,30 +1388,35 @@ class LiveDashboard(ctk.CTk):
         # Sync the Send button label to the initial mode/stage.
         self._play_update_send_button()
 
-        if self.play_state.dev_mode:
-            welcome = (
-                "Welcome to the Play tab — DEV MODE.\n\n"
-                "No ANTHROPIC_API_KEY detected (or you toggled dev mode on), so "
-                "the dashboard routes turns through your Claude Desktop instead "
-                "of the API.\n\n"
-                "WORKFLOW each turn:\n"
-                "  1. Type an action below (or click a suggestion when populated) "
-                "and press Enter.\n"
-                "  2. Click 'Copy Prompt → Clipboard'. Paste it into Claude Desktop.\n"
-                "  3. Claude Desktop responds as the DM.\n"
-                "  4. Select Claude's full response, copy it.\n"
-                "  5. Click '← Paste Response from Clipboard'. Narrative renders, "
-                "buttons populate."
-            )
-        else:
-            welcome = (
-                "Welcome to the Play tab.\n\n"
-                "Type your first action below and press Enter. Three suggested "
-                "next-actions will appear after the narrator responds.\n\n"
-                "Tip: enable 'Dev mode' below to bypass the API and route turns "
-                "through your Claude Desktop via clipboard."
-            )
-        self._play_set_narrator(welcome)
+        # Try to rehydrate the last decision point from a sidecar file. If
+        # present, the player sees their last narrator beat + the 3 options
+        # they had on the board when the dashboard was last open. Otherwise
+        # we show the welcome.
+        if not self._play_rehydrate_from_sidecar():
+            if self.play_state.dev_mode:
+                welcome = (
+                    "Welcome to the Play tab — DEV MODE.\n\n"
+                    "No ANTHROPIC_API_KEY detected (or you toggled dev mode on), so "
+                    "the dashboard routes turns through your Claude Desktop instead "
+                    "of the API.\n\n"
+                    "WORKFLOW each turn:\n"
+                    "  1. Type an action below (or click a suggestion when populated) "
+                    "and press Enter.\n"
+                    "  2. Click 'Copy Prompt → Clipboard'. Paste it into Claude Desktop.\n"
+                    "  3. Claude Desktop responds as the DM.\n"
+                    "  4. Select Claude's full response, copy it.\n"
+                    "  5. Click '← Paste Response from Clipboard'. Narrative renders, "
+                    "buttons populate."
+                )
+            else:
+                welcome = (
+                    "Welcome to the Play tab.\n\n"
+                    "Type your first action below and press Enter. Three suggested "
+                    "next-actions will appear after the narrator responds.\n\n"
+                    "Tip: enable 'Dev mode' below to bypass the API and route turns "
+                    "through your Claude Desktop via clipboard."
+                )
+            self._play_set_narrator(welcome)
 
     def _play_toggle_dev_mode(self):
         """Sync the toggle into PlayState and refresh the Send button label."""
@@ -1223,6 +1515,14 @@ class LiveDashboard(ctk.CTk):
 
         if narrative:
             self._play_append_narrator(narrative + "\n\n")
+            # Auto-speak hook (RULE 11.5 mid-turn integration is JSON; this
+            # is the audio analog — when a new narrator beat lands, optionally
+            # read it aloud via ElevenLabs).
+            try:
+                if self._tts_load_config().get("auto_speak"):
+                    self._tts_speak(narrative)
+            except Exception:
+                pass
         else:
             self._play_append_narrator(
                 f"[no narrative parsed from {source} — make sure the full "
@@ -1243,6 +1543,14 @@ class LiveDashboard(ctk.CTk):
         self._play_update_send_button()
         self.play_input.focus_set()
 
+        # Persist the decision point to a per-character sidecar so a restart
+        # rehydrates the Play tab to this moment instead of an empty welcome.
+        self._play_persist_decision_point(
+            narrator_text=narrative or response_text,
+            options=options,
+            player_action=new_turn.player_action or "",
+        )
+
         # Clear play_response.md so it can't be re-applied next poll cycle.
         # The empty file represents the idle state between turns.
         path = getattr(self, "_play_response_path", None)
@@ -1252,6 +1560,154 @@ class LiveDashboard(ctk.CTk):
                 self._play_response_mtime = path.stat().st_mtime
             except Exception:
                 pass
+
+    # ------------------------------------------------------------------
+    # Last-decision-point persistence (per-character sidecar)
+    # ------------------------------------------------------------------
+    def _play_decision_sidecar_path(self) -> Optional[Path]:
+        """Sidecar path next to the state file — character-specific."""
+        try:
+            sf = self.config.state_file
+            if sf:
+                return sf.parent / "_last_play_decision.json"
+        except Exception:
+            pass
+        return None
+
+    def _play_current_character_id(self) -> str:
+        """Return the character_id we believe is loaded right now.
+
+        Trust order: engine.char_name (lowercased) > config.character > "?"."""
+        try:
+            n = (getattr(self.engine, "char_name", "") or "").strip().lower()
+            if n:
+                return n
+        except Exception:
+            pass
+        try:
+            return (getattr(self.config, "character", "") or "").strip().lower()
+        except Exception:
+            return "?"
+
+    def _play_persist_decision_point(self, narrator_text: str,
+                                       options: list,
+                                       player_action: str = "") -> None:
+        """Write the last decision point to the sidecar so a restart can
+        rehydrate the Play tab to this moment. Best-effort; failures are
+        swallowed (the sidecar is a convenience, not a correctness gate).
+
+        Includes character_id + state_file path as identity stamps so a
+        misplaced sidecar can never load into the wrong character.
+        """
+        path = self._play_decision_sidecar_path()
+        if not path:
+            return
+        try:
+            payload = {
+                "character_id": self._play_current_character_id(),
+                "state_file_stamp": str(self.config.state_file)
+                                    if getattr(self, "config", None) else "",
+                "narrator_text": narrator_text or "",
+                "options": list(options or []),
+                "player_action": player_action or "",
+                "applied_at": __import__("datetime").datetime.now()
+                                  .isoformat(timespec="seconds"),
+            }
+            path.write_text(
+                json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
+                encoding="utf-8")
+        except Exception:
+            pass
+
+    def _play_rehydrate_from_sidecar(self) -> bool:
+        """Restore the Play tab from the per-character sidecar if it exists.
+        Returns True if rehydrated, False if no sidecar / unreadable / mismatch.
+
+        IDENTITY GUARDS (defense against cross-character leak):
+          1. Sidecar must contain `character_id` matching the currently-loaded
+             character (engine.char_name or config.character).
+          2. Sidecar's `state_file_stamp` must match the currently-loaded
+             state file path.
+          If either guard fails, we DO NOT load the sidecar, log the mismatch
+          to the narrator pane, and fall back to the welcome screen.
+
+        Renders on success:
+          - A small banner showing the previous player action (if any)
+          - The previous narrator text
+          - The three options (clickable as if the response had just landed)
+        """
+        path = self._play_decision_sidecar_path()
+        if not path or not path.exists():
+            return False
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            return False
+
+        # Identity guards.
+        cur_char = self._play_current_character_id()
+        sidecar_char = (payload.get("character_id") or "").strip().lower()
+        if sidecar_char and cur_char and sidecar_char != cur_char:
+            # Wrong character — refuse to load. Move the misplaced sidecar
+            # aside so it doesn't keep interfering on next launch.
+            try:
+                bad = path.with_suffix(path.suffix + f".mismatched.{cur_char}")
+                path.rename(bad)
+                self._play_set_narrator(
+                    f"[sidecar identity mismatch — sidecar says character "
+                    f"'{sidecar_char}' but the dashboard is running "
+                    f"'{cur_char}'. Renamed sidecar to {bad.name} and "
+                    f"falling back to welcome.]\n"
+                )
+            except Exception:
+                pass
+            return False
+
+        cur_state_file = ""
+        try:
+            cur_state_file = str(self.config.state_file) if self.config.state_file else ""
+        except Exception:
+            cur_state_file = ""
+        sidecar_state_stamp = (payload.get("state_file_stamp") or "").strip()
+        if sidecar_state_stamp and cur_state_file and \
+                sidecar_state_stamp.replace("\\", "/") != cur_state_file.replace("\\", "/"):
+            self._play_set_narrator(
+                f"[sidecar path mismatch — sidecar references "
+                f"'{sidecar_state_stamp}' but current state file is "
+                f"'{cur_state_file}'. Falling back to welcome.]\n"
+            )
+            return False
+
+        narrator = (payload.get("narrator_text") or "").strip()
+        options = payload.get("options") or []
+        prev_action = (payload.get("player_action") or "").strip()
+        applied_at = payload.get("applied_at") or ""
+        if not narrator and not options:
+            return False
+
+        # Render. Header notes this is a restored view + which character.
+        header_lines = [
+            f"── Resumed from last session for {cur_char or '?'}"
+            + (f"  (saved {applied_at})" if applied_at else "")
+            + " ──",
+        ]
+        if prev_action:
+            header_lines.append(f"> {prev_action}")
+        header_lines.append("")
+        self._play_set_narrator("\n".join(header_lines))
+        if narrator:
+            self._play_append_narrator(narrator + "\n\n")
+
+        # Reset in-memory PlayState turn history before pushing the new options
+        # — defensive against any stale cross-character data.
+        try:
+            self.play_state.turns = []
+        except Exception:
+            pass
+        if options:
+            self.play_state.current_options = list(options)
+            self._play_set_options(list(options))
+        return True
 
     def _play_send_option(self, idx: int) -> None:
         """Player clicked one of the three suggestion buttons."""

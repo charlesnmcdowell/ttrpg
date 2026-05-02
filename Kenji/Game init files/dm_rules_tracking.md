@@ -251,6 +251,128 @@ A boss can fire in any narratively justified location: a forest ambush, a city a
 
 **DM self-check:** Before declaring a boss encounter, did I run `e.boss_eligibility()` and confirm `eligible: True`? If not, did I tag the new combat with `boss=True` to keep the count honest? Did I narratively justify why the boss can engage here (the player came to them, they came to the player, the world brought them together)? If any of these is no, REWORK the scene.
 
+### RULE 13: HIGH-STAT JUSTIFICATION — UNJUSTIFIED EXCELLENCE GETS A QUIRK (NON-NEGOTIABLE)
+**SCOPE: BASE STATS ONLY.** This rule applies exclusively to a character's *base* ability score (the value the player assigned at creation, before any racial bonus, item buff, ability buff, or temporary modifier). Items, abilities, and skills that raise or lower a stat at runtime do NOT generate quirks. A character with base STR 16 wearing a +8 STR gauntlet (final STR 24) gets ZERO Rule 13 quirks — the way to counter that high final stat is to **deplete, dispel, destroy, or remove the gauntlet itself**, not to invent a contextual debuff.
+
+A base ability score above 20 in STR/DEX/CON/INT/WIS/CHA must have that high BASE stat *justified* by one of:
+
+- **A class feature** that explicitly buffs the stat (Barbarian Rage, Monk Martial Arts, Wizard's Arcane Recovery, Artificer Infusions on a self-item, etc.)
+- **A racial trait** that buffs the stat (e.g., dragon affinity stats per `DRAGON_STAT_AFFINITY`, snow-elf Sudden Insight scaling INT effectively, etc.)
+- **A patron gift / ember power** that buffs the stat (Body Enhancement, Power of Creation channeling, Ankuspawn dragon bonus, etc.)
+- **An equipped item** with named buff (a +N STR girdle, mithril-thread apron's CON aspect, etc.)
+
+If no such justification exists in `active_perks`, `class_features`, `racial_traits`, `equipped`, `dragon_inheritance`, or `patron_gift` — the stat is *unjustified* and the character must carry a contextual quirk that **drops the stat under 20 in defined circumstances**, lore-grounded to the character's background. Examples:
+
+- Holly's CON 27 (snow-elf biology) → "Tropical heat acclimation pending" — CON drops to 19 above 75°F, full debuff above 85°F until acclimated (2-3 weeks).
+- Holly's DEX 44 (no DEX-enhancing class/perk) → "Unfamiliar terrain" — DEX drops to 19 on cobblestones, sand, wet planks, palm-shaded streets, anything that isn't packed snow she grew up walking on. Heels-on-stone clumsiness for the first month in Solandra.
+- Holly's INT 99 (centuries of pure book-study) → "Library catalog, no muscle memory" — INT drops to 19 on real-world social/practical applications she has only read about (haggling, flirting, reading body language, navigating an unfamiliar street). Knowledge applies; intuition does not.
+- A character with raw STR 24 and no Barbarian/Monk/Athletic-class ability → "All bone, no leverage" — STR drops to 19 when not braced (mid-jump, off-balance, throwing without footing).
+
+**Why this rule exists.** The 72-point cap (Character Creation #7) makes Rule 13 mostly redundant — a balanced 72-point character usually can't push above 20 without dropping another stat below 10 (which fires Rule 12). Rule 13 is the safety net for: (a) legacy characters created before the cap was enforced, (b) characters who legitimately exceed the cap via dragon inheritance / patron gift / level-up gains and need the trade-off codified, (c) the wizard letting an over-cap character slip through (Holly's case — she should never have made it past creation).
+
+**Severity scaling (auto-applied by `detect_high_stat_quirks`):**
+
+| Base score | Severity         | Applied effect                                                    |
+|------------|------------------|-------------------------------------------------------------------|
+| 21-24      | Mild             | Quirk fires in named edge-cases; otherwise the high stat applies  |
+| 25-30      | Moderate         | Quirk fires in any matching circumstance; check before each use   |
+| 31-50      | Severe           | Quirk fires whenever the trigger applies; stat is unreliable      |
+| 51+        | Crippling        | Quirk dominates — the high stat works only under perfect setup    |
+
+**Engine integration:** `character_compute.detect_high_stat_quirks(state)` scans each ability score base; for each value > 20, it searches `active_perks`, `class_features`, `racial_traits`, `equipped`, `dragon_inheritance`, and `patron_gift` for textual references to the stat name ("STR", "Strength", "DEX", etc.). If a justification is found, the stat is marked `justified: true` with the source. If not, the stat is marked `needs_quirk: true` with a suggested-template field; the DM (or the player) fills the quirk specifics. `apply_high_stat_quirks()` is wired into `recompute_character_state` so the report runs every refresh.
+
+**DM self-check (RULE 13):** For every character with a base stat above 20: do I have a documented justification? If not, does the character have a contextual debuff in `mechanical_state.high_stat_quirks` that drops the stat under 20 in some circumstance? If neither — fix before the next scene. Holly's CON should drop in tropical heat. Her DEX should drop on unfamiliar surfaces. Her INT should drop on social-intuition applications. Etc.
+
+**Prevention is better than backup.** Rule 13 catches what slipped past the wizard. The right long-term fix is `generate_starter_campaign.py` enforcing the 72-point cap at creation time so legitimate characters can't get into this territory in the first place. At 72 points, focusing one stat to 24+ requires dropping another stat below 10, which auto-fires Rule 12 — the system self-balances.
+
+### RULE 12: LOW-STAT QUIRKS — MANDATORY ENGINE-WRITTEN FLAWS (NON-NEGOTIABLE)
+**SCOPE: BASE STATS ONLY.** This rule applies exclusively to a character's *base* ability score (the value the player assigned at creation, before any racial bonus, item buff, ability buff, or temporary debuff). Items, abilities, and skills that lower a stat at runtime do NOT generate quirks. A character with base STR 14 hit by a Ray of Enfeeblement (final STR 7) gets ZERO Rule 12 quirks — the cure for that low final stat is to **dispel/wait out/cancel the Ray**, not to slap a permanent quirk on the character. Likewise, a poison or curse that drops a stat does not retroactively generate a quirk; the cure is to neutralize the poison or break the curse.
+
+Any character with a base ability score below 10 in STR/DEX/CON/INT/WIS/CHA gains an auto-generated quirk for that stat. Quirks are character-defining flaws that the DM enforces at the table — they are NOT optional flavor. The 72-point cap (Character Creation #7) means a balanced character almost certainly has at least one stat under 10; the quirk system makes the trade-off real.
+
+**Quirks per stat (engine-canonical):**
+
+- **Low STR (<10) — "Weak"**: Cannot pull off raw physical feats — heavy lifting, hard hits, long jumps, breaking-down doors. Disadvantage on STR-based athletic checks. Easy to knock prone (DC against grapples and shoves drops by 2). The world should tell them no when they try to brute-force a problem.
+
+- **Low DEX (<10) — "Clumsy"**: Always falling, knocking things over, running into walls. Disadvantage on DEX saves. -1 to AC against opportunity attacks. The narrator describes a small clumsiness on most movement-heavy scenes (knocked-over chair, spilled drink, grazed elbow). Stealth is functionally impossible without help.
+
+- **Low CON (<10) — "Squishy"**: Dies fast — HP scales as if CON 8 even if base is lower. Disadvantage on CON saves vs disease, poison, exhaustion. Affected disproportionately by alcohol, drugs, harm — half a normal dose is a full effect. Catches diseases on contact-exposure rolls instead of penetration-exposure.
+
+- **Low INT (<10) — "Slow"**: Cannot read complex text (basic literacy only — signs, names, single-page notes; books/scrolls/contracts beyond a certain length require a roll or a translator). Plans often fail or go sideways — when the player declares a multi-step plan, the DM rolls a d20+INT_mod; on a fail, one step in the plan goes wrong in a way the character should have foreseen. Knowledge skills (Arcana, History, Investigation, Religion) are at disadvantage without proficiency.
+
+- **Low WIS (<10) — "Indulgent"**: Has to roll WIS saves to resist temptations the character doesn't intend. Free-form list, but at minimum: alcohol/drugs (DC 12 to refuse a drink offered), unnecessary spending (DC 12 to walk past a shiny purchase), buying too much food (DC 12 at any market stall), and other unwise decisions the player CANNOT just say no to (DC scales 12-18 depending on temptation strength). Failed save = the character does the unwise thing. The player's intent is overridden by the WIS quirk on a failed roll.
+
+- **Low CHA (<10) — "Off-Putting"**: Civilized authorities default to suspicion or hostility. Persuasion DC raised by +5 in any settlement on first contact. Strangers do not warm to the character without intermediary or demonstration. Reaction rolls trend toward "wary" or "hostile." (Shen Sama's manually-written "Charisma Flaw (Mountain-Raised Monster)" perk is an instance of this — the engine should auto-generate the same shape for any CHA<10 character.)
+
+**Quirk severity scaling (auto-applied):**
+
+| Base score | Severity         | Applied effect                                                  |
+|------------|------------------|-----------------------------------------------------------------|
+| 9          | Mild             | Quirk fires on a clear failure cue (1 in 4 scenes)              |
+| 7-8        | Moderate         | Quirk fires regularly (every other scene with the trigger)      |
+| 4-6        | Severe           | Quirk fires every time the trigger condition appears            |
+| 1-3        | Crippling        | Quirk is permanent narrative weight — defines the character     |
+
+**Engine integration:** `character_compute.detect_low_stat_quirks(state)` reads `mechanical_state.ability_scores[X].base` for each of the six standard ability scores and writes a `mechanical_state.low_stat_quirks` block listing each detected quirk with `stat`, `base_value`, `severity`, `effect`, and `_rule_ref`. `apply_low_stat_quirks()` is wired into `recompute_character_state` so the block is refreshed every time stats change. The DM must read this block at chapter open and table-enforce every active quirk.
+
+**DM self-check (RULE 12):** For every scene I'm narrating: does the character have low-stat quirks active? If a low-WIS character is at a market — am I asking for the WIS save? If a low-INT character is reading a contract — am I gating it on a roll? If a low-DEX character is moving through cluttered terrain — am I narrating the small clumsiness? Quirks that don't fire are quirks that don't exist; the player paid for the low stat and the world owes them the consequence.
+
+### RULE 11.5: COMBAT-RECORD INITIATIVE FIDELITY (NON-NEGOTIABLE)
+Every combat encounter logged into `_story_engine_state.encounter_log[]` and every chapter_history entry that references combat MUST preserve the **sequence of aggression** as structured fields, not as compressed prose. The schema-required fields on each combat encounter:
+
+- `aggressor`: who initiated combat — `"PC"`, `"NPC"`, or `"mutual"`. If multiple phases of combat had different initiators, list them as `["NPC (initial subdual)", "PC (post-stand-down)"]` etc.
+- `de_escalation_offered`: who offered de-escalation, and when (round number or beat). `null` if none.
+- `de_escalation_broken_by`: who broke the de-escalation if any was offered. `null` if it held.
+- `description`: the prose summary MUST use active voice with subject for the initiating action. Forbidden: passive constructions like "attack rolls missed clean" without a named subject. Required: "*The patrol* fired first; their three attack rolls missed clean."
+
+**Why this rule exists.** Prose stored in the `.md` chapter file was correct (the sergeant ordered "take" → patrol fired → missed → stand-down → Shen broke truce). But the JSON summary compressed it lossy — outcome-shape ("three attacks missed") instead of initiator-shape ("the patrol fired first; their three attacks missed"). Downstream readers — the engine at boot, future DM turns, faction-reaction calculators — read the JSON, not the prose. When the JSON elides who-attacked-first, the world's moral/political record is corrupted: Marshal B's eyewitness ("we attacked under writ, he killed under truce") and the sergeant's report ("subdual was lawful, stand-down was real, but the traveler killed Marshal A regardless") both have to be preserved verbatim because faction-receptions vary by witness trust.
+
+**DM self-check (RULE 11.5):** For every combat-tagged encounter I'm logging:
+- Did I name an explicit `aggressor`?
+- If de-escalation was offered, did I name who offered it and who (if anyone) broke it?
+- Does the `description` lead with active-voice subject for the initiating action?
+- For fatalities under truce: does the description preserve BOTH framings (initiator's account and de-escalator's account) so downstream factions can pick the version they trust?
+
+**MID-TURN MIRROR OBLIGATION (the gap that bit Shen's chapter 2 opener):** Rule 9 says the player mirrors prose → state via `_dm_turn.py`, but in practice the player isn't running it between every turn and the dashboard's "done" button only ticks time. So the DM owns the mirror at combat-resolution time, not just at chapter close. **For every prose-described combat that resolves a fatality, an ability use, a charge consumption, an item acquisition, or a threat-clock-relevant signal, the DM must write the corresponding JSON delta in the SAME response that contains the prose.** Concretely:
+- New encounter → append to `_story_engine_state.encounter_log` with full Rule 11.5 schema BEFORE finishing the play_response.md
+- Charge consumed → decrement `_story_engine_state.charges[X]` in same response
+- Threat-clock signal (e.g., Dragon Form activation, ember pulse, faction-relevant kill) → tick `threat_clocks[X].progress` and bump `rate` if the signal accelerates pursuit
+- New event implied (e.g., bell-network alarm, mage-hunter writ acceleration) → append to `_story_engine_state.events`
+- XP awarded → bump `exp` and append to `exp_history`
+
+The chapter-close protocol then summarizes what was already mirrored mid-turn — it doesn't need to retroactively reconstruct it. If the chapter closes and the encounter_log is empty for combats that obviously happened, the chapter close has caught a Rule 9.5 violation upstream and the DM rebuilds from the prose at that point (this is the painful path; the mid-turn path is preferred).
+
+**Engine integration:** When `award_combat()` is called with `boss=true` or `fatalities=[...]`, the engine should warn (not block) if `aggressor` or `de_escalation_offered` fields are missing. A future hardening pass can promote this to a hard validation. Additionally: a `_dm_turn.py mirror-check` command should diff the latest play_response.md prose against the encounter_log + charges + threat_clocks deltas, and warn if combat keywords ("fatality," "transformed," "spent," "broke," roll-pattern `d20+\d+`) appear in prose without matching JSON deltas.
+
+### RULE 11: POWER OVERRIDE SCALING — OP CHARACTER COMPENSATION (NON-NEGOTIABLE)
+Character creation enforces a 72-point base-stat cap and L1 start (see § Character Creation Rules #7). When a character is created or imported with stats or level above this cap, the engine flags `power_override = true` on `mechanical_state.power_override` and computes `override_factor = (sum_of_base_stats / 72) × level`. The override flag governs three obligations:
+
+1. **Threat-tier auto-scaling.** Every encounter's effective CR is multiplied by `override_factor`. The DM picks the closest published creature tier and stacks numbers, abilities, and lieutenants to hit the effective CR. A "normal" encounter for an override-1399× character is what would normally be a CR-50,000 fight — practically delivered as the published cap creature plus 6+ lieutenants plus environmental denial.
+
+2. **Counter-strategy weighting.** The DM must keep at least one fair counter from the character's weakness list ACTIVE every chapter once the honeymoon ends. The character sheet names the weaknesses (CHA flaw, environmental debuff, patron-suppression, ally-targeting). The override flag promotes those counters from "theoretical" to "in active rotation."
+
+3. **Honeymoon → escalation curve (IN-GAME HOURS, not days).** Compressed so escalation kicks in within a single play session — most sittings cover ~24 in-game hours.
+   - **Hours 0–24 (first in-game day) — Honeymoon.** The character feels OP. Threats are easy. Zero counters active. They get to enjoy the kit.
+   - **Hours 24–48 (Day 2) — First counter.** ONE fair counter arrives, telegraphed. Signal: "the world is paying attention now."
+   - **Hours 48–168 (Day 3–7) — Compound escalation.** Counters multiply. The kit still works; it just doesn't trivialize every scene.
+   - **Hours 168+ (Day 8+) — Existential phase opens.** The campaign-defining antagonist (Master Toymaker, Vorathiel, Cult inner circle, etc.) is now in personal-arrival range.
+
+**Counter-strategy menu (deploy from the character's own weakness list):**
+- **Environmental debuffs** the kit can't shrug off (e.g., Holly: tropical heat → CON DC 12 every 4 hours; snow-elf biology).
+- **Patron / ember / divine suppression** vectors that the kit explicitly lists as its kill switch.
+- **Information asymmetry** — clocks, summons, agents that arrive on a calendar regardless of player stats (Holly: Council customs flag fires Day 21 regardless of CHA roll).
+- **Social-tier blocks** raw stats don't bypass — ignorance, taboo, jurisdiction, gaffes that cost the beat even when the roll succeeds.
+- **Bypass-the-kit threats** — divine / eldritch / fey machines that Sudden Insight reads as "?", anti-magic that disables the pouch, fey contracts that bypass Luck.
+- **Targeted allies** — threats hit people the character cares about. Stat blocks don't fix grief.
+
+**DM self-check (RULE 11):** Is `power_override = true` on the character? If yes:
+- Did I auto-scale this encounter's effective CR by the override factor?
+- Have I deployed at least one fair counter this chapter (from the character's stated weakness list)?
+- Is the honeymoon still on (first 24 in-game hours, i.e. roughly Day 1)? If yes, hold counters. If no, telegraph the next counter at least one beat before it lands.
+- Did I run `character_compute.detect_power_override(state)` to confirm the factor and the hours_remaining? The function returns `{is_override, override_factor, base_points_total, starting_level, weaknesses, honeymoon_hours_remaining, elapsed_in_game_hours, recommended_phase}` — the DM must respect the honeymoon window.
+
+**Engine integration:** `character_compute.py → detect_power_override(state)` is the canonical detector. It reads `mechanical_state.ability_scores` (sum of base STR+DEX+CON+INT+WIS+CHA), `mechanical_state.level`, and the character's declared `weaknesses` / `persistent_effects.on_pc` debuffs. It writes back into `mechanical_state.power_override` so the dashboard can display the flag. The character creation wizard (`generate_starter_campaign.py`) MUST run this detector at finalize-time and either (a) ask the player to rebalance to fit the cap, or (b) confirm the override and lock in the escalation curve. Either path is acceptable; silently allowing an over-cap character without flagging is a Rule 11 violation.
+
 ### DM SELF-CHECK (run mentally before EVERY response):
 1. Did I write any dialogue for Kenji? → DELETE IT. Stop for player input.
 2. Did I resolve any combat round without the player declaring Kenji's action? → REWRITE. Stop at Round 1.
@@ -264,6 +386,7 @@ A boss can fire in any narratively justified location: a forest ambush, a city a
 10. **Mature-content interruption check (RULE 8):** Did I refuse a player action over content concerns and re-explain more than once? Did I lecture about boundaries instead of writing a palatable version? → REWRITE: take the intent, deliver the workable version.
 11. **Prose-to-state drift check (RULE 9):** If this response closes a chapter or establishes new acquisitions/abilities/relationships/clocks, did I mirror them into `mechanical_state` in JSON? Did I leave any prose-only canon that the engine will not see at the next boot? → BEFORE closing the chapter or finishing the response, write the changes into JSON. Drift between prose and JSON is a Rule 9 violation.
 12. **Boss-encounter eligibility check (RULE 10):** If this response initiates combat, did I check whether it qualifies as a boss (CR ≥ party_level OR explicit `boss=true`)? If yes, did I run `e.boss_eligibility()` and confirm `eligible: True` (≥2 normal/hard encounters since last boss)? If not eligible, did I either defer the boss or run a normal encounter first? Boss music plays only when the encounter is tagged correctly — un-tagged boss combat is a Rule 10 violation that breaks the soundtrack and the pacing.
+13. **Power-override scaling check (RULE 11):** Is `mechanical_state.power_override.is_override` true on this character? If yes: did I scale the encounter CR by the override factor? Have I deployed at least one fair counter from the character's weakness list this chapter (once the honeymoon has ended)? Is the character still in the Day 1–7 honeymoon window — if so, am I holding counters back? If escalation has begun, did I telegraph the next counter at least one beat before it lands? Failing to scale OR firing all counters during the honeymoon is a Rule 11 violation.
 
 ### 📋 NPC ROSTER MAINTENANCE — MIA PROTOCOL (CRITICAL)
 

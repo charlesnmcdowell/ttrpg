@@ -1,0 +1,15 @@
+{
+  "_comment": "ElevenLabs TTS config for the Live Dashboard Play tab. Edit `api_key` with your ElevenLabs key, optionally swap `voice_id` for the voice you want, and use `character_voices` to map per-character overrides (key = character name as it appears in the engine).",
+  "api_key": "",
+  "voice_id": "21m00Tcm4TlvDq8ikWAM",
+  "auto_speak": false,
+  "character_voices": {
+    "_doc": "Map character display name → ElevenLabs voice ID. The dashboard reads engine.char_name and looks it up here first; falls back to top-level voice_id if no match.",
+    "Cookie": "",
+    "Shen Sama": "",
+    "Holly": "",
+    "Kenji": "",
+    "Amaris": ""
+  },
+  "_voice_picker_url": "https://elevenlabs.io/app/voice-library — copy the voice ID from the URL or the share dialog and paste it here."
+}

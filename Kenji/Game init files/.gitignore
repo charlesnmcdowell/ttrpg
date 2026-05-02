@@ -15,5 +15,8 @@ __pycache__/
 logs/*.txt
 !logs/.gitkeep
 
+# Secrets (never commit — use env or OS keychain)
+key.txt
+
 # IDE
 .cursor/

@@ -278,9 +278,18 @@
     "ac": 22,
     "spell_slots": {
       "_comment": "Dancer (Cookie's class) is spell-slot based — Cookie has bard-adjacent CHA-keyed casting via Dance Dance Revolution. Each spell costs one slot of its level. L1: Protector's Surge. L2: Healing Dance. L3 (4 shared slots): Stunning Kicks, Dance of Dispel, Planar Waltz, Dragon's Roar Dance — pick any combination across the day.",
-      "1": [4, 4],
-      "2": [3, 3],
-      "3": [4, 4]
+      "1": [
+        4,
+        4
+      ],
+      "2": [
+        3,
+        3
+      ],
+      "3": [
+        4,
+        4
+      ]
     },
     "gold": 3,
     "silver": 8,
@@ -552,47 +561,87 @@
       "V.E.A. (Varenholm Entertainers Association)": {
         "level": "Master of Voice — full credential (Day 18 grant)",
         "opinion": "Bard School Prodigy. Touring eligibility unrestricted across heartland and adjacent regions. V.E.A. now requests Cookie for headline slots; her name on a venue's bill alone fills the line.",
-        "knows": ["Starling debut Day 5 success", "Halbert funeral performance Day 7", "Day 18 graduation recital — 'From Kettlebrook' (Council attendance, Bardic College of Ashenmere endorsed)", "Master of Voice credential, full 2x hire premium"]
+        "knows": [
+          "Starling debut Day 5 success",
+          "Halbert funeral performance Day 7",
+          "Day 18 graduation recital — 'From Kettlebrook' (Council attendance, Bardic College of Ashenmere endorsed)",
+          "Master of Voice credential, full 2x hire premium"
+        ]
       },
       "Heartland public (regional fame)": {
         "level": "Bard School Prodigy",
         "opinion": "Cookie's name precedes her in any populated area within ~200 miles of Varenholm and expanding. Strangers on the road can hum the bridge of 'From Kettlebrook' before she introduces herself. Recognition fires before Heartstring lands.",
-        "knows": ["Halfling Ankuspawn dancer, Master of Voice", "Civic Auditorium standing-ovation graduation Day 18", "Currently touring-eligible with Bardic College of Ashenmere residency offered", "Wardbreaker dependent (Diamond-tier protection extended)"]
+        "knows": [
+          "Halfling Ankuspawn dancer, Master of Voice",
+          "Civic Auditorium standing-ovation graduation Day 18",
+          "Currently touring-eligible with Bardic College of Ashenmere residency offered",
+          "Wardbreaker dependent (Diamond-tier protection extended)"
+        ]
       },
       "Adventurer's Guild (Varenholm)": {
         "level": "L10 — Bard School Prodigy premium tier",
         "opinion": "Vetted performer-class adventurer at L10. Sunken Playhouse fieldwork on the books as a model resolution. Hire rate now 10 GP base (Bard School Prodigy 2x premium vs the old Bronze 5 GP); high-tier parties negotiating higher. Cookie can refuse contracts; parties still queue. Internal flag added: Cult of Anku heat — operatives may surface around her at the chapter house.",
-        "knows": ["Wardbreakers contract Day 7-10 (model evidence delivery)", "Sunken Playhouse fieldwork closed clean", "halfling Ankuspawn classification on internal record", "Day 18 graduation Bard School Prodigy — full Master of Voice credential", "Cult-tracking liability flagged for hiring parties"]
+        "knows": [
+          "Wardbreakers contract Day 7-10 (model evidence delivery)",
+          "Sunken Playhouse fieldwork closed clean",
+          "halfling Ankuspawn classification on internal record",
+          "Day 18 graduation Bard School Prodigy — full Master of Voice credential",
+          "Cult-tracking liability flagged for hiring parties"
+        ]
       },
       "Wardbreakers": {
         "level": "Bronze contract client",
         "opinion": "Senna respects, Finch infatuated (mortified post-Day-8), Varn restraining Combat Magnetism",
-        "knows": ["Cookie is Ankuspawn", "Cookie claims Dragon Emperor parentage (pending Senna's verdict)", "Cookie's Heartstring + Ember scope", "Cookie's L10 ability profile"]
+        "knows": [
+          "Cookie is Ankuspawn",
+          "Cookie claims Dragon Emperor parentage (pending Senna's verdict)",
+          "Cookie's Heartstring + Ember scope",
+          "Cookie's L10 ability profile"
+        ]
       },
       "Gilded Thread (performance outfitter)": {
         "level": "paying client",
         "opinion": "Cookie's body shape and stage presence flatter the cut; promotion candidate for next-season feature",
-        "knows": ["4-piece Day 4 commission complete", "Cookie's sizes on file"]
+        "knows": [
+          "4-piece Day 4 commission complete",
+          "Cookie's sizes on file"
+        ]
       },
       "Maeven (Chandler's Row tailor)": {
         "level": "business contact",
         "opinion": "professional, witnessed Cookie's dressing-room exit Ch2",
-        "knows": ["Cookie's sizing", "Day 2 indigo dress fitting"]
+        "knows": [
+          "Cookie's sizing",
+          "Day 2 indigo dress fitting"
+        ]
       },
       "Varenholm Academy": {
         "level": "accelerated graduation track",
         "opinion": "Ashworth (mentor) actively monitoring; suspects Ember without naming it",
-        "knows": ["Cookie produces visible magic through dance unaided", "Sunken Playhouse fieldwork = capstone"]
+        "knows": [
+          "Cookie produces visible magic through dance unaided",
+          "Sunken Playhouse fieldwork = capstone"
+        ]
       },
       "The Pale Lantern (Isolde's shop)": {
         "level": "favored client",
         "opinion": "Isolde recognized Ember, gifted enchanted earrings (+2 CHA) Day 5",
-        "knows": ["Cookie is Ankuspawn", "Heartstring is real", "earrings are now permanently equipped"]
+        "knows": [
+          "Cookie is Ankuspawn",
+          "Heartstring is real",
+          "earrings are now permanently equipped"
+        ]
       },
       "Lyssa Vane (antagonist faction)": {
         "level": "marked threat",
         "opinion": "primary obstacle on heartland performance circuit; charm-network ready to activate",
-        "knows": ["Cookie outperformed Starling Day 5", "Halbert funeral Day 7 success", "Wardbreakers contracted Day 7", "Sunken Playhouse expedition Day 9", "Silka's chain shattered Day 8"]
+        "knows": [
+          "Cookie outperformed Starling Day 5",
+          "Halbert funeral Day 7 success",
+          "Wardbreakers contracted Day 7",
+          "Sunken Playhouse expedition Day 9",
+          "Silka's chain shattered Day 8"
+        ]
       }
     },
     "relationships": {},
@@ -612,7 +661,11 @@
             "role": "captain / cross-campaign anchor",
             "status": "active",
             "notes": "Recognized Cookie's Ember at Day 7 funeral. Paternity question deadline = before return to Varenholm. Cross-campaign NPC (Kenji Books 2-4).",
-            "relationship": {"tier": "Bond", "score": 80, "last_event": "Day 10 — Cookie confirmed Kenji-as-father under contract terms at the proscenium pillar. Senna refiled the relationship: Bronze contract closed, Wardbreaker dependent status begins. Diamond-tier protection now formally extended."}
+            "relationship": {
+              "tier": "Bond",
+              "score": 80,
+              "last_event": "Day 10 — Cookie confirmed Kenji-as-father under contract terms at the proscenium pillar. Senna refiled the relationship: Bronze contract closed, Wardbreaker dependent status begins. Diamond-tier protection now formally extended."
+            }
           },
           {
             "name": "Finch",
@@ -621,7 +674,11 @@
             "role": "scout / lockwork",
             "status": "active",
             "notes": "Heartstring full-fail Day 8 night. Great User: protective held (no escalation). Mortified, three hours of holding position. Cross-campaign NPC.",
-            "relationship": {"tier": "Friend", "score": 35, "last_event": "Day 8 night Heartstring full-fail; protective held; Day 9 mortified, polite distance."}
+            "relationship": {
+              "tier": "Friend",
+              "score": 35,
+              "last_event": "Day 8 night Heartstring full-fail; protective held; Day 9 mortified, polite distance."
+            }
           },
           {
             "name": "Varn",
@@ -630,7 +687,11 @@
             "role": "front-line greatshield",
             "status": "active",
             "notes": "6.5 ft. Speaks in single sentences. Devoted to Senna. Combat Magnetism active — professional restraint so far. Cross-campaign NPC.",
-            "relationship": {"tier": "Acquaintance", "score": 15, "last_event": "Combat Magnetism active; professional restraint holding through Day 9."}
+            "relationship": {
+              "tier": "Acquaintance",
+              "score": 15,
+              "last_event": "Combat Magnetism active; professional restraint holding through Day 9."
+            }
           }
         ],
         "contract": "Bronze contract Day 9-10 CLOSED. Mission complete. Cookie confirmed Kenji-as-father at the Sunken Playhouse pillar Day 10; Senna refiled the relationship as Wardbreaker dependent rather than client (paperwork pending in Varenholm).",
@@ -777,7 +838,21 @@
         "id": "ddr_concentration_swap",
         "name": "Dance Dance Revolution — concentration swap",
         "source": "perk",
-        "active_at_levels": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "active_at_levels": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
         "fires_on": "concentration_save",
         "condition": {
           "caster_action_class": "dance_ability"
@@ -792,7 +867,21 @@
         "id": "ddr_ember_charm_during_dance_cast",
         "name": "Dance Dance Revolution — Ember charm projection",
         "source": "ember_enhancement",
-        "active_at_levels": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "active_at_levels": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
         "fires_on": "round_tick_during_cast",
         "condition": {
           "caster_action_class": "dance_ability",
@@ -806,7 +895,11 @@
             "in_range_ft": 30,
             "humanoid": true
           },
-          "roll": {"die": "d100", "operator": "<=", "threshold": 50},
+          "roll": {
+            "die": "d100",
+            "operator": "<=",
+            "threshold": 50
+          },
           "on_pass": {
             "apply_status": "charm_target_allies",
             "duration_rounds": 1,
@@ -819,7 +912,28 @@
         "id": "heartstring_passive_aura",
         "name": "Heartstring — passive emotional resonance",
         "source": "ember_passive",
-        "active_at_levels": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "active_at_levels": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
         "fires_on": "scene_npc_in_range",
         "condition": {
           "ember_active": true,
@@ -831,7 +945,9 @@
             {
               "kind": "self_buff",
               "apply_to": "self",
-              "stat_check_bonus": {"all_CHA_checks": 2}
+              "stat_check_bonus": {
+                "all_CHA_checks": 2
+              }
             },
             {
               "kind": "per_target_roll",
@@ -839,7 +955,11 @@
                 "in_range_ft": 30,
                 "first_exposure_or_emotion_changed": true
               },
-              "roll": {"die": "d20", "stat": "WIS", "save": true},
+              "roll": {
+                "die": "d20",
+                "stat": "WIS",
+                "save": true
+              },
               "dc": 12,
               "on_fail": {
                 "emotional_state_shifts_toward": "cookie_current_emotion",
@@ -854,7 +974,25 @@
         "id": "combat_magnetism_humanoid_behavior",
         "name": "Combat Magnetism — humanoid enemy behavior",
         "source": "perk",
-        "active_at_levels": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "active_at_levels": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
         "fires_on": "enemy_action_select",
         "condition": {
           "ember_active": true,
@@ -866,7 +1004,11 @@
           "branch_on_target_gender": {
             "male": {
               "default_action": "grapple_capture_cookie",
-              "override_save": {"die": "d20", "stat": "WIS", "dc": 12},
+              "override_save": {
+                "die": "d20",
+                "stat": "WIS",
+                "dc": 12
+              },
               "on_save_pass": "free_to_choose_action",
               "on_save_fail_attack_others": "must_target_cookie_with_grapple",
               "on_save_fail_attack_cookie_lethal": "must_use_capture_grapple_instead"
@@ -890,7 +1032,25 @@
         "id": "pretty_privilege_male_gold_10x",
         "name": "Pretty Privilege — 10x gold multiplier on male humanoid payments",
         "source": "perk",
-        "active_at_levels": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "active_at_levels": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
         "fires_on": "gold_earned_from_npc",
         "condition": {
           "payer_humanoid": true,
@@ -907,12 +1067,36 @@
         "id": "ember_enhancement_10x_buff_heal_emotion",
         "name": "Ember Enhancement — 10x buff/heal/emotion-transfer multiplier",
         "source": "perk",
-        "active_at_levels": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "active_at_levels": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
         "fires_on": "effect_value_compute",
         "condition": {
           "ember_active": true,
           "originated_by": "cookie",
-          "effect_class_in": ["buff", "heal", "emotion_transfer", "regen", "temp_hp"]
+          "effect_class_in": [
+            "buff",
+            "heal",
+            "emotion_transfer",
+            "regen",
+            "temp_hp"
+          ]
         },
         "effect": {
           "kind": "multiplier",
@@ -925,7 +1109,20 @@
         "id": "great_user_disposition_routing",
         "name": "The Great User — gender x disposition behavior routing",
         "source": "perk",
-        "active_at_levels": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "active_at_levels": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
         "fires_on": "npc_disposition_evaluated",
         "condition": {
           "target_humanoid": true,
@@ -937,9 +1134,16 @@
             "female": {
               "neutral_or_lower": {
                 "behavior_class": "antagonistic",
-                "actions": ["challenge_to_duels", "betray_in_combat", "steal_friends_and_male_admirers"]
+                "actions": [
+                  "challenge_to_duels",
+                  "betray_in_combat",
+                  "steal_friends_and_male_admirers"
+                ]
               },
-              "above_neutral": {"behavior_class": "neutral_or_friendly", "actions": []}
+              "above_neutral": {
+                "behavior_class": "neutral_or_friendly",
+                "actions": []
+              }
             },
             "male": {
               "neutral_or_higher": {
@@ -963,7 +1167,20 @@
         "id": "fans_out_of_control_per_npc_behavior",
         "name": "Fans Out of Control — Ember-enhanced Heartstring-touched behavior",
         "source": "ember_enhancement",
-        "active_at_levels": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "active_at_levels": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
         "fires_on": "npc_disposition_evaluated",
         "condition": {
           "ember_active": true,
@@ -975,15 +1192,23 @@
           "branches": {
             "male_below_neutral": {
               "behavior_class": "stalker",
-              "actions": ["kidnap_attempt", "sleep_impregnation_attempt"]
+              "actions": [
+                "kidnap_attempt",
+                "sleep_impregnation_attempt"
+              ]
             },
             "female_any_with_heartstring": {
               "behavior_class": "potential_assassin",
-              "actions": ["arrange_assassination_attempt"]
+              "actions": [
+                "arrange_assassination_attempt"
+              ]
             },
             "male_neutral_or_higher": {
               "behavior_class": "secret_guard",
-              "actions": ["watch_cookie_location", "appear_during_ambush_to_help"]
+              "actions": [
+                "watch_cookie_location",
+                "appear_during_ambush_to_help"
+              ]
             }
           }
         },
@@ -993,16 +1218,42 @@
         "id": "fans_out_of_control_sleep_ambush_check",
         "name": "Fans Out of Control — sleep-time ambush roll",
         "source": "ember_enhancement",
-        "active_at_levels": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "active_at_levels": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
         "fires_on": "sleep_period_started",
-        "condition": {"ember_active": true},
+        "condition": {
+          "ember_active": true
+        },
         "effect": {
           "kind": "single_roll_outcome",
-          "roll": {"die": "d20"},
+          "roll": {
+            "die": "d20"
+          },
           "outcomes": {
-            "1-3": {"event": "ambush_attempt", "narrative_hook": "stalker or assassin reaches Cookie"},
-            "4-6": {"event": "near_miss", "narrative_hook": "someone scoping the location, no entry"},
-            "default": {"event": "quiet_night", "narrative_hook": "uneventful long rest"}
+            "1-3": {
+              "event": "ambush_attempt",
+              "narrative_hook": "stalker or assassin reaches Cookie"
+            },
+            "4-6": {
+              "event": "near_miss",
+              "narrative_hook": "someone scoping the location, no entry"
+            },
+            "default": {
+              "event": "quiet_night",
+              "narrative_hook": "uneventful long rest"
+            }
           },
           "guarantee": "at_least_one_secret_guard_arrives_to_help_if_ambush"
         },
@@ -1012,12 +1263,28 @@
         "id": "low_wisdom_alcohol_drug_quirk",
         "name": "Low-Wisdom Loss-of-Control — alcohol/drug WIS save",
         "source": "quirk",
-        "active_at_levels": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "active_at_levels": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
         "fires_on": "alcohol_or_drug_offered",
         "condition": {},
         "effect": {
           "kind": "force_save",
-          "save": {"die": "d20", "stat": "WIS"},
+          "save": {
+            "die": "d20",
+            "stat": "WIS"
+          },
           "dc": 12,
           "dc_scales_with_potency": true,
           "on_fail": {
@@ -1029,7 +1296,9 @@
             "great_user_intervention_check": "any_nearby_heartstring_touched_friendly_male_may_thwart",
             "if_thwart_fails_then": "treat_as_prone_and_trigger_ember_last_stand"
           },
-          "on_pass": {"action": "cookie_may_refuse"}
+          "on_pass": {
+            "action": "cookie_may_refuse"
+          }
         },
         "narrative_description": "Cookie's WIS 7 cannot self-regulate. When alcohol or drugs are offered, a real WIS save fires (DC 12 baseline, scales with potency). On failure the player loses control of Cookie for the scene. Drugged or blacked-out events trigger an attempt scene; The Great User and Ember Last Stand are the safety net."
       },
@@ -1037,10 +1306,35 @@
         "id": "halfling_luck_nat1_reroll",
         "name": "Halfling Luck — reroll natural 1",
         "source": "racial",
-        "active_at_levels": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "active_at_levels": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
         "fires_on": "nat_1_rolled",
         "condition": {
-          "roll_type_in": ["attack_roll", "ability_check", "saving_throw"]
+          "roll_type_in": [
+            "attack_roll",
+            "ability_check",
+            "saving_throw"
+          ]
         },
         "effect": {
           "kind": "reroll",
@@ -1052,7 +1346,28 @@
         "id": "ember_last_stand",
         "name": "Ember Last Stand — prone/paralyzed humanoid hijack",
         "source": "class_rule",
-        "active_at_levels": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "active_at_levels": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
         "fires_on": "cookie_becomes_prone_or_paralyzed",
         "condition": {
           "ember_active": true,
@@ -1060,7 +1375,12 @@
         },
         "effect": {
           "kind": "branch_on_enemy_gender",
-          "exclusions": ["non_humanoid", "undead", "construct", "charm_immune"],
+          "exclusions": [
+            "non_humanoid",
+            "undead",
+            "construct",
+            "charm_immune"
+          ],
           "branches": {
             "female": {
               "behavior_class": "ridicule",
@@ -1069,9 +1389,17 @@
             },
             "male": {
               "behavior_class": "lust",
-              "force_save": {"die": "d20", "stat": "STR", "dc": "cookie_spell_save_dc"},
-              "on_fail": {"action": "spend_turn_grappling_or_mating_attempt"},
-              "on_pass": {"action": "may_attack_normally_this_turn"}
+              "force_save": {
+                "die": "d20",
+                "stat": "STR",
+                "dc": "cookie_spell_save_dc"
+              },
+              "on_fail": {
+                "action": "spend_turn_grappling_or_mating_attempt"
+              },
+              "on_pass": {
+                "action": "may_attack_normally_this_turn"
+              }
             }
           }
         },
@@ -1081,9 +1409,32 @@
         "id": "dance_inspiration_d12_bonus",
         "name": "Dance Inspiration — +d12 on dance Performance checks",
         "source": "class",
-        "active_at_levels": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "active_at_levels": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
         "fires_on": "performance_check",
-        "condition": {"action_includes_dancing": true},
+        "condition": {
+          "action_includes_dancing": true
+        },
         "effect": {
           "kind": "add_die_to_roll",
           "die": "d12"
@@ -1094,7 +1445,28 @@
         "id": "dancers_punishment_failed_perf_prone",
         "name": "Dancer's Punishment — failed Performance = prone",
         "source": "class_rule",
-        "active_at_levels": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "active_at_levels": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
         "fires_on": "performance_check_failed",
         "condition": {},
         "effect": {
@@ -1109,14 +1481,40 @@
         "id": "action_exclusivity_tai_chi_vs_dance_spell",
         "name": "Action Exclusivity — Tai Chi and dance spells mutually exclusive",
         "source": "class_rule",
-        "active_at_levels": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "active_at_levels": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
         "fires_on": "ability_initiated",
         "condition": {
-          "ability_class_in": ["tai_chi", "dance_ability"]
+          "ability_class_in": [
+            "tai_chi",
+            "dance_ability"
+          ]
         },
         "effect": {
           "kind": "block_if_active_state",
-          "block_states": ["tai_chi_active", "dance_active"],
+          "block_states": [
+            "tai_chi_active",
+            "dance_active"
+          ],
           "narrative_hook": "Cookie must choose Tai Chi OR a dance spell on a given turn, not both."
         },
         "narrative_description": "Tai Chi and dance spells (Healing Dance, Dispel, Planar Waltz, Dragon's Roar) cannot coexist on the same turn. Cookie picks one or the other; switching requires ending one before starting the other."
@@ -1125,16 +1523,49 @@
         "id": "spell_initiation_performance_dance_spells",
         "name": "Spell initiation — Performance roll required for dance spells (fail = prone)",
         "source": "spell_class",
-        "active_at_levels": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "active_at_levels": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
         "fires_on": "spell_initiation",
         "condition": {
-          "spell_in": ["healing_dance", "dance_of_dispel", "planar_waltz", "dragons_roar_dance"]
+          "spell_in": [
+            "healing_dance",
+            "dance_of_dispel",
+            "planar_waltz",
+            "dragons_roar_dance"
+          ]
         },
         "effect": {
           "kind": "force_check",
-          "check": {"die": "d20", "skill": "Performance", "add_dance_inspiration_d12": true},
+          "check": {
+            "die": "d20",
+            "skill": "Performance",
+            "add_dance_inspiration_d12": true
+          },
           "dc": 12,
-          "on_fail": {"apply_status": "prone", "to": "self", "spell_fizzles": true}
+          "on_fail": {
+            "apply_status": "prone",
+            "to": "self",
+            "spell_fizzles": true
+          }
         },
         "narrative_description": "Healing Dance, Dance of Dispel, Planar Waltz, and Dragon's Roar all require a Performance roll to initiate; failure drops Cookie prone and fizzles the spell. Stunning Kicks (teleport-strike, not dance) and Protector's Surge (touch, bonus action) do NOT require this roll."
       },
@@ -1142,10 +1573,29 @@
         "id": "spell_concentration_dance_uses_cha",
         "name": "Spell concentration — dance spells use CHA via DDR",
         "source": "perk",
-        "active_at_levels": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "active_at_levels": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
         "fires_on": "concentration_save",
         "condition": {
-          "spell_in": ["healing_dance", "dance_of_dispel", "planar_waltz", "dragons_roar_dance"]
+          "spell_in": [
+            "healing_dance",
+            "dance_of_dispel",
+            "planar_waltz",
+            "dragons_roar_dance"
+          ]
         },
         "effect": {
           "kind": "override_save_stat",
@@ -1537,7 +1987,13 @@
         "uses_per_day": 4,
         "uses_scaling": "half character level, rounded down",
         "description": "Requires Performance roll to initiate — if fail, Cookie falls prone. Cookie picks one element from a colored dragon: fire, acid, ice, water, or lightning. She dances for 2 rounds channeling that dragon. On successful completion: all allies gain +10 damage of chosen element type (+100 if Ember active) until end of combat. Only takes effect after successfully maintaining concentration for full 2 rounds.",
-        "element_choices": ["fire", "acid", "ice", "water", "lightning"],
+        "element_choices": [
+          "fire",
+          "acid",
+          "ice",
+          "water",
+          "lightning"
+        ],
         "failure_initiation": "Performance roll fail = Cookie falls prone, spell does not begin.",
         "failure_concentration": "If concentration breaks before round 2, no effect.",
         "ember_enhanced": "Elemental damage buff increases from +10 to +100 when Ember active. Disabled if Ember nullified."
@@ -1873,7 +2329,11 @@
         "name": "Silka",
         "key_npc": true,
         "tier": "promoted",
-        "relationship": {"tier": "Bond", "score": 75, "last_event": "Day 8 Dance of Dispel shattered her silver chain — gold eyes returning, scroll markings blooming, sister-recognition imminent."},
+        "relationship": {
+          "tier": "Bond",
+          "score": 75,
+          "last_event": "Day 8 Dance of Dispel shattered her silver chain — gold eyes returning, scroll markings blooming, sister-recognition imminent."
+        },
         "race": "Human Ankuspawn (half-sister to Cookie — neither knows)",
         "role": "Spy. An Ankuspawn performer charmed by Lyssa and planted at the Varenholm Academy as a student. Reports back to Lyssa about promising new talent — especially anyone with unusual abilities or gold eyes. Irony: Silka IS one of the gold-eyed targets she's hunting for.",
         "alignment": "TN (charmed — was NG before)",
@@ -1978,7 +2438,11 @@
       "want": "Wants Cookie safe, close, and away from anything that draws attention. Terrified of what Cookie is without understanding it.",
       "voice_hook": "Talks in clipped sentences when angry, long rambling ones when worried. Calls Cookie 'little bean' when she forgets to be mad.",
       "lore_connection": "Met Kenji once, 22 years ago, at an inn she was cleaning. He was passing through. She never learned his real name. She knows Cookie's father was 'someone important' because of the way her body changed after — she can't have more children and doesn't know why. She blames herself, not him.",
-      "relationship": {"tier": "Bond", "score": 90, "last_event": "Mother — daughter; Kettlebrook home; not yet told about the Ankuspawn truth."}
+      "relationship": {
+        "tier": "Bond",
+        "score": 90,
+        "last_event": "Mother — daughter; Kettlebrook home; not yet told about the Ankuspawn truth."
+      }
     },
     {
       "name": "Tomas Wren",
@@ -1988,7 +2452,11 @@
       "want": "Wants his inn to stay profitable and his employees to stop causing drama. Secretly proud of Cookie and slips her performance tips when Daisy isn't looking.",
       "voice_hook": "Dry, understated. 'That's nice, dear. Now mop the landing.' But his eyes crinkle when Cookie dances.",
       "lore_connection": "Served in the coalition army 20 years ago. Saw Varenholm during the founding. Retired to run an inn. Knows more about the world than he lets on. Has seen gold eyes before — on a traveler, years ago — and said nothing.",
-      "relationship": {"tier": "Ally", "score": 55, "last_event": "Innkeeper-mentor in Kettlebrook; Cookie's pre-Varenholm anchor."}
+      "relationship": {
+        "tier": "Ally",
+        "score": 55,
+        "last_event": "Innkeeper-mentor in Kettlebrook; Cookie's pre-Varenholm anchor."
+      }
     },
     {
       "name": "Fern",
@@ -1998,7 +2466,11 @@
       "want": "Wants adventure. Wants to be Cookie's best friend forever. Wants to not be boring. Will do reckless things for fun.",
       "voice_hook": "Talks too fast, laughs too loud, asks questions she shouldn't. 'Wait wait wait — you're telling me that guy just GAVE you flowers? For dancing? Can you teach me that?'",
       "lore_connection": "Human girl from Kettlebrook. No special heritage. Just Cookie's ride-or-die since they were kids. Gets charmed by Lyssa in Phase 3 — the emotional core of the campaign.",
-      "relationship": {"tier": "Bond", "score": 95, "last_event": "Best friend / roommate; helped pack for Sunken Playhouse Day 9; sworn to write."}
+      "relationship": {
+        "tier": "Bond",
+        "score": 95,
+        "last_event": "Best friend / roommate; helped pack for Sunken Playhouse Day 9; sworn to write."
+      }
     },
     {
       "name": "Professor Cadence Ashworth",
@@ -2008,7 +2480,11 @@
       "want": "Wants to understand Cookie's abilities. Has never seen a student produce visible magic through dance alone without formal training. Suspects Cookie is 'touched by something' but doesn't know what.",
       "voice_hook": "Measured, precise. Every word chosen carefully. 'Again. Slower. Watch where the light starts — it's not in your hands, it's in your spine. Do you feel that?'",
       "lore_connection": "Studied at the Academy 30 years ago. Overlapped briefly with early coalition era. Has heard rumors of 'the Emperor's children' but considers it tavern gossip. Will revise that opinion when Cookie's abilities develop.",
-      "relationship": {"tier": "Ally", "score": 60, "last_event": "Approved Sunken Playhouse capstone; suspects Ember without naming it."}
+      "relationship": {
+        "tier": "Ally",
+        "score": 60,
+        "last_event": "Approved Sunken Playhouse capstone; suspects Ember without naming it."
+      }
     },
     {
       "name": "Lyssa Vane",
@@ -2018,7 +2494,11 @@
       "want": "Total control of heartland entertainment. No one shines brighter than her. She worked for everything she has and she'll burn anyone who threatens it — especially some barefoot halfling from Kettlebrook who glows when she dances.",
       "voice_hook": "Silky, warm, complimentary — until the mask drops. 'You're so talented, darling. It would be such a shame if something happened to that voice.' Switches from charm to venom mid-sentence.",
       "lore_connection": "Graduated Varenholm Academy. Built her empire legitimately at first, then turned to Glamour magic when competition got fierce. Has an anonymous patron paying her to report gold-eyed performers — doesn't know it's the Cult of Anku.",
-      "relationship": {"tier": "Nemesis", "score": -85, "last_event": "Day 8 chain shatter on Silka — control collapsing, retaliation imminent."}
+      "relationship": {
+        "tier": "Nemesis",
+        "score": -85,
+        "last_event": "Day 8 chain shatter on Silka — control collapsing, retaliation imminent."
+      }
     }
   ],
   "extra_npcs": {
@@ -2033,7 +2513,11 @@
         "job_excuse": "Textile merchant — moves cloth, linens, silks, dyes between Varenholm and coast. Recently divorced, wife in Ashenmere. Staying at Gilt Lily suite (Room 4). Tips well.",
         "doom_clock": null,
         "status": "active",
-        "relationship": {"tier": "Ally", "score": 70, "last_event": "Heartstring full-fail Day 1; promoter for Starling show; hired Fern at 10x salary; will do anything Cookie asks."},
+        "relationship": {
+          "tier": "Ally",
+          "score": 70,
+          "last_event": "Heartstring full-fail Day 1; promoter for Starling show; hired Fern at 10x salary; will do anything Cookie asks."
+        },
         "redirect_to_main_cast": "",
         "met_at": "Gilt Lily inn, Day 1 evening"
       },
@@ -2351,7 +2835,49 @@
     "halfling_luck": "Reroll natural 1s on attack rolls, ability checks, and saving throws. Use the new roll.",
     "character_flaw": "WIS 7 — Cookie is not stupid (INT 10, literate, quick learner) but she is deeply impulsive and short-sighted. She makes unwise decisions, doesn't think about consequences, jumps before she looks. She has almost no natural defense against mental effects, charms, or compulsions. Any alcohol leads rapidly to blackout — she has no tolerance and her low WIS means she can't self-regulate. She routinely wakes up hearing stories about what she did the night before.",
     "exp_archetype": "support",
-    "support_archetype": "performer"
+    "support_archetype": "performer",
+    "power_override": {
+      "_rule": "Auto-detected by character_compute.detect_power_override(). Triggers Rule 11 threat-tier scaling, counter-strategy weighting, and the honeymoon→escalation curve. See dm_rules_tracking.md § RULE 11. Cookie is at the 72-point cap (OK on stats) but L10 (above L1 baseline) — override factor is 10x level multiplier, modest by Holly's standards but still elevated above the L1 baseline that boss-encounter design assumes.",
+      "is_override": true,
+      "override_factor": 10.0,
+      "base_points_total": 72,
+      "standard_baseline_points": 72,
+      "starting_level": 10,
+      "standard_starting_level": 1,
+      "cap_breach_points": 0,
+      "cap_breach_levels": 9,
+      "elapsed_in_game_hours": 429,
+      "honeymoon_hours_remaining": 0,
+      "honeymoon_active": false,
+      "honeymoon_end_at_hour_total": 24,
+      "recommended_phase": "compound_escalation",
+      "weaknesses_in_rotation": [
+        "Low WIS 7 (Indulgent quirk active per Rule 12) — alcohol/spending/food/unwise saves required",
+        "Bard School Prodigy fame — Cult of Anku tracks her in cities",
+        "Force-composition reliance — without Wardbreakers, mid-tier combat tightens fast"
+      ],
+      "active_counters_this_chapter": [],
+      "_canon_constants": {
+        "point_buy_cap": 72,
+        "standard_starting_level": 1,
+        "honeymoon_hours": 24
+      },
+      "_design_note": "Cookie was created within the 72-point cap (good) but advanced to L10 through play (above L1 baseline). Rule 11 retroactively applies — threats auto-scale by 10x. She also has WIS 7 → Rule 12 'Indulgent' quirk active (mead, spending, food, unwise decisions). Counters fire in standard rotation; honeymoon does not apply since the advance happened gradually through play, not at creation."
+    },
+    "low_stat_quirks": {
+      "_rule": "Auto-detected by character_compute.detect_low_stat_quirks(). Cardinal Rule 12. See dm_rules_tracking.md § RULE 12.",
+      "active": [
+        {
+          "stat": "WIS",
+          "base_value": 7,
+          "severity": "moderate",
+          "name": "Indulgent",
+          "effect": "Has to roll WIS saves to resist temptations the character doesn't intend. Minimum trigger list: alcohol/drugs (DC 12 to refuse a drink offered), unnecessary spending (DC 12 to walk past a shiny purchase), buying too much food (DC 12 at any market stall), other unwise decisions (DC 12-18 by strength). Failed save = the character does the unwise thing. Player's intent is OVERRIDDEN by the WIS quirk on a failed roll.",
+          "_rule_ref": "dm_rules_tracking.md § RULE 12"
+        }
+      ],
+      "count": 1
+    }
   },
   "persistent_effects": {
     "_rule": "Track all status effects, auras, poisons, and debuffs that persist across scenes. See dm_rules_tracking.md.",
