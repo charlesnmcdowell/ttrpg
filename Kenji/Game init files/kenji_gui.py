@@ -529,19 +529,39 @@ class LiveDashboard(ctk.CTk):
                 cfg[k] = loaded.get(k, v)
         except Exception:
             pass
-        # Layer 2: key.txt overrides api_key if present (cleaner separation —
-        # keys live alone, easier to .gitignore, easier to swap without
-        # touching the structured config).
-        key_path = SCRIPT_DIR / "key.txt"
-        try:
-            if key_path.exists():
+        # Layer 2: key.txt overrides api_key if present. Search a small set of
+        # likely locations so the file works whether it lives next to the .exe
+        # (dist/) OR next to kenji_gui.py (one level up from dist/). Also
+        # supports BUNDLE_DIR for frozen-bundle scenarios.
+        key_search_dirs = [
+            SCRIPT_DIR,                # primary: next to the .exe / .py
+            SCRIPT_DIR.parent,         # frozen mode: parent of dist/ holds key.txt
+            BUNDLE_DIR,                # PyInstaller temp extraction dir
+        ]
+        # De-dupe while preserving order.
+        seen_dirs = set()
+        for d in key_search_dirs:
+            try:
+                rd = d.resolve()
+            except Exception:
+                continue
+            if rd in seen_dirs:
+                continue
+            seen_dirs.add(rd)
+            key_path = rd / "key.txt"
+            if not key_path.exists():
+                continue
+            try:
                 for line in key_path.read_text(encoding="utf-8").splitlines():
                     line = line.strip()
                     if line and not line.startswith("#"):
                         cfg["api_key"] = line
+                        cfg["_key_source"] = str(key_path)
                         break
-        except Exception:
-            pass
+                if cfg.get("api_key"):
+                    break
+            except Exception:
+                continue
         # Layer 3: env-var fallback.
         if not (cfg.get("api_key") or "").strip():
             cfg["api_key"] = os.environ.get("ELEVENLABS_API_KEY", "")
