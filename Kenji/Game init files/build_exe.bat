@@ -31,6 +31,7 @@ pyinstaller --onefile --noconsole ^
     --add-data "_strip_dm_notes.py;." ^
     --add-data "prose_state_extractor.py;." ^
     --add-data "play_engine.py;." ^
+    --add-data "character_compute.py;." ^
     --collect-all anthropic ^
     --add-data "character_tracker.md;." ^
     --add-data "dm_rules_tracking.md;." ^
