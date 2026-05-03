@@ -4867,6 +4867,18 @@
    'C:\\Users\\charl\\OneDrive\\Documents\\TTRPG\\Kenji\\Game init '
    'files\\ttrpg_game_engine.py',
    'PYMODULE'),
+  ('tts_npc_voice_resolver',
+   'C:\\Users\\charl\\OneDrive\\Documents\\TTRPG\\Kenji\\Game init '
+   'files\\tts_npc_voice_resolver.py',
+   'PYMODULE'),
+  ('tts_speaker_parser',
+   'C:\\Users\\charl\\OneDrive\\Documents\\TTRPG\\Kenji\\Game init '
+   'files\\tts_speaker_parser.py',
+   'PYMODULE'),
+  ('tts_stitcher',
+   'C:\\Users\\charl\\OneDrive\\Documents\\TTRPG\\Kenji\\Game init '
+   'files\\tts_stitcher.py',
+   'PYMODULE'),
   ('tty',
    'C:\\Users\\charl\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tty.py',
    'PYMODULE'),

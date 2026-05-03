@@ -814,6 +814,263 @@ class LiveDashboard(ctk.CTk):
         h = self._tts_hash(voice_id, text, speed)
         return cache_dir / f"{prefix}_{source}_{h}.wav"
 
+    # ------------------------------------------------------------------
+    # Multi-voice TTS pipeline (NPC voice pool — option A from design)
+    # ------------------------------------------------------------------
+    def _tts_voice_pool_path(self) -> Path:
+        """Resolve tts_voice_pool.json with the same multi-path search
+        we use for tts_config.json (handles dist/ vs source layout)."""
+        for cand in (SCRIPT_DIR / "tts_voice_pool.json",
+                     SCRIPT_DIR.parent / "tts_voice_pool.json",
+                     BUNDLE_DIR / "tts_voice_pool.json"):
+            try:
+                if cand.exists():
+                    return cand
+            except Exception:
+                continue
+        return SCRIPT_DIR / "tts_voice_pool.json"
+
+    def _tts_load_voice_pool(self) -> dict:
+        """Load the 18-slot voice pool. Returns {} on any failure (which
+        the resolver treats as \"no pool\" → all NPCs fall to narrator)."""
+        try:
+            return json.loads(self._tts_voice_pool_path().read_text(encoding="utf-8"))
+        except Exception:
+            return {}
+
+    def _tts_pool_has_any_voices(self, pool: dict) -> bool:
+        """True if any pool slot is filled. When False the multi-voice
+        path is a no-op (every NPC falls to narrator) so we may as well
+        skip the parser/stitcher overhead and use the single-voice path."""
+        for race in ("humanoid", "orcish", "elfish"):
+            for gender in ("male", "female"):
+                slots = (pool.get(race) or {}).get(gender) or []
+                if any(s for s in slots):
+                    return True
+        return False
+
+    def _tts_npc_roster(self) -> tuple:
+        """Build (set_of_names, {name: {race, gender}}) from the engine
+        state — used by the parser to match attributions and by the
+        resolver to pick the right pool bucket."""
+        names = set()
+        meta = {}
+        try:
+            full = json.loads(self.config.state_file.read_text(encoding="utf-8"))
+        except Exception:
+            return names, meta
+        rosters = []
+        for key in ("main_cast", "extra_npcs"):
+            v = full.get(key)
+            if isinstance(v, list):
+                rosters.append(v)
+            elif isinstance(v, dict):
+                rosters.append(list(v.values()))
+        for roster in rosters:
+            for entry in roster:
+                if not isinstance(entry, dict):
+                    continue
+                name = (entry.get("name") or "").strip()
+                if not name or name.startswith("[") or name.startswith("_"):
+                    continue
+                names.add(name)
+                meta[name] = {
+                    "race":   (entry.get("race") or "").strip(),
+                    "gender": (entry.get("gender") or "").strip(),
+                }
+        return names, meta
+
+    def _tts_fetch_pcm(self, api_key: str, voice_id: str,
+                       text: str, speed: float) -> Optional[bytes]:
+        """Hit ElevenLabs, return raw PCM bytes. None on any failure.
+        Mirror of the HTTP block in _tts_request_and_play_inner but
+        without WAV wrapping / caching / playback (those live one layer up
+        for the multi-voice path so we can stitch first)."""
+        url = (f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}"
+               f"/stream?output_format=pcm_{TTS_PCM_RATE}")
+        body_dict = {"text": text, "model_id": DEFAULT_TTS_MODEL}
+        api_speed = max(0.7, min(1.2, speed)) if 0.7 <= speed <= 1.2 else None
+        if api_speed is not None:
+            body_dict["voice_settings"] = {"speed": api_speed}
+        body = json.dumps(body_dict).encode("utf-8")
+        req = urllib.request.Request(url, data=body, method="POST")
+        req.add_header("xi-api-key", api_key)
+        req.add_header("Content-Type", "application/json")
+        try:
+            with urllib.request.urlopen(req, timeout=45) as resp:
+                pcm = resp.read()
+        except Exception as e:
+            self.after(0, lambda e=e: self._play_append_narrator(
+                f"\n[TTS multi-voice fetch failed for voice {voice_id[:8]}…: {e}]\n"))
+            return None
+        if not pcm or len(pcm) < TTS_MIN_VALID_PCM_BYTES:
+            self.after(0, lambda: self._play_append_narrator(
+                f"\n[TTS multi-voice: voice {voice_id[:8]}… returned "
+                f"{len(pcm)} bytes — skipped]\n"))
+            return None
+        return pcm
+
+    def _tts_speak_multi_voice(self, text: str, source: str = "play") -> bool:
+        """Multi-voice Speak path. Returns True if it played (or showed a
+        cache hit), False if it fell through and the caller should retry
+        via the single-voice path. Never raises — failures log to the
+        narrator pane and return False so single-voice can take over.
+
+        Pipeline: parse prose → resolve each segment → check stitched
+        cache → confirm cost with user → fetch PCM per segment → stitch
+        → cache + play. PCM is cached as ONE stitched WAV per (text,
+        voice-mapping, speed) — re-clicks on the same prose are free."""
+        try:
+            from tts_speaker_parser import parse_prose
+            from tts_npc_voice_resolver import resolve_voice
+            from tts_stitcher import stitch_pcm_to_wav, estimate_duration_seconds
+        except Exception as e:
+            self._play_append_narrator(
+                f"\n[TTS multi-voice modules missing — falling back to single voice. {e}]\n")
+            return False
+
+        cfg = self._tts_load_config()
+        api_key = (cfg.get("api_key") or "").strip()
+        if not api_key:
+            return False  # caller will surface the no-key message
+
+        pool = self._tts_load_voice_pool()
+        if not self._tts_pool_has_any_voices(pool):
+            return False  # nothing to multi-voice with — caller uses single-voice
+
+        cleaned = self._tts_strip_for_speech(text)
+        if not cleaned:
+            return False
+
+        roster_names, roster_meta = self._tts_npc_roster()
+        narrator_voice = (cfg.get("voice_id") or DEFAULT_TTS_VOICE_ID).strip()
+        char_voices = cfg.get("character_voices") or {}
+        pc_name = ""
+        try:
+            pc_name = (getattr(self.engine, "char_name", "") or "").strip()
+        except Exception:
+            pass
+        pc_voice = (char_voices.get(pc_name) or "").strip() or None
+
+        # Per-character npc_voices.json sticky map (next to state file).
+        try:
+            npc_path = self.config.state_file.parent / "npc_voices.json"
+        except Exception:
+            npc_path = None
+
+        segments = parse_prose(cleaned, roster=roster_names)
+        if not segments:
+            return False
+
+        # Resolve each segment to a voice ID. Track unique voice IDs so we
+        # can early-exit if everything ends up as narrator (no point in
+        # the multi-voice overhead — fall back to single-voice).
+        plan = []  # list of (voice_id, segment_text, source_label)
+        unique_voices = set()
+        for seg in segments:
+            assignment = resolve_voice(
+                seg.speaker, seg.gender_hint,
+                narrator_voice_id=narrator_voice,
+                pc_name=pc_name or None, pc_voice_id=pc_voice,
+                pool=pool, npc_voices_path=npc_path,
+                npc_metadata=roster_meta,
+            )
+            plan.append((assignment.voice_id, seg.text, assignment.source))
+            unique_voices.add(assignment.voice_id)
+        if len(unique_voices) <= 1:
+            # Only the narrator voice in play — single-voice path is fine
+            # AND it has the existing per-text caching, so prefer it.
+            return False
+
+        # Cache key: hash of text + ordered voice mapping + speed.
+        speed = float(cfg.get("tts_speed") or DEFAULT_TTS_SPEED)
+        plan_repr = "|".join(f"{v}::{t}" for v, t, _ in plan)
+        cache_key = self._tts_hash(narrator_voice, plan_repr, speed)
+        cache_dir = self._tts_cache_dir()
+        cache_path = None
+        if cache_dir:
+            prefix = self._tts_filename_prefix()
+            cache_path = cache_dir / f"{prefix}_{source}_multi_{cache_key}.wav"
+
+        if cache_path and cache_path.exists():
+            self._play_append_narrator(
+                f"\n[TTS multi-voice: cache hit on id={cache_key} — playing free]\n")
+            self._tts_play_wav(cache_path)
+            return True
+
+        # Confirm cost — total chars across all segments. Group by voice so
+        # the user sees the per-voice breakdown, same as the single-voice
+        # confirm pattern but accounting for the new pipeline.
+        total_chars = sum(len(t) for _, t, _ in plan)
+        per_voice = {}
+        for vid, t, _ in plan:
+            per_voice[vid] = per_voice.get(vid, 0) + len(t)
+        breakdown = "\n".join(
+            f"  {vid[:8]}…  {n_chars:>5} chars" for vid, n_chars in per_voice.items())
+        msg = (
+            f"MULTI-VOICE TTS — uses ElevenLabs credits (one call per voice).\n\n"
+            f"Segments: {len(plan)}   Voices: {len(unique_voices)}\n"
+            f"Total characters: {total_chars}\n\n"
+            f"Per-voice breakdown:\n{breakdown}\n\n"
+            f"Cache miss — proceed with the API calls?\n"
+            f"(Re-clicks on the same prose will be free — stitched WAV is cached.)"
+        )
+        if not tk_messagebox.askyesno("Confirm multi-voice TTS — uses real credits", msg,
+                                       default=tk_messagebox.NO, parent=self):
+            self._play_append_narrator(
+                f"\n[TTS multi-voice: cancelled by user — no credits spent.]\n")
+            return True   # treat cancel as "handled" so single-voice doesn't also fire
+
+        # Fetch PCM per segment (sequential — keeps free-tier rate limits happy).
+        self._play_append_narrator(
+            f"\n[TTS multi-voice: generating {len(plan)} segments across "
+            f"{len(unique_voices)} voices ({total_chars} chars total)…]\n")
+        pcm_segments = []
+        for vid, t, _ in plan:
+            if not t.strip():
+                pcm_segments.append(b"")
+                continue
+            pcm = self._tts_fetch_pcm(api_key, vid, t, speed)
+            if pcm is None:
+                self._play_append_narrator(
+                    f"\n[TTS multi-voice: ABORT — segment fetch failed. "
+                    f"Falling back to single-voice path.]\n")
+                return False
+            pcm_segments.append(pcm)
+
+        wav_bytes = stitch_pcm_to_wav(pcm_segments)
+        if not wav_bytes:
+            return False
+        wav_path = cache_path or (Path(tempfile.gettempdir()) / f"kenji_tts_multi_{cache_key}.wav")
+        try:
+            wav_path.parent.mkdir(parents=True, exist_ok=True)
+            wav_path.write_bytes(wav_bytes)
+        except Exception as e:
+            self._play_append_narrator(f"\n[TTS multi-voice WAV write error: {e}]\n")
+            return False
+
+        # Update the music-mute window so reactive music doesn't cut off.
+        try:
+            duration = estimate_duration_seconds(pcm_segments)
+            self._tts_playing_until = self._time.time() + duration + 0.5
+        except Exception:
+            pass
+        self._tts_play_wav(wav_path)
+        return True
+
+    def _tts_play_wav(self, wav_path) -> None:
+        """Tiny helper — play a finished WAV file via winsound. No-op when
+        winsound is unavailable (non-Windows test env)."""
+        if not HAS_WINSOUND:
+            return
+        try:
+            winsound.PlaySound(str(wav_path),
+                                winsound.SND_FILENAME | winsound.SND_ASYNC)
+            self._music_playing = False
+            self._current_track = None
+        except Exception as e:
+            self._play_append_narrator(f"\n[TTS playback error: {e}]\n")
+
     def _tts_speak(self, text: Optional[str] = None,
                     voice_id: Optional[str] = None,
                     source: str = "play") -> None:
@@ -1064,16 +1321,28 @@ class LiveDashboard(ctk.CTk):
 
     def _on_tts_speak_clicked(self):
         """🔊 Speak (Play tab) — read the current narrator pane aloud.
-        Caches under source='play' so Narrative-tab caches stay separate."""
+        Caches under source='play' so Narrative-tab caches stay separate.
+        Tries the multi-voice pipeline first (per-NPC voices from the
+        pool); falls back to single-voice if pool is empty / fails."""
+        try:
+            text = self.play_narrator.get("1.0", "end")
+        except Exception:
+            text = ""
+        if self._tts_speak_multi_voice(text, source="play"):
+            return
         self._tts_speak(source="play")
 
     def _on_tts_speak_narrative_clicked(self):
         """🔊 Speak (Narrative tab) — read the adventure recap aloud.
-        Caches under source='narrative' so Play-tab caches stay separate."""
+        Caches under source='narrative' so Play-tab caches stay separate.
+        Tries multi-voice first (audiobook-style per-NPC voices); falls
+        back to single-voice if pool is empty / fails."""
         try:
             text = self._tb_narrative.get("1.0", "end")
         except Exception:
             text = ""
+        if self._tts_speak_multi_voice(text, source="narrative"):
+            return
         self._tts_speak(text, source="narrative")
 
     def _on_end_game_clicked(self):
