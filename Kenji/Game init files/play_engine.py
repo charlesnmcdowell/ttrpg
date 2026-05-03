@@ -530,7 +530,7 @@ def stream_turn(
 
             full_buffer: List[str] = []
             emitted = 0          # chars already passed to on_token
-#            marker_seen = False
+            marker_seen = False
             with client.messages.stream(
                 model=model,
                 max_tokens=max_tokens,

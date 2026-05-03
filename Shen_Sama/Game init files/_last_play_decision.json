@@ -1,14 +1,14 @@
 {
   "character_id": "shen sama",
   "state_file_stamp": "C:\\Users\\charl\\OneDrive\\Documents\\TTRPG\\Shen_Sama\\Game init files\\character_world_state.json",
-  "narrator_text": "The two figures on the goat-track haven't turned. Both pitched into the wind, voices carrying. \"Three rings, then four. That's bone-pattern. Kingdom riders.\" The taller one, certain. The shorter snaps back, \"Bone is a chase order. They don't ring chase before they ring overhead. You're hearing what you want to hear.\" A pause; the wind shifts cold. \"And if it's dragon —\" \"Don't say dragon out loud, you old fool. You'll feed the thing.\"\n\nA pine cone shifts under Shen's bare heel — small, dry, loud. The taller shepherd's head tilts a quarter turn, listening, not yet looking. The shorter one is still arguing, eyes on the road. Twenty paces between Shen and the next stand of southern cover.",
+  "narrator_text": "The shorter shepherd makes a sound like a stepped-on cat and yanks his companion sideways into the bracken. Neither runs — they just press flat against the pine trunks, crooks clutched to their chests, watching Shen pass with wide white eyes. The taller one mouths something that might be a prayer.\n\nThe goat-track opens south into deeper pine, and the forest swallows the sound of their breathing behind him. Ignis's scent — volcanic mineral-water, faint sulfur, something warm underneath like hearthstone — pulls faintly southwest, deeper into the trees, not toward the road.",
   "options": [
-    "Hold still and wait for the shepherd's head to turn back before continuing south.",
-    "Step into view and ask, plainly, which path runs west of the road toward Varenholm.",
-    "Slip through the tree line south of the track — break cover, accept the noise."
+    "Follow Ignis's scent southwest, away from the road entirely",
+    "Veer back toward the Highford road — faster route to Varenholm despite the risk",
+    "Stop and scent the air more carefully — check if the trail is fresh or old before committing"
   ],
   "player_action": "",
-  "applied_at": "2026-05-03T11:05:44",
-  "turns_since_close": 1,
+  "applied_at": "2026-05-03T11:41:18",
+  "turns_since_close": 3,
   "close_prompted_at": -1000000000
 }

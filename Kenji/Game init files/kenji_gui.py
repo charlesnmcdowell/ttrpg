@@ -307,6 +307,8 @@ GOLD_DIM     = "#8a7340"
 TEXT         = "#e8e0d4"
 TEXT_DIM     = "#9e9585"
 RED          = "#c0392b"
+GREEN        = "#27ae60"  # dev-mode safe indicator (no API cost)
+AMBER        = "#e67e22"  # API-mode warning chip background
 BLUE         = "#2980b9"
 HP_LOW       = "#e74c3c"
 HP_MID       = "#f39c12"
@@ -561,7 +563,39 @@ class LiveDashboard(ctk.CTk):
     # ------------------------------------------------------------------
     @property
     def _tts_config_path(self) -> Path:
-        """Settings file next to kenji_gui.py / .exe."""
+        """Resolve the tts_config.json location.
+
+        Searches the same candidate set as key.txt / _chapter_close_check.py:
+          1. SCRIPT_DIR             (next to .exe / .py — primary)
+          2. SCRIPT_DIR.parent      (running from dist/, source one level up)
+          3. BUNDLE_DIR             (PyInstaller _MEIPASS extraction)
+
+        Returns the first existing path. If NONE exists, returns
+        SCRIPT_DIR / "tts_config.json" so first-time writes have a target.
+
+        This was the source of the \"voice ID not respected\" bug: when the
+        dashboard runs from dist/ but tts_config.json lives in the source
+        folder one level up, a SCRIPT_DIR-only lookup silently misses the
+        file and the dashboard falls back to DEFAULT_TTS_VOICE_ID.
+        """
+        candidates = [
+            SCRIPT_DIR / "tts_config.json",
+            SCRIPT_DIR.parent / "tts_config.json",
+            BUNDLE_DIR / "tts_config.json",
+        ]
+        seen = set()
+        for p in candidates:
+            try:
+                rp = p.resolve()
+            except Exception:
+                continue
+            if rp in seen:
+                continue
+            seen.add(rp)
+            if p.exists():
+                return p
+        # No existing config — return the canonical write target so first-
+        # time _tts_save_config writes land next to the .exe / script.
         return SCRIPT_DIR / "tts_config.json"
 
     def _tts_load_config(self) -> dict:
@@ -1087,20 +1121,43 @@ class LiveDashboard(ctk.CTk):
         # Import the close-check logic at click time so a missing module
         # surfaces here as a dialog instead of crashing the dashboard at
         # startup. Uses the same logic the launcher's [2/4] step uses.
+        # Search multiple candidate paths because the helper can live in
+        # different places depending on how the dashboard was launched:
+        #   1. BUNDLE_DIR  — when bundled into the PyInstaller .exe
+        #     (sys._MEIPASS extracts data files here at runtime).
+        #   2. SCRIPT_DIR  — next to the script when source-run, OR next
+        #     to the .exe (e.g. if the user dropped the helper into dist/).
+        #   3. SCRIPT_DIR.parent — when running the .exe from inside dist/
+        #     and the helper still lives in the source "Game init files/"
+        #     folder one level up.
+        candidates = [
+            BUNDLE_DIR / "_chapter_close_check.py",
+            SCRIPT_DIR / "_chapter_close_check.py",
+            SCRIPT_DIR.parent / "_chapter_close_check.py",
+        ]
+        helper_path = next((p for p in candidates if p.exists()), None)
+        if helper_path is None:
+            tk_messagebox.showerror(
+                "End Game — module error",
+                "Could not find _chapter_close_check.py.\n\n"
+                "Searched:\n"
+                + "\n".join(f"  - {p}" for p in candidates)
+                + "\n\nFix: rebuild the .exe with the updated PyInstaller\n"
+                "spec (it now bundles _chapter_close_check.py), OR copy\n"
+                "the helper into the same folder as the .exe.")
+            return
         try:
             import importlib.util
             spec = importlib.util.spec_from_file_location(
-                "_chapter_close_check",
-                str(SCRIPT_DIR / "_chapter_close_check.py"))
+                "_chapter_close_check", str(helper_path))
             if spec is None or spec.loader is None:
-                raise ImportError("could not load _chapter_close_check.py")
+                raise ImportError("spec_from_file_location returned None")
             mod = importlib.util.module_from_spec(spec)
             spec.loader.exec_module(mod)
         except Exception as e:
             tk_messagebox.showerror(
                 "End Game — module error",
-                f"Could not import _chapter_close_check.py:\n{e}\n\n"
-                f"Expected at: {SCRIPT_DIR / '_chapter_close_check.py'}")
+                f"Could not import {helper_path}:\n{e}")
             return
 
         # Read state, run the same flow as the CLI / launcher.
@@ -1926,7 +1983,19 @@ class LiveDashboard(ctk.CTk):
         )
         self.play_devmode_chk.pack(side="left", padx=2)
 
-        # Sync the Send button label to the initial mode/stage.
+        # Mode badge — colored chip beside the checkbox so the player can
+        # tell at a glance whether the next Send will hit the paid API
+        # (amber) or the free dev-mode file bridge (green). Updated by
+        # _play_refresh_mode_badge() on toggle and at startup.
+        self.play_mode_badge = ctk.CTkLabel(
+            toggle_row, text="", font=FONT_SMALL,
+            text_color=TEXT, fg_color=GREEN, corner_radius=4,
+            padx=8, pady=2,
+        )
+        self.play_mode_badge.pack(side="left", padx=8)
+        self._play_refresh_mode_badge()
+
+        # Sync the Send button label + color to the initial mode/stage.
         self._play_update_send_button()
 
         # Try to rehydrate the last decision point from a sidecar file. If
@@ -1998,22 +2067,54 @@ class LiveDashboard(ctk.CTk):
     def _play_toggle_dev_mode(self):
         """Sync the toggle into PlayState and refresh the Send button label."""
         self.play_state.dev_mode = bool(self.play_devmode_var.get())
+        self._play_refresh_mode_badge()
         # Reset the dev-stage so a stale "awaiting" doesn't carry across modes.
         self.play_state.dev_stage = "ready"
         self.play_state.pending_action = ""
         self._play_update_send_button()
 
+    def _play_refresh_mode_badge(self):
+        """Recolor + relabel the mode chip beside the dev-mode checkbox.
+        Green chip = dev mode (free, file bridge). Amber chip = API mode
+        (paid). Called at startup and whenever dev mode toggles."""
+        if not getattr(self, "play_mode_badge", None):
+            return
+        if getattr(self.play_state, "dev_mode", True):
+            self.play_mode_badge.configure(
+                text="DEV MODE  ·  free  ·  file bridge",
+                fg_color=GREEN, text_color=BG_DARK,
+            )
+        else:
+            self.play_mode_badge.configure(
+                text="API MODE  ·  PAID  ·  charges credits per turn",
+                fg_color=AMBER, text_color=BG_DARK,
+            )
+
     def _play_update_send_button(self):
-        """Refresh Send button label based on mode + stage."""
+        """Refresh Send button label + color based on mode + stage. Color
+        swap is the secondary visual signal so a player who muscle-memories
+        the click target still sees red the first time the dashboard boots
+        into API mode."""
         if not getattr(self, "play_send_btn", None):
             return
         if self.play_state.dev_mode:
             if self.play_state.dev_stage == "awaiting":
-                self.play_send_btn.configure(text="← Paste Response")
+                self.play_send_btn.configure(
+                    text="← Paste Response",
+                    fg_color=GOLD_DIM, hover_color=GOLD,
+                )
             else:
-                self.play_send_btn.configure(text="Copy Prompt →")
+                self.play_send_btn.configure(
+                    text="Copy Prompt →",
+                    fg_color=GOLD_DIM, hover_color=GOLD,
+                )
         else:
-            self.play_send_btn.configure(text="Send")
+            # API mode — red Send button + "($)" label cue so cost is
+            # visible on the button itself even before the confirm dialog.
+            self.play_send_btn.configure(
+                text="Send  ($)",
+                fg_color=RED, hover_color=AMBER,
+            )
 
     def _play_set_narrator(self, text: str) -> None:
         """Replace narrator pane contents."""
@@ -2379,22 +2480,85 @@ class LiveDashboard(ctk.CTk):
             self._play_set_options(list(options))
         return True
 
+    def _play_estimate_turn_cost(self, action_text: str):
+        """Return the cost-quote dict for the next API turn (input tokens,
+        max output tokens, est USD), or None if the estimate can't be
+        computed for any reason. Best-effort; failures fall through to a
+        cost-less confirm dialog rather than blocking play."""
+        try:
+            from play_engine import (estimate_turn_cost, DEFAULT_MODEL,
+                                     DEFAULT_MAX_TOKENS)
+            full_state = json.loads(
+                self.config.state_file.read_text(encoding="utf-8"))
+            narrative_summary = ""
+            if hasattr(self, "engine") and self.engine is not None:
+                ns = getattr(self.engine, "_narrative_summary", "")
+                if isinstance(ns, list):
+                    narrative_summary = "\n\n".join(ns)
+                elif isinstance(ns, str):
+                    narrative_summary = ns
+            return estimate_turn_cost(
+                state=full_state,
+                history=self.play_state.history,
+                player_action=action_text,
+                narrative_summary=narrative_summary,
+                model=DEFAULT_MODEL,
+                max_tokens=DEFAULT_MAX_TOKENS,
+            )
+        except Exception:
+            return None
+
     def _play_confirm_send(self, action_text: str, source: str) -> bool:
         """Show a Yes/No dialog so an accidental Enter press or stray click on
         an option row can be backed out before the action is sent. Returns
         True if the user confirms, False if they cancel.
 
-        ``source`` is shown in the dialog title ("Option" / "Custom action")
-        so the player knows which input path triggered the prompt. The action
-        text itself is shown verbatim — long actions are truncated to ~400
-        chars in the message body to keep the dialog readable, but the full
-        text is still what gets sent if confirmed."""
+        Mode-aware: dev mode confirms the action with a free-mode banner
+        (no $ warning). API mode leads with a PAID warning, names the
+        model, and quotes estimated USD spend so the player never burns
+        credits without consenting to that specific cost — same pattern
+        as the TTS-credit confirm elsewhere in this file. Default-focused
+        button is No in both modes."""
         preview = action_text.strip()
         if len(preview) > 400:
             preview = preview[:400].rstrip() + "…"
-        msg = f"Send this action to the narrator?\n\n{preview}"
+
+        if getattr(self.play_state, "dev_mode", True):
+            title = f"Confirm — {source}"
+            msg = (
+                f"DEV MODE — no API cost. Send this action to the narrator?"
+                f"\n\n{preview}"
+            )
+        else:
+            cost = self._play_estimate_turn_cost(action_text)
+            title = f"Confirm — {source}  (API MODE — uses real $ credits)"
+            if cost is None:
+                cost_block = (
+                    "Estimated cost: unknown (state-file load failed).\n"
+                    "Continuing will still charge your Anthropic API."
+                )
+            else:
+                pricing_note = ("" if cost["pricing_known"]
+                                else "  [pricing fallback used — model not in MODEL_PRICING table]")
+                cost_block = (
+                    f"Model: {cost['model']}{pricing_note}\n"
+                    f"Input:   ~{cost['input_tokens']:,} tokens   ~ ${cost['est_input_usd']:.4f}\n"
+                    f"Output:  <={cost['max_output_tokens']:,} tokens   ~ ${cost['est_output_max_usd']:.4f}  (worst-case)\n"
+                    f"\n"
+                    f"Estimated this turn: ~${cost['est_typical_usd']:.4f}   (typical)\n"
+                    f"Worst-case ceiling:  ~${cost['est_total_max_usd']:.4f}   (full output budget)"
+                )
+            msg = (
+                f"PRODUCTION (API) MODE — this turn will charge your Anthropic API.\n"
+                f"Switch to dev mode (checkbox below the Send button) to play\n"
+                f"for free via the file bridge instead.\n"
+                f"\n"
+                f"Action:\n{preview}\n"
+                f"\n"
+                f"{cost_block}"
+            )
         try:
-            return bool(tk_messagebox.askyesno(f"Confirm — {source}", msg,
+            return bool(tk_messagebox.askyesno(title, msg,
                                                 default=tk_messagebox.NO,
                                                 parent=self))
         except Exception:

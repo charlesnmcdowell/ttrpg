@@ -1,0 +1,28 @@
+{
+  "_doc": "Multi-voice TTS pool for the dashboard's Speak button. 18 slots in 6 buckets (3 male + 3 female per race: humanoid, orcish, elfish). The dashboard's stitcher parses narrator prose into segments by speaker, looks up each NPC's race+gender, and picks one of the 3 voices in that bucket for that NPC. Once an NPC is assigned a voice it sticks (saved per-character in npc_voices.json next to the state file). Slots are deliberately empty here — fill them in by browsing https://elevenlabs.io/app/voice-library and pasting voice IDs. Empty slots fall back to the narrator voice gracefully, so the system works the moment you fill even one bucket.",
+  "_filling_instructions": [
+    "1. Visit https://elevenlabs.io/app/voice-library",
+    "2. Pick voices that match the bucket (e.g. for orcish.male, search 'gravelly' / 'deep' / 'rough')",
+    "3. Click a voice → copy the voice ID from the URL or the Share dialog",
+    "4. Paste into one of the three slots in that bucket below",
+    "5. Save this file. The dashboard re-reads it on every Speak click — no restart needed.",
+    "6. Voices marked '' (empty) silently fall back to narrator voice. No errors."
+  ],
+  "_narrator_note": "The narrator voice is set in tts_config.json under the top-level voice_id field, NOT here. The pool is for NPCs only.",
+  "_pc_note": "Player Character voices are also set in tts_config.json under character_voices. The PC voice overrides the pool when the prose attributes a line to them by name.",
+  "humanoid": {
+    "_desc": "Default bucket for humans, halflings, dwarves — anyone without a more specific race tag. Used when an NPC's race is unknown.",
+    "male":   ["", "", ""],
+    "female": ["", "", ""]
+  },
+  "orcish": {
+    "_desc": "For orc, half-orc, ankuspawn, goblinoid, and similar 'rougher' fantasy races. Suggest gravelly / deep / mountain-accented voices.",
+    "male":   ["", "", ""],
+    "female": ["", "", ""]
+  },
+  "elfish": {
+    "_desc": "For elf, half-elf, fey, sylvan, and similar 'lighter' fantasy races. Suggest melodic / breathy / accented voices.",
+    "male":   ["", "", ""],
+    "female": ["", "", ""]
+  }
+}
