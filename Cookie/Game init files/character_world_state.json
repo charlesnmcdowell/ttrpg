@@ -9,7 +9,7 @@
     "Cookie left Kettlebrook with five gold and a halfling's stubborn certainty that she could sing for her supper. Her first week in Varenholm reshaped her: Academy enrollment under Professor Ashworth, V.E.A. registration, a textile merchant named Torren charmed silly by the first Heartstring she'd ever consciously thrown, and a debut at The Starling that put her on the heartland performance map. By the end of week one she had Pretty Privilege turning quest payouts into bigger payouts, an Anklet of Unarmed Combat that made her kicks weigh like warhorses, a Healer's Ring from the same Pale Lantern enchanter, and four custom Gilded Thread outfits. The girl who'd planned to busk for room and board was suddenly leveling on Performance checks alone.",
     "The middle of the campaign was Silka. The dark-haired Academy classmate who sang lullabies that made rooms forget how to breathe — secretly Lyssa Vane's Ankuspawn 'daughter,' her gold-flecked eyes hidden behind a silver suppression chain that Lyssa had told her was protection. Cookie figured out the chain on Day 8 and shattered it with Dance of Dispel during Halbert's funeral. The same day, Senna Dawnmere — Diamond-tier Wardbreaker, cross-campaign anchor from Kenji's books — clocked Cookie's Ember from across the room and locked a paternity question for the Sunken Playhouse trip. By Day 9, Cookie was Level 10, capped at maximum starter Ember strength, contracted with the Wardbreakers (Senna, Finch, Varn) at Bronze rate, and walking a marsh causeway toward a half-flooded amphitheatre where Lyssa's last lieutenant Eira had fled.",
     "Days 9-18 closed the Varenholm starter arc in two chapters. 'The Reader' (Days 9-11): Eira surrendered at the Sunken Playhouse, signed the deposition naming Lyssa's patron only as 'the Reader,' gave up the Stormhaven courier route and Pale Lantern dropbox. Cookie confirmed Kenji as her father to Senna — refiled from client to Wardbreaker dependent. Capstone signed. Silka opened on partial sabbatical, gold rising into visible skin. 'From Kettlebrook' (Days 11-18): Day 12 a charm-tagged Crown Quarter regular tried Fern's address; Fern blocked it; Cookie pigeoned warnings to Tomas Wren in Kettlebrook (Daisy secured) and to Hazel's noble-women circuit (watch posted). Lyssa retaliation stalled at 85%. Day 14 Cookie wrote her own original recital piece — refused to play any of it for Ashworth in advance. Day 18 Civic Auditorium graduation recital: 240 humanoids, Council bench, Bardic Master from Ashenmere. Performance d20+9 ADV + d12 = 28 vs DC 22 (margin +6). Full Ember resonance bloom on the final chorus. Standing ovation. Ashworth signed Master of Voice credential, touring unrestricted, Ashenmere guest residency offered. Currently: Day 18 evening, Civic Auditorium backstage, Silka in the stagedoor wing waiting. Vess private word booked tomorrow. Three open paths going forward — Silka truth, Vess+Ashenmere political cover, or defy Ashworth's embargo and hit the Reader's dropbox tonight.",
-    "Elsewhere in the world right now: - Amaris (L5, campaign-complete) - Day 8 hour 9, Briarstone Homestead — porch - Ch1 '[Eastern Frontier — campaign in progress' [PENDING] - amaris_story.md — Epilogue: The Stranger in the Greenveil (campaign complete) - Holly (L297, active (mid-chapter)) - Day 1 hour 7, Solandra Bay — Pier Three, dawn, the Witherhold cargo cog moored behind her. Man - Ch1 '[OPEN — Day 1 dawn, Solandra Bay]' [PENDING] - Day 1 dawn, Solandra Bay, Pier Three. Holly has just walked off the Witherhold gangplank. Mango vendor has called out to - Kenji (L40, campaign-complete) - Day 291 hour 6.0, Ashmere 69 dawn — Dragonspine peaks, granite shelf near Ignis mating ground, off - Ch42 '[Book 4 — late campaign]' [COMPLETE] - Book 4, Chapter 42 COMPLETE (played live, prose: fraying_empire_chapter_42.md — 'The Weld'). Ch41 COMPLETE ('The Kingdom"
+    "Elsewhere in the world right now: - Amaris (L5, campaign-complete) - Day 8 hour 9, Briarstone Homestead — porch - Ch1 '[Eastern Frontier — campaign in progress' [PENDING] - amaris_story.md — Epilogue: The Stranger in the Greenveil (campaign complete) - Holly (L297, active (mid-chapter)) - Day 1 hour 7, Solandra Bay — Pier Three, dawn, the Witherhold cargo cog moored behind her. Man - Ch1 '[OPEN — Day 1 dawn, Solandra Bay]' [PENDING] - Day 1 dawn, Solandra Bay, Pier Three. Holly has just walked off the Witherhold gangplank. Mango vendor has called out to - Kenji (L40, campaign-complete) - Day 291 hour 6.0, Ashmere 69 dawn — Dragonspine peaks, granite shelf near Ignis mating ground, off - Ch42 '[Book 4 — late campaign]' [COMPLETE] - Book 4, Chapter 42 COMPLETE (played live, prose: fraying_empire_chapter_42.md — 'The Weld'). Ch41 COMPLETE ('The Kingdom - Shen Sama (L1, active) - Day 3 hour 14, Foothill pine forest, ~16 miles south of Dragonspine pass on Highford's south ro - Ch1 'Stand Down' [COMPLETE] - Day 3 hour 14 — Shen in dragon form over Highford foothill belt; Marshal B fatality logged; bells ringing at chimney far"
   ],
   "_chapter_history": [
     {
@@ -2957,7 +2957,7 @@
   },
   "_world_cross_references": {
     "_rule": "Auto-built by _cross_character_sync.py - this is what's currently happening with the OTHER PCs in the world. The loaded character may encounter them as NPCs, hear about them in tavern gossip, or be affected by their actions. Synced at the timestamp below; re-run sync after any chapter close in any campaign to refresh.",
-    "synced_at": "2026-05-02T21:52:40",
+    "synced_at": "2026-05-02T20:50:39",
     "other_characters": {
       "Amaris": {
         "name": "Amaris",
@@ -2994,6 +2994,18 @@
         "chapter": 42,
         "chapter_status": "COMPLETE",
         "summary": "Kenji (L40, campaign-complete) - Day 291 hour 6.0, Ashmere 69 dawn — Dragonspine peaks, granite shelf near Ignis mating ground, off - Ch42 '[Book 4 — late campaign]' [COMPLETE] - Book 4, Chapter 42 COMPLETE (played live, prose: fraying_empire_chapter_42.md — 'The Weld'). Ch41 COMPLETE ('The Kingdom"
+      },
+      "Shen Sama": {
+        "name": "Shen Sama",
+        "level": 1,
+        "location": "Foothill pine forest, ~16 miles south of Dragonspine pass on Highford's south road (Day 3 mid-afternoon)",
+        "day": 3,
+        "hour": 14,
+        "hp": "137/137",
+        "status": "active",
+        "chapter": 1,
+        "chapter_status": "COMPLETE",
+        "summary": "Shen Sama (L1, active) - Day 3 hour 14, Foothill pine forest, ~16 miles south of Dragonspine pass on Highford's south ro - Ch1 'Stand Down' [COMPLETE] - Day 3 hour 14 — Shen in dragon form over Highford foothill belt; Marshal B fatality logged; bells ringing at chimney far"
       }
     }
   }

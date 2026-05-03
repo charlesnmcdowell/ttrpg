@@ -70,7 +70,10 @@
     "dragon_type": "black",
     "age_years": 24,
     "ember_active": true,
-    "stat_affinity": ["STR", "CON"],
+    "stat_affinity": [
+      "STR",
+      "CON"
+    ],
     "_stat_affinity_note": "Black dragon archetype: physical brute, melee, dragonhide. Bonus only writes to STR and CON. Other stats (DEX, INT, WIS, CHA) get zero racial from the dragon line. Compare: Ignis (RED dragon) has affinity [CHA, INT] — that's why she labels herself sorcerer with fire magic.",
     "_computed_bonus_at_creation": {
       "ember_active": "+240 to STR and CON (24 years × 1 baseline × 10 ember-active multiplier). Other stats get 0.",
@@ -278,12 +281,42 @@
     "proficiency_bonus": 2,
     "ability_scores": {
       "_rule": "Player-specified base + True Dragon Bonus auto-written from dragon_inheritance block by character_compute.py. Black-dragon affinity: bonus applies to STR + CON only (per DRAGON_STAT_AFFINITY). DEX, INT, WIS get zero from dragon heritage. CHA never receives the bonus (cultural-flaw carve-out).",
-      "STR": {"base": 18, "racial": 240, "final": 258, "mod":  124},
-      "DEX": {"base": 10, "racial":   0, "final":  10, "mod":    0},
-      "CON": {"base": 20, "racial": 240, "final": 260, "mod":  125},
-      "INT": {"base": 10, "racial":   0, "final":  10, "mod":    0},
-      "WIS": {"base": 10, "racial":   0, "final":  10, "mod":    0},
-      "CHA": {"base":  4, "racial":   0, "final":   4, "mod":   -3}
+      "STR": {
+        "base": 18,
+        "racial": 240,
+        "final": 258,
+        "mod": 124
+      },
+      "DEX": {
+        "base": 10,
+        "racial": 0,
+        "final": 10,
+        "mod": 0
+      },
+      "CON": {
+        "base": 20,
+        "racial": 240,
+        "final": 260,
+        "mod": 125
+      },
+      "INT": {
+        "base": 10,
+        "racial": 0,
+        "final": 10,
+        "mod": 0
+      },
+      "WIS": {
+        "base": 10,
+        "racial": 0,
+        "final": 10,
+        "mod": 0
+      },
+      "CHA": {
+        "base": 4,
+        "racial": 0,
+        "final": 4,
+        "mod": -3
+      }
     },
     "low_stat_quirks": {
       "_rule": "Auto-detected by character_compute.detect_low_stat_quirks(). Cardinal Rule 12 — base score < 10 generates a mandatory quirk the DM enforces at the table. See dm_rules_tracking.md § RULE 12.",
@@ -300,20 +333,23 @@
       "count": 1
     },
     "saving_throws": {
-      "proficient": ["STR", "CON"],
+      "proficient": [
+        "STR",
+        "CON"
+      ],
       "STR_save": "+126 (prof +2, STR +124)",
       "CON_save": "+127 (prof +2, CON +125)",
-      "DEX_save":   "+0 (DEX +0, no prof)",
-      "INT_save":   "+0 (INT +0, no prof)",
-      "WIS_save":   "+0 (WIS +0, no prof)",
-      "CHA_save":   "-3 (CHA -3, no prof — primary vulnerability; dragon bonus does NOT apply to CHA)"
+      "DEX_save": "+0 (DEX +0, no prof)",
+      "INT_save": "+0 (INT +0, no prof)",
+      "WIS_save": "+0 (WIS +0, no prof)",
+      "CHA_save": "-3 (CHA -3, no prof — primary vulnerability; dragon bonus does NOT apply to CHA)"
     },
     "skills": {
-      "Athletics":    "+126 (prof +2, STR +124)",
-      "Intimidation":   "+2 (CHA -3 + Dragon Presence +5 from green-fire aura)",
-      "Survival":       "+2 (prof +2, WIS +0)",
-      "Acrobatics":     "+2 (prof +2, DEX +0)",
-      "Perception":     "+2 (prof +2, WIS +0)",
+      "Athletics": "+126 (prof +2, STR +124)",
+      "Intimidation": "+2 (CHA -3 + Dragon Presence +5 from green-fire aura)",
+      "Survival": "+2 (prof +2, WIS +0)",
+      "Acrobatics": "+2 (prof +2, DEX +0)",
+      "Perception": "+2 (prof +2, WIS +0)",
       "_note": "Black-dragon affinity targets STR + CON only. With Ember active (×10), STR mod is +124 and CON mod is +125 — Athletics +126, STR/CON saves nearly auto-pass. DEX/INT/WIS skills stay base. CHA flaw stands at every state."
     },
     "AC": 135,
@@ -360,34 +396,65 @@
       "His own name in formal dragon-tongue (only thing his mother gave him willingly — a spoken sigil that other true dragons recognize)"
     ],
     "buffs": {},
-    "statuses": ["EMBER_ACTIVE"],
+    "statuses": [
+      "EMBER_ACTIVE"
+    ],
     "ember_state": {
       "active": true,
       "_rule": "Default ON for Ankuspawn. When ember_active=true, dragon-inheritance multiplier is 10× (canon constant from character_compute.py — NOT per-character configurable). When set to false, multiplier reverts to baseline 1× — racial bonus drops from +240 to +24 on each affinity stat. Reflection, Body Enhancement, Surge, Dragon Form all suspend. Toggle via Cult Ember Shade ward, dispel, or Council binding artifact.",
       "stat_when_ember_nullified_baseline": {
         "_note": "First nullification tier — ward suppresses ember-amplification but baseline true-dragon biology persists.",
-        "STR_racial": 24,  "STR_final": 42,  "STR_mod": 16,
-        "CON_racial": 24,  "CON_final": 44,  "CON_mod": 17,
+        "STR_racial": 24,
+        "STR_final": 42,
+        "STR_mod": 16,
+        "CON_racial": 24,
+        "CON_final": 44,
+        "CON_mod": 17,
         "hp_max": 29,
         "ac": 27,
         "claws_per_strike": "1d8 + 16 (still magical, still dangerous, but mortal-tier hits expected)",
-        "perks_suspended": ["Green-Fire Reflection Aura", "Body Enhancement (Ember Active)"],
-        "class_features_suspended": ["Dragon Form Transformation", "Green-Fire Breath", "Body Enhancement Surge"],
-        "still_active": ["Dragon Claws (natural)", "Rage (Barbarian)", "Martial Arts (Monk)", "Charisma Flaw"]
+        "perks_suspended": [
+          "Green-Fire Reflection Aura",
+          "Body Enhancement (Ember Active)"
+        ],
+        "class_features_suspended": [
+          "Dragon Form Transformation",
+          "Green-Fire Breath",
+          "Body Enhancement Surge"
+        ],
+        "still_active": [
+          "Dragon Claws (natural)",
+          "Rage (Barbarian)",
+          "Martial Arts (Monk)",
+          "Charisma Flaw"
+        ]
       },
       "stat_when_dragon_lineage_fully_suppressed": {
         "_note": "Deeper suppression — extremely rare, requires Council artifact or Vorathiel willingly suspending him. Drops Shen to base 5e mortal stats.",
-        "STR_racial":  0, "STR_final": 18, "STR_mod":  4,
-        "CON_racial":  0, "CON_final": 20, "CON_mod":  5,
+        "STR_racial": 0,
+        "STR_final": 18,
+        "STR_mod": 4,
+        "CON_racial": 0,
+        "CON_final": 20,
+        "CON_mod": 5,
         "hp_max": 17,
         "ac": 10,
         "design_note": "This is the Cult of Anku endgame — a captured, fully-suppressed Shen they can harvest. Ember-Shade ward alone shouldn't reach this tier; it requires custody + a binding artifact."
       }
     },
     "charges": {
-      "Green-fire breath": [4, 4],
-      "Body Enhancement Surge": [4, 4],
-      "Dragon Form Transformation": [0, 1]
+      "Green-fire breath": [
+        4,
+        4
+      ],
+      "Body Enhancement Surge": [
+        4,
+        4
+      ],
+      "Dragon Form Transformation": [
+        0,
+        1
+      ]
     },
     "_charges_note": "Dragon Form spent at Day 3 hour 14 for the Marshal B pursuit-kill. 24-hour cooldown — earliest re-use Day 4 hour 14. Per ember_inheritance.abilities.surge: 1 level of exhaustion accrues on dismissal.",
     "portals": {},
@@ -495,10 +562,17 @@
         "boss": false,
         "day": 3,
         "tier": "normal",
-        "aggressor": ["NPC (initial subdual under lawful writ — sergeant ordered 'take')", "PC (post-stand-down, broke truce)"],
+        "aggressor": [
+          "NPC (initial subdual under lawful writ — sergeant ordered 'take')",
+          "PC (post-stand-down, broke truce)"
+        ],
         "de_escalation_offered": "Sergeant of Highford patrol, immediately after the three-attack volley missed; offered courteous-report exit and recommended audience-by-request rather than continued force.",
         "de_escalation_broken_by": "PC (Shen Sama) — turned, closed twenty feet, single claw strike on Marshal A AFTER the stand-down order was spoken.",
-        "witnesses_alive": ["Sergeant of Highford patrol (22-year veteran)", "Highford courier (lantern-slate scribe)", "Marshal B (fled toward Highford tower mid-fight, eyewitness)"],
+        "witnesses_alive": [
+          "Sergeant of Highford patrol (22-year veteran)",
+          "Highford courier (lantern-slate scribe)",
+          "Marshal B (fled toward Highford tower mid-fight, eyewitness)"
+        ],
         "framing_versions": {
           "marshal_b_account": "We attacked under writ; he killed under truce.",
           "sergeant_report": "Lawful subdual attempted, failed without harm to either side, recommend audience by request — but on stand-down, the Dragonspine traveler killed Marshal A regardless.",
@@ -525,7 +599,9 @@
         "day": 3,
         "hour": 14,
         "tier": "normal",
-        "aggressor": ["PC (Shen — pursuit-kill on fleeing non-combatant)"],
+        "aggressor": [
+          "PC (Shen — pursuit-kill on fleeing non-combatant)"
+        ],
         "de_escalation_offered": null,
         "de_escalation_broken_by": null,
         "_aggression_note": "Marshal B was already disengaged and fleeing south on horseback when this combat fired. No active combat existed; no truce was in effect. This is a pursuit-kill on a fleeing witness — morally and politically distinct from a fight. Per Rule 11.5, both framings preserved in framing_versions below.",
@@ -629,8 +705,8 @@
         "summary": "Black-scale claws extend free-action from either hand. Damage scales with level: Nd8 + STR slashing where N = character level (L1=1d8, L2=2d8, L3=3d8, ... L20=20d8). Finesse, light, magical.",
         "mechanical_effect": "Free action to extend or retract. Each hand independently. DAMAGE PER STRIKE: (character_level)d8 + STR mod slashing. Light, finesse, counts as magical weapon for resistance/immunity bypass. Bonus-action second strike via Martial Arts (Monk-side). Extra Attack unlocks at L5 (two action-strikes per turn). At L1 with current STR mod +16: 1d8+16 = 17-24 per claw.",
         "damage_table": {
-          "level_1":  "1d8 + STR (avg 4.5+STR)",
-          "level_5":  "5d8 + STR (avg 22.5+STR)",
+          "level_1": "1d8 + STR (avg 4.5+STR)",
+          "level_5": "5d8 + STR (avg 22.5+STR)",
           "level_10": "10d8 + STR (avg 45+STR)",
           "level_15": "15d8 + STR (avg 67.5+STR)",
           "level_20": "20d8 + STR (avg 90+STR)"
@@ -677,8 +753,16 @@
     ],
     "exp_to_next_level": 2600,
     "exp_history": [
-      {"amount": 200, "source": "Combat XP — Marshal A fatality, Highford road-marshal patrol (Day 3 hour 14)", "day": 3},
-      {"amount": 200, "source": "Combat XP — Marshal B fatality, dragon-form bite-pluck pursuit-kill (Day 3 hour 14)", "day": 3}
+      {
+        "amount": 200,
+        "source": "Combat XP — Marshal A fatality, Highford road-marshal patrol (Day 3 hour 14)",
+        "day": 3
+      },
+      {
+        "amount": 200,
+        "source": "Combat XP — Marshal B fatality, dragon-form bite-pluck pursuit-kill (Day 3 hour 14)",
+        "day": 3
+      }
     ],
     "_chapter": 1,
     "_chapter_status": "COMPLETE",
@@ -734,29 +818,46 @@
   "_narrative_summary": [
     "Shen Sama is the firstborn of Vorathiel, the Dragon God Queen, and Kenji, the Dragon Emperor — the egg from Kenji's pregnancy with Vorathiel after the Iron Crown War. Hatched and raised on the Dragonspine peaks under his mother's strict territorial law, Shen is the first Ankuspawn True Dragon ever recorded. Aging is unusually fast for a true dragon: at 24 years old he is the size and form of a fully-developed adult, with the dragon-bonus stat scaling that comes with that age. His Ember focuses on body amplification, damage reflection via green dragon-fire, and the ability to transform into an adult black dragon when the ground gives him room.",
     "Chapter 1 — Stand Down. Day 1: 24th birthday, Shen took a single black scale from his mother's nest, pocketed it, stepped off the natal ledge while she was on her morning hunt. Twelve hours of granite descent, two days of lower passes. Day 3 morning: walked past a Highford waystation without speaking; the keeper held fire and signaled the lantern-courier line. Day 3 mid-afternoon: a four-rider Highford patrol intercepted on the south road and challenged him for name/origin/destination. When Shen ignored them and kept walking, the SERGEANT ORDERED THE ATTACK — the patrol fired first, two polearm charges + one crossbow bolt, all missed against AC 135 (and polearm A's steel actually connected with Shen's shoulder and skidded off dragon-hide). Seeing the failure, the sergeant immediately ordered stand-down and offered Shen a courteous-report exit. AFTER the de-escalation, Shen turned, closed the gap, and struck Marshal A with one claw — FATALITY (HP -98, body destroyed beyond resurrection). Marshal B fled toward the tower. Sergeant + courier stood off, traumatized, did not engage. Shen kept walking south. The patrol attacked first under lawful subdual authority; Shen killed AFTER they de-escalated. Both framings exist in the world's record.",
-    "Status going into Chapter 2: Day 3 mid-afternoon, ~28 miles south of Dragonspine peaks on Highford's south road. Civilization first-contact clock fired HOSTILE permanently — every settlement south has his description by Day 4 evening. Cult of Anku patron clock 25%, first Ember-Shade ward-bearer dispatched from Stormhaven ETA Day 8. Vorathiel pursuit clock 6%, accelerating. Lord Highford petitioning Council for Mage-Hunter writ tonight. CHA 4 / Persuasion DC 18 to enter any town stands as the social engine. Shen does not yet know Cookie exists; she's currently in Varenholm. Three travel paths open: continue road-south, off-road through the pines, or Dragon Form flight."
+    "Status going into Chapter 2: Day 3 mid-afternoon, ~28 miles south of Dragonspine peaks on Highford's south road. Civilization first-contact clock fired HOSTILE permanently — every settlement south has his description by Day 4 evening. Cult of Anku patron clock 25%, first Ember-Shade ward-bearer dispatched from Stormhaven ETA Day 8. Vorathiel pursuit clock 6%, accelerating. Lord Highford petitioning Council for Mage-Hunter writ tonight. CHA 4 / Persuasion DC 18 to enter any town stands as the social engine. Shen does not yet know Cookie exists; she's currently in Varenholm. Three travel paths open: continue road-south, off-road through the pines, or Dragon Form flight.",
+    "Elsewhere in the world right now: - Amaris (L5, campaign-complete) - Day 8 hour 9, Briarstone Homestead — porch - Ch1 '[Eastern Frontier — campaign in progress' [PENDING] - amaris_story.md — Epilogue: The Stranger in the Greenveil (campaign complete) - Cookie (L10, campaign-complete) - Day 18 hour 21, Varenholm Civic Auditorium — backstage dressing-room hallway (Day 18 evening, po - Ch11 'From Kettlebrook' [COMPLETE] - Day 18 evening, Civic Auditorium backstage — Varenholm starter arc CLOSED. Cookie graduated with Master of Voice credent - Holly (L297, active (mid-chapter)) - Day 1 hour 7, Solandra Bay — Pier Three, dawn, the Witherhold cargo cog moored behind her. Man - Ch1 '[OPEN — Day 1 dawn, Solandra Bay]' [PENDING] - Day 1 dawn, Solandra Bay, Pier Three. Holly has just walked off the Witherhold gangplank. Mango vendor has called out to - Kenji (L40, campaign-complete) - Day 291 hour 6.0, Ashmere 69 dawn — Dragonspine peaks, granite shelf near Ignis mating ground, off - Ch42 '[Book 4 — late campaign]' [COMPLETE] - Book 4, Chapter 42 COMPLETE (played live, prose: fraying_empire_chapter_42.md — 'The Weld'). Ch41 COMPLETE ('The Kingdom"
   ],
   "main_cast_extension": {
     "_note": "Cross-campaign family ties — these NPCs exist in other campaigns and Shen has known-but-distant relationships with them.",
     "Vorathiel": {
       "alignment": "CN (dragon, ancient)",
       "role": "mother / antagonist (initial)",
-      "relationship": {"tier": "Bond", "score": 40, "last_event": "She raised him under strict draconic law for 24 years. Possessive, demanding, isolating. He left without telling her — she'll discover by sundown Day 1. She loves him. She is also a Dragon God who does not want him loose in the kingdom."}
+      "relationship": {
+        "tier": "Bond",
+        "score": 40,
+        "last_event": "She raised him under strict draconic law for 24 years. Possessive, demanding, isolating. He left without telling her — she'll discover by sundown Day 1. She loves him. She is also a Dragon God who does not want him loose in the kingdom."
+      }
     },
     "Kenji (the Dragon Emperor / Hearthstead retiree)": {
       "alignment": "LN",
       "role": "father (never met)",
-      "relationship": {"tier": "Acquaintance", "score": 10, "last_event": "Kenji has never met Shen — Vorathiel kept the egg-child secret. Kenji's pregnancy tracker likely registered Shen's birth at the time but he was not informed. Currently retired alone at the Hearthstead in Greymere Valley."}
+      "relationship": {
+        "tier": "Acquaintance",
+        "score": 10,
+        "last_event": "Kenji has never met Shen — Vorathiel kept the egg-child secret. Kenji's pregnancy tracker likely registered Shen's birth at the time but he was not informed. Currently retired alone at the Hearthstead in Greymere Valley."
+      }
     },
     "Ignis (half-sister)": {
       "alignment": "CG (presumed)",
       "role": "sibling (rumor only)",
-      "relationship": {"tier": "Acquaintance", "score": 20, "last_event": "Shen has never met Ignis. He knows only the rumors — fame, songs about her, kingdom-scale reputation. She is the model he's chasing."}
+      "relationship": {
+        "tier": "Acquaintance",
+        "score": 20,
+        "last_event": "Shen has never met Ignis. He knows only the rumors — fame, songs about her, kingdom-scale reputation. She is the model he's chasing."
+      }
     },
     "Cookie (half-sister — UNKNOWN to Shen)": {
       "alignment": "CG",
       "role": "sibling (Shen unaware)",
-      "relationship": {"tier": "Unknown", "score": 0, "last_event": "Shen does not know Cookie exists. Cookie is currently in Varenholm, just earned Bard School Prodigy. If Shen reaches the Adventurer's Guild there, the half-siblings cross paths in a major story beat."}
+      "relationship": {
+        "tier": "Unknown",
+        "score": 0,
+        "last_event": "Shen does not know Cookie exists. Cookie is currently in Varenholm, just earned Bard School Prodigy. If Shen reaches the Adventurer's Guild there, the half-siblings cross paths in a major story beat."
+      }
     }
   },
   "persistent_effects": {
@@ -780,5 +881,59 @@
         "source": "natural | elixir | magic | racial"
       }
     ]
+  },
+  "_world_cross_references": {
+    "_rule": "Auto-built by _cross_character_sync.py - this is what's currently happening with the OTHER PCs in the world. The loaded character may encounter them as NPCs, hear about them in tavern gossip, or be affected by their actions. Synced at the timestamp below; re-run sync after any chapter close in any campaign to refresh.",
+    "synced_at": "2026-05-02T20:50:39",
+    "other_characters": {
+      "Amaris": {
+        "name": "Amaris",
+        "level": 5,
+        "location": "Briarstone Homestead — porch",
+        "day": 8,
+        "hour": 9,
+        "hp": "28/28",
+        "status": "campaign-complete",
+        "chapter": 1,
+        "chapter_status": "PENDING",
+        "summary": "Amaris (L5, campaign-complete) - Day 8 hour 9, Briarstone Homestead — porch - Ch1 '[Eastern Frontier — campaign in progress' [PENDING] - amaris_story.md — Epilogue: The Stranger in the Greenveil (campaign complete)"
+      },
+      "Cookie": {
+        "name": "Cookie",
+        "level": 10,
+        "location": "Varenholm Civic Auditorium — backstage dressing-room hallway (Day 18 evening, post-graduation recital)",
+        "day": 18,
+        "hour": 21,
+        "hp": "60/60",
+        "status": "campaign-complete",
+        "chapter": 11,
+        "chapter_status": "COMPLETE",
+        "summary": "Cookie (L10, campaign-complete) - Day 18 hour 21, Varenholm Civic Auditorium — backstage dressing-room hallway (Day 18 evening, po - Ch11 'From Kettlebrook' [COMPLETE] - Day 18 evening, Civic Auditorium backstage — Varenholm starter arc CLOSED. Cookie graduated with Master of Voice credent"
+      },
+      "Holly": {
+        "name": "Holly",
+        "level": 297,
+        "location": "Solandra Bay — Pier Three, dawn, the Witherhold cargo cog moored behind her. Mango vendor across the dock just spoke to her.",
+        "day": 1,
+        "hour": 7,
+        "hp": "3864/3864",
+        "status": "active (mid-chapter)",
+        "chapter": 1,
+        "chapter_status": "PENDING",
+        "summary": "Holly (L297, active (mid-chapter)) - Day 1 hour 7, Solandra Bay — Pier Three, dawn, the Witherhold cargo cog moored behind her. Man - Ch1 '[OPEN — Day 1 dawn, Solandra Bay]' [PENDING] - Day 1 dawn, Solandra Bay, Pier Three. Holly has just walked off the Witherhold gangplank. Mango vendor has called out to"
+      },
+      "Kenji": {
+        "name": "Kenji",
+        "level": 40,
+        "location": "Ashmere 69 dawn — Dragonspine peaks, granite shelf near Ignis mating ground, off beaten path. Day 291 ~06:00. Ch42 COMPLETE. Identity: ANKUNYX (open — green eyes, tattoos + DRAGON TATTOO COMPLETE, aura visible; no disguise). VORATHIEL BOND #25 (Ancient Red Dragon, Ignis's mother). DRAGON GOD AT WILL — Elder Black Dragon, no cooldown (upgraded from 1/day via Vorathiel bond). Bonded Lovers 25. ALL 5 THREATS RESOLVED. Kingdom of Ankunyx declared Day 290. Seam WELDED SHUT Day 290. Vorathiel asleep on Ankunyx — waking. HP ~1886/6288 (30%, recovering via regen).",
+        "day": 291,
+        "hour": 6.0,
+        "hp": "1886/6288",
+        "status": "campaign-complete",
+        "chapter": 42,
+        "chapter_status": "COMPLETE",
+        "summary": "Kenji (L40, campaign-complete) - Day 291 hour 6.0, Ashmere 69 dawn — Dragonspine peaks, granite shelf near Ignis mating ground, off - Ch42 '[Book 4 — late campaign]' [COMPLETE] - Book 4, Chapter 42 COMPLETE (played live, prose: fraying_empire_chapter_42.md — 'The Weld'). Ch41 COMPLETE ('The Kingdom"
+      }
+    }
   }
 }

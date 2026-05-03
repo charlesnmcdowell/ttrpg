@@ -797,7 +797,7 @@
     "Holly is a 437-year-old snow elf and Master Craftsman/Inventor who escaped four-plus centuries of forced servitude at the Master Toymaker's North Pole workshop. Her gifts: Sudden Insight (instant mechanical comprehension), Endless Possibilities (a 7th ability score called Luck, capped at 100, biasing every d20 roll and ambient narrative coincidence), and an unlimited inventory pouch holding her tools and four centuries of raw materials. Her patron gift is the Power of Creation — the Master granted it to speed his line; she honed it past his control. He does not yet know she is gone.",
     "Day 1 — dawn — Solandra Bay. Holly walks off the cargo cog *Witherhold* into a tropical city she has only ever read about. She is wearing winter clothes in 78°F heat. She has 0 GP and ~250,000 GP equivalent in raw materials in her pouch. She wants to open a workshop and invent things that make ordinary people's lives better. She has never met a stranger in person. The mango vendor across the dock has just spoken to her.",
     "Three threat clocks tick from Day 1: Master Toymaker's awareness (+1/day, accelerates to +5 once he learns of her absence), Frostmaster pursuit (Day 4 dispatch, Day 12 arrival, CR 8 combat), Council customs flagging (Day 21 summons). Goal: stay free, build a workshop, advocate for ordinary people. CHA 60 + Luck +45 carry her intent through her social inexperience; the campaign's defining tension is the Master's eventual personal arrival.",
-    "Elsewhere in the world right now: - Amaris (L5, campaign-complete) - Day 8 hour 9, Briarstone Homestead — porch - Ch1 '[Eastern Frontier — campaign in progress' [PENDING] - amaris_story.md — Epilogue: The Stranger in the Greenveil (campaign complete) - Cookie (L10, campaign-complete) - Day 18 hour 21, Varenholm Civic Auditorium — backstage dressing-room hallway (Day 18 evening, po - Ch11 'From Kettlebrook' [COMPLETE] - Day 18 evening, Civic Auditorium backstage — Varenholm starter arc CLOSED. Cookie graduated with Master of Voice credent - Kenji (L40, campaign-complete) - Day 291 hour 6.0, Ashmere 69 dawn — Dragonspine peaks, granite shelf near Ignis mating ground, off - Ch42 '[Book 4 — late campaign]' [COMPLETE] - Book 4, Chapter 42 COMPLETE (played live, prose: fraying_empire_chapter_42.md — 'The Weld'). Ch41 COMPLETE ('The Kingdom"
+    "Elsewhere in the world right now: - Amaris (L5, campaign-complete) - Day 8 hour 9, Briarstone Homestead — porch - Ch1 '[Eastern Frontier — campaign in progress' [PENDING] - amaris_story.md — Epilogue: The Stranger in the Greenveil (campaign complete) - Cookie (L10, campaign-complete) - Day 18 hour 21, Varenholm Civic Auditorium — backstage dressing-room hallway (Day 18 evening, po - Ch11 'From Kettlebrook' [COMPLETE] - Day 18 evening, Civic Auditorium backstage — Varenholm starter arc CLOSED. Cookie graduated with Master of Voice credent - Kenji (L40, campaign-complete) - Day 291 hour 6.0, Ashmere 69 dawn — Dragonspine peaks, granite shelf near Ignis mating ground, off - Ch42 '[Book 4 — late campaign]' [COMPLETE] - Book 4, Chapter 42 COMPLETE (played live, prose: fraying_empire_chapter_42.md — 'The Weld'). Ch41 COMPLETE ('The Kingdom - Shen Sama (L1, active) - Day 3 hour 14, Foothill pine forest, ~16 miles south of Dragonspine pass on Highford's south ro - Ch1 'Stand Down' [COMPLETE] - Day 3 hour 14 — Shen in dragon form over Highford foothill belt; Marshal B fatality logged; bells ringing at chimney far"
   ],
   "main_cast_extension": {
     "_note": "No cross-campaign family ties for Holly — she is unrelated to the Ankuspawn line, the Vorathiel-Kenji thread, or the existing kingdom factions. Her connections are forward-built in this campaign."
@@ -819,7 +819,7 @@
   },
   "_world_cross_references": {
     "_rule": "Auto-built by _cross_character_sync.py - this is what's currently happening with the OTHER PCs in the world. The loaded character may encounter them as NPCs, hear about them in tavern gossip, or be affected by their actions. Synced at the timestamp below; re-run sync after any chapter close in any campaign to refresh.",
-    "synced_at": "2026-05-02T21:52:41",
+    "synced_at": "2026-05-02T20:50:39",
     "other_characters": {
       "Amaris": {
         "name": "Amaris",
@@ -856,6 +856,18 @@
         "chapter": 42,
         "chapter_status": "COMPLETE",
         "summary": "Kenji (L40, campaign-complete) - Day 291 hour 6.0, Ashmere 69 dawn — Dragonspine peaks, granite shelf near Ignis mating ground, off - Ch42 '[Book 4 — late campaign]' [COMPLETE] - Book 4, Chapter 42 COMPLETE (played live, prose: fraying_empire_chapter_42.md — 'The Weld'). Ch41 COMPLETE ('The Kingdom"
+      },
+      "Shen Sama": {
+        "name": "Shen Sama",
+        "level": 1,
+        "location": "Foothill pine forest, ~16 miles south of Dragonspine pass on Highford's south road (Day 3 mid-afternoon)",
+        "day": 3,
+        "hour": 14,
+        "hp": "137/137",
+        "status": "active",
+        "chapter": 1,
+        "chapter_status": "COMPLETE",
+        "summary": "Shen Sama (L1, active) - Day 3 hour 14, Foothill pine forest, ~16 miles south of Dragonspine pass on Highford's south ro - Ch1 'Stand Down' [COMPLETE] - Day 3 hour 14 — Shen in dragon form over Highford foothill belt; Marshal B fatality logged; bells ringing at chimney far"
       }
     }
   }

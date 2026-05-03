@@ -162,7 +162,7 @@
     "Amaris, Level 5. Day 8 hour 9. Briarstone Homestead — porch — Clear. HP 28/28, AC 12.",
     "amaris_story.md — Epilogue: The Stranger in the Greenveil (campaign complete)",
     "Recent notes: Campaign CLOSED. Mysterious hero — identity unknown, details contradictory in village gossip. | Vareth / Nexus: resolved off-camera; no civilian casualties from final swarm (swarm never launched). | East pasture: still resting; western fields healthy. Amaris happy, farm hers. | Shared world: Kenji's active plots exist in-setting far west/central; Amaris is unaffected by distance — not ignorance of cosmology, just geography and slow news.",
-    "Elsewhere in the world right now: - Cookie (L10, campaign-complete) - Day 18 hour 21, Varenholm Civic Auditorium — backstage dressing-room hallway (Day 18 evening, po - Ch11 'From Kettlebrook' [COMPLETE] - Day 18 evening, Civic Auditorium backstage — Varenholm starter arc CLOSED. Cookie graduated with Master of Voice credent - Holly (L297, active (mid-chapter)) - Day 1 hour 7, Solandra Bay — Pier Three, dawn, the Witherhold cargo cog moored behind her. Man - Ch1 '[OPEN — Day 1 dawn, Solandra Bay]' [PENDING] - Day 1 dawn, Solandra Bay, Pier Three. Holly has just walked off the Witherhold gangplank. Mango vendor has called out to - Kenji (L40, campaign-complete) - Day 291 hour 6.0, Ashmere 69 dawn — Dragonspine peaks, granite shelf near Ignis mating ground, off - Ch42 '[Book 4 — late campaign]' [COMPLETE] - Book 4, Chapter 42 COMPLETE (played live, prose: fraying_empire_chapter_42.md — 'The Weld'). Ch41 COMPLETE ('The Kingdom"
+    "Elsewhere in the world right now: - Cookie (L10, campaign-complete) - Day 18 hour 21, Varenholm Civic Auditorium — backstage dressing-room hallway (Day 18 evening, po - Ch11 'From Kettlebrook' [COMPLETE] - Day 18 evening, Civic Auditorium backstage — Varenholm starter arc CLOSED. Cookie graduated with Master of Voice credent - Holly (L297, active (mid-chapter)) - Day 1 hour 7, Solandra Bay — Pier Three, dawn, the Witherhold cargo cog moored behind her. Man - Ch1 '[OPEN — Day 1 dawn, Solandra Bay]' [PENDING] - Day 1 dawn, Solandra Bay, Pier Three. Holly has just walked off the Witherhold gangplank. Mango vendor has called out to - Kenji (L40, campaign-complete) - Day 291 hour 6.0, Ashmere 69 dawn — Dragonspine peaks, granite shelf near Ignis mating ground, off - Ch42 '[Book 4 — late campaign]' [COMPLETE] - Book 4, Chapter 42 COMPLETE (played live, prose: fraying_empire_chapter_42.md — 'The Weld'). Ch41 COMPLETE ('The Kingdom - Shen Sama (L1, active) - Day 3 hour 14, Foothill pine forest, ~16 miles south of Dragonspine pass on Highford's south ro - Ch1 'Stand Down' [COMPLETE] - Day 3 hour 14 — Shen in dragon form over Highford foothill belt; Marshal B fatality logged; bells ringing at chimney far"
   ],
   "_chapter": 1,
   "_chapter_status": "PENDING",
@@ -170,7 +170,7 @@
   "_chapter_history": [],
   "_world_cross_references": {
     "_rule": "Auto-built by _cross_character_sync.py - this is what's currently happening with the OTHER PCs in the world. The loaded character may encounter them as NPCs, hear about them in tavern gossip, or be affected by their actions. Synced at the timestamp below; re-run sync after any chapter close in any campaign to refresh.",
-    "synced_at": "2026-05-02T21:52:40",
+    "synced_at": "2026-05-02T20:50:39",
     "other_characters": {
       "Cookie": {
         "name": "Cookie",
@@ -207,6 +207,18 @@
         "chapter": 42,
         "chapter_status": "COMPLETE",
         "summary": "Kenji (L40, campaign-complete) - Day 291 hour 6.0, Ashmere 69 dawn — Dragonspine peaks, granite shelf near Ignis mating ground, off - Ch42 '[Book 4 — late campaign]' [COMPLETE] - Book 4, Chapter 42 COMPLETE (played live, prose: fraying_empire_chapter_42.md — 'The Weld'). Ch41 COMPLETE ('The Kingdom"
+      },
+      "Shen Sama": {
+        "name": "Shen Sama",
+        "level": 1,
+        "location": "Foothill pine forest, ~16 miles south of Dragonspine pass on Highford's south road (Day 3 mid-afternoon)",
+        "day": 3,
+        "hour": 14,
+        "hp": "137/137",
+        "status": "active",
+        "chapter": 1,
+        "chapter_status": "COMPLETE",
+        "summary": "Shen Sama (L1, active) - Day 3 hour 14, Foothill pine forest, ~16 miles south of Dragonspine pass on Highford's south ro - Ch1 'Stand Down' [COMPLETE] - Day 3 hour 14 — Shen in dragon form over Highford foothill belt; Marshal B fatality logged; bells ringing at chimney far"
       }
     }
   }

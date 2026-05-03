@@ -1,8 +1,11 @@
 {
   "_comment": "ElevenLabs TTS config for the Live Dashboard Play tab. Edit `api_key` with your ElevenLabs key, optionally swap `voice_id` for the voice you want, and use `character_voices` to map per-character overrides (key = character name as it appears in the engine).",
   "api_key": "",
-  "voice_id": "UmQN7jS1Ee8B1czsUtQh",
+  "voice_id": "qRlggZwkZ89qLUe4wsqh",
   "auto_speak": false,
+  "tts_speed": 1.0,
+  "_cache_note": "Per-character cache at <Char>/Game init files/_tts_cache/, per-tab (play vs narrative). First click fires API + saves WAV; replays are free.",
+  "_archive_note": "New audio also copied to <Char>/audio_archive/Chapter_NN/<source>_Ch_NN_<timestamp>.wav for audiobook export.",
   "character_voices": {
     "_doc": "Map character display name → ElevenLabs voice ID. The dashboard reads engine.char_name and looks it up here first; falls back to top-level voice_id if no match.",
     "Cookie": "",

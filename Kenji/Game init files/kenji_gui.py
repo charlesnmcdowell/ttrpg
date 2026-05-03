@@ -12,6 +12,7 @@ Environment: TTRPG_CAMPAIGN_DIR may point at a campaign folder (same as --campai
 
 import sys, io, os, json, random, argparse, re
 import tkinter as tk
+from tkinter import messagebox as tk_messagebox
 import threading
 import tempfile
 import wave
@@ -34,6 +35,11 @@ except ImportError:
 DEFAULT_TTS_VOICE_ID = "21m00Tcm4TlvDq8ikWAM"
 DEFAULT_TTS_MODEL = "eleven_turbo_v2_5"
 TTS_PCM_RATE = 22050   # ElevenLabs supports pcm_22050 — fits in winsound WAV play
+DEFAULT_TTS_SPEED = 1.0  # Playback-rate multiplier. 1.0 = normal, 1.25 = 25% faster.
+                          # Values 0.7-1.2 are also passed to the ElevenLabs API
+                          # via voice_settings.speed (their supported range).
+                          # Values > 1.2 or < 0.7 use playback-rate adjustment
+                          # only (slight pitch shift, barely noticeable at 1.25x).
 
 # PyInstaller-aware path resolution.
 # - When running as a PyInstaller .exe, __file__ resolves to the temp extraction
@@ -519,6 +525,7 @@ class LiveDashboard(ctk.CTk):
             "voice_id": DEFAULT_TTS_VOICE_ID,
             "auto_speak": False,
             "character_voices": {},
+            "tts_speed": DEFAULT_TTS_SPEED,
         }
         cfg = dict(defaults)
         # Layer 1: tts_config.json (structured config — voices, auto-flag).
@@ -603,16 +610,136 @@ class LiveDashboard(ctk.CTk):
         text = re.sub(r"\n\s*\n\s*\n+", "\n\n", text)
         return text.strip()
 
+    def _tts_cache_dir(self) -> Optional[Path]:
+        """Per-character TTS cache. Lives next to the state file so caches
+        don't cross-pollinate between characters."""
+        try:
+            sf = self.config.state_file
+            if sf:
+                d = sf.parent / "_tts_cache"
+                d.mkdir(parents=True, exist_ok=True)
+                return d
+        except Exception:
+            pass
+        return None
+
+    def _tts_archive_dir(self, chapter: Any) -> Optional[Path]:
+        """Per-character per-chapter permanent audio archive. Lives at
+        <CharFolder>/audio_archive/Chapter_<N>/ — separate from the cache
+        so cache cleanup doesn't wipe the audiobook material."""
+        try:
+            sf = self.config.state_file
+            if sf:
+                # Character root = parent of state file's parent ("Game init files")
+                char_root = sf.parent.parent
+                try:
+                    n = int(chapter)
+                except Exception:
+                    n = 1
+                d = char_root / "audio_archive" / f"Chapter_{n:02d}"
+                d.mkdir(parents=True, exist_ok=True)
+                return d
+        except Exception:
+            pass
+        return None
+
+    def _tts_hash(self, voice_id: str, text: str, speed: float) -> str:
+        """Stable hash for the (voice, text, speed) triple. Same triple
+        always produces same hash → cache hit on replay."""
+        import hashlib
+        s = f"{voice_id}|{speed}|{text}"
+        return hashlib.sha1(s.encode("utf-8")).hexdigest()[:16]
+
+    def _tts_filename_prefix(self) -> str:
+        """Build a human-readable prefix identifying which character/book/
+        chapter this audio belongs to. Returns strings like
+        'kenji_book4_chapter42' or 'cookie_book1_chapter8' or
+        'shen_sama_book1_chapter2'. The prefix is embedded in cache filenames
+        AND archive filenames so a directory listing tells you who owns what.
+        """
+        # Character — char_name lowercased, spaces to underscores.
+        char = "unknown"
+        try:
+            n = (getattr(self.engine, "char_name", "") or "").strip().lower()
+            if n:
+                char = re.sub(r"\s+", "_", n)
+            elif getattr(self, "config", None):
+                cf = (getattr(self.config, "character", "") or "").strip().lower()
+                if cf:
+                    char = cf
+        except Exception:
+            pass
+
+        # Book number — explicit _book field, or parse canon_pointer for "Book N".
+        book = 1
+        try:
+            b = (getattr(self.engine, "_book_num", None)
+                 or getattr(self.engine, "_book", None))
+            if b:
+                book = int(b)
+            else:
+                canon = (getattr(self.engine, "canon_pointer", "") or "")
+                m = re.search(r"Book\s+(\d+)", str(canon))
+                if m:
+                    book = int(m.group(1))
+        except Exception:
+            pass
+
+        # Chapter number — engine attribute fallback chain.
+        chapter = 1
+        try:
+            c = (getattr(self.engine, "_chapter_num", None)
+                 or getattr(self.engine, "_chapter", None))
+            if c:
+                chapter = int(c)
+        except Exception:
+            pass
+
+        return f"{char}_book{book}_chapter{chapter}"
+
+    def _tts_cache_path(self, source: str, voice_id: str,
+                         text: str, speed: float) -> Optional[Path]:
+        """Per-tab cache path with character/book/chapter prefix so the file
+        identifies who it belongs to. Format:
+            <Char>/Game init files/_tts_cache/<charname>_book<N>_chapter<N>_<source>_<hash>.wav
+
+        Same text in different chapters generates separate files (intended —
+        each chapter's audio is its own audiobook material). Same text in
+        the same chapter is a cache hit on replay (intended — credit-saving).
+        """
+        cache_dir = self._tts_cache_dir()
+        if not cache_dir:
+            return None
+        prefix = self._tts_filename_prefix()
+        h = self._tts_hash(voice_id, text, speed)
+        return cache_dir / f"{prefix}_{source}_{h}.wav"
+
     def _tts_speak(self, text: Optional[str] = None,
-                    voice_id: Optional[str] = None) -> None:
-        """Speak the given text (or the current narrator pane contents) via
-        ElevenLabs. Network call runs on a background thread."""
+                    voice_id: Optional[str] = None,
+                    source: str = "play") -> None:
+        """Speak the given text via ElevenLabs.
+
+        SAFETY GATE: ElevenLabs bills per character submitted. Every fresh
+        API call is real money. So:
+          1. Compute the cache key (16-char hash of voice_id+text+speed).
+             This is the stable "identifier" for this exact text — same
+             text in the same voice at the same speed = same hash = same
+             cached WAV file. Text-doesn't-change-in-a-minute = same id.
+          2. If a cached WAV exists for this hash, play it directly and
+             return — no API call, no credits spent.
+          3. If no cached WAV exists, show a Yes/No confirmation dialog
+             with the character count + voice + ID. Only on explicit Yes
+             does the API thread spawn and credits get spent.
+
+        `source` ('play' or 'narrative') distinguishes which tab fired so
+        each maintains its own cache + archive lineage.
+        """
         cfg = self._tts_load_config()
         api_key = (cfg.get("api_key") or "").strip()
         if not api_key:
             self._play_append_narrator(
-                "\n[TTS: no API key set — edit tts_config.json next to "
-                "kenji_gui.py and add your ElevenLabs `api_key`]\n")
+                "\n[TTS: no API key set — edit tts_config.json or key.txt "
+                "next to kenji_gui.py and add your ElevenLabs `api_key`]\n")
             return
         if text is None:
             try:
@@ -632,21 +759,86 @@ class LiveDashboard(ctk.CTk):
                 pass
             voice_id = (cfg.get("character_voices") or {}).get(char_name) \
                 or cfg.get("voice_id") or DEFAULT_TTS_VOICE_ID
+
+        speed = float(cfg.get("tts_speed") or DEFAULT_TTS_SPEED)
+        text_id = self._tts_hash(voice_id, speech, speed)
+        cache_path = self._tts_cache_path(source, voice_id, speech, speed)
+
+        # CACHE HIT — play free, no API call, no credits.
+        if cache_path and cache_path.exists():
+            self._play_append_narrator(
+                f"\n[TTS: cache hit on id={text_id} — playing free]\n")
+            if HAS_WINSOUND:
+                try:
+                    winsound.PlaySound(str(cache_path),
+                                        winsound.SND_FILENAME | winsound.SND_ASYNC)
+                    self._music_playing = False
+                    self._current_track = None
+                except Exception:
+                    pass
+            return
+
+        # CACHE MISS — confirm with user before spending credits.
+        char_count = len(speech)
+        voice_short = voice_id[:8] + "…" if len(voice_id) > 8 else voice_id
+        prefix = self._tts_filename_prefix()
+        full_filename = f"{prefix}_{source}_{text_id}.wav"
+        msg = (
+            f"This will generate new audio via ElevenLabs and use API credits.\n\n"
+            f"Character/Book/Chapter: {prefix}\n"
+            f"Source tab:             {source.upper()}\n"
+            f"Voice ID:               {voice_short}\n"
+            f"Speed:                  {speed}x\n"
+            f"Text identifier (hash): {text_id}\n"
+            f"Cache filename:         {full_filename}\n"
+            f"Character count:        {char_count}\n"
+            f"Estimated cost:         ~{char_count} characters of credits\n\n"
+            f"No cached file matches — proceed with API call?"
+        )
+        if not tk_messagebox.askyesno("Confirm TTS Generation — uses real credits", msg):
+            self._play_append_narrator(
+                f"\n[TTS: cancelled by user — no credits spent. file={full_filename}]\n")
+            return
+
+        # User confirmed — spawn the API worker thread.
+        self._play_append_narrator(
+            f"\n[TTS: generating {full_filename} via ElevenLabs ({char_count} chars)…]\n")
         threading.Thread(
             target=self._tts_request_and_play,
-            args=(api_key, voice_id, speech),
+            args=(api_key, voice_id, speech, source),
             daemon=True,
         ).start()
 
     def _tts_request_and_play(self, api_key: str, voice_id: str,
-                                text: str) -> None:
-        """Background thread: hit the ElevenLabs API, wrap PCM into WAV, play."""
+                                text: str, source: str = "play") -> None:
+        """Background thread: hit the ElevenLabs API, wrap PCM into WAV, play.
+        Cache-aware: skips API call if a cached WAV exists for the
+        (voice_id, text, speed, source) tuple. Archives any newly-generated
+        audio to <Char>/audio_archive/Chapter_<N>/ for audiobook export.
+
+        Speed control fall-back:
+          1. ElevenLabs API supports voice_settings.speed in 0.7-1.2 — used
+             when in range (clean pitch-preserved).
+          2. Outside that range, apply local playback-rate adjustment.
+        """
+        cfg = self._tts_load_config()
+        speed = float(cfg.get("tts_speed") or DEFAULT_TTS_SPEED)
+        # Cache lookup also done on the main thread before this worker spawns
+        # (see _tts_speak — that's where the user-confirmation gate lives).
+        # We re-derive the cache path here only to know where to write the WAV.
+        cache_path = self._tts_cache_path(source, voice_id, text, speed)
+
         url = (f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}"
                 f"/stream?output_format=pcm_{TTS_PCM_RATE}")
-        body = json.dumps({
+        body_dict: Dict[str, Any] = {
             "text": text,
             "model_id": DEFAULT_TTS_MODEL,
-        }).encode("utf-8")
+        }
+        # API-side speed adjustment if in supported range.
+        api_speed = max(0.7, min(1.2, speed)) if 0.7 <= speed <= 1.2 else None
+        if api_speed is not None:
+            body_dict["voice_settings"] = {"speed": api_speed}
+        body = json.dumps(body_dict).encode("utf-8")
         req = urllib.request.Request(url, data=body, method="POST")
         req.add_header("xi-api-key", api_key)
         req.add_header("Content-Type", "application/json")
@@ -665,18 +857,48 @@ class LiveDashboard(ctk.CTk):
             self.after(0, lambda: self._play_append_narrator(
                 f"\n[TTS error: {e}]\n"))
             return
-        # Wrap PCM (16-bit signed mono) into a WAV file in temp.
+        # Wrap PCM (16-bit signed mono) into a WAV file. Write directly to
+        # the cache path so the file becomes both the playback source AND
+        # the cache for future replays — saves a copy step.
+        # When speed is outside the API-supported 0.7-1.2 range, apply local
+        # playback-rate adjustment by multiplying the framerate.
+        local_speed_factor = 1.0 if api_speed is not None else max(0.5, min(2.5, speed))
+        effective_framerate = int(TTS_PCM_RATE * local_speed_factor)
+        # Use cache path if available; fall back to temp if cache dir failed.
+        wav_path = cache_path if cache_path else Path(tempfile.gettempdir()) / "kenji_tts.wav"
         try:
-            wav_path = Path(tempfile.gettempdir()) / "kenji_tts.wav"
+            wav_path.parent.mkdir(parents=True, exist_ok=True)
             with wave.open(str(wav_path), "wb") as wf:
                 wf.setnchannels(1)
                 wf.setsampwidth(2)
-                wf.setframerate(TTS_PCM_RATE)
+                wf.setframerate(effective_framerate)
                 wf.writeframes(pcm)
         except Exception as e:
             self.after(0, lambda: self._play_append_narrator(
                 f"\n[TTS WAV write error: {e}]\n"))
             return
+        # Permanent archive: copy the freshly-generated WAV into the
+        # chapter-tagged audio_archive folder so it can be merged into a
+        # full-chapter audiobook later. Filename includes the full
+        # character/book/chapter identifier so files can be sorted across
+        # characters without confusion. Non-fatal on failure.
+        try:
+            chapter = (
+                getattr(self.engine, "_chapter_num", None)
+                or getattr(self.engine, "_chapter", None)
+                or 1
+            )
+            archive_dir = self._tts_archive_dir(chapter)
+            if archive_dir:
+                from datetime import datetime as _dt
+                import shutil as _shutil
+                ts = _dt.now().strftime("%Y%m%d-%H%M%S")
+                prefix = self._tts_filename_prefix()
+                archive_name = f"{prefix}_{source}_{ts}.wav"
+                _shutil.copy2(str(wav_path), str(archive_dir / archive_name))
+        except Exception:
+            pass  # archive is convenience; never fail playback because of it
+
         # winsound plays one sound at a time. Stop background music while
         # speech plays, then let the music re-poll auto-resume after.
         if HAS_WINSOUND:
@@ -685,8 +907,10 @@ class LiveDashboard(ctk.CTk):
                                     winsound.SND_FILENAME | winsound.SND_ASYNC)
                 # Mark music stopped so the next poll cycle re-applies it
                 # after speech ends. winsound has no completion callback;
-                # estimate duration from PCM byte length.
-                duration = len(pcm) / (TTS_PCM_RATE * 2)
+                # estimate duration from PCM byte length, accounting for
+                # local playback-rate adjustment when speed is outside
+                # ElevenLabs's supported range.
+                duration = len(pcm) / (effective_framerate * 2)
                 self._music_playing = False
                 self._current_track = None
                 # When TTS finishes, the regular music poll will pick the
@@ -696,16 +920,18 @@ class LiveDashboard(ctk.CTk):
                     f"\n[TTS playback error: {e}]\n"))
 
     def _on_tts_speak_clicked(self):
-        """🔊 Speak — read the current narrator pane aloud."""
-        self._tts_speak()
+        """🔊 Speak (Play tab) — read the current narrator pane aloud.
+        Caches under source='play' so Narrative-tab caches stay separate."""
+        self._tts_speak(source="play")
 
     def _on_tts_speak_narrative_clicked(self):
-        """🔊 Speak (Narrative tab) — read the adventure recap aloud."""
+        """🔊 Speak (Narrative tab) — read the adventure recap aloud.
+        Caches under source='narrative' so Play-tab caches stay separate."""
         try:
             text = self._tb_narrative.get("1.0", "end")
         except Exception:
             text = ""
-        self._tts_speak(text)
+        self._tts_speak(text, source="narrative")
 
     def _on_tts_auto_toggle(self):
         """Toggle auto-speak; persist to config."""
@@ -1298,18 +1524,12 @@ class LiveDashboard(ctk.CTk):
                        command=self._on_tts_speak_clicked
                        ).pack(side="left", padx=(8, 4), pady=4)
         _cfg = self._tts_load_config()
-        self.btn_tts_auto = ctk.CTkButton(
-            tts_bar,
-            text=f"🔊 Auto: {'ON' if _cfg.get('auto_speak') else 'OFF'}",
-            width=110, height=28,
-            fg_color=BG_CARD, hover_color=GOLD_DIM,
-            text_color=GOLD, font=FONT_SMALL,
-            command=self._on_tts_auto_toggle)
-        self.btn_tts_auto.pack(side="left", padx=4, pady=4)
-        # Hint label — points new users at the config file.
-        hint = "voice: " + (_cfg.get("voice_id") or DEFAULT_TTS_VOICE_ID)[:8] + "…"
+        # Hint label — points new users at the config file. Auto-speak
+        # removed: user clicks Speak explicitly. Cached replays are free
+        # (no API call), so re-clicking the same response costs nothing.
+        hint = "voice: " + (_cfg.get("voice_id") or DEFAULT_TTS_VOICE_ID)[:8] + "  |  click Speak to play (cache reuses on repeat)"
         if not (_cfg.get("api_key") or "").strip():
-            hint = "no API key — edit tts_config.json next to kenji_gui.py"
+            hint = "no API key — edit tts_config.json or key.txt next to kenji_gui.py"
         ctk.CTkLabel(tts_bar, text=hint, font=FONT_SMALL,
                       text_color=TEXT_DIM).pack(side="left", padx=8)
 
@@ -1571,14 +1791,9 @@ class LiveDashboard(ctk.CTk):
 
         if narrative:
             self._play_append_narrator(narrative + "\n\n")
-            # Auto-speak hook (RULE 11.5 mid-turn integration is JSON; this
-            # is the audio analog — when a new narrator beat lands, optionally
-            # read it aloud via ElevenLabs).
-            try:
-                if self._tts_load_config().get("auto_speak"):
-                    self._tts_speak(narrative)
-            except Exception:
-                pass
+            # Auto-speak removed by design — user explicitly clicks the
+            # 🔊 Speak button to fire TTS. This conserves ElevenLabs credits;
+            # the cache + archive system below ensures repeat clicks are free.
         else:
             self._play_append_narrator(
                 f"[no narrative parsed from {source} — make sure the full "
