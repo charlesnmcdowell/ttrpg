@@ -331,7 +331,15 @@ Elsewhere in the world right now: - Amaris (L5, campaign-complete) - Day 8 hour 
 
 # CONVERSATION SO FAR
 
-## PLAYER (this turn)
+## PLAYER
 continue walking to varnholm adventurers guild.
+
+## DM (you, last turn)
+The two figures on the goat-track haven't turned. Both pitched into the wind, voices carrying. "Three rings, then four. That's bone-pattern. Kingdom riders." The taller one, certain. The shorter snaps back, "Bone is a chase order. They don't ring chase before they ring overhead. You're hearing what you want to hear." A pause; the wind shifts cold. "And if it's dragon —" "Don't say dragon out loud, you old fool. You'll feed the thing."
+
+A pine cone shifts under Shen's bare heel — small, dry, loud. The taller shepherd's head tilts a quarter turn, listening, not yet looking. The shorter one is still arguing, eyes on the road. Twenty paces between Shen and the next stand of southern cover.
+
+## PLAYER (this turn)
+keep heading in the direction I think varenholm is , or until I catch my sister ignis smell, she'd know.
 
 Respond as the DM. Open with prose, then '---OPTIONS---' on its own line, then exactly three numbered options.

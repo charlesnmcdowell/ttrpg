@@ -4,6 +4,20 @@ This folder holds live campaign tooling and trackers. Read **`tracking_rules.md`
 
 ---
 
+## ⚠️ DEV MODE — IF NO ANTHROPIC_API_KEY, YOU ARE THE NARRATOR
+
+When the dashboard runs without `ANTHROPIC_API_KEY`, it does NOT call any paid API. It writes the DM prompt to `<character>/Game init files/play_prompt.md` and waits for an AI assistant (you) to write the DM response to `<character>/Game init files/play_response.md`. The dashboard polls that file and auto-applies the response.
+
+**Full contract: see `README.md` in this folder → "Dev mode — AI plays via file bridge".**
+
+TL;DR for an AI session driving live play:
+1. Watch `<active character>/Game init files/play_prompt.md` mtime — change = your turn.
+2. Read the whole file (it is self-contained: rules + state + history + current player action).
+3. Reply to `<active character>/Game init files/play_response.md`: 1–2 paragraphs of narrator prose, then `---OPTIONS---` on its own line, then exactly three numbered options. Nothing after option 3.
+4. Do NOT run heavy CLI pipelines per turn (`gamemode`, `_cross_character_sync.py`, full `chapter_close.py`, `continuity_engine.py`). Defer to chapter close — see `DM_TURN_PROTOCOL.md` → SPEED BUDGET.
+
+---
+
 ## ⚠️ MANDATORY FIRST READ — Session Memory + DM Turn Protocol
 
 **Before ANYTHING else, read `SESSION_MEMORY.md` in this directory.** It contains persistent notes written by the AI during previous sessions — active state, pending tasks, key decisions, and critical rules that survive chat compaction. Update it at every natural breakpoint (chapter end, major decision, combat resolution, system change).

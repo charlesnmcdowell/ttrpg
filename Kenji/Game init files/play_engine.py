@@ -69,8 +69,15 @@ class PlayState:
     streaming: bool = False
     last_error: str = ""
     # Dev mode — bypass the Anthropic API and route prompts through the user's
-    # Claude Desktop via clipboard. Default: True if ANTHROPIC_API_KEY is unset.
-    dev_mode: bool = field(default_factory=lambda: not os.environ.get("ANTHROPIC_API_KEY", "").strip())
+    # Claude Desktop via clipboard / play_response.md file bridge. Default:
+    # True ONLY if neither ANTHROPIC_API_KEY env var nor ttrpg_key.txt next to
+    # play_engine.py provides a key — i.e. dev mode is the safe fallback when
+    # there is no way to call the API. Either source flips this to False so
+    # the dashboard streams turns from the API instead.
+    dev_mode: bool = field(default_factory=lambda: not (
+        os.environ.get("ANTHROPIC_API_KEY", "").strip()
+        or _load_api_key_from_file()
+    ))
     # Two-stage Send button state when in dev mode:
     #   "ready"    → next click copies prompt to clipboard, transitions to "awaiting"
     #   "awaiting" → next click reads response from clipboard, transitions back to "ready"
@@ -338,19 +345,144 @@ def parse_response(full_text: str) -> Dict[str, Any]:
 # ---------------------------------------------------------------------------
 # Anthropic API client wrapper
 # ---------------------------------------------------------------------------
+# Cost estimation (API mode warning)
+# ---------------------------------------------------------------------------
+
+# Anthropic per-million-token pricing snapshot. Used by estimate_turn_cost()
+# to surface a $ figure on the Confirm-Send dialog so the player sees what a
+# turn will cost BEFORE the API call fires. Keys must match the `model` arg
+# passed to stream_turn (see DEFAULT_MODEL above). Prices change — verify
+# current rates at https://www.anthropic.com/pricing and update this table.
+# Numbers are USD per 1,000,000 tokens.
+MODEL_PRICING = {
+    # Sonnet 4.x line (the dashboard's default narrator)
+    "claude-sonnet-4-6":      {"input": 3.00,  "output": 15.00},
+    "claude-sonnet-4-5":      {"input": 3.00,  "output": 15.00},
+    # Opus 4.x line (heaviest, most expensive — only use for hard scenes)
+    "claude-opus-4-7":        {"input": 15.00, "output": 75.00},
+    "claude-opus-4-6":        {"input": 15.00, "output": 75.00},
+    # Haiku 4.5 (cheapest, fastest — fine for low-stakes scenes)
+    "claude-haiku-4-5-20251001": {"input": 1.00, "output": 5.00},
+    "claude-haiku-4-5":       {"input": 1.00,  "output": 5.00},
+}
+# Fallback price if the active model isn't in the table — assume Sonnet rate
+# (the safest middle estimate; a quote that turns out high is better than
+# silently underpricing an Opus turn).
+FALLBACK_PRICING = {"input": 3.00, "output": 15.00}
+
+
+def estimate_tokens(text: str) -> int:
+    """Rough token count from a character count. Anthropic tokenizer averages
+    ~4 characters per token for English prose; we use 4.0 as a conservative
+    rounding (slightly overestimates → cost quote is mildly pessimistic, which
+    is the right direction for a spend warning)."""
+    if not text:
+        return 0
+    return max(1, int(len(text) / 4))
+
+
+def estimate_turn_cost(
+    state: Dict[str, Any],
+    history: List[Turn],
+    player_action: str,
+    narrative_summary: str = "",
+    model: str = None,
+    max_tokens: int = None,
+) -> Dict[str, Any]:
+    """Estimate the USD cost of a single API turn BEFORE firing it.
+
+    Returns a dict the dashboard can render in its confirm dialog:
+        {
+            "model":             <str>,
+            "pricing_known":     <bool>,           # False ⇒ used FALLBACK_PRICING
+            "input_tokens":      <int>,
+            "max_output_tokens": <int>,
+            "est_input_usd":     <float>,
+            "est_output_max_usd": <float>,        # if model uses entire budget
+            "est_total_max_usd": <float>,         # input + max_output
+            "est_typical_usd":   <float>,         # ~60% output assumption
+        }
+
+    NOTE: input_tokens is approximated from the assembled prompt size
+    (system + history + current action). Real billing uses the Anthropic
+    tokenizer; this estimate is within ~10% for English prose."""
+    model = model or DEFAULT_MODEL
+    max_tokens = max_tokens if max_tokens is not None else DEFAULT_MAX_TOKENS
+    pricing = MODEL_PRICING.get(model, FALLBACK_PRICING)
+    pricing_known = model in MODEL_PRICING
+
+    sys_prompt = build_system_prompt(state, narrative_summary=narrative_summary)
+    msgs = build_messages(history, player_action)
+    msg_text = "\n\n".join(m.get("content", "") for m in msgs if isinstance(m, dict))
+    in_tok = estimate_tokens(sys_prompt) + estimate_tokens(msg_text)
+
+    est_in_usd = in_tok * pricing["input"] / 1_000_000.0
+    est_out_max_usd = max_tokens * pricing["output"] / 1_000_000.0
+    est_total_max_usd = est_in_usd + est_out_max_usd
+    # Most narrator turns don't use the full output budget — empirically the
+    # brevity rule lands responses around 350-450 tokens of 700 cap. Use 60%
+    # as the "typical" estimate to give the player a realistic median.
+    est_typical_usd = est_in_usd + (max_tokens * 0.60) * pricing["output"] / 1_000_000.0
+
+    return {
+        "model": model,
+        "pricing_known": pricing_known,
+        "input_tokens": in_tok,
+        "max_output_tokens": max_tokens,
+        "est_input_usd": est_in_usd,
+        "est_output_max_usd": est_out_max_usd,
+        "est_total_max_usd": est_total_max_usd,
+        "est_typical_usd": est_typical_usd,
+    }
+
+
+# ---------------------------------------------------------------------------
 
 class PlayEngineError(Exception):
     """Recoverable runtime error — surfaces in the dashboard, not a crash."""
 
 
+# Filename next to play_engine.py that holds an Anthropic API key as plain
+# text (single line, no quotes, no "export ...=" prefix). Used as a fallback
+# when ANTHROPIC_API_KEY is not exported in the environment — handy for the
+# Windows dashboard where setting persistent env vars is friction. The file
+# is gitignored in this folder's .gitignore. Never commit it.
+API_KEY_FILENAME = "ttrpg_key.txt"
+
+
+def _load_api_key_from_file() -> str:
+    """Read API_KEY_FILENAME from the same folder as play_engine.py, strip
+    whitespace, return the key string or "" on any failure (missing file,
+    empty, unreadable). Never raises — caller decides whether absence is
+    fatal (API mode) or fine (dev mode default detection)."""
+    try:
+        path = Path(__file__).parent / API_KEY_FILENAME
+        if not path.exists():
+            return ""
+        return path.read_text(encoding="utf-8").strip()
+    except Exception:
+        return ""
+
+
 def _get_api_key() -> str:
+    """Resolve the Anthropic API key, in this precedence order:
+      1. ANTHROPIC_API_KEY environment variable (preferred — works the same
+         way every other Anthropic-SDK consumer expects)
+      2. ttrpg_key.txt next to play_engine.py (file fallback — convenient on
+         Windows where setting a persistent env var requires admin rights)
+    Raises PlayEngineError with setup instructions if neither is present."""
     key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     if not key:
+        key = _load_api_key_from_file()
+    if not key:
+        key_path = Path(__file__).parent / API_KEY_FILENAME
         raise PlayEngineError(
-            "ANTHROPIC_API_KEY is not set.\n\n"
-            "Set it once in PowerShell:\n"
+            "No Anthropic API key found.\n\n"
+            "Either set the env var (PowerShell):\n"
             "    [Environment]::SetEnvironmentVariable('ANTHROPIC_API_KEY', 'sk-ant-...', 'User')\n\n"
-            "Then close and reopen the dashboard so it picks up the new env var.\n"
+            f"OR drop the key (single line, no quotes) into:\n"
+            f"    {key_path}\n\n"
+            "Then close and reopen the dashboard so it re-checks both sources.\n"
             "Get a key at https://console.anthropic.com/"
         )
     return key

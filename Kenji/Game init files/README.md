@@ -2,6 +2,42 @@
 
 **AI assistants:** read **`CLAUDE.md`** in this folder first — especially **machine receipt** rules (do not fabricate `KENJI_*_RECEIPT` blocks or `RUN_ID` / SHA lines).
 
+## Dev mode — AI plays via file bridge (NO Anthropic API needed)
+
+**If you are an AI assistant reading this in a working directory under `TTRPG/`, this is how you DM the live game when there is no Anthropic API key configured.** The dashboard (`kenji_gui.py`) supports two narrator paths:
+
+- **API mode** — `ANTHROPIC_API_KEY` is set; the dashboard streams turns directly from the Anthropic API. No human-in-the-loop AI involvement.
+- **Dev mode** (the default whenever `ANTHROPIC_API_KEY` is unset) — the dashboard never makes a paid API call. Every player turn it writes a self-contained prompt to `<character>/Game init files/play_prompt.md` AND copies it to the OS clipboard. An external AI assistant — Claude Desktop, Claude Code, Cursor, Codex, ChatGPT, or any agent that can read/write files in this folder — reads that prompt, generates the DM response, and writes the response to `<character>/Game init files/play_response.md`. The dashboard polls that file every 2 seconds (`_play_check_response_file` in `kenji_gui.py`) and auto-applies the result — narrator prose plus the three option buttons — exactly as if it had streamed from an API. No paid call ever happens.
+
+### How an AI assistant should play the DM in dev mode
+
+Step-by-step contract for any AI agent driving a session:
+
+1. **Watch `play_prompt.md` for an mtime change** in the active character's `Game init files/` folder. New mtime = it is your turn to respond. (For Shen Sama: `Shen_Sama/Game init files/play_prompt.md`. Substitute the active character.)
+2. **Read the entire prompt file.** It is self-contained: full system prompt (Cardinal Rules + OUTPUT FORMAT spec), trimmed game-state JSON, the running adventure summary, the conversation so far, and finally the current player action under `## PLAYER (this turn)`.
+3. **Generate the response strictly per the OUTPUT FORMAT** at the top of the prompt: 1–2 paragraphs of narrator prose (Rule 10 — brevity is hard, ≤180 words target / 300 hard ceiling), then `---OPTIONS---` on its own line, then exactly three numbered next-action options (one safe, one bold, one character-flavored). Nothing after option 3.
+4. **Write the response to `play_response.md`** in the same `Game init files/` folder. Overwrite the existing file (an empty file is the dashboard's idle state). The dashboard auto-applies on its next 2 s poll — you do NOT need to ping anything.
+5. **Do not run heavy CLI pipelines per turn.** See `DM_TURN_PROTOCOL.md` → SPEED BUDGET. `_dm_turn.py gamemode`, `_cross_character_sync.py`, `continuity_engine.py`, full `chapter_close.py` are all chapter-close work. The dashboard pops a non-blocking auto-prompt at `AUTO_CHAPTER_CLOSE_AFTER` turns (default 18) — that is when those pipelines should fire, not per turn.
+6. **Do not mutate state JSON, trackers, or chapter files mid-turn.** The chapter prose is canon and updates downstream after play (see the rest of this README). Per-turn state changes go through `_dm_turn.py` lightweight commands (`tick`, `move`, `gold`, `slot`, `charge`, etc.) — and only when the prose explicitly produced an event that needs mirroring.
+
+**Clipboard channel is also live.** The dashboard also pushes the prompt to the OS clipboard for the manual workflow ("Copy Prompt" button → paste into Claude Desktop → copy reply → "Paste Response" button). For an automated AI agent, the file channel is simpler — pure file I/O, no clipboard dance, no human in between. Both channels are accepted; whichever response arrives first is applied.
+
+### Why dev mode exists
+
+- **Zero API spend** while iterating on the engine, the cardinal rules, the tracker schema, or the prompt itself.
+- **Lets ANY AI assistant drive the game** — not only Claude. Any tool that can read text and write text to a known file path can play the DM. This is how the campaign has been developed without an Anthropic key in the loop.
+- **Auditable.** `play_prompt.md` and `play_response.md` are flat markdown — you can review exactly what the AI saw and what it replied with on any given turn, optionally check them into git for replay.
+
+### File reference
+
+| File | Direction | Lifetime |
+|------|-----------|----------|
+| `<character>/Game init files/play_prompt.md` | Dashboard → AI | Rewritten on every player turn |
+| `<character>/Game init files/play_response.md` | AI → Dashboard | AI writes, dashboard reads + clears (empty = idle) |
+| `<character>/Game init files/_last_play_decision.json` | Dashboard sidecar | Persists last decision + chapter-close turn counter across restarts |
+
+---
+
 ## How the game works
 
 This campaign uses a **rules-based tracking system** to maintain continuity across sessions. The chapter prose is the canon. The tracking files are downstream artifacts that get updated after play — never the other way around.
@@ -121,4 +157,4 @@ See **`scene_graph_prototype/README.md`** — linear mile-15.5 example, validate
 
 ---
 
-*Last updated: Ashmere 24, 1247 AR (Book 4, Chapter 5 end).*
+*Last u

@@ -1,12 +1,14 @@
 {
   "character_id": "shen sama",
   "state_file_stamp": "C:\\Users\\charl\\OneDrive\\Documents\\TTRPG\\Shen_Sama\\Game init files\\character_world_state.json",
-  "narrator_text": "The descent picks its own line — south of the bell-farmstead by two ridges, into a stand of pine that hasn't been logged in fifty years, where the canopy is thick enough to swallow a wing-spread on the first downstroke and a clearing exists at the base of a granite knuckle wide enough for an adult black dragon to set down without snapping anything that can't be replaced. Shen lands. The dragon doesn't fold so much as *unmake itself* — wings retract, scales drop their carbon-thickness back into the chest-glyph, neck shortens, jaw shortens, the body that just lifted a horseman from a saddle re-fits itself into the shape of a barefoot man in monk-pants. The dragon-tattoo on his chest pulls all the green-fire back into itself and burns there for a moment, dim and steady. *(One level of exhaustion lands on him as the form dismisses. He'll feel it in the next physical roll.)*\n\nHe walks. South. Parallel to the road but a half-mile west of it, fern-deep, picking the line a deer would pick. The wind has shifted out of the south now and brings him sounds that didn't reach the road: a creek somewhere left, a hawk that isn't his hawk, woodpigeons. After two hours the sun is angling — call it Day 3 hour 17, late afternoon turning evening — and the pine smell is thicker, older, the kind of forest that knows its own age. Three more miles south, the trees thin into a goat-track running east-to-west across his line. He can hear voices on it before he sees them.\n\n\"—not the bells from this morning, I'm telling you, *those* were the dragon bells. This is the bone-ringing pattern. The bone pattern is for *kingdom-business* coming through, riders, official —\" \"Aye and what difference does it make to me? My uncle rang the dragon bells when he saw a *kestrel* once. Half this valley couldn't tell a banquet from a funeral —\" \"Lower your voice. *Lower.* The road's right there.\" A pause. \"...Did you hear something?\" Two human silhouettes — shepherds, by the staffs and the dogs — frozen on the track twenty paces ahead of him, looking the wrong direction (north, toward the road, where they think the sound is coming from). They have not seen him.",
+  "narrator_text": "The two figures on the goat-track haven't turned. Both pitched into the wind, voices carrying. \"Three rings, then four. That's bone-pattern. Kingdom riders.\" The taller one, certain. The shorter snaps back, \"Bone is a chase order. They don't ring chase before they ring overhead. You're hearing what you want to hear.\" A pause; the wind shifts cold. \"And if it's dragon —\" \"Don't say dragon out loud, you old fool. You'll feed the thing.\"\n\nA pine cone shifts under Shen's bare heel — small, dry, loud. The taller shepherd's head tilts a quarter turn, listening, not yet looking. The shorter one is still arguing, eyes on the road. Twenty paces between Shen and the next stand of southern cover.",
   "options": [
-    "Hold absolutely still in the fern-cover and let them pass; they're looking the wrong way and will move on if you don't move.",
-    "Step into the goat-track in plain view and let them see a barefoot man — see how they react when the snow-pale stranger is the one walking up.",
-    "Detour a half-mile west into the deeper forest, bypass them entirely, accept the slower pace, stay invisible."
+    "Hold still and wait for the shepherd's head to turn back before continuing south.",
+    "Step into view and ask, plainly, which path runs west of the road toward Varenholm.",
+    "Slip through the tree line south of the track — break cover, accept the noise."
   ],
-  "player_action": "go back to human form and continue walking to my location.",
-  "applied_at": "2026-05-02T21:48:15"
+  "player_action": "",
+  "applied_at": "2026-05-03T11:05:44",
+  "turns_since_close": 1,
+  "close_prompted_at": -1000000000
 }

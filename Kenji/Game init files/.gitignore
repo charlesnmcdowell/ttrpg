@@ -17,6 +17,7 @@ logs/*.txt
 
 # Secrets (never commit — use env or OS keychain)
 key.txt
+ttrpg_key.txt
 
 # IDE
 .cursor/
