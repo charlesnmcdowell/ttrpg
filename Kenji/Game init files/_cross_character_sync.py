@@ -136,55 +136,54 @@ def sync_all(ttrpg_root: Path, dry_run: bool = False) -> Dict[str, Any]:
     }
 
     # Pass 3: write _world_cross_references into each character's state.
-    report: Dict[str, Any] = {"updated": [], "snapshot": snapshot}
+    # Bug #8 fix: only write when content actually changed (compare new
+    # other_characters block vs existing). Avoids OneDrive sync storms.
+    # Bug #9 fix: stopped stitching into _narrative_summary. The dashboard
+    # reads _world_cross_references directly now via _refresh_narrative_tab.
+    # Bug #14 fix: previous hand-written narrative content is never
+    # silently overwritten by sync.
+    report: Dict[str, Any] = {"updated": [], "skipped_unchanged": [], "snapshot": snapshot}
     for c in chars:
         state = c["state"]
         my_name = c["name"]
         others = {n: s for n, s in snapshot.items() if n != my_name}
 
-        cross_refs = {
+        new_cross_refs = {
             "_rule": (
-                "Auto-built by _cross_character_sync.py - this is what's "
+                "Auto-built by _cross_character_sync.py — this is what's "
                 "currently happening with the OTHER PCs in the world. The "
                 "loaded character may encounter them as NPCs, hear about "
                 "them in tavern gossip, or be affected by their actions. "
                 "Synced at the timestamp below; re-run sync after any "
-                "chapter close in any campaign to refresh."
+                "chapter close in any campaign to refresh. The dashboard "
+                "Narrative tab reads this block directly; sync NEVER "
+                "modifies _narrative_summary so hand-written content is "
+                "always safe."
             ),
             "synced_at": datetime.now().isoformat(timespec="seconds"),
             "other_characters": others,
         }
-        state["_world_cross_references"] = cross_refs
 
-        # Also stitch a one-line summary into _narrative_summary's last
-        # paragraph so the legacy-fallback Narrative tab surfaces it on
-        # the existing built .exe (which doesn't yet know about
-        # _world_cross_references as a top-level field).
-        nsum = state.get("_narrative_summary") or []
-        if isinstance(nsum, str):
-            nsum = [nsum]
-        if not isinstance(nsum, list):
-            nsum = []
-        # Compose the cross-character paragraph.
-        if others:
-            cross_lines = ["Elsewhere in the world right now:"]
-            for n, s in others.items():
-                cross_lines.append(f"- {s['summary']}")
-            cross_para = " ".join(cross_lines)
-        else:
-            cross_para = "Elsewhere in the world: no other tracked PCs."
+        # Bug #8 fix: skip the file write entirely if other_characters is
+        # byte-identical to what's already on disk. Prevents OneDrive
+        # write-storm when nothing actually changed.
+        existing = state.get("_world_cross_references") or {}
+        existing_others = existing.get("other_characters") or {}
+        if existing_others == others:
+            report["skipped_unchanged"].append({
+                "character": my_name,
+                "other_characters_count": len(others),
+            })
+            continue
 
-        # Find existing cross-character paragraph (starts with "Elsewhere
-        # in the world") and replace it; otherwise append.
-        replaced = False
-        for i, p in enumerate(nsum):
-            if isinstance(p, str) and p.startswith("Elsewhere in the world"):
-                nsum[i] = cross_para
-                replaced = True
-                break
-        if not replaced:
-            nsum.append(cross_para)
-        state["_narrative_summary"] = nsum
+        state["_world_cross_references"] = new_cross_refs
+
+        # Bug #9 fix: previously this stitched a paragraph into
+        # _narrative_summary. That risked overwriting hand-written content.
+        # Now we ONLY update _world_cross_references. The dashboard renders
+        # it via _refresh_narrative_tab as a separate "ELSEWHERE" section.
+        # Note: legacy .exe builds (pre-fix) won't see this section; user
+        # needs to rebuild for the new Narrative tab layout to surface it.
 
         if not dry_run:
             c["state_path"].write_text(
@@ -220,6 +219,12 @@ def main():
     for u in report["updated"]:
         print(f"  - {u['character']}: +{u['other_characters_count']} cross-refs"
               f"{' (DRY RUN)' if args.dry_run else ''}")
+    skipped = report.get("skipped_unchanged", [])
+    if skipped:
+        print(f"[cross-character-sync] skipped {len(skipped)} unchanged "
+              f"(no write — saves OneDrive sync churn):")
+        for u in skipped:
+            print(f"  - {u['character']}: cross-refs already current")
 
 
 if __name__ == "__main__":

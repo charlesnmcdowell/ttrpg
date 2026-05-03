@@ -41,6 +41,19 @@ DEFAULT_TTS_SPEED = 1.0  # Playback-rate multiplier. 1.0 = normal, 1.25 = 25% fa
                           # Values > 1.2 or < 0.7 use playback-rate adjustment
                           # only (slight pitch shift, barely noticeable at 1.25x).
 
+# TTS_STRIP_VERSION is baked into the cache hash. BUMP THIS when you change
+# what `_tts_strip_for_speech` removes — that invalidates the existing cache
+# and forces fresh generation on next click (one-time cost, then free again).
+# Without versioning, a strip change would silently produce different hashes
+# for the same source text, missing all old cache files = paying twice.
+TTS_STRIP_VERSION = 1
+
+# Minimum plausible PCM byte count. Responses smaller than this are treated
+# as API failures (likely empty/error) and NOT cached — so the user can
+# safely retry without being stuck on a "cached" silent file forever.
+# 22050 Hz * 16-bit mono = 44,100 bytes/sec. 1024 bytes ≈ 23 ms of audio.
+TTS_MIN_VALID_PCM_BYTES = 1024
+
 # PyInstaller-aware path resolution.
 # - When running as a PyInstaller .exe, __file__ resolves to the temp extraction
 #   directory (sys._MEIPASS) which contains bundled read-only assets. The user's
@@ -318,6 +331,25 @@ class LiveDashboard(ctk.CTk):
         self.config = config
         self._StoryEngine = _import_story_engine(config.engine_dir)
 
+        # In-flight TTS request tracking (Bug #2 fix). Prevents two rapid
+        # Speak clicks on the same uncached text from firing two API calls
+        # in parallel — would double-charge on credits. The set holds the
+        # cache_path keys of currently-running requests; the lock is for
+        # main-thread-vs-worker-thread reads/writes. Worker threads remove
+        # their key in a finally block so a crash won't leak the slot.
+        self._tts_in_flight: set = set()
+        self._tts_in_flight_lock = threading.Lock()
+
+        # TTS playback timestamp (Bug #1 fix). When TTS starts playing,
+        # this is set to time.time() + estimated_audio_duration + buffer.
+        # The music poll checks `time.time() < self._tts_playing_until`
+        # before starting/resuming music — prevents music from cutting off
+        # TTS mid-sentence. winsound has no completion callback, so we use
+        # the audio duration we compute from PCM length as the deadline.
+        import time as _time_mod
+        self._time = _time_mod
+        self._tts_playing_until = 0.0
+
         self.geometry("1100x720")
         self.minsize(900, 600)
         self.configure(fg_color=BG_DARK)
@@ -474,6 +506,12 @@ class LiveDashboard(ctk.CTk):
 
     def _play_music(self, track_path):
         if not HAS_WINSOUND or not track_path:
+            return
+        # Bug #1 fix: don't start/restart music while TTS is still playing.
+        # winsound only plays one sound at a time, so any music call here
+        # would override an in-progress TTS narration. The deadline is set
+        # in _tts_speak / _tts_request_and_play_inner based on PCM duration.
+        if self._time.time() < self._tts_playing_until:
             return
         if track_path == self._current_track and self._music_playing:
             return
@@ -644,10 +682,15 @@ class LiveDashboard(ctk.CTk):
         return None
 
     def _tts_hash(self, voice_id: str, text: str, speed: float) -> str:
-        """Stable hash for the (voice, text, speed) triple. Same triple
-        always produces same hash → cache hit on replay."""
+        """Stable hash for the (voice, text, speed, strip_version) tuple.
+        Same inputs always produce same hash → cache hit on replay.
+        TTS_STRIP_VERSION is included so future changes to the strip
+        function automatically invalidate stale caches (one-time
+        regeneration cost) instead of silently producing different hashes
+        for the same source text (which would force you to pay twice for
+        the same audio without realizing why caches stopped hitting)."""
         import hashlib
-        s = f"{voice_id}|{speed}|{text}"
+        s = f"v{TTS_STRIP_VERSION}|{voice_id}|{speed}|{text}"
         return hashlib.sha1(s.encode("utf-8")).hexdigest()[:16]
 
     def _tts_filename_prefix(self) -> str:
@@ -770,13 +813,33 @@ class LiveDashboard(ctk.CTk):
                 f"\n[TTS: cache hit on id={text_id} — playing free]\n")
             if HAS_WINSOUND:
                 try:
+                    # Compute duration from WAV file size for the music-mute window.
+                    # Bug #1 fix: prevent music from interrupting TTS mid-sentence.
+                    try:
+                        with wave.open(str(cache_path), "rb") as wf:
+                            duration = wf.getnframes() / float(wf.getframerate())
+                    except Exception:
+                        duration = 30.0  # safe fallback if WAV is unreadable
+                    self._tts_playing_until = self._time.time() + duration + 0.5
                     winsound.PlaySound(str(cache_path),
                                         winsound.SND_FILENAME | winsound.SND_ASYNC)
                     self._music_playing = False
                     self._current_track = None
-                except Exception:
-                    pass
+                except Exception as e:
+                    self._play_append_narrator(
+                        f"\n[TTS cache playback error: {e}]\n")
             return
+
+        # IN-FLIGHT CHECK — if a request for this exact (cache_path) is
+        # already running on a worker thread, refuse to fire a second one.
+        # Prevents rapid-double-click from billing twice for the same audio.
+        in_flight_key = str(cache_path) if cache_path else f"{source}|{text_id}"
+        with self._tts_in_flight_lock:
+            if in_flight_key in self._tts_in_flight:
+                self._play_append_narrator(
+                    f"\n[TTS: already generating id={text_id} — please wait. "
+                    f"No second API call fired.]\n")
+                return
 
         # CACHE MISS — confirm with user before spending credits.
         char_count = len(speech)
@@ -800,27 +863,39 @@ class LiveDashboard(ctk.CTk):
                 f"\n[TTS: cancelled by user — no credits spent. file={full_filename}]\n")
             return
 
-        # User confirmed — spawn the API worker thread.
+        # User confirmed — register in-flight, then spawn the API worker.
+        with self._tts_in_flight_lock:
+            self._tts_in_flight.add(in_flight_key)
         self._play_append_narrator(
             f"\n[TTS: generating {full_filename} via ElevenLabs ({char_count} chars)…]\n")
         threading.Thread(
             target=self._tts_request_and_play,
-            args=(api_key, voice_id, speech, source),
+            args=(api_key, voice_id, speech, source, in_flight_key),
             daemon=True,
         ).start()
 
     def _tts_request_and_play(self, api_key: str, voice_id: str,
-                                text: str, source: str = "play") -> None:
+                                text: str, source: str = "play",
+                                in_flight_key: Optional[str] = None) -> None:
         """Background thread: hit the ElevenLabs API, wrap PCM into WAV, play.
-        Cache-aware: skips API call if a cached WAV exists for the
-        (voice_id, text, speed, source) tuple. Archives any newly-generated
-        audio to <Char>/audio_archive/Chapter_<N>/ for audiobook export.
+        Cache + archive aware. The in_flight_key is removed from the
+        in-flight set in a `finally` block so a crash can't leak the slot.
 
-        Speed control fall-back:
-          1. ElevenLabs API supports voice_settings.speed in 0.7-1.2 — used
-             when in range (clean pitch-preserved).
-          2. Outside that range, apply local playback-rate adjustment.
+        Empty/malformed PCM responses (Bug #3 fix) are detected and NOT
+        cached — so a transient API failure doesn't poison the cache with
+        a silent file that would hit on every future click without retry.
         """
+        try:
+            self._tts_request_and_play_inner(api_key, voice_id, text, source)
+        finally:
+            if in_flight_key is not None:
+                with self._tts_in_flight_lock:
+                    self._tts_in_flight.discard(in_flight_key)
+
+    def _tts_request_and_play_inner(self, api_key: str, voice_id: str,
+                                       text: str, source: str = "play") -> None:
+        """Inner implementation — wrapped by _tts_request_and_play's
+        try/finally so the in-flight slot is always released."""
         cfg = self._tts_load_config()
         speed = float(cfg.get("tts_speed") or DEFAULT_TTS_SPEED)
         # Cache lookup also done on the main thread before this worker spawns
@@ -857,6 +932,19 @@ class LiveDashboard(ctk.CTk):
             self.after(0, lambda: self._play_append_narrator(
                 f"\n[TTS error: {e}]\n"))
             return
+
+        # Bug #3 fix: validate the PCM payload looks like real audio before
+        # caching it. If the response is empty or unreasonably short, treat
+        # as failure: log it, do NOT write the cache, do NOT archive. The
+        # next click will re-prompt + re-fire, instead of being stuck
+        # forever on a "cached" silent file.
+        if not pcm or len(pcm) < TTS_MIN_VALID_PCM_BYTES:
+            self.after(0, lambda: self._play_append_narrator(
+                f"\n[TTS: API returned empty/too-small response "
+                f"({len(pcm)} bytes < {TTS_MIN_VALID_PCM_BYTES} threshold). "
+                f"NOT cached. Click Speak again to retry.]\n"))
+            return
+
         # Wrap PCM (16-bit signed mono) into a WAV file. Write directly to
         # the cache path so the file becomes both the playback source AND
         # the cache for future replays — saves a copy step.
@@ -899,22 +987,20 @@ class LiveDashboard(ctk.CTk):
         except Exception:
             pass  # archive is convenience; never fail playback because of it
 
-        # winsound plays one sound at a time. Stop background music while
-        # speech plays, then let the music re-poll auto-resume after.
+        # winsound plays one sound at a time. Set _tts_playing_until so
+        # the music poller skips its run while TTS is still playing
+        # (Bug #1 fix). Music auto-resumes after the deadline.
         if HAS_WINSOUND:
             try:
-                winsound.PlaySound(str(wav_path),
-                                    winsound.SND_FILENAME | winsound.SND_ASYNC)
-                # Mark music stopped so the next poll cycle re-applies it
-                # after speech ends. winsound has no completion callback;
-                # estimate duration from PCM byte length, accounting for
+                # Estimate duration from PCM byte length, accounting for
                 # local playback-rate adjustment when speed is outside
                 # ElevenLabs's supported range.
                 duration = len(pcm) / (effective_framerate * 2)
+                self._tts_playing_until = self._time.time() + duration + 0.5
+                winsound.PlaySound(str(wav_path),
+                                    winsound.SND_FILENAME | winsound.SND_ASYNC)
                 self._music_playing = False
                 self._current_track = None
-                # When TTS finishes, the regular music poll will pick the
-                # right track for the current state and resume.
             except Exception as e:
                 self.after(0, lambda: self._play_append_narrator(
                     f"\n[TTS playback error: {e}]\n"))
@@ -2801,6 +2887,35 @@ class LiveDashboard(ctk.CTk):
                         lines.append(f"  {label}")
                         lines.append("  " + " ".join(pieces))
                         lines.append("")
+
+        # Bug #4 fix: surface _world_cross_references directly (separate
+        # from _narrative_summary). Sync used to stitch this paragraph into
+        # _narrative_summary which was fragile — now it lives in its own
+        # block on the engine state and we read it here, never overwriting
+        # hand-written narrative content.
+        try:
+            cross = (
+                getattr(e, "_world_cross_references", None)
+                or getattr(e, "world_cross_references", None)
+                or {}
+            )
+            if isinstance(cross, dict):
+                others = cross.get("other_characters") or {}
+                if others:
+                    lines.append("")
+                    lines.append("═══ ELSEWHERE IN THE WORLD ═══")
+                    synced_at = cross.get("synced_at") or ""
+                    if synced_at:
+                        lines.append(f"  (synced: {synced_at})")
+                    for name, info in others.items():
+                        if isinstance(info, dict):
+                            summary = info.get("summary") or f"{name} at unknown location"
+                            lines.append(f"  • {summary[:200]}")
+                        else:
+                            lines.append(f"  • {name}")
+                    lines.append("")
+        except Exception:
+            pass  # cross-refs are convenience; never fail narrative tab
 
         self._set_tb("narrative", "\n".join(lines))
 
