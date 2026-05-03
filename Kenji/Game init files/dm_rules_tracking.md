@@ -251,6 +251,50 @@ A boss can fire in any narratively justified location: a forest ambush, a city a
 
 **DM self-check:** Before declaring a boss encounter, did I run `e.boss_eligibility()` and confirm `eligible: True`? If not, did I tag the new combat with `boss=True` to keep the count honest? Did I narratively justify why the boss can engage here (the player came to them, they came to the player, the world brought them together)? If any of these is no, REWORK the scene.
 
+### RULE 14: CROSS-CHARACTER CONTINUITY UPDATE (NON-NEGOTIABLE)
+The world is shared. When a chapter closes in ANY campaign, every other PC's view of the world must be refreshed so they see each other's current locations, chapters, and statuses. A PC who shows up as an NPC in someone else's campaign should reflect their *latest* state — Cookie's L10 cap should be visible in Shen's world, Shen's Dragon Form sighting should appear in Cookie's threat clocks, Amaris's epilogue (campaign complete) should show as "retired in Briarstone" when other PCs ask about her, and Kenji's Apotheosis should be background lore for everyone.
+
+**Mechanism (engine-canonical):**
+
+- Each PC's state file carries a `_world_cross_references` block listing the *other* tracked PCs and their current snapshots. Schema:
+  ```json
+  {
+    "_rule": "...",
+    "synced_at": "ISO timestamp",
+    "other_characters": {
+      "Cookie": {"name": "...", "level": 10, "location": "...", "day": ..., "summary": "..."},
+      "Shen Sama": {...},
+      ...
+    }
+  }
+  ```
+- The `_cross_character_sync.py` script builds the snapshot from each manifest's state file and writes it back. Idempotent and schema-agnostic (handles modern + legacy state files).
+- **Triggers automatically:**
+  1. **Launcher boot**: every time `KenjiDMTool_Launcher.bat` runs, after the chapter-close pass, the sync runs unconditionally. Every dashboard launch sees a fresh world.
+  2. **Manual**: `python _cross_character_sync.py --ttrpg-root <path>` from a PowerShell shell.
+
+**The four sources of truth that must agree on cross-character info:**
+
+| Source | What it holds | Authority |
+|--------|---------------|-----------|
+| `<Char>/Game init files/character_world_state.json` (or legacy `<char>_state.json`) | Live mechanical state | DM/engine writes |
+| `_world_cross_references` block on each state | What the OTHER PCs are doing | Auto-synced from above |
+| `Chapters/*.md` prose | Authoritative event record | DM writes (Rule 9) |
+| `character_tracker.md` | Human-edited canonical world status | DM writes by hand for cross-campaign NPC entries |
+
+When a PC shows up in another PC's chapter as an NPC, the DM must:
+1. Write what happened in that chapter's prose (Rule 9 — prose authoritative for events).
+2. If the encounter changed the visiting PC's status (location moved, item gained, threat flagged, relationship shifted), update *their* state file directly via Edit calls.
+3. Mention them in `character_tracker.md` if they don't already have a section there (Rule 4 fabrication-NPCs check applies — only tracked PCs get treated as full NPCs in other campaigns).
+4. The sync at next launcher boot will refresh everyone's `_world_cross_references` block automatically.
+
+**DM self-check (RULE 14):** Did this turn introduce or update an NPC version of another PC? If yes:
+- Did I update the visited PC's state file with the change?
+- Did I note it in `character_tracker.md` if it's lore-relevant?
+- Will the sync at next launcher boot pick it up correctly?
+
+**Why this rule exists.** A campaign world feels real only when the off-screen PCs are alive in it. Without cross-character sync, Cookie keeps seeing "Kenji disappeared into the Deepwood" forever even after Kenji's player has done another arc; Shen's Dragon Form sighting never reaches Cookie's threat clocks even though it should accelerate the Cult of Anku's interest in *her*; Amaris's retirement to Briarstone never gets reflected when Holly arrives in the southern kingdom and asks about old adventurers. Rule 14 makes the world's bookkeeping match the world's narrative.
+
 ### RULE 13: HIGH-STAT JUSTIFICATION — UNJUSTIFIED EXCELLENCE GETS A QUIRK (NON-NEGOTIABLE)
 **SCOPE: BASE STATS ONLY.** This rule applies exclusively to a character's *base* ability score (the value the player assigned at creation, before any racial bonus, item buff, ability buff, or temporary modifier). Items, abilities, and skills that raise or lower a stat at runtime do NOT generate quirks. A character with base STR 16 wearing a +8 STR gauntlet (final STR 24) gets ZERO Rule 13 quirks — the way to counter that high final stat is to **deplete, dispel, destroy, or remove the gauntlet itself**, not to invent a contextual debuff.
 

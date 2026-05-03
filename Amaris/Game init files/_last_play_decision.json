@@ -1,0 +1,12 @@
+{
+  "character_id": "amaris",
+  "state_file_stamp": "C:\\Users\\charl\\OneDrive\\Documents\\TTRPG\\Amaris\\Game init files\\amaris_state.json",
+  "narrator_text": "(Amaris's campaign is on a legacy state schema — no last-decision-point was recorded by the new sidecar system, so this is a fresh-start view.)\n\nYou are Amaris, Level 5, Day 8 hour 9.\nLocation: Briarstone Homestead — porch\nWeather: Clear\nHP 28/28   AC 12\n\namaris_story.md — Epilogue: The Stranger in the Greenveil (campaign complete)\nMorning on the porch. Tea, birds back in the Greenveil, deed in the house. Amaris owns Briarstone; the crisis ended while she slept — a stranger did the work and vanished.\n\nType an action below to continue. Future turns will be recorded to the sidecar so subsequent restarts resume cleanly.",
+  "options": [
+    "Survey the immediate scene and look for the next obvious lead.",
+    "Pull up the current tracker / threat clocks and review what's pressing.",
+    "Custom — type whatever Amaris wants to do next."
+  ],
+  "player_action": "(no player action recorded — character loaded from legacy state)",
+  "applied_at": "legacy-state-import"
+}

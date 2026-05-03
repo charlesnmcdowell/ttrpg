@@ -796,7 +796,8 @@
   "_narrative_summary": [
     "Holly is a 437-year-old snow elf and Master Craftsman/Inventor who escaped four-plus centuries of forced servitude at the Master Toymaker's North Pole workshop. Her gifts: Sudden Insight (instant mechanical comprehension), Endless Possibilities (a 7th ability score called Luck, capped at 100, biasing every d20 roll and ambient narrative coincidence), and an unlimited inventory pouch holding her tools and four centuries of raw materials. Her patron gift is the Power of Creation — the Master granted it to speed his line; she honed it past his control. He does not yet know she is gone.",
     "Day 1 — dawn — Solandra Bay. Holly walks off the cargo cog *Witherhold* into a tropical city she has only ever read about. She is wearing winter clothes in 78°F heat. She has 0 GP and ~250,000 GP equivalent in raw materials in her pouch. She wants to open a workshop and invent things that make ordinary people's lives better. She has never met a stranger in person. The mango vendor across the dock has just spoken to her.",
-    "Three threat clocks tick from Day 1: Master Toymaker's awareness (+1/day, accelerates to +5 once he learns of her absence), Frostmaster pursuit (Day 4 dispatch, Day 12 arrival, CR 8 combat), Council customs flagging (Day 21 summons). Goal: stay free, build a workshop, advocate for ordinary people. CHA 60 + Luck +45 carry her intent through her social inexperience; the campaign's defining tension is the Master's eventual personal arrival."
+    "Three threat clocks tick from Day 1: Master Toymaker's awareness (+1/day, accelerates to +5 once he learns of her absence), Frostmaster pursuit (Day 4 dispatch, Day 12 arrival, CR 8 combat), Council customs flagging (Day 21 summons). Goal: stay free, build a workshop, advocate for ordinary people. CHA 60 + Luck +45 carry her intent through her social inexperience; the campaign's defining tension is the Master's eventual personal arrival.",
+    "Elsewhere in the world right now: - Amaris (L5, campaign-complete) - Day 8 hour 9, Briarstone Homestead — porch - Ch1 '[Eastern Frontier — campaign in progress' [PENDING] - amaris_story.md — Epilogue: The Stranger in the Greenveil (campaign complete) - Cookie (L10, campaign-complete) - Day 18 hour 21, Varenholm Civic Auditorium — backstage dressing-room hallway (Day 18 evening, po - Ch11 'From Kettlebrook' [COMPLETE] - Day 18 evening, Civic Auditorium backstage — Varenholm starter arc CLOSED. Cookie graduated with Master of Voice credent - Kenji (L40, campaign-complete) - Day 291 hour 6.0, Ashmere 69 dawn — Dragonspine peaks, granite shelf near Ignis mating ground, off - Ch42 '[Book 4 — late campaign]' [COMPLETE] - Book 4, Chapter 42 COMPLETE (played live, prose: fraying_empire_chapter_42.md — 'The Weld'). Ch41 COMPLETE ('The Kingdom"
   ],
   "main_cast_extension": {
     "_note": "No cross-campaign family ties for Holly — she is unrelated to the Ankuspawn line, the Vorathiel-Kenji thread, or the existing kingdom factions. Her connections are forward-built in this campaign."
@@ -815,5 +816,47 @@
     ],
     "on_pc_from_npcs": [],
     "known_enemy_buffs": []
+  },
+  "_world_cross_references": {
+    "_rule": "Auto-built by _cross_character_sync.py - this is what's currently happening with the OTHER PCs in the world. The loaded character may encounter them as NPCs, hear about them in tavern gossip, or be affected by their actions. Synced at the timestamp below; re-run sync after any chapter close in any campaign to refresh.",
+    "synced_at": "2026-05-02T21:52:41",
+    "other_characters": {
+      "Amaris": {
+        "name": "Amaris",
+        "level": 5,
+        "location": "Briarstone Homestead — porch",
+        "day": 8,
+        "hour": 9,
+        "hp": "28/28",
+        "status": "campaign-complete",
+        "chapter": 1,
+        "chapter_status": "PENDING",
+        "summary": "Amaris (L5, campaign-complete) - Day 8 hour 9, Briarstone Homestead — porch - Ch1 '[Eastern Frontier — campaign in progress' [PENDING] - amaris_story.md — Epilogue: The Stranger in the Greenveil (campaign complete)"
+      },
+      "Cookie": {
+        "name": "Cookie",
+        "level": 10,
+        "location": "Varenholm Civic Auditorium — backstage dressing-room hallway (Day 18 evening, post-graduation recital)",
+        "day": 18,
+        "hour": 21,
+        "hp": "60/60",
+        "status": "campaign-complete",
+        "chapter": 11,
+        "chapter_status": "COMPLETE",
+        "summary": "Cookie (L10, campaign-complete) - Day 18 hour 21, Varenholm Civic Auditorium — backstage dressing-room hallway (Day 18 evening, po - Ch11 'From Kettlebrook' [COMPLETE] - Day 18 evening, Civic Auditorium backstage — Varenholm starter arc CLOSED. Cookie graduated with Master of Voice credent"
+      },
+      "Kenji": {
+        "name": "Kenji",
+        "level": 40,
+        "location": "Ashmere 69 dawn — Dragonspine peaks, granite shelf near Ignis mating ground, off beaten path. Day 291 ~06:00. Ch42 COMPLETE. Identity: ANKUNYX (open — green eyes, tattoos + DRAGON TATTOO COMPLETE, aura visible; no disguise). VORATHIEL BOND #25 (Ancient Red Dragon, Ignis's mother). DRAGON GOD AT WILL — Elder Black Dragon, no cooldown (upgraded from 1/day via Vorathiel bond). Bonded Lovers 25. ALL 5 THREATS RESOLVED. Kingdom of Ankunyx declared Day 290. Seam WELDED SHUT Day 290. Vorathiel asleep on Ankunyx — waking. HP ~1886/6288 (30%, recovering via regen).",
+        "day": 291,
+        "hour": 6.0,
+        "hp": "1886/6288",
+        "status": "campaign-complete",
+        "chapter": 42,
+        "chapter_status": "COMPLETE",
+        "summary": "Kenji (L40, campaign-complete) - Day 291 hour 6.0, Ashmere 69 dawn — Dragonspine peaks, granite shelf near Ignis mating ground, off - Ch42 '[Book 4 — late campaign]' [COMPLETE] - Book 4, Chapter 42 COMPLETE (played live, prose: fraying_empire_chapter_42.md — 'The Weld'). Ch41 COMPLETE ('The Kingdom"
+      }
+    }
   }
 }

@@ -1411,8 +1411,43 @@ class LiveDashboard(ctk.CTk):
         # Try to rehydrate the last decision point from a sidecar file. If
         # present, the player sees their last narrator beat + the 3 options
         # they had on the board when the dashboard was last open. Otherwise
-        # we show the welcome.
+        # we show the welcome PLUS character-specific context so the player
+        # knows which character is loaded and where they are.
         if not self._play_rehydrate_from_sidecar():
+            # Build a "where you are" header from the engine, regardless of
+            # whether the character uses modern or legacy schema. This makes
+            # sure even Amaris/Kenji (legacy-schema characters with no sidecar)
+            # see something meaningful instead of a generic welcome.
+            ctx_lines = []
+            try:
+                e = self.engine
+                if e:
+                    name = getattr(e, "char_name", "?")
+                    lvl = getattr(e, "level", "?")
+                    hp = getattr(e, "hp", "?")
+                    mhp = getattr(e, "max_hp", "?")
+                    ac = getattr(e, "ac", "?")
+                    day = getattr(e, "day", "?")
+                    hr = getattr(e, "hour", "?")
+                    loc = (getattr(e, "location", "") or "").strip()
+                    weather = (getattr(e, "weather", "") or "").strip()
+                    beat = (getattr(e, "story_beat", "") or "").strip()
+                    canon = (getattr(e, "canon_pointer", "") or "").strip()
+                    ctx_lines.append(f"=== {name} — Lv {lvl} ===")
+                    ctx_lines.append(f"HP {hp}/{mhp}   AC {ac}   Day {day} hour {hr}")
+                    if loc:
+                        ctx_lines.append(f"Location: {loc[:200]}")
+                    if weather:
+                        ctx_lines.append(f"Weather:  {weather[:200]}")
+                    ctx_lines.append("")
+                    if canon:
+                        ctx_lines.append(f"Canon: {canon[:300]}")
+                    if beat and beat != canon:
+                        ctx_lines.append(f"Beat:  {beat[:300]}")
+                    ctx_lines.append("")
+            except Exception:
+                pass
+
             if self.play_state.dev_mode:
                 welcome = (
                     "Welcome to the Play tab — DEV MODE.\n\n"
@@ -1436,7 +1471,8 @@ class LiveDashboard(ctk.CTk):
                     "Tip: enable 'Dev mode' below to bypass the API and route turns "
                     "through your Claude Desktop via clipboard."
                 )
-            self._play_set_narrator(welcome)
+            self._play_set_narrator("\n".join(ctx_lines) + welcome
+                                     if ctx_lines else welcome)
 
     def _play_toggle_dev_mode(self):
         """Sync the toggle into PlayState and refresh the Send button label."""
@@ -2474,8 +2510,45 @@ class LiveDashboard(ctk.CTk):
             # Source 2: auto-condense from _chapter_history.
             history = getattr(e, "_chapter_history", None) or []
             if not history:
-                lines.append("  No chapter history yet. The adventure summary will")
-                lines.append("  appear here once chapters have been written and closed.")
+                # Source 3: legacy-schema fallback. Older characters (Amaris,
+                # Kenji) don't have _narrative_summary or _chapter_history,
+                # but they DO have narrative_notes, story_beat, canon_pointer,
+                # and events. Build a readable paragraph from whatever's
+                # present so the Narrative tab is never silently empty.
+                pieces: list[str] = []
+                story_beat = (getattr(e, "story_beat", "") or "").strip()
+                canon = (getattr(e, "canon_pointer", "") or "").strip()
+                notes = getattr(e, "narrative_notes", None) or []
+                fired_events = []
+                for ev in (getattr(e, "events", None) or []):
+                    if isinstance(ev, dict) and (ev.get("status") or "").upper() == "FIRED":
+                        n = ev.get("name") or ""
+                        if n:
+                            fired_events.append(n)
+
+                if canon:
+                    pieces.append(f"  Where they are: {canon}")
+                if story_beat:
+                    pieces.append(f"  Current beat: {story_beat}")
+                if isinstance(notes, list) and notes:
+                    pieces.append("  Recent notes:")
+                    for note in notes[-5:]:
+                        if isinstance(note, str) and note.strip():
+                            pieces.append(f"    - {note.strip()[:200]}")
+                elif isinstance(notes, str) and notes.strip():
+                    pieces.append(f"  Notes: {notes.strip()[:400]}")
+                if fired_events:
+                    pieces.append(f"  Recently fired: {', '.join(fired_events[:6])}")
+
+                if pieces:
+                    lines.append("  (Legacy-schema character — using narrative_notes,")
+                    lines.append("  story_beat, canon_pointer, and fired events as the")
+                    lines.append("  recap source. Modern characters use _narrative_summary)")
+                    lines.append("")
+                    lines.extend(pieces)
+                else:
+                    lines.append("  No chapter history yet. The adventure summary will")
+                    lines.append("  appear here once chapters have been written and closed.")
             else:
                 # Group chapters into 3 buckets: opening (1/3), middle (1/3), recent (1/3).
                 n = len(history)

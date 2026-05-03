@@ -1,0 +1,12 @@
+{
+  "character_id": "kenji",
+  "state_file_stamp": "C:\\Users\\charl\\OneDrive\\Documents\\TTRPG\\Kenji\\Game init files\\kenji_state.json",
+  "narrator_text": "(Kenji's campaign is on a legacy state schema — no last-decision-point was recorded by the new sidecar system, so this is a fresh-start view.)\n\nYou are Kenji, Level 40, Day 291 hour 6.0.\nLocation: Ashmere 69 dawn — Dragonspine peaks, granite shelf near Ignis mating ground, off beaten path. Day 291 ~06:00. Ch42 COMPLETE. Identity: ANKUNYX (open — green eyes, tattoos + DRAGON TATTOO COMPLETE, aur\nWeather: Ashmere 69 dawn — Dragonspine peaks; clear sky, stars fading east, high altitude cold, thin air, granite shelf exposed to mountain wind\nHP 1886/6288   AC 19\n\nBook 4, Chapter 42 COMPLETE (played live, prose: fraying_empire_chapter_42.md — 'The Weld'). Ch41 COMPLETE ('The Kingdom'). Ch43 OPEN. Current: Ashmere 69, Day 291 — Dragonspine peaks, granite shelf. ALL 5 THREATS RESOLVED. Kingdom of Ankunyx declared Day 290. Seam welded shut Day 290. Vorathiel Bond #25 — Dragon God AT WILL. HP ~1886/6288 (30%). Vorathiel asleep on Ankunyx, waking dawn Day 291.\n**BOOK 4 CH42 COMPLETE** — 'The Weld.' Underhall Express to Ashfeld Reach — Vigor vial distribution (Nyx logistics, all expired mates refreshed). Seam assessment: 40ft crack, Fathom eating magic, ward-songs consumed. Goat poem logic bomb (INT 83 vs DC 25, recursive prime cipher, googolplex decode time) — Fathom distracted. Forge weld: Nyx roots through 60-runestone ring + Eldest ward-songs in livi",
+  "options": [
+    "Survey the immediate scene and pick up where the prose left off.",
+    "Pull up the current threat clocks and review what's pressing.",
+    "Custom — type the action you want Kenji to take."
+  ],
+  "player_action": "(no player action recorded — character loaded from legacy state)",
+  "applied_at": "legacy-state-import"
+}

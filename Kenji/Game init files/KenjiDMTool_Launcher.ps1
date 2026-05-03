@@ -16,6 +16,7 @@ $exe  = Join-Path $base "dist\Kenji DM Tool.exe"
 $manifestsDir = Join-Path $base "manifests"
 $lastCharFile = Join-Path $base ".last_character"
 $closePy = Join-Path $base "_chapter_close_check.py"
+$syncPy = Join-Path $base "_cross_character_sync.py"
 $ttrpgRoot = Split-Path -Parent (Split-Path -Parent $base)
 
 Write-Host "=================================================================="
@@ -87,6 +88,16 @@ if ((Test-Path $lastCharFile) -and $pythonCmd) {
     if (-not (Test-Path $lastCharFile)) {
         Write-Host "  Skipped - no .last_character file (first launch?)"
     }
+}
+
+# 2b. Cross-character sync - refresh every character's view of the world
+# so they see each other's current locations, chapters, and statuses.
+# Cardinal Rule 14: chapter close in any campaign should refresh everyone.
+Write-Host "[2b/4] Cross-character world sync..."
+if ($pythonCmd -and (Test-Path $syncPy)) {
+    & $pythonCmd $syncPy --ttrpg-root $ttrpgRoot
+} else {
+    Write-Host "  Skipped - Python or sync script unavailable."
 }
 
 # 3. Discover available characters from manifests folder.

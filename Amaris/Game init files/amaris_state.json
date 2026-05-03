@@ -15,9 +15,18 @@
   "temp_hp": 0,
   "ac": 12,
   "spell_slots": {
-    "1": [4, 4],
-    "2": [3, 3],
-    "3": [2, 2]
+    "1": [
+      4,
+      4
+    ],
+    "2": [
+      3,
+      3
+    ],
+    "3": [
+      2,
+      2
+    ]
   },
   "gold": 15,
   "silver": 0,
@@ -148,5 +157,57 @@
     "Vareth / Nexus: resolved off-camera; no civilian casualties from final swarm (swarm never launched).",
     "East pasture: still resting; western fields healthy. Amaris happy, farm hers.",
     "Shared world: Kenji's active plots exist in-setting far west/central; Amaris is unaffected by distance — not ignorance of cosmology, just geography and slow news."
-  ]
+  ],
+  "_narrative_summary": [
+    "Amaris, Level 5. Day 8 hour 9. Briarstone Homestead — porch — Clear. HP 28/28, AC 12.",
+    "amaris_story.md — Epilogue: The Stranger in the Greenveil (campaign complete)",
+    "Recent notes: Campaign CLOSED. Mysterious hero — identity unknown, details contradictory in village gossip. | Vareth / Nexus: resolved off-camera; no civilian casualties from final swarm (swarm never launched). | East pasture: still resting; western fields healthy. Amaris happy, farm hers. | Shared world: Kenji's active plots exist in-setting far west/central; Amaris is unaffected by distance — not ignorance of cosmology, just geography and slow news.",
+    "Elsewhere in the world right now: - Cookie (L10, campaign-complete) - Day 18 hour 21, Varenholm Civic Auditorium — backstage dressing-room hallway (Day 18 evening, po - Ch11 'From Kettlebrook' [COMPLETE] - Day 18 evening, Civic Auditorium backstage — Varenholm starter arc CLOSED. Cookie graduated with Master of Voice credent - Holly (L297, active (mid-chapter)) - Day 1 hour 7, Solandra Bay — Pier Three, dawn, the Witherhold cargo cog moored behind her. Man - Ch1 '[OPEN — Day 1 dawn, Solandra Bay]' [PENDING] - Day 1 dawn, Solandra Bay, Pier Three. Holly has just walked off the Witherhold gangplank. Mango vendor has called out to - Kenji (L40, campaign-complete) - Day 291 hour 6.0, Ashmere 69 dawn — Dragonspine peaks, granite shelf near Ignis mating ground, off - Ch42 '[Book 4 — late campaign]' [COMPLETE] - Book 4, Chapter 42 COMPLETE (played live, prose: fraying_empire_chapter_42.md — 'The Weld'). Ch41 COMPLETE ('The Kingdom"
+  ],
+  "_chapter": 1,
+  "_chapter_status": "PENDING",
+  "_chapter_title": "[Eastern Frontier — campaign in progress]",
+  "_chapter_history": [],
+  "_world_cross_references": {
+    "_rule": "Auto-built by _cross_character_sync.py - this is what's currently happening with the OTHER PCs in the world. The loaded character may encounter them as NPCs, hear about them in tavern gossip, or be affected by their actions. Synced at the timestamp below; re-run sync after any chapter close in any campaign to refresh.",
+    "synced_at": "2026-05-02T21:52:40",
+    "other_characters": {
+      "Cookie": {
+        "name": "Cookie",
+        "level": 10,
+        "location": "Varenholm Civic Auditorium — backstage dressing-room hallway (Day 18 evening, post-graduation recital)",
+        "day": 18,
+        "hour": 21,
+        "hp": "60/60",
+        "status": "campaign-complete",
+        "chapter": 11,
+        "chapter_status": "COMPLETE",
+        "summary": "Cookie (L10, campaign-complete) - Day 18 hour 21, Varenholm Civic Auditorium — backstage dressing-room hallway (Day 18 evening, po - Ch11 'From Kettlebrook' [COMPLETE] - Day 18 evening, Civic Auditorium backstage — Varenholm starter arc CLOSED. Cookie graduated with Master of Voice credent"
+      },
+      "Holly": {
+        "name": "Holly",
+        "level": 297,
+        "location": "Solandra Bay — Pier Three, dawn, the Witherhold cargo cog moored behind her. Mango vendor across the dock just spoke to her.",
+        "day": 1,
+        "hour": 7,
+        "hp": "3864/3864",
+        "status": "active (mid-chapter)",
+        "chapter": 1,
+        "chapter_status": "PENDING",
+        "summary": "Holly (L297, active (mid-chapter)) - Day 1 hour 7, Solandra Bay — Pier Three, dawn, the Witherhold cargo cog moored behind her. Man - Ch1 '[OPEN — Day 1 dawn, Solandra Bay]' [PENDING] - Day 1 dawn, Solandra Bay, Pier Three. Holly has just walked off the Witherhold gangplank. Mango vendor has called out to"
+      },
+      "Kenji": {
+        "name": "Kenji",
+        "level": 40,
+        "location": "Ashmere 69 dawn — Dragonspine peaks, granite shelf near Ignis mating ground, off beaten path. Day 291 ~06:00. Ch42 COMPLETE. Identity: ANKUNYX (open — green eyes, tattoos + DRAGON TATTOO COMPLETE, aura visible; no disguise). VORATHIEL BOND #25 (Ancient Red Dragon, Ignis's mother). DRAGON GOD AT WILL — Elder Black Dragon, no cooldown (upgraded from 1/day via Vorathiel bond). Bonded Lovers 25. ALL 5 THREATS RESOLVED. Kingdom of Ankunyx declared Day 290. Seam WELDED SHUT Day 290. Vorathiel asleep on Ankunyx — waking. HP ~1886/6288 (30%, recovering via regen).",
+        "day": 291,
+        "hour": 6.0,
+        "hp": "1886/6288",
+        "status": "campaign-complete",
+        "chapter": 42,
+        "chapter_status": "COMPLETE",
+        "summary": "Kenji (L40, campaign-complete) - Day 291 hour 6.0, Ashmere 69 dawn — Dragonspine peaks, granite shelf near Ignis mating ground, off - Ch42 '[Book 4 — late campaign]' [COMPLETE] - Book 4, Chapter 42 COMPLETE (played live, prose: fraying_empire_chapter_42.md — 'The Weld'). Ch41 COMPLETE ('The Kingdom"
+      }
+    }
+  }
 }

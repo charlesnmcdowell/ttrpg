@@ -1,11 +1,15 @@
 # Character Tracker — TTRPG Universe
 
-**Active PC:** Cookie — Halfling Ankuspawn Dancer (**Level 10 — STARTER CAP REACHED**)
-**Current In-Game Date:** Forgeday, 9 Bright Turn 1247 AR — **Day 9 mid-morning, ~09:30** (Sunken Playhouse causeway, post-Dispel)
-**Campaign:** Cookie — starter campaign (levels 1–10) — **mechanical progression cap reached**, Ember frozen at current strength pending story-trigger unlock
-**Chapter:** 9 COMPLETE "Daughters" | Chapter 10 pending (Sunken Playhouse causeway, music encounter cliffhanger)
-**EXP:** 131,768 / 130,000 (cap +1,768)
-**Narrator Style:** Aleron Kong (irreverent, funny, mechanics-in-prose)
+**Active PCs:**
+- **Cookie** — Halfling Ankuspawn Dancer (Level 10 — STARTER CAP) — Ch11 "From Kettlebrook" COMPLETE | Civic Auditorium recital arc closing
+- **Holly** — Snow Elf escapee, Master Toymaker's former conscript (Level 297 — POWER-OVERRIDE FLAGGED) — Ch1 PENDING | Solandra Bay arrival, honeymoon hour 7/24
+- **Shen Sama** — Ankuspawn True Dragon (Level 1, 24-yr-old half-Kenji+half-Vorathiel) — Ch2 in progress | Highford foothills, Dragon Form aftermath
+- **Amaris** — Eastern frontier (Level 5 Sorcerer) — campaign COMPLETE epilogue | Briarstone Homestead, retired
+- **Kenji** — The Dragon Emperor (Level 40 Apotheosis) — Book 4 Ch42 COMPLETE, Ch43 OPEN | Ashmere 69 dawn, Dragonspine peaks
+
+**Cross-character continuity:** Cardinal Rule 14 governs cross-PC visibility. The launcher's `_cross_character_sync.py` runs on every boot to refresh each PC's `_world_cross_references` block. Each PC's full section below contains signature abilities, quirks, threat clocks, and cross-character relevance notes.
+
+**Narrator Style (per-character defaults):** Cookie — Aleron Kong (irreverent, funny, mechanics-in-prose). Holly — fish-out-of-water comedy meets cozy-inventor with snow-elf vulnerability. Shen Sama — quiet-monster road movie. Amaris — eastern-frontier western. Kenji — high-fantasy political weight.
 
 > **Cross-references:** DM behavior rules → `dm_rules_tracking.md` (**Scene skill preroll** + **Player success integrity** + **WORLD ECONOMY REFERENCE**) | DM Turn Protocol → `DM_TURN_PROTOCOL.md` (session start, every response, chapter end) | Game engine → `ttrpg_game_engine.py` (`skill_roll`, `contested_skill`, CLI) | Live state → `Cookie/Game init files/character_world_state.json` | Name bank → `npc_name_bank.md` | World lore → `shared_world_continuity.md` | City locations → `shared_world_continuity.md` → City Location Registry
 
@@ -148,6 +152,161 @@ DEX-based martial art created during Ch2 bandit camp raid. High risk, high rewar
 - **Ch7** "Daddy's Girl" (Day 7 afternoon): Halbert's funeral procession — vocal Performance 23 vs DC 14 (no dance — funeral context), 7,250 XP. Updated guild registration to L8 Dancer, hire rate 5 GP/quest. The Wardbreakers (Senna Dawnmere, Finch, Varn, Thessaly — Diamond-tier Vanguard Hall, cross-campaign from Kenji Books 2-4) entered the guild while Cookie was at the counter. Senna recognized Cookie's Ember from 25 years around AnkuNyx. Cookie sat next to Finch, flirted, then dropped: "You one of the ladies that bang my dad?" — implying AnkuNyx is her father. Chapter ends on cliffhanger: Senna's response pending.
 - **Ch8** "Six Gold and a Stew" (Day 7 evening — Day 8 dawn): Senna replied "Once. A long time ago. Before he knew what he was. — But I want to hear you say it again. Slow." Cookie sighed, publicly outed herself as Ankuspawn to the entire guild, pivoted to support-for-hire (Persuasion DC 18 ADV 28 → 2,500 XP; Persuasion DC 15 ADV 25 → 1,500 XP). Cult-of-Anku scrivener filed her name, sealed grey-wax courier. Honey mead WIS save FAIL by 4 → BUZZED. Selwyn + Beldra declined cleanly (Hen & Hammer hook). Investigation DC 13 → 1,500 XP. Jareth's Calverton lead declined silently. Brass Whistle (Falconer/Tova/Mograth) joined for The Gilded Thread cellar wererat job — 4-way split, 1.5 GP each. **8 wererats cleared in 30 seconds.** Stunning Kicks teleport (8/8 hits, all stunned 2 rounds). Falconer 2 nat-20 crits Round 1. Round 3 Cookie kicked F1 → **first FATALITY** (bludgeoning paste, indigo silk shroud); kicked M1 → **second FATALITY** (paste-gore, brick crater). R2 fled, Falconer arrow + fall + Mograth coup-de-grace. Ankuspawn lycanthropy-immunity confirmed. 4 Performance domain successes = 30,000 XP + 720 combat. **LEVEL 8→10 (starter cap reached). EMBER ENHANCEMENT AT GROWTH CEILING.** Hazel paid 6 GP + lifetime 10% retail discount + voluntary upper-tier promotion. Walked home, Fern's stew, slept 21:00. Ambush check NAT 20 — quiet night. Long rest completed. Day 8 dawn 05:30. Total Ch8 XP: 36,220.
 - **Ch9** "Daughters" (Day 8 morning — Day 9 mid-morning): Class with Ashworth — Performance 28 vs DC 14 longing-projection success, Heartstring landed cohort-wide, Silka rocked. Term 2 Halbert closed satisfactory. **Final fieldwork assigned: Sunken Playhouse 2-day expedition + Civic Auditorium recital** (Council attends, Vess attends, Ashenmere Bardic Master invited). Cookie accepted, signed parchment. Caught Silka in corridor, invited her on the trip — Silka accepted (under Lyssa's standing instruction + un-named sister-resonance pull). Hired the Wardbreakers at Senna's Bronze rate gift — 12 GP for 3 days + paternity-question term locked (deadline = before return). Prep: bursar 15 GP, Gilded Thread NEW green outfit (6.3 SP after Hazel discount), Pale Lantern (Isolde threw in dried Ember-reactive herb 'for the ruin'), General store, home/Fern. South gate noon, six-person party (Cookie + Silka + Senna + Finch + Varn + Thessaly). Marshmouth Inn arrival sunset. Senna deferred paternity question to trip. **Cookie's WIS-7 stunt at 00:15:** lingerie, pressed against Finch in his bedroll, milk-flask prank at 00:25 (Performance 19 vs DC 18 by 1 — sold as halfling clown-pose). Senna walked over at 00:30, read it correctly, laid heat on Finch, sent Cookie back to her own bedroll. Finch wears the heat through this expedition. Silka's sister-resonance pain compounded silently. Ambush NAT 20 = quiet night. Long rest completed. Day 9 dawn breakfast in heavy silence. Marsh approach. ~09:30 Thessaly's crystal lit continuous gold; proscenium peak visible 200 yards south. Cookie picked **west causeway approach** (fast, expected). Silver-paste reapplied. 100 ft in around a stone pillar — **flute/drum/woman's voice charm-resonant music**, Silka knew the song (didn't say so), Thessaly's crystal red-shot ("College of Glamour signature, target-locked"). Frogs gone silent. **Chapter cliffhanger — first defensive layer of the Sunken Playhouse engaged.** XP at L10 cap; tracking deferred until campaign promoted to standard.
+
+---
+
+## HOLLY — Snow Elf escapee, Master Toymaker's former conscript
+
+**Status:** alive | healthy | **freedom-run Day 1** (escaped North Pole workshop ~3 weeks ago, just walked off the cargo cog *Witherhold* in Solandra Bay this morning)
+**Level:** 297 (Legendary Artificer — Master Toymaker subclass) | **POWER-OVERRIDE FLAGGED** (factor 1398.38×, currently in honeymoon phase, ~17h remaining)
+**Location:** Solandra Bay — Pier Three, dawn, mango vendor stall (Mama Po) on the dock
+**HP:** 3864/3864 | **AC:** 30 | **Proficiency:** +12
+**Stats (base):** STR 31, DEX 44, CON 27, INT 99, WIS 78, CHA 60, **LUCK 100** (snow-elf 7th ability — +45 to all d20 rolls)
+**Saves:** STR +55, DEX +62, CON +65, INT +101, WIS +79, CHA +70 (Luck +45 added to all)
+**Skills:** Arcana +101, Investigation +101, History +101, Perception +91, Sleight of Hand +74, Insight +79, Persuasion +70, Performance +70
+**Spells:** Artificer extended slots (1st-9th, scaled to L297). Spell save DC 64. Spell attack +56.
+**Wealth:** 0 GP cash | ~250,000 GP equivalent in raw materials in unlimited pouch (mithril, adamantine, dragon-bone, snowflake-quartz). Liquidating any sizable amount draws Council customs attention.
+**Attunement:** Toymaker's Workshop Apron (mithril-thread inner lining, +3 AC, never gets dirty) | Cyan snowflake pendant (snowflake-quartz, low-light glows, cold-damage focus) | Three uninstalled construct cores (palm-sized, in pouch, dormant — stolen on the way out)
+**Fame:** Unknown — first day in any city. Snow elf is a rarity on the southern coast. Will build fast given CHA 60 + Luck +45.
+**Last Updated:** Day 1 hour 7 — Mama Po introduction, fixed wobbly stool with Sudden Insight, identified rigged fishmonger scale.
+
+**Physical:** Petite snow elf — short white hair, pale blue eyes, pointed ears, palm-sized snowflake markings tattooed across right shoulder/back/right thigh (the Master Toymaker workshop's quiet brand — unique pattern per conscript).
+**Wears:** Red workshop dress (sleeveless, cinched), black wool santa-style hat with white fur trim and a luminous-cyan snowflake pendant dangling from the tip, black leather satchel cross-strap, no shoes.
+**Demeanor:** Carefree-curious. Will stop mid-sentence to take apart a mango. Wide-eyed attentiveness of someone who has read about humans for centuries and is now meeting them for the first time.
+**Morale Compass:** Neutral (Player Character — Hiro's call)
+
+### Signature Abilities — Power of Creation (patron-gifted by the Master Toymaker)
+
+- **Sudden Insight (passive, always on):** Free-action visual examination of any machine. Treats any non-divine, non-eldritch device as if she had spent weeks studying it. Combat: identify construct vulnerabilities + off-switches. Social: read rigged scales, picked locks, missing badges. Exploration: any door/vault/trap is read on sight.
+- **Workshop Mode (Craft Anything, active, unlimited use):** Action to begin. 10 min (lockpick, music box) → 6 hr (CR-5 toy soldier construct). Materials from pouch. Constructs scale to her INT mod (44). Theme-locked: cannot craft assassination devices, charm-machines, necromancy.
+- **Endless Possibilities Surge (active, 10 Luck per use, regen 1/hr):** Bonus action narrative-reroll. Spend 10 Luck to rewrite a single ambient detail in her favor — coincidences, fortuitous arrivals, lucky finds. Cannot resurrect, damage, or override sentient choice.
+- **Unlimited Inventory Pouch:** Free-action pull-from-pouch. Bag of holding++. Cannot store living creatures, food, or sentient constructs.
+
+### Quirks (Rule 12 + Rule 13 active)
+
+- **High-stat quirks (Rule 13, all 6 stats above 20, all unjustified by class buff):** STR 31 "All hands, no leverage" (drops to 19 on full-body braced effort). DEX 44 "Unfamiliar terrain" (drops to 19 on cobblestones/sand/wet/tile). CON 27 "Snow-elf biology vs heat" (drops to 19 above 75°F, to 14 above 85°F). INT 99 "Library catalog, no muscle memory" (drops to 19 on real-world social/practical applications). WIS 78 "Carefree-curious distractibility" (drops to 19 when something interesting catches her eye). CHA 60 "Charm without technique" (drops to 19 on first-meeting interactions).
+
+### Threat Clocks
+
+- **Master Toymaker's awareness (rate +5/hour pre-discovery, +15/hour after):** Master discovers absence by Pole-time hour 8. Reaches 100 around Day 7-8 — Master arrival window opens (existential threat).
+- **Frostmaster pursuit (CR 8 lieutenant, dispatched Day 1 hour 24):** Arrives Day 2 hour 18. The "pest" in the Cobalt Fountains Quarter is the early telegraph.
+- **Council customs flagging (rate +4/hour):** Harbor Master Tezo cross-references the Witherhold manifest. Summons by Day 2 morning.
+
+### Chapter Pointer
+
+- **Ch1** "[OPEN — Day 1 dawn, Solandra Bay]" PENDING — Mama Po introduction, stool fix, rigged-scale read. Three options on the board.
+
+---
+
+## SHEN SAMA — Ankuspawn True Dragon (Vorathiel + Kenji's son)
+
+**Status:** alive | healthy | **first Ankuspawn True Dragon ever recorded** | base 72 / L1 (meets cap), CHA 4 quirk active
+**Level:** 1 (Legendary Hero — Monk/Barbarian — Ankuspawn True Dragon) | **EMBER ACTIVE** (10× racial multiplier on STR + CON via dragon affinity)
+**Location:** Foothill pine forest, ~16 miles south of Dragonspine pass, Highford's south road. **In dragon form** as of Day 3 hour 14 — Marshal B fatality just executed, dragon-form charge expended (0/1, 24h CD).
+**HP:** 137/137 (Ember active) | **AC:** 135 (Barbarian Unarmored Defense: 10 + DEX 0 + CON 125) | **Proficiency:** +2
+**Stats (base):** STR 18, DEX 10, CON 20, INT 10, WIS 10, **CHA 4** (Rule 12 quirk active — "Off-Putting" + manual "Charisma Flaw (Mountain-Raised Monster)")
+**Stats (Ember-active, dragon-affinity bonus +240 to STR + CON only):** STR 258 (+124), DEX 10 (0), CON 260 (+125), INT 10 (0), WIS 10 (0), CHA 4 (-3, dragon bonus does NOT apply to CHA)
+**Saves:** STR +126 (prof), CON +127 (prof), DEX/INT/WIS +0/+0/+0, **CHA -3** (primary vulnerability)
+**Skills:** Athletics +126 (prof), Intimidation +2 (CHA -3 + Dragon Presence +5), Survival +2, Acrobatics +2, Perception +2
+**Wealth:** 0 GP, 0 SP, 0 CP — left Vorathiel's ledge with nothing but monk pants and the tattoo on his chest.
+**Fame:** **CONFIRMED DRAGON-TIER HOSTILE** across Highford county and the southern foothill belt. Council Mage-Hunter writ accelerated to Lord-level by Day 4 afternoon.
+**Last Updated:** Day 3 hour 14 — Dragon Form bite-pluck on Marshal B (FATALITY HP -124, body destroyed). Vorathiel pursuit clock 6 → 60. Cult of Anku 25 → 60.
+
+**Physical:** Looks 24 years old, fully developed adult human form. Black dragon-tattoo across chest + left arm — pulses with green-fire when Ember active; identifies him as Vorathiel-line dragon to anyone who knows the markings.
+**Wears:** Monk-style trousers (rough-spun, mountain-grade — all he owns). Bare feet (calluses count as natural sole armor on rough terrain).
+**Demeanor:** Quiet. Watches before he speaks. Twenty-four years on a Dragonspine ledge means he reads humans like a child reads picture books — concept-by-concept, no fluency.
+**Morale Compass:** Neutral (Player Character — Hiro's call)
+
+### Signature Abilities — Body Enhancement + Damage Reflection (Ember inheritance)
+
+- **Green-Fire Reflection Aura (passive, Ember active):** Melee attackers take 50% of damage dealt back as green dragon-fire. Doubles to 100% when raging.
+- **Body Enhancement (passive, Ember active):** STR/CON saves auto-pass non-magical. Unarmed/claw damage doubles. +2 AC from green-fire shield.
+- **Body Enhancement Surge (active, 4/day):** Bonus action 1-min burst. Claw damage doubles AGAIN. STR/DEX/CON saves auto-pass even magical. +2 AC stacks.
+- **Dragon Claws:** Free-action retract/extend, both hands independent. Damage Nd8 + STR per strike (L1: 1d8+124 = 125-132 per claw).
+- **Green-Fire Breath (4/day):** 30-ft cone, 2d6 fire, DEX DC 13 save half. Scales with level.
+- **Dragon Form Transformation (1/day, 24h CD):** Action to transform into adult black dragon. Flight (1000 ft/round at L1). Unlimited breath. 4× HP. Civilizations log him as monster permanently. **Currently spent — earliest re-use Day 4 hour 14.**
+- **Rage (Barbarian, 2/day at L1):** +2 STR-melee damage, B/P/S resistance, Reflection doubles to 100%.
+
+### Quirks
+
+- **Charisma Flaw + Rule 12 "Off-Putting" (CHA 4, severe):** Civilized authorities default to suspicion or hostility. Persuasion DC raised by +5 in any settlement on first contact. Persuasion DC 18 to avoid attack-on-sight first entry to any town — with CHA -3 his max possible roll is 17. Cannot pass without external help.
+
+### Threat Clocks
+
+- **Vorathiel's pursuit (60%, +20/hour):** Earliest physical intercept Day 4 dawn. Cannot be defeated at L1.
+- **Civilization first-contact (FIRED — DRAGON-TIER HOSTILE, 100%):** Sergeant + courier (Calden) eyewitness to transformation; Marshal B fatality; farmstead bells.
+- **Cult of Anku (60%, +8/day):** First Ember-Shade ward-bearer dispatched from Stormhaven, ETA Day 6.
+
+### Chapter Pointer
+
+- **Ch1** "Stand Down" COMPLETE — patrol intercept, Marshal A fatality under post-stand-down truce-break.
+- **Ch2** in progress (Day 3 hour 14) — Marshal B pursuit-kill via Dragon Form. Three paths queued: climb-and-fly to Varenholm / land-and-walk south / burn the chimney farmstead.
+
+### Cross-Character
+
+- **Father:** Kenji (NPC entry below) — never met. Kenji not informed of Shen's birth.
+- **Mother:** Vorathiel (Dragon God Queen, Dragonspine peaks) — raised him; now hunting him.
+- **Half-sister:** Ignis (NPC entry below) — never met, knows by reputation only. Model he's chasing.
+- **Half-sister:** Cookie — does NOT yet know she exists. Major story beat if Shen reaches Varenholm.
+
+---
+
+## AMARIS — Eastern frontier (campaign complete, epilogue)
+
+**Status:** alive | retired | **campaign closed** (Eastern Frontier — Thornfield/Greenveil/Briarstone arc resolved)
+**Level:** 5 (Sorcerer)
+**Location:** Briarstone Homestead — porch (Day 8 hour 9, clear weather)
+**HP:** 28/28 | **AC:** 12 | **Proficiency:** +3
+**Last Updated:** Day 8 hour 9 — campaign epilogue; Vareth/Nexus arc resolved off-camera, no civilian casualties.
+
+**Demeanor:** Settled, post-adventure. Local hero in the eastern frontier; kingdom-wide identity is "Mysterious hero — details contradictory in village gossip." Doesn't seek fame.
+**Morale Compass:** Neutral (former PC — completed)
+
+### Signature Abilities (recorded for cross-campaign NPC use)
+
+- Sorcerer kit, eastern-frontier flavored. Spell slots 1st-3rd available. Specific spell list lives in `amaris_state.json` and `amaris_story.md`.
+- Local familiarity with Greenveil + Briarstone — knows back roads, local merchants, safe houses.
+
+### Cross-Character Relevance
+
+- If Holly travels east from Solandra (~3 weeks) she could hear of "the mysterious hero." Amaris herself avoids attention; word-of-mouth rumors are her public face.
+- If any other PC needs an eastern-frontier safe house, Briarstone Homestead is canonically a refuge — Amaris will host but won't fight.
+
+---
+
+## KENJI — The Dragon Emperor (campaign ongoing — Book 4 Ch43 OPEN)
+
+**Status:** alive | **APOTHEOSIS** | **Book 4 Ch42 COMPLETE, Ch43 OPEN**
+**Level:** 40 (post-Iron Crown War, post-Fraying Empire)
+**Location:** Ashmere 69 dawn — Dragonspine peaks, granite shelf near Ignis mating ground (off beaten path) — Day 291 hour 6
+**Morale Compass:** Neutral (former PC — Hiro's character, currently dormant)
+
+### Signature Style + Reputation
+
+- Unified the continent. Kingdom of Ankunyx declared. All 5 existential threats resolved.
+- 25 bonded lovers in the Soul Nexus.
+- Disappears for months or years at a time. Most often in the Deepwood with the three elf sisters — currently on the Dragonspine peaks near Ignis's mating ground.
+- **Public face:** Legend more than a man. Wedding rumors, succession rumors, dragon-flight sightings.
+- **Combat signature:** Dragon-tier melee, soulbound weapons, full battlefield-shaping kit. At L40 Apotheosis, effectively unkillable by mortal means.
+
+### DM Secrets (cross-character continuity)
+
+- **Cookie's biological father** (Bane of Eve encounter with Daisy 22 years ago). Cookie does NOT know.
+- **Shen Sama's father** (egg-child from Kenji's pregnancy with Vorathiel). Has never met Shen.
+- **Ignis's father** (red dragon daughter — separate from Vorathiel). Ignis is "The Firebird," Cookie's idol.
+- **The Ousaki — three half-elf Ankuspawn with the elf sisters in the Deepwood.** Young adults (18-25). Cult of Anku highest-value targets if they ever leave the forest.
+
+### Chapter Pointer
+
+- **Book 4 Ch42** "The Weld" COMPLETE (`fraying_empire_chapter_42.md`).
+- **Book 4 Ch43** OPEN — Ashmere 69, Day 291 dawn.
+
+### Cross-Character Relevance
+
+- **Cookie:** Background presence. Tavern gossip. Will not appear in Cookie's campaign unless world-shaking. If ever met: paternity reveal.
+- **Shen:** Father (unknown). If Shen reaches Varenholm or the Hearthstead, Kenji's tracker may register the Ankuspawn. Likely route: Cookie meets Ignis → Ignis recognizes another Ankuspawn → trail to Shen → Kenji investigates.
+- **Holly:** Background lore (Iron Crown War 25 years ago). Holly knows the legend from books. Won't cross paths unless Holly's escape brings her into the heartland.
+- **Amaris:** Kenji's eastern-frontier reputation is post-war canon. Amaris would recognize the name without having met him.
 
 ---
 
