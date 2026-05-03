@@ -8,9 +8,10 @@ Usage:
     python gamemode.py [--character <name>] [player action text...]
 
 Examples:
+    python gamemode.py --character shen_sama
     python gamemode.py --character cookie help with spiders
     python gamemode.py --character cookie engage spiders with tai chi
-    python gamemode.py                          # defaults to kenji
+    python gamemode.py                          # defaults to kenji (manifests/kenji.json)
 """
 
 import json
@@ -1997,7 +1998,8 @@ def gamemode(character: str = "kenji", player_action: str = "",
     Parameters
     ----------
     character : str
-        Active character (kenji, cookie, ...).
+        Active character: manifest basename without `.json`, e.g. kenji, cookie,
+        shen_sama, holly, amaris (resolved via ``resolve_state_file``).
     player_action : str
         Player input text for this turn (drives combat detection / scene routing).
     audit : bool

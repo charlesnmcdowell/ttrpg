@@ -6,6 +6,53 @@
 
 ---
 
+## SPEED BUDGET — per turn vs chapter close (READ THIS FIRST)
+
+The dashboard streams Claude's narration straight to the player. To keep
+play snappy (target end-to-end ≤10 s per turn), **per-turn work is
+lightweight only**. The heavy bookkeeping batches at chapter close.
+
+**PER TURN — cheap operations only.** Anything in this list is fine to
+run after every player action:
+
+| Allowed per turn | Why |
+|------------------|-----|
+| `python _dm_turn.py tick` (or `tick N`) | advance hour, save state |
+| `python _dm_turn.py move <loc>` | location update, save |
+| `python _dm_turn.py rel / npc / squad / clock / gold / slot / charge / buff / debuff / quest / event` | single-field state mutations + save |
+| `python _dm_turn.py eat / rest` | meal/rest pipeline + save |
+| `python _dm_turn.py dashboard` | print-only, no save |
+| `python ttrpg_game_engine.py skill ...` | a single die roll |
+
+**DO NOT RUN PER TURN — defer to chapter close.** These pipelines are
+expensive (file scans, cross-character I/O, full validation passes) and
+will put per-turn latency well above the 10 s target if invoked every
+action. Run them ONCE when the chapter ends:
+
+| Save for chapter close | Cost driver |
+|------------------------|-------------|
+| `python _dm_turn.py gamemode [action]` | full 6-step boot pipeline + GAMEMODE_REPORT.json |
+| `python _cross_character_sync.py` | reads every character's state, writes `_world_cross_references` block on each |
+| `python continuity_engine.py <name>` | full campaign load + `check_engine()` validation |
+| `python chapter_close.py <file>` | chapter receipt processing — only at actual chapter end |
+| `python _chapter_close_check.py` | counts paragraphs since last close — End Game button does this for you |
+| `python _dm_turn.py brief` | regenerates AI_CONTEXT.md (file write + scan) — chapter-close cadence is enough |
+
+**HOW THE DASHBOARD HELPS.** `kenji_gui.py` now tracks turns since the
+last chapter close (constant `AUTO_CHAPTER_CLOSE_AFTER`, default 18). At
+the threshold it pops a non-blocking dialog offering to run the End Game
+flow. The dialog's success message prints the exact `_dm_turn.py gamemode`
++ `_cross_character_sync.py` commands you should run from a terminal
+right after, so the heavy pipelines fire once per chapter — not once
+per turn.
+
+If the player declines the auto-prompt, it re-offers every
+`AUTO_CHAPTER_CLOSE_REPROMPT` (default 5) additional turns rather than
+every turn. Both constants are at the top of `kenji_gui.py` if you want
+to retune for shorter/longer chapter pacing.
+
+---
+
 ## AVAILABLE SYSTEMS — USE THEM
 
 | # | System | File | What it does |

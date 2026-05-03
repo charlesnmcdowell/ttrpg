@@ -27,11 +27,13 @@ cd ttrpg
 
 ## 3. Pick your path (~30 sec to choose)
 
-### A. **Continue an existing campaign** (Cookie / Kenji / Amaris)
+### A. **Continue an existing campaign** (Cookie / Holly / Shen Sama / Kenji / Amaris)
 
 ```bash
 cd Kenji/Game\ init\ files
-python gamemode.py --character cookie
+python gamemode.py --character cookie       # starter-arc bard
+python gamemode.py --character shen_sama    # dragon road-movie arc
+python gamemode.py --character kenji        # kenji manifest → kenji_state.json
 ```
 
 You'll see:
@@ -133,7 +135,7 @@ Engine bug fixed in commits after this version. Pull latest from origin/main.
 ```bash
 pip install customtkinter
 cd Kenji/Game\ init\ files
-python kenji_gui.py --character cookie
+python kenji_gui.py --character cookie        # or: shen_sama, holly, amaris, kenji
 ```
 
 Live state dashboard. Reads the same JSON the CLI does. The `--character` flag resolves a manifest under `Kenji/Game init files/manifests/`.

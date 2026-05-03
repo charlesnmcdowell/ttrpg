@@ -169,8 +169,8 @@
   "_chapter_title": "[Eastern Frontier — campaign in progress]",
   "_chapter_history": [],
   "_world_cross_references": {
-    "_rule": "Auto-built by _cross_character_sync.py - this is what's currently happening with the OTHER PCs in the world. The loaded character may encounter them as NPCs, hear about them in tavern gossip, or be affected by their actions. Synced at the timestamp below; re-run sync after any chapter close in any campaign to refresh.",
-    "synced_at": "2026-05-02T20:50:39",
+    "_rule": "Auto-built by _cross_character_sync.py — this is what's currently happening with the OTHER PCs in the world. The loaded character may encounter them as NPCs, hear about them in tavern gossip, or be affected by their actions. Synced at the timestamp below; re-run sync after any chapter close in any campaign to refresh. The dashboard Narrative tab reads this block directly; sync NEVER modifies _narrative_summary so hand-written content is always safe.",
+    "synced_at": "2026-05-03T09:03:39",
     "other_characters": {
       "Cookie": {
         "name": "Cookie",
@@ -194,7 +194,7 @@
         "status": "active (mid-chapter)",
         "chapter": 1,
         "chapter_status": "PENDING",
-        "summary": "Holly (L297, active (mid-chapter)) - Day 1 hour 7, Solandra Bay — Pier Three, dawn, the Witherhold cargo cog moored behind her. Man - Ch1 '[OPEN — Day 1 dawn, Solandra Bay]' [PENDING] - Day 1 dawn, Solandra Bay, Pier Three. Holly has just walked off the Witherhold gangplank. Mango vendor has called out to"
+        "summary": "Holly (L297, active (mid-chapter)) - Day 1 hour 7, Solandra Bay — Pier Three, dawn, the Witherhold cargo cog moored behind her. Man - Ch1 '[OPEN — Day 1 dawn, Solandra Bay]' [PENDING] - Day 1 hour 7 — Solandra Bay Pier 3. Trade closed with Mama Po: rigged-scale info delivered quietly (longshoremen lost in"
       },
       "Kenji": {
         "name": "Kenji",
@@ -211,14 +211,14 @@
       "Shen Sama": {
         "name": "Shen Sama",
         "level": 1,
-        "location": "Foothill pine forest, ~16 miles south of Dragonspine pass on Highford's south road (Day 3 mid-afternoon)",
+        "location": "Deep pine forest, ~5 miles south of bell-farmstead, half-mile west of Highford south road, on east-west goat-track approach (Day 3 late afternoon turning evening). Two unnamed shepherds frozen on the track 20 paces ahead, looking north toward the road, have not seen Shen.",
         "day": 3,
-        "hour": 14,
+        "hour": 17,
         "hp": "137/137",
         "status": "active",
         "chapter": 1,
         "chapter_status": "COMPLETE",
-        "summary": "Shen Sama (L1, active) - Day 3 hour 14, Foothill pine forest, ~16 miles south of Dragonspine pass on Highford's south ro - Ch1 'Stand Down' [COMPLETE] - Day 3 hour 14 — Shen in dragon form over Highford foothill belt; Marshal B fatality logged; bells ringing at chimney far"
+        "summary": "Shen Sama (L1, active) - Day 3 hour 17, Deep pine forest, ~5 miles south of bell-farmstead, half-mile west of Highford s - Ch1 'Stand Down' [COMPLETE] - Day 3 hour 17 — Dragon Form dismissed in deep pines south of bell-farmstead; Shen in human form, 1 level of exhaustion a"
       }
     }
   }

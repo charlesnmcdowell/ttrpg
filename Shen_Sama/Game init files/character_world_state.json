@@ -34,7 +34,7 @@
   "locations": {
     "_rule": "Every new character adds exactly 3 locations to the world map.",
     "home_base": {
-      "name": "[NAME — Shen Sama's home base]",
+      "name": "Vorathiel's rookery shelf — Dragonspine",
       "type": "",
       "from_worlds_middle": "mining, dwarven influence, dragon territory nearby",
       "from_crown_realm": "border — dwarven/dragon jurisdiction overlaps",
@@ -42,26 +42,26 @@
       "population_or_scale": "",
       "nearest_named_anchor": "Dragonspine",
       "travel_time_to_major_hub": "2-3 weeks to Varenholm, mountain passes",
-      "connection_to_character": "Tied to Shen Sama's background: Son of Vorathiel (Dragon God Queen) and Kenji (Dragon Emperor) — the egg-child from Kenji's pregnanc",
+      "connection_to_character": "Tied to Shen Sama's background: son of Vorathiel and Kenji — the egg-child from Kenji's pregnancy with Vorathiel; natal ground on the Dragonspine peaks.",
       "key_npcs_here": [],
-      "registry_entry": "[One sentence — Shen Sama's starting settlement near Dragonspine]"
+      "registry_entry": "High natal ledge above the Dragonspine peaks where Shen hatched and was raised under Vorathiel's law."
     },
     "adventure_site": {
-      "name": "[NAME — dangerous site near Dragonspine]",
+      "name": "Highford south road — patrol corridor",
       "type": "",
       "distance_from_home_base": "1-3 days travel",
       "terrain_and_vibe": "",
       "why_dangerous": "Base of operations for Cult Leader (Warlock/Cleric). Threatens Shen Sama's goal: Break free from Vorathiel today, his 24th birthday. Make for Varenholm, join the",
       "key_npcs_here": [],
-      "registry_entry": "[One sentence — Cult Leader's lair near Dragonspine]"
+      "registry_entry": "Southbound crown road from Dragonspine into Highford's foothills — marshal patrols and bell-network fallout after Shen's emergence."
     },
     "discovery_location": {
-      "name": "[NAME — hidden/forgotten site in mountains region]",
+      "name": "Eastern foothill ruins — dormant portal arch",
       "type": "",
       "connection_to_existing_lore": "Pre-kingdom portal infrastructure",
       "what_the_player_learns_here": "An ancient stone archway in the ruins hums faintly at dawn. A dwarf trader mentions the old portal network 'had more nodes than the maps show.'",
       "key_npcs_here": [],
-      "registry_entry": "[One sentence — discovery site, connects to Construct portal network — forgotten node]"
+      "registry_entry": "Forgotten construct-era stone archway in the eastern foothills — candidate node on the old portal lattice (lore seed)."
     }
   },
   "dragon_inheritance": {
@@ -370,14 +370,16 @@
     "temp_hp": 0,
     "ac": 135,
     "day": 3,
-    "hour": 14,
-    "location": "Foothill pine forest, ~16 miles south of Dragonspine pass on Highford's south road (Day 3 mid-afternoon)",
-    "weather": "Pine forest, mid-afternoon, resin-warm air, cool wind from the north",
+    "hour": 17,
+    "location": "Deep pine forest, ~5 miles south of bell-farmstead, half-mile west of Highford south road, on east-west goat-track approach (Day 3 late afternoon turning evening). Two unnamed shepherds frozen on the track 20 paces ahead, looking north toward the road, have not seen Shen.",
+    "weather": "Late-afternoon pine forest, wind shifted from the south now, evening light angling, fern-deep cover",
     "gold": 0,
     "silver": 0,
     "copper": 0,
     "meals": 0,
     "hours_since_meal": 0,
+    "exhaustion": 1,
+    "_exhaustion_note": "1 level from Dragon Form dismissal (per ember_inheritance.abilities.surge.exhaustion_cost). Effect at L1: disadvantage on ability checks. Cleared by long rest.",
     "spell_slots": {
       "_comment": "Shen does not use spell slots — he's a Monk/Barbarian dragon. Combat resources are tracked under `charges` and `class_features`."
     },
@@ -638,8 +640,8 @@
       }
     ],
     "events_active": {},
-    "canon_pointer": "Day 3 hour 14 — Shen in dragon form over Highford foothill belt; Marshal B fatality logged; bells ringing at chimney farmstead; sergeant on slate. Dragon Form 0/1 (24h CD). Vorathiel pursuit 60%, intercept Day 4 dawn earliest. Cult of Anku 60%, ward-bearer ETA Day 6. Civilization first-contact UPGRADED to DRAGON-TIER HOSTILE. Boss-eligibility threshold met.",
-    "story_beat": "Day 3 mid-afternoon. Shen activated Dragon Form in open foothill country, flew three switchbacks south, and bite-plucked Marshal B from horseback mid-flight. Sergeant + courier alive on the road behind, recording on slate. Farmstead bells ringing 1.25 miles south. Civilization first-contact UPGRADED from 'monster' to 'CONFIRMED DRAGON-TIER HOSTILE.' Vorathiel pursuit clock 60% — earliest intercept Day 4 dawn. Cult of Anku 60% — confirmed Ankuspawn priority EXTREME. Boss-eligibility threshold met. Dragon Form on 24-hour cooldown.",
+    "canon_pointer": "Day 3 hour 17 — Dragon Form dismissed in deep pines south of bell-farmstead; Shen in human form, 1 level of exhaustion accrued (disadvantage on physical checks until long rest), walking south parallel to Highford road, half-mile west of it. Two unnamed shepherds frozen on east-west goat-track 20 paces ahead, looking the wrong direction. Vorathiel pursuit 60%, intercept Day 4 dawn earliest. Cult of Anku 60%, ward-bearer ETA Day 6. Civilization first-contact DRAGON-TIER HOSTILE.",
+    "story_beat": "Day 3 hour 17 (late afternoon turning evening). Shen banked south after the Marshal B bite-pluck, set down in a clearing at the base of a granite knuckle deep in unlogged pine, and dismissed Dragon Form — wings/scales/jaw retracted back into the chest-glyph. 1 level of exhaustion accrued (disadvantage on physical ability checks until long rest). Walked south through fern-deep pine cover, half-mile west of the Highford road, three more miles south. Now stopped at the edge of an east-west goat-track where two unnamed shepherds are arguing about the alarm-bell pattern (one says dragon-bells from the morning, the other says bone-pattern for kingdom-business riders). They're looking the wrong direction (north toward the road) and have not seen Shen.",
     "narrative_notes": [
       "First Ankuspawn True Dragon recorded — unique heritage, mechanical implications scaled per ember_inheritance.true_dragon_bonus.",
       "Cross-campaign ties: father Kenji (retired at the Hearthstead post-Book-4); mother Vorathiel (Dragon God Queen, Dragonspine peaks); half-sister Ignis (famous, location unknown to Shen); half-sister Cookie (Master of Voice in Varenholm — Shen does NOT yet know she exists).",
@@ -883,8 +885,8 @@
     ]
   },
   "_world_cross_references": {
-    "_rule": "Auto-built by _cross_character_sync.py - this is what's currently happening with the OTHER PCs in the world. The loaded character may encounter them as NPCs, hear about them in tavern gossip, or be affected by their actions. Synced at the timestamp below; re-run sync after any chapter close in any campaign to refresh.",
-    "synced_at": "2026-05-02T20:50:39",
+    "_rule": "Auto-built by _cross_character_sync.py — this is what's currently happening with the OTHER PCs in the world. The loaded character may encounter them as NPCs, hear about them in tavern gossip, or be affected by their actions. Synced at the timestamp below; re-run sync after any chapter close in any campaign to refresh. The dashboard Narrative tab reads this block directly; sync NEVER modifies _narrative_summary so hand-written content is always safe.",
+    "synced_at": "2026-05-03T09:03:39",
     "other_characters": {
       "Amaris": {
         "name": "Amaris",
@@ -920,7 +922,7 @@
         "status": "active (mid-chapter)",
         "chapter": 1,
         "chapter_status": "PENDING",
-        "summary": "Holly (L297, active (mid-chapter)) - Day 1 hour 7, Solandra Bay — Pier Three, dawn, the Witherhold cargo cog moored behind her. Man - Ch1 '[OPEN — Day 1 dawn, Solandra Bay]' [PENDING] - Day 1 dawn, Solandra Bay, Pier Three. Holly has just walked off the Witherhold gangplank. Mango vendor has called out to"
+        "summary": "Holly (L297, active (mid-chapter)) - Day 1 hour 7, Solandra Bay — Pier Three, dawn, the Witherhold cargo cog moored behind her. Man - Ch1 '[OPEN — Day 1 dawn, Solandra Bay]' [PENDING] - Day 1 hour 7 — Solandra Bay Pier 3. Trade closed with Mama Po: rigged-scale info delivered quietly (longshoremen lost in"
       },
       "Kenji": {
         "name": "Kenji",

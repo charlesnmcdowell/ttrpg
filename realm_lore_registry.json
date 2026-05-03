@@ -275,28 +275,28 @@
       "status": "active"
     },
     {
-      "name": "[NAME — Shen Sama's home base]",
+      "name": "Vorathiel's rookery shelf — Dragonspine",
       "type": "home_base",
       "character": "Shen Sama",
-      "registry_entry": "[One sentence — Shen Sama's starting settlement near Dragonspine]",
+      "registry_entry": "High natal ledge above the Dragonspine peaks where Shen hatched and was raised under Vorathiel's law.",
       "from_crown_realm": "border — dwarven/dragon jurisdiction overlaps",
       "added_date": "2026-05-02",
       "status": "active"
     },
     {
-      "name": "[NAME — dangerous site near Dragonspine]",
+      "name": "Highford south road — patrol corridor",
       "type": "adventure_site",
       "character": "Shen Sama",
-      "registry_entry": "[One sentence — Cult Leader's lair near Dragonspine]",
+      "registry_entry": "Southbound crown road from Dragonspine into Highford's foothills — lantern relays, marshal patrols, and bell-network panic after Shen's emergence.",
       "from_crown_realm": "",
       "added_date": "2026-05-02",
       "status": "active"
     },
     {
-      "name": "[NAME — hidden/forgotten site in mountains region]",
+      "name": "Eastern foothill ruins — dormant portal arch",
       "type": "discovery_location",
       "character": "Shen Sama",
-      "registry_entry": "[One sentence — discovery site, connects to Construct portal network — forgotten node]",
+      "registry_entry": "Forgotten construct-era stone archway in the eastern foothills; hums faintly at dawn — candidate node on the old portal lattice.",
       "from_crown_realm": "",
       "added_date": "2026-05-02",
       "status": "active"

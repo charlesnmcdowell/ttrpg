@@ -67,7 +67,7 @@ The AI_CONTEXT file is large but most of it is stable reference (stats, relation
 
 ## Combined universe (parent folder)
 
-This campaign is **one arc in a shared realm** with the Amaris campaign and any future PCs. Realm-wide policy, lore registry, and new-character templates live one level up:
+This campaign is **one arc in a shared realm** with the Amaris campaign, other living PCs (Cookie, Shen Sama, Holly, …), and any future heroes. Realm-wide policy, lore registry, and new-character templates live one level up:
 
 - `../../README.md` — hub for `TTRPG/` (universe docs, folder map, how to start a new hero)
 - `../../shared_world_continuity.md` — how regions relate; Amaris vs Kenji distance and news

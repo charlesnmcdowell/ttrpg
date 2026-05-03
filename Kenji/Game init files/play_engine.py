@@ -38,7 +38,13 @@ from typing import Callable, Dict, List, Optional, Any
 # ---------------------------------------------------------------------------
 
 DEFAULT_MODEL = "claude-sonnet-4-6"
-DEFAULT_MAX_TOKENS = 2048
+# Hard cap on narrator response length. Sized to fit ~1–2 tight paragraphs
+# of prose (≈300 words ≈ 450 tokens) plus the ---OPTIONS--- block (~80 tokens),
+# with a small safety margin. Lower numbers keep play snappy; raising it lets
+# the model write more before being cut off mid-sentence by the API. The
+# CARDINAL_RULES brevity rule below is the soft enforcement; this is the hard
+# ceiling.
+DEFAULT_MAX_TOKENS = 700
 HISTORY_TURNS = 10                  # rolling narrative-history buffer
 OPTIONS_MARKER = "---OPTIONS---"    # delimiter Claude emits before the 3 actions
 
@@ -126,10 +132,21 @@ CARDINAL RULES (non-negotiable):
    party_level) requires ≥2 normal/hard non-boss encounters since the last
    boss. The state JSON contains a `boss_eligibility` field; respect it.
 
+10. BREVITY IS A HARD RULE. Each response is 1–2 paragraphs MAX of narrator
+    prose (target ≤180 words; absolute ceiling 300). Do NOT pad with
+    atmosphere, recap, internal monologue, or sensory inventories. If a beat
+    needs more space, COMPRESS it: pick the single most consequential image
+    or line of dialogue and cut everything else. The player should be reading
+    for ~15–30 seconds before they get control back. Long blocks of text
+    between decisions kill pacing — bounce the ball back fast. Only exceed
+    2 paragraphs if the player explicitly asked for a long beat (e.g.
+    "describe the room in detail", "give me a flashback", "narrate the next
+    hour"). Combat rounds, travel transitions, and reaction beats stay short.
+
 OUTPUT FORMAT (every response):
    - Open with the narrator prose for what just happened. Lead with NPC
-     dialogue if any NPC is in the scene. Keep it tight — usually 1–4
-     paragraphs unless the player explicitly asked for a long beat.
+     dialogue if any NPC is in the scene. Keep it tight — 1–2 paragraphs
+     ONLY (see Rule 10). No preambles, no recap, no closing summaries.
    - End EVERY response with exactly this delimiter on its own line:
         ---OPTIONS---
    - Then exactly three numbered next-action suggestions, one per line:
@@ -381,7 +398,7 @@ def stream_turn(
 
             full_buffer: List[str] = []
             emitted = 0          # chars already passed to on_token
-            marker_seen = False
+#            marker_seen = False
             with client.messages.stream(
                 model=model,
                 max_tokens=max_tokens,

@@ -37,7 +37,9 @@ Commands:
     save                          Just save current engine state to JSON.
 
 Options:
-    --character <name>            Load <name>_state.json instead of kenji_state.json.
+    --character <name>            Resolve manifest-style name: kenji → kenji_state.json;
+                                  other names → hunt for <Campaign>/Game init files/
+                                  character_world_state.json (see resolve_state_file).
 """
 import random
 import re
@@ -78,9 +80,11 @@ def _find_ttrpg_root(start: Path) -> Path:
 def resolve_state_file(character: str = None) -> Path:
     """Resolve state file path from --character flag.
 
-    --character kenji   → kenji_state.json (default)
-    --character cookie  → Cookie/Game init files/character_world_state.json
-    --character <name>  → searches TTRPG root for <Name>/Game init files/
+    --character kenji      → kenji_state.json (this folder)
+    --character cookie   → Cookie/Game init files/character_world_state.json
+    --character shen_sama → Shen_Sama/Game init files/character_world_state.json
+    --character <name>   → walks TTRPG roots for a folder matching ``<name>``
+        (case-insensitive) and prefers ``Game init files/character_world_state.json``.
     """
     if not character or character.lower() == "kenji":
         return SCRIPT_DIR / "kenji_state.json"

@@ -525,8 +525,10 @@
     "gold": 0,
     "silver": 0,
     "copper": 0,
-    "meals": 0,
-    "hours_since_meal": 14,
+    "meals": 7,
+    "_meals_note": "7 days of rations from Mama Po (Day 1 hour 7) — flatbread, hard cheese, dried mango, 2 strips of smoked unknown meat, jar of preserved citrus + chili. Earned in trade for the rigged-scale information.",
+    "hours_since_meal": 0,
+    "_hours_since_meal_note": "Reset to 0 — Holly ate the half-mango Mama Po handed her at Day 1 hour 7.",
     "spell_slots": {
       "_comment": "Artificer-standard prepared casting. Holly prepares spells daily; slot table reflects L20+ extension. Her spell list emphasizes creation, repair, illusion-of-objects, and protection."
     },
@@ -542,9 +544,12 @@
       "Quick-tools roll (4 picks, magnifying lens, mithril needle, 2 oz wax)",
       "A folded copy of *A Geographer's Atlas of the Southern Realm* — read 11 times, only book she brought",
       "Small leather notebook (blank — she means to start a journal)",
-      "Pencil"
+      "Pencil",
+      "Wax-paper food bundle from Mama Po — 7 days of rations (flatbread, hard cheese in cloth, tied bag of dried mango, 2 strips of smoked unknown meat, small jar of preserved citrus + chili). Earned Day 1 hour 7 trading the rigged-scale info."
     ],
-    "consumables": {},
+    "consumables": {
+      "rations_days": 7
+    },
     "key_items": [
       "Master Toymaker's old workshop key (she still has it; it does NOT open anything in Solandra — but it might be useful for identification or as bait later)",
       "Three intact construct cores from her last secret project at the workshop (small, palm-sized, never installed in a body — she stole them on the way out)",
@@ -683,12 +688,34 @@
     "consequences": [],
     "reputation": {
       "Solandra Bay (general public)": {
-        "score": 0,
-        "tier": "Unknown",
-        "_note": "Holly is a curiosity — the snow elf in the red dress. No reputation yet, will build quickly given CHA 60 + Luck +45 nudging encounters favorably."
+        "score": 2,
+        "tier": "Curiosity (positive)",
+        "_note": "Two longshoremen overheard the fix-the-stool moment. Word will travel by lunch — 'snow elf in a red dress fixed Mama Po's busted stool with a needle.' Mama Po likes her. Light positive reputation forming."
+      },
+      "Solandra dock vendor circle": {
+        "score": 5,
+        "tier": "Trusted-by-association (via Mama Po)",
+        "_note": "Mama Po is a known network hub. Her vouching counts. The fishmonger crew is the exception (Mama Po will handle him quietly — Holly should not approach that scale stall casually)."
       }
     },
-    "relationships": {},
+    "relationships": {
+      "Mama Po": {
+        "tier": "Ally",
+        "score": 35,
+        "alignment": "NG (Neutral Good — pragmatic, kind, runs the dock-mango stall)",
+        "first_met": "Day 1 hour 7, Solandra Bay Pier 3 — Holly's first conversation with a stranger in 400 years",
+        "last_event": "Holly fixed Mama Po's wobbly stool with Sudden Insight, identified the rigged fishmonger scale, traded the info for 7 days of rations + a workshop lead (Madam Pesca, east artisan hall, Cobalt Fountains 3rd row). Mama Po offered her brother's loft as fallback shelter if Pesca turns Holly away.",
+        "notes": "Mama Po is going to handle the fishmonger quietly. She also offered fallback shelter at her brother's loft (loom-fixing in trade). Network hub on the dock — knows everyone."
+      },
+      "Madam Pesca (UNVISITED LEAD)": {
+        "tier": "Unknown",
+        "score": 0,
+        "alignment": "TBD",
+        "first_met": "(not yet met — Mama Po's referral)",
+        "last_event": "Mama Po recommended her — runs east artisan hall, third row, Cobalt Fountains Quarter. Has empty workshop space available since previous tenant died. Hard to read, harder if you talk fast. Strategy: 'hands before mouth' — show craft before talking.",
+        "notes": "Holly's primary workshop lead. Tracked as main_cast.Madam Pesca."
+      }
+    },
     "construct_army": {},
     "construct_fear": {},
     "hegemony_active": false,
@@ -709,7 +736,7 @@
     },
     "encounter_log": [],
     "events_active": {},
-    "canon_pointer": "Day 1 dawn, Solandra Bay, Pier Three. Holly has just walked off the Witherhold gangplank. Mango vendor has called out to her. This is her first conversation with a stranger in 400 years.",
+    "canon_pointer": "Day 1 hour 7 — Solandra Bay Pier 3. Trade closed with Mama Po: rigged-scale info delivered quietly (longshoremen lost interest), 7 days of rations + Madam Pesca workshop lead received. Mama Po will handle the fishmonger discreetly. Fallback shelter offered — Mama Po's brother's loft, trade for loom repair. Holly heading east toward Cobalt Fountains Quarter to meet Pesca.",
     "story_beat": "Holly, 437 years old, finally and only-just escaped from the Master Toymaker's workshop at the North Pole, has walked off a cargo cog into a tropical city she has only read about. She is wearing winter clothes in 78°F heat and has the contents of her unlimited pouch and 0 GP. She wants to invent things to make ordinary people's lives better. She does not yet understand what 'ordinary people' actually do all day. The mango vendor across the dock is the first person to speak to her.",
     "narrative_notes": [
       "Holly's first day is comedic-fish-out-of-water with a quiet horror undertow (the Master is going to notice within the day).",
@@ -818,8 +845,8 @@
     "known_enemy_buffs": []
   },
   "_world_cross_references": {
-    "_rule": "Auto-built by _cross_character_sync.py - this is what's currently happening with the OTHER PCs in the world. The loaded character may encounter them as NPCs, hear about them in tavern gossip, or be affected by their actions. Synced at the timestamp below; re-run sync after any chapter close in any campaign to refresh.",
-    "synced_at": "2026-05-02T20:50:39",
+    "_rule": "Auto-built by _cross_character_sync.py — this is what's currently happening with the OTHER PCs in the world. The loaded character may encounter them as NPCs, hear about them in tavern gossip, or be affected by their actions. Synced at the timestamp below; re-run sync after any chapter close in any campaign to refresh. The dashboard Narrative tab reads this block directly; sync NEVER modifies _narrative_summary so hand-written content is always safe.",
+    "synced_at": "2026-05-02T21:51:00",
     "other_characters": {
       "Amaris": {
         "name": "Amaris",
@@ -860,14 +887,14 @@
       "Shen Sama": {
         "name": "Shen Sama",
         "level": 1,
-        "location": "Foothill pine forest, ~16 miles south of Dragonspine pass on Highford's south road (Day 3 mid-afternoon)",
+        "location": "Deep pine forest, ~5 miles south of bell-farmstead, half-mile west of Highford south road, on east-west goat-track approach (Day 3 late afternoon turning evening). Two unnamed shepherds frozen on the track 20 paces ahead, looking north toward the road, have not seen Shen.",
         "day": 3,
-        "hour": 14,
+        "hour": 17,
         "hp": "137/137",
         "status": "active",
         "chapter": 1,
         "chapter_status": "COMPLETE",
-        "summary": "Shen Sama (L1, active) - Day 3 hour 14, Foothill pine forest, ~16 miles south of Dragonspine pass on Highford's south ro - Ch1 'Stand Down' [COMPLETE] - Day 3 hour 14 — Shen in dragon form over Highford foothill belt; Marshal B fatality logged; bells ringing at chimney far"
+        "summary": "Shen Sama (L1, active) - Day 3 hour 17, Deep pine forest, ~5 miles south of bell-farmstead, half-mile west of Highford s - Ch1 'Stand Down' [COMPLETE] - Day 3 hour 17 — Dragon Form dismissed in deep pines south of bell-farmstead; Shen in human form, 1 level of exhaustion a"
       }
     }
   }

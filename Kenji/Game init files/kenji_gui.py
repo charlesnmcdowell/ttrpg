@@ -36,6 +36,17 @@ DEFAULT_TTS_VOICE_ID = "21m00Tcm4TlvDq8ikWAM"
 DEFAULT_TTS_MODEL = "eleven_turbo_v2_5"
 TTS_PCM_RATE = 22050   # ElevenLabs supports pcm_22050 — fits in winsound WAV play
 DEFAULT_TTS_SPEED = 1.0  # Playback-rate multiplier. 1.0 = normal, 1.25 = 25% faster.
+
+# After this many player turns since the last chapter close, the
+# dashboard pops a non-blocking prompt offering to run chapter-close so
+# the heavy bookkeeping (continuity engine, cross-character sync, full
+# state mutation pipeline) batches up at the chapter boundary instead of
+# burning per-turn latency. The player can decline the prompt and keep
+# playing — we suppress re-prompts until +AUTO_CHAPTER_CLOSE_REPROMPT
+# additional turns accrue, so the dialog never spams. Lower = more
+# frequent bookkeeping windows; higher = longer uninterrupted runs.
+AUTO_CHAPTER_CLOSE_AFTER = 18
+AUTO_CHAPTER_CLOSE_REPROMPT = 5
                           # Values 0.7-1.2 are also passed to the ElevenLabs API
                           # via voice_settings.speed (their supported range).
                           # Values > 1.2 or < 0.7 use playback-rate adjustment
@@ -100,7 +111,7 @@ def _parse_cli(argv: Optional[list]) -> argparse.Namespace:
         type=str,
         default=None,
         help="Character name (looks up manifests/<name>.json in the engine folder). "
-             "Recommended: '--character cookie', '--character kenji', '--character amaris'.",
+             "Examples: cookie, holly, shen_sama, amaris, kenji (see manifests/*.json).",
     )
     p.add_argument(
         "--campaign", "-c",
@@ -375,12 +386,24 @@ class LiveDashboard(ctk.CTk):
         self._last_location = ""
         self._last_story_beat = ""
 
+        # Chapter-close pacing counters. Counter increments on every
+        # successful player turn (API or dev mode); _last_close_prompted_at
+        # records the counter value when we last popped the auto-close
+        # offer, so we don't re-prompt every single turn after threshold.
+        # Both are restored from the per-character sidecar on rehydrate so
+        # the count persists across dashboard restarts.
+        self._play_turns_since_close = 0
+        self._play_close_prompted_at = -10**9
+
         self._build_header()
         self._build_body()
 
-        # Sync the scale label to the loaded value (the label was created in _build_header).
-        if hasattr(self, "lbl_scale"):
-            self.lbl_scale.configure(text=f"{int(self._current_scale * 100)}%")
+        # Re-apply the persisted scale now that all widgets exist. The earlier
+        # set_widget_scaling() on line ~361 only handles CTk's built-in
+        # geometry scaling; _apply_scale() additionally shrinks the tab-strip
+        # font when the user runs at high scale so the 7 tab labels remain
+        # visible. Also resyncs the % indicator in the header.
+        self._apply_scale(self._current_scale)
 
         self.refresh_all()
         self._react_music()
@@ -1019,6 +1042,152 @@ class LiveDashboard(ctk.CTk):
             text = ""
         self._tts_speak(text, source="narrative")
 
+    def _on_end_game_clicked(self):
+        """End Game button — runs chapter-close-check on the loaded character.
+        Closes the chapter only if 5+ paragraphs of activity have accrued
+        since the last close (delta-based, per _chapter_close_check.py).
+        Shows the result in a dialog so the player sees what happened.
+        Does NOT auto-exit the dashboard — player can keep reviewing or close
+        the window manually."""
+        # Resolve the state file path from the loaded config.
+        try:
+            state_file = self.config.state_file
+        except Exception as e:
+            tk_messagebox.showerror(
+                "End Game — error",
+                f"Could not locate state file:\n{e}")
+            return
+        if not state_file or not state_file.exists():
+            tk_messagebox.showerror(
+                "End Game — error",
+                f"State file missing:\n{state_file}")
+            return
+
+        # Confirm the action so a misclick doesn't trigger a chapter close.
+        char_name = "?"
+        try:
+            char_name = (getattr(self.engine, "char_name", "") or "?")
+        except Exception:
+            pass
+        confirm_msg = (
+            f"End the current session for {char_name}?\n\n"
+            f"The chapter-close check will run on:\n"
+            f"  {state_file.name}\n\n"
+            f"If 5+ paragraphs of activity have accrued since the last "
+            f"chapter close (combat encounters, fired events, advanced "
+            f"threat clocks), the chapter is marked COMPLETE and a new "
+            f"chapter is opened as PENDING. Otherwise the chapter stays "
+            f"open and nothing changes.\n\n"
+            f"This does NOT close the dashboard — review the result, then "
+            f"close the window when ready."
+        )
+        if not tk_messagebox.askyesno("End Game — confirm", confirm_msg):
+            return
+
+        # Import the close-check logic at click time so a missing module
+        # surfaces here as a dialog instead of crashing the dashboard at
+        # startup. Uses the same logic the launcher's [2/4] step uses.
+        try:
+            import importlib.util
+            spec = importlib.util.spec_from_file_location(
+                "_chapter_close_check",
+                str(SCRIPT_DIR / "_chapter_close_check.py"))
+            if spec is None or spec.loader is None:
+                raise ImportError("could not load _chapter_close_check.py")
+            mod = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(mod)
+        except Exception as e:
+            tk_messagebox.showerror(
+                "End Game — module error",
+                f"Could not import _chapter_close_check.py:\n{e}\n\n"
+                f"Expected at: {SCRIPT_DIR / '_chapter_close_check.py'}")
+            return
+
+        # Read state, run the same flow as the CLI / launcher.
+        try:
+            raw = state_file.read_text(encoding="utf-8")
+            state = json.loads(raw)
+        except Exception as e:
+            tk_messagebox.showerror(
+                "End Game — state read error",
+                f"Could not parse state JSON:\n{e}")
+            return
+
+        cur_status = (state.get("_chapter_status") or "").upper()
+        if cur_status == "COMPLETE":
+            tk_messagebox.showinfo(
+                "End Game — already complete",
+                f"{char_name}'s current chapter is already marked COMPLETE.\n"
+                f"Nothing to do.")
+            return
+
+        # Run the close check.
+        baseline = mod._last_close_snapshot(state)
+        activity = mod._count_activity(state, baseline)
+        threshold = 5
+        total = activity.get("total_paragraphs", 0)
+
+        breakdown = (
+            f"Activity since last close:\n"
+            f"  - new combat encounters: {activity.get('encounters', 0)}\n"
+            f"  - fired events: {activity.get('events_fired', 0)}\n"
+            f"  - threat clocks advanced: {activity.get('clocks_advanced', 0)}\n"
+            f"  - fatalities: {activity.get('fatalities', 0)}\n"
+            f"\n"
+            f"Total paragraphs: {total}  (threshold: {threshold})\n"
+        )
+
+        if total < threshold:
+            tk_messagebox.showinfo(
+                "End Game — chapter NOT closed",
+                f"{breakdown}\n"
+                f"Below threshold — leaving the chapter OPEN.\n"
+                f"Keep playing or close the window manually; nothing was changed.")
+            return
+
+        # Threshold met — close the chapter.
+        try:
+            summary = mod._close_chapter(state, activity)
+            state_file.write_text(
+                json.dumps(state, indent=2, ensure_ascii=False) + "\n",
+                encoding="utf-8")
+        except Exception as e:
+            tk_messagebox.showerror(
+                "End Game — write error",
+                f"Close logic ran but state write failed:\n{e}\n\n"
+                f"State on disk may be inconsistent. Check the file before "
+                f"continuing.")
+            return
+
+        # Reset pacing counters now that the chapter has actually closed,
+        # so the next auto-close offer is again ~AUTO_CHAPTER_CLOSE_AFTER
+        # turns away. Persist immediately so a crash before the next turn
+        # doesn't leave a stale counter that re-prompts on first action.
+        self._play_turns_since_close = 0
+        self._play_close_prompted_at = -10**9
+        try:
+            self._play_persist_decision_point(
+                narrator_text=getattr(self, "_play_last_narrator", ""),
+                options=list(getattr(self.play_state, "current_options", []) or []),
+                player_action="",
+            )
+        except Exception:
+            pass
+
+        tk_messagebox.showinfo(
+            "End Game — chapter CLOSED",
+            f"{breakdown}\n"
+            f"Threshold met — chapter has been closed and a new chapter "
+            f"opened as PENDING.\n\n"
+            f"Summary written to _chapter_history:\n"
+            f"{summary[:400]}{'...' if len(summary) > 400 else ''}\n\n"
+            f"Next: in a terminal, run the heavy bookkeeping that needs\n"
+            f"to live at chapter boundaries:\n"
+            f"   python _dm_turn.py gamemode\n"
+            f"   python _cross_character_sync.py\n\n"
+            f"You can close the dashboard now, or keep reviewing the "
+            f"Narrative tab to see the updated recap.")
+
     def _on_tts_auto_toggle(self):
         """Toggle auto-speak; persist to config."""
         cfg = self._tts_load_config()
@@ -1270,9 +1439,12 @@ class LiveDashboard(ctk.CTk):
     # Header bar
     # ------------------------------------------------------------------
     def _build_header(self):
-        hdr = ctk.CTkFrame(self, fg_color=BG_PANEL, corner_radius=0, height=56)
+        # No fixed height / pack_propagate(False): the previous fixed 56px
+        # header clipped buttons & labels vertically when the user enlarged
+        # text via A+. Letting the frame size to its contents keeps every
+        # control fully readable at any scale or window width.
+        hdr = ctk.CTkFrame(self, fg_color=BG_PANEL, corner_radius=0)
         hdr.pack(fill="x")
-        hdr.pack_propagate(False)
 
         self.lbl_name = ctk.CTkLabel(hdr, text="", font=FONT_HEADER, text_color=GOLD)
         self.lbl_name.pack(side="left", padx=16)
@@ -1302,6 +1474,16 @@ class LiveDashboard(ctk.CTk):
         self.lbl_version = ctk.CTkLabel(hdr, text="", font=FONT_SMALL, text_color=TEXT_DIM)
         self.lbl_version.pack(side="right", padx=16)
 
+        # End Game button — runs the chapter-close check on the loaded
+        # character. Closes the chapter only if 5+ paragraphs of activity
+        # since the last close (the threshold from _chapter_close_check.py).
+        # Surfaces the result in a dialog so the player sees what happened.
+        ctk.CTkButton(hdr, text="End Game", width=80, height=28,
+                       fg_color=BG_CARD, hover_color=RED,
+                       text_color=GOLD, font=FONT_SMALL,
+                       command=self._on_end_game_clicked
+                       ).pack(side="right", padx=(4, 8))
+
         self.btn_music_toggle = ctk.CTkButton(hdr, text="♫ ON", width=55, height=28,
                                                fg_color=BG_CARD, hover_color=GOLD_DIM,
                                                text_color=GOLD, font=FONT_SMALL,
@@ -1311,7 +1493,13 @@ class LiveDashboard(ctk.CTk):
         ctk.CTkButton(hdr, text="■", width=28, height=28, fg_color=BG_CARD,
                        hover_color=RED, text_color=TEXT, font=FONT_SMALL,
                        command=self._stop_music).pack(side="right", padx=2)
-        self.lbl_now_playing = ctk.CTkLabel(hdr, text="", font=FONT_SMALL, text_color=TEXT_DIM)
+        # Cap the now-playing label so a long song title can't grow this
+        # widget and push the music / End Game / scale controls off-screen.
+        # anchor="e" right-aligns the (possibly truncated) text against the
+        # following Stop button.
+        self.lbl_now_playing = ctk.CTkLabel(hdr, text="", font=FONT_SMALL,
+                                             text_color=TEXT_DIM, anchor="e",
+                                             width=180)
         self.lbl_now_playing.pack(side="right", padx=8)
 
         # Location label LAST, with fill+expand so it takes only the leftover
@@ -1319,6 +1507,14 @@ class LiveDashboard(ctk.CTk):
         self.lbl_location = ctk.CTkLabel(hdr, text="", font=FONT_BODY,
                                           text_color=TEXT_DIM, anchor="w")
         self.lbl_location.pack(side="left", padx=16, fill="x", expand=True)
+
+        # Reflow location text when the header is resized or the global text
+        # scale changes — without this, long location strings get clipped at
+        # the right edge instead of wrapping into the available cavity.
+        def _on_loc_resize(ev, lab=self.lbl_location):
+            w = max(120, ev.width - 32)
+            lab.configure(wraplength=w)
+        self.lbl_location.bind("<Configure>", _on_loc_resize)
 
     # ------------------------------------------------------------------
     # Text-scale persistence
@@ -1354,6 +1550,23 @@ class LiveDashboard(ctk.CTk):
             pass
         if hasattr(self, "lbl_scale"):
             self.lbl_scale.configure(text=f"{int(scale * 100)}%")
+        # Tab strip can't reflow — the 7 tab labels (Play, Status, Inventory,
+        # World, Party, Schedule, Narrative) overflow the segmented button at
+        # high scales. Compensate by shrinking the segmented-button font when
+        # the global scale exceeds 1.2 so the labels stay visible. Touches a
+        # CTk private attr (_segmented_button); guarded with try/except.
+        try:
+            tabs = getattr(self, "tabs", None)
+            seg = getattr(tabs, "_segmented_button", None) if tabs else None
+            if seg is not None:
+                base = 12  # FONT_LABEL base size
+                if scale > 1.2:
+                    size = max(9, int(base * (1.2 / scale)))
+                else:
+                    size = base
+                seg.configure(font=("Segoe UI", size, "bold"))
+        except Exception:
+            pass
 
     def _adjust_scale(self, delta: float) -> None:
         """Increment / decrement the scale and persist."""
@@ -1457,10 +1670,11 @@ class LiveDashboard(ctk.CTk):
                 # Narrative tab gets a TTS toolbar above its textbox so the
                 # adventure recap can be read aloud (handy for replaying long
                 # campaigns or accessibility).
-                tts_bar = ctk.CTkFrame(tab, fg_color=BG_PANEL,
-                                        corner_radius=6, height=36)
+                # Drop fixed height + pack_propagate(False) so the bar can
+                # grow vertically when the user enlarges text — otherwise the
+                # 🔊 Speak button and hint label get clipped at high scales.
+                tts_bar = ctk.CTkFrame(tab, fg_color=BG_PANEL, corner_radius=6)
                 tts_bar.pack(fill="x", padx=4, pady=(4, 0))
-                tts_bar.pack_propagate(False)
                 ctk.CTkButton(tts_bar, text="🔊 Speak", width=92, height=28,
                                fg_color=BG_CARD, hover_color=GOLD_DIM,
                                text_color=GOLD, font=FONT_SMALL,
@@ -1601,9 +1815,10 @@ class LiveDashboard(ctk.CTk):
         bottom strip has three option buttons + a custom-input row + Send."""
         # TTS toolbar — sits above the narrator pane. ElevenLabs voice for
         # the play/narrate flow. Buttons: 🔊 Speak (one-shot), 🔊 Auto toggle.
-        tts_bar = ctk.CTkFrame(tab, fg_color=BG_PANEL, corner_radius=6, height=36)
+        # Drop fixed height + pack_propagate(False) so the bar can grow with
+        # its contents at higher text-scale settings.
+        tts_bar = ctk.CTkFrame(tab, fg_color=BG_PANEL, corner_radius=6)
         tts_bar.pack(fill="x", padx=4, pady=(4, 0))
-        tts_bar.pack_propagate(False)
         ctk.CTkButton(tts_bar, text="🔊 Speak", width=92, height=28,
                        fg_color=BG_CARD, hover_color=GOLD_DIM,
                        text_color=GOLD, font=FONT_SMALL,
@@ -1874,6 +2089,21 @@ class LiveDashboard(ctk.CTk):
         parsed = parse_response(response_text)
         narrative = parsed.get("narrative", "").strip()
         options = parsed.get("options", []) or []
+        parse_error = parsed.get("error")
+
+        # GUARDRAIL: if the parser detected the input was the prompt (not a
+        # response — clipboard mishap), surface the error to the user but
+        # DO NOT mutate any state. No turn appended, no sidecar persisted,
+        # no options replaced. The user re-copies Claude's actual reply
+        # and tries again.
+        if parse_error == "input_is_prompt":
+            self._play_append_narrator(narrative + "\n\n")
+            # Reset dev-stage so the Send button goes back to "Copy Prompt"
+            # mode (the user needs to re-paste Claude's reply).
+            self.play_state.dev_stage = "ready"
+            self._play_update_send_button()
+            self.play_input.focus_set()
+            return  # exit before clearing play_response.md or persisting
 
         if narrative:
             self._play_append_narrator(narrative + "\n\n")
@@ -1902,11 +2132,16 @@ class LiveDashboard(ctk.CTk):
 
         # Persist the decision point to a per-character sidecar so a restart
         # rehydrates the Play tab to this moment instead of an empty welcome.
+        self._play_last_narrator = narrative or response_text
         self._play_persist_decision_point(
             narrator_text=narrative or response_text,
             options=options,
             player_action=new_turn.player_action or "",
         )
+
+        # Tick the chapter-close counter — offers chapter close at
+        # threshold via a deferred non-blocking dialog.
+        self._play_register_turn_complete()
 
         # Clear play_response.md so it can't be re-applied next poll cycle.
         # The empty file represents the idle state between turns.
@@ -1969,12 +2204,78 @@ class LiveDashboard(ctk.CTk):
                 "player_action": player_action or "",
                 "applied_at": __import__("datetime").datetime.now()
                                   .isoformat(timespec="seconds"),
+                # Pacing counters — see _play_register_turn_complete and
+                # _on_end_game_clicked. Persisted so a dashboard restart
+                # mid-chapter doesn't reset the count to zero and double
+                # the time before the next auto-close offer.
+                "turns_since_close": int(getattr(self, "_play_turns_since_close", 0) or 0),
+                "close_prompted_at": int(getattr(self, "_play_close_prompted_at", -10**9) or 0),
             }
             path.write_text(
                 json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
                 encoding="utf-8")
         except Exception:
             pass
+
+    # ------------------------------------------------------------------
+    # Chapter-close pacing — keeps per-turn latency low by batching
+    # heavy bookkeeping (continuity / sync / state mutation) at chapter
+    # boundaries instead of after every player action. Counter increments
+    # on every successful turn; at AUTO_CHAPTER_CLOSE_AFTER the dashboard
+    # offers to run End Game. Player can decline; we re-offer every
+    # AUTO_CHAPTER_CLOSE_REPROMPT turns after that.
+    # ------------------------------------------------------------------
+    def _play_register_turn_complete(self) -> None:
+        """Called once per successful player turn (API on_complete OR dev
+        mode _play_apply_response). Increments the counter, persists, and
+        schedules a chapter-close offer if we hit the threshold."""
+        self._play_turns_since_close = int(getattr(self, "_play_turns_since_close", 0) or 0) + 1
+        # The decision sidecar is rewritten on every turn anyway (in
+        # _play_apply_response for dev mode). For API mode we don't
+        # currently persist a sidecar per turn, so write one here so the
+        # counter survives a restart in either mode.
+        try:
+            self._play_persist_decision_point(
+                narrator_text=getattr(self, "_play_last_narrator", ""),
+                options=list(self.play_state.current_options or []),
+                player_action="",
+            )
+        except Exception:
+            pass
+        # Should we offer chapter close now? Use a non-blocking after()
+        # so the dialog appears AFTER the narrator response renders and
+        # the option buttons are clickable — never mid-stream.
+        cnt = self._play_turns_since_close
+        last = int(getattr(self, "_play_close_prompted_at", -10**9) or -10**9)
+        if cnt >= AUTO_CHAPTER_CLOSE_AFTER and (cnt - last) >= AUTO_CHAPTER_CLOSE_REPROMPT:
+            self.after(800, self._play_offer_chapter_close)
+
+    def _play_offer_chapter_close(self) -> None:
+        """Non-blocking prompt suggesting the player run chapter close.
+        Yes -> reuse the existing End Game flow (which runs the chapter-
+        close check and updates state). No -> mark this prompt as shown
+        so we don't re-spam every single subsequent turn."""
+        cnt = int(getattr(self, "_play_turns_since_close", 0) or 0)
+        self._play_close_prompted_at = cnt
+        msg = (
+            f"You've played {cnt} turns since the last chapter close.\n\n"
+            f"Wrap up this chapter now? This runs the End Game flow so\n"
+            f"the heavy bookkeeping (continuity check, state save, chapter\n"
+            f"summary) batches up here instead of slowing every turn.\n\n"
+            f"After it closes, also run from a terminal so the world stays\n"
+            f"in sync across characters:\n"
+            f"   python _dm_turn.py gamemode\n"
+            f"   python _cross_character_sync.py\n\n"
+            f"Choose No to keep playing — I'll re-offer in a few turns."
+        )
+        try:
+            do_close = tk_messagebox.askyesno(
+                "Chapter close — suggested",
+                msg, default=tk_messagebox.NO, parent=self)
+        except Exception:
+            do_close = False
+        if do_close:
+            self._on_end_game_clicked()
 
     def _play_rehydrate_from_sidecar(self) -> bool:
         """Restore the Play tab from the per-character sidecar if it exists.
@@ -2039,6 +2340,18 @@ class LiveDashboard(ctk.CTk):
         options = payload.get("options") or []
         prev_action = (payload.get("player_action") or "").strip()
         applied_at = payload.get("applied_at") or ""
+
+        # Restore the chapter-close pacing counters so a dashboard restart
+        # picks up where the player left off in the auto-close window.
+        # Old sidecars without these keys default to fresh-counter values.
+        try:
+            self._play_turns_since_close = int(payload.get("turns_since_close", 0) or 0)
+        except Exception:
+            self._play_turns_since_close = 0
+        try:
+            self._play_close_prompted_at = int(payload.get("close_prompted_at", -10**9) or -10**9)
+        except Exception:
+            self._play_close_prompted_at = -10**9
         if not narrator and not options:
             return False
 
@@ -2066,6 +2379,29 @@ class LiveDashboard(ctk.CTk):
             self._play_set_options(list(options))
         return True
 
+    def _play_confirm_send(self, action_text: str, source: str) -> bool:
+        """Show a Yes/No dialog so an accidental Enter press or stray click on
+        an option row can be backed out before the action is sent. Returns
+        True if the user confirms, False if they cancel.
+
+        ``source`` is shown in the dialog title ("Option" / "Custom action")
+        so the player knows which input path triggered the prompt. The action
+        text itself is shown verbatim — long actions are truncated to ~400
+        chars in the message body to keep the dialog readable, but the full
+        text is still what gets sent if confirmed."""
+        preview = action_text.strip()
+        if len(preview) > 400:
+            preview = preview[:400].rstrip() + "…"
+        msg = f"Send this action to the narrator?\n\n{preview}"
+        try:
+            return bool(tk_messagebox.askyesno(f"Confirm — {source}", msg,
+                                                default=tk_messagebox.NO,
+                                                parent=self))
+        except Exception:
+            # If the dialog can't render for any reason, fall back to "yes" so
+            # the player isn't permanently blocked from playing.
+            return True
+
     def _play_send_option(self, idx: int) -> None:
         """Player clicked one of the three suggestion buttons."""
         # In dev mode, if we're awaiting a response paste, the button click
@@ -2075,6 +2411,10 @@ class LiveDashboard(ctk.CTk):
             return
         opts = self.play_state.current_options
         if idx < 0 or idx >= len(opts):
+            return
+        # Confirm before sending so an accidental click doesn't burn an API
+        # turn / advance the campaign without the player meaning to.
+        if not self._play_confirm_send(opts[idx], f"Option {idx + 1}"):
             return
         self._play_send_text(opts[idx])
 
@@ -2088,6 +2428,11 @@ class LiveDashboard(ctk.CTk):
 
         text = self.play_input.get().strip()
         if not text:
+            return
+        # Confirm before sending so a stray Enter press doesn't ship a typo
+        # or half-finished thought to the narrator. The entry is only cleared
+        # AFTER confirmation so a cancel preserves what the player typed.
+        if not self._play_confirm_send(text, "Custom action"):
             return
         self.play_input.delete(0, "end")
         self._play_send_text(text)
@@ -2197,6 +2542,11 @@ class LiveDashboard(ctk.CTk):
                 self._play_set_options(new_turn.options)
                 self._play_set_busy(False)
                 self.play_input.focus_set()
+                # Track narrator text for the next sidecar write, then
+                # tick the chapter-close counter (offers chapter close at
+                # threshold via a deferred non-blocking dialog).
+                self._play_last_narrator = new_turn.narrator
+                self._play_register_turn_complete()
             self.after(0, apply)
 
         def on_error(msg: str):
