@@ -61,7 +61,7 @@ The war starts in an afternoon.
 
 Vess gets the brief. The sharp eyes don't flinch at eight thousand. She pulls deployment charts and turns an oversight office into a war room in ten minutes.
 
-Seventy constructs march through the Ironholt Approach portal. Sera and Vael deploy with eight fighters. Senna takes her Wardbreakers behind enemy lines. Brindle and Kael hit supply routes.
+Seventy constructs march through the Ironholt Approach portal. Sera and Vael deploy with eight fighters. Senna takes her Veilbreakers behind enemy lines. Brindle and Kael hit supply routes.
 
 The ArchMagus handles the siege tower personally. Three crits in four throws. Emberfrost at two hundred yards. The tower falls in six seconds.
 
@@ -89,13 +89,13 @@ She deploys east with Senna's team. The apparatus must be found.
 
 Stormhaven. Southern coast. Twelve warships in the harbor. Two thousand soldiers in dark red armor. Blade Prince Drazen's occupation — clean, methodical, a prince proving himself.
 
-Carrick Hale is in the streets. Stocky. Adaptive armor. A silver cat on his shoulder. Evacuating civilians through a Vyranthos patrol.
+Carrick Hale is in the streets. Stocky. Adaptive armor. A silver cat on his shoulder, bonded — telepathic, the way Kex is to Dren but smaller and more opinionated. Evacuating civilians through a Vyranthos patrol.
 
 "You're not Vyranthos."
 
 "Sup."
 
-Duchess: "I like him already."
+The cat narrowed her eyes at Kenji and pressed her face into Carrick's neck. Carrick translated, deadpan: "She likes you."
 
 The portal goes up in an alley. The conversation turns to Five Guys and cajun fries. Two men from Earth standing in a fantasy war zone talking about cheeseburgers. Five years of loneliness cracking open in both directions.
 
@@ -107,11 +107,11 @@ Sixty seconds. Twelve warships. The blockade ceases to exist.
 
 Sixty-five minutes. Eighteen hundred soldiers. The occupation ceases to exist.
 
-Carrick watches from a rooftop. Duchess on his shoulder.
+Carrick watches from a rooftop. Duchess on his shoulder, tail flicking once a second.
 
-"He killed eighteen hundred soldiers in sixty-five minutes. By himself."
+"He killed eighteen hundred soldiers in sixty-five minutes," Carrick said. "By himself."
 
-"Charles is processing. Give him a moment."
+The cat pressed her face into his neck. He scratched her chin without looking. "Yeah. Give me a minute."
 
 ---
 
@@ -355,7 +355,7 @@ The ember crosses a threshold at dawn. Creation and entropy synchronize. The Cir
 
 Level 30. Mythic Tier. The ceiling broke and what's above isn't sky — it's godhood.
 
-Soul Nexus. Every woman who chose him becomes part of his architecture. Senna's regeneration. Sera's extra strike. Thessaly's ley reading. Elara's counterspell. Pip's appraisal. Vess's rally. Six bonds. Twelve abilities. A man built from the women who love him.
+Soul Nexus. Every woman who chose him becomes part of his architecture. Senna's mending. Sera's extra strike. Thessaly's ley reading. Elara's counterspell. Pip's appraisal. Vess's rally. Six bonds. Twelve abilities. A man built from the women who love him.
 
 ---
 
@@ -393,23 +393,23 @@ Kenji: everywhere. The portal network. The Stride. Wherever the line breaks.
 
 ---
 
-Jarek Windmere. Copenhagen. Olympic qualifier. Perception-god who reads intent at three hundred feet and sees invisible creatures.
+Jarek Windmere. Northern continent, capital city. National-tier competitive archer in his old life. Perception-tier so sharp he reads intent at three hundred feet and sees invisible creatures.
 
 "Car warranty." 
 
 "You said *car warranty*."
 
-The duel. Six hundred feet of open meadow. No regeneration. Three rounds of Mana Arrows from the most accurate archer on the continent.
+The duel. Six hundred feet of open meadow. No regeneration. Three rounds of spell-shafted arrows from the most accurate archer on the continent.
 
 Jarek's terms. His range. His rules.
 
 Kenji's plan: nothing.
 
-Literally nothing. An empty mind. A cleared page. Let the perception-god read blank space and fill it with his own fear.
+Literally nothing. An empty mind. A cleared page. Let the sentry-tier read blank space and fill it with his own fear.
 
-Jarek built the defeat himself. His Apex Perception read confidence where there was only calm. Constructed a threat model from empty intent. Four Dashes. Nine hundred feet. Behind him in one round. He calculated the response to a plan that didn't exist — a plan his own mind invented and handed to the man with the empty page.
+Jarek built the defeat himself. His sight-craft read confidence where there was only calm. Constructed a threat model from empty intent. Four Dashes. Nine hundred feet. Behind him in one round. He calculated the response to a plan that didn't exist — a plan his own mind invented and handed to the man with the empty page.
 
-A hand on his shoulder. From behind. The perception-god outplayed by a man from Atlanta who thought of nothing.
+A hand on his shoulder. From behind. The sentry-tier outplayed by a man from Atlanta who thought of nothing.
 
 "You used my mind as a mirror. I saw what I was afraid of."
 
@@ -633,7 +633,7 @@ The Eldest broke on Day 1. Ten thousand years of discipline. Stack 6. One short.
 
 Eleven women. The Wizard King built from the people who chose him.
 
-Senna's regeneration. Pip's golden tongue. Faelindra's blade dance. Nimue's cascade. Lythara's forest. Della's steady hands. Sera's dual strikes. Thessaly's archive. Elara's counterspells. Vess's war room. The Eldest's sovereign voice.
+Senna's mending. Pip's golden tongue. Faelindra's blade dance. Nimue's cascade. Lythara's forest. Della's steady hands. Sera's dual strikes. Thessaly's archive. Elara's counterspells. Vess's war room. The Eldest's sovereign voice.
 
 Every bond a power. Every woman a pillar. The architecture of a man who loves too many people and protects all of them.
 
@@ -647,7 +647,7 @@ The forward camp. Ironholt Approach. The portal humming. Construct squads patrol
 
 Reports trickle in.
 
-Vess: western teams positioned. Faelindra: eastern force ready. Jace: twelve plague nodes dead. Carrick: Duchess wants fish. Dren: Ironholt standing. Senna: behind enemy lines. Jarek: they stopped sending scouts. Zarek: bored.
+Vess: western teams positioned. Faelindra: eastern force ready. Jace: twelve plague nodes dead. Carrick: harbor secure, asking when lunch is. Dren: Ironholt standing. Senna: behind enemy lines. Jarek: they stopped sending scouts. Zarek: bored.
 
 Tomorrow. Dawn. Twenty-four nodes. Two fronts. One signal.
 
@@ -675,7 +675,7 @@ The eastern front breaks first — Faelindra's elves hitting twelve nodes with t
 
 The western front runs cleaner — Vess's deployment plan holding. Sera's Darkblades cut through. Dren and Kex crushed two nodes without losing a soldier. Zarek broke his in one round and asked for another. Ten of twelve secured. Two contested.
 
-Jace's plague network — twelve nodes already dead. The affliction specialist sitting in a dead relay station eating rations while the continent shook.
+Jace's plague network — twelve nodes already dead. The poison-craft adept sitting in a dead relay station eating rations while the continent shook.
 
 Thirty of thirty-six. Six burning. The reserve activates.
 
@@ -685,7 +685,7 @@ Node W3. Senna. Nat 1. Ambush. Vyranthos knew she was coming.
 
 A portal opens behind forty soldiers. Three rounds. Forty-three kills. The Arcane Momentum cascade — every death feeding the next swing. The field empties in eighteen seconds.
 
-Senna. Blood on her face. Ki guttering. Green eyes through the smoke.
+Senna. Standing in the wreckage of forty soldiers. Ash on her cheek. Green eyes finding him through the smoke.
 
 "Took you long enough."
 
@@ -833,7 +833,7 @@ The Ashenmere Strait. Forty miles. Ten hours. Eight warships in the crossing. Ei
 
 Jarek never fired. He sat in the crow's nest cleaning his bow.
 
-Duchess called it boring.
+Carrick reported the cat unimpressed.
 
 ---
 
@@ -871,7 +871,7 @@ The scalpel landed at dawn. Eight fighters. One stolen warship. Eight Dominion v
 
 The Wizard King went invisible and followed the general. The team led. He watched.
 
-Jarek read the city in one sweep. Service tunnel. Clean route. The Copenhagen subway had better security.
+Jarek read the city in one sweep. Service tunnel. Clean route. The metro back home had better security.
 
 Twenty-one soldiers in the streets. Seven fighters rolled 19s and 20s. The patrol ceased to exist. Kenji didn't swing once.
 
@@ -999,7 +999,7 @@ Garrett runs eighty civil servants from Crestfall. He calls it the most boring a
 
 Sera returned to Stormhaven. The Darkblades patrol the rebuilt harbor. She held a city alone for fifteen days and never complained. She punched him when he came back and kissed him when nobody was looking. Some things don't change.
 
-Senna hung up the Wardbreaker name. Took a teaching post at the War College Aldwin built. She spars with Kenji every morning. He still drops his shoulder. She still punishes it. Neither of them keeps score anymore.
+Senna hung up the Veilbreaker name. Took a teaching post at the War College Aldwin built. She spars with Kenji every morning. He still drops his shoulder. She still makes him pay for it. Neither of them keeps score anymore.
 
 Thessaly published the definitive paper on Confluence Lens methodology. Seventeen citations in the first month. She dedicated it to "a man whose contribution to ley science cannot be overstated and whose contribution to my concentration cannot be forgiven."
 
@@ -1009,13 +1009,13 @@ Elara returned to the Academy. Ley Warden. The woman who staked her career and w
 
 Dren rebuilt Ironholt. The Place of Power grows. Kex patrols the skies — horse-sized and telepathic and somehow still a puppy at heart. The Lord of Ironholt and the Wizard King share a whisper stone frequency. They talk about building things. They never talk about feelings. It works.
 
-Carrick opened a restaurant in Stormhaven. Duchess manages the wine list. The menu features something called a "cheeseburger" that nobody understands and everyone orders. He still wears the adaptive armor under his apron. Old habits.
+Carrick opened a restaurant in Stormhaven. Duchess sits on the bar and judges patrons. The menu features something called a "cheeseburger" that nobody understands and everyone orders. He still wears the adaptive armor under his apron. Old habits.
 
 Zarek went back to his mountain. Cinderpeak. Worldsplitter in the rock. He comes down when Kenji calls. He always comes down. Not because of duty. Because it's fun.
 
-Jarek disappeared into the Deepwood. The perception god. The elves granted him permanent passage. He hunts. He watches. Once a month an arrow arrives at the Heart Grove embedded in a tree trunk with a note: "Still here. Stop worrying."
+Jarek disappeared into the Deepwood. The elves' sentry-ghost. They granted him permanent passage. He hunts. He watches. Once a month an arrow arrives at the Heart Grove embedded in a tree trunk with a note: "Still here. Stop worrying."
 
-Jace returned to Brackenmoor. The plague is gone. Hestia runs the clinic now. He sits on the porch and tells patients they'll be fine in a voice that's not hoarse anymore. The longcoat is clean. He's still funny. He's just not armored anymore.
+Jace returned to Brackenmoor. The plague is gone. Hestia runs the clinic now. He sits on the porch and tells patients they'll be fine in a voice that's stopped costing him to use. The dark coat hangs by the door. He cracks jokes about the weather. He's just not carrying the work anymore.
 
 Auren told the Deepwood who he was. They kept him anyway. The reincarnated king who chose peace in the room where his past self chose war. His mother braids his hair on Sunday mornings. He lets her.
 

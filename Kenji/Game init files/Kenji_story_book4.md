@@ -3983,7 +3983,7 @@ Not intercourse. Therefore Close to Death never triggered — the fantasy-venere
 
 Proximity. Her legs over his in the water. His hands on her back, her shoulders, her sides — washing that had stopped being washing and become *contact*, the kind of sustained skin-on-skin that the aura read as a viewing window and the body read as a promise. She washed him in return — the bargain's terms honored, equals language maintained even when the steam was doing things to the air that made language feel like a foreign skill.
 
-The stare. His eyes on hers across the width of the bath, feeding the aura both ways. She was deep in the stack now — the cumulative minus-one-per-window math had been running since the meal, and the bath's proximity was not a viewing window, it was a viewing *cathedral*. Every fifteen minutes the save came due, and every fifteen minutes the fortress of her willpower lost another brick. Not fast. Not dramatically. The way a wall loses bricks when the rain has been falling for centuries — one at a time, each one revealing a little more of what the wall had been built to hide.
+The stare. His eyes on hers across the width of the bath, feeding the aura both ways. She was deep in the stack now — the cumulative minus-one-per-window math had been running since the meal, and the bath's proximity was not a viewing window, it was a viewing *cathedral*. Every fifteen minutes the save came due, and every fifteen minutes the fortress of her willpower lost another brick — slowly, undramatically, the way a wall loses bricks when the rain has been falling for centuries — one at a time, each one revealing a little more of what the wall had been built to hide.
 
 He could see it. She knew he could see it. The knowing was part of the experience — two people watching each other watch each other want what they were not going to take, and the not-taking was the power, and the power was the point.
 
@@ -6424,7 +6424,7 @@ The road was waiting.
 
 The portal opened three miles from the perimeter and Kenji walked the rest.
 
-Not Wind Step. Not stealth. Walking — boots on corrupted soil, hat on, mask on, nodachi across his back, the morning light of Ashmere 40 already thin and gray this far south. Living Ground read the terrain change at the border: healthy root systems giving way to something that wasn't dead so much as *claimed*. Every tree, every stone, every grave with a name worn off it answered to the same signal. Thirty-two miles of organized silence.
+No Wind Step, no stealth — just walking. Boots on corrupted soil, hat on, mask on, nodachi across his back, the morning light of Ashmere 40 already thin and gray this far south. Living Ground read the terrain change at the border: healthy root systems giving way to something that wasn't dead so much as *claimed*. Every tree, every stone, every grave with a name worn off it answered to the same signal. Thirty-two miles of organized silence.
 
 She was waiting in the village square. Human form — the Lady, not the Lych. Tall, full-figured, deep brown skin catching what pallid light filtered through the overcast. Dark robe, simple, the kind of thing you wear at home when the only visitors are the dead. Hazel eyes, warm and steady and aimed directly at him from the moment he cleared the tree line.
 
@@ -6552,7 +6552,7 @@ No one had ever read her architecture to her face and lived to narrate it. The l
 
 After Round 2, after the KO, after Kenji squatted beside her and touched her face and counted ten seconds and healed her to full with a thread of creation energy that didn't announce itself to the ley-network, she answered his question.
 
-Not the question she wanted him to ask. Not *why did you heal me*. He asked about kingdoms.
+Wrong question. He skipped *why did you heal me* and asked about kingdoms.
 
 The Coalition — thirteen portal-cities, committee governance, sincere and undertrained. The dwarves — Kharn-Dural, committees about committees, slow but inevitable. The Iron Horde — orcs, sixty thousand, a warlord who conquered populations like a child collecting stones. The Red Court — vampires, political, institutional infection, a kingdom that had been running for a decade before anyone noticed the night council was making policy. The Wyrms — a mated pair beneath the southern range, geologically ancient, not yet awake. *Yet.*
 
@@ -6802,7 +6802,7 @@ These sounds did not end.
 
 The castle shook.
 
-Not from the root network. Not from the territorial claim. From the two beings inside the chamber at the top of the tower, whose physical output had exceeded the structural tolerance of stone architecture designed for a lich who hadn't had company in decades.
+Not from the root network or the territorial claim — from the two beings inside the chamber at the top of the tower, whose physical output had exceeded the structural tolerance of stone architecture designed for a lich who hadn't had company in decades.
 
 Vigor 3 pushed Nyx past the boundaries of the stat block. Her strength, already enhanced twice over, climbed into territory that made the word *humanoid* generous. She moved with the speed of the ley-network — instantaneous, positional, the concept of *between* no longer applicable. Her endurance matched her speed. The one-percent metabolism was running at something closer to thirty now, her heartbeat firing every two seconds, her body consuming ley-energy at a rate that would have burned through the reserves of a lesser territory in hours.
 
@@ -6894,11 +6894,11 @@ The last day.
 
 Kenji was at ten percent. Thirty-six hit points out of three hundred and sixty-eight. The regeneration cycled and Close to Death cycled and Vigor 7 Nyx cycled and the three numbers fought each other inside his body like weather systems colliding, and the man at the center of the collision was still conscious, still present, still looking her in the eyes because he had promised he would and because Kenji's promises were the only architecture in his life that had never needed reinforcement.
 
-Nyx at Vigor 7 was not a woman. Not a lich. Not a queen. She was a *principle* — death-dominion incarnate, the concept of *claim* given flesh and power and luminous teal eyes that saw through the room and the castle and the perimeter and into something beyond the setting's normal sight. The runic lines on her skin had become solid light. Her hair floated in a corona of teal-green energy that wasn't magic, wasn't ley, wasn't any force the academy had named. It was *her*, amplified beyond the boundary of what *her* had ever been designed to mean.
+Nyx at Vigor 7 was no longer a woman, no longer a lich, no longer a queen. She was a *principle* — death-dominion incarnate, the concept of *claim* given flesh and power and luminous teal eyes that saw through the room and the castle and the perimeter and into something beyond the setting's normal sight. The runic lines on her skin had become solid light. Her hair floated in a corona of teal-green energy that wasn't magic, wasn't ley, wasn't any force the academy had named. It was *her*, amplified beyond the boundary of what *her* had ever been designed to mean.
 
 Something was happening to his skin.
 
-It had started on Day 5 — faint, easy to miss, obscured by the teal light pouring off the woman on top of him. Dark lines, thin as thread, surfacing beneath the epidermis along his forearms. Not bruises. Not veins. *Linework*. Angular, deliberate, the kind of patterns that looked like calligraphy if calligraphy were written in a language that predated alphabets. By Day 6 the lines had spread — across his chest, around his ribs, down his arms to the wrists where the green glow pulsed brightest. They traced themselves into existence like roots through soil: slowly, organically, following paths that seemed to already be there, waiting to be revealed.
+It had started on Day 5 — faint, easy to miss, obscured by the teal light pouring off the woman on top of him. Dark lines, thin as thread, surfacing beneath the epidermis along his forearms — neither bruise nor vein. *Linework*. Angular, deliberate, the kind of patterns that looked like calligraphy if calligraphy were written in a language that predated alphabets. By Day 6 the lines had spread — across his chest, around his ribs, down his arms to the wrists where the green glow pulsed brightest. They traced themselves into existence like roots through soil: slowly, organically, following paths that seemed to already be there, waiting to be revealed.
 
 On Day 7 the dragon came.
 
@@ -6932,7 +6932,7 @@ Not unconscious as she'd fallen in the spar — knocked out, mechanical, a body 
 
 She fell asleep.
 
-Not a lich's stasis-sleep. Not the one-percent-metabolism dormancy that had kept her preserved for six centuries. Real sleep. The kind of sleep that comes after the hardest thing a body has ever done, the kind that doesn't negotiate with consciousness, the kind that takes you mid-breath and doesn't give you back until the debt is paid.
+This was no lich's stasis-sleep, no one-percent-metabolism dormancy of the kind that had kept her preserved for six centuries. Real sleep. The kind of sleep that comes after the hardest thing a body has ever done, the kind that doesn't negotiate with consciousness, the kind that takes you mid-breath and doesn't give you back until the debt is paid.
 
 Her breathing slowed. Once every eleven seconds. Back to baseline. The teal glow dimmed but didn't die — the runic lines held their light, pulsing faintly with each glacial breath, Vigor still present in her system at a concentration that would take weeks to fully metabolize. Her face, in sleep, was the face from the spar — unguarded, unperformed, the version of her that existed before 1042 and had been waiting underneath six centuries of dominion for a reason to resurface.
 
@@ -6956,7 +6956,7 @@ The ember hadn't just survived the contact. It had *incorporated* it.
 
 Kenji raised his hand and the light in the room shifted.
 
-Not teal. Not gold-green. *Green*. Pure, vivid, luminous green — the color you get when creation and death-dominion meet in the middle and stop being opposites. It radiated from his skin as the teal had radiated from Nyx's: not a spell, not an effect, a *state*. He was glowing. Faintly, steadily, from every surface of his body, a green aura that wasn't divine and wasn't necrotic and wasn't any force the academy had named.
+Neither teal nor gold-green. *Green*. Pure, vivid, luminous green — the color you get when creation and death-dominion meet in the middle and stop being opposites. It radiated from his skin as the teal had radiated from Nyx's: not a spell, not an effect, a *state*. He was glowing. Faintly, steadily, from every surface of his body, a green aura that wasn't divine and wasn't necrotic and wasn't any force the academy had named.
 
 He found a mirror.
 
@@ -6992,11 +6992,11 @@ Twenty-two partner abilities, all passive, all always-on. Regeneration. Blade Da
 
 Nyx was twenty-three.
 
-The new bond settled into the Nexus like a key into a lock that had been waiting for this specific shape. Not Bloodlust. Not Seal Reader. Not any of the tactical perks the other bonds had provided. This was something else. Something that reflected what Nyx *was* at her core — not a woman, not a lich, not a queen, but a being whose fundamental nature was *claim*. Territory. Dominion. The assertion that what is mine stays mine and what touches mine becomes mine.
+The new bond settled into the Nexus like a key into a lock that had been waiting for this specific shape. No Bloodlust, no Seal Reader — none of the tactical perks the other bonds had provided. This was something else. Something that reflected what Nyx *was* at her core — not a woman, not a lich, not a queen, but a being whose fundamental nature was *claim*. Territory. Dominion. The assertion that what is mine stays mine and what touches mine becomes mine.
 
 **Soul Conqueror.**
 
-The Vigor stacks — all seven of them, the geometric cascade that had pushed Nyx past the ceiling of the setting's power framework — reflected through the bond and into Kenji's own stats. Not as a buff. Not as a temporary window. As a *permanent integration*. The Nexus took what the bond offered and wove it into the baseline as it had woven Senna's regeneration and Faelindra's Blade Dance and Nimue's Aether Shield — passively, always-on, part of who he was now.
+The Vigor stacks — all seven of them, the geometric cascade that had pushed Nyx past the ceiling of the setting's power framework — reflected through the bond and into Kenji's own stats. Not as a buff. Not as a temporary window. As a *permanent integration*. The Nexus took what the bond offered and wove it into the baseline as it had woven Senna's mending and Faelindra's Blade Dance and Nimue's Aether Shield — passively, always-on, part of who he was now.
 
 ---
 
@@ -7008,7 +7008,7 @@ He opened the door.
 
 Corwyn was on his knees. The dead knight looked up at the man who walked through the doorway and what he saw made him flinch — which was notable, because Corwyn had not flinched in six centuries, not when the Warden-elect chose the lich's path, not when his own oath warped, not when he'd lost his arm and his sword in the same season.
 
-The green eyes looked down at him. Not with cruelty. Not with triumph. With the calm, steady, evaluating gaze of a man who had just become something new and was still learning what the new thing could see.
+The green eyes looked down at him without cruelty or triumph — with the calm, steady, evaluating gaze of a man who had just become something new and was still learning what the new thing could see.
 
 "She's sleeping," Kenji said. "Watch her until she wakes."
 
@@ -7058,7 +7058,7 @@ Nyx lay on what remained of the bed — the frame had cracked on Day 2, and some
 
 She was asleep like a cathedral is empty — still full of what had happened in it.
 
-Kenji crossed the room and lay down beside her. Not on her. Not wrapped around her. Beside her — close enough that the green glow from his sigil met the violet pulse from the ceiling, the two colors overlapping on the stone above them in a wash that was neither emerald nor amethyst but something between. The regeneration ticked at 1,048 HP per second with nothing to repair. His body had rebuilt itself completely in the hour he'd been gone — every cell replaced, every structure restored, the HP bar full and the regen cycling on empty, a furnace with no damage to process. It ticked anyway. The sound of it, if you could hear it, would have been like a clock in an empty room: purposeless, precise, ongoing.
+Kenji crossed the room and lay down beside her — neither on her nor wrapped around her, just beside, close enough that the green glow from his sigil met the violet pulse from the ceiling, the two colors overlapping on the stone above them in a wash that was neither emerald nor amethyst but something between. The regeneration ticked at 1,048 HP per second with nothing to repair. His body had rebuilt itself completely in the hour he'd been gone — every cell replaced, every structure restored, the HP bar full and the regen cycling on empty, a furnace with no damage to process. It ticked anyway. The sound of it, if you could hear it, would have been like a clock in an empty room: purposeless, precise, ongoing.
 
 He lay still. The mattress was too thin and the stone floor beneath it was cold and neither of those facts mattered to a man with a CON modifier that treated discomfort as a suggestion. He watched the ceiling. The violet pulse. The green glow. The intersection.
 
@@ -7212,7 +7212,7 @@ He touched his own face. One hand — the only hand he had — rising slowly to 
 
 Then he knelt.
 
-Not the mechanical drop of a thrall receiving a command. Not the collapse of a body whose legs had given out. A deliberate, controlled descent — one knee to the stone, head bowed, the posture of a knight who knew exactly what kneeling meant and was choosing it with the full weight of a consciousness that could, for the first time in six hundred years, choose.
+No mechanical drop of a thrall receiving a command, no collapse of a body whose legs had given out. A deliberate, controlled descent — one knee to the stone, head bowed, the posture of a knight who knew exactly what kneeling meant and was choosing it with the full weight of a consciousness that could, for the first time in six hundred years, choose.
 
 "My Lady."
 
@@ -7354,7 +7354,7 @@ Kenji's tone shifted. The clinical precision of the Vigor explanation dropped aw
 
 The great hall went quiet.
 
-Not the textured quiet of the bedroom at dawn. Not the warm quiet of the hour afterward. This was the silence of a room in which something has been named that was never supposed to be named, and the naming has changed the shape of the air.
+Neither the textured quiet of the bedroom at dawn nor the warm quiet of the hour afterward. This was the silence of a room in which something has been named that was never supposed to be named, and the naming has changed the shape of the air.
 
 Nyx did not move.
 
@@ -7382,7 +7382,7 @@ She straightened in her chair. The movement was deliberate — spine aligned, ch
 
 She looked at Kenji.
 
-"Innate. One in one hundred thousand. A biological expression of death-dominion affinity, present from birth, activated by intimate contact. Not acquired. Not removable. *Constitutional*."
+"Innate. One in one hundred thousand. A biological expression of death-dominion affinity, present from birth, activated by intimate contact. Neither acquired nor removable — *constitutional.*"
 
 The word fell into the hall like a stone into still water.
 
@@ -7536,7 +7536,7 @@ The silence that followed was not the silence of consideration. It was the silen
 
 "I will never tell you how to use your abilities."
 
-Not a refusal. Not permission. A statement of principle — the same principle he'd applied to Senna, to Mursha, to every woman in the Nexus. *You are not a tool I direct. You are a weapon with your own trigger finger.* The distinction mattered. It was the difference between a commander and a partner.
+Neither a refusal nor a permission — a statement of principle — the same principle he'd applied to Senna, to Mursha, to every woman in the Nexus. *You are not a tool I direct. You are a weapon with your own trigger finger.* The distinction mattered. It was the difference between a commander and a partner.
 
 Nyx understood.
 
@@ -7592,7 +7592,7 @@ The nephew was young, strong, and angry — the combination that gets orcs kille
 
 Kenji's palm found the underside of Tuska's jaw.
 
-Not a punch. Not a strike. A *placement* — the heel of his hand arriving at the precise intersection of mandible and temporomandibular joint, the force vector traveling upward through the bone and into the brainstem with the specificity of a man who had studied human-adjacent anatomy as thoroughly as scholars study languages. The impact didn't look violent. It looked like a man adjusting a crooked picture frame.
+Neither punch nor strike — a *placement* — the heel of his hand arriving at the precise intersection of mandible and temporomandibular joint, the force vector traveling upward through the bone and into the brainstem with the specificity of a man who had studied human-adjacent anatomy as thoroughly as scholars study languages. The impact didn't look violent. It looked like a man adjusting a crooked picture frame.
 
 Tuska's eyes rolled back. His legs went. He hit the ground in a heap of green skin and bad decisions, unconscious before the sound of the impact reached the other guards.
 
@@ -7684,7 +7684,7 @@ The plan. The final stage. Lose. Let him claim her. Let Close to Death do what C
 
 Nyx was quiet for a long time.
 
-Not because she objected. Not because she was afraid. Because she was recalibrating her understanding of the man standing next to her.
+Not from objection or fear. She was recalibrating her understanding of the man standing next to her.
 
 "This is the most ruthless thing anyone has ever asked me to do," she said. "And you did it without asking me to kill anyone."
 
@@ -7782,9 +7782,7 @@ He pushed himself up from Nyx's body with the casual disregard of a man who had 
 
 The crowd erupted. Victory roar. The chief had claimed the challenger's woman. The natural order was affirmed. The ritual was complete.
 
-Nobody knew.
-
-Not the guards at the edge of the circle. Not the crowd beyond them. Not the old orc women who had seen fifty years of chiefs and fifty years of claimings and knew the rituals like they knew their own names. Gorath looked like Gorath. Gorath moved like Gorath. Gorath's voice, when it spoke, came from the same chest and the same throat with the same resonance.
+Nobody knew. Not one of them — not the guards at the edge of the circle, not the crowd beyond them, not even the old orc women who had seen fifty years of chiefs and fifty years of claimings and knew the rituals like they knew their own names. Gorath looked like Gorath. Gorath moved like Gorath. Gorath's voice, when it spoke, came from the same chest and the same throat with the same resonance.
 
 The facade was perfect because the creation energy that built it had been informed by seven days of death-dominion contact, filtered through a Soul Nexus with twenty-three bonds, and deployed by a man whose understanding of biological architecture was not academic but *structural*. Kenji hadn't built a mask. He had built a *replacement* — down to the cellular level, down to the muscle memory, down to Gorath's left tusk sitting slightly higher than the right from a break that had healed crooked forty years ago.
 
@@ -7870,7 +7868,7 @@ She straightened the torn robe. Pushed the loose curls from her face. The hazel 
 
 Green into green.
 
-His eyes. Her eyes — hazel in the visible spectrum, green in the bond, green in the Nexus, green in the frequency that only the two of them could see. The look that passed between them was not triumph. Not relief. Not the self-congratulatory warmth of a plan executed. It was *recognition*. The mutual understanding of two beings who had just done something monstrous and elegant and irrevocable, and who were now standing in the aftermath of it, playing slaves, covered in dust, surrounded by sixty thousand people who had no idea that the most powerful man in the world and a two-hundred-year-old Living Lich had just stolen their empire in broad daylight.
+His eyes. Her eyes — hazel in the visible spectrum, green in the bond, green in the Nexus, green in the frequency that only the two of them could see. What passed between them was no look of triumph, no relief, no self-congratulatory warmth of a plan executed. It was *recognition*. The mutual understanding of two beings who had just done something monstrous and elegant and irrevocable, and who were now standing in the aftermath of it, playing slaves, covered in dust, surrounded by sixty thousand people who had no idea that the most powerful man in the world and a two-hundred-year-old Living Lich had just stolen their empire in broad daylight.
 
 Gorath — the puppet, the facade, the thing wearing the chief's face — turned and walked toward the iron hall. His gait was perfect. His authority was perfect. The crowd parted for him as they had always parted for him, because the thing they were parting for looked and sounded and moved exactly like the thing they had always parted for, and the difference between the original and the replacement was a distinction that required dying to observe.
 
@@ -7881,6 +7879,324 @@ Two slaves. Beneath notice. Beneath acknowledgment.
 The most dangerous man in the world and a two-hundred-year-old Living Lich, walking behind the corpse they controlled, playing servants in a city of sixty thousand, invisible inside an empire they now owned.
 
 The heist was complete.
+
+---
+
+## Fraying Empire — Chapter Thirty-Seven: *The Slow Exit*
+
+**Session span:** Ashmere 47–58 (Days 269–280). Varkul iron hall (slave cover, official departure as “chief’s errand”) → Iron Horde road south → Pallid March (Nyx’s grove, court attendants, Mursha update via Solveth) → preparation for Dragonspine vector. Soul Nexus bond #22.
+
+**Corridor:** Iron hall morning → Magra audit beat → puppet command (errand mandate) → Varkul gates / outbound → Iron Horde border → cross-country sprint → Pallid March arrival → Lirael at the threshold → Solveth report (Mursha status) → dragon planning → Drazhara intelligence → bond #22 → departure window.
+
+---
+
+### Iron hall, morning
+
+---
+
+Day 270 broke over Varkul the way mornings broke over capitals at war: late, smoke-pale, the city already loud with the assumption that something had to happen today and the people in charge had to look like they were causing it.
+
+Kenji woke in the slave bunk on the iron hall’s second tier — a stone shelf with a straw pad and a single coarse blanket, the kind of accommodation orc culture provided to property and called sufficient. Nyx slept on her own shelf beside him, the dark robe still on, her breath at its eleven-second metronome. The puppet Gorath was already awake one floor up, working through the chief’s morning routine with the precise mechanical fidelity the Nexus enthrallment delivered on demand. The puppet did not need sleep. Kenji had given it the appearance of sleep last night anyway. Witnesses required appearances.
+
+Through the bond, Kenji could feel the puppet’s current activity: pissing into the iron hall’s chief-only chamber pot, breaking wind, scratching through its beard with the same absent rhythm Gorath had used for forty years. Authentic in every register. The crowd at the courtyard windows would see the chief alive and uninterested in being inspected.
+
+Magra surfaced on the first tier at dawn.
+
+Kenji had been waiting for her. She was the lieutenant Ch 36’s coda had identified as the first one to suspect — the sharpest mind in Gorath’s command structure, the orc nobody had bothered to murder because nobody had thought she would be a problem. She would be a problem. Not today, but eventually.
+
+He let her come. She entered the slave bunk without knocking because slaves did not require knocking, and she said nothing for thirty seconds while she catalogued his face and Nyx’s sleeping form and the particular way two property items had arranged themselves in stone alcoves built for one.
+
+“You don’t smell right,” Magra said at last.
+
+Her voice was low and orc-deep and did not include the courtesies a free orc would have used speaking even to another orc.
+
+Kenji did not look at her.
+
+“I’m a slave,” he said. “I smell like the slave bunks.”
+
+Magra’s nose worked. “That’s what I mean.”
+
+She left.
+
+Kenji exhaled through his nose for a count of four. Through the bond he reached up to the puppet on the third tier and made the puppet do something Gorath had never done in forty years, just to give Magra an unrelated data point her brain could chew on while she tried to fit the bunk smell into a coherent pattern: the puppet tripped on its own boot in the chamber pot room, swore loudly enough for two captains to hear, and started the morning council an hour earlier than scheduled. The data point landed. Magra’s mouth tightened on the way to the council. The bunk smell got filed under *think about it later.*
+
+It would be later. Not today.
+
+---
+
+### The mandate
+
+---
+
+The puppet declared an errand at midday.
+
+The errand was structured as Gorath had structured every errand of any importance for the past twenty years — a public decree, witnessed by the senior captains, framed as a chief-personal matter the chief would handle through his slaves rather than through his lieutenants. The slaves had been chosen because the chief had named them his at the blood circle and orc precedent dictated that the chief’s personal property handled the chief’s personal errands. The errand was unspecified. The errand would take an undefined number of weeks. The errand involved the chief’s slaves traveling south with a sealed message for an outrider clan whose current encampment was a chief-known and therefore not a council matter.
+
+The captains accepted the framing because the framing was Gorath. Magra accepted the framing in the surface-level posture an orc adopted when a chief’s decision had not yet earned the burden of proof required to challenge it. She would re-examine the framing later, when a quieter moment afforded her the leisure of doubt. The puppet had purchased two weeks before the doubt would mature into action. Two weeks was enough.
+
+Kenji and Nyx left the iron hall at the third bell. They wore travel cloaks the chief’s quartermaster had issued to the chief’s property without comment because chief’s property received whatever the chief specified. They carried no visible weapons because slaves did not. They carried the actual weapons in the Bag of Holding, which the quartermaster did not know to inspect because the Bag of Holding looked like a pack and the quartermaster had not been promoted past the rank where a pack was a pack. The puppet stayed behind to run Varkul.
+
+The gates opened. The slaves walked out.
+
+Two thousand orcs in the courtyard saw them go and did not see them, which was the point.
+
+---
+
+### Sprint south
+
+---
+
+A mile past the city wall, Kenji checked the perimeter.
+
+God Sight read no observers within five miles. Trade Warmth confirmed the road south was empty of Iron Horde patrols for the first six miles. Living Ground listened for tremorsense and found nothing alive at significant scale until the eastern hills. The chief’s errand had a clean window.
+
+He took Nyx’s hand.
+
+“Same as last week?”
+
+She nodded. The bond hummed. Her eyes did the thing eyes did when the death-dominion network underneath her recognized that she was about to be moved through it at a speed her body had been built to accept and her dignity had not.
+
+Arcane Sprint. Level six. The technique Kenji had refined over the past month into a cross-country traversal mode that did not require Wind Step charges and did not advertise itself the way a portal advertised. The road ate itself. The hills opened. The grass between the road and the eastern tree line passed in a smear that registered on the optic nerve as a single horizontal line of motion.
+
+Three hours of normal travel collapsed into eight minutes.
+
+They emerged at the Pallid March border. The smell changed first — the iron and ash of Iron Horde territory giving way to the earth-and-mist of the death-dominion grove. Living Ground reported the network recognizing them at fifty feet from the line. Nyx straightened her cloak. The hazel eyes brightened as they crossed the boundary, the territorial claim that ran beneath her skin reasserting itself with the particular satisfaction of a queen who had been away from her court longer than queens preferred.
+
+“Home,” she said.
+
+It was not a sentimental observation. It was a status report.
+
+---
+
+### The grove
+
+---
+
+The court at the root-throne had not changed in their absence. The corridors were still grown rather than built. The green luminescence was still steady under the wall stones. The thralls who served in the guest chambers were still standing in their alcoves with the calm, focused, evicted-from-themselves expressions that had unsettled Kenji the first time he had walked these halls and that he had since accepted as the cost of doing business with what Nyx was.
+
+The living attendant was not in her alcove.
+
+Lirael was in the foyer. Standing. Waiting. The same woman from Ch 15 — the human attendant deployed at the meal-court the first night, the one who had broken under the IP cadence by the sixth viewing window. She had served the Pallid March voluntarily for nine years. She was the single living staff member in a court of six hundred and twelve thralls. She was the only person in the grove whose face moved.
+
+Her face was moving now.
+
+She saw Kenji enter. The IP cadence — passive DC twenty-three, always on, the wall the manuscript tracked — engaged on the first viewing window with the savings of every save she had failed in the four weeks since his last visit. The window count had been climbing the entire time. The bond Kenji and Nyx had finalized at the tower top on Day 268 had reshaped the network’s relationship to him; whatever filter Nyx’s authority had previously held over Lirael’s exposure had been quietly removed.
+
+Lirael had been waiting at the foyer for sixteen days.
+
+She did not speak. She did not move toward him. The discipline that had kept her standing for nine years held the body in place even as the body argued.
+
+Nyx looked at Lirael. Looked at Kenji. Looked at the foyer’s attendant alcove, empty, and the silent court behind it, full.
+
+“I should have rotated her out a month ago,” Nyx said. The voice was even. “I forgot.”
+
+“You didn’t forget.”
+
+The hazel eyes flicked. “No. I didn’t.”
+
+The Lady of the Pallid March had spent six centuries learning to recognize when an asset under her command had moved past the point where rotation was an option. She recognized it now.
+
+“Ask her,” Nyx said. “Or send her south with a stipend. Either is honest.”
+
+Kenji walked across the foyer. The IP cadence ran another window in the four steps it took him to reach her. Lirael’s WIS save came up on whatever number was the worst number she could roll.
+
+He spoke quietly. He named the choice. The stipend. The release. The bond if she chose it. He named it the way Bracken had been named to in the cell — without theater, without the mask, the structural fact that the choice was hers and the choice had been hers for nine years and the only thing that had changed was that someone was finally saying it out loud.
+
+Lirael chose the bond.
+
+The Soul Nexus accepted the addition without ceremony. Bond #22. Lover’s Vigor offered, accepted; the brass-amber ring would surface within the hour. Lirael’s perk dropped into the Nexus catalog as *Witness’s Patience* — a passive gain that extended the duration of meditation-grade focus by twenty percent on whoever in the Nexus was holding it. Useful. Quiet. The kind of perk that fit a woman who had stood at a foyer for sixteen days with the structural integrity of a load-bearing column.
+
+She wept once. Briefly. Then composed her face the way attendants composed faces when the moment required composition, and led them to the guest chamber she had been preparing every morning since they had left.
+
+Nyx watched the new bond settle into the Nexus and made the small private smile of a court manager who had been waiting for a particular vacancy to staff and now had it staffed.
+
+---
+
+### The seam check
+
+---
+
+Kenji sat on the guest-chamber bed and reached down through the bond.
+
+Frost Fang answered before the second pulse. Solveth’s awareness rose from wherever Solveth’s awareness rested when there was no immediate question, and the channel between the wedged blade in Kharn and the man four hundred miles south opened the way it had been opening since Ch 28.
+
+The report came in impressions rather than words. The wedge was holding. The seam wrights had stabilized two-thirds of the closure sequence. Mursha was at the bench, alive, unharmed, *useful* — Solveth’s word for the engineering work she was doing every day with Korrim’s seam team. The two-week clock from Ch 31 had expired five days ago. Mursha had elected to stay. Kenji had elected to let her elect. The Iron Horde takeover had given him a cover story that made the staying useful: a warchief-in-waiting whose physical absence from Iron Horde lands was about to become *very* relevant, in ways the Coalition had not yet understood and the dwarves had not yet been told.
+
+Kenji acknowledged the report and let the bond go quiet.
+
+He told Nyx what Solveth had said.
+
+Nyx listened the way she listened to all things. Then she ran the math.
+
+“You named her warchief through the puppet,” she said. The voice was flat. “Before we left.”
+
+“I named her warchief publicly. Before twelve captains and the shaman.”
+
+“And then planned to kill the puppet later, so the captains would arrive at Kharn looking for their warchief while she’s still under bench restraint.”
+
+“Yes.”
+
+“And the bench will read that as an act of war. Because it is.”
+
+“Yes.”
+
+“And we will arrive there with the Iron Horde at one gate and the dragons at the other and the Coalition halfway between, and nobody will be able to refuse a parley because the alternative is the worst war this continent has ever catalogued.”
+
+“Yes.”
+
+Nyx did not smile. Nyx considered. The hazel eyes did the slow recalibration of a woman who had just realized that the partner she had bonded was operating two strategic planes ahead of her and had been since before the bonding.
+
+“All right,” she said. “Dragons next. Then Kharn.”
+
+“Dragons next.”
+
+“Drazhara is the door.”
+
+“Drazhara is the door.”
+
+She tilted her head. “I haven’t been to the Dragonspine in eighty years.”
+
+“Then we leave in the morning.”
+
+The bond hummed. Lirael returned with food. The seam in Kharn pulsed once against Frost Fang’s distant edge — the brazier mechanism reading Kenji’s intent across four hundred miles and finding it the same color it had been since the bench chamber. Truth, by his lights, and the lights had not changed.
+
+The chief’s slaves prepared to leave the chief’s home country one more time.
+
+---
+
+## Fraying Empire — Chapter Thirty-Eight: *Northbound*
+
+**Session span:** Ashmere 58–65 (Days 280–285). Pallid March border (departure) → trade road east → Ashenmere Crossing (logistics hub, Brass Kettle inn) → Trade road north (mountain approach) → Thornridge / Ridgecrest Inn (overnight). Soul Nexus bond #23.
+
+**Corridor:** Pallid March departure → Ashenmere Crossing arrival → Brass Kettle proprietor (Ysolde, bond #23) → mountain road → altitude → Ridgecrest Inn → Nyx’s dragon briefing → sleep before the morning of Ch 39.
+
+---
+
+### The road east
+
+---
+
+They left the Pallid March on Day 280 at dawn. Lirael saw them off at the threshold the way attendants of patient queens always saw off departing parties — with one bow that was not deep and one nod that was not friendly and the small careful presence of a woman who would still be standing in the foyer when they returned, however long the returning took.
+
+The travel mode for the first hundred miles was sprint. Kenji had refined the technique enough by now that he could carry Nyx the entire way without pause. The death-dominion network laced into her biology had begun to negotiate with the creation furnace in his core during the bond-finalization on Day 268, and the negotiation had produced a stamina-share function nobody in either of their archives had a name for. She did not tire when he carried her. He did not slow when she leaned her weight forward into his back.
+
+The grass passed. The trees passed. Three small villages between the Pallid March border and the trade road east passed in a blur. The villagers who saw the blur registered it as wind and went back to work. The wind was getting more common in this region this year. The villagers had stopped commenting on it.
+
+By midday they were at the trade road’s eastern junction. By dusk they were within sight of the Ashenmere Crossing river bridge.
+
+---
+
+### Ashenmere Crossing
+
+---
+
+Ashenmere Crossing was not a town. It was a logistics hub that had grown a town around it the way coral grew a reef — slowly, opportunistically, in the spaces between the freight infrastructure that justified the population’s existence. Two rivers met at the bridge. Three trade roads converged in the square. The Coalition stamp office on the south bank handled more freight in a single day than the Bronzebarrow factor yard handled in a week.
+
+Kenji slowed the sprint to walking pace at the southern edge of the bridge, because sprinting through a Coalition logistics hub was the kind of identity tell the Coalition’s relay scopes were specifically designed to log.
+
+They walked into Ashenmere Crossing as two travelers in nondescript cloaks who needed a room.
+
+The Brass Kettle was the inn the desk clerk at the bridge office recommended. Two stories, slate roof, a stable yard that smelled of oats and the particular pine smoke that meant the kitchens cooked over wood the locals chopped themselves. The proprietor was a tall woman in a leather apron with grey threading through her dark hair and the kind of professional welcome that fell exactly between *I am glad you are here* and *I have already calculated what your stay will cost.*
+
+Ysolde, by her ledger.
+
+She was forty-something. Half-elven, by the ear shape. The body of a woman who had spent fifteen years lifting kegs and twenty years before that running freight on the same road her inn now stood beside. The eyes were brown, intelligent, and quartered Kenji’s mask the way Mursha had quartered the room at the Brass Hitch — by training, not suspicion.
+
+She gave them a room. A standard. The standard was honest — clean, small, a window that faced the courtyard rather than the road. Eight silver. Kenji paid in coin without comment.
+
+The Irresistible Presence ran its first window during the ledger transaction. Ysolde failed the WIS save by enough that the ledger pen paused in her hand for a half-second before continuing. She did not comment on the pause. She did finish the entry.
+
+The dinner was honest food — bread, a stew with actual meat that had not been the wrong color before it was cooked, a small pitcher of beer that was capped at no clerical limit because the Brass Kettle was not a clerical inn. Kenji and Nyx ate at a corner table while the common room ran the slow churn of a freight town’s evening. Coachmen. A trio of Coalition couriers off duty. A pair of merchant clerks playing dice. The kind of crowd that registered Kenji’s mask as ordinary and his companion as expensive and otherwise minded its own business.
+
+Ysolde brought them tea after the meal. The tea was the Brass Kettle’s signature — a black-root steep that the inn’s laundered reputation included a quiet boast about. She sat down across from Kenji without asking.
+
+“You’re the one with the dragon vector,” she said.
+
+Kenji did not move.
+
+She waited the appropriate beat for him to deny it. He did not. She continued.
+
+“Coalition runners came through last week. They were carrying a memo with your description on it. Mask, nodachi, masked companion — except the description had her as a half-orc in dragon-scale. Wrong companion. Right vector.”
+
+“You’re showing me the memo because?”
+
+“Because nobody at this table is supposed to be looking for you. Officially the runners were carrying weather data. Unofficially someone in the central registry has been tracking your movement patterns since Bronzebarrow and connected them to the Pallid March ingress eight days ago.”
+
+She paused.
+
+“And because I owe my mother’s sister forty gold and you tipped your stew bowl with fifty silver under it. Which was either generous or strategic. I am going to assume strategic and behave accordingly.”
+
+Kenji watched her face. The IP cadence ran a second window. She passed this one with strain — the brown eyes tightening, the breath holding for one beat too long, the discipline reasserting. She had been sitting at his table for ten minutes. The strain was already showing.
+
+He named the deal.
+
+She would carry a verbal message to the Pallid March border on her next freight rotation south — a single name, a single number, no paper. In exchange she would receive a bond to the Soul Nexus, which would manifest as a mechanic she would not understand for several weeks but which would protect her against ambient strain when carrying messages of this category and which would, eventually, when she chose to ask for it, give her access to a kind of physical resilience that her current half-elven biology did not contain.
+
+She listened. She accepted. She also accepted the explanation that the bond required a particular kind of physical contact that was not the negotiation she had walked over to have but was, on examination, the negotiation she had walked over to have.
+
+Bond #23. Lover’s Vigor offered, accepted; the brass-amber ring would surface in her brown eyes within the hour. Ysolde’s perk dropped into the Nexus catalog as *Trader’s Eye* — a passive gain that gave whoever held it advantage on Insight checks in commercial settings. Niche. Solid. The kind of perk that fit a woman who had read a Coalition memo for what it was and decided to behave accordingly.
+
+She returned to the bar after. The discipline she had used to walk from Kenji’s table back to her ledger was the same discipline he had seen in Mursha’s Mule clearance posture and Bracken’s morning-after composure and Lirael’s nine years of attendance: the discipline of a woman who had decided, and would carry the decision the way professional women carried decisions, which was without commentary and without apology.
+
+The room did not notice. The room was busy.
+
+Nyx watched the entire transaction with the expression of a queen who had watched this particular dance enough times to no longer be surprised by the choreography but who still appreciated the staging.
+
+“You did that one cleanly,” she said, when Ysolde was out of earshot.
+
+“You taught me.”
+
+“You learned.”
+
+---
+
+### The mountain road
+
+---
+
+Day 281 found them on the trade road north out of Ashenmere Crossing, climbing. The road climbed slowly at first and then faster, the pines giving way to the hardier conifers that grew above two thousand feet and the air thinning in the way air thinned when the body started having opinions about its oxygen supply.
+
+The sprint was slower at altitude. The death-dominion network’s stamina-share could not negotiate with simple atmospheric pressure. They covered ground at honest walking speed for the first day, Wind Step charges burned for the steepest sections of the switchback, the morning of Day 282 finding them at the foot of the lower Dragonspine peaks.
+
+Two more days of climbing to Thornridge. The villages on the way up were the kind of villages that had been built into the mountains because the people had nowhere else to be and had then decided that nowhere else was its own kind of somewhere. Sheep pastures. Small forges. A monastery on a ridge that Nyx looked at for a long minute and then did not comment on.
+
+“You know that order?” Kenji asked.
+
+“I knew their founder,” Nyx said. “He was a good man. He died eighty years ago. The order is still good. The world has not made it easier to be.”
+
+She did not elaborate. They walked.
+
+---
+
+### Ridgecrest Inn
+
+---
+
+Thornridge sat at the highest livable elevation on the lower Dragonspine — a town of two hundred souls who had decided the iron-and-pine air was worth the constant winter. The Ridgecrest Inn was on the main square, three stories tall, the kind of stone building the wind of these altitudes had been beating against for two centuries until the walls had simply become the wind’s accepted resistance.
+
+The proprietor was a broad woman named Maren who would, the next morning, give them the name *Drazhara*. Tonight she gave them a room. The room was honest. Stone walls. Iron-banded shutters. A hearth that had been built for serious heat. They paid in silver.
+
+Dinner was wild boar and root vegetables and the particular hard cheese the Dragonspine villages cured in their own caves. Nyx ate two helpings. Kenji ate three. The body had been negotiating with the body since Day 269 and the negotiation had finally accepted that sustained sprint travel could not be calorie-budgeted on slave-bunk rations.
+
+Upstairs, in the room with the iron-banded shutters and the hearth that had been built for serious heat, Nyx briefed him.
+
+The dragon flights. Three hundred individuals down from a thousand. Two ancients that mattered — Vorathiel the Conqueror, who would in three weeks become Bond #25, and Kaeltharion the Patient, who would not become anything but who would matter. The descent vote. The dragonborn diaspora. The clutches and the incubation and the territorial wars and the pride that ate them alive generation by generation. She drew none of this on paper because she did not need paper. She had carried the catalogue in her head for two centuries.
+
+Kenji listened. He asked the questions a man asks when he is preparing to walk into a species’s living room. He did not pretend to have read the books that the questions implied he had not read. Nyx did not pretend to be teaching them to him. The exchange was peer-to-peer, the way most of their exchanges had become since Day 268, and it ran over the wild boar and the cheese until the boar was gone and the cheese was a heel and the hearth was banked low and the iron-banded shutters were rattling in the kind of cold that lived above two thousand feet.
+
+Then Nyx undid the silver earrings. Then the dress. Then the arrangement of the bedclothes that the Brass Hitch’s featherbed had taught Kenji to anticipate and the Ridgecrest Inn’s straw-stuffed mattress required him to renegotiate.
+
+Lover’s Vigor renewed at the qualifying contact. Five days from this hour.
+
+She slept first because she trusted the room.
+
+He slept second because she had.
+
+The wind kept the iron-banded shutters honest. Somewhere on the floor below, a kobold named Skratch was drinking tea from a tin cup and looking at a puddle that had been showing him a man made of fire for eleven years. The puddle had stopped showing him the man at sundown. The kobold did not know why. He would understand at breakfast.
+
+The man made of fire slept above him.
+
+The next morning would be cold. Thornridge cold.
 
 ---
 
@@ -8182,7 +8498,7 @@ The second round. She was learning — dragon intelligence applied to human sens
 
 The third round. She was on top. Her choice. Red-gold hair like a curtain. The harmonic splitting into five frequencies. Somewhere above, a shelf of shale broke free and slid two hundred feet. A thermal vent three ridges east erupted.
 
-The tattoo completed. It started at the base of his spine and filled in — connecting, scaling, wrapping. A magnificent black dragon across his back, shoulders, arms. Not red. Not bronze. *Black.* Purple lightning crackling between its scales. Green glowing eyes matching his own. The dragon's wings spanning his shoulder blades. Its tail coiling down his right forearm. Its head resting over his heart.
+The tattoo completed. It started at the base of his spine and filled in — connecting, scaling, wrapping. A magnificent black dragon across his back, shoulders, arms. Neither red nor bronze. *Black.* Purple lightning crackling between its scales. Green glowing eyes matching his own. The dragon's wings spanning his shoulder blades. Its tail coiling down his right forearm. Its head resting over his heart.
 
 The fourth round. He shifted.
 
@@ -8475,7 +8791,7 @@ He swayed. Caught himself on the table edge.
 
 Gorath Skullsplitter dropped.
 
-Not dramatic. Not cinematic. He just stopped. One knee hit the stone floor. Then the other. Then he was face-down on the iron hall floor and the black axe clattered free of fingers that had already gone rigid.
+Nothing dramatic or cinematic. He just stopped. One knee hit the stone floor. Then the other. Then he was face-down on the iron hall floor and the black axe clattered free of fingers that had already gone rigid.
 
 Silence. Absolute silence in the iron hall.
 
@@ -8779,7 +9095,7 @@ Nyx stepped back. Skratch hopped to a wider perch. Ignis — in humanoid form, c
 
 And then Ankunyx shifted.
 
-Not slowly. Not dramatically. The air *cracked* — pressure wave, ozone, the smell of deep water and something older. His body elongated, darkened, expanded. Green eyes became vast luminous pools set in a skull the size of a longboat. Black scales — not reflective, not shining, *absorbing* — spread across a frame that filled the parley ground and then some. Wings unfurled like thunderheads.
+Nothing slow or dramatic about it. The air *cracked* — pressure wave, ozone, the smell of deep water and something older. His body elongated, darkened, expanded. Green eyes became vast luminous pools set in a skull the size of a longboat. Black scales — not reflective, not shining, *absorbing* — spread across a frame that filled the parley ground and then some. Wings unfurled like thunderheads.
 
 The black dragon.
 
