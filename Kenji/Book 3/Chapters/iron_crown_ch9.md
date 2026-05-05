@@ -1,83 +1,47 @@
-# The Iron Crown War — Chapter Nine: The Day the Forge Died
+# The Iron Crown War — Chapter Nine: Champion
 
-## Day 47 — Dawn to Dusk
-
------
-
-Thirty-six nodes. Two fronts. One signal. Dawn.
-
-The eastern front breaks first — Faelindra's elves hitting twelve nodes with three centuries of precision. Eight secured by midmorning. Four contested.
-
-The western front runs cleaner — Vess's deployment plan holding. Sera's Darkblades cut through. Dren and Kex crushed two nodes without losing a soldier. Zarek broke his in one round and asked for another. Ten of twelve secured. Two contested.
-
-Jace's plague network — twelve nodes already dead. The affliction specialist sitting in a dead relay station eating rations while the continent shook.
-
-Thirty of thirty-six. Six burning. The reserve activates.
+## Days 47-48
 
 -----
 
-Node W3. Senna. Nat 1. Ambush. Vyranthos knew she was coming.
+Katya Voss. A locked tent. A surrendered sword. Honey cakes on a map table.
 
-A portal opens behind forty soldiers. Three rounds. Forty-three kills. The Arcane Momentum cascade — every death feeding the next swing. The field empties in eighteen seconds.
+He didn't speak. Didn't interrogate. Didn't threaten. He sat in a chair and closed his eyes and let a general who lost everything talk until the silence broke her more thoroughly than any army could.
 
-Senna. Blood on her face. Ki guttering. Green eyes through the smoke.
+The Forge core is under the throne. The Crown channels it. Without one, the other is inert.
 
-"Took you long enough."
+She told him how to kill her Emperor. Then she told him she was choosing what came next.
 
------
-
-Node W12. Vael. Wards failing. CR 18 guardian.
-
-Same portal. Same playbook. Three rounds. Thirty-nine kills. The guardian lasted a round and a half.
-
-Vael on one knee behind a cracked barrier. "I had it under control."
+Thursdays.
 
 -----
 
-Node E8. Nimue. The central junction. Overloaded.
+The Heart Grove. Dawn. Ten thousand swords drawn simultaneously.
 
-Not combat. A skill challenge against four months of stored ley energy trying to become a crater. Three failures. The chamber screaming. White light through cracking stone.
+The Eldest named him Champion of the Deepwood. Fifth in ten thousand years. First human. The sigils blazed. The Rootways lit up across the continent. The forest claimed him.
 
-Nimue on her knees. Bare hands on the aether-feed. Holding back a detonation through force of will.
-
-"NIMUE — TIME TO GO FAST."
-
-She climbs on. He grabs her. Stride. 450 feet. Not enough. The blast radius is half a mile.
-
-Portal. Mid-stride. Nat 18. Gold-green light tears open at full speed. They dive through. The portal closes. The node detonates 0.3 seconds later.
-
-Silvandris. The Heart Grove. Nimue on the root floor. Laughing. Crying. Alive.
-
-"You said go fast. That was very fast."
+Faelindra's salute. Nimue's tears. Lythara's roots spreading across the grove floor pulsing with recognition. Auren standing at attention — a king recognizing a title he once held.
 
 -----
 
-Then Thornkeep. The last card Katya Voss had been holding. Twelve thousand soldiers on the bridge while the coalition hit nodes. The supply line cut. Renna Bracken's three hundred surrounded.
+Lythara against the Heart Grove wall. The old-fashioned way. The druid who let roots handle everything discovering what it felt like when they didn't.
 
-The ridge. Nimue on his back. The Dominion army below like a red tide.
-
-Emberfrost from the ridge. Giant's Throw into officer clusters. Then Stride into the formation. Chain kills cascading. One hundred and ten rounds. Twelve thousand soldiers. Every single one.
-
-Katya Voss. Nat 3 on the escape. Stayed too long commanding a retreat that was already a rout. The greatest general in the Dominion unbuckles her sword and sets it on a map table.
-
-"I yield to the ArchMagus of Varenholm."
-
-Renna Bracken walks through the gate. Blood on her armor. Three hundred alive behind her.
-
-"You came back."
+She fell asleep in the soil at the base of the oldest tree on the continent. The roots cradled her. The sigils dimmed to match her breathing.
 
 -----
 
-Day 47. One day.
+A war council at the Silver Draft. Five women. One table.
 
-Thirty-five nodes secured. One crater. Twelve thousand soldiers destroyed. A general captured. A bridge held. A continent breathing for the first time in months.
+Katya — immune, clear-headed, already drawing maps. Vess — nat 1, gripping the doorframe, fighting through it. Faelindra — out of her forest for the first time in decades. Elara — calibrating crystal instruments through moderate distraction. Pip — her own inn, her own stairs, her own ledger, nat 2.
 
-Three women rescued. A promise kept.
+The general who switched sides ran the meeting because everyone else was preoccupied.
 
-The Ley Forge is crippled. The Iron Crown has one node left. And the Wizard King hit Level 35 standing in the wreckage of an army he killed alone.
+The proposal: go to Vyranth alone. Talk to the Emperor.
 
-One act remains. Vyranth. The Emperor. The Iron Crown.
+Katya: he'll listen. Pip: bring leverage. Elara: before Mordecai gets there. Vess: in writing. Faelindra: alone means no extraction.
+
+The table waits. The war has one act left. The Wizard King is deciding whether to end it with a sword or a conversation.
 
 -----
 
-*End of The Iron Crown War — Chapter Nine: The Day the Forge Died.*
+*End of The Iron Crown War — Chapter Nine: Champion.*

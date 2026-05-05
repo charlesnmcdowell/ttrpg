@@ -226,7 +226,9 @@
       "location": "home_base",
       "want": "Sell mangoes. Mildly amused by the snow elf in winter clothing.",
       "voice_hook": "Solandra coastal accent — drops final consonants, calls everyone 'love'.",
-      "lore_connection": "First person Holly speaks to in person in 400 years. Will be remembered."
+      "lore_connection": "First person Holly speaks to in person in 400 years. Will be remembered.",
+      "race": "Human",
+      "gender": "?"
     },
     {
       "name": "Watch Captain Roia",
@@ -234,7 +236,9 @@
       "location": "adventure_site",
       "want": "Solve the Cobalt Fountains Quarter pest problem on a shoestring budget. Will hire on credit.",
       "voice_hook": "Soldier's terseness; pragmatic; sees Holly's value before her oddness.",
-      "lore_connection": ""
+      "lore_connection": "",
+      "race": "Human",
+      "gender": "?"
     },
     {
       "name": "Madam Pesca",
@@ -242,7 +246,9 @@
       "location": "adventure_site",
       "want": "Run a quiet artisan hall. Suspicious of newcomers. Will warm to Holly slowly.",
       "voice_hook": "Older Solandra-elf, formal but warm under pressure.",
-      "lore_connection": "Her late husband knew the Master Toymaker decades ago — a thread Holly could pull."
+      "lore_connection": "Her late husband knew the Master Toymaker decades ago — a thread Holly could pull.",
+      "race": "Human",
+      "gender": "female"
     },
     {
       "name": "The Skeleton (Pier Seven previous escapee)",
@@ -250,7 +256,9 @@
       "location": "discovery_location",
       "want": "Was someone, hundreds of years ago. Wanted out. Wanted home. Wanted her own workshop. Failed.",
       "voice_hook": "(silent — the journal speaks for her in past tense)",
-      "lore_connection": "Connects to Pre-kingdom portal infrastructure. Her journal teaches Holly the seam-pattern reading and identifies the Master's lineage — three centuries before Holly was conscripted, this skeleton was conscripted by the same workshop. The Master is far older than Holly thought."
+      "lore_connection": "Connects to Pre-kingdom portal infrastructure. Her journal teaches Holly the seam-pattern reading and identifies the Master's lineage — three centuries before Holly was conscripted, this skeleton was conscripted by the same workshop. The Master is far older than Holly thought.",
+      "race": "Human",
+      "gender": "?"
     },
     {
       "name": "The Master Toymaker",
@@ -258,7 +266,9 @@
       "location": "north pole — workshop",
       "want": "Recover Holly unharmed. He believes her escape is a phase. He is patient, precise, and has done this before.",
       "voice_hook": "Soft, paternal, almost tender. Never raises his voice. Calls her 'little snowflake' — what he called all his snow-elf conscripts.",
-      "lore_connection": "Lives on top of an ancient portal node. Possibly fey-touched, possibly far older than the kingdom itself."
+      "lore_connection": "Lives on top of an ancient portal node. Possibly fey-touched, possibly far older than the kingdom itself.",
+      "race": "Human",
+      "gender": "?"
     }
   ],
   "extra_npcs": {

@@ -1,87 +1,67 @@
-# The Iron Crown War — Chapter Seven: Settling Debts
+# The Iron Crown War — Chapter Seven: Eve of War
 
-## Day 38-42
-
------
-
-The coalition assembles in four days. Seven transported. Ten thousand elves. A portal network spanning twelve locations. The war machine built itself while the Wizard King sat in bathtubs.
+## Days 42-46
 
 -----
 
-Zarek Ashborne. Cinderpeak. Worldsplitter on his shoulder. One question. One answer.
+The bath. The boots. The bar. The grove.
 
-"Why should I care about your war?"
+Windstrider Boots — elven craft, rush job, an apprentice named Syravelle who missed her grandmother's naming ceremony. He came back to apologize. Nobody apologizes for rush orders.
 
-"Because it would be fun and you don't have anything else to do."
+Della. The new barmaid. WIS plus nothing against a force she couldn't name. Thirty-minute breaks that stopped being about rest.
 
-The left eye — the living one — changes. The first honest word anyone has spoken to him in four years. Portal twelve goes up in volcanic rock.
-
------
-
-Breakfast with the Eldest. Three daughters. Berry tarts from the human kitchen. Kenji tells the Eldest to make sure her daughters wear lingerie to bed.
-
-Three elven princesses malfunction simultaneously. The Eldest hasn't been this entertained in four hundred years.
+Pip. Three hundred thousand gold and a property empire. She watched a Councillor fall apart over chicken and wrote two words in a ledger margin. She saw everything through a door that was never closed. She hasn't confronted anyone. The powder keg ticks.
 
 -----
 
-Jace's test node. Nat 20. The plague relay inverts in ninety seconds. The node dies. The patient is cured. Twelve plague nodes across the continent begin dying.
+The Southern Grove. Ten thousand elven warriors.
 
-Thirty-six targets become twenty-four.
+Five soldiers. Real swords. Cross-guard counters did more damage than his offense. Then a hundred. Thirty-eight rounds. Standard steel. Kill chains cascading. Then ten thousand. Seven and a half hours. Two hundred waves. Every single one.
 
------
+He called the general his future baby mama in front of her army. Then beat her army with their own swords. Then healed every one of them through the root network in sixty seconds. The grove bloomed where blood had been.
 
-Renna Bracken. Thornkeep. The border fortress. Three hundred neutral soldiers. A woman who holds a bridge for whoever earns it.
-
-Forty-five minutes of escalating presence while she listens to a war report with white knuckles and a scar that goes pale.
-
-"Thornkeep is yours. Come back after the war. In person."
-
-The bridge is secured. The supply line opens.
+Faelindra kissed him in front of ten thousand. The general chose.
 
 -----
 
-The bath. The annex. Bronze and bubbles. Three sisters discovering apple pie and hot water simultaneously.
+Three sisters. One tub. One sleeping man.
 
-Lythara's roots found him beneath the bubbles while her sisters ate pie six inches away. The youngest daughter solved the equation her family couldn't name. The quiet that followed was the first peace she'd known in days.
+Lythara's roots performed a service sacred druids never imagined. Faelindra accepted the methodology with military precision. Nimue rode him like a racing drake at full gallop and told her mother about it over breakfast tarts.
 
-Her sisters noticed the calm. The braided hair. The roots that stopped reaching. The questions started over breakfast the next morning.
-
-Nimue: "How long does the quiet last?"
-
-"Seventy-two hours. I counted."
-
-The math changed everything. Two sisters doing calculations. One mother taking walks.
+The Eldest drank something stronger than tea and said the words "racing drake" to an empty room.
 
 -----
 
-Vess. Deployment plan approved. Six western teams. Twenty-four nodes. Seven days to position.
+Four days of training in a locked study. Aether Weaving mastered in one. Sovereign's Will needs practice. The Long Memory sharpens with use.
 
-Then chicken dinner. Pip and Vess at one table. One immune, one burning. The innkeeper watched the Councillor fall apart over roast chicken and filed it under two words in a ledger margin.
+The Eldest broke on Day 1. Ten thousand years of discipline. Stack 6. Not enough.
 
-*Of course.*
-
------
-
-Della. The new barmaid. WIS plus nothing against DC 23. She came upstairs for a thirty-minute break and discovered something she couldn't name or fight or understand.
-
-"Tell me to leave."
-
-He didn't.
+"I told myself I was stronger. I told myself ten thousand years meant something. It doesn't."
 
 -----
 
-Windstrider Boots. Elven craft. Rush job. The apprentice missed her grandmother's naming ceremony calibrating dodge enchantments.
+Eleven women. The Wizard King built from the people who chose him.
 
-He read the note. Came back. Apologized.
+Senna's regeneration. Pip's golden tongue. Faelindra's blade dance. Nimue's cascade. Lythara's forest. Della's steady hands. Sera's dual strikes. Thessaly's archive. Elara's counterspells. Vess's war room. The Eldest's sovereign voice.
 
-"Nobody apologizes for rush orders."
-
-"Her name is Velissa."
+Every bond a power. Every woman a pillar. The architecture of a man who loves too many people and protects all of them.
 
 -----
 
-Five days to the assault. Twenty-four nodes. The machine runs. The debts settle. The Wizard King sits in a workshop apologizing for shoes while a continent prepares for war.
+## Day 46 — Eve of War
 
 -----
 
-*End of The Iron Crown War — Chapter Seven: Settling Debts.*
+The forward camp. Ironholt Approach. The portal humming. Construct squads patrolling in silent glass formations.
+
+Reports trickle in.
+
+Vess: western teams positioned. Faelindra: eastern force ready. Jace: twelve plague nodes dead. Carrick: Duchess wants fish. Dren: Ironholt standing. Senna: behind enemy lines. Jarek: they stopped sending scouts. Zarek: bored.
+
+Tomorrow. Dawn. Twenty-four nodes. Two fronts. One signal.
+
+The Wizard King sits by a fire alone. The ember burns steady. The forest hums behind him. The war waits ahead.
+
+-----
+
+*End of The Iron Crown War — Chapter Seven: Eve of War.*

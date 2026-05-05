@@ -1,47 +1,53 @@
-# The Iron Crown War — Chapter Eleven: The Crossing
+# The Iron Crown War — Chapter Eleven: The Iron Throne
 
-## Days 48-49
-
------
-
-A war council at the Silver Draft. Five women. One table. Katya ran the meeting because everyone else was preoccupied.
-
-The proposal: talk to the Emperor. The counter: Mordecai is already inside Vyranth. Hours, not days.
-
-Two operations. The hammer and the scalpel. Vess and Katya take the army. Kenji takes the blade.
+## Day 49
 
 -----
 
-Stormhaven. Sera at the helm of the *Dominion's Pride*. Fifteen days of silence broken by three words: I need a battleship.
+The scalpel landed at dawn. Eight fighters. One stolen warship. Eight Dominion vessels on the sea floor between continents.
 
-She punched him in the chest. Then she took the wheel.
+The Wizard King went invisible and followed the general. The team led. He watched.
 
-"I wasn't asking the elf."
+Jarek read the city in one sweep. Service tunnel. Clean route. The Copenhagen subway had better security.
 
------
-
-The Ashenmere Strait. Forty miles. Ten hours. Eight warships in the crossing. Eight warships on the sea floor by morning. Emberfrost from the deck. Not a contest.
-
-Jarek never fired. He sat in the crow's nest cleaning his bow.
-
-Duchess called it boring.
+Twenty-one soldiers in the streets. Seven fighters rolled 19s and 20s. The patrol ceased to exist. Kenji didn't swing once.
 
 -----
 
-Dawn. Day 49. The eastern continent rises from fog. Dark stone. Red cliffs. Vyranth on a plateau — walled, towered, the black spire of the Iron Throne cutting the sky.
+The throne room doors. Ley-warded iron. Dren hit them with Ironholt strength and the wards held. Auren raised his hand. Absolute Counter. Nat 20. The wards that protected the Dominion's throne for twenty years dissolved.
 
-The harbor is empty. The docks unguarded. Either a trap or a surrender.
-
-The hammer is twelve hours behind — Vess, Katya, a thousand constructs, six thousand soldiers. The scalpel is here now. Eight fighters on the deck of a stolen warship.
+The reincarnated king dismantling the defenses of the empire that killed him.
 
 -----
 
-Faelindra at the bow. Ironwood armor. The general reading walls.
+Inside. Black stone. Red ley veins flickering. The Iron Throne grown from the floor. The Forge core beneath it — dull red, dying, one node feeding a dead network.
 
-"I've been a general for three hundred years. I don't know what I am without a war."
+Emperor Malcus Vyr. On the throne. The Iron Crown dim on his head. The Crown had been drinking from him for two days. Grey skin. Sunken eyes. The war broke him before the team arrived.
 
-The harbor approaches. The last battle waits. The Champion of the Deepwood stands beside the general who chose him, and neither of them knows what comes after.
+Mordecai at the base. Standing. Not restrained. Not working. He came to the Emperor and offered to reactivate the Forge. The Emperor said no.
+
+"I've been sitting in this chair for two days waiting to hear what that choice is."
 
 -----
 
-*End of The Iron Crown War — Chapter Eleven: The Crossing.*
+Faelindra decides.
+
+Nat 1.
+
+The general draws her sword. Three hundred years of war. Four hundred and seventy-three casualties. A forest drained. A continent invaded.
+
+She doesn't see a dying man offering peace. She sees an enemy on a throne.
+
+"Remove the Crown. Kneel. Surrender unconditionally. You have ten seconds."
+
+The room freezes. Auren looks at empty air. Mordecai is silenced mid-sentence. The Emperor's hands are on the Crown — he was about to remove it willingly.
+
+Now there's ironwood steel in his face and a general counting to ten.
+
+The invisible man behind the general is the only one who can stop this.
+
+Seven. Eight. Nine.
+
+-----
+
+*End of The Iron Crown War — Chapter Eleven: The Iron Throne.*

@@ -1,95 +1,75 @@
-# The Iron Crown War — Chapter Four: Family Dinner
+# The Iron Crown War — Chapter Four: Mythic
 
-## Day 35 — Dawn
-
----
-
-Lythara surfaces at dawn. Tangled green hair. Root-sap hands. A bench. Berries she won't finish. Bread she won't eat.
-
-The soil glows gold. Two percent restoration in ten seconds. The roots that have been dying for months surge back.
-
-"That's not possible."
-
-The invisibility drops. The man who healed her forest is eating her berries.
-
-"Sounds like you have a crush on me."
-
-"I do NOT get crushes."
-
-Her hair reaches for him. He calls her toots. She finishes her bread for the first time in weeks.
+## Day 37 — Dawn
 
 ---
 
-Nimue trains at dawn. Four spheres. The red one detonates. She laughs in the crater.
+The ember crosses a threshold at dawn. Creation and entropy synchronize. The Circuit Bracelet hums a frequency the Deepwood registers across its entire root network.
 
-The man in the chair slow claps. He defends her to her instructor. Then criticizes her himself. Then heals a burn on her collarbone she told everyone didn't hurt.
+Level 30. Mythic Tier. The ceiling broke and what's above isn't sky — it's godhood.
 
-"It hurt."
-
-Stride. On his back. Eight miles screaming. The stop fails. She lands on top of him.
-
-"Again. Faster."
-
-He tells her to tell her sister: I rode him and it was amazing.
+Soul Nexus. Every woman who chose him becomes part of his architecture. Senna's regeneration. Sera's extra strike. Thessaly's ley reading. Elara's counterspell. Pip's appraisal. Vess's rally. Six bonds. Twelve abilities. A man built from the women who love him.
 
 ---
 
-The Southern Grove. Ten thousand warriors. Morning drill. Faelindra — the eldest daughter. Six feet. Ironwood armor. Three hundred years of rejected suitors.
-
-He walks beside her in plain sight. Hands behind his head.
-
-"I am your rival."
-
-She draws her sword. "Beat me."
-
-He strips to his underwear. He puts his weapons on the ground. He grins.
-
-"Ok I'm ready love."
-
-Two rounds. Frost Fang. The slow stacks freeze her joints. She drops to one knee — not yielding, frozen. He sheathes the blade. Sits down. Eats a ration.
-
-"Actually, I'm here to court you and your sisters."
-
-He walks to her. Touches her face. The scar — two hundred and seven years old, fourteen soldiers dead, kept to remember them — heals under his fingers. Gone.
-
-The general cries. In front of ten thousand soldiers. For the first time in living memory.
-
-He kneels. She pulls him up.
-
-"Three hundred and twelve suitors came to conquer me. You came to kneel."
-
-He puts on his gear and walks away.
-
-"Don't leave out the part where I swooped you off your feet and made you cry when you tell your family."
-
-She cancels drill. Leaves her post. First time in three hundred years.
+## Day 37 — The Ley Forge
 
 ---
 
-The Eldest's table. Evening. Three daughters. A reincarnated king. A field archivist with fogged spectacles and a honey cake.
+The Eldest's table. Frost Fang returned. Solveth spoke to her for six hours.
 
-"My youngest tells me she rode you and it was amazing. My middle daughter says you called her toots. And my eldest touched her face where a scar used to be and said nothing."
+"The last civilization that built one used it to crack a continent in half. The ocean where the Ashenmere Strait is now — that was land."
 
-Kenji introduces Thessaly. Vanishes. Greater Invisibility.
+Thirty-seven nodes. Four months active. Two months to critical. The war isn't about territory. It's about buying time for a doomsday weapon.
 
-"He does that."
+Lythara: they can't be destroyed. The red crystal cores are ley-bonded anchors. Destruction releases four months of stored energy in an uncontrolled burst. Every node is a bomb.
 
-The meeting unfolds without him. And with him. Invisible. Listening. Eating berries.
-
-The invisibility drops. He's sitting next to Faelindra.
-
-"Only left out one piece of the story."
-
-The general admits it in front of her family. "He made me cry."
-
-He puts Frost Fang on the table. The Eldest communes with a death god. Faelindra punches him in the chest. Nimue volunteers to inspect him. Lythara's hair takes notes.
-
-Thessaly learns there's a portal in his room. Connected to Varenholm.
-
-"I walked for three days."
-
-The family dinner continues. The war can wait until morning. Tonight, the Eldest holds Solveth's blade and reads the history of a god while her three daughters process the same impossible human and a field archivist writes it all down.
+They can only be captured. Or reversed.
 
 ---
 
-*End of The Iron Crown War — Chapter Four: Family Dinner.*
+## Day 37 — The Plan
+
+---
+
+Thirty-six nodes seized simultaneously. Two fronts.
+
+Eastern: Faelindra. Ten thousand elven warriors. Three hundred per node. Reserve force of thirty-six hundred. Lythara at the central junction. Nimue stabilizing the aether-feedback.
+
+Western: Vess coordinating. Eighteen teams. Senna. Sera. Vael. Dren. Brindle. Kael. Carrick. Construct squads. And five uncontacted allies who need to be recruited in ten days.
+
+Kenji: everywhere. The portal network. The Stride. Wherever the line breaks.
+
+---
+
+## Day 37 — The Archer
+
+---
+
+Jarek Windmere. Copenhagen. Olympic qualifier. Perception-god who reads intent at three hundred feet and sees invisible creatures.
+
+"Car warranty." 
+
+"You said *car warranty*."
+
+The duel. Six hundred feet of open meadow. No regeneration. Three rounds of Mana Arrows from the most accurate archer on the continent.
+
+Jarek's terms. His range. His rules.
+
+Kenji's plan: nothing.
+
+Literally nothing. An empty mind. A cleared page. Let the perception-god read blank space and fill it with his own fear.
+
+Jarek built the defeat himself. His Apex Perception read confidence where there was only calm. Constructed a threat model from empty intent. Four Dashes. Nine hundred feet. Behind him in one round. He calculated the response to a plan that didn't exist — a plan his own mind invented and handed to the man with the empty page.
+
+A hand on his shoulder. From behind. The perception-god outplayed by a man from Atlanta who thought of nothing.
+
+"You used my mind as a mirror. I saw what I was afraid of."
+
+Stilthorn paralytic. Perception training. A handshake.
+
+"And Atlanta? You're terrifying."
+
+---
+
+*End of The Iron Crown War — Chapter Four: Mythic.*

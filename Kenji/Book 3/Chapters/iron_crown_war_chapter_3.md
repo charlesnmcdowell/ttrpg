@@ -1,38 +1,6 @@
-# The Iron Crown War — Chapter Three: Three Daughters
+# The Iron Crown War — Chapter Three: Family Dinner
 
-## Day 34 — Morning
-
----
-
-Aldwin breaks a staff. Freezes a bucket. Four hours of frost crystals forming on skin and bending light one degree at a time.
-
-"Stop pushing. Pull the light around you. You're a river stone."
-
-By evening, the ArchMagus disappears.
-
----
-
-## Day 34 — Evening
-
----
-
-The Deepwood border. Stride. Fifty miles. The stop goes badly. Nat 2. Face meets dirt. Nobody sees it.
-
-The portal goes up in an oak. Then he walks north. No stealth. No Stride. Hands away from the blades.
-
-Four elven sentinels. Captain Ilyrra. Birch-bark eyes. Six years on the border. A question nobody has ever asked.
-
-"If I ask the forest if I can come in and it says yes, would you have to let me in?"
-
-The forest answers before she can.
-
-Every sigil blazes. The canopy parts. A path opens — silver-lit, straight, ten feet wide. Recognition. The first in four hundred years.
-
-Silvandris. The Heart Grove. A tree sixty feet across. A thousand elves. The Eldest.
-
-"The forest has not done this in four hundred years. The last time, it was for me."
-
-The deal. Three conditions — a portal, the ley apparatus destroyed, and Jarek brought under coordination. In return: ten thousand warriors and the Deepwood Confederacy at war.
+The deal struck the night before: three conditions — a portal, the ley apparatus destroyed, and Jarek brought under coordination. In return — ten thousand warriors and the Deepwood Confederacy at war.
 
 ---
 
@@ -40,56 +8,92 @@ The deal. Three conditions — a portal, the ley apparatus destroyed, and Jarek 
 
 ---
 
-Three daughters. Three mornings. Three approaches.
+Lythara surfaces at dawn. Tangled green hair. Root-sap hands. A bench. Berries she won't finish. Bread she won't eat.
 
----
+The soil glows gold. Two percent restoration in ten seconds. The roots that have been dying for months surge back.
 
-Lythara surfaces at dawn. Tangled green hair with living roots. Soil-stained robes. The woman who talks to trees instead of people. She sits on a bench she doesn't share and eats breakfast she doesn't finish.
+"That's not possible."
 
-The creation energy pours through his feet into the root network. Two percent restoration in ten seconds. The roots that have been dying for months suddenly grow.
+The invisibility drops. The man who healed her forest is eating her berries.
 
-Lythara's hands hit the ground. "That's not possible."
-
-The invisibility drops. The man who fed her forest is standing ten feet away eating her berries.
-
-"Sounds like you have a crush on me. Though a very weird way to go about telling me."
+"Sounds like you have a crush on me."
 
 "I do NOT get crushes."
 
-Her hair reaches for him. She tells it to stop. It doesn't.
-
-He leaves. Calls her toots. She finishes her bread for the first time in weeks and tells the roots about it.
+Her hair reaches for him. He calls her toots. She eats the bread to the crust — a thing she hasn't done in weeks.
 
 ---
 
-Nimue trains at dawn. Four aether-spheres. Speed over control. The red one detonates. She laughs in the crater.
+Nimue trains at dawn. Four spheres. The red one detonates. She laughs in the crater.
 
-The invisibility drops. A man in a chair. Slow clapping.
-
-He defends her to her instructor. Then criticizes her himself. Then heals a burn on her collarbone she told everyone didn't hurt.
+The man in the chair slow claps. He defends her to her instructor. Then criticizes her himself. Then heals a burn on her collarbone she told everyone didn't hurt.
 
 "It hurt."
 
-Stride. L6. She climbs on his back. Eight miles of Deepwood at impossible speed. She screams in joy.
+Stride. On his back. Eight miles screaming. The stop fails. She lands on top of him.
 
-The stop fails. They tumble across the platform. She lands on top of him.
+"Again. Faster."
 
-"Again. Do that again. Right now. Faster."
-
-He tells her to inform her sister: "I rode him and it was amazing."
-
-She's still blushing when the purple streak vanishes.
+He tells her to tell her sister: I rode him and it was amazing.
 
 ---
 
-The Southern Grove. Ten thousand warriors. Morning drill. Volleys in perfect rotation. Silence when the general walks the line.
+The Southern Grove. Ten thousand warriors. Morning drill. Faelindra — the eldest daughter. Six feet. Ironwood armor. Three hundred years of rejected suitors.
 
-Faelindra. The eldest daughter. Six feet. Ironwood armor. The Eldest's composure forged into military steel. Three hundred years of rejected suitors. She commands with nods and single sentences. Splits a target arrow at two hundred feet and doesn't comment.
+He walks beside her in plain sight. Hands behind his head.
 
-He watches from invisibility. She doesn't know he's there.
+"I am your rival."
 
-One minute remaining.
+She draws her sword. "Beat me."
+
+He strips to his underwear. He puts his weapons on the ground. He grins.
+
+"Ok I'm ready love."
+
+Two rounds. Frost Fang. The slow stacks freeze her joints. She drops to one knee — not yielding, frozen. He sheathes the blade. Sits down. Eats a ration.
+
+"Actually, I'm here to court you and your sisters."
+
+He walks to her. Touches her face. The scar — two hundred and seven years old, fourteen soldiers dead, kept to remember them — heals under his fingers. Gone.
+
+The general cries. In front of ten thousand soldiers. For the first time in living memory.
+
+He kneels. She pulls him up.
+
+"Three hundred and twelve suitors came to conquer me. You came to kneel."
+
+He puts on his gear and walks away.
+
+"Don't leave out the part where I swooped you off your feet and made you cry when you tell your family."
+
+She cancels drill. Leaves her post. Three centuries unbroken — broken now.
 
 ---
 
-*End of The Iron Crown War — Chapter Three: Three Daughters.*
+The Eldest's table. Evening. Three daughters. A reincarnated king. A field archivist with fogged spectacles and a honey cake.
+
+"My youngest tells me she rode you and it was amazing. My middle daughter says you called her toots. And my eldest touched her face where a scar used to be and said nothing."
+
+Kenji introduces Thessaly. Vanishes. Greater Invisibility.
+
+"He does that."
+
+The meeting unfolds without him. And with him. Invisible. Listening. Eating berries.
+
+The invisibility drops. He's sitting next to Faelindra.
+
+"Only left out one piece of the story."
+
+The general admits it in front of her family. "He made me cry."
+
+He puts Frost Fang on the table. The Eldest communes with a death god. Faelindra punches him in the chest. Nimue volunteers to inspect him. Lythara's hair takes notes.
+
+Thessaly learns there's a portal in his room. Connected to Varenholm.
+
+"I walked for three days."
+
+The family dinner continues. The war can wait until morning. Tonight, the Eldest holds Solveth's blade and reads the history of a god while her three daughters process the same impossible human and a field archivist writes it all down.
+
+---
+
+*End of The Iron Crown War — Chapter Three: Family Dinner.*

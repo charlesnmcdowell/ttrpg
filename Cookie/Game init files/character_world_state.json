@@ -2443,7 +2443,9 @@
         "tier": "Bond",
         "score": 90,
         "last_event": "Mother — daughter; Kettlebrook home; not yet told about the Ankuspawn truth."
-      }
+      },
+      "race": "Human",
+      "gender": "female"
     },
     {
       "name": "Tomas Wren",
@@ -2457,7 +2459,9 @@
         "tier": "Ally",
         "score": 55,
         "last_event": "Innkeeper-mentor in Kettlebrook; Cookie's pre-Varenholm anchor."
-      }
+      },
+      "race": "Human",
+      "gender": "male"
     },
     {
       "name": "Fern",
@@ -2471,7 +2475,9 @@
         "tier": "Bond",
         "score": 95,
         "last_event": "Best friend / roommate; helped pack for Sunken Playhouse Day 9; sworn to write."
-      }
+      },
+      "race": "Human",
+      "gender": "female"
     },
     {
       "name": "Professor Cadence Ashworth",
@@ -2485,7 +2491,9 @@
         "tier": "Ally",
         "score": 60,
         "last_event": "Approved Sunken Playhouse capstone; suspects Ember without naming it."
-      }
+      },
+      "race": "Human",
+      "gender": "?"
     },
     {
       "name": "Lyssa Vane",
@@ -2499,7 +2507,9 @@
         "tier": "Nemesis",
         "score": -85,
         "last_event": "Day 8 chain shatter on Silka — control collapsing, retaliation imminent."
-      }
+      },
+      "race": "Human",
+      "gender": "female"
     }
   ],
   "extra_npcs": {

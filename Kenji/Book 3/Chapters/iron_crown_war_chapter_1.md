@@ -6,7 +6,7 @@
 
 The Confluence Lens fires at dawn. Seven anchor points. Three days of work compressed into two. Silver light condenses into a beam that punches through clouds and bends sixty miles southwest.
 
-The Colossus moves. Not standing. Not waking. Expanding. The volcanic stone fills the tear from inside. The ley network heals.
+The Colossus moves. Expansion, not ascension. The volcanic stone fills the tear from inside. The ley network heals.
 
 Mordecai drops to his knees. Hands on cracked stone. "It worked."
 

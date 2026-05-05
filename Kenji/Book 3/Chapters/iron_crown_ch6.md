@@ -1,61 +1,87 @@
-# The Iron Crown War — Chapter Six: The Bath
+# The Iron Crown War — Chapter Six: Settling Debts
 
-## Day 37-39
-
------
-
-Seven transported. All recruited. The coalition assembled in four days.
-
-Zarek Ashborne stands on Cinderpeak with Worldsplitter on his shoulder and one question answered. "Fun." The first honest word anyone's spoken to him in four years. The portal goes up. Slot twelve.
+## Day 38-42
 
 -----
 
-The Eldest's table. Morning. Node assignments. Faelindra's map. Lythara mapping plague-connected nodes through the root network.
-
-Kenji interrupts the war council to tell the Eldest to make sure her daughters wear lingerie to bed. Then winks.
-
-Nimue drops a berry. Faelindra reaches for her sword. Lythara's hair reaches for him and she tackles it with both hands.
-
-The Eldest hasn't been this entertained in four hundred years.
+The coalition assembles in four days. Seven transported. Ten thousand elves. A portal network spanning twelve locations. The war machine built itself while the Wizard King sat in bathtubs.
 
 -----
 
-Twenty thousand gold on the desk. Ten thousand accepted. Human workers through the portal. A bronze bathtub. A kitchen. Apple pies.
+Zarek Ashborne. Cinderpeak. Worldsplitter on his shoulder. One question. One answer.
 
-"If my daughters want to sit in a hot bath eating cake with you, that is their responsibility."
+"Why should I care about your war?"
 
-The tree grows the annex overnight. It adds a skylight nobody asked for.
+"Because it would be fun and you don't have anything else to do."
 
------
-
-Jace's test node. Day 39. Nat 20.
-
-The plague relay inverts. The node dies in ninety seconds. The patient is cured. Twelve plague-connected nodes across the continent can be killed before the assault begins. Thirty-six targets become twenty-four.
-
-Jace stands over the dead node. "Give me twelve portal jumps. I've got this."
+The left eye — the living one — changes. The first honest word anyone has spoken to him in four years. Portal twelve goes up in volcanic rock.
 
 -----
 
-The bath. Dawn. Bronze and bubbles and steam through a skylight the tree grew because it wanted to.
+Breakfast with the Eldest. Three daughters. Berry tarts from the human kitchen. Kenji tells the Eldest to make sure her daughters wear lingerie to bed.
 
-Lythara first. Dress and all. Then the dress comes off. Then Nimue, stripping without hesitation, discovering apple pie for the first time. Then Faelindra — the general who hasn't missed a morning drill in three hundred and twelve years, undressing behind a partition, folding everything in a military stack, sinking into hot water and surrendering.
-
-Beneath the bubbles, the youngest daughter's roots found him. Silent. Slow. Nobody noticed. When he stood and left, Lythara stayed submerged, calm for the first time in days.
-
-Her sisters noticed the change. Her mother filed it.
+Three elven princesses malfunction simultaneously. The Eldest hasn't been this entertained in four hundred years.
 
 -----
 
-Thornkeep. Evening. The border fortress. A river gorge. A bridge rebuilt four times. Three hundred neutral soldiers in grey.
+Jace's test node. Nat 20. The plague relay inverts in ninety seconds. The node dies. The patient is cured. Twelve plague nodes across the continent begin dying.
 
-Commander Renna Bracken. Forty years old. Mountain-weathered. A scar from ear to jaw. Practical steel dented at the shoulder. A mug of something hot and an expression that says she was about to sleep.
-
-"The Vyranthos envoy came six days ago. Your side hasn't sent anyone. Until now."
-
-She pours a second glass.
-
-"Make your case."
+Thirty-six targets become twenty-four.
 
 -----
 
-*End of The Iron Crown War — Chapter Six: The Bath.*
+Renna Bracken. Thornkeep. The border fortress. Three hundred neutral soldiers. A woman who holds a bridge for whoever earns it.
+
+Forty-five minutes of escalating presence while she listens to a war report with white knuckles and a scar that goes pale.
+
+"Thornkeep is yours. Come back after the war. In person."
+
+The bridge is secured. The supply line opens.
+
+-----
+
+The bath. The annex. Bronze and bubbles. Three sisters discovering apple pie and hot water simultaneously.
+
+Lythara's roots found him beneath the bubbles while her sisters ate pie six inches away. The youngest daughter solved the equation her family couldn't name. The quiet that followed was the first peace she'd known in days.
+
+Her sisters noticed the calm. The braided hair. The roots that stopped reaching. The questions started over breakfast the next morning.
+
+Nimue: "How long does the quiet last?"
+
+"Seventy-two hours. I counted."
+
+The math changed everything. Two sisters doing calculations. One mother taking walks.
+
+-----
+
+Vess. Deployment plan approved. Six western teams. Twenty-four nodes. Seven days to position.
+
+Then chicken dinner. Pip and Vess at one table. One immune, one burning. The innkeeper watched the Councillor fall apart over roast chicken and filed it under two words in a ledger margin.
+
+*Of course.*
+
+-----
+
+Della. The new barmaid. WIS plus nothing against DC 23. She came upstairs for a thirty-minute break and discovered something she couldn't name or fight or understand.
+
+"Tell me to leave."
+
+He didn't.
+
+-----
+
+Windstrider Boots. Elven craft. Rush job. The apprentice missed her grandmother's naming ceremony calibrating dodge enchantments.
+
+He read the note. Came back. Apologized.
+
+"Nobody apologizes for rush orders."
+
+"Her name is Velissa."
+
+-----
+
+Five days to the assault. Twenty-four nodes. The machine runs. The debts settle. The Wizard King sits in a workshop apologizing for shoes while a continent prepares for war.
+
+-----
+
+*End of The Iron Crown War — Chapter Six: Settling Debts.*

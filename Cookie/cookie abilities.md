@@ -1,0 +1,68 @@
+dancers tai chi combat style unlocked. dexterity based made up dancer fighting style created by cookie , she get's 1 attack per round that flows like a martial art dance with flowing kicks only, kicks do 1d6 blunt damage and always cause prone on hit. at the beginning of turn she rolls for performance if successful , allies gain 1 free attack due to witnessing her competence, if fail she falls prone and loses her turn.  she also rolls for performance at the end of combat , success she cans a 75% dodge chance on all attacks from enemies, if fail, she falls prone. Ember enhance effect only when ember is availble : if cookie is prone , instead of humanoid enmies killing her:  female opponents gain  ridicule bonus mocking her instead of finishing her, males gain lust bonus seeing her vulnerable, attempting to mate immediately , str save must be made to stop males from succeeding.
+
+
+
+
+
+
+
+Healing dance : requires performance roll, if fail she goes prone. She dances and performs a gossip song praising nature and love. Based on one of ignis famous songs of the 4 seasons series. performance takes 3 rounds , requires concentration. aoe 25% heal on party for 30 feet for duration of performance , if performance complete 100% heal on party and party gains a self regen buff that last 1 hr for 10% per round.
+
+
+
+
+
+New Spell : Stunning kicks: Cookie teleports and attempts to kick each enemy with in 60 feet before returning to her original position. If the kick lands the enemy is stunned for 2 rounds guaranteed, and has to make a strength or con stitution roll to escape starting on the 3rd round.
+
+
+
+New Spell: Dance of Dispell: requires performance roll, if fail she goes prone. requires concentration 2 rounds. cookie clears all buffs and ember effects on the battle field that do not originate from here, max distance 120 feet. Only takes effect after successfully casting after 2 rounds.
+
+
+
+New Spell: Planar waltz : requires performance roll, if fail she goes prone.. all enemies are locked to the physical plane, all allies gain ability to go ethereal as an extra action and do +5 spirit damage, +50 if ember active. Any undead, spirit, demon or extra dimensional enemy that die during this dance gain true death. takes 2 turns requires concentration, buff and debuff remains till end of combat if successfully cast after 2 turns.
+
+
+
+New Spell: Dragons roar Dance: requires performance roll, if fail she goes prone. Cookie picks one element from a colored dragon fire, acid, ice, water, or lightning, she dance for 2 rounds channeling the dragon requires concentration, if successful her dance buffs all allies with that dragons damage type +10 damage, +100 if ember is active until the end of combat. Only takes effect after successfully casting after 2 rounds.
+
+
+
+
+
+
+
+
+
+Perk:
+
+pretty privilege: All gold earned from male humanoids is multiplied by 1000%. as over heard by a patron "wow she's pretty , but I can't afford her...if only i had enough for a bigger tip she'd like me if I was wealthy."
+
+
+
+Ember enhancements: all buff spells, emotion transfers and healing spells are 10x (ten times) more affective.  Male enemies (enemies only during combat) prefer to capture her for forceful procreation reasons for their pleasure rather than kill her, she's the last target they focus in combat. This has the opposite affect on females she's the first target and they are usually massively jealous of her if they have a disposition of neutral or less, if they have a disposition of friendly or higher they want to be like her instead.
+
+
+
+
+
+&#x20;*perk :  Dance Dance revolution: During any dance ability cookie concentration check is based on charisma*
+
+
+
+*ember enhancement: Dance abilities now have 50% chance to charm enemies and make them target allies. this effect only takes place while the dance is casting only.*
+
+
+
+new perk : The great user: Any female humanoid feeling heart strings with a disposition of neutral or lower becomes antagonistic to cookie, challenges her to duals, betrays her in combat,  and actively attempts to steal her friends or men. Any male humanoid character with a disposition of neutral or higher towards cookie actively seek to protect cookie, asks what she wants and needs and buy it for her. during combat enemy or allied male humanoids gains the option to actively take attacks meant to hit cookie unto them selfs but it counts as an automatic critical attack on them.
+
+
+
+Ember enhancement: Fans out of control : only people who have felt heart strings and while ember is available, male humanoids with disposition below neutral to cookie stalk her and seek to kidnap her or take her in her sleep and attempt to impregnate her. Any females who felt heart strings show up to assassinate her. male humanoids with disposition of neutral or higher secretly keep an eye out of cookie and attempt to protect her or guard her location effectively this basically just means cookie has to roll for ambush when sleeping even in a safe location but always have a few guys she know pop up to help her fight.
+
+
+
+
+
+new quirk: due to low wisdom , the player character lose control of cookie during failed wisdom saves. Any time alcohol or drugs is offered to cookie, she must make a wisdom roll to not take it. If she is drugged or blacked out due to alcohol a scene takes place where an assassination attempt takes place if done by female or an impregnation attempt takes place if done by male. Great user perk triggers to attempt to thwart attempt. If that fails , the cookie is considered prone , and if ember is still active the prone ember effect takes place : Ember enhance effect only when ember is availble : if cookie is prone , instead of humanoid enemies killing her:  female opponents gain  ridicule bonus mocking her instead of finishing her, males gain lust bonus seeing her vulnerable, attempting to mate immediately , str save must be made to stop males from succeeding.
+

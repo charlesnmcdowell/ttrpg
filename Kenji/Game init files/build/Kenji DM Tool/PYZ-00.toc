@@ -4879,6 +4879,10 @@
    'C:\\Users\\charl\\OneDrive\\Documents\\TTRPG\\Kenji\\Game init '
    'files\\tts_stitcher.py',
    'PYMODULE'),
+  ('tts_voice_designer',
+   'C:\\Users\\charl\\OneDrive\\Documents\\TTRPG\\Kenji\\Game init '
+   'files\\tts_voice_designer.py',
+   'PYMODULE'),
   ('tty',
    'C:\\Users\\charl\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tty.py',
    'PYMODULE'),

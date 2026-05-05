@@ -26,7 +26,7 @@ Nobody sees it. God Sight confirms.
 
 The portal goes up in an oak trunk. Eleven of sixteen. Gold and green-black threads in living wood. Then he walks north. No Stride. No stealth. Hands away from the blades. The ember visible through enchanted leather.
 
-The forest watches. Not eyes. Something older.
+The forest watches. Something older than eyes.
 
 ---
 

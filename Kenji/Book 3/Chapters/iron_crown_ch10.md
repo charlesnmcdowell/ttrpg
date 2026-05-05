@@ -1,47 +1,47 @@
-# The Iron Crown War — Chapter Ten: Champion
+# The Iron Crown War — Chapter Ten: The Crossing
 
-## Days 47-48
-
------
-
-Katya Voss. A locked tent. A surrendered sword. Honey cakes on a map table.
-
-He didn't speak. Didn't interrogate. Didn't threaten. He sat in a chair and closed his eyes and let a general who lost everything talk until the silence broke her more thoroughly than any army could.
-
-The Forge core is under the throne. The Crown channels it. Without one, the other is inert.
-
-She told him how to kill her Emperor. Then she told him she was choosing what came next.
-
-Thursdays.
+## Days 48-49
 
 -----
 
-The Heart Grove. Dawn. Ten thousand swords drawn simultaneously.
+A war council at the Silver Draft. Five women. One table. Katya ran the meeting because everyone else was preoccupied.
 
-The Eldest named him Champion of the Deepwood. Fifth in ten thousand years. First human. The sigils blazed. The Rootways lit up across the continent. The forest claimed him.
+The proposal: talk to the Emperor. The counter: Mordecai is already inside Vyranth. Hours, not days.
 
-Faelindra's salute. Nimue's tears. Lythara's roots spreading across the grove floor pulsing with recognition. Auren standing at attention — a king recognizing a title he once held.
-
------
-
-Lythara against the Heart Grove wall. The old-fashioned way. The druid who let roots handle everything discovering what it felt like when they didn't.
-
-She fell asleep in the soil at the base of the oldest tree on the continent. The roots cradled her. The sigils dimmed to match her breathing.
+Two operations. The hammer and the scalpel. Vess and Katya take the army. Kenji takes the blade.
 
 -----
 
-A war council at the Silver Draft. Five women. One table.
+Stormhaven. Sera at the helm of the *Dominion's Pride*. Fifteen days of silence broken by three words: I need a battleship.
 
-Katya — immune, clear-headed, already drawing maps. Vess — nat 1, gripping the doorframe, fighting through it. Faelindra — out of her forest for the first time in decades. Elara — calibrating crystal instruments through moderate distraction. Pip — her own inn, her own stairs, her own ledger, nat 2.
+She punched him in the chest. Then she took the wheel.
 
-The general who switched sides ran the meeting because everyone else was preoccupied.
-
-The proposal: go to Vyranth alone. Talk to the Emperor.
-
-Katya: he'll listen. Pip: bring leverage. Elara: before Mordecai gets there. Vess: in writing. Faelindra: alone means no extraction.
-
-The table waits. The war has one act left. The Wizard King is deciding whether to end it with a sword or a conversation.
+"I wasn't asking the elf."
 
 -----
 
-*End of The Iron Crown War — Chapter Ten: Champion.*
+The Ashenmere Strait. Forty miles. Ten hours. Eight warships in the crossing. Eight warships on the sea floor by morning. Emberfrost from the deck. Not a contest.
+
+Jarek never fired. He sat in the crow's nest cleaning his bow.
+
+Duchess called it boring.
+
+-----
+
+Dawn. Day 49. The eastern continent rises from fog. Dark stone. Red cliffs. Vyranth on a plateau — walled, towered, the black spire of the Iron Throne cutting the sky.
+
+The harbor is empty. The docks unguarded. Either a trap or a surrender.
+
+The hammer is twelve hours behind — Vess, Katya, a thousand constructs, six thousand soldiers. The scalpel is here now. Eight fighters on the deck of a stolen warship.
+
+-----
+
+Faelindra at the bow. Ironwood armor. The general reading walls.
+
+"I've been a general for three hundred years. I don't know what I am without a war."
+
+The harbor approaches. The last battle waits. The Champion of the Deepwood stands beside the general who chose him, and neither of them knows what comes after.
+
+-----
+
+*End of The Iron Crown War — Chapter Ten: The Crossing.*

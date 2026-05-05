@@ -7,9 +7,17 @@
   "_cache_note": "Per-character cache at <Char>/Game init files/_tts_cache/, per-tab (play vs narrative). First click fires API + saves WAV; replays are free.",
   "_archive_note": "New audio also copied to <Char>/audio_archive/Chapter_NN/<source>_Ch_NN_<timestamp>.wav for audiobook export.",
   "character_voices": {
-    "_doc": "Map character display name → ElevenLabs voice ID. The dashboard reads engine.char_name and looks it up here first; falls back to top-level voice_id if no match.",
-    "Cookie": "",
+    "_doc": "Map character display name -> ElevenLabs voice ID. The dashboard reads engine.char_name and looks it up here first; falls back to the top-level voice_id (narrator) if the slot is empty. Lookup is case-insensitive.",
+    "_how_to_pick": [
+      "1. Visit https://elevenlabs.io/app/voice-library",
+      "2. Find a voice that fits the PC's personality and lineage",
+      "3. Click the voice -> the URL ends with the voice ID, OR use the Share dialog",
+      "4. Paste the voice ID into the slot below for that PC",
+      "5. Save this file. Dashboard re-reads on each Speak click — no restart"
+    ],
+    "_note": "Pro-tip: when prose attributes a line to your PC by name (e.g. \"Yes,\" Cookie said), the multi-voice pipeline will use that PC's voice for the line. So filling these in lets the player actually HEAR their character speak in their chosen voice — not just the narrator describing what they said.",
     "Shen Sama": "",
+    "Cookie": "",
     "Holly": "",
     "Kenji": "",
     "Amaris": ""

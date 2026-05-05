@@ -1,67 +1,83 @@
-# The Iron Crown War — Chapter Eight: Eve of War
+# The Iron Crown War — Chapter Eight: The Day the Forge Died
 
-## Days 42-46
-
------
-
-The bath. The boots. The bar. The grove.
-
-Windstrider Boots — elven craft, rush job, an apprentice named Syravelle who missed her grandmother's naming ceremony. He came back to apologize. Nobody apologizes for rush orders.
-
-Della. The new barmaid. WIS plus nothing against a force she couldn't name. Thirty-minute breaks that stopped being about rest.
-
-Pip. Three hundred thousand gold and a property empire. She watched a Councillor fall apart over chicken and wrote two words in a ledger margin. She saw everything through a door that was never closed. She hasn't confronted anyone. The powder keg ticks.
+## Day 47 — Dawn to Dusk
 
 -----
 
-The Southern Grove. Ten thousand elven warriors.
+Thirty-six nodes. Two fronts. One signal. Dawn.
 
-Five soldiers. Real swords. Cross-guard counters did more damage than his offense. Then a hundred. Thirty-eight rounds. Standard steel. Kill chains cascading. Then ten thousand. Seven and a half hours. Two hundred waves. Every single one.
+The eastern front breaks first — Faelindra's elves hitting twelve nodes with three centuries of precision. Eight secured by midmorning. Four contested.
 
-He called the general his future baby mama in front of her army. Then beat her army with their own swords. Then healed every one of them through the root network in sixty seconds. The grove bloomed where blood had been.
+The western front runs cleaner — Vess's deployment plan holding. Sera's Darkblades cut through. Dren and Kex crushed two nodes without losing a soldier. Zarek broke his in one round and asked for another. Ten of twelve secured. Two contested.
 
-Faelindra kissed him in front of ten thousand. The general chose.
+Jace's plague network — twelve nodes already dead. The affliction specialist sitting in a dead relay station eating rations while the continent shook.
 
------
-
-Three sisters. One tub. One sleeping man.
-
-Lythara's roots performed a service sacred druids never imagined. Faelindra accepted the methodology with military precision. Nimue rode him like a racing drake at full gallop and told her mother about it over breakfast tarts.
-
-The Eldest drank something stronger than tea and said the words "racing drake" to an empty room.
+Thirty of thirty-six. Six burning. The reserve activates.
 
 -----
 
-Four days of training in a locked study. Aether Weaving mastered in one. Sovereign's Will needs practice. The Long Memory sharpens with use.
+Node W3. Senna. Nat 1. Ambush. Vyranthos knew she was coming.
 
-The Eldest broke on Day 1. Ten thousand years of discipline. Stack 6. Not enough.
+A portal opens behind forty soldiers. Three rounds. Forty-three kills. The Arcane Momentum cascade — every death feeding the next swing. The field empties in eighteen seconds.
 
-"I told myself I was stronger. I told myself ten thousand years meant something. It doesn't."
+Senna. Blood on her face. Ki guttering. Green eyes through the smoke.
 
------
-
-Eleven women. The Wizard King built from the people who chose him.
-
-Senna's regeneration. Pip's golden tongue. Faelindra's blade dance. Nimue's cascade. Lythara's forest. Della's steady hands. Sera's dual strikes. Thessaly's archive. Elara's counterspells. Vess's war room. The Eldest's sovereign voice.
-
-Every bond a power. Every woman a pillar. The architecture of a man who loves too many people and protects all of them.
+"Took you long enough."
 
 -----
 
-## Day 46 — Eve of War
+Node W12. Vael. Wards failing. CR 18 guardian.
+
+Same portal. Same playbook. Three rounds. Thirty-nine kills. The guardian lasted a round and a half.
+
+Vael on one knee behind a cracked barrier. "I had it under control."
 
 -----
 
-The forward camp. Ironholt Approach. The portal humming. Construct squads patrolling in silent glass formations.
+Node E8. Nimue. The central junction. Overloaded.
 
-Reports trickle in.
+Not combat. A skill challenge against four months of stored ley energy trying to become a crater. Three failures. The chamber screaming. White light through cracking stone.
 
-Vess: western teams positioned. Faelindra: eastern force ready. Jace: twelve plague nodes dead. Carrick: Duchess wants fish. Dren: Ironholt standing. Senna: behind enemy lines. Jarek: they stopped sending scouts. Zarek: bored.
+Nimue on her knees. Bare hands on the aether-feed. Holding back a detonation through force of will.
 
-Tomorrow. Dawn. Twenty-four nodes. Two fronts. One signal.
+"NIMUE — TIME TO GO FAST."
 
-The Wizard King sits by a fire alone. The ember burns steady. The forest hums behind him. The war waits ahead.
+She climbs on. He grabs her. Stride. 450 feet. Not enough. The blast radius is half a mile.
+
+Portal. Mid-stride. Nat 18. Gold-green light tears open at full speed. They dive through. The portal closes. The node detonates 0.3 seconds later.
+
+Silvandris. The Heart Grove. Nimue on the root floor. Laughing. Crying. Alive.
+
+"You said go fast. That was very fast."
 
 -----
 
-*End of The Iron Crown War — Chapter Eight: Eve of War.*
+Then Thornkeep. The last card Katya Voss had been holding. Twelve thousand soldiers on the bridge while the coalition hit nodes. The supply line cut. Renna Bracken's three hundred surrounded.
+
+The ridge. Nimue on his back. The Dominion army below like a red tide.
+
+Emberfrost from the ridge. Giant's Throw into officer clusters. Then Stride into the formation. Chain kills cascading. One hundred and ten rounds. Twelve thousand soldiers. Every single one.
+
+Katya Voss. Nat 3 on the escape. Stayed too long commanding a retreat that was already a rout. The greatest general in the Dominion unbuckles her sword and sets it on a map table.
+
+"I yield to the ArchMagus of Varenholm."
+
+Renna Bracken walks through the gate. Blood on her armor. Three hundred alive behind her.
+
+"You came back."
+
+-----
+
+Day 47. One day.
+
+Thirty-five nodes secured. One crater. Twelve thousand soldiers destroyed. A general captured. A bridge held. A continent breathing for the first time in months.
+
+Three women rescued. A promise kept.
+
+The Ley Forge is crippled. The Iron Crown has one node left. And the Wizard King hit Level 35 standing in the wreckage of an army he killed alone.
+
+One act remains. Vyranth. The Emperor. The Iron Crown.
+
+-----
+
+*End of The Iron Crown War — Chapter Eight: The Day the Forge Died.*

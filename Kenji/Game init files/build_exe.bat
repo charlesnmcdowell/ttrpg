@@ -32,6 +32,13 @@ pyinstaller --onefile --noconsole ^
     --add-data "prose_state_extractor.py;." ^
     --add-data "play_engine.py;." ^
     --add-data "character_compute.py;." ^
+    --add-data "_chapter_close_check.py;." ^
+    --add-data "tts_config.json;." ^
+    --add-data "tts_voice_pool.json;." ^
+    --add-data "tts_speaker_parser.py;." ^
+    --add-data "tts_npc_voice_resolver.py;." ^
+    --add-data "tts_stitcher.py;." ^
+    --add-data "tts_voice_designer.py;." ^
     --collect-all anthropic ^
     --add-data "character_tracker.md;." ^
     --add-data "dm_rules_tracking.md;." ^

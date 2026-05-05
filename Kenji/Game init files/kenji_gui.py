@@ -910,6 +910,160 @@ class LiveDashboard(ctk.CTk):
             return None
         return pcm
 
+    def _tts_save_voice_pool(self, pool: dict) -> bool:
+        """Write the (possibly auto-populated) voice pool back to
+        tts_voice_pool.json so future sessions reuse the generated
+        voices instead of re-designing them. Best-effort — failure
+        logs to the narrator pane but does not abort playback (the
+        in-memory pool still works for THIS session)."""
+        path = self._tts_voice_pool_path()
+        try:
+            path.write_text(
+                json.dumps(pool, indent=2, ensure_ascii=False) + "\n",
+                encoding="utf-8")
+            return True
+        except Exception as e:
+            self._play_append_narrator(
+                f"\n[TTS voice pool save error: {e}. Generated voices\n"
+                f"won't persist across restarts until this is fixed.]\n")
+            return False
+
+    def _tts_identify_voices_needed(self, segments, roster_meta, pool):
+        """Pre-flight scan: find tracked NPCs whose pool bucket has fewer
+        than BUCKET_CAP voices, so the dashboard knows it needs to call
+        Voice Design before the regular multi-voice pipeline runs.
+
+        Returns a list of dicts: [{"name", "bucket_race", "gender",
+        "meta", "description"}, ...]. Empty list if every needed voice
+        is already in the pool (bucket cap hit) or the NPC isn't tracked
+        (anonymous → uses pool reuse, no design call).
+        """
+        try:
+            from tts_voice_designer import (BUCKET_CAP,
+                                              build_voice_description)
+            from tts_npc_voice_resolver import _race_to_bucket
+        except Exception:
+            return []
+
+        # Sticky map: NPCs already assigned a voice last session — never
+        # generate for them again. Read fresh each call so a hand-edited
+        # npc_voices.json is honored without restart.
+        sticky = {}
+        try:
+            sticky_path = self.config.state_file.parent / "npc_voices.json"
+            if sticky_path.exists():
+                sticky = {k.lower(): v for k, v in
+                            json.loads(sticky_path.read_text("utf-8")).items()
+                            if isinstance(k, str) and isinstance(v, str)
+                            and v and not k.startswith("_")}
+        except Exception:
+            pass
+
+        # Track names we've already added so we don't schedule the same
+        # NPC twice if they speak multiple times in one response.
+        scheduled = set()
+        needed = []
+        for seg in segments:
+            name = (seg.speaker or "").strip()
+            if not name or name.lower() in sticky or name.lower() in scheduled:
+                continue
+            meta = roster_meta.get(name)
+            if not meta:
+                # Untracked NPC — anon pool reuse handles this, no design
+                continue
+            race_bucket = _race_to_bucket(meta.get("race", ""))
+            gender = (meta.get("gender") or seg.gender_hint or "male").lower()
+            if gender not in ("male", "female"):
+                gender = "male"
+            bucket_slots = (pool.get(race_bucket) or {}).get(gender) or []
+            filled = [v for v in bucket_slots if v]
+            if len(filled) >= BUCKET_CAP:
+                continue   # bucket full → resolver will reuse
+            scheduled.add(name.lower())
+            needed.append({
+                "name": name,
+                "bucket_race": race_bucket,
+                "gender": gender,
+                "meta": meta,
+                "description": build_voice_description(race_bucket, gender, meta),
+            })
+        return needed
+
+    def _tts_run_voice_design(self, needed: list, pool: dict,
+                                api_key: str) -> bool:
+        """Pop a single confirm dialog listing all NPCs that need new
+        voices, then call Voice Design for each on user approval.
+        Generated voice IDs are written back to tts_voice_pool.json so
+        they persist across restarts. Returns True on success (proceed
+        to multi-voice TTS), False on cancel or hard failure."""
+        if not needed:
+            return True
+        try:
+            from tts_voice_designer import (design_and_save_voice,
+                                              DEFAULT_PREVIEW_TEXT)
+        except Exception as e:
+            self._play_append_narrator(
+                f"\n[TTS voice designer module missing — skipping "
+                f"design step. Tracked NPCs will use the existing pool "
+                f"or fall back to narrator. {e}]\n")
+            return True   # proceed; resolver handles missing voices gracefully
+
+        per_call_chars = len(DEFAULT_PREVIEW_TEXT)
+        total_chars = per_call_chars * len(needed)
+        lines = [
+            f"  • {n['name']:<24s} ({n['bucket_race']}.{n['gender']})"
+            for n in needed
+        ]
+        msg = (
+            f"Voice Design — generate {len(needed)} new NPC voice(s)?\n\n"
+            f"This uses ElevenLabs Voice Design (one call per NPC).\n"
+            f"Each call charges only for the {per_call_chars}-char preview\n"
+            f"text — total ≈ {total_chars} character credits.\n\n"
+            f"Voices will be saved to your ElevenLabs library AND to\n"
+            f"tts_voice_pool.json so future encounters reuse them — no\n"
+            f"more design calls for these NPCs once generated.\n\n"
+            f"NPCs to design:\n" + "\n".join(lines)
+        )
+        if not tk_messagebox.askyesno(
+                "Voice Design — generate new NPC voices?",
+                msg, default=tk_messagebox.NO, parent=self):
+            self._play_append_narrator(
+                f"\n[Voice Design cancelled. Tracked NPCs will use\n"
+                f"the existing pool / narrator fallback this turn.]\n")
+            return True   # not a failure — just skip generation
+
+        any_added = False
+        for n in needed:
+            self._play_append_narrator(
+                f"\n[Designing voice for {n['name']} "
+                f"({n['bucket_race']}.{n['gender']})…]\n")
+            result, err = design_and_save_voice(
+                api_key=api_key,
+                description=n["description"],
+                npc_name=n["name"],
+            )
+            if err:
+                self._play_append_narrator(
+                    f"[Voice Design failed for {n['name']}: {err}]\n"
+                    f"[Skipping — they'll use existing pool / fallback.]\n")
+                continue
+            # Insert into the first empty slot, or append if no empties.
+            bucket = pool.setdefault(n["bucket_race"], {}).setdefault(n["gender"], [])
+            placed = False
+            for i, slot in enumerate(bucket):
+                if not slot:
+                    bucket[i] = result.voice_id
+                    placed = True
+                    break
+            if not placed:
+                bucket.append(result.voice_id)
+            any_added = True
+            self._play_append_narrator(
+                f"[OK: {n['name']} -> {result.voice_id[:12]}…]\n")
+        if any_added:
+            self._tts_save_voice_pool(pool)
+        return True
+
     def _tts_speak_multi_voice(self, text: str, source: str = "play") -> bool:
         """Multi-voice Speak path. Returns True if it played (or showed a
         cache hit), False if it fell through and the caller should retry
@@ -961,6 +1115,16 @@ class LiveDashboard(ctk.CTk):
         segments = parse_prose(cleaned, roster=roster_names)
         if not segments:
             return False
+
+        # PRE-FLIGHT: identify tracked NPCs whose pool bucket has fewer
+        # than BUCKET_CAP voices, then ask the user to confirm a Voice
+        # Design generation pass. The pool dict is mutated in-place so
+        # the resolver below picks up newly-designed voices on the same
+        # call. Cancellation just skips generation — resolver falls back
+        # to existing pool / narrator gracefully.
+        needed = self._tts_identify_voices_needed(segments, roster_meta, pool)
+        if needed:
+            self._tts_run_voice_design(needed, pool, api_key)
 
         # Resolve each segment to a voice ID. Track unique voice IDs so we
         # can early-exit if everything ends up as narrator (no point in
