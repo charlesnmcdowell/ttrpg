@@ -2884,7 +2884,7 @@ He looked at the ronin.
 
 And then everything went quiet.
 
-Not the quiet of a dead relay. Not the quiet of a destroyed node. *Everything.*
+Not the quiet of a dead relay or a destroyed node — the quiet of *everything.*
 
 Living Ground swept south — two hundred feet of restored range — and found **nothing.** No pulse. No hum. No distant necromantic rhythm bleeding through the soil. The entire relay network had gone **silent.** Every node south of here, however many there were, shut down simultaneously.
 
@@ -3211,7 +3211,7 @@ Jostin had the journal open. Already writing the debrief. Already formatting the
 
 "We're not going back."
 
-Jostin's pen stopped.
+Jostin's pen lifted off the page.
 
 "Sir?"
 
@@ -4138,7 +4138,7 @@ The roots did not argue. They filed.
 
 The corridors opened.
 
-Not violently — not the kind of opening that meant escape or the kind that meant trap. The March *relaxed* around him the way a fist relaxes when it has already taken what it wanted from the thing inside it. Root channels that had been thick enough to block passage thinned into the walls. The green luminescence that had pulsed with territorial awareness dimmed to the resting state — not dark, not bright, the light of a building that was no longer paying attention to a specific guest.
+Not violently — and not the kind of opening that meant escape or trap. The March *relaxed* around him the way a fist relaxes when it has already taken what it wanted from the thing inside it. Root channels that had been thick enough to block passage thinned into the walls. The green luminescence that had pulsed with territorial awareness dimmed to the resting state — not dark, not bright, the light of a building that was no longer paying attention to a specific guest.
 
 She walked him to the edge. Not beside him — ahead. The Lady moved through her own domain the way water moves through a riverbed: without effort, without deviation, following the path that had been cut for her by the thing she was. Thralls stood aside before she reached them. Doorways widened. The mist at the perimeter — the killing mist, the grey wall that locked out intruders and turned the grove into ordinary trees for the uninvited — thinned where she looked.
 
@@ -4887,7 +4887,7 @@ Mursha did not laugh.
 
 **"Where'd you get that?"**
 
-The question was plain. Not accusatory, not frightened, not the dramatic confrontation of a woman who has discovered her companion is carrying a death knight's weapon. Just a question, asked in the voice of someone who had spent her career around blades and knew that the one she had just seen did not belong to the man who held it and did not belong in a relay-town forge and did not belong anywhere that smelled like quench water and ten-gold armor deals.
+The question was plain. No accusation in it, no fear, none of the dramatic confrontation of a woman who has discovered her companion is carrying a death knight's weapon. Just a question, asked in the voice of someone who had spent her career around blades and knew that the one she had just seen did not belong to the man who held it and did not belong in a relay-town forge and did not belong anywhere that smelled like quench water and ten-gold armor deals.
 
 He answered — or did not answer, or answered in the space between answers where ronin live when the truth is a weapon they are not ready to draw. The question stayed open. Mursha filed it the way she filed the clone flicker from the night before: in the box marked *things I have noticed and not yet decided what to do about,* which was getting full.
 
@@ -5220,8 +5220,8 @@ The afternoon was waiting on the answer.
 
 ## Fraying Empire — Chapter Twenty-Three: *The Road Chooses*
 
-**Session span:** Ashmere **36** **Forgeday** **mid-morning →** **Ashmere** **37** **dawn** **through** **first** **relay** **leg** (**Day** **258 →** **259**). Opens **Brass** **Hitch** **/** **Bronzebarrow** **factor** **fringes**; **commits** **north** **courier** **vector** **toward** **Kharn-Dural** **surface** **gates**; **closes** **on** **crown** **road** **camp** **with** **mountain** **weather** **ahead**.
-**Corridor:** **Common** **floor** **fork** **(**Mursha**)** → **Haldra** **desk** **(**paper** **merge** **+** **contract**)** → **sealed** **tube** **beat** **(**Hollowing** **seed**)** → **yard** **skirt** **(**Cassia** **noise**)** → **predawn** **must** **(**Day** **259**)** → **factor** **train** **/** **first** **day** **north** → **cold** **ring** **camp**.
+**Session span:** Ashmere 36 Forgeday mid-morning → Ashmere 37 dawn through first relay leg (Day 258 → 259). Opens Brass Hitch / Bronzebarrow factor fringes; commits north courier vector toward Kharn-Dural surface gates; closes on crown road camp with mountain weather ahead.
+**Corridor:** Common floor fork (Mursha) → Haldra desk (paper merge + contract) → sealed tube beat (Hollowing seed) → yard skirt (Cassia noise) → predawn muster (Day 259) → factor train / first day north → cold ring camp.
 
 ### Fork before noon
 
@@ -5299,7 +5299,7 @@ Just the world doing what investigation always did before it became accusation: 
 
 ---
 
-**Forge** **bell** **—** **Ashmere** **37**, **cold** **clear**.
+Forge bell. Ashmere 37, cold and clear.
 
 The factor train assembled without ceremony: wagons greased, ox teams sworn at lovingly, waxed crates strapped down by people who treated straps like theology. Mursha took her place as *hired*—not behind Kenji, not beneath him, but beside the lead wagon’s bench where a guard belonged.
 
@@ -5345,8 +5345,8 @@ The mountain ahead was a darker tooth on the horizon. The forge-glow that should
 
 ## Fraying Empire — Chapter Twenty-Four: *The Gate Line*
 
-**Session span:** Ashmere **37** **night** **→** **Ashmere** **38** **evening** (**Day** **259 →** **260**). Opens **cold** **ring** **camp** **(**Ch23** **close**)**; **two** **full** **march** **days** **on** **the** **north** **crown** **relay**; **closes** **at** **Kharn-Dural** **outer** **checkpoint** **queue** **(**surface** **gates** **visible** **/** **not** **yet** **passed**)**.
-**Corridor:** **Break** **camp** **→** **graded** **climb** **→** **gnome** **milepost** **friction** **(**Mursha** **front**)** → **second** **night** **ring** **→** **approach** **switchback** **→** **coalition** **+** **Kharn** **joint** **inspection** **(**papers,** **pouch,** **sell-sword** **mask**)**.
+**Session span:** Ashmere 37 night → Ashmere 38 evening (Day 259 → 260). Opens cold ring camp (Ch23 close); two full march days on the north crown relay; closes at Kharn-Dural outer checkpoint queue (surface gates visible / not yet passed).
+**Corridor:** Break camp → graded climb → gnome milepost friction (Mursha front) → second night ring → approach switchback → coalition + Kharn joint inspection (papers, pouch, sell-sword mask).
 
 ### Mursha’s morning
 
@@ -5420,7 +5420,7 @@ They shared heat the way travelers shared heat—economy, not confession. If her
 
 ---
 
-On **Ashmere 38**, evening of **Day 260**, the mountain stopped being a rumor.
+On Ashmere 38, evening of Day 260, the mountain stopped being a rumor.
 
 Kharn-Dural’s surface cut showed as a black line in cliff face—too straight, too stubborn for weather. Forge-glow should have been steady. It pulsed instead, slow as a sick heartbeat, wrong enough that even humans felt it in their teeth.
 
@@ -5452,8 +5452,8 @@ They were not inside yet. They were *admitted to the line*—the first shell of 
 
 ## Fraying Empire — Chapter Twenty-Five: *The Proof Line*
 
-**Session span:** Ashmere **38** **night** (**Day** **260**). Opens **off-checkpoint** **blind** **(**player** **thread** **with** **coalition** **scribe** **Tamsin** **Vale**)**; **closes** **on** **return** **vector** **toward** **Kharn** **outer** **line** **/** **reintegration** **with** **Mursha** **cover**.
-**Corridor:** **Hidden** **berm** **→** **private** **beat** **(**mature** **—** **coercion** **/** **IP** **context** **per** **table**)** → **proof** **of** **reading** **→** **walk** **back**.
+**Session span:** Ashmere 38 night (Day 260). Opens off-checkpoint blind (player thread with coalition scribe Tamsin Vale); closes on return vector toward Kharn outer line / reintegration with Mursha cover.
+**Corridor:** Hidden berm → private beat (mature — coercion / IP context per table) → proof of reading → walk back.
 
 ### Proof
 
@@ -5463,31 +5463,31 @@ She had scratched three symbols in the dirt with a stick—coalition hand, not f
 
 The mask stayed on. The ronin knelt long enough to see the line clearly—not theater, focus.
 
-Kenji spoke. The sounds came out careful, then firmer: not fluency, not poetry—**recognition**. The kind of moment where illiteracy stops being a wall for one beat and becomes a door left cracked.
+Kenji spoke. The sounds came out careful, then firmer — not fluency, not poetry, but recognition. The kind of moment where illiteracy stopped being a wall for one beat and became a door left cracked.
 
-Tamsin Vale did not clap. She did not soften. Her mouth tightened anyway, because a clerk’s pride hates miracles and loves **verification**.
+Tamsin Vale did not clap. She did not soften. Her mouth tightened anyway, because a clerk’s pride hated miracles and loved verification.
 
-**Kenji** **(**player**):** *I can read.*
+*I can read*, Kenji said.
 
-In front of her, he **meant** it—not every ledger in the world, not yet, but **this** line, **this** proof, **this** night. Confirmation as contract.
+In front of her, he meant it — not every ledger in the world, not yet, but this line, this proof, this night. Confirmation as contract.
 
-Tamsin exhaled through her nose. “**Once** doesn’t make you **literate**.” Voice thin. “It makes you **dangerous**—you’ll **think** you **know** what paper **says**.”
+Tamsin exhaled through her nose. “Once doesn’t make you literate.” Voice thin. “It makes you dangerous. You’ll think you know what paper says.”
 
-Pause.
+A pause.
 
-“**Keep** practicing.” Bitter as alum. “Or **don’t**. **Not** my **problem** once we’re **past** the **lanterns**.”
+“Keep practicing.” Bitter as alum. “Or don’t. None of my problem once we’re past the lanterns.”
 
 She brushed dirt over the marks until the line died. Erasure as habit.
 
 On the walk, when the lanterns were still far enough to pretend the night belonged only to footfalls and grudge, Kenji stopped her with a voice that tried to sound like courtesy.
 
-**Kenji** **(**player**):** *If you want another goal, seek me out—send a letter to the ronin. I’ll come to you.*
+“If you want another goal, seek me out,” Kenji said. “Send a letter to the ronin. I’ll come to you.”
 
-Tamsin’s laugh was too quiet to carry. “**The** **ronin**.” She tested the word like a bad seal. “**Which** **yard**? **Which** **factor**? **Which** **bird** **eats** **my** **message** **before** **it** **flies**?”
+Tamsin’s laugh was too quiet to carry. “The ronin.” She tested the word like a bad seal. “Which yard? Which factor? Which bird eats my message before it flies?”
 
-Pause.
+A pause.
 
-“I’ll **remember**.” Not a promise—**a** **threat** **dressed** as **memory**. “**Don’t** **make** me **use** it.”
+“I’ll remember.” Not a promise — a threat dressed as memory. “Don’t make me use it.”
 
 They walked.
 
@@ -5495,26 +5495,26 @@ They walked.
 
 ## Fraying Empire — Chapter Twenty-Six: *Her Watch*
 
-**Session span:** Ashmere **38** **predawn →** **morning** (**Day** **260 →** **261**). Opens **Kharn-Dural** **inner** **gallery** **(**coalition** **clip** **vector**)** after **Kenji** **rejoins** **factor** **cover** **(**clone** **dissolved** **/** **swap** **per** **table**)**; **Mursha** **carries** **the** **chapter**.
-**Corridor:** **Train** **park** **→** **Mursha** **perimeter** **→** **dwarf** **traffic** **noise** **→** **quiet** **beat** **(**almost** **Oathbreaker**)** → **yard** **tier** **assignment**.
+**Session span:** Ashmere 38 predawn → morning (Day 260 → 261). Opens Kharn-Dural inner gallery (coalition clip vector) after Kenji rejoins factor cover (clone dissolved / swap per table); Mursha carries the chapter.
+**Corridor:** Train park → Mursha perimeter → dwarf traffic noise → quiet beat (almost Oathbreaker) → yard tier assignment.
 
 ### Perimeter
 
 ---
 
-Mursha did not think in minutes when the mountain was listening. She thought in **rings**: who stood where, which lantern threw which shadow, which dwarf boots meant business and which meant boredom.
+Mursha did not think in minutes when the mountain was listening. She thought in rings — who stood where, which lantern threw which shadow, which dwarf boots meant business and which meant boredom.
 
-The factor train had earned its halt—wax, tally, the diplomatic pouch line that turned the tube from rumor into paperwork. Her contract named her **liability** for the wagons, not for the ronin’s secrets. She treated both the same way she treated steel: **assume** it could fail, **plan** for the break.
+The factor train had earned its halt — wax, tally, the diplomatic pouch line that turned the tube from rumor into paperwork. Her contract named her liability for the wagons, not for the ronin’s secrets. She treated both the same way she treated steel: assume it could fail, plan for the break.
 
-When Kenji **reappeared** beside the lead bench where the sell-sword was supposed to be, she did not **startle**.
+When Kenji reappeared beside the lead bench where the sell-sword was supposed to be, she did not startle.
 
 That was the first wrong thing.
 
-The second wrong thing was smaller: a **lag** in her gut, like a step that should have clicked and **didn’t**. She’d learned not to trust magic she couldn’t name—not after Brass Hitch, not after the western cut, not after watching him **be** in two places without admitting it.
+The second wrong thing was smaller — a lag in her gut, like a step that should have clicked and didn’t. She had learned not to trust magic she couldn’t name. Not after Brass Hitch. Not after the western cut. Not after watching him be in two places without admitting it.
 
-She didn’t accuse him in dwarf hearing.
+She did not accuse him in dwarf hearing.
 
-She **adjusted** her stance half a pace closer anyway, warhammer hilt available, dragon-scale catching lantern light the way expensive laminate always did—*I remember being worth something.*
+She adjusted her stance half a pace closer anyway, warhammer hilt available, dragon-scale catching lantern light the way expensive laminate always did — *I remember being worth something.*
 
 ---
 
@@ -5522,15 +5522,15 @@ She **adjusted** her stance half a pace closer anyway, warhammer hilt available,
 
 ---
 
-“**You** **were** **gone**.” Mursha kept her voice under the grind of a passing cart. Not a question. A **fact** she was handing him like a coin to see if he’d bite.
+“You were gone.” Mursha kept her voice under the grind of a passing cart. Not a question. A fact she was handing him like a coin to see if he’d bite.
 
 Kenji could answer or not. Silence was its own answer, with her.
 
-She exhaled once through her nose—**annoyance**, **relief**, **both**.
+She exhaled once through her nose — annoyance, relief, both.
 
-“**Fine**.” **Mule-clear** diction returned like armor buckles. “**Don’t** **make** **me** **lie** **for** **you** **in** **front** **of** **a** **forge-sight** **clerk** **who** **already** **wants** **your** **bag**.”
+“Fine.” Mule-clear diction returned like armor buckles. “Don’t make me lie for you in front of a forge-sight clerk who already wants your bag.”
 
-Down the cut, the younger dwarf with the sharp eyes passed through an arch—**not** approaching, **not** done noticing. Mursha tracked him the way she tracked ridge lines: **geometry**, not grudge.
+Down the cut, the younger dwarf with the sharp eyes passed through an arch — not approaching, not done noticing. Mursha tracked him the way she tracked ridge lines: geometry, not grudge.
 
 ---
 
@@ -5538,17 +5538,17 @@ Down the cut, the younger dwarf with the sharp eyes passed through an arch—**n
 
 ---
 
-They stole ten minutes where ten minutes existed: a supply niche smelling of oil and rope, just out of the worst traffic. Mursha checked Kenji’s straps the way guards checked partners—not tender, **inventory**.
+They stole ten minutes where ten minutes existed — a supply niche smelling of oil and rope, just out of the worst traffic. Mursha checked Kenji’s straps the way guards check partners. Not tender. Inventory.
 
-Her eyes held the **bronze** ring that meant **Lover’s Vigor** still had days left—sharp, warm, **honest** in a way her mouth refused to be.
+Her eyes held the bronze ring that meant Lover’s Vigor still had days left — sharp, warm, honest in a way her mouth refused to be.
 
-Marthel’s face flickered behind hers anyway—the smith’s fear when steel that shouldn’t exist slid out of a bag.
+Marthel’s face flickered behind hers anyway. The smith’s fear when steel that should not exist slid out of a bag.
 
 She opened her mouth.
 
 Closed it.
 
-**Duty** won again, but thinner this time—like metal stressed too many times in the same place.
+Duty won again, but thinner this time — like metal stressed too many times in the same place.
 
 ---
 
@@ -5556,28 +5556,28 @@ Closed it.
 
 ---
 
-Morning came to Kharn the way morning came underground: **shifts** changed, **bells** rang, **steam** found new cracks to escape through.
+Morning came to Kharn the way morning came underground — shifts changed, bells rang, steam found new cracks to escape through.
 
 Mursha took the assignment sheet from the factor lead and signed where signing meant *I will keep your blood inside your skin until the next stamp.*
 
-The train would move again—not deep yet, not final, but **inward** one tier, toward yards where forge-glow pulsed wrong and dwarves stopped using certain words and started using others.
+The train would move again. Not deep yet, not final, but one tier inward, toward yards where forge-glow pulsed wrong and dwarves stopped using certain words and started using others.
 
 Kenji fell in where sell-swords fell in.
 
-Mursha fell in where **guards** fell in—**beside** him when the corridor allowed, **ahead** of him when the corridor required.
+Mursha fell in where guards fell in — beside him when the corridor allowed, ahead of him when the corridor required.
 
-She did not ask permission to **follow** him through the mountain.
+She did not ask permission to follow him through the mountain.
 
-She **was** **already** **doing** it by **contract**.
+She was already doing it by contract.
 
 ---
 
 ## Fraying Empire — Chapter Twenty-Seven: *Manifest Revision*
 
-**Session span:** Ashmere **39** **morning → afternoon** (**Day** **261**). **Kharn-Dural** **inner** **yard** — **two** **checkpoint** **beats** **(**stamp** **wedge** **→** **Manifest** **Revision** **II**)** after **Ch26** **escort** **geometry**; **Mursha** **+** **Kenji** **factor** **cover**.
-**Corridor:** **Queue** **geometry** **→** **coin** **distraction** **→** **sleight** **beat** **(**contested**)** **→** **first** **stamp** **pass** **→** **second** **wedge** **(**forge-sight** **palms**)** **→** **cargo** **reconciliation** **lip**.
+**Session span:** Ashmere 39 morning → afternoon (Day 261). Kharn-Dural inner yard — two checkpoint beats (stamp wedge → Manifest Revision II) after Ch26 escort geometry; Mursha + Kenji factor cover.
+**Corridor:** Queue geometry → coin distraction → sleight beat (contested) → first stamp pass → second wedge (forge-sight palms) → cargo reconciliation lip.
 
-**Table — literacy this session:** Kenji **reads** **dwarf** **script** **and** **coalition** **marginalia** **at** **Tier** **II** **slate** **(**per** **table** **—** **Soul** **Nexus** **/** **scribe** **bond** **tools** **as** **played**)**. **Cover:** **do** **not** **show** **comprehension** **in** **witness** **space** **unless** **player** **declares** **it**.
+**Table — literacy this session:** Kenji reads dwarf script and coalition marginalia at Tier II slate (per table — Soul Nexus / scribe bond tools as played). Cover: do not show comprehension in witness space unless player declares it.
 
 ---
 
@@ -5585,13 +5585,15 @@ She **was** **already** **doing** it by **contract**.
 
 ---
 
-Mursha answered the mountain the way she answered fighters who feinted twice in the same breath: **Krath** — two jobs, not one.
+Mursha answered the mountain the way she answered fighters who feinted twice in the same breath: *Krath* — two jobs, not one.
 
-First: **Haldra-line** liability — names on the manifest, blood inside skin, no scandal that ended in chains.
+The first job was Haldra-line liability. Names on the manifest. Blood inside skin. No scandal that ended with anyone in chains.
 
-Second: **quarantine truth** — the forge story official Kharn wrapped in *malfunction* and stamp lines. Her **old Mule standing** was leverage to move **inward**, not magic — close enough that when the lie broke, they weren’t reading it secondhand from a tavern liar.
+The second was the quarantine truth — the forge story that official Kharn was wrapping in *malfunction* and stamp lines while the deep forge whisper said something different in voices that did not get recorded. Her old Mule standing was leverage to push inward, not magic. Close enough that when the lie broke open, they would not be reading about it secondhand from a tavern liar.
 
-Kenji could take the romantic version or the true one. She said they were the **same path**.
+Kenji could take the romantic version of the journey or the true one. She told him they were the same path.
+
+He nodded. The mask did the rest.
 
 ---
 
@@ -5599,17 +5601,17 @@ Kenji could take the romantic version or the true one. She said they were the **
 
 ---
 
-Noise carried in Kharn stone like judgment. A coin **rolled**; dwarf ears **bent** toward it; attention **tilted** for a **window**.
+Noise carried in Kharn stone the way judgment carried in old courtrooms — louder than the speaker meant, and longer.
 
-**Sleight of Hand** (**DEX** **+5**, **advantage** — distraction, stone carry) vs a **young** **dwarf** **traveler’s** **Perception** (**+2**, **disadvantage** — ears still hooked on the roll): **16** **vs** **4** — **Kenji** **wins** **(**margin** **12**)**.
+A coin rolled across the flagstones at the edge of the queue. Dwarf ears bent toward it the way dwarf ears bend toward any sound that might be money. The young traveler who had dropped it (or thought he had dropped it) bent down to chase the wrong shadow on the floor. Attention tilted for one window — long enough.
 
-Weight **moved**; belt **settled** **like** **nothing** **had** **changed**. The dwarf never looked at his hands — pride snapped her gaze back to the arch.
+Sleight of Hand against the traveler’s perception. Kenji’s DEX +5 and the advantage from the distraction landed at sixteen against a four. Margin twelve. The dwarf never looked at his own hands. Pride snapped his gaze back to the queue and the arch and the stamp ahead. The repositioned weight settled on him as if his belt had always carried it. Which, for the next twenty seconds, it had.
 
-Mursha’s elbow **touched** his ribs once: *finish or abort; don’t hover.*
+Mursha’s elbow touched Kenji’s ribs once. *Finish or abort. Don’t hover.*
 
-First **stamp** **fell** — **thock**. They **walked** **through** **clean**. Behind them, the queue reshuffled; somewhere in the press, a short-cloak traveler still **did not know** she carried **his** **repositioned** **kit**.
+The first stamp fell. *Thock.* They walked through the wedge clean. Behind them, the queue reshuffled around the gap they had left, and somewhere in the press a short-cloak traveler was carrying the ronin’s repositioned kit in his belt without knowing he had been hired.
 
-Mursha did not look back. **Vol-sha** — lucky. Don’t make a habit.
+Mursha did not look back. *Vol-sha* — lucky. *Don’t make a habit.*
 
 ---
 
@@ -5617,21 +5619,23 @@ Mursha did not look back. **Vol-sha** — lucky. Don’t make a habit.
 
 ---
 
-The next wedge wore **meaner** math: **Manifest** **Revision** **II**, **personal** **lane** **plus** **resonance** **spot-check** **language** **for** **forge-adjacent** **kit**. Marginalia warned clerks could **open** **pouches** on **ambient** **unease**.
+The next wedge wore meaner math. Manifest Revision II, personal lane plus resonance spot-check language for forge-adjacent kit. The slate marginalia warned that clerks could open pouches on ambient unease alone, no warrant required, no recourse on the back end.
 
-Kenji **read** **every** **line** **the** **slate** **offered** — **dwarven** **hand** **too** **fast** **for** **old** **cover** — and **gave** **the** **room** **nothing** **to** **steal**: bored sell-sword eyes, mask discipline.
+Kenji read every line the slate offered. Dwarven hand was too fast for his old cover and the comprehension surprised him a beat before the bond memory caught up — but he gave the room nothing to steal. Bored sell-sword eyes. Mask discipline. The kind of stillness that read as illiterate to anyone who was not looking for the moment after the reading.
 
-**Two** **clerks**: **older** **tally**, **younger** **forge-sight**. The younger remembered crowds the way pickpockets remembered wallets.
+Two clerks worked the wedge. The older was tally-trained — counted what was in front of her and trusted the count. The younger was forge-sight, the dwarven gift for reading the shape of an object through the fabric over it, and he carried the look of a man who remembered crowds the way pickpockets remembered wallets.
 
-Mursha laid **Haldra** seals **flat**. The amendment **Kenji** could **parse** **without** **speaking**: **delay** **flag** **cleared** **Tier** **I** — good news **silent**.
+Mursha laid the Haldra seals flat. The amendment was right where it should have been. Kenji parsed it without speaking and read the silent good news: delay flag cleared at Tier I.
 
-**Forge-sight** asked for **palms** **up**, **slow**. Kenji obeyed. Straps, empty belt lines, the **shape** of **honest** **travel** — or **honest** **enough** **for** **this** **beat**.
+Forge-sight asked for palms up, slow. Kenji obeyed. Straps. Empty belt lines. The shape of honest travel, or honest enough for this beat. The repositioned kit was three travelers behind them and walking the wrong way for any spot-check to find it.
 
-The clerk **tilted** his chin — **note** **resolved** **…** **for** **now**. Pass with your guard. Next lane: **cargo** **reconciliation** — don’t drift.
+The clerk tilted his chin. *Note resolved. For now. Pass with your guard. Next lane is cargo reconciliation. Don’t drift.*
 
-**Stamp** — **thock**.
+Stamp. *Thock.*
 
-**Krath** — read like that again in public, Mursha breathed, make it look like you’re counting boot laces.
+*Krath,* Mursha breathed once they were past the rail. Read like that again in public, and make it look like you’re counting your boot laces.
+
+Kenji counted his boot laces.
 
 ---
 
@@ -5639,128 +5643,770 @@ The clerk **tilted** his chin — **note** **resolved** **…** **for** **now**.
 
 ---
 
-They cleared the bar into **deeper** **air** — **harmonic** **wrongness** **under** **the** **skin** **of** **the** **mountain**, **still** **not** **loud** **enough** **to** **name**.
+They cleared the bar into deeper air. Harmonic wrongness moved under the skin of the mountain now — not loud enough to name, loud enough to feel against the molars.
 
-The **factor** **train** **ghost** **matched** **their** **pace** **one** **corridor** **over** — **wax**, **wheel**, **the** **tube** **still** **someone** **else’s** **problem** **until** **it** **wasn’t**.
+The factor train ghosted along one corridor over, matching their pace. Wax. Wheel. The tube still somebody else’s problem until it wasn’t.
 
-Ahead: **cargo** **reconciliation** — **weights**, **seals**, **the** **kind** **of** **honesty** **that** **cost** **money**.
+Ahead waited cargo reconciliation — weights, seals, the kind of honesty that cost money.
+
+Mursha’s hand found her warhammer pommel without threat. The way a fighter rests a hand on something solid when the world tilts.
+
+The forge-glow above them was still pulsing wrong.
 
 ---
 
 ## Fraying Empire — Chapter Twenty-Eight: *Sky in the Mountain*
 
-**Session span:** Ashmere **39** **afternoon → evening** (**Day** **261**). **Kharn-Dural** **quarantine** **forge** **buffer** — **Kenji** **separated** **from** **Mursha** **(**Wind** **Step** **breach** **after** **inner** **checkpoints**)**; **female** **forge** **mistress** **+** **male** **guards** **at** **curtain** **line**; **elder** **authority** **enters** **at** **close**.
-**Corridor:** **Quarantine** **approach** **→** **glow** **study** **(**Investigation** **fail** **vs** **deep** **read**)** **→** **ley** **tap** **(**strained** **recovery**)** **→** **creation** **nova** **→** **Oathbreaker** **in** **seam** **→** **Frost** **Fang** **second** **pin** **→** **STR** **to** **hilt** **→** **Arcane** **Being** **entropy** **→** **male** **approach** **warning** **(**aura** **/** **entropy** **hazard**)** **→** **conduit** **vent** **upward** **→** **partial** **stabilization** **→** **burp** **beat** **→** **ten-word** **demand** **(**open**)**.
+**Session span:** Ashmere 39 afternoon → evening (Day 261). Kharn-Dural quarantine forge buffer — Kenji separated from Mursha (Wind Step breach after inner checkpoints); female forge mistress + male guards at curtain line; elder authority enters at close.
+**Corridor:** Quarantine approach → glow study (Investigation fail vs deep read) → ley tap (strained recovery) → creation nova → Oathbreaker in seam → Frost Fang second pin → STR to hilt → Arcane Being entropy → male approach warning (aura / entropy hazard) → conduit vent upward → partial stabilization → burp beat → ten-word demand (open).
 
-**Table sync:** **Ch27** **sleight** **/** **BoH** **(**planted** **vs** **stole** **traveler** **bag**)** — **reconcile** **`kenji_state.json`** **if** **canon** **diverged** **from** **prose** **file** **Ch27**.
+**Table sync:** Ch27 sleight / BoH (planted vs stole traveler bag) — reconcile `kenji_state.json` if canon diverged from prose file Ch27.
 
 ---
 
-### Summary prose
+### The buffer
 
-Kenji bypassed remaining checkpoint discipline with **Wind Step** and closed distance to the **quarantine forge** mouth. **Investigation** did not decode root cause (INT-limited read); the room answered in **events**—wrong pulse, tired stone, tools too neat.
+---
 
-A **ley tap** strained **slots** back toward readiness; the **forge mistress** challenged him at the rail. **Creation** surged—**ember** visible—and the chamber **noticed**.
+The cargo reconciliation lane had its own rhythm and Kenji spent thirty seconds learning it. Long enough for the older clerk to count the wrong column twice and look back at her tally for the third time. Long enough for the younger forge-sight clerk to drift toward a wagon four spots up the queue, drawn by a resonance flutter that turned out to be nothing.
 
-**Oathbreaker** driven into the **seam** did not “close” it; it **pinned** hunger. **Frost Fang** second-wedged **thermal** **argument**; **ward** chalk **fought** itself. Full **STR** drove both to **hilt**. **Entropy** mode fed the wrong mouth until the mistress read **balancing** **without** **healing**.
+Long enough for Wind Step.
 
-Kenji warned **males** back (**permanent** **death** **risk** from **aura** **/** **field**); the mistress held the **female-only** **breath** line while guards **disciplined** **panic**.
+He burned a charge against the seam between the lane and the corridor that ran past it, the silent ghost-step that disturbed neither air nor attention. One step from sell-sword to absent. Mursha caught the change with her peripheral vision the way she caught everything — the way a guard catches the moment her partner stops being where she expected him to be — and did not turn her head.
 
-He interpreted pressure as a **creation** **volcano**, **palmed** the crack, **vented** **upward** through **shaft** space—**gold-green** **conduit** **visible**, **upper** **works** **straining**, **glow** **thinning** **to** **bought** **time**. **Hand** **stuck** **to** **seam** **on** **release**; crack **smaller**, **not** **gone**.
+The corridor took him deeper. Three turns. Two unguarded archways. A stretch of stone that had been polished by dwarven feet for so many centuries the polish was a kind of geology now. The harmonic wrongness from earlier had stopped being a feeling against the molars and become an audible signature — the deep forge breathing on a bad rhythm somewhere ahead.
 
-**Player** **line** **after** **vent:** *“That’s one spicy meatball”* + **burp** — **gallows** **humor** **before** **authority**.
+The quarantine buffer announced itself by smell first. Not smoke. Not even heat. The smell of stone that had been asked to do something stone was not designed to do, and was failing at it on a scale the dwarves did not yet have an honest word for.
 
-An **iron-grey** **elder** **(**forge** **owner** **/** **crown** **voice** **—** **table** **names**)** demanded explanation in **ten** **words** **or** **less** **why** **the** **forge** **stopped** **eating** **itself** — **beat** **open** **for** **player** **reply**.
+He turned the last corner and the room was there.
+
+---
+
+### Glow study
+
+---
+
+The forge mouth was the size of a great hall ceiling turned on its side. A vertical seam in the working face, fifteen feet wide at the lip, narrowing as it climbed into the upper structure. Bruise-light pulsed inside the seam — not the red of honest forge work, not the gold of contained ley, something in between that the eye refused to assign a wavelength to.
+
+A female dwarven forge mistress stood at the rail. Forge-leather apron, hair bound up in iron rings, the kind of tired in her shoulders that came from working a problem she could not name with tools that were not designed for it. Three male guards held the curtain line ten feet behind her — armored, expressionless, hands loose on weapons that had not been drawn.
+
+Kenji dropped invisibility at the threshold because invisibility in a quarantine buffer was the kind of trespass that started shouting before it started any other conversation.
+
+The mistress turned. Saw him. Did not flinch. Catalogued the mask, the nodachi across his back, the lack of dwarven escort, in the order a foreman catalogued tools she had not requisitioned.
+
+“You are not authorized in this corridor,” she said. The voice was tired. The voice was also accurate.
+
+He bowed. Half bow. The kind that acknowledged the rule without conceding the trespass.
+
+Then he looked at the seam.
+
+Investigation fired. INT nine. The check did not pass. The deep architecture of the wrong did not unfold for him the way it would have unfolded for a man whose stat line ran in that direction. What he got instead was the surface read: the pulse was wrong, the stone above the seam was tired in a way load-bearing stone should not be tired, and the tools the dwarven crew had set out at the mouth were arranged too neatly. Tools that were being used did not stay neat. These tools had been reset by someone who had given up on using them an hour ago.
+
+The room was answering in events. The events did not require Investigation to decode. They required only the willingness to stand still long enough to hear them.
+
+The harmonic wrongness pulsed against his sternum.
+
+The ember in his chest answered.
+
+---
+
+### Ley tap
+
+---
+
+He was still down on cooldowns from the Wind Step burn and the long climb up the queue. He needed slots and he needed them now.
+
+Ley tap. The technique he had learned in Varenholm’s archive a year ago and refined every six weeks since — the deliberate channel that pulled raw arcane potential from the local network into his own reservoir. Kharn was a city built on top of one of the strongest ley nodes on the continent. The tap had options.
+
+It also strained.
+
+He felt the pull on the back of his soul — not painful, but the wrong side of comfortable, the way pulling weight you knew was past your honest one-rep felt the wrong side of comfortable. Three slots came back. Then four. The arcane reservoir filled to ninety percent. He stopped before he hit the wall and the wall hit back.
+
+The mistress watched the whole thing without speaking. She had recognized the shape of it. Every dwarf working at this depth recognized the shape of someone pulling on the line. What she had not recognized was the *gentleness* of it — the arcanist who took ley without breaking the channel he was taking it through.
+
+“Ronin,” she said. Now her voice carried weight. “Step back from the rail.”
+
+---
+
+### Creation
+
+---
+
+He stepped forward instead.
+
+Creation surged. The ember visible through enchanted leather flared once, twice, three times — the slow heartbeat of a contained sun, the proof of concept that had lived under his sternum since the night the inversion took the Sundered Gate and left an ember in him to hold the seam closed forever after. The room noticed. The seam noticed. The bruise-light in the working face leaned toward him the way grass leans toward a wind it cannot yet feel.
+
+The guards drew. Three blades clearing scabbards in the rough unison of garrison training. The mistress did not turn to them. Her eyes stayed on the ember in Kenji’s chest and on the geometry under her own boots that had just realized something larger than anything in this room had walked in.
+
+“You will *not*,” she began.
+
+He drew Oathbreaker.
+
+The greatsword came out of the Bag of Holding the way it had come out at Bracken’s office — broad, brutal, wrong in a quarantine buffer the way a live grenade was wrong on a dinner table. Holy white running down the edge. Necrotic dark climbing up the spine. The two forces in the blade arguing the way they had argued since the duel on the Pallid March crown.
+
+Then he drove it into the seam.
+
+The sound was wrong. Not the ring of steel against stone — the ring of two appetites recognizing each other across a threshold. Holy fire flared once and died into the seam’s bruise-light. Necrotic dark drank what the seam offered and stopped wanting more. Oathbreaker did not close the wound. It pinned the hunger.
+
+The seam screamed.
+
+Not the seam — the *thing inside* the seam, the appetite the dwarves had been calling malfunction. It had been eating quietly. Now it had been pinned, and pinned things screamed in a register that lived under hearing.
+
+Kenji drew Frost Fang.
+
+---
+
+### Two wedges
+
+---
+
+Solveth had not spoken since the Spoke War’s grammar at the Lady’s circle. Solveth spoke now. Not in words — in *recognition*. The dying god in the entropy blade had felt the appetite the moment the sword cleared the scabbard, and what came through the bond was the closest thing to a god’s relief Kenji had ever felt: *yes. that. now.*
+
+Frost Fang went into the seam parallel to Oathbreaker. Six inches over. Thermal argument — the entropy blade wedging against the necrotic edge of the holy weapon, two opposing physics arguments holding each other in tension across the wound.
+
+The ward chalk on the floor began to fight itself. Old binding glyphs the dwarves had laid down over the past week activated in cascade, recognizing dual-bound architecture in the room and trying to negotiate with it the way procedure had taught them to. The negotiation failed. The chalk lit up. The cascade reversed. The glyphs stopped trying to bind and started trying to *listen*.
+
+STR sixteen. Kenji drove both blades to the hilt with the deliberate weight of a man placing the last brick in a vault. The stone accepted them. The seam’s bruise-light dimmed by a third.
+
+Then he triggered Arcane Being.
+
+Entropy mode. The half-form he had unlocked at the Eldest’s table the night Lythara’s hair had reached for him and her mother had filed the change. Not a transformation — a *modulation*. The body became the conduit instead of the operator. The ember in his chest became a vent.
+
+The wrong mouth in the seam stopped feeding on appetite and started feeding on *him*.
+
+That was the goal. The mistress read it the same instant the cascade did — *balancing without healing*, the technique that traded the operator’s biology for time, the dwarven equivalent of putting a thumb in a dam wall while you waited for the actual dam to be built.
+
+She did not stop him. She had known the moment he flared the ember that this was the only door out of the room with the seam still inside it.
+
+What she did instead was hold the line at the curtain.
+
+---
+
+### Male approach
+
+---
+
+The guards took two steps forward. Reflex. Discipline. The instinct of armed men watching another armed man do something dangerous in proximity to a senior officer.
+
+Kenji turned his head once. The aura was running at full DC twenty-three already, but the entropy modulation had layered something else over it — a field that read as *charged* to anything alive within fifteen feet, the kind of charge that stripped soft tissue from male humanoids by the second exposure if they did not back away in the first.
+
+“Back,” he said. Voice flat — no theater in it, no warning weight, just *information.* “All male humans, stay behind the line. Field is hot. Permanent.”
+
+The mistress did not look at him. She looked at her three guards. “*Hold*,” she said in the dwarven that did not require translation.
+
+They held. One had already taken the third step and was experiencing the first prickle of the field in the soft skin behind his ear. He did not retreat. He did not need to. The mistress had named the rule and the guard recognized her seniority and dwarven discipline had its own gravity.
+
+She held the line. The female-only breath line, the rail between the curtain and the seam. Her own aura’s effect on her was background noise — strain, not collapse, the dwarven way of accounting for a magical pressure without letting the pressure determine the room’s geometry.
+
+The guards disciplined their own panic by the simple act of remaining where their commander had told them to remain.
+
+---
+
+### Volcano
+
+---
+
+Kenji read the seam’s pressure by the change in his own conduit.
+
+The dwarves had been thinking of it as a wound — something to seal, something to bandage, something to wait out. The geometry under his feet told him a different story. The seam was not a wound. It was a *vent*. The ley pressure had been building for nineteen months and it had not been building inside the seam. It had been building *behind* the seam, and the seam was the place where the pressure was finding an exit it could afford.
+
+The seam was a volcano. The dwarves had been trying to plug it.
+
+If he plugged it harder, the mountain would rip itself open somewhere they were not watching. If he opened it where they could see, he could choose the geometry of the venting.
+
+He palmed the crack.
+
+The hand on stone — the actual physical contact with the seam’s lower lip — was the kind of decision a man only makes once in any given life. The skin met the bruise-light and the bruise-light bonded to it the way fire bonds to dry tinder, except the tinder in this case was creation energy and the bonding was permanent until the conduit closed.
+
+He vented upward.
+
+A gold-green column of light shot up the shaft space above the seam — not a leak, not an explosion, a *channel*. The ley pressure that had been straining against the wrong mouth found a controlled exit. The upper works of the quarantine forge groaned audibly. The conduit climbed. Sixty feet. Eighty. A hundred. Past the working face. Past the polish-geology of the buffer corridor. Into the mountain’s deeper structure where the pressure could vent into the open air above Kharn-Dural the way honest steam vented into honest sky.
+
+The seam’s bruise-light thinned.
+
+Not gone. *Bought time.*
+
+The conduit ran for forty seconds. Then the pressure inside the channel began to equalize and the conduit started to fade. Kenji let it fade. The hand on the seam came free with a tearing sound that was less his skin separating from the stone than the bonding releasing across a quantum threshold he had no language for. The crack in the seam was smaller than it had been when he arrived. The bruise-light pulsed at half the previous amplitude.
+
+The room held its breath.
+
+---
+
+### Gallows
+
+---
+
+Kenji wiped his hand on his hakama, leaving a faint gold-green smear that would still be visible in the dwarven inventory log six hours later.
+
+The mistress stared at him.
+
+The guards stared at him.
+
+The seam pulsed.
+
+He looked at the stain on his hakama. He looked at the reduced bruise-light. He looked at the elder dwarf who had just walked through the curtain line — iron-grey beard, forge-owner’s medallion, the voice that crowns deferred to when crowns wanted to remain crowns — and at the mouth of authority that had not yet finished forming a sentence.
+
+“That,” Kenji said, “is one *spicy* meatball.”
+
+He burped.
+
+The sound was small and human and, in the room’s ambient register, blasphemous. The mistress’s mouth tightened by the smallest amount mouths tighten. One of the guards made a sound that wanted to be a laugh and chose, with great effort, to be a cough instead.
+
+The iron-grey elder did not move.
+
+When he spoke, his voice was the voice of a man who had presided over forge councils since before the Coalition existed.
+
+“Ten words,” he said. “Or less. Why has the forge stopped eating itself.”
+
+The bruise-light pulsed.
+
+Kenji opened his mouth.
 
 ---
 
 ## Fraying Empire — Chapter Twenty-Nine: *Seam Witness*
 
-**Session span:** Ashmere **39** **evening → night** (**Day** **261**). **Kharn-Dural** **quarantine** **custody** **→** **elder** **bench** **examination** **under** **borrowed** **seam** **light**. **Mursha** **summoned** **to** **witness** **rail** **(**bind** **protocol** **+** **null** **thread**)** — **testimony** **beat** **open**.
+**Session span:** Ashmere 39 evening → night (Day 261). Kharn-Dural quarantine custody → elder bench examination under borrowed seam light. Mursha summoned to witness rail (bind protocol + null thread) — testimony beat open.
 
-**Corridor:** **female** **watch** **(**Procedure** **Seven** **pressure**)** **→** **sleight** **/** **clone** **misdirect** **(**fail**)** **→** **dismiss** **decoy** **→** **goat** **poem** **+** **insult** **verse** **→** **Performance** **(**nat** **20** **/** **+11** **vs** **DC** **21**)** **—** **all** **male** **guards** **laugh** **uncontrollably**, **senior** **watch** **does** **not** **(**table** **success** **definition**)** **→** **Persuasion** **(**29** **vs** **DC** **23**)** **supervised** **breakfast** **/** **honey** **mead** **(**clerical** **cap**)** **→** **summons** **to** **Korrim** **Stoneunder** **bench** **→** **Perception** **gallery** **(**nat** **1** **vs** **DC** **16**)** **→** **proceedings** **/** **seam** **light** **yes-no** **on** **intent** **→** **Mursha** **motion** **carries** **→** **cliff** **at** **her** **first** **answer**.
+**Corridor:** female watch (Procedure Seven pressure) → sleight / clone misdirect (fail) → dismiss decoy → goat poem + insult verse → Performance (nat 20 / +11 vs DC 21) — all male guards laugh uncontrollably, senior watch does not (table success definition) → Persuasion (29 vs DC 23) supervised breakfast / honey mead (clerical cap) → summons to Korrim Stoneunder bench → Perception gallery (nat 1 vs DC 16) → proceedings / seam light yes-no on intent → Mursha motion carries → cliff at her first answer.
 
-**Table sync:** **IP** **—** **all** **female** **humanoids** **in** **LOS** **per** **`kenji_tracking_OBSOLETE.md`** **(**DC** **23**, **−1** **/** **15** **min** **viewing**)**; **shield** **line** **treated** **as** **male** **(**batch** **if** **retconned**)**. **Ch27** **BoH** **/** **satchel** **vs** **seam** **blades** **—** **reconcile** **at** **table** **when** **loadout** **locked**.
+**Table sync:** IP — all female humanoids in LOS per `kenji_tracking_OBSOLETE.md` (DC 23, −1 / 15 min viewing); shield line treated as male (batch if retconned). Ch27 BoH / satchel vs seam blades — reconcile at table when loadout locked.
 
 ---
 
-### Summary prose
+### Procedure Seven
 
-Kenji **weathered** **quarantine** **custody** as **performance**: **Procedure** **Seven** **loomed**; **sleight** **with** **smoke** **decoy** **failed** **(**no** **bar** **work** **unless** **decoy** **draws** **violence** **—** **DM** **ruling**)**; **he** **dismissed** **the** **clone**, **leaned** on **bars**, **needled** **watch** **with** **bacon** **jokes** **and** **goat** **verse**. **Irresistible** **Presence** **cadence** **ran** **for** **female** **viewers** **across** **cumulative** **watch** **time**; **male** **shields** **excluded** **until** **stated** **otherwise**.
+---
 
-A **second** **poem** **(**kitchen** **/** **husband** **crook** **barb**)** **drew** **Performance** **with** **advantage** — **critical** **success** **by** **table** **agreement**: **every** **guard** **present** **except** **the** **senior** **ledger** **broke** **into** **helpless** **laughter**; **she** **stayed** **ice** **and** **ink**. **Persuasion** **won** **supervised** **dwarven** **breakfast** **and** **capped** **mead** **/** **honey** **drink**; **Kenji** **meditated**, **ate**, **waited**.
+The custody cell was carved out of the same stone the rest of Kharn was carved out of, which meant the bars were not bars. They were a vertical lattice of polished basalt fitted into the doorframe with no visible mortar, and the gap between any two of them was exactly the width that a dwarven hand could fit through and a dwarven shoulder could not. Kenji’s shoulder fit even less.
 
-**Elder** **authority** **pulled** **him** **to** **bench** **lead** **Korrim** **Stoneunder**. **Escort** **beats** **mixed** **flirtation**, **contempt** **credits**, **and** **near** **gag** **orders**. **Court** **read** **incident** **record** **(**conduit** **vent**, **blades** **in** **seam**, **Mursha** **partitioned**)**. **Seam** **light** **brazier** **examined** **intent**: **not** **malicious** **surge** **(**coarse** **truth**)**; **not** **intended** **final** **blade** **retention** **(**entered**)**.
+The mistress had walked him here under armed escort and locked him in without theater. The elder — Korrim Stoneunder, the iron-grey, the voice the crown deferred to — had not yet appeared. Procedure Seven was the rule about what happened when an unauthorized arcanist used a borrowed pressure system to vent a mountain through its own roof. Procedure Seven was, in the dwarven legal grammar, the *pre-bench* posture. It meant the bench was coming. It meant that until the bench arrived, the custody was treating him as a witness in negative posture, not a defendant.
 
-Kenji **volunteered** **blade** **provenance** **(**undead** **paladin** **greatsword** **/** **“god”** **sword**)** **and** **self**-**contradictory** **phrasing** **that** **clerks** **split** **verbatim**; **clarified** **he** **does** **not** **fear** **the** **bench** **(**entered**)** **and** **does** **not** **respect** **procedure** — **if** **he** **had**, **he’d** **have** **followed** **“Mursha’s** **way.”** **That** **nexus** **forced** **motion**: **Mursha** **Haldra**-**line** **summoned** **under** **bind** **protocol** **with** **ledger** **copies** **ordered**; **null** **thread** **at** **throat** **for** **speech** **risk**. **Kenji** **smiled** **when** **she** **entered**; **Korrim** **opened** **her** **examination** **under** **the** **same** **light** — **beat** **open**.
+The female watch sat outside the cell at a stone desk with a ledger. Two watchers. One older, one younger. Neither armed beyond the regulation belt knife. Both attentive in a way that suggested someone above them had said the words *high-priority detainment, non-violent posture, do not engage on aura strain.*
+
+Kenji catalogued the watch the way he catalogued everything. Then he did the only thing the cell allowed him to do, which was perform.
+
+He summoned a clone first, because procedure deserved one honest attempt at the wrong answer. The smoke billowed in the cell, the clone resolved standing where Kenji had been, and Kenji himself went invisible against the back wall. Sleight of hand, distraction, the door — the play that had worked at the Bronzebarrow factor desk and the Brass Hitch alley and a dozen other places.
+
+The watch did not move. The older watcher’s eyes tracked the clone for two seconds, then tracked the back wall for one second, then returned to the ledger. She wrote something in it. The younger watcher’s hand went to the belt-knife, not as threat but as inventory.
+
+The decoy could not draw bar work. The dwarves were not going to cross the basalt to confront a smoke-construct that had not assaulted them. The cell’s geometry was the wedge.
+
+Kenji dismissed the clone with a wave. Reformed visible. Sat down on the stone bench inside the cell.
+
+“Procedure Seven,” the older watcher said, without looking up. The voice was the voice of a woman who had said *Procedure Seven* to detainees twice a month for thirty-five years. “Bench will see you when bench is ready. Do not ask when. Do not ask where. Do not ask anything you would not ask the wall.”
+
+Kenji asked the wall about bacon.
+
+---
+
+### Goat verse
+
+---
+
+He recited a poem.
+
+He had not, strictly speaking, written it. Neither had anyone he had ever met. The poem had arrived in his head fully formed sometime around mile fourteen of the western cut and had been waiting for the right room. It was about a goat. The goat had opinions about the dwarves who herded it, the kitchens that intended to eventually braise it, and the husband of the kitchen-mistress whose crook hung above the doorway. The verse scanned in a meter that did not exist in any dwarven prosody but worked in the cell because the cell’s acoustics gave the lines a half-second of natural reverb that turned the rhymes into small architectural events.
+
+The watch did not laugh.
+
+The watch did, however, write in the ledger. A note. Then a second note. Then the older watcher made eye contact with the younger watcher in the brief glance two professionals exchanged when they were about to be tested on whether they had heard the same thing.
+
+Kenji recited the second poem.
+
+This one was about a kitchen mistress whose husband’s crook hung above the doorway and whose actual marriage had not seen the inside of the kitchen in fourteen years. The lines were technically about cooking. They were technically about the goat’s previous adventures. They were technically a meditation on the dwarven institution of permanence as it applied to crooks, marriages, and the small infidelities that made both possible.
+
+Performance check. Advantage from the room’s acoustics and the fact that he had been reciting under his breath for twenty minutes and his cadence was warm. Natural twenty plus eleven. DC twenty-one.
+
+Critical success.
+
+The four male shield guards who had been standing at the corridor mouth for the entire performance — the ones Kenji had not technically been performing for, the ones who were not the watch — broke first. One of them tried to swallow the laugh. The laugh won. He bent forward with his hand on his thigh and laughed in the helpless register of a man who had not laughed at duty in a year. The second guard caught the first one’s laugh and went down with it. The third made a sound that was three syllables of dwarven blasphemy and joined the chorus. The fourth, the most senior of the four, held out for an extra second on principle, then made a noise that was not quite a laugh but that the ledger would later record as *audible expression of mirth* and lost the dignity contest by half a beat.
+
+The female watch did not laugh. The older watcher’s mouth was set in the line that women’s mouths were set in when the joke they had recognized as funny was technically about them. She wrote in the ledger. She circled the entry. She drew a line under the circle.
+
+She also brought him breakfast.
+
+---
+
+### Breakfast
+
+---
+
+Persuasion check, advantage, the kind of advantage that Performance criticals generated for downstream interactions in the same scene. Twenty-nine against a DC twenty-three. Pass with margin.
+
+Supervised dwarven breakfast was honest food and an honest gesture. Black bread. Hard cheese. A strip of cured meat that was either pork or something pork-adjacent that the dwarves had decided not to label. A cup of honey mead capped at the clerical limit, which was about half a normal mead but enough to remind the body that the body had survived another night.
+
+He ate. The food was the kind of food that made a man understand why the dwarves had built a city inside a mountain and stayed there for nine hundred years.
+
+Then he meditated.
+
+Not the meditation of a monk. The meditation of a man who had Wind Step charges to recover and a long rest he had not yet been granted and a body that was running on whatever the ley tap had stolen from the local node. He sat cross-legged on the stone bench. He breathed the way the academy’s combat instructors had taught him to breathe in the corner of a fight where breath was the only resource left. The aura did what the aura did. The female watch felt it. Their saves came up at the cumulative cadence the manuscript tracked. The older watcher’s WIS dropped two points by the time her shift ended. She handed off to the next watcher with the small businesslike comment that *the detainee is meditating, the detainee is non-violent, the detainee should not be looked at directly for longer than necessary.*
+
+Kenji waited.
+
+---
+
+### Korrim Stoneunder
+
+---
+
+The summons came late in the second watch.
+
+Two escorts — both female, by Korrim’s order, because the guard captain who had read Kenji’s intake report had read the entropy-field warning at the bottom and made the only sane staffing decision. The escort beats mixed flirtation and contempt and gag-order language in the precise dwarven proportions that meant *we have orders to deliver you, we have orders not to engage, we have personal opinions about both orders that the orders are not asking for.*
+
+The bench was in a room that had been built for bench. Stone tiers. Slate floor. A single stone lectern at the front and a single iron-grey elder behind it. Behind the elder, mounted on the wall: a brazier filled with seam light — borrowed from the wound Kenji had pinned the day before, refracted through dwarven crystal-work into a steady illumination that read intent the way mundane lamps read shadow.
+
+Korrim Stoneunder’s beard had iron in it. The beard had also been iron once, in a way that was either metaphor or literal — Kenji could not tell from this distance and the distinction did not matter. Korrim’s eyes were the color of brick that had been in a wall for two centuries. His hands were folded on the lectern. He did not move when Kenji was brought in.
+
+The court read the incident record aloud. The conduit vent. The blades wedged in the seam. The displacement of the mistress’s fail-safe protocol by a ronin unknown to the dwarven civil registry. The fact that Mursha had been partitioned from the corridor at the moment of breach and had no mechanical responsibility for what came next.
+
+The seam light ran while the record was read.
+
+The brazier was a yes-no instrument. Not a lie detector — dwarven engineering knew enough about lying to know that lie detection was a polite fiction even in stone. It was an *intent* reader. It pulsed once for absence of malice. It pulsed twice for presence. The pulse was visible to anyone in the chamber. The pulse was logged by a clerk against the spoken statements.
+
+Kenji’s intent on the seam read clean. Not malicious surge. Not the deliberate detonation of borrowed infrastructure. The brazier pulsed once.
+
+The intent on the blades read mixed. He had not intended the final retention — Oathbreaker and Frost Fang had been wedged with the intention of withdrawing both once the venting equalized. The seam had decided otherwise. The bonding had not negotiated. The blades had stayed.
+
+The brazier pulsed once for the original intent. It pulsed once more for the present condition.
+
+Korrim wrote on the slate.
+
+---
+
+### Provenance
+
+---
+
+Kenji volunteered.
+
+He had not been asked. The dwarves were patient, and the bench was patient, and the seam light had been reading him for thirty seconds without challenge. But Kenji had learned in Bracken’s office that the difference between cooperation and compliance was the difference between a man who shaped the record and a man whose record was shaped for him, and he was in the mood today to shape a record.
+
+He told them where Oathbreaker had come from. The undead paladin. The Pallid March crown. The duel that had ended with one of the death knight’s arms permanently disabled and a god’s sword in extradimensional storage for three weeks. He used the words *undead paladin greatsword* in one sentence and the word *god sword* in the next, and he did it with a small grin, and the bench scribes wrote both phrases verbatim into the record.
+
+The clerks split.
+
+The senior clerk wrote *paladin* with the qualifying note *reported*. The junior clerk wrote *god sword* and then crossed it out and wrote *deity-bonded weapon (claimant phrasing)*. Korrim watched the disagreement happen. He did not correct it. The record would carry both.
+
+Kenji clarified two things.
+
+First: he did not fear the bench. The seam light registered the assertion as truth. The brazier pulsed once. Korrim’s eyebrow moved by the smallest amount eyebrows move when the iron-grey is being told something he has already correctly assumed.
+
+Second: he did not respect procedure. Not in principle, not in this specific application. If he had respected procedure, he would have followed *Mursha’s way* — the slower, harder, paperwork-mediated approach to the seam that would have required a two-week delegation petition and a coalition-level ward review and a dwarven consensus committee that had not produced consensus on a single quarantine matter in seventeen months. He had not followed that path because that path had a corpse count attached to it and the corpse count was rising every week.
+
+The brazier pulsed once. Truth.
+
+Korrim added the line in his own hand.
+
+---
+
+### The motion
+
+---
+
+The nexus forced motion.
+
+A defendant who did not respect procedure but did respect the partner he had brought to procedure’s edge was a category the bench had a precedent for. The precedent required the partner. Mursha was Haldra-line. She had been escorted out of the corridor when Kenji broke discipline. She was currently waiting in the factor train compound on the northern face, technically free, mechanically quarantined.
+
+Korrim issued a motion. Mursha was to be summoned to the witness rail under bind protocol. Bind protocol was not a chain — it was a procedural restraint, a clerical formality that gave the bench the authority to compel testimony without giving the witness the option to leave the rail until the bench released her. Ledger copies were ordered. The clerks moved.
+
+A null thread was prepared. The thread was the dwarven mechanism for muting a witness whose speech might be a security risk — a thin filament looped at the throat that activated on bench command and silenced the wearer until the command reversed. Mursha was not the speech risk. The seam light’s reading of Kenji had implicated *him* as the risk, and the null thread was a precaution.
+
+Korrim looked at Kenji.
+
+“You will not coach her,” he said. “You will not gesture. You will not vocalize during her examination. The bench has marked your aura and the aura’s effect on the witness’s previous saves. The aura will run during her testimony because the aura is passive. The bench has accepted that. The bench has not accepted any further interference.”
+
+Kenji nodded.
+
+The escorts brought Mursha through the rear door.
+
+She was in her dragon-scale. The masterwork steel was not at her hip — it had been collected at the corridor mouth and was now in a clerical lockbox three corridors away. The null thread was already at her throat, looped but not active. Her hair was pulled back in the soldier’s knot she had adopted for the relay. Her eyes found Kenji first — the hazel-bronze ring still visible in the chamber’s brazier light, the *Lover’s Vigor* tell that had not yet faded — and then found Korrim, and then found the lectern, and her face settled into the expression of a woman who was about to discover whether she could keep her partner alive by telling the truth in the order he wanted it told or by telling the truth in the order it had actually happened.
+
+Kenji smiled.
+
+It was not the masking smile. It was not the deflection smile. It was the smile that said *I trust you to do this exactly the way you would have done it without me here, and we will both find out what that costs.*
+
+Korrim opened her examination.
+
+The seam light steadied.
+
+The brazier pulsed once for ready.
 
 ---
 
 ## Fraying Empire — Chapter Thirty: *Trapped With Me*
 
-**Session span:** Ashmere **39** **night** **→** **late** **night** (**Day** **261**, **+~3h** **chamber** **wait**). **Kharn** **seam**-**witness** **bench** **—** **examination** **becomes** **standoff** **becomes** **identity** **catastrophe** **on** **the** **slate** **→** **wedge** **draft** **read**-**back** **queued**.
+**Session span:** Ashmere 39 night → late night (Day 261, +~3h chamber wait). Kharn seam-witness bench — examination becomes standoff becomes identity catastrophe on the slate → wedge draft read-back queued.
 
-**Corridor:** **Mursha** **at** **rail** **(**null** **thread** **→** **partial** **release** **→** **Kenji** **breaks** **remaining** **restraints** **by** **force**)** **→** **Intimidation** **(**ADV**,** **+11**,** **Sovereign** **Voice** **layer**)** **28** **vs** **DC** **25** **PASS** **—** **throat** **thread** **removed**, **wrist** **/** **elbow** **plan** **superseded** **by** **witness** **clarity** **ruling** **then** **voided** **by** **defendant** **action** **→** **creation** **mode** **hover** **(**cover** **burn**)** **→** **recall** **claim** **(**Frost** **Fang** **/** **entropy** **“god”**)** **→** **seam** **team** **dispatched** **→** **Mursha** **engineering** **(**closure** **sequence**,** **anchor** **order**,** **staged** **pull**)** **→** **written** **liability** **refused** **(**undead** **court** **analogy**)** **→** **contempt** **/** **menace** **stack** **→** **collar** **ordered** **→** **“** **touch** **=** **war**”** **→** **non**-**contact** **containment** **plan** **(**glass** **/** **wards**)** **→** **Champion** **/** **Archmagus** **declared** **on** **record** **→** **Rorschach** **beat** **(**trapped** **with** **me**)** **→** **coalition** **relay** **flagged** **→** **witness** **hot** **meal** **(**bacon** **/** **eggs** **/** **mead** **cap**)** **→** **~3h** **chamber** **endurance** **(**pushups** **/** **handstand** **pushups** **/** **squats** **;** **shields** **rotate** **;** **scribe** **logs** **non**-**violent** **exercise** **/** **witness** **comfort**)** **→** **IP** **cadence** **continues** **for** **female** **watch** **still** **in** **LOS** **(**per** **`kenji_tracking_OBSOLETE.md`** **)** **→** **wedge** **draft** **ready** **→** **Kenji** **(**curiosity** **/** **“** **glorious** **bang**”** **hyperbole** **retracted** **as** **jest** **)** **→** **delegates** **comprehension** **to** **Mursha** **(**“** **chill** **until** **boring**”** **/** **exit** **language** **noted** **non**-**binding** **)** **→** **Korrim** **orders** **witnessed** **read**-**back** **before** **any** **pull** **(**two**-**phase**,** **measured** **)** **→** **cliff** **at** **first** **spoken** **wedge** **line**.
+**Corridor:** Mursha at rail (null thread → partial release → Kenji breaks remaining restraints by force) → Intimidation (ADV, +11, Sovereign Voice layer) 28 vs DC 25 PASS → throat thread removed → creation mode hover (cover burn) → recall claim (Frost Fang / entropy “god”) → seam team dispatched → Mursha engineering (closure sequence, anchor order, staged pull) → written liability refused (undead court analogy) → contempt / menace stack → collar ordered → “touch = war” → non-contact containment plan (glass / wards) → Champion / Archmagus declared on record → Rorschach beat (trapped with me) → coalition relay flagged → witness hot meal (bacon / eggs / mead cap) → ~3h chamber endurance (pushups / handstand pushups / squats; shields rotate; scribe logs non-violent exercise / witness comfort) → IP cadence continues for female watch still in LOS → wedge draft ready → Kenji (“glorious bang” hyperbole retracted as jest) → delegates comprehension to Mursha (“chill until boring” / exit language noted non-binding) → Korrim orders witnessed read-back before any pull (two-phase, measured) → cliff at first spoken wedge line.
 
-### Summary prose
+---
 
-What **began** **as** **procedure** **became** **a** **test** **of** **whether** **Kharn** **could** **keep** **its** **hands** **off** **two** **people** **who** **kept** **choosing** **each** **other** **in** **public**. **Elder** **Korrim** **Stoneunder** **pressed** **mechanism** **questions** **(**recall**,** **anchor** **order**,** **written** **liability**)**; **Kenji** **refused** **oaths** **on** **slate** **and** **compared** **the** **bench** **to** **foreign** **undead** **paper** **traps**.
+### Mechanism
 
-**Mursha** **answered** **clean** **when** **given** **air**—**closure** **as** **sequence**, **not** **heroics**: **brace** **vent** **path**, **choose** **extraction** **order**, **ward** **growth** **or** **controlled** **pin**. **Seam** **teams** **were** **sent** **to** **read** **entropy** **couplets** **at** **the** **wedged** **blades**.
+---
 
-**Kenji** **escalated** **through** **mockery**, **Performance**-**era** **habits**, **and** **open** **defiance**: **removed** **witness** **restraints** **himself**; **hovered** **in** **creation** **bearing**; **forced** **a** **partial** **concession** **with** **Intimidation** **backed** **by** **Eldest**-**weighted** **command** **presence**; **then** **rejected** **half**-**measures** **until** **the** **bench** **chose** **non**-**contact** **containment** **rather** **than** **risk** **his** **“** **recall** **”** **twitching** **under** **hands**.
+What had begun as procedure became, by the third question, a test of whether Kharn could keep its hands off two people who kept choosing each other in public.
 
-When **push** **met** **push**, **he** **named** **himself**: **Champion** **of** **the** **Elves**, **Archmagus** **of** **Varenholm** **Academy**—**and** **spoke** **the** **mountain** **into** **his** **cell** **with** **one** **grinning** **line** **about** **who** **was** **trapped** **with** **whom**. **Korrim** **denied** **court** **stabbing** **theater** **but** **ordered** **encrypted** **coalition** **relay** **and** **ward** **protocol** **in** **place** **without** **skin** **contact**. **Mursha** **got** **hot** **plate** **orders** **as** **de**-**escalation** **triage**.
+Korrim Stoneunder pressed the mechanism questions in the order the slate required. Recall mechanism on the wedged blades. Anchor order if the seam team had to extract. Written liability for damage to the working face if the conduit re-opened during pull. The questions were good. The voice was patient. The brazier ran in the background, single-pulsing whenever Kenji answered without lying and double-pulsing on the rare beat when he tried.
 
-**After** **the** **meal** **order**, **time** **did** **not** **go** **idle**: **Kenji** **burned** **roughly** **three** **hours** **in** **plain** **sight**—**pushups**, **handstand** **pushups**, **squats**—**while** **clerks** **and** **wrights** **worked** **the** **closure** **math** **and** **Mursha** **climbed** **back** **into** **numbers** **with** **the** **focus** **of** **someone** **who** **intends** **to** **survive** **boredom** **on** **purpose**. **Korrim** **stayed** **at** **the** **bench** **until** **the** **wedge** **draft** **could** **be** **read** **back** **cleanly**.
+Kenji refused oaths on slate. He gave the bench his answers in spoken form — every word logged, every word truthful, none of them written in his own hand. The distinction mattered to him in a way it did not yet matter to the room. He compared the request to a foreign undead paper trap he had once encountered on the Pallid March crown — the kind of jurisdiction where signing a document inside the lord’s circle made the document binding in ways that signing it outside the circle did not. The analogy landed flat in dwarven legal grammar. The brazier pulsed once anyway. The comparison was, by his lights, true.
 
-**Tone** **tests** **followed**: **Kenji** **voiced** **curiosity** **about** **seeing** **“** **how** **the** **pros** **do** **it**,”** **with** **mock**-**villain** **laughter** **retracted** **as** **jest**; **Korrim** **answered** **with** **procedure**—**transparency**, **controlled** **collapse**, **paper** **that** **outlives** **the** **room**. **Mursha** **cut** **through** **romance**: **pros** **are** **boring** **because** **boring** **keeps** **breath** **in** **the** **body**.
+Korrim wrote on the slate without comment. The clerks logged the refusal. The proceedings continued.
 
-**Closing** **beat:** **Kenji** **deflects** **deep** **comprehension** **(**“** **over** **my** **head**”**)** **and** **delegates** **the** **engineering** **burden** **to** **Mursha** **while** **promising** **to** **“** **chill**”** **until** **the** **work** **turns** **dull**—**grinning** **at** **Korrim**, **ready** **to** **move** **on** **his** **terms** **of** **patience**. **Korrim** **does** **not** **mirror** **the** **grin**; **he** **closes** **the** **folio**, **names** **the** **rule**—**read**-**back** **first**, **witnessed** **steps** **only**, **then** **the** **two**-**phase** **pull** **if** **the** **mountain** **permits**. **The** **seam** **instrument** **ticks** **forward** **like** **a** **ledger** **that** **does** **not** **care** **who** **smiles**.
+---
+
+### Closure as sequence
+
+---
+
+Mursha answered clean when the bench gave her air.
+
+The null thread at her throat stayed looped but inactive — Korrim had not yet ordered the activation, and her testimony so far had been the kind of testimony that did not require silencing. She spoke in Mule clearance diction, the same voice she had used at Haldra’s desk and at the gnomish milepost, the voice of a guard-trained clerk who treated the seam the way she treated steel: assume it could fail, plan for the break.
+
+Closure as sequence, she said. Not heroics. Brace the vent path first — the upper shaft Kenji had opened with the conduit had to stay clear or the next vent would find its own geometry. Choose the extraction order — Frost Fang first or Oathbreaker first, depending on which blade the seam was leaning more weight on at the moment of pull. Ward growth or controlled pin — if the seam started growing during extraction, the seam team had two minutes to stage a controlled pin before the growth outran the wards.
+
+Korrim listened without interrupting. The brazier pulsed once on every clause. The clerks wrote her sequence into the active section of the slate, the part that became binding once the bench dispatched a team.
+
+The bench dispatched a team.
+
+Three seam wrights and a journeyman entropy-reader walked out of the chamber with a copy of Mursha’s sequence and the bench’s authorization to read entropy couplets at the wedged blades. They would not extract yet. Reading came first. Extraction came after the reading found a coupling state that wouldn’t catastrophically rebound.
+
+Mursha had bought the procedure six hours of clean engineering work. The bench logged her name in the active register as engineering witness rather than legal witness, which was the dwarven equivalent of a battlefield commission.
+
+Kenji watched the change happen.
+
+---
+
+### Escalation
+
+---
+
+He escalated.
+
+Not because the escalation was tactically necessary — Mursha had handled the procedure cleanly and the seam was no longer the immediate question — but because the chamber had begun to settle into a posture that treated him as a managed defendant, and a managed defendant was the wrong posture for a man whose eventual exit needed the room to be uncertain about what it was managing.
+
+He removed his witness restraints himself.
+
+The basalt manacles were procedural rather than mechanical — they required compliance to remain closed, the way dwarven civil restraint generally required compliance, the way most of Kharn’s justice grammar relied on the assumption that a witness who broke the procedure had already declared his hostility to the proceeding. Kenji broke the procedure with the casual physicality of a man unbuckling a belt. The manacles fell to the slate with a sound that was not quite a clatter. The chamber went still in the specific way chambers went still when a defendant had just informed everyone present that the defendant had not actually been a defendant in the legal sense for the past forty minutes.
+
+Then he hovered.
+
+Creation bearing. The half-form modulation that turned the body into a vent for the ember in his chest, applied here without the seam to feed into. The hover lifted him three inches off the slate. The creation field around him was visible to anyone with even mundane sight — a faint gold-green halo, the same color as the conduit he had vented through the upper works the previous afternoon. Three of the four chamber guards stepped half a pace back. The fourth held position because the fourth had been at the curtain line during the original venting and knew the warning.
+
+The Intimidation check ran with advantage from the visible field and a Sovereign Voice layer Kenji had not used since the Eldest’s table. Twenty-eight against a DC twenty-five. Pass with margin.
+
+The throat thread on Mursha came out. Not by Kenji’s hand — by Korrim’s order. The bench had read the room and made the only safe choice. The wrist and elbow restraints the bench had been planning to add to Kenji during the wedge draft phase were superseded by witness clarity ruling, which was the dwarven name for *we cannot legally restrain a defendant who has demonstrated he cannot be restrained, so we will record him as a witness in special posture and revisit the question after the seam is stable.*
+
+Then Kenji rejected even that.
+
+He named himself.
+
+---
+
+### Names
+
+---
+
+“Champion of the Elves,” he said. The brazier pulsed once. “Archmagus of Varenholm Academy.” The brazier pulsed once. “The man who closed the Sundered Gate. The man who carries the ember the Coalition has been pretending it does not have.”
+
+The brazier pulsed once on each clause.
+
+The senior clerk’s pen did not move for three seconds. The junior clerk wrote *claimant titles, brazier confirms* and underlined the second half twice.
+
+Korrim Stoneunder did not stand. He did not write. He did not call for a recess. What he did was look at the iron-grey beard of his own reflection in the slate’s polished surface and consider, for the first time in seven years, that the mountain he sat under was now containing something larger than the mountain had been built to contain.
+
+Kenji grinned.
+
+“You are not trapping me in here,” he said. The grin sharpened. “You are *trapped with me*.”
+
+The brazier pulsed once. Truth, by his lights, and the brazier did not argue with the lights of a claimant whose claims had already been logged.
+
+Korrim closed the folio in front of him.
+
+He did not order theatrics. He did not order combat. What he ordered, on the encrypted coalition relay that ran from the bench chamber to the deep registries, was a flag. A specific procedural flag the dwarven legal system kept available for situations where the defendant’s containment exceeded the chamber’s normal architecture. The flag dispatched a notice to the coalition liaison, the dwarven crown registry, and the three regional councils that maintained the precedent library. The notice did not say *emergency*. The notice said *escalation, pre-cleared, observe.*
+
+Then Korrim issued the containment order.
+
+Non-contact. No skin touching the defendant. No restraints placed. The ward protocol the dwarves used for unstable arcanists — a perimeter of inactive runic glass that could be activated by any of the chamber guards if the defendant’s aura exceeded a threshold and that did not require physical contact to function. The order was the most cautious thing Korrim had ever entered into a working slate, and it was the only thing the slate could honestly accept.
+
+The bench ordered a hot meal for the witness.
+
+That was de-escalation triage. The witness, Mursha, had been on her feet for two hours under bind protocol and had just delivered the engineering testimony that had bought the seam its first actual hope of clean closure. Bacon. Eggs. A capped mead. The order went to the kitchen with the bench seal and would arrive within the hour.
+
+Kenji watched all of this and grinned wider.
+
+The grin had teeth in it that none of the prior beats had revealed.
+
+---
+
+### Three hours
+
+---
+
+After the meal order, the time did not go idle.
+
+Kenji burned roughly three hours in plain sight. Pushups on the slate floor. Handstand pushups against a wall that the dwarves had carved with the deliberate intent that no one would ever do handstand pushups against it. Squats — the unloaded variety, then the loaded variety once he stopped caring that no one had handed him a load. The shields rotated past him in their shifts. The scribe logged the activity into the slate as *non-violent exercise, defendant maintains physical conditioning, no breach of containment perimeter.* Witness comfort was logged as *adequate, no requests submitted.*
+
+Mursha climbed back into numbers with the focus of someone who intended to survive boredom on purpose. She had a corner of the bench’s working slate now. The seam wrights were sending readings back from the wedged blades every twenty minutes, and Mursha was checking the readings against her closure sequence and amending the sequence in the active register. The amendments were small. The amendments were correct. Korrim watched them happen and said nothing because the correctness was the point.
+
+The IP cadence continued for the female watch in the chamber. The older watcher from the cell had been rotated into the bench detail because the bench detail wanted continuity of observation. Her saves came up at the cumulative cadence the manuscript tracked. By the third watch she had stopped looking at Kenji directly and was filing her observations through her peripheral vision the way professionals filed dangerous things.
+
+The wedge draft was ready a little after the third hour.
+
+Korrim called for the read-back.
+
+---
+
+### Read-back
+
+---
+
+Tone tests came first. Kenji voiced curiosity about seeing how the pros do it — said it with the small mock-villain laughter he had been practicing since the Brass Hitch — and then retracted the laughter as a jest before the bench could log it as anything else. Korrim answered with procedure. Transparency. Controlled collapse. Paper that outlives the room. The dwarven trinity of *if it is written, witnessed, and slow, it survives.*
+
+Mursha cut through the romance.
+
+“Pros are boring,” she said, voice low across the bench, “because boring keeps breath in the body.”
+
+She did not look at Kenji when she said it. She looked at Korrim. The line was for both of them, scaled differently.
+
+Korrim wrote her line in the slate. Verbatim. The senior clerk approved the entry with the small nod that approved entries deserved.
+
+Kenji deflected the deep comprehension of the closure sequence with the smile of a man who knew he could not pretend to follow the engineering math past a certain point and had decided the pretending was not worth the energy. *Over my head,* he said. *I’ll chill until the work turns boring.*
+
+He delegated the engineering burden to Mursha with the casualness of a commander handing over a brief.
+
+He grinned at Korrim.
+
+Korrim did not mirror the grin. He closed the folio. He named the rule for the wedge work that would begin tomorrow. Read-back first. Witnessed steps only. Then the two-phase pull if the mountain permitted.
+
+The seam instrument ticked forward like a ledger that did not care who smiled.
+
+The cliff arrived at the first spoken wedge line.
 
 ---
 
 ## Fraying Empire — Chapter Thirty-One: *Two Weeks and a Green Door*
 
-**Session span:** Ashmere **39** **late** **night** **→** **Ashmere** **40** **predawn** (**Day** **261** **→** **262**). **Kharn-Dural** **seam**-**witness** **/** **wedge** **approach** **→** **bench** **bundle** **→** **equipment** **receipt** **→** **decoy** **/** **invisible** **egress** **→** **portal** **jump** **off** **cordon**.
+**Session span:** Ashmere 39 late night → Ashmere 40 predawn (Day 261 → 262). Kharn-Dural seam-witness / wedge approach → bench bundle → equipment receipt → decoy / invisible egress → portal jump off cordon.
 
-**Corridor:** **Wedge** **work** **/** **hour** **for** **Mursha** **(**Kenji** **addresses** **her**, **not** **court** **recognition**;** **Korrim** **witnesses** **)** **→** **silent** **hour** **/** **findings** **summary** **→** **Solveth** **(**god**-**voice**,** **public** **audible** **at** **blade** **proximity** **per** **table** **)** **:** **nickname** **poke**, **dating** **/** **war** **jest**, **Mursha** **proxy** **(**remove** **/** **channel** **)** **with** **bench** **logging** **→** **timeline** **honesty** **(**~2–6** **days** **best**, **up** **to** **~2** **weeks** **bad** **)** **→** **Kenji** **two**-**week** **patience** **/** **yank** **language** **(**mitigated** **by** **non**-**coercion** **of** **witness** **)** **→** **ultimatum** **(**equipment** **/** **Mursha** **parity**,** **Kahryn** **named**,** **“** **10** **vs** **6** **”** **)** **+** **green** **portal** **(**canceled** **under** **wards** **)** **→** **apology** **/** **peace** **language** **to** **Mursha** **→** **Korrim** **ruling** **bundle** **(**witness**-**engineer** **status**,** **returns** **within** **hour** **where** **safe** **)** **→** **inventory** **verification** **(**nodachi** **+** **BoH** **link** **check**,** **no** **dump** **)** **→** **Performance** **(**tap**-**dance** **clone** **)** **23** **vs** **DC** **16** **PASS** **→** **Stealth** **ADV** **(**G.** **Invis** **)** **18** **vs** **DC** **16** **(**gate** **DC** **18** **−2** **distraction** **)** **PASS** **→** **Wind** **Step** **distance** **→** **~3** **mi** **portal** **to** **remote** **relay**-**off** **path** **→** **Kharn** **relay** **:** **decoy** **class** **/** **invisible** **breach** **logged**.
+**Corridor:** Wedge work / hour for Mursha (Kenji addresses her, not court recognition; Korrim witnesses) → silent hour / findings summary → Solveth (god-voice, public audible at blade proximity) — nickname poke, dating / war jest, Mursha proxy (remove / channel) with bench logging → timeline honesty (~2–6 days best, up to ~2 weeks bad) → Kenji two-week patience / yank language (mitigated by non-coercion of witness) → ultimatum (equipment / Mursha parity, Kahryn named, “10 vs 6”) + green portal (canceled under wards) → apology / peace language to Mursha → Korrim ruling bundle (witness-engineer status, returns within hour where safe) → inventory verification (nodachi + BoH link check, no dump) → Performance (tap-dance clone) 23 vs DC 16 PASS → Stealth ADV (G. Invis) 18 vs DC 16 (gate DC 18 −2 distraction) PASS → Wind Step distance → ~3 mi portal to remote relay-off path → Kharn relay: decoy class / invisible breach logged.
 
-**Table sync:** **Performance** **then** **Stealth** **(**ADV** **invis** **+** **distraction** **as** **−2** **DC** **or** **observer** **disad** **per** **DM** **)**. **IP** **cadence** **if** **female** **watch** **in** **LOS** **per** **`kenji_tracking_OBSOLETE.md`**. **Oathbreaker** **+** **Frost** **Fang** **remain** **seam**-**wedged** **(**Ch28**)** **—** **not** **inside** **BoH**.
+**Table sync:** Performance then Stealth (ADV invis + distraction as −2 DC or observer disad per DM). IP cadence if female watch in LOS. Oathbreaker + Frost Fang remain seam-wedged (Ch28) — not inside BoH.
 
 ---
 
-### Summary prose
+### Wedge work, hour one
 
-**What** **began** **as** **wedge** **discipline** **became** **a** **public** **negotiation** **of** **who** **gets** **to** **own** **the** **clock**. **Kenji** **forced** **Mursha** **into** **the** **center** **of** **his** **cooperation** **story**—**not** **as** **a** **prisoner** **he** **would** **yank**, **but** **as** **the** **engineer** **the** **mountain** **must** **recognize** **if** **Kharn** **wants** **boring** **math** **instead** **of** **loud** **mistakes**. **Korrim** **answered** **procedure** **with** **procedure**: **witness**-**engineer** **status**, **rotating** **duty**, **equipment** **returns** **where** **seam** **risk** **allows**, **vault** **holds** **where** **it** **does** **not**.
+---
 
-**Solveth** **spoke** **in** **his** **true** **voice**—**clear**, **divine**, **too** **close** **to** **pretend** **private**—**and** **accepted** **Mursha** **as** **handler** **only** **with** **limits** **(**no** **clean** **telegraph** **)** **while** **Kenji** **tried** **to** **laugh** **the** **last** **war** **into** **a** **dating** **joke**. **The** **bench** **ate** **every** **word**.
+What had begun as wedge discipline became, before the first hour was out, a public negotiation of who got to own the clock.
 
-**Pressure** **spiked** **when** **Kenji** **issued** **deadline** **language** **(**two** **weeks**,** **forced** **retrieval**,** **“** **war** **”** **)** **and** **tried** **a** **portal** **inside** **ward** **pressure**—**then** **walked** **it** **back** **enough** **to** **cancel** **the** **construct** **before** **the** **room** **called** **combat**. **Mursha** **split** **the** **difference** **between** **duty** **and** **fury**: **she** **would** **finish** **closure** **work** **on** **Kharn** **time**, **not** **his** **poker** **table**, **and** **she** **would** **not** **let** **him** **make** **her** **both** **shield** **and** **excuse**.
+Kenji addressed Mursha directly, which was the wrong thing to do under bench grammar. Court recognition required the defendant to address the bench and the bench to address the witness; speaking laterally across the chamber was a procedural breach that would normally have drawn a sanction. Korrim did not sanction. Korrim watched. The seam light pulsed once for honest intent and the silent acknowledgment was the bench’s ruling: *you are talking to your engineer, the engineering is the point, we will allow it.*
 
-**Closing** **beats:** **inventory** **verification** **(**nodachi** **+** **Bag** **of** **Holding** **returned** **/** **verified** **per** **receipt** **)**; **Performance** **distraction** **+** **Greater** **Invisibility** **Stealth** **egress**; **Wind** **Step** **to** **distance**; **portal** **exit** **to** **a** **path** **the** **relay** **does** **not** **own**. **Kenji** **leaves** **Kharn** **with** **a** **relay** **alarm** **and** **a** **promise** **to** **return** **on** **Mursha’s** **call** **or** **a** **two**-**week** **clock**—**whichever** **bites** **first**.
+What Kenji said was not romantic. It was a brief — short, sharp, the verbal equivalent of a daily standup. He laid out his demand for clear timing, transparent resource allocation, and a hard exit door if the dwarven side dragged. Mursha replied with the flat clarity of a woman who had already read every page of the slate and could quote the page numbers from memory. The first hour passed as engineering exchange filtered through the polite fiction that Kenji was still on trial.
+
+The bench logged the hour as productive. Korrim wrote a single word in the slate margin: *useful.*
+
+---
+
+### Solveth speaks
+
+---
+
+At the start of the second hour, Solveth spoke.
+
+The voice came through Frost Fang at the wedged seam — divine, public, audible to anyone in the bench chamber within roughly fifteen feet of the bond proximity that the blade still maintained even at four hundred miles of vertical and lateral distance through stone. The gap should have made the bond inaudible. The gap did not, because what Solveth was — a dying entropy-domain god, anchored in a wedged blade, speaking from inside a crisis the god had been preparing for since 1196 — did not abide by the gap’s normal rules.
+
+The voice came in like a hammer dropped into still water. Every clerk in the chamber stopped writing for a full two seconds.
+
+Solveth opened with a nickname. *Sword-warm.* The diminutive Kenji had not heard since the Spoke War’s grammar at the Lady’s circle, and which he had hoped Solveth would not deploy in front of dwarven scribes. Solveth deployed it. Solveth followed the deployment with a remark about dating the entropy mistress at the Pallid March cordon — a joke that referenced a war that had ended a century before any clerk in the chamber had been born — and the joke did not land for the chamber because the chamber did not have the context, but it landed for Kenji, who flushed under the mask and tried to laugh the divine voice into a manageable register.
+
+Then Solveth named conditions.
+
+Mursha was acceptable as proxy. The god had felt her engineering at the bench and accepted the closure sequence as a sequence Solveth could survive. The proxy relationship had a limit, however: no clean telegraph between Solveth’s consciousness and Mursha’s. The god would not run a direct communications channel through a non-bonded mind. Mursha could read the seam’s state. She could not hear the god speak. Anything Solveth needed to communicate had to route through Kenji, and Kenji had to relay it without distortion.
+
+The bench ate every word.
+
+The senior clerk wrote *deity present in chamber via blade bond, accepts witness as engineering proxy, does not accept witness as communications channel.* Korrim watched the entry get made and added a margin note in his own hand: *first divine appearance in this chamber on record.*
+
+Kenji waited for the voice to subside. The voice subsided. The chamber resumed something approximating normal acoustic behavior.
+
+---
+
+### Timeline honesty
+
+---
+
+Mursha laid out the timeline.
+
+Best case — clean two-phase pull, no growth on the seam during extraction, full coupling read on both blades at handoff — was two to six days. Worst case — growth during pull, ward catastrophe requiring containment regrowth, secondary entropy bleed from Frost Fang requiring a second seam wright team — was up to two weeks.
+
+Two weeks.
+
+The number landed in the chamber with the specific weight of a number that had been spoken into a contract.
+
+Kenji nodded. He understood the number. He also understood that two weeks in a Kharn bench chamber was, for him, a structural impossibility — the aura’s effect on the female watch alone would put four members of the staff into clinical attraction within ten days, and Korrim had already read the IP cadence enough to know it.
+
+So he issued the deadline language.
+
+Two weeks of patience. After that, forced retrieval. He used the word *yank* — the verb specifically — and the verb was understood by the bench to mean a unilateral extraction that would treat the dwarven procedure as an obstacle rather than a requirement. The yank language was mitigated, mechanically, by a separate clause: he would not coerce the witness. Mursha was free to leave or stay on her own terms. The yank, if it came, would be Kenji’s alone.
+
+Korrim wrote both clauses.
+
+Then Kenji issued the ultimatum.
+
+Equipment parity. The nodachi, the Bag of Holding, the smaller kit pieces had to be returned for departure. Mursha had to be reinstated as a fully autonomous engineer-witness with the option to leave the mountain on her own clock if she chose to. He named the dwarven elder of an adjacent council — *Kahryn* — as a precedent reference, citing her name in the way one cited a previous ruling in support of a current motion. The numbers came at the end: ten versus six. Ten days of dwarven procedure for him to honor; six days for the bench to clear his exit clauses if the seam closed early.
+
+Then he opened a green portal.
+
+The portal manifested two feet behind him, the gold-green light of a creation-mode gateway forming a circle in the slate floor of the bench chamber. The intent was demonstration, not departure. He wanted the bench to see that he could leave whenever he chose to, that the containment was a polite fiction that depended on his ongoing willingness to remain.
+
+The wards activated.
+
+Not lethally. Korrim’s containment order had specified non-contact, which the wards interpreted as *do not strike, but do refuse to permit transit.* The portal’s integrity collapsed under the ward pressure and the green light faded into nothing. The construct had cost Kenji a slot. The slot was spent.
+
+Kenji let the portal die. He cancelled the second slot before it cost him anything.
+
+The chamber held its breath. The clerks had paused mid-line. The shield guards had moved their hands to the regulation positions for *aura escalation, hold geometry, do not engage.* The bench had not ordered combat. The bench had ordered nothing because Kenji had already aborted the action that would have triggered the order.
+
+He turned to Mursha.
+
+“I’m sorry,” he said. The voice was different — stripped of theater, stripped of flirtation. The voice of a man who had just realized he had used his partner as a lever in a public negotiation without asking her first whether she wanted to be the lever.
+
+Mursha did not answer. Her face did not change. Her hand rested on the pommel of the sword that was not at her hip and never had been at her hip in this chamber, because the sword was three corridors away in a clerical lockbox.
+
+She nodded once. The nod was acceptance. The nod was also conditional. The condition was unstated and would surface later if it surfaced at all.
+
+Kenji turned back to Korrim.
+
+---
+
+### The bundle
+
+---
+
+Korrim issued the ruling bundle.
+
+Witness-engineer status for Mursha, formal and irrevocable for the duration of the seam work. She had the bench’s authorization to move freely between the bench chamber and the seam working face, with rotating duty schedules to be set by her in consultation with the seam wright team. Equipment returns where seam risk allows — the masterwork sword and warhammer would be returned to her hip by morning, the dragon-scale was already on her, and the smaller kit would be released as the seam’s coupling state stabilized. Vault holds where it does not — anything that posed an active resonance risk to the wedged blades stayed in the lockbox until the wedge was clear.
+
+For Kenji: inventory verification before any departure. The nodachi and the Bag of Holding had to pass a seam-resonance check before they could leave the mountain. The check was procedural, not punitive — the dwarves needed to confirm that nothing in his kit was carrying residual energy from the conduit vent that could destabilize the wedged blades from the outside.
+
+The check passed. The clerks logged the kit as clean. The nodachi went back to Kenji’s hip with the small ritual handoff that the dwarves performed when returning weapons to a cleared visitor.
+
+The Bag of Holding came back with no dump required. The bench had elected not to inventory the contents — partly because Korrim had read the room and decided that the bag’s contents were Kenji’s problem and partly because the alternative was a four-hour audit of an extradimensional space that no clerk in the chamber wanted to be the one to perform.
+
+---
+
+### Egress
+
+---
+
+The exit ran clean.
+
+A Performance check sold the tap-dance clone — Kenji’s smoke-construct staged as a small, theatrical distraction at the chamber’s southern arch. Twenty-three against DC sixteen. The shield guards turned to look. The clerks paused. Korrim did not turn — Korrim had read the room and knew what was coming and saved his attention for the slate.
+
+Kenji went invisible.
+
+Greater Invisibility, advantage on the Stealth check that followed. Eighteen against the gate’s baseline DC of eighteen, which was reduced by two from the distraction the clone was still selling at the southern arch. Pass with margin.
+
+Wind Step ate the distance from the bench chamber to the corridor mouth in a single charge. The corridor took him to the inner gallery. The inner gallery took him to a quiet cross-passage that had been logged on his Living Ground sweep on the way in. He emerged into the cold mountain air on the outer face of the working tier with three Wind Step charges remaining and a full slate of slots minus the one he had spent on the bench portal.
+
+The portal exit was cleaner. He opened a fresh gateway three miles off the main relay vector to a path the dwarven civil registry did not own — a coalition courier track that ran through hill country fifteen miles from any permanent settlement. The gateway closed behind him cleanly. The relay logged the breach as *decoy class, invisible egress, no pursuit ordered.*
+
+The notice traveled the encrypted coalition relay back to Korrim’s chamber within the hour. Korrim read the notice. He logged it. He did not raise a pursuit. The bench’s posture had been clear since the brazier had pulsed on Kenji’s claim of titles: this was a defendant the mountain had elected to release on terms it could survive.
+
+Mursha stayed.
+
+She would finish the closure work on Kharn time, not Kenji’s poker table. She would not be both his shield and his excuse. The two-week clock started ticking from the moment the relay logged the breach.
+
+Kenji walked north into hill country with a relay alarm at his back and a promise to return on Mursha’s call or the two-week clock, whichever bit first.
 
 ---
 
 ## Fraying Empire — Chapter Thirty-Two: *Waystation Recovery*
 
-**Session span:** Ashmere **40** **predawn** **→** **morning** (**Day** **262**). **Crown** **relay** **—** **Milepost** **Crown** **Rest** **(**nearest** **inn** **to** **portal** **egress** **vector** **)**.
+**Session span:** Ashmere 40 predawn → morning (Day 262). Crown relay — Milepost Crown Rest (nearest inn to portal egress vector).
 
-**Corridor:** **Ch31** **cliff** **(**remote** **off** **path** **)** **→** **road** **to** **waystation** **→** **luxury** **suite** **purchase** **(**−**40** **GP** **−** **10** **SP** **approx** **)** **→** **ley**-**steam** **bath** **→** **fine** **dining** **to** **room** **→** **long** **rest** **(**slots** **/** **HP** **full**;** **Wind** **Step** **5/5**;** **Smoke**-**Invis**-**Clone** **3/3**;** **Iaido** **1/1** **)** **→** **wake** **~07:30** **—** **yard** **noise**,** **bread**,** **relay** **bells**.
+**Corridor:** Ch31 cliff (remote off path) → road to waystation → luxury suite purchase (~40 GP 10 SP) → ley-steam bath → fine dining to room → long rest (slots / HP full; Wind Step 5/5; Smoke-Invis-Clone 3/3; Iaido 1/1) → wake ~07:30 — yard noise, bread, relay bells.
 
-**Table sync:** **Economy** **per** **`dm_rules_tracking.md`** **(**luxury** **≈** **Brass** **Hitch**-**scale** **suite** **+** **meal** **band** **)**. **Rumor** **:** **masked** **spender** **on** **hot** **week** **—** **DM** **optional** **Perception** **/** **gossip** **clocks**.
+**Table sync:** Economy per `dm_rules_tracking.md` (luxury ≈ Brass Hitch-scale suite + meal band). Rumor: masked spender on hot week — DM optional Perception / gossip clocks.
 
 ---
 
-### Summary prose
+### The road
 
-**After** **green** **doors** **and** **mountain** **math**, **the** **body** **asks** **for** **the** **simplest** **kinds** **of** **mercy:** **heat**, **salt**, **fat**, **sleep** **without** **a** **scribe** **in** **the** **corner**.
+---
 
-**Milepost** **Crown** **Rest** **is** **not** **Brass** **Hitch** **—** **it’s** **shorter**, **grimmer**, **more** **honest** **about** **being** **a** **relay** **machine** **with** **beds** **in** **it**. **Luxury** **here** **means** **a** **private** **ley**-**steam** **tub**, **linen** **that** **doesn’t** **smell** **like** **worry**, **and** **a** **tray** **brought** **up** **stairs** **by** **someone** **who** **doesn’t** **care** **who** **you** **were** **before** **you** **paid**.
+After green doors and mountain math, the body asked for the simplest kinds of mercy: heat, salt, fat, sleep without a scribe in the corner.
 
-**Kenji** **buys** **the** **best** **room** **like** **it’s** **a** **spell** **component:** **not** **flaunting**, **just** **insisting** **the** **night** **owes** **him** **one** **clean** **interval**. **He** **eats** **until** **the** **mountain** **taste** **leaves** **his** **mouth**. **He** **sleeps** **like** **a** **man** **pretending** **tomorrow** **won’t** **arrive** **with** **paper** **and** **runners**.
+The portal had landed Kenji on a cold path fifteen miles from any registered settlement. The path was a coalition courier track — narrow, well-graded, the kind of road that existed because three years ago someone had decided that a courier needed eight fewer hours between the relay and the next way station. It was not a road that announced itself on standard maps. It was the kind of road a man who had grown up as the ronin learned to recognize by the way the gravel sat under the boots.
 
-**Morning** **is** **ordinary** **in** **the** **way** **ordinary** **becomes** **dangerous:** **wagon** **hubs**, **relay** **clerks**, **someone** **somewhere** **already** **talking** **about** **a** **breach** **echo** **that** **hasn’t** **caught** **up** **to** **this** **yard** **yet**.
+He walked north for an hour by starlight. The stars were the same stars they had been over the bench chamber, but the absence of slate floor and brazier pulse made them feel like different stars. The mountain was behind him. The mountain would be behind him for two weeks.
+
+The crown relay opened up at the second bend. He walked the half-mile to the waystation without quickening his pace because the body was negotiating with the body and quickening would have broken the negotiation.
+
+---
+
+### Milepost Crown Rest
+
+---
+
+Milepost Crown Rest was not the Brass Hitch. It was shorter, grimmer, more honest about being a relay machine with beds in it. The common room smelled like over-boiled root vegetables and the particular kind of sweat that came off teamsters who had been on the road for nine days without changing shirts. The desk clerk was a half-elf in a stained vest who looked up when the door opened, looked at the mask and the nodachi and the price band of the cloak in that order, and made the calculation that desk clerks made when a paying customer walked into a yard built on credit.
+
+Forty gold and ten silver bought the best room in the building. The clerk did not negotiate. The price was the price, and the price reflected the building’s honest assessment of what its best room was worth — which was less than what the Brass Hitch’s standard room cost on a slow Friday but more than what the local clientele could conceive of paying for one night’s sleep.
+
+Kenji paid in coin without comment. The clerk did not ask for a name. The slate caught only *one luxury, one night, paid in advance.*
+
+Luxury here meant a private ley-steam tub built into a stone alcove off the main suite, linen that did not smell like worry, and a tray that would be brought up the stairs by someone who did not care who the customer had been before the customer paid. The tub was the smallest of the Brass Hitch’s tubs and the linen was the thinnest the Hitch had ever stocked. Both were the best Crown Rest could offer. Both were, in this hour, exactly enough.
+
+He bought a fine dinner sent to the room. The fine dinner was, by Bronzebarrow standards, ordinary. By Crown Rest standards it was a demonstration.
+
+He bought it anyway.
+
+---
+
+### Heat, salt, fat
+
+---
+
+Kenji bought the best room like it was a spell component. Not flaunting. Just insisting that the night owe him one clean interval.
+
+The tub heated. The bronze runes did not have the harmonic warmth of the Brass Hitch’s installation — these were older, simpler, the kind of installation that a relay-town artisan had built in a week and tuned by ear. The water came up to a temperature that would have made a Bronzebarrow guest complain and that, after the day Kenji had had, registered as the closest thing to grace he had felt in seventy-two hours.
+
+He stripped. The hakama. The boots. The mask. The hat. Every layer that had absorbed the chamber’s slate-dust and the seam’s residual ley smear came off in the order of a man who intended to put nothing back on until the body had been allowed to argue with the water for a full thirty minutes.
+
+He stayed in the tub long enough that his fingers started reading the bronze runes by touch alone — a purely tactile read, no creation-sense involved, the simple memory that runes had geometry and the geometry had a story. The story the runes told was modest. Heat, contained. Steam, rising. A relay-town artisan, working for a fee that had been paid out of a local fund, had built a thing that worked for a hundred years and would work for fifty more without asking the world for anything beyond its weekly cleaning.
+
+He ate when the food arrived. Bread. A stew that was either mutton or something mutton-adjacent that the kitchen had decided not to label. A small pitcher of beer that was not capped at any clerical limit because Crown Rest did not have clerical limits.
+
+He ate until the mountain taste left his mouth.
+
+Then he slept like a man pretending tomorrow would not arrive with paper and runners.
+
+---
+
+### Morning
+
+---
+
+The long rest did its mechanical work. Slots and charges back. HP full at three hundred and sixty-eight of three hundred and sixty-eight. Wind Step five of five. Smoke-Invis-Clone three of three. Iaido reset to one of one, the daily guaranteed crit ready for whatever the day asked of it.
+
+He woke around half-seven by the relay bell.
+
+Morning in a relay town was ordinary in the way ordinary became dangerous. Wagon hubs. Relay clerks shouting handoff numbers. The bread cart making its first stop of the day at the waystation kitchen door. The smell of yeast and woodsmoke. The half-elf clerk had been replaced at the desk by a dwarven night-shift who was finishing a ledger entry for someone else’s departure.
+
+Somewhere in the yard, two teamsters were already talking about a breach echo from the south — a magical disturbance that had registered on the relay scopes overnight, source unconfirmed, nature unknown. The talk was the talk of teamsters who had no real information and wanted to pretend they did. The talk had not yet caught up to this yard. It would, by midday. By tomorrow it would have a name attached to it. By the day after, the name might or might not be the right one.
+
+Kenji dressed in the grey light. Hakama. Boots. Mask. The nodachi back across his back. The Bag of Holding at his hip with its cleared inventory and its space for whatever the road was about to put into it.
+
+He paid out at the desk. The dwarf wrote *one luxury, one night, paid* in the ledger and did not look up.
+
+The road went south. South and west, into the Pallid March, where a woman who breathed once every eleven seconds had been waiting for the second visit since the first. The two-week clock was running. Mursha was in Kharn. Kenji had nothing on his calendar for the next thirteen days except the negotiation he had been quietly building since he had left the Lady’s grove with a bronze trophy in her palm and her permission to return.
+
+He stepped out of the waystation door into the cold morning.
+
+The road was waiting.
 
 ---
 
