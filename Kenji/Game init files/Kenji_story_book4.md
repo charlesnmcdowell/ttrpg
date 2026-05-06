@@ -1612,6 +1612,10 @@ I sleep.
 - Irresistible Presence: Elda Stack 1→6 over 2 hours of contact, faded to ~5 overnight.
 - Open threads: seal contents unexplored, key unrecovered, death knight aware, Elda's missing son Halden, Thornkeep garrison.
 
+End of Fraying Empire — Chapter Six: *The Southern Marker*
+
+---
+
 ---
 
 ## Fraying Empire — Chapter Seven: *The Dead Road*
@@ -1851,6 +1855,10 @@ Elda hasn't moved all night.
 - IP: Elda Stack 5→6→7→8→7 over the chapter. Blindfold mechanic discovered.
 - Halden: alive, dehydrated, hypothermic, fed and stabilized.
 - Open threads: escort Elda+Halden home, south road dead zone, seal contents unexplored, Thornkeep garrison understaffed, Pallid March building, Still Night in 19 days.
+
+End of Fraying Empire — Chapter Seven: *The Dead Road*
+
+---
 
 ---
 
@@ -2276,6 +2284,10 @@ A pause.
 - Kenji owes: his name, undead intel, and service under Bracken's command.
 - Renna Bracken: 18th intimate partner. IP Stack 5+ (Obsessed). Lover's Vigor active (golden eyes, +50% all stats, 5 days).
 
+End of Fraying Empire — Chapter Eight: *The Cell*
+
+---
+
 ---
 
 ## Fraying Empire — Chapter Nine: *The Name*
@@ -2672,6 +2684,10 @@ The *sir* was new.
 
 The node entrance waited. Forty yards south. Stairs going down. Relay pulsing.
 
+End of Fraying Empire — Chapter Nine: *The Name*
+
+---
+
 ---
 
 ## Fraying Empire — Chapter Ten: *The South Road*
@@ -2907,6 +2923,10 @@ Whatever was running this network had just turned everything off at once.
 Brynn shifted her shield. Closer than tactical. She hadn't corrected it.
 
 "What now?" Jostin asked. His pen was ready. "The road goes south. The network's dark. Either we're walking into nothing — or we're walking into whatever decided twenty-six wasn't enough."
+
+End of Fraying Empire — Chapter Ten: *The South Road*
+
+---
 
 ---
 
@@ -3197,6 +3217,10 @@ He caught all of them.
 
 Four miles to Thornkeep.
 
+End of Fraying Empire — Chapter Eleven: *The Voice from the Marsh*
+
+---
+
 ---
 
 ## Fraying Empire — Chapter Twelve: *The Formation*
@@ -3379,6 +3403,10 @@ Twenty yards.
 
 The formation held.
 
+End of Fraying Empire — Chapter Twelve: *The Formation*
+
+---
+
 ---
 
 ## Fraying Empire — Chapter Thirteen: *The Shield Wall*
@@ -3516,6 +3544,10 @@ Brynn said nothing. She was staring south, where the courier had disappeared. He
 "'The knight is coming,'" Jostin repeated. He looked at Kenji. "Corwyn?"
 
 The mist pressed in. The junction was quiet. The road south vanished into it after twenty yards.
+
+End of Fraying Empire — Chapter Thirteen: *The Shield Wall*
+
+---
 
 ---
 
@@ -3782,6 +3814,10 @@ Kenji looked north. Looked south.
 
 Made a decision that Chapter 15 would carry.
 
+End of Fraying Empire — Chapter 14: *Oathbreaker*
+
+---
+
 ---
 
 ## Fraying Empire — Chapter 15: *Root and Steam*
@@ -4027,6 +4063,10 @@ Ashmere 30, dawn. Same day the chapter began — no calendar skip. The guest cha
 
 And twenty miles north, Jostin and Brynn walked toward Thornkeep with a field report and a silence and the particular weight of soldiers who had been sent away from a fight by a man they were not sure they would see again.
 
+End of Fraying Empire — Chapter 15: *Root and Steam*
+
+---
+
 ---
 
 ## Fraying Empire — Chapter 16: *Listening Roof Left Behind*
@@ -4225,6 +4265,10 @@ Slots and charges refreshed at table. HP full. The hired roof did not answer bac
 Three gold on the nightstand. Change from the payment, or proof of it — the kind of transaction that left no mark on anyone's ledger except the Waystation's, which filed it as *guest / one night / paid* and moved on.
 
 The room was empty in the way an empty room can still feel watched from miles south.
+
+End of Fraying Empire — Chapter 16: *Listening Roof Left Behind*
+
+---
 
 ---
 
@@ -4462,6 +4506,10 @@ She picked the dispatch back up.
 **"I don't care,"** she added, still not looking. **"But you might."**
 
 The door latch worked the way garrison latches work — quietly, if you knew the trick, and he had learned the trick from a woman who had shown him the bunk three doors down before the evening made the bunk irrelevant.
+
+End of Fraying Empire — Chapter 17: *Paper and Smoke*
+
+---
 
 ---
 
@@ -4768,6 +4816,10 @@ But that was the morning's problem, and the morning was still young, and the wom
 
 **Cassia Vorn / coffer:** Investigation thread **ACTIVE** as of Ashmere 35 morning. **Masked ronin** + **same-day Mursha release** = **correlation risk**. Empty coffer in **BoH** is evidence management, not disposal. Factor-house wires and yard gossip will move the timeline toward Kenji unless he is out of Bronzebarrow before the pattern hardens.
 
+End of Fraying Empire — Chapter 18: *Exhibit A*
+
+---
+
 ---
 
 ## Fraying Empire — Chapter Nineteen: *The Fitting*
@@ -4935,6 +4987,10 @@ The fitting was done.
 
 **Marthel:** Wary-professional. Sold junk dragon-scale for 10 GP, refused Oathbreaker reforge, suspicious of masked client carrying real steel in a Bag of Holding. Will not volunteer information but will answer if a factor or guard asks the right question.
 
+End of Fraying Empire — Chapter Nineteen: *The Fitting*
+
+---
+
 ---
 
 ## Fraying Empire — Chapter Twenty: *The Western Cut*
@@ -5078,6 +5134,10 @@ Day 257. Ashmere 35. Late evening. Western cut.
 
 **Cassia Vorn / coffer:** Investigation still active in Bronzebarrow. Distance from town buys time but does not erase the timeline correlation.
 
+End of Fraying Empire — Chapter Twenty: *The Western Cut*
+
+---
+
 ---
 
 ## Fraying Empire — Chapter Twenty-One: *The Brass Hitch Hours*
@@ -5116,6 +5176,10 @@ She slept first because she trusted the room.
 He slept second because she had.
 
 The ridge notes lay on the desk by the lamp, ink dry, waiting for the morning to pick them up.
+
+End of Fraying Empire — Chapter Twenty-One: *The Brass Hitch Hours*
+
+---
 
 ---
 
@@ -5215,6 +5279,10 @@ What she named was the next fork.
 Food or move before shadows got honest.
 
 The afternoon was waiting on the answer.
+
+End of Fraying Empire — Chapter Twenty-Two: *The Morning Ledger*
+
+---
 
 ---
 
@@ -5341,6 +5409,10 @@ Mursha did not offer explanation.
 
 The mountain ahead was a darker tooth on the horizon. The forge-glow that should have been steady flickered wrong in distant cloud, too slow to be lightning, too stubborn to be lantern.
 
+End of Fraying Empire — Chapter Twenty-Three: *The Road Chooses*
+
+---
+
 ---
 
 ## Fraying Empire — Chapter Twenty-Four: *The Gate Line*
@@ -5448,6 +5520,10 @@ The clerk’s mouth thinned. He did not apologize. He stepped back one pace, whi
 
 They were not inside yet. They were *admitted to the line*—the first shell of the mountain’s patience.
 
+End of Fraying Empire — Chapter Twenty-Four: *The Gate Line*
+
+---
+
 ---
 
 ## Fraying Empire — Chapter Twenty-Five: *The Proof Line*
@@ -5490,6 +5566,10 @@ A pause.
 “I’ll remember.” Not a promise — a threat dressed as memory. “Don’t make me use it.”
 
 They walked.
+
+End of Fraying Empire — Chapter Twenty-Five: *The Proof Line*
+
+---
 
 ---
 
@@ -5569,6 +5649,10 @@ Mursha fell in where guards fell in — beside him when the corridor allowed, ah
 She did not ask permission to follow him through the mountain.
 
 She was already doing it by contract.
+
+End of Fraying Empire — Chapter Twenty-Six: *Her Watch*
+
+---
 
 ---
 
@@ -5652,6 +5736,10 @@ Ahead waited cargo reconciliation — weights, seals, the kind of honesty that c
 Mursha’s hand found her warhammer pommel without threat. The way a fighter rests a hand on something solid when the world tilts.
 
 The forge-glow above them was still pulsing wrong.
+
+End of Fraying Empire — Chapter Twenty-Seven: *Manifest Revision*
+
+---
 
 ---
 
@@ -5862,6 +5950,10 @@ The bruise-light pulsed.
 
 Kenji opened his mouth.
 
+End of Fraying Empire — Chapter Twenty-Eight: *Sky in the Mountain*
+
+---
+
 ---
 
 ## Fraying Empire — Chapter Twenty-Nine: *Seam Witness*
@@ -6032,6 +6124,10 @@ The seam light steadied.
 
 The brazier pulsed once for ready.
 
+End of Fraying Empire — Chapter Twenty-Nine: *Seam Witness*
+
+---
+
 ---
 
 ## Fraying Empire — Chapter Thirty: *Trapped With Me*
@@ -6184,6 +6280,10 @@ The seam instrument ticked forward like a ledger that did not care who smiled.
 
 The cliff arrived at the first spoken wedge line.
 
+End of Fraying Empire — Chapter Thirty: *Trapped With Me*
+
+---
+
 ---
 
 ## Fraying Empire — Chapter Thirty-One: *Two Weeks and a Green Door*
@@ -6322,6 +6422,10 @@ She would finish the closure work on Kharn time, not Kenji’s poker table. She 
 
 Kenji walked north into hill country with a relay alarm at his back and a promise to return on Mursha’s call or the two-week clock, whichever bit first.
 
+End of Fraying Empire — Chapter Thirty-One: *Two Weeks and a Green Door*
+
+---
+
 ---
 
 ## Fraying Empire — Chapter Thirty-Two: *Waystation Recovery*
@@ -6407,6 +6511,10 @@ The road went south. South and west, into the Pallid March, where a woman who br
 He stepped out of the waystation door into the cold morning.
 
 The road was waiting.
+
+End of Fraying Empire — Chapter Thirty-Two: *Waystation Recovery*
+
+---
 
 ---
 
@@ -6639,6 +6747,10 @@ It was the face of a woman standing at the edge of something she hadn't known wa
 "We do not die," she repeated. Testing it. Finding it held.
 
 Her hand stayed on his chest.
+
+End of Fraying Empire — Chapter Thirty-Three: *Anku Nyx*
+
+---
 
 ---
 
@@ -7034,6 +7146,10 @@ But nothing was alive in the Pallid March.
 
 Except him.
 
+End of Fraying Empire — Chapter Thirty-Four: *Seven Days*
+
+---
+
 ---
 
 ## Fraying Empire — Chapter Thirty-Five: *What We Are*
@@ -7421,6 +7537,10 @@ Nyx looked at Kenji across the table. The hazel eyes with their traces of cyan. 
 A beat. The root-light pulsed.
 
 "I am keeping you."
+
+End of Fraying Empire — Chapter Thirty-Five: *What We Are*
+
+---
 
 ---
 
@@ -7880,6 +8000,10 @@ The most dangerous man in the world and a two-hundred-year-old Living Lich, walk
 
 The heist was complete.
 
+End of Fraying Empire — Chapter Thirty-Six: *The Heist of Varkul*
+
+---
+
 ---
 
 ## Fraying Empire — Chapter Thirty-Seven: *The Slow Exit*
@@ -8062,6 +8186,10 @@ The bond hummed. Lirael returned with food. The seam in Kharn pulsed once agains
 
 The chief’s slaves prepared to leave the chief’s home country one more time.
 
+End of Fraying Empire — Chapter Thirty-Seven: *The Slow Exit*
+
+---
+
 ---
 
 ## Fraying Empire — Chapter Thirty-Eight: *Northbound*
@@ -8197,6 +8325,10 @@ The wind kept the iron-banded shutters honest. Somewhere on the floor below, a k
 The man made of fire slept above him.
 
 The next morning would be cold. Thornridge cold.
+
+End of Fraying Empire — Chapter Thirty-Eight: *Northbound*
+
+---
 
 ---
 
@@ -8530,10 +8662,6 @@ She opened one eye.
 
 "I'm going to need more duck," she murmured. "And a name for the stringed thing."
 
----
-
-**End of Chapter 39.**
-
 **Session state:**
 - **Day 287**, Ashmere 65, midnight — granite shelf, eastern lower Dragonspine
 - **Soul Nexus:** Ignis Bond #24. **Dragon God** — Kenji can transform into Elder Black Dragon 1/day (black scales, purple lightning, green eyes, ~40ft). Requires Ignis bond active. Ignis can revoke.
@@ -8546,6 +8674,10 @@ She opened one eye.
 - **Nyx:** At boulder formation with Drazhara.
 - **Pending:** Drazhara-Ignis merger ritual. Drazhara Vigor bond. Reckoning strategy.
 - **Purse:** ~1175 GP / 181 SP. **HP:** 6,288/6,288. All charges at LR.
+
+---
+
+End of Fraying Empire — Chapter Thirty-Nine: *The Fire-Man*
 
 ---
 
@@ -9063,6 +9195,10 @@ Every head turned to Ankunyx.
 - Ankunyx's announcement — unrevealed
 - Kaeltharion (gold dragon) not present but may be tracking Vorathiel's movement
 
+End of Fraying Empire — Chapter Forty: *The Table*
+
+---
+
 ---
 
 ## Fraying Empire — Chapter Forty-One: *The Kingdom*
@@ -9449,6 +9585,10 @@ Korrim stood at the platform edge. Waiting.
 - Kaeltharion — not present, holds 3 flights for treaty, may respond to Vorathiel's shift
 - 83-day countdown begins
 
+End of Fraying Empire — Chapter Forty-One: *The Kingdom*
+
+---
+
 ---
 
 ## Fraying Empire — Chapter Forty-Two: *The Weld*
@@ -9691,5 +9831,9 @@ He didn't wake her. He didn't dare.
 - Ignis's reaction to her mother
 - Kingdom governance — first actual policy decisions
 - Pregnancy tracker — Vorathiel qualifying exposure ×5
+
+---
+
+End of Fraying Empire — Chapter Forty-Two: *The Weld*
 
 ---
