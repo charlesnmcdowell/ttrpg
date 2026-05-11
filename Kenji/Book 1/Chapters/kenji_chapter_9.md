@@ -102,6 +102,8 @@ It can't see me. The flat blind head swings, tasting vibrations, smelling magic.
 
 I don't close the distance. I throw a rock.
 
+Four hundred pounds of armored lizard and the old man's testing *precision*. Fine. Let's see how smart the wall is.
+
 A plain flint, no magic, whipped across the circle to hit packed earth. *Tak-tak-tak.* Three impacts that sound exactly like boots on stone.
 
 The flat head snaps toward the decoy. The body pivots. The flank opens.
@@ -161,6 +163,8 @@ I need to change the equation.
 The returning knife. Blackened steel. I cast Radiant Edge — golden light crawling along the blade. A radiant scalpel. The rune on the pommel glows.
 
 The predator's eyes find the weakness. The eyes — oversized, light-sensitive. That's *why* it generates darkness. Not just to hide. To protect the eyes that function best in absolute black.
+
+You built your whole strategy around never seeing the sun. Let me introduce you.
 
 I throw.
 
@@ -224,11 +228,15 @@ The Sentinel turns. Closes on my position. Twenty-five feet of movement — not 
 
 The dummy *explodes*. Wood and canvas detonating. The fist punches through and embeds in the earth. The message is clear — that was going to be me.
 
+"That was a perfectly good dummy," I tell seven hundred pounds of murder. "Now you owe the Academy a requisition form."
+
 I sprint in. Thunderous Strike. The right knee *breaks*. The hinge shatters. The leg folds. Seven hundred pounds of iron drops to the ground. Prone. Staggered. The left leg tries to compensate.
 
 The extra action — the left knee on the pass. Same design. Same rivets. The blade dents the plating. Not broken. Compromised.
 
 The Sentinel tries to stand. One leg destroyed, one damaged. The iron frame lifts six inches — gears grinding, mechanical logic insisting — and the damaged left knee buckles under the full load. It collapses.
+
+From the colonnade, Aldwin's voice. Quiet for once. "Same point. Every pass. The boy doesn't improvise when the formula's working."
 
 The arms reach out. Iron fists dragging the body forward across the ground. Crawling. A seven-foot construct crawling toward me on its hands.
 
@@ -275,6 +283,8 @@ The brass token is warm in my hand. The weight of forty years of standards compr
 I close my fist around it.
 
 The training ground is silent. Morning sun on packed earth and the wreckage of three fights — scored ground, splinters, dark fluid stains, and an Iron Sentinel in three pieces. I'm standing in the middle of it. Thirty-three out of thirty-three hit points. Five hit dice unspent. The ember burning steady and satisfied.
+
+The body disagrees with the ember's satisfaction. Three fights. Multiple Strides. Two ley refills. The metabolism has been burning double since the Speedster perk and right now my stomach is a hollow drum. I need food in the next thirty minutes or the ember starts making withdrawals from hit points.
 
 Somewhere above me — though I don't know it yet — two women stand behind a stone pillar on the second-floor colonnade. One of them has ink-stained fingers pressed against the railing. The other has her hand on the pommel of an arming sword she doesn't remember reaching for.
 

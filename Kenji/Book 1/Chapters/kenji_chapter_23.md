@@ -180,6 +180,8 @@ I turn to Sera. The thought arriving mid-morning.
 
 A moment. The man who woke in mud twelve days ago with no memory. Who has navigated an entire world through conversation, combat, and instinct. Never once picked up a book, read a sign, or checked a map with his own eyes.
 
+CHA 17 has been doing all the heavy lifting. INT 9 has been along for the ride, and apparently it can't even confirm whether it can read the ride's name.
+
 I shrug. Continue watching Aldwin work.
 
 Sera looks at me. The dark eyes recalibrating. The combat lead standing beside a man who outsmarted a Chancellor, negotiated with gods, and restructured an institution — who may not be able to read the menu at the Silver Draft.
@@ -290,11 +292,13 @@ New: Identify Kenji. Protect. Obey.
 
 The ward-light shifts. Blue to gold. The iron body goes still. The shield lowers. Eight feet of construct standing at attention.
 
+The ember hums. Satisfied. Creation doesn't just heal and grow — it rewrites. It takes what is and makes it *yours*. Somewhere between the grass growing in the training ground and the iron eyes turning gold, the line between weapon and tool disappeared.
+
 Wave 3 — CLEARED. The gauntlet accepting conversion as victory.
 
 Aldwin from across the training ground: "He does this. Get used to it."
 
-She predicted the knees. He climbed it and rewrote its brain. Three waves. Three wrong predictions. The combat lead stops trying to predict the general. Some things can't be modeled.
+She predicted the knees. He climbed it and rewrote its brain. Three waves. Three wrong predictions. The jaw does the thing. The combat lead stops trying to predict the general. Some things can't be modeled.
 
 ---
 

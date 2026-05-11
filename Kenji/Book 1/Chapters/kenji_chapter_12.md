@@ -26,7 +26,11 @@ Sera looks at the dark corridor.
 
 Sub-basement one. General storage. I take point — the predator's eyes turning darkness transparent. Sera behind me. Elara last, navigating by memory and touch.
 
-The midnight shift change — voices, boots, the roster exchange forty feet away through stone. We hold. Three people breathing in the dark. Six minutes. The voices fade.
+"You've done this before," Sera whispers. Not a question.
+
+"Twice. Both times ended badly for someone who wasn't me." Elara's voice is steady. The scholar has a spine made of iron and secrets.
+
+The midnight shift change — voices, boots, the roster exchange forty feet away through stone. We hold. Three people breathing in the dark. Sera's hand on my shoulder — a pressure that says *stop* and *I'm here* in the same touch. Six minutes. The voices fade.
 
 Sera's hand signals. *Move. Left. Twenty feet. Door.*
 
@@ -122,7 +126,9 @@ The ember *screams*. Not sound. Sensation. Hot. Bright. Furious. Creation encoun
 
 And behind the pedestal. In the deepest shadow. A shape. Not moving. *Present*. Tall. Thin. Patient. Something waiting for a very long time.
 
-The predator's eyes resolve it at the limit of their range. Not a construct. Not a creature. A *presence*. Darkness given form. Emaciated. Two points of cold light where eyes should be. The cold light finds me across thirty feet.
+The predator's eyes resolve it at the limit of their range. Not a construct. Not a creature. A *presence*. Darkness given form — but not the Duskfen god's desperate, gasping darkness. This is entropy with architecture. Emaciated limbs like winter branches. A silhouette that frays at the edges, wisps of green-black energy curling off the shape like smoke from a candle that burns cold. Two points of cold light where eyes should be — not the rage of something hungry. The patience of something that has been counting its meals for twelve years.
+
+The cold light finds me across thirty feet.
 
 Not my body. My ember.
 
@@ -202,7 +208,11 @@ The cold light finds Sera.
 
 ---
 
-I relay everything. Word for word. Sera's jaw is iron.
+I relay everything. Word for word.
+
+Elara's ink-stained fingers are pressed flat against the chamber wall. Bracing. The scholar in her is screaming — primary source testimony from a bound divine entity. Every theological paper she's ever read just became a footnote. But the woman in her is pale. Because the god feeding on her for eight years just said *I hate every swallow*.
+
+Sera's jaw is iron.
 
 "The man. Ask it who."
 
@@ -246,6 +256,14 @@ I look at her.
 
 "Let's do it."
 
+Sera looks at me. Elara looks at me. Two women who've spent years pulling at a thread that leads to the bottom of this building, and the man who walked in eight days ago is the one saying *let's go*.
+
+"For the record," I say, "I'm aware this is insane."
+
+"Noted," Sera says.
+
+"Noted," Elara says.
+
 ---
 
 Elara steps across the threshold. The crown accelerates her drain. She gasps. Bears down. The scribe moves with surgical precision — tracing Vael's signature, isolating it, dissolving the redundant threads one by one.
@@ -272,7 +290,9 @@ Elara's scribe touches the crown. "Beginning the overwrite. Don't let go."
 
 The binding ink burns the old anchor away. The ember fills it. Not because I tell it to — because it *wants* to. Hot gold replacing cold black. My signature inscribing itself into the space where a parasite used to live.
 
-The pain. Not physical. Existential. Three hundred and forty-seven threads of stolen essence hitting an infinite seed. I see their faces. Flash. Flash. Flash. A woman laughing. A man reading. Sera throwing a force bolt with both hands. Elara with ink on her fingers and wonder in her eyes.
+The pain. Not physical. Existential. Three hundred and forty-seven threads of stolen essence hitting an infinite seed. I see their faces. Flash. Flash. Flash. A woman laughing. A man reading. A boy who was going to be a healer and became a clerk who doesn't know why. A girl who could light candles with her mind at six and can't remember why she stopped. Sera throwing a force bolt with both hands. Elara with ink on her fingers and wonder in her eyes.
+
+The INT of nine can't process this. The ember doesn't need it to. Creation doesn't analyze — it *holds*. All of them. Every stolen spark. The infinite seed opens wide and takes the weight.
 
 The ember burns brighter than ever. Gold light pouring from my hand. The runes reorganize around the new anchor.
 
@@ -292,11 +312,11 @@ Sera's thread. Thicker. The wide pipe. Three years of total drain. The ember wra
 
 The thread dissolves. Three years. Gone.
 
-At the south passage archway, Sera feels it happen. Her knees buckle. She catches herself on the wall. Her hand comes up.
+At the south passage archway, Sera feels it happen. Her knees buckle. She catches herself on the wall. The sword hits stone — not placed, not sheathed, *dropped*. Sera doesn't drop swords. Her hand comes up. Fingers spread.
 
 Blue-white light.
 
-A force bolt. Fully formed. Stable. Real. The magic stolen three years ago, returned to a framework rebuilt by an infinite seed.
+A force bolt. Fully formed. Stable. Real. The magic stolen three years ago, returned to a framework rebuilt by an infinite seed. Three years of reaching for an empty shelf. Three years of pretending steel was enough. The shelf is full again and the woman who built her life around being both blade and bolt is holding the missing half of herself in her palm.
 
 "You're free, Sera. No more pent up nights in inns trying to do magic."
 
@@ -326,9 +346,9 @@ The crown goes into the Satchel of Holding. Three pounds of blackened iron swall
 
 Elara inverts the entropy sensor on the maintenance hatch. Her restored mage-sight and ward expertise making thirty seconds of work look like three years of practice.
 
-Up the shaft. Sera first — the force bolt lighting the way. Me second — Stride-enhanced climbing speed. Elara last — she seals the hatch behind us. Counter-runes. The entrance exactly as it was.
+Up the shaft. Sera first — the force bolt lighting the way. The blue-white glow steady in her grip, not a flicker, not a waver. She's climbing one-handed because she won't let the bolt go. Me second — Stride-enhanced climbing speed. Elara last — she seals the hatch behind us. Counter-runes drawn with mage-sight she hasn't had in eight years, her hand moving with the precision of someone who forgot she could see in the dark. The entrance exactly as it was.
 
-Through sub-basement two. The nighthollow lab. Ghosts passing workbenches. Elara catches a wobbling flask before it hits the floor.
+Through sub-basement two. The nighthollow lab. Ghosts passing workbenches. Elara catches a wobbling flask before it hits the floor — reflex, restored perception, the mage-sight reading the room's layout in real time.
 
 Through sub-basement one. The service corridor. The door. Night air.
 

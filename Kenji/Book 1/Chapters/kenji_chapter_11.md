@@ -16,7 +16,7 @@ The surplus weapons sold — longbows, crossbows, short swords, bolts and arrows
 
 My income — ten percent of guild earnings. The guild hasn't earned anything yet beyond the weapon sale. The highway contract won't be formalized for three or four days. Once active, forty gold per month flows in. My cut — four gold monthly.
 
-"Short version — you're broke right now."
+"Short version — you're broke right now. The guild has eighteen gold in holding but that's operating capital. Brindle needs weapons, rations, and at least two more recruits before the contract activates. A garrison that can't feed itself doesn't last a month."
 
 He looks at my belt.
 
@@ -64,11 +64,11 @@ He nods. The professional accepting. The priest filing the weight.
 
 I set the brass token on the table. His eyebrows climb slowly.
 
-"Combat Mage certification. On your first day." He sets it down gently. "There are faculty who've taught here twenty years and never earned one."
+"Combat Mage certification. On your first day." He sets it down gently. The priest's fingers handle it the way they handle relics — with the weight of what it represents rather than what it's made of. "There are faculty who've taught here twenty years and never earned one."
 
 "Aldwin said I'm number twelve."
 
-"In *forty years*." He shakes his head. "Tomorrow. Second bell, afternoon. Main lecture hall, west wing. I'd like you there — not as support. As evidence. Having the man who touched the altar in the room reduces skepticism."
+"In *forty years*." He shakes his head. "You know, when I met you in that clearing, I thought the Sovereign had sent me a project. Turns out He sent me a front-row seat." "Tomorrow. Second bell, afternoon. Main lecture hall, west wing. I'd like you there — not as support. As evidence. Having the man who touched the altar in the room reduces skepticism."
 
 "I'll be there."
 
@@ -78,9 +78,9 @@ I set the brass token on the table. His eyebrows climb slowly.
 
 I pull a honey cake from my chest pocket. Pip's handwriting on the cloth. *Come back. — P*
 
-Three days old. Not preserved — the cakes were in my pocket, not the satchel. Slightly stale. The lavender faded.
+Three days old. Not preserved — the cakes were in my pocket, not the satchel. Slightly stale. The lavender faded. A hairline crack down the middle where the road put its weight on it.
 
-I eat it anyway. It tastes like a girl standing in a doorway.
+I eat it anyway. It tastes like a girl standing in a doorway. Like someone who believes you'll keep a promise you haven't figured out how to make yet.
 
 Two cakes remaining. I transfer them into the Satchel of Holding. Preserved now.
 
@@ -103,6 +103,8 @@ Her eyebrow rises. Heavy leather gloves — rune-stitched, for dangerous objects
 Magnifying glass first. Then a crystal lens — pale blue, faceted. The predator's eyes catch what happens: the lens reveals micro-enchantments inside the stone. Dozens of threadlike structures converging on the center.
 
 "Where did you get this."
+
+Not a question. A demand wearing a question's clothes. The magnifying glass is steady but the spectacles have slid down her nose and she hasn't pushed them back. Maren Holt always pushes them back.
 
 "A cellar beneath a farmhouse in Duskfen."
 
@@ -196,6 +198,8 @@ I don't answer why. Not yet. Instead I ask a different question.
 
 One second. Two. Her hand on the sword pommel goes still.
 
+The CHA of seventeen knows exactly what it's doing. The INT of nine is just happy to be here.
+
 "Your seal. The Combat Mage certification. Aldwin gave you one."
 
 "My *what*."
@@ -248,9 +252,9 @@ She stops.
 
 The silence changes. Not defensive. The silence of someone hearing the ground crack beneath something they've been avoiding.
 
-"Two years." Quiet. The quietest I've ever heard her voice. "I haven't been able to cast in two years. I told myself it was field rust. That if I trained, it would come back."
+"Two years." Quiet. The quietest I've ever heard her voice. Her hand drops from the sword pommel to her lap — the first time I've seen her voluntarily release the weapon. "I haven't been able to cast in two years. I told myself it was field rust. That if I trained, it would come back."
 
-She closes her fists. Opens them.
+She closes her fists. Opens them. The fingers that should crackle with force magic flex against nothing.
 
 "It hasn't come back. I've been here two days and I've tried. In my room. Alone. Force bolts, shield projections, blade enchantments — gone. Not weak. Gone. Like reaching for a shelf that used to have books on it and finding empty wood."
 
@@ -330,7 +334,7 @@ The words land like a grenade in a library.
 
 A student turns. Sera's death-glare. The student accelerates.
 
-"I am going to kill you. Not today. Today I need you alive. But it's on the calendar."
+"The calendar is getting crowded, Kenji." Her voice is flat. The flatness of a woman updating a list she started ten minutes ago.
 
 She stares at her empty palm. The two seconds she was whole. Given and taken away by the man grinning at her on a fountain.
 

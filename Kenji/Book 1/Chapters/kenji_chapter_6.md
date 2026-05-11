@@ -64,7 +64,7 @@ The expression on her face is new. Not the instructor assessing a student. Somet
 
 "Twelve hours."
 
-"Use it before every fight. Every single one." She sheathes her sword. "Your body is still learning what your instincts already know. Those eyes close the gap."
+"Use it before every fight. Every single one." She sheathes her sword. "Three days ago you couldn't hold the cage past the fourth exchange. Now you're reading my setups before I finish committing. Your body is still learning what your instincts already know. Those eyes close the gap."
 
 She tests the transition one more time — a quick exchange where she deliberately leaves an opening after the third beat. The cage holds but the counter doesn't come. My body drops back into the defensive framework instead of flowing forward. The muscle memory for offense out of defense isn't there yet.
 
@@ -232,6 +232,8 @@ I burst into the torchlight. She sees me for the first time. Purple dreadlocks. 
 
 The enforcer steps forward. Shield up. Mace ready. He fills the bridge — twenty feet wide, positioned to block the full path.
 
+"Hold the—" he starts.
+
 I don't slow down.
 
 The longsword comes from the sprint. Every ounce of momentum into a single committed thrust at the center of his shield. Thunder coils along the blade.
@@ -243,6 +245,10 @@ The enforcer's feet leave the planks. The concussive force hits his locked legs 
 The splash is swallowed by the river. The Ashford takes him. Fast water. Heavy armor. Shield.
 
 He doesn't surface.
+
+Something cold settles in my chest that has nothing to do with the ember. I didn't swing to kill. I swung to move. The river made the decision for me — and the difference between *I didn't mean to kill him* and *I chose the attack that put him in the river* is thinner than I want it to be right now. The flat of the axe at the crossroads was a choice. This was a choice too. A different one.
+
+The ember doesn't comment.
 
 Brindle is exposed. The bastard sword is up — she finished the draw during the thunder. Already moving. Forward. Into me.
 
@@ -465,6 +471,10 @@ The bridge. Torchlight. Me and Garrett and the sound of fast water.
 He looks at me.
 
 "Two of us against sixteen. Three if you count Brindle's hand."
+
+He looks back at the bridge. At the chair Brindle was sitting in an hour ago. At the crossbow stand that's now in the river.
+
+"You know what you did here tonight? Brindle held this bridge for two years. Voss tried to replace her twice — sent his best men. She put one in the river and broke the other's arm. She was the immovable object." He looks at me. "And you moved her in under a minute. Not by beating her. By making her *want* to move."
 
 He hooks the mace.
 

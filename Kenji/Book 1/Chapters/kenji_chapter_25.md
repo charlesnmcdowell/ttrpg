@@ -36,7 +36,7 @@ How long before they earn their own tokens. How long before they're not watching
 
 Not yet. But soon. Faster than anyone expects.
 
-I clip the token to my belt.
+I clip the token to my belt. Heavier than it should be. Twelve days ago a blacksmith handed it to a man with no name and no memory. Now it's a recruitment tool for a mercenary guild with a portal network and a combat mage academy pipeline. The wolf-and-keys doesn't know what it's become.
 
 ---
 
@@ -184,7 +184,9 @@ He doesn't finish.
 
 "The thread doesn't stop. It pulls from the next available source. Life force. The bearer ages. Rapidly. In the worst case —" He swallows. "In the worst case, the thread kills them."
 
-The room is very quiet.
+The room is very quiet. Three hundred and forty people. I can feel every single one of them through the circuit — faint individual notes, each one a person who graduated from this Academy and walked into the world carrying a parasite they didn't choose. Three weeks. Maybe less.
+
+The ember doesn't do urgency. But the man carrying it does.
 
 ---
 
@@ -283,6 +285,8 @@ I stand. The satchel hums.
 Elara nods. Doesn't ask what the evening is for. The pen is already moving — researcher names, equipment lists, contracts. The institution running at the speed of the woman running it.
 
 Vael watches me go. The shaking hands. The thinning face. A man watching the man who took everything from him walk toward the thing that might fix everything for everyone. The expression on his face has no name I know. It might be hope. It might be grief. It might be both, wearing the same skin.
+
+Ninety-one. He found the chamber at ninety-one. Terrified of dying. And now he's a hundred and forty-three and dying anyway, and the thing he's most afraid of isn't the death — it's that the people he stole from might die with him.
 
 The door closes behind me.
 

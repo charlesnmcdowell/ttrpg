@@ -32,7 +32,7 @@ Sera — third row, right. Clean leathers. Sword on hip. Rested. She sees me. Fi
 
 Her eyebrow rises. One millimeter.
 
-Garrett — fourth row, center. Arms folded. Mace present. The discomfort of a man who didn't go to school sitting in one.
+Garrett — fourth row, center. Arms folded. Mace present. The discomfort of a man who didn't go to school sitting in one. But the eyes are working — exits mapped, threat assessment running, the mercenary's habit of knowing where the doors are before he cares about the lecture.
 
 Elara — front row, right. Ink-stained fingers on a fresh ledger. Restored mage-sight tracking the ley lines in the walls. She doesn't look at me. Deliberate.
 
@@ -94,7 +94,7 @@ The alchemist — a stifled gasp. Hand gripping the armrest. Eleven years of dra
 
 The combat instructor — sits straighter. Shoulders roll. Looks at his hands. Frowns.
 
-The senior diviner — goes still. Twelve years of drain ended. Her mage-sight flares. Dawn after the longest night. She sees the ley lines clearly for the first time in years. Tears she doesn't try to hide.
+The senior diviner — goes still. Twelve years of drain ended. Her mage-sight flares. Dawn after the longest night. She sees the ley lines clearly for the first time in years — the walls glowing, the convergence points humming, the entire building suddenly *legible* again. Tears she doesn't try to hide. Her hands flat on the armrests. Feeling the world that was taken from her pour back in.
 
 ---
 
@@ -137,6 +137,8 @@ The Chancellor's chair. Center. Between Aldwin and Elara.
 I pick up the placard. Set it face-down on the floor.
 
 And sit.
+
+The CHA of seventeen knows exactly what this looks like. The INT of nine doesn't care. Sometimes the smartest move is the dumbest one done with enough conviction.
 
 ---
 
@@ -262,7 +264,7 @@ Edwyn stares at the Frost Fang.
 
 "He's collaborative."
 
-The terror gets company. Wonder. The kind that made him become a priest. He sets down the spawning fluid sample. The notes. Extends his hand.
+The terror gets company. Wonder. The kind that made him become a priest. The spawning fluid sample, the careful notes, the cellar documentation — all of it was preparation for a moment Edwyn never actually believed would happen. A lifetime of faith rewarded with a voice that talks back. He sets down the spawning fluid sample. The notes. Extends his hand.
 
 Takes the sword.
 

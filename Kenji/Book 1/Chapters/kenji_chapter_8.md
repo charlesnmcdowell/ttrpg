@@ -84,6 +84,8 @@ Her jaw does the thing.
 
 She stares at me. Then at Garrett. Garrett shrugs. The shrug of a man who watched it happen and still isn't sure he believes it.
 
+Her jaw does the thing again — the muscle tightening, the assessment running faster than the face can mask. I'm learning to read the gap between what Sera shows and what Sera thinks. It's about a quarter-second wide.
+
 "You did all of this. In one day. On a short rest."
 
 "Garrett and Brindle walked through the front door and took the common room apart. I picked a lock, threw a rock, and had a conversation."
@@ -108,13 +110,19 @@ The Eyes parse it layer by layer. The guards at the gate were professional but t
 
 The merchant traffic is cautious. Shop owners have hired muscle at their doors. People are spending money on protection. Something has them nervous beyond the highway bandits.
 
-The Academy tower dominates everything. From inside the walls the ember vibrates stronger. Not warning. A hello. Something in that tower is resonating with the force inside me.
+The Academy tower dominates everything. From inside the walls the ember's resonance is louder — a hum in the chest, a warmth that says *closer*.
 
 And underneath — the ley lines. I can't see them but I can feel them through the cobblestones. A network of energy running beneath the city like veins beneath skin. The ironwood tree near Duskfen was a single anchor. Varenholm is built on top of an entire web. The Academy sits at the center like a spider made of pale stone and accumulated knowledge.
 
 Sera navigates without hesitation. Market district gives way to craftsmen's quarter, craftsmen's quarter rises into the Academy district where the buildings get taller and the air feels charged. The ley web denser. The ember settles deeper. Like coming home to a house it's never visited.
 
-Garrett is uncomfortable. The chainmail and mace read as *threat* inside city walls. People give him space.
+Garrett is uncomfortable. The chainmail and mace read as *threat* inside city walls. People give him space. His right hand hasn't left the mace since we passed the gate — not aggressive, habitual. The grip of a man who spent two years sleeping with a weapon and hasn't figured out where to put it in civilization.
+
+"Lot of eyes," he says. Not nervous. Professional.
+
+"You'll get used to it."
+
+"Didn't say I wouldn't. Said there's a lot of them."
 
 ---
 
@@ -260,6 +268,8 @@ Garrett steps forward. Gives his statement without embellishment or excuse. Two 
 
 "I switched sides when a better commanding officer showed up. That's not desertion. That's professional development."
 
+I make a mental note to give Garrett a raise. Then remember I can't afford one.
+
 Something happens at the corner of Elara's mouth. She doesn't let it develop.
 
 "He dismantled the operation, recruited Brindle, and turned the Broken Antler into a mercenary guild," Garrett continues. "In one day. On a short rest. I was there."
@@ -285,6 +295,8 @@ She looks at me. The hunger different now. A woman who's been pulling at a threa
 ---
 
 "How much time do you have, Kenji?"
+
+The ember settles. The combat instinct quiets. Something else takes over — the part of me that talked Brindle into a promotion and Kael into loyalty. The part the stat sheet calls Charisma and the world calls *making people want to say yes*.
 
 "I have one week. For the information we've gathered and for solving your bandit problem, I'd like a week of training here at the Academy. If you have questions or research to do, you can do it during that time."
 
@@ -315,6 +327,8 @@ She sits.
 She writes on Academy letterhead.
 
 "I'll draft a provisional contract. The Broken Antler Guild assumes highway security. Forty gold per month. Paid quarterly. Three-month trial. Subject to performance review."
+
+Forty gold a month. Voss was pulling twenty in bribes alone and skimming more off the road. The legitimate contract pays double what the corruption cost. Brindle will do backflips.
 
 "And Dunmore?"
 
@@ -412,7 +426,7 @@ The faintest crack in the severe expression.
 
 "We have a deal."
 
-Fifty-two gold counted and gone. The purse goes flat. Three items on the counter.
+Fifty-two gold counted and gone. The purse goes flat. Three items on the counter. Six days of looting, selling, and negotiating — the bear pelt, the boar tusks, the Hexcrawler bounties, Aldric's generosity — all of it converted into three objects on a shop counter. The entirety of Kenji's net worth, liquid to solid in sixty seconds.
 
 I walk out of the Gilt Lens with an empty purse, a satchel that holds fifty pounds, boots that want to run, and a knife that comes back.
 

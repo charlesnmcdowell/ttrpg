@@ -112,6 +112,8 @@ Something crosses his face. The tremor returns.
 
 "She died. I was fifty-three. A fever. The kind that doesn't respond to magic because it isn't magical. I held her hand for three days. The most powerful entropy theorist alive and I couldn't stop a fever."
 
+The ember goes very still. Not sympathetic — it doesn't work that way. But quiet. The way a fire goes quiet when it recognizes another fire that went out.
+
 Some of the older faculty remember Lena. Their faces change.
 
 "That's when the fear started. Slowly. I watched my body age. Watched the mind slow. Watched colleagues die from time. The great unbeatable enemy."
@@ -170,6 +172,8 @@ She looks at her hand.
 
 "Three years. I fought with steel because it was all I had left. I told people I preferred swordwork. I told my employers magic wasn't my style. I told myself every morning that today would be different."
 
+Her sword hand hangs at her side. Not on the pommel. Not gripping. Just — open. The combat mage's hand with nothing to reach for.
+
 She looks at Vael.
 
 "I didn't know why. I thought it was me. I thought I was defective. That the certification was a mistake. That the truth was catching up."
@@ -211,6 +215,8 @@ Vael. The blue eyes on Sera. Something broken that wasn't broken during his own 
 "I heard you," he says. "I hear you."
 
 Sera walks back to the third row. Sits. Arms folded. Eyes dry.
+
+Three years alone in the dark. That's the part that stays. Not the seal. Not the siphon. The *alone*.
 
 ---
 

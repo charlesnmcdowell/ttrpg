@@ -14,7 +14,7 @@ I scoop. One arm under her back. One under her knees. Legs lifting, core pulling
 
 Sera freezes. Not frost. System failure. No response protocol for being picked up like a bride on a training ground at ten in the morning.
 
-Her arm goes around my neck. Instinct. Balance before her brain authorizes the motion.
+Her arm goes around my neck. Instinct. Balance before her brain authorizes the motion. And there it is — the quarter-second gap between what Sera does and what Sera allows. The arm chose before the mask could veto.
 
 "Kenji. What are you doing."
 
@@ -70,7 +70,7 @@ She turns. Walks toward the colonnade. Precise. Military. Exactly as fast as dig
 
 She passes the two students. They study their shoes with sudden academic intensity.
 
-She disappears into the east wing.
+She disappears into the east wing. The color still visible at thirty feet. Possibly from orbit.
 
 ---
 
@@ -204,9 +204,9 @@ A pause.
 
 ---
 
-I relay Solveth's words. Elara sits on a vault crate. Heavily.
+I relay Solveth's words. Elara sits on a vault crate. Heavily. The ink-stained fingers pressed against her mouth — the gesture of a scholar hearing something that rewrites the foundation underneath the foundation.
 
-"Pre-Academy. Pre-institutional. Someone who understood creation and entropy as complementary forces and built tools for both. The sword for creation. The chamber for entropy. Both from the same source. And Vael found the entropy half and used it."
+"Pre-Academy. Pre-institutional. Someone who understood creation and entropy as complementary forces and built tools for both. The sword for creation. The chamber for entropy. Both from the same source. And Vael found the entropy half and used it." Her voice is careful, each word placed like a stone in a bridge she's building as she crosses it.
 
 She looks at Emberfang. The golden-white glow. The pulsing symbols.
 

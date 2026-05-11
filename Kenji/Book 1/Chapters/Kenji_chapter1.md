@@ -92,7 +92,7 @@ Aldric's expression closes like a shutter.
 
 "Aye, that's not how it works."
 
-He picks up the burlap bundle and tucks it back into the chest, latching it with a finality that echoes off the stone walls.
+He picks up the burlap bundle and tucks it back into the chest, latching it with a finality that echoes off the stone walls. The latch clicks. The sword disappears. The ArchMagus of nowhere, level nothing, just tried to fast-talk a blacksmith out of his best steel with nothing but a smile and optimism. The smile worked on exactly nobody.
 
 "You come back with proof — I hand it over. That's the deal."
 
@@ -158,7 +158,7 @@ It comes for me in a straight line.
 
 And hits the pit like a verdict.
 
-The ground shakes. The creature screams every wrong sound at once. I'm already at the edge — the hand axe raised, silver-white energy crawling along the blade — and I drop in and bring it down into the junction between the creature's first and second shoulders. The magic detonates on contact. The creature shrieks and thrashes.
+The ground shakes. The creature screams every wrong sound at once. I'm already at the edge — the hand axe raised, silver-white energy crawling along the blade — and the ember *reaches* for the creature below. Not with curiosity. With the focused intent of something that recognizes its opposite and knows what to do about it. I drop in and bring it down into the junction between the creature's first and second shoulders. The magic detonates on contact. The creature shrieks and thrashes.
 
 On my second pass I take three of its six eyes with a lateral sweep that fills the pit with light. On my third pass I look at it — really look, with everything that survival makes sharp — and I find it. Beneath the jaw. Where the neck meets the skull. A soft darker membrane pulsing visibly with each agonised heartbeat.
 
@@ -234,6 +234,8 @@ He turns back to the anvil. Then, without looking around:
 
 The inn's common room is dim and low-ceilinged. Four tables, a stone hearth, an old man behind the bar. Two farmhands in their drinks. And in the far corner — back to the wall, exactly as Aldric described — a woman who was watching me from the moment the door opened even though her eyes haven't visibly moved.
 
+Dark hair cut short for function. Olive skin. A jaw that holds itself at an angle suggesting permanent assessment — the face of someone who has never once been surprised by anything she was actually looking at. Arms folded across a leather vest that's seen road dust and worse. A sword at her hip with a wrapped grip worn smooth by years.
+
 Her gaze drops briefly to the longsword. To the leather armour. To the creature ichor still dark on my hands.
 
 Then back to my face.
@@ -270,7 +272,7 @@ She picks up her drink. Considers that.
 
 But she doesn't leave.
 
-I look past her. Behind the bar, a young woman — early twenties, auburn hair pinned up with a cooking skewer. Bright-eyed. She catches me looking and doesn't look away immediately.
+I look past her. Behind the bar, a young woman — early twenties, auburn hair pinned up with a cooking skewer, freckles across the bridge of her nose, the kind of face that broadcasts every thought half a second before the mouth catches up. Bright-eyed. She catches me looking and doesn't look away immediately.
 
 I raise one hand.
 
@@ -471,5 +473,3 @@ Longsword — merchant's steel, well balanced Hand Axe — melee or thrown Leath
 Gold: zero
 
 End of Chapter One.
-
-

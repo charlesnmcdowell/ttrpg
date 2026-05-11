@@ -344,6 +344,16 @@ Edwyn nods without breaking stride. "I know ironwood. Rare but not unheard of. T
 
 He looks at me. "I'll watch for it."
 
+Behind us, Sera's voice: "Edwyn. What kills a ley line marker?"
+
+Edwyn doesn't miss a step. "Nothing kills an ironwood, strictly speaking. But something that drains ambient energy from the land could starve the ley line itself. In which case the tree would..." He trails off. Looks at the grey undergrowth. "Ah."
+
+"So if we find one standing," Sera says, "the ley line's still active. And if we don't—"
+
+"Then whatever is draining the land has already reached the deep infrastructure."
+
+Silence. The party walks with slightly more purpose.
+
 I scan the tree line as we walk. Dark-barked oak and ash and twisted elm. No silver-white bark. Not in this stretch. Maybe further northeast. I keep the vial in my pack and my eyes open.
 
 Then I notice it. Not with my eyes. With the silence.
@@ -417,6 +427,8 @@ Then a crossbow bolt punches through the second creature's rear membrane. Edwyn.
 The surprise round is spent. Both creatures are wounded. Alerted. And I can see them reorganizing — the coordinated intelligence Sera warned me about. My Hexcrawler isn't charging blindly. It's *circling*. Moving laterally, keeping distance, looking for a flank angle. The second one is backing up — drawing Sera forward. Toward the gap where the first one could loop around behind her.
 
 They're not panicking. They're *coordinating*.
+
+"They're pulling a split," Sera calls. "Don't follow the bait."
 
 The ember forks down my legs. Silver-white light detonates under my first footfall and the world *lurches*.
 
@@ -492,6 +504,8 @@ The farmhouse is intact but abandoned. The front door is closed. One window shut
 
 I see them. Boot prints in the dead grass leading from the front door to the tree line north. One set. Deep. Evenly spaced. Walking, not running. Harlan's last walk.
 
+Behind me, Ryn whispers: "The grass is *crunching*." He's staring at the ground. At his own boots. "Grass isn't supposed to crunch."
+
 No return prints.
 
 And then I feel it.
@@ -561,6 +575,10 @@ She looks at me.
 ---
 
 Eight steps. The air changes. Colder, damper, the smell of old earth thickening. The stone walls are rough-cut. Hand-dug. Twenty years of Harlan Brennick's stubbornness carved into clay and rock.
+
+"He dug all this himself?" Sera says, running her hand along the wall. Respect in her voice despite everything.
+
+Edwyn nods. "Harlan was the kind of man who saw bedrock as a personal insult."
 
 The cellar opens. A root cellar — fifteen feet by twenty. Low ceiling. Shelves along the left wall holding clay jars of preserved food, most still sealed. A workbench against the right wall with tools — hand saw, chisels, measuring cord. Harlan was expanding the cellar when he heard the sounds.
 
@@ -756,6 +774,12 @@ The murals seem to shift in the golden light. The figures with raised hands. The
 
 **THEY FORGOT ME. ONE BY ONE. CENTURY BY CENTURY. A GOD WITHOUT WORSHIP IS A FIRE WITHOUT FUEL. I DID NOT CHOOSE TO BECOME THIS.**
 
+Behind me, Edwyn's voice is barely audible: "It's telling the truth. The murals — the timeline matches. This wasn't corruption. This was *attrition*."
+
+Sera, tighter: "Edwyn. Focus."
+
+"I am focused. I'm focused on the fact that this thing is exactly what the old texts warned about. A divine entity in terminal decline."
+
 The pressure shifts. Closer.
 
 **THE DARKNESS YOU SEE IS NOT MALICE. IT IS HUNGER. I AM STARVING, LITTLE FIRE. I HAVE BEEN STARVING FOR LONGER THAN YOUR WORLD REMEMBERS I EXIST. AND STARVING THINGS DO DESPERATE THINGS.**
@@ -787,6 +811,10 @@ A pause. Then quieter.
 **BUT THAT IS YOUR CHOICE. NOT MINE. I HAVE TAKEN ENOUGH CHOICES FROM ENOUGH PEOPLE.**
 
 The pressure withdraws. Waiting.
+
+Sera's hand is on my arm. When it got there I don't know. She's staring at the altar with the expression of a woman running combat math on a problem that has no numbers.
+
+"I understood about half of that," she says quietly. "The half I understood terrifies me."
 
 ---
 
@@ -978,7 +1006,7 @@ My legs give out. I sit down hard on a fallen log.
 
 "Food. Now. *Please.*"
 
-Ryn moves faster than I've ever seen him move. Rations appear. I eat without tasting. Without pausing. Without dignity.
+Ryn moves faster than I've ever seen him move. Rations appear. I eat without tasting. Without pausing. Without dignity. The ember drinks every bite before it reaches my stomach — hardtack, dried fruit, a strip of salted meat — all of it consumed by the heat like fuel thrown into an open forge. Three rations gone in five minutes. I can feel the calories being pulled apart and fed into whatever the channeling tore open.
 
 Edwyn works on me. Poultice on the hand that touched the altar — the skin is angry red, not burned but *stressed*. Binding wraps. Willowbark tincture. The healing spreads through me faster than he expects.
 

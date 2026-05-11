@@ -128,7 +128,9 @@ Elara's pen — already in two halves — gets gripped so hard the wood splinter
 
 Garrett is still within the aura. He rolls his shoulder — the right one. The one he compensates for when he swings the mace. The old injury from the bridge. The one he never mentions.
 
-"It doesn't hurt," he says. Testing it. Rolling it again. The disbelief of a man feeling something he'd written off as permanent suddenly not there. He looks at me. "I don't care about the joke. My shoulder hasn't felt this good in six years. Can you just... stay near me? Forever?"
+"It doesn't hurt," he says. Testing it. Rolling it again. A third time — harder. The motion that makes him wince at the bridge, compensate at the mace, favor the left side when he stands guard. None of it. He looks at me. "I don't care about the joke. My shoulder hasn't felt this good in six years. Can you just... stay near me? Forever?"
+
+His hand doesn't go to the mace. For the first time in the entire time I've known Garrett, his hand goes nowhere. Both arms loose. Both shoulders even.
 
 ---
 

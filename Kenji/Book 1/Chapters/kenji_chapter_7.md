@@ -22,7 +22,11 @@ Then the hook.
 
 "Tell him I intercepted a traveler fleeing east who said there's a group — six or more — confirmed heading for the western toll point from the Varenholm side. That's where the real threat is. The bridge attack was a probe. The western crew needs reinforcement *now*."
 
-Dunn repeats it word for word. Leaves at a military jog. Six hours to the Broken Antler. He'll arrive by mid-morning.
+Dunn repeats it word for word.
+
+"No embellishment," Brindle adds. "Voss can smell a lie from three miles. Give him facts and let his paranoia do the rest."
+
+Dunn leaves at a military jog. Six hours to the Broken Antler. He'll arrive by mid-morning.
 
 Garrett runs the math. "Voss is paranoid. Sev told him about you from the east. Now he hears there's also a threat from the west — from the Varenholm side — he'll assume the authorities finally moved on him. That's his worst fear. He's been bribing Dunmore to prevent exactly that."
 
@@ -176,9 +180,13 @@ The bodyguard heard the impact, processed it, found the source. He doesn't look 
 
 One job.
 
+The Eyes read him in a heartbeat. Stance wide, weight low — a man who fights in tight spaces by choice, not necessity. The twin shortswords aren't the weapons of someone who couldn't afford a longsword. They're the weapons of someone who decided reach was less important than volume. Two blades, two angles, every exchange a puzzle with two answers happening simultaneously. This is the most dangerous fighter I've seen since Sera.
+
 I step in. The cage settles into my feet before my brain gives the order. Sera's voice in my muscle memory — *blade between, feet moving*. But the Eyes are reading everything — Kael's grip on the twin shortswords, the angle of his shoulders on the narrow stairs.
 
 He's above me. Disadvantaged height means compressed swing arcs. My upward angle means I can target the gaps — inner elbow, armpit, neck. The Eyes see them all. Lit windows in a dark house.
+
+I throw first. A sharp flint from my belt — no ember, just stone and aim. The fragment crosses five feet and cracks into Kael's left brow. His head snaps back. Blood sheets down over the eye. He blinks once — absorbs the pain, files it, keeps coming. Professionals.
 
 The longsword comes up. Silver-white edge humming. The tip punches through the leather at his armpit — the gap between chest plate and arm where the metal doesn't reach. The Arcane Edge detonates inside the wound. Kael grunts. The first sound he's made. His left arm spasms — the shortsword dipping before discipline locks it back.
 
@@ -203,6 +211,10 @@ My longsword comes around. Not a decision — a reaction. The cage flowing into 
 The silver-white force detonates inside the wound a second time. Kael's left arm drops. Not discipline this time — the muscles stop responding. The shortsword clatters down the stone steps. His left side is open from armpit to hip and the professional blankness on his face cracks.
 
 He's still standing. One arm. Bleeding from the eye where I put a flint. One shortsword.
+
+"You're good," I tell him. Not taunting. Honest.
+
+"Paid to be," he says. The first words beyond business.
 
 He comes again. One overhead chop — power over precision. Everything he has left in one arm driving the blade down at my skull. Blood in his eye shifts the angle two inches right. My feet move left. The shortsword bites into the stone step where I was standing. Sparks. The blade chips.
 
@@ -281,6 +293,8 @@ Brindle looks at Kael. Kael looks at Brindle. A conversation in silence between 
 She extends her hand. The one with the scar.
 
 "Ten percent to the founder. Ninety to operations and payroll. Done."
+
+Ten percent. At the scale she's describing — escort contracts, protection jobs, the bridge waypoint — that's five to fifteen gold a week in a region where a farmhand earns five silver. Not wealth. Infrastructure. The kind of money that buys horses, replaces gear, and keeps fighters fed and loyal. The ninety keeps the guild running. The ten keeps the founder connected.
 
 I shake. Her grip is different from Garrett's — not iron, *intent*. The handshake of someone shaking on the first legitimate thing she's ever built.
 

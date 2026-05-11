@@ -188,6 +188,10 @@ She lets that settle.
 
 The table is quiet. Steam curls from four cups. The weight of what she's just said sits on the oak surface between us like something with physical mass.
 
+"You knew all this," Sera says. Not accusing. Impressed. "Six weeks. You've been tracking this."
+
+Maren gives her a look that could strip paint. "Someone had to. The village council's solution was to stop sending men to the northern fields and hope it went away." She picks up her tea. "Hope is not a strategy."
+
 I think about what I came here to do. I thought I'd be running up and stabbing the problem. A cellar. A stone door. Something that *calls people by name*. This isn't a monster hunt. This is something else entirely.
 
 "That's a long time," I say. "No telling what the endgame is for whatever's brewing down in that cellar. I think we need to attempt to head to the source and cut it off — may not be enough time left to chase after the monsters currently roaming." I look around the table. "I'd like to hear the rest of the party's suggestions."
@@ -298,7 +302,9 @@ She looks back at me. Her eyes are wet but her jaw is set.
 
 "I have one request. If you find him down there — or what's left of him — don't leave him. Bring him back to me. Whatever state he's in. I need to bury my husband."
 
-I cross the room and open my arms. Bessa looks up at me — this stranger with purple dreadlocks and borrowed armour who just promised to walk into the thing that took her husband — and for a moment she doesn't move.
+I cross the room and open my arms. The charisma that talks people out of swords and into beds has nothing to do with this. This is just a man who sees someone breaking and knows what they need before they ask.
+
+Bessa looks up at me — this stranger with purple dreadlocks and borrowed armour who just promised to walk into the thing that took her husband — and for a moment she doesn't move.
 
 Then something in her releases. She stands and takes the hug like someone who hasn't been held in six weeks because everyone around her has been too careful, too gentle, too afraid of making it worse. Her hands grip the back of my leather armour and she shakes once — hard — and then goes still.
 
@@ -334,9 +340,13 @@ He looks at me.
 
 "This isn't a disease, Kenji. Diseases spread between people. None of the wives or children are affected — only the men who worked those northern fields. Only the ones who were *close to the source*. What I'm describing is something more like..." He searches for the word. Finds it. Doesn't like it. "...a *presence*. Something that radiates. And the closer you get, the stronger it pulls."
 
+"A presence." I let the word sit. "As in something alive."
+
 His hand moves to the flame symbol around his neck. Unconscious. Then conscious.
 
 "There are old texts. Very old. About places where the boundary between our world and... other things... wears thin." His voice drops. "The symptoms — the *thinning*, the compulsion, the sense of being called — those are described in the scripture of the Wandering Flame as signs of divine bleed. When something with a will far larger than mortal pushes against the skin of the world from the other side."
+
+"How far larger are we talking?"
 
 He meets my eyes.
 
@@ -346,11 +356,13 @@ I feel the ember pulse at the base of my skull. Faintly. As though it heard some
 
 "As for protection," Edwyn says, the healer taking over from the theologian, "I can do three things."
 
-Willowbark and silverleaf tea — dulls the mind's receptivity. Like putting cloth over your ears in a windstorm. He has enough for six doses.
+He holds up one finger. "Willowbark and silverleaf tea. Dulls the mind's receptivity — like putting cloth over your ears in a windstorm. I have enough for six doses."
 
-Consecrated binding wraps — cloth soaked in blessed water, wound around the wrists. Old practice. Won't hold against a direct assault, but for ambient exposure, they should buy time.
+A second finger. "Consecrated binding wraps. Cloth soaked in blessed water, wound around the wrists. Old practice. Won't hold against a direct assault, but for ambient exposure, they should buy time."
 
-And the most important one: awareness. The compulsion works best on people who don't realise it's happening.
+"And the third?"
+
+He lowers his hand. "Awareness. The compulsion works best on people who don't realise it's happening."
 
 I tell him what I've been thinking. That I was expecting to run up and stab the problem, but you can't stab a plague. Or a curse. Two hours is what it took to break Harlan — so we risk one hour maximum. Go in, identify what's down there, get out with our wits. Multiple solutions plotted before we set foot on those stairs. And if we can't destroy it — trapping it, quarantining the area, bottling it behind a threshold — that's just as good as a kill if it buys us time.
 
@@ -386,7 +398,7 @@ He walks into the chapel and disappears.
 
 The stable smells like hay, horse, and iron filings. At the far end, crouched beside the last stall door with a handful of small tools spread on a rag, a young man works a latch mechanism with the focused intensity of a surgeon.
 
-Early twenties. Wiry. Sandy hair that looks like it was cut with a knife and not recently. Quick hands — Maren was right about that. His fingers move inside the latch housing with the unconscious fluency of someone who speaks a language most people don't know exists.
+Early twenties. Wiry. Sandy hair that looks like it was cut with a knife and not recently. Quick hands — Maren was right about that. His fingers move inside the latch housing with the unconscious fluency of someone who speaks a language most people don't know exists. Even at rest his hands are never still — one thumb turning a latch pin end over end, the motion so automatic he doesn't know he's doing it.
 
 He doesn't hear me until my shadow crosses the stall door. Then he *flinches* — full body, tools scattering, one hand going to a short knife at his belt before his eyes catch up to his reflexes.
 
@@ -600,6 +612,8 @@ The left wolf lunges first — low, fast, teeth bared. It closes the distance in
 
 The second wolf comes from my right while I'm processing the first. It finds the gap below my knee guard and *bites*. This one I feel — pressure, bruising, teeth that should be deeper than they are but are deep enough. I wrench my leg free. Stay standing. Barely.
 
+"All right," I tell them both. "Fair enough."
+
 My turn.
 
 I kick dirt. My boot drags the stream bank and sends a spray of wet gravel and silt directly into the left wolf's face. Full recoil — head twisting, pawing at its eyes. Blind.
@@ -692,6 +706,8 @@ I look back at the trail. Footprints glowing silver in the mud, already fading. 
 
 I start laughing. Alone in a dark forest with torn-up legs and a magic coal in my skull that just learned to be rocket boots because I was too stubborn to ask nicely.
 
+My stomach clenches. Hard. The kind of hunger that doesn't ask — it *demands*. Whatever the ember just burned through my legs, the body wants it back. Now. With interest.
+
 ---
 
 The bear is the last hunt of the night.
@@ -742,6 +758,10 @@ The bear comes again. Thirty feet of three-legged commitment. Same distance. Sam
 
 We're locked. The same distance. The same pattern. It can't catch me and I can't hit it. I could do this all night — except my flints are finite and every throw at this range is a coin flip I keep losing.
 
+"You know," I tell it, "I really respect your commitment. I just wish you'd commit somewhere closer."
+
+The bear does not appreciate the compliment.
+
 The stones won't come to me. So I go to them.
 
 Ten feet forward. Deliberate. The bear sees me step closer and something in its posture shifts — the shoulders bunch, the good eye widens. It thinks I'm charging.
@@ -770,7 +790,9 @@ I head south. Heavy. Aching. Loaded down with the spoils of a night that started
 
 The village is dead asleep. I stash the pelts and meat in the stable, slip into the inn like smoke, and steal a heel of bread, a wedge of hard cheese, and two strips of dried meat from the kitchen. The bandit's code — take what you need, not what you can carry.
 
-I eat standing in the dark. Then I look at the stairs.
+I eat standing in the dark. The bread disappears in four bites. The cheese in three. The dried meat doesn't last long enough to chew properly. My body is a furnace with the flue open and the ember is drinking every calorie before it reaches my stomach. I could eat the rest of the pantry and still wake up hollow.
+
+Then I look at the stairs.
 
 Pip's room. The door handle. The lock.
 

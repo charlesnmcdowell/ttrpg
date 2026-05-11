@@ -166,7 +166,9 @@ The thread doesn't snap. It dissolves. Four years of entropy architecture unrave
 
 The circuit in the satchel shudders. One thread less. Three hundred and thirty-nine remaining. The Crown absorbs the released trickle — Solveth drinks it without surging.
 
-Through the bond, faint: Thank you. That one was loud.
+Three hundred and thirty-nine to go. Each one a person. Each one four years, three years, eight years of trying to light a candle and failing. Wondering what's broken. The math is simple and terrible.
+
+Through the bond, faint: *Thank you. That one was loud.*
 
 Talia gasps.
 
@@ -380,7 +382,7 @@ Her jaw tightens. Not anger. Something more complicated.
 
 "You're doing it right now. The thing you do." Her voice level. Controlled. The control costs her. "You walk into a room and you take it apart. People. Places. You just — see."
 
-She hasn't moved to stop me. Hasn't covered the poetry or kicked the shoes under the bed. She's standing there and letting me look.
+She hasn't moved to stop me. Hasn't covered the poetry or kicked the shoes under the bed. Her thumb isn't on the pommel — it's at her side, open. She's standing there and letting me look.
 
 That's the most intimate thing in the room.
 
@@ -414,7 +416,7 @@ She stops. Starts again.
 
 "I read them because her hands held them. That's all."
 
-The room is quiet. The candle flickers.
+The room is quiet. The candle flickers. The woman who spent three years alone in the dark wasn't practicing alone. She was practicing with her mother's ghost watching from a shelf.
 
 She looks at me.
 

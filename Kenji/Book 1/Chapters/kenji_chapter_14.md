@@ -140,6 +140,10 @@ She looks up. Fury and awe fighting for the same face.
 
 "That sword is *wrong*."
 
+"You taught me Twin Fang twenty minutes ago. Technically you did this to yourself."
+
+"I will *end* you."
+
 ---
 
 Aldwin doesn't rush in. The staff taps. The earth erupts — frost spikes in a thirty-foot arc. Terrain control. Cutting off my lateral movement.
@@ -174,6 +178,8 @@ Aldwin is standing where I left him. Both sides frosted. Staff arm barely functi
 
 "The drain," he says. Quiet. "The sword drains. You built a weapon that steals life on every hit."
 
+The words land. I felt it in the fight — warmth flowing back through the circuit with every Frost Fang hit. Sera's vitality. Aldwin's endurance. Converted to my healing. The same mechanic as the Crown, but directed. Chosen. The difference between a siphon and a sword is consent — and I just drained two people I respect without asking.
+
 He looks at the Frost Fang.
 
 "That green. That's not frost. That's not creation. That's entropy. In your blade."
@@ -201,6 +207,10 @@ He taps the staff once. The rhythm of finality.
 He limps toward the bench.
 
 "Someone heal the old man. And tell Sera she can stop glaring. It's unbecoming of a combat mage."
+
+From her knees, frost still melting off her leather: "I'm not glaring. I'm studying. There's a difference."
+
+She's already running the fight backwards. I can see it in her eyes — the lateral analysis, the counter-strategies forming. Sera doesn't lose twice the same way. By tomorrow she'll have three plans for the Frost Fang and two I won't see coming.
 
 ---
 

@@ -82,6 +82,8 @@ Sera: "Smart. You felt the field." A pause. Then, drier: "The landing needs work
 
 I push myself up. Palms on cold stone. The taste of overconfidence in my mouth. Stride is a weapon — but a weapon that doesn't stop when you tell it to can cut the wielder.
 
+Sera predicted I'd do the smart thing. The efficient thing. Instead I ran into a wall. The ember is amused. *We're not the efficient type*, it says. Or maybe that's just me. Hard to tell anymore.
+
 I stand. Take a breath. Reset.
 
 ---
@@ -346,9 +348,9 @@ Dark.
 
 The iron body hits the containment barrier and stops. The three-fingered hand that caught the returning knife opens slowly. The knife clatters to the stone.
 
-Eight hundred pounds of silent metal. The soldier I made with bare hands in a forest clearing, a lifetime ago, when I climbed something I didn't understand and rewrote its soul because it seemed like the right thing to do.
+Eight hundred pounds of silent metal. The soldier I made with bare hands twenty minutes ago. The first thing I ever created that looked back at me with gold eyes and waited for orders.
 
-Gone.
+Gone. The ember doesn't mourn — it's not built for it. But it goes quiet the way it went quiet during Vael's story about Lena. Recognizing something that ended.
 
 ---
 
@@ -392,7 +394,7 @@ She turns and walks back to the colonnade. The arms fold. But the posture is dif
 
 Pip drops off the bench and crosses the arena floor. Past the wreckage. Past the scorch marks. Past the place where the Sentinel fell. She stops in front of me. Looks at the place on my chest where the detonation hit.
 
-She doesn't say anything. Just stands there. Close.
+She doesn't say anything. Just stands there. Close. The auburn hair tucked behind her ear with a knuckle that still moves like it's dusting off flour — the innkeeper's gesture, two days and a hundred miles from the inn.
 
 The ley alcove hums. The crater steams. And somewhere across the Academy, in a Council chamber guarded by a priest with a crossbow and a mercenary detail that doesn't know what they're protecting, a blackened iron crown sits on a table. A god of entropy stirs inside it. Says nothing at all. But through the bond — through the circuit that stretches across stone and distance — I feel him. Watching. Aware that something just happened in the arena that made the ember burn a little brighter.
 

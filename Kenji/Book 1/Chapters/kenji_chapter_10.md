@@ -28,7 +28,9 @@ The woman's expression shifts toward unpleasant.
 
 "I'll cover it."
 
-Sera. Leaning against the colonnade pillar. Arms folded. Two copper in her fingers. She flips them to the cart woman without looking. "He's good for it."
+Sera. Leaning against the colonnade pillar. Arms folded. The stance says *I happened to be here* and the two copper already between her fingers say *I was waiting*.
+
+She flips them to the cart woman without looking. "He's good for it."
 
 She falls into step beside me.
 
@@ -70,7 +72,7 @@ A beat.
 
 "But she was there too."
 
-Sera's expression flickers. "She told both of us not to come. We came anyway. Separately. Ended up behind the same pillar." A pause. "It was awkward."
+Sera's expression flickers. Her thumb runs along the sword pommel — the unconscious tell, the one she doesn't know she has. "She told both of us not to come. We came anyway. Separately. Ended up behind the same pillar." A pause. "It was awkward."
 
 ---
 
@@ -174,11 +176,11 @@ Silence. The chalk has stopped.
 
 I do.
 
-She's pale. White. The ledger covered in frantic shorthand. The chalk broken in her fingers. Her dark eyes fixed on a point two inches in front of my chest.
+She's pale. White. The ledger covered in frantic shorthand. The chalk broken in her fingers. One hand has risen without her noticing — hovering in the air between us, ink-stained fingertips reaching toward something only she can see. Her dark eyes fixed on a point two inches in front of my chest.
 
 "Don't move. The ember is still open. I can see it with mage-sight. The energy signature is—"
 
-She swallows.
+She swallows. The hovering hand trembles. A scholar's hand. Fourteen years of careful, measured, documented work — and it's shaking.
 
 "It's the most beautiful thing I've ever seen."
 
@@ -209,6 +211,8 @@ She pushes her sleeve back. Her left inner forearm — a mark. Stylized seal. Ac
 The fear underneath everything since yesterday. Named at last.
 
 "I don't know who corrupted the seals. I don't know where the energy goes. I don't know how deep it reaches." She grips the ledger. "But whatever is receiving it — whatever is feeding on twelve years of graduates — is hungry. And it's getting closer to full."
+
+Eight days. I've been in this world eight days. I came looking for training and found a conspiracy that could kill hundreds. The INT of nine wants to simplify. The CHA of seventeen is already mapping who to talk to, who to leverage, who to trust. And the ember — the ember just found something that offends it on a level deeper than thought.
 
 The nighthollow. Voss. The highway operation.
 

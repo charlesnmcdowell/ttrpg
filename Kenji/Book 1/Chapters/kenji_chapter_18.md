@@ -8,7 +8,7 @@ Dawn. Duskfen.
 
 Eighteen hours of running. The Stride fading. The Windrunner Boots settling into normal weight. The world returning to proper speed.
 
-The settlement — changed. Green patches in the grey. Dark soil where ash used to be. The air lighter. Birds I didn't hear nine days ago. The cycle working. Slowly. Patiently.
+The settlement — changed. Green patches in the grey. Dark soil where ash used to be. The air lighter. Birds I didn't hear nine days ago. The cycle working. Slowly. Patiently. The dying god under the Brennick farm — the one I poured creation into — still mending. I can feel it through the circuit if I reach. A distant warmth answering my warmth. The cellar that started everything, healing by degrees.
 
 The Broken Antler. The porch. Smoke from the chimney. The smell of cooking.
 
@@ -36,7 +36,7 @@ The kitchen door swings open.
 
 Pip.
 
-She carries herself differently. The woman who stood in a doorway pressing honey cakes into a stranger's hands has been running an inn for six days alone. The apron is the same. The flour on her hands is the same. But the eyes are older.
+She carries herself differently. The woman who stood in a doorway pressing honey cakes into a stranger's hands has been running an inn for six days alone. The apron is the same. The flour on her hands is the same — she tucks a strand of auburn hair behind her ear with one knuckle to avoid smearing it, a motion she's done ten thousand times. But the eyes are older.
 
 She sees me.
 
@@ -108,7 +108,13 @@ Ryn. At Aldric's smithy. Carrying tools. Sweeping ash. He sees me.
 
 "Grab your things, Ryn. You and Pip are coming with me. Quick trip."
 
-Aldric looks at me. At Emberfang. At whatever nine days has done.
+Aldric looks at me. At Emberfang. At whatever nine days has done. His eyes linger on the ironwood armor — his work, still holding, still protecting. The smith's pride visible for a half-second before the stoic face reasserts.
+
+"Armor's holding." Not a question.
+
+"Hasn't let me down once."
+
+He nods. The nod of a craftsman hearing the only review that matters.
 
 "Bring him back in one piece."
 
@@ -138,7 +144,7 @@ Pip is turning in a slow circle. The dress catching the breeze. Her eyes taking 
 
 She can't finish.
 
-Ryn is gripping his satchel straps. Mouth open. The young man who swept ashes looking at a building that contains more magic than Duskfen has produced in its entire history.
+Ryn is gripping his satchel straps — the persistent grip, the one he uses when he's processing something too big for words. The twitchy fingers have gone still. The young man who swept ashes and picked locks and never met a problem he couldn't solve with quick hands is looking at a building that contains more magic than Duskfen has produced in its entire history. His eyes are cataloguing the architecture the way he catalogues escape routes — not fear, but the hunger of someone who's always been smarter than his circumstances allowed.
 
 I pull the brass token from my belt. The Combat Mage Certification. Twelfth in forty years. I press it into Pip's hand.
 
@@ -168,7 +174,7 @@ The word lands. *More*. The same word she used about me.
 
 She looks at Ryn. He looks at her. A silent conversation that doesn't need words.
 
-"Can we see the library?" Pip asks.
+"Can we see the library?" Pip asks. The flour-knuckle tucks the strand of hair again. But this time the motion isn't habit. It's preparation. The innkeeper's daughter squaring up for something she's wanted without knowing she wanted it.
 
 "Have fun."
 

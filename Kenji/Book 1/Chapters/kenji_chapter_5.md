@@ -148,9 +148,23 @@ The near-complete Hexcrawler first. Sera circles left along the dry margin. I co
 
 We converge on the five-legged form. It floats on its side, soft chitin, translucent at the joints. Not yet alive. Not yet not alive.
 
+"I'll take the head. You crack it open," Sera says. All business.
+
+"Romantic."
+
+"Shut up and swing."
+
 I bring the Radiant Edge down. The golden blade punches through the soft chitin and radiant light detonates inside — gold flaring through the translucent shell, lighting up every unfinished organ. The body convulses once and collapses inward. Sera's sword takes the head simultaneously. Clean. Done.
 
 The rest is work. Not combat. Fifteen minutes of wading through knee-deep fluid, swords rising and falling. Each partial form gets the same treatment. The torso folds. The skull-shape cracks under a boot heel. The chitin plates scatter when the sword breaks their clusters.
+
+"Seven," Sera calls from the west wall, kicking a chitin plate free of the fluid. "How many on your side?"
+
+"Lost count. Five, maybe six." I wade past something that was learning to be a ribcage. "This is the worst pool party I've ever been to."
+
+"Have you been to many pool parties?"
+
+"I can't remember. But I'm confident none of them involved this much chitin."
 
 I take the deeper sections. The Radiant Edge makes it efficient — the radiant damage *unravels* the proto-Hexcrawlers faster than steel alone. Where the golden blade strikes a forming creature, the surrounding fluid loses its sheen. Goes grey. Goes clear. Goes still.
 
@@ -183,6 +197,8 @@ Not a question. A door opening.
 She looks at me.
 
 "Varenholm is roughly three days west of Duskfen. The Academy is the largest magical institution in the region. If anyone can explain what's in that deeper passage, or what your ember actually is, or how a god of entropy ended up starving under a farmhouse — they're in Varenholm."
+
+The Mage Council. The Academy. Five days ago I woke up face-down in the mud and now there's an entire institutional infrastructure of people who study what's happening inside my skull. I've been in this world barely a week and I'm already collecting organisations that want to examine me.
 
 A pause.
 
@@ -263,6 +279,8 @@ And the ironwood. A faint amber sheen on the hardened surfaces. Where Aldric cur
 A folded piece of paper. Aldric's handwriting.
 
 *Kenji. Ironwood-cured bear leather. AC 14. Won't slow you down. Won't let you down. Don't die in it — my son never got to wear the last set I made for someone who deserved it. — Aldric*
+
+I read it twice. The second time is slower. A blacksmith I knew for two days made me the best armor of his career because I dug a hole, killed a monster, and reminded him that men who make things still matter. That's more faith than I've earned. I fold the note and put it in the breast pocket where it'll sit against my chest.
 
 I strip off the old leather. Pull on the new set. Buckle the bracers. Settle the chest piece. Roll my shoulders.
 
@@ -505,6 +523,14 @@ Garrett looks at the priest. Something in his expression flinches.
 We leave the crossroads behind. Garrett strips the camp of everything useful. The four unconscious bandits get tied up with water in reach. They'll work free in hours. Without weapons, without the operation, they're just four men on a road with nothing.
 
 Garrett hoists the supply pack onto his back like it's a Tuesday. Chainmail, mace, lockbox, and a full camp's worth of gear. The man is built for carrying.
+
+He falls into step beside me and says nothing for a hundred yards. Then:
+
+"I've worked with fighters who could clear a camp. Soldiers. Veterans. Men with twenty years of edge work." He adjusts the mace on his hip. "None of them moved like that. The speed thing — that's not training. I don't know what that is. But I know what it looked like from the ridge."
+
+He glances at me.
+
+"It looked like you were deciding how much of yourself to use. And you were being polite about it."
 
 The western highway stretches west. A real road. Cart ruts. Drainage ditches. Civilization — or it was, before Voss started taxing it.
 

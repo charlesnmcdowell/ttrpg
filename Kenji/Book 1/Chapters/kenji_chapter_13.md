@@ -158,6 +158,8 @@ Not Aldwin's ice sword. Darker. Blue-black, the color of deep winter midnight. D
 
 The cold radiates. Not just temperature — *intent*. The air thickens. Moisture freezes. The packed earth frosts in a two-foot radius. Everything near this weapon is being told to slow down.
 
+I'm holding entropy. Not fighting it. Not completing it the way I did in the cellar. *Wielding* it. The ember made this blade and the blade carries endings and I can feel the difference in my bones — creation that chooses to end things is not destruction. It's winter. Necessary. Temporary. The sleep before the growth.
+
 "That's not what I taught you," Aldwin says.
 
 "The ember had opinions."
@@ -194,7 +196,7 @@ He looks at the Crown. The grey eyes — forty years in this Academy, forty year
 
 "That's the part I'm not telling you yet. Not because I don't trust you — because the person who put this down there has been here longer than you have."
 
-He stares. The grey eyes recalculating everything. Forty years. The seals. The graduates. The fading. The deaths.
+He stares. The grey eyes recalculating everything. Forty years. The seals. The graduates. The fading. The deaths. The staff in his hands has stopped tapping — the first time I've seen it completely still. Aldwin's constant rhythm, his thinking heartbeat, silenced by the weight of what he's looking at.
 
 "A convergence anchor. Collecting what."
 
@@ -237,6 +239,8 @@ I pull him to his feet.
 He walks toward the colonnade.
 
 "Dramatic little bastard," he mutters. But the staff taps with a rhythm that sounds like approval.
+
+Dramatic little bastard. I'll take it. Add it to the list — Blade Channeler, Combat Mage Number Twelve, Crown Bearer, Dramatic Little Bastard. The resume is getting interesting.
 
 I put the Crown back in the satchel. The ley web settles. I recast the Frost Fang — the blue-black blade reforming in my hand. Twelve hours. The green tinge curling from the edge like breath in winter air.
 

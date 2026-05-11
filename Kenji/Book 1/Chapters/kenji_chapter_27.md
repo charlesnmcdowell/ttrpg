@@ -14,6 +14,8 @@ The ember sits deeper than it did yesterday. Not louder. Wider. Like a river tha
 
 And something new underneath the surface. A pull. A warmth that isn't the ember. Something that lives in the space between me and the people around me. The people who watch. The people who care. The people whose attention is about to become a weapon.
 
+CHA 17 says: *we just leveled up the part of us that makes people want to look.* INT 9 says: *we still can't read.* CHA 17 says: *irrelevant — they'll read to us.*
+
 The Crown hums on the bedside table. Three hundred and thirty-nine threads. Solveth breathing beneath the iron.
 
 Through the bond, very faint: Today.
@@ -162,7 +164,7 @@ Garrett's eyes close. Open.
 
 Garrett puts both hands flat on the table.
 
-"Kenji. I'll deliver whatever message you tell me to deliver. But I'm asking you — as the man who left Voss because he saw where 'take what you want' leads — to think about who you want to be when this is over."
+"Kenji. I'll deliver whatever message you tell me to deliver." His hand goes to the mace. Not a threat — the reflex of a man who reaches for the familiar when the ground shifts. "But I'm asking you — as the man who left Voss because he saw where 'take what you want' leads — to think about who you want to be when this is over."
 
 ---
 
@@ -181,6 +183,8 @@ The room is very quiet.
 I raise my hand. The ember answers — not warmth this time. Cold. Deep frost and green-tinged entropy. The air drops ten degrees. Frost smoke curling from nothing.
 
 Frost Fang materializes in my grip. Blue-black steel. Green frost smoke trailing from the edge. The jagged crystal crossguard forming around my fingers. The blade that a god speaks through — pulled across the Academy from Edwyn's table, from the cloth it was resting on beside temple correspondence and cold tea.
+
+Through the bond, Solveth stirs. Not words. A shiver. The god feeling himself moved without being asked — carried from one hand to another across stone and distance. The entropy edge hums against my palm like a greeting from something very old to something it recognizes.
 
 Somewhere in the Council chamber, a priest's hand closes on empty air.
 
@@ -286,3 +290,5 @@ Expedition launch — Day 13
 Edwyn no longer has Frost Fang or Solveth voice channel
 
 End of Chapter Twenty-Seven.
+
+End of Book 1

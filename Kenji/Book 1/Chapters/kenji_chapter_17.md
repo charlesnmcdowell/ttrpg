@@ -30,13 +30,17 @@ He stops at the corridor junction.
 
 "I'll have the detail in place within the hour. Edwyn won't know they're there." He straightens. "And as far as I know — you wandered off to find treasure in the woods. I don't know anything else. Hard to leak what I don't know."
 
+Garrett walks off. The mercenary mind already executing. I watch him go and catalogue what I'm leaving behind: the Crown on a podium, a chained god in a frost blade, a priest who can't fight holding both, an investigation petition that will force Vael's hand, and an aging immortal whose life depends on getting back what I took. Every piece placed where it draws maximum attention. Maximum heat. Maximum desperation.
+
+The INT of nine calls this a plan. The CHA of seventeen calls it a performance. The ember calls it bait — and bait only works if you're willing to leave it alone in the water.
+
 "Anything else, sir?"
 
 ---
 
 The eastern training grounds. The ley alcove.
 
-I stand near the convergence point and reach for the ember. Not a weapon. Not a blade. Infrastructure. The creation energy builds something permanent for the first time.
+I stand near the convergence point and reach for the ember. Not a weapon. Not a blade. Infrastructure. The creation energy builds something permanent for the first time. The ember responds differently — slower, deeper, like the difference between swinging a sword and planting a tree. Combat is fast and loud. Building is patient. The ember likes patient.
 
 Ten minutes. Gold light coalescing against the stone wall. Solidifying. Shaping. An archway — seven feet tall, four feet wide, golden-white radiance humming at the edges. The symbols from Emberfang's crossguard appearing in the stone frame. Root language. Pre-Academy. The ember writing in the alphabet it learned from a five-hundred-year-old sword.
 

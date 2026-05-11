@@ -30,6 +30,8 @@ She feels me looking.
 
 "I'm fine," she says. The way people say *I'm fine* when they're not and don't want to discuss it.
 
+Then, quieter, to the tree line rather than to me: "I kept seeing it. The gold light. The way you went down. Every time I closed my eyes." She adjusts her grip on the sword. "So I stopped closing them."
+
 ---
 
 "Let's get Harlan back home," I say. "Sera looks tired — I'll take point. Edwyn, let me know if you see that tree with the sap I need. Thanks for waiting for our return, Ryn."
@@ -60,11 +62,11 @@ Small things. Barely visible. But the forest is *responding*. The cycle is turni
 
 The silence has a crack in it too. A single bird call. Distant. Tentative. Like the first voice testing the acoustics of an empty room.
 
-I fall into step beside Edwyn and remind him about the ironwood. Silver-white bark, smooth, grows near ley lines. Aldric needs the sap.
+I remind Edwyn about the ironwood. He nods — we covered this on the road in.
 
-"I know ironwood," he says. "The Temple archives mention them as markers — they grow where the boundary between our world and the divine runs thin. Ley line anchors." He glances at the corrupted undergrowth. "If the corruption hasn't killed them."
+"If the ley line survived the corruption, we should see one between here and where the grey started thinning yesterday." He's already scanning the tree line. "Silver-white bark. You won't miss it."
 
-I scan the tree line as we walk. Dark-barked oak and ash and twisted elm. No silver-white bark. Not yet.
+I scan with him. Dark-barked oak and ash and twisted elm. No silver-white bark. Not yet.
 
 ---
 
@@ -121,6 +123,16 @@ He doesn't argue further. He pulls items from his satchel — silverleaf tea, th
 He looks at me one more time.
 
 "Eat every four hours, Kenji. I mean it."
+
+Sera watches them prepare to leave. Her jaw shifts — that three-degree angle that means she's swallowing something she wants to say.
+
+"You're sending the healer home and keeping the exhausted scout," she says. "I want you to hear yourself."
+
+"I'm keeping the best swordfighter in this forest and someone who knows the terrain."
+
+"Flattery." But the jaw softens half a degree. "If you get yourself killed out there, I'm going to be very annoyed."
+
+"I'll add it to the list of reasons to stay alive."
 
 They head southwest. Edwyn's satchel clinking. Harlan's unconscious form over the priest's shoulder. Ryn's pack bouncing with every step. I watch them until the road bends and the forest takes them.
 
@@ -302,11 +314,17 @@ It sounds like relief.
 
 Its head turns under my palm. Slowly. Not pulling away — *pressing in*. The way a dog presses its head into a hand it's decided to trust.
 
-Sera hasn't moved. Her sword is still raised. Seven emotions she doesn't have names for.
+Behind me, barely a whisper: "Kenji. Don't move."
 
-"Kenji."
+Sera. Sword still raised. Her voice has the careful flatness of someone watching a man pet a cobra and knowing that any sudden noise could change everything.
 
-Very quiet.
+"I'm not going to move," I say. "It's all right."
+
+"It has *teeth*, Kenji. I can see them from here."
+
+"I know. It's choosing not to use them."
+
+Silence. Seven emotions she doesn't have names for cross her face before she speaks again.
 
 "Did you just *tame* a Hexcrawler."
 
@@ -458,13 +476,15 @@ The boar turns. Slowly. That wounded flank is dragging. But those small eyes hav
 
 It charges. Head down. Tusks forward. Four hundred pounds accelerating to full speed in two seconds.
 
+"Oh good," I say to nobody. "It's angry."
+
 I see the tusks coming. Purple light flares across my ribs — Blade Ward answering the commitment of real ivory heading for real organs. The impact is *enormous* — the ward absorbs it and the force spreads across the shield like a hammer hitting a bell. My feet leave the ground. I hit mud back-first and slide.
 
 But the killing edge of it dissipates into violet light. I'm alive. Bruised. On my back. But alive.
 
 The boar skids to a stop five feet from where I'm lying. Snorting. Blood — mine and its own — dripping from the tusks. It stamps once. Lowers its head.
 
-I roll and shove myself upright. Ten feet of distance. The ember opens a different channel — not the legs, not the blade. The shadow daggers. Five shapes materialize from nothing — wickedly edged, black as ink, hovering at my shoulders like obedient wasps. I've never called them before but they feel *right*.
+I roll and shove myself upright. Ten feet of distance. The ember opens a different channel — not the legs, not the blade. The shadow daggers. Five shapes materialize from nothing — wickedly edged, black as ink, hovering at my shoulders like obedient wasps. I've never called them before but they feel *right*. The ember practically vibrates with anticipation — it's been sitting on these since the level-up like a child hiding a present behind its back.
 
 The boar charges again.
 

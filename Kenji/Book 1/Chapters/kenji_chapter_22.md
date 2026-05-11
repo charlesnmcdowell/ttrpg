@@ -34,7 +34,7 @@ The window. Up. The golden aura clearing the rooftops. Varenholm spreading below
 
 Over the walls. A guard waves. Salute or confusion.
 
-Forty-five minutes of flight. The creation aura healing the countryside beneath — a sixty-foot circle of greener grass tracking my path.
+Forty-five minutes of flight. The creation aura healing the countryside beneath — a sixty-foot circle of greener grass tracking my path. A trail of spring through autumn farmland. Some farmer is going to wake up tomorrow and wonder why a perfect stripe of his field grew two weeks ahead of schedule.
 
 The Duality expires. The gold fades. The flight cuts. I drop —
 
@@ -78,7 +78,7 @@ She walks to the portal. Reaches toward the shimmer. Through it — the eastern 
 
 "The fastest mercenary company on the continent."
 
-"The only one with a portal network." She looks at the archway. "What did you need the back yard for. You could have put this in the common room."
+"The only one with a portal network." She takes a drink. The tankard hides whatever her mouth is doing but the eyes are running numbers — contracts that were too far, deployments that took too long, jobs they lost to geography. All of them solvable now by a golden door in a back yard. She looks at the archway. "What did you need the back yard for. You could have put this in the common room."
 
 "Didn't want to scare the new recruits."
 
@@ -158,7 +158,7 @@ Block. Absorb. Both swords — the double counter. High and low. Kael throws him
 
 The ember locks it in. The cross-guard merging with Sera's Cage. One weapon becoming two. One counter becoming three. The geometry of protection doubling.
 
-"One session," Kael says. "Took me two years."
+"One session," Kael says. "Took me two years." The pause is longer than it needs to be. "I learned it because the person I was guarding couldn't guard themselves. The cross-guard isn't for the man holding the swords. It's for the person standing behind him."
 
 He sheathes his real shortswords.
 

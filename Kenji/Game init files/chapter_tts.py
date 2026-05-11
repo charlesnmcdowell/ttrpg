@@ -73,6 +73,46 @@ def load_anthropic_key() -> str:
     return ""
 
 
+def load_elevenlabs_key(config: Dict) -> str:
+    """Mirror the dashboard's 3-layer ElevenLabs key resolution
+    (kenji_gui._tts_load_config). First hit wins:
+
+      1. key.txt next to this script (or one dir up, or the bundle dir).
+         First non-empty, non-comment line is the key.
+      2. tts_config.json -> api_key field.
+      3. ELEVENLABS_API_KEY environment variable.
+
+    This is the same key the dashboard's Speak buttons use, so the user
+    only sets it in one place."""
+    # Layer 1: key.txt — search the same dirs the dashboard searches.
+    search_dirs = [SCRIPT_DIR, SCRIPT_DIR.parent]
+    seen = set()
+    for d in search_dirs:
+        try:
+            rd = d.resolve()
+        except Exception:
+            continue
+        if rd in seen:
+            continue
+        seen.add(rd)
+        key_path = rd / "key.txt"
+        if not key_path.exists():
+            continue
+        try:
+            for line in key_path.read_text(encoding="utf-8").splitlines():
+                line = line.strip()
+                if line and not line.startswith("#"):
+                    return line
+        except Exception:
+            continue
+    # Layer 2: tts_config.json api_key field.
+    cfg_key = (config.get("api_key") or "").strip()
+    if cfg_key:
+        return cfg_key
+    # Layer 3: env var.
+    return os.environ.get("ELEVENLABS_API_KEY", "").strip()
+
+
 def load_voice_config() -> Dict:
     """Load tts_config.json. Returns the raw dict (not just character_voices)."""
     if not TTS_CONFIG.exists():
@@ -466,13 +506,16 @@ def main():
             print("User declined. Exiting without burning credits.")
             sys.exit(0)
 
-    # Step 5: ElevenLabs API key
-    elevenlabs_key = (config.get("api_key") or "").strip()
+    # Step 5: ElevenLabs API key (same 3-layer resolution as the dashboard)
+    elevenlabs_key = load_elevenlabs_key(config)
     if not elevenlabs_key:
-        elevenlabs_key = os.environ.get("ELEVENLABS_API_KEY", "").strip()
-    if not elevenlabs_key:
-        print("ERROR: No ElevenLabs API key. Set 'api_key' in tts_config.json "
-              "or export ELEVENLABS_API_KEY.", file=sys.stderr)
+        print("ERROR: No ElevenLabs API key found. The tool checks (in order):",
+              file=sys.stderr)
+        print(f"  1. key.txt in {SCRIPT_DIR} (or one dir up)", file=sys.stderr)
+        print("  2. 'api_key' field in tts_config.json", file=sys.stderr)
+        print("  3. ELEVENLABS_API_KEY environment variable", file=sys.stderr)
+        print("\nThe dashboard reads from the same locations - so whichever you "
+              "use for the Speak buttons also works here.", file=sys.stderr)
         sys.exit(6)
 
     # Step 6: synth + stitch + save

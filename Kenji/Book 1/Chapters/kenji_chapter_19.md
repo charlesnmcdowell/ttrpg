@@ -134,6 +134,10 @@ He plants the staff hard.
 
 "The most merciful weapon you could carry. And the most lethal thing the Chancellor will ever face."
 
+A sword that kills by healing. The ember hums — not amused this time. Something deeper. The recognition of a tool finding the hand it was built for.
+
+CHA 17 says: *that's the most terrifying sentence anyone has ever said to me and I understood every word.* INT 9 says: *wait, go back to the part where we grow grass.*
+
 ---
 
 Garrett at the Silver Draft. Corner table. Coffee. Ledger.
@@ -168,9 +172,9 @@ Creation mode. The green-black dissolves. Golden warmth. The cave brightens.
 
 Eight claws collected. The cave collapsed — three Flame Crescents at the load-bearing stalactites. Ten feet of rubble sealing the entrance.
 
-Drav pays twenty gold.
+Drav pays twenty gold. Counts it twice. Looks at the sealed cave. Looks at me. Counts it a third time like the number might change if the math catches up to what just happened.
 
-Forty-five minutes.
+Forty-five minutes. The ember is already hungry. The entropy aura burns through calories the way Sera burns through patience — fast, thorough, and without apology.
 
 ---
 
@@ -208,7 +212,7 @@ She steps back.
 
 "Go to your meeting."
 
-Steady. The innkeeper's voice. But the hand with the ring stays one extra beat.
+Steady. The innkeeper's voice. But the hand with the ring stays one extra beat. The quarter-second that isn't a quarter-second.
 
 "Go. I'll be in the library. I'm on chapter four of dimensional folding and the author is wrong about planar membrane theory."
 
