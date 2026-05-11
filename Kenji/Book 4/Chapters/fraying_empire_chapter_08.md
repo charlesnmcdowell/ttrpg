@@ -413,15 +413,3 @@ A pause.
 "Now tell me your name. And tell me about the undead."
 
 ---
-
-**Chapter Summary:**
-- Morning: Clone trick for Elda (100GP gift, IP bypass — clone has no biological aura). Escort handoff to Jostin's patrol.
-- Shadowed Jostin's patrol invisibly. Witnessed skeleton phalanx engagement (8 skeletons, shield wall, remote command, old battlefield stock). Patrol won in 4 minutes. Two walking wounded.
-- Spied on Bracken's classified briefing. Garrison at 35% (42/120). Three escalations in 2 weeks. Three letters dispatched: Katya (60 soldiers + mage), Vess (response timeline), Ashenmere garrison (cross-check). 4 months of ignored requests.
-- Appeared visible in Bracken's office. Sword at throat. Proposed duel: win = 3 days her assistance, lose = enlist under her command.
-- Refused. Arrested voluntarily. Came to cell 45 min later.
-- Unarmed JKD duel. Kenji dominated physically — jab, sweep, stripped armor, kick after yield.
-- Transitioned to intimate contest (5-finish race). Lover's Vigor transmitted after first round. Bracken won 5-3 on determination and Vigor-buffed stamina.
-- Creation energy healed all scars (jaw, ribs, shoulder). Cell destroyed (cracked wall, bent bars, broken stool, warped door).
-- Kenji owes: his name, undead intel, and service under Bracken's command.
-- Renna Bracken: 18th intimate partner. IP Stack 5+ (Obsessed). Lover's Vigor active (golden eyes, +50% all stats, 5 days).

@@ -125,6 +125,17 @@ def _parse_cli(argv: Optional[list]) -> argparse.Namespace:
         default=None,
         help="(Legacy) Path directly to a campaign_manifest.json file.",
     )
+    p.add_argument(
+        "--new-character",
+        action="store_true",
+        default=False,
+        dest="new_character",
+        help="Open the Character Creation Wizard instead of loading an existing "
+             "campaign. Walks through the 9-step process from "
+             "dm_rules_tracking.md § Character Creation Rules. On finalize, "
+             "calls generate_starter_campaign.py + character_compute.py and "
+             "relaunches with --character <new_id>.",
+    )
     return p.parse_args(argv)
 
 
@@ -3895,8 +3906,87 @@ def _show_fatal_error(title: str, message: str) -> None:
         pass
 
 
+
+def _run_character_creation_wizard() -> None:
+    """Run the 9-step Character Creation Wizard (customtkinter modal).
+
+    Walks the player through the canonical creation process from
+    dm_rules_tracking.md § Character Creation Rules:
+      Race → Class → Gender → Background → Name → Appearance → Stats →
+      Starting gear → Narrator style
+
+    Each step has its own screen with Back/Next nav. Suggest buttons on
+    relevant steps use the Claude API when available; gracefully disabled
+    when no key is configured (Q2 default — wizard remains usable).
+
+    On finalize (background thread, UI stays responsive):
+      1. Validate name (non-empty, no Windows-illegal chars, no folder /
+         manifest collision — refuses to overwrite an existing character).
+      2. In-process call to generate_starter_campaign.generate_campaign_scaffold
+         + create_campaign_folder (no subprocess — works in bundled .exe).
+      3. character_compute.recompute_character_state for HP / AC / saves.
+      4. Starting gear merged into _story_engine_state.equipped.
+      5. Manifest copied to dist/manifests/ override path.
+      6. Voice slot added to tts_config.json (case-insensitive).
+      7. Success dialog → user closes wizard → re-launches dashboard from
+         desktop shortcut and picks the new character from the picker.
+    See WIZARD_PHASE_2D_AUDIT.md for the full audit + fix history.
+    """
+    try:
+        # Import the wizard module — lives next to kenji_gui.py.
+        from pathlib import Path as _Path
+        import sys as _sys
+        _here = _Path(__file__).resolve().parent
+        if str(_here) not in _sys.path:
+            _sys.path.insert(0, str(_here))
+        import character_creation_wizard as _wizard
+        _wizard.run()
+    except ImportError as e:
+        # Wizard module missing — safety net.
+        try:
+            import tkinter as _tk
+            from tkinter import messagebox as _mb
+            _root = _tk.Tk()
+            _root.withdraw()
+            _mb.showerror(
+                "Wizard module missing",
+                f"character_creation_wizard.py not found next to kenji_gui.py.\n\n"
+                f"ImportError: {e}\n\n"
+                f"Re-bundle the .exe via build_exe.bat, or restore the file from git."
+            )
+            _root.destroy()
+        except Exception:
+            print(f"ERROR: character_creation_wizard module missing — {e}")
+    except Exception as e:
+        # Unhandled wizard error — surface it without crashing the .exe.
+        try:
+            import tkinter as _tk
+            from tkinter import messagebox as _mb
+            import traceback as _tb
+            _root = _tk.Tk()
+            _root.withdraw()
+            _mb.showerror(
+                "Character Creation Wizard — error",
+                f"{type(e).__name__}: {e}\n\n{_tb.format_exc()[:1500]}"
+            )
+            _root.destroy()
+        except Exception:
+            print(f"ERROR running wizard: {e}")
+
+
 if __name__ == "__main__":
     try:
+        # Pre-parse to detect --new-character before we try to load a campaign
+        # (the wizard creates the campaign that doesn't exist yet).
+        _early_args = _parse_cli(sys.argv[1:])
+        if _early_args.new_character:
+            # Launches the 9-step CharacterCreationWizard (customtkinter modal).
+            # On success it writes the new character's manifest + state file +
+            # tts slot, then exits. The user re-launches the dashboard from the
+            # desktop shortcut and picks the new character from the picker.
+            _run_character_creation_wizard()
+            sys.exit(0)
+
         cfg = _load_campaign_config()
         app = LiveDashboard(cfg)
         app.mainloop()

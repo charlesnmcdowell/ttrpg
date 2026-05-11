@@ -1,10 +1,6 @@
 # Book 4 — Fraying Empire
 ## Chapter 34: Seven Days
 
-**Session span:** Ashmere **40** **late** **morning** **→** **Ashmere** **47** **dawn** (**Day** **262** **→** **269**). **Pallid** **March** — **Nyx's** **castle** **/** **inner** **chambers**. **Close** **to** **Death** **survival** **/** **Vigor** **1–7** **stacking** **/** **Soul** **Conqueror** **unlock** **/** **Anku** **Nyx** **emergence**.
-
-**Kenji dialogue note:** Player-declared intent and character action. Mature scene — implied, consequence-driven.
-
 ---
 
 ### I. The Door

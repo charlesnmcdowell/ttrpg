@@ -1,10 +1,5 @@
 # Fraying Empire — Chapter 18: *Exhibit A*
 
-**Session span:** Ashmere 34 dawn → Ashmere 35 dawn (Day 256–257). Opens in **Commander Bracken's** captain quarters after Chapter 17's overnight long rest.  
-**Corridor:** Thornkeep **captain quarters** (ghost egress) → **crown road north** → **Bronzebarrow** gates → **The Brass Hitch** (common room) → **Iron Mule** factor yard → **Brass Hitch** luxury suite → dawn.
-
-**Kenji dialogue note:** All Kenji spoken lines in this chapter are **player-declared** at the table. Default rule remains no AI-generated Kenji dialogue.
-
 ---
 
 ### Ghost egress
@@ -296,26 +291,3 @@ Downstairs, Cassia Vorn was about to open her factor ledger and discover that th
 But that was the morning's problem, and the morning was still young, and the woman beside him had a bronze-gold ring in her eyes and a question about children that he had asked and she had not yet answered, and the world outside the suite window was a town he had never been to before yesterday and might never come back to, and for a moment — one moment, between the bell and the bread — the ronin mask and the archmagus underneath it were both quiet, and the man who wore them was just a man in a bed with a woman who had chosen to stay.
 
 ---
-
-### Aura note (DM)
-
-**Irresistible Presence** remains **passive DC 23** per sheet. **Mursha** now carries **Lover's Vigor** immunity — **IP** should not **spike** her mechanically for the **~5-day** window (until **~Day 261 / Ashmere ~39**). After expiry, IP save pressure **resumes** at full stack if she is **viewing** him. **Bronze-gold eye ring** at pupil edge: **public tell** risk if anyone looks closely in good light; visible in lamplight, obvious in direct sun.
-
-**Clone flicker:** Mursha saw the **seam** at the Brass Hitch approach — she has filed the wrongness as *magic / twin / trick* without resolution. This is a **live thread**; she **knows** something is off but has not forced the question. If pressed or lied to about it, her **Neutral** compass says she **walks**.
-
-**Cassia Vorn / coffer:** Investigation thread **ACTIVE** as of Ashmere 35 morning. **Masked ronin** + **same-day Mursha release** = **correlation risk**. Empty coffer in **BoH** is evidence management, not disposal. Factor-house wires and yard gossip will move the timeline toward Kenji unless he is out of Bronzebarrow before the pattern hardens.
-
----
-
-**Chapter 18 Summary:**
-
-- **Gameplay:** **Thornkeep ghost egress** (Stealth **SUCCESS** — runner knock, Brynn tail); **crown road north** (**Athletics 31** vs DC 16, ox freed, **+5 SP**); **Perception 17** vs DC 14 reads Bronzebarrow approach; **Wind Step ×2** into town (**3/5** remaining); **Brass Hitch** meal (**4 SP**); **100 GP** table marker → **Mursha** buyout offer (off Mule, private, ~1yr); **IP** stack begins (**nat 1** → stack **~8**); **Persuasion ADV 28** vs DC 17 (go now); **100 GP recovered** off table. **IP** WIS 8 vs DC 23 **FAIL** → stack **~9** (Iron Mule walk). **Smoke-Invis-Clone** **1 charge** spent (**2/3**); **Deception 12** vs DC 15 **FAIL** (double wrongness filed); **Persuasion ADV 30** vs DC 14 (Mursha delivers to authority). **Iron Mule** factor **Cassia Vorn**: release terms **~70 GP 10 SP**; **Sleight ADV 22** vs DC 17 plants coin **SUCCESS**; **Perception 14** vs DC 14 spots **floor coffer** (exact). **Mursha freed** — severance + stamp + **90-day** non-compete. **Coffer theft**: **Stealth ADV 24** vs DC 19 **SUCCESS**; **Sleight ADV 20** vs DC 20 **SUCCESS** (exact) — strongbox → **BoH**; **+411 GP, +150 SP** (buyout returned + relay float); empty box retained. **Clone swap FAIL** (**Sleight 13** vs DC 18) — **Mursha** sees **flicker**; **Persuasion ADV 29** vs DC 15 keeps her. **30 GP** Suite 2 (bronze **ley-steam** tub, featherbed) + **lobster & steak** dinner (**Calista**). **Unmask**: **IP** WIS 16 vs DC 23 **FAIL** → stack **~10**. **Consent** — armor off, tub, **foot massage**; **IP** WIS 8 vs DC 23 **FAIL** → stack **~10–11** (stage-2 saturated). **Children** topic **asked** — Mursha: **no promise** in steam, needs **terms**/**time**. **Qualifying intimacy** — Mursha rode, **her** terms; **Lover's Vigor** ON (**~Day 261**); **bronze-gold eye ring**. **Night**: multiple rounds, multiple internal finishes. **Bonded Lovers → 20**.
-- **Combat:** None this chapter.
-- **Resources:** **−240 GP** provender (Ch17 carryover table). **−70 GP 10 SP** Mule buyout (returned via theft). **−30 GP** suite + dinner. **−4 SP** meal. **+5 SP** road help. **+411 GP** coffer theft. **+150 SP** coffer theft. Net purse: **~1,452 GP, 188 SP**. **−1 Smoke-Invis-Clone** charge (refreshed at dawn LR). **−2 Wind Step** charges (refreshed at dawn LR). **Luxury provender** in BoH (~30 days). **Empty iron coffer** in BoH.
-- **Character:** **Kenji** — ghost egress (discretion over confrontation); road help (mundane kindness); theft as reflex (coffer); Mursha as retention not romance (contract, year, freedom — then intimacy). **Mursha** — contract mind reframing choice; IP pressure acknowledged without naming; children ask **deferred** not refused; clone flicker **filed** not confronted. **Cassia Vorn** — factor efficiency → morning-after crisis. **Calista** — transactional barmaid, no plot weight.
-- **Intel / threat:** **Cassia** coffer investigation **ACTIVE** (Ashmere 35 morning); **masked ronin** + **Mursha same-day release** = **correlation risk**. **Clone flicker** known to Mursha — **live thread**. **Bracken** officer-wing **discretion** still unresolved (Ch17 carry). **Golden ring** in Mursha's eyes = **public tell** risk for 5 days.
-- **Ends:** **Ashmere 35**, ~**dawn**. **Kenji** in **Brass Hitch luxury suite**, **Bronzebarrow**, **post–long rest**. **HP 368/368**. **Mursha** beside him (**Lover's Vigor** ~**Day 261**). **EXP** baseline **2,270,050 / 2,500,000**.
-
----
-
-**Next beat (open — Ch19):** morning Bronzebarrow — **suite checkout**; **Cassia** investigation **heating** (yard gossip, factor wires, timeline correlation); **Mursha** day-one decisions (**road** vs **town** vs **Mule blowback**); **children** conversation still **owed** in sober air; **north relay** arc continues per `arcs/north_relay_two_chapter_plan.md`. Unused Ch18 hooks still valid: **sealed tube**, **Gwynn** trackless-boot spotlight, **Haldra** paper chase, **orc lay-priest** dock blessing.

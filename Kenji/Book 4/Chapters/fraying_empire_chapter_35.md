@@ -1,10 +1,6 @@
 # Book 4 — Fraying Empire
 ## Chapter 35: What We Are
 
-**Session span:** Ashmere **47** **dawn** **→** **mid-morning** (**Day** **269**). **Nyx's** **castle** — **inner** **chamber** **/** **great** **hall** **/** **perimeter**. **Post-Vigor** **morning** — **Corwyn** **restoration** **/** **Close** **to** **Death** **origin** **/** **Vigor** **self-renewal** **revealed**.
-
-**Kenji dialogue note:** Only direct Kenji quotes are player-declared lines from the session. No AI-generated Kenji dialogue.
-
 ---
 
 ### I. Still Here

@@ -1,10 +1,5 @@
 # Fraying Empire — Chapter 15: *Root and Steam*
 
-**Session span:** Ashmere 29 dawn through Ashmere 30 dawn (Day 251–252).  
-**Corridor:** East verge mile ~17 → south road crown (solo) → Pallid March **forward cordon** (root-crown amphitheater, circulation heart, guest chamber).
-
-**Kenji dialogue note:** All Kenji spoken lines in this chapter are **player-declared** at the table. Default rule remains no AI-generated Kenji dialogue.
-
 ---
 
 ### Split after the copse
@@ -257,5 +252,3 @@ And twenty miles north, Jostin and Brynn walked toward Thornkeep with a field re
 - **Ends:** **Ashmere 30**, ~**6:00 AM**. **Kenji** alone in **March cordon guest chamber**, **post–long rest**. **Oathbreaker** still in **BoH**. EXP unchanged unless table awards story XP (**2,270,050 / 2,500,000** baseline from Ch14 ledger). **Narrative continues same day** in **Chapter 16** (see bridge below).
 
 ---
-
-**Next chapter hook:** **Chapter 16** — *Listening Roof Left Behind* — same **Ashmere 30**, post-rest: deeper cordon work (**Frost Fang** at hip, **burned circle** stone), the Lady's paper-and-appetite negotiation (mask-name **Seren**, **bronze trophy**, INT tact failure vs leaked contact strings), **March egress**, **Thornkeep** inn, **Ashmere 31** dawn ledger.

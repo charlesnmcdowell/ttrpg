@@ -1,10 +1,5 @@
 # Fraying Empire — Chapter 16: *Listening Roof Left Behind*
 
-**Session span:** Ashmere 30 (post–guest-chamber **long rest** through same evening) → **Ashmere 31** dawn (Day 252–253).  
-**Corridor:** March **guest chamber** (wake, same calendar day as Ch15 end) → **inner cordon** (burned circle, **Frost Fang** at hip, threshold work) → **negotiation** → **egress** → south road **northbound** → **Thornkeep** gates → **Thornkeep Waystation** hired room → **long rest**.
-
-**Kenji dialogue note:** All Kenji spoken lines in this chapter are **player-declared** at the table. Default rule remains no AI-generated Kenji dialogue.
-
 ---
 
 ### Guest chamber — Ashmere 30, after the latch
@@ -211,5 +206,3 @@ The room was empty in the way an empty room can still feel watched from miles so
 - **Ends:** **Ashmere 31**, ~**6:30 AM**. **Kenji** alone in **Thornkeep Waystation** hired room, **post–long rest**. **EXP** baseline **2,270,050 / 2,500,000** unless the table awards story XP.
 
 ---
-
-**Next chapter hook:** **Chapter 17** — *Paper and Smoke* — **provisions**, **garrison politics**, **reunion or surveillance** — **Commander Renna Bracken** (Thornkeep; see `npc_appearance.md` — **not** Millhaven **Hadley**), Jostin's paper spine, Brynn's shield line — and whether a **smoke clone** counts as honesty under a captain's read.

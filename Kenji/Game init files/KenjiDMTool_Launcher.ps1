@@ -102,7 +102,7 @@ if ($pythonCmd -and (Test-Path $syncPy)) {
 
 # 3. Discover available characters from manifests folder.
 Write-Host "[3/4] Building character list..."
-$manifests = Get-ChildItem -Path $manifestsDir -Filter "*.json" -ErrorAction SilentlyContinue
+$manifests = Get-ChildItem -Path $manifestsDir -Filter "*.json" -ErrorAction SilentlyContinue | Where-Object { $_.Length -gt 0 }
 if (-not $manifests) {
     Add-Type -AssemblyName System.Windows.Forms
     [System.Windows.Forms.MessageBox]::Show(
@@ -129,6 +129,10 @@ foreach ($m in $manifests) {
     $choices += [PSCustomObject]@{ Id = $charId; Display = "$display$status" }
 }
 Write-Host "  Found $($choices.Count) character(s)."
+
+# Inject the "+ New Character..." pseudo-entry as the last picker option.
+# Selecting it dispatches --new-character to the .exe instead of --character.
+$choices += [PSCustomObject]@{ Id = "__new_character__"; Display = "+ New Character..." }
 
 # 4. Picker dialog.
 Write-Host "[4/4] Showing picker..."
@@ -201,7 +205,14 @@ if (-not $selected) {
     exit 0
 }
 
-# 5. Launch the dashboard with the selected character.
-Write-Host "Launching: $selected"
-Start-Process -FilePath $exe -ArgumentList "--character", $selected
+# 5. Launch the dashboard. Special "+ New Character..." entry routes to
+# the character creation wizard (--new-character); everything else loads
+# the picked character normally (--character <id>).
+if ($selected -eq "__new_character__") {
+    Write-Host "Launching: Character Creation Wizard"
+    Start-Process -FilePath $exe -ArgumentList "--new-character"
+} else {
+    Write-Host "Launching: $selected"
+    Start-Process -FilePath $exe -ArgumentList "--character", $selected
+}
 Write-Host "Done."

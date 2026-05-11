@@ -1,10 +1,6 @@
 # Book 4 — Fraying Empire
 ## Chapter 36: The Heist of Varkul
 
-**Session span:** Ashmere **47** **mid-morning** (**Day 269**). **Pallid March** — quarter-mile clearing south of Nyx's castle → **Ashfield Barrens** (transit) → **Varkul** ridge approach → **Varkul main gate** → **blood circle** → **chief's hall**. Arcane Sprint L6, Performance infiltration, Close to Death deployment, Dominion-over-death rebound, Enthrallment.
-
-**Kenji dialogue note:** Only player-declared lines are quoted. All Kenji dialogue in this chapter is verbatim from the player: tactical instruction, insults, and performance direction. Nyx dialogue written to match established voice from Ch33-34.
-
 ---
 
 ### I. The Sprint

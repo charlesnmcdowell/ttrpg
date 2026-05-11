@@ -1,11 +1,6 @@
 # Book 4 — Fraying Empire
 ## Chapter 20: The Western Cut
 
-**Session span:** Ashmere 35, late afternoon → late evening (Day 257). Opens at the **Brass Hitch** common room after Chapter 19's EDGE stall close.
-**Corridor:** Brass Hitch (evening revisit) → Bronzebarrow western turnout → western cut trail → box switchback (ridge bandits) → pack-train circle.
-
-**Kenji dialogue note:** All Kenji spoken lines in this chapter are **player-declared** at the table. Default rule remains no AI-generated Kenji dialogue.
-
 ---
 
 ### The lead
@@ -133,30 +128,3 @@ She carried two. He carried all three.
 Day 257. Ashmere 35. Late evening. Western cut.
 
 ---
-
-### Aura note (DM)
-
-**Irresistible Presence** remains **passive DC 23**. **Mursha** carries **Lover's Vigor** immunity — no IP spike until **~Day 261 / Ashmere ~39**. **Pack-train survivors** may include female humanoids who viewed the masked ronin (illusion double) — IP stacks are possible if viewing duration qualifies; assess at table if survivors recur.
-
-**Identity tells this chapter:** Wind Step ×2 (ridge recon — if any survivor was watching the ridgeline from the wagons, they saw movement that did not move correctly). Vaporize on knife bandit (a man was there, then he was not — memorable to any rim witness). Smoke-Clone-Invis combo (survivors saw one ronin, consistent with prior uses). These stack with the existing **ronin_identity_pressure** log in `kenji_state.json`.
-
-**Power of P — secret witness:** Kenji observed the full interrogation via Greater Invisibility. This is a **live asymmetry.** Per `character_tracker.md`: "Hides it from Kenji (excuses, shame — not betrayal); Kenji may still see via Stealth / invis / overwatch." He has now seen. If he names it: trust stress (she expected privacy; he violated it invisibly). If he stays silent: the secret compounds with the flicker and the Oathbreaker — three things she doesn't know he knows.
-
-**Cassia Vorn / coffer:** Investigation still active in Bronzebarrow. Distance from town buys time but does not erase the timeline correlation.
-
----
-
-**Chapter 20 Summary:**
-
-- **Gameplay:** **Brass Hitch evening revisit** — drink (**5 SP**), teamster lead on **overdue western cut pack-train** (sealed manifest, coalition crates, days late). **Depart Bronzebarrow** ~17:00 with Mursha; trail read (loaded ruts, recent, westbound, no return). **Western cut recon** ~20:45 — **Living Ground** (slide/wrong earth), **God Sight** (rim + lanterns), **Trade Warmth** (clustered living below + rim positions above); **Wind Step ×2** ridge passes (**3/5** remaining); siege active ~2 days, box switchback, circle wagons, coalition-sealed crates. **Ridge fight** ~21:15 — split flank; **Mursha left** (multiple kills, hammer + longsword, Vigor-enhanced, **Bloodlust** stacking); **Kenji right** (nodachi **Iaido** crit opener, **0/1 spent**, **vaporize** on knife bandit); **bandit rim broken**; train relieved. **Mursha Power of P** ~22:00 — ridge lieutenant; **CON save fail** (reroll, vigor+bloodlust **DC 29**, dis + injured); **intel** (handoff points, factor names, Bronzebarrow leak threads); **+2 STR permanent** → baseline **STR 22** (`mursha_power_of_p_log`). **Kenji invis witness** (Stealth cleared earlier; she does not know unless told). **Exit misdirect** ~22:30 — illusion double perimeter sweep → circles cart/wagon out of survivor sight → **sleight swap** → dismiss double / end G.Invis (**Smoke-Invis-Clone 2/3**). Rejoin Mursha at train circle.
-- **Combat:** Ridge bandits cleared — split flank. **Mursha:** multiple kills (left flank, Vigor+Bloodlust enhanced, armor break via war hammer). **Kenji:** right flank, Iaido crit opener (spent **0/1**), vaporize on knife bandit. No HP loss either side. Dragon-scale + Vigor made Mursha functionally untouchable at this threat tier.
-- **EXP:** 2,270,050 (unchanged — bandit EXP minor at L35). 229,950 to **Apotheosis**.
-- **Resources:** **−5 SP** bar drink. **−2 Wind Step** (recon; **3/5**). **−1 Smoke-Invis-Clone** (fight overwatch + exit misdirect; **2/3**). **−1 Iaido** (ridge fight; **0/1**). Net purse: **~917 GP, 183 SP**. **Luxury provender** in BoH (~28 days).
-- **Character:** **Kenji** — followed a rumor into a rescue; used full sensory suite for recon; split flanks with Mursha as equals; invisible overwatch during and after fight; **witnessed Power of P** without Mursha's knowledge — three-layer secret asymmetry (flicker + Oathbreaker + watch). **Mursha** — first real combat in new kit; Bloodlust confirmed (multiple kills); Power of P interrogation (hides method from Kenji; excuses/shame, not betrayal); STR 22 baseline; intel secured for Ch21 handoff. **Pack-train survivors** — witnesses to masked ronin + half-orc breaking siege; vaporize + wrong-movement tells add to identity pressure.
-- **Relationship:** Mursha **48** (unchanged — combat trust implicit, not scored separately).
-- **Intel / threat:** **Western cut intel** — handoff points, factor names, Bronzebarrow leak threads; actionable Ch21. **Cassia** coffer investigation ambient. **Pack-train witnesses** = new exposure vector (masked ronin + vaporize + Wind Step recon movement + dragon-scale half-orc). **Power of P** = live asymmetry. **Identity tells logged** to `ronin_identity_pressure`.
-- **Ends:** **Ashmere 35**, ~**22:30**. **Western cut** pack-train circle. **HP 368/368**. **Wind Step 3/5**; **Smoke-Invis-Clone 2/3**; **Iaido 0/1**. **Mursha** — STR **22**, Vigor ~Day 261, dragon-scale + masterwork weapons, intel in hand. **917 GP, 183 SP**. **EXP 2,270,050 / 2,500,000**.
-
----
-
-**Next beat (open — Ch21):** **Intel handoff** — who gets the western cut intelligence (factor names, leak threads)? **Mursha / Oathbreaker** talk still owed (*Where'd you get that?*). **Power of P** — does Kenji name what he saw? Three secrets now: flicker, sword, watch. **Cassia** correlation risk if return to Bronzebarrow. North relay arc continues per `arcs/north_relay_two_chapter_plan.md` § Ch21.

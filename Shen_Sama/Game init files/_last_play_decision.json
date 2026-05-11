@@ -1,14 +1,14 @@
 {
   "character_id": "shen sama",
   "state_file_stamp": "C:\\Users\\charl\\OneDrive\\Documents\\TTRPG\\Shen_Sama\\Game init files\\character_world_state.json",
-  "narrator_text": "The shorter shepherd makes a sound like a stepped-on cat and yanks his companion sideways into the bracken. Neither runs — they just press flat against the pine trunks, crooks clutched to their chests, watching Shen pass with wide white eyes. The taller one mouths something that might be a prayer.\n\nThe goat-track opens south into deeper pine, and the forest swallows the sound of their breathing behind him. Ignis's scent — volcanic mineral-water, faint sulfur, something warm underneath like hearthstone — pulls faintly southwest, deeper into the trees, not toward the road.",
+  "narrator_text": "The shepherds drop out of the picture in the first hundred yards. Then the goat-track. Then the last sympathy-bell from the third farmstead, fading to nothing as the deep pine swallows sound.\n\nThe scent stays half a degree off true south the whole night. Banked-coal warmth, fixed, patient. Shen walks under it like a needle under a north star. Crickets. A vixen barking at the moon. A chimney glow seven miles east where a watchpost burns its lantern through full dark. None of it pulls his head around.\n\nBy the second hour after midnight the pine starts climbing. By the fourth, granite. By dawn — the broken edge where the foothills surrender to the Dragonspine pass proper. Cold wind off the snowline.\n\nThen the air changes.\n\nPressure drop. A weight on the chest-glyph that has nothing to do with scent. Old wind. *Mountain* wind. Cold the way only one wind on this continent is cold.\n\nA shadow crosses the dawn light — too large for cloud, too low for sun.\n\nShe lands on the path twenty yards ahead. Fifty feet of black scale and folded wings. Green eyes that match his own.\n\n**\"Shen.\"**\n\nOne word. The path goes nowhere now.",
   "options": [
-    "Follow Ignis's scent southwest, away from the road entirely",
-    "Veer back toward the Highford road — faster route to Varenholm despite the risk",
-    "Stop and scent the air more carefully — check if the trail is fresh or old before committing"
+    "Lower the head, present the stolen scale, acknowledge the call.",
+    "Pivot and sprint downhill into the pass — gamble on her wing-radius being too tight for the steep cuts.",
+    "Set your feet and wait — whatever she does first, answer it second."
   ],
   "player_action": "",
-  "applied_at": "2026-05-03T11:41:18",
-  "turns_since_close": 3,
+  "applied_at": "2026-05-05T23:13:35",
+  "turns_since_close": 5,
   "close_prompted_at": -1000000000
 }

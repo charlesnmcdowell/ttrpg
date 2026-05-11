@@ -989,9 +989,9 @@ Three silver a day for a guard. I take the bench. The dog sniffs my boot. Decide
 
 Two days south. The road is good — packed earth, moderate traffic. Autumn farmland turning gold and copper. The first frost came and went. The puddles have thin ice at dawn.
 
-A boar in the road. Hour one. Big. Three hundred pounds. Diagnostic Touch reads it healthy from a hundred yards. It looks at the cart and decides we're not worth the trouble.
+A boar in the road. Hour one. Big. Three hundred pounds. The vitals come through clean from a hundred yards — heart steady, gait even, no fever-gloss on the eyes. It looks at the cart and decides we're not worth the trouble.
 
-A stone marker off the road. Hour two. Old. Covered in moss. Living Ground reads something underneath — a foundation. Ancient. Pre-civilizational. The kind of stone nobody builds with anymore. Filed.
+A stone marker off the road. Hour two. Old. Covered in moss. The ground answers when I press my attention into it — a foundation underneath, ancient, pre-civilizational, the kind of stone nobody builds with anymore. I keep walking. The marker stays in the back of my head where things stay until they matter.
 
 Wolves at the treeline. Hour five. Three of them calculating whether mules are worth the fight. They see the silhouette on the cart bench and leave. Whatever they read said *not worth it*.
 
@@ -1003,7 +1003,7 @@ The fire pops. I don't answer.
 
 Night camp behind a stone wall where traders have stopped for decades. Old fire rings. Watch rotation — I take first, Otten and the dog take second. Both watches clean. The road is quiet. The dog doesn't bark because there's nothing to bark at.
 
-Women on the road. Ten over two days. Every one of them looks too long when we pass. Every one of them blinks and goes back to their conversation and forgets the masked swordsman by dinner. One farmer's wife — nat 20 — doesn't look twice. The world's highest compliment: being unremarkable to someone who's seen enough.
+Women on the road. Ten over two days. Every one of them looks too long when we pass. Every one of them blinks and goes back to their conversation and forgets the masked swordsman by dinner. One farmer's wife doesn't look twice — the world's highest compliment, being unremarkable to someone who's seen enough.
 
 ---
 
@@ -1057,7 +1057,7 @@ My arm doesn't move.
 
 I don't push back. I hold her hand and look at her eyes. My thumb traces across her knuckles. I start talking. Casual. How long she's been a guard. What she knows about the area. Jobs that pay real money.
 
-She keeps pushing for about twenty seconds. Then she stops pushing, looks at our hands, looks at my face, raises an eyebrow, and lets her grip soften — contest grip to just a grip. Holding on.
+She keeps pushing for about twenty seconds. Then she stops pushing, looks at our hands, looks at my face, raises an eyebrow, and lets her grip soften — no longer a contest, just a hand in mine. Holding on.
 
 *"Oh,"* she says, half a smile. *"It's like that."*
 
@@ -1111,7 +1111,7 @@ She says it happy, not alarmed. Turns the wrist a third time. Laughs once.
 
 Morning. The bed is in four pieces. Three noise complaints. A note from the innkeeper. Room 4 asked if the room is available tomorrow night.
 
-I take her again. Longer. At three-quarters. After, she traces a hand down her own arm — the burn scar is smooth skin. The eyebrow is whole. The old ankle fracture. The shoulder. Eleven years of garrison wear gone. Her skin tightens. Two years of age easing backward.
+I take her again. Longer. Holding back this time, easier on her. After, she traces a hand down her own arm — the burn scar is smooth skin. The eyebrow is whole. The old ankle fracture. The shoulder. Eleven years of garrison wear gone. Her skin tightens. Two years of age easing backward.
 
 "All of them. All of them are gone."
 
@@ -1599,22 +1599,7 @@ I sleep.
 
 ---
 
-**Chapter Summary:**
-- Kenji Wind-Stepped from Millhaven to the iron key terminus (south-southwest, ~1hr)
-- Arrived at Sir Corwyn's camp. Returned the stolen iron chest. Death knight asked questions — Kenji never answered.
-- Met Elda — untracked NPC, elderly, searching for her son Halden (24, missing 3 days, was traveling south from Ashenmere to meet her at the crossroads). Perimeter redirection herded her to the camp.
-- Kenji grabbed Elda's hand and walked away from the death knight, the chest, and the seal mid-conversation.
-- Seal opened behind them. Key left in the ground.
-- 4 wights (death-binder's perimeter patrol) ambushed on the south road. Enemy ambush — all 4 destroyed. Showman's Sheathe quirk debut (nat 1 → pose → 4 counters → iaido draw-kill).
-- Wind-Stepped Elda to Thornkeep (piggyback, ~20 min).
-- Arrived midnight. Two rooms at the Waystation. Quiet night. Long rest.
-- EXP: +2,800 (4 wights CR 3). Total: 2,212,600 / 2,500,000.
-- Irresistible Presence: Elda Stack 1→6 over 2 hours of contact, faded to ~5 overnight.
-- Open threads: seal contents unexplored, key unrecovered, death knight aware, Elda's missing son Halden, Thornkeep garrison.
-
 End of Fraying Empire — Chapter Six: *The Southern Marker*
-
----
 
 ---
 
@@ -1841,24 +1826,7 @@ Elda hasn't moved all night.
 
 ---
 
-**Chapter Summary:**
-- Morning at Thornkeep Waystation. Kenji checked on Elda (IP Stack 5, re-exposure failed, held at 5).
-- Took Elda to Commander Renna Bracken at Thornkeep garrison. Reported missing son. Bracken offered Jostin's patrol — 14 soldiers, 30 miles, no spare bodies.
-- Wind-Stepped Elda south. Killed 2 wights (1 vaporized) + 2 skeleton warriors on south road. Showman's Sheathe on miss → iaido counter-kill. 7 damage taken.
-- Found Corporal Jostin on patrol. Briefed on Halden. Jostin confirmed undead escalation — formations, scouting patterns, reports going up chain with no response.
-- Activated Living Ground (Amaris) + Trade Warmth (Delia) through Soul Nexus.
-- Wind-Stepped into the 12-mile gap. Trade Warmth: road DEAD, no living traffic 3+ days.
-- Living Ground: faint signal 150ft east off-road. Found Halden — 24yo, hiding in lean-to 3 days after fleeing undead.
-- Mother-son reunion. Emergency camp. 12-hour guard (no encounters).
-- Blindfolded Elda to block IP visual trigger. Spooned her to sleep. 8-hour unguarded rest. Stack 8→7.
-- EXP: +2,300 (2 Wights CR 3, 2 Skeleton Warriors CR 2). Total: 2,214,900 / 2,500,000.
-- IP: Elda Stack 5→6→7→8→7 over the chapter. Blindfold mechanic discovered.
-- Halden: alive, dehydrated, hypothermic, fed and stabilized.
-- Open threads: escort Elda+Halden home, south road dead zone, seal contents unexplored, Thornkeep garrison understaffed, Pallid March building, Still Night in 19 days.
-
 End of Fraying Empire — Chapter Seven: *The Dead Road*
-
----
 
 ---
 
@@ -2272,21 +2240,7 @@ A pause.
 
 ---
 
-**Chapter Summary:**
-- Morning: Clone trick for Elda (100GP gift, IP bypass — clone has no biological aura). Escort handoff to Jostin's patrol.
-- Shadowed Jostin's patrol invisibly. Witnessed skeleton phalanx engagement (8 skeletons, shield wall, remote command, old battlefield stock). Patrol won in 4 minutes. Two walking wounded.
-- Spied on Bracken's classified briefing. Garrison at 35% (42/120). Three escalations in 2 weeks. Three letters dispatched: Katya (60 soldiers + mage), Vess (response timeline), Ashenmere garrison (cross-check). 4 months of ignored requests.
-- Appeared visible in Bracken's office. Sword at throat. Proposed duel: win = 3 days her assistance, lose = enlist under her command.
-- Refused. Arrested voluntarily. Came to cell 45 min later.
-- Unarmed JKD duel. Kenji dominated physically — jab, sweep, stripped armor, kick after yield.
-- Transitioned to intimate contest (5-finish race). Lover's Vigor transmitted after first round. Bracken won 5-3 on determination and Vigor-buffed stamina.
-- Creation energy healed all scars (jaw, ribs, shoulder). Cell destroyed (cracked wall, bent bars, broken stool, warped door).
-- Kenji owes: his name, undead intel, and service under Bracken's command.
-- Renna Bracken: 18th intimate partner. IP Stack 5+ (Obsessed). Lover's Vigor active (golden eyes, +50% all stats, 5 days).
-
 End of Fraying Empire — Chapter Eight: *The Cell*
-
----
 
 ---
 
@@ -2688,8 +2642,6 @@ End of Fraying Empire — Chapter Nine: *The Name*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Ten: *The South Road*
 
 ### Node 2 — Underground
@@ -2925,8 +2877,6 @@ Brynn shifted her shield. Closer than tactical. She hadn't corrected it.
 "What now?" Jostin asked. His pen was ready. "The road goes south. The network's dark. Either we're walking into nothing — or we're walking into whatever decided twenty-six wasn't enough."
 
 End of Fraying Empire — Chapter Ten: *The South Road*
-
----
 
 ---
 
@@ -3221,8 +3171,6 @@ End of Fraying Empire — Chapter Eleven: *The Voice from the Marsh*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Twelve: *The Formation*
 
 ### The Turn
@@ -3407,8 +3355,6 @@ End of Fraying Empire — Chapter Twelve: *The Formation*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Thirteen: *The Shield Wall*
 
 ### The Draw
@@ -3549,12 +3495,7 @@ End of Fraying Empire — Chapter Thirteen: *The Shield Wall*
 
 ---
 
----
-
 ## Fraying Empire — Chapter 14: *Oathbreaker*
-
-**Session span:** Ashmere 28 late afternoon through Ashmere 29 dawn (Day 250–251).  
-**Corridor:** South road / east verge — miles ~16.5–19.5, Pallid March mist.
 
 ---
 
@@ -3818,12 +3759,7 @@ End of Fraying Empire — Chapter 14: *Oathbreaker*
 
 ---
 
----
-
 ## Fraying Empire — Chapter 15: *Root and Steam*
-
-**Session span:** Ashmere 29 dawn through Ashmere 30 dawn (Day 251–252).  
-**Corridor:** East verge mile ~17 → south road crown (solo) → Pallid March **forward cordon** (root-crown amphitheater, circulation heart, guest chamber).
 
 ### Split after the copse
 
@@ -4067,12 +4003,7 @@ End of Fraying Empire — Chapter 15: *Root and Steam*
 
 ---
 
----
-
 ## Fraying Empire — Chapter 16: *Listening Roof Left Behind*
-
-**Session span:** Ashmere 30 (post–guest-chamber **long rest** through same evening) → **Ashmere 31** dawn (Day 252–253).  
-**Corridor:** March **guest chamber** (wake, same calendar day as Ch15 end) → **inner cordon** (burned circle, **Frost Fang** at hip, threshold work) → **negotiation** → **egress** → south road **northbound** → **Thornkeep** gates → **Thornkeep Waystation** hired room → **long rest**.
 
 ### Guest chamber — Ashmere 30, after the latch
 
@@ -4270,12 +4201,7 @@ End of Fraying Empire — Chapter 16: *Listening Roof Left Behind*
 
 ---
 
----
-
 ## Fraying Empire — Chapter 17: *Paper and Smoke*
-
-**Session span:** Ashmere 31 morning → Ashmere 34 dawn (Day 253–256). Opens immediately after Chapter 16's **Thornkeep Waystation** long rest.  
-**Corridor:** Thornkeep **markets / purveyors** → **garrison** second floor → **Bracken's office** (interrupted debrief) → **officer wing** → **captain's quarters**.
 
 **Canon note (commander naming):** **Commander Renna Bracken** holds the **Thornkeep** garrison desk in this book's spine (see `npc_appearance.md`, Book 4 Ch7). **Hadley** is **Millhaven** watch captain — different post, different room. Legacy "**Hale**" strings in older trackers should be read as **deprecated** unless the table explicitly restores them.
 
@@ -4399,14 +4325,6 @@ She looked at Kenji like she was deciding whether the next minute was debrief or
 
 ---
 
-### Aura note (DM)
-
-**Irresistible Presence** remains **passive DC 23** per sheet. **Brynn** carries **Lover's Vigor** immunity in play tracking — **IP** should not **spike** her mechanically mid-scene unless **viewing cadence** or **house rule** says otherwise; **emotion** can still spike (relief, anger, **betrayal**-shaped relief) without stacking her into procreative urge territory. Resolve any edge case against `character_tracker.md` + `dm_rules_tracking.md`.
-
-**Oathbreaker / grease:** Treat **contact** as possible **binding resonance** ping (Corwyn's leash, March listeners, holy noise) — **seconds** in-air still matter. Coalition **witnesses** now have **visual proof** of the stolen object **inside** Thornkeep command architecture (paper trail / honor politics).
-
----
-
 ### Runners
 
 Kenji's stare lingered where discipline said it should not — long enough to be a viewing window for Irresistible Presence (DC 23). Bracken made the WIS save as a commander reflex: d20 12 + 4 = 16 — fail. No active Lover's Vigor immunity on her this beat.
@@ -4511,12 +4429,7 @@ End of Fraying Empire — Chapter 17: *Paper and Smoke*
 
 ---
 
----
-
 ## Fraying Empire — Chapter 18: *Exhibit A*
-
-**Session span:** Ashmere 34 dawn → Ashmere 35 dawn (Day 256–257). Opens in **Commander Bracken's** captain quarters after Chapter 17's overnight long rest.  
-**Corridor:** Thornkeep **captain quarters** (ghost egress) → **crown road north** → **Bronzebarrow** gates → **The Brass Hitch** (common room) → **Iron Mule** factor yard → **Brass Hitch** luxury suite → dawn.
 
 ### Ghost egress
 
@@ -4808,24 +4721,11 @@ But that was the morning's problem, and the morning was still young, and the wom
 
 ---
 
-### Aura note (DM)
-
-**Irresistible Presence** remains **passive DC 23** per sheet. **Mursha** now carries **Lover's Vigor** immunity — **IP** should not **spike** her mechanically for the **~5-day** window (until **~Day 261 / Ashmere ~39**). After expiry, IP save pressure **resumes** at full stack if she is **viewing** him. **Bronze-gold eye ring** at pupil edge: **public tell** risk if anyone looks closely in good light; visible in lamplight, obvious in direct sun.
-
-**Clone flicker:** Mursha saw the **seam** at the Brass Hitch approach — she has filed the wrongness as *magic / twin / trick* without resolution. This is a **live thread**; she **knows** something is off but has not forced the question. If pressed or lied to about it, her **Neutral** compass says she **walks**.
-
-**Cassia Vorn / coffer:** Investigation thread **ACTIVE** as of Ashmere 35 morning. **Masked ronin** + **same-day Mursha release** = **correlation risk**. Empty coffer in **BoH** is evidence management, not disposal. Factor-house wires and yard gossip will move the timeline toward Kenji unless he is out of Bronzebarrow before the pattern hardens.
-
 End of Fraying Empire — Chapter 18: *Exhibit A*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Nineteen: *The Fitting*
-
-**Session span:** Ashmere 35, dawn → mid-afternoon (Day 257). Opens in the **Brass Hitch** luxury suite after Chapter 18's long rest.
-**Corridor:** Brass Hitch suite (dawn) → common room (breakfast) → desk (rumors) → **forge row** (Marthel) → **EDGE weapon stall** → street.
 
 ### Suite dawn
 
@@ -4977,26 +4877,11 @@ The fitting was done.
 
 ---
 
-### Aura note (DM)
-
-**Irresistible Presence** remains **passive DC 23**. **Mursha** carries **Lover's Vigor** immunity — **IP** should not spike mechanically for the **~5-day** window (until **~Day 261 / Ashmere ~39**). After expiry, IP saves resume at full stack if she is viewing him. **Bronze-gold eye ring** at pupil edge: **public tell** risk in direct light — visible in lamplight, obvious in afternoon sun per EDGE stall beat.
-
-**Clone flicker + Oathbreaker:** Two live threads now filed in Mursha's *things I have noticed* box. The flicker from Ch18 (clone swap fail) + the forge sword from Ch19 = compounding pattern. She has not forced either question. Her Neutral compass says she walks if lied to directly; indirect evasion buys time but not trust.
-
-**Cassia Vorn / coffer:** Investigation ongoing since morning reconciliation. Afternoon yard gossip may note Mursha in new scale armor + masked ronin companion — **pattern noise**, not auto-link to theft. Timeline correlation risk increases with every hour Kenji remains in Bronzebarrow.
-
-**Marthel:** Wary-professional. Sold junk dragon-scale for 10 GP, refused Oathbreaker reforge, suspicious of masked client carrying real steel in a Bag of Holding. Will not volunteer information but will answer if a factor or guard asks the right question.
-
 End of Fraying Empire — Chapter Nineteen: *The Fitting*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Twenty: *The Western Cut*
-
-**Session span:** Ashmere 35, late afternoon → late evening (Day 257). Opens at the **Brass Hitch** common room after Chapter 19's EDGE stall close.
-**Corridor:** Brass Hitch (evening revisit) → Bronzebarrow western turnout → western cut trail → box switchback (ridge bandits) → pack-train circle.
 
 ### The lead
 
@@ -5124,26 +5009,11 @@ Day 257. Ashmere 35. Late evening. Western cut.
 
 ---
 
-### Aura note (DM)
-
-**Irresistible Presence** remains **passive DC 23**. **Mursha** carries **Lover's Vigor** immunity — no IP spike until **~Day 261 / Ashmere ~39**. **Pack-train survivors** may include female humanoids who viewed the masked ronin (illusion double) — IP stacks are possible if viewing duration qualifies; assess at table if survivors recur.
-
-**Identity tells this chapter:** Wind Step ×2 (ridge recon — if any survivor was watching the ridgeline from the wagons, they saw movement that did not move correctly). Vaporize on knife bandit (a man was there, then he was not — memorable to any rim witness). Smoke-Clone-Invis combo (survivors saw one ronin, consistent with prior uses). These stack with the existing **ronin_identity_pressure** log in `kenji_state.json`.
-
-**Power of P — secret witness:** Kenji observed the full interrogation via Greater Invisibility. This is a **live asymmetry.** Per `character_tracker.md`: "Hides it from Kenji (excuses, shame — not betrayal); Kenji may still see via Stealth / invis / overwatch." He has now seen. If he names it: trust stress (she expected privacy; he violated it invisibly). If he stays silent: the secret compounds with the flicker and the Oathbreaker — three things she doesn't know he knows.
-
-**Cassia Vorn / coffer:** Investigation still active in Bronzebarrow. Distance from town buys time but does not erase the timeline correlation.
-
 End of Fraying Empire — Chapter Twenty: *The Western Cut*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Twenty-One: *The Brass Hitch Hours*
-
-**Session span:** Ashmere 36 predawn Forgeday (Day 258). Opens on the night road return from the western cut (Chapter 20 close) into Bronzebarrow and The Brass Hitch.
-**Corridor:** Western cut trail → Bronzebarrow gates → Brass Hitch common desk → standard room → luxury suite (Suite 2 pattern, bronze ley-steam tub) → rest, Mursha private beat.
 
 ### Night return
 
@@ -5181,12 +5051,7 @@ End of Fraying Empire — Chapter Twenty-One: *The Brass Hitch Hours*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Twenty-Two: *The Morning Ledger*
-
-**Session span:** Ashmere 36 Forgeday (Day 258), dawn → mid-morning. Opens Brass Hitch luxury suite (post–Ch21 predawn close); moves through common room, Haldra’s factor corner, private parlor; closes common floor with Mursha.
-**Corridor:** Suite wake / dress → downstairs meal + rumors (Calista) → deep-forge whisper (Mursha leads → Haldra) → paid private hour (parlor) → verbal intel → relay to Mursha.
 
 ### Dawn and the common room
 
@@ -5284,12 +5149,7 @@ End of Fraying Empire — Chapter Twenty-Two: *The Morning Ledger*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Twenty-Three: *The Road Chooses*
-
-**Session span:** Ashmere 36 Forgeday mid-morning → Ashmere 37 dawn through first relay leg (Day 258 → 259). Opens Brass Hitch / Bronzebarrow factor fringes; commits north courier vector toward Kharn-Dural surface gates; closes on crown road camp with mountain weather ahead.
-**Corridor:** Common floor fork (Mursha) → Haldra desk (paper merge + contract) → sealed tube beat (Hollowing seed) → yard skirt (Cassia noise) → predawn muster (Day 259) → factor train / first day north → cold ring camp.
 
 ### Fork before noon
 
@@ -5413,12 +5273,7 @@ End of Fraying Empire — Chapter Twenty-Three: *The Road Chooses*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Twenty-Four: *The Gate Line*
-
-**Session span:** Ashmere 37 night → Ashmere 38 evening (Day 259 → 260). Opens cold ring camp (Ch23 close); two full march days on the north crown relay; closes at Kharn-Dural outer checkpoint queue (surface gates visible / not yet passed).
-**Corridor:** Break camp → graded climb → gnome milepost friction (Mursha front) → second night ring → approach switchback → coalition + Kharn joint inspection (papers, pouch, sell-sword mask).
 
 ### Mursha’s morning
 
@@ -5524,12 +5379,7 @@ End of Fraying Empire — Chapter Twenty-Four: *The Gate Line*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Twenty-Five: *The Proof Line*
-
-**Session span:** Ashmere 38 night (Day 260). Opens off-checkpoint blind (player thread with coalition scribe Tamsin Vale); closes on return vector toward Kharn outer line / reintegration with Mursha cover.
-**Corridor:** Hidden berm → private beat (mature — coercion / IP context per table) → proof of reading → walk back.
 
 ### Proof
 
@@ -5571,12 +5421,7 @@ End of Fraying Empire — Chapter Twenty-Five: *The Proof Line*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Twenty-Six: *Her Watch*
-
-**Session span:** Ashmere 38 predawn → morning (Day 260 → 261). Opens Kharn-Dural inner gallery (coalition clip vector) after Kenji rejoins factor cover (clone dissolved / swap per table); Mursha carries the chapter.
-**Corridor:** Train park → Mursha perimeter → dwarf traffic noise → quiet beat (almost Oathbreaker) → yard tier assignment.
 
 ### Perimeter
 
@@ -5654,14 +5499,7 @@ End of Fraying Empire — Chapter Twenty-Six: *Her Watch*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Twenty-Seven: *Manifest Revision*
-
-**Session span:** Ashmere 39 morning → afternoon (Day 261). Kharn-Dural inner yard — two checkpoint beats (stamp wedge → Manifest Revision II) after Ch26 escort geometry; Mursha + Kenji factor cover.
-**Corridor:** Queue geometry → coin distraction → sleight beat (contested) → first stamp pass → second wedge (forge-sight palms) → cargo reconciliation lip.
-
-**Table — literacy this session:** Kenji reads dwarf script and coalition marginalia at Tier II slate (per table — Soul Nexus / scribe bond tools as played). Cover: do not show comprehension in witness space unless player declares it.
 
 ---
 
@@ -5741,14 +5579,7 @@ End of Fraying Empire — Chapter Twenty-Seven: *Manifest Revision*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Twenty-Eight: *Sky in the Mountain*
-
-**Session span:** Ashmere 39 afternoon → evening (Day 261). Kharn-Dural quarantine forge buffer — Kenji separated from Mursha (Wind Step breach after inner checkpoints); female forge mistress + male guards at curtain line; elder authority enters at close.
-**Corridor:** Quarantine approach → glow study (Investigation fail vs deep read) → ley tap (strained recovery) → creation nova → Oathbreaker in seam → Frost Fang second pin → STR to hilt → Arcane Being entropy → male approach warning (aura / entropy hazard) → conduit vent upward → partial stabilization → burp beat → ten-word demand (open).
-
-**Table sync:** Ch27 sleight / BoH (planted vs stole traveler bag) — reconcile `kenji_state.json` if canon diverged from prose file Ch27.
 
 ---
 
@@ -5954,15 +5785,7 @@ End of Fraying Empire — Chapter Twenty-Eight: *Sky in the Mountain*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Twenty-Nine: *Seam Witness*
-
-**Session span:** Ashmere 39 evening → night (Day 261). Kharn-Dural quarantine custody → elder bench examination under borrowed seam light. Mursha summoned to witness rail (bind protocol + null thread) — testimony beat open.
-
-**Corridor:** female watch (Procedure Seven pressure) → sleight / clone misdirect (fail) → dismiss decoy → goat poem + insult verse → Performance (nat 20 / +11 vs DC 21) — all male guards laugh uncontrollably, senior watch does not (table success definition) → Persuasion (29 vs DC 23) supervised breakfast / honey mead (clerical cap) → summons to Korrim Stoneunder bench → Perception gallery (nat 1 vs DC 16) → proceedings / seam light yes-no on intent → Mursha motion carries → cliff at her first answer.
-
-**Table sync:** IP — all female humanoids in LOS per `kenji_tracking_OBSOLETE.md` (DC 23, −1 / 15 min viewing); shield line treated as male (batch if retconned). Ch27 BoH / satchel vs seam blades — reconcile at table when loadout locked.
 
 ---
 
@@ -6128,13 +5951,7 @@ End of Fraying Empire — Chapter Twenty-Nine: *Seam Witness*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Thirty: *Trapped With Me*
-
-**Session span:** Ashmere 39 night → late night (Day 261, +~3h chamber wait). Kharn seam-witness bench — examination becomes standoff becomes identity catastrophe on the slate → wedge draft read-back queued.
-
-**Corridor:** Mursha at rail (null thread → partial release → Kenji breaks remaining restraints by force) → Intimidation (ADV, +11, Sovereign Voice layer) 28 vs DC 25 PASS → throat thread removed → creation mode hover (cover burn) → recall claim (Frost Fang / entropy “god”) → seam team dispatched → Mursha engineering (closure sequence, anchor order, staged pull) → written liability refused (undead court analogy) → contempt / menace stack → collar ordered → “touch = war” → non-contact containment plan (glass / wards) → Champion / Archmagus declared on record → Rorschach beat (trapped with me) → coalition relay flagged → witness hot meal (bacon / eggs / mead cap) → ~3h chamber endurance (pushups / handstand pushups / squats; shields rotate; scribe logs non-violent exercise / witness comfort) → IP cadence continues for female watch still in LOS → wedge draft ready → Kenji (“glorious bang” hyperbole retracted as jest) → delegates comprehension to Mursha (“chill until boring” / exit language noted non-binding) → Korrim orders witnessed read-back before any pull (two-phase, measured) → cliff at first spoken wedge line.
 
 ---
 
@@ -6284,15 +6101,7 @@ End of Fraying Empire — Chapter Thirty: *Trapped With Me*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Thirty-One: *Two Weeks and a Green Door*
-
-**Session span:** Ashmere 39 late night → Ashmere 40 predawn (Day 261 → 262). Kharn-Dural seam-witness / wedge approach → bench bundle → equipment receipt → decoy / invisible egress → portal jump off cordon.
-
-**Corridor:** Wedge work / hour for Mursha (Kenji addresses her, not court recognition; Korrim witnesses) → silent hour / findings summary → Solveth (god-voice, public audible at blade proximity) — nickname poke, dating / war jest, Mursha proxy (remove / channel) with bench logging → timeline honesty (~2–6 days best, up to ~2 weeks bad) → Kenji two-week patience / yank language (mitigated by non-coercion of witness) → ultimatum (equipment / Mursha parity, Kahryn named, “10 vs 6”) + green portal (canceled under wards) → apology / peace language to Mursha → Korrim ruling bundle (witness-engineer status, returns within hour where safe) → inventory verification (nodachi + BoH link check, no dump) → Performance (tap-dance clone) 23 vs DC 16 PASS → Stealth ADV (G. Invis) 18 vs DC 16 (gate DC 18 −2 distraction) PASS → Wind Step distance → ~3 mi portal to remote relay-off path → Kharn relay: decoy class / invisible breach logged.
-
-**Table sync:** Performance then Stealth (ADV invis + distraction as −2 DC or observer disad per DM). IP cadence if female watch in LOS. Oathbreaker + Frost Fang remain seam-wedged (Ch28) — not inside BoH.
 
 ---
 
@@ -6426,15 +6235,7 @@ End of Fraying Empire — Chapter Thirty-One: *Two Weeks and a Green Door*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Thirty-Two: *Waystation Recovery*
-
-**Session span:** Ashmere 40 predawn → morning (Day 262). Crown relay — Milepost Crown Rest (nearest inn to portal egress vector).
-
-**Corridor:** Ch31 cliff (remote off path) → road to waystation → luxury suite purchase (~40 GP 10 SP) → ley-steam bath → fine dining to room → long rest (slots / HP full; Wind Step 5/5; Smoke-Invis-Clone 3/3; Iaido 1/1) → wake ~07:30 — yard noise, bread, relay bells.
-
-**Table sync:** Economy per `dm_rules_tracking.md` (luxury ≈ Brass Hitch-scale suite + meal band). Rumor: masked spender on hot week — DM optional Perception / gossip clocks.
 
 ---
 
@@ -6516,13 +6317,7 @@ End of Fraying Empire — Chapter Thirty-Two: *Waystation Recovery*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Thirty-Three: *Anku Nyx*
-
-**Session span:** Ashmere **40** **mid-morning** **→** **late** **morning** (**Day** **262**). **Pallid March** — **Nyx's dead village square**. Portal from Crown Rest to undead territory relay point → walk to Nyx's domain → audience → JKD combat spar (2 rounds) → alliance proposal → conditions accepted → title claimed.
-
-**Table sync:** **Performance** checks per **JKD stance rules** (character_tracker.md). **IP cadence** on Nyx per `kenji_tracking_OBSOLETE.md` — 6 saves across ~75 min viewing (4 PASS, 2 FAIL — Stack 2 Moderate Attraction at chapter close). **Close to Death** confirmed intercourse-only vector — all combat contact safe. Nyx HP set at **720** (Level 32 Living Lich, ley-sustained). Kenji unarmed 4d8 per strike + Spirit Aura 15% max HP. Corwyn as referee.
 
 ---
 
@@ -6752,11 +6547,7 @@ End of Fraying Empire — Chapter Thirty-Three: *Anku Nyx*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Thirty-Four: *Seven Days*
-
-**Session span:** Ashmere **40** **late** **morning** **→** **Ashmere** **47** **dawn** (**Day** **262** **→** **269**). **Pallid** **March** — **Nyx's** **castle** **/** **inner** **chambers**. **Close** **to** **Death** **survival** **/** **Vigor** **1–7** **stacking** **/** **Soul** **Conqueror** **unlock** **/** **Anku** **Nyx** **emergence**.
 
 ### I. The Door
 
@@ -7150,11 +6941,7 @@ End of Fraying Empire — Chapter Thirty-Four: *Seven Days*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Thirty-Five: *What We Are*
-
-**Session span:** Ashmere **47** **dawn** **→** **mid-morning** (**Day** **269**). **Nyx's** **castle** — **inner** **chamber** **/** **great** **hall** **/** **perimeter**. **Post-Vigor** **morning** — **Corwyn** **restoration** **/** **Close** **to** **Death** **origin** **/** **Vigor** **self-renewal** **revealed**.
 
 ### I. Still Here
 
@@ -7542,11 +7329,7 @@ End of Fraying Empire — Chapter Thirty-Five: *What We Are*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Thirty-Six: *The Heist of Varkul*
-
-**Session span:** Ashmere **47** **mid-morning** (**Day 269**). **Pallid March** — quarter-mile clearing south of Nyx's castle → **Ashfield Barrens** (transit) → **Varkul** ridge approach → **Varkul main gate** → **blood circle** → **chief's hall**. Arcane Sprint L6, Performance infiltration, Close to Death deployment, Dominion-over-death rebound, Enthrallment.
 
 ### I. The Sprint
 
@@ -8004,13 +7787,7 @@ End of Fraying Empire — Chapter Thirty-Six: *The Heist of Varkul*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Thirty-Seven: *The Slow Exit*
-
-**Session span:** Ashmere 47–58 (Days 269–280). Varkul iron hall (slave cover, official departure as “chief’s errand”) → Iron Horde road south → Pallid March (Nyx’s grove, court attendants, Mursha update via Solveth) → preparation for Dragonspine vector. Soul Nexus bond #22.
-
-**Corridor:** Iron hall morning → Magra audit beat → puppet command (errand mandate) → Varkul gates / outbound → Iron Horde border → cross-country sprint → Pallid March arrival → Lirael at the threshold → Solveth report (Mursha status) → dragon planning → Drazhara intelligence → bond #22 → departure window.
 
 ---
 
@@ -8190,13 +7967,7 @@ End of Fraying Empire — Chapter Thirty-Seven: *The Slow Exit*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Thirty-Eight: *Northbound*
-
-**Session span:** Ashmere 58–65 (Days 280–285). Pallid March border (departure) → trade road east → Ashenmere Crossing (logistics hub, Brass Kettle inn) → Trade road north (mountain approach) → Thornridge / Ridgecrest Inn (overnight). Soul Nexus bond #23.
-
-**Corridor:** Pallid March departure → Ashenmere Crossing arrival → Brass Kettle proprietor (Ysolde, bond #23) → mountain road → altitude → Ridgecrest Inn → Nyx’s dragon briefing → sleep before the morning of Ch 39.
 
 ---
 
@@ -8330,11 +8101,7 @@ End of Fraying Empire — Chapter Thirty-Eight: *Northbound*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Thirty-Nine: *The Fire-Man*
-
-**Session span:** Ashmere **63–65** (**Days 285–287**). **Thornridge** (Ridgecrest Inn) → **Drazhara's Trading Post** (lower Dragonspine switchback road) → **Granite Shelf** (eastern lower range, Dragonspine). Diplomacy, knowledge transfer, Soul Nexus bond #24.
 
 ### I. The Prophet
 
@@ -8662,19 +8429,6 @@ She opened one eye.
 
 "I'm going to need more duck," she murmured. "And a name for the stringed thing."
 
-**Session state:**
-- **Day 287**, Ashmere 65, midnight — granite shelf, eastern lower Dragonspine
-- **Soul Nexus:** Ignis Bond #24. **Dragon God** — Kenji can transform into Elder Black Dragon 1/day (black scales, purple lightning, green eyes, ~40ft). Requires Ignis bond active. Ignis can revoke.
-- **Dragon tattoo COMPLETE:** Black dragon wrapping torso/back/arms. Warm. Alive. Breathes with Kenji.
-- **Ignis gains:** Portal creation, teleportation to Kenji, long-distance communication, Vigor buff (extreme pleasure scaling per stack — dragon mate-bond reinforcement), exit clause.
-- **Bonded Lovers:** 23 → 24. **+24 STR / +24 CON.**
-- **Ignis IP stack:** ~6-7. **Vigor stack:** 4.
-- **Drazhara:** Waiting at boulder formation. IP stack ~1. Deed accepted. Merger plan understood.
-- **Skratch:** En route to Thornridge to coordinate meet-up.
-- **Nyx:** At boulder formation with Drazhara.
-- **Pending:** Drazhara-Ignis merger ritual. Drazhara Vigor bond. Reckoning strategy.
-- **Purse:** ~1175 GP / 181 SP. **HP:** 6,288/6,288. All charges at LR.
-
 ---
 
 End of Fraying Empire — Chapter Thirty-Nine: *The Fire-Man*
@@ -8682,8 +8436,6 @@ End of Fraying Empire — Chapter Thirty-Nine: *The Fire-Man*
 ---
 
 ## Fraying Empire — Chapter Forty: *The Table*
-
-**Session span:** Ashmere **66–68** (**Days 288–290**). **Pallid March** (Nyx's domain, fusion ritual) → **Dragonspine lower peaks** (Drazhara's first dragon swap) → **Ashenmere Crossing** (adventurer's guild, shopping, Brass Kettle inn) → **Trade road north** (luxury travel) → **Kharn-Dural** (summit). Fusion deployment, Gorath puppet death, continental summit.
 
 ### I. The Sorcerer
 
@@ -9199,11 +8951,7 @@ End of Fraying Empire — Chapter Forty: *The Table*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Forty-One: *The Kingdom*
-
-**Session span:** Ashmere **68** (**Day 290**). **Kharn-Dural** — parley ground → summit clearing → Underhall Express. Kingdom declaration, Reckoning confrontation, conditional accord, departure to the seam.
 
 ### I. Explain
 
@@ -9589,11 +9337,7 @@ End of Fraying Empire — Chapter Forty-One: *The Kingdom*
 
 ---
 
----
-
 ## Fraying Empire — Chapter Forty-Two: *The Weld*
-
-**Session span:** Ashmere **68–69** (**Days 290–291**). **Kharn-Dural Underhall Express** → **Ashfeld Reach** (seam site) → **Dragonspine peaks** (granite shelf). Vigor distribution, seam assessment, goat poem logic bomb, forge weld, Vorathiel.
 
 ### I. The Underhall
 

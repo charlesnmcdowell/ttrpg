@@ -1,11 +1,6 @@
 # Book 4 — Fraying Empire
 ## Chapter 22: The Morning Ledger
 
-**Session span:** Ashmere **36** **Forgeday** (**Day** **258**), **dawn → mid-morning**. Opens **Brass Hitch** **luxury** **suite** **(**post–Ch21** **predawn** **close**)**; moves through **common** **room**, **Haldra’s** **factor** **corner**, **private** **parlor**; closes **common** **floor** **with** **Mursha**.
-**Corridor:** Suite **wake** **/** **dress** → **downstairs** **meal** **+** **rumors** **(**Calista**)** → **deep-forge** **whisper** **(**Mursha** **leads** **→** **Haldra**)** → **paid** **private** **hour** **(**parlor**)** → **verbal** **intel** **→** **relay** **to** **Mursha**.
-
-**Kenji dialogue note:** All Kenji spoken lines in this chapter are **player-declared** at the table. Default rule remains no AI-generated Kenji dialogue.
-
 ---
 
 ### Dawn and the common room

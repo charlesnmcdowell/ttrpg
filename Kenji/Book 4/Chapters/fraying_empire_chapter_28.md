@@ -1,13 +1,6 @@
 # Book 4 — Fraying Empire
 ## Chapter 28: Sky in the Mountain
 
-**Session span:** Ashmere **39** **afternoon → evening** (**Day** **261**). **Kharn-Dural** **quarantine** **forge** **buffer** — **Kenji** **separated** **from** **Mursha** **(**Wind** **Step** **breach** **after** **inner** **checkpoints**)**; **female** **forge** **mistress** **+** **male** **guards** **at** **curtain** **line**; **elder** **authority** **enters** **at** **close**.
-**Corridor:** **Quarantine** **approach** **→** **glow** **study** **(**Investigation** **fail** **vs** **deep** **read**)** **→** **ley** **tap** **(**strained** **recovery**)** **→** **creation** **nova** **→** **Oathbreaker** **in** **seam** **→** **Frost** **Fang** **second** **pin** **→** **STR** **to** **hilt** **→** **Arcane** **Being** **entropy** **→** **male** **approach** **warning** **(**aura** **/** **entropy** **hazard**)** **→** **conduit** **vent** **upward** **→** **partial** **stabilization** **→** **burp** **beat** **→** **ten-word** **demand** **(**open**)**.
-
-**Kenji dialogue note:** Spoken lines in this chapter are **player-declared** (**“spicy** **meatball,”** **male** **approach** **warning,** **etc.**).
-
-**Table sync:** **Ch27** **sleight** **/** **BoH** **(**planted** **vs** **stole** **traveler** **bag**)** — **reconcile** **`kenji_state.json`** **if** **canon** **diverged** **from** **prose** **file** **Ch27**.
-
 ---
 
 ### Summary prose

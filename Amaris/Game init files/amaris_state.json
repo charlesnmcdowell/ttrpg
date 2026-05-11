@@ -170,7 +170,7 @@
   "_chapter_history": [],
   "_world_cross_references": {
     "_rule": "Auto-built by _cross_character_sync.py — this is what's currently happening with the OTHER PCs in the world. The loaded character may encounter them as NPCs, hear about them in tavern gossip, or be affected by their actions. Synced at the timestamp below; re-run sync after any chapter close in any campaign to refresh. The dashboard Narrative tab reads this block directly; sync NEVER modifies _narrative_summary so hand-written content is always safe.",
-    "synced_at": "2026-05-03T09:03:39",
+    "synced_at": "2026-05-08T22:44:55",
     "other_characters": {
       "Cookie": {
         "name": "Cookie",

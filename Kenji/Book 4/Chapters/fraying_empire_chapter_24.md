@@ -1,11 +1,6 @@
 # Book 4 — Fraying Empire
 ## Chapter 24: The Gate Line
 
-**Session span:** Ashmere **37** **night** **→** **Ashmere** **38** **evening** (**Day** **259 →** **260**). Opens **cold** **ring** **camp** **(**Ch23** **close**)**; **two** **full** **march** **days** **on** **the** **north** **crown** **relay**; **closes** **at** **Kharn-Dural** **outer** **checkpoint** **queue** **(**surface** **gates** **visible** **/** **not** **yet** **passed**)**.
-**Corridor:** **Break** **camp** **→** **graded** **climb** **→** **gnome** **milepost** **friction** **(**Mursha** **front**)** → **second** **night** **ring** **→** **approach** **switchback** **→** **coalition** **+** **Kharn** **joint** **inspection** **(**papers,** **pouch,** **sell-sword** **mask**)**.
-
-**Kenji dialogue note:** All Kenji spoken lines in this chapter are **player-declared** at the table. Default rule remains no AI-generated Kenji dialogue.
-
 ---
 
 ### Mursha’s morning

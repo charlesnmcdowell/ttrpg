@@ -1,10 +1,6 @@
 # Book 4 — Fraying Empire
 ## Chapter 39: The Fire-Man
 
-**Session span:** Ashmere **63–65** (**Days 285–287**). **Thornridge** (Ridgecrest Inn) → **Drazhara's Trading Post** (lower Dragonspine switchback road) → **Granite Shelf** (eastern lower range, Dragonspine). Diplomacy, knowledge transfer, Soul Nexus bond #24.
-
-**Kenji dialogue note:** Only player-declared lines are quoted. All Kenji dialogue in this chapter is verbatim from the player. NPC dialogue written to match established voice and campaign lore.
-
 ---
 
 ### I. The Prophet
@@ -336,16 +332,3 @@ She opened one eye.
 ---
 
 **End of Chapter 39.**
-
-**Session state:**
-- **Day 287**, Ashmere 65, midnight — granite shelf, eastern lower Dragonspine
-- **Soul Nexus:** Ignis Bond #24. **Dragon God** — Kenji can transform into Elder Black Dragon 1/day (black scales, purple lightning, green eyes, ~40ft). Requires Ignis bond active. Ignis can revoke.
-- **Dragon tattoo COMPLETE:** Black dragon wrapping torso/back/arms. Warm. Alive. Breathes with Kenji.
-- **Ignis gains:** Portal creation, teleportation to Kenji, long-distance communication, Vigor buff (extreme pleasure scaling per stack — dragon mate-bond reinforcement), exit clause.
-- **Bonded Lovers:** 23 → 24. **+24 STR / +24 CON.**
-- **Ignis IP stack:** ~6-7. **Vigor stack:** 4.
-- **Drazhara:** Waiting at boulder formation. IP stack ~1. Deed accepted. Merger plan understood.
-- **Skratch:** En route to Thornridge to coordinate meet-up.
-- **Nyx:** At boulder formation with Drazhara.
-- **Pending:** Drazhara-Ignis merger ritual. Drazhara Vigor bond. Reckoning strategy.
-- **Purse:** ~1175 GP / 181 SP. **HP:** 6,288/6,288. All charges at LR.

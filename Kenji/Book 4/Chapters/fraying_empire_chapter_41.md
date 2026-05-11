@@ -1,10 +1,6 @@
 # Book 4 — Fraying Empire
 ## Chapter 41: The Kingdom
 
-**Session span:** Ashmere **68** (**Day 290**). **Kharn-Dural** — parley ground → summit clearing → Underhall Express. Kingdom declaration, Reckoning confrontation, conditional accord, departure to the seam.
-
-**Kenji dialogue note:** Only player-declared lines are quoted. All Kenji/Ankunyx dialogue in this chapter is verbatim from the player. NPC dialogue written to match established voice and campaign lore.
-
 ---
 
 ### I. Explain

@@ -1,10 +1,6 @@
 # Book 4 — Fraying Empire
 ## Chapter 42: The Weld
 
-**Session span:** Ashmere **68–69** (**Days 290–291**). **Kharn-Dural Underhall Express** → **Ashfeld Reach** (seam site) → **Dragonspine peaks** (granite shelf). Vigor distribution, seam assessment, goat poem logic bomb, forge weld, Vorathiel.
-
-**Kenji dialogue note:** Only player-declared lines are quoted. All Ankunyx dialogue in this chapter is verbatim from the player. NPC dialogue written to match established voice and campaign lore.
-
 ---
 
 ### I. The Underhall

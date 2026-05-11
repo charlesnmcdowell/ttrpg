@@ -1,12 +1,6 @@
 # Book 4 — Fraying Empire
 ## Chapter 33: Anku Nyx
 
-**Session span:** Ashmere **40** **mid-morning** **→** **late** **morning** (**Day** **262**). **Pallid March** — **Nyx's dead village square**. Portal from Crown Rest to undead territory relay point → walk to Nyx's domain → audience → JKD combat spar (2 rounds) → alliance proposal → conditions accepted → title claimed.
-
-**Kenji dialogue note:** Spoken lines **player-declared** (diagnostic readout, kingdom question, partnership proposal, "Anku Nyx" title declaration, "we do not die").
-
-**Table sync:** **Performance** checks per **JKD stance rules** (character_tracker.md). **IP cadence** on Nyx per `kenji_tracking_OBSOLETE.md` — 6 saves across ~75 min viewing (4 PASS, 2 FAIL — Stack 2 Moderate Attraction at chapter close). **Close to Death** confirmed intercourse-only vector — all combat contact safe. Nyx HP set at **720** (Level 32 Living Lich, ley-sustained). Kenji unarmed 4d8 per strike + Spirit Aura 15% max HP. Corwyn as referee.
-
 ---
 
 ### I. The Dead Village

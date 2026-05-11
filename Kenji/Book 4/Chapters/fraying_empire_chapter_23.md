@@ -1,11 +1,6 @@
 # Book 4 — Fraying Empire
 ## Chapter 23: The Road Chooses
 
-**Session span:** Ashmere **36** **Forgeday** **mid-morning →** **Ashmere** **37** **dawn** **through** **first** **relay** **leg** (**Day** **258 →** **259**). Opens **Brass** **Hitch** **/** **Bronzebarrow** **factor** **fringes**; **commits** **north** **courier** **vector** **toward** **Kharn-Dural** **surface** **gates**; **closes** **on** **crown** **road** **camp** **with** **mountain** **weather** **ahead**.
-**Corridor:** **Common** **floor** **fork** **(**Mursha**)** → **Haldra** **desk** **(**paper** **merge** **+** **contract**)** → **sealed** **tube** **beat** **(**Hollowing** **seed**)** → **yard** **skirt** **(**Cassia** **noise**)** → **predawn** **must** **(**Day** **259**)** → **factor** **train** **/** **first** **day** **north** → **cold** **ring** **camp**.
-
-**Kenji dialogue note:** All Kenji spoken lines in this chapter are **player-declared** at the table. Default rule remains no AI-generated Kenji dialogue.
-
 ---
 
 ### Fork before noon

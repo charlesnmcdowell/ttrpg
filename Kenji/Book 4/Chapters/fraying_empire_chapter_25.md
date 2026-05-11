@@ -1,11 +1,6 @@
 # Book 4 — Fraying Empire
 ## Chapter 25: The Proof Line
 
-**Session span:** Ashmere **38** **night** (**Day** **260**). Opens **off-checkpoint** **blind** **(**player** **thread** **with** **coalition** **scribe** **Tamsin** **Vale**)**; **closes** **on** **return** **vector** **toward** **Kharn** **outer** **line** **/** **reintegration** **with** **Mursha** **cover**.
-**Corridor:** **Hidden** **berm** **→** **private** **beat** **(**mature** **—** **coercion** **/** **IP** **context** **per** **table**)** → **proof** **of** **reading** **→** **walk** **back**.
-
-**Kenji dialogue note:** **Proof** **line** **and** **Ms.** **Vale** **closing** **offer** **below** are **player-declared** at the table.
-
 ---
 
 ### Proof

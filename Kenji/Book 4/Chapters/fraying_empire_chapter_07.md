@@ -226,18 +226,3 @@ Halden is sleeping. Color back. Breathing steady.
 Elda hasn't moved all night.
 
 ---
-
-**Chapter Summary:**
-- Morning at Thornkeep Waystation. Kenji checked on Elda (IP Stack 5, re-exposure failed, held at 5).
-- Took Elda to Commander Renna Bracken at Thornkeep garrison. Reported missing son. Bracken offered Jostin's patrol — 14 soldiers, 30 miles, no spare bodies.
-- Wind-Stepped Elda south. Killed 2 wights (1 vaporized) + 2 skeleton warriors on south road. Showman's Sheathe on miss → iaido counter-kill. 7 damage taken.
-- Found Corporal Jostin on patrol. Briefed on Halden. Jostin confirmed undead escalation — formations, scouting patterns, reports going up chain with no response.
-- Activated Living Ground (Amaris) + Trade Warmth (Delia) through Soul Nexus.
-- Wind-Stepped into the 12-mile gap. Trade Warmth: road DEAD, no living traffic 3+ days.
-- Living Ground: faint signal 150ft east off-road. Found Halden — 24yo, hiding in lean-to 3 days after fleeing undead.
-- Mother-son reunion. Emergency camp. 12-hour guard (no encounters).
-- Blindfolded Elda to block IP visual trigger. Spooned her to sleep. 8-hour unguarded rest. Stack 8→7.
-- EXP: +2,300 (2 Wights CR 3, 2 Skeleton Warriors CR 2). Total: 2,214,900 / 2,500,000.
-- IP: Elda Stack 5→6→7→8→7 over the chapter. Blindfold mechanic discovered.
-- Halden: alive, dehydrated, hypothermic, fed and stabilized.
-- Open threads: escort Elda+Halden home, south road dead zone, seal contents unexplored, Thornkeep garrison understaffed, Pallid March building, Still Night in 19 days.

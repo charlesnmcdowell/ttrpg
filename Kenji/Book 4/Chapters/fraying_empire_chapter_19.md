@@ -1,11 +1,6 @@
 # Book 4 — Fraying Empire
 ## Chapter 19: The Fitting
 
-**Session span:** Ashmere 35, dawn → mid-afternoon (Day 257). Opens in the **Brass Hitch** luxury suite after Chapter 18's long rest.
-**Corridor:** Brass Hitch suite (dawn) → common room (breakfast) → desk (rumors) → **forge row** (Marthel) → **EDGE weapon stall** → street.
-
-**Kenji dialogue note:** All Kenji spoken lines in this chapter are **player-declared** at the table. Default rule remains no AI-generated Kenji dialogue.
-
 ---
 
 ### Suite dawn
@@ -157,30 +152,3 @@ Ashmere 35. Day 257. Mid-afternoon. Bronzebarrow.
 The fitting was done.
 
 ---
-
-### Aura note (DM)
-
-**Irresistible Presence** remains **passive DC 23**. **Mursha** carries **Lover's Vigor** immunity — **IP** should not spike mechanically for the **~5-day** window (until **~Day 261 / Ashmere ~39**). After expiry, IP saves resume at full stack if she is viewing him. **Bronze-gold eye ring** at pupil edge: **public tell** risk in direct light — visible in lamplight, obvious in afternoon sun per EDGE stall beat.
-
-**Clone flicker + Oathbreaker:** Two live threads now filed in Mursha's *things I have noticed* box. The flicker from Ch18 (clone swap fail) + the forge sword from Ch19 = compounding pattern. She has not forced either question. Her Neutral compass says she walks if lied to directly; indirect evasion buys time but not trust.
-
-**Cassia Vorn / coffer:** Investigation ongoing since morning reconciliation. Afternoon yard gossip may note Mursha in new scale armor + masked ronin companion — **pattern noise**, not auto-link to theft. Timeline correlation risk increases with every hour Kenji remains in Bronzebarrow.
-
-**Marthel:** Wary-professional. Sold junk dragon-scale for 10 GP, refused Oathbreaker reforge, suspicious of masked client carrying real steel in a Bag of Holding. Will not volunteer information but will answer if a factor or guard asks the right question.
-
----
-
-**Chapter 19 Summary:**
-
-- **Gameplay:** **Suite dawn** — Mursha wakes, dresses (binding-wrap → plate → straps, professional rhythm); bronze-gold eye ring in mirror light; children topic **parked**. **Breakfast** — Calista tray; **cloak** mirror beat; **400 GP** on table (**freedom, not leash** — armor + weapon + retire framing); Mursha accepts as **honest gear money**; armor first then rack. **Brass Hitch rumors** — Calista / desk leads, nothing actionable. **Marthel forge** — **Luck (CHA) d20=14+5=19 vs DC 15 PASS** (ember rule → junk-peg dragon-scale spotted); **Steel Sight** confirms **dragon-scale laminate** (medium, tier-grade); **10 GP** junk buyout (**Persuasion d20=11+11=22 vs DC 16 PASS**); clean + fit Mursha; bard-tale compliment; fake-proposal knee → **Oathbreaker** shown; reshape for Mursha → **Persuasion d20=2+11=13 vs DC 18 FAIL** (Marthel refuses); **BoH** stow; ring joke deflect; **Mursha: "Where'd you get that?"** — open thread. **EDGE weapon stall** — Mursha tests blades; **125 GP** — **masterwork longsword +3 / 3d12** + **masterwork warhammer 4d8 / armor break / versatile** (**`dm_rules_tracking.md`**); **Kenji pays** (his coin, not her gift).
-- **Combat:** None this chapter.
-- **EXP:** 2,270,050 (unchanged). 229,950 to **Apotheosis**.
-- **Resources:** **−400 GP** gift to Mursha. **−10 GP** dragon-scale armor. **−125 GP** EDGE weapons. Net purse: **~917 GP, 188 SP**. All charges full (post-LR). **Luxury provender** in BoH (~29 days). **Empty iron coffer** in BoH.
-- **Character:** **Kenji** — 400 GP as freedom not leash (earnest, not transactional); dragon-scale eye for value (Luck + Steel Sight); Oathbreaker reveal (impulse → refusal → deflection); pays for her weapons without touching her gift money. **Mursha** — contract-mind trust; two open threads filed (clone flicker + Oathbreaker); professional weapon selection; Vigor-enhanced; children topic deferred not dropped. **Marthel** — wary-professional; sold junk dragon-scale; refused Oathbreaker reforge; suspicious masked client logged. **Cassia Vorn** — investigation ongoing (off-screen); afternoon yard correlation risk ambient.
-- **Relationship:** Mursha **48** (+5 breakfast, +3 forge day, +2 EDGE stall). Tier: **intimate**.
-- **Intel / threat:** **Cassia** coffer investigation **ACTIVE** (Ashmere 35 morning → afternoon); **masked ronin** + **Mursha same-day new gear** = **correlation noise** in yard. **Clone flicker** + **Oathbreaker** = two unresolved threads with Mursha. **Marthel** = potential information source if questioned by authorities. **Bronze-gold eye ring** = public Vigor tell risk.
-- **Ends:** **Ashmere 35**, ~**15:30**. **Kenji** in **Bronzebarrow relay yard**, post-EDGE stall. **HP 368/368**. **Mursha** geared (**dragon-scale** armor, **masterwork** weapons per **`dm_rules_tracking.md`**; **Vigor** ~**Day 261**). **917 GP, 188 SP**. **EXP** **2,270,050 / 2,500,000**.
-
----
-
-**Next beat (open — Ch20):** **Mursha / Oathbreaker** conversation (the *Where'd you get that?* thread demands air); **Cassia / Mule** correlation risk tightening; **exit vector** — west / courier north / south per `arcs/north_relay_two_chapter_plan.md`; optional shelf hooks: **sealed tube**, **Gwynn** hostler, **Haldra** factor clerk, **dock** blessing. **Children** topic still owed in sober air. North relay arc continues.

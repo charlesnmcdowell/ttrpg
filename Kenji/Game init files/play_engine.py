@@ -92,6 +92,148 @@ class PlayState:
 
 
 # ---------------------------------------------------------------------------
+# NPC appearance loader (shared cross-campaign canon)
+# ---------------------------------------------------------------------------
+#
+# The single source of truth for NPC physical canon is
+# `Kenji/Game init files/npc_appearance.md`. Every campaign in the realm
+# (Amaris, Cookie, Holly, Shen Sama, Kenji) reads from this same file —
+# the universe is shared and we don't duplicate NPC info per campaign.
+#
+# play_engine.py lives in that same folder, so the file is a sibling.
+# Every turn we scan the state JSON for any NPC name whose appearance
+# entry exists in the file, and inject the matched entries into the
+# prompt right after CURRENT GAME STATE. The DM agent then has authoritative
+# physical canon (color, eyes, build, voice, aura) for any NPC currently in
+# threat_clocks / events / main_cast / scene fields — and never has to
+# fabricate it from prose tags or extrapolate from PC stats.
+
+# Section headers in npc_appearance.md that are NOT individual NPCs and
+# should be skipped during entry parsing.
+_APPEARANCE_NON_NPC_HEADERS = (
+    "shared pattern",
+    "deepwood characters",
+    "book 1-2 characters",
+    "dm checklist",
+    "template",
+)
+
+# Tokens that are titles/articles, not name parts. When parsing a header like
+# "## Lady Nyx — Living Lich", we want "Nyx" not "Lady" as the matchable token.
+_APPEARANCE_TITLE_TOKENS = {
+    "the", "a", "an", "of", "lady", "lord", "sir", "ser", "captain",
+    "commander", "elder", "master", "mistress", "dame",
+}
+
+
+def _find_npc_appearance_file() -> Optional[Path]:
+    """Return the path to canonical npc_appearance.md, or None if missing.
+
+    play_engine.py is installed in Kenji/Game init files/ regardless of which
+    campaign the dashboard is currently running, so the file is always a
+    sibling on disk.
+    """
+    candidate = Path(__file__).resolve().parent / "npc_appearance.md"
+    return candidate if candidate.exists() else None
+
+
+def _parse_npc_appearance_entries(text: str) -> List[tuple]:
+    """Parse npc_appearance.md into (header_line, name_tokens, body) tuples.
+
+    Returns one tuple per NPC entry, skipping group headers and the template
+    placeholder. name_tokens is the list of proper-noun words from the entry
+    header that can be matched against the state JSON to detect whether the
+    NPC is currently in scene.
+    """
+    entries: List[tuple] = []
+    parts = re.split(r"^(## .+)$", text, flags=re.MULTILINE)
+    # parts == [pre_text, header1, body1, header2, body2, ...]
+
+    for i in range(1, len(parts), 2):
+        header_line = parts[i].strip()
+        body = parts[i + 1] if (i + 1) < len(parts) else ""
+        header = header_line[3:].strip() if header_line.startswith("## ") else header_line
+        header_lower = header.lower()
+
+        # Skip non-NPC structural headers
+        if any(skip in header_lower for skip in _APPEARANCE_NON_NPC_HEADERS):
+            continue
+        # Skip template placeholder "## [Name] — [Role / context]"
+        if header.startswith("[") and "]" in header:
+            continue
+
+        # Extract the name portion — text before " — " / " – " / " - " or " ("
+        name_part = re.split(r"\s+[—–\-]\s+|\s*\(", header, maxsplit=1)[0].strip()
+        # Tokenize into proper-noun words, filtering out titles
+        tokens = [
+            t for t in re.findall(r"[A-Za-z']+", name_part)
+            if t.lower() not in _APPEARANCE_TITLE_TOKENS
+        ]
+        if not tokens:
+            continue
+
+        entries.append((header_line, tokens, body.rstrip()))
+
+    return entries
+
+
+def _load_npc_appearance_for_state(state: Dict[str, Any]) -> str:
+    """Return a markdown block of NPC appearance entries relevant to the
+    current state, or empty string if none match.
+
+    An entry matches if any of its name tokens appears as a whole word
+    (case-insensitive) anywhere in the state JSON dump — covers
+    threat_clocks, events, main_cast, scene fields, equipped descriptions,
+    canon_pointer text, etc. without needing per-field special handling.
+    """
+    appearance_file = _find_npc_appearance_file()
+    if appearance_file is None:
+        return ""
+
+    try:
+        text = appearance_file.read_text(encoding="utf-8")
+    except (OSError, UnicodeDecodeError):
+        return ""
+
+    entries = _parse_npc_appearance_entries(text)
+    if not entries:
+        return ""
+
+    state_str = json.dumps(state, ensure_ascii=False)
+
+    matched: List[tuple] = []
+    seen_headers = set()
+    for header, tokens, body in entries:
+        for token in tokens:
+            pattern = re.compile(r"\b" + re.escape(token) + r"\b", re.IGNORECASE)
+            if pattern.search(state_str):
+                if header not in seen_headers:
+                    matched.append((header, body))
+                    seen_headers.add(header)
+                break  # one token match is enough to include the entry
+
+    if not matched:
+        return ""
+
+    out = [
+        "## NPC APPEARANCE (canonical reference for scene)",
+        "",
+        "These are authoritative physical descriptions for any NPC named in "
+        "the state above. Do NOT improvise dragon colors, eye colors, scale "
+        "patterns, body builds, voice, or aura signatures — read here first. "
+        "These entries live in Kenji/npc_appearance.md and are shared across "
+        "every campaign in the realm.",
+        "",
+    ]
+    for header, body in matched:
+        out.append(header)
+        out.append(body)
+        out.append("")
+
+    return "\n".join(out).rstrip() + "\n"
+
+
+# ---------------------------------------------------------------------------
 # Prompt builders
 # ---------------------------------------------------------------------------
 
@@ -231,7 +373,14 @@ def _trim_state_for_prompt(state: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def build_system_prompt(state: Dict[str, Any], narrative_summary: str = "") -> str:
-    """Compose the system prompt: rules + state + adventure summary."""
+    """Compose the system prompt: rules + state + NPC appearance + adventure summary.
+
+    NPC appearance is auto-loaded from the canonical
+    Kenji/Game init files/npc_appearance.md — any NPC whose name appears in
+    the state JSON gets their physical canon piped into the prompt so the
+    DM agent doesn't have to fabricate it. See
+    `_load_npc_appearance_for_state` for the matching logic.
+    """
     trimmed = _trim_state_for_prompt(state)
     parts = [
         CARDINAL_RULES_TEXT,
@@ -241,6 +390,9 @@ def build_system_prompt(state: Dict[str, Any], narrative_summary: str = "") -> s
         json.dumps(trimmed, indent=2, ensure_ascii=False),
         "```",
     ]
+    npc_block = _load_npc_appearance_for_state(state)
+    if npc_block:
+        parts += ["", npc_block]
     if narrative_summary:
         parts += [
             "",

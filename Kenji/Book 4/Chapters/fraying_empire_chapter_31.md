@@ -1,14 +1,6 @@
 # Book 4 — Fraying Empire
 ## Chapter 31: Two Weeks and a Green Door
 
-**Session span:** Ashmere **39** **late** **night** **→** **Ashmere** **40** **predawn** (**Day** **261** **→** **262**). **Kharn-Dural** **seam**-**witness** **/** **wedge** **approach** **→** **bench** **bundle** **→** **equipment** **receipt** **→** **decoy** **/** **invisible** **egress** **→** **portal** **jump** **off** **cordon**.
-
-**Corridor:** **Wedge** **work** **/** **hour** **for** **Mursha** **(**Kenji** **addresses** **her**, **not** **court** **recognition**;** **Korrim** **witnesses** **)** **→** **silent** **hour** **/** **findings** **summary** **→** **Solveth** **(**god**-**voice**,** **public** **audible** **at** **blade** **proximity** **per** **table** **)** **:** **nickname** **poke**, **dating** **/** **war** **jest**, **Mursha** **proxy** **(**remove** **/** **channel** **)** **with** **bench** **logging** **→** **timeline** **honesty** **(**~2–6** **days** **best**, **up** **to** **~2** **weeks** **bad** **)** **→** **Kenji** **two**-**week** **patience** **/** **yank** **language** **(**mitigated** **by** **non**-**coercion** **of** **witness** **)** **→** **ultimatum** **(**equipment** **/** **Mursha** **parity**,** **Kahryn** **named**,** **“** **10** **vs** **6** **”** **)** **+** **green** **portal** **(**canceled** **under** **wards** **)** **→** **apology** **/** **peace** **language** **to** **Mursha** **→** **Korrim** **ruling** **bundle** **(**witness**-**engineer** **status**,** **returns** **within** **hour** **where** **safe** **)** **→** **inventory** **verification** **(**nodachi** **+** **BoH** **link** **check**,** **no** **dump** **)** **→** **Performance** **(**tap**-**dance** **clone** **)** **23** **vs** **DC** **16** **PASS** **→** **Stealth** **ADV** **(**G.** **Invis** **)** **18** **vs** **DC** **16** **(**gate** **DC** **18** **−2** **distraction** **)** **PASS** **→** **Wind** **Step** **distance** **→** **~3** **mi** **portal** **to** **remote** **relay**-**off** **path** **→** **Kharn** **relay** **:** **decoy** **class** **/** **invisible** **breach** **logged**.
-
-**Kenji dialogue note:** Spoken lines **player**-**declared** **(**hot** **air** **wind**,** **Mursha** **thanks**,** **Solveth** **/** **elf** **dating** **bit**,** **two** **weeks** **/** **call**,** **Kahryn** **/** **Korrim** **threat** **band**,** **etc.** **)**.
-
-**Table sync:** **Performance** **then** **Stealth** **(**ADV** **invis** **+** **distraction** **as** **−2** **DC** **or** **observer** **disad** **per** **DM** **)**. **IP** **cadence** **if** **female** **watch** **in** **LOS** **per** **`kenji_tracking_OBSOLETE.md`**. **Oathbreaker** **+** **Frost** **Fang** **remain** **seam**-**wedged** **(**Ch28**)** **—** **not** **inside** **BoH**.
-
 ---
 
 ### Summary prose

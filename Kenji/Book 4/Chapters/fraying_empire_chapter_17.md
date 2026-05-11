@@ -1,11 +1,6 @@
 # Fraying Empire — Chapter 17: *Paper and Smoke*
 
-**Session span:** Ashmere 31 morning → Ashmere 34 dawn (Day 253–256). Opens immediately after Chapter 16's **Thornkeep Waystation** long rest.  
-**Corridor:** Thornkeep **markets / purveyors** → **garrison** second floor → **Bracken's office** (interrupted debrief) → **officer wing** → **captain's quarters**.
-
 **Canon note (commander naming):** **Commander Renna Bracken** holds the **Thornkeep** garrison desk in this book's spine (see `npc_appearance.md`, Book 4 Ch7). **Hadley** is **Millhaven** watch captain — different post, different room. Legacy "**Hale**" strings in older trackers should be read as **deprecated** unless the table explicitly restores them.
-
-**Kenji dialogue note:** All Kenji spoken lines in this chapter are **player-declared** at the table. Default rule remains no AI-generated Kenji dialogue.
 
 ---
 
@@ -126,14 +121,6 @@ When the latch clicked, the office became small.
 She looked at Kenji like she was deciding whether the next minute was debrief or detainment.
 
 **"That,"** she said, **"was not a bird."**
-
----
-
-### Aura note (DM)
-
-**Irresistible Presence** remains **passive DC 23** per sheet. **Brynn** carries **Lover's Vigor** immunity in play tracking — **IP** should not **spike** her mechanically mid-scene unless **viewing cadence** or **house rule** says otherwise; **emotion** can still spike (relief, anger, **betrayal**-shaped relief) without stacking her into procreative urge territory. Resolve any edge case against `character_tracker.md` + `dm_rules_tracking.md`.
-
-**Oathbreaker / grease:** Treat **contact** as possible **binding resonance** ping (Corwyn's leash, March listeners, holy noise) — **seconds** in-air still matter. Coalition **witnesses** now have **visual proof** of the stolen object **inside** Thornkeep command architecture (paper trail / honor politics).
 
 ---
 

@@ -2090,6 +2090,14 @@
   ('certifi.core',
    'C:\\Users\\charl\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\certifi\\core.py',
    'PYMODULE'),
+  ('character_compute',
+   'C:\\Users\\charl\\OneDrive\\Documents\\TTRPG\\Kenji\\Game init '
+   'files\\character_compute.py',
+   'PYMODULE'),
+  ('character_creation_wizard',
+   'C:\\Users\\charl\\OneDrive\\Documents\\TTRPG\\Kenji\\Game init '
+   'files\\character_creation_wizard.py',
+   'PYMODULE'),
   ('charset_normalizer',
    'C:\\Users\\charl\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\charset_normalizer\\__init__.py',
    'PYMODULE'),
@@ -2530,6 +2538,10 @@
    'PYMODULE'),
   ('ftplib',
    'C:\\Users\\charl\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ftplib.py',
+   'PYMODULE'),
+  ('generate_starter_campaign',
+   'C:\\Users\\charl\\OneDrive\\Documents\\TTRPG\\Kenji\\Game init '
+   'files\\generate_starter_campaign.py',
    'PYMODULE'),
   ('getopt',
    'C:\\Users\\charl\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\getopt.py',

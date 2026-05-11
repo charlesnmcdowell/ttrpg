@@ -1,10 +1,6 @@
 # Book 4 — Fraying Empire
 ## Chapter 40: The Table
 
-**Session span:** Ashmere **66–68** (**Days 288–290**). **Pallid March** (Nyx's domain, fusion ritual) → **Dragonspine lower peaks** (Drazhara's first dragon swap) → **Ashenmere Crossing** (adventurer's guild, shopping, Brass Kettle inn) → **Trade road north** (luxury travel) → **Kharn-Dural** (summit). Fusion deployment, Gorath puppet death, continental summit.
-
-**Kenji dialogue note:** Only player-declared lines are quoted. All Kenji dialogue in this chapter is verbatim from the player. NPC dialogue written to match established voice and campaign lore.
-
 ---
 
 ### I. The Sorcerer

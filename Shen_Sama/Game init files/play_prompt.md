@@ -332,14 +332,20 @@ Elsewhere in the world right now: - Amaris (L5, campaign-complete) - Day 8 hour 
 # CONVERSATION SO FAR
 
 ## PLAYER
-continue walking to varnholm adventurers guild.
+Follow Ignis's scent southwest, away from the road entirely
 
 ## DM (you, last turn)
-The two figures on the goat-track haven't turned. Both pitched into the wind, voices carrying. "Three rings, then four. That's bone-pattern. Kingdom riders." The taller one, certain. The shorter snaps back, "Bone is a chase order. They don't ring chase before they ring overhead. You're hearing what you want to hear." A pause; the wind shifts cold. "And if it's dragon —" "Don't say dragon out loud, you old fool. You'll feed the thing."
+"Bone-pattern, I'm telling you. Bone-pattern's for kingdom riders. Dragon-bells been clanging since lunchtime — that's a *different* alarm —"
 
-A pine cone shifts under Shen's bare heel — small, dry, loud. The taller shepherd's head tilts a quarter turn, listening, not yet looking. The shorter one is still arguing, eyes on the road. Twenty paces between Shen and the next stand of southern cover.
+"Listen to me. *Listen.* That ain't bone, that's the slow-pull —"
+
+Their argument carries clean through the pine. Neither shepherd looks west. The wind that has been dragging east-to-west all afternoon shifts on the chest-glyph and brings something else with it — old volcanic warmth, faint, female. The glyph recognizes the bloodline before the conscious mind does. Not Vorathiel. Different line entirely. Banked-coal heat where his mother's scent runs cold mountain wind.
+
+South-southwest. Half a degree off true south. Pulling deeper into unlogged pine. The fern cover west of the goat-track breaks any clean trail a tracker could follow, and the scent itself doesn't move with the wind — it's a fixed point, standing somewhere ahead in country no Highford patrol would walk.
+
+The shepherds keep arguing about the bells.
 
 ## PLAYER (this turn)
-keep heading in the direction I think varenholm is , or until I catch my sister ignis smell, she'd know.
+Skip past all the scenery not stopping till i get to varnholm adventures guild, no more distractions, unless distraction actually attacks me I don't stop to notice it.
 
 Respond as the DM. Open with prose, then '---OPTIONS---' on its own line, then exactly three numbered options.

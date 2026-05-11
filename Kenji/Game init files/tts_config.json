@@ -7,20 +7,30 @@
   "_cache_note": "Per-character cache at <Char>/Game init files/_tts_cache/, per-tab (play vs narrative). First click fires API + saves WAV; replays are free.",
   "_archive_note": "New audio also copied to <Char>/audio_archive/Chapter_NN/<source>_Ch_NN_<timestamp>.wav for audiobook export.",
   "character_voices": {
-    "_doc": "Map character display name -> ElevenLabs voice ID. The dashboard reads engine.char_name and looks it up here first; falls back to the top-level voice_id (narrator) if the slot is empty. Lookup is case-insensitive.",
+    "_doc": "Map character display name -> ElevenLabs voice ID. The dashboard reads engine.char_name and looks it up here first; falls back to the top-level voice_id (narrator) if the slot is empty. Lookup is case-insensitive. Also read by chapter_tts.py audiobook generator.",
     "_how_to_pick": [
       "1. Visit https://elevenlabs.io/app/voice-library",
-      "2. Find a voice that fits the PC's personality and lineage",
+      "2. Find a voice that fits the character's personality and lineage",
       "3. Click the voice -> the URL ends with the voice ID, OR use the Share dialog",
-      "4. Paste the voice ID into the slot below for that PC",
-      "5. Save this file. Dashboard re-reads on each Speak click — no restart"
+      "4. Paste the voice ID into the slot below for that character",
+      "5. Save this file. Dashboard re-reads on each Speak click - no restart"
     ],
-    "_note": "Pro-tip: when prose attributes a line to your PC by name (e.g. \"Yes,\" Cookie said), the multi-voice pipeline will use that PC's voice for the line. So filling these in lets the player actually HEAR their character speak in their chosen voice — not just the narrator describing what they said.",
+    "_note": "When chapter_tts.py parses a chapter and finds a speaker not in this dict, it aborts BEFORE firing the ElevenLabs API. Add every dialogue speaker as a slot here.",
     "Shen Sama": "",
     "Cookie": "",
     "Holly": "",
-    "Kenji": "",
-    "Amaris": ""
+    "Kenji": "SBeVjlAyPCwBVd6RVxhx",
+    "Amaris": "",
+    "Narrator": "SBeVjlAyPCwBVd6RVxhx",
+    "Sera": "w6TF991FL9W1ZVbaJZfK",
+    "Ryn": "V8MrPOnARtlsjrlxEsE7",
+    "Edwyn": "qRlggZwkZ89qLUe4wsqh",
+    "Garrett": "N89FO027WUwh1BxRBARZ",
+    "Brindle": "wq7gzRwr4hAggpoYZh2Q",
+    "Kael": "GafoPURpq5ta99iwARDD",
+    "Aldwin": "9dYmrG7ILONuyEDKOapp",
+    "Elara": "8D5JJBdYMUwF6uZtB9kH",
+    "Maren": "2YPQufBsJCBEyLEsf7uM"
   },
-  "_voice_picker_url": "https://elevenlabs.io/app/voice-library — copy the voice ID from the URL or the share dialog and paste it here."
+  "_voice_picker_url": "https://elevenlabs.io/app/voice-library - copy the voice ID from the URL or the share dialog and paste it here."
 }

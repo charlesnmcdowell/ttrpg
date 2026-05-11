@@ -1,14 +1,6 @@
 # Book 4 — Fraying Empire
 ## Chapter 29: Seam Witness
 
-**Session span:** Ashmere **39** **evening → night** (**Day** **261**). **Kharn-Dural** **quarantine** **custody** **→** **elder** **bench** **examination** **under** **borrowed** **seam** **light**. **Mursha** **summoned** **to** **witness** **rail** **(**bind** **protocol** **+** **null** **thread**)** — **testimony** **beat** **open**.
-
-**Corridor:** **female** **watch** **(**Procedure** **Seven** **pressure**)** **→** **sleight** **/** **clone** **misdirect** **(**fail**)** **→** **dismiss** **decoy** **→** **goat** **poem** **+** **insult** **verse** **→** **Performance** **(**nat** **20** **/** **+11** **vs** **DC** **21**)** **—** **all** **male** **guards** **laugh** **uncontrollably**, **senior** **watch** **does** **not** **(**table** **success** **definition**)** **→** **Persuasion** **(**29** **vs** **DC** **23**)** **supervised** **breakfast** **/** **honey** **mead** **(**clerical** **cap**)** **→** **summons** **to** **Korrim** **Stoneunder** **bench** **→** **Perception** **gallery** **(**nat** **1** **vs** **DC** **16**)** **→** **proceedings** **/** **seam** **light** **yes-no** **on** **intent** **→** **Mursha** **motion** **carries** **→** **cliff** **at** **her** **first** **answer**.
-
-**Kenji dialogue note:** Spoken lines in this chapter are **player-declared** (**bacon** **/** **goat** **poem** **/** **court** **monologue** **/** **etc.**).
-
-**Table sync:** **IP** **—** **all** **female** **humanoids** **in** **LOS** **per** **`kenji_tracking_OBSOLETE.md`** **(**DC** **23**, **−1** **/** **15** **min** **viewing**)**; **shield** **line** **treated** **as** **male** **(**batch** **if** **retconned**)**. **Ch27** **BoH** **/** **satchel** **vs** **seam** **blades** **—** **reconcile** **at** **table** **when** **loadout** **locked**.
-
 ---
 
 ### Summary prose

@@ -1,13 +1,6 @@
 # Book 4 — Fraying Empire
 ## Chapter 27: Manifest Revision
 
-**Session span:** Ashmere **39** **morning → afternoon** (**Day** **261**). **Kharn-Dural** **inner** **yard** — **two** **checkpoint** **beats** **(**stamp** **wedge** **→** **Manifest** **Revision** **II**)** after **Ch26** **escort** **geometry**; **Mursha** **+** **Kenji** **factor** **cover**.
-**Corridor:** **Queue** **geometry** **→** **coin** **distraction** **→** **sleight** **beat** **(**contested**)** **→** **first** **stamp** **pass** **→** **second** **wedge** **(**forge-sight** **palms**)** **→** **cargo** **reconciliation** **lip**.
-
-**Kenji dialogue note:** All Kenji spoken lines in this chapter are **player-declared** at the table. Default rule remains no AI-generated Kenji dialogue.
-
-**Table — literacy this session:** Kenji **reads** **dwarf** **script** **and** **coalition** **marginalia** **at** **Tier** **II** **slate** **(**per** **table** **—** **Soul** **Nexus** **/** **scribe** **bond** **tools** **as** **played**)**. **Cover:** **do** **not** **show** **comprehension** **in** **witness** **space** **unless** **player** **declares** **it**.
-
 ---
 
 ### Two things at once

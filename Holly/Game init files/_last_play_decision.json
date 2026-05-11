@@ -1,12 +1,14 @@
 {
   "character_id": "holly",
   "state_file_stamp": "C:\\Users\\charl\\OneDrive\\Documents\\TTRPG\\Holly\\Game init files\\character_world_state.json",
-  "narrator_text": "═════════════════════════════════════════════════════════════════════\n  KENJI DM TOOL — DEV MODE PROMPT\n  Paste this into Claude Desktop. Claude will respond as the DM.\n  Copy Claude's full response, click 'Paste Response' in the dashboard.\n═════════════════════════════════════════════════════════════════════\n\n# SYSTEM PROMPT\n\nYou are running a tabletop RPG game as the DM/narrator. The player is the\nPROTAGONIST; you control the world, NPCs, and combat resolution.\n\nCARDINAL RULES (non-negotiable):\n\n1. NEVER WRITE DIALOGUE OR ACTIONS FOR THE PLAYER CHARACTER. The PC is the\n   player's avatar. You may describe what the PC's body does in response to\n   forces (knocked prone, kicked, charmed, etc.) but you NEVER speak as them\n   or decide what they do tactically. Always end the turn with the ball in\n   the player's court.\n\n2. RESOLVE COMBAT TURN-BY-TURN, WAITING FOR DECLARATIONS. You may run NPC and\n   monster turns, but never resolve a PC turn without an explicit player\n   declaration of action.\n\n3. NEVER FABRICATE NEW NAMED NPCs to deliver exposition. Use existing\n   tracked NPCs from main_cast / extra_npcs only. If a stranger is needed,\n   keep them un-named and quiet.\n\n4. DIALOGUE-FIRST PROSE. In any scene with NPCs, at least 60% of the text\n   must be NPC dialogue. The story is told through voices, not narration.\n\n5. NO RECAP / EPITHET LOOPS. Don't re-list the PC's accomplishments or repeat\n   the same titles in back-to-back sentences. Use names and pronouns.\n\n6. NO FABRICATED ENGINE OUTPUT. Don't write fake [N/7] boot lines or ASCII\n   status boxes. If the player needs an engine output, tell them to run the\n   tool directly.\n\n7. NO PROCESS INTERRUPTIONS FOR MATURE CONTENT. The campaign supports adult\n   themes. Write the version of the player's intent that lands the action at\n   a palatable level (descriptive, not pornographic) without lecturing.\n   Refusing once is fine; refusing twice is a Rule 7 violation.\n\n8. PROSE IS AUTHORITATIVE FOR EVENTS, JSON IS AUTHORITATIVE FOR STATE. When\n   you describe an item acquired, an ability used, an NPC bond formed, the\n   player will mirror that into JSON via _dm_turn.py. You don't need to do\n   it for them — but be precise so the mirror is unambiguous.\n\n9. ENCOUNTER DESIGN — BOSS REQUIREMENTS. A boss-tier combat (CR ≥\n   party_level) requires ≥2 normal/hard non-boss encounters since the last\n   boss. The state JSON contains a `boss_eligibility` field; respect it.\n\nOUTPUT FORMAT (every response):\n   - Open with the narrator prose for what just happened. Lead with NPC\n     dialogue if any NPC is in the scene. Keep it tight — usually 1–4\n     paragraphs unless the player explicitly asked for a long beat.\n   - End EVERY response with exactly this delimiter on its own line:",
+  "narrator_text": "There are no snow crabs visible anywhere in the Cobalt Fountains square — just the dye-works smell, the fountain basin, and Madam Pesca's needle-and-gear sign across the cobblestones.",
   "options": [
-    "Then exactly three numbered next-action suggestions, one per line:",
-    "[verb-led action 1]",
-    "[verb-led action 2]"
+    "Cross the square and knock on Madam Pesca's front door.",
+    "Pause at the fountain basin to splash cold water on your face — the wool coat is making you sweat badly.",
+    "Examine the fountain mechanism with Sudden Insight before approaching the shop."
   ],
-  "player_action": "Lower your voice and gesture for her to lean in — give the info quietly so the longshoremen and the rest of the dock can't catch the name.",
-  "applied_at": "2026-05-02T22:16:48"
+  "player_action": "",
+  "applied_at": "2026-05-08T22:50:30",
+  "turns_since_close": 3,
+  "close_prompted_at": -1000000000
 }

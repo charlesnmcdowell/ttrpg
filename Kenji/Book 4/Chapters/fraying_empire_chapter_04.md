@@ -20,9 +20,9 @@ Three silver a day for a guard. I take the bench. The dog sniffs my boot. Decide
 
 Two days south. The road is good — packed earth, moderate traffic. Autumn farmland turning gold and copper. The first frost came and went. The puddles have thin ice at dawn.
 
-A boar in the road. Hour one. Big. Three hundred pounds. Diagnostic Touch reads it healthy from a hundred yards. It looks at the cart and decides we're not worth the trouble.
+A boar in the road. Hour one. Big. Three hundred pounds. The vitals come through clean from a hundred yards — heart steady, gait even, no fever-gloss on the eyes. It looks at the cart and decides we're not worth the trouble.
 
-A stone marker off the road. Hour two. Old. Covered in moss. Living Ground reads something underneath — a foundation. Ancient. Pre-civilizational. The kind of stone nobody builds with anymore. Filed.
+A stone marker off the road. Hour two. Old. Covered in moss. The ground answers when I press my attention into it — a foundation underneath, ancient, pre-civilizational, the kind of stone nobody builds with anymore. I keep walking. The marker stays in the back of my head where things stay until they matter.
 
 Wolves at the treeline. Hour five. Three of them calculating whether mules are worth the fight. They see the silhouette on the cart bench and leave. Whatever they read said *not worth it*.
 
@@ -34,7 +34,7 @@ The fire pops. I don't answer.
 
 Night camp behind a stone wall where traders have stopped for decades. Old fire rings. Watch rotation — I take first, Otten and the dog take second. Both watches clean. The road is quiet. The dog doesn't bark because there's nothing to bark at.
 
-Women on the road. Ten over two days. Every one of them looks too long when we pass. Every one of them blinks and goes back to their conversation and forgets the masked swordsman by dinner. One farmer's wife — nat 20 — doesn't look twice. The world's highest compliment: being unremarkable to someone who's seen enough.
+Women on the road. Ten over two days. Every one of them looks too long when we pass. Every one of them blinks and goes back to their conversation and forgets the masked swordsman by dinner. One farmer's wife doesn't look twice — the world's highest compliment, being unremarkable to someone who's seen enough.
 
 ---
 
@@ -88,7 +88,7 @@ My arm doesn't move.
 
 I don't push back. I hold her hand and look at her eyes. My thumb traces across her knuckles. I start talking. Casual. How long she's been a guard. What she knows about the area. Jobs that pay real money.
 
-She keeps pushing for about twenty seconds. Then she stops pushing, looks at our hands, looks at my face, raises an eyebrow, and lets her grip soften — contest grip to just a grip. Holding on.
+She keeps pushing for about twenty seconds. Then she stops pushing, looks at our hands, looks at my face, raises an eyebrow, and lets her grip soften — no longer a contest, just a hand in mine. Holding on.
 
 *"Oh,"* she says, half a smile. *"It's like that."*
 
@@ -142,7 +142,7 @@ She says it happy, not alarmed. Turns the wrist a third time. Laughs once.
 
 Morning. The bed is in four pieces. Three noise complaints. A note from the innkeeper. Room 4 asked if the room is available tomorrow night.
 
-I take her again. Longer. At three-quarters. After, she traces a hand down her own arm — the burn scar is smooth skin. The eyebrow is whole. The old ankle fracture. The shoulder. Eleven years of garrison wear gone. Her skin tightens. Two years of age easing backward.
+I take her again. Longer. Holding back this time, easier on her. After, she traces a hand down her own arm — the burn scar is smooth skin. The eyebrow is whole. The old ankle fracture. The shoulder. Eleven years of garrison wear gone. Her skin tightens. Two years of age easing backward.
 
 "All of them. All of them are gone."
 

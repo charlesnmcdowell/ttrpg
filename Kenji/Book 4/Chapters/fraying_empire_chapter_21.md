@@ -1,11 +1,6 @@
 # Book 4 — Fraying Empire
 ## Chapter 21: The Brass Hitch Hours
 
-**Session span:** Ashmere **36** predawn **Forgeday** (**Day** **258**). Opens on the **night road** return from the **western cut** (Chapter 20 close) into **Bronzebarrow** and **The Brass Hitch**.
-**Corridor:** Western cut trail → Bronzebarrow gates → **Brass Hitch** common desk → **standard room** → **luxury suite** (Suite 2 pattern, bronze ley-steam tub) → **rest**, **Mursha** **private** **beat**.
-
-**Kenji dialogue note:** All Kenji spoken lines in this chapter are **player-declared** at the table. Default rule remains no AI-generated Kenji dialogue.
-
 ---
 
 ### Night return

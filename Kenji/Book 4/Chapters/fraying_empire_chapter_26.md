@@ -1,11 +1,6 @@
 # Book 4 — Fraying Empire
 ## Chapter 26: Her Watch
 
-**Session span:** Ashmere **38** **predawn →** **morning** (**Day** **260 →** **261**). Opens **Kharn-Dural** **inner** **gallery** **(**coalition** **clip** **vector**)** after **Kenji** **rejoins** **factor** **cover** **(**clone** **dissolved** **/** **swap** **per** **table**)**; **Mursha** **carries** **the** **chapter**.
-**Corridor:** **Train** **park** **→** **Mursha** **perimeter** **→** **dwarf** **traffic** **noise** **→** **quiet** **beat** **(**almost** **Oathbreaker**)** → **yard** **tier** **assignment**.
-
-**Kenji dialogue note:** All Kenji spoken lines in this chapter are **player-declared** at the table. Default rule remains no AI-generated Kenji dialogue.
-
 ---
 
 ### Perimeter

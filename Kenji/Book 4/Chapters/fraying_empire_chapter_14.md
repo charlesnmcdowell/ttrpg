@@ -1,8 +1,5 @@
 # Fraying Empire — Chapter 14: *Oathbreaker*
 
-**Session span:** Ashmere 28 late afternoon through Ashmere 29 dawn (Day 250–251).  
-**Corridor:** South road / east verge — miles ~16.5–19.5, Pallid March mist.
-
 ---
 
 ### Cold Signals
@@ -273,5 +270,3 @@ Made a decision that Chapter 15 would carry.
 - **Ends:** Ashmere 29, ~5:00 AM. East verge birch copse ~mile 17. Party rested. Oathbreaker in the bag. Corwyn down but living at ~mile 18. EXP **2,270,050 / 2,500,000** — **no XP awarded** this session: objective was **disarm and secure relic**, not a killing blow on a death knight; ledger unchanged unless the table later grants partial story XP.
 
 ---
-
-**Next chapter hook:** See **Chapter 15** — `fraying_empire_chapter_15.md` (Kenji splits south to the Lady's cordon; Ch16 picks up after guest-chamber long rest).

@@ -211,16 +211,3 @@ I sleep.
 **Chapter Six — End.**
 
 ---
-
-**Chapter Summary:**
-- Kenji Wind-Stepped from Millhaven to the iron key terminus (south-southwest, ~1hr)
-- Arrived at Sir Corwyn's camp. Returned the stolen iron chest. Death knight asked questions — Kenji never answered.
-- Met Elda — untracked NPC, elderly, searching for her son Halden (24, missing 3 days, was traveling south from Ashenmere to meet her at the crossroads). Perimeter redirection herded her to the camp.
-- Kenji grabbed Elda's hand and walked away from the death knight, the chest, and the seal mid-conversation.
-- Seal opened behind them. Key left in the ground.
-- 4 wights (death-binder's perimeter patrol) ambushed on the south road. Enemy ambush — all 4 destroyed. Showman's Sheathe quirk debut (nat 1 → pose → 4 counters → iaido draw-kill).
-- Wind-Stepped Elda to Thornkeep (piggyback, ~20 min).
-- Arrived midnight. Two rooms at the Waystation. Quiet night. Long rest.
-- EXP: +2,800 (4 wights CR 3). Total: 2,212,600 / 2,500,000.
-- Irresistible Presence: Elda Stack 1→6 over 2 hours of contact, faded to ~5 overnight.
-- Open threads: seal contents unexplored, key unrecovered, death knight aware, Elda's missing son Halden, Thornkeep garrison.

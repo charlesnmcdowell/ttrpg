@@ -1,14 +1,6 @@
 # Book 4 — Fraying Empire
 ## Chapter 32: Waystation Recovery
 
-**Session span:** Ashmere **40** **predawn** **→** **morning** (**Day** **262**). **Crown** **relay** **—** **Milepost** **Crown** **Rest** **(**nearest** **inn** **to** **portal** **egress** **vector** **)**.
-
-**Corridor:** **Ch31** **cliff** **(**remote** **off** **path** **)** **→** **road** **to** **waystation** **→** **luxury** **suite** **purchase** **(**−**40** **GP** **−** **10** **SP** **approx** **)** **→** **ley**-**steam** **bath** **→** **fine** **dining** **to** **room** **→** **long** **rest** **(**slots** **/** **HP** **full**;** **Wind** **Step** **5/5**;** **Smoke**-**Invis**-**Clone** **3/3**;** **Iaido** **1/1** **)** **→** **wake** **~07:30** **—** **yard** **noise**,** **bread**,** **relay** **bells**.
-
-**Kenji dialogue note:** **(**minimal** **—** **player** **ordered** **comfort** **/** **rest** **)**.
-
-**Table sync:** **Economy** **per** **`dm_rules_tracking.md`** **(**luxury** **≈** **Brass** **Hitch**-**scale** **suite** **+** **meal** **band** **)**. **Rumor** **:** **masked** **spender** **on** **hot** **week** **—** **DM** **optional** **Perception** **/** **gossip** **clocks**.
-
 ---
 
 ### Summary prose
