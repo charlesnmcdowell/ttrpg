@@ -1,0 +1,454 @@
+
+========================================================================
+  Chapter TTS run started: 2026-05-11 12:38:14
+========================================================================
+
+================================================================
+  Chapter TTS - Audiobook Generator
+================================================================
+
+Paste the full path to the chapter .md file.
+  Tip: in Windows Explorer, hold Shift + right-click the file
+       and choose 'Copy as path'. Then right-click here to paste.
+
+  Run log: C:\Users\charl\OneDrive\Documents\TTRPG\Kenji\voice_audio\tts_runs.log
+
+  Type 'q' or press Ctrl+C to quit.
+
+Chapter file path:  
+Pre-flight: parsing chapter for speakers...
+  36,353 chars in chapter
+      Splitting into 8 chunk(s) (<= 5,000 chars each)
+      Parsing chunk 1/8 (4,936 chars)...
+      Parsing chunk 2/8 (4,852 chars)...
+      Parsing chunk 3/8 (4,747 chars)...
+      Parsing chunk 4/8 (4,842 chars)...
+      Parsing chunk 5/8 (4,861 chars)...
+      Parsing chunk 6/8 (4,964 chars)...
+      Parsing chunk 7/8 (4,882 chars)...
+      Parsing chunk 8/8 (2,255 chars)...
+ERROR parsing speakers: Claude returned non-JSON (chunk 8/8). Saved to C:\Users\charl\OneDrive\Documents\TTRPG\Kenji\Game init files\_chapter_tts_last_parse.txt. Error: Expecting value: line 1 column 1 (char 0)
+
+------------------------------------------------------------------------
+  Exit code:   3  (FAILED)
+  Finished at: 2026-05-11 12:39:36
+------------------------------------------------------------------------
+
+========================================================================
+  Chapter TTS run started: 2026-05-11 13:38:47
+========================================================================
+
+================================================================
+  Chapter TTS - Audiobook Generator
+================================================================
+
+Paste the full path to the chapter .md file.
+  Tip: in Windows Explorer, hold Shift + right-click the file
+       and choose 'Copy as path'. Then right-click here to paste.
+
+  Run log: C:\Users\charl\OneDrive\Documents\TTRPG\Kenji\voice_audio\tts_runs.log
+
+  Type 'q' or press Ctrl+C to quit.
+
+Chapter file path:  
+Pre-flight: parsing chapter for speakers...
+  36,353 chars in chapter
+      Splitting into 8 chunk(s) (<= 5,000 chars each)
+      Parsing chunk 1/8 (4,936 chars)...
+      Parsing chunk 2/8 (4,852 chars)...
+      Parsing chunk 3/8 (4,747 chars)...
+      Parsing chunk 4/8 (4,842 chars)...
+      Parsing chunk 5/8 (4,861 chars)...
+      Parsing chunk 6/8 (4,964 chars)...
+      Parsing chunk 7/8 (4,882 chars)...
+      Parsing chunk 8/8 (2,255 chars)...
+  206 segments parsed
+  All 7 speakers have voice IDs. Good to go.
+
+Do a dry-run first? (cost preview only - no ElevenLabs credits) (Y/n): [1/6] Loading chapter: C:\Users\charl\OneDrive\Documents\TTRPG\Kenji\Book 1\Chapters\kenji_chapter_5.md
+      36,353 chars in source
+[2/6] Loading cached segments from C:\Users\charl\AppData\Local\Temp\chapter_tts_segs_23584.json...
+      206 segments loaded (Claude skipped)
+[3/6] Validating voice ID coverage...
+      7 speakers mapped
+
+=== Audio Generation Preview ===
+  Segments:       206
+  Total chars:    35,625
+  ElevenLabs $:   $5.34 (Scale) - $10.69 (Starter)
+  Output file:    C:\Users\charl\OneDrive\Documents\TTRPG\Kenji\voice_audio\kenji_chapter_5.wav
+  Format:         WAV @ 22050 Hz mono 16-bit
+
+[--dry-run] Stopping here. No audio generated.
+
+Dry-run succeeded. Run for real (will cost ElevenLabs credits)? (y/N): [1/6] Loading chapter: C:\Users\charl\OneDrive\Documents\TTRPG\Kenji\Book 1\Chapters\kenji_chapter_5.md
+      36,353 chars in source
+[2/6] Loading cached segments from C:\Users\charl\AppData\Local\Temp\chapter_tts_segs_23584.json...
+      206 segments loaded (Claude skipped)
+[3/6] Validating voice ID coverage...
+      7 speakers mapped
+
+=== Audio Generation Preview ===
+  Segments:       206
+  Total chars:    35,625
+  ElevenLabs $:   $5.34 (Scale) - $10.69 (Starter)
+  Output file:    C:\Users\charl\OneDrive\Documents\TTRPG\Kenji\voice_audio\kenji_chapter_5.wav
+  Format:         WAV @ 22050 Hz mono 16-bit
+
+Proceed and burn credits? (y/n): [5/6] Synthesizing 206 segments via ElevenLabs...
+  [1/206] Narrator       "Dawn. Grey and cold. The ridge.  I eat cold boar ribs sittin..."
+  [2/206] Sera           ""So. We've got roughly twelve hours before the others arrive..."
+  [3/206] Narrator       "She picks up a pebble. Tosses it into the bowl."
+  [4/206] Sera           ""I don't like waiting. And I don't like the sound that came ..."
+  [5/206] Kenji          ""It sounds like we need to do what you do best, Sera. Scout ..."
+  [6/206] Narrator       "Her hand stops mid-reach for her waterskin."
+  [7/206] Sera           ""Scout," she repeats. "Not engage. Not clear. Scout.""
+  [8/206] Narrator       "She stands."
+  [9/206] Sera           ""I can do that. But I need parameters." She holds up fingers..."
+  [10/206] Narrator       "She picks up a length of charred wood from last night's fire..."
+  [11/206] Sera           ""I'll mark the walls. Follow the marks if you have to come a..."
+  [12/206] Kenji          ""You're forgetting something. That Hexcrawler I tamed alread..."
+  [13/206] Narrator       "She stares at me."
+  [14/206] Sera           ""Then nobody holds the entrance.""
+  [15/206] Narrator       "She chews on it."
+  [16/206] Sera           ""Nothing's come out in eighteen hours. The guards are dead. ..."
+  [17/206] Narrator       "A beat."
+  [18/206] Sera           ""Fine. We go together. Thirty minutes. You lead. I watch fla..."
+  [19/206] Narrator       "She looks at my sword."
+  [20/206] Sera           ""Light?""
+  [21/206] Narrator       "I reach for the ember. A Level 1 slot opens and gold pours d..."
+  [22/206] Sera           ""That works,""
+  [23/206] Narrator       "she says.  The descent. Timber-framed entrance, narrowed by ..."
+  [24/206] Sera           ""Thirty feet down. Air's changing. Wetter. The timber's wors..."
+  [25/206] Narrator       "She's right. The supports are rotting from the bottom up. Th..."
+  [26/206] Sera           ""Stop.""
+  [27/206] Narrator       "Sera's hand finds my arm. Iron grip."
+  [28/206] Sera           ""Left wall. Six feet ahead.""
+  [29/206] Narrator       "I hold the sword forward. The golden light finds it.  A shap..."
+  [30/206] Sera           ""It's growing," Sera says. Very quiet. "How long until those..."
+  [31/206] Kenji          ""Mark it. Keep moving.""
+  [32/206] Narrator       "The shaft opens.  The golden light floods forward into space..."
+  [33/206] Narrator       "Sixty feet across. Ceiling thirty feet up. Stalactites. The ..."
+  [34/206] Sera           ""Gods,""
+  [35/206] Narrator       "Sera whispers. Counting."
+  [36/206] Sera           ""Fourteen. Various stages. The one near the centre, five leg..."
+  [37/206] Narrator       "Her face turns toward mine in the golden light, hard and cer..."
+  [38/206] Sera           ""We can't wait for Edwyn. These pools need to be destroyed t..."
+  [39/206] Narrator       "Her eyes move to the far wall."
+  [40/206] Sera           ""Kenji. Two o'clock.""
+  [41/206] Narrator       "An opening yawns in the far wall: not a mine shaft, but a na..."
+  [42/206] Sera           ""That's the deeper thing. The one your Hexcrawler wouldn't g..."
+  [43/206] Narrator       "I want to know. I pull a plain flint, no ember, just a rock,..."
+  [44/206] Narrator       ""Something is there," I tell Sera. "But it's more like a gia..."
+  [45/206] Sera           ""Agreed.""
+  [46/206] Narrator       "She nods. Hard.  We clear the cavern.  The near-complete Hex..."
+  [47/206] Sera           ""I'll take the head. You crack it open,""
+  [48/206] Narrator       "Sera says. All business."
+ERROR: Segment 48 (Narrator) failed: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>
+
+================================================================
+  Exited with code 7.
+  Full log: C:\Users\charl\OneDrive\Documents\TTRPG\Kenji\voice_audio\tts_runs.log
+================================================================
+
+------------------------------------------------------------------------
+  Exit code:   7  (FAILED)
+  Finished at: 2026-05-11 13:43:49
+------------------------------------------------------------------------
+
+========================================================================
+  Chapter TTS run started: 2026-05-11 14:13:17
+========================================================================
+
+================================================================
+  Chapter TTS - Audiobook Generator
+================================================================
+
+Paste the full path to the chapter .md file.
+  Tip: in Windows Explorer, hold Shift + right-click the file
+       and choose 'Copy as path'. Then right-click here to paste.
+
+  Run log: C:\Users\charl\OneDrive\Documents\TTRPG\Kenji\voice_audio\tts_runs.log
+
+  Type 'q' or press Ctrl+C to quit.
+
+Chapter file path:  
+Pre-flight: parsing chapter for speakers...
+  36,353 chars in chapter
+      Splitting into 8 chunk(s) (<= 5,000 chars each)
+      Parsing chunk 1/8 (4,936 chars)...
+      Parsing chunk 2/8 (4,852 chars)...
+      Parsing chunk 3/8 (4,747 chars)...
+      Parsing chunk 4/8 (4,842 chars)...
+      Parsing chunk 5/8 (4,861 chars)...
+      Parsing chunk 6/8 (4,964 chars)...
+      Parsing chunk 7/8 (4,882 chars)...
+      Parsing chunk 8/8 (2,255 chars)...
+  215 segments parsed
+  All 7 speakers have voice IDs. Good to go.
+
+Do a dry-run first? (cost preview only - no ElevenLabs credits) (Y/n): [1/6] Loading chapter: C:\Users\charl\OneDrive\Documents\TTRPG\Kenji\Book 1\Chapters\kenji_chapter_5.md
+      36,353 chars in source
+[2/6] Loading cached segments from C:\Users\charl\AppData\Local\Temp\chapter_tts_segs_32884.json...
+      215 segments loaded (Claude skipped)
+[3/6] Validating voice ID coverage...
+      7 speakers mapped
+
+=== Audio Generation Preview ===
+  Segments:       215
+  Total chars:    35,588
+  ElevenLabs $:   $5.34 (Scale) - $10.68 (Starter)
+  Output file:    C:\Users\charl\OneDrive\Documents\TTRPG\Kenji\voice_audio\kenji_chapter_5.wav
+  Format:         WAV @ 22050 Hz mono 16-bit
+
+[--dry-run] Stopping here. No audio generated.
+
+Dry-run succeeded. Run for real (will cost ElevenLabs credits)? (y/N): [1/6] Loading chapter: C:\Users\charl\OneDrive\Documents\TTRPG\Kenji\Book 1\Chapters\kenji_chapter_5.md
+      36,353 chars in source
+[2/6] Loading cached segments from C:\Users\charl\AppData\Local\Temp\chapter_tts_segs_32884.json...
+      215 segments loaded (Claude skipped)
+[3/6] Validating voice ID coverage...
+      7 speakers mapped
+
+=== Audio Generation Preview ===
+  Segments:       215
+  Total chars:    35,588
+  ElevenLabs $:   $5.34 (Scale) - $10.68 (Starter)
+  Output file:    C:\Users\charl\OneDrive\Documents\TTRPG\Kenji\voice_audio\kenji_chapter_5.wav
+  Format:         WAV @ 22050 Hz mono 16-bit
+
+Proceed and burn credits? (y/n): [5/6] Synthesizing 215 segments via ElevenLabs...
+      Cache: C:\Users\charl\OneDrive\Documents\TTRPG\Kenji\voice_audio\_cache\kenji_chapter_5
+  [1/215] Narrator       "Dawn. Grey and cold. The ridge.  I eat cold boar ribs sittin..."
+  [2/215] Sera           ""So. We've got roughly twelve hours before the others arrive..."
+  [3/215] Narrator       "She picks up a pebble. Tosses it into the bowl."
+  [4/215] Sera           ""I don't like waiting. And I don't like the sound that came ..."
+  [5/215] Kenji          ""It sounds like we need to do what you do best, Sera. Scout ..."
+  [6/215] Narrator       "Her hand stops mid-reach for her waterskin."
+  [7/215] Sera           ""Scout," she repeats. "Not engage. Not clear. Scout.""
+  [8/215] Narrator       "She stands."
+  [9/215] Sera           ""I can do that. But I need parameters." She holds up fingers..."
+  [10/215] Narrator       "She picks up a length of charred wood from last night's fire..."
+  [11/215] Sera           ""I'll mark the walls. Follow the marks if you have to come a..."
+  [12/215] Kenji          ""You're forgetting something. That Hexcrawler I tamed alread..."
+  [13/215] Narrator       "She stares at me."
+  [14/215] Sera           ""Then nobody holds the entrance.""
+  [15/215] Narrator       "She chews on it."
+  [16/215] Sera           ""Nothing's come out in eighteen hours. The guards are dead. ..."
+  [17/215] Narrator       "A beat."
+  [18/215] Sera           ""Fine. We go together. Thirty minutes. You lead. I watch fla..."
+  [19/215] Narrator       "She looks at my sword."
+  [20/215] Sera           ""Light?""
+  [21/215] Narrator       "I reach for the ember. A Level 1 slot opens and gold pours d..."
+  [22/215] Sera           ""That works,""
+  [23/215] Narrator       "she says.  The descent. Timber-framed entrance, narrowed by ..."
+  [24/215] Sera           ""Thirty feet down. Air's changing. Wetter. The timber's wors..."
+  [25/215] Narrator       "She's right. The supports are rotting from the bottom up. Th..."
+  [26/215] Narrator       ""Stop." Sera's hand finds my arm. Iron grip. "Left wall. Six..."
+  [27/215] Narrator       "I hold the sword forward. The golden light finds it.  A shap..."
+  [28/215] Sera           ""It's growing," Sera says. Very quiet. "How long until those..."
+  [29/215] Kenji          ""Mark it. Keep moving.""
+  [30/215] Narrator       "The shaft opens.  The golden light floods forward into space..."
+  [31/215] Narrator       "Sixty feet across. Ceiling thirty feet up. Stalactites. The ..."
+  [32/215] Sera           ""Gods,""
+  [33/215] Narrator       "Sera whispers. Counting."
+  [34/215] Sera           ""Fourteen. Various stages. The one near the centre, five leg..."
+  [35/215] Narrator       "Her face turns toward mine in the golden light, hard and cer..."
+  [36/215] Sera           ""We can't wait for Edwyn. These pools need to be destroyed t..."
+  [37/215] Narrator       "Her eyes move to the far wall."
+  [38/215] Sera           ""Kenji. Two o'clock.""
+  [39/215] Narrator       "An opening yawns in the far wall: not a mine shaft, but a na..."
+  [40/215] Sera           ""That's the deeper thing. The one your Hexcrawler wouldn't g..."
+  [41/215] Narrator       "I want to know. I pull a plain flint, no ember, just a rock,..."
+  [42/215] Narrator       ""Something is there," I tell Sera. "But it's more like a gia..."
+  [43/215] Sera           ""Agreed.""
+  [44/215] Narrator       "She nods. Hard.  We clear the cavern.  The near-complete Hex..."
+  [45/215] Sera           ""I'll take the head. You crack it open,""
+  [46/215] Narrator       "Sera says. All business."
+  [47/215] Narrator       ""Romantic.""
+  [48/215] Sera           ""Shut up and swing.""
+  [49/215] Narrator       "I bring the Radiant Edge down. The golden blade punches thro..."
+  [50/215] Sera           ""Seven,""
+  [51/215] Narrator       "Sera calls from the west wall, kicking a chitin plate free o..."
+  [52/215] Sera           ""How many on your side?""
+  [53/215] Narrator       ""Lost count. Five, maybe six." I wade past something that wa..."
+  [54/215] Sera           ""Have you been to many pool parties?""
+  [55/215] Narrator       ""I can't remember. But I'm confident none of them involved t..."
+  [56/215] Sera           ""Kenji.""
+  [57/215] Narrator       "Sera is watching it. Standing in a patch of fluid gone trans..."
+  [58/215] Sera           ""The fluid is dying. Every one we destroy, the fluid around ..."
+  [59/215] Narrator       "She's right. The spawning medium is one substance: the entro..."
+  [60/215] Narrator       "By the time I cut apart the last cluster, six free-floating ..."
+  [61/215] Sera           ""Fourteen destroyed. Spawning fluid neutralised.""
+  [62/215] Narrator       "She says it like she's filing a report."
+  [63/215] Sera           ""The Delve is clear of active threats. The deeper passage re..."
+  [64/215] Narrator       "She sheathes her sword. Looks at me.  You mentioned my super..."
+  [65/215] Sera           ""I was hired by the Varenholm Mage Council. Contracted throu..."
+  [66/215] Narrator       "She folds her arms."
+  [67/215] Sera           ""I report to a woman named Instructor Elara Ash. She's the o..."
+  [68/215] Narrator       "She squares up."
+  [69/215] Sera           ""Varenholm is roughly three days west of Duskfen. The Academ..."
+  [70/215] Narrator       "The Mage Council. The Academy. Five days ago I woke up face-..."
+  [71/215] Sera           ""I should have reported back days ago. I was contracted to a..."
+  [72/215] Narrator       "She stops. Reorganises."
+  [73/215] Sera           ""—the situation escalated beyond assessment parameters and l..."
+  [74/215] Narrator       "She says it like she rehearsed it."
+  [75/215] Sera           ""If you're serious about going to Varenholm — I can get you ..."
+  [76/215] Narrator       "A beat."  (cached)
+  [77/215] Sera           ""But first — we go back. Duskfen. Harlan to his wife. Suppli..."
+  [78/215] Narrator       "A beat."  (cached)
+  [79/215] Sera           ""And I want a real bed and a meal that isn't boar.""
+  [80/215] Narrator       "We head southwest. The trade road unspools. The corruption s..."
+  [81/215] Sera           ""Voices. Ahead.""
+  [82/215] Narrator       "Two voices. One low and measured. One higher, faster. A nerv..."
+  [83/215] Edwyn          ""Kenji! Sera!""
+  [84/215] Narrator       "They close the distance. Edwyn reads our faces, our posture,..."
+  [85/215] Edwyn          ""The Delve?""
+  [86/215] Sera           ""Cleared. Spawning pools destroyed. Fourteen proto-Hexcrawle..."
+  [87/215] Narrator       "Edwyn closes his eyes. Exhales. The kind that carries days."
+  [88/215] Edwyn          ""And the deeper passage?""
+  [89/215] Sera           ""Unexplored. Classified as a separate hazard.""
+  [90/215] Narrator       "He nods. Opens his eyes."
+  [91/215] Edwyn          ""Harlan is awake.""
+  [92/215] Narrator       "The words sit in the afternoon air."
+  [93/215] Edwyn          ""He woke on the road. Yesterday evening, about an hour from ..."
+  [94/215] Narrator       "He adjusts his satchel."
+  [95/215] Edwyn          ""I got him to Bessa. She—""
+  [96/215] Narrator       "He stops. Swallows."
+  [97/215] Edwyn          ""I've administered healing rites to dying men and held the h..."
+  [98/215] Narrator       "He doesn't elaborate."
+  [99/215] Edwyn          ""The veins are gone. Completely. He's lucid. Eating. Talking..."
+  [100/215] Narrator       "Ryn steps forward. Produces the oilcloth package with carefu..."
+  [101/215] Ryn            ""From Aldric.""
+  [102/215] Narrator       "He unwraps it.  The armor is beautiful.  Beautiful the way a..."
+  [103/215] Narrator       "And the ironwood. A faint amber sheen on the hardened surfac..."
+  [104/215] Ryn            ""He worked through the night," Ryn says. "Kept saying the bo..."
+  [105/215] Narrator       "A folded piece of paper. Aldric's handwriting. Kenji. Ironwo..."
+  [106/215] Sera           ""Better," she says."
+  [107/215] Narrator       "Ryn produces one more thing. A small wrapped bundle. "From P..."
+  [108/215] Kenji          ""No curiosities found yet, Ryn. But there's gold to be made...."
+  [109/215] Narrator       "I meet his eyes."
+  [110/215] Kenji          ""Tell her it's from the bandit.""
+  [111/215] Narrator       "Something almost like a smile crosses his face."
+  [112/215] Ryn            ""Varenholm," he says, testing the word. "I've never been. He..."
+  [113/215] Narrator       "Something sparks."
+  [114/215] Ryn            ""I might find my way there. Eventually. If someone needed a ..."
+  [115/215] Narrator       "He says my name differently than before. Like it means somet..."
+  [116/215] Kenji          ""I tell Sera to scout ahead for opportunities: game trails, ..."
+  [117/215] Narrator       "Edwyn's gratitude is immediate and dignified. He rolls his s..."
+  [118/215] Edwyn          ""Dried and brewed into tea, these are a mild stimulant," he ..."
+  [119/215] Narrator       "He's talking faster now. The particular energy he gets on th..."
+  [120/215] Edwyn          ""This close to Varenholm, near the ley line network that fee..."
+  [121/215] Narrator       "He ducks under a branch."
+  [122/215] Edwyn          ""Ironroot, not to be confused with ironwood, a ground-cover ..."
+  [123/215] Narrator       "He glances at the undergrowth with professional hunger."
+  [124/215] Edwyn          ""And bittershade. Dark-leafed shrub that grows in magical ru..."
+  [125/215] Narrator       "He pulls out his ledger and scribbles notes without breaking..."
+  [126/215] Narrator       ""If we gather enough of the right materials, I can prepare f..."
+  [127/215] Narrator       "The western highway is a real road. Wider. Maintained. Cart ..."
+  [128/215] Narrator       "The ironwood tree was yesterday. Edwyn spotted it on the roa..."
+  [129/215] Narrator       "Second hour on the western highway. Sera's owl call."
+  [130/215] Narrator       "One call. Come. Quiet."
+  [131/215] Narrator       "I find her at a bend in the road. Crouched at the tree line...."
+  [132/215] Narrator       "Fifty feet off the road. A clearing, not natural, cleared. S..."
+  [133/215] Narrator       "Boot prints. Five, maybe six people. Heavy prints. Armored b..."
+  [134/215] Sera           ""Bandit camp,""
+  [135/215] Narrator       "Sera breathes."
+  [136/215] Sera           ""Active. Five or six. They've been hitting crossroads traffi..."
+  [137/215] Narrator       "She points at the lean-tos."
+  [138/215] Sera           ""Nobody's home. Fire's cold, six hours old. They're out work..."
+  [139/215] Narrator       "She looks toward the crossroads."
+  [140/215] Sera           ""Working the crossroads. Right now.""
+  [141/215] Narrator       "She gives me the assessment. Three options. Raid the empty c..."
+  [142/215] Sera           ""Six bandits against three of us — one of whom is a priest w..."
+  [143/215] Narrator       "She looks at me."
+  [144/215] Sera           ""This isn't a Hexcrawler. These things shoot back.""
+  [145/215] Narrator       "I tell Sera I plan on soloing them. But I'd like her help wi..."
+  [146/215] Sera           ""Solo.""
+  [147/215] Narrator       "She says it flat."
+  [148/215] Sera           ""Six bandits. With bows. Solo.""
+  [149/215] Narrator       "She needs to understand why. I tell her — I need to know wha..."
+  [150/215] Narrator       "She chews on it. Doesn't like it. Accepts it."
+  [151/215] Sera           ""Fine. You solo. I plan. But I'm positioning myself with a l..."
+  [152/215] Narrator       "Fifteen minutes of scouting later she draws in the dirt."
+  [153/215] Narrator       "The crossroads. Two archers in a blind on the ridge: longbow..."
+  [154/215] Narrator       "She builds my approach. East through the forest, not the roa..."
+  [155/215] Sera           ""The whole plan lives or dies on the first five seconds.""
+  [156/215] Narrator       "I decide something in my head that I don't tell Sera. First ..."
+  [157/215] Narrator       "Not the wisest tactical decision I've ever made. But I've ne..."
+  [158/215] Narrator       "The archer blind. I come from the east. Pine needles underfo..."
+  [159/215] Narrator       "The hand axe. Flat side. Not the edge."
+  [160/215] Narrator       "The awake archer first. The flat connects with the base of h..."
+  [161/215] Narrator       "I bring it down again before the sound forms. Across the tem..."
+  [162/215] Narrator       "The sleeping archer stirs. His hand reaches for the longbow...."
+  [163/215] Narrator       "The flat catches him across the jaw through the cloak. His h..."
+  [164/215] Narrator       "I clamp my hand over his mouth. Pin his shoulder to the grou..."
+  [165/215] Narrator       "Quiet."
+  [166/215] Narrator       "He goes quiet. Terrified, not brave. The man kneeling on his..."
+  [167/215] Narrator       "One more tap. Clean. He goes limp. Breathing. Done."
+  [168/215] Narrator       "I strip both archers. Longbows, arrows, anything usable, sca..."
+  [169/215] Narrator       "I hear the barricade pair start climbing the ridge to check ..."
+  [170/215] Narrator       "From the ridge: "They're not sleeping. They're out. Cold. So..."
+  [171/215] Narrator       "Wes stands. Watches the ridge. His back is fully turned. Thi..."
+  [172/215] Narrator       ""Wes! Report!" The mace fighter's voice from the ridge.  No ..."
+  [173/215] Tam            ""I'm here! Wes isn't answering!""
+  [174/215] Narrator       ""Fall back to the barricade. Now. We're being picked off."  ..."
+  [175/215] Narrator       ""Who the hell are you," he says. The mace head trembling in ..."
+  [176/215] Kenji          ""I am Kenji. I'm just traveling through the area and saw you..."
+  [177/215] Narrator       "The conversation that follows is the strangest negotiation I..."
+  [178/215] Narrator       ""A fighter, a priest, and whatever you are.""
+  [179/215] Kenji          ""I make him a deal. All the gold in the lockbox: sixty-three..."
+  [180/215] Narrator       "I let that sit."
+  [181/215] Kenji          ""Think of yourself as a contractor. You seem professional. I..."
+  [182/215] Narrator       "I hold his gaze."
+  [183/215] Kenji          ""I'm not a criminal. At least not yet. As long as you mainta..."
+  [184/215] Narrator       "A beat."  (cached)
+  [185/215] Kenji          ""But if you cross me, be prepared to fight.""
+  [186/215] Narrator       "Garrett listens. His expression shifts through my words — no..."
+  [187/215] Garrett        ""I've done things I'm not proud of on this road," he says. F..."
+  [188/215] Narrator       "A pause."
+  [189/215] Garrett        ""I turned both down. That's how I ended up running the easte..."
+  [190/215] Narrator       "He looks at the road west and something dark crosses his fac..."
+  [191/215] Garrett        ""The central crew doesn't have my rules.""
+  [192/215] Narrator       "Something raw and wanting surfaces behind his eyes when I me..."
+  [193/215] Narrator       ""One month. Contractor. I keep the box. We deal with Voss." ..."
+  [194/215] Narrator       ""You've got yourself a mace, Kenji.""
+  [195/215] Narrator       "Sera steps forward. The interrogation is professional and th..."
+  [196/215] Garrett        ""She enjoys the work. The part that involves people being af..."
+  [197/215] Edwyn          ""The river crossing. Travelers who can't pay. What happens t..."
+  [198/215] Narrator       "Garrett looks at the priest. Something in his expression fli..."
+  [199/215] Garrett        ""They don't come out of the river crossing, Father.""
+  [200/215] Narrator       "We leave the crossroads behind. Garrett strips the camp of e..."
+  [201/215] Garrett        ""I've worked with fighters who could clear a camp. Soldiers...."
+  [202/215] Narrator       "He glances at me."
+  [203/215] Garrett        ""It looked like you were deciding how much of yourself to us..."
+  [204/215] Narrator       "The western highway stretches west. A real road. Cart ruts. ..."
+  [205/215] Garrett        ""The bridge is twenty feet across and sixty feet long. Stone..."
+  [206/215] Narrator       "He ticks off the rest."
+  [207/215] Garrett        ""Archers on both banks. When you step onto the bridge, there..."
+  [208/215] Narrator       "He glances at me."  (cached)
+  [209/215] Garrett        ""Your speed trick. The one that turned Tam into a mudstain. ..."
+  [210/215] Narrator       "Good question. Sixty feet of open bridge with no obstacles, ..."
+  [211/215] Garrett        ""Two of her crew are ex-military. Actual soldiers who desert..."
+  [212/215] Narrator       "He looks at the road ahead. Then at me."
+  [213/215] Garrett        ""People who can't pay don't come out of the river crossing. ..."
+  [214/215] Narrator       "Edwyn makes stew at camp that night from rations and wild he..."
+  [215/215] Narrator       "Thunderous Strike — On hit, expend a slot. Target saves or p..."
+      (4/215 segments reused from cache, 211 fresh API calls)
+      Synth complete in 393.9s
+[6/6] Stitching + saving to C:\Users\charl\OneDrive\Documents\TTRPG\Kenji\voice_audio\kenji_chapter_5.wav...
+      Wrote 99.4 MB (~39.0 min audio)
+
+Done. Output: C:\Users\charl\OneDrive\Documents\TTRPG\Kenji\voice_audio\kenji_chapter_5.wav
+      Cache kept at C:\Users\charl\OneDrive\Documents\TTRPG\Kenji\voice_audio\_cache\kenji_chapter_5 - re-running this chapter
+      will reuse cached audio at zero cost. Delete to force re-synth.
+
+================================================================
+  Done.
+  Full log: C:\Users\charl\OneDrive\Documents\TTRPG\Kenji\voice_audio\tts_runs.log
+================================================================
+
+------------------------------------------------------------------------
+  Exit code:   0  (success)
+  Finished at: 2026-05-11 14:27:59
+------------------------------------------------------------------------
